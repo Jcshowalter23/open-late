@@ -186,7 +186,21 @@
       if (s.open) return s.close < now.m ? s.close + 1440 : s.close;
       return lastClose(p.w, now.d);
     };
+    // default "Open now first": open places by close time (24-hour places last in that group),
+    // then closed places by next opening (later today first, then tomorrow), then hours not listed
+    const smartKey = (p) => {
+      if (p.is24) return [0, 3000];
+      const s = stateAt(p.w, now.d, now.m);
+      if (s.open) return [0, s.close < now.m ? s.close + 1440 : s.close];
+      if (!s.known) return [3, 0];
+      const t = p.w[now.d], nxt = t ? t.map((iv) => iv[0]).filter((o) => o > now.m) : [];
+      if (nxt.length) return [1, Math.min(...nxt)];
+      const tm = p.w[(now.d + 1) % 7];
+      return tm && tm.length ? [2, Math.min(...tm.map((iv) => iv[0]))] : [2, 9999];
+    };
+    const sk = sort === "smart" ? new Map(list.map((p) => [p, smartKey(p)])) : null;
     list.sort((a, b) => {
+      if (sk) { const x = sk.get(a), y = sk.get(b); return x[0] - y[0] || x[1] - y[1] || a.r.name.localeCompare(b.r.name); }
       if (sort === "name") return a.r.name.localeCompare(b.r.name);
       const ka = key(a), kb = key(b);
       if (ka < 0 && kb < 0) return a.r.name.localeCompare(b.r.name);
@@ -196,7 +210,7 @@
     });
     // chip + "More filters" state
     $("day").parentElement.classList.toggle("on", day !== now.d);
-    const mf = [cuisine !== "All", price !== "All", vibe !== "All", sort !== "name"].filter(Boolean).length;
+    const mf = [cuisine !== "All", price !== "All", vibe !== "All", sort !== "smart"].filter(Boolean).length;
     $("mfCount").textContent = mf ? `(${mf} on)` : "";
     const kinds = [wingDeals && "wing", beerDeals && "beer"].filter(Boolean).join(" + ");
     $("count").textContent = `${list.length} of ${rows.length} places · ${kinds ? kinds + " deals" : "deals"} for ${day === now.d ? "today" : DAY_LONG[day]}`;
@@ -225,24 +239,25 @@
       const ck = `${p.area}|${r.name}`;
       let kline = "";
       if (p.k) { const ks = stateAt(p.k, now.d, now.m); kline = ks.open ? `<span class="kitchen k-open">Kitchen until ${fmt(ks.close)}</span>` : `<span class="kitchen">Kitchen closed</span>`; }
-      const badges = [];
-      if (all.some((x) => hasTag(x, "wings"))) badges.push(`<span class="badge b-wings">🍗 Wings</span>`);
-      if (all.some((x) => hasTag(x, "beer"))) badges.push(`<span class="badge b-beer">🍺 Beer</span>`);
-      if (dd.hh.length) badges.push(`<span class="badge b-hh">Happy hour</span>`);
-      if (dd.sp.some((x) => !hasTag(x, "wings") && !hasTag(x, "beer"))) badges.push(`<span class="badge b-sp">Special</span>`);
-      // headline deal: one that matches the active deal chips, else wings/beer, else happy hour, else first special
+      // one compact deal line: the top deal (matching the active deal chips first), plus "+N more" (the rest are in Details)
       const pick = all.filter((x) => (wingDeals && hasTag(x, "wings")) || (beerDeals && hasTag(x, "beer")));
-      const headline = pick.length ? pick : [all.find((x) => hasTag(x, "wings") || hasTag(x, "beer")) || dd.hh[0] || dd.sp[0]].filter(Boolean);
+      const top = pick[0] || all.find((x) => hasTag(x, "wings") || hasTag(x, "beer")) || dd.hh[0] || dd.sp[0];
+      let dline = "";
+      if (top) {
+        const kind = hasTag(top, "wings") ? ["b-wings", "🍗 Wings"] : hasTag(top, "beer") ? ["b-beer", "🍺 Beer"] : dd.hh.includes(top) ? ["b-hh", "Happy hour"] : ["b-sp", "Special"];
+        const n = all.length - 1;
+        dline = `<div class="dline" aria-label="${dayWord} deals">${day !== now.d ? `<span class="bday">${esc(d3)}</span>` : ""}<span class="badge ${kind[0]}">${kind[1]}</span><span class="dtext">${esc(top.text)}${top.flag ? ` <span class="flag" title="${esc(top.flag)}">⚠</span>` : ""}</span>${n > 0 ? `<span class="dmore">+${n} more</span>` : ""}</div>`;
+      }
+      const meta = [r.cuisine, r.priceLevel].filter(Boolean).map(esc).join(" · ");
       const wk = (x) => `${esc(x.days.replace(/-/g, "–").replace(/,/g, "/"))}: ${dealHtml(x)}`;
       const weekly = (r.specials || []).map(wk).join(" · ");
       const weeklyHH = (r.happyHours || []).map(wk).join(" · ");
       const maps = r.address ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${r.name}, ${r.address}, ${p.areaName}, PA`)}` : "";
       return `<article class="card">
-        <div class="town">${esc(p.areaName)}</div>
-        <h2>${esc(r.name)}</h2>
+        ${town ? "" : `<div class="town">${esc(p.areaName)}</div>`}
+        <h2>${esc(r.name)}${meta ? ` <span class="meta">${meta}</span>` : ""}</h2>
         <div class="status ${st.cls}"><span class="dot" aria-hidden="true"></span><span>${esc(st.text)}</span>${kline}</div>
-        ${badges.length ? `<div class="badges" aria-label="${dayWord} deals">${day !== now.d ? `<span class="bday">${esc(d3)}</span>` : ""}${badges.join("")}</div>` : ""}
-        ${headline.length ? `<div class="hit">${headline.slice(0, 2).map((x) => `<div>${esc(x.text)}${x.flag ? ` <span class="flag" title="${esc(x.flag)}">⚠ sources differ</span>` : ""}</div>`).join("")}</div>` : ""}
+        ${dline}
         <details class="more-info" data-key="${esc(ck)}"${openCards.has(ck) ? " open" : ""}>
           <summary>Details</summary>
           <div class="info">
