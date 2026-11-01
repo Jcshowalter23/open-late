@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Open Late · Restaurant hours, kitchen times & specials</title>
+<meta name="description" content="Open Late: restaurants and bars in Lancaster, PA: live open now and kitchen open now, happy hours and specials by day, crowd notes.">
+<meta name="theme-color" content="#14161f">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="icon" href="icons/icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Open Late">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <img src="icons/icon.svg" alt="" width="36" height="36">
+    <div>
+      <h1>Open Late</h1>
+      <p class="tag">Who's open, whose kitchen is open, and tonight's specials</p>
+    </div>
+  </div>
+  <div class="topright"><label class="city"><span class="sr">City</span><select id="city" aria-label="City"></select></label><div class="now" id="now" aria-live="polite"></div></div>
+</header>
+
+<main>
+  <p class="notice">Hours and specials change often, so call ahead before you go. Everything for <span id="cityName">Lancaster, PA</span> was checked <span id="checked">Oct 31, 2026</span>; anything a source didn't publish shows as "not listed".</p>
+
+  <section class="controls" aria-label="Filters">
+    <label class="field grow"><span>Search by name</span>
+      <input id="q" type="search" placeholder="e.g. Tellus" autocomplete="off"></label>
+    <label class="field"><span>Cuisine</span><select id="cuisine"></select></label>
+    <label class="field"><span>Price</span><select id="price">
+      <option value="All">Any price</option><option>$</option><option>$$</option><option>$$$</option><option>$$$$</option><option value="none">Price not listed</option>
+    </select></label>
+    <label class="field"><span>Vibe</span><select id="vibe"></select></label>
+    <label class="field"><span>Deals for</span><select id="day"></select></label>
+    <label class="field"><span>Sort</span><select id="sort">
+      <option value="name">A–Z</option><option value="late">Closes latest</option><option value="soon">Closes soonest</option>
+    </select></label>
+    <div class="chips">
+      <label class="chip"><input type="checkbox" id="openNow"> Open now</label>
+      <label class="chip"><input type="checkbox" id="kitchenNow"> Kitchen open now</label>
+      <label class="chip"><input type="checkbox" id="onlyDeals"> Has a deal that day</label>
+    </div>
+    <p class="hint">"Kitchen open now" only includes places that publish a kitchen close time.</p>
+  </section>
+
+  <p class="count" id="count"></p>
+  <div class="grid" id="list"></div>
+  <p class="empty" id="empty" hidden>No places match these filters.</p>
+</main>
+
+<footer class="foot">
+  <p><a id="suggest" class="btn" href="#">Suggest an update</a></p>
+  <p>Know a special, a closing time, or a change? Restaurants and visitors can send it in.</p>
+  <p class="small">Sources: TasteLanc, OpenTable, Exa popular times, Fig Lancaster and each restaurant's website (listed on every card). Not affiliated with any restaurant.</p>
+</footer>
+<script src="app.js" defer></script>
+</body>
+</html>

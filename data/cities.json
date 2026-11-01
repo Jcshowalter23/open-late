@@ -1,0 +1,18 @@
+{
+  "defaultArea": "lancaster-pa",
+  "regions": [
+    { "id": "lancaster-county-pa", "name": "Lancaster County, PA" },
+    { "id": "south-central-pa", "name": "South Central PA" }
+  ],
+  "areas": [
+    { "id": "lancaster-pa", "name": "Lancaster, PA", "type": "city", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/lancaster-pa.json", "status": "live" },
+    { "id": "lititz-pa", "name": "Lititz, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": null, "status": "coming-soon" },
+    { "id": "manheim-pa", "name": "Manheim, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": null, "status": "coming-soon" },
+    { "id": "ephrata-pa", "name": "Ephrata, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": null, "status": "coming-soon" },
+    { "id": "marietta-pa", "name": "Marietta, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": null, "status": "coming-soon" },
+    { "id": "columbia-pa", "name": "Columbia, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": null, "status": "coming-soon" },
+    { "id": "york-pa", "name": "York, PA", "type": "city", "region": "south-central-pa", "timezone": "America/New_York", "file": null, "status": "coming-soon" },
+    { "id": "harrisburg-pa", "name": "Harrisburg, PA", "type": "city", "region": "south-central-pa", "timezone": "America/New_York", "file": null, "status": "coming-soon" },
+    { "id": "reading-pa", "name": "Reading, PA", "type": "city", "region": "south-central-pa", "timezone": "America/New_York", "file": null, "status": "coming-soon" }
+  ]
+}
