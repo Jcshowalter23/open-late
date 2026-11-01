@@ -212,9 +212,16 @@
    "website": "https://www.roostersglenside.com/",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-12a; Sun 10a-10p",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
+   "kitchen": "Mon-Thu 11a-10p; Fri 11a-12a; Sat 11a-2p,4p-12a; Sun 10a-2p,4p-10p",
+   "kitchenNote": "Lunch, dinner and brunch kitchen hours per the venue site.",
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy hour 4–6 pm (bar seating only)",
+     "src": "roostersglenside.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [
     {
      "days": "Thu",
@@ -229,7 +236,7 @@
    ],
    "crowd": null,
    "vibes": [],
-   "source": "hours from the venue's Facebook page (via foodyas mirror)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); roostersglenside.com (checked 2026-11-01)",
    "county": "Montgomery"
   },
   {
