@@ -84,6 +84,7 @@
 
   // ---------- state
   let city = null, rows = [], now = { d: 0, m: 0 }, dayTouched = false, shown = 0, loadSeq = 0;
+  const ALL = 7; // "Deals: All days"
   const PAGE = 40; // cards per "Show more" step, keeps big counties fast on phones
   const shortArea = (n) => n.replace(/, PA$/, "");
 
@@ -95,6 +96,7 @@
     return { r, w, k, is24, vibes: late || is24 ? [...r.vibes, "Late night"] : r.vibes, area: area.id, areaName: shortArea(area.name), checkedLabel: area.checkedLabel };
   }
   function deals(p, d) {
+    if (d === ALL) { const g = (list) => (list || []).filter((x) => parseDays(x.days).length); return { hh: g(p.r.happyHours), sp: g(p.r.specials) }; }
     const f = (list) => (list || []).filter((x) => parseDays(x.days).includes(d));
     return { hh: f(p.r.happyHours), sp: f(p.r.specials) };
   }
@@ -113,7 +115,7 @@
   function fillDay() {
     const sel = $("day");
     const prev = sel.value;
-    opts(sel, DAYS.map((d, i) => ({ value: String(i), label: i === now.d ? "Deals: Today" : `Deals: ${DAYS[i]}` })));
+    opts(sel, [...DAYS.map((d, i) => ({ value: String(i), label: i === now.d ? "Deals: Today" : `Deals: ${DAYS[i]}` })), { value: String(ALL), label: "Deals: All days" }]);
     sel.value = dayTouched && prev !== "" ? prev : String(now.d);
   }
   function tick() {
@@ -125,7 +127,59 @@
   }
 
   const on = (id) => $(id).getAttribute("aria-pressed") === "true";
-  const CHIPS = ["openNow", "kitchenNow", "onlyDeals", "wingDeals", "beerDeals"];
+  const CHIPS = ["openNow", "kitchenNow", "onlyDeals", "wingDeals", "beerDeals", "hhDeals", "favsOnly"];
+  // favorites live in localStorage as "area|placeId"
+  let favs = new Set();
+  try { favs = new Set(JSON.parse(localStorage.getItem("openlate.favs") || "[]")); } catch (e) { favs = new Set(); }
+  const saveFavs = () => { try { localStorage.setItem("openlate.favs", JSON.stringify([...favs])); } catch (e) { /* private mode */ } };
+  const pkey = (p) => `${p.area}|${p.r.id}`;
+  // "Near me": location is asked for only when the user taps Near me (or picks it in Sort), never on load
+  let here = null, locating = false;
+  function miles(p) {
+    if (!here || typeof p.r.lat !== "number" || typeof p.r.lng !== "number") return null;
+    const rad = Math.PI / 180, dLa = (p.r.lat - here.lat) * rad, dLo = (p.r.lng - here.lng) * rad;
+    const x = Math.sin(dLa / 2) ** 2 + Math.cos(here.lat * rad) * Math.cos(p.r.lat * rad) * Math.sin(dLo / 2) ** 2;
+    return 3958.8 * 2 * Math.asin(Math.sqrt(x));
+  }
+  const fmtMi = (d) => d < 0.1 ? "< 0.1 mi" : d < 10 ? `${d.toFixed(1)} mi` : `${Math.round(d)} mi`;
+  function toast(msg) {
+    const t = $("toast"); t.textContent = msg; t.hidden = false;
+    clearTimeout(toast.t); toast.t = setTimeout(() => { t.hidden = true; }, 2600);
+  }
+  function setNear(onOff) {
+    $("nearMe").setAttribute("aria-pressed", String(onOff));
+    if (onOff) $("sort").value = "near"; else if ($("sort").value === "near") $("sort").value = "smart";
+    render();
+  }
+  function askLocation() {
+    if (locating) return;
+    if (!navigator.geolocation) { toast("Location isn't available in this browser."); setNear(false); return; }
+    locating = true; $("nearMe").classList.add("busy");
+    navigator.geolocation.getCurrentPosition((pos) => {
+      locating = false; $("nearMe").classList.remove("busy");
+      here = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+      setNear(true);
+      const miss = rows.filter((p) => typeof p.r.lat !== "number").length;
+      toast(miss ? `Sorted by distance · ${miss} place${miss === 1 ? "" : "s"} without a map location are listed last` : "Sorted by distance from you");
+    }, (err) => {
+      locating = false; $("nearMe").classList.remove("busy");
+      toast(err && err.code === 1 ? "Location permission was denied, so Near me can't sort by distance." : "Couldn't get your location. Try again in a moment.");
+      setNear(false);
+    }, { enableHighAccuracy: false, timeout: 12000, maximumAge: 300000 });
+  }
+  // happy hour "now": only when the text has a clean time range like "4–6 pm" or "3:30-6:30pm"
+  const HH_RE = /(\d{1,2})(?::(\d\d))?\s*(am|pm|a|p)?\s*(?:–|-|to)\s*(\d{1,2})(?::(\d\d))?\s*(am|pm|a|p)\b/i;
+  function hhRange(text) {
+    const m = HH_RE.exec(text); if (!m) return null;
+    const t = (h, mm, ap) => (Number(h) % 12 + (/^p/i.test(ap) ? 12 : 0)) * 60 + Number(mm || 0);
+    let end = t(m[4], m[5], m[6]), start = t(m[1], m[2], m[3] || m[6]);
+    if (!m[3] && start > end) start = t(m[1], m[2], "a"); // "11–2 pm" means 11 AM to 2 PM
+    if (end <= start) end += 1440;
+    return [start, end];
+  }
+  const hhNow = (x) => { const r = hhRange(x.text); return !!r && ((now.m >= r[0] && now.m < r[1]) || (r[1] > 1440 && now.m < r[1] - 1440)); };
+  const lateKitchen = (p) => !!(p.k && p.k[now.d] && p.k[now.d].some((iv) => iv[1] > 23 * 60));
+  const prettyDays = (s) => s.replace(/-/g, "–").replace(/,/g, "/");
   const openCards = new Set(); // which cards have Details expanded, so the 30-second refresh keeps them open
   function status(p) {
     if (p.is24) return { cls: "s-open", text: "Open 24 hours" };
@@ -160,7 +214,7 @@
     const town = $("town").value;
     const cuisine = $("cuisine").value, price = $("price").value, vibe = $("vibe").value;
     const openNow = on("openNow"), kitchenNow = on("kitchenNow"), onlyDeals = on("onlyDeals");
-    const wingDeals = on("wingDeals"), beerDeals = on("beerDeals");
+    const wingDeals = on("wingDeals"), beerDeals = on("beerDeals"), hhDeals = on("hhDeals"), favsOnly = on("favsOnly");
     const day = Number($("day").value), sort = $("sort").value;
     let list = rows.filter((p) => {
       const r = p.r;
@@ -172,11 +226,14 @@
       if (vibe !== "All" && !p.vibes.includes(vibe)) return false;
       if (openNow && !stateAt(p.w, now.d, now.m, p.is24).open) return false;
       if (kitchenNow && !(p.k && stateAt(p.k, now.d, now.m).open)) return false;
-      if (onlyDeals || wingDeals || beerDeals) {
+      if (favsOnly && !favs.has(pkey(p))) return false;
+      // the Deals day only matters when a deal filter is on; it never hides places by itself
+      if (onlyDeals || wingDeals || beerDeals || hhDeals) {
         const dd = deals(p, day), all = [...dd.hh, ...dd.sp];
         if (onlyDeals && !all.length) return false;
         if (wingDeals && !all.some((x) => hasTag(x, "wings"))) return false;
         if (beerDeals && !all.some((x) => hasTag(x, "beer"))) return false;
+        if (hhDeals && !dd.hh.length) return false;
       }
       return true;
     });
@@ -198,8 +255,10 @@
       const tm = p.w[(now.d + 1) % 7];
       return tm && tm.length ? [2, Math.min(...tm.map((iv) => iv[0]))] : [2, 9999];
     };
-    const sk = sort === "smart" ? new Map(list.map((p) => [p, smartKey(p)])) : null;
+    const dist = sort === "near" && here ? new Map(list.map((p) => [p, miles(p)])) : null;
+    const sk = sort === "smart" || (sort === "near" && !here) ? new Map(list.map((p) => [p, smartKey(p)])) : null;
     list.sort((a, b) => {
+      if (dist) { const x = dist.get(a), y = dist.get(b); if (x === null || y === null) return x === null && y === null ? a.r.name.localeCompare(b.r.name) : x === null ? 1 : -1; return x - y; }
       if (sk) { const x = sk.get(a), y = sk.get(b); return x[0] - y[0] || x[1] - y[1] || a.r.name.localeCompare(b.r.name); }
       if (sort === "name") return a.r.name.localeCompare(b.r.name);
       const ka = key(a), kb = key(b);
@@ -210,19 +269,21 @@
     });
     // chip + "More filters" state
     $("day").parentElement.classList.toggle("on", day !== now.d);
-    const mf = [cuisine !== "All", price !== "All", vibe !== "All", sort !== "smart"].filter(Boolean).length;
+    const mf = [cuisine !== "All", price !== "All", vibe !== "All", sort !== "smart" && sort !== "near"].filter(Boolean).length;
     $("mfCount").textContent = mf ? `(${mf} on)` : "";
-    const kinds = [wingDeals && "wing", beerDeals && "beer"].filter(Boolean).join(" + ");
-    $("count").textContent = `${list.length} of ${rows.length} places · ${kinds ? kinds + " deals" : "deals"} for ${day === now.d ? "today" : DAY_LONG[day]}`;
+    const kinds = [wingDeals && "wing", beerDeals && "beer", hhDeals && "happy hour"].filter(Boolean).join(" + ");
+    $("count").textContent = `${list.length} of ${rows.length} places · ${kinds ? kinds + " deals" : "deals"} for ${day === now.d ? "today" : day === ALL ? "all days" : DAY_LONG[day]}${dist ? " · nearest first" : ""}`;
     // empty state
     const active = filtersActive();
     const placeName = town ? $("town").selectedOptions[0].dataset.name : `${county.name} County`;
     $("empty").hidden = list.length > 0;
     if (!list.length) {
       let why = active ? `No places in ${placeName} match these filters` : `No places listed in ${placeName} yet`;
-      if (openNow && !q && !wingDeals && !beerDeals && !onlyDeals && !kitchenNow) why = `Nothing in ${placeName} is open right now`;
+      if (openNow && !q && !wingDeals && !beerDeals && !hhDeals && !onlyDeals && !kitchenNow && !favsOnly) why = `Nothing in ${placeName} is open right now`;
+      if (favsOnly && !favs.size) why = "No favorites yet";
+      else if (favsOnly && ![...favs].some((k) => rows.some((p) => pkey(p) === k))) why = `No favorites in ${county.name} County yet`;
       $("emptyTitle").textContent = why + ".";
-      $("emptyText").textContent = town ? `Try the whole county, or ${active ? "clear the filters" : "pick another city"}.` : (active ? "Try clearing the filters or picking another day." : "Try a neighboring county.");
+      $("emptyText").textContent = favsOnly && !list.length && why.startsWith("No favorites") ? "Tap the ♡ on any place to save it here. Favorites stay on this device." : town ? `Try the whole county, or ${active ? "clear the filters" : "pick another city"}.` : (active ? "Try clearing the filters or picking another day." : "Try a neighboring county.");
       $("clearFilters").hidden = !active;
       $("seeCounty").hidden = !town;
       $("seeCounty").textContent = `See all of ${county.name} County`;
@@ -233,30 +294,39 @@
     $("more").hidden = left <= 0;
     $("more").textContent = `Show ${Math.min(PAGE, left)} more (${left} left)`;
     const NL = "not listed";
-    const d3 = DAYS[day], dayWord = day === now.d ? "Today" : DAY_LONG[day];
+    const d3 = day === ALL ? "All days" : DAYS[day], dayWord = day === now.d ? "Today" : day === ALL ? "All days" : DAY_LONG[day];
     const html = list.slice(prev, shown).map((p) => {
       const r = p.r, st = status(p), dd = deals(p, day), all = [...dd.hh, ...dd.sp];
-      const ck = `${p.area}|${r.name}`;
+      const ck = pkey(p), fav = favs.has(ck), mi = here ? miles(p) : null;
       let kline = "";
       if (p.k) { const ks = stateAt(p.k, now.d, now.m); kline = ks.open ? `<span class="kitchen k-open">Kitchen until ${fmt(ks.close)}</span>` : `<span class="kitchen">Kitchen closed</span>`; }
       // one compact deal line: the top deal (matching the active deal chips first), plus "+N more" (the rest are in Details)
-      const pick = all.filter((x) => (wingDeals && hasTag(x, "wings")) || (beerDeals && hasTag(x, "beer")));
+      const pick = all.filter((x) => (wingDeals && hasTag(x, "wings")) || (beerDeals && hasTag(x, "beer")) || (hhDeals && dd.hh.includes(x)));
+      const isToday = day === now.d, live = isToday ? dd.hh.filter(hhNow) : [];
+      if (hhDeals && live.length) pick.unshift(live[0]);
       const top = pick[0] || all.find((x) => hasTag(x, "wings") || hasTag(x, "beer")) || dd.hh[0] || dd.sp[0];
       let dline = "";
       if (top) {
         const kind = hasTag(top, "wings") ? ["b-wings", "🍗 Wings"] : hasTag(top, "beer") ? ["b-beer", "🍺 Beer"] : dd.hh.includes(top) ? ["b-hh", "Happy hour"] : ["b-sp", "Special"];
         const n = all.length - 1;
-        dline = `<div class="dline" aria-label="${dayWord} deals">${day !== now.d ? `<span class="bday">${esc(d3)}</span>` : ""}<span class="badge ${kind[0]}">${kind[1]}</span><span class="dtext">${esc(top.text)}${top.flag ? ` <span class="flag" title="${esc(top.flag)}">⚠</span>` : ""}</span>${n > 0 ? `<span class="dmore">+${n} more</span>` : ""}</div>`;
+        const nowPill = live.length ? `<span class="badge b-now">${live.includes(top) ? "Now" : "HH now"}</span>` : "";
+        dline = `<div class="dline" aria-label="${dayWord} deals">${day !== now.d && day !== ALL ? `<span class="bday">${esc(d3)}</span>` : ""}<span class="badge ${kind[0]}">${kind[1]}</span>${nowPill}<span class="dtext">${day === ALL ? `<b class="ddays">${esc(prettyDays(top.days))}:</b> ` : ""}${esc(top.text)}${top.flag ? ` <span class="flag" title="${esc(top.flag)}">⚠</span>` : ""}</span>${n > 0 ? `<span class="dmore">+${n} more</span>` : ""}</div>`;
       }
       const meta = [r.cuisine, r.priceLevel].filter(Boolean).map(esc).join(" · ");
       const wk = (x) => `${esc(x.days.replace(/-/g, "–").replace(/,/g, "/"))}: ${dealHtml(x)}`;
       const weekly = (r.specials || []).map(wk).join(" · ");
       const weeklyHH = (r.happyHours || []).map(wk).join(" · ");
+      const where = `${r.name}, ${r.address ? r.address + ", " : ""}${p.areaName}, PA`;
+      const dirs = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(where)}`;
+      const reviews = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(where)}`;
+      const tel = r.phone ? r.phone.replace(/[^0-9+]/g, "") : "";
       const maps = r.address ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${r.name}, ${r.address}, ${p.areaName}, PA`)}` : "";
-      return `<article class="card">
-        ${town ? "" : `<div class="town">${esc(p.areaName)}</div>`}
+      const top2 = [town ? "" : esc(p.areaName), mi !== null ? `<span class="mi">${fmtMi(mi)}</span>` : ""].filter(Boolean).join(" · ");
+      return `<article class="card" data-key="${esc(ck)}">
+        <button type="button" class="fav" data-act="fav" aria-pressed="${fav}" aria-label="${fav ? "Remove from" : "Add to"} favorites: ${esc(r.name)}">${fav ? "♥" : "♡"}</button>
+        ${top2 ? `<div class="town">${top2}</div>` : ""}
         <h2>${esc(r.name)}${meta ? ` <span class="meta">${meta}</span>` : ""}</h2>
-        <div class="status ${st.cls}"><span class="dot" aria-hidden="true"></span><span>${esc(st.text)}</span>${kline}</div>
+        <div class="status ${st.cls}"><span class="dot" aria-hidden="true"></span><span>${esc(st.text)}</span>${kline}${lateKitchen(p) ? `<span class="lk" title="Kitchen open past 11 PM today (per listed kitchen hours)">Late kitchen</span>` : ""}</div>
         ${dline}
         <details class="more-info" data-key="${esc(ck)}"${openCards.has(ck) ? " open" : ""}>
           <summary>Details</summary>
@@ -271,6 +341,13 @@
             ${weekly ? `<div class="row"><b>Specials all week:</b> ${weekly}</div>` : ""}
             <div class="row"><b>Crowd:</b> ${r.crowd ? esc(r.crowd) : NL}</div>
             <div class="src">Source: ${esc(r.source)} · checked ${esc(p.checkedLabel)}</div>
+            <div class="actions">
+              <a class="act" href="${esc(dirs)}" target="_blank" rel="noopener">Directions</a>
+              ${tel ? `<a class="act" href="tel:${esc(tel)}">Call</a>` : ""}
+              <a class="act" href="${esc(reviews)}" target="_blank" rel="noopener">Reviews</a>
+              <button type="button" class="act" data-act="share">Share</button>
+            </div>
+            ${r.phone ? `<div class="row"><b>Phone:</b> <a href="tel:${esc(tel)}">${esc(r.phone)}</a></div>` : ""}
             <div class="links">${r.website ? `<a href="${esc(r.website)}" target="_blank" rel="noopener">Website</a>` : `<span class="row"><b>Website:</b> ${NL}</span>`}
               <a href="${esc(mailto(r.name, p.areaName))}">Suggest an update</a></div>
           </div>
@@ -280,6 +357,30 @@
     if (more) $("list").insertAdjacentHTML("beforeend", html); else $("list").innerHTML = html;
   }
 
+  function placeUrl(p) {
+    return `${location.origin}${location.pathname}?county=${encodeURIComponent(county.id)}&area=${encodeURIComponent(p.area)}&place=${encodeURIComponent(p.r.id)}`;
+  }
+  async function share(p) {
+    const url = placeUrl(p), title = `${p.r.name} · Open Late`;
+    if (navigator.share) { try { await navigator.share({ title, text: `${p.r.name} (${p.areaName})`, url }); return; } catch (e) { if (e && e.name === "AbortError") return; } }
+    try { await navigator.clipboard.writeText(url); toast("Link copied"); }
+    catch (e) { window.prompt("Copy this link:", url); }
+  }
+  // ?place=<id> deep link: page through results until that card shows, open its Details, scroll to it
+  function openPlace(id, areaId) {
+    const p = rows.find((x) => x.r.id === id && (!areaId || x.area === areaId)) || rows.find((x) => x.r.id === id);
+    if (!p) return;
+    const key = pkey(p);
+    openCards.add(key);
+    render();
+    const find = () => [...$("list").querySelectorAll(".card")].find((c) => c.dataset.key === key);
+    while (!find() && !$("more").hidden) render(true);
+    let el = find();
+    if (!el && filtersActive()) { clearFilters(); while (!find() && !$("more").hidden) render(true); el = find(); }
+    if (!el) return;
+    el.classList.add("flash");
+    if (el.scrollIntoView) el.scrollIntoView({ block: "start", behavior: "smooth" });
+  }
   function mailto(place, where) {
     const cn = where || (city ? city.name : "");
     const subj = place ? `Open Late update: ${place} (${cn})` : `Open Late update (${cn})`;
@@ -379,7 +480,22 @@
     $("list").addEventListener("toggle", (e) => { const d = e.target; if (d.dataset && d.dataset.key) { if (d.open) openCards.add(d.dataset.key); else openCards.delete(d.dataset.key); } }, true);
     $("day").addEventListener("change", () => { dayTouched = true; render(); });
     $("more").addEventListener("click", () => render(true));
+    $("nearMe").addEventListener("click", () => { if (on("nearMe")) setNear(false); else if (here) setNear(true); else askLocation(); });
+    $("sort").addEventListener("change", () => { if ($("sort").value === "near") { if (here) setNear(true); else askLocation(); } else $("nearMe").setAttribute("aria-pressed", "false"); });
+    $("list").addEventListener("click", (e) => {
+      const b = e.target.closest("[data-act]"); if (!b) return;
+      const card = b.closest(".card"), key = card.dataset.key, p = rows.find((x) => pkey(x) === key);
+      if (b.dataset.act === "fav") {
+        if (favs.has(key)) favs.delete(key); else favs.add(key);
+        saveFavs();
+        const f = favs.has(key);
+        b.setAttribute("aria-pressed", String(f)); b.textContent = f ? "♥" : "♡";
+        b.setAttribute("aria-label", `${f ? "Remove from" : "Add to"} favorites: ${p ? p.r.name : ""}`);
+        if (on("favsOnly")) render();
+      } else if (b.dataset.act === "share" && p) share(p);
+    });
     await loadCounty(cid, aid);
+    if (sp.get("place")) openPlace(sp.get("place"), aid);
     // periodic refresh keeps how many cards were already revealed
     const refresh = () => { const keep = shown; tick(); render(); while (shown < keep && !$("more").hidden) render(true); };
     setInterval(refresh, 30000);

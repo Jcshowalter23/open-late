@@ -39,9 +39,12 @@
   <div class="chiprow" role="group" aria-label="Filters">
     <label class="chip chip-day"><span class="sr">Deals for</span><select id="day" aria-label="Deals for day"></select></label>
     <button type="button" class="chip" id="openNow" aria-pressed="false"><span class="dot d-open" aria-hidden="true"></span>Open now</button>
+    <button type="button" class="chip" id="nearMe" aria-pressed="false" title="Sort by distance from you (asks for your location)">📍 Near me</button>
+    <button type="button" class="chip" id="favsOnly" aria-pressed="false">♥ Favorites</button>
     <button type="button" class="chip" id="kitchenNow" aria-pressed="false" title="Only places that publish a kitchen close time">Kitchen open</button>
     <button type="button" class="chip" id="wingDeals" aria-pressed="false">🍗 Wing deals</button>
     <button type="button" class="chip" id="beerDeals" aria-pressed="false">🍺 Beer deals</button>
+    <button type="button" class="chip" id="hhDeals" aria-pressed="false">🍸 Happy hour</button>
     <button type="button" class="chip" id="onlyDeals" aria-pressed="false">Any deal</button>
   </div>
 </header>
@@ -56,7 +59,7 @@
       </select></label>
       <label class="field"><span>Vibe</span><select id="vibe"></select></label>
       <label class="field"><span>Sort</span><select id="sort">
-        <option value="smart" selected>Open now first</option><option value="name">A–Z</option><option value="late">Closes latest</option><option value="soon">Closes soonest</option>
+        <option value="smart" selected>Open now first</option><option value="name">A–Z</option><option value="late">Closes latest</option><option value="soon">Closes soonest</option><option value="near">Near me</option>
       </select></label>
     </div>
     <p class="hint">"Kitchen open" only includes places that publish a kitchen close time. Deal filters follow the day you pick in the first chip.</p>
@@ -64,6 +67,7 @@
 
   <p class="count" id="count"></p>
   <div class="grid" id="list"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
   <p class="morewrap"><button type="button" class="btn more" id="more" hidden>Show more</button></p>
   <div class="empty" id="empty" hidden>
     <svg viewBox="0 0 64 64" width="48" height="48" aria-hidden="true"><circle cx="28" cy="34" r="18" fill="#e8a33d"/><circle cx="37" cy="27" r="16" fill="var(--bg)"/></svg>
