@@ -95,8 +95,10 @@
    "vibes": [
     "Date night"
    ],
-   "source": "Venue site (via search index)",
-   "county": "Lancaster"
+   "source": "Venue site (via search index); Restaurantji (Google-sourced listing, updated Oct 19, 2026) (checked 2026-11-01)",
+   "county": "Lancaster",
+   "phone": "(717) 656-8983",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 19, 2026), checked 2026-11-01"
   },
   {
    "id": "helen-s-corner-bar",
@@ -164,14 +166,27 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy hour 2–6 pm",
+     "src": "Wayside venue site",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Sat",
+     "text": "Happy hour 12–4 pm",
+     "src": "Wayside venue site",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
     "Family-friendly",
     "Date night"
    ],
-   "source": "Venue site",
+   "source": "Venue site; Wayside venue site happy hour (checked 2026-11-01)",
    "county": "Lancaster"
   }
  ],

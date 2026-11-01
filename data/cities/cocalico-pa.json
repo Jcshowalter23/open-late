@@ -19,16 +19,23 @@
    "website": "https://www.columbiakettleworks.com/",
    "hours": "Mon-Wed 4p-10p; Thu-Sat 12p-10p; Sun 12p-8p",
    "hoursNote": "In the former Stoudt's complex. Order at the bar; kids' menu; patio.",
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Mon-Wed 4p-9:30p; Thu-Sat 12p-9:30p; Sun 12p-7:30p",
+   "kitchenNote": "Venue menu: kitchen closes 30 min before closing.",
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "Mexican Mondays",
+     "src": "columbiakettleworks.com Adamstown page",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
     "Family-friendly"
    ],
-   "source": "Venue site",
+   "source": "Venue site; columbiakettleworks.com Adamstown page (checked 2026-11-01)",
    "county": "Lancaster"
   },
   {
@@ -51,8 +58,10 @@
    "vibes": [
     "Bar scene"
    ],
-   "source": "Venue site",
-   "county": "Lancaster"
+   "source": "Venue site; Restaurantji (Google-sourced listing, updated Sep 30, 2026) (checked 2026-11-01)",
+   "county": "Lancaster",
+   "phone": "(717) 335-8001",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 30, 2026), checked 2026-11-01"
   },
   {
    "id": "the-penguin-hotel",
@@ -66,8 +75,8 @@
    "priceText": null,
    "priceLevel": null,
    "website": "https://www.thepenguinhotel.com/",
-   "hours": null,
-   "hoursNote": "Bar hours not listed. Brunch starting Nov 1, 10 am–2 pm (day not specified).",
+   "hours": "Mon-Tue 11a-8p; Wed-Thu 11a-9p; Fri-Sat 11a-11p; Sun closed",
+   "hoursNote": "Brunch from Nov 1, 10 am–2 pm (day not specified on the site).",
    "kitchen": "Mon-Sat 11a-8p; Sun closed",
    "kitchenNote": null,
    "happyHours": [],
@@ -101,7 +110,7 @@
     "Bar scene",
     "Family-friendly"
    ],
-   "source": "Venue site",
+   "source": "Venue site; Hours: Restaurantji listing (Google-sourced); kitchen hours: thepenguinhotel.com (checked 2026-11-01)",
    "county": "Lancaster"
   },
   {
@@ -117,16 +126,23 @@
    "priceLevel": null,
    "website": "https://johnnysbarandsteakhouse.com/",
    "hours": "Wed-Sat 4p-9p; Sun-Tue closed",
-   "hoursNote": "Reservations taken daily. Site mentions happy hour; times not listed.",
+   "hoursNote": "Conflict: Google listing (Oct 14, 2026) shows Wed closed.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Wed-Sat",
+     "text": "Happy hour 4–9 pm",
+     "src": "Johnny's venue site",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
     "Date night"
    ],
-   "source": "Venue site",
+   "source": "Venue site; Johnny's venue site happy hour (checked 2026-11-01); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Lancaster"
   },
   {
@@ -258,8 +274,10 @@
    "vibes": [
     "Bar scene"
    ],
-   "source": "Restaurantji / exa.ai places listing (agree)",
-   "county": "Berks"
+   "source": "Restaurantji / exa.ai places listing (agree); Restaurantji (Google-sourced listing, updated Oct 21, 2026) (checked 2026-11-01)",
+   "county": "Berks",
+   "phone": "(717) 484-2625",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01"
   }
  ],
  "counties": [

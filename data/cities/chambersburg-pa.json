@@ -85,8 +85,10 @@
     "Bar scene",
     "Sports & games"
    ],
-   "source": "Google listing via exa; Restaurantji",
-   "county": "Franklin"
+   "source": "Google listing via exa; Restaurantji; Restaurantji (Google-sourced listing, updated Sep 2, 2026) (checked 2026-11-01)",
+   "county": "Franklin",
+   "phone": "(717) 264-8543",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 2, 2026), checked 2026-11-01"
   },
   {
    "id": "trojan-diner-and-sports-bar",
@@ -176,7 +178,7 @@
    "priceLevel": null,
    "website": null,
    "hours": "Mon-Thu 1:30p-12a; Fri-Sat 1:30p-2a; Sun 1:30p-12a",
-   "hoursNote": "Conflict: DirecTV Sports Bar Finder lists closed Mon–Tue and later closings.",
+   "hoursNote": "Conflict: DirecTV Sports Bar Finder lists closed Mon–Tue and later closings.; Conflict: Google listing (Oct 29, 2026) shows Mon closed, Tue closed.",
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
@@ -186,8 +188,10 @@
     "Bar scene",
     "Sports & games"
    ],
-   "source": "Facebook",
-   "county": "Franklin"
+   "source": "Facebook; Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
+   "county": "Franklin",
+   "phone": "(717) 414-7637",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
   },
   {
    "id": "401-pub-and-fare",
@@ -226,17 +230,49 @@
    "priceText": null,
    "priceLevel": null,
    "website": "https://orchardsrestaurant.com/",
-   "hours": "Tue-Sat 3p-10p; Sun closed",
-   "hoursNote": "Monday: RELAX Lounge only, 3–10 pm. Facebook lists Friday until 11 pm.",
+   "hours": "Mon closed; Tue-Sat 3p-10p; Sun closed",
+   "hoursNote": "Monday: RELAX Lounge only, 3–10 pm. Facebook lists Friday until 11 pm.; Mon from Google listing via Restaurantji (updated Oct 11, 2026).",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Tue-Thu",
+     "text": "Happy hour 3:30–5:30 pm",
+     "src": "Orchards venue site",
+     "checked": "2026-11-01"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "Burger night $11",
+     "src": "Orchards venue site",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "Brick oven pizzas $11",
+     "src": "Orchards venue site",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Thu",
+     "text": "Crab cakes $30",
+     "src": "Orchards venue site",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Fri,Sat",
+     "text": "Prime rib night $29",
+     "src": "Orchards venue site",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
    ],
-   "source": "Venue site",
+   "source": "Venue site; Orchards venue site daily dinner specials (checked 2026-11-01); Restaurantji (Google-sourced listing, updated Oct 11, 2026) (checked 2026-11-01)",
    "county": "Franklin"
   },
   {
@@ -253,8 +289,8 @@
    "website": "https://www.norlandbistro71.com/",
    "hours": "Sun-Mon closed; Tue-Thu 11a-8:30p; Fri 11a-9:30p; Sat 4p-9:30p",
    "hoursNote": "Conflict: Facebook lists later closings (Tue–Thu 10 pm, Fri–Sat 11 pm), likely bar hours.",
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Tue-Thu 11a-8:30p; Fri 11a-9:30p",
+   "kitchenNote": "Venue site kitchen hours; Saturday not listed.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -262,7 +298,7 @@
     "Date night",
     "Bar scene"
    ],
-   "source": "Venue site",
+   "source": "Venue site; Bistro 71 venue site kitchen hours (checked 2026-11-01)",
    "county": "Franklin"
   },
   {
@@ -377,7 +413,7 @@
    "priceLevel": null,
    "website": null,
    "hours": "Mon-Thu 10a-8p; Fri-Sat 10a-9p; Sun 10:30a-8p",
-   "hoursNote": null,
+   "hoursNote": "Conflict: Google listing (Sep 22, 2026) shows Tue closed.",
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
@@ -386,8 +422,10 @@
    "vibes": [
     "Family-friendly"
    ],
-   "source": "Restaurantji; Toast",
-   "county": "Franklin"
+   "source": "Restaurantji; Toast; Restaurantji (Google-sourced listing, updated Sep 22, 2026) (checked 2026-11-01)",
+   "county": "Franklin",
+   "phone": "(717) 264-8577",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 22, 2026), checked 2026-11-01"
   },
   {
    "id": "montezuma-mexican-restaurant-wayne-ave",
@@ -436,8 +474,10 @@
     "Family-friendly",
     "Bar scene"
    ],
-   "source": "Venue site",
-   "county": "Franklin"
+   "source": "Venue site; Restaurantji (Google-sourced listing, updated Sep 2, 2026) (checked 2026-11-01)",
+   "county": "Franklin",
+   "phone": "(717) 263-6600",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 2, 2026), checked 2026-11-01"
   },
   {
    "id": "crab-88",
@@ -534,8 +574,10 @@
     "Family-friendly",
     "Date night"
    ],
-   "source": "Venue site",
-   "county": "Franklin"
+   "source": "Venue site; Restaurantji (Google-sourced listing, updated Sep 13, 2026) (checked 2026-11-01)",
+   "county": "Franklin",
+   "phone": "(717) 933-2322",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 13, 2026), checked 2026-11-01"
   },
   {
    "id": "india-cafe",
@@ -547,16 +589,18 @@
    "priceText": null,
    "priceLevel": null,
    "website": "https://www.indiacafechambersburg.com/",
-   "hours": "Mon-Fri 11:30a-2:30p,4:30p-8p; Sat 12p-3p,4:30p-8p",
-   "hoursNote": "Sunday not listed.",
+   "hours": "Mon-Fri 11:30a-2:30p,4:30p-8p; Sat 12p-3p,4:30p-8p; Sun closed",
+   "hoursNote": "Sun from Google listing via Restaurantji (updated Oct 14, 2026).",
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [],
-   "source": "Venue site; Beyond Menu",
-   "county": "Franklin"
+   "source": "Venue site; Beyond Menu; Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
+   "county": "Franklin",
+   "phone": "(717) 263-2660",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
   },
   {
    "id": "inka-kitchen",
@@ -568,16 +612,18 @@
    "priceText": null,
    "priceLevel": null,
    "website": null,
-   "hours": "Tue-Thu 11a-8p; Fri-Sat 11a-9p; Sun 11a-5p",
-   "hoursNote": "Monday not listed.",
+   "hours": "Mon closed; Tue-Thu 11a-8p; Fri-Sat 11a-9p; Sun 11a-5p",
+   "hoursNote": "Mon from Google listing via Restaurantji (updated Oct 14, 2026).",
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [],
-   "source": "Facebook (active Oct 2026)",
-   "county": "Franklin"
+   "source": "Facebook (active Oct 2026); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
+   "county": "Franklin",
+   "phone": "(717) 491-1833",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
   },
   {
    "id": "waffles-and-shine",
@@ -625,8 +671,10 @@
    "vibes": [
     "Family-friendly"
    ],
-   "source": "Google listing via exa; Restaurantji",
-   "county": "Franklin"
+   "source": "Google listing via exa; Restaurantji; Restaurantji (Google-sourced listing, updated Oct 10, 2026) (checked 2026-11-01)",
+   "county": "Franklin",
+   "phone": "(717) 263-2334",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 10, 2026), checked 2026-11-01"
   },
   {
    "id": "sunrise-diner",

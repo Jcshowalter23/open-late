@@ -134,8 +134,8 @@
    "name": "Conestoga Restaurant",
    "cuisine": "New American",
    "address": "1501 E King St",
-   "phone": "(717) 208-3265",
-   "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
+   "phone": "(717) 869-4718",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01 (replaces older OpenStreetMap number (717) 208-3265)",
    "lat": 40.03802,
    "lng": -76.27448,
    "priceText": null,
@@ -190,7 +190,7 @@
     "Bar scene",
     "Live music & events"
    ],
-   "source": "TasteLanc",
+   "source": "TasteLanc; Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
    "county": "Lancaster"
   },
   {
@@ -274,8 +274,8 @@
    "website": "https://marioncourtroom.com/",
    "hours": "Mon-Sat 11a-2a; Sun 12p-2a",
    "hoursNote": "Deck: Mon–Thu 11 am–11 pm, Fri–Sat 11 am–2 am, Sun 12–11 pm. Courtside Lounge: daily 5 pm–2 am.",
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Fri-Sat 11a-12a",
+   "kitchenNote": "Venue site: kitchen open until midnight Fri & Sat; other nights not listed.",
    "happyHours": [
     {
      "days": "Mon-Wed",
@@ -339,7 +339,7 @@
     "Bar scene",
     "Live music & events"
    ],
-   "source": "TasteLanc, marioncourtroom.com",
+   "source": "TasteLanc, marioncourtroom.com; marioncourtroom site (checked 2026-11-01)",
    "county": "Lancaster"
   },
   {
@@ -356,8 +356,8 @@
    "website": "https://www.tellus360.com/",
    "hours": "Mon-Tue 4p-12a; Wed-Thu 12p-12a; Fri 12p-1:30a; Sat 11a-1:30a; Sun 11a-10p",
    "hoursNote": "Kitchen on the Mezz (bar food plus Sushi Sang); roof bar.",
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Mon-Tue 4p-11p; Wed-Thu 12p-11p; Fri 12p-1a; Sun 1p-7p",
+   "kitchenNote": "Kitchen on the Mezz hours per venue site; Saturday not listed.",
    "happyHours": [
     {
      "days": "Mon-Thu",
@@ -396,7 +396,7 @@
     "Live music & events",
     "Rooftop"
    ],
-   "source": "TasteLanc; popular times via exa.ai places",
+   "source": "TasteLanc; popular times via exa.ai places; tellus360.com Kitchen on the Mezz hours (checked 2026-11-01)",
    "county": "Lancaster"
   },
   {
@@ -413,8 +413,8 @@
    "website": "https://beerfridgelancaster.com/",
    "hours": "Mon closed; Tue 4p-9p; Wed-Thu 12p-9p; Fri-Sat 12p-10p; Sun 11a-8p",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Tue 4p-8p; Wed-Thu 12p-8p; Fri-Sat 12p-9p; Sun 11a-7p",
+   "kitchenNote": "Venue site: kitchen closes 1 hour before close.",
    "happyHours": [
     {
      "days": "Tue",
@@ -451,7 +451,7 @@
    "vibes": [
     "Bar scene"
    ],
-   "source": "beerfridgelancaster.com (hours), TasteLanc/Fig (happy hour)",
+   "source": "beerfridgelancaster.com (hours), TasteLanc/Fig (happy hour); beerfridgelancaster.com (kitchen closes 1 hr before close) (checked 2026-11-01)",
    "county": "Lancaster"
   },
   {
@@ -586,8 +586,10 @@
    "vibes": [
     "Bar scene"
    ],
-   "source": "TasteLanc",
-   "county": "Lancaster"
+   "source": "TasteLanc; Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
+   "county": "Lancaster",
+   "phone": "(717) 826-9555",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
   },
   {
    "id": "american-bar-and-grill",
@@ -890,9 +892,9 @@
    "priceText": "$50 and over (OpenTable)",
    "priceLevel": "$$$$",
    "website": null,
-   "hours": "Tue-Thu 4p-11p; Fri-Sat 4p-12a",
-   "hoursNote": null,
-   "kitchen": "Tue-Thu 4p-9p; Fri-Sat 4p-10p",
+   "hours": "Mon-Thu 4p-11p; Fri-Sat 4p-12a; Sun closed",
+   "hoursNote": "Conflict: OpenTable lists Tue–Thu only; the venue site (used here) lists Mon–Thu.",
+   "kitchen": "Mon-Thu 4p-9p; Fri-Sat 4p-10p",
    "kitchenNote": "Dinner hours; the bar stays open later.",
    "happyHours": [
     {
@@ -905,25 +907,27 @@
    "vibes": [
     "Date night"
    ],
-   "source": "OpenTable, 2026 happy hour menu",
-   "county": "Lancaster"
+   "source": "OpenTable, 2026 happy hour menu; 401primelancaster.com/about hours (checked 2026-11-01)",
+   "county": "Lancaster",
+   "phone": "(717) 606-1515",
+   "phoneSource": "Official site 401primelancaster.com, checked 2026-11-01"
   },
   {
    "id": "the-imperial",
    "name": "The Imperial",
    "cuisine": "American",
    "address": "26 E Chestnut St",
-   "phone": "(223) 281-2871",
-   "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
+   "phone": "(717) 539-4865",
+   "phoneSource": "Official site theimperiallancaster.com, checked 2026-11-01 (replaces an outdated OSM number)",
    "lat": 40.0411,
    "lng": -76.30599,
    "priceText": null,
    "priceLevel": null,
    "website": "https://www.theimperiallancaster.com/",
-   "hours": "Sun-Mon 4p-9p; Thu 4p-9p; Fri-Sat 4p-11p",
-   "hoursNote": null,
-   "kitchen": "Sun-Mon 5p-8p; Thu 5p-8p; Fri-Sat 5p-9p",
-   "kitchenNote": "Dinner hours; bar menu runs to bar close. Tue–Wed not listed.",
+   "hours": "Mon-Thu 4p-9p; Fri-Sat 4p-11p; Sun 4p-9p",
+   "hoursNote": "Conflict: the venue's restaurant page lists Sun–Thu 4–9 pm (so Tue–Wed open); its menu page lists only Sun, Mon, Thu. Tue–Wed left unlisted until confirmed.; Tue/Wed from Google listing via Restaurantji (updated Oct 13, 2026).",
+   "kitchen": "Sun-Mon 4p-8:30p; Thu 4p-8:30p; Fri-Sat 4p-10p",
+   "kitchenNote": "Bar menu hours (dinner menu ends earlier: 5–8 pm, Fri–Sat 5–9 pm). Tue–Wed not listed.",
    "happyHours": [
     {
      "days": "Sun,Mon,Thu,Fri",
@@ -935,7 +939,7 @@
    "vibes": [
     "Bar scene"
    ],
-   "source": "theimperiallancaster.com",
+   "source": "theimperiallancaster.com; theimperiallancaster.com/restaurant/menus (checked 2026-11-01); Restaurantji (Google-sourced listing, updated Oct 13, 2026) (checked 2026-11-01)",
    "county": "Lancaster"
   },
   {
@@ -1000,8 +1004,10 @@
     "Bar scene",
     "Date night"
    ],
-   "source": "horseinnlancaster.com; popular times via exa.ai places",
-   "county": "Lancaster"
+   "source": "horseinnlancaster.com; popular times via exa.ai places; Restaurantji (Google-sourced listing, updated Oct 12, 2026) (checked 2026-11-01)",
+   "county": "Lancaster",
+   "phone": "(717) 392-5528",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01"
   },
   {
    "id": "luca",
@@ -1084,7 +1090,7 @@
    "priceText": null,
    "priceLevel": null,
    "website": "https://www.prooflancaster.com/",
-   "hours": "Tue-Thu 4p-11p; Fri-Sat 4p-12a",
+   "hours": "Tue-Thu 4p-11p; Fri-Sat 4p-12a; Sun-Mon closed",
    "hoursNote": "Bar seating first come, first served.",
    "kitchen": null,
    "kitchenNote": null,
@@ -1100,8 +1106,10 @@
     "Bar scene",
     "Date night"
    ],
-   "source": "prooflancaster.com",
-   "county": "Lancaster"
+   "source": "prooflancaster.com; prooflancaster.com; Sun–Mon closed per restaurantguru listing (checked 2026-11-01)",
+   "county": "Lancaster",
+   "phone": "(717) 925-7770",
+   "phoneSource": "Official site prooflancaster.com, checked 2026-11-01"
   },
   {
    "id": "south-county-brewing",
@@ -1266,15 +1274,15 @@
    "priceText": null,
    "priceLevel": null,
    "website": "https://www.philthygood.com/",
-   "hours": "Wed-Sat 11a-9p",
-   "hoursNote": null,
+   "hours": "Mon-Tue closed; Wed-Sat 11a-9p; Sun 11a-6p",
+   "hoursNote": "Sun/Mon/Tue from Google listing via Restaurantji (updated Oct 31, 2026).",
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [],
-   "source": "philthygood.com",
+   "source": "philthygood.com; Restaurantji (Google-sourced listing, updated Oct 31, 2026) (checked 2026-11-01)",
    "county": "Lancaster"
   },
   {
@@ -1342,8 +1350,8 @@
    "priceText": null,
    "priceLevel": null,
    "website": "http://www.himalayanlancaster.com/",
-   "hours": "Mon-Thu 11a-2p,5p-9p; Fri-Sat 11a-2p,5p-9:30p",
-   "hoursNote": null,
+   "hours": "Mon-Thu 11a-2p,5p-9p; Fri-Sat 11a-2p,5p-9:30p; Sun closed",
+   "hoursNote": "Sun from Google listing via Restaurantji (updated Oct 27, 2026).",
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
@@ -1359,7 +1367,7 @@
    ],
    "crowd": null,
    "vibes": [],
-   "source": "himalayanlancaster.com",
+   "source": "himalayanlancaster.com; Restaurantji (Google-sourced listing, updated Oct 27, 2026) (checked 2026-11-01)",
    "county": "Lancaster"
   },
   {
@@ -1367,8 +1375,8 @@
    "name": "Iron Hill Brewery",
    "cuisine": "Brewpub",
    "address": "781 Harrisburg Pike",
-   "phone": "(717) 291-9800",
-   "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
+   "phone": "(717) 826-9965",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01 (replaces older OpenStreetMap number (717) 291-9800)",
    "lat": 40.05058,
    "lng": -76.31891,
    "priceText": null,
@@ -1404,7 +1412,7 @@
     "Family-friendly",
     "Bar scene"
    ],
-   "source": "ironhillbrewery.com",
+   "source": "ironhillbrewery.com; Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01)",
    "county": "Lancaster"
   },
   {
@@ -1446,8 +1454,10 @@
    "specials": [],
    "crowd": null,
    "vibes": [],
-   "source": "Fork & City",
-   "county": "Lancaster"
+   "source": "Fork & City; Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
+   "county": "Lancaster",
+   "phone": "(717) 397-0965",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
   },
   {
    "id": "cabalar-meat-co",
@@ -1496,8 +1506,8 @@
    "name": "Park City Diner",
    "cuisine": "Diner",
    "address": "884 Plaza Blvd",
-   "phone": "(717) 435-8516",
-   "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
+   "phone": "(717) 435-8512",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01 (replaces older OpenStreetMap number (717) 435-8516)",
    "lat": 40.06875,
    "lng": -76.34292,
    "priceText": null,
@@ -1513,7 +1523,7 @@
    "vibes": [
     "Family-friendly"
    ],
-   "source": "parkcitydiner.us, eattheway.com",
+   "source": "parkcitydiner.us, eattheway.com; Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
    "county": "Lancaster"
   },
   {
@@ -1534,8 +1544,10 @@
    "specials": [],
    "crowd": null,
    "vibes": [],
-   "source": "exa.ai places",
-   "county": "Lancaster"
+   "source": "exa.ai places; Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
+   "county": "Lancaster",
+   "phone": "(717) 393-4878",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
   },
   {
    "id": "tobias-frogg",
@@ -1593,8 +1605,10 @@
     "Sports & games",
     "Bar scene"
    ],
-   "source": "Venue site",
-   "county": "Lancaster"
+   "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
+   "county": "Lancaster",
+   "phone": "(717) 394-1635",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
   },
   {
    "id": "stubby-s-bar-and-grille-olde-hickory",
@@ -1938,8 +1952,10 @@
     "Live music & events",
     "Sports & games"
    ],
-   "source": "exa.ai places listing / TasteLanc",
-   "county": "Lancaster"
+   "source": "exa.ai places listing / TasteLanc; Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
+   "county": "Lancaster",
+   "phone": "(717) 392-9645",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
   },
   {
    "id": "shamrock-cafe",
@@ -1962,8 +1978,10 @@
     "Bar scene",
     "Sports & games"
    ],
-   "source": "Visit Lancaster PA / Fig Lancaster",
-   "county": "Lancaster"
+   "source": "Visit Lancaster PA / Fig Lancaster; Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
+   "county": "Lancaster",
+   "phone": "(717) 299-2927",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
   },
   {
    "id": "q-s-duke-on-liberty",
@@ -2000,8 +2018,8 @@
    "website": "https://bertandtheelephant.com/",
    "hours": "Mon 4p-10p; Tue closed; Wed-Thu 4p-10p; Fri-Sat 11:30a-11p; Sun closed",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Mon 4p-9p; Wed-Thu 4p-9p; Fri-Sat 11:30a-9p",
+   "kitchenNote": "Venue site: kitchen closes at 9 pm.",
    "happyHours": [],
    "specials": [
     {
@@ -2020,7 +2038,7 @@
     "Bar scene",
     "Date night"
    ],
-   "source": "Venue site / Visit Lancaster PA",
+   "source": "Venue site / Visit Lancaster PA; Bert & The Elephant venue site (checked 2026-11-01)",
    "county": "Lancaster"
   },
   {
@@ -2096,7 +2114,7 @@
    "priceLevel": null,
    "website": "https://www.thistlefinch.com/visit",
    "hours": "Sun-Mon closed; Tue-Fri 4p-11p; Sat 12p-11p",
-   "hoursNote": null,
+   "hoursNote": "Conflict: Google listing (Oct 13, 2026) shows Thu closed.",
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
@@ -2117,16 +2135,18 @@
     "Bar scene",
     "Date night"
    ],
-   "source": "Venue site",
-   "county": "Lancaster"
+   "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 13, 2026) (checked 2026-11-01)",
+   "county": "Lancaster",
+   "phone": "(717) 947-7342",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 13, 2026), checked 2026-11-01"
   },
   {
    "id": "the-greenfield-restaurant-and-bar",
    "name": "The Greenfield Restaurant & Bar",
    "cuisine": "American",
    "address": "595 Greenfield Rd",
-   "phone": "(717) 393-0668",
-   "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
+   "phone": "(717) 915-2391",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01 (replaces older OpenStreetMap number (717) 393-0668)",
    "lat": 40.05519,
    "lng": -76.25143,
    "priceText": null,
@@ -2143,7 +2163,7 @@
     "Date night",
     "Family-friendly"
    ],
-   "source": "Venue site",
+   "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01)",
    "county": "Lancaster"
   },
   {
