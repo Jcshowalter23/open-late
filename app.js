@@ -131,6 +131,17 @@
   // favorites live in localStorage as "area|placeId"
   let favs = new Set();
   try { favs = new Set(JSON.parse(localStorage.getItem("openlate.favs") || "[]")); } catch (e) { favs = new Set(); }
+  // "Still good?" votes: one per deal per device, kept only on this device; each vote is an anonymous GoatCounter event
+  let votes = {};
+  try { votes = JSON.parse(localStorage.getItem("openlate.votes") || "{}") || {}; } catch (e) { votes = {}; }
+  const saveVotes = () => { try { localStorage.setItem("openlate.votes", JSON.stringify(votes)); } catch (e) { /* private mode */ } };
+  const slugify = (s) => String(s || "").toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+  const dealId = (kind, i, x) => `${kind}${i}-${slugify(x.text).slice(0, 40)}`;
+  function votePath(area, id, did, dir) {
+    const head = `deal-vote/${area}/${id}/`, tail = `/${dir}`;
+    const room = Math.max(4, 120 - head.length - tail.length);
+    return head + did.slice(0, room).replace(/-+$/, "") + tail;
+  }
   const saveFavs = () => { try { localStorage.setItem("openlate.favs", JSON.stringify([...favs])); } catch (e) { /* private mode */ } };
   const pkey = (p) => `${p.area}|${p.r.id}`;
   // "Near me": location is asked for only when the user taps Near me (or picks it in Sort), never on load
@@ -375,9 +386,12 @@
         dline = `<div class="dline" aria-label="${dayWord} deals">${day !== now.d && day !== ALL ? `<span class="bday">${esc(d3)}</span>` : ""}<span class="badge ${kind[0]}">${kind[1]}</span>${nowPill}<span class="dtext">${top.days ? `<b class="ddays">${esc(dayWords(top.days))}:</b> ` : ""}${esc(top.text)}${top.flag ? ` <span class="flag" title="${esc(top.flag)}">⚠</span>` : ""}</span>${n > 0 ? `<span class="dmore">+${n} more</span>` : ""}</div>`;
       }
       const meta = [r.cuisine, r.priceLevel].filter(Boolean).map(esc).join(" · ");
-      const wk = (x) => dealHtml(x);
-      const wkList = (list) => list && list.length ? `<ul class="wk">${list.map((x) => `<li>${wk(x)}</li>`).join("")}</ul>` : "";
-      const weekly = wkList(r.specials), weeklyHH = wkList(r.happyHours);
+      const thumbs = (kind, i, x) => {
+        const did = dealId(kind, i, x), v = votes[`${p.area}|${r.id}|${did}`];
+        return `<span class="vote" data-deal="${esc(did)}" data-dtext="${esc(x.text)}">${v ? `<span class="vthanks">${v === "up" ? "👍" : "👎"} Thanks!</span>` : `<span class="vq">Still good?</span><button type="button" class="vbtn" data-act="vote" data-dir="up" aria-label="Yes, this deal is still good">👍</button><button type="button" class="vbtn" data-act="vote" data-dir="down" aria-label="No, this deal looks out of date">👎</button>`}</span>`;
+      };
+      const wkList = (list, kind) => list && list.length ? `<ul class="wk">${list.map((x, i) => `<li>${dealHtml(x)}${thumbs(kind, i, x)}</li>`).join("")}</ul>` : "";
+      const weekly = wkList(r.specials, "s"), weeklyHH = wkList(r.happyHours, "h");
       const where = `${r.name}, ${r.address ? r.address + ", " : ""}${p.areaName}, PA`;
       const dirs = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(where)}`;
       const reviews = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(where)}`;
@@ -715,6 +729,13 @@
         b.setAttribute("aria-label", `${f ? "Remove from" : "Add to"} favorites: ${p ? p.r.name : ""}`);
         if (on("favsOnly")) render();
       } else if (b.dataset.act === "share" && p) share(p);
+      else if (b.dataset.act === "vote" && p) {
+        const box = b.closest(".vote"), did = box.dataset.deal, dir = b.dataset.dir, vk = `${p.area}|${p.r.id}|${did}`;
+        if (votes[vk]) return;
+        votes[vk] = dir; saveVotes();
+        track(votePath(p.area, p.r.id, did, dir), `${dir === "up" ? "Still good" : "Out of date"}: ${p.r.name} (${p.areaName}): ${box.dataset.dtext}`.slice(0, 200));
+        box.innerHTML = `<span class="vthanks">${dir === "up" ? "👍" : "👎"} Thanks!</span>`;
+      }
       else if ((b.dataset.act === "suggest" || b.dataset.act === "claim") && p) { e.preventDefault(); openForm(b.dataset.act, p); }
     });
     if (sp.get("q")) { $("q").value = sp.get("q"); setSearchOpen(true); }

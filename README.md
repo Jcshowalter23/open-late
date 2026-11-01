@@ -11,6 +11,17 @@ No build step and no backend. Serve the folder with any static host (`python3 -m
 - **SEO**: per-County landing pages (`/<county>-county/`), `/counties/`, `sitemap.xml`, `robots.txt`, Open Graph image, JSON-LD. Rebuild them with `python3 tools/build_seo.py` after data changes.
 - **Analytics** (off by default): set `goatcounter` in `config.js` to turn on cookie-free GoatCounter.
 
+## "Still good?" deal votes (v83)
+
+Each deal in a place's Details has 👍/👎 ("Still good?"). One vote per deal per device (localStorage `openlate.votes`);
+each vote is an anonymous GoatCounter event `deal-vote/<area>/<place-id>/<h|s><index>-<slug>/<up|down>`. Nothing is emailed.
+
+To list deals people say are out of date, create a GoatCounter API key with only the **Read statistics** permission
+(GoatCounter → your username, top right → API), then:
+
+    GOATCOUNTER_TOKEN=... python3 tools/deal_votes.py            # deals with any 👎, last 90 days
+    GOATCOUNTER_TOKEN=... python3 tools/deal_votes.py --days 30 --min-down 2 --csv
+
 ## config.js
 - `formEndpoint`: `https://formsubmit.co/ajax/<email>`. The first submission sends an "Activate Form" email that has to be clicked. After that you can swap the email for the random alias FormSubmit gives you, so the address isn't in the page source.
 - `goatcounter`: empty = disabled. Set to `https://<code>.goatcounter.com/count`.

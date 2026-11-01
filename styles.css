@@ -225,3 +225,8 @@ dialog#formDlg::backdrop{background:rgba(10,12,18,.55)}
 .wk{list-style:none;margin:4px 0 0;padding:0}
 .wk li{padding:6px 0;border-top:1px dashed var(--line)}
 .wk li:first-child{border-top:0;padding-top:2px}
+/* v83: "Still good?" thumbs */
+.vote{display:flex;align-items:center;gap:6px;margin-top:4px;font-size:.78rem;color:var(--ink3)}
+.vbtn{font:inherit;font-size:1rem;line-height:1;padding:5px 10px;border-radius:999px;border:1px solid var(--line);background:transparent;cursor:pointer;min-height:32px}
+.vbtn:active{transform:scale(.95)}
+.vthanks{color:var(--ink2);font-weight:600}
