@@ -1,36 +1,474 @@
 {
   "defaultArea": "lancaster-pa",
   "regions": [
-    { "id": "lancaster-county-pa", "name": "Lancaster County, PA" },
-    { "id": "south-central-pa", "name": "South Central PA" }
+    {
+      "id": "lancaster-county-pa",
+      "name": "Lancaster County, PA"
+    },
+    {
+      "id": "south-central-pa",
+      "name": "South Central PA"
+    }
   ],
   "areas": [
-    { "id": "lancaster-pa", "name": "Lancaster, PA", "type": "city", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/lancaster-pa.json", "status": "live" },
-    { "id": "neffsville-pa", "name": "Neffsville, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/neffsville-pa.json", "status": "live" },
-    { "id": "lititz-pa", "name": "Lititz, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/lititz-pa.json", "status": "live" },
-    { "id": "manheim-pa", "name": "Manheim, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/manheim-pa.json", "status": "live" },
-    { "id": "ephrata-pa", "name": "Ephrata, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/ephrata-pa.json", "status": "live" },
-    { "id": "marietta-pa", "name": "Marietta, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/marietta-pa.json", "status": "live" },
-    { "id": "columbia-pa", "name": "Columbia, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/columbia-pa.json", "status": "live" },
-    { "id": "denver-pa", "name": "Denver, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/denver-pa.json", "status": "live" },
-    { "id": "cocalico-pa", "name": "Cocalico (Reamstown, Stevens, Adamstown)", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/cocalico-pa.json", "status": "live" },
-    { "id": "elizabethtown-pa", "name": "Elizabethtown, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/elizabethtown-pa.json", "status": "live" },
-    { "id": "mount-joy-pa", "name": "Mount Joy, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/mount-joy-pa.json", "status": "live" },
-    { "id": "strasburg-pa", "name": "Strasburg & Ronks, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/strasburg-pa.json", "status": "live" },
-    { "id": "gap-pa", "name": "Gap, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/gap-pa.json", "status": "live" },
-    { "id": "quarryville-pa", "name": "Quarryville, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/quarryville-pa.json", "status": "live" },
-    { "id": "new-holland-pa", "name": "New Holland, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/new-holland-pa.json", "status": "live" },
-    { "id": "leola-pa", "name": "Leola, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/leola-pa.json", "status": "live" },
-    { "id": "bird-in-hand-pa", "name": "Bird-in-Hand & Intercourse, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/bird-in-hand-pa.json", "status": "live" },
-    { "id": "millersville-pa", "name": "Millersville, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/millersville-pa.json", "status": "live" },
-    { "id": "akron-pa", "name": "Akron, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/akron-pa.json", "status": "live" },
-    { "id": "mountville-pa", "name": "Mountville, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/mountville-pa.json", "status": "live" },
-    { "id": "east-petersburg-pa", "name": "East Petersburg, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/east-petersburg-pa.json", "status": "live" },
-    { "id": "landisville-pa", "name": "Landisville & Salunga, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/landisville-pa.json", "status": "live" },
-    { "id": "willow-street-pa", "name": "Willow Street, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/willow-street-pa.json", "status": "live" },
-    { "id": "terre-hill-pa", "name": "Terre Hill & East Earl, PA", "type": "town", "region": "lancaster-county-pa", "timezone": "America/New_York", "file": "data/cities/terre-hill-pa.json", "status": "live" },
-    { "id": "york-pa", "name": "York, PA", "type": "city", "region": "south-central-pa", "timezone": "America/New_York", "file": "data/cities/york-pa.json", "status": "live" },
-    { "id": "harrisburg-pa", "name": "Harrisburg, PA", "type": "city", "region": "south-central-pa", "timezone": "America/New_York", "file": "data/cities/harrisburg-pa.json", "status": "live" },
-    { "id": "reading-pa", "name": "Reading, PA", "type": "city", "region": "south-central-pa", "timezone": "America/New_York", "file": "data/cities/reading-pa.json", "status": "live" }
+    {
+      "id": "lancaster-pa",
+      "name": "Lancaster, PA",
+      "type": "city",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/lancaster-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "neffsville-pa",
+      "name": "Neffsville, PA",
+      "type": "town",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/neffsville-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "lititz-pa",
+      "name": "Lititz, PA",
+      "type": "town",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/lititz-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "manheim-pa",
+      "name": "Manheim, PA",
+      "type": "town",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/manheim-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "ephrata-pa",
+      "name": "Ephrata, PA",
+      "type": "town",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/ephrata-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "marietta-pa",
+      "name": "Marietta, PA",
+      "type": "town",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/marietta-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "columbia-pa",
+      "name": "Columbia, PA",
+      "type": "town",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/columbia-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "denver-pa",
+      "name": "Denver, PA",
+      "type": "town",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/denver-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "cocalico-pa",
+      "name": "Cocalico (Reamstown, Stevens, Adamstown)",
+      "type": "town",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/cocalico-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "elizabethtown-pa",
+      "name": "Elizabethtown, PA",
+      "type": "town",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/elizabethtown-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "mount-joy-pa",
+      "name": "Mount Joy, PA",
+      "type": "town",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/mount-joy-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "strasburg-pa",
+      "name": "Strasburg & Ronks, PA",
+      "type": "town",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/strasburg-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "gap-pa",
+      "name": "Gap, PA",
+      "type": "town",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/gap-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "quarryville-pa",
+      "name": "Quarryville, PA",
+      "type": "town",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/quarryville-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "new-holland-pa",
+      "name": "New Holland, PA",
+      "type": "town",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/new-holland-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "leola-pa",
+      "name": "Leola, PA",
+      "type": "town",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/leola-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "bird-in-hand-pa",
+      "name": "Bird-in-Hand & Intercourse, PA",
+      "type": "town",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/bird-in-hand-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "millersville-pa",
+      "name": "Millersville, PA",
+      "type": "town",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/millersville-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "akron-pa",
+      "name": "Akron, PA",
+      "type": "town",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/akron-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "mountville-pa",
+      "name": "Mountville, PA",
+      "type": "town",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/mountville-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "east-petersburg-pa",
+      "name": "East Petersburg, PA",
+      "type": "town",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/east-petersburg-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "landisville-pa",
+      "name": "Landisville & Salunga, PA",
+      "type": "town",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/landisville-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "willow-street-pa",
+      "name": "Willow Street, PA",
+      "type": "town",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/willow-street-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "terre-hill-pa",
+      "name": "Terre Hill & East Earl, PA",
+      "type": "town",
+      "region": "lancaster-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/terre-hill-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "york-pa",
+      "name": "York, PA",
+      "type": "city",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/york-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "harrisburg-pa",
+      "name": "Harrisburg, PA",
+      "type": "city",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/harrisburg-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "reading-pa",
+      "name": "Reading, PA",
+      "type": "city",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/reading-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "camp-hill-pa",
+      "name": "Camp Hill, PA",
+      "type": "city",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/camp-hill-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "carlisle-pa",
+      "name": "Carlisle & Boiling Springs, PA",
+      "type": "city",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/carlisle-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "chambersburg-pa",
+      "name": "Chambersburg, PA",
+      "type": "city",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/chambersburg-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "dillsburg-pa",
+      "name": "Dillsburg, PA",
+      "type": "town",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/dillsburg-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "enola-pa",
+      "name": "Enola, PA",
+      "type": "town",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/enola-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "gettysburg-pa",
+      "name": "Gettysburg, PA",
+      "type": "town",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/gettysburg-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "greencastle-mercersburg-pa",
+      "name": "Greencastle & Mercersburg, PA",
+      "type": "town",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/greencastle-mercersburg-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "hanover-pa",
+      "name": "Hanover, PA",
+      "type": "city",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/hanover-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "hershey-pa",
+      "name": "Hershey, PA",
+      "type": "town",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/hershey-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "hummelstown-pa",
+      "name": "Hummelstown, PA",
+      "type": "town",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/hummelstown-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "lebanon-pa",
+      "name": "Lebanon & Cornwall, PA",
+      "type": "city",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/lebanon-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "lemoyne-pa",
+      "name": "Lemoyne & Wormleysburg, PA",
+      "type": "town",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/lemoyne-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "mechanicsburg-pa",
+      "name": "Mechanicsburg, PA",
+      "type": "city",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/mechanicsburg-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "middletown-pa",
+      "name": "Middletown, PA",
+      "type": "town",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/middletown-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "myerstown-pa",
+      "name": "Myerstown, PA",
+      "type": "town",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/myerstown-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "new-cumberland-pa",
+      "name": "New Cumberland, PA",
+      "type": "town",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/new-cumberland-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "new-oxford-littlestown-pa",
+      "name": "New Oxford & Littlestown, PA",
+      "type": "town",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/new-oxford-littlestown-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "palmyra-annville-pa",
+      "name": "Palmyra & Annville, PA",
+      "type": "town",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/palmyra-annville-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "perry-county-pa",
+      "name": "Perry County (Duncannon, Marysville, Newport), PA",
+      "type": "town",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/perry-county-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "red-lion-pa",
+      "name": "Red Lion, PA",
+      "type": "town",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/red-lion-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "shippensburg-pa",
+      "name": "Shippensburg, PA",
+      "type": "town",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/shippensburg-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "southern-york-pa",
+      "name": "Shrewsbury, New Freedom & Stewartstown, PA",
+      "type": "town",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/southern-york-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "upper-dauphin-pa",
+      "name": "Millersburg, Halifax & Elizabethville, PA",
+      "type": "town",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/upper-dauphin-pa.json",
+      "status": "live"
+    },
+    {
+      "id": "waynesboro-pa",
+      "name": "Waynesboro, PA",
+      "type": "town",
+      "region": "south-central-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/waynesboro-pa.json",
+      "status": "live"
+    }
   ]
 }

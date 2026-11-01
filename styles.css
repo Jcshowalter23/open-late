@@ -43,8 +43,9 @@ input:focus,select:focus{outline:2px solid var(--rose);outline-offset:1px}
 .btn{display:inline-block;background:var(--rose);color:#14161f;text-decoration:none;padding:11px 18px;border-radius:10px;font-weight:600}
 .btn:hover{background:var(--rose-d)}
 .small{font-size:.78rem;color:var(--ink3)}
-.topright{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
-.city select{background:#262a38;color:#fff;border-color:#3a3f52;min-height:36px;padding:6px 10px;font-size:15px;width:auto}
+.topright{display:flex;gap:12px;align-items:center;flex-wrap:wrap;min-width:0;max-width:100%}
+.city select{background:#262a38;color:#fff;border-color:#3a3f52;min-height:36px;padding:6px 10px;font-size:15px;width:auto;max-width:100%;text-overflow:ellipsis}
+.city{min-width:0;max-width:100%;display:block}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 @media (min-width:760px){.top{position:sticky;top:0;z-index:5}}
 .badge{display:inline-block;font-size:.72rem;font-weight:700;padding:1px 7px;border-radius:999px;margin-right:5px;vertical-align:1px}
