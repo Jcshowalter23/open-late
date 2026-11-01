@@ -7,7 +7,7 @@ window.OPENLATE_CONFIG = {
   formEndpoint: "https://formsubmit.co/ajax/jcshowalter23@gmail.com",
   // Privacy-friendly, cookie-free visitor counts via GoatCounter. Empty = analytics off.
   // Set to your GoatCounter count URL, e.g. "https://openlate.goatcounter.com/count".
-  goatcounter: ""
+  goatcounter: "https://openlateapp.goatcounter.com/count"
 };
 // Analytics loader (does nothing while goatcounter is empty). Page views are counted automatically;
 // the app also records a few anonymous events (county/city picks, filter chips, Map, form sent).

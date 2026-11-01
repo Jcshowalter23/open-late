@@ -507,8 +507,13 @@
         say("Thanks! Sent. We check every change against a source before it goes live.", "ok");
         track(`form/${formCtx.mode === "add" ? "add" : $("fOwn").checked ? "claim" : "suggest"}`, "Form sent");
         setTimeout(closeForm, 2600);
-      } else { $("fSend").disabled = false; say("Couldn't send right now.", "err", formMailto(o)); }
-    } catch (err) { $("fSend").disabled = false; say("Couldn't send (are you offline?).", "err", formMailto(o)); }
+      } else {
+        $("fSend").disabled = false;
+        const m = String(j.message || "").trim();
+        if (/activat/i.test(m)) say("The form isn't switched on yet: the site owner has to click the activation email from FormSubmit first. Your message wasn't sent.", "err", formMailto(o));
+        else say(`Couldn't send: ${m || (res.ok ? "the form service didn't confirm it" : "the form service answered " + res.status)}.`, "err", formMailto(o));
+      }
+    } catch (err) { $("fSend").disabled = false; say(navigator.onLine === false ? "Couldn't send: you're offline." : `Couldn't reach the form service (${(err && err.message) || "network error"}).`, "err", formMailto(o)); }
   }
 
   function placeUrl(p) {
