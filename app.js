@@ -436,9 +436,6 @@
     try { localStorage.setItem("openlate.view", v); } catch (e) { /* private mode */ }
     $("viewList").setAttribute("aria-pressed", String(v === "list"));
     $("viewMap").setAttribute("aria-pressed", String(v === "map"));
-    const fab = $("viewFab");
-    fab.textContent = v === "map" ? "☰ List" : "🗺 Map";
-    fab.setAttribute("aria-label", v === "map" ? "Switch to list view" : "Switch to map view");
     document.body.classList.toggle("mapmode", v === "map");
     $("mapwrap").hidden = v !== "map";
     $("list").hidden = v === "map";
@@ -649,7 +646,6 @@
     }));
     $("viewList").addEventListener("click", () => setView("list"));
     $("viewMap").addEventListener("click", () => setView("map"));
-    $("viewFab").addEventListener("click", () => setView(view === "map" ? "list" : "map"));
     // keep the map sized to the space under the sticky header
     const setTopH = () => document.documentElement.style.setProperty("--toph", $("top").offsetHeight + "px");
     setTopH(); window.addEventListener("resize", setTopH);

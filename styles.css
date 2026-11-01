@@ -197,7 +197,7 @@ dialog#formDlg::backdrop{background:rgba(10,12,18,.55)}
 #mapwrap{scroll-margin-top:190px}
 .fown{flex-wrap:wrap}.fown .fhint{flex-basis:100%;padding-left:26px;margin-top:-4px}
 
-/* v77: always-visible List/Map toggle (header) + floating switch button */
+/* v77: always-visible List/Map toggle (header) */
 .chipbar{display:flex;align-items:center;gap:8px;min-width:0}
 .chipbar .chiprow{flex:1;min-width:0}
 .seg-top{border-color:#3a3f52;background:transparent}
@@ -205,15 +205,9 @@ dialog#formDlg::backdrop{background:rgba(10,12,18,.55)}
 .seg-top button[aria-pressed=true]{background:var(--amber);color:var(--night)}
 @media (prefers-color-scheme:dark){.seg-top button[aria-pressed=true]{background:var(--amber);color:var(--night)}}
 @media (min-width:760px){.chipbar{grid-area:chips;align-self:end}}
-.viewfab{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom));transform:translateX(-50%);z-index:1100;display:inline-flex;align-items:center;gap:6px;background:var(--night);color:#fff;border:1px solid #3a3f52;border-radius:999px;padding:10px 20px;min-height:46px;font:inherit;font-size:.95rem;font-weight:700;box-shadow:0 6px 20px rgba(0,0,0,.35);cursor:pointer}
-.viewfab:active{transform:translateX(-50%) scale(.97)}
-@media (prefers-color-scheme:dark){.viewfab{background:var(--amber);color:var(--night);border-color:var(--amber)}}
-main{padding-bottom:84px}
-.foot{padding-bottom:calc(88px + env(safe-area-inset-bottom))}
-.toast{bottom:calc(76px + env(safe-area-inset-bottom))}
-/* map fills the screen under the sticky header, ending above the floating button */
-#map{height:calc(100vh - var(--toph,190px) - 92px);height:calc(100dvh - var(--toph,190px) - 92px);min-height:300px;max-height:none}
-@media (min-width:760px){#map{height:calc(100vh - var(--toph,120px) - 120px);min-height:420px}}
+/* map fills the screen under the sticky header */
+#map{height:calc(100vh - var(--toph,190px) - 16px);height:calc(100dvh - var(--toph,190px) - 16px);min-height:300px;max-height:none}
+@media (min-width:760px){#map{height:calc(100vh - var(--toph,120px) - 24px);min-height:420px}}
 #mapwrap{scroll-margin-top:calc(var(--toph,190px) + 8px)}
 
 /* v78: Ko-fi tip link + bottom sheet */
@@ -224,4 +218,3 @@ main{padding-bottom:84px}
 .kofisheet p{margin:0 0 12px;font-size:.92rem;color:var(--ink2);line-height:1.45}
 .kofix{position:absolute;top:10px;right:10px}
 .kofibtns{display:flex;gap:10px;flex-wrap:wrap}
-body.kofi-on .viewfab{display:none}
