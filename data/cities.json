@@ -29,6 +29,10 @@
     {
       "id": "VA",
       "name": "Virginia"
+    },
+    {
+      "id": "WV",
+      "name": "West Virginia"
     }
   ],
   "countyAliases": {
@@ -256,6 +260,46 @@
       "id": "eastern-shore-va",
       "name": "Eastern Shore",
       "state": "VA"
+    },
+    {
+      "id": "metro-valley-wv",
+      "name": "Charleston & Huntington (Metro Valley)",
+      "state": "WV"
+    },
+    {
+      "id": "mountaineer-country-wv",
+      "name": "Morgantown, Fairmont & Clarksburg",
+      "state": "WV"
+    },
+    {
+      "id": "eastern-panhandle-wv",
+      "name": "Eastern Panhandle (Martinsburg, Harpers Ferry)",
+      "state": "WV"
+    },
+    {
+      "id": "northern-panhandle-wv",
+      "name": "Northern Panhandle (Wheeling, Weirton)",
+      "state": "WV"
+    },
+    {
+      "id": "mid-ohio-valley-wv",
+      "name": "Mid-Ohio Valley (Parkersburg)",
+      "state": "WV"
+    },
+    {
+      "id": "new-river-greenbrier-wv",
+      "name": "New River & Greenbrier Valley (Beckley, Lewisburg)",
+      "state": "WV"
+    },
+    {
+      "id": "highlands-wv",
+      "name": "Potomac Highlands (Elkins, Snowshoe)",
+      "state": "WV"
+    },
+    {
+      "id": "southern-wv",
+      "name": "Southern Coalfields (Bluefield, Logan)",
+      "state": "WV"
     }
   ],
   "areas": [
@@ -15013,6 +15057,776 @@
       ],
       "state": "VA",
       "pickerState": "VA"
+    },
+    {
+      "id": "philippi-wv",
+      "name": "Philippi & Belington (Barbour County), WV",
+      "type": "town",
+      "region": "mountaineer-country-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/philippi-wv.json",
+      "status": "live",
+      "counties": [
+        "Barbour"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "martinsburg-wv",
+      "name": "Martinsburg, Inwood & Falling Waters (Berkeley County), WV",
+      "type": "city",
+      "region": "eastern-panhandle-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/martinsburg-wv.json",
+      "status": "live",
+      "counties": [
+        "Berkeley"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "madison-wv",
+      "name": "Madison, Danville & Comfort (Boone County), WV",
+      "type": "town",
+      "region": "metro-valley-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/madison-wv.json",
+      "status": "live",
+      "counties": [
+        "Boone"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "sutton-wv",
+      "name": "Sutton & Flatwoods (Braxton County), WV",
+      "type": "town",
+      "region": "new-river-greenbrier-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/sutton-wv.json",
+      "status": "live",
+      "counties": [
+        "Braxton"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "wellsburg-wv",
+      "name": "Wellsburg & Follansbee (Brooke County), WV",
+      "type": "town",
+      "region": "northern-panhandle-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/wellsburg-wv.json",
+      "status": "live",
+      "counties": [
+        "Brooke"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "barboursville-wv",
+      "name": "Barboursville, Milton & Culloden, WV",
+      "type": "town",
+      "region": "metro-valley-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/barboursville-wv.json",
+      "status": "live",
+      "counties": [
+        "Cabell"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "huntington-wv",
+      "name": "Huntington, Lesage & Salt Rock, WV",
+      "type": "city",
+      "region": "metro-valley-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/huntington-wv.json",
+      "status": "live",
+      "counties": [
+        "Cabell"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "fayetteville-wv",
+      "name": "Fayetteville, Ansted & Hico, WV",
+      "type": "town",
+      "region": "new-river-greenbrier-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/fayetteville-wv.json",
+      "status": "live",
+      "counties": [
+        "Fayette"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "oak-hill-wv",
+      "name": "Oak Hill & Mount Hope, WV",
+      "type": "town",
+      "region": "new-river-greenbrier-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/oak-hill-wv.json",
+      "status": "live",
+      "counties": [
+        "Fayette"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "glenville-wv",
+      "name": "Glenville, WV",
+      "type": "town",
+      "region": "mid-ohio-valley-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/glenville-wv.json",
+      "status": "live",
+      "counties": [
+        "Gilmer"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "petersburg-wv",
+      "name": "Petersburg, WV",
+      "type": "town",
+      "region": "highlands-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/petersburg-wv.json",
+      "status": "live",
+      "counties": [
+        "Grant"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "lewisburg-wv",
+      "name": "Lewisburg, White Sulphur Springs & Fairlea (Greenbrier County), WV",
+      "type": "town",
+      "region": "new-river-greenbrier-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/lewisburg-wv.json",
+      "status": "live",
+      "counties": [
+        "Greenbrier"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "romney-wv",
+      "name": "Romney & Capon Bridge (Hampshire County), WV",
+      "type": "town",
+      "region": "eastern-panhandle-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/romney-wv.json",
+      "status": "live",
+      "counties": [
+        "Hampshire"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "weirton-wv",
+      "name": "Weirton, Chester & Newell (Hancock County), WV",
+      "type": "town",
+      "region": "northern-panhandle-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/weirton-wv.json",
+      "status": "live",
+      "counties": [
+        "Hancock"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "moorefield-wv",
+      "name": "Moorefield & Wardensville (Hardy County), WV",
+      "type": "town",
+      "region": "highlands-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/moorefield-wv.json",
+      "status": "live",
+      "counties": [
+        "Hardy"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "clarksburg-wv",
+      "name": "Clarksburg, Nutter Fort & East View, WV",
+      "type": "town",
+      "region": "mountaineer-country-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/clarksburg-wv.json",
+      "status": "live",
+      "counties": [
+        "Harrison"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "bridgeport-wv",
+      "name": "Bridgeport & Shinnston, WV",
+      "type": "town",
+      "region": "mountaineer-country-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/bridgeport-wv.json",
+      "status": "live",
+      "counties": [
+        "Harrison"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "ripley-wv",
+      "name": "Ripley & Ravenswood (Jackson County), WV",
+      "type": "town",
+      "region": "mid-ohio-valley-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/ripley-wv.json",
+      "status": "live",
+      "counties": [
+        "Jackson"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "charles-town-wv",
+      "name": "Charles Town, Shepherdstown & Harpers Ferry (Jefferson County), WV",
+      "type": "town",
+      "region": "eastern-panhandle-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/charles-town-wv.json",
+      "status": "live",
+      "counties": [
+        "Jefferson"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "charleston-wv",
+      "name": "Charleston, Elkview & Marmet, WV",
+      "type": "city",
+      "region": "metro-valley-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/charleston-wv.json",
+      "status": "live",
+      "counties": [
+        "Kanawha"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "south-charleston-wv",
+      "name": "South Charleston, Dunbar & Nitro, WV",
+      "type": "town",
+      "region": "metro-valley-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/south-charleston-wv.json",
+      "status": "live",
+      "counties": [
+        "Kanawha"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "weston-wv",
+      "name": "Weston & Jane Lew (Lewis County), WV",
+      "type": "town",
+      "region": "mountaineer-country-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/weston-wv.json",
+      "status": "live",
+      "counties": [
+        "Lewis"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "man-wv",
+      "name": "Man, Chapmanville & Stollings (Logan County), WV",
+      "type": "town",
+      "region": "southern-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/man-wv.json",
+      "status": "live",
+      "counties": [
+        "Logan"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "fairmont-wv",
+      "name": "Fairmont, White Hall & Mannington (Marion County), WV",
+      "type": "town",
+      "region": "mountaineer-country-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/fairmont-wv.json",
+      "status": "live",
+      "counties": [
+        "Marion"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "moundsville-wv",
+      "name": "Moundsville, Cameron & McMechen (Marshall County), WV",
+      "type": "town",
+      "region": "northern-panhandle-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/moundsville-wv.json",
+      "status": "live",
+      "counties": [
+        "Marshall"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "point-pleasant-wv",
+      "name": "Point Pleasant & New Haven (Mason County), WV",
+      "type": "town",
+      "region": "metro-valley-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/point-pleasant-wv.json",
+      "status": "live",
+      "counties": [
+        "Mason"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "war-wv",
+      "name": "War, Welch & Kimball (McDowell County), WV",
+      "type": "town",
+      "region": "southern-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/war-wv.json",
+      "status": "live",
+      "counties": [
+        "McDowell"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "princeton-wv",
+      "name": "Princeton & Matoaka, WV",
+      "type": "town",
+      "region": "southern-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/princeton-wv.json",
+      "status": "live",
+      "counties": [
+        "Mercer"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "bluefield-wv",
+      "name": "Bluefield, Bramwell & Bluewell, WV",
+      "type": "town",
+      "region": "southern-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/bluefield-wv.json",
+      "status": "live",
+      "counties": [
+        "Mercer"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "keyser-wv",
+      "name": "Keyser, Ridgeley & Fort Ashby (Mineral County), WV",
+      "type": "town",
+      "region": "eastern-panhandle-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/keyser-wv.json",
+      "status": "live",
+      "counties": [
+        "Mineral"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "williamson-wv",
+      "name": "Williamson, Matewan & Gilbert (Mingo County), WV",
+      "type": "town",
+      "region": "southern-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/williamson-wv.json",
+      "status": "live",
+      "counties": [
+        "Mingo"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "morgantown-wv",
+      "name": "Morgantown, Westover & Cheat Lake (Monongalia County), WV",
+      "type": "city",
+      "region": "mountaineer-country-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/morgantown-wv.json",
+      "status": "live",
+      "counties": [
+        "Monongalia"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "peterstown-wv",
+      "name": "Peterstown & Union (Monroe County), WV",
+      "type": "town",
+      "region": "new-river-greenbrier-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/peterstown-wv.json",
+      "status": "live",
+      "counties": [
+        "Monroe"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "paw-paw-wv",
+      "name": "Paw Paw, WV",
+      "type": "town",
+      "region": "eastern-panhandle-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/paw-paw-wv.json",
+      "status": "live",
+      "counties": [
+        "Morgan"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "summersville-wv",
+      "name": "Summersville, Richwood & Craigsville (Nicholas County), WV",
+      "type": "town",
+      "region": "new-river-greenbrier-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/summersville-wv.json",
+      "status": "live",
+      "counties": [
+        "Nicholas"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "wheeling-wv",
+      "name": "Wheeling, Triadelphia & Valley Grove (Ohio County), WV",
+      "type": "city",
+      "region": "northern-panhandle-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/wheeling-wv.json",
+      "status": "live",
+      "counties": [
+        "Ohio"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "st-marys-wv",
+      "name": "St. Marys, WV",
+      "type": "town",
+      "region": "mid-ohio-valley-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/st-marys-wv.json",
+      "status": "live",
+      "counties": [
+        "Pleasants"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "marlinton-wv",
+      "name": "Marlinton, Cass & Durbin (Pocahontas County), WV",
+      "type": "town",
+      "region": "highlands-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/marlinton-wv.json",
+      "status": "live",
+      "counties": [
+        "Pocahontas"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "terra-alta-wv",
+      "name": "Terra Alta, Kingwood & Reedsville (Preston County), WV",
+      "type": "town",
+      "region": "mountaineer-country-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/terra-alta-wv.json",
+      "status": "live",
+      "counties": [
+        "Preston"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "hurricane-wv",
+      "name": "Hurricane, Teays Valley & Winfield (Putnam County), WV",
+      "type": "town",
+      "region": "metro-valley-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/hurricane-wv.json",
+      "status": "live",
+      "counties": [
+        "Putnam"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "beckley-wv",
+      "name": "Beckley, Beaver & Crab Orchard (Raleigh County), WV",
+      "type": "town",
+      "region": "new-river-greenbrier-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/beckley-wv.json",
+      "status": "live",
+      "counties": [
+        "Raleigh"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "elkins-wv",
+      "name": "Elkins, Beverly & Helvetia (Randolph County), WV",
+      "type": "town",
+      "region": "highlands-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/elkins-wv.json",
+      "status": "live",
+      "counties": [
+        "Randolph"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "harrisville-wv",
+      "name": "Harrisville, Ellenboro & Cairo (Ritchie County), WV",
+      "type": "town",
+      "region": "mid-ohio-valley-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/harrisville-wv.json",
+      "status": "live",
+      "counties": [
+        "Ritchie"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "spencer-wv",
+      "name": "Spencer, WV",
+      "type": "town",
+      "region": "mid-ohio-valley-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/spencer-wv.json",
+      "status": "live",
+      "counties": [
+        "Roane"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "hinton-wv",
+      "name": "Hinton, WV",
+      "type": "town",
+      "region": "new-river-greenbrier-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/hinton-wv.json",
+      "status": "live",
+      "counties": [
+        "Summers"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "grafton-wv",
+      "name": "Grafton, WV",
+      "type": "town",
+      "region": "mountaineer-country-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/grafton-wv.json",
+      "status": "live",
+      "counties": [
+        "Taylor"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "davis-wv",
+      "name": "Davis, Thomas & Parsons (Tucker County), WV",
+      "type": "town",
+      "region": "highlands-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/davis-wv.json",
+      "status": "live",
+      "counties": [
+        "Tucker"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "sistersville-wv",
+      "name": "Sistersville, Middlebourne & Paden City (Tyler County), WV",
+      "type": "town",
+      "region": "northern-panhandle-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/sistersville-wv.json",
+      "status": "live",
+      "counties": [
+        "Tyler"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "buckhannon-wv",
+      "name": "Buckhannon & Rock Cave (Upshur County), WV",
+      "type": "town",
+      "region": "mountaineer-country-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/buckhannon-wv.json",
+      "status": "live",
+      "counties": [
+        "Upshur"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "kenova-wv",
+      "name": "Kenova, Ceredo & Lavalette (Wayne County), WV",
+      "type": "town",
+      "region": "metro-valley-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/kenova-wv.json",
+      "status": "live",
+      "counties": [
+        "Wayne"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "cowen-wv",
+      "name": "Cowen & Camden-on-Gauley (Webster County), WV",
+      "type": "town",
+      "region": "highlands-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/cowen-wv.json",
+      "status": "live",
+      "counties": [
+        "Webster"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "new-martinsville-wv",
+      "name": "New Martinsville, Pine Grove & Hundred (Wetzel County), WV",
+      "type": "town",
+      "region": "northern-panhandle-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/new-martinsville-wv.json",
+      "status": "live",
+      "counties": [
+        "Wetzel"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "parkersburg-wv",
+      "name": "Parkersburg & Mineralwells, WV",
+      "type": "town",
+      "region": "mid-ohio-valley-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/parkersburg-wv.json",
+      "status": "live",
+      "counties": [
+        "Wood"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "vienna-wv",
+      "name": "Vienna, Williamstown & North Hills, WV",
+      "type": "town",
+      "region": "mid-ohio-valley-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/vienna-wv.json",
+      "status": "live",
+      "counties": [
+        "Wood"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
+    },
+    {
+      "id": "mullens-wv",
+      "name": "Mullens, Oceana & Pineville (Wyoming County), WV",
+      "type": "town",
+      "region": "southern-wv",
+      "timezone": "America/New_York",
+      "file": "data/cities/mullens-wv.json",
+      "status": "live",
+      "counties": [
+        "Wyoming"
+      ],
+      "state": "WV",
+      "pickerState": "WV"
     }
   ],
   "counties": [
@@ -20258,6 +21072,551 @@
       "places": 35,
       "areas": [
         "yorktown-va"
+      ]
+    },
+    {
+      "id": "wv-barbour",
+      "name": "Barbour",
+      "label": "Barbour County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 2,
+      "areas": [
+        "philippi-wv"
+      ]
+    },
+    {
+      "id": "wv-berkeley",
+      "name": "Berkeley",
+      "label": "Berkeley County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 45,
+      "areas": [
+        "martinsburg-wv"
+      ]
+    },
+    {
+      "id": "wv-boone",
+      "name": "Boone",
+      "label": "Boone County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 2,
+      "areas": [
+        "madison-wv"
+      ]
+    },
+    {
+      "id": "wv-braxton",
+      "name": "Braxton",
+      "label": "Braxton County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 5,
+      "areas": [
+        "sutton-wv"
+      ]
+    },
+    {
+      "id": "wv-brooke",
+      "name": "Brooke",
+      "label": "Brooke County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 13,
+      "areas": [
+        "wellsburg-wv"
+      ]
+    },
+    {
+      "id": "wv-cabell",
+      "name": "Cabell",
+      "label": "Cabell County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 71,
+      "areas": [
+        "huntington-wv",
+        "barboursville-wv"
+      ]
+    },
+    {
+      "id": "wv-fayette",
+      "name": "Fayette",
+      "label": "Fayette County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 31,
+      "areas": [
+        "fayetteville-wv",
+        "oak-hill-wv"
+      ]
+    },
+    {
+      "id": "wv-gilmer",
+      "name": "Gilmer",
+      "label": "Gilmer County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 2,
+      "areas": [
+        "glenville-wv"
+      ]
+    },
+    {
+      "id": "wv-grant",
+      "name": "Grant",
+      "label": "Grant County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 5,
+      "areas": [
+        "petersburg-wv"
+      ]
+    },
+    {
+      "id": "wv-greenbrier",
+      "name": "Greenbrier",
+      "label": "Greenbrier County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 21,
+      "areas": [
+        "lewisburg-wv"
+      ]
+    },
+    {
+      "id": "wv-hampshire",
+      "name": "Hampshire",
+      "label": "Hampshire County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 9,
+      "areas": [
+        "romney-wv"
+      ]
+    },
+    {
+      "id": "wv-hancock",
+      "name": "Hancock",
+      "label": "Hancock County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 15,
+      "areas": [
+        "weirton-wv"
+      ]
+    },
+    {
+      "id": "wv-hardy",
+      "name": "Hardy",
+      "label": "Hardy County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 5,
+      "areas": [
+        "moorefield-wv"
+      ]
+    },
+    {
+      "id": "wv-harrison",
+      "name": "Harrison",
+      "label": "Harrison County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 38,
+      "areas": [
+        "clarksburg-wv",
+        "bridgeport-wv"
+      ]
+    },
+    {
+      "id": "wv-jackson",
+      "name": "Jackson",
+      "label": "Jackson County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 6,
+      "areas": [
+        "ripley-wv"
+      ]
+    },
+    {
+      "id": "wv-jefferson",
+      "name": "Jefferson",
+      "label": "Jefferson County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 33,
+      "areas": [
+        "charles-town-wv"
+      ]
+    },
+    {
+      "id": "wv-kanawha",
+      "name": "Kanawha",
+      "label": "Kanawha County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 82,
+      "areas": [
+        "charleston-wv",
+        "south-charleston-wv"
+      ]
+    },
+    {
+      "id": "wv-lewis",
+      "name": "Lewis",
+      "label": "Lewis County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 6,
+      "areas": [
+        "weston-wv"
+      ]
+    },
+    {
+      "id": "wv-logan",
+      "name": "Logan",
+      "label": "Logan County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 17,
+      "areas": [
+        "man-wv"
+      ]
+    },
+    {
+      "id": "wv-marion",
+      "name": "Marion",
+      "label": "Marion County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 22,
+      "areas": [
+        "fairmont-wv"
+      ]
+    },
+    {
+      "id": "wv-marshall",
+      "name": "Marshall",
+      "label": "Marshall County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 11,
+      "areas": [
+        "moundsville-wv"
+      ]
+    },
+    {
+      "id": "wv-mason",
+      "name": "Mason",
+      "label": "Mason County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 5,
+      "areas": [
+        "point-pleasant-wv"
+      ]
+    },
+    {
+      "id": "wv-mcdowell",
+      "name": "McDowell",
+      "label": "McDowell County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 1,
+      "areas": [
+        "war-wv"
+      ]
+    },
+    {
+      "id": "wv-mercer",
+      "name": "Mercer",
+      "label": "Mercer County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 24,
+      "areas": [
+        "princeton-wv",
+        "bluefield-wv"
+      ]
+    },
+    {
+      "id": "wv-mineral",
+      "name": "Mineral",
+      "label": "Mineral County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 12,
+      "areas": [
+        "keyser-wv"
+      ]
+    },
+    {
+      "id": "wv-mingo",
+      "name": "Mingo",
+      "label": "Mingo County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 10,
+      "areas": [
+        "williamson-wv"
+      ]
+    },
+    {
+      "id": "wv-monongalia",
+      "name": "Monongalia",
+      "label": "Monongalia County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 50,
+      "areas": [
+        "morgantown-wv"
+      ]
+    },
+    {
+      "id": "wv-monroe",
+      "name": "Monroe",
+      "label": "Monroe County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 2,
+      "areas": [
+        "peterstown-wv"
+      ]
+    },
+    {
+      "id": "wv-morgan",
+      "name": "Morgan",
+      "label": "Morgan County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 2,
+      "areas": [
+        "paw-paw-wv"
+      ]
+    },
+    {
+      "id": "wv-nicholas",
+      "name": "Nicholas",
+      "label": "Nicholas County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 12,
+      "areas": [
+        "summersville-wv"
+      ]
+    },
+    {
+      "id": "wv-ohio",
+      "name": "Ohio",
+      "label": "Ohio County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 37,
+      "areas": [
+        "wheeling-wv"
+      ]
+    },
+    {
+      "id": "wv-pleasants",
+      "name": "Pleasants",
+      "label": "Pleasants County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 1,
+      "areas": [
+        "st-marys-wv"
+      ]
+    },
+    {
+      "id": "wv-pocahontas",
+      "name": "Pocahontas",
+      "label": "Pocahontas County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 6,
+      "areas": [
+        "marlinton-wv"
+      ]
+    },
+    {
+      "id": "wv-preston",
+      "name": "Preston",
+      "label": "Preston County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 10,
+      "areas": [
+        "terra-alta-wv"
+      ]
+    },
+    {
+      "id": "wv-putnam",
+      "name": "Putnam",
+      "label": "Putnam County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 24,
+      "areas": [
+        "hurricane-wv"
+      ]
+    },
+    {
+      "id": "wv-raleigh",
+      "name": "Raleigh",
+      "label": "Raleigh County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 32,
+      "areas": [
+        "beckley-wv"
+      ]
+    },
+    {
+      "id": "wv-randolph",
+      "name": "Randolph",
+      "label": "Randolph County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 20,
+      "areas": [
+        "elkins-wv"
+      ]
+    },
+    {
+      "id": "wv-ritchie",
+      "name": "Ritchie",
+      "label": "Ritchie County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 1,
+      "areas": [
+        "harrisville-wv"
+      ]
+    },
+    {
+      "id": "wv-roane",
+      "name": "Roane",
+      "label": "Roane County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 2,
+      "areas": [
+        "spencer-wv"
+      ]
+    },
+    {
+      "id": "wv-summers",
+      "name": "Summers",
+      "label": "Summers County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 3,
+      "areas": [
+        "hinton-wv"
+      ]
+    },
+    {
+      "id": "wv-taylor",
+      "name": "Taylor",
+      "label": "Taylor County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 2,
+      "areas": [
+        "grafton-wv"
+      ]
+    },
+    {
+      "id": "wv-tucker",
+      "name": "Tucker",
+      "label": "Tucker County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 10,
+      "areas": [
+        "davis-wv"
+      ]
+    },
+    {
+      "id": "wv-tyler",
+      "name": "Tyler",
+      "label": "Tyler County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 3,
+      "areas": [
+        "sistersville-wv"
+      ]
+    },
+    {
+      "id": "wv-upshur",
+      "name": "Upshur",
+      "label": "Upshur County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 9,
+      "areas": [
+        "buckhannon-wv"
+      ]
+    },
+    {
+      "id": "wv-wayne",
+      "name": "Wayne",
+      "label": "Wayne County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 5,
+      "areas": [
+        "kenova-wv"
+      ]
+    },
+    {
+      "id": "wv-webster",
+      "name": "Webster",
+      "label": "Webster County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 1,
+      "areas": [
+        "cowen-wv"
+      ]
+    },
+    {
+      "id": "wv-wetzel",
+      "name": "Wetzel",
+      "label": "Wetzel County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 6,
+      "areas": [
+        "new-martinsville-wv"
+      ]
+    },
+    {
+      "id": "wv-wood",
+      "name": "Wood",
+      "label": "Wood County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 32,
+      "areas": [
+        "parkersburg-wv",
+        "vienna-wv"
+      ]
+    },
+    {
+      "id": "wv-wyoming",
+      "name": "Wyoming",
+      "label": "Wyoming County",
+      "state": "WV",
+      "pickerState": "WV",
+      "places": 6,
+      "areas": [
+        "mullens-wv"
       ]
     }
   ]
