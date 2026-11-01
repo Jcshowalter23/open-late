@@ -242,3 +242,7 @@ dialog#formDlg::backdrop{background:rgba(10,12,18,.55)}
 .count.loading::after{content:"";display:inline-block;width:.7em;height:.7em;margin-left:.4em;vertical-align:-.05em;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:olspin .8s linear infinite}
 @keyframes olspin{to{transform:rotate(360deg)}}
 .card .town .tzn{font-size:.75rem;color:var(--ink3)}
+/* Details toggle in the card's bottom-right corner, on the Checked row when there is one */
+.more-info>summary{display:flex;width:max-content;margin-left:auto}
+.card .lchk{padding-right:5.5rem;min-height:28px;display:flex;align-items:center;margin-top:0}
+.card .lchk+.more-info{margin-top:-31px}
