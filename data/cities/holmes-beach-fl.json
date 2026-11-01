@@ -1,0 +1,679 @@
+{
+ "id": "holmes-beach-fl",
+ "name": "Holmes Beach, FL",
+ "timezone": "America/New_York",
+ "checked": "2026-11-01",
+ "checkedLabel": "Nov 1, 2026",
+ "restaurants": [
+  {
+   "id": "fl-anchor-inn",
+   "name": "Anchor Inn",
+   "cuisine": "Pub",
+   "address": "3007 Gulf Dr, Holmes Beach",
+   "state": "FL",
+   "zip": "34217",
+   "phone": "(941) 778-3085",
+   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Holmes-Beach/374940553566/Anchor-Inn), checked 2026-11-01",
+   "lat": 27.4899,
+   "lng": -82.7067,
+   "priceText": "$ (Facebook page)",
+   "priceLevel": "$",
+   "website": "https://www.theanchorami.com/",
+   "hours": "Daily 7a-3a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Manatee",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/fl/holmes-beach/anchor-inn-/",
+        "quote": "perience, setting it apart from other restaurants. This charming spot is a favorite among locals and visitors alike, with its festive atmosphere featuring ice-cold drinks, pinball, and p",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.theanchorami.com/",
+        "quote": "T | More | Use tab to navigate through the menu items. | Call Us | Get Directions | Where Locals Drop Anchor | Sports Packages | Enjoy your favorite sports on our (4) 50\" and (1) 65\" TVs",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.theanchorami.com/",
+        "quote": "p Anchor | Sports Packages | Enjoy your favorite sports on our (4) 50\" and (1) 65\" TVs! | Catch every game with NHL Center Ice, NFL Sunday Ticket and MLB Extra Innings! | Pool, Darts & Games | Thr",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/fl/holmes-beach/anchor-inn-/",
+    "facebookMirror": "https://www.foodyas.com/US/Holmes-Beach/374940553566/Anchor-Inn",
+    "fbPostsSeen": 3,
+    "fbNewestPost": "2026-10-24",
+    "website": "https://www.theanchorami.com/"
+   }
+  },
+  {
+   "id": "fl-beach-bistro",
+   "name": "Beach Bistro",
+   "cuisine": "Restaurant",
+   "address": "6600 Gulf Dr, Holmes Beach",
+   "state": "FL",
+   "zip": "34217",
+   "phone": "(941) 778-6444",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/fl/holmes-beach/beach-bistro-/ (updated 2026-10-09), checked 2026-11-01",
+   "lat": 27.5122,
+   "lng": -82.722,
+   "priceText": "$$$$ (Facebook page)",
+   "priceLevel": "$$$$",
+   "website": null,
+   "hours": "Daily 4p-10p",
+   "hoursNote": "Hours differ by source: Facebook page lists Daily 5p-10p (no posts since May 2026); Restaurantji (updated 2026-10-09) used as newer. Call ahead.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji (updated 2026-10-09; newer than any Facebook activity) (checked 2026-11-01)",
+   "county": "Manatee",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-09",
+        "url": "https://www.restaurantji.com/fl/holmes-beach/beach-bistro-/",
+        "quote": "rangelico are memorable. The restaurant offers complimentary valet parking and provides a fine dining experience that is worth the price. With its exceptional service, beautiful setting, and",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Holmes-Beach/73012374189/Beach-Bistro",
+        "quote": "s of the Gulf of Mexico has earned Bon Appétit’s acclaim for being one of Florida’s “Most Romantic Restaurants”. Food and W**e magazine acclaimed the Bistro's waterfront perch as \"almost l",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/fl/holmes-beach/beach-bistro-/",
+    "facebookMirror": "https://www.foodyas.com/US/Holmes-Beach/73012374189/Beach-Bistro",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2024-09-30",
+    "website": null
+   },
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "facebook": "Daily 5p-10p",
+      "restaurantji": "Daily 4p-10p"
+     },
+     "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+     ],
+     "resolution": "Restaurantji hours used (newer)",
+     "checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "fl-freckled-fin-irish-pub",
+   "name": "Freckled Fin Irish Pub",
+   "cuisine": "Irish Pub",
+   "address": "5337 Gulf Dr, Holmes Beach",
+   "state": "FL",
+   "zip": "34217",
+   "phone": "(941) 251-3930",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/fl/holmes-beach/freckled-fin-irish-pub-/ (updated 2026-10-18), checked 2026-11-01",
+   "lat": 27.5061,
+   "lng": -82.7153,
+   "priceText": "$$ (Facebook page)",
+   "priceLevel": "$$",
+   "website": "http://www.freckledfin.com/",
+   "hours": "Mon-Thu 11a-12a; Fri-Sat 11a-1a; Sun 11a-12a",
+   "hoursNote": "Restaurantji (updated 2026-10-18) lists different hours: Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-11p. Call ahead to confirm.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$24 domestic beer buckets",
+     "tags": [
+      "beer"
+     ],
+     "src": "Freckled Fin Irish Pub Facebook post Oct 24, 2026 (via foodyas)",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "crowd": null,
+   "vibes": [
+    "Bar scene",
+    "Live music & events",
+    "Sports & games"
+   ],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Manatee",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-24",
+      "quote": "Monday: Karaoke with Fitz | Happy Hour EVERYDAY! 3pm-6pm :",
+      "url": "https://www.foodyas.com/US/Holmes-Beach/622943387812342/Freckled-Fin-Irish-Pub"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-31",
+      "quote": "Dj JT will be performing from 8:30pm-12:30am | Costume Contest judging will be held at 10pm & there will be prizes for Best male, Best female, & Best couple! | Halloween Party this weekend! 🎃 Join us ",
+      "url": "https://www.foodyas.com/US/Holmes-Beach/622943387812342/Freckled-Fin-Irish-Pub"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/fl/holmes-beach/freckled-fin-irish-pub-/",
+    "facebookMirror": "https://www.foodyas.com/US/Holmes-Beach/622943387812342/Freckled-Fin-Irish-Pub",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   },
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "facebook": "Mon-Thu 11a-12a; Fri-Sat 11a-1a; Sun 11a-12a",
+      "restaurantji": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-11p"
+     },
+     "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+     ],
+     "resolution": "Facebook page hours kept (venue-managed, active)",
+     "checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "fl-hurricane-hanks",
+   "name": "Hurricane Hanks",
+   "cuisine": "Restaurant",
+   "address": "5346 Gulf Dr, Holmes Beach",
+   "state": "FL",
+   "zip": "34217",
+   "phone": "(941) 778-5788",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/fl/holmes-beach/hurricane-hanks-/ (updated 2026-10-18), checked 2026-11-01",
+   "lat": 27.5057,
+   "lng": -82.7146,
+   "priceText": "$$ (Facebook page)",
+   "priceLevel": "$$",
+   "website": "http://HurricaneHanks.com/",
+   "hours": "Daily 11:30a-11p",
+   "hoursNote": "Restaurantji (updated 2026-10-18) lists different hours: Mon-Thu 11:30a-9p; Fri-Sat 11:30a-10p; Sun 11:30a-9p. Call ahead to confirm.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Manatee",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-18",
+        "url": "https://www.restaurantji.com/fl/holmes-beach/hurricane-hanks-/",
+        "quote": "asoning, the overall experience remains positive, making it a spot worth checking out for locals and visitors alike.",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Holmes-Beach/221142380713/Hurricane-Hanks",
+        "quote": "Website | A favourite of locals and visitors alike. We serve great food in a casual environment with friendly service. Ou",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/fl/holmes-beach/hurricane-hanks-/",
+    "facebookMirror": "https://www.foodyas.com/US/Holmes-Beach/221142380713/Hurricane-Hanks",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-09-25",
+    "website": null
+   },
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "facebook": "Daily 11:30a-11p",
+      "restaurantji": "Mon-Thu 11:30a-9p; Fri-Sat 11:30a-10p; Sun 11:30a-9p"
+     },
+     "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+     ],
+     "resolution": "Facebook page hours kept (venue-managed, active)",
+     "checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "fl-isola-bella-italian-eatery",
+   "name": "ISOLA BELLA Italian Eatery",
+   "cuisine": "Italian",
+   "address": "5904 Marina Dr, Holmes Beach, Manatee",
+   "state": "FL",
+   "zip": "34217",
+   "phone": null,
+   "lat": 27.5106,
+   "lng": -82.7155,
+   "priceText": "$$ (Facebook page)",
+   "priceLevel": "$$",
+   "website": "http://IsolaBellaItalianEatery.com/",
+   "hours": "Mon-Sat 5p-9p; Sun closed",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Date night"
+   ],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Manatee",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Manatee/778066185685238/ISOLA-BELLA-Italian-Eatery",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-17",
+    "website": null
+   }
+  },
+  {
+   "id": "fl-rod-n-reel-pier",
+   "name": "Rod N’ Reel Pier",
+   "cuisine": "Restaurant",
+   "address": "3246 E. Bay Dr, Holmes Beach",
+   "state": "FL",
+   "zip": "34217",
+   "phone": "(941) 778-1885",
+   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Holmes-Beach/109862300803462/Rod-N%E2%80%99-Reel-Pier), checked 2026-11-01",
+   "lat": 27.5382,
+   "lng": -82.7393,
+   "priceText": "$$ (Facebook page)",
+   "priceLevel": "$$",
+   "website": "https://gofund.me/6c899b12, https://bongobeachwear.com/collections/official-rod-reel-fundraiser-page, http://rodreelpier",
+   "hours": "Daily 11a-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Don’t forget Domestic Draft Pitchers are ONLY $9",
+     "tags": [
+      "beer"
+     ],
+     "src": "Rod N’ Reel Pier Facebook post Sep 26, 2026 (via foodyas)",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Manatee",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "attr",
+        "src": "Google attribute 'good for watching sports' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/fl/anna-maria/rod-and-reel-pier-/",
+        "quote": "good for watching sports"
+       },
+       {
+        "type": "venue",
+        "src": "venue's own Facebook posts (3 since May 2026, via foodyas)",
+        "url": "https://www.foodyas.com/US/Holmes-Beach/109862300803462/Rod-N%E2%80%99-Reel-Pier",
+        "quote": "Catch EVERY NFL game at Rod & Reel Plaza with NFL Sunday Ticket! 🏴‍☠️🎣 | • | 🍺 $9.90 Domestic b**r pitchers during ALL Bucs games! | • | Grab your crew,"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/fl/anna-maria/rod-and-reel-pier-/",
+    "facebookMirror": "https://www.foodyas.com/US/Holmes-Beach/109862300803462/Rod-N%E2%80%99-Reel-Pier",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
+  },
+  {
+   "id": "fl-the-feast-ami",
+   "name": "The Feast AMI",
+   "cuisine": "American",
+   "address": "5406 Marina Dr, Holmes Beach",
+   "state": "FL",
+   "zip": "34217",
+   "phone": "(941) 778-5092",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/fl/holmes-beach/the-feast-restaurant-/ (updated 2026-10-21), checked 2026-11-01",
+   "lat": 27.5065,
+   "lng": -82.7147,
+   "priceText": "$$ (Facebook page)",
+   "priceLevel": "$$",
+   "website": "http://www.thefeastrestaurantami.com/",
+   "hours": "Daily 3:30p-9p",
+   "hoursNote": "Restaurantji (updated 2026-10-21) lists different hours: Daily 4p-9p. Call ahead to confirm.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Manatee",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Holmes-Beach/2015611258664736/The-Feast-AMI",
+        "quote": "Website | 🌴 A local favorite on Anna Maria Island | 🍽️ Fresh flavors + handcrafted cocktails | 🍹 Happy Hour DAILY • 4–",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/fl/holmes-beach/the-feast-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Holmes-Beach/2015611258664736/The-Feast-AMI",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   },
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "facebook": "Daily 3:30p-9p",
+      "restaurantji": "Daily 4p-9p"
+     },
+     "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+     ],
+     "resolution": "Facebook page hours kept (venue-managed, active)",
+     "checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "fl-the-ugly-grouper",
+   "name": "The Ugly Grouper",
+   "cuisine": "Seafood",
+   "address": "5704 Marina Dr, Holmes Beach",
+   "state": "FL",
+   "zip": "34217",
+   "phone": "(941) 896-8033",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/fl/holmes-beach/the-ugly-grouper-/ (updated 2026-10-18), checked 2026-11-01",
+   "lat": 27.5094,
+   "lng": -82.7148,
+   "priceText": "$$ (Facebook page)",
+   "priceLevel": "$$",
+   "website": null,
+   "hours": "Mon-Fri 11a-10p; Sat 11a-1a; Sun 11a-9p",
+   "hoursNote": "Restaurantji (updated 2026-10-18) lists different hours: Daily 11a-10p. Call ahead to confirm.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Live music & events",
+    "Date night"
+   ],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Manatee",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-18",
+        "url": "https://www.restaurantji.com/fl/holmes-beach/the-ugly-grouper-/",
+        "quote": "ded, especially during popular events, but the wait is manageable, and visitors can enjoy live music while waiting. The establishment is praised for its delicious food, including the grouper",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Holmes-Beach/189099054759206/The-Ugly-Grouper",
+        "quote": "g restaurant! Don't leave the kids or the dogs at home, we are family & pet friendly with live music every day! Be sure to take a picture with the giant Ugly Grouper statue! It could get UgLy! The",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/fl/holmes-beach/the-ugly-grouper-/",
+    "facebookMirror": "https://www.foodyas.com/US/Holmes-Beach/189099054759206/The-Ugly-Grouper",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-23",
+    "website": null
+   },
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "facebook": "Mon-Fri 11a-10p; Sat 11a-1a; Sun 11a-9p",
+      "restaurantji": "Daily 11a-10p"
+     },
+     "days": [
+      "Sat",
+      "Sun"
+     ],
+     "resolution": "Facebook page hours kept (venue-managed, active)",
+     "checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "fl-thechateauannamaria",
+   "name": "Thechateauannamaria",
+   "cuisine": "Restaurant",
+   "address": "5325 Marina Dr, Holmes Beach",
+   "state": "FL",
+   "zip": "34217",
+   "phone": "(941) 238-6264",
+   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Holmes-Beach/109627700616013/Thechateauannamaria), checked 2026-11-01",
+   "lat": 27.5075,
+   "lng": -82.7136,
+   "priceText": "$$$ (Facebook page)",
+   "priceLevel": "$$$",
+   "website": "https://thechateauonthelake.com/",
+   "hours": "Mon 5p-9p; Tue-Thu 1p-10p; Fri 1p-11p; Sat 1p-10p; Sun 9a-9:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Date night"
+   ],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Manatee",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Holmes-Beach/109627700616013/Thechateauannamaria",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-11",
+    "website": null
+   }
+  },
+  {
+   "id": "fl-tortilla-bay",
+   "name": "Tortilla Bay",
+   "cuisine": "Southwestern",
+   "address": "5318 Marina Dr, Holmes Beach",
+   "state": "FL",
+   "zip": "34217",
+   "phone": "(941) 778-3663",
+   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Holmes-Beach/231943609526/Tortilla-Bay), checked 2026-11-01",
+   "lat": 27.5061,
+   "lng": -82.7145,
+   "priceText": "$ (Facebook page)",
+   "priceLevel": "$",
+   "website": "http://www.tortillabay.com/",
+   "hours": "Daily 11a-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Manatee",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Holmes-Beach/231943609526/Tortilla-Bay",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2021-10-16",
+    "website": null
+   }
+  }
+ ],
+ "type": "town",
+ "region": "tampa-bay-fl",
+ "counties": [
+  "Manatee"
+ ],
+ "state": "FL"
+}

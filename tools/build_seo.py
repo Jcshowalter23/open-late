@@ -171,8 +171,12 @@ for c in counties:
     urls.insert(2, (url, "0.8"))
 # counties index
 tot = sum(c["places"] for c in counties)
-REG = "Pennsylvania" if all(not c.get("state") for c in counties) else "Pennsylvania, Maryland, Delaware & DC"
-REGS = "all 67 Pennsylvania counties" if REG == "Pennsylvania" else "Pennsylvania, Maryland, Delaware and Washington, DC"
+# region wording comes from the States that have Counties, in the picker's order (data/cities.json "states"), so a new State needs no edit here
+_sts = [s for s in idx.get("states") or [{"id": "PA", "name": "Pennsylvania"}] if any((c.get("pickerState") or c.get("state") or "PA") == s["id"] for c in counties)]
+def _join(xs, last): return xs[0] if len(xs) == 1 else ", ".join(xs[:-1]) + f" {last} " + xs[-1]
+REG = "Pennsylvania" if len(_sts) == 1 else _join([("DC" if s["id"] == "DC" else s["name"]) for s in _sts], "&")
+REGS = "all 67 Pennsylvania counties" if REG == "Pennsylvania" else _join([s["name"] for s in _sts], "and")
+REGA = "PA" if REG == "Pennsylvania" else _join([s["id"] for s in _sts], "&")
 body = [f'<h1>Open late across {e(REG)}, by County</h1>',
         f'<p class="lede">{tot:,} restaurants and bars in {len(counties)} counties across {e(REGS)}: hours, kitchen hours, happy hours and wing and beer specials.</p>',
         '<p><a class="btn" href="/">Open the live list</a></p>']
@@ -191,8 +195,23 @@ ld = json.dumps({"@context": "https://schema.org", "@type": "BreadcrumbList", "i
     {"@type": "ListItem", "position": 1, "name": "Open Late", "item": SITE + "/"},
     {"@type": "ListItem", "position": 2, "name": "Counties", "item": SITE + "/counties/"}]}, separators=(",", ":"))
 os.makedirs("counties", exist_ok=True)
-if build_og.save(build_og.home_image(tot, len(counties), "PA" if REG == "Pennsylvania" else "PA, MD, DE & DC"), "icons/og-image.png"): og_changed += 1
+if build_og.save(build_og.home_image(tot, len(counties), REGA), "icons/og-image.png"): og_changed += 1
 open("counties/index.html", "w").write(PAGE.format(title=f"{REG} restaurants & bars open late, by County · Open Late", desc=e(f"Late-night restaurants and bars in {len(counties)} counties across {REGS}: who's open now, kitchen hours, happy hours and specials."), url=SITE + "/counties/", site=SITE, ld=ld, body="\n".join(body), cid="", img="icons/og-image.png", imgalt="Open Late: a crescent moon logo with the words Open Late. Who's open late, whose kitchen is still serving and tonight's specials, across " + REGS + "."))
+# home page + manifest wording follow the same State list, so adding a State needs no hand edit
+REGN = "Pennsylvania" if len(_sts) == 1 else _join([("DC" if s["id"] == "DC" else s["name"]) for s in _sts], "and")
+def _home_meta():
+    import re as _re
+    h = open("index.html").read(); h0 = h
+    subs = [(r'(<title>Open Late · )[^<]*?( restaurants & bars open late)', REGA),
+            (r'(<meta name="description" content="Find restaurants and bars in )[^"]*?( open late tonight)', REGN),
+            (r'(Who\'s open late near you in )[^"]*?(")', REGA),
+            (r'(specials, across )[^"]*?(\.")', REGN),
+            (r'("description":"Restaurants and bars open late in )[^:"]*?(: hours)', REGN)]
+    for pat, val in subs: h = _re.sub(pat, lambda m, v=val: m.group(1) + v + m.group(2), h)
+    if h != h0: open("index.html", "w").write(h)
+    m = open("manifest.webmanifest").read(); m2 = _re.sub(r'(specials across )[^"]*?(\.")', lambda x: x.group(1) + REGN + x.group(2), m)
+    if m2 != m: open("manifest.webmanifest", "w").write(m2)
+_home_meta()
 
 # Renamed Counties (data/cities.json "countyAliases", e.g. md-washington-dc -> washington-dc): the old landing page
 # becomes a redirect to the new one, keeping ?query and #hash (the app maps old ?county= ids itself). Not in the sitemap.

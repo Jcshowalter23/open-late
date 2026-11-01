@@ -1,0 +1,828 @@
+{
+ "id": "citrus-park-fl",
+ "name": "Citrus Park, FL",
+ "timezone": "America/New_York",
+ "checked": "2026-11-01",
+ "checkedLabel": "Nov 1, 2026",
+ "restaurants": [
+  {
+   "id": "fl-bahama-bucks",
+   "name": "Bahama Buck's",
+   "cuisine": "Restaurant",
+   "address": "8527 Gunn Hwy, Odessa",
+   "state": "FL",
+   "zip": "33556",
+   "phone": null,
+   "lat": 28.089,
+   "lng": -82.5784,
+   "priceText": "$ (Facebook page)",
+   "priceLevel": "$",
+   "website": "https://bahamabucks.com/shop/odessa-gunn-highway/",
+   "hours": "Mon-Thu 12p-10p; Fri 12p-12a; Sat 11a-12a; Sun 12p-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Hillsborough",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/fl/odessa/bahama-bucks-odessa-fl-/",
+        "quote": "ly environment with excellent service and tasty snow cones, making it a favorite spot for locals and visitors alike.",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/fl/odessa/bahama-bucks-odessa-fl-/",
+        "quote": "ibrant flavors that are always fresh and flavorful. The atmosphere is fun, welcoming, and family-friendly, making it a great place for after-school treats or group visits like field trips. The st",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/fl/odessa/bahama-bucks-odessa-fl-/",
+    "facebookMirror": "https://www.foodyas.com/US/Odessa/1404929669826471/Bahama-Buck%27s",
+    "fbPostsSeen": 20,
+    "fbNewestPost": "2026-10-31",
+    "website": "https://bahamabucks.com/shop/odessa-gunn-highway/"
+   }
+  },
+  {
+   "id": "fl-bahia-churrascaria-brazilian-steakhouse",
+   "name": "Bahia Churrascaria Brazilian Steakhouse",
+   "cuisine": "Steakhouse",
+   "address": "6254 Gunn Hwy, Tampa",
+   "state": "FL",
+   "zip": "33625",
+   "phone": "(813) 252-7660",
+   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Tampa/126307573906999/Bahia-Churrascaria-Brazilian-Steakhouse), checked 2026-11-01",
+   "lat": 28.0641,
+   "lng": -82.5534,
+   "website": "https://bahiachurrascaria.com/",
+   "hours": "Mon-Thu 11:30a-10p; Fri 11:30a-11p; Sat 11a-11p; Sun 11a-10p",
+   "hoursNote": "Hours differ by source: Facebook page lists Mon-Thu 11a-10p; Fri-Sat 11a-11:30p; Sun 11a-10p (no posts since May 2026); Restaurantji (updated 2026-10-30) used as newer. Call ahead.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Date night"
+   ],
+   "source": "hours from Restaurantji (updated 2026-10-30; newer than any Facebook activity) (checked 2026-11-01)",
+   "county": "Hillsborough",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/fl/tampa/bahia-churrascaria-brazilian-steakhouse-/",
+    "facebookMirror": "https://www.foodyas.com/US/Tampa/126307573906999/Bahia-Churrascaria-Brazilian-Steakhouse",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://bahiachurrascaria.com/"
+   },
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "facebook": "Mon-Thu 11a-10p; Fri-Sat 11a-11:30p; Sun 11a-10p",
+      "restaurantji": "Mon-Thu 11:30a-10p; Fri 11:30a-11p; Sat 11a-11p; Sun 11a-10p"
+     },
+     "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+     ],
+     "resolution": "Restaurantji hours used (newer)",
+     "checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "fl-belly-busters-on-the-lake",
+   "name": "Belly Busters on the Lake",
+   "cuisine": "Restaurant",
+   "address": "8908 Lake Sunset Dr, Tampa",
+   "state": "FL",
+   "zip": "33626",
+   "phone": "(656) 241-2016",
+   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Tampa/699870476536617/Belly-Busters-on-the-Lake), checked 2026-11-01",
+   "lat": 28.0529,
+   "lng": -82.5822,
+   "website": null,
+   "hours": "Mon closed; Tue-Wed 4:30p-8p; Thu closed; Fri 4:30p-9p; Sat-Sun closed",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Hillsborough",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Tampa/699870476536617/Belly-Busters-on-the-Lake",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-15",
+    "website": null
+   }
+  },
+  {
+   "id": "fl-burger-fans",
+   "name": "Burger Fans",
+   "cuisine": "Burgers",
+   "address": "9822 Anderson Rd, Tampa",
+   "state": "FL",
+   "zip": "33625",
+   "phone": "(786) 848-5500",
+   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Tampa/1093358394050358/Burger-Fans), checked 2026-11-01",
+   "lat": 28.0386,
+   "lng": -82.5424,
+   "website": null,
+   "hours": "Mon closed; Tue-Thu 5:30p-11p; Fri-Sat 5:30p-12a; Sun 5p-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Hillsborough",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Tampa/1093358394050358/Burger-Fans",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "fl-florida-cracker-fish-company",
+   "name": "Florida Cracker Fish Company",
+   "cuisine": "Soul Food",
+   "address": "7604 Ehrlich Rd, Tampa",
+   "state": "FL",
+   "zip": "33625",
+   "phone": "(813) 336-6460",
+   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Tampa/107521458767094/Florida-Cracker-Fish-Company), checked 2026-11-01",
+   "lat": 28.0785,
+   "lng": -82.5699,
+   "priceText": "$$ (Facebook page)",
+   "priceLevel": "$$",
+   "website": "http://www.flacracker.com/fishcompany",
+   "hours": "Mon closed; Tue-Wed 11a-10p; Thu-Fri 11a-11p; Sat 8a-11p; Sun 8a-8p",
+   "hoursNote": "Restaurantji (updated 2026-10-14) lists different hours: Mon closed; Tue-Wed 11a-10p; Thu-Fri 11a-11p; Sat 9a-11p; Sun 9a-8p. Call ahead to confirm.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "From 2–5 PM, we’re shucking $1 oysters and pouring $2 drafts for Happy Hour",
+     "tags": [
+      "beer"
+     ],
+     "src": "Florida Cracker Fish Company Facebook post Oct 1, 2026 (via foodyas)",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Thu",
+     "text": "Florida Cracker Fish Company, Happy Hour Citrus Park, $1 oysters Tampa, $2 drafts Tampa, $5 martinis Citrus Park, Martini Thursday Tampa, seafood Citrus Park, Tampa Happy Hour",
+     "tags": [
+      "beer"
+     ],
+     "src": "Florida Cracker Fish Company Facebook post Oct 1, 2026 (via foodyas)",
+     "checked": "2026-11-01"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Thu",
+     "text": "$5 martinis: every Thursday, iconic craft cocktails: all the time",
+     "tags": [],
+     "src": "Florida Cracker Fish Company Facebook post Oct 8, 2026 (via foodyas)",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Thu",
+     "text": "Florida Cracker Fish Company, Citrus Park cocktails, $5 martinis Tampa, Martini Thursday Citrus Park, craft cocktail bar Tampa, Citrus Park restaurants",
+     "tags": [],
+     "src": "Florida Cracker Fish Company Facebook post Oct 8, 2026 (via foodyas)",
+     "checked": "2026-11-01"
+    }
+   ],
+   "crowd": null,
+   "vibes": [
+    "Live music & events"
+   ],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Hillsborough",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/fl/tampa/florida-cracker-fish-company-/",
+    "facebookMirror": "https://www.foodyas.com/US/Tampa/107521458767094/Florida-Cracker-Fish-Company",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-23",
+    "website": null
+   },
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "facebook": "Mon closed; Tue-Wed 11a-10p; Thu-Fri 11a-11p; Sat 8a-11p; Sun 8a-8p",
+      "restaurantji": "Mon closed; Tue-Wed 11a-10p; Thu-Fri 11a-11p; Sat 9a-11p; Sun 9a-8p"
+     },
+     "days": [
+      "Sat",
+      "Sun"
+     ],
+     "resolution": "Facebook page hours kept (venue-managed, active)",
+     "checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "fl-fords-garage-tampa",
+   "name": "Ford's Garage",
+   "cuisine": "Bar & grill",
+   "address": "10413 Sheldon Rd, Tampa",
+   "state": "FL",
+   "zip": "33626",
+   "phone": null,
+   "lat": 28.0421,
+   "lng": -82.582,
+   "priceText": "$$ (Facebook page)",
+   "priceLevel": "$$",
+   "website": "http://order.fordsgarageusa.com/menu/westchase?olonwp=Lij7MEMhykWQYWp4Jz8H6g",
+   "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Cruise in for a $10 GarageFest Beer served in a limited-edition keepsake stein",
+     "tags": [
+      "beer"
+     ],
+     "src": "Ford's Garage Facebook post Sep 14, 2026 (via foodyas)",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "then bring it back for $5 refills on select draft beers through November 25 at participating locations",
+     "tags": [
+      "beer"
+     ],
+     "src": "Ford's Garage Facebook post Sep 14, 2026 (via foodyas)",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "crowd": null,
+   "vibes": [
+    "Bar scene",
+    "Sports & games"
+   ],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Hillsborough",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Tampa/325702471183961/Ford%27s-Garage",
+    "fbPostsSeen": 14,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
+  },
+  {
+   "id": "fl-minano-ramen",
+   "name": "Minano Ramen",
+   "cuisine": "Japanese",
+   "address": "11909 Sheldon Rd, Tampa",
+   "state": "FL",
+   "zip": "33626",
+   "phone": null,
+   "lat": 28.0568,
+   "lng": -82.5822,
+   "priceText": "$ (Facebook page)",
+   "priceLevel": "$",
+   "website": "http://minanorestaurant.com/",
+   "hours": "Mon-Thu 11a-9:30p; Fri-Sat 11a-10:30p; Sun 12p-9:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Hillsborough",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/fl/tampa/minano-ramen-/",
+    "facebookMirror": "https://www.foodyas.com/US/Tampa/112484761866037/Minano-Ramen",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-23",
+    "website": null
+   }
+  },
+  {
+   "id": "fl-paddywagon-irish-pub-citrus-park",
+   "name": "Paddywagon Irish Pub - Citrus Park",
+   "cuisine": "Pub",
+   "address": "8643 Citrus Park Dr, Tampa",
+   "state": "FL",
+   "zip": "33625",
+   "phone": null,
+   "lat": 28.0657,
+   "lng": -82.5815,
+   "priceText": "$ (Facebook page)",
+   "priceLevel": "$",
+   "website": "http://linksterstaproom.com/",
+   "hours": "Daily 12p-3a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Hillsborough",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Tampa/211465669285679/Paddywagon-Irish-Pub---Citrus-Park",
+        "quote": "Website | An upscale, new millennium take on the neighborhood bar. Premier Irish pub featuring 25 beers on draft and a full-service bar, plus 17 flat scree",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Tampa/211465669285679/Paddywagon-Irish-Pub---Citrus-Park",
+        "quote": "Website | An upscale, new millennium take on the neighborhood bar. Premier Irish pub featuring 25 beers on dra",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Tampa/211465669285679/Paddywagon-Irish-Pub---Citrus-Park",
+    "fbPostsSeen": 5,
+    "fbNewestPost": "2026-09-17",
+    "website": null
+   }
+  },
+  {
+   "id": "fl-peach-cobbler-factory-citrus-park-fl",
+   "name": "Peach Cobbler Factory - Citrus Park FL",
+   "cuisine": "Restaurant",
+   "address": "7002 Gunn Hwy #104, Tampa",
+   "state": "FL",
+   "zip": "33625",
+   "phone": null,
+   "lat": 28.0665,
+   "lng": -82.5705,
+   "website": "https://peachcobblerfactory.com/",
+   "hours": "Daily 12p-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Hillsborough",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Tampa/115036151584771/Peach-Cobbler-Factory---Citrus-Park-FL",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-25",
+    "website": "https://peachcobblerfactory.com/"
+   }
+  },
+  {
+   "id": "fl-quid-pro-q-competition-bbq-team",
+   "name": "Quid Pro Q Competition BBQ Team",
+   "cuisine": "Barbecue",
+   "address": "6507 Gunn Hwy, Tampa",
+   "state": "FL",
+   "zip": "33625",
+   "phone": null,
+   "lat": 28.0659,
+   "lng": -82.5581,
+   "priceText": "$$ (Facebook page)",
+   "priceLevel": "$$",
+   "website": "http://QuidProQ.com/",
+   "hours": "Daily 11a-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Hillsborough",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Tampa/175413686154531/Quid-Pro-Q-Competition-BBQ-Team",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "fl-rice-and-spice-sushi-asian-fusion",
+   "name": "Rice & Spice Sushi - Asian Fusion",
+   "cuisine": "Asian Fusion",
+   "address": "11625 Sheldon Rd, Tampa",
+   "state": "FL",
+   "zip": "33626",
+   "phone": "(813) 475-6955",
+   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Tampa/105684565354632/Rice-%26-Spice-Sushi---Asian-Fusion), checked 2026-11-01",
+   "lat": 28.0543,
+   "lng": -82.582,
+   "website": null,
+   "hours": "Mon closed; Tue-Sun 4p-9:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Hillsborough",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Tampa/105684565354632/Rice-%26-Spice-Sushi---Asian-Fusion",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "fl-saikyo-kitchen",
+   "name": "Saikyo Kitchen",
+   "cuisine": "Japanese",
+   "address": "8741 Gunn Hwy, Odessa",
+   "state": "FL",
+   "zip": "33556",
+   "phone": null,
+   "lat": 28.092,
+   "lng": -82.5786,
+   "priceText": "$$ (Facebook page)",
+   "priceLevel": "$$",
+   "website": "http://www.saikyokitchen.com/",
+   "hours": "Mon closed; Tue-Sat 11a-9p; Sun closed",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Hillsborough",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/fl/odessa/saikyo-kitchen-/",
+    "facebookMirror": "https://www.foodyas.com/US/Odessa/111885211429521/Saikyo-Kitchen",
+    "fbPostsSeen": 5,
+    "fbNewestPost": "2026-09-03",
+    "website": null
+   }
+  },
+  {
+   "id": "fl-tasty-mediterranean-grill",
+   "name": "Tasty Mediterranean Grill",
+   "cuisine": "Mediterranean",
+   "address": "6178 Gunn Hwy, Tampa",
+   "state": "FL",
+   "zip": "33625",
+   "phone": "(813) 321-6886",
+   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Tampa/103130206148748/Tasty-Mediterranean-Grill), checked 2026-11-01. Conflicting (813) 280-9913 on Restaurantji (updated 2026-10-28) not used. Conflicting (813) 280-9913 on Restaurantji (updated 2026-10-28) not used",
+   "lat": 28.0635,
+   "lng": -82.5512,
+   "priceText": "$$ (Facebook page)",
+   "priceLevel": "$$",
+   "website": "https://tastymediterraneantampa.com/",
+   "hours": "Mon closed; Tue-Sun 11:30a-9p",
+   "hoursNote": "Restaurantji (updated 2026-10-28) lists different hours: Mon closed; Tue 11:30a-8p; Wed-Sun 11:30a-8:30p. Call ahead to confirm.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Date night"
+   ],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Hillsborough",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/fl/tampa/tasty-mediterranean-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Tampa/103130206148748/Tasty-Mediterranean-Grill",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-13",
+    "website": null
+   },
+   "conflicts": [
+    {
+     "field": "phone",
+     "values": {
+      "facebook": "(813) 321-6886",
+      "restaurantji": "(813) 280-9913"
+     },
+     "resolution": "Facebook number kept (venue-managed page)",
+     "checked": "2026-11-01"
+    },
+    {
+     "field": "hours",
+     "values": {
+      "facebook": "Mon closed; Tue-Sun 11:30a-9p",
+      "restaurantji": "Mon closed; Tue 11:30a-8p; Wed-Sun 11:30a-8:30p"
+     },
+     "days": [
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+     ],
+     "resolution": "Facebook page hours kept (venue-managed, active)",
+     "checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "fl-thomas-ps-sports-bar-and-patio",
+   "name": "Thomas P's Sports Bar & Patio",
+   "cuisine": "American",
+   "address": "12836 Henderson Rd, Tampa",
+   "state": "FL",
+   "zip": "33625",
+   "phone": "(813) 803-9464",
+   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Tampa/106588730692259/Thomas-P%27s-Sports-Bar-%26-Patio), checked 2026-11-01",
+   "lat": 28.0631,
+   "lng": -82.5502,
+   "priceText": "$$ (Facebook page)",
+   "priceLevel": "$$",
+   "website": "https://www.thomaspsportsbarandpatio.com/",
+   "hours": "Mon 11a-10p; Tue closed; Wed 11a-10p; Thu-Sat 11a-11p; Sun 11a-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene",
+    "Live music & events",
+    "Sports & games"
+   ],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Hillsborough",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Tampa/106588730692259/Thomas-P%27s-Sports-Bar-%26-Patio",
+        "quote": "Website | Tampa Bay's favorite sports bar with 42 TVs, indoor and outdoor seating, live music on our dog friendly patio, ice cold b",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Tampa/106588730692259/Thomas-P%27s-Sports-Bar-%26-Patio",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
+  },
+  {
+   "id": "fl-victoria-tacos-and-1",
+   "name": "Victoria Tacos & 1",
+   "cuisine": "Tex-mex",
+   "address": "Tampa 33626, Tampa",
+   "state": "FL",
+   "zip": "33626",
+   "phone": "(813) 328-4094",
+   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Tampa/1931099790280850/Victoria-Tacos-%26-1), checked 2026-11-01",
+   "lat": 28.0544,
+   "lng": -82.5822,
+   "priceText": "$$ (Facebook page)",
+   "priceLevel": "$$",
+   "website": "http://victoriatacosandcerveza.com/",
+   "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 1a-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Hillsborough",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Tampa/1931099790280850/Victoria-Tacos-%26-1",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "fl-yanes-latin-kitchen",
+   "name": "Yane's Latin Kitchen",
+   "cuisine": "Restaurant",
+   "address": "Tampa 33615, Tampa",
+   "state": "FL",
+   "zip": "33615",
+   "phone": "(813) 510-3534",
+   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Tampa/108206752124436/Yane%27s-Latin-Kitchen), checked 2026-11-01",
+   "lat": 28.0784,
+   "lng": -82.5693,
+   "website": "https://www.yaneslatinkitchen.com/",
+   "hours": "Mon-Thu 8a-6a; Fri 8a-5a; Sat closed; Sun 8a-6a",
+   "hoursNote": "Facebook shows only Mon 8am - 6am, Tue 8am - 6am, Wed 8am - 6am, Thu 8am - 6am, Fri 8am - 5am, Sun 8am - 6am for that day (may be a lunch/brunch-only listing); call ahead.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Hillsborough",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Tampa/108206752124436/Yane%27s-Latin-Kitchen",
+    "fbPostsSeen": 2,
+    "fbNewestPost": "2026-07-24",
+    "website": "https://www.yaneslatinkitchen.com/"
+   }
+  },
+  {
+   "id": "fl-yoshi-sushi",
+   "name": "Yoshi Sushi",
+   "cuisine": "Japanese",
+   "address": "7895 Gunn Hwy, Tampa",
+   "state": "FL",
+   "zip": "33626",
+   "phone": "(813) 792-7515",
+   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Tampa/226236921141825/Yoshi-Sushi), checked 2026-11-01",
+   "lat": 28.0806,
+   "lng": -82.5778,
+   "priceText": "$$ (Facebook page)",
+   "priceLevel": "$$",
+   "website": null,
+   "hours": "Mon-Thu 11:30a-9:30p; Fri-Sat 11:30a-10:30p; Sun 4p-9:30p",
+   "hoursNote": "Hours differ by source: Facebook page lists Mon-Thu 11:30a-10p; Fri 11:30a-11p; Sat 11:30a-2:30p; Sun closed (no posts since May 2026); Restaurantji (updated 2026-10-28) used as newer. Call ahead.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji (updated 2026-10-28; newer than any Facebook activity) (checked 2026-11-01)",
+   "county": "Hillsborough",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/fl/tampa/yoshi-sushi-/",
+        "quote": "r seating provides a quick dining option, and the accommodating, friendly staff creates a kid-friendly environment, making it a great place for families. Although they may not always have high",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/fl/tampa/yoshi-sushi-/",
+    "facebookMirror": "https://www.foodyas.com/US/Tampa/226236921141825/Yoshi-Sushi",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   },
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "facebook": "Mon-Thu 11:30a-10p; Fri 11:30a-11p; Sat 11:30a-2:30p; Sun closed",
+      "restaurantji": "Mon-Thu 11:30a-9:30p; Fri-Sat 11:30a-10:30p; Sun 4p-9:30p"
+     },
+     "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+     ],
+     "resolution": "Restaurantji hours used (newer)",
+     "checked": "2026-11-01"
+    }
+   ]
+  }
+ ],
+ "type": "town",
+ "region": "tampa-bay-fl",
+ "counties": [
+  "Hillsborough"
+ ],
+ "state": "FL"
+}

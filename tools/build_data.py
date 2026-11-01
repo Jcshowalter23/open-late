@@ -123,7 +123,12 @@ def build(write=True):
         fn = f"data/county/{c['id']}.json"
         meta = {"label": c.get("label") or f"{c['name']} County", "st": c.get("pickerState") or c.get("state") or "PA", "loc": c.get("state") or "PA"}  # picker State + real state for headings
         out[fn] = dump({"id": c["id"], "name": c["name"], **meta, "areas": areas, "restaurants": places}) + "\n"
-        counties.append({"id": c["id"], "name": c["name"], **meta, "places": len(places), "file": fn, "bb": bb, "c": ctr})
+        # index entry leaves out what the app can derive (app.js fills label/loc/file back in), and rounds the box/centre to ~100 m
+        im = {"st": meta["st"]}
+        if meta["loc"] != meta["st"]: im["loc"] = meta["loc"]
+        if meta["label"] != f"{c['name']} County": im["label"] = meta["label"]
+        r3 = lambda v: [round(x, 3) for x in v] if v else None
+        counties.append({"id": c["id"], "name": c["name"], **im, "places": len(places), "bb": r3(bb), "c": r3(ctr)})
     # States for the picker, data-driven from data/cities.json "states": the default County's State first, then A-Z by name;
     # only States that have a County. cityWord (e.g. "Neighborhood" for DC) renames the City picker there.
     names = {s["id"]: s for s in idx.get("states") or []}

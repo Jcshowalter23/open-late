@@ -768,6 +768,8 @@
   async function init() {
     opts($("vibe"), VIBES);
     index = await (window.__olIdx ? window.__olIdx.catch(() => getJSON("data/index.json")) : getJSON("data/index.json"));
+    // index.json leaves out defaults to stay small (~320 Counties): label "<name> County", loc = picker State, file data/county/<id>.json
+    for (const c of index.counties) { c.st = c.st || "PA"; c.loc = c.loc || c.st; c.label = c.label || `${c.name} County`; c.file = c.file || `data/county/${c.id}.json`; }
     const sts = (index.states && index.states.length ? index.states : [{ id: "PA", name: "Pennsylvania" }]).filter((s) => index.counties.some((c) => cSt(c) === s.id));
     $("state").innerHTML = sts.map((s) => `<option value="${esc(s.id)}">${esc(s.name)}</option>`).join("");
     fillCounties(cSt(countyById(index.defaultCounty || "lancaster")));

@@ -1,6 +1,6 @@
 # Open Late
 
-Static, mobile-first PWA: which restaurants and bars are open now, whose kitchen is still open, and the day's specials. Covers Pennsylvania, Maryland, Delaware and Washington, DC (picker: State → County → City; Washington, DC is its own State with no County box: State → Neighborhood). States, their order and names come from `states` in data/cities.json (Pennsylvania first, then A–Z); renamed County ids go in `countyAliases` (old links, saved picks and the old landing page redirect).
+Static, mobile-first PWA: which restaurants and bars are open now, whose kitchen is still open, and the day's specials. Covers Pennsylvania, Delaware, Florida, Georgia, Maryland and Washington, DC (picker: State → County → City; Washington, DC is its own State with no County box: State → Neighborhood). States, their order and names come from `states` in data/cities.json (Pennsylvania first, then A–Z; the home page title/description and the manifest wording are rewritten from the same list by tools/build_seo.py); Florida's Panhandle areas west of the Apalachicola River use `America/Chicago`; renamed County ids go in `countyAliases` (old links, saved picks and the old landing page redirect).
 
 No build step and no backend. Serve the folder with any static host (`python3 -m http.server`).
 
