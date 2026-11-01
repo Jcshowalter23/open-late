@@ -1155,22 +1155,29 @@
    "name": "Talia",
    "cuisine": "Italian",
    "address": "611 William Penn Place, Pittsburgh",
-   "lat": 40.44111,
-   "lng": -79.99659,
+   "lat": 40.44124,
+   "lng": -79.99676,
    "priceText": null,
    "priceLevel": null,
    "website": "http://taliapgh.com/",
-   "hours": "Mon 5p-9p; Tue-Thu 11:30a-2p,5p-9p; Fri 11:30a-2p,5p-10p; Sat 5p-10p; Sun closed",
+   "hours": "Mon 5p-9p; Tue-Thu 11:30a-2p,5p-9p; Fri 11:30a-2p,5p-10p; Sat 4p-10p; Sun closed",
    "hoursNote": "Moved to 611 William Penn Place (venue site, Nov 2026). Lunch Tue–Fri; closed Sundays. Venue site also lists Tue–Fri 3–5 pm (bar).",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Tue-Fri",
+     "text": "Happy hour 3–5 pm",
+     "src": "Venue site taliapgh.com/visit (checked Nov 1, 2026)",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
     "Date night"
    ],
-   "source": "hours from the venue's website; Venue site taliapgh.com/visit (checked 2026-11-01)",
+   "source": "Venue site taliapgh.com/visit (checked 2026-11-01); location geocoded via US Census geocoder",
    "county": "Allegheny",
    "phone": "(412) 456-8214",
    "phoneSource": "Venue site taliapgh.com, checked 2026-11-01"

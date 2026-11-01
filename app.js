@@ -272,7 +272,8 @@
     const mf = [cuisine !== "All", price !== "All", vibe !== "All", sort !== "smart" && sort !== "near"].filter(Boolean).length;
     $("mfCount").textContent = mf ? `(${mf} on)` : "";
     const kinds = [wingDeals && "wing", beerDeals && "beer", hhDeals && "happy hour"].filter(Boolean).join(" + ");
-    $("count").textContent = `${list.length} of ${rows.length} places · ${kinds ? kinds + " deals" : "deals"} for ${day === now.d ? "today" : day === ALL ? "all days" : DAY_LONG[day]}${dist ? " · nearest first" : ""}`;
+    const scopeN = town ? rows.filter((p) => p.area === town).length : rows.length;
+    $("count").textContent = `${list.length} of ${scopeN} places · ${kinds ? kinds + " deals" : "deals"} for ${day === now.d ? "today" : day === ALL ? "all days" : DAY_LONG[day]}${dist ? " · nearest first" : ""}`;
     // empty state
     const active = filtersActive();
     const placeName = town ? $("town").selectedOptions[0].dataset.name : `${county.name} County`;

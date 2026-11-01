@@ -14,9 +14,14 @@ for a in live:
         total += 1
         for k in ("name", "cuisine", "source", "county"):
             if not r.get(k): err.append(f"{a['id']}: {r.get('name')} missing {k}")
+amap = {a["id"]: a for a in live}; rcache = {}
 for c in idx["counties"]:
+    n = 0
     for aid in c["areas"]:
-        if aid not in ids: err.append(f"county {c['id']} references non-live area {aid}")
+        if aid not in ids: err.append(f"county {c['id']} references non-live area {aid}"); continue
+        if aid not in rcache: rcache[aid] = json.load(open(amap[aid]["file"]))["restaurants"]
+        n += sum(1 for r in rcache[aid] if r.get("county") == c["name"])
+    if n != c.get("places"): err.append(f"county {c['id']} says {c.get('places')} places but lists {n}")
 sw = open("sw.js").read()
 for f in json.loads("[" + re.search(r"SHELL = \[(.*?)\]", sw).group(1) + "]"):
     if f != "./" and not os.path.exists(f): err.append(f"sw.js SHELL missing {f}")
