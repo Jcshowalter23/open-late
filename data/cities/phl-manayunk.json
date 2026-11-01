@@ -46,13 +46,20 @@
    "hoursNote": "Venue site lists Mon–Wed 4–9p, Thu 11a–10p, Fri 11a–10p, Sat 10a–10p; call ahead.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Sat",
+     "text": "Happy hour 4–6 pm at the bar; late night 9–10 pm",
+     "src": "Venue site blondiephilly.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
     "Live music & events"
    ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site blondiephilly.com (checked 2026-11-01)",
    "county": "Philadelphia",
    "phone": "(215) 253-3833",
    "phoneSource": "OpenStreetMap (node/11072156870, name + location match; Geofabrik extract of 2026-10-31), checked 2026-11-01"
@@ -392,7 +399,14 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy hour 4–6 pm at the bar",
+     "src": "Venue site inrivaeastfalls.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -400,7 +414,7 @@
     "Date night",
     "Family-friendly"
    ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site inrivaeastfalls.com (checked 2026-11-01)",
    "county": "Philadelphia",
    "phone": "(215) 438-4848",
    "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01"
@@ -832,15 +846,34 @@
    "website": "http://www.thegoatsbeardphilly.com/",
    "hours": "Mon-Fri 4p-10p; Sat 12p-10p; Sun 11a-9p",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
+   "kitchen": "Mon-Thu 4p-10p; Fri 12p-10p; Sat 11a-10p; Sun 11a-9p",
+   "kitchenNote": "Kitchen hours from venue site. (Venue site thegoatsbeardphilly.com, checked 2026-11-01)",
+   "happyHours": [
+    {
+     "days": "Mon-Thu",
+     "text": "Happy hour 4–6 pm: $5 select beers, $6 mixed drinks, $7 house wine, $10 small plates",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue site thegoatsbeardphilly.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Fri",
+     "text": "Happy hour 3–6 pm: $5 select beers, $6 mixed drinks, $7 house wine",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue site thegoatsbeardphilly.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
     "Live music & events"
    ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site thegoatsbeardphilly.com (checked 2026-11-01)",
    "county": "Philadelphia",
    "phone": "(267) 323-2495",
    "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01"
