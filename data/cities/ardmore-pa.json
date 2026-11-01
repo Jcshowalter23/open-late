@@ -118,14 +118,14 @@
    "hours": "Mon closed; Tue 11:30a-10p; Wed 5p-10p; Thu closed; Fri-Sat 5p-10:30p; Sun 4:30p-10p",
    "hoursNote": "Conflict: Google listing (Oct 17, 2026) shows Mon open 11a-11p, Thu open 11a-11p.",
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "⚠ Venue site: opens 11 am daily, last seating 9:30 pm Sun–Thu (kitchen closes 10 pm) and 10:30 pm Fri–Sat (kitchen closes 11 pm); conflicts with the listed hours. (Venue site lacollina.us, checked 2026-11-01)",
    "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [
     "Date night"
    ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01); Venue site lacollina.us (checked 2026-11-01)",
    "county": "Montgomery"
   },
   {
@@ -144,11 +144,18 @@
    "hoursNote": "Conflict: Google listing (Oct 20, 2026) shows Mon open 5p-10p.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Tue-Thu",
+     "text": "Happy hour 4–6 pm",
+     "src": "Venue site larkpa.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
-   "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01); Venue site larkpa.com (checked 2026-11-01)",
    "county": "Montgomery"
   },
   {
@@ -338,13 +345,24 @@
    "hoursNote": "Venue site lists Mon & Thu 4–9p, Tue–Wed closed, Fri–Sat 11:30a–10p, Sun 11:30a–9p; call ahead.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon,Thu-Fri",
+     "text": "Happy hour 4–6 pm: $10 cocktails, $9 wine, $6 beer",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue site sophiesbbq.com",
+     "checked": "2026-11-01",
+     "flag": "Listed hours show Monday closed."
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
     "Bar scene"
    ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site sophiesbbq.com (checked 2026-11-01)",
    "county": "Montgomery",
    "phone": "(484) 454-3074",
    "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
