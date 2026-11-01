@@ -799,6 +799,7 @@
     let tn = null; try { tn = sessionStorage.getItem("openlate.tonight"); } catch (e) { tn = null; }
     const auto = !navigator.webdriver && !/jsdom|HeadlessChrome/i.test(navigator.userAgent || "");
     await loadCounty(cid, aid);
+    try { window.dispatchEvent(new Event("openlate:ready")); } catch (e) { /* analytics can wait for the fallback */ }
     if (!sp.get("place") && (tn === "on" || (tn === null && auto && (now.m >= 21 * 60 || now.m < 180)))) {
       $("tonight").setAttribute("aria-pressed", "true"); render();
       if (tn === null) toast("It's late: showing places open past 11 PM. Tap 🌙 Tonight to see everything.");

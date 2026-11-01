@@ -9,14 +9,16 @@
   if(!c&&!q.get("area")){try{s=JSON.parse(localStorage.getItem("openlate.sel")||"null")}catch(e){}c=s&&s.county?s.county:(s&&s.area?"":"lancaster")}
   window.__olIdx=j("data/index.json");if(c&&/^[a-z-]+$/.test(c))window.__olPre={id:c,p:j("data/county/"+c+".json")}}catch(e){}})();
 </script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TV19LZ6FTT"></script>
+<!-- Google tag (gtag.js). gtag.js (~180 KB) loads once the first cards are on screen (or 4 s after page load at the latest),
+     so it doesn't compete with the restaurant data on slow phones. The page_view is queued in dataLayer and sent when it loads. -->
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-TV19LZ6FTT');
+  (function(){var done=0;function go(){if(done)return;done=1;var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-TV19LZ6FTT";document.head.appendChild(s)}
+  addEventListener("openlate:ready",function(){setTimeout(go,0)});addEventListener("load",function(){setTimeout(go,4000)})})();
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Open Late · Pennsylvania restaurants & bars open late, kitchen hours & specials</title>
