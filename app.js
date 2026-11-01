@@ -431,15 +431,21 @@
       else map.setView([40.9, -77.7], 7);
     } else if (popKey && markers.has(popKey)) markers.get(popKey).openPopup();
   }
-  function setView(v) {
-    view = v;
+  function setView(v, opts) {
+    const was = view; view = v;
+    try { localStorage.setItem("openlate.view", v); } catch (e) { /* private mode */ }
     $("viewList").setAttribute("aria-pressed", String(v === "list"));
     $("viewMap").setAttribute("aria-pressed", String(v === "map"));
+    const fab = $("viewFab");
+    fab.textContent = v === "map" ? "☰ List" : "🗺 Map";
+    fab.setAttribute("aria-label", v === "map" ? "Switch to list view" : "Switch to map view");
+    document.body.classList.toggle("mapmode", v === "map");
     $("mapwrap").hidden = v !== "map";
     $("list").hidden = v === "map";
-    if (v === "list") { render(); return; }
+    if (v === "list") { render(); if (was === "map" && !(opts && opts.noScroll)) window.scrollTo(0, 0); return; }
     track("view/map", "Map opened");
     $("more").hidden = true;
+    if (!(opts && opts.noScroll)) requestAnimationFrame(() => { const top = $("mapwrap").getBoundingClientRect().top + window.scrollY - $("top").offsetHeight - 8; window.scrollTo(0, Math.max(0, top)); });
     loadLeaflet().then((L) => {
       if (!map) {
         map = L.map("map", { preferCanvas: true, zoomControl: true, scrollWheelZoom: true });
@@ -448,7 +454,7 @@
         $("map").addEventListener("click", (e) => {
           const b = e.target.closest("[data-mopen]"); if (!b) return;
           const p = rows.find((x) => pkey(x) === b.dataset.mopen);
-          setView("list"); if (p) openPlace(p.r.id, p.area);
+          setView("list", { noScroll: true }); if (p) openPlace(p.r.id, p.area);
         });
       }
       map.invalidateSize();
@@ -643,6 +649,11 @@
     }));
     $("viewList").addEventListener("click", () => setView("list"));
     $("viewMap").addEventListener("click", () => setView("map"));
+    $("viewFab").addEventListener("click", () => setView(view === "map" ? "list" : "map"));
+    // keep the map sized to the space under the sticky header
+    const setTopH = () => document.documentElement.style.setProperty("--toph", $("top").offsetHeight + "px");
+    setTopH(); window.addEventListener("resize", setTopH);
+    if (window.ResizeObserver) new ResizeObserver(() => { setTopH(); if (map && view === "map") map.invalidateSize(); }).observe($("top"));
     document.querySelectorAll("[data-form]").forEach((a) => a.addEventListener("click", (e) => { e.preventDefault(); openForm(a.dataset.form, null); }));
     $("sForm").addEventListener("submit", sendForm);
     $("fClose").addEventListener("click", closeForm); $("fCancel").addEventListener("click", closeForm);
@@ -679,7 +690,9 @@
       $("tonight").setAttribute("aria-pressed", "true"); render();
       if (tn === null) toast("It's late: showing places open past 11 PM. Tap 🌙 Tonight to see everything.");
     }
-    if (sp.get("view") === "map") setView("map");
+    let savedView = null; try { savedView = localStorage.getItem("openlate.view"); } catch (e) { /* private mode */ }
+    const wantView = sp.get("view") === "map" || sp.get("view") === "list" ? sp.get("view") : sp.get("place") ? "list" : savedView;
+    if (wantView === "map") setView("map", { noScroll: !sp.get("view") });
     if (sp.get("place")) openPlace(sp.get("place"), aid);
     // periodic refresh keeps how many cards were already revealed
     const refresh = () => { const keep = shown; tick(); render(); while (shown < keep && !$("more").hidden) render(true); };
