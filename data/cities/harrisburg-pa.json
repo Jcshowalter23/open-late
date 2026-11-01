@@ -290,8 +290,8 @@
    "priceText": null,
    "priceLevel": null,
    "website": null,
-   "hours": "Mon-Fri 11:30a-2a; Sat 12p-2a",
-   "hoursNote": "Sunday: listings conflict (one shows open, one closed).",
+   "hours": "Mon-Fri 11:30a-2a; Sat 12p-2a; Sun 11:30a-2a",
+   "hoursNote": "Sunday 11:30 am–2 am per Yelp (claimed), Apple Maps and NetWaiter; Visit Harrisburg lists only Mon–Sat.",
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [
@@ -308,7 +308,7 @@
    "vibes": [
     "Bar scene"
    ],
-   "source": "exa.ai places listing; explorehbg listing",
+   "source": "exa.ai places listing; explorehbg listing; Yelp (claimed listing), Apple Maps, NetWaiter (checked 2026-11-01)",
    "county": "Dauphin"
   },
   {
@@ -384,16 +384,18 @@
    "priceText": null,
    "priceLevel": null,
    "website": "https://meninthekitchenhbg.com/",
-   "hours": "Tue-Thu 11:30a-10p; Fri-Sat 12p-12a; Sun 12p-8p",
-   "hoursNote": "Monday not listed.",
+   "hours": "Mon closed; Tue-Thu 11:30a-10p; Fri-Sat 12p-12a; Sun 12p-8p",
+   "hoursNote": "Monday closed (Google listing via Restaurantji; venue site lists Tue–Sun only).",
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [],
-   "source": "Venue site",
-   "county": "Dauphin"
+   "source": "Venue site; Restaurantji (Google-sourced listing); venue site meninthekitchenhbg.com (checked 2026-11-01)",
+   "county": "Dauphin",
+   "phone": "(717) 982-5850",
+   "phoneSource": "Venue site meninthekitchenhbg.com (Book a Table page), checked 2026-11-01"
   },
   {
    "id": "bourbon-street-saloon",
@@ -586,8 +588,8 @@
    "priceText": null,
    "priceLevel": null,
    "website": "https://boneshire.com/",
-   "hours": "Wed-Sat 4p-10p",
-   "hoursNote": "Sun–Tue not listed.",
+   "hours": "Mon-Tue closed; Wed-Sat 4p-10p; Sun closed",
+   "hoursNote": "Sun–Tue closed (Google listing via Restaurantji and Sirved).",
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
@@ -596,8 +598,10 @@
    "vibes": [
     "Bar scene"
    ],
-   "source": "Venue site",
-   "county": "Dauphin"
+   "source": "Venue site; Restaurantji (Google-sourced listing), Sirved (checked 2026-11-01)",
+   "county": "Dauphin",
+   "phone": "(717) 412-7814",
+   "phoneSource": "Restaurantji (Google-sourced listing) and Sirved, checked 2026-11-01"
   },
   {
    "id": "front-street-diner",
@@ -939,8 +943,8 @@
    "priceText": null,
    "priceLevel": null,
    "website": "https://www.rookiesburgerbar.com/",
-   "hours": "Mon-Thu 11a-11p; Fri 11a-12a; Sat 12p-12a",
-   "hoursNote": "Sunday not listed (one listing says closed).",
+   "hours": "Mon-Thu 11a-11p; Fri 11a-12a; Sat 12p-12a; Sun closed",
+   "hoursNote": "Sunday closed per Tripadvisor and the Google listing; venue site lists Mon–Sat only (a 2023 PennLive piece showed Sunday hours).",
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [
@@ -955,8 +959,10 @@
     "Sports & games",
     "Family-friendly"
    ],
-   "source": "Venue site",
-   "county": "Dauphin"
+   "source": "Venue site; Tripadvisor, Restaurantji (Google-sourced listing), venue site rookiesburgerbar.com (checked 2026-11-01)",
+   "county": "Dauphin",
+   "phone": "(717) 561-0030",
+   "phoneSource": "Tripadvisor and Restaurantji (Google-sourced listing), checked 2026-11-01"
   },
   {
    "id": "paxtang-grill",
@@ -970,8 +976,8 @@
    "priceText": null,
    "priceLevel": null,
    "website": "https://www.paxtanggrill.com/",
-   "hours": "Mon-Sat 11a-2a",
-   "hoursNote": "Saturday brunch 11 am–2 pm. Sunday not listed. Happy-hour menu posted as an image (times not readable).",
+   "hours": "Mon-Sat 11a-2a; Sun closed",
+   "hoursNote": "Saturday brunch 11 am–2 pm. Sunday closed (venue site lists no Sunday; Google listing and MenuPix show closed). Conflict: the venue store page and Google listing say closed Mondays, while the venue home page lists Monday. Happy-hour menu posted as an image (times not readable).",
    "kitchen": "Mon-Thu 11a-9p; Fri-Sat 11a-10p",
    "kitchenNote": null,
    "happyHours": [],
@@ -980,7 +986,7 @@
    "vibes": [
     "Bar scene"
    ],
-   "source": "Venue site",
+   "source": "Venue site; Venue site paxtanggrill.com; Google listing (via Exa), MenuPix (checked 2026-11-01)",
    "county": "Dauphin"
   },
   {
@@ -1089,8 +1095,8 @@
    "priceText": null,
    "priceLevel": null,
    "website": "https://gabriellaristorante.com/",
-   "hours": "Mon-Sat 11a-10p",
-   "hoursNote": "Sunday dinner served all day (hours not listed).",
+   "hours": "Daily 11a-10p",
+   "hoursNote": "Sunday 11 am–10 pm per the Google listing (via Restaurantji); venue says dinner is served all day Sunday.",
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
@@ -1100,7 +1106,7 @@
     "Family-friendly",
     "Date night"
    ],
-   "source": "Venue site (via search)",
+   "source": "Venue site (via search); Restaurantji (Google-sourced listing) (checked 2026-11-01)",
    "county": "Dauphin"
   }
  ],
