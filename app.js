@@ -576,8 +576,11 @@
   function placeUrl(p) {
     return `${location.origin}${location.pathname}?county=${encodeURIComponent(county.id)}&area=${encodeURIComponent(p.area)}&place=${encodeURIComponent(p.r.id)}`;
   }
+  // share links go to /p/<area>/<place>.html: a tiny static page whose link preview names the place (with its
+  // County's image) and then opens this list at that place (tools/build_seo.py writes them)
+  const shareUrl = (p) => `${location.origin}/p/${encodeURIComponent(p.area)}/${encodeURIComponent(p.r.id)}.html`;
   async function share(p) {
-    const url = placeUrl(p), title = `${p.r.name} · Open Late`;
+    const url = shareUrl(p), title = `${p.r.name} · Open Late`;
     if (navigator.share) { try { await navigator.share({ title, text: `${p.r.name} (${p.areaName})`, url }); return; } catch (e) { if (e && e.name === "AbortError") return; } }
     try { await navigator.clipboard.writeText(url); toast("Link copied"); }
     catch (e) { window.prompt("Copy this link:", url); }

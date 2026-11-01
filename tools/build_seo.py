@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Builds the static SEO pages from the data: /<county>-county/index.html (one landing page per County),
 /counties/index.html, sitemap.xml and robots.txt. Run after data changes (rel.sh does)."""
-import json, os, html, datetime, re
+import json, os, html, datetime, re, sys, glob
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); os.chdir(root)
+sys.path.insert(0, os.path.join(root, "tools"))
+import build_og
 SITE = "https://openlateapp.com"
 idx = json.load(open("data/cities.json"))
 areas = {a["id"]: a for a in idx["areas"] if a.get("status") == "live" and a.get("file")}
@@ -59,6 +61,7 @@ PAGE = """<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<script>/* old-style shared links (?area= / ?place=) open the live list */(function(){{var q=new URLSearchParams(location.search);if(q.get("area")||q.get("place")){{q.set("county","{cid}");location.replace("/?"+q.toString()+location.hash);}}}})();</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV19LZ6FTT"></script>
 <script>
@@ -81,9 +84,14 @@ PAGE = """<!doctype html>
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
 <meta property="og:url" content="{url}">
-<meta property="og:image" content="{site}/icons/og-image.png">
+<meta property="og:image" content="{site}/{img}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{imgalt}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{site}/icons/og-image.png">
+<meta name="twitter:title" content="{title}">
+<meta name="twitter:description" content="{desc}">
+<meta name="twitter:image" content="{site}/{img}">
 <link rel="stylesheet" href="/styles.css">
 <link rel="stylesheet" href="/landing.css">
 <script src="/config.js"></script>
@@ -100,6 +108,7 @@ PAGE = """<!doctype html>
 """
 
 counties = sorted(idx["counties"], key=lambda c: c["name"])
+og_changed = 0; county_of = {}
 urls = [(SITE + "/", "1.0"), (SITE + "/counties/", "0.8")]
 for c in counties:
     rows = []
@@ -153,7 +162,11 @@ for c in counties:
         {"@type": "ListItem", "position": 2, "name": "Counties", "item": SITE + "/counties/"},
         {"@type": "ListItem", "position": 3, "name": f"{c['name']} County", "item": url}]}, separators=(",", ":"))
     os.makedirs(slug, exist_ok=True)
-    open(f"{slug}/index.html", "w").write(PAGE.format(title=e(title), desc=e(desc), url=url, site=SITE, ld=ld, body="\n".join(body)))
+    img = f"icons/og/{cid}.png"
+    if build_og.save(build_og.county_image(c["name"], n, len(cities), len(late), hh + sp), img): og_changed += 1
+    imgalt = f"Open Late: open late in {c['name']} County, PA. {n} bars and restaurants across {len(cities)} {'City' if len(cities) == 1 else 'Cities'}."
+    open(f"{slug}/index.html", "w").write(PAGE.format(title=e(title), desc=e(desc), url=url, site=SITE, ld=ld, body="\n".join(body), cid=cid, img=img, imgalt=e(imgalt)))
+    county_of[c["name"]] = cid
     urls.insert(2, (url, "0.8"))
 # counties index
 tot = sum(c["places"] for c in counties)
@@ -167,7 +180,58 @@ ld = json.dumps({"@context": "https://schema.org", "@type": "BreadcrumbList", "i
     {"@type": "ListItem", "position": 1, "name": "Open Late", "item": SITE + "/"},
     {"@type": "ListItem", "position": 2, "name": "Counties", "item": SITE + "/counties/"}]}, separators=(",", ":"))
 os.makedirs("counties", exist_ok=True)
-open("counties/index.html", "w").write(PAGE.format(title="Pennsylvania restaurants & bars open late, by County · Open Late", desc=e(f"Late-night restaurants and bars in all {len(counties)} Pennsylvania counties: who's open now, kitchen hours, happy hours and specials."), url=SITE + "/counties/", site=SITE, ld=ld, body="\n".join(body)))
+if build_og.save(build_og.home_image(tot, len(counties)), "icons/og-image.png"): og_changed += 1
+open("counties/index.html", "w").write(PAGE.format(title="Pennsylvania restaurants & bars open late, by County · Open Late", desc=e(f"Late-night restaurants and bars in all {len(counties)} Pennsylvania counties: who's open now, kitchen hours, happy hours and specials."), url=SITE + "/counties/", site=SITE, ld=ld, body="\n".join(body), cid="", img="icons/og-image.png", imgalt="Open Late: a crescent moon logo with the words Open Late. Who's open late, whose kitchen is still serving and tonight's specials, across all 67 Pennsylvania counties."))
+
+# Share links: /p/<area>/<place>.html, one tiny page per place whose preview names the place and shows its
+# County's image, then opens the live list at that place. noindex (not for search), not in the sitemap.
+STUB = """<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{title}</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="{desc}">
+<meta name="theme-color" content="#14161f">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Open Late">
+<meta property="og:title" content="{title}">
+<meta property="og:description" content="{desc}">
+<meta property="og:url" content="{url}">
+<meta property="og:image" content="{site}/{img}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{imgalt}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{title}">
+<meta name="twitter:description" content="{desc}">
+<meta name="twitter:image" content="{site}/{img}">
+<script>location.replace({app_js} + location.hash);</script>
+</head><body style="font-family:system-ui,sans-serif;background:#14161f;color:#fff;padding:24px">
+<p><a style="color:#e8a33d" href="{app}">{name} on Open Late</a></p>
+</body></html>
+"""
+cid_by_name = {c["name"]: c["id"] for c in counties}
+want = set(); stub_changed = 0
+for aid, f in files.items():
+    city = short(f["name"])
+    for r in f["restaurants"]:
+        cid = cid_by_name.get(r.get("county"))
+        if not cid: continue
+        path = f"p/{aid}/{r['id']}.html"; want.add(path)
+        app = f"/?county={cid}&area={aid}&place={r['id']}"
+        what = (r.get("cuisine") or "Restaurant").strip()
+        desc = f"{what} in {city}, {r['county']} County, PA. Open now? Kitchen hours, happy hours and specials on Open Late."
+        page = STUB.format(title=e(f"{r['name']} · {city}, PA · Open Late"), desc=e(desc), url=f"{SITE}/{path}", site=SITE,
+                           img=f"icons/og/{cid}.png", imgalt=e(f"Open Late: open late in {r['county']} County, PA"),
+                           app=e(app), app_js=json.dumps(app), name=e(r["name"]))
+        if not os.path.exists(path) or open(path).read() != page:
+            os.makedirs(os.path.dirname(path), exist_ok=True); open(path, "w").write(page); stub_changed += 1
+removed = 0
+for old in glob.glob("p/*/*.html"):
+    if old not in want: os.remove(old); removed += 1
+for d in glob.glob("p/*"):
+    if os.path.isdir(d) and not os.listdir(d): os.rmdir(d)
 # sitemap + robots
 sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
 seen = set()
@@ -177,4 +241,4 @@ for u, pr in urls:
 sm.append("</urlset>")
 open("sitemap.xml", "w").write("\n".join(sm) + "\n")
 open("robots.txt", "w").write(f"User-agent: *\nAllow: /\nDisallow: /tools/\n\nSitemap: {SITE}/sitemap.xml\n")
-print(f"seo: {len(counties)} county pages, sitemap {len(seen)} urls")
+print(f"seo: {len(counties)} county pages, sitemap {len(seen)} urls, {len(want)} share pages ({stub_changed} written, {removed} removed), og images changed: {og_changed}")

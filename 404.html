@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Not found · Open Late</title>
+<meta name="robots" content="noindex">
+<script>
+/* a shared place link whose page is gone (place renamed or removed): open the live list for that City instead */
+(function () {
+  var m = location.pathname.match(/^\/p\/([a-z0-9-]+)\/([a-z0-9-]+)(?:\.html)?\/?$/);
+  if (m) location.replace("/?area=" + m[1] + "&place=" + m[2]);
+})();
+</script>
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+</head><body style="font-family:system-ui,sans-serif;background:#14161f;color:#fff;padding:24px;line-height:1.5">
+<h1 style="font-size:1.4rem">Page not found</h1>
+<p><a style="color:#e8a33d" href="/">Open the live list</a> · <a style="color:#e8a33d" href="/counties/">All counties</a></p>
+</body></html>
