@@ -31,7 +31,37 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Montgomery"
+   "county": "Montgomery",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Lafayette-Hill/180385732113442/Brittingham%27s",
+        "quote": "Website | Your favorite neighborhood Pub & Restaurant providing the perfect pint in an Irish setting. It’s been on the right side",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lafayette-hill/brittinghams-pub-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lafayette-Hill/180385732113442/Brittingham%27s",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "bruno-s",
@@ -54,7 +84,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Montgomery"
+   "county": "Montgomery",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/310570367747/Bruno%27s",
+    "fbPostsSeen": 11,
+    "fbNewestPost": "2026-10-16",
+    "website": null
+   }
   },
   {
    "id": "from-the-boot-lafayette-hill",
@@ -79,7 +117,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "Montgomery",
    "phone": "(610) 834-8680",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lafayette-hill/from-the-boot-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "halligan-s-pub",
@@ -113,7 +159,79 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 21, 2026) (checked 2026-11-01); Halligan's Pub Facebook post Oct 7, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Montgomery",
    "phone": "(215) 836-9597",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly; popular for watching games.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/flourtown/halligans-pub-/",
+        "quote": "a cheese, which customers often recommend. The pub is a little more expensive than normal corner bars but is considered worth it. Takeout options are available, with quick and delicious pick",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Flourtown/194563116549/Halligan%27s-Pub",
+        "quote": "Website | Contact the business | A family friendly neighborhood pub with excellent seasonal food. Private event space. Current hours: | 11a-9pm daily | Break",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/flourtown/halligans-pub-/",
+        "quote": "Halligan's Pub is a popular spot for families and those seeking a late-night bite, open until 2am. The restaurant provides a great atmo",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Flourtown/194563116549/Halligan%27s-Pub",
+        "quote": "Website | Contact the business | A family friendly neighborhood pub with excellent seasonal food. Private event space. Current hours: | 11a-",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/flourtown/halligans-pub-/",
+        "quote": "out options are available, with quick and delicious pickup times. Halligan's Pub also has NFL Sunday Ticket, showing Eagles games on most TVs and offering to set up other games upon request. For th",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/flourtown/halligans-pub-/",
+    "facebookMirror": "https://www.foodyas.com/US/Flourtown/194563116549/Halligan%27s-Pub",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-14",
+    "website": null
+   }
   },
   {
    "id": "mod-india-restaurant-lafayette-hill",
@@ -136,7 +254,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Montgomery",
    "phone": "(610) 862-2140",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 11, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 11, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/1252559484612012/Mod-India-Restaurant-Lafayette-Hill",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-05",
+    "website": null
+   }
   },
   {
    "id": "oreland-inn",
@@ -163,7 +289,64 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01); phone conflict review (checked 2026-11-01)",
    "county": "Montgomery",
    "phone": "(215) 884-6835",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01. Conflicting (215) 576-6397 rejected: the venue site theorelandinn.com shows the current number, checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01. Conflicting (215) 576-6397 rejected: the venue site theorelandinn.com shows the current number, checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/oreland/oreland-inn-/",
+        "quote": "Oreland Inn is a friendly neighborhood bar with a cozy atmosphere. It's a great spot for a weekday lunch, where locals and seniors g",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/oreland/oreland-inn-/",
+        "quote": "at. Note that cash is required for payment. The restaurant also offers shuffleboard and a kid-friendly environment.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-30",
+      "quote": "Come out early for a Chris Page, live performance, or stay out late and party with DJ Geez on the dance floor | Friday 10/30, we will be dancing all night as if the Sanderson sisters put a spell on us",
+      "url": "https://www.foodyas.com/US/Oreland/177248072327748/Oreland-Inn"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/oreland/oreland-inn-/",
+    "facebookMirror": "https://www.foodyas.com/US/Oreland/177248072327748/Oreland-Inn",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-14",
+    "website": null
+   }
   },
   {
    "id": "scoogis-italian-kitchen-and-bar",
@@ -199,7 +382,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 10, 2026) (checked 2026-11-01); Venue site scoogis.com (checked 2026-11-01)",
    "county": "Montgomery",
    "phone": "(215) 233-1063",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 10, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 10, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/flourtown/scoogis-classic-italian-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "tamarindos",
@@ -234,7 +425,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01); Venue site tamarindosrestaurant.com (checked 2026-11-01)",
    "county": "Montgomery",
    "phone": "(215) 619-2390",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/flourtown/tamarindos-mexican-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "ye-olde-ale-house",
@@ -272,7 +471,37 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Ye Olde Ale House Facebook post Sep 13–Oct 4, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Montgomery"
+   "county": "Montgomery",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Lafayette-Hill/110636235626326/Ye-Olde-Ale-House",
+        "quote": "pen for lunch, dinner and late night ~Take out available ~ Nine flat screen televisions ~ NFL Sunday Ticket",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lafayette-hill/ye-olde-ale-house-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lafayette-Hill/110636235626326/Ye-Olde-Ale-House",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-10",
+    "website": null
+   }
   }
  ],
  "counties": [

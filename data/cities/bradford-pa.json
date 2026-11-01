@@ -28,7 +28,37 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "McKean"
+   "county": "McKean",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bradford/117793748238451/Corner-Bar-%26-Restaurant",
+        "quote": "Corner Bar & Restaurant, 42 Mechanic Street, Bradford, PA (2026) | Home | Cities | Countries | Login",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bradford/117793748238451/Corner-Bar-%26-Restaurant",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "hong-kong-buffet",
@@ -51,7 +81,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 16, 2026) (checked 2026-11-01)",
    "county": "McKean",
    "phone": "(814) 362-8158",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-16",
+        "url": "https://www.restaurantji.com/pa/bradford/hong-kong-chinese-restaurant-/",
+        "quote": "an environment and the amazing smell of the restaurant. This buffet is a great choice for families or couples, with attentive service that rivals any restaurant. Many guests feel a persona",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bradford/hong-kong-chinese-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bradford/100868869957480/Hong-Kong-buffet",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-09-04",
+    "website": null
+   }
   },
   {
    "id": "jjs-saloon",
@@ -77,7 +137,61 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 19, 2026) (checked 2026-11-01)",
    "county": "McKean",
    "phone": "(814) 362-4064",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 19, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 19, 2026), checked 2026-11-01",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-06-20",
+      "quote": " DJ Jimmy will be here spinning some tunes and doing karaoke from 6-12",
+      "url": "https://www.foodyas.com/US/Bradford/1769249073296262/JJS-Saloon"
+     },
+     {
+      "date": "2026-06-19",
+      "quote": " The festivities will start at 4, DJ Jimmy will be here spinning some tunes and doing some karaoke from 6-12",
+      "url": "https://www.foodyas.com/US/Bradford/1769249073296262/JJS-Saloon"
+     },
+     {
+      "date": "2026-06-17",
+      "quote": " Jimmy will be spinning some tunes and doing karaoke from 6-12",
+      "url": "https://www.foodyas.com/US/Bradford/1769249073296262/JJS-Saloon"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-06-20",
+      "quote": " DJ Jimmy will be here spinning some tunes and doing karaoke from 6-12",
+      "url": "https://www.foodyas.com/US/Bradford/1769249073296262/JJS-Saloon"
+     },
+     {
+      "date": "2026-06-19",
+      "quote": " The festivities will start at 4, DJ Jimmy will be here spinning some tunes and doing some karaoke from 6-12",
+      "url": "https://www.foodyas.com/US/Bradford/1769249073296262/JJS-Saloon"
+     },
+     {
+      "date": "2026-06-18",
+      "quote": " The festivities will start at 4 and DJ Jimmy will be here from 6-12",
+      "url": "https://www.foodyas.com/US/Bradford/1769249073296262/JJS-Saloon"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bradford/1769249073296262/JJS-Saloon",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-06-24",
+    "website": null
+   }
   },
   {
    "id": "leo-s-sub-shop",
@@ -100,7 +214,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01)",
    "county": "McKean",
    "phone": "(814) 368-7827",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bradford/leos-sub-shop-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bradford/326595060748101/Leo%27s-Sub-Shop",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "mama-jane-s-eatery-bradford",
@@ -123,7 +245,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
    "county": "McKean",
    "phone": "(814) 596-0109",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bradford/mama-janes-eatery-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "model-t-inn",
@@ -146,7 +276,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01)",
    "county": "McKean",
    "phone": "(814) 362-2947",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-17",
+        "url": "https://www.restaurantji.com/pa/derrick-city/model-t-inn-/",
+        "quote": "visitors find it a cool place to relax, eat good food, and enjoy the outdoor space. Many locals and visitors consider it a must-visit spot in the area.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/derrick-city/model-t-inn-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "munchies-dining",
@@ -171,7 +331,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 22, 2026) (checked 2026-11-01)",
    "county": "McKean",
    "phone": "(814) 225-4990",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 22, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 22, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/eldred/munchies-dining-/",
+    "facebookMirror": "https://www.foodyas.com/US/Eldred/270624493128373/Munchies-Dining",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-09-02",
+    "website": null
+   }
   },
   {
    "id": "peking-wok",
@@ -190,7 +358,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "McKean"
+   "county": "McKean",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "players-downtown",
@@ -259,7 +435,97 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 10, 2026) (checked 2026-11-01); Players Downtown Facebook post Oct 14–28, 2026 (via bars10) (checked 2026-11-01); Venue site playersdowntown.com (checked 2026-11-01)",
    "county": "McKean",
    "phone": "(814) 368-9789",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 10, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 10, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Dive bar"
+    ],
+    "summary": "A locals-and-regulars spot; no-frills dive-bar feel.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-10",
+        "url": "https://www.restaurantji.com/pa/bradford/players-downtown-/",
+        "quote": "beer is reasonably priced. The dive-y atmosphere and affordable prices make it a popular local hangout spot.",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Dive bar",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-10",
+        "url": "https://www.restaurantji.com/pa/bradford/players-downtown-/",
+        "quote": "rooms could be improved, parking is plentiful and carryout beer is reasonably priced. The dive-y atmosphere and affordable prices make it a popular local hangout spot.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-28",
+      "quote": "KARAOKE w/ DJ Jimmy @ 9pm",
+      "url": "https://www.foodyas.com/US/Bradford/247106901633/Players-Downtown"
+     },
+     {
+      "date": "2026-10-21",
+      "quote": "KARAOKE w/ DJ Jimmy @ 9pm",
+      "url": "https://www.foodyas.com/US/Bradford/247106901633/Players-Downtown"
+     },
+     {
+      "date": "2026-10-14",
+      "quote": "KARAOKE w/ DJ Jimmy @ 9pm",
+      "url": "https://www.foodyas.com/US/Bradford/247106901633/Players-Downtown"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-31",
+      "quote": "- No Cover! | - $75 CASH PRIZE for Best Costume & $40 PDT Gift | Certificate for 2nd! | 10/31 - >> 10/31 - DJ Bruno 9pm-2am",
+      "url": "https://www.foodyas.com/US/Bradford/247106901633/Players-Downtown"
+     },
+     {
+      "date": "2026-10-31",
+      "quote": "- No Cover! | - $75 CASH PRIZE for Best Costume & $40 PDT Gift | Certificate for 2nd! | 10/31 - >> 10/31 - DJ Bruno 9pm-2am",
+      "url": "https://www.foodyas.com/US/Bradford/247106901633/Players-Downtown"
+     },
+     {
+      "date": "2026-10-31",
+      "quote": "- No Cover! | - $75 CASH PRIZE for Best Costume & $40 PDT Gift | Certificate for 2nd! | 10/31 - >> 10/31 - DJ Bruno 9pm-2am",
+      "url": "https://www.foodyas.com/US/Bradford/247106901633/Players-Downtown"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bradford/players-downtown-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bradford/247106901633/Players-Downtown",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "rookies-sports-bar-and-grill",
@@ -319,7 +585,74 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01); Rookies Sports Bar and Grill Facebook post Oct 21–29, 2026 (via bars10) (checked 2026-11-01)",
    "county": "McKean",
    "phone": "(814) 368-9990",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/bradford/rookies-sports-bar-/",
+        "quote": "Rookies Bar and Grill is a great place to have a party and watch sports on a variety of TVs. The restaurant has a great environment, 3 dart boards, and a no smok",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #1",
+        "url": "https://www.restaurantji.com/pa/bradford/rookies-sports-bar-/",
+        "quote": "ood is GREAT! A variety of alcoholic beverages/shots and sodas/teas. Great environment to watch sports on a variety of tvs to choose from. 3 dart boards for us people who love to have a bit mo"
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bradford/105117108917297/Rookies-Sports-Bar-and-Grill",
+        "quote": "Contact the business | Built from the historic Rochester Hotel, Rookies Sports Bar and Grill is a sports fan's dream.",
+        "self": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's own Facebook posts (8 since May 2026, via foodyas)",
+        "url": "https://www.foodyas.com/US/Bradford/105117108917297/Rookies-Sports-Bar-and-Grill",
+        "quote": "ith DJ CHUCKIE. 🔥🎶 | 🧛‍♂️ Come dressed to impress | 🎧 DJ CHUCKIE on the music | 📍 Rookies Sports Bar & Grill | 📅 Saturday, October 31st | ⏰ 8 PM – 11 PM | 👻 Don’t be caught sleeping when the"
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-31",
+      "quote": "), and join us for a Halloween party with DJ CHUCKIE",
+      "url": "https://www.foodyas.com/US/Bradford/105117108917297/Rookies-Sports-Bar-and-Grill"
+     },
+     {
+      "date": "2026-10-31",
+      "quote": "🎧 DJ CHUCKIE on the music",
+      "url": "https://www.foodyas.com/US/Bradford/105117108917297/Rookies-Sports-Bar-and-Grill"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bradford/rookies-sports-bar-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bradford/105117108917297/Rookies-Sports-Bar-and-Grill",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "same-old-kitchen",
@@ -340,7 +673,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "McKean"
+   "county": "McKean",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bradford/123547988486651/Same-Old-Kitchen",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "table-105",
@@ -365,7 +706,37 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "McKean"
+   "county": "McKean",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/kane/table-105-/",
+        "quote": "ervice, with perfect pacing and recommendations. The atmosphere is casual and enhanced by live music, providing a perfect spot that is private enough yet full of energy. The cocktail menu is",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/kane/table-105-/",
+    "facebookMirror": "https://www.foodyas.com/US/Kane/814682435383064/Table-105",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-13",
+    "website": null
+   }
   },
   {
    "id": "texas-hot-lunch-4-sons",
@@ -388,7 +759,37 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "McKean"
+   "county": "McKean",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-14",
+        "url": "https://www.restaurantji.com/pa/kane/texas-hot-lunch-4-sons-/",
+        "quote": "ice, with a notable Texas sauce that is flavorful but not overly spicy. The restaurant is kid-friendly, providing appropriately sized dishes for children. Take-out food maintains its quality,",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/kane/texas-hot-lunch-4-sons-/",
+    "facebookMirror": "https://www.foodyas.com/US/Kane/191460672865/TEXAS-HOT-LUNCH---4-SONS",
+    "fbPostsSeen": 5,
+    "fbNewestPost": "2026-10-17",
+    "website": null
+   }
   },
   {
    "id": "the-beefeaters-restaurant",
@@ -431,7 +832,58 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror); The Beefeaters Restaurant Facebook post Oct 23, 2026 (via bars10) (checked 2026-11-01); The Beefeaters Restaurant Facebook post Oct 17, 2026 (via bars10) (checked 2026-11-01); Venue site thebeefeatersrestaurant.com (checked 2026-11-01)",
-   "county": "McKean"
+   "county": "McKean",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale",
+     "Locals & regulars"
+    ],
+    "summary": "A date-night / upscale spot; a locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-16",
+        "url": "https://www.restaurantji.com/pa/bradford/beefeaters-restaurant-/",
+        "quote": "Beefeaters has solidified its reputation as a local favorite, offering a great spot for a date night or casual lunch.",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bradford/166252106792686/The-Beefeaters-Restaurant",
+        "quote": "Website | Contact the business | Beefeaters at the Historic Carnegie Library, fine dining in a casual atmosphere. We'll see you there! | (407) | Whether you're looking for an ice",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-16",
+        "url": "https://www.restaurantji.com/pa/bradford/beefeaters-restaurant-/",
+        "quote": "it different tastes and a focus on quality, Beefeaters has solidified its reputation as a local favorite, offering a great spot for a date night or casual lunch.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bradford/beefeaters-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bradford/166252106792686/The-Beefeaters-Restaurant",
+    "fbPostsSeen": 16,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "the-city-line-w-washington-street",
@@ -456,7 +908,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "McKean"
+   "county": "McKean",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bradford/116083888419625/The-City-Line",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-city-line-west-washington-street",
@@ -479,7 +939,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "McKean"
+   "county": "McKean",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bradford/116083888419625/The-City-Line",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-cottage-house-llc",
@@ -502,7 +970,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 27, 2026) (checked 2026-11-01)",
    "county": "McKean",
    "phone": "(814) 568-2091",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 27, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 27, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/smethport/cottage-house-wine-and-spirits-/",
+    "facebookMirror": "https://www.foodyas.com/US/Smethport/183888924805531/The-Cottage-House-LLC",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-26",
+    "website": null
+   }
   },
   {
    "id": "the-edge-bradford",
@@ -527,7 +1003,57 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "McKean",
    "phone": "(814) 368-4100",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans",
+     "Locals & regulars"
+    ],
+    "summary": "Known for live music; a locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/bradford/the-edge-2/",
+        "quote": "welcoming atmosphere. With friendly service and staff, visitors can enjoy great food and live music. The menu features delicious options, including barbecue, with the brisket dinner being a",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/pa/bradford/the-edge-2/",
+        "quote": "really working hard to make this bar a nice place to come, have some great food and enjoy live music! Friendly service and staff. They just started having barbeque. Had a brisket dinner with"
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/bradford/the-edge-2/",
+        "quote": "eer is always icy cold, and the drink prices are reasonable. Overall, The Edge is a great local bar with a cozy and inviting environment.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bradford/the-edge-2/",
+    "facebookMirror": "https://www.foodyas.com/US/Bradford/538631922671447/The-Edge-Bradford",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "the-lighter-side",
@@ -552,7 +1078,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "McKean",
    "phone": "(814) 363-3586",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bradford/111838795517821/The-Lighter-Side",
+    "fbPostsSeen": 2,
+    "fbNewestPost": "2026-07-20",
+    "website": null
+   }
   },
   {
    "id": "the-new-keystone-restaurant-llc",
@@ -573,7 +1107,61 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "McKean"
+   "county": "McKean",
+   "karaoke": {
+    "nights": [],
+    "stale": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "9pm to 1am",
+      "basis": "posted on 4 different Thus",
+      "lastSeen": "2025-10-20",
+      "datedLastSeen": "2025-10-20",
+      "postsSeen": 4,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bradford/394371450435984/The-New-Keystone%2C-LLC",
+        "date": "2025-10-20",
+        "quote": " Come out to The New Keystone, Thursday for karaoke with DJ Jimmy 9 to 1 and Friday Bottoms Up 9 to 1"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bradford/394371450435984/The-New-Keystone%2C-LLC",
+        "date": "2025-10-13",
+        "quote": " Come join us for karaoke with Scott and Bacon on Thursday 9 to 1"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bradford/394371450435984/The-New-Keystone%2C-LLC",
+        "date": "2025-10-01",
+        "quote": " Thursday night Bacon/Scott 9-1, Karaoke"
+       }
+      ],
+      "confidence": "high",
+      "stale": true
+     }
+    ],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bradford/394371450435984/The-New-Keystone%2C-LLC",
+    "fbPostsSeen": 11,
+    "fbNewestPost": "2025-12-26",
+    "website": null
+   }
   },
   {
    "id": "the-new-two-mile-inn",
@@ -599,7 +1187,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "McKean",
    "phone": "(814) 642-1198",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 5, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 5, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-rixford-well",
@@ -635,7 +1231,51 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 21, 2026) (checked 2026-11-01); The Rixford Well Facebook post Oct 15, 2026 (via bars10) (checked 2026-11-01)",
    "county": "McKean",
    "phone": "(814) 465-3210",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/rixford/rixford-well-bar-and-grill-/",
+        "quote": "service, with quick drink orders and timely food delivery, making it a favorite stop for locals and travelers alike.",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/rixford/rixford-well-bar-and-grill-/",
+        "quote": "nd reasonable prices, making it highly recommended for all. The smoke-free environment is kid-friendly and creates a welcoming atmosphere. Known for their 'Wing Night' on Tuesdays and Wednesda",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/rixford/rixford-well-bar-and-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Rixford/584028188135365/The-Rixford-Well",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
   },
   {
    "id": "the-westline-inn",
@@ -659,7 +1299,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "McKean",
    "phone": "(814) 778-5103",
-   "phoneSource": "Venue website westlineinn.com, checked 2026-11-01"
+   "phoneSource": "Venue website westlineinn.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-willows-restaurant",
@@ -684,7 +1332,51 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 14, 2026) (checked 2026-11-01)",
    "county": "McKean",
    "phone": "(814) 362-2222",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 14, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Tourists",
+     "Locals & regulars"
+    ],
+    "summary": "Sees a lot of visitors and tourists; a locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Tourists",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-14",
+        "url": "https://www.restaurantji.com/pa/bradford/willows-/",
+        "quote": "Willows Restaurant is a great family place, close to camping and main tourist attractions. The food is well made and proportioned, especially for the prices. The resta",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bradford/101450405482709/The-Willows-Restaurant",
+        "quote": "tled in the Allegheny National Forest, near Bradford PA. | The beauty of the area invites locals and visitors alike to stop by.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bradford/willows-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bradford/101450405482709/The-Willows-Restaurant",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-17",
+    "website": null
+   }
   },
   {
    "id": "togi-s-family-restaurant",
@@ -709,7 +1401,37 @@
     "Family-friendly"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "McKean"
+   "county": "McKean",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-14",
+        "url": "https://www.restaurantji.com/pa/bradford/togis-family-restaurant-/",
+        "quote": "parm. The atmosphere has a special charm that makes every visit memorable, whether for a date night or a family meal. The restaurant offers a variety of tasty meals such as the Cajun Haddoc",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bradford/togis-family-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bradford/777091102375061/Togi%27s-Family-Restaurant",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-06-04",
+    "website": null
+   }
   },
   {
    "id": "togi-s-substation",
@@ -734,7 +1456,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01)",
    "county": "McKean",
    "phone": "(814) 368-6252",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-17",
+        "url": "https://www.restaurantji.com/pa/bradford/togis-sub-station-/",
+        "quote": "Togi's Sub Station is a family-friendly restaurant with a diverse menu including subs, roast beef, fried veggies, cheeseburgers,",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bradford/togis-sub-station-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bradford/288502816732/Togi%27s-Substation",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-21",
+    "website": null
+   }
   },
   {
    "id": "vavalos-bar-and-restaurant-llc",
@@ -760,7 +1512,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "McKean",
    "phone": "(814) 465-6038",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 5, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 5, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Gifford/338448662990299/Vavalos-Bar-and-Restaurant-LLC",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "west-side-grill",
@@ -795,7 +1555,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 16, 2026) (checked 2026-11-01); West Side Grill Facebook post Oct 13 & 20, 2026 (via bars10) (checked 2026-11-01)",
    "county": "McKean",
    "phone": "(814) 837-9301",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Dive bar"
+    ],
+    "summary": "No-frills dive-bar feel.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Dive bar",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-16",
+        "url": "https://www.restaurantji.com/pa/kane/west-side-grill-/",
+        "quote": "West Side Grill is a bar and grill with a misleading exterior, as it appears like a dive bar but offers excellent food and friendly service. The restaurant is well-known for its wing",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/kane/west-side-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Kane/111666097978697/West-Side-Grill",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "xvii-tavern",
@@ -816,7 +1606,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "McKean"
+   "county": "McKean",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   }
  ],
  "counties": [

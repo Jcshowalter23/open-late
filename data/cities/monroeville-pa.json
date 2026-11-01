@@ -37,7 +37,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 11, 2026) (checked 2026-11-01); Venue site coastandmain.com (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 380-6022",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 11, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 11, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/monroeville/coast-and-main-seafood-and-chophouse-/",
+    "facebookMirror": "https://www.foodyas.com/US/Monroeville/188816865173844/Coast-%26-Main",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-23",
+    "website": null
+   }
   },
   {
    "id": "dad-s-pub-and-grub-monroeville",
@@ -80,7 +88,15 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site dadspub.com (checked 2026-11-01)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/monroeville/dads-pub-and-grub-/",
+    "facebookMirror": "https://www.foodyas.com/US/Monroeville/133683766643501/Dad%27s-Pub-%26-Grub-Monroeville",
+    "fbPostsSeen": 14,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "dick-s-sports-bar-and-pitcairn-grill",
@@ -105,7 +121,49 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 18, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 372-6710",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-18",
+        "url": "https://www.restaurantji.com/pa/pitcairn/dicks-sports-bar-and-pitcairn-grill-/",
+        "quote": "Dick's Sports Bar and Pitcairn Grill is a local establishment known for its welcoming atmosphere and commun",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #1",
+        "url": "https://www.restaurantji.com/pa/pitcairn/dicks-sports-bar-and-pitcairn-grill-/",
+        "quote": "Dick's is a family owned bar that's a great place to socialize, shoot some pool and watch sports! Their juke box has a nice sounds to it. They have their own kitchen with reasonable pric"
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'good for watching sports' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/pitcairn/dicks-sports-bar-and-pitcairn-grill-/",
+        "quote": "good for watching sports"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/pitcairn/dicks-sports-bar-and-pitcairn-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Pitcairn/101890366555431/Dick%27s-Sports-Bar-and-Pitcairn-Grill",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "gateway-grill",
@@ -130,7 +188,65 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 372-2977",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/monroeville/gateway-grill-/",
+        "quote": "e is fast, friendly, and attentive. The place is lively and obviously a favorite with the locals, offering traditional American food with breakfast served all day. The Western omelet and",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/monroeville/gateway-grill-/",
+        "quote": "he Western omelet and crispy hash browns are a must-try. This gem of a restaurant is very kid-friendly, wheelchair accessible, and perfect for casual meals.",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Monroeville/144652338964245/Gateway-Grill",
+        "quote": "Website | American grill and sports bar. We use a wood fire grill with top quality ingredients to provide the | (1291)",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/monroeville/gateway-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Monroeville/144652338964245/Gateway-Grill",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-14",
+    "website": null
+   }
   },
   {
    "id": "james-street-tavern",
@@ -166,7 +282,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01); James Street Tavern Facebook post Oct 19, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 824-8884",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/monroeville/james-street-tavern-/",
+    "facebookMirror": "https://www.foodyas.com/US/Monroeville/114849186603746/James-Street-Tavern",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
   },
   {
    "id": "johnny-s-italian-dining",
@@ -191,7 +315,65 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 14, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 824-6642",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 14, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Live music fans",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; known for live music; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-14",
+        "url": "https://www.restaurantji.com/pa/wilmerding/johnnys-/",
+        "quote": "ve entertainment is also mentioned as a nice addition. Customers agree that Johnny's is a local favorite, known for providing a memorable dining experience.",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-14",
+        "url": "https://www.restaurantji.com/pa/wilmerding/johnnys-/",
+        "quote": "entions of delicious veal, chicken parm, and chicken romano. The restaurant also features live music on Saturday nights. Overall, Johnny's is considered a hidden gem, known for its exception",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Wilmerding/115493598479765/Johnny%27s-Italian-Dining",
+        "quote": "Website | Contact the business | Johnnys Fine Dining Italian and Drinks When he wasn't parking cars , John was hanging around the kitchen help",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/wilmerding/johnnys-/",
+    "facebookMirror": "https://www.foodyas.com/US/Wilmerding/115493598479765/Johnny%27s-Italian-Dining",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "sammy-kebab-house",
@@ -212,7 +394,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Website (rendered) diningoption.com (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 229-8375",
-   "phoneSource": "Website (rendered) diningoption.com, checked 2026-11-01"
+   "phoneSource": "Website (rendered) diningoption.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "taipei-tokyo-monroeville",
@@ -235,7 +425,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Monroeville/366929751463/Taipei-Tokyo---Monroeville",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-brewery-at-luciano-s",
@@ -260,7 +458,15 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Monroeville/104931472152602/The-Brewery-at-Luciano%27s",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2023-09-16",
+    "website": null
+   }
   },
   {
    "id": "the-hut",
@@ -286,7 +492,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 823-9967",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Turtle-Creek/1349935525115115/The-Hut",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-02",
+    "website": null
+   }
   },
   {
    "id": "the-wooden-nickel",
@@ -324,7 +538,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01); The Wooden Nickel Facebook post Sep 17, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 372-9750",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/monroeville/wooden-nickel-/",
+    "facebookMirror": "https://www.foodyas.com/US/Monroeville/174759359232408/The-Wooden-Nickel",
+    "fbPostsSeen": 11,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "tugboats",
@@ -345,7 +567,37 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Chalfant/55765535887/TUGBOATS",
+        "quote": "ates | Chalfant, PA | TUGBOATS | Call | Directions | The \"CHEERS\" of Chalfant Boro. Where everyone knows your name and more! FREE Wifi! Outdoor sound system. Call to reserve the deck for large event",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Chalfant/55765535887/TUGBOATS",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   }
  ],
  "counties": [

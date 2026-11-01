@@ -31,7 +31,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via bars10.com) (checked 2026-11-01)",
    "county": "Union",
    "phone": "(570) 922-1232",
-   "phoneSource": "Facebook page “Boomerangs bar and grille” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Boomerangs bar and grille” (via bars10.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Millmont/128252313943991/Boomerangs-bar-and-grille",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "brasserie-louis",
@@ -61,7 +69,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site brasserie-louis.com (checked 2026-11-01)",
-   "county": "Union"
+   "county": "Union",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lewisburg/brasserie-louis-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lewisburg/116291391725511/Brasserie-Louis",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-01",
+    "website": null
+   }
   },
   {
    "id": "brendan-s-towne-tavern",
@@ -87,7 +103,28 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 16, 2026) (checked 2026-11-01)",
    "county": "Union",
    "phone": "(570) 524-0821",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-05-19",
+      "quote": " Come hang out with DJ OnParr ",
+      "url": "https://www.foodyas.com/US/Lewisburg/524002514448711/Brendan%27s-Towne-Tavern"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lewisburg/the-towne-tavern-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lewisburg/524002514448711/Brendan%27s-Towne-Tavern",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-08",
+    "website": null
+   }
   },
   {
    "id": "la-primavera-italiano-ristorante",
@@ -112,7 +149,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 16, 2026) (checked 2026-11-01)",
    "county": "Union",
    "phone": "(570) 523-1515",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lewisburg/la-primavera-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lewisburg/358702890885218/La-Primavera-Italiano-Ristorante",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "matty-s-sporthouse-grill",
@@ -147,7 +192,56 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 16, 2026) (checked 2026-11-01); Matty's Sporthouse Grill Facebook post Jun 15, 2026 (via bars10) (checked 2026-11-01); Venue site mattyssporthouse.com (checked 2026-11-01)",
    "county": "Union",
    "phone": "(570) 523-3266",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-16",
+        "url": "https://www.restaurantji.com/pa/lewisburg/mattys-sporthouse-grill-/",
+        "quote": "Matty's Sporthouse Grill offers a vibrant sports bar atmosphere with numerous TVs and an impressive beer selection. The menu features satisfyi",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/pa/lewisburg/mattys-sporthouse-grill-/",
+        "quote": "Stopped in to watch the Penn State game while travelling on I-80. Waiter could not have been more accommodating - because w"
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'good for watching sports' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/lewisburg/mattys-sporthouse-grill-/",
+        "quote": "good for watching sports"
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Lewisburg/283750545112/Matty%27s-Sporthouse-Grill",
+        "quote": "Website | We're a family oriented American style sports bar & grill featuring 24 big screen TV’s. We're an American style sports bar & grill with 24",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lewisburg/mattys-sporthouse-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lewisburg/283750545112/Matty%27s-Sporthouse-Grill",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-03",
+    "website": null
+   }
   },
   {
    "id": "mercado-burrito",
@@ -168,7 +262,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Union"
+   "county": "Union",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Lewisburg/385701501511509/Mercado-Burrito",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "original-italian-pizza-mifflinburg",
@@ -194,7 +296,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 9, 2026) (checked 2026-11-01)",
    "county": "Union",
    "phone": "(570) 966-3885",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 9, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 9, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mifflinburg/original-italian-pizza-/",
+    "facebookMirror": "https://www.foodyas.com/US/Mifflinburg/978027232052341/Original-Italian-Pizza---Mifflinburg",
+    "fbPostsSeen": 2,
+    "fbNewestPost": "2026-10-26",
+    "website": null
+   }
   },
   {
    "id": "original-italian-pizza-lewisburg-pa",
@@ -218,7 +328,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 16, 2026) (checked 2026-11-01)",
    "county": "Union",
    "phone": "(570) 523-6610",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-16",
+        "url": "https://www.restaurantji.com/pa/lewisburg/original-italian-family-restaurant-/",
+        "quote": "als, good portions, friendly staff, and consistent quality, making it a favorite for both regulars and visitors.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lewisburg/original-italian-family-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-bull-run-tap-house",
@@ -243,7 +383,51 @@
    "source": "hours from the venue's website; Restaurantji (Google-sourced listing, updated Oct 21, 2026) (checked 2026-11-01)",
    "county": "Union",
    "phone": "(570) 524-2572",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/lewisburg/bull-run-tap-house-/",
+        "quote": "ing vibe. Overall, Bull Run Tap House is a good destination, making it the go-to spot for locals and students alike, combining great food, a lively ambiance, and a welcoming community fe",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/lewisburg/bull-run-tap-house-/",
+        "quote": "various games available, Bull Run Tap House adds an extra layer of fun to the experience. Families can find a fun game room for kids, while the outside seating and lots of windows enhance",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lewisburg/bull-run-tap-house-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lewisburg/147408902063331/The-Bull-Run-Tap-House",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-09-10",
+    "website": null
+   }
   },
   {
    "id": "the-victoria-house-and-vic-s-pub",
@@ -268,7 +452,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via bars10.com) (checked 2026-11-01)",
    "county": "Union",
    "phone": "(570) 523-8090",
-   "phoneSource": "Facebook page “The Victoria House & Vic's Pub” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “The Victoria House & Vic's Pub” (via bars10.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Lewisburg/109766212380715/The-Victoria-House-%26-Vic%27s-Pub",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "trevina",
@@ -291,7 +483,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Union"
+   "county": "Union",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lewisburg/trevina-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lewisburg/100133466208449/Trevina",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2023-12-01",
+    "website": "https://trevinataps.com/"
+   }
   },
   {
    "id": "yung-ting",
@@ -314,7 +514,51 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 16, 2026) (checked 2026-11-01); phone conflict review (checked 2026-11-01)",
    "county": "Union",
    "phone": "(570) 524-7582",
-   "phoneSource": "Venue site yungtingrestaurant.com, checked 2026-11-01. Replaces (570) 524-7464 (Restaurantji; the older Westbranch Hwy listing)"
+   "phoneSource": "Venue site yungtingrestaurant.com, checked 2026-11-01. Replaces (570) 524-7464 (Restaurantji; the older Westbranch Hwy listing)",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-16",
+        "url": "https://www.restaurantji.com/pa/lewisburg/yung-ting-chinese-restaurant-/",
+        "quote": "Yung Ting Chinese Restaurant is a local favorite, offering delicious Chinese food with excellent service. The easy online ordering system",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-16",
+        "url": "https://www.restaurantji.com/pa/lewisburg/yung-ting-chinese-restaurant-/",
+        "quote": "family-run atmosphere, with attention to detail and care for customers. The restaurant is kid-friendly and wheelchair accessible, located in a shopping center with ample parking. While there w",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lewisburg/yung-ting-chinese-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lewisburg/640338375990960/YUNG-TING",
+    "fbPostsSeen": 3,
+    "fbNewestPost": "2026-08-05",
+    "website": null
+   }
   }
  ],
  "counties": [

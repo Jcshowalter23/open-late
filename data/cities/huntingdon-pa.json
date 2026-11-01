@@ -31,7 +31,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
    "county": "Huntingdon",
    "phone": "(814) 667-7349",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/alexandria/bluegills-bar-and-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Alexandria/113923627725692/Bluegills-Bar-%26-Grill",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "hometown-pub",
@@ -75,7 +83,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 20, 2026) (checked 2026-11-01); Hometown Pub Facebook post Oct 5–14, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Huntingdon",
    "phone": "(814) 506-8107",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 20, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-20",
+        "url": "https://www.restaurantji.com/pa/huntingdon/hometown-pub-/",
+        "quote": "Hometown Pub is a popular neighborhood restaurant known for its friendly atmosphere, clean and contemp",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/huntingdon/hometown-pub-/",
+    "facebookMirror": "https://www.foodyas.com/US/Huntingdon/533482413190060/Hometown-Pub",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-16",
+    "website": null
+   }
   },
   {
    "id": "jackson-s-place",
@@ -101,7 +139,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "Huntingdon",
    "phone": "(814) 643-9985",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Huntingdon/466121523583989/Jackson%27s-Place",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "kelly-s-korner",
@@ -124,7 +170,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Huntingdon"
+   "county": "Huntingdon",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/huntingdon/kellys-korner-/",
+    "facebookMirror": "https://www.foodyas.com/US/Huntingdon/686829974702364/Kelly%27s-Korner",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-16",
+    "website": null
+   }
   },
   {
    "id": "mcmurtrie-s-tavern",
@@ -149,7 +203,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Huntingdon",
    "phone": "(814) 667-2250",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Huntingdon/122229757838749/McMurtrie%27s-Tavern",
+    "fbPostsSeen": 5,
+    "fbNewestPost": "2026-06-17",
+    "website": null
+   }
   },
   {
    "id": "memories-sports-bar-and-grill",
@@ -173,7 +235,44 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Huntingdon"
+   "county": "Huntingdon",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Huntingdon/1562878967267686/Memories-Sports-Bar-%26-Grill",
+        "quote": "Memories Sports Bar & Grill, 221 13th Street, Huntingdon, PA (2026) | Home | Cities | Countries | Login | -->",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Huntingdon/1562878967267686/Memories-Sports-Bar-%26-Grill",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-03-10",
+    "website": null
+   }
   },
   {
    "id": "mount-union-oip",
@@ -194,7 +293,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Huntingdon"
+   "county": "Huntingdon",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Mount-Union/109668251644913/Mount-Union-OIP",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-07-03",
+    "website": null
+   }
   },
   {
    "id": "muddy-run-tavern",
@@ -240,7 +347,15 @@
     "Sports & games"
    ],
    "source": "hours from Google listing via exa; Muddy Run Tavern Facebook post Oct 16–25, 2026 (via foodyas) (checked 2026-11-01)",
-   "county": "Huntingdon"
+   "county": "Huntingdon",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Huntingdon/228364090974298/Muddy-Run-Tavern---Huntingdon%2C-PA",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-11",
+    "website": null
+   }
   },
   {
    "id": "pizza-star-ii-and-restaurant",
@@ -264,7 +379,15 @@
     "Family-friendly"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Huntingdon"
+   "county": "Huntingdon",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Three-Springs/169708396376131/Pizza-Star-II-%26-Restaurant",
+    "fbPostsSeen": 4,
+    "fbNewestPost": "2026-10-22",
+    "website": null
+   }
   },
   {
    "id": "rikkis-place",
@@ -285,7 +408,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Huntingdon"
+   "county": "Huntingdon",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Three-Springs/100378372216821/Rikkis-Place",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2025-10-06",
+    "website": null
+   }
   },
   {
    "id": "the-village-tavern",
@@ -310,7 +441,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 20, 2026) (checked 2026-11-01)",
    "county": "Huntingdon",
    "phone": "(814) 506-8037",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 20, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-20",
+        "url": "https://www.restaurantji.com/pa/huntingdon/village-tavern-/",
+        "quote": "lub sandwich and hearty gumbo or chili. The remodeled interior provides a comfortable and family-friendly atmosphere until 9 pm, after which the establishment caters to an adult-only crowd at the",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/huntingdon/village-tavern-/",
+    "facebookMirror": "https://www.foodyas.com/US/Huntingdon/274909412910705/The-Village-Tavern",
+    "fbPostsSeen": 4,
+    "fbNewestPost": "2026-07-03",
+    "website": null
+   }
   },
   {
    "id": "three-twelve-kitchen-and-cocktails",
@@ -335,7 +496,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Huntingdon",
    "phone": "(814) 643-7200",
-   "phoneSource": "Venue website threetwelverestaurant.com, checked 2026-11-01"
+   "phoneSource": "Venue website threetwelverestaurant.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Huntingdon/106041974113336/Three-Twelve-Kitchen-and-Cocktails",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-08-11",
+    "website": null
+   }
   }
  ],
  "counties": [

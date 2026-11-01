@@ -31,7 +31,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "Tioga",
    "phone": "(570) 638-2655",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Blossburg/1926586404135076/Bear-A-Bar-%26-Grille",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-09-17",
+    "website": null
+   }
   },
   {
    "id": "bum-steer",
@@ -54,7 +62,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Tioga",
    "phone": "(814) 258-5142",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Elkland/100744388599564/Bum-Steer",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "crossroads-country-tavern",
@@ -105,7 +121,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Crossroads Country Tavern Facebook post Oct 23–27, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Tioga",
    "phone": "(570) 353-6641",
-   "phoneSource": "OpenStreetMap (node/6929012495, name + location match; Geofabrik extract of 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap (node/6929012495, name + location match; Geofabrik extract of 2026-10-31), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Morris/506734752522149/Crossroads-Country-Tavern",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "crossroads-tavern",
@@ -131,7 +155,22 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Tioga"
+   "county": "Tioga",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Morris/161318037560477/Crossroads-Tavern",
+    "fbPostsSeen": 5,
+    "fbNewestPost": "2026-10-04",
+    "website": null
+   }
   },
   {
    "id": "duncan-tavern",
@@ -153,7 +192,15 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Tioga"
+   "county": "Tioga",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "inn-287",
@@ -178,7 +225,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Tioga",
    "phone": "(570) 353-7471",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 19, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 19, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Morris/709512739468386/INN-287",
+    "fbPostsSeen": 2,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "los-agaves-taqueria",
@@ -203,7 +258,37 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Tioga"
+   "county": "Tioga",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/wellsboro/los-agaves-taqueria-/",
+        "quote": "are especially praised for their perfect seasoning and flavor. The restaurant provides a family-friendly environment, making it a great place to bring children. The staff, including a young host",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/wellsboro/los-agaves-taqueria-/",
+    "facebookMirror": "https://www.foodyas.com/US/Wellsboro/114842241638753/Los-Agaves-Taqueria",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-17",
+    "website": null
+   }
   },
   {
    "id": "old-antlers-inn",
@@ -226,7 +311,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Tioga"
+   "county": "Tioga",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "rational-thinking",
@@ -247,7 +340,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Tioga"
+   "county": "Tioga",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "red-lantern-house",
@@ -272,7 +373,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 1, 2026) (checked 2026-11-01)",
    "county": "Tioga",
    "phone": "(570) 724-4220",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 1, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 1, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/wellsboro/red-lantern-house-/",
+    "facebookMirror": "https://www.foodyas.com/US/Wellsboro/106344351916054/Red-Lantern-House",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-07-01",
+    "website": null
+   }
   },
   {
    "id": "schiffty-s-bar-and-grill",
@@ -315,7 +424,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Schiffty's Bar & Grill Facebook post Oct 21–26, 2026 (via bars10) (checked 2026-11-01); Venue site schifftys.com (checked 2026-11-01)",
    "county": "Tioga",
    "phone": "(814) 367-2600",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Westfield/149626865401516/Schiffty%27s-BAR-%26-GRILL",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-26",
+    "website": null
+   }
   },
   {
    "id": "the-gas-light",
@@ -341,7 +458,57 @@
    "source": "hours from Restaurantji (Google data); Restaurantji (Google-sourced listing, updated Oct 16, 2026) (checked 2026-11-01)",
    "county": "Tioga",
    "phone": "(570) 724-1031",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans",
+     "Locals & regulars"
+    ],
+    "summary": "Known for live music; a locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-16",
+        "url": "https://www.restaurantji.com/pa/wellsboro/gas-light-bar-and-grill-/",
+        "quote": "ly restaurant, popular among locals and travelers alike. Known for its Wing Wednesday and live music, it offers great wings and a good beer selection. The menu includes delicious options suc",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/wellsboro/gas-light-bar-and-grill-/",
+        "quote": "live music"
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-16",
+        "url": "https://www.restaurantji.com/pa/wellsboro/gas-light-bar-and-grill-/",
+        "quote": "The Gas Light Bar & Grill is a friendly restaurant, popular among locals and travelers alike. Known for its Wing Wednesday and live music, it offers great wings a",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/wellsboro/gas-light-bar-and-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Wellsboro/159010830784195/The-Gas-Light",
+    "fbPostsSeen": 5,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "the-mug-bar",
@@ -366,7 +533,49 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 21, 2026) (checked 2026-11-01)",
    "county": "Tioga",
    "phone": "(570) 724-8715",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/wellsboro/your-mamas-mug-/",
+        "quote": "ng a unique experience with a friendly atmosphere. This hidden gem welcomes visitors like locals, providing a relaxed setting with smoke, darts, and pool tables. The food is expertly pre",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/pa/wellsboro/your-mamas-mug-/",
+        "quote": "Absolutely love this bar! Great atmosphere- locals and staff very welcoming to visitors! Always a great time and lots of laughs!"
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/pa/wellsboro/your-mamas-mug-/",
+        "quote": "so friendly and the service is awesome! Always a blast and there is fun events and bands. Locals are all so fun and welcoming. You’ll come in with a smile and leave with an even bigger o"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/wellsboro/your-mamas-mug-/",
+    "facebookMirror": "https://www.foodyas.com/US/Wellsboro/329823550725911/The-Mug-Bar",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-19",
+    "website": null
+   }
   },
   {
    "id": "the-roost",
@@ -389,7 +598,37 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Tioga"
+   "county": "Tioga",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Wellsboro/263659877067345/The-Roost",
+        "quote": "The Roost is so unique, you'll see something new and different each time you visit. Enjoy upscale pub food in a steampunk meets vintage, upcycled atmosphere. Try our cocktails, enjoy a wi",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/wellsboro/the-roost-/",
+    "facebookMirror": "https://www.foodyas.com/US/Wellsboro/263659877067345/The-Roost",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-23",
+    "website": null
+   }
   },
   {
    "id": "the-wellsboro-steak-house",
@@ -414,7 +653,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 16, 2026) (checked 2026-11-01)",
    "county": "Tioga",
    "phone": "(570) 724-9092",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/wellsboro/the-steak-house-/",
+    "facebookMirror": "https://www.foodyas.com/US/Wellsboro/497352906802056/The-Wellsboro-Steak-House",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-17",
+    "website": null
+   }
   },
   {
    "id": "thin-line-tavern-21-n-main-16933",
@@ -478,7 +725,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 8, 2026) (checked 2026-11-01); Thin Line Tavern Facebook post Oct 21–25, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Tioga",
    "phone": "(570) 662-7633",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 8, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 8, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mansfield/thin-line-tavern-/",
+    "facebookMirror": "https://www.foodyas.com/US/Mansfield/118157441231905/Thin-Line-Tavern-21-N.-Main%2C-16933",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
   },
   {
    "id": "tonys-italian-cuisine",
@@ -503,7 +758,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 16, 2026) (checked 2026-11-01)",
    "county": "Tioga",
    "phone": "(570) 724-2090",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/wellsboro/tonys-/",
+    "facebookMirror": "https://www.foodyas.com/US/Wellsboro/102587704824261/Tony%E2%80%99s-Italian-Cuisine",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "wellsboro-house",
@@ -526,7 +789,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 16, 2026) (checked 2026-11-01); Venue site thewellsborohouse.com (checked 2026-11-01)",
    "county": "Tioga",
    "phone": "(570) 723-4687",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/wellsboro/wellsboro-house-/",
+    "facebookMirror": "https://www.foodyas.com/US/Wellsboro/134633679917980/Wellsboro-House",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-06-05",
+    "website": null
+   }
   },
   {
    "id": "yorkholo-brewing-company",
@@ -552,7 +823,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01); Yorkholo Brewing Facebook post Oct 21, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Tioga",
    "phone": "(570) 662-0241",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mansfield/yorkholo-brewing-co-/",
+    "facebookMirror": "https://www.foodyas.com/US/Mansfield/133071230055780/Yorkholo-Brewing-Company",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   }
  ],
  "counties": [

@@ -26,7 +26,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 18, 2026) (checked 2026-11-01)",
    "county": "Bedford",
    "phone": "(814) 624-0011",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bedford/bedford-diner-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "bad-boyz-bistro-of-bedford",
@@ -49,7 +57,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site badboyzbistro.com (checked 2026-11-01)",
-   "county": "Bedford"
+   "county": "Bedford",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bedford/bad-boyz-bistro-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bedford/304726522961958/Bad-Boyz-Bistro-of-Bedford",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-08-13",
+    "website": null
+   }
   },
   {
    "id": "bedford-tavern",
@@ -72,7 +88,37 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Bedford"
+   "county": "Bedford",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bedford/137934999591376/Bedford-Tavern",
+        "quote": "and more, the highest quality beer, and a guaranteed great atmosphere. | (209) | Premium, upscale seafood without the high price tag can be tough to come by, but the Bedford Tavern & Seaf",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bedford/137934999591376/Bedford-Tavern",
+    "fbPostsSeen": 2,
+    "fbNewestPost": "2026-10-03",
+    "website": null
+   }
   },
   {
    "id": "bella-terra-bedford",
@@ -102,7 +148,42 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site bellaterrabedford.com (checked 2026-11-01)",
-   "county": "Bedford"
+   "county": "Bedford",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #1",
+        "url": "https://www.restaurantji.com/pa/bedford/bella-terra-vineyards-bedford-/",
+        "quote": "Friendly. Live music was enjoyable. Busy night but staff were attentive and helpful!"
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/bedford/bella-terra-vineyards-bedford-/",
+        "quote": "live music"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bedford/bella-terra-vineyards-bedford-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bedford/76317459061/Bella-Terra-Bedford",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "defiance-station-convenience-store",
@@ -123,7 +204,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Bedford"
+   "county": "Bedford",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Defiance/258589712283/Defiance-Station-Convenience-store",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "dew-drop-inn",
@@ -149,7 +238,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Bedford",
    "phone": "(814) 733-4822",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/manns-choice/dew-drop-inn-/",
+    "facebookMirror": "https://www.foodyas.com/US/Manns-Choice/1530693360558737/Dew-Drop-Inn",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-26",
+    "website": null
+   }
   },
   {
    "id": "don-patron-bedford",
@@ -172,7 +269,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 18, 2026) (checked 2026-11-01)",
    "county": "Bedford",
    "phone": "(814) 803-1004",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bedford/137934999591376/Bedford-Tavern",
+        "quote": "and more, the highest quality beer, and a guaranteed great atmosphere. | (209) | Premium, upscale seafood without the high price tag can be tough to come by, but the Bedford Tavern & Seaf",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bedford/don-patron-mexican-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bedford/137934999591376/Bedford-Tavern",
+    "fbPostsSeen": 2,
+    "fbNewestPost": "2026-10-03",
+    "website": null
+   }
   },
   {
    "id": "golden-eagle-inn",
@@ -198,7 +325,37 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
-   "county": "Bedford"
+   "county": "Bedford",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/bedford/the-pub-at-the-golden-eagle-inn-/",
+        "quote": "t wine list, and a delectable menu, this welcoming establishment is a must-visit for both locals and travelers. The General Tso Cauliflower, Pub Burger, and Fish & Chips are standout dis",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bedford/the-pub-at-the-golden-eagle-inn-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bedford/192913000869076/Golden-Eagle-Inn",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-12",
+    "website": null
+   }
   },
   {
    "id": "horn-o-plenty-freshtaurant",
@@ -221,7 +378,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Bedford"
+   "county": "Bedford",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bedford/horn-o-plenty-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bedford/318939681491565/Horn-O-Plenty%2C--Freshtaurant",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "judy-s-place",
@@ -244,7 +409,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Bedford"
+   "county": "Bedford",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Schellsburg/219679918193840/Judy%27s-Place",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "original-italian-pizza-saxton",
@@ -270,7 +443,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Bedford",
    "phone": "(814) 635-2979",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/saxton/original-italian-pizza-/",
+    "facebookMirror": "https://www.foodyas.com/US/Saxton/1539653046247565/Original-Italian-Pizza-Saxton",
+    "fbPostsSeen": 12,
+    "fbNewestPost": "2026-03-17",
+    "website": null
+   }
   },
   {
    "id": "route-36-diner",
@@ -291,7 +472,15 @@
     "Family-friendly"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Bedford"
+   "county": "Bedford",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "stooges-pub-and-grub",
@@ -314,7 +503,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Bedford",
    "phone": "(814) 623-5775",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bedford/stooges-pub-and-grub-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "sultan-kobob",
@@ -339,7 +536,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 18, 2026) (checked 2026-11-01)",
    "county": "Bedford",
    "phone": "(814) 288-9483",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/breezewood/sultan-food-/",
+    "facebookMirror": "https://www.foodyas.com/US/Breezewood/102886769219161/Sultan-Kobob",
+    "fbPostsSeen": 1,
+    "fbNewestPost": "2025-10-22",
+    "website": null
+   }
   },
   {
    "id": "the-pub-at-the-golden-eagle-inn",
@@ -365,7 +570,44 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
-   "county": "Bedford"
+   "county": "Bedford",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/bedford/the-pub-at-the-golden-eagle-inn-/",
+        "quote": "t wine list, and a delectable menu, this welcoming establishment is a must-visit for both locals and travelers. The General Tso Cauliflower, Pub Burger, and Fish & Chips are standout dis",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bedford/121998018168830/The-Pub-at-the-Golden-Eagle-Inn",
+        "quote": "Website | Contact the business | The Pub at the Golden Eagle Inn is a place where locals and visitors alike eat, drink and converse i",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bedford/the-pub-at-the-golden-eagle-inn-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bedford/121998018168830/The-Pub-at-the-Golden-Eagle-Inn",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-20",
+    "website": null
+   }
   },
   {
    "id": "the-village-news",
@@ -390,7 +632,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "Bedford",
    "phone": "(814) 623-8418",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bedford/village-news-llc-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bedford/114253768601546/The-Village-News",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "woodhaven-brewing-co",
@@ -416,7 +666,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Bedford",
    "phone": "(814) 977-9959",
-   "phoneSource": "Venue website woodhaven1796.com, checked 2026-11-01"
+   "phoneSource": "Venue website woodhaven1796.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Schellsburg/483701091494045/Woodhaven-Brewing-Co.",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-13",
+    "website": null
+   }
   }
  ],
  "counties": [

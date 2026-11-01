@@ -28,7 +28,57 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Armstrong"
+   "county": "Armstrong",
+   "crowdType": {
+    "labels": [
+     "Live music fans",
+     "Families"
+    ],
+    "summary": "Known for live music; family-friendly.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-30",
+        "url": "https://www.restaurantji.com/pa/kittanning/allegheny-mariner-/",
+        "quote": "he seafood trio where the potato pancake and tuna need improvement. The outdoor deck with live music creates a wonderful setting, especially with patio heaters that keep guests comfortable e",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/kittanning/allegheny-mariner-/",
+        "quote": "live music"
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-30",
+        "url": "https://www.restaurantji.com/pa/kittanning/allegheny-mariner-/",
+        "quote": "eck is lively and enjoyable. Visitors also note the easy parking and the nice options for families. Overall, the Allegheny Mariner remains a highly recommended spot for casual dining and s",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/kittanning/allegheny-mariner-/",
+    "facebookMirror": "https://www.foodyas.com/US/Kittanning/1925738174183585/Allegheny-Mariner",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "avi-s-tavern",
@@ -50,7 +100,15 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Armstrong"
+   "county": "Armstrong",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "big-dogs",
@@ -73,7 +131,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Armstrong"
+   "county": "Armstrong",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Kittanning/108895635002892/Big-Dogs",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "country-palace-ii-llc",
@@ -120,7 +186,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01); Venue site countrypalaceiillc.com (checked 2026-11-01)",
    "county": "Armstrong",
    "phone": "(814) 257-8231",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/dayton/country-palace-bar-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "dimaio-s-ristorante",
@@ -145,7 +219,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 21, 2026) (checked 2026-11-01)",
    "county": "Armstrong",
    "phone": "(724) 783-2299",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Rural-Valley/725317890658044/DiMaio%E2%80%99s-Ristorante---New-Page",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "falsetti-s-villa-restaurant",
@@ -170,7 +252,37 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Armstrong"
+   "county": "Armstrong",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-30",
+        "url": "https://www.restaurantji.com/pa/kittanning/falsettis-villa-restaurant-/",
+        "quote": "d. The restaurant’s large portion sizes and excellent service make it a favorite spot for families celebrating special occasions, like birthdays. Even on busy nights, the staff remains fri",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/kittanning/falsettis-villa-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Kittanning/443350162426622/Falsetti%27s-Villa-Restaurant",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-20",
+    "website": null
+   }
   },
   {
    "id": "firehouse-bar",
@@ -193,7 +305,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Armstrong"
+   "county": "Armstrong",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/McGrann/308639969710721/Firehouse-Bar",
+    "fbPostsSeen": 4,
+    "fbNewestPost": "2025-10-08",
+    "website": null
+   }
   },
   {
    "id": "gardas",
@@ -218,7 +338,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Armstrong",
    "phone": "(724) 763-7676",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "harper-s-grill",
@@ -241,7 +369,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 13, 2026) (checked 2026-11-01)",
    "county": "Armstrong",
    "phone": "(724) 902-7653",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 13, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 13, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/ford-city/harpers-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Ford-City/1346630418708050/Harper%27s-Grill",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "heroes-bar-and-grill",
@@ -275,7 +411,51 @@
    "source": "hours from Restaurantji (Google data); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01); Heroes Bar & Grill Facebook post Oct 20, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Armstrong",
    "phone": "(724) 919-8276",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/kittanning/heroes-bar-and-grill-/",
+        "quote": "njoy the outdoor deck area. With its memorable dining experience, Heroes Bar & Grill is a local favorite.",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/kittanning/heroes-bar-and-grill-/",
+        "quote": "ishment, so guests should come prepared. Whether it's for a brunch, a pick-up order, or a date night, this restaurant delivers hot, flavorful food at affordable prices. Customers can even br",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/kittanning/heroes-bar-and-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Kittanning/103590474747676/Heroes-Bar-%26-Grill",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-23",
+    "website": null
+   }
   },
   {
    "id": "kings-family-restaurant-kittaning-pa",
@@ -300,7 +480,43 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 30, 2026) (checked 2026-11-01)",
    "county": "Armstrong",
    "phone": "(724) 545-3340",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 30, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 30, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-30",
+        "url": "https://www.restaurantji.com/pa/kittanning/kings-family-restaurants-/",
+        "quote": "estaurant provides generous portions at reasonable prices, making it a popular choice for families. While the atmosphere is simple and not fancy, it focuses on delivering a satisfying dini",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's own Facebook posts (2 since May 2026, via foodyas)",
+        "url": "https://www.foodyas.com/US/Kittanning/177930115564956/Kings-Family-Restaurant---Kittaning%2C-PA",
+        "quote": "ble, share a great meal, and make the start of the week a little more fun for everyone. | Bring the family in this Monday and enjoy it together 🍔"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/kittanning/kings-family-restaurants-/",
+    "facebookMirror": "https://www.foodyas.com/US/Kittanning/177930115564956/Kings-Family-Restaurant---Kittaning%2C-PA",
+    "fbPostsSeen": 20,
+    "fbNewestPost": "2026-10-19",
+    "website": null
+   }
   },
   {
    "id": "nite-courts",
@@ -334,7 +550,43 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 25, 2026) (checked 2026-11-01); Nite Courts Facebook post Oct 8, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Armstrong",
    "phone": "(724) 763-7199",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 25, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 25, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-25",
+        "url": "https://www.restaurantji.com/pa/ford-city/nite-courts-/",
+        "quote": "luding the friendly bartender, contribute to a welcoming experience. The restaurant has a kid-friendly atmosphere and is wheelchair accessible, with an outdoor dining area available.",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #1",
+        "url": "https://www.restaurantji.com/pa/ford-city/nite-courts-/",
+        "quote": "Delicious food, great service family friendly atmosphere!"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/ford-city/nite-courts-/",
+    "facebookMirror": "https://www.foodyas.com/US/Ford-City/1573622319611504/Nite-Courts",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-22",
+    "website": null
+   }
   },
   {
    "id": "rubys-den-burgers-and-spirits",
@@ -403,7 +655,15 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Ruby's Den venue site (checked 2026-11-01); Venue site rubisphere16210.com (checked 2026-11-01)",
-   "county": "Armstrong"
+   "county": "Armstrong",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://Rubisphere16210.com/"
+   }
   },
   {
    "id": "smashers-bull-pen",
@@ -424,7 +684,15 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Armstrong"
+   "county": "Armstrong",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-chief-bar-and-grill",
@@ -457,7 +725,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); The Chief Bar & Grill Facebook post Oct 22, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Armstrong",
    "phone": "(724) 543-4453",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Kittanning/110690687023984/The-Chief-Bar-%26-Grill",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-11-01",
+    "website": null
+   }
   },
   {
    "id": "the-craft-house-and-gastropub-kittanning",
@@ -490,7 +766,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01); The Craft House venue site (checked 2026-11-01); The Craft House & Gastropub Facebook post Oct 24, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Armstrong",
    "phone": "(724) 919-8070",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Kittanning/1840336496293607/The-Craft-House-%26-Gastropub-Kittanning",
+        "quote": "Website | Contact the business | Restaurant, Craft Beer, Craft Cocktails, Family Friendly | (793)",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/kittanning/the-craft-house-and-gastropub-/",
+    "facebookMirror": "https://www.foodyas.com/US/Kittanning/1840336496293607/The-Craft-House-%26-Gastropub-Kittanning",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-30",
+    "website": "https://www.crafthousekittanning.com/"
+   }
   },
   {
    "id": "the-edge-sax4thave",
@@ -516,7 +822,22 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "Armstrong",
    "phone": "(724) 763-1070",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Ford-City/362279337302594/The-Edge-%23Sax4thAve",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-02-20",
+    "website": "https://www.bizapedia.com/pa/the-edge-sax4thave.html"
+   }
   },
   {
    "id": "the-inn-restaurant-and-bar",
@@ -542,7 +863,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Armstrong",
    "phone": "(724) 545-1601",
-   "phoneSource": "OpenStreetMap (node/11703687784, name + location match; Geofabrik extract of 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap (node/11703687784, name + location match; Geofabrik extract of 2026-10-31), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Kittanning/102775048031403/The-Inn-Restaurant-and-Bar",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "whiskey-throttled-bar",
@@ -568,7 +897,60 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 2, 2026) (checked 2026-11-01)",
    "county": "Armstrong",
    "phone": "(724) 545-7600",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 2, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 2, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-02",
+        "url": "https://www.restaurantji.com/pa/kittanning/whiskey-throttled-/",
+        "quote": "re generous and flavorful, with tender meat. The ambiance is inviting, and both staff and locals make visitors feel at home. Many are willing to drive hours just to enjoy the great food",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-30",
+      "quote": " DJ starts at 9:30 🤘🏻 ",
+      "url": "https://www.foodyas.com/US/Kittanning/675017072366849/Whiskey-Throttled-Bar"
+     },
+     {
+      "date": "2026-10-29",
+      "quote": " 10/29/2026 | TOMORROW!!! Get those Costumes on and head on out for a good time! We will have prizes and >> We will have prizes and DJ Fair Warning for some good dancing vibes",
+      "url": "https://www.foodyas.com/US/Kittanning/675017072366849/Whiskey-Throttled-Bar"
+     },
+     {
+      "date": "2026-10-28",
+      "quote": " Costume party, prizes and DJ Fair Warning | 9 p.m. start! ",
+      "url": "https://www.foodyas.com/US/Kittanning/675017072366849/Whiskey-Throttled-Bar"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/kittanning/whiskey-throttled-/",
+    "facebookMirror": "https://www.foodyas.com/US/Kittanning/675017072366849/Whiskey-Throttled-Bar",
+    "fbPostsSeen": 13,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "wick-city-saloon",
@@ -605,7 +987,33 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Wick City Saloon Facebook post Oct 15, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Armstrong"
+   "county": "Armstrong",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-31",
+      "quote": " 👻 Spooky season is all month long ending with a banger Halloween party on Saturday 10/31 featuring DJ Berry Productions 🎃 Come on down and get in the spirit with us",
+      "url": "https://www.foodyas.com/US/Kittanning/108812283452/Wick-City-Saloon"
+     },
+     {
+      "date": "2026-10-29",
+      "quote": " Reminder, DJ Berry Productions will be here this Saturday night for our Halloween party",
+      "url": "https://www.foodyas.com/US/Kittanning/108812283452/Wick-City-Saloon"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/kittanning/wick-city-saloon-/",
+    "facebookMirror": "https://www.foodyas.com/US/Kittanning/108812283452/Wick-City-Saloon",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   }
  ],
  "counties": [

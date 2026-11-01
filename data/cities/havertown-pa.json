@@ -55,7 +55,70 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 9, 2026) (checked 2026-11-01); Brick & Brew Havertown Facebook post Oct 25–26, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Delaware",
    "phone": "(484) 455-7250",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 9, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 9, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans",
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "Popular for watching games; a locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #1",
+        "url": "https://www.restaurantji.com/pa/havertown/brick-and-brew-/",
+        "quote": "Been here a few times. The atmosphere is really nice in an old bank location, with lots of tvs to see the football game, though you have to crane your neck a lot. The food is consisten"
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'good for watching sports' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/havertown/brick-and-brew-/",
+        "quote": "good for watching sports"
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-09",
+        "url": "https://www.restaurantji.com/pa/havertown/brick-and-brew-/",
+        "quote": "nk or a full meal, the food and service are consistently top-notch, making Brick & Brew a local favorite that is sure to please.",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-09",
+        "url": "https://www.restaurantji.com/pa/havertown/brick-and-brew-/",
+        "quote": "Brew is a popular restaurant that offers a cozy atmosphere for both family gatherings and date nights. The establishment is known for its amazing drinks, like the very well made Old Fashione",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/havertown/brick-and-brew-/",
+    "facebookMirror": "https://www.foodyas.com/US/Havertown/191110927690370/Brick-%26-Brew-Gastropub---Havertown",
+    "fbPostsSeen": 11,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "burrata-havertown",
@@ -80,7 +143,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Delaware"
+   "county": "Delaware",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/havertown/burrata-havertown-/",
+    "facebookMirror": "https://www.foodyas.com/US/Havertown/112434676823759/Burrata-Havertown",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "el-limon-havertown",
@@ -103,7 +174,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 5, 2026) (checked 2026-11-01)",
    "county": "Delaware",
    "phone": "(484) 453-8851",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 5, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 5, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/havertown/el-limon-havertown-/",
+    "facebookMirror": "https://www.foodyas.com/US/Havertown/109787150884975/El-Limon-Havertown",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-31",
+    "website": "https://ellimontaquerias.com/"
+   }
   },
   {
    "id": "hab",
@@ -126,7 +205,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Delaware",
    "phone": "(610) 853-4637",
-   "phoneSource": "Venue website haveaburger.com, checked 2026-11-01"
+   "phoneSource": "Venue website haveaburger.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Havertown/410262495760023/HAB",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-21",
+    "website": null
+   }
   },
   {
    "id": "jd-mcgillicuddy-s-brookline",
@@ -159,7 +246,57 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror); JD McGillicuddy's Brookline Facebook post Sep 15–Oct 28, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Delaware"
+   "county": "Delaware",
+   "crowdType": {
+    "labels": [
+     "Live music fans",
+     "Locals & regulars"
+    ],
+    "summary": "Known for live music; a locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/havertown/jd-mcgillicuddys-/",
+        "quote": "sure drinks are cold and customers are well taken care of. The atmosphere is lively with live music, which is placed strategically above the bar to enhance the experience. While the parking",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/havertown/jd-mcgillicuddys-/",
+        "quote": "live music"
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/havertown/jd-mcgillicuddys-/",
+        "quote": "JD McGillicuddy's is a fantastic neighborhood pub where guests can drink, eat, and have a great time. The food is delicious, with highlight",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/havertown/jd-mcgillicuddys-/",
+    "facebookMirror": "https://www.foodyas.com/US/Havertown/141384635887042/JD-McGillicuddy%27s-Brookline",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "manoa-tavern",
@@ -201,7 +338,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 25, 2026) (checked 2026-11-01); Manoa Tavern Facebook post Sep 17, 2026 (via bars10) (checked 2026-11-01); Venue site manoatavern.com (checked 2026-11-01)",
    "county": "Delaware",
    "phone": "(484) 455-7448",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 25, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 25, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-25",
+        "url": "https://www.restaurantji.com/pa/havertown/manoa-tavern-/",
+        "quote": "tic, with excellent and affordable meals, prompt service, and a pleasant atmosphere. This local bar is a popular choice for both casual dining and special occasions.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/havertown/manoa-tavern-/",
+    "facebookMirror": "https://www.foodyas.com/US/Havertown/2226590577590194/Manoa-Tavern",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-17",
+    "website": null
+   }
   },
   {
    "id": "paddy-rooney-s-pub",
@@ -224,7 +391,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Delaware"
+   "county": "Delaware",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Havertown/133483690011629/PADDY-ROONEYS-PUB",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "pepperoncini-havertown",
@@ -268,7 +443,37 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 1, 2026) (checked 2026-11-01); Pepperoncini venue site (checked 2026-11-01); Pepperoncini Havertown Facebook post Oct 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Delaware"
+   "county": "Delaware",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-01",
+        "url": "https://www.restaurantji.com/pa/havertown/pepperoncini-restaurant-and-bar-havertown-/",
+        "quote": "and attentive, creating a comfortable dining experience. Pepperoncini is a favorite among families and friends, offering amazing food, atmosphere, and service.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/havertown/pepperoncini-restaurant-and-bar-havertown-/",
+    "facebookMirror": "https://www.foodyas.com/US/Havertown/108802430910838/Pepperoncini-Havertown",
+    "fbPostsSeen": 12,
+    "fbNewestPost": "2026-10-31",
+    "website": "https://www.pepperoncinihavertown.com/"
+   }
   },
   {
    "id": "the-crossbar",
@@ -293,7 +498,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Delaware",
    "phone": "(610) 449-4200",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/havertown/the-crossbar-/",
+        "quote": "epared well, providing time to enjoy each dish. The porch area is heated and suitable for families with children. Parking is limited to a small free lot and metered street parking. Overall",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/havertown/the-crossbar-/",
+    "facebookMirror": "https://www.foodyas.com/US/Havertown/271744712941205/The-Crossbar",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "the-yard-pub",
@@ -328,7 +563,74 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01); Venue site theyardhavertown.com (checked 2026-11-01)",
    "county": "Delaware",
    "phone": "(610) 789-1414",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans",
+     "Live music fans"
+    ],
+    "summary": "Popular for watching games; known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/havertown/tip-olearys-/",
+        "quote": "rly for large groups and special occasions, with a bit of lively atmosphere expected in a sports bar. The service is top-notch, making it a great spot for dining whether with a group or just",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/havertown/tip-olearys-/",
+        "quote": "service and food. The pub features a private party room, outdoor space with firepits, and live music for entertainment, making it a lively spot. The outdoor patio is super large, with games",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-30",
+      "quote": " Check out the DJ lineup at the Yard Pub this month",
+      "url": "https://www.foodyas.com/US/Havertown/102572405502982/The-Yard-Pub"
+     },
+     {
+      "date": "2026-10-24",
+      "quote": " Get swept up in the sound—this month’s DJ lineup promises to keep the crowd dancing all night at the Yard Pub",
+      "url": "https://www.foodyas.com/US/Havertown/102572405502982/The-Yard-Pub"
+     },
+     {
+      "date": "2026-10-23",
+      "quote": " Watch the pros at work—our DJs with their signature headphones are set to deliver unforgettable sets at the Yard Pub",
+      "url": "https://www.foodyas.com/US/Havertown/102572405502982/The-Yard-Pub"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/havertown/tip-olearys-/",
+    "facebookMirror": "https://www.foodyas.com/US/Havertown/102572405502982/The-Yard-Pub",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "westgate-pub",
@@ -349,7 +651,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Delaware"
+   "county": "Delaware",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://online.skytab.com/1743a7a9e75684b0475d3be33f27084d/order-settings"
+   }
   }
  ],
  "counties": [

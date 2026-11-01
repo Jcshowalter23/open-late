@@ -36,7 +36,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 4, 2026) (checked 2026-11-01); Aviva Brick Oven Facebook post Oct 27, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(724) 799-8849",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 4, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 4, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Warrendale/151002181634594/Aviva-Brick-Oven-Warrendale",
+        "quote": "e, craft beer, and handcrafted cocktails | Aviva Brick Oven is the perfect restaurant for date nights, family dinners, group gatherings, and special occasions. Guests enjoy: | Dine-in servic",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/warrendale/aviva-brick-oven-/",
+    "facebookMirror": "https://www.foodyas.com/US/Warrendale/151002181634594/Aviva-Brick-Oven-Warrendale",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "billy-s-roadhouse",
@@ -70,7 +100,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 12, 2026) (checked 2026-11-01); Billy's Roadhouse Facebook post Oct 21–26, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(724) 934-1177",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-12",
+        "url": "https://www.restaurantji.com/pa/wexford/billys-roadhouse-/",
+        "quote": "s known for consistent quality and a welcoming environment, making it a favorite spot for families and regular visitors alike.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/wexford/billys-roadhouse-/",
+    "facebookMirror": "https://www.foodyas.com/US/Wexford/1403432086607922/Billy%27s-Roadhouse",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-26",
+    "website": null
+   }
   },
   {
    "id": "coles-tavern",
@@ -107,7 +167,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 12, 2026) (checked 2026-11-01); Coles Tavern Facebook post Sep 14, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(724) 935-2000",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Wexford/280894798646714/Coles-Tavern",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
   },
   {
    "id": "dee-jay-s-bbq-wexford",
@@ -151,7 +219,70 @@
    "source": "hours from the venue's website; Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01); Venue site deejaysfamousribs.com (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(724) 488-7427",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [
+     "Restaurantji review/summary mentions dj",
+     "Restaurantji review/summary mentions dj",
+     "Restaurantji review/summary mentions dj"
+    ],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Dee Jay's BBQ Ribs & Grille",
+      "url": "https://deejaysfamousribs.com/contact/#wexford"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Founded in Weirton, WV in 1980, our Dee Jay’s Collier location was the first in Pennsylvania and your go-to for our legendary ribs, pulled pork sidewinders and other favorites",
+      "url": "https://deejaysfamousribs.com/contact/#wexford"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "DeeJay’s first opened its doors in 1980",
+      "url": "https://deejaysfamousribs.com/contact/#wexford"
+     }
+    ],
+    "dropped": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": "2026-10-21",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://deejaysfamousribs.com/specials/",
+        "date": "2026-11-01",
+        "quote": "Dee Jay's Collier | Wednesday Lunch Buffet"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Wexford/116337994707181/Dee-Jay%27s-BBQ---Wexford",
+        "date": "2026-10-21",
+        "quote": " It’s Brisket Wednesday at DeeJays"
+       }
+      ],
+      "confidence": "medium",
+      "droppedReason": "False positive: 'Dee Jay's' is the restaurant name"
+     }
+    ],
+    "reviewNote": "False positive: 'Dee Jay's' is the restaurant name"
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/wexford/dee-jays-bbq-ribs-and-grille-wexford-/",
+    "facebookMirror": "https://www.foodyas.com/US/Wexford/116337994707181/Dee-Jay%27s-BBQ---Wexford",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-30",
+    "website": "https://deejaysfamousribs.com/contact/#wexford"
+   }
   },
   {
    "id": "emporio-a-meatball-joint",
@@ -183,7 +314,28 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via foodyas.com) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(724) 871-3555",
-   "phoneSource": "Facebook page “Emporio: A Meatball Joint” (via foodyas.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Emporio: A Meatball Joint” (via foodyas.com), checked 2026-11-01",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-31",
+      "quote": "Il Tetto on October 31st from 9 PM–2 AM for a wicked night of: | 🎭 Costume Contest with a prize for the winner | 🎧 Live >> 🎧 Live DJ & music all night",
+      "url": "https://www.foodyas.com/US/Wexford/1670552586545832/Emporio%3A-A-Meatball-Joint"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Wexford/1670552586545832/Emporio%3A-A-Meatball-Joint",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-16",
+    "website": null
+   }
   },
   {
    "id": "jergels",
@@ -208,7 +360,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 12, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(724) 799-8333",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/warrendale/jergels-rhythm-grille-/",
+    "facebookMirror": "https://www.foodyas.com/US/Warrendale/222473101035/Jergels",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-27",
+    "website": "https://www.jergels.com/"
+   }
   },
   {
    "id": "monte-cello-s-wexford",
@@ -233,7 +393,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 12, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(724) 935-4151",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/wexford/monte-cellos-pizza-/",
+    "facebookMirror": "https://www.foodyas.com/US/Wexford/290265444330829/Monte-Cello%27s-Wexford",
+    "fbPostsSeen": 3,
+    "fbNewestPost": "2026-10-17",
+    "website": null
+   }
   },
   {
    "id": "napa-prime-chophouse",
@@ -256,7 +424,43 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-14",
+        "url": "https://www.restaurantji.com/pa/wexford/napa-prime-chophouse-/",
+        "quote": "ere service is consistently top-notch. The knowledgeable servers contribute to a warm and upscale atmosphere, with staff that is personable yet not intrusive. The menu features delicious",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #1",
+        "url": "https://www.restaurantji.com/pa/wexford/napa-prime-chophouse-/",
+        "quote": "a while, and I’m glad we finally did. The atmosphere is beautiful and definitely has that upscale steakhouse feel without being overly stuffy. It made for a really nice date night. The f"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/wexford/napa-prime-chophouse-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.napaprimechophouse.com/"
+   }
   },
   {
    "id": "ozone-bar-and-grill",
@@ -312,7 +516,15 @@
    "source": "hours from the venue's website; Venue site www.ozonebargrill.com (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(724) 765-6924",
-   "phoneSource": "Venue website ozonebargrill.com, checked 2026-11-01"
+   "phoneSource": "Venue website ozonebargrill.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Warrendale/629239156940361/Ozone-Bar-%26-Grill",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-06-23",
+    "website": null
+   }
   },
   {
    "id": "patron-mexican-grill-wexford",
@@ -338,7 +550,50 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(724) 935-3559",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/wexford/patron-mexican-grill-/",
+        "quote": "Patron Mexican Grill is a popular spot for families and event-goers. The staff is praised for their attentiveness, making customers feel spec",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-08-11",
+      "quote": " 🎊 Celebrate 19 amazing years with us—cold margaritas 🍹, tequila shots 🥃, live mariachi 🎺, DJ all day 🎶, and the best Mexican food in town",
+      "url": "https://www.foodyas.com/US/Wexford/843663758837759/Patron-Mexican-Grill-Wexford"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/wexford/patron-mexican-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Wexford/843663758837759/Patron-Mexican-Grill-Wexford",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-15",
+    "website": null
+   }
   },
   {
    "id": "patron-wexford",
@@ -361,7 +616,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(724) 935-3559",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/wexford/patron-mexican-grill-/",
+        "quote": "Patron Mexican Grill is a popular spot for families and event-goers. The staff is praised for their attentiveness, making customers feel spec",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/wexford/patron-mexican-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Wexford/552217128563013/Patron-Wexford",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "poor-richard-s-public-house",
@@ -386,7 +671,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01); Venue site poorrichardspublichouse.com (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(724) 935-9870",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Wexford/107804530809088/Poor-Richard%27s-Public-House",
+        "quote": "Website | Contact the business | As your neighborhood pub, we offer a warm, cozy atmosphere where you can always count on finding good food, good p",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/wexford/wexford-ale-house-and-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Wexford/107804530809088/Poor-Richard%27s-Public-House",
+    "fbPostsSeen": 13,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "the-brush-creek-inn",
@@ -412,7 +727,58 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 3, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(724) 719-2889",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 3, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 3, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Dive bar"
+    ],
+    "summary": "A locals-and-regulars spot; no-frills dive-bar feel.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-03",
+        "url": "https://www.restaurantji.com/pa/warrendale/brush-creek-inn-/",
+        "quote": "Cenci, make every visit an experience. While the menu may not be extensive, the bar is a local favorite with a special place in many hearts.",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Warrendale/254388824757868/The-Brush-Creek-Inn",
+        "quote": "w construction will start soon! | If you're looking to relax and hang with the Warrendale locals while enjoying excellent food, then we are your spot. Happy hour Monday- Friday 5-7pm: $1",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Dive bar",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-03",
+        "url": "https://www.restaurantji.com/pa/warrendale/brush-creek-inn-/",
+        "quote": "Brush Creek Inn is a lively dive bar with a fun atmosphere, offering great beef jerky and snacks. The establishment has a ciga",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/warrendale/brush-creek-inn-/",
+    "facebookMirror": "https://www.foodyas.com/US/Warrendale/254388824757868/The-Brush-Creek-Inn",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "the-gyro-shop",
@@ -435,7 +801,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 12, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(724) 935-3200",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/wexford/my-big-fat-greek-gyro-/",
+    "facebookMirror": "https://www.foodyas.com/US/Wexford/722085798206113/The-Gyro-Shop",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "thorn-hill-tap-house",
@@ -470,7 +844,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01); Thorn Hill Tap House Facebook post Oct 14 & 21, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(724) 383-8484",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Wexford/108385014025998/Thorn-Hill-Tap-House",
+        "quote": "Website | Contact the business | Family Friendly Casual Dining",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/wexford/thorn-hill-tap-house-/",
+    "facebookMirror": "https://www.foodyas.com/US/Wexford/108385014025998/Thorn-Hill-Tap-House",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "walnut-grill-wexford",
@@ -504,7 +908,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 12, 2026) (checked 2026-11-01); Walnut Grill Wexford Facebook post Aug 22, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(724) 933-8410",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/wexford/walnut-grill-wexford-/",
+    "facebookMirror": "https://www.foodyas.com/US/Wexford/437638933006586/Walnut-Grill---Wexford",
+    "fbPostsSeen": 17,
+    "fbNewestPost": "2026-10-23",
+    "website": null
+   }
   },
   {
    "id": "wexford-public",
@@ -539,7 +951,42 @@
    "source": "hours from the venue's website; Restaurantji (Google-sourced listing, updated Sep 4, 2026) (checked 2026-11-01); Venue site wexfordpublic.com (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(878) 465-2031",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 4, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 4, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/pa/wexford/wexford-public-/",
+        "quote": "amazing and the specials are great! Onion rings are a must get in my opinion. The vibe is upscale but welcoming and service was amazing."
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/pa/wexford/wexford-public-/",
+        "quote": "We’ve only had great experiences here. A great mix of casual comfort and upscale without prices being over the top. The crab cake is the best I’ve ever had and such a sta"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/wexford/wexford-public-/",
+    "facebookMirror": "https://www.foodyas.com/US/Wexford/218078638055603/Wexford-Public",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
   }
  ],
  "counties": [

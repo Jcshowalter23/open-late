@@ -51,7 +51,92 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 23, 2026) (checked 2026-11-01)",
    "county": "Delaware",
    "phone": "(610) 558-1929",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 23, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 23, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families",
+     "Date night / upscale",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly; a date-night / upscale spot; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-23",
+        "url": "https://www.restaurantji.com/pa/media/barnabys-aston-/",
+        "quote": "d tasting good. They excel in creating an authentic Philly cheesesteak, highly praised by locals. Service is commendable, making it a fine dining experience. Located in Media, PA, it is",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-23",
+        "url": "https://www.restaurantji.com/pa/media/barnabys-aston-/",
+        "quote": "e consistently praised the food quality and affordability, making it a popular choice for families. While the service can be slow at times, the overall experience is enjoyable, with a welc",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-23",
+        "url": "https://www.restaurantji.com/pa/media/barnabys-aston-/",
+        "quote": "thentic Philly cheesesteak, highly praised by locals. Service is commendable, making it a fine dining experience. Located in Media, PA, it is worth a visit for those craving a taste of home.",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Media/228323807193552/Barnaby%27s-Aston",
+        "quote": "Website | Contact the business | Restaurant / Sports Bar",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-29",
+      "quote": "🎧 DJ Salvo Upstairs | 9PM | 📅 Thursday, October 29th | 9PM",
+      "url": "https://www.foodyas.com/US/Media/228323807193552/Barnaby%27s-Aston"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/media/barnabys-aston-/",
+    "facebookMirror": "https://www.foodyas.com/US/Media/228323807193552/Barnaby%27s-Aston",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-14",
+    "website": null
+   }
   },
   {
    "id": "brick-and-brew-gastropub-media",
@@ -93,7 +178,43 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01); Brick & Brew Media Facebook post Oct 12, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Delaware",
    "phone": "(484) 443-8441",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/media/brick-and-brew-/",
+        "quote": "& Brew in Media offers a variety of drinks, with recommended whiskey cocktails and a cozy neighborhood pub atmosphere. The menu includes appetizers like wings and garlic knots, as well as cocktail",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/pa/media/brick-and-brew-/",
+        "quote": "“We’re regulars at Brick and Brew because the food is great, the drinks are even better, and the atmosphe"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/media/brick-and-brew-/",
+    "facebookMirror": "https://www.foodyas.com/US/Media/1083818088373818/Brick-%26-Brew--Gastropub---Media",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-14",
+    "website": null
+   }
   },
   {
    "id": "broad-table-tavern",
@@ -116,7 +237,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Delaware"
+   "county": "Delaware",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "difabio-s-market-and-tap",
@@ -155,7 +284,56 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); difabios venue site (checked 2026-11-01)",
-   "county": "Delaware"
+   "county": "Delaware",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Join us tonight for Karaoke",
+      "url": "https://www.difabiosevents.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "#DelcoKaraoke #phillyevents #phillyfun #LiveMusic #DifabiosEvents #FoodandMusic #SundayFunday #BobbyJones #NightOut",
+      "url": "https://www.difabiosevents.com/"
+     },
+     {
+      "date": "2026-10-18",
+      "quote": "Neil McGettigan | 6-9 Sky Bar | October 18th | Bobby Jones >> Bobby Jones Karaoke",
+      "url": "https://www.difabiosevents.com/events-and-course"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-22",
+      "quote": "DJ Johnny Looch is back | Join us Thursday October 22nd from 7-10PM for an unforgettable night of dancing!💃🕺⁠ | Join us Thursday October 22nd from 7-10PM for an unforgettable night of dancing!💃🕺⁠",
+      "url": "https://www.difabiosevents.com/"
+     },
+     {
+      "date": "2026-10-22",
+      "quote": "Kat Young | 6-9 Sky Bar | October 22nd | >> DJ Johnny Looch",
+      "url": "https://www.difabiosevents.com/events-and-course"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/media/difabios-/",
+    "facebookMirror": "https://www.foodyas.com/US/Media/236893010401137/DiFabio%27s-Market-%26-Tap",
+    "fbPostsSeen": 19,
+    "fbNewestPost": "2026-10-31",
+    "website": "https://difabiosevents.com/"
+   }
   },
   {
    "id": "lunas-mexican-grill",
@@ -195,7 +373,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Lunas Mexican Grill venue site (checked 2026-11-01)",
-   "county": "Delaware"
+   "county": "Delaware",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.lunasmexicangrillswat.com/"
+   }
   },
   {
    "id": "margaret-kuo-s-restaurants",
@@ -218,7 +404,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 1, 2026) (checked 2026-11-01)",
    "county": "Delaware",
    "phone": "(610) 891-8880",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 1, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 1, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/media/margaret-kuos-kitchen-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "media-s-towne-house",
@@ -264,7 +458,73 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 31, 2026) (checked 2026-11-01); Media's Towne House Facebook post Oct 19 & 27, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Delaware",
    "phone": "(484) 445-2041",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #1",
+        "url": "https://www.restaurantji.com/pa/media/towne-house-/",
+        "quote": "rience at Media's Towne House this past weekend. During a private party I attended, my husband was unfairly flagged by the staff without any clear explanation or warning. It was uncomforta"
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/pa/media/towne-house-/",
+        "quote": "en is warm and inviting. I recently visited on a Friday night with some friends. They had live music which was really nice. Although the bar was crowded, service was quick and friendly. The"
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-28",
+      "quote": "- Karaoke and industry night from 9 p | Wednesday, October 28:",
+      "url": "https://www.foodyas.com/US/Media/1062035137293101/Media%27s-Towne-House"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " onwards, with a DJ in the house and hall | - The Shevlins perform from 10pm to 1 a.m. in the shebeen. | Sunday, November 1: | - The Shevlins perform from 10pm to 1 a.m. in the shebeen.",
+      "url": "https://www.foodyas.com/US/Media/1062035137293101/Media%27s-Towne-House"
+     },
+     {
+      "date": "2026-10-31",
+      "quote": "- Halloween DJ set from 9 p | Saturday, October 31:",
+      "url": "https://www.foodyas.com/US/Media/1062035137293101/Media%27s-Towne-House"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/media/towne-house-/",
+    "facebookMirror": "https://www.foodyas.com/US/Media/1062035137293101/Media%27s-Towne-House",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "off-the-rail",
@@ -301,7 +561,92 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Off The Rail venue site (checked 2026-11-01)",
-   "county": "Delaware"
+   "county": "Delaware",
+   "crowdType": {
+    "labels": [
+     "Sports fans",
+     "Live music fans",
+     "Date night / upscale",
+     "Families"
+    ],
+    "summary": "Popular for watching games; known for live music; a date-night / upscale spot; family-friendly.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-31",
+        "url": "https://www.restaurantji.com/pa/media/off-the-rail-media-/",
+        "quote": "sh dining experience. The restaurant boasts a chill atmosphere, where customers can enjoy watching games projected on the walls. The food is exceptional, with highlights like the fried PB&J and",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Media/104910741040380/Off-The-Rail",
+        "quote": "Website | Contact the business | Media’s Sports Bar⚾️ • | The Most TVs on State St 📺 | The ONLY Rooftop Bar 🌅 | Food • Drinks • Live Music 🎶",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-31",
+        "url": "https://www.restaurantji.com/pa/media/off-the-rail-media-/",
+        "quote": "ibe. Guests can now enjoy the open deck, which offers great views and the option to catch live music. Overall, Off the Rail is a highly recommended destination, especially for those in the D",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/media/off-the-rail-media-/",
+        "quote": "live music"
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-31",
+        "url": "https://www.restaurantji.com/pa/media/off-the-rail-media-/",
+        "quote": "so martinis. The friendly and attentive staff make it a perfect spot for family visits or date nights. The restaurant has recently undergone renovations, creating a clean and classy aestheti",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.offtherailmedia.com/",
+        "quote": "ab a drink at our rooftop bar or dine alfresco on our rooftop patio. We embody the local, family friendly and diverse feel of Media, Pa Everybody's Hometown. | Our menu | food menu | Catering | O",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/media/off-the-rail-media-/",
+    "facebookMirror": "https://www.foodyas.com/US/Media/104910741040380/Off-The-Rail",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-27",
+    "website": "https://www.offtherailmedia.com/"
+   }
   },
   {
    "id": "old-state-tavern",
@@ -328,7 +673,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "Delaware",
    "phone": "(610) 566-9920",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/media/old-state-tavern-/",
+        "quote": "Old State Tavern is a local sports bar with a great atmosphere, welcoming staff, and solid drinks at good prices. Known for its",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/media/old-state-tavern-/",
+    "facebookMirror": "https://www.foodyas.com/US/Media/118230964860518/Old-State-Tavern",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-07",
+    "website": null
+   }
   },
   {
    "id": "spasso-italian-grill",
@@ -353,7 +728,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Delaware"
+   "county": "Delaware",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/media/spasso-italian-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Media/280023532076625/Spasso-Italian-Grill---Media",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "state-street-pub-media",
@@ -395,7 +778,56 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); State Street Pub Media Facebook post Oct 15, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Delaware"
+   "county": "Delaware",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-09",
+        "url": "https://www.restaurantji.com/pa/media/quotations-/",
+        "quote": "ecially during special events like Dining Under the Stars, when the outdoor bar opens and live music is featured. Trivia nights add to the fun atmosphere, making State Street Pub a great pla",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/media/quotations-/",
+        "quote": "live music"
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-31",
+      "quote": "Join us this Saturday, October 31st for a spooky good time with DJ Josh Jamz and costume contest",
+      "url": "https://www.foodyas.com/US/Media/103776829046035/State-Street-Pub-Media"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/media/quotations-/",
+    "facebookMirror": "https://www.foodyas.com/US/Media/103776829046035/State-Street-Pub-Media",
+    "fbPostsSeen": 15,
+    "fbNewestPost": "2026-10-26",
+    "website": null
+   }
   },
   {
    "id": "stephen-s-on-state",
@@ -436,7 +868,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 21, 2026) (checked 2026-11-01); Venue site stephensonstate.com (checked 2026-11-01)",
    "county": "Delaware",
    "phone": "(610) 891-8900",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/media/stephens-on-state-/",
+        "quote": "ials, and their presentation of food is commendable. The atmosphere remains inviting with live music, making it a nice little hang out to meet people. Many seating options are available, inc",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/media/stephens-on-state-/",
+    "facebookMirror": "https://www.foodyas.com/US/Media/173133642720133/Stephen%27s-on-State",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-15",
+    "website": null
+   }
   },
   {
    "id": "tap-24",
@@ -470,7 +932,43 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 29, 2026) (checked 2026-11-01); TAP 24 Facebook post Sep 30, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Delaware",
    "phone": "(484) 442-8839",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 29, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-29",
+        "url": "https://www.restaurantji.com/pa/media/tap-24-/",
+        "quote": "omestic beers, including Sterling Pig Stout. The atmosphere is welcoming and lively, with plenty of TVs for all the action. The staff is professional and attentive, always accommodating and nic",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/pa/media/tap-24-/",
+        "quote": "Nice place to watch the games and a great selection of draft."
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/media/tap-24-/",
+    "facebookMirror": "https://www.foodyas.com/US/Media/1974219392861517/TAP-24",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
   },
   {
    "id": "the-rooster-diner",
@@ -495,7 +993,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 28, 2026) (checked 2026-11-01)",
    "county": "Delaware",
    "phone": "(610) 455-4333",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/media/the-rooster-diner-/",
+    "facebookMirror": "https://www.foodyas.com/US/Media/101946462278424/The-Rooster-DINER",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-26",
+    "website": null
+   }
   }
  ],
  "counties": [

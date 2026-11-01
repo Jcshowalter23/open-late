@@ -26,7 +26,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Carnegie/615860345552860/Agave-%26-Vine",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "alexions-bar-and-grill",
@@ -65,7 +73,44 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01); Venue site alexions.com (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 276-2018",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/carnegie/alexions-bar-and-grill-/",
+        "quote": "Alexions Bar & Grill is a bustling neighborhood spot that offers a lively atmosphere, especially on Sundays when sports games are on. The staf",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Carnegie/119242718085951/Alexions-Bar-and-Grill",
+        "quote": "d and drink specials! | (476) | Located in Historic Rook Station, Alexions is a wonderful neighborhood bar with a super friendly atmosphere. A great place to come and enjoy the company of friends",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/carnegie/alexions-bar-and-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Carnegie/119242718085951/Alexions-Bar-and-Grill",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-08",
+    "website": null
+   }
   },
   {
    "id": "asadero-by-mindful-brewing",
@@ -90,7 +135,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via bars10.com) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 279-1299",
-   "phoneSource": "Facebook page “Asadero By Mindful Brewing” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Asadero By Mindful Brewing” (via bars10.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Carnegie/277450605650689/Asadero-By-Mindful-Brewing",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "deblaze-at-131",
@@ -122,7 +175,37 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site deblazeat131.com (checked 2026-11-01)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://deblazeat131.com/",
+        "quote": "llows. | Scratch | sauces, dressings, and components built from real ingredients | Casual Fine Dining in Carnegie, PA | Come for Dinner. Stay for the Evening! | From a night out over handmade",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bridgeville/deblaze-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Carnegie/307488556604022/DeBlaze-at-131",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-29",
+    "website": "https://deblazeat131.com/"
+   }
   },
   {
    "id": "duran-s",
@@ -149,7 +232,25 @@
    "source": "hours from Restaurantji and Google listing via exa (they match); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 276-7803",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [
+     "Restaurantji review/summary mentions dj",
+     "Restaurantji review/summary mentions dj"
+    ],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/carnegie/durans-restaurant-and-lo-nge-/",
+    "facebookMirror": "https://www.foodyas.com/US/Carnegie/588611031012829/Duran%27s-Restaurant",
+    "fbPostsSeen": 11,
+    "fbNewestPost": "2026-02-28",
+    "website": null
+   }
   },
   {
    "id": "kabab-house",
@@ -172,7 +273,43 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-08",
+        "url": "https://www.restaurantji.com/pa/carnegie/afghan-kabab-house-/",
+        "quote": "nown for fresh, hot food that is delicious and well-priced, making it a favorite for both locals and visitors seeking a satisfying meal.",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/pa/carnegie/afghan-kabab-house-/",
+        "quote": "with hummus!) coming in close! Service was excellent; we felt very welcomed and would be regulars if we lived in PA!"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/carnegie/afghan-kabab-house-/",
+    "facebookMirror": "https://www.foodyas.com/US/Carnegie/104091685116618/Kabab-House",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-26",
+    "website": "https://www.kababnow.com/"
+   }
   },
   {
    "id": "kasai-pgh",
@@ -195,7 +332,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 30, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 279-5500",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 30, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 30, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/carnegie/kasai-pgh-japanese-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "one-thirty-one-east",
@@ -218,7 +363,37 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Carnegie/1444033645842948/One-Thirty-One-East",
+        "quote": "dining room can accommodate small parties. Whether you are coming in for a lunch meeting, romantic dinner, a special occasion, or you just want to kick back and enjoy a drink and an appeti",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Carnegie/1444033645842948/One-Thirty-One-East",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "pittsburgerz",
@@ -243,7 +418,37 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); phone conflict review (checked 2026-11-01)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://food96.com/place/pittsburgerz",
+        "quote": "was delicious I really like the wings | John Brumfield | ★★★★★ | Apr 2018 | Nice friendly neighborhood bar | Read more reviews | Questions about this restaurant | Where is Pittsburgerz located?",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Carnegie/302517200104857/Pittsburgerz",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://pittsburgerz.food96.com/"
+   }
   }
  ],
  "counties": [

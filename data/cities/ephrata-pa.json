@@ -30,7 +30,15 @@
    "source": "Venue site; Lancaster County Brewers Guild; Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 863-9905",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/ephrata/pour-man-s-brewing-company-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://pourmansbrewingco.com/"
+   }
   },
   {
    "id": "st-boniface-craft-brewing",
@@ -62,7 +70,15 @@
     "Bar scene"
    ],
    "source": "Venue site; St. Boniface Craft Brewing Facebook post Oct 20, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/ephrata/st-boniface-craft-brewing-co-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://stbonifacebrewing.com/taproom/"
+   }
   },
   {
    "id": "blue-ball-brewing-co",
@@ -88,7 +104,37 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://blueballbrewingcompany.com/",
+        "quote": "oming place where friends gather, families connect, teams celebrate, and neighbors become regulars. From patio pints and live music to shared plates and weekend stays at The Guest House, o",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://blueballbrewingcompany.com/"
+   }
   },
   {
    "id": "olde-lincoln-house-and-tiki-bar",
@@ -137,7 +183,44 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Ephrata/104334846049467/The-Olde-Lincoln-House",
+        "quote": "bsite | An american tavern from the early 1800s located in Ephrata, PA. American cuisine. Fine dining & Pub. Outdoor dining in the summer.",
+        "self": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://oldelincolnhouse.com/",
+        "quote": "rve Your Table Today | Secure your spot for a wonderful dining experience. Whether it's a romantic dinner or a group celebration, we recommend booking in advance to ensure availability. Wa",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/ephrata/olde-lincoln-house-/",
+    "facebookMirror": "https://www.foodyas.com/US/Ephrata/104334846049467/The-Olde-Lincoln-House",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-28",
+    "website": "https://oldelincolnhouse.com/"
+   }
   },
   {
    "id": "applebee-s",
@@ -170,7 +253,64 @@
     "Sports & games"
    ],
    "source": "Chain locator; Venue site restaurants.applebees.com (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Sports fans"
+    ],
+    "summary": "Family-friendly; popular for watching games.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-31",
+        "url": "https://www.restaurantji.com/pa/ephrata/applebees-/",
+        "quote": "receive high praise for their delicious taste, and the restaurant is noted for being very kid-friendly and wheelchair accessible. Overall, the friendly staff and enjoyable dishes make Applebee",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://restaurants.applebees.com/en-us/pa/ephrata/320-e.-main-street-99068",
+        "quote": "Ephrata Cloister, one of America's earliest religious communities, making it the perfect family-friendly place to eat for lunch, late-night dining, watch the game, or find | happy hour | or | lu",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "attr",
+        "src": "Google attribute 'good for watching sports' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/ephrata/applebees-/",
+        "quote": "good for watching sports"
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://restaurants.applebees.com/en-us/pa/ephrata/320-e.-main-street-99068",
+        "quote": "unities, making it the perfect family-friendly place to eat for lunch, late-night dining, watch the game, or find | happy hour | or | lunch specials in Ephrata | . If dining in is not on the men",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/ephrata/applebees-/",
+    "facebookMirror": "https://www.foodyas.com/US/Ephrata/112421160346821/Applebee%27s-Grill-%2B-Bar-Ephrata",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://restaurants.applebees.com/en-us/pa/ephrata/320-e.-main-street-99068"
+   }
   },
   {
    "id": "the-new-cloister-restaurant",
@@ -195,7 +335,15 @@
     "Family-friendly"
    ],
    "source": "Venue Facebook / TasteLanc",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/ephrata/cloister-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Ephrata/100374725253411/The-New-Cloister-Restaurant",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2025-07-04",
+    "website": null
+   }
   },
   {
    "id": "lily-s-on-main",
@@ -220,7 +368,15 @@
    "source": "Restaurant aggregator listing",
    "county": "Lancaster",
    "phone": "(717) 738-2711",
-   "phoneSource": "Search-result listings agree: Allmenus, OpenTable, Tripadvisor, Yellow Pages, Yelp and others, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: Allmenus, OpenTable, Tripadvisor, Yellow Pages, Yelp and others, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "pancake-farm",
@@ -245,7 +401,15 @@
     "Family-friendly"
    ],
    "source": "exa.ai places listing",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/ephrata/pancake-farm-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "dutchmaid-deck",
@@ -271,7 +435,37 @@
    "source": "Restaurantji / Roadtrippers (agree); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 721-3325",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/ephrata/dutchmaid-deck-/",
+        "quote": "food and delicious crushes. The spacious venue features a wonderful deck atmosphere with plenty of TVs and two bars, making it a perfect place for outdoor dining and sports viewing. The owners",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/ephrata/dutchmaid-deck-/",
+    "facebookMirror": "https://www.foodyas.com/US/Ephrata/119486674731878/THE-DECK",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-20",
+    "website": "https://thedutchmaiddeck.com/"
+   }
   },
   {
    "id": "agave-azul-mexican-grill",
@@ -296,7 +490,15 @@
    "source": "LancasterOnline / Hoodline (Oct 2026)",
    "county": "Lancaster",
    "phone": "(717) 863-5193",
-   "phoneSource": "LancasterOnline opening article (Oct 2026), checked 2026-11-01"
+   "phoneSource": "LancasterOnline opening article (Oct 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "gus-s-keystone-family-restaurant-ephrata",
@@ -321,7 +523,37 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/ephrata/guss-keystone-family-restaurant-at-ephrata-/",
+        "quote": "coming atmosphere. With good coffee and generous servings, this diner is a favorite among locals and visitors alike. The menu offers a wide variety of options, from classic diner fare t",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/ephrata/guss-keystone-family-restaurant-at-ephrata-/",
+    "facebookMirror": "https://www.foodyas.com/US/Ephrata/402822329900695/Gus%27s-Keystone-Family-Restaurant-At-Ephrata",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-12",
+    "website": "https://guskeystone.com/ephrata/"
+   }
   }
  ],
  "counties": [

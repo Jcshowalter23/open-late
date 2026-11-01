@@ -28,7 +28,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/107339344880351/40-North-Restaurant-and-Bar",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "allegheny-city-brewing",
@@ -64,7 +72,57 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 904-3732",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans",
+     "Families"
+    ],
+    "summary": "Known for live music; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/pittsburgh/allegheny-city-brewing-/",
+        "quote": "has a great vibe, with a solid variety of brews and cocktails, and is a popular spot for live music. The friendly bartenders seem proud of their beers, creating a welcoming atmosphere. Cust",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #1",
+        "url": "https://www.restaurantji.com/pa/pittsburgh/allegheny-city-brewing-/",
+        "quote": "Solid spot with a loyal local crowd, live music, and deep roots. Great vibe, good drinks. Highly recommend."
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/pittsburgh/allegheny-city-brewing-/",
+        "quote": "g at big wooden tables and outdoor seating on the upstairs patio, making it welcoming for families and pet owners alike. Visitors enjoy the dog-friendly environment and often remark on the",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/pittsburgh/allegheny-city-brewing-/",
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/1524325011166863/Allegheny-City-Brewing",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-11",
+    "website": null
+   }
   },
   {
    "id": "carmody-s-grille",
@@ -89,7 +147,15 @@
    "source": "hours from Restaurantji (Google data)",
    "county": "Allegheny",
    "phone": "(412) 458-1813",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/797320497045957/Carmody%27s-Grille",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "cucina-alfabeto",
@@ -115,7 +181,15 @@
    "source": "hours from Restaurantji (Google data)",
    "county": "Allegheny",
    "phone": "(412) 435-1111",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "eyv",
@@ -136,7 +210,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from Google listing via exa",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/574558526395967/EYV-Restaurant",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-07-14",
+    "website": null
+   }
   },
   {
    "id": "fat-cat-eats-drinks-and-music",
@@ -159,7 +241,37 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Pittsburgh/107979278985137/Fat-Cat-Eats%2C-Drinks-%26-Music",
+        "quote": "Website | Fat Cat is a nostalgic fast-casual restaurant, bar, and live music venue.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/107979278985137/Fat-Cat-Eats%2C-Drinks-%26-Music",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2025-03-04",
+    "website": null
+   }
   },
   {
    "id": "federal-galley",
@@ -182,7 +294,15 @@
    "source": "hours from the venue's website; Facebook page (via foodyas mirror); Venue site federalgalley.org (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 517-6400",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 1, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 1, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/1775695919389922/Federal-Galley",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "fig-and-ash-wood-fire-kitchen",
@@ -205,7 +325,28 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 1, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 321-2222",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 1, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 1, 2026), checked 2026-11-01",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": ":It\u0014(W*Wy̥eJ\u0017\"*x  >ϷH\u0010a[\u0007/tɚCJ&pѵ\u000fs3ӈ/ ѣme zp~ DJ#ߡ\u0015s Q\u0015˂\u0002aD)\u0015\u001a9\u000fn9J`@^x1T",
+      "url": "https://figandashpgh.com/"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/pittsburgh/fig-and-ash-/",
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/1264705640301128/Fig-%26-Ash-Wood-Fire-Kitchen",
+    "fbPostsSeen": 5,
+    "fbNewestPost": "2026-10-09",
+    "website": "https://figandashpgh.com/"
+   }
   },
   {
    "id": "fry-bar-llc",
@@ -230,7 +371,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 9, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 720-9490",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 9, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 9, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/pittsburgh/fry-bar-/",
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/107162231889874/Fry-Bar-LLC",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-20",
+    "website": null
+   }
   },
   {
    "id": "hog-s-head-bar-and-grill",
@@ -255,7 +404,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Allegheny",
    "phone": "(412) 251-0439",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Pittsburgh/1511754712372199/Hog%27s-Head-Bar-%26-Grill",
+        "quote": "Home | United States | Pittsburgh, PA | Hog's Head Bar & Grill | Call | Directions | A neighborhood bar and grill located in Reserve township, known to locals as \"The Pig Bar.\" | (439) | **PLEA",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/1511754712372199/Hog%27s-Head-Bar-%26-Grill",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "mike-s-beer-bar",
@@ -282,7 +461,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site mikesbeerbar.com (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 322-2337",
-   "phoneSource": "Venue website mikesbeerbar.com, checked 2026-11-01"
+   "phoneSource": "Venue website mikesbeerbar.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/1913876938691072/Mike%27s-Beer-Bar",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-26",
+    "website": null
+   }
   },
   {
    "id": "monterey-pub",
@@ -308,7 +495,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 322-6535",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/pittsburgh/monterey-pub-/",
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/102256012214845/Monterey-Pub",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-09-29",
+    "website": null
+   }
   },
   {
    "id": "north-shore-tavern",
@@ -333,7 +528,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site northshoretavern.com (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 465-9865",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 10, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 10, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/109344583946208/North-Shore-Tavern",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-03",
+    "website": null
+   }
   },
   {
    "id": "penn-brewery",
@@ -359,7 +562,15 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/194368785541/Penn-Brewery",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "robinson-s-barandgrill",
@@ -382,7 +593,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Data check 2026-11-01 (checked 2026-11-01)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/922662617826225/Robinson%27s-Bar%26Grill",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "roccos-ristorante",
@@ -407,7 +626,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Website (rendered) roccosristorantepgh.com (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 752-1864",
-   "phoneSource": "Website (rendered) roccosristorantepgh.com, checked 2026-11-01"
+   "phoneSource": "Website (rendered) roccosristorantepgh.com, checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Pittsburgh/773120849209395/Rocco%E2%80%99s-Ristorante",
+        "quote": "Pittsburgh, PA | Rocco’s Ristorante | Directions | Website | ROCCO’S RISTORANTE | Casual, fine dining Italian restaurant inside the Villagio Boutique Hotel. Reserve your table today!",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/773120849209395/Rocco%E2%80%99s-Ristorante",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.roccosristorantepgh.com/"
+   }
   },
   {
    "id": "scratch-and-co",
@@ -439,7 +688,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01); Venue site scratchandcopgh.com (checked 2026-11-01)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/pittsburgh/scratch-food-and-beverage-/",
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/778359082277589/Scratch-%26-Co",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "siempre-algo",
@@ -462,7 +719,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's website; Restaurantji (Google-sourced listing, updated Oct 11, 2026) (checked 2026-11-01)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/pittsburgh/siempre-algo-/",
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/1511687755812145/Siempre-Algo",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-08-05",
+    "website": "https://siemprealgopgh.com/"
+   }
   },
   {
    "id": "soho-pittsburgh",
@@ -492,7 +757,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site sohopittsburgh.com (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 321-7646",
-   "phoneSource": "Venue website sohopittsburgh.com, checked 2026-11-01"
+   "phoneSource": "Venue website sohopittsburgh.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/145135045928674/SoHo-Pittsburgh",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-19",
+    "website": null
+   }
   },
   {
    "id": "spring-hill-brewing",
@@ -513,7 +786,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "taqueria-acosta",
@@ -534,7 +815,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/100876425341377/Taqueria-Acosta",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-08",
+    "website": null
+   }
   },
   {
    "id": "the-eastman",
@@ -566,7 +855,15 @@
    "source": "hours from the venue's website; Venue site theeastmanpgh.com/contact (checked 2026-11-01); Venue site theeastmanpgh.com (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 918-1971",
-   "phoneSource": "Venue site theeastmanpgh.com, checked 2026-11-01"
+   "phoneSource": "Venue site theeastmanpgh.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/986810287855883/The-Eastman-Pittsburgh",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-11",
+    "website": null
+   }
   },
   {
    "id": "the-grove-irish-pub",
@@ -587,7 +884,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-park-house",
@@ -613,7 +918,15 @@
    "source": "hours from the venue's website; Facebook page (via foodyas mirror)",
    "county": "Allegheny",
    "phone": "(412) 291-8159",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/891914394002682/The-Park-House---Pittsburgh",
+    "fbPostsSeen": 3,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "the-salute-pittsburgh",
@@ -636,7 +949,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/103567109159517/The-Salute-Pittsburgh",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "voodoo-brewing-co-pittsburgh-pub",
@@ -659,7 +980,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/102867565763230/Voodoo-Brewing-Co.---Pittsburgh-Pub",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "young-brothers-bar",
@@ -683,7 +1012,25 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "karaoke": {
+    "nights": [],
+    "hints": [
+     "Google attribute 'karaoke' (via Restaurantji)",
+     "Restaurantji review/summary mentions karaoke"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/pittsburgh/young-brothers-bar-/",
+    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/1512270672338703/Young-Brothers-Bar",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
   }
  ],
  "counties": [

@@ -30,7 +30,120 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 936-9599",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans",
+     "Dance / club crowd"
+    ],
+    "summary": "Popular for watching games; a dancing / club crowd late.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/bethlehem/515-main-/",
+        "quote": ", both indoors and outdoors. The restaurant is a great place for drinks, a good meal, and watching the game.",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/bethlehem/515-main-/",
+        "quote": "aurant and bar with a classier atmosphere compared to other bars in the area. It offers a dance floor with a DJ, booths and tables, and TVs. Parking is free after 9pm. The restaurant serves",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "posted on 2 different Fris",
+      "lastSeen": "2026-10-30",
+      "datedLastSeen": "2026-10-30",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bethlehem/102158441557404/515-Main",
+        "date": "2026-10-30",
+        "quote": "⚡ Music by DJ JUNE | 🎃 Friday, October 30th"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bethlehem/102158441557404/515-Main",
+        "date": "2026-10-23",
+        "quote": " 🚀 Drop in this Friday, Oct 23rd as DJ NYSE drops the soundtrack to your night at 515 Main 🎶"
+       }
+      ],
+      "confidence": "medium"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "9:30 PM",
+      "basis": "posted on 2 different Sats",
+      "lastSeen": "2026-10-22",
+      "datedLastSeen": "2026-10-22",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bethlehem/102158441557404/515-Main",
+        "date": "2026-10-22",
+        "quote": "Saturday nights hit different at 515 Main, especially when DJ Buttaball ED is on the main stage bringing the ultimate weekend vibe"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bethlehem/102158441557404/515-Main",
+        "date": "2026-10-10",
+        "quote": "Join us tomorrow, Oct 10th, at 515 Main with DJ FOTSBEATS taking over the decks starting at 9:30 PM | Saturday night is about to hit different! 🎧🔥"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [
+     "Restaurantji review/summary mentions dj"
+    ],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-30",
+      "quote": "♀️ | FRIDAY OCT 30TH | Get ready for the ultimate Halloween party! Join us for Nightmare on Main St featuring sounds by >> Join us for Nightmare on Main St featuring sounds by DJ June",
+      "url": "https://www.foodyas.com/US/Bethlehem/102158441557404/515-Main"
+     },
+     {
+      "date": "2026-10-14",
+      "quote": "Dj June on the decks bringing you the best in Hip Hop, Top 40, EDM, and Latin vibes all night long",
+      "url": "https://www.foodyas.com/US/Bethlehem/102158441557404/515-Main"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/515-main-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/102158441557404/515-Main",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "88pot",
@@ -51,7 +164,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/106433422212012/88pot",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "anatolian-kitchen-bethlehem",
@@ -74,7 +195,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 2, 2026) (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 419-8204",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 2, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 2, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-02",
+        "url": "https://www.restaurantji.com/pa/bethlehem/anatolian-kitchen-/",
+        "quote": "is exceptional, and dishes like dumplings and red cabbage salad are delicious. The cozy, family-friendly atmosphere features fresh and tasty food served promptly. The restaurant also provides Ha",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/anatolian-kitchen-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/884268081634867/Anatolian-Kitchen-Bethlehem",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "aqui-es-a-taste-of-mexico",
@@ -97,7 +248,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Northampton",
    "phone": "(610) 427-2254",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/1607464152867831/Aqui-Es.-A-taste-of-Mexico",
+    "fbPostsSeen": 1,
+    "fbNewestPost": "2026-08-07",
+    "website": null
+   }
   },
   {
    "id": "artisan-wine-and-cheese-cellars",
@@ -131,7 +290,49 @@
     "Date night"
    ],
    "source": "hours from the venue's website; Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01); Artisan Wine & Cheese Cellars site (checked 2026-11-01)",
-   "county": "Lehigh"
+   "county": "Lehigh",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/bethlehem/artisan-wine-and-cheese-cellars-/",
+        "quote": "s or special requests. Happy hour offers great deals on wine glasses and carafes, and the live music adds to the vibrant atmosphere, although it can occasionally make conversations difficult",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/pa/bethlehem/artisan-wine-and-cheese-cellars-/",
+        "quote": "Heart Association of the Lehigh Valley and Berks! From the amazing grazing table, drinks, live music and decor it was certainly a night to remember and I can’t thank Glennie and all the staf"
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/bethlehem/artisan-wine-and-cheese-cellars-/",
+        "quote": "live music"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/artisan-wine-and-cheese-cellars-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/1317518708102826/Artisan-Wine-%26-Cheese-Cellars",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-28",
+    "website": "https://www.artisanwineandcheesecellars.com/"
+   }
   },
   {
    "id": "beer-mussels-bar-and-grille",
@@ -154,7 +355,15 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "blue-grillhouse",
@@ -179,7 +388,51 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 21, 2026) (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 691-8400",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Dance / club crowd",
+     "Date night / upscale"
+    ],
+    "summary": "A dancing / club crowd late; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/bethlehem/blue-grillhouse-/",
+        "quote": "is quite lovely and can accommodate large groups comfortably, providing a great space for dancing with a large dance floor. The Blue Grillhouse offers a pleasant dining experience with ex",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bethlehem/174818029275455/blue-grillhouse",
+        "quote": "ay party, anniversary celebration or any other important occasion at our newly renovated, upscale event center.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/blue-grillhouse-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/174818029275455/blue-grillhouse",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-09-24",
+    "website": null
+   }
   },
   {
    "id": "bolete",
@@ -204,7 +457,15 @@
     "Date night"
    ],
    "source": "hours from the venue's website; Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
-   "county": "Lehigh"
+   "county": "Lehigh",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/bolete-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/51419365378/Bolete-Restaurant",
+    "fbPostsSeen": 5,
+    "fbNewestPost": "2026-10-26",
+    "website": null
+   }
   },
   {
    "id": "borderline-family-restaurant",
@@ -229,7 +490,15 @@
     "Family-friendly"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Lehigh"
+   "county": "Lehigh",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/234308166762000/Borderline-Family-Restaurant",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-08-18",
+    "website": "https://www.theborderlinerestaurant.com/"
+   }
   },
   {
    "id": "broad-street-pizzeria-and-restaurant",
@@ -255,7 +524,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Lehigh",
    "phone": "(610) 865-1077",
-   "phoneSource": "Venue website broadstpizzeria.com, checked 2026-11-01"
+   "phoneSource": "Venue website broadstpizzeria.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/124123497746902/Broad-Street-Pizzeria-And-restaurant",
+    "fbPostsSeen": 4,
+    "fbNewestPost": "2026-08-07",
+    "website": null
+   }
   },
   {
    "id": "bruno-scipioni-s-italian-ristorante-and-pizzeri",
@@ -281,7 +558,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 867-9040",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/bruno-scipionis-italian-ristorante-and-pizzeria-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/113245278710367/Bruno-Scipioni%27s-Italian-Ristorante-%26-Pizzeria",
+    "fbPostsSeen": 2,
+    "fbNewestPost": "2026-10-07",
+    "website": null
+   }
   },
   {
    "id": "buona-cucina",
@@ -306,7 +591,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Website (rendered) buonacucinapa.com (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 868-0286",
-   "phoneSource": "Website (rendered) buonacucinapa.com, checked 2026-11-01"
+   "phoneSource": "Website (rendered) buonacucinapa.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/449769758221126/buona-cucina",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "carla-buezo",
@@ -327,7 +620,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/400593030114879/Carla-Buezo",
+    "fbPostsSeen": 12,
+    "fbNewestPost": "2024-08-08",
+    "website": "https://www.rudysbarandgrillbethlehem.com/"
+   }
   },
   {
    "id": "casa-del-mofongo",
@@ -350,7 +651,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Northampton",
    "phone": "(484) 893-4808",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 19, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 19, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/109172070437924/Casa-Del-Mofongo-Main-St",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "casa-mia-pizzeria-and-italian-restaurant",
@@ -374,7 +683,37 @@
     "Family-friendly"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bethlehem/863273723724490/Casa-Mia-Pizzeria-%26-Italian-Restaurant",
+        "quote": "aurant | Call | Directions | Website | Pizzeria & Casual Italian Dining Casa Mia is cozy, family friendly and casual. Casa Mia offers a very warm and friendly atmosphere for you and your friends.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/863273723724490/Casa-Mia-Pizzeria-%26-Italian-Restaurant",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "coal-bethlehem",
@@ -395,7 +734,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/856652631204424/Coal-Bethlehem",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "cozy-cafe-and-restaurant",
@@ -418,7 +765,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Northampton",
    "phone": "(610) 849-2383",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 11, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 11, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/861537177053198/Cozy-Cafe-%26-Restaurant",
+    "fbPostsSeen": 1,
+    "fbNewestPost": "2026-06-25",
+    "website": "https://food.orders.co/2mmeafgu"
+   }
   },
   {
    "id": "d-and-s-caribbean-kitchen",
@@ -441,7 +796,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/105726251743964/D-%26-S-Caribbean-Kitchen",
+    "fbPostsSeen": 3,
+    "fbNewestPost": "2026-05-12",
+    "website": null
+   }
   },
   {
    "id": "dolce-mamma",
@@ -466,7 +829,43 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 12, 2026) (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 317-8405",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-12",
+        "url": "https://www.restaurantji.com/pa/bethlehem/dolce-mamma-/",
+        "quote": "plenty of dishes they enjoyed. The ambiance is nice, and the restaurant has a bit of a TV sports bar aspect, though not overwhelmingly so. Customers often dine in or get takeout from Dolce M",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/pa/bethlehem/dolce-mamma-/",
+        "quote": "long with the staff enjoy time spent with family and friends. It is a nice cozy place to watch sports and enjoy top shelf adult beverages."
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/dolce-mamma-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/1347851025264109/Dolce-Mamma",
+    "fbPostsSeen": 2,
+    "fbNewestPost": "2026-08-14",
+    "website": null
+   }
   },
   {
    "id": "edge-restaurant",
@@ -491,7 +890,37 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-17",
+        "url": "https://www.restaurantji.com/pa/bethlehem/edge-restaurant-/",
+        "quote": "riendly service. Located in the historic district, it’s a popular choice for visitors and locals alike. The restaurant features a diverse menu with interesting options, including gluten-",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/edge-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/113326735367823/Edge-Restaurant",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-26",
+    "website": null
+   }
   },
   {
    "id": "el-jefe-s-taqueria",
@@ -514,7 +943,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/el-jefe-s-taqueria-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/2310614035821785/El-Jefe%27s-Taqueria",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-10",
+    "website": null
+   }
   },
   {
    "id": "elias-grilled-chicken-over-rice",
@@ -537,7 +974,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 4, 2026) (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 419-6707",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 4, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 4, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/elias-grilled-chicken-over-rice-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/442633935592566/Elias-Grilled-Chicken-Over-Rice",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-13",
+    "website": null
+   }
   },
   {
    "id": "fanda-grog-house",
@@ -562,7 +1007,90 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-10-12",
+      "datedLastSeen": "2026-10-12",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bethlehem/109743697969342/F%26A-Grog-House",
+        "date": "2026-10-12",
+        "quote": "And don't forget our weekly favorites -Music Video Bingo & Karaoke on Tuesdays, Trivia on Wednesdays, and more Karaoke on Thursdays"
+       }
+      ],
+      "confidence": "medium"
+     },
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-10-12",
+      "datedLastSeen": "2026-10-12",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bethlehem/109743697969342/F%26A-Grog-House",
+        "date": "2026-10-12",
+        "quote": "And don't forget our weekly favorites -Music Video Bingo & Karaoke on Tuesdays, Trivia on Wednesdays, and more Karaoke on Thursdays"
+       }
+      ],
+      "confidence": "medium"
+     },
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-10-12",
+      "datedLastSeen": "2026-10-12",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bethlehem/109743697969342/F%26A-Grog-House",
+        "date": "2026-10-12",
+        "quote": "And don't forget our weekly favorites -Music Video Bingo & Karaoke on Tuesdays, Trivia on Wednesdays, and more Karaoke on Thursdays"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-18",
+      "quote": "8 bars, Bands, DJs, Drink & Food Specials, Giveaways, Prizes, and more | Buy your ticket by Sun. Oct. 18th and receive a free pub crawl shirt.",
+      "url": "https://www.foodyas.com/US/Bethlehem/109743697969342/F%26A-Grog-House"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/109743697969342/F%26A-Grog-House",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-14",
+    "website": null
+   }
   },
   {
    "id": "fegley-s-bethlehem-brew-works",
@@ -594,7 +1122,37 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Bethlehem Brew Works Facebook post Oct 18, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bethlehem/9444344303/Fegley%27s-Bethlehem-Brew-Works",
+        "quote": "y since 1998! | (5058) | Voted Best Bar, Bartenders & Beer Selection in LV. Full service, family friendly restaurant & lounge. We offer a variety of services including: events, banqueting, cateri",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/fegleys-bethlehem-brew-works-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/9444344303/Fegley%27s-Bethlehem-Brew-Works",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-24",
+    "website": "https://thebrewworks.com/bethlehem-menus/"
+   }
   },
   {
    "id": "fiamma",
@@ -619,7 +1177,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Northampton",
    "phone": "(610) 419-6545",
-   "phoneSource": "Venue website fiammaitaliangrill.com, checked 2026-11-01"
+   "phoneSource": "Venue website fiammaitaliangrill.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/1055011411228812/Fiamma",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-01-06",
+    "website": null
+   }
   },
   {
    "id": "flying-pig-bethlehem",
@@ -642,7 +1208,51 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 18, 2026) (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 871-5150",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Sports fans"
+    ],
+    "summary": "Family-friendly; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-18",
+        "url": "https://www.restaurantji.com/pa/bethlehem/flying-pig-tavern-and-tap-/",
+        "quote": "lices of bacon. The atmosphere is fun and pleasant, especially with friendly staff. It is family friendly with lots of big screen tv’s, a perfect spot to watch sports. Guests can enjoy a great va",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-18",
+        "url": "https://www.restaurantji.com/pa/bethlehem/flying-pig-tavern-and-tap-/",
+        "quote": "ith friendly staff. It is family friendly with lots of big screen tv’s, a perfect spot to watch sports. Guests can enjoy a great variety of beers, delicious thin crust pizza, chicken sandwiche",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/flying-pig-tavern-and-tap-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/111432545149983/Flying-Pig-Bethlehem",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "fna-s-grille",
@@ -665,7 +1275,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 1, 2026) (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 867-1406",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 1, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 1, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "game-time",
@@ -686,7 +1304,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Lehigh"
+   "county": "Lehigh",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "gully-kitchen",
@@ -711,7 +1337,15 @@
    "source": "hours from a local guide / directory",
    "county": "Northampton",
    "phone": "(610) 849-2594",
-   "phoneSource": "Venue website thegullykitchen.com, checked 2026-11-01"
+   "phoneSource": "Venue website thegullykitchen.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/1161764533686213/The-Gully-Kitchen",
+    "fbPostsSeen": 4,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "haazs",
@@ -734,7 +1368,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 5, 2026) (checked 2026-11-01)",
    "county": "Lehigh",
    "phone": "(610) 419-0296",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 5, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 5, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/haazs-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/356270260894414/Haazs",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-14",
+    "website": null
+   }
   },
   {
    "id": "hanoverville-roadhouse",
@@ -757,7 +1399,37 @@
    "source": "hours from the venue's website",
    "county": "Northampton",
    "phone": "(610) 837-1122",
-   "phoneSource": "OpenStreetMap (way/140209398, name + location match; Geofabrik extract of 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap (way/140209398, name + location match; Geofabrik extract of 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bethlehem/1485606878332256/Hanoverville-Roadhouse",
+        "quote": "Website | American Country Casual, Fine Dining. Business lunches, weddings, memorials, reunions, whatever your needs are. WI-FI. | (340",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/1485606878332256/Hanoverville-Roadhouse",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "hill-to-hill-grille",
@@ -782,7 +1454,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Northampton",
    "phone": "(610) 882-9700",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/456989601062204/Hill-to-Hill-Grille",
+    "fbPostsSeen": 2,
+    "fbNewestPost": "2026-01-26",
+    "website": null
+   }
   },
   {
    "id": "joe-s-tavern",
@@ -816,7 +1496,75 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Joe's Tavern Facebook post Oct 27, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bethlehem/182534550673/Joe%27s-Tavern",
+        "quote": "Street. The place became known for its welcoming atmosphere, a place where working-class locals could gather after a hard day’s work. A nickel a glass for tap beer? Hard to imagine in t",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "9 pm",
+      "confidence": "low",
+      "basis": "third-party karaoke directory only",
+      "lastSeen": "2026-10-21",
+      "datedLastSeen": "2026-10-21",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "FindKaraoke directory (city page updated October 21, 2026)",
+        "url": "https://findkaraoke.net/bethlehem",
+        "date": "2026-10-21",
+        "quote": "Joe's Tavern — Friday at 9 PM. Karaoke every Friday night at 10PM."
+       }
+      ],
+      "note": "Directory listing only; not confirmed by the venue"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-30",
+      "quote": " Friday, Oct 30th: Emo/Pop Punk Halloween Karaoke at Joe's",
+      "url": "https://www.foodyas.com/US/Bethlehem/182534550673/Joe%27s-Tavern"
+     },
+     {
+      "date": "2026-10-29",
+      "quote": "There's something to be said, and there is no better therapy, than belting out lyrics, with friends at Halloween KARAOKE",
+      "url": "https://www.foodyas.com/US/Bethlehem/182534550673/Joe%27s-Tavern"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/182534550673/Joe%27s-Tavern",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "keystone-pub",
@@ -843,7 +1591,51 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/bethlehem/keystone-pub-/",
+        "quote": "king lot entrance. With great prices on food and drinks, Keystone Pub is a favorite among locals and newcomers alike, perfect for family dinners or watching sports with friends. The frie",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/bethlehem/keystone-pub-/",
+        "quote": "eystone Pub is a favorite among locals and newcomers alike, perfect for family dinners or watching sports with friends. The friendly staff and excellent service make up for the chilly downstairs",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/keystone-pub-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/111661722203881/Keystone-Pub",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-11-01",
+    "website": null
+   }
   },
   {
    "id": "kingfish",
@@ -866,7 +1658,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 691-1115",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/kingfish-american-bistro-and-wine-bar-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/1492655620956140/Kingfish",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-15",
+    "website": null
+   }
   },
   {
    "id": "kyoto-sushi-and-hibachi-steak-house",
@@ -891,7 +1691,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 3, 2026) (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 663-5196",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 3, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 3, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/kyoto-sushi-hibachi-steak-house-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/256317487575116/Kyoto-Sushi-%26-Hibachi-Steak-House",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-05-01",
+    "website": null
+   }
   },
   {
    "id": "la-maya",
@@ -916,7 +1724,50 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); phone conflict review (checked 2026-11-01)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-30",
+        "url": "https://www.restaurantji.com/pa/hellertown/la-maya-/",
+        "quote": "vor explodes in your mouth, with friendly staff and a lively atmosphere, perfect for both locals and visitors.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-07-25",
+      "quote": "Live DJ | This Friday.",
+      "url": "https://www.foodyas.com/US/Hellertown/324742527399530/La-Maya"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/hellertown/la-maya-/",
+    "facebookMirror": "https://www.foodyas.com/US/Hellertown/324742527399530/La-Maya",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-23",
+    "website": "https://www.lamayarestaurant.com/"
+   }
   },
   {
    "id": "lehigh-dining",
@@ -939,7 +1790,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Website (rendered) lehighdining.com (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 758-6138",
-   "phoneSource": "Website (rendered) lehighdining.com, checked 2026-11-01"
+   "phoneSource": "Website (rendered) lehighdining.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/32704278249/Lehigh-Dining",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "lupita-restaurant-bethlehem",
@@ -962,7 +1821,15 @@
     "Family-friendly"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/1124760264248699/Lupita-Restaurant-Bethlehem",
+    "fbPostsSeen": 1,
+    "fbNewestPost": "2026-06-28",
+    "website": null
+   }
   },
   {
    "id": "machs-gute-pub-and-grille",
@@ -1005,7 +1872,57 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01); Venue site machsgutepub.com (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 866-3311",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Locals & regulars"
+    ],
+    "summary": "Family-friendly; a locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/bethlehem/machs-gute-/",
+        "quote": "of which receive high praise from customers. It is considered the best pub in town and a family-friendly place that is perfect for sports fans. The atmosphere is fun and lively, and the staff is",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #1",
+        "url": "https://www.restaurantji.com/pa/bethlehem/machs-gute-/",
+        "quote": "The Gute is the best pub in town. GREAT grub. Family friendly. Sports fan heaven. PHENOMENAL staff. The best bang for the buck in the Lehigh Valley. Ev"
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/bethlehem/machs-gute-/",
+        "quote": "Machs Gute Pub and Grille is a popular spot for locals, known for its delicious food and great service. The restaurant offers a variety of menu",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/machs-gute-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/194760789775/Machs-Gute-Pub-and-Grille",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-17",
+    "website": null
+   }
   },
   {
    "id": "mccarthy-s-red-stag-pub",
@@ -1030,7 +1947,51 @@
     "Bar scene"
    ],
    "source": "hours from the venue's website; Venue site redstagpub.com (checked 2026-11-01)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale",
+     "Families"
+    ],
+    "summary": "A date-night / upscale spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/bethlehem/mccarthys-red-stag-pub-and-whiskey-bar-/",
+        "quote": "here, adding to the authentic Irish pub atmosphere. The pub features snugs, which offer a romantic and private setting for dates or a way to keep children contained during meals. Recent vi",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bethlehem/53123897926/McCarthy%27s-Red-Stag-Pub-and-Whiskey-Bar",
+        "quote": "s food made from scratch, a full bar, an extensive Irish and Scottish whiskey menu, and a family-friendly atmosphere, McCarthy's is the place for a true Celtic experience in the Lehigh Valley. Cr",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/mccarthys-red-stag-pub-and-whiskey-bar-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/53123897926/McCarthy%27s-Red-Stag-Pub-and-Whiskey-Bar",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-30",
+    "website": "https://redstagpub.com/links"
+   }
   },
   {
    "id": "mediterranean-grill",
@@ -1055,7 +2016,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/mediterranean-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/192460073942188/Mediterranean-Grill",
+    "fbPostsSeen": 1,
+    "fbNewestPost": "2026-08-01",
+    "website": "https://medigrillonbroad.com/"
+   }
   },
   {
    "id": "mexico-lindo",
@@ -1078,7 +2047,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/136387976418840/Mexico-Lindo",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "mister-lee-s-noodles",
@@ -1101,7 +2078,46 @@
    "source": "hours from the venue's website; Restaurantji (Google-sourced listing, updated Sep 30, 2026) (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(484) 626-1480",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 30, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 30, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-30",
+        "url": "https://www.restaurantji.com/pa/bethlehem/mister-lees-noodles-bethlehem-/",
+        "quote": "ingredients and dietary restrictions, including low FODMAP. Weekend nights often feature live music or a DJ, playing music that fits the chill vibe of the restaurant. The space is very clea",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "hints": [
+     "Restaurantji review/summary mentions dj"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/mister-lees-noodles-bethlehem-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/108876928331718/Mister-Lee%27s-Noodles",
+    "fbPostsSeen": 3,
+    "fbNewestPost": "2026-10-10",
+    "website": null
+   }
   },
   {
    "id": "molly-s-irish-grille-and-sports-pub",
@@ -1168,7 +2184,33 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Molly's Irish Grille Facebook post Oct 31, 2026 (via bars10) (checked 2026-11-01); Venue site mollysbethlehem.com (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 868-1313",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-31",
+      "quote": "DJ and Give Aways",
+      "url": "https://www.foodyas.com/US/Bethlehem/138177436214899/Molly%27s-Irish-Grille-%26-Sports-Pub"
+     },
+     {
+      "date": "2026-10-29",
+      "quote": "DJ starts at 10pm",
+      "url": "https://www.foodyas.com/US/Bethlehem/138177436214899/Molly%27s-Irish-Grille-%26-Sports-Pub"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/138177436214899/Molly%27s-Irish-Grille-%26-Sports-Pub",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "nick-s-on-main",
@@ -1193,7 +2235,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 865-3366",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/nicks-pizza-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/688327341220219/Nick%27s-On-Main",
+    "fbPostsSeen": 5,
+    "fbNewestPost": "2026-10-22",
+    "website": null
+   }
   },
   {
    "id": "north-end-wanderers",
@@ -1229,7 +2279,15 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site northendwanderers.com (checked 2026-11-01)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/136749908542/North-End-Wanderers",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "orizababethlehem",
@@ -1250,7 +2308,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Lehigh"
+   "county": "Lehigh",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/106603297500074/orizababethlehem",
+    "fbPostsSeen": 2,
+    "fbNewestPost": "2026-10-06",
+    "website": null
+   }
   },
   {
    "id": "perfect-game-pub",
@@ -1275,7 +2341,104 @@
     "Bar scene"
    ],
    "source": "hours from the venue's website; Perfect Game Pub (Steel City Bowl) site (checked 2026-11-01)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://thesteelcitybowl.com/the-perfect-game-pub/",
+        "quote": "Perfect Game Pub – Sports Bar in Bethlehem, PA | Skip to main content | Skip to header left navigation | Skip to header",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": "2026-07-29",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://thesteelcitybowl.com/the-perfect-game-pub/",
+        "date": "2026-11-01",
+        "quote": "Karaoke Wednesday’s"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://thesteelcitybowl.com/the-perfect-game-pub/",
+        "date": "2026-11-01",
+        "quote": "Wednesday Karaoke Nights"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://thesteelcitybowl.com/the-perfect-game-pub/karaoke-wednesdays/",
+        "date": "2026-11-01",
+        "quote": "Karaoke Wednesday's - Steel City Bowl & Brews"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "$1000 Voice of the Valley 4 Karaoke Contest",
+      "url": "https://thesteelcitybowl.com/the-perfect-game-pub/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Add weekly karaoke, trivia nights, and a relaxed social atmosphere, and you’ve got much more than your typical bowling alley bar",
+      "url": "https://thesteelcitybowl.com/the-perfect-game-pub/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "$1000 Voice of the Valley 4 Karaoke Contest",
+      "url": "https://thesteelcitybowl.com/the-perfect-game-pub/karaoke-wednesdays/"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "The DJ, Kim KM, will not participate in judging and did not participate in judge selection",
+      "url": "https://thesteelcitybowl.com/the-perfect-game-pub/1000-voice-of-the-valley-karaoke-contest/"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://thesteelcitybowl.com/the-perfect-game-pub/"
+   }
   },
   {
    "id": "pig-out",
@@ -1296,7 +2459,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/106995805805719/Pig-Out",
+    "fbPostsSeen": 3,
+    "fbNewestPost": "2023-08-14",
+    "website": null
+   }
   },
   {
    "id": "pints-and-pies-bethlehem",
@@ -1319,7 +2490,73 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bethlehem/120751911271179/Pints-%26-Pies-Bethlehem",
+        "quote": "Website | Contact the business | Great Food. Great Beer. Great People. A Great Neighborhood Pub The word \"Pub\" comes from the term \"Public House\" as in a home that has opened to the pub",
+        "self": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's own Facebook posts (2 since May 2026, via foodyas)",
+        "url": "https://www.foodyas.com/US/Bethlehem/120751911271179/Pints-%26-Pies-Bethlehem",
+        "quote": "or the Steelers game this Sunday too? 🍺🍕🏈 | Great Food. Great B**r. Great People. A Great Neighborhood Pub"
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.pintsandpiespub.com/",
+        "quote": "--> | Pints & Pies Pub | Local Neighborhood Pub | Easton PA & Bethlehem PA | top of page | EASTON, PA • (610) 438-1456 • OPEN DAILY 11AM",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke Night, 9-1AM",
+      "url": "https://www.pintsandpiespub.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke Night, 8-12PM",
+      "url": "https://www.pintsandpiespub.com/events"
+     },
+     {
+      "date": "2026-09-10",
+      "quote": " Stay tuned here for information on any upcoming weeks we might also skip karaoke for a big game",
+      "url": "https://www.foodyas.com/US/Bethlehem/120751911271179/Pints-%26-Pies-Bethlehem"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/120751911271179/Pints-%26-Pies-Bethlehem",
+    "fbPostsSeen": 12,
+    "fbNewestPost": "2026-10-31",
+    "website": "https://www.pintsandpiespub.com/"
+   }
   },
   {
    "id": "prime-steak-house",
@@ -1344,7 +2581,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 882-4070",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/prime-steak-house-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "rakkii-ramen",
@@ -1367,7 +2612,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 1, 2026) (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 419-8007",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 1, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 1, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/rakkii-ramen-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/585068075260872/Rakkii-Ramen",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "randevoo-bethlehem",
@@ -1388,7 +2641,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/lost-tavern-brewing-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/112862167175763/Randevoo-Bethlehem",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2025-07-25",
+    "website": null
+   }
   },
   {
    "id": "retro-burger",
@@ -1413,7 +2674,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site retroburgerbethlehem.com (checked 2026-11-01)",
    "county": "Lehigh",
    "phone": "(610) 419-3810",
-   "phoneSource": "Venue website retroburgerbethlehem.com, checked 2026-11-01"
+   "phoneSource": "Venue website retroburgerbethlehem.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/166740269847142/Retro-Burger",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2025-12-29",
+    "website": null
+   }
   },
   {
    "id": "revel-social",
@@ -1434,7 +2703,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/297784823672547/REVEL-Social",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "rivera-s-kitchen-n-more",
@@ -1453,7 +2730,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "sibris-restaurant",
@@ -1476,7 +2761,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Northampton",
    "phone": "(610) 625-3090",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/180245095889721/Sibris-Restaurant",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-14",
+    "website": null
+   }
   },
   {
    "id": "social-still",
@@ -1521,7 +2814,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01); Social Still Facebook post Oct 9 & 14, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 625-4585",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/social-still-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/266540423512240/Social-Still",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "something-different",
@@ -1544,7 +2845,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Lehigh"
+   "county": "Lehigh",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/103985252034797/Something-Different",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2025-07-11",
+    "website": null
+   }
   },
   {
    "id": "southside-313-bar-and-grille",
@@ -1567,7 +2876,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/779186908846266/Southside-313-Bar-%26-Grille",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "spring-valley-tavern",
@@ -1625,7 +2942,15 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Spring Valley Tavern Facebook post Oct 22–23, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/ye-olde-spring-valley-tavern-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/613814772081269/Spring-Valley-Tavern",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-23",
+    "website": null
+   }
   },
   {
    "id": "steel-city-bistro",
@@ -1644,7 +2969,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "steelworks-buffet-and-grill",
@@ -1667,7 +3000,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/615206431847320/Steelworks-Buffet-%26-Grill",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-14",
+    "website": "https://www.steelworksbuffetandgrill.com/"
+   }
   },
   {
    "id": "swift-at-the-wilbur-mansion",
@@ -1692,7 +3033,15 @@
    "source": "hours from the venue's website; Venue site wilburmansion.com; OpenTable (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 419-1101",
-   "phoneSource": "Venue site wilburmansion.com, checked 2026-11-01"
+   "phoneSource": "Venue site wilburmansion.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/658112104056775/Swift-at-The-Wilbur-Mansion",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "tally-ho",
@@ -1715,7 +3064,137 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 17, 2026) (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 865-2591",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 17, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 17, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bethlehem/828842900565032/Tally-Ho",
+        "quote": "site | Contact the business | The Tally Ho Tavern is a bar and restaurant that has been a local favorite in southside Bethlehem sin",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": null,
+      "confidence": "low",
+      "basis": "third-party karaoke directory only",
+      "lastSeen": "2026-10-21",
+      "datedLastSeen": "2026-10-21",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "FindKaraoke directory (city page updated October 21, 2026)",
+        "url": "https://findkaraoke.net/bethlehem",
+        "date": "2026-10-21",
+        "quote": "Tally Ho Tavern — Monday, Wednesday, Friday, Saturday. Karaoke on Monday, Wednesday, Friday, and Saturday. Always call to confirm schedule. Separate karaoke room with its own bar."
+       }
+      ],
+      "note": "Directory listing only; not confirmed by the venue"
+     },
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "confidence": "low",
+      "basis": "third-party karaoke directory only",
+      "lastSeen": "2026-10-21",
+      "datedLastSeen": "2026-10-21",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "FindKaraoke directory (city page updated October 21, 2026)",
+        "url": "https://findkaraoke.net/bethlehem",
+        "date": "2026-10-21",
+        "quote": "Tally Ho Tavern — Monday, Wednesday, Friday, Saturday. Karaoke on Monday, Wednesday, Friday, and Saturday. Always call to confirm schedule. Separate karaoke room with its own bar."
+       }
+      ],
+      "note": "Directory listing only; not confirmed by the venue"
+     },
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "confidence": "low",
+      "basis": "third-party karaoke directory only",
+      "lastSeen": "2026-10-21",
+      "datedLastSeen": "2026-10-21",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "FindKaraoke directory (city page updated October 21, 2026)",
+        "url": "https://findkaraoke.net/bethlehem",
+        "date": "2026-10-21",
+        "quote": "Tally Ho Tavern — Monday, Wednesday, Friday, Saturday. Karaoke on Monday, Wednesday, Friday, and Saturday. Always call to confirm schedule. Separate karaoke room with its own bar."
+       }
+      ],
+      "note": "Directory listing only; not confirmed by the venue"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "confidence": "low",
+      "basis": "third-party karaoke directory only",
+      "lastSeen": "2026-10-21",
+      "datedLastSeen": "2026-10-21",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "FindKaraoke directory (city page updated October 21, 2026)",
+        "url": "https://findkaraoke.net/bethlehem",
+        "date": "2026-10-21",
+        "quote": "Tally Ho Tavern — Monday, Wednesday, Friday, Saturday. Karaoke on Monday, Wednesday, Friday, and Saturday. Always call to confirm schedule. Separate karaoke room with its own bar."
+       }
+      ],
+      "note": "Directory listing only; not confirmed by the venue"
+     }
+    ],
+    "hints": [
+     "Restaurantji review/summary mentions karaoke",
+     "Restaurantji review/summary mentions karaoke"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-30",
+      "quote": " DJ Joonyer ",
+      "url": "https://www.foodyas.com/US/Bethlehem/828842900565032/Tally-Ho"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/tally-ho-tavern-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/828842900565032/Tally-Ho",
+    "fbPostsSeen": 5,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "tapas-on-main",
@@ -1755,7 +3234,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site tapasonmain.com (checked 2026-11-01)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/tapas-on-main-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/130401690368673/Tapas-On-Main",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-22",
+    "website": null
+   }
   },
   {
    "id": "tavern-at-the-sun-inn",
@@ -1780,7 +3267,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 419-8600",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-17",
+        "url": "https://www.restaurantji.com/pa/bethlehem/tavern-at-the-sun-inn-/",
+        "quote": "dly atmosphere, delicious cuisine, and great service, making it a popular choice for both locals and visitors.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/tavern-at-the-sun-inn-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/953305664785464/Tavern-at-the-Sun-Inn",
+    "fbPostsSeen": 1,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "thai-thai-bethlehem",
@@ -1805,7 +3322,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 27, 2026) (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 868-1919",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 27, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 27, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/thai-thai-ii-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/317532648387412/Thai-Thai-Bethlehem",
+    "fbPostsSeen": 12,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "the-beef-baron",
@@ -1842,7 +3367,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Lehigh",
    "phone": "(610) 868-8995",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/114631418566129/the-Beef-Baron",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-22",
+    "website": null
+   }
   },
   {
    "id": "the-bookstore-speakeasy",
@@ -1863,7 +3396,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/161190383945609/The-Bookstore-Speakeasy",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-brick",
@@ -1888,7 +3429,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/1392380614333722/The-Brick",
+    "fbPostsSeen": 4,
+    "fbNewestPost": "2026-10-08",
+    "website": null
+   }
   },
   {
    "id": "the-flying-v-poutinerie",
@@ -1911,7 +3460,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/1684956635159747/The-Flying-V",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-08-01",
+    "website": null
+   }
   },
   {
    "id": "the-new-street-pub",
@@ -1937,7 +3494,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 867-9733",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/117411061610688/The-New-Street-Pub",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "the-steel-pub",
@@ -1963,7 +3528,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Northampton",
    "phone": "(610) 625-5005",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://steelpubonline.com/",
+        "quote": "e page you were looking for. | It might have been moved or doesn't exist. | The Steel Pub Sports Bar & Grille | Live Music, Patio & Game-Day Eats in Bethlehem, PA",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/294711667248560/The-Steel-Pub",
+    "fbPostsSeen": 16,
+    "fbNewestPost": "2026-11-01",
+    "website": "https://steelpubonline.com/"
+   }
   },
   {
    "id": "theo-s-gyro-and-more",
@@ -1984,7 +3579,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/184697568271355/Theo%27s-Gyro-%26-More",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "tulum",
@@ -2005,7 +3608,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Website (rendered) tulumbethmex.com (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 691-8300",
-   "phoneSource": "Website (rendered) tulumbethmex.com, checked 2026-11-01"
+   "phoneSource": "Website (rendered) tulumbethmex.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.tulumbethmex.com/"
+   }
   },
   {
    "id": "twisted-olive",
@@ -2038,7 +3649,15 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01); Twisted Olive Facebook post Oct 14, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/twisted-olive-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/353915198046541/Twisted-Olive",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-23",
+    "website": null
+   }
   },
   {
    "id": "uncle-aldo-s",
@@ -2061,7 +3680,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 9, 2026) (checked 2026-11-01)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/uncle-aldo-s-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "urbano-mexican-kitchen-and-bar",
@@ -2106,7 +3733,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01); Venue site urbanobethlehem.com (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 419-1736",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/urbano-mexican-kitchen-and-bar-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/316391172100663/Urbano-Mexican-Kitchen-%26-Bar",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-16",
+    "website": null
+   }
   },
   {
    "id": "utopita",
@@ -2127,7 +3762,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/utopita-fresh-mediterranean-bethlehem-township-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://utopitafresh.com/"
+   }
   },
   {
    "id": "vegan-treats",
@@ -2150,7 +3793,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 31, 2026) (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 861-7660",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/vegan-treats-inc-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/52047628176/Vegan-Treats",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "zest-bar-grille",
@@ -2176,7 +3827,43 @@
     "Date night"
    ],
    "source": "hours from the venue's website; Restaurantji (Google-sourced listing, updated Oct 1, 2026) (checked 2026-11-01)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-01",
+        "url": "https://www.restaurantji.com/pa/bethlehem/zest-bar-grille-/",
+        "quote": "detail. While parking can be confusing, Zest Bar+Grille remains a popular destination for upscale food and a delightful dining experience. Recent guests appreciated the excellent food and",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's own Facebook posts (7 since May 2026, via foodyas)",
+        "url": "https://www.foodyas.com/US/Bethlehem/270592520157102/ZEST-bar%2Bgrille",
+        "quote": "rooftop dining | Lehigh Valley dining | fall dining Bethlehem | weekend plans Bethlehem | date night Bethlehem | seasonal cocktails | SouthSide Bethlehem | ZEST bar+grille | rooftop restaura"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bethlehem/zest-bar-grille-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bethlehem/270592520157102/ZEST-bar%2Bgrille",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-23",
+    "website": null
+   }
   }
  ],
  "counties": [

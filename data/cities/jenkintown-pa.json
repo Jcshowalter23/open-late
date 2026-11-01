@@ -73,7 +73,37 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01); Venue site 1910bar.com (checked 2026-11-01)",
-   "county": "Montgomery"
+   "county": "Montgomery",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/jenkintown/the-wet-whistle-bar-and-grill-/",
+        "quote": "the clean atmosphere and friendly staff make it a great place to meet up with friends or watch a sports game at reasonable prices. The menu offers many gluten-free options, and the waitstaff i",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/jenkintown/the-wet-whistle-bar-and-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Jenkintown/230645883642902/1910-Bar-%26-Grille",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-19",
+    "website": "https://www.1910bar.com/event"
+   }
   },
   {
    "id": "al-tacos-locos",
@@ -96,7 +126,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Montgomery"
+   "county": "Montgomery",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/jenkintown/al-tacos-locos-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "drake-tavern",
@@ -162,7 +200,15 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site draketavern.com (checked 2026-11-01)",
-   "county": "Montgomery"
+   "county": "Montgomery",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/jenkintown/the-drake-tavern-/",
+    "facebookMirror": "https://www.foodyas.com/US/Jenkintown/137758289579253/Drake-Tavern",
+    "fbPostsSeen": 18,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "gaul-and-co-malt-house-rockledge",
@@ -203,7 +249,56 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01); Gaul & Co. Malt House Facebook post Oct 16, 2026 (via foodyas) (checked 2026-11-01); Gaul & Co. Malt House Facebook post Sep 28, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Montgomery",
    "phone": "(215) 935-6443",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans",
+     "Families"
+    ],
+    "summary": "Popular for watching games; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #1",
+        "url": "https://www.restaurantji.com/pa/rockledge/gaul-and-co-malt-house-rockledge-/",
+        "quote": "Lots of fun- great place to watch a game."
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/pa/rockledge/gaul-and-co-malt-house-rockledge-/",
+        "quote": "Best place to watch the Phillies⚾️🎉⚾️"
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/rockledge/gaul-and-co-malt-house-rockledge-/",
+        "quote": "taff, as well as consistently good food that is always fresh and of high quality. It is a family-friendly establishment, often hosting meals for families with children. Customers praise the place",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/rockledge/gaul-and-co-malt-house-rockledge-/",
+    "facebookMirror": "https://www.foodyas.com/US/Rockledge/101895228043893/Gaul-%26-Co.-Malt-House-Rockledge",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-22",
+    "website": null
+   }
   },
   {
    "id": "king-s-corner-public-house",
@@ -268,7 +363,108 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Montgomery"
+   "county": "Montgomery",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/jenkintown/kings-corner-/",
+        "quote": "Kings Corner is a popular neighborhood bar known for its warm atmosphere and friendly staff. It offers a great selection of drinks,",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/jenkintown/kings-corner-/",
+        "quote": "ls, particularly on Thursdays with a good burger, fries, and beer deal. The restaurant is kid-friendly and provides quick service, even on busy nights. Many visitors enjoy catching a game or h",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": "8 pm",
+      "confidence": "low",
+      "basis": "third-party karaoke directory only",
+      "lastSeen": "2026-10-29",
+      "datedLastSeen": "2026-10-29",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "FindKaraoke directory (city page updated October 29, 2026)",
+        "url": "https://findkaraoke.net/philadelphia",
+        "date": "2026-10-29",
+        "quote": "Kings Corner — Monday at 8 PM. Monday Night Karaoke every Monday from 8 PM to midnight. Hosted by @Luke from @Rad Karaoke and Entertainment."
+       }
+      ],
+      "note": "Directory listing only; not confirmed by the venue"
+     }
+    ],
+    "stale": [],
+    "hints": [
+     "Google attribute 'karaoke' (via Restaurantji)",
+     "Restaurantji review/summary mentions karaoke",
+     "Restaurantji review/summary mentions karaoke"
+    ],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-26",
+      "quote": "🎤 NO KARAOKE TONIGHT | 🍔 Kitchen open until 11 PM!",
+      "url": "https://www.foodyas.com/US/Jenkintown/310021015689131/King%27s-Corner-Public-House"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [
+     "Restaurantji review/summary mentions dj"
+    ],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-31",
+      "quote": "🎧 LIVE DJ keeping the party going",
+      "url": "https://www.foodyas.com/US/Jenkintown/310021015689131/King%27s-Corner-Public-House"
+     },
+     {
+      "date": "2026-10-31",
+      "quote": "pooky cocktails, and a Halloween party you won’t want to miss! | 🕸️ Saturday, October 31st | 🎃 Costume Contest | 🎧 Live >> 🎧 Live DJ",
+      "url": "https://www.foodyas.com/US/Jenkintown/310021015689131/King%27s-Corner-Public-House"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/jenkintown/kings-corner-/",
+    "facebookMirror": "https://www.foodyas.com/US/Jenkintown/310021015689131/King%27s-Corner-Public-House",
+    "fbPostsSeen": 14,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "la-voglia-mediterranean",
@@ -293,7 +489,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 2, 2026) (checked 2026-11-01)",
    "county": "Montgomery",
    "phone": "(215) 420-7959",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 2, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 2, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/huntingdon-valley/la-voglia-italian-restaurant-huntingdon-valley-/",
+    "facebookMirror": "https://www.foodyas.com/US/Huntingdon-Valley/102123515759753/La-Voglia-Mediterranean",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-14",
+    "website": null
+   }
   },
   {
    "id": "lillys-authentic-indian-cuisine",
@@ -323,7 +527,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 21, 2026) (checked 2026-11-01); Lilly's Authentic Indian Cuisine Facebook post Oct 28–29, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Montgomery",
    "phone": "(215) 277-5414",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/jenkintown/lillys-authentic-indian-cuisine-/",
+    "facebookMirror": "https://www.foodyas.com/US/Jenkintown/107726280760868/Lilly%E2%80%99s-Authentic-Indian-Cuisine",
+    "fbPostsSeen": 12,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "newbolds-jenkintown",
@@ -353,7 +565,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 10, 2026) (checked 2026-11-01); Newbolds Jenkintown Facebook post Oct 20, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Montgomery",
    "phone": "(267) 636-5577",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 10, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 10, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Jenkintown/102468008048920/Newbolds-Jenkintown",
+        "quote": ", where house-made American staples meet handcrafted cocktails. With an extensive menu of upscale fare served alongside prohibition-era libations, small-producer wines, and craft beer, we",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/jenkintown/leilas-restaurant-and-bar-/",
+    "facebookMirror": "https://www.foodyas.com/US/Jenkintown/102468008048920/Newbolds-Jenkintown",
+    "fbPostsSeen": 11,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "palz-tap-house",
@@ -410,7 +652,37 @@
     "Family-friendly"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site palztaphouse.net (checked 2026-11-01)",
-   "county": "Montgomery"
+   "county": "Montgomery",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/huntingdon-valley/palz-tap-house-/",
+        "quote": "nty of seating, making it a great choice for groups and individuals. Customers praise the live music and all-you-can-eat crab legs on Saturday evenings, as well as the knowledgeable staff wh",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/huntingdon-valley/palz-tap-house-/",
+    "facebookMirror": "https://www.foodyas.com/US/Abington/524798754206997/Palz-Tap-House",
+    "fbPostsSeen": 20,
+    "fbNewestPost": "2026-11-01",
+    "website": null
+   }
   },
   {
    "id": "taberu-ramen",
@@ -433,7 +705,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Montgomery",
    "phone": "(215) 690-4685",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Jenkintown/804351719428097/Taberu-Ramen",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-08-24",
+    "website": null
+   }
   },
   {
    "id": "the-highland-restaurant-and-bar",
@@ -466,7 +746,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site thehighlandglenside.com (checked 2026-11-01); Website (rendered) thehighlandglenside.com (checked 2026-11-01)",
    "county": "Montgomery",
    "phone": "(215) 758-2423",
-   "phoneSource": "Website (rendered) thehighlandglenside.com, checked 2026-11-01"
+   "phoneSource": "Website (rendered) thehighlandglenside.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "time-out-on-pine",
@@ -503,7 +791,62 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 10, 2026) (checked 2026-11-01)",
    "county": "Montgomery",
    "phone": "(215) 614-5959",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 10, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 10, 2026), checked 2026-11-01",
+   "karaoke": {
+    "nights": [],
+    "hints": [
+     "Google attribute 'karaoke' (via Restaurantji)"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "9 PM",
+      "basis": "posted on 4 different Thus",
+      "lastSeen": "2026-10-22",
+      "datedLastSeen": "2026-10-22",
+      "postsSeen": 4,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Huntingdon-Valley/100713252454579/Time-Out-On-Pine",
+        "date": "2026-10-22",
+        "quote": "Come by after work, grab some food, watch the games, and stay for the DJ starting at 9 PM | Thursday Social"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Huntingdon-Valley/100713252454579/Time-Out-On-Pine",
+        "date": "2026-10-15",
+        "quote": "Come by after work, grab some food, watch the games, and stay for the DJ starting at 9 PM | Thursday Social"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Huntingdon-Valley/100713252454579/Time-Out-On-Pine",
+        "date": "2026-10-08",
+        "quote": "Come by after work, grab some food, watch the games, and stay for the DJ starting at 9 PM | Thursday Social"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/huntingdon-valley/time-out-on-pine-/",
+    "facebookMirror": "https://www.foodyas.com/US/Huntingdon-Valley/100713252454579/Time-Out-On-Pine",
+    "fbPostsSeen": 12,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "via-417",
@@ -528,7 +871,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 15, 2026) (checked 2026-11-01)",
    "county": "Montgomery",
    "phone": "(215) 660-9339",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 15, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 15, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-15",
+        "url": "https://www.restaurantji.com/pa/jenkintown/via-417-/",
+        "quote": "VIA 417 is a charming restaurant that offers delightful food and service, perfect for a romantic evening or small family dinner. The Burrata appetizer is a standout, known for its taste",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/jenkintown/via-417-/",
+    "facebookMirror": "https://www.foodyas.com/US/Jenkintown/106835358856718/Via-417",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-05",
+    "website": null
+   }
   }
  ],
  "counties": [

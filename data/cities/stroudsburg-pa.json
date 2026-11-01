@@ -30,7 +30,71 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 21, 2026) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 664-6500",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans",
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "Known for live music; a locals-and-regulars spot; family-friendly.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/east-stroudsburg/1836-saloon-/",
+        "quote": "geable and attentive staff, including Dre and Chi, who create a fun and chill atmosphere. Live music performances every Saturday night feature bands playing a variety of genres, from easy li",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/east-stroudsburg/1836-saloon-/",
+        "quote": "live music"
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/east-stroudsburg/1836-saloon-/",
+        "quote": "elcoming place for families, with wheelchair accessibility available. The restaurant is a local favorite, offering a \"Cheers-like\" experience where customers are treated like family. With its po",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/east-stroudsburg/1836-saloon-/",
+        "quote": "nt ambiance. The staff is fast, courteous, and attentive, making it a welcoming place for families, with wheelchair accessibility available. The restaurant is a local favorite, offering a",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/east-stroudsburg/1836-saloon-/",
+    "facebookMirror": "https://www.foodyas.com/US/East-Stroudsburg/1006244599450977/1836-Saloon",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "alaska-pete-s",
@@ -53,7 +117,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 13, 2026) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 223-8575",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 13, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 13, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-13",
+        "url": "https://www.restaurantji.com/pa/marshalls-creek/alaska-petes-/",
+        "quote": "of delicious options, including scallops, ribeye, and shrimp. The atmosphere is airy and kid-friendly, with a children's menu and plastic sippy cups available. The restaurant also boasts whee",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/marshalls-creek/alaska-petes-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "andrew-moore-s-stone-bar-inn",
@@ -78,7 +172,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Monroe",
    "phone": "(570) 992-6634",
-   "phoneSource": "Venue website stonebar.com, checked 2026-11-01"
+   "phoneSource": "Venue website stonebar.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "antojos-latin-cravings",
@@ -99,7 +201,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Monroe"
+   "county": "Monroe",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/2085864901647015/Antojos-Latin-Cravings",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "bin-37-stroudsburg",
@@ -131,7 +241,33 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via foodyas.com) (checked 2026-11-01); Bin 37 Stroudsburg Facebook post Oct 1–16, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 424-7974",
-   "phoneSource": "Facebook page “Bin 37 Stroudsburg” (via foodyas.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Bin 37 Stroudsburg” (via foodyas.com), checked 2026-11-01",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-23",
+      "quote": "🕷️DJ Stratagee",
+      "url": "https://www.foodyas.com/US/Stroudsburg/102671411168347/Bin-37-Stroudsburg"
+     },
+     {
+      "date": "2026-10-16",
+      "quote": "Get those costumes ready for our costume contest & enjoy music by DJ Stratagee plus spooky Halloween-themed drinks | Next Saturday night- Save the date 📆",
+      "url": "https://www.foodyas.com/US/Stroudsburg/102671411168347/Bin-37-Stroudsburg"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/102671411168347/Bin-37-Stroudsburg",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-23",
+    "website": null
+   }
   },
   {
    "id": "bk-lobster-poconos",
@@ -154,7 +290,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Monroe"
+   "county": "Monroe",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "bovinos-brewery",
@@ -179,7 +323,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 2, 2026) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 269-1029",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 2, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 2, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/stroudsburg/bovinos-brewery-/",
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/185028431366370/Bovino%E2%80%99s-Brewery",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-23",
+    "website": "https://www.bovinos-brewery.com/"
+   }
   },
   {
    "id": "deer-head-inn",
@@ -206,7 +358,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Monroe"
+   "county": "Monroe",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Delaware-Water-Gap/206285712718431/Deer-Head-Inn",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-08-06",
+    "website": null
+   }
   },
   {
    "id": "del-tacos",
@@ -227,7 +387,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Monroe"
+   "county": "Monroe",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/395168024435399/Del-Tacos",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2025-05-23",
+    "website": null
+   }
   },
   {
    "id": "derailed-taphouse",
@@ -288,7 +456,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01); Venue site derailedtaphouse.com (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 420-7877",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/east-stroudsburg/derailed-taphouse-/",
+    "facebookMirror": "https://www.foodyas.com/US/East-Stroudsburg/643591862739942/Derailed-Taphouse",
+    "fbPostsSeen": 13,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "el-condor-restaurant",
@@ -309,7 +485,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Monroe"
+   "county": "Monroe",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/104823325835863/El-Condor-Restaurant",
+    "fbPostsSeen": 4,
+    "fbNewestPost": "2023-01-09",
+    "website": null
+   }
   },
   {
    "id": "farmhouse-on-the-lake",
@@ -335,7 +519,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via bars10.com) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 223-1700",
-   "phoneSource": "Facebook page “Farmhouse On The Lake” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Farmhouse On The Lake” (via bars10.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/East-Stroudsburg/211236530019/Farmhouse-On-The-Lake",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-02-01",
+    "website": null
+   }
   },
   {
    "id": "farmhouse-poconos-crystal-street",
@@ -358,7 +550,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 420-7522",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/east-stroudsburg/farmhouse-eatery-/",
+    "facebookMirror": "https://www.foodyas.com/US/East-Stroudsburg/104388462585123/Farmhouse-Poconos",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-22",
+    "website": null
+   }
   },
   {
    "id": "farmhouse-poconos-main-street",
@@ -381,7 +581,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 534-0995",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/stroudsburg/farmhouse-eatery-main-street-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "finolas-irish-pub",
@@ -444,7 +652,80 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Finola's Irish Pub Facebook post Oct 19–22, 2026 (via foodyas) (checked 2026-11-01); Venue site finolasirish.com (checked 2026-11-01)",
-   "county": "Monroe"
+   "county": "Monroe",
+   "crowdType": {
+    "labels": [
+     "Live music fans",
+     "Young crowd"
+    ],
+    "summary": "Known for live music; draws a younger crowd.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/stroudsburg/finolas-irish-pub-/",
+        "quote": "live music"
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Stroudsburg/110428478666672/Finola%E2%80%99s-Irish-Pub",
+        "quote": "Website | Contact the business | Irish Bar/Restaurant and live music venue providing Love, Loyalty, Friendship, Music and great food | (1)",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Young crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-22",
+        "url": "https://www.restaurantji.com/pa/stroudsburg/finolas-irish-pub-/",
+        "quote": "e, the lively music and welcoming vibe make Finola's a popular spot, especially among the younger crowds. Customers describe the food as being of **utmost quality** and the service as **top not",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-29",
+      "quote": "tober 29th we are having a Disney night!!! Monstober is coming to Finolas!!! | Join us in your best Disney costume!!! | >> DJ HDSPN will be playing your favorite Disney hits | 10pm-2am! Costume contes",
+      "url": "https://www.foodyas.com/US/Stroudsburg/110428478666672/Finola%E2%80%99s-Irish-Pub"
+     },
+     {
+      "date": "2026-10-29",
+      "quote": "tober 29th we are having a Disney night!!! Monstober is coming to Finolas!!! | Join us in your best Disney costume!!! | >> DJ HDSPN will be playing your favorite Disney hits | 10pm-2am! Costume contes",
+      "url": "https://www.foodyas.com/US/Stroudsburg/110428478666672/Finola%E2%80%99s-Irish-Pub"
+     },
+     {
+      "date": "2026-10-22",
+      "quote": "ESU THURSDAY with DJ HDSPN 10PM-2AM ",
+      "url": "https://www.foodyas.com/US/Stroudsburg/110428478666672/Finola%E2%80%99s-Irish-Pub"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/stroudsburg/finolas-irish-pub-/",
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/110428478666672/Finola%E2%80%99s-Irish-Pub",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "front-row",
@@ -467,7 +748,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via bars10.com) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 421-2200",
-   "phoneSource": "Facebook page “Front Row” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Front Row” (via bars10.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/281958474005/Front-Row",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "garlic-restaurant-bar",
@@ -499,7 +788,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site garlicrestaurantbar.com (checked 2026-11-01)",
-   "county": "Monroe"
+   "county": "Monroe",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/136801823188054/Garl%C3%ADc-Restaurant-%2B-Bar",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-26",
+    "website": null
+   }
   },
   {
    "id": "goombas-of-new-york",
@@ -524,7 +821,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Monroe",
    "phone": "(570) 424-1123",
-   "phoneSource": "Venue website goombaspizzapa.com, checked 2026-11-01"
+   "phoneSource": "Venue website goombaspizzapa.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/316541349202/GOOMBAS-OF-NEW-YORK",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "guacolicious",
@@ -545,7 +850,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Monroe"
+   "county": "Monroe",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/1049159928278490/Guacolicious",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-05-12",
+    "website": null
+   }
   },
   {
    "id": "halal-chef",
@@ -564,7 +877,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Monroe"
+   "county": "Monroe",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "hartman-jerk-center-poconos",
@@ -585,7 +906,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Monroe"
+   "county": "Monroe",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/114867514026767/Hartman-Jerk-Center-Poconos",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "historic-tom-x-pub",
@@ -617,7 +946,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 16, 2026) (checked 2026-11-01); Venue site tomxpub.com (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 223-5025",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/east-stroudsburg/tom-x-pub-/",
+    "facebookMirror": "https://www.foodyas.com/US/East-Stroudsburg/411397918890580/Historic-Tom-X-Pub",
+    "fbPostsSeen": 1,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "la-morena",
@@ -640,7 +977,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 422-1110",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/stroudsburg/churrasqueira-la-morena-bbq-/",
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/155041442045920/La-Morena",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "meaty-n-green",
@@ -661,7 +1006,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Monroe"
+   "county": "Monroe",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "momento-restaurant",
@@ -686,7 +1039,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 13, 2026) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 422-1040",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 13, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 13, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-13",
+        "url": "https://www.restaurantji.com/pa/stroudsburg/momento-pizzeria-and-restaurant-/",
+        "quote": "pioca bread. The cocktails and drinks are fantastic. The atmosphere is amazing, intimate, romantic, and small with no loud music. The service is amazing, spot on, always exceptional, and d",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/stroudsburg/momento-pizzeria-and-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/305049796277669/Momento-Restaurant",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-22",
+    "website": null
+   }
   },
   {
    "id": "moon-sushi-poke-boba-tea",
@@ -709,7 +1092,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 534-8539",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/east-stroudsburg/moon-poke-sushi-and-sweets-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "my-place-bar-and-grill",
@@ -734,7 +1125,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 223-7966",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/east-stroudsburg/mullers-diner-/",
+    "facebookMirror": "https://www.foodyas.com/US/East-Stroudsburg/150155718337437/My-Place-Bar-%26-Grill",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "newberry-s-yard-of-ale",
@@ -757,7 +1156,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Monroe"
+   "county": "Monroe",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/stroudsburg/newberrys-yard-of-ale-/",
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/1623488134561470/Newberry%27s-Yard-of-Ale",
+    "fbPostsSeen": 12,
+    "fbNewestPost": "2026-03-21",
+    "website": null
+   }
   },
   {
    "id": "noka-sushi-poconos",
@@ -780,7 +1187,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 213-9900",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-14",
+        "url": "https://www.restaurantji.com/pa/stroudsburg/noka-sushi-poconos-/",
+        "quote": ". The fish is fresh and the sushi is very fresh and delicious. The view of Main Street is romantic at sunset and perfect for a first date or catch up with friends. The atmosphere is specia",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/stroudsburg/noka-sushi-poconos-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "nyc-indian-grill",
@@ -805,7 +1242,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Monroe",
    "phone": "(570) 534-0787",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/836271372906891/NYC-Indian-Grill",
+    "fbPostsSeen": 2,
+    "fbNewestPost": "2026-05-09",
+    "website": null
+   }
   },
   {
    "id": "nyc-street-grill",
@@ -828,7 +1273,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Monroe"
+   "county": "Monroe",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/stroudsburg/nyc-street-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/550835938683792/NYC-Street-Grill",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-09-06",
+    "website": "https://www.nycstreetgrill.com/"
+   }
   },
   {
    "id": "original-pocono-pub",
@@ -852,7 +1305,66 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 421-2187",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans",
+     "Locals & regulars"
+    ],
+    "summary": "Known for live music; a locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/bartonsville/original-pocono-pub-and-grill-/",
+        "quote": "lts, fries, and nachos. Many enjoy the atmosphere, which features alternating karaoke and live music every night except Monday, creating a lively and inviting environment frequented by local",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/bartonsville/original-pocono-pub-and-grill-/",
+        "quote": "live music"
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/bartonsville/original-pocono-pub-and-grill-/",
+        "quote": "Original Pocono Pub And Grill is a top-notch local bar with amazing food, great music, and a lovely outdoor environment. The staff, including th",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "hints": [
+     "Restaurantji review/summary mentions karaoke"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bartonsville/original-pocono-pub-and-grill-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "panda-kitchen",
@@ -875,7 +1387,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Monroe",
    "phone": "(570) 420-0652",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/178451945545550/Panda-Kitchen",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "peppe-s-bistro",
@@ -898,7 +1418,37 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 21, 2026) (checked 2026-11-01)",
-   "county": "Monroe"
+   "county": "Monroe",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/east-stroudsburg/peppes-bistro-/",
+        "quote": "reviews, Peppe’s Bistro has a warm and inviting atmosphere, perfect for a casual dinner, date night, or getting together with friends and family. The food is fresh, flavorful, and made with",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/east-stroudsburg/peppes-bistro-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://peppesbistro.online/"
+   }
   },
   {
    "id": "petrizzo-s-italian-american-restaurant",
@@ -921,7 +1471,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Monroe",
    "phone": "(570) 588-6414",
-   "phoneSource": "Venue website petrizzos.com, checked 2026-11-01"
+   "phoneSource": "Venue website petrizzos.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "pub-570-world-tavern-poker-league",
@@ -942,7 +1500,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Monroe"
+   "county": "Monroe",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "rare-and-rye-steakhouse",
@@ -988,7 +1554,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 30, 2026) (checked 2026-11-01); Venue site rareandryesteak.com (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 664-7136",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 30, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 30, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-30",
+        "url": "https://www.restaurantji.com/pa/east-stroudsburg/rare-and-rye-steakhouse-/",
+        "quote": "ng happy hour. Customers appreciate the cozy atmosphere, which is perfect for couples and families, and the restaurant's wheelchair accessibility makes it easy for everyone to enjoy. The s",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/east-stroudsburg/rare-and-rye-steakhouse-/",
+    "facebookMirror": "https://www.foodyas.com/US/East-Stroudsburg/159682850559254/Rare-%26-Rye-Steakhouse",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "salsa-king-restaurant",
@@ -1011,7 +1607,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(272) 271-3033",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/east-stroudsburg/salsa-king-restaurant-/",
+        "quote": "onsistent and authentic. The restaurant features diner-style booths and tables, making it kid-friendly, and is wheelchair accessible on the first floor. For those craving Latin food in the Str",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/east-stroudsburg/salsa-king-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/East-Stroudsburg/119302814501315/Salsa-King-Restaurant",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "sarah-street-grill",
@@ -1038,7 +1664,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 30, 2026) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 424-9120",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 30, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 30, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/stroudsburg/sarah-street-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/308651289314265/Sarah-Street-Grill",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "slider-boyz",
@@ -1059,7 +1693,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Monroe"
+   "county": "Monroe",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/106270638813035/Slider-Boyz",
+    "fbPostsSeen": 3,
+    "fbNewestPost": "2022-08-05",
+    "website": null
+   }
   },
   {
    "id": "snydersville-family-diner",
@@ -1084,7 +1726,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Monroe",
    "phone": "(570) 992-4003",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 3, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 3, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/159202160781396/Snydersville-Family-Diner",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-15",
+    "website": null
+   }
   },
   {
    "id": "soul-food-chess-house-1539-n-9th-st-stroudsbu",
@@ -1105,7 +1755,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 460-7454",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/stroudsburg/soul-food-chess-house-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "spice-kitchen",
@@ -1130,7 +1788,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 25, 2026) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 664-6366",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 25, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 25, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/stroudsburg/spice-kitchen-indian-restaurant-indian-cuisine-indian-food-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "sues-thai-cuisine-and-noodle-bar",
@@ -1153,7 +1819,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 30, 2026) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 223-7300",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 30, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 30, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/east-stroudsburg/sue-s-thai-cuisine-and-noodle-bar-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "sycamore-grille",
@@ -1183,7 +1857,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site sycamoregrille.com (checked 2026-11-01)",
-   "county": "Monroe"
+   "county": "Monroe",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/delaware-water-gap/sycamore-grille-/",
+    "facebookMirror": "https://www.foodyas.com/US/Delaware-Water-Gap/846544825397893/Sycamore-Grille",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-06-05",
+    "website": null
+   }
   },
   {
    "id": "thai-orchid",
@@ -1206,7 +1888,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 421-1717",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/stroudsburg/thai-orchid-/",
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/150917714964524/Thai-Orchid",
+    "fbPostsSeen": 1,
+    "fbNewestPost": "2026-01-25",
+    "website": null
+   }
   },
   {
    "id": "thaithani-stroudsburg",
@@ -1229,7 +1919,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 421-8118",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/stroudsburg/thai-thani-2/",
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/505149419526809/Thaithani-Stroudsburg",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "the-happy-hour-bar-and-grill",
@@ -1279,7 +1977,83 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); The Happy Hour Bar & Grill venue site (checked 2026-11-01); The Happy Hour Bar and Grill Facebook post Oct 28, 2026 (via foodyas) (checked 2026-11-01)",
-   "county": "Monroe"
+   "county": "Monroe",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.happyhourbarandgrill.com/",
+        "quote": "e again, fantastic service and food. Children's burgers were adult size. | Suzanne W. | A local favorite! Amazing staff, servers and environment! Everyone is always friendly and makes us feel li",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.happyhourbarandgrill.com/",
+        "quote": "nd had two people who are vegans. | Carmen M. | This place is fantastic! It’s ideal for a romantic date night, enjoying happy hour, or hanging out with friends. The food is delicious and p",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "karaoke",
+      "url": "https://www.happyhourbarandgrill.com/events"
+     },
+     {
+      "date": "2026-10-31",
+      "quote": "ff your weekend with us! 🍻🎶 | 👻 SATURDAY, OCTOBER 31 | HALLOWEEN PARTY | Get ready for a night of spooky fun with a DJ, >> Get ready for a night of spooky fun with a DJ, karaoke, and Halloween vibes",
+      "url": "https://www.foodyas.com/US/Stroudsburg/602679406425744/The-Happy-Hour-Bar-and-Grill"
+     },
+     {
+      "date": "2026-10-22",
+      "quote": " 🧡🖤 Join us at Happy Hour Bar & Grill for a Halloween Costume Party filled with spooky vibes, creative costumes, specialty drinks, karaoke, and a night you won’t want to miss",
+      "url": "https://www.foodyas.com/US/Stroudsburg/602679406425744/The-Happy-Hour-Bar-and-Grill"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "hints": [
+     "Restaurantji review/summary mentions dj"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/stroudsburg/happy-hour-tavern-/",
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/602679406425744/The-Happy-Hour-Bar-and-Grill",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-28",
+    "website": "https://www.happyhourbarandgrill.com/"
+   }
   },
   {
    "id": "the-warehouse-tavern-and-grill",
@@ -1305,7 +2079,24 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 588-6661",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "karaoke": {
+    "nights": [],
+    "hints": [
+     "Restaurantji review/summary mentions karaoke"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/east-stroudsburg/the-warehouse-tavern-and-grill-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://warehousetaverngrill.com/"
+   }
   },
   {
    "id": "the-white-oak-tavern",
@@ -1330,7 +2121,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via bars10.com) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 844-0900",
-   "phoneSource": "Facebook page “The White Oak Tavern” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “The White Oak Tavern” (via bars10.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/East-Stroudsburg/114732533611888/The-White-Oak-Tavern",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "timbers-pub",
@@ -1377,7 +2176,15 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site timberspubandgrill.com (checked 2026-11-01)",
-   "county": "Monroe"
+   "county": "Monroe",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://timberspubandgrill.com/"
+   }
   },
   {
    "id": "trackside-station-grill-and-bar",
@@ -1403,7 +2210,55 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 424-3200",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-14",
+        "url": "https://www.restaurantji.com/pa/east-stroudsburg/trackside-station-grill-and-bar-/",
+        "quote": "service. The staff is friendly and attentive, ensuring a fantastic dining experience for families and their pets. The atmosphere is kid-friendly, and the respectful and conversational sta",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-22",
+      "quote": "Pocono Wedding Dj’s dress up as Michael Jackson",
+      "url": "https://www.foodyas.com/US/East-Stroudsburg/203249203078685/Trackside-Station-Grill-%26-Bar"
+     },
+     {
+      "date": "2026-10-22",
+      "quote": " Music by DJ Queue",
+      "url": "https://www.foodyas.com/US/East-Stroudsburg/203249203078685/Trackside-Station-Grill-%26-Bar"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/east-stroudsburg/trackside-station-grill-and-bar-/",
+    "facebookMirror": "https://www.foodyas.com/US/East-Stroudsburg/203249203078685/Trackside-Station-Grill-%26-Bar",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
   },
   {
    "id": "triplets-family-restaurant",
@@ -1426,7 +2281,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 421-6566",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/stroudsburg/triplets-family-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "tropical-eats",
@@ -1447,7 +2310,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Monroe"
+   "county": "Monroe",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/105123254914356/Tropical-Eats",
+    "fbPostsSeen": 4,
+    "fbNewestPost": "2025-04-06",
+    "website": null
+   }
   },
   {
    "id": "viejo-sanjuan-latin-restaurant",
@@ -1468,7 +2339,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Monroe"
+   "county": "Monroe",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/East-Stroudsburg/314391525084634/Viejo-San-Juan-Latin-Restaurant",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "warrior-bar-and-grill",
@@ -1526,7 +2405,65 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01); Warrior Bar & Grill Facebook post Oct 26–29, 2026 (via foodyas) (checked 2026-11-01); Venue site thewarriorgrill.com (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 730-4748",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans",
+     "Live music fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games; known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-14",
+        "url": "https://www.restaurantji.com/pa/stroudsburg/the-warrior-grill-/",
+        "quote": "option for a late-night bite. The welcoming staff treat everyone fairly, whether they are regulars or first-timers, making it a great spot to return to whenever in the area.",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-14",
+        "url": "https://www.restaurantji.com/pa/stroudsburg/the-warrior-grill-/",
+        "quote": "go-to choice for both casual dining and special occasions. Whether sitting at the bar to watch the game or enjoying a meal outside, diners can expect a fun and inviting atmosphere. Visitors als",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-14",
+        "url": "https://www.restaurantji.com/pa/stroudsburg/the-warrior-grill-/",
+        "quote": "The Warrior Grill offers a great atmosphere, live music, and delicious food. Their outdoor area is perfect for gatherings, making it an ideal spo",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/stroudsburg/the-warrior-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/188948581291047/Warrior-Bar-%26-Grill",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "werry-s-pub",
@@ -1550,7 +2487,33 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(551) 271-2453",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "karaoke": {
+    "nights": [],
+    "hints": [
+     "Restaurantji review/summary mentions karaoke"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "dj": {
+    "nights": [],
+    "hints": [
+     "Restaurantji review/summary mentions dj"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/east-stroudsburg/werrys-cottages-motel-and-pub-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "willowtree-inn-restaurant",
@@ -1575,7 +2538,72 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Monroe"
+   "county": "Monroe",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale",
+     "Live music fans",
+     "Families"
+    ],
+    "summary": "A date-night / upscale spot; known for live music; family-friendly.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-16",
+        "url": "https://www.restaurantji.com/pa/stroudsburg/willowtree-inn-/",
+        "quote": "water views and a charming outdoor dining deck right on the river. The atmosphere is both romantic and relaxing, with live music adding to the ambiance. Guests enjoy delicious food such as",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://thewillowtreeinn.net/",
+        "quote": "ESDAY THROUGH SUNDAY for Inside/Outside Dining and Takeout. | Experience scenic Creekside fine dining at The Willowtree Inn in Stroudsburg, PA. | Enjoy farm-fresh American fusion by our CIA-t",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-16",
+        "url": "https://www.restaurantji.com/pa/stroudsburg/willowtree-inn-/",
+        "quote": "utdoor dining deck right on the river. The atmosphere is both romantic and relaxing, with live music adding to the ambiance. Guests enjoy delicious food such as shrimp scampi, prime rib, and",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://thewillowtreeinn.net/",
+        "quote": "The Willowtree Restaurant, Family Friendly Pocono Restaurant. | CALL FOR RESERVATIONS 570-476-0211 | Our Restaurant | Hours | FAQ",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/stroudsburg/willowtree-inn-/",
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/281394118651653/Willowtree-Inn-Restaurant",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-23",
+    "website": "https://www.thewillowtreeinn.net/"
+   }
   },
   {
    "id": "yugen",
@@ -1598,7 +2626,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Monroe",
    "phone": "(570) 817-4080",
-   "phoneSource": "Venue website yugensushinyc.com, checked 2026-11-01"
+   "phoneSource": "Venue website yugensushinyc.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "yusan-sushi-and-ramen",
@@ -1621,7 +2657,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Monroe",
    "phone": "(570) 202-1846",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/stroudsburg/yusan-boba-and-ramen-/",
+    "facebookMirror": "https://www.foodyas.com/US/Stroudsburg/515402564982378/Yusan-Sushi-Boba-%26-Ramen",
+    "fbPostsSeen": 2,
+    "fbNewestPost": "2026-02-12",
+    "website": null
+   }
   }
  ],
  "counties": [

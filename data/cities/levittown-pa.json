@@ -30,7 +30,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Bucks",
    "phone": "(215) 943-5000",
-   "phoneSource": "Venue website amorerestaurantpa.com, checked 2026-11-01"
+   "phoneSource": "Venue website amorerestaurantpa.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Levittown/323434904179605/Amore-Restaurant-Levittown-pa",
+    "fbPostsSeen": 4,
+    "fbNewestPost": "2026-09-08",
+    "website": null
+   }
   },
   {
    "id": "arosso-a-touch-of-sicily",
@@ -55,7 +63,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Bucks",
    "phone": "(215) 295-1311",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Fairless-Hills/191372004220939/Arosso%2C-A-Touch-of-Sicily",
+    "fbPostsSeen": 3,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "bailey-s-bar-and-grille",
@@ -82,7 +98,15 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Bucks"
+   "county": "Bucks",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/levittown/baileys-bar-and-grille-/",
+    "facebookMirror": "https://www.foodyas.com/US/Levittown/145795062130267/Bailey%27s-Bar-%26-Grille",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-25",
+    "website": "https://baileysbarandgrillepa.com/"
+   }
   },
   {
    "id": "cancun-mexican-restaurant",
@@ -105,7 +129,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(215) 945-1250",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/fairless-hills/cancun-/",
+        "quote": "The staff is friendly, flexible, and accommodating, even on busy days. The restaurant is kid-friendly, with a cozy atmosphere and a helpful team that ensures a smooth experience, even when th",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/fairless-hills/cancun-/",
+    "facebookMirror": "https://www.foodyas.com/US/Fairless-Hills/310392542445443/Cancun-mexican-restaurant",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-26",
+    "website": null
+   }
   },
   {
    "id": "cazz-s-sports-bar-and-grille",
@@ -132,7 +186,158 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 19, 2026) (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(267) 580-5469",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 19, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 19, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans",
+     "Dance / club crowd"
+    ],
+    "summary": "Popular for watching games; a dancing / club crowd late.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-19",
+        "url": "https://www.restaurantji.com/pa/levittown/cazzs-sports-bar-/",
+        "quote": "Cazz's Sports Bar offers excellent food served hot, fresh cold drinks, and quick service from the amazing b",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/pa/levittown/cazzs-sports-bar-/",
+        "quote": "he service was friendly, and it has the kind of vibe you would expect from a neighborhood sports bar. The experience was enjoyable, though there is some room for improvement in food and serv"
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Levittown/199988463417798/Cazz%27s-Sports-Bar-and-Grille",
+        "quote": "tact form, opening hours, services, ratings, photos, videos and announcements from Cazz's Sports Bar and Grille, 1560 Haines Road, Levittown, PA. | (285)",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-19",
+        "url": "https://www.restaurantji.com/pa/levittown/cazzs-sports-bar-/",
+        "quote": "ce from the amazing bartender. The atmosphere is vibrant with plenty of TVs, games, and a dance floor. The place is wheelchair accessible, and the whole building is level. While parking avail",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "9:30 pm",
+      "confidence": "low",
+      "basis": "third-party karaoke directory only",
+      "lastSeen": "2026-09-23",
+      "datedLastSeen": "2026-09-23",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "FindKaraoke directory (city page updated September 23, 2026)",
+        "url": "https://findkaraoke.net/levittown",
+        "date": "2026-09-23",
+        "quote": "Cazz's Sports Bar — Tuesday, Saturday, Friday at 9:30 PM. Karaoke three nights a week — Tuesday, Friday and Saturday — at this Levittown sports bar and grill. Friday sessions run 9:30pm to 1:30am."
+       }
+      ],
+      "note": "Directory listing only; not confirmed by the venue"
+     },
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "9:30 pm",
+      "confidence": "low",
+      "basis": "third-party karaoke directory only",
+      "lastSeen": "2026-09-23",
+      "datedLastSeen": "2026-09-23",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "FindKaraoke directory (city page updated September 23, 2026)",
+        "url": "https://findkaraoke.net/levittown",
+        "date": "2026-09-23",
+        "quote": "Cazz's Sports Bar — Tuesday, Saturday, Friday at 9:30 PM. Karaoke three nights a week — Tuesday, Friday and Saturday — at this Levittown sports bar and grill. Friday sessions run 9:30pm to 1:30am."
+       }
+      ],
+      "note": "Directory listing only; not confirmed by the venue"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "9:30 pm",
+      "confidence": "low",
+      "basis": "third-party karaoke directory only",
+      "lastSeen": "2026-09-23",
+      "datedLastSeen": "2026-09-23",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "FindKaraoke directory (city page updated September 23, 2026)",
+        "url": "https://findkaraoke.net/levittown",
+        "date": "2026-09-23",
+        "quote": "Cazz's Sports Bar — Tuesday, Saturday, Friday at 9:30 PM. Karaoke three nights a week — Tuesday, Friday and Saturday — at this Levittown sports bar and grill. Friday sessions run 9:30pm to 1:30am."
+       }
+      ],
+      "note": "Directory listing only; not confirmed by the venue"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-23",
+      "quote": " Catch live music, karaoke, DJs, bingo, free darts and jukebox, plus football, drink specials and free food",
+      "url": "https://www.foodyas.com/US/Levittown/199988463417798/Cazz%27s-Sports-Bar-and-Grille"
+     },
+     {
+      "date": "2026-10-23",
+      "quote": " Grab your friends and join us for Karaoke Night with Paul Kircher",
+      "url": "https://www.foodyas.com/US/Levittown/199988463417798/Cazz%27s-Sports-Bar-and-Grille"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-07",
+      "quote": "!!!! Join us at Cazz’s Sports Bar and Grill on Saturday, November 7th, for a special customer appreciation party night! >> DJ Django will be playing, with drink specials and buffet-style hors d’oeuvre",
+      "url": "https://www.foodyas.com/US/Levittown/199988463417798/Cazz%27s-Sports-Bar-and-Grille"
+     },
+     {
+      "date": "2026-10-24",
+      "quote": " Join DJ Django on Saturday, October 24th, for a night of music, costumes, and fun",
+      "url": "https://www.foodyas.com/US/Levittown/199988463417798/Cazz%27s-Sports-Bar-and-Grille"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/levittown/cazzs-sports-bar-/",
+    "facebookMirror": "https://www.foodyas.com/US/Levittown/199988463417798/Cazz%27s-Sports-Bar-and-Grille",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "cosmos-restaurant-and-bar",
@@ -165,7 +370,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01); Cosmos Facebook post Oct 27 & 29, 2026 (via foodyas) (checked 2026-11-01); Venue site cosmosrestaurant.net (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(215) 337-9040",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/fairless-hills/cosmos-/",
+        "quote": ", their pierogies are excellent, and their desserts are also very good. The restaurant is kid-friendly, with a separate side for the bar area and a children's menu available. Wheelchair access",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/fairless-hills/cosmos-/",
+    "facebookMirror": "https://www.foodyas.com/US/Fairless-Hills/104928283651/Cosmos-Restaurant-%26-Bar",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "edgely-inn-bar-and-grille",
@@ -190,7 +425,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 10, 2026) (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(215) 547-5654",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 10, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 10, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Levittown/201503504758/Edgely-Inn-Bar-%26-Grille",
+        "quote": "Great place to catch the game on our 5 large screen LCD Hi-Def Tv's. | A Local tavern & watering hole, with a relaxed a",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Levittown/201503504758/Edgely-Inn-Bar-%26-Grille",
+    "fbPostsSeen": 5,
+    "fbNewestPost": "2026-10-26",
+    "website": null
+   }
   },
   {
    "id": "five-points-sports-bar",
@@ -223,7 +488,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 1, 2026) (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(215) 943-7450",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 1, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 1, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Levittown/1598119383751444/Five-Points-Sports-Bar",
+        "quote": "A great place to watch the game, shoot some pool, and indulge in your favorite food and beverages!",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Levittown/1598119383751444/Five-Points-Sports-Bar",
+    "fbPostsSeen": 11,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "giovanni-s-pizzeria-and-italian-restaurant",
@@ -249,7 +544,15 @@
     "Family-friendly"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Bucks"
+   "county": "Bucks",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Levittown/110374550398600/Giovanni%27s-Pizzeria-%26-Italian-Restaurant",
+    "fbPostsSeen": 1,
+    "fbNewestPost": "2026-10-31",
+    "website": "https://www.giovannispizzeriapa.com/"
+   }
   },
   {
    "id": "golden-dawn-diner",
@@ -274,7 +577,37 @@
     "Family-friendly"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Bucks"
+   "county": "Bucks",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/levittown/golden-dawn-/",
+        "quote": "e bestest Eggs Benedict in Lower Bucks, and a kids' menu, making it a suitable option for families. The diner is wheelchair accessible with a well-maintained ramp and has plenty of free pa",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/levittown/golden-dawn-/",
+    "facebookMirror": "https://www.foodyas.com/US/Levittown/389511504532733/Golden-Dawn-Diner",
+    "fbPostsSeen": 11,
+    "fbNewestPost": "2026-10-31",
+    "website": "https://www.goldendawnlevittown.com/"
+   }
   },
   {
    "id": "happy-hour-tavern",
@@ -300,7 +633,43 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 10, 2026) (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(215) 757-7728",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 10, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 10, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-10",
+        "url": "https://www.restaurantji.com/pa/levittown/happy-hour-tavern-/",
+        "quote": "eemed overly eager to clear their table. Overall, Happy Hour Tavern is a popular spot for locals, known for its good food, drinks, and a generally enjoyable experience, with the bartende",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #1",
+        "url": "https://www.restaurantji.com/pa/levittown/happy-hour-tavern-/",
+        "quote": "gotta love this place. great food great bartenders and the best regulars ever!"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/levittown/happy-hour-tavern-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "mclawson-s-corner-bar-and-grill",
@@ -326,7 +695,72 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Bucks"
+   "county": "Bucks",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Live music fans",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; known for live music; popular for watching games.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/fairless-hills/maries-kozy-korner-/",
+        "quote": "McLawson's Corner Bar & Grill is a hidden gem serving delicious food and drinks. Their wings, including the \"wi",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://mclawsonscorner.com/",
+        "quote": "Press | 215-943-3131 | Home | Menu | Specials | Happenings | Merch | Press | McLawson's Corner Bar & Grill | McLawson's Corner Bar & Grill | McLawson's Corner Bar & Grill | McLawson's Corn",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/fairless-hills/maries-kozy-korner-/",
+        "quote": "tion of beers, and great service from welcoming bartenders. The atmosphere is lively with live music, making it a great place to unwind. The recent facelift has given the place a fresh new v",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://mclawsonscorner.com/",
+        "quote": "hile embracing a fresh vision for the future. Recognized as one of Bucks County’s premier sports bars, McLawson’s has become known for great food, cold drinks, outstanding service, and an at",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/fairless-hills/maries-kozy-korner-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://mclawsonscorner.com/"
+   }
   },
   {
    "id": "mcstew-s-irish-pub",
@@ -371,7 +805,58 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01); McStew's Facebook post Oct 24, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(215) 949-9570",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/levittown/mcstews-irish-pub-/",
+        "quote": "live music"
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Levittown/288748051136606/McStew%27s-Irish-Pub",
+        "quote": "TED BEST IRISH PUB IN BUCKS COUNTY! BUCKS COUNTY COURIER TIMES WING WARS 2014 WINNER. #1 LIVE MUSIC VENUE IN BUCKS Get to McStew's and GET YOUR SHAMsROCKED!!!! | McStew's is not your typical loca",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [
+     "Restaurantji review/summary mentions karaoke"
+    ],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-21",
+      "quote": " Tonight…Join us for karaoke with Paula & Sam from 9pm-1:30am and unleash your inner superstar",
+      "url": "https://www.foodyas.com/US/Levittown/288748051136606/McStew%27s-Irish-Pub"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/levittown/mcstews-irish-pub-/",
+    "facebookMirror": "https://www.foodyas.com/US/Levittown/288748051136606/McStew%27s-Irish-Pub",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
   },
   {
    "id": "newportville-inn",
@@ -413,7 +898,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via bars10.com) (checked 2026-11-01); Venue site newportvilleinn.net (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(215) 785-6090",
-   "phoneSource": "Facebook page “Newportville Inn” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Newportville Inn” (via bars10.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Newportville/120404179095/Newportville-Inn",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "puss-n-boots",
@@ -438,7 +931,74 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 11, 2026) (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(215) 295-8236",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 11, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 11, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans",
+     "Locals & regulars"
+    ],
+    "summary": "Popular for watching games; a locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-11",
+        "url": "https://www.restaurantji.com/pa/fairless-hills/puss-n-boots-tavern-/",
+        "quote": "deal spot for gatherings. Guests have enjoyed their visits, whether sitting at the bar or watching football with friends. The establishment also offers outstanding nachos with cooper-sharpe cheese.",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Fairless-Hills/187829553330/Puss-N-Boots",
+        "quote": "d States | Fairless Hills, PA | Puss N Boots | Call | Website | 'The Boot - Your favorite neighborhood tavern & restaurant filled with great people that know your name and some of the best food in to",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-30",
+      "quote": "BE COOL PRESENTS: HALLOWEEN KARAOKE AT THE 'BOOT | Put on your best costume, round up your squad, and get ready to take the stage starting at 8:00 PM!",
+      "url": "https://www.foodyas.com/US/Fairless-Hills/187829553330/Puss-N-Boots"
+     },
+     {
+      "date": "2026-10-30",
+      "quote": " we have plenty of great Friday specials as well as our boys from Be Cool kicking off Karaoke and our annual costume contest this evening at 8",
+      "url": "https://www.foodyas.com/US/Fairless-Hills/187829553330/Puss-N-Boots"
+     },
+     {
+      "date": "2026-10-16",
+      "quote": " Join us at the Boot for our great Friday specials, as well as Karaoke later this evening",
+      "url": "https://www.foodyas.com/US/Fairless-Hills/187829553330/Puss-N-Boots"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/fairless-hills/puss-n-boots-tavern-/",
+    "facebookMirror": "https://www.foodyas.com/US/Fairless-Hills/187829553330/Puss-N-Boots",
+    "fbPostsSeen": 11,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "stadium-bar-and-grill-fairless-hills",
@@ -484,7 +1044,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via bars10.com) (checked 2026-11-01); Stadium Bar & Grill Facebook post Oct 27, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(215) 946-0163",
-   "phoneSource": "Facebook page “Stadium Bar and Grill Fairless Hills” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Stadium Bar and Grill Fairless Hills” (via bars10.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Fairless-Hills/117468356308088/Stadium-Bar-and-Grill-Fairless-Hills",
+    "fbPostsSeen": 2,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "yordana-s-pizza-and-pasta-levittown",
@@ -510,7 +1078,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(215) 943-3031",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/levittown/yordanas-pizza-and-pasta-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   }
  ],
  "counties": [

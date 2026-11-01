@@ -30,7 +30,15 @@
    "source": "exa.ai places listing",
    "county": "York",
    "phone": "(717) 650-1948",
-   "phoneSource": "Search-result listings agree: venue site thirdbaseyork.com, usarestaurants.info, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: venue site thirdbaseyork.com, usarestaurants.info, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/York/179143142120025/3rd-Base",
+    "fbPostsSeen": 4,
+    "fbNewestPost": "2026-05-23",
+    "website": null
+   }
   },
   {
    "id": "alley-oops-sports-bar-and-grill",
@@ -93,7 +101,103 @@
     "Family-friendly"
    ],
    "source": "Venue site; phone conflict review (checked 2026-11-01)",
-   "county": "York"
+   "county": "York",
+   "crowdType": {
+    "labels": [
+     "Sports fans",
+     "Locals & regulars"
+    ],
+    "summary": "Popular for watching games; a locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/York/271058582914464/Alley-Oops-Sports-Bar-%26-Grill",
+        "quote": "Contact the business | Located inside Suburban Bowlerama, Alley Oops is a full service sports bar with 18 beer taps pouring local craft beer. | Serving American Cuisine including house ma",
+        "self": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's own Facebook posts (3 since May 2026, via foodyas)",
+        "url": "https://www.foodyas.com/US/York/271058582914464/Alley-Oops-Sports-Bar-%26-Grill",
+        "quote": "🏈 NFL SUNDAYS ARE HERE AT ALLEY OOPS! 🏈 | Catch NFL Sunday Ticket and spend your Sunday watching the games with great food, cold drinks, and plenty of TVs!"
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://suburbanbowlerama.com/dine/",
+        "quote": "Parties | Eat & Drink | Careers | Contact | BOOK A PARTY OR RESERVE A LANE | ALLEY OOPS! SPORTS BAR & GRILL | What are you looking for? | Happy Hour Menu | Lunch Specials | Food Specials",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://suburbanbowlerama.com/dine/",
+        "quote": "s | Dine-in/Take Out Menu | Tap List | Alley Oops Sports Bar & Grill in York, PA | is the local favorite for handcrafted food, cold drinks, and wall‑to‑wall sports - all inside Suburban Bowleram",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "1st & 3rd of the month",
+      "start": "8 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://suburbanbowlerama.com/dine/",
+        "date": "2026-11-01",
+        "quote": "Karaoke Thursdays"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://suburbanbowlerama.com/dine/",
+        "date": "2026-11-01",
+        "quote": "Karaoke Night | 1st & 3rd Thursday"
+       },
+       {
+        "src": "FindKaraoke directory (city page updated October 21, 2026)",
+        "url": "https://findkaraoke.net/york",
+        "date": "2026-10-21",
+        "quote": "Alley Oops Sports Bar & Grill — 1st & 3rd Thursdays at 8 PM. Alley Oops Sports Bar & Grill, inside Suburban Bowlerama, has karaoke night on the 1st and 3rd Thursday of the month from 8 pm to 11 pm."
+       }
+      ],
+      "confidence": "high",
+      "note": "Only on venue website (undated); confirm still running Cadence from the directory listing (1st & 3rd of the month)"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/York/271058582914464/Alley-Oops-Sports-Bar-%26-Grill",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-13",
+    "website": "https://suburbanbowlerama.com/dine"
+   }
   },
   {
    "id": "alleys",
@@ -118,7 +222,15 @@
    "source": "exa.ai places listing",
    "county": "York",
    "phone": "(717) 893-5747",
-   "phoneSource": "Search-result listings agree: maps.roadtrippers.com, snapchat.com, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: maps.roadtrippers.com, snapchat.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "anza-s-pizza",
@@ -141,7 +253,15 @@
    "source": "exa.ai places listing; Ordering site anzaspizzamenu.com and Yelp (checked 2026-11-01)",
    "county": "York",
    "phone": "(717) 843-3747",
-   "phoneSource": "Ordering site anzaspizzamenu.com and Yelp, checked 2026-11-01"
+   "phoneSource": "Ordering site anzaspizzamenu.com and Yelp, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/York/1018319994914517/Anzas-Pizza",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "avalons",
@@ -166,7 +286,15 @@
    "source": "exa.ai places listing",
    "county": "York",
    "phone": "(717) 747-1137",
-   "phoneSource": "Search-result listings agree: localpooltournaments.com, showmelocal.com, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: localpooltournaments.com, showmelocal.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "bloom-kitchen-and-bar",
@@ -198,7 +326,15 @@
     "Date night"
    ],
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Sep 19, 2026) (checked 2026-11-01); Venue site bloomkitchenbar.com (checked 2026-11-01)",
-   "county": "York"
+   "county": "York",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/bloom-kitchen-and-bar-/",
+    "facebookMirror": "https://www.foodyas.com/US/York/437752096085471/Bloom-Kitchen-%26-Bar",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-14",
+    "website": "https://bloomkitchenbar.com/"
+   }
   },
   {
    "id": "central-family-restaurant",
@@ -223,7 +359,15 @@
    "source": "Search synthesis of eatatcentral.com and yorkpa.org",
    "county": "York",
    "phone": "(717) 845-4478",
-   "phoneSource": "Search-result listings agree: venue site eatatcentral.com, chamberofcommerce.com, web.prla.org, yorkpa.org, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: venue site eatatcentral.com, chamberofcommerce.com, web.prla.org, yorkpa.org, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/York/119871033995/Central-Family-Restaurant",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-09-07",
+    "website": null
+   }
   },
   {
    "id": "collusion-tap-works",
@@ -258,7 +402,37 @@
     "Bar scene"
    ],
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 21, 2026) (checked 2026-11-01); Collusion Tap Works (York) Facebook post Oct 16, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "York"
+   "county": "York",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/york/collusion-tap-works-/",
+        "quote": "Fridays from noon to 2. The staff is friendly, and the restaurant is a popular choice for date nights or nights out with friends, catering to a wide range of tastes and preferences. Customer",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/collusion-tap-works-/",
+    "facebookMirror": "https://www.foodyas.com/US/York/521115918061600/Collusion-Tap-Works",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-31",
+    "website": "https://collusiontapworks.com/"
+   }
   },
   {
    "id": "denny-s",
@@ -283,7 +457,15 @@
    "source": "Chain locator; Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "York",
    "phone": "(223) 848-6825",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/dennys-/",
+    "facebookMirror": "https://www.foodyas.com/US/York/301678453249615/Denny%27s",
+    "fbPostsSeen": 14,
+    "fbNewestPost": "2026-10-30",
+    "website": "https://locations.dennys.com/"
+   }
   },
   {
    "id": "fenderz-grill-and-pub",
@@ -363,7 +545,100 @@
     "Live music & events"
    ],
    "source": "Venue site; FenderZ Grill & Pub Facebook post Oct 19, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "York"
+   "county": "York",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/york/fenderz-grill-and-pub-/",
+        "quote": "njoyable, with fast and friendly service, ample parking, and a fun atmosphere perfect for date nights or business gatherings.",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://fenderzgrill.com/",
+        "quote": "ING | A cozy fireplace, warm lighting, an outdoor courtyard, and a laid-back dining room. Date night, family dinner, or post-show hang — all welcome. | Inside FenderZ | THE ATMOSPHERE | A lo",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "6:30 pm",
+      "confidence": "low",
+      "basis": "third-party karaoke directory only",
+      "lastSeen": "2026-10-21",
+      "datedLastSeen": "2026-10-21",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "FindKaraoke directory (city page updated October 21, 2026)",
+        "url": "https://findkaraoke.net/york",
+        "date": "2026-10-21",
+        "quote": "Fenderz Grill & Pub — Tuesday at 6:30 PM. Karaoke with John Stumpy every Tuesday evening at FenderZ Grill and Pub, the bar and grill off the lobby of the Wyndham Garden hotel on Loucks Road in York. Sessions run from 6:30 to 8:30 PM, an early weeknight option with a full menu on ha"
+       }
+      ],
+      "note": "Directory listing only; not confirmed by the venue"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Music, karaoke, and good times on the calendar",
+      "url": "https://fenderzgrill.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke",
+      "url": "https://fenderzgrill.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke with John Stumpy",
+      "url": "https://fenderzgrill.com/"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Local bands, solo acoustic acts, and the occasional DJ bring the room to life",
+      "url": "https://fenderzgrill.com/"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/fenderz-grill-and-pub-/",
+    "facebookMirror": "https://www.foodyas.com/US/York/572213666182319/FenderZ-Grill-%26-Pub",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-23",
+    "website": "https://fenderzgrill.com/"
+   }
   },
   {
    "id": "fig-and-barrel",
@@ -417,7 +692,15 @@
     "Date night"
    ],
    "source": "Venue site; Fig & Barrel venue site happy hour (checked 2026-11-01)",
-   "county": "York"
+   "county": "York",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/York/1787028804686725/Fig-%26-Barrel",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-28",
+    "website": "https://figandbarrel.com/"
+   }
   },
   {
    "id": "first-capital-dispensing",
@@ -442,7 +725,15 @@
    "source": "exa.ai places listing; Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "York",
    "phone": "(717) 854-1714",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/first-capital-dispensing-co-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "genova-s-brewing-co",
@@ -490,7 +781,48 @@
    "source": "Venue site; genovaspizza.com hours (checked 2026-11-01); genovaspizza.com (checked 2026-11-01); Venue site genovaspizza.com (checked 2026-11-01)",
    "county": "York",
    "phone": "(717) 792-4602",
-   "phoneSource": "Official site genovaspizza.com, checked 2026-11-01"
+   "phoneSource": "Official site genovaspizza.com, checked 2026-11-01",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "8pm-close",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.genovaspizza.com/",
+        "date": "2026-11-01",
+        "quote": "KARAOKE | 8pm-close | SAT | 8pm-close"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.genovaspizza.com/happenings",
+        "date": "2026-11-01",
+        "quote": "KARAOKE | 8pm-close | SAT | 8pm-close"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://genovaspizza.com/"
+   }
   },
   {
    "id": "gift-horse-brewing",
@@ -516,7 +848,51 @@
     "Live music & events"
    ],
    "source": "Venue site",
-   "county": "York"
+   "county": "York",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Live music fans"
+    ],
+    "summary": "A locals-and-regulars spot; known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://gifthorsebrewing.com/",
+        "quote": "ty, Gift Horse Brewing Company is more than just a brewery - it's a gathering place where locals and visitors come together to enjoy exceptional beer, great company, and the rich culture",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://gifthorsebrewing.com/",
+        "quote": "f York's creative energy. Surrounded by a lively mix of restaurants, pubs, art galleries, live music venues, and independent shops, we're proud to be part of York's thriving craft beer scene. With",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://gifthorsebrewing.com/"
+   }
   },
   {
    "id": "granfalloons-tavern",
@@ -541,7 +917,28 @@
    "source": "exa.ai places listing; Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "York",
    "phone": "(717) 843-5450",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-09-25",
+      "quote": "Friday- DJ HAWK",
+      "url": "https://www.foodyas.com/US/York/81257464312/Granfalloons"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/granfalloons-tavern-/",
+    "facebookMirror": "https://www.foodyas.com/US/York/81257464312/Granfalloons",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-10",
+    "website": null
+   }
   },
   {
    "id": "guadalajara-mexican-restaurant",
@@ -566,7 +963,15 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "York"
+   "county": "York",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/York/1498017693753494/Guadalajara-Mexican-Restaurant",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://guadalajaramexicanrestaurantypa.com/"
+   }
   },
   {
    "id": "hamir-s-indian-fusion",
@@ -589,7 +994,15 @@
    "crowd": null,
    "vibes": [],
    "source": "exa.ai places listing",
-   "county": "York"
+   "county": "York",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/hamirs-indian-fusion-/",
+    "facebookMirror": "https://www.foodyas.com/US/York/878586878981289/Hamir%27s-Indian-Fusion",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-06-03",
+    "website": null
+   }
   },
   {
    "id": "holy-hound-taproom",
@@ -662,7 +1075,15 @@
     "Live music & events"
    ],
    "source": "Venue site",
-   "county": "York"
+   "county": "York",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/holy-hound-taproom-/",
+    "facebookMirror": "https://www.foodyas.com/US/York/273486226026499/Holy-Hound-Taproom",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-30",
+    "website": "https://holyhoundtaproom.com/"
+   }
   },
   {
    "id": "iron-horse-york",
@@ -714,7 +1135,15 @@
     "Date night"
    ],
    "source": "exa.ai places listing; venue site; Iron Horse York Facebook post Oct 27, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "York"
+   "county": "York",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/iron-horse-york-/",
+    "facebookMirror": "https://www.foodyas.com/US/York/282643012097130/Iron-Horse-York",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-27",
+    "website": "https://www.ironhorseyork.com/"
+   }
   },
   {
    "id": "liquid-hero-brewery-pub",
@@ -771,7 +1200,15 @@
    "source": "exa.ai places listing; Restaurantji (Google-sourced listing, updated Sep 6, 2026) (checked 2026-11-01); Liquid Hero Brewery Facebook post Oct 5, 2026 (via bars10) (checked 2026-11-01)",
    "county": "York",
    "phone": "(717) 814-9250",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 6, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 6, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/liquid-hero-brewery-pub-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://liquidhero.com/"
+   }
   },
   {
    "id": "lyndon-diner-york",
@@ -796,7 +1233,37 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
    "county": "York",
    "phone": "(717) 699-5523",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/york/lyndon-diner-/",
+        "quote": "taff is usually friendly, and the diner is clean, ensuring a pleasant atmosphere for both regulars and new visitors.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/lyndon-diner-/",
+    "facebookMirror": "https://www.foodyas.com/US/York/211202928918883/Lyndon-Diner",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "m-and-m-lounge",
@@ -821,7 +1288,15 @@
    "source": "exa.ai places listing; Restaurantji, RestaurantJump and YellowPages listings (checked 2026-11-01)",
    "county": "York",
    "phone": "(717) 854-1022",
-   "phoneSource": "Restaurantji, RestaurantJump and YellowPages listings, checked 2026-11-01"
+   "phoneSource": "Restaurantji, RestaurantJump and YellowPages listings, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "mudhook-brewing",
@@ -847,7 +1322,42 @@
     "Live music & events"
    ],
    "source": "Search snippet of venue site; Restaurantji (Google-sourced listing, updated Sep 18, 2026) (checked 2026-11-01)",
-   "county": "York"
+   "county": "York",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/pa/york/mudhook-brewing-company-/",
+        "quote": "Great bar with live music! Great atmosphere!"
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/york/mudhook-brewing-company-/",
+        "quote": "live music"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/mudhook-brewing-company-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://mudhookbrewing.com/"
+   }
   },
   {
    "id": "murph-s-study-hall",
@@ -912,7 +1422,106 @@
     "Bar scene"
    ],
    "source": "Venue site; Venue site murphsstudyhall.com (checked 2026-11-01)",
-   "county": "York"
+   "county": "York",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Dance / club crowd"
+    ],
+    "summary": "A locals-and-regulars spot; a dancing / club crowd late.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/York/154957031589/Murph%E2%80%99s-Study-Hall",
+        "quote": "ostalgic, welcoming tavern atmosphere, Murph’s offers a safe and fun environment for both locals and students over 21. With one of the largest dance floors in York, unbeatable happy hour",
+        "self": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://murphsstudyhall.com/",
+        "quote": "AQ | History | Degree | Shop | Order | Murph's Study Hall | York, PA · Est. 1975 | York's Neighborhood Bar since 1975 | Good people, cold drinks, and good times — a family-owned York tradition for",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/York/154957031589/Murph%E2%80%99s-Study-Hall",
+        "quote": "a safe and fun environment for both locals and students over 21. With one of the largest dance floors in York, unbeatable happy hours, and the best drinks in town, Murph’s continues to set t",
+        "self": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://murphsstudyhall.com/",
+        "quote": "cing | From Taco Tuesday to Yuengs N Wings, Throwback Thursday, and weekend nights on the dance floor — there's always a reason to stop by. | See Specials | Back Bar Nights | Bar Degree | Deg",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia, bingo, karaoke, visits, and more — staff scans your QR at the bar",
+      "url": "https://murphsstudyhall.com/"
+     },
+     {
+      "date": "2026-10-28",
+      "quote": " 🎉 WEDNESDAY NIGHT = Yuengs n Wings + Music Bingo + Karaoke 🍗🍺",
+      "url": "https://www.foodyas.com/US/York/154957031589/Murph%E2%80%99s-Study-Hall"
+     },
+     {
+      "date": "2026-10-28",
+      "quote": "🎶 KARAOKE 8-11pm",
+      "url": "https://www.foodyas.com/US/York/154957031589/Murph%E2%80%99s-Study-Hall"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-11",
+      "quote": " We’re bringing together iconic DJs from the legendary 80s and 90s bar scene for one massive night",
+      "url": "https://www.foodyas.com/US/York/154957031589/Murph%E2%80%99s-Study-Hall"
+     },
+     {
+      "date": "2026-10-10",
+      "quote": " We’re bringing together iconic DJs from the legendary 80s and 90s bar scene for one massive night",
+      "url": "https://www.foodyas.com/US/York/154957031589/Murph%E2%80%99s-Study-Hall"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/York/154957031589/Murph%E2%80%99s-Study-Hall",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-28",
+    "website": "https://murphsstudyhall.com/"
+   }
   },
   {
    "id": "plaza-azteca-york",
@@ -937,7 +1546,37 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "York"
+   "county": "York",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-05",
+        "url": "https://www.restaurantji.com/pa/west-manchester/plaza-azteca-york-/",
+        "quote": "Plaza Azteca Mexican Restaurant in York is a favorite spot for many families. The food is always delicious, with fresh and sautéed veggies in dishes like the taco sal",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-manchester/plaza-azteca-york-/",
+    "facebookMirror": "https://www.foodyas.com/US/York/104123334763994/Plaza-Azteca-York",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-26",
+    "website": "https://plazaazteca.com/"
+   }
   },
   {
    "id": "river-house-chineseandthai-restaurant",
@@ -960,7 +1599,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via foodyas.com) (checked 2026-11-01)",
    "county": "York",
    "phone": "(717) 246-2222",
-   "phoneSource": "Facebook page “River House Chinese&Thai Restaurant” (via foodyas.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “River House Chinese&Thai Restaurant” (via foodyas.com), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Wrightsville/635414123188898/River-House-Chinese%26Thai-Restaurant",
+        "quote": "Website | Contact the business | We are a Family Friendly Restaurant, ready to serve & answer your curiosity of Chinese Food and Thai",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Wrightsville/635414123188898/River-House-Chinese%26Thai-Restaurant",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-23",
+    "website": null
+   }
   },
   {
    "id": "rockfish-public-house",
@@ -992,7 +1661,15 @@
     "Date night"
    ],
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01); Rockfish Public House Facebook post Oct 7, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "York"
+   "county": "York",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/rockfish-public-house-/",
+    "facebookMirror": "https://www.foodyas.com/US/York/145814262513424/Rockfish-Public-House",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-23",
+    "website": "https://rockfishpublichouse.com/"
+   }
   },
   {
    "id": "roosevelt-tavern",
@@ -1017,7 +1694,15 @@
     "Date night"
    ],
    "source": "Venue site",
-   "county": "York"
+   "county": "York",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/roosevelt-tavern-/",
+    "facebookMirror": "https://www.foodyas.com/US/York/231834377154921/Cafe-Roosevelt-Catering",
+    "fbPostsSeen": 2,
+    "fbNewestPost": "2024-05-06",
+    "website": "https://roosevelttavern.com/"
+   }
   },
   {
    "id": "round-the-clock-diner",
@@ -1042,7 +1727,37 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "York"
+   "county": "York",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/york/round-the-clock-diner-/",
+        "quote": "usy days. The diner is open all night, making it a go-to spot for late-night meals. It is kid-friendly, providing crayons and smiles. The food is described as phenomenal, with a wide selection",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/round-the-clock-diner-/",
+    "facebookMirror": "https://www.foodyas.com/US/York/231057436728/Round-The-Clock-Diner-and-Coffee-Shop",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://roundtheclockdiner.com/"
+   }
   },
   {
    "id": "round-the-clock-diner-east",
@@ -1067,7 +1782,15 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "York"
+   "county": "York",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/east-york/round-the-clock-diner-east-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://roundtheclockdiner.com/"
+   }
   },
   {
    "id": "scotty-dog-s-lounge-and-grill",
@@ -1136,7 +1859,75 @@
     "Live music & events"
    ],
    "source": "Venue site",
-   "county": "York"
+   "county": "York",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "monthly",
+      "start": "8:00 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": "2026-06-05",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.scottydogsyork.com/news-events/",
+        "date": "2026-11-01",
+        "quote": "Join us every First Friday for Karaoke Night with Miss T in the lounge"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.scottydogsyork.com/news-events/",
+        "date": "2026-06-05",
+        "quote": "Karaoke With Miss T | FRI, JUN 5 · 8:00 PM | FRI, JUN 5 · 8:00 PM"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.scottydogsyork.com/news-events/",
+        "date": "2026-06-05",
+        "quote": "× | Karaoke With Miss T | FRI, JUN 5 · 8:00 PM | 🎤 >> 🎤 Karaoke With Miss T at Scotty Dog’s"
+       },
+       {
+        "src": "FindKaraoke directory (city page updated October 21, 2026)",
+        "url": "https://findkaraoke.net/york",
+        "date": "2026-10-21",
+        "quote": "Scotty Dog's Lounge & Grill — 1st Friday of the month at 8 PM. Karaoke with Miss T on the first Friday of every month, 8 to 11 PM. Scotty Dog's Lounge and Grill is on Industrial Highway in York."
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke With Miss T",
+      "url": "https://www.scottydogsyork.com/news-events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "🎤 Karaoke With Miss T",
+      "url": "https://www.scottydogsyork.com/news-events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Bring your crew and enjoy a fun night of music, food, drinks, and karaoke",
+      "url": "https://www.scottydogsyork.com/news-events/"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/big-jims-seafood-house-/",
+    "facebookMirror": "https://www.foodyas.com/US/York/999746453476151/Scotty-Dog%27s-Lounge-%26-Grill",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-29",
+    "website": "https://scottydogsyork.com/"
+   }
   },
   {
    "id": "smokey-bones-york",
@@ -1160,7 +1951,15 @@
    "source": "exa.ai places listing",
    "county": "York",
    "phone": "(717) 846-3760",
-   "phoneSource": "Search-result listings agree: allbiz.com, cpbj.com, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: allbiz.com, cpbj.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "south-county-brewing-york",
@@ -1185,7 +1984,37 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 6, 2026) (checked 2026-11-01)",
    "county": "York",
    "phone": "(717) 714-5270",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 6, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 6, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://southcountybrewing.com/york/",
+        "quote": "n Your Visit | Taproom/Restaurant, Scratch Kitchen, Covered Patio & Courtyard, Fire Pits, Family Friendly, Event Spaces, Beer, Spirits & Merch To Go. | 170 Crossway Drive | York, PA 17402 | 717-7",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/south-county-brewing-co-/",
+    "facebookMirror": "https://www.foodyas.com/US/York/173035742975/South-County-Brewing-Co.",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-22",
+    "website": "https://southcountybrewing.com/york"
+   }
   },
   {
    "id": "splitshift",
@@ -1223,7 +2052,64 @@
     "Bar scene"
    ],
    "source": "Venue site",
-   "county": "York"
+   "county": "York",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Industry / late-night"
+    ],
+    "summary": "A locals-and-regulars spot; popular with service-industry and late-night workers.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://splitshiftyork.com/",
+        "quote": "t is where it all comes together. | A team of wildly talented weirdos, making a place for regulars, families, industry folks, and anyone who wants to spend some time downtown. We hope you’",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Industry / late-night",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://splitshiftyork.com/",
+        "quote": "mes together. | A team of wildly talented weirdos, making a place for regulars, families, industry folks, and anyone who wants to spend some time downtown. We hope you’ll come back. | Specials &",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-29",
+      "quote": "🎧9PM-12AM: DJ GiGi Marrero takes the stage for our drag after party and announces the costume contest winner | 10PM-12AM: 18+ ID required upon entry | 🪩7:30pm-10:30pm: Your favorite drag queens doing ",
+      "url": "https://www.foodyas.com/US/York/104952415232626/Splitshift"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/York/104952415232626/Splitshift",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-31",
+    "website": "https://splitshiftyork.com/"
+   }
   },
   {
    "id": "stone-grille-and-taphouse",
@@ -1274,7 +2160,51 @@
     "Sports & games"
    ],
    "source": "exa.ai places listing; venue specials; Venue site stonegrilleandtaphouse.com (checked 2026-11-01)",
-   "county": "York"
+   "county": "York",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Sports fans"
+    ],
+    "summary": "Family-friendly; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/York/49598887433/Stone-Grille-%26-Taphouse",
+        "quote": "we feature a full-service bar, a covered outdoor dining space, happy hour specials, and a family-friendly atmosphere. Coming soon is Derby Reserve, our new whiskey bar located next door to Stone",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://stonegrilleandtaphouse.com/",
+        "quote": "Call to Make a Reservation | Order Online | Explore Echo’s Reserve | Your Sunday plans | NFL Sunday Ticket is here. | Every Sunday during football season: NFL Sunday Ticket, Happy Hour from 1–3pm",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/stone-grille-and-taphouse-/",
+    "facebookMirror": "https://www.foodyas.com/US/York/49598887433/Stone-Grille-%26-Taphouse",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-16",
+    "website": "https://stonegrilleandtaphouse.com/"
+   }
   },
   {
    "id": "the-handsome-cab",
@@ -1300,7 +2230,15 @@
     "Bar scene"
    ],
    "source": "Venue site; thehandsomecab.com (checked 2026-11-01)",
-   "county": "York"
+   "county": "York",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/the-handsome-cab-/",
+    "facebookMirror": "https://www.foodyas.com/US/York/449863721720821/The-Handsome-Cab",
+    "fbPostsSeen": 3,
+    "fbNewestPost": "2026-10-04",
+    "website": "https://thehandsomecab.com/"
+   }
   },
   {
    "id": "the-original-men-in-the-kitchen-york",
@@ -1325,7 +2263,15 @@
    "source": "WGAL / York Evening Sun (Mar 2026); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "York",
    "phone": "(717) 885-0750",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/men-in-the-kitchen-/",
+    "facebookMirror": "https://www.foodyas.com/US/York/106802572441701/Men-In-the-Kitchen",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "tutoni-s",
@@ -1357,7 +2303,37 @@
     "Date night"
    ],
    "source": "Venue site; Venue site tutonis.com (checked 2026-11-01)",
-   "county": "York"
+   "county": "York",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://tutonis.com/",
+        "quote": "of our experience! | Review by - Google | five star review by | Nathan F: | Relaxing and romantic setting. Food was fabulous. We got the Bucatini and Meatballs and Nine Pines Chicken Brea",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/tutonis-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://tutonis.com/"
+   }
   },
   {
    "id": "vault-pizza-and-grill",
@@ -1387,7 +2363,65 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "York"
+   "county": "York",
+   "crowdType": {
+    "labels": [
+     "Older / 30+",
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "Skews older / 30+; a locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Older / 30+",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/york/the-vault-pizza-and-grill-/",
+        "quote": "ers a relaxed atmosphere, great service, and delicious food at fair prices, attracting an older crowd for lunch and retirees for afternoon drinks. The Hawaiian burger, BBQ burger, and Cheese",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/york/the-vault-pizza-and-grill-/",
+        "quote": "g concerns, the overall experience remains positive, with many continuing to support this local favorite.",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/york/the-vault-pizza-and-grill-/",
+        "quote": "p, and the pizzas, including the Chicken, Bacon Ranch, have been great. The restaurant is kid-friendly with wheelchair accessibility. Customers praise the excellent food and service, noting th",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/the-vault-pizza-and-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/York/912624952136897/The-Vault-Pizza-%26-Grill",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-06-23",
+    "website": "https://vaultyork.com/"
+   }
   },
   {
    "id": "victor-s-italian-restaurant",
@@ -1412,7 +2446,51 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01)",
    "county": "York",
    "phone": "(717) 854-7958",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale",
+     "Live music fans"
+    ],
+    "summary": "A date-night / upscale spot; known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/York/75721881207/Victor%27s-Italian-Restaurant",
+        "quote": "Victor’s has evolved into the relaxed reflection of an Italian Trattoria. | (996) | From fine dining to our friendly, casual bar, the bocce court to our beautiful patio, Victor’s sets a perf",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/York/75721881207/Victor%27s-Italian-Restaurant",
+        "quote": "ry church. Delicious food, great wine, craft beer and cocktails. Live Jazz every Friday & Live Music every Saturday, | Patio dining in good weather. Check our website for up to date information:",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/victors-/",
+    "facebookMirror": "https://www.foodyas.com/US/York/75721881207/Victor%27s-Italian-Restaurant",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-28",
+    "website": "https://victorsofyork.com/"
+   }
   },
   {
    "id": "west-york-inn",
@@ -1437,7 +2515,15 @@
    "source": "restaurantguru listing (aggregator)",
    "county": "York",
    "phone": "(717) 845-5884",
-   "phoneSource": "Search-result listings agree: venue site west-york-inn.edan.io, MenuPix, Yellow Pages, chamberofcommerce.com, start.cortera.com, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: venue site west-york-inn.edan.io, MenuPix, Yellow Pages, chamberofcommerce.com, start.cortera.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "white-rose-bar-and-grill",
@@ -1501,7 +2587,44 @@
     "Bar scene"
    ],
    "source": "exa.ai places listing; kitchen & specials from venue site; White Rose venue site (checked 2026-11-01)",
-   "county": "York"
+   "county": "York",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-17",
+        "url": "https://www.restaurantji.com/pa/york/white-rose-bar-and-grill-/",
+        "quote": "ted near freeways, with a parking lot right in front, making it super convenient for both regulars and newcomers. They even allow customers to bring their own cake for celebrations. The st",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://whiterosebarandgrill.com/",
+        "quote": "liciously. Our inviting atmosphere, exceptional service, and ever-evolving menu make us a local favorite, and we can't wait to welcome you in. | our legacy | American Catering Everyone Loves | M",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/york/white-rose-bar-and-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/York/119514548129919/White-Rose-Bar-and-Grill",
+    "fbPostsSeen": 5,
+    "fbNewestPost": "2026-10-20",
+    "website": "https://whiterosebarandgrill.com/"
+   }
   }
  ],
  "counties": [

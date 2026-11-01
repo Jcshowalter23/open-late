@@ -28,7 +28,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via foodyas.com) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 828-0339",
-   "phoneSource": "Facebook page “Burgh Thai” (via foodyas.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Burgh Thai” (via foodyas.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Verona/304226793687977/Burgh-Thai",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-hula-bar",
@@ -54,7 +62,69 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 3, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 828-6919",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 3, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 3, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-03",
+        "url": "https://www.restaurantji.com/pa/verona/hula-bar-and-grill-/",
+        "quote": "The Hula Bar & Grill offers a welcoming atmosphere and delicious food, making it a fun neighborhood bar. The hula fries (bacon cheese fries) have a generous portion size and taste great. While",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-03",
+        "url": "https://www.restaurantji.com/pa/verona/hula-bar-and-grill-/",
+        "quote": "made with fresh ingredients. The atmosphere includes a pool table, slot games, and a good sports bar vibe, with none of the drama that some other bars in the area might have. Most of the foo",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-25",
+      "quote": " Karaoke The Hula Bar is the best ",
+      "url": "https://www.foodyas.com/US/Verona/117214471629898/The-Hula-Bar"
+     },
+     {
+      "date": "2026-10-24",
+      "quote": " Karaoke with Alex will start as soon as Verona Borough be saved by all you warriors",
+      "url": "https://www.foodyas.com/US/Verona/117214471629898/The-Hula-Bar"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/verona/hula-bar-and-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Verona/117214471629898/The-Hula-Bar",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-26",
+    "website": null
+   }
   },
   {
    "id": "the-pub-at-333",
@@ -80,7 +150,51 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 794-8904",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans",
+     "Date night / upscale"
+    ],
+    "summary": "Popular for watching games; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/oakmont/the-pub-at-333-/",
+        "quote": "dly, prompt, and attentive. There’s a full bar with great cocktails, a perfect patio, and plenty of TVs for sports. The parking lot is small, so prepare for on-street parking. A real gem for lu",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/oakmont/the-pub-at-333-/",
+        "quote": "sports. The parking lot is small, so prepare for on-street parking. A real gem for lunch, date night, or casual meals with friends.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/oakmont/the-pub-at-333-/",
+    "facebookMirror": "https://www.foodyas.com/US/Oakmont/118109788625408/The-Pub-at-333",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "zen-oakmont",
@@ -103,7 +217,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's website (online business hours)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   }
  ],
  "counties": [

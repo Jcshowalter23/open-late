@@ -30,7 +30,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via foodyas.com) (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(610) 282-8677",
-   "phoneSource": "Facebook page “309 Family Restaurant” (via foodyas.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “309 Family Restaurant” (via foodyas.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Coopersburg/1650780988499448/309-Family-Restaurant",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "beer-mussels-bar-and-grille",
@@ -55,7 +63,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/hellertown/beer-mussels-bar-and-grille-/",
+    "facebookMirror": "https://www.foodyas.com/US/Hellertown/407026613016158/Beer-Mussels-Bar-%26-Grille",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "braveheart-highland-pub",
@@ -92,7 +108,15 @@
    "source": "hours from the venue's website; Facebook page (via bars10.com) (checked 2026-11-01); Braveheart Highland Pub Facebook post Jul 27–Sep 21, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 838-6555",
-   "phoneSource": "Facebook page “Braveheart Highland Pub” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Braveheart Highland Pub” (via bars10.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Hellertown/84880449084/Braveheart-Highland-Pub",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-12",
+    "website": null
+   }
   },
   {
    "id": "coopersburg-diner",
@@ -117,7 +141,51 @@
     "Family-friendly"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Lehigh"
+   "county": "Lehigh",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/coopersburg/coopersburg-diner-/",
+        "quote": "as good as homemade. The hardworking staff and friendly service make it a favorite among locals and those traveling to enjoy a meal at the halfway point. The diner has been modernized w",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/coopersburg/coopersburg-diner-/",
+        "quote": "rm and inviting ambiance. It offers efficient service and ample parking, catering to both families and visitors. Customers enjoy the large portions, great prices, and the diverse menu, inc",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/coopersburg/coopersburg-diner-/",
+    "facebookMirror": "https://www.foodyas.com/US/Coopersburg/1533882770160133/Coopersburg-Diner",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "hellertown-diner",
@@ -142,7 +210,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(484) 851-3591",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/hellertown/hellertown-diner-/",
+    "facebookMirror": "https://www.foodyas.com/US/Hellertown/149675805058694/Hellertown-Diner",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-14",
+    "website": null
+   }
   },
   {
    "id": "sage-alley-brewery",
@@ -168,7 +244,50 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Lehigh"
+   "county": "Lehigh",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/coopersburg/sage-alley-brewery-and-grille-/",
+        "quote": "se looking to relax after a hike or enjoy a meal with friends, making it a must-visit for locals and newcomers alike.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-09-02",
+      "quote": " FRIDAY with DJ Hitmann",
+      "url": "https://www.foodyas.com/US/Coopersburg/1923755887936479/Sage-Alley-Brewery"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/coopersburg/sage-alley-brewery-and-grille-/",
+    "facebookMirror": "https://www.foodyas.com/US/Coopersburg/1923755887936479/Sage-Alley-Brewery",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-22",
+    "website": null
+   }
   },
   {
    "id": "tasty-dish-chinese-street-food",
@@ -191,7 +310,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 11, 2026) (checked 2026-11-01)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/hellertown/tasty-dish-chinese-street-food-/",
+    "facebookMirror": "https://www.foodyas.com/US/Hellertown/601370036720209/Tasty-Dish-Chinese-Street-Food",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "zach-s-kitchen-at-the-bw-social",
@@ -212,7 +339,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Hellertown/614656865053305/Zach%27s-Kitchen-at-the-BW-Social",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-26",
+    "website": null
+   }
   }
  ],
  "counties": [

@@ -22,6 +22,18 @@ To list deals people say are out of date, create a GoatCounter API key with only
     GOATCOUNTER_TOKEN=... python3 tools/deal_votes.py            # deals with any 👎, last 90 days
     GOATCOUNTER_TOKEN=... python3 tools/deal_votes.py --days 30 --min-down 2 --csv
 
+## Crowd type, karaoke and DJ nights (v87)
+
+Research fields on each place in `data/cities/<area>.json` (merged with `python3 tools/merge_crowd.py findings.jsonl`, joined on `"<area>|<place-id>"`; idempotent, and it never replaces a newer check with an older one):
+
+- `crowdType`: `{labels[], summary, confidence: high|medium, details[{label, confidence, evidence[{type: reviews|venue|attr, src, url, quote, date?}]}]}`. The old `crowd` field (busy times) is separate and unchanged.
+- `karaoke`, `dj`: `{nights[{day: Mon..Sun, cadence, start, confidence: high|medium|low, basis, lastSeen, datedLastSeen, postsSeen, sources[{src, url, date, quote}], note?, manual?}], stale[], hints[], oneoffs[], conflicts[]}`. Low confidence means a karaoke-directory listing only; `stale` holds nights last seen before May 1, 2026.
+- `crowdChecked` (YYYY-MM-DD) and `crowdSources` (which sources were read).
+
+Everything is kept in the source files so the weekly refresh can re-open each `url` and update `lastSeen`/`crowdChecked`. `tools/build_data.py` puts only display fields in `data/county/*.json`: `ct {l: labels, s: summary, src, u}` (high/medium only), and `kk`/`dj` lists of `{d: 0=Sun..6, w: "Thu 10 pm" | "2nd Thu monthly 9 pm" | "every other Sat", t?, s: source, u: url, seen, n?: note}` for high/medium, non-stale nights. Low-confidence and stale nights never reach the app. A place's "Last checked" (`lc`) uses `crowdChecked` only when that research shows something on the card, and only if it is newer.
+
+In the app: a 👥 crowd line on the card and a "Crowd type" row in Details; 🎤 Karaoke and 🎧 DJ chips that follow the day picker (All days = any night); cards show the picked day's nights ("🎤 Karaoke Thu 10 pm"); Details lists every night with its source link.
+
 ## config.js
 - `formEndpoint`: `https://formsubmit.co/ajax/<email>`. The first submission sends an "Activate Form" email that has to be clicked. After that you can swap the email for the random alias FormSubmit gives you, so the address isn't in the page source.
 - `goatcounter`: empty = disabled. Set to `https://<code>.goatcounter.com/count`.

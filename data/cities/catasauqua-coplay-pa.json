@@ -30,7 +30,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via bars10.com) (checked 2026-11-01)",
    "county": "Lehigh",
    "phone": "(610) 261-1860",
-   "phoneSource": "Facebook page “Butch's Log Cabin” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Butch's Log Cabin” (via bars10.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Coplay/147145478634879/Butch%27s-Log-Cabin",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "coplay-cabin",
@@ -53,7 +61,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Lehigh"
+   "county": "Lehigh",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Coplay/1087282567805638/Coplay-Cabin",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-11",
+    "website": null
+   }
   },
   {
    "id": "coplay-eatery",
@@ -76,7 +92,37 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Lehigh"
+   "county": "Lehigh",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-14",
+        "url": "https://www.restaurantji.com/pa/coplay/coplay-eatery-/",
+        "quote": "an get busy, leading to occasional street parking, the atmosphere remains charming with a hometown feel. Cleanliness is a priority, from the dining area to the bathrooms. Whether dining in or",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/coplay/coplay-eatery-/",
+    "facebookMirror": "https://www.foodyas.com/US/Coplay/105798085177821/Coplay-Eatery",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-16",
+    "website": null
+   }
   },
   {
    "id": "grove-street-pub-and-grill",
@@ -127,7 +173,51 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Grove Street Pub & Grill Facebook post Oct 29–30, 2026 (via bars10) (checked 2026-11-01); Grove Street Pub & Grill Facebook post Oct 28–29, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Northampton"
+   "county": "Northampton",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Locals & regulars"
+    ],
+    "summary": "Family-friendly; a locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-01",
+        "url": "https://www.restaurantji.com/pa/catasauqua/grove-street-pub-and-grill-your-neighborhood-place-/",
+        "quote": "The owner is attentive, greeting and welcoming customers, making it a phenomenal spot for families and friends to gather. The staff, especially waitresses like Jess, are always pleasant an",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Catasauqua/110634608061672/Grove-Street-Pub-%26-Grill",
+        "quote": "Website | Grove Street Pub & Grill, a neighborhood pub offering craft beer, wine and cocktails along with casual American fare like burgers and",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/catasauqua/grove-street-pub-and-grill-your-neighborhood-place-/",
+    "facebookMirror": "https://www.foodyas.com/US/Catasauqua/110634608061672/Grove-Street-Pub-%26-Grill",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "korny-s-tavern",
@@ -153,7 +243,22 @@
    "source": "hours from Google listing via exa; P2Bars and Checkle listings (checked 2026-11-01)",
    "county": "Lehigh",
    "phone": "(610) 262-7980",
-   "phoneSource": "P2Bars; Checkle listing, checked 2026-11-01"
+   "phoneSource": "P2Bars; Checkle listing, checked 2026-11-01",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Coplay/106005698985577/Korny%27s-Tavern",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-04-17",
+    "website": null
+   }
   },
   {
    "id": "race-street-bar-and-grill",
@@ -207,7 +312,41 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Race Street Bar & Grill Facebook post Oct 26–28, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Lehigh"
+   "county": "Lehigh",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [
+     "Google attribute 'karaoke' (via Restaurantji)",
+     "Restaurantji review/summary mentions karaoke"
+    ],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-24",
+      "quote": "🎤Karaoke 8-11pm🎤with Justin Bucha",
+      "url": "https://www.foodyas.com/US/Catasauqua/185182981344694/Race-Street-Bar-%26-Grill"
+     },
+     {
+      "date": "2026-10-24",
+      "quote": "$6 Select Late Night APPS from 8–11 PM - Perfect with KARAOKE",
+      "url": "https://www.foodyas.com/US/Catasauqua/185182981344694/Race-Street-Bar-%26-Grill"
+     },
+     {
+      "date": "2026-10-24",
+      "quote": "Don't forget tomorrow is the Catasauqua Pub Crawl & Karaoke ",
+      "url": "https://www.foodyas.com/US/Catasauqua/185182981344694/Race-Street-Bar-%26-Grill"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/catasauqua/race-street-bar-and-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Catasauqua/185182981344694/Race-Street-Bar-%26-Grill",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "samuel-owens",
@@ -230,7 +369,51 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "Lehigh",
    "phone": "(610) 262-2860",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/coplay/samuel-owens-restaurant-and-bar-/",
+        "quote": "Samuel Owens Restaurant & Bar is a popular neighborhood spot where locals often run into familiar faces. The food is outstanding, with standout dishes",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/coplay/samuel-owens-restaurant-and-bar-/",
+        "quote": "relaxed and friendly environment, with efficient staff and good food that is perfect for families and casual outings. Customers especially enjoy the garlic parm fries and the cold beer, m",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/coplay/samuel-owens-restaurant-and-bar-/",
+    "facebookMirror": "https://www.foodyas.com/US/Coplay/157371777750383/Samuel-Owens",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-05-12",
+    "website": null
+   }
   },
   {
    "id": "tony-s-top-cat-bar-and-grill",
@@ -255,7 +438,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "Lehigh",
    "phone": "(610) 266-4289",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/catasauqua/tonys-top-cat-bar-and-grill-/",
+        "quote": "nt dishes like cheesesteaks, beef empanadas, and sautéed pierogies, all priced well. This neighborhood bar and grill provides a great experience in a quiet and welcoming atmosphere. Customers prai",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/catasauqua/tonys-top-cat-bar-and-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Catasauqua/167090319976185/Tony%27s-Top-Cat--Bar-%26-Grill",
+    "fbPostsSeen": 1,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "villa-lentini",
@@ -276,7 +489,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Lehigh"
+   "county": "Lehigh",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   }
  ],
  "counties": [

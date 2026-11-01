@@ -31,7 +31,15 @@
    "source": "Lancaster Ledger (Oct 23, 2026) / LancasterOnline",
    "county": "Lancaster",
    "phone": "(717) 682-5842",
-   "phoneSource": "Toast ordering page; Buy.Vodka producer listing, checked 2026-11-01"
+   "phoneSource": "Toast ordering page; Buy.Vodka producer listing, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "fireside-tavern",
@@ -56,7 +64,51 @@
     "Date night"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Date night / upscale"
+    ],
+    "summary": "Family-friendly; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/pa/strasburg/david-and-steves-fireside-tavern-/",
+        "quote": "great portions and a variety of dishes at reasonable prices, making it a popular spot for families and travelers alike. Many visitors appreciate the gluten-free options, and the staff, lik",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/pa/strasburg/david-and-steves-fireside-tavern-/",
+        "quote": "stuffed shrimp, crab cakes, NY strip, and smoked bone-in pork chop. The tavern provides a fine dining experience with a warm, welcoming, and peaceful ambiance. Guests often enjoy the lively y",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/strasburg/david-and-steves-fireside-tavern-/",
+    "facebookMirror": "https://www.foodyas.com/US/Strasburg/325929404506/Fireside-Tavern",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-23",
+    "website": "https://www.firesidelanc.com/"
+   }
   },
   {
    "id": "speckled-hen",
@@ -81,7 +133,37 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Strasburg/427148950766457/Speckled-Hen-Coffee",
+        "quote": "craft coffee, espresso, tea and a delicious array of breakfast & lunch options. We are a family friendly restaurant offering unique areas to relax including seating for 75 inside, a children's c",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/strasburg/speckled-hen-coffee-/",
+    "facebookMirror": "https://www.foodyas.com/US/Strasburg/427148950766457/Speckled-Hen-Coffee",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-07",
+    "website": "https://www.speckledhencoffee.com/"
+   }
   },
   {
    "id": "bespoke-brewing",
@@ -130,7 +212,37 @@
     "Family-friendly"
    ],
    "source": "Venue site; Venue site bespokebrewingco.com (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/ronks/bespoke-brewing-/",
+        "quote": "many fun activities nearby. The atmosphere is clean and cozy, not dark, and suitable for families. Customers enjoy the wide selection of beers, including a stout with Wilbur buds, a super",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/ronks/bespoke-brewing-/",
+    "facebookMirror": "https://www.foodyas.com/US/Ronks/110903110829845/Bespoke_Brewing",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-16",
+    "website": "https://www.bespokebrewingco.com/"
+   }
   },
   {
    "id": "casey-jones-restaurant-red-caboose",
@@ -155,7 +267,37 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-13",
+        "url": "https://www.restaurantji.com/pa/ronks/casey-jones-restaurant-/",
+        "quote": "and great scrapple. With reasonable prices, Casey Jones' Restaurant is a hidden gem that locals and visitors to Lancaster County will find worth every bite.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/ronks/casey-jones-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.paradisestation.us/caseyjonesrestaurant"
+   }
   },
   {
    "id": "miller-s-smorgasbord",
@@ -180,7 +322,15 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/ronks/millers-smorgasbord-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Ronks/180594771724/Miller%27s-Smorgasbord",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-29",
+    "website": "https://www.millerssmorgasbord.com/"
+   }
   },
   {
    "id": "hershey-farm-restaurant",
@@ -205,7 +355,37 @@
    "source": "Venue site (hours page); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01); phone conflict review (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(800) 827-8635",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01. Conflicting (717) 687-8635 rejected: the venue site (hersheyfarm.com) shows the current number, checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01. Conflicting (717) 687-8635 rejected: the venue site (hersheyfarm.com) shows the current number, checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/ronks/hershey-farm-restaurant-and-inn-/",
+        "quote": "to feed barn animals. The on-site shops and amenities like the pool and playgrounds keep families entertained, making it a perfect family-friendly getaway. The restaurant provides a clean",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/ronks/hershey-farm-restaurant-and-inn-/",
+    "facebookMirror": "https://www.foodyas.com/US/Strasburg/61681839798/Hershey-Farm-Resort",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-29",
+    "website": "https://hersheyfarm.com/the-restaurant/"
+   }
   }
  ],
  "counties": [

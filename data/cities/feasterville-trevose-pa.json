@@ -37,7 +37,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); 1675 at the Ridges Facebook post Oct 15–23, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Bucks"
+   "county": "Bucks",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Feasterville/101473192176135/1675-At-The-Ridges",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "american-crab-company",
@@ -60,7 +68,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 9, 2026) (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(215) 245-3222",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 9, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 9, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/feasterville-trevose/american-crab-co-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bensalem/643810539029265/American-Crab-Company",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "andale-latino-grill",
@@ -81,7 +97,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Website (rendered) andalelatinogrill.com (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(215) 494-9505",
-   "phoneSource": "Website (rendered) andalelatinogrill.com, checked 2026-11-01"
+   "phoneSource": "Website (rendered) andalelatinogrill.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "brookside-beer-garden",
@@ -106,7 +130,15 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Bucks"
+   "county": "Bucks",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Feasterville/1141039179093101/Brookside-Beer-Garden",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-08",
+    "website": null
+   }
   },
   {
    "id": "carmen-s-place",
@@ -146,7 +178,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via bars10.com) (checked 2026-11-01); Carmen's Place Facebook post Oct 22, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(215) 364-2462",
-   "phoneSource": "Facebook page “Carmen's Place” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Carmen's Place” (via bars10.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Trevose/757803711230010/Carmen%27s-Place",
+    "fbPostsSeen": 13,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "don-mezcal-mexican-grill",
@@ -167,7 +207,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Bucks",
    "phone": "(267) 684-6238",
-   "phoneSource": "Venue website donmezcaltrevose.com, checked 2026-11-01"
+   "phoneSource": "Venue website donmezcaltrevose.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "fireside-inn",
@@ -216,7 +264,103 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); firesideinnfeasterville.com menu (checked 2026-11-01); Venue site firesideinnfeasterville.com (checked 2026-11-01); Website (rendered) firesideinnfeasterville.com (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(267) 522-1696",
-   "phoneSource": "Website (rendered) firesideinnfeasterville.com, checked 2026-11-01"
+   "phoneSource": "Website (rendered) firesideinnfeasterville.com, checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://firesideinnfeasterville.com/",
+        "quote": "Feasterville, Fireside Inn has been a neighborhood staple since 1978. We’re known for our family-friendly atmosphere and exceptional cuisine. Our menu, featuring both beloved ‘Fireside Favorites’",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": "8pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": "2026-10-27",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://firesideinnfeasterville.com/",
+        "date": "2026-11-01",
+        "quote": "Karaoke every Sunday night 8pm"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Feasterville/120573014725626/Fireside-Inn",
+        "date": "2026-10-27",
+        "quote": " I’ve been at Fireside since the beginning of summer, and you can find me behind the bar on Saturday and Sunday nights, with Sundays always being entertaining with karaoke 🎤"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Feasterville/120573014725626/Fireside-Inn",
+        "date": "2026-10-27",
+        "quote": "Whether you’re stopping in for a drink Saturday or Sunday karaoke or just to say hi, come pull up a seat"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [],
+    "dropped": [
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-10-27",
+      "datedLastSeen": "2026-10-27",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Feasterville/120573014725626/Fireside-Inn",
+        "date": "2026-10-27",
+        "quote": " I’ve been at Fireside since the beginning of summer, and you can find me behind the bar on Saturday and Sunday nights, with Sundays always being entertaining with karaoke 🎤"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Feasterville/120573014725626/Fireside-Inn",
+        "date": "2026-10-27",
+        "quote": "Whether you’re stopping in for a drink Saturday or Sunday karaoke or just to say hi, come pull up a seat"
+       }
+      ],
+      "confidence": "medium",
+      "droppedReason": "Quote says karaoke is on Sundays; 'Saturday' refers to a bartender's shifts"
+     }
+    ],
+    "reviewNote": "Quote says karaoke is on Sundays; 'Saturday' refers to a bartender's shifts"
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Feasterville/120573014725626/Fireside-Inn",
+    "fbPostsSeen": 15,
+    "fbNewestPost": "2026-10-31",
+    "website": "https://firesideinnfeasterville.com/"
+   }
   },
   {
    "id": "hazy-s-bar-and-grill",
@@ -243,7 +387,61 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via bars10.com) (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(215) 357-7065",
-   "phoneSource": "Facebook page “Hazy's Bar and Grill” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Hazy's Bar and Grill” (via bars10.com), checked 2026-11-01",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-29",
+      "quote": " It’s Karaoke Night",
+      "url": "https://www.foodyas.com/US/Feasterville/179384225610/Hazy%27s-Bar-and-Grill"
+     },
+     {
+      "date": "2026-10-29",
+      "quote": "ning of music, mischief, and delightfully dreadful singing! | Join us at Hazy’s on Thursday, October 29th at 9 PM for | >> Karaoke Night: The Final Verse",
+      "url": "https://www.foodyas.com/US/Feasterville/179384225610/Hazy%27s-Bar-and-Grill"
+     },
+     {
+      "date": "2026-10-29",
+      "quote": "Join us Thursday, October 29th at 9 PM for Karaoke Night: The Final Verse, hosted by DJ Rick",
+      "url": "https://www.foodyas.com/US/Feasterville/179384225610/Hazy%27s-Bar-and-Grill"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-29",
+      "quote": "TONIGHT at 9 PM with DJ Rick",
+      "url": "https://www.foodyas.com/US/Feasterville/179384225610/Hazy%27s-Bar-and-Grill"
+     },
+     {
+      "date": "2026-10-29",
+      "quote": "readful singing! | Join us at Hazy’s on Thursday, October 29th at 9 PM for | Karaoke Night: The Final Verse | hosted by >> hosted by DJ Rick",
+      "url": "https://www.foodyas.com/US/Feasterville/179384225610/Hazy%27s-Bar-and-Grill"
+     },
+     {
+      "date": "2026-10-29",
+      "quote": "E MIC EMPTY. 🎤🔪 | Thursday, October 29th, the spirits come out for KARAOKE NIGHT: THE FINAL VERSE! | 🎃 9 PM | Hosted by >> Hosted by DJ Rick 🎃 | 🎃 9 PM",
+      "url": "https://www.foodyas.com/US/Feasterville/179384225610/Hazy%27s-Bar-and-Grill"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Feasterville/179384225610/Hazy%27s-Bar-and-Grill",
+    "fbPostsSeen": 12,
+    "fbNewestPost": "2026-11-01",
+    "website": null
+   }
   },
   {
    "id": "old-village-restaurant",
@@ -264,7 +462,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Bucks"
+   "county": "Bucks",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Feasterville/288198427703868/Restaurant-%E2%80%9COld-Village%E2%80%9D-and-International-Deli-Caf%C3%A9",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "samarkand-steakhouse",
@@ -303,7 +509,15 @@
     "Family-friendly"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Samarkand Steakhouse Facebook post Oct 28–30, 2026 (via foodyas) (checked 2026-11-01)",
-   "county": "Bucks"
+   "county": "Bucks",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Feasterville/298489170175542/Samarkand-Steakhouse",
+    "fbPostsSeen": 15,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "suburban-diner",
@@ -326,7 +540,15 @@
     "Family-friendly"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Bucks"
+   "county": "Bucks",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.thesuburbandiner.com/"
+   }
   }
  ],
  "counties": [

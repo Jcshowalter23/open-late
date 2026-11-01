@@ -26,7 +26,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 11, 2026) (checked 2026-11-01)",
    "county": "Montgomery",
    "phone": "(215) 541-2922",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 11, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 11, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/east-greenville/fiesta-habanero-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "palm-s-southern-kitchen-and-bar",
@@ -82,7 +90,28 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site palmssouthernkitchenandbar.com (checked 2026-11-01)",
-   "county": "Montgomery"
+   "county": "Montgomery",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-27",
+      "quote": "🎧 DJ STARTS AT 9 PM | ⏰ Winners revealed at 9 PM!",
+      "url": "https://www.foodyas.com/US/Palm/1197771530082152/Palm%27s-Southern-Kitchen-and-Bar"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Palm/1197771530082152/Palm%27s-Southern-Kitchen-and-Bar",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-28",
+    "website": "https://palmssouthernkitchenandbar.com/"
+   }
   },
   {
    "id": "pizza-como-and-pc-pub-restaurant-and-sports-bar",
@@ -109,7 +138,51 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "Montgomery",
    "phone": "(215) 679-4900",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Sports fans"
+    ],
+    "summary": "Family-friendly; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/pennsburg/pizza-como-and-pc-pub-/",
+        "quote": "lly well-received, with excellent dinner and drink specials. The main dining area is very kid-friendly, featuring booths and tables, and there is a separate area with a large horse-shoe bar fo",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Pennsburg/184921290441/Pizza-Como-%26-PC-Pub-Restaurant-%26-Sports-Bar",
+        "quote": "Pizza Como & PC Pub Restaurant & Sports Bar, 468 Pottstown Avenue, Pennsburg, PA (2026) | Home | Cities | Countries | Login | --> | P",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/pennsburg/pizza-como-and-pc-pub-/",
+    "facebookMirror": "https://www.foodyas.com/US/Pennsburg/184921290441/Pizza-Como-%26-PC-Pub-Restaurant-%26-Sports-Bar",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "tapped-out-at-sweet-water",
@@ -145,7 +218,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
    "county": "Montgomery",
    "phone": "(215) 679-8111",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/pennsburg/the-loft-at-sweet-water-featuring-tapped-out-/",
+    "facebookMirror": "https://www.foodyas.com/US/Pennsburg/145775728770778/Tapped-Out-at-Sweet-Water",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-28",
+    "website": "https://www.foodbooking.com/api/fb/w03_b_y"
+   }
   }
  ],
  "counties": [

@@ -47,7 +47,51 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Berks"
+   "county": "Berks",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Live music fans"
+    ],
+    "summary": "Family-friendly; known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.3rdspruce.com/",
+        "quote": "on for outstanding food. We specialize in elevated American bar fare. We’re proud to be a family-friendly restaurant with a welcoming atmosphere for all ages. Join us for live music, trivia night",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.3rdspruce.com/",
+        "quote": "iconic restaurant | With over 26 taps, delicious food, and specialty cocktails as well as live music every Friday night! | Welcome to 3rd & Spruce | 3rd & Spruce has been a staple in West Reading",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.3rdspruce.com/"
+   }
   },
   {
    "id": "brewer-s-bar-and-grill",
@@ -78,7 +122,83 @@
     "Bar scene"
    ],
    "source": "Venue site; Venue site brewersbarandgrill.com (checked 2026-11-01)",
-   "county": "Berks"
+   "county": "Berks",
+   "crowdType": {
+    "labels": [
+     "College crowd",
+     "Families",
+     "Sports fans"
+    ],
+    "summary": "Families earlier, bar crowd later; popular with college students; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "College crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/west-reading/brewers-bar-and-grill-/",
+        "quote": "specials also receive positive reviews. The atmosphere is lively, with a mix of families, college students, and middle-aged folks creating a comfortable hangout. While the noise level can be high,",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/west-reading/brewers-bar-and-grill-/",
+        "quote": "The daily specials also receive positive reviews. The atmosphere is lively, with a mix of families, college students, and middle-aged folks creating a comfortable hangout. While the noise",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.brewersbarandgrill.com/",
+        "quote": "--> | Brewer's Bar and Grill | Sports Bar & Restaurant in West Reading, PA | top of page | Home | Order Online | Menu | Beer Outlet",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "dj iksmada",
+      "url": "https://www.brewersbarandgrill.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "dj iksmada",
+      "url": "https://www.brewersbarandgrill.com"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-reading/brewers-bar-and-grill-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.brewersbarandgrill.com/"
+   }
   },
   {
    "id": "liberty-ale-house",
@@ -104,7 +224,15 @@
    "source": "Liberty Tap Room Group site",
    "county": "Berks",
    "phone": "(610) 370-7895",
-   "phoneSource": "Search-result listings agree: venue site thelibertytaproom.com, Yellow Pages, chamberofcommerce.com, usarestaurants.info, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: venue site thelibertytaproom.com, Yellow Pages, chamberofcommerce.com, usarestaurants.info, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-barley-mow",
@@ -129,7 +257,51 @@
     "Bar scene"
    ],
    "source": "Venue site",
-   "county": "Berks"
+   "county": "Berks",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale",
+     "Live music fans"
+    ],
+    "summary": "A date-night / upscale spot; known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/west-reading/the-barley-mow-/",
+        "quote": "r everyone. Occasional live music adds to the charm, making it a great spot for brunch or fine dining upstairs with a speakeasy vibe. However, some guests have reported issues with backed-up",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/west-reading/the-barley-mow-/",
+        "quote": "restaurant features a fireplace and a creative menu with options for everyone. Occasional live music adds to the charm, making it a great spot for brunch or fine dining upstairs with a speak",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-reading/the-barley-mow-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.barleymowbeer.com/"
+   }
   },
   {
    "id": "a-light-in-the-attic",
@@ -155,7 +327,37 @@
     "Bar scene"
    ],
    "source": "Venue site",
-   "county": "Berks"
+   "county": "Berks",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-30",
+        "url": "https://www.restaurantji.com/pa/west-reading/a-light-in-the-attic-/",
+        "quote": "A Light in the Attic is a hidden gem in West Reading, offering an upscale dining experience with a spectacular atmosphere. The service staff is exceptional, includ",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-reading/a-light-in-the-attic-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.alightintheatticwr.com/"
+   }
   },
   {
    "id": "b2-bistro-bar-west-reading",
@@ -190,7 +392,15 @@
     "Bar scene"
    ],
    "source": "Venue site; phone conflict review (checked 2026-11-01)",
-   "county": "Berks"
+   "county": "Berks",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-reading/b2-bistro-bar-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.b2bistro.com/west-reading.html"
+   }
   },
   {
    "id": "west-reading-tavern",
@@ -231,7 +441,37 @@
     "Date night"
    ],
    "source": "exa.ai places listing; specials from venue site; phone conflict review (checked 2026-11-01)",
-   "county": "Berks"
+   "county": "Berks",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.westreadingtavern.com/",
+        "quote": "g Red Door” on your next trip to West Reading and visit a hometown favorite frequented by locals and visitors alike. | Primary Sidebar | Current Hours | Wednesday | 4:30pm-9:00pm | Thurs",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-reading/west-reading-tavern-and-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.westreadingtavern.com/"
+   }
   },
   {
    "id": "west-reading-motor-club",
@@ -281,7 +521,51 @@
     "Bar scene"
    ],
    "source": "exa.ai places listing; venue site; West Reading Motor Club Facebook post Oct 20, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Berks"
+   "county": "Berks",
+   "crowdType": {
+    "labels": [
+     "Sports fans",
+     "Date night / upscale"
+    ],
+    "summary": "Popular for watching games; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thewrmc.com/",
+        "quote": "Private Events | Jobs at WRMC | Location & Hours | Gift Cards | West Reading Motor Club | Sports Bar & Event Venue | A B2 Bistro + Bar Property | Book your West Reading Motor Club reservatio",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thewrmc.com/",
+        "quote": "West Reading Motor Club - Fine Dining, Live Music, Banquet Space | Menu | Home | Menus | Private Events | Jobs at WRMC | Locati",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-reading/west-reading-motor-club-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.thewrmc.com/"
+   }
   },
   {
    "id": "west-brew-izakaya",
@@ -306,7 +590,15 @@
    "source": "exa.ai places listing; Restaurantji (Google-sourced listing, updated Oct 18, 2026) (checked 2026-11-01)",
    "county": "Berks",
    "phone": "(610) 370-7434",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-reading/west-brew-izakaya-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "comalli-taqueria",
@@ -331,7 +623,15 @@
    "source": "exa.ai places listing; Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "Berks",
    "phone": "(484) 869-2824",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-reading/com-lli-taqueria-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "midtown-sip-savor-social",
@@ -356,7 +656,15 @@
    "source": "exa.ai places listing",
    "county": "Berks",
    "phone": "(610) 200-5107",
-   "phoneSource": "Search-result listings agree: venue site midtownwestreading.com, snapchat.com, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: venue site midtownwestreading.com, snapchat.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-bar-cart",
@@ -382,7 +690,15 @@
    "source": "exa.ai places listing; Restaurantji (Google-sourced listing, updated Oct 2, 2026) (checked 2026-11-01)",
    "county": "Berks",
    "phone": "(610) 927-5141",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 2, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 2, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-reading/the-bar-cart-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.thebarcartpa.com/"
+   }
   },
   {
    "id": "uncorkd",
@@ -423,7 +739,15 @@
     "Date night"
    ],
    "source": "Venue site; Uncorkd Facebook post Oct 20 & 23, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Berks"
+   "county": "Berks",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-reading/uncorkd-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.uncorkd-westreading.com/"
+   }
   },
   {
    "id": "chatty-monks-brewhouse-taproom-and-lounge",
@@ -447,7 +771,15 @@
     "Sports & games"
    ],
    "source": "Venue site",
-   "county": "Berks"
+   "county": "Berks",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://chattymonks.com/brewery"
+   }
   },
   {
    "id": "the-american-diner",
@@ -472,7 +804,37 @@
     "Family-friendly"
    ],
    "source": "exa.ai places listing",
-   "county": "Berks"
+   "county": "Berks",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-09",
+        "url": "https://www.restaurantji.com/pa/reading/the-american-diner-/",
+        "quote": "service and good prices, customers leave feeling satisfied and eager to return. It’s a family-friendly restaurant with the best food and attentive staff. The servers are kind and always availa",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/reading/the-american-diner-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "chef-david-s-pizza-and-more",
@@ -495,7 +857,15 @@
    "source": "Reading Eagle (Jul 2025); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "Berks",
    "phone": "(610) 750-7199",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-reading/michelangelos-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "exeter-family-restaurant",
@@ -520,7 +890,51 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Berks"
+   "county": "Berks",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Locals & regulars"
+    ],
+    "summary": "Family-friendly; a locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/reading/exeter-family-restaurant-/",
+        "quote": "The restaurant is known for its efforts to keep prices down, making it a great option for families and seniors. The restaurant's commitment to providing a positive dining experience is ev",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.exeterfamilyrestaurant.com/",
+        "quote": "rd-Winning 24-Hour Diner in Reading, PA | Welcome to Exeter Family Restaurant, a longtime local favorite serving Reading, Exeter Township, and Berks County. Proudly recognized for Best Breakfast",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/reading/exeter-family-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.exeterfamilyrestaurant.com/"
+   }
   },
   {
    "id": "ihop-wyomissing",
@@ -545,7 +959,15 @@
    "source": "Chain locator",
    "county": "Berks",
    "phone": "(610) 374-9300",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://restaurants.ihop.com/en-us/pa/wyomissing/breakfast-2701-n-meridian-blvd-5502"
+   }
   },
   {
    "id": "jimmie-kramer-s-peanut-bar",
@@ -576,7 +998,15 @@
    "source": "Venue site (contact page)",
    "county": "Berks",
    "phone": "(610) 376-8500",
-   "phoneSource": "Search-result listings agree: venue site peanutbar.com, allbiz.com, chamberofcommerce.com, citysquares.com, usarestaurants.info, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: venue site peanutbar.com, allbiz.com, chamberofcommerce.com, citysquares.com, usarestaurants.info, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.peanutbar.com/"
+   }
   },
   {
    "id": "pike-cafe",
@@ -665,7 +1095,15 @@
    "source": "Venue site",
    "county": "Berks",
    "phone": "(610) 373-6616",
-   "phoneSource": "Search-result listings agree: venue site pikecafe.com, chamberofcommerce.com, ebd.str8align.com, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: venue site pikecafe.com, chamberofcommerce.com, ebd.str8align.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.pikecafe.com/"
+   }
   },
   {
    "id": "mike-s-tavern",
@@ -690,7 +1128,49 @@
    "source": "exa.ai places listing; Restaurantji (Google-sourced listing, updated Sep 17, 2026) (checked 2026-11-01)",
    "county": "Berks",
    "phone": "(610) 372-1444",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 17, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 17, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-17",
+        "url": "https://www.restaurantji.com/pa/reading/mikes-tavern-/",
+        "quote": "ern is a welcoming spot in the Northwest city area, known for its pleasant atmosphere and live music. The bartenders are friendly and attentive, providing excellent service. The beer selecti",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/pa/reading/mikes-tavern-/",
+        "quote": "Very warm welcoming atmosphere. Great beer and great live music"
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/reading/mikes-tavern-/",
+        "quote": "live music"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/reading/mikes-tavern-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "jack-s-pub",
@@ -715,7 +1195,15 @@
    "source": "exa.ai places listing",
    "county": "Berks",
    "phone": "(610) 985-0003",
-   "phoneSource": "Search-result listings agree: chamberofcommerce.com, manta.com, p2bars.com, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: chamberofcommerce.com, manta.com, p2bars.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "stork-bar",
@@ -740,7 +1228,15 @@
    "source": "exa.ai places listing; Checkle and BerksConnect listings (checked 2026-11-01)",
    "county": "Berks",
    "phone": "(610) 743-3651",
-   "phoneSource": "Checkle and BerksConnect listings, checked 2026-11-01"
+   "phoneSource": "Checkle and BerksConnect listings, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "maria-s-lounge-and-restaurant",
@@ -765,7 +1261,37 @@
     "Bar scene"
    ],
    "source": "exa.ai places listing; ordering site",
-   "county": "Berks"
+   "county": "Berks",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.mariasloungerestaurant.com/",
+        "quote": "of the city, try some of Reading's top dishes. See what all the fuss is about with these local favorites. | Don't miss out on french fries while ordering your pizza. It's a tasty way to bulk up",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.mariasloungerestaurant.com/"
+   }
   },
   {
    "id": "cheers-bistro-at-the-doubletree",
@@ -790,7 +1316,15 @@
     "Bar scene"
    ],
    "source": "Venue site",
-   "county": "Berks"
+   "county": "Berks",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/reading/cheers-american-bistro-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.cheersamericanbistro.com/"
+   }
   },
   {
    "id": "building-24-kitchen-and-bar",
@@ -816,7 +1350,15 @@
     "Bar scene"
    ],
    "source": "Venue site",
-   "county": "Berks"
+   "county": "Berks",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://workswyomissing.com/building-24/"
+   }
   },
   {
    "id": "judy-s-on-cherry",
@@ -849,7 +1391,15 @@
     "Date night"
    ],
    "source": "Venue site; Judy's on Cherry Facebook post Oct 22, 2026 (via foodyas) (checked 2026-11-01)",
-   "county": "Berks"
+   "county": "Berks",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/reading/judys-on-cherry-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://judysoncherry.com/"
+   }
   },
   {
    "id": "austin-s-restaurant-and-bar",
@@ -888,7 +1438,51 @@
     "Date night"
    ],
    "source": "Venue site",
-   "county": "Berks"
+   "county": "Berks",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-12",
+        "url": "https://www.restaurantji.com/pa/west-lawn/austins-restaurant-and-bar-/",
+        "quote": "erience. With its outstanding food, service, and ambiance, Austin's is a top choice among locals and visitors, providing a dining experience that is both enjoyable and memorable.",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.austinsrestaurant.com/",
+        "quote": "Austin's Restaurant and Bar - Upscale Casual American Dining | Menu | All Dining Menus | Heat at Home | Featured menu | Special",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-lawn/austins-restaurant-and-bar-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.austinsrestaurant.com/"
+   }
   },
   {
    "id": "p-j-whelihan-s-reading",
@@ -920,7 +1514,37 @@
     "Family-friendly"
    ],
    "source": "Chain locator page",
-   "county": "Berks"
+   "county": "Berks",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/reading/p-j-whelihans-pub-restaurant-reading-/",
+        "quote": "perience with good flavor in its food, including a popular keto bowl. The food is classic sports bar food and definitely delicious, appealing to many customers. The staff is friendly and att",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/reading/p-j-whelihans-pub-restaurant-reading-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://locations.pjspub.com/locations/pa/west-lawn/1101-rocky-dr"
+   }
   },
   {
    "id": "the-ugly-oyster-drafthaus",
@@ -978,7 +1602,15 @@
     "Live music & events"
    ],
    "source": "Venue about page via web search (site returned errors when checked); The Ugly Oyster Drafthaus Facebook post Aug 19, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Berks"
+   "county": "Berks",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/reading/ugly-oyster-drafthaus-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "tobias-frogg-berks",
@@ -1012,7 +1644,43 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Sep 3, 2026) (checked 2026-11-01); Tobias Frogg – Berks Facebook post Oct 7, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Berks",
    "phone": "(610) 921-1650",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 3, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 3, 2026), checked 2026-11-01",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "TONIGHT: KARAOKE NIGHT 🎶 🙌 🗓️ FREE ENTRY ⏰ 7-10p",
+      "url": "https://tobiasfroggrestaurants.com/berks-location/"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [
+     "Restaurantji review/summary mentions dj"
+    ],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "College Night is here tonight 🙌 LIVE DJ Fusion 8p | 🏀 Game time! Sixers vs. Knicks, tonight at 7:30p",
+      "url": "https://tobiasfroggrestaurants.com/berks-location/"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/reading/tobias-frogg-berks-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://tobiasfroggrestaurants.com/berks-location/"
+   }
   },
   {
    "id": "barbon-s-tavern",
@@ -1037,7 +1705,15 @@
    "source": "exa.ai places listing",
    "county": "Berks",
    "phone": "(610) 777-1007",
-   "phoneSource": "Search-result listings agree: allbiz.com, chamberofcommerce.com, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: allbiz.com, chamberofcommerce.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "el-patron",
@@ -1062,7 +1738,46 @@
    "source": "exa.ai places listing; Restaurantji (Google-sourced listing, updated Sep 28, 2026) (checked 2026-11-01)",
    "county": "Berks",
    "phone": "(610) 375-3605",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 28, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Dance / club crowd"
+    ],
+    "summary": "A dancing / club crowd late.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-28",
+        "url": "https://www.restaurantji.com/pa/reading/el-patron-reading-pennsylvania-/",
+        "quote": "many speaking great Spanish. The restaurant is open during the day and transforms into a night club at night, serving well-made drinks and offering a dance floor.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "hints": [
+     "Google attribute 'karaoke' (via Restaurantji)"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/reading/el-patron-reading-pennsylvania-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "el-primo-bar-and-grill",
@@ -1087,7 +1802,15 @@
    "source": "exa.ai places listing; Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "Berks",
    "phone": "(610) 816-5460",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "xoloitzcuintle-mexican-restaurant-and-sports-bar",
@@ -1113,7 +1836,15 @@
    "source": "exa.ai places listing",
    "county": "Berks",
    "phone": "(484) 509-5197",
-   "phoneSource": "Search-result listings agree: venue site xoloitzcuintle-mexican-restaurant-sports-bar.weeblyte.com, venue site xoloitzcuintlemexicanrestaurantsports.com, Restaurantji, Yelp, maps.roadtrippers.com and others, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: venue site xoloitzcuintle-mexican-restaurant-sports-bar.weeblyte.com, venue site xoloitzcuintlemexicanrestaurantsports.com, Restaurantji, Yelp, maps.roadtrippers.com and others, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "luna-bar-and-restaurant",
@@ -1138,7 +1869,15 @@
    "source": "exa.ai places listing; joe coffee and p2bars listings (checked 2026-11-01)",
    "county": "Berks",
    "phone": "(484) 709-2572",
-   "phoneSource": "joe coffee and p2bars listings, checked 2026-11-01"
+   "phoneSource": "joe coffee and p2bars listings, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "vision-bar-and-lounge",
@@ -1163,7 +1902,15 @@
    "source": "exa.ai places listing; Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Berks",
    "phone": "(610) 816-5080",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/reading/vision-bar-and-lounge-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "applebee-s-wyomissing",
@@ -1194,7 +1941,57 @@
     "Sports & games"
    ],
    "source": "Chain locator",
-   "county": "Berks"
+   "county": "Berks",
+   "crowdType": {
+    "labels": [
+     "Sports fans",
+     "Families"
+    ],
+    "summary": "Popular for watching games; family-friendly.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "attr",
+        "src": "Google attribute 'good for watching sports' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/wyomissing/applebees-/",
+        "quote": "good for watching sports"
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://restaurants.applebees.com/en-us/pa/wyomissing/1905-ridgewood-road-94090",
+        "quote": "ometown, making it the perfect family-friendly place to eat for lunch, late-night dining, watch the game, or find | happy hour | or | lunch specials in Wyomissing | . If dining in is not on the",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://restaurants.applebees.com/en-us/pa/wyomissing/1905-ridgewood-road-94090",
+        "quote": "restaurant sits in an area known for being Taylor Swift's hometown, making it the perfect family-friendly place to eat for lunch, late-night dining, watch the game, or find | happy hour | or | lu",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/wyomissing/applebees-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://restaurants.applebees.com/en-us/pa/wyomissing/1905-ridgewood-road-94090"
+   }
   },
   {
    "id": "wyomissing-restaurant-and-bakery",
@@ -1219,7 +2016,37 @@
     "Family-friendly"
    ],
    "source": "Yelp / Apple Maps / Restaurantji (agree)",
-   "county": "Berks"
+   "county": "Berks",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/wyomissing/wyomissing-restaurant-and-bakery-/",
+        "quote": "down-to-earth, family-style ambiance, offering a comfortable and welcoming atmosphere for families and groups. The food is consistently praised for its quality, and the service is generall",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/wyomissing/wyomissing-restaurant-and-bakery-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://wyomissingrestaurantandbakery.com/"
+   }
   },
   {
    "id": "esposito-s-and-the-hideaway-bar",
@@ -1274,7 +2101,81 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
    "county": "Berks",
    "phone": "(610) 779-9333",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.espositosrestaurantandpizza.com/hideawaybar",
+        "quote": "iday & Saturday 6:00 PM - 2:00 AM | Fantastic Food & Drink | Specials! | More than just a sports bar, The Hideaway is the best place in Reading for fun! Join us for Karaoke, Open Mic Nights,",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "7-12pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.espositosrestaurantandpizza.com/hideawaybar",
+        "date": "2026-11-01",
+        "quote": "Thursdays - Karaoke Night 7-12pm, $2 Yuengling Bottles/$7"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [
+     "Restaurantji review/summary mentions karaoke"
+    ],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Join us for Karaoke, Open Mic Nights, and live entertainment every week",
+      "url": "https://www.espositosrestaurantandpizza.com/hideawaybar"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "hints": [
+     "Restaurantji review/summary mentions dj"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/reading/espositos-restaurant-and-pizza-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.espositosrestaurantandpizza.com/hideawaybar"
+   }
   }
  ],
  "counties": [

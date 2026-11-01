@@ -53,7 +53,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); 2637brew Facebook post Oct 20, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Philadelphia",
    "phone": "(215) 644-8586",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/348360305554220/2637brew",
+    "fbPostsSeen": 12,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "angelino-s-restaurant",
@@ -78,7 +86,51 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Philadelphia"
+   "county": "Philadelphia",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Philadelphia/240030453397/Angelino%27s-Restaurant%2C-Fairmount--Philadelphia",
+        "quote": "Beatto, an army veteran of World War II. We are honored to continue the tradition of this neighborhood gem, offering lunchtime dine-in, as well as carryout, catering and delivery. As long-time res",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Philadelphia/240030453397/Angelino%27s-Restaurant%2C-Fairmount--Philadelphia",
+        "quote": "s, and visitors alike consistently good Italian-American food, at a reasonable cost, in a family-friendly atmosphere. OUR HISTORY | Angelino’s has been a long-standing neighborhood favorite, in t",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/240030453397/Angelino%27s-Restaurant%2C-Fairmount--Philadelphia",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-30",
+    "website": "https://angelinosfairmount.com/"
+   }
   },
   {
    "id": "bad-brother",
@@ -124,7 +176,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site badbrotherphilly.com (checked 2026-11-01)",
    "county": "Philadelphia",
    "phone": "(215) 235-2460",
-   "phoneSource": "Venue website badbrotherphilly.com, checked 2026-11-01"
+   "phoneSource": "Venue website badbrotherphilly.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "bar-hygge",
@@ -157,7 +217,15 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site barhygge.com (checked 2026-11-01)",
-   "county": "Philadelphia"
+   "county": "Philadelphia",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/1660774964150793/Bar-Hygge",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "fat-moon-restaurant-and-bar",
@@ -183,7 +251,167 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Philadelphia",
    "phone": "(215) 246-0515",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 4, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 4, 2026), checked 2026-11-01",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": "9:30 pm",
+      "confidence": "low",
+      "basis": "third-party karaoke directory only",
+      "lastSeen": "2026-10-29",
+      "datedLastSeen": "2026-10-29",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "FindKaraoke directory (city page updated October 29, 2026)",
+        "url": "https://findkaraoke.net/philadelphia",
+        "date": "2026-10-29",
+        "quote": "Fat Moon Restaurant & Bar — Every day at 9:30 PM. Free karaoke every night after 9:30pm at this Asian fusion restaurant and bar on Callowhill Street. Open until 2am daily."
+       }
+      ],
+      "note": "Directory listing only; not confirmed by the venue"
+     },
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "9:30 pm",
+      "confidence": "low",
+      "basis": "third-party karaoke directory only",
+      "lastSeen": "2026-10-29",
+      "datedLastSeen": "2026-10-29",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "FindKaraoke directory (city page updated October 29, 2026)",
+        "url": "https://findkaraoke.net/philadelphia",
+        "date": "2026-10-29",
+        "quote": "Fat Moon Restaurant & Bar — Every day at 9:30 PM. Free karaoke every night after 9:30pm at this Asian fusion restaurant and bar on Callowhill Street. Open until 2am daily."
+       }
+      ],
+      "note": "Directory listing only; not confirmed by the venue"
+     },
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "9:30 pm",
+      "confidence": "low",
+      "basis": "third-party karaoke directory only",
+      "lastSeen": "2026-10-29",
+      "datedLastSeen": "2026-10-29",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "FindKaraoke directory (city page updated October 29, 2026)",
+        "url": "https://findkaraoke.net/philadelphia",
+        "date": "2026-10-29",
+        "quote": "Fat Moon Restaurant & Bar — Every day at 9:30 PM. Free karaoke every night after 9:30pm at this Asian fusion restaurant and bar on Callowhill Street. Open until 2am daily."
+       }
+      ],
+      "note": "Directory listing only; not confirmed by the venue"
+     },
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "9:30 pm",
+      "confidence": "low",
+      "basis": "third-party karaoke directory only",
+      "lastSeen": "2026-10-29",
+      "datedLastSeen": "2026-10-29",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "FindKaraoke directory (city page updated October 29, 2026)",
+        "url": "https://findkaraoke.net/philadelphia",
+        "date": "2026-10-29",
+        "quote": "Fat Moon Restaurant & Bar — Every day at 9:30 PM. Free karaoke every night after 9:30pm at this Asian fusion restaurant and bar on Callowhill Street. Open until 2am daily."
+       }
+      ],
+      "note": "Directory listing only; not confirmed by the venue"
+     },
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "9:30 pm",
+      "confidence": "low",
+      "basis": "third-party karaoke directory only",
+      "lastSeen": "2026-10-29",
+      "datedLastSeen": "2026-10-29",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "FindKaraoke directory (city page updated October 29, 2026)",
+        "url": "https://findkaraoke.net/philadelphia",
+        "date": "2026-10-29",
+        "quote": "Fat Moon Restaurant & Bar — Every day at 9:30 PM. Free karaoke every night after 9:30pm at this Asian fusion restaurant and bar on Callowhill Street. Open until 2am daily."
+       }
+      ],
+      "note": "Directory listing only; not confirmed by the venue"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "9:30 pm",
+      "confidence": "low",
+      "basis": "third-party karaoke directory only",
+      "lastSeen": "2026-10-29",
+      "datedLastSeen": "2026-10-29",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "FindKaraoke directory (city page updated October 29, 2026)",
+        "url": "https://findkaraoke.net/philadelphia",
+        "date": "2026-10-29",
+        "quote": "Fat Moon Restaurant & Bar — Every day at 9:30 PM. Free karaoke every night after 9:30pm at this Asian fusion restaurant and bar on Callowhill Street. Open until 2am daily."
+       }
+      ],
+      "note": "Directory listing only; not confirmed by the venue"
+     },
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": "9:30 pm",
+      "confidence": "low",
+      "basis": "third-party karaoke directory only",
+      "lastSeen": "2026-10-29",
+      "datedLastSeen": "2026-10-29",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "FindKaraoke directory (city page updated October 29, 2026)",
+        "url": "https://findkaraoke.net/philadelphia",
+        "date": "2026-10-29",
+        "quote": "Fat Moon Restaurant & Bar — Every day at 9:30 PM. Free karaoke every night after 9:30pm at this Asian fusion restaurant and bar on Callowhill Street. Open until 2am daily."
+       }
+      ],
+      "note": "Directory listing only; not confirmed by the venue"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-07-31",
+      "quote": "🎤 Karaoke ",
+      "url": "https://www.foodyas.com/US/Philadelphia/144030212118603/Fat-Moon---Restaurant-%26-Bar"
+     },
+     {
+      "date": "2026-07-31",
+      "quote": "🎶 Free Karaoke Every Day with any food/ drink purchase",
+      "url": "https://www.foodyas.com/US/Philadelphia/144030212118603/Fat-Moon---Restaurant-%26-Bar"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/144030212118603/Fat-Moon---Restaurant-%26-Bar",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-20",
+    "website": null
+   }
   },
   {
    "id": "green-room-philly",
@@ -210,7 +438,51 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Philadelphia"
+   "county": "Philadelphia",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Philadelphia/920219181361727/Green-Room-Philly",
+        "quote": "tap. Come out & see for yourself! | The Green Room in Fairmount is one of the best local neighborhood bars Philadelphia has to offer. Not only is The Green Room stacked with tons of High-def TVs,",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Philadelphia/920219181361727/Green-Room-Philly",
+        "quote": "Website | Contact the business | The Green Room is your best neighborhood sports bar. 2 pool tables, countless flat screens, great bar specials & beers on tap. Come out & see",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/920219181361727/Green-Room-Philly",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-11",
+    "website": null
+   }
   },
   {
    "id": "hilltown-tavern-fairmount",
@@ -255,7 +527,15 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Hilltown Tavern Fairmount Facebook post Oct 26, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Philadelphia"
+   "county": "Philadelphia",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/102020047870153/Hilltown-Tavern-Fairmount",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "iosrestobar",
@@ -280,7 +560,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Philadelphia",
    "phone": "(215) 763-5500",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 9, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 9, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/162062467186060/IosRestobar",
+    "fbPostsSeen": 12,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "kite-and-key",
@@ -306,7 +594,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Philadelphia",
    "phone": "(215) 568-1818",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 30, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 30, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/113872311977636/Kite-%26-Key",
+    "fbPostsSeen": 11,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "libertee-grounds",
@@ -351,7 +647,33 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site liberteegrounds.com (checked 2026-11-01)",
    "county": "Philadelphia",
    "phone": "(267) 324-3487",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-23",
+      "quote": "To end Frankenstein’s Putt Putt with a 💥 we’re throwing Philly’s biggest Halloween party, featuring spooky cocktails, a costume contest (winner gets $100), a live DJ and more | Still don’t have Hallow",
+      "url": "https://www.foodyas.com/US/Philadelphia/110199227328813/Libertee-Grounds"
+     },
+     {
+      "date": "2026-09-24",
+      "quote": "Come watch the Birds vs Bears at LG this Monday for a watch party in partnership with Tapped in @ Muller🍺🪩 Miller Lite with prizes, DJ, and special guest appearances all night",
+      "url": "https://www.foodyas.com/US/Philadelphia/110199227328813/Libertee-Grounds"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/110199227328813/Libertee-Grounds",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-23",
+    "website": null
+   }
   },
   {
    "id": "manong-philly",
@@ -374,7 +696,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via foodyas.com) (checked 2026-11-01)",
    "county": "Philadelphia",
    "phone": "(445) 223-2145",
-   "phoneSource": "Facebook page “Manong Philly” (via foodyas.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Manong Philly” (via foodyas.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/928336927022087/Manong-Philly",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-22",
+    "website": null
+   }
   },
   {
    "id": "osteria",
@@ -418,7 +748,51 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Osteria venue site (checked 2026-11-01)",
-   "county": "Philadelphia"
+   "county": "Philadelphia",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/philadelphia/osteria-/",
+        "quote": "s. The festive atmosphere and clean location add to its charm, making it a favorite among locals.",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/philadelphia/osteria-/",
+        "quote": "teria is a unique and intimate setting, perfect for special occasions or a great spot for date night. The restaurant offers impeccable food and outstanding service, making it a memorable exp",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/philadelphia/osteria-/",
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/149307379014/Osteria",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-30",
+    "website": "https://www.osteriaphilly.com/"
+   }
   },
   {
    "id": "pier-bar",
@@ -453,7 +827,37 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Pier Bar venue site (checked 2026-11-01)",
-   "county": "Philadelphia"
+   "county": "Philadelphia",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://pierbarphilly.com/",
+        "quote": "Must-Visit Fine Dining Restaurant in Fairmount | Pier Bar | × | Order your favorite dishes in seconds! | Order O",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://pierbarphilly.com/"
+   }
   },
   {
    "id": "the-black-taxi",
@@ -494,7 +898,57 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 13, 2026) (checked 2026-11-01); Venue site theblacktaxi.com (checked 2026-11-01)",
    "county": "Philadelphia",
    "phone": "(215) 232-1086",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 13, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 13, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Young crowd"
+    ],
+    "summary": "A locals-and-regulars spot; draws a younger crowd.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-13",
+        "url": "https://www.restaurantji.com/pa/philadelphia/the-black-taxi-/",
+        "quote": "The Black Taxi is a neighborhood bar in the Fairmount Area known for its lively atmosphere and friendly service. The bartender",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/pa/philadelphia/the-black-taxi-/",
+        "quote": "Great little neighborhood bar. Good drinks, sausage rolls are on pointe, and the staff are friendly!"
+       }
+      ]
+     },
+     {
+      "label": "Young crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-13",
+        "url": "https://www.restaurantji.com/pa/philadelphia/the-black-taxi-/",
+        "quote": "ce that makes it a popular spot for celebrations and casual gatherings, often filled with young people and a vibrant crowd. The Black Taxi is praised for its great Guinness pour and the barten",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/philadelphia/the-black-taxi-/",
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/582770678537953/The-Black-Taxi",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-15",
+    "website": null
+   }
   },
   {
    "id": "trio",
@@ -517,7 +971,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via foodyas.com) (checked 2026-11-01)",
    "county": "Philadelphia",
    "phone": "(215) 232-8746",
-   "phoneSource": "Facebook page “Trio” (via foodyas.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Trio” (via foodyas.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/18002690117/Trio",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-23",
+    "website": null
+   }
   },
   {
    "id": "urban-saloon",
@@ -558,7 +1020,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Urban Saloon Facebook post Oct 13, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Philadelphia"
+   "county": "Philadelphia",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/205494181869/Urban-Saloon",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-21",
+    "website": null
+   }
   }
  ],
  "counties": [

@@ -49,7 +49,44 @@
     "Sports & games"
    ],
    "source": "exa.ai places listing / Restaurantji (agree); Josie's Pub Facebook post Oct 7, 2026 (via foodyas) (checked 2026-11-01); Josie's Pub official site (josiespub.com/contact) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-17",
+        "url": "https://www.restaurantji.com/pa/east-petersburg/josie-s-pub-/",
+        "quote": "Josie's Pub is a popular neighborhood pub known for its great food, drinks, and lively atmosphere. Visitors often praise the friend",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Lancaster/218078231383415/Josie%27s-Pub",
+        "quote": "Website | Contact the business | Josie’s is an ambitious neighborhood pub aiming to blur the lines between a comfortable bar experience and elevated dining. | A pl",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/east-petersburg/josie-s-pub-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/218078231383415/Josie%27s-Pub",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
   },
   {
    "id": "mad-chef-craft-brewing",
@@ -94,7 +131,15 @@
     "Family-friendly"
    ],
    "source": "Venue site (via search index); Mad Chef Craft Brewing Facebook post Oct 1 & Oct 13, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/east-petersburg/mad-chef-craft-brewing-/",
+    "facebookMirror": "https://www.foodyas.com/US/East-Petersburg/669429703120393/Mad-Chef-Craft-Brewing",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-15",
+    "website": null
+   }
   },
   {
    "id": "family-fare-restaurant",
@@ -119,7 +164,15 @@
    "source": "Venue site / Restaurantji; Restaurantji (Google-sourced listing, updated Oct 1, 2026) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 560-6436",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 1, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 1, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/east-petersburg/family-fare-/",
+    "facebookMirror": "https://www.foodyas.com/US/East-Petersburg/328912726509/Family-Fare-Restaurant-Inc.",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.familyfarerestauranteastpete.com/"
+   }
   },
   {
    "id": "two-cousins-pizza-east-petersburg",
@@ -144,7 +197,15 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/east-petersburg/two-cousins-family-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/244571605403393/Two.cousinspizza-East-Petersburg",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2025-04-19",
+    "website": "https://twocousinspizzaep.com/"
+   }
   },
   {
    "id": "steven-dale-s-pizzeria-and-deli",
@@ -169,7 +230,51 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://stevendalespizza.com/",
+        "quote": "Home | Contact | Gallery | Menu | Order Now | Fresh Pizza and Classic Favorites | Your Neighborhood Spot for Pizza & Family Nights | Order Now | Steven Dale's Pizzeria & Deli | As a proud part o",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://stevendalespizza.com/",
+        "quote": "Deli – Delicious pizza, fresh deli sandwiches, family recipes, specialty desserts, and a family friendly modern atmosphere. | Skip to content | Steven Dale's Pizzeria & Deli | Home | Contact | G",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/east-petersburg/steven-dale-s-pizzeria-and-deli-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://stevendalespizza.com/"
+   }
   }
  ],
  "counties": [

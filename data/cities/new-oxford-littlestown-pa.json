@@ -31,7 +31,44 @@
    "source": "Venue site; Facebook; Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01)",
    "county": "Adams",
    "phone": "(717) 479-5369",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/New-Oxford/113295392086894/C%26D-Bar-%26-Grill",
+        "quote": "Website | Contact the business | C&D Bar & Grill is a casual, fine dining restaurant located just outside of the quaint historic town of New Oxford, Pennsylvania.",
+        "self": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://cdbargrill.com/",
+        "quote": "oors a stranger, but will surely leave a part of our family. C&D Bar & Grill is a casual, fine dining restaurant located just outside of the quaint historic town of New Oxford, Pennsylvania.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/new-oxford/c-d-bar-and-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/New-Oxford/113295392086894/C%26D-Bar-%26-Grill",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-24",
+    "website": "https://cdbargrill.com/"
+   }
   },
   {
    "id": "gallo-pizza-and-italian-restaurant",
@@ -63,7 +100,72 @@
     "Family-friendly"
    ],
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
-   "county": "Adams"
+   "county": "Adams",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale",
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A date-night / upscale spot; a locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/New-Oxford/113750588779088/Gallo-Pizza-%26-Italian-Restaurant",
+        "quote": "Website | Fine dining in a casual atmosphere. We have a full menu of your favorite Italian dishes, including th",
+        "self": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.gallopizzarestaurant.com/",
+        "quote": "nners & Entrees | Pizza & Stromboli | Subs & Sandwiches | Desserts | Loading... | Casual, fine dining for the whole family. | Gallo Pizza & Restaurant | GalloPizza | 2016-12-18T22:22:13+00:00",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/new-oxford/gallo-pizza-and-italian-restaurant-/",
+        "quote": "Gallo Pizza & Italian Restaurant is a local favorite, offering delicious Italian cuisine with generous, huge portions and great, wonderful ser",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/new-oxford/gallo-pizza-and-italian-restaurant-/",
+        "quote": "ful. The restaurant is known for its welcoming atmosphere, making it a popular choice for families and gatherings. The staff is friendly and the owner is involved, making it a great place",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/new-oxford/gallo-pizza-and-italian-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/New-Oxford/113750588779088/Gallo-Pizza-%26-Italian-Restaurant",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-14",
+    "website": "https://www.gallopizzarestaurant.com/"
+   }
   },
   {
    "id": "new-oxford-family-diner",
@@ -88,7 +190,15 @@
    "source": "Dinerville; Facebook (active Oct 2026); Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01)",
    "county": "Adams",
    "phone": "(717) 479-5063",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/new-oxford/new-oxford-family-diner-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "pub-217",
@@ -114,7 +224,15 @@
    "source": "Google listing via exa; Facebook; Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Adams",
    "phone": "(717) 359-7566",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "two-mile-inn",
@@ -139,7 +257,37 @@
    "source": "Facebook (active Oct 2026); MenuPix; Restaurantji (Google-sourced listing, updated Oct 6, 2026) (checked 2026-11-01)",
    "county": "Adams",
    "phone": "(717) 359-9919",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 6, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 6, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Littlestown/295530363945119/Two-Mile-Inn",
+        "quote": "Website | Friendly neighborhood Bar with reasonable prices, friendly and professional staff, and a fun, energetic atmosphere.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Littlestown/295530363945119/Two-Mile-Inn",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-21",
+    "website": null
+   }
   },
   {
    "id": "la-bella-italia",
@@ -164,7 +312,15 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Adams"
+   "county": "Adams",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/littlestown/la-bella-italia-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Littlestown/189292061084593/La-Bella-Italia",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-20",
+    "website": null
+   }
   }
  ],
  "counties": [

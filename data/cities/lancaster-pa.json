@@ -61,7 +61,87 @@
     "Bar scene"
    ],
    "source": "TasteLanc; popular times via exa.ai places",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://551west.com/",
+        "quote": "Friday Chefs Specials | No event found! | Load More | It's 551 Somewhere | 551 West is a local favorite when it comes to exquisite entrees and a wide variety of local entertainment. | View Our",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": "9:00 pm",
+      "basis": "posted on 5 different Mons",
+      "lastSeen": "2026-11-30",
+      "datedLastSeen": "2026-11-30",
+      "postsSeen": 5,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://551west.com/events/",
+        "date": "2026-11-30",
+        "quote": "Wednesday $10 OFF Famous Fish Tacos | November 30, 2026 | 9:00 pm | >> Karaoke | 9:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://551west.com/events/",
+        "date": "2026-11-30",
+        "quote": "Wednesday $10 OFF Famous Fish Tacos | November 30, 2026 | 9:00 pm | >> Karaoke | 9:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://551west.com/events/",
+        "date": "2026-11-23",
+        "quote": "Wednesday $10 OFF Famous Fish Tacos | November 23, 2026 | 9:00 pm | >> Karaoke | 9:00 pm"
+       },
+       {
+        "src": "FindKaraoke directory (city page updated October 28, 2026)",
+        "url": "https://findkaraoke.net/lancaster",
+        "date": "2026-10-28",
+        "quote": "551 West — Monday at 9 PM. Weekly Monday karaoke at 551 West, a restaurant and live entertainment venue on West King Street in Lancaster. Karaoke starts at 9 PM and is part of the venue's regular events calendar, with food and drinks available all night."
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke - 551 West",
+      "url": "https://551west.com/events-calendar/karaoke/"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/551-west-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/438823106140379/551-West",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-15",
+    "website": "https://551west.com/"
+   }
   },
   {
    "id": "annie-bailey-s-irish-public-house",
@@ -127,7 +207,44 @@
     "Family-friendly"
    ],
    "source": "TasteLanc, Fig Lancaster, anniebaileys.com; Annie Bailey's official site (anniebaileys.com/location, lunch page) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Lancaster/48104312513/Annie-Bailey%27s-Irish-Public-House",
+        "quote": "dition, character & quality that makes for an experience that’s as casual, sophisticated, romantic or buttoned-up as you’d like it to be. Anchored by a mix of traditional Irish Fare, moder",
+        "self": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://anniebaileys.com/",
+        "quote": "on, character & quality that makes for an experience that’s as casual or sophisticated or romantic or buttoned-up as you’d like it to be. From first dates to family reunions, client meetin",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/annie-baileys-irish-pub-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/48104312513/Annie-Bailey%27s-Irish-Public-House",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-15",
+    "website": "https://anniebaileys.com/"
+   }
   },
   {
    "id": "conestoga-restaurant",
@@ -191,7 +308,15 @@
     "Live music & events"
    ],
    "source": "TasteLanc; Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/conestoga-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/233003067156/Conestoga-Restaurant",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "lucky-dog-cafe",
@@ -258,7 +383,44 @@
     "Live music & events"
    ],
    "source": "TasteLanc",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "karaoke": {
+    "nights": [],
+    "stale": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "10 pm–1 am",
+      "confidence": "low",
+      "lastSeen": "2026-04-30",
+      "datedLastSeen": "2026-04-30",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "TasteLanc events listing (page last modified 2026-04-30)",
+        "url": "https://tastelanc.com/restaurants/lucky-dog-cafe/events",
+        "date": "2026-04-30",
+        "quote": "Karaoke Night | wednesday • 22:00 - 01:00"
+       }
+      ],
+      "note": "Only source is a TasteLanc listing last modified before the 6-month cutoff (2026-05-01); not used",
+      "stale": true,
+      "manual": true
+     }
+    ],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [],
+    "reviewNote": "Targeted web search, manual read"
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/233395783880/Lucky-Dog-Cafe",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "marion-court-room",
@@ -340,7 +502,154 @@
     "Live music & events"
    ],
    "source": "TasteLanc, marioncourtroom.com; marioncourtroom site (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/lancaster/marion-court-room-/",
+        "quote": "9pm on weekends, and street parking is free from 6pm on Fridays. Some guests have enjoyed live music from black vocalists, reminiscent of music from the 70s, 80s, and 90s. Additionally, Mari",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #1",
+        "url": "https://www.restaurantji.com/pa/lancaster/marion-court-room-/",
+        "quote": "Spring/summer/early fall Friday night live band nights are always fun. Recently discovered the Birds Nest Deck to watch the Eagles games"
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": "9 PM-12 AM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://marioncourtroom.com/entertainment",
+        "date": "2026-11-01",
+        "quote": "MIC DROP MONDAYS KARAOKE"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://marioncourtroom.com/entertainment",
+        "date": "2026-11-01",
+        "quote": "MIC DROP MONDAYS KARAOKE | EVERY MONDAY 9 PM-12 AM ON THE DECK!!"
+       },
+       {
+        "src": "FindKaraoke directory (city page updated October 28, 2026)",
+        "url": "https://findkaraoke.net/lancaster",
+        "date": "2026-10-28",
+        "quote": "Marion Court Room — Monday at 9 PM, Saturday at 10 PM. Mic Drop Mondays karaoke and a Saturday late-night karaoke session on the deck at Marion Court Room, a downtown Lancaster restaurant and lounge. Monday runs 9 PM to midnight and Saturday 10 PM to 1 AM, with no cover charge."
+       }
+      ],
+      "confidence": "high",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "10pm-1am",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://marioncourtroom.com/entertainment",
+        "date": "2026-11-01",
+        "quote": "Saturday KARAOKE NIGHT"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://marioncourtroom.com/daily-specials",
+        "date": "2026-11-01",
+        "quote": "Karaoke 10pm-1am | SATURDAY | $2 Domestic Drafts 10pm-12am | $4 Well Drinks 10pm-12am"
+       },
+       {
+        "src": "FindKaraoke directory (city page updated October 28, 2026)",
+        "url": "https://findkaraoke.net/lancaster",
+        "date": "2026-10-28",
+        "quote": "Marion Court Room — Monday at 9 PM, Saturday at 10 PM. Mic Drop Mondays karaoke and a Saturday late-night karaoke session on the deck at Marion Court Room, a downtown Lancaster restaurant and lounge. Monday runs 9 PM to midnight and Saturday 10 PM to 1 AM, with no cover charge."
+       }
+      ],
+      "confidence": "high",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [
+     "Restaurantji review/summary mentions karaoke"
+    ],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "10 PM-1:30AM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://marioncourtroom.com/entertainment",
+        "date": "2026-11-01",
+        "quote": "Friday Night DJ DANCE PARTY"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://marioncourtroom.com/entertainment",
+        "date": "2026-11-01",
+        "quote": "Friday Night DJ DANCE PARTY | EVERY FRIDAY NIGHT 10 PM-1:30AM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ: 10pm-1:30am",
+      "url": "https://marioncourtroom.com/daily-specials"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/marion-court-room-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://marioncourtroom.com/"
+   }
   },
   {
    "id": "tellus360",
@@ -397,7 +706,116 @@
     "Rooftop"
    ],
    "source": "TasteLanc; popular times via exa.ai places; tellus360.com Kitchen on the Mezz hours (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-05",
+      "datedLastSeen": "2026-11-05",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.tellus360.com/calendar/",
+        "date": "2026-11-05",
+        "quote": "Nov 05 2026 | Lancaster’s Gayest Happy Hour | Nov 05 2026 | >> Karaoke Night"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.tellus360.com/",
+        "date": "2026-11-01",
+        "quote": "THURSDAY KARAOKE NIGHT w/ MIKE HOPES | EVERY THURSDAY"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke Night | 8:30 pm",
+      "url": "https://www.tellus360.com/calendar/"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "10:00 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-06",
+      "datedLastSeen": "2026-11-06",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.tellus360.com/calendar/",
+        "date": "2026-11-06",
+        "quote": "Nov 06 2026 | First Friday raDiANCE with DJ EDGE | Nov 06 2026 | >> DJ Darling"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.tellus360.com/calendar/",
+        "date": "2026-11-01",
+        "quote": "First Friday raDiANCE with DJ EDGE | 10:00 pm"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.tellus360.com/calendar/",
+        "date": "2026-11-01",
+        "quote": "First Friday raDiANCE with DJ EDGE"
+       },
+       {
+        "src": "TasteLanc events listing (page last modified 2026-08-17)",
+        "url": "https://tastelanc.com/restaurants/tellus-360/events",
+        "date": "2026-08-17",
+        "quote": "BIG ROOM VIBES with Major Vibes | 10pm | Vibe out with @major_vibes in the Temple every Friday night! *except 1st Friday | ... DJ dance party format"
+       }
+      ],
+      "confidence": "medium",
+      "note": "1st Friday: raDiANCE with DJ Edge (venue calendar); other Fridays: BIG ROOM VIBES DJ dance party with Major Vibes (TasteLanc listing, page modified 2026-08-17)",
+      "manual": true
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-07",
+      "quote": "Nov 06 2026 | DJ Darling | Nov 07 2026 | raDiANCE with >> raDiANCE with DJ Edge",
+      "url": "https://www.tellus360.com/calendar/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "DJ Evolution | 10:00 pm | 10:00 pm",
+      "url": "https://www.tellus360.com/calendar/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "DJ Edge: Telloween Edition | 10:30 pm | 8:00 pm",
+      "url": "https://www.tellus360.com/calendar/"
+     }
+    ],
+    "reviewNote": "Targeted web search, manual read"
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/162708793742646/Tellus-360",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-25",
+    "website": "https://www.tellus360.com/"
+   }
   },
   {
    "id": "the-fridge",
@@ -452,7 +870,15 @@
     "Bar scene"
    ],
    "source": "beerfridgelancaster.com (hours), TasteLanc/Fig (happy hour); beerfridgelancaster.com (kitchen closes 1 hr before close) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/the-fridge-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/171663439549665/The-Fridge",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-29",
+    "website": "https://beerfridgelancaster.com/"
+   }
   },
   {
    "id": "station-house-tavern",
@@ -530,7 +956,78 @@
     "Live music & events"
    ],
    "source": "TasteLanc; Station House Tavern official site (thestationhousetavernandsportsbar.com) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "after 7 pm music trivia (about 9 pm)",
+      "confidence": "medium",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": "2026-10-14",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Lancaster/115093764844584/The-Station-House-Tavern-and-Sports-Bar",
+        "date": "2026-10-14",
+        "quote": "99¢ WINGS ... Music Trivia kicks off at 7PM 🎤 Karaoke to follow! ... sounds like our kind of Wednesday!"
+       },
+       {
+        "src": "TasteLanc listing (undated)",
+        "url": "https://tastelanc.com/restaurants/station-house-tavern-sports-bar",
+        "date": "2026-11-01",
+        "quote": "Upcoming Events: MUSIC TRIVIA/KARAOKE · DJ SID"
+       }
+      ],
+      "basis": "manual review of source",
+      "manual": true
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-21",
+      "quote": "From an impromptu late-night American Pie singalong 🎶 to a few Patriots fans sprinkled into the mix 🏈, visits from some of our Renaissance Faire favorites 🏰🍺, and of course… Kari being Kari",
+      "url": "https://www.foodyas.com/US/Lancaster/115093764844584/The-Station-House-Tavern-and-Sports-Bar"
+     },
+     {
+      "date": "2026-10-14",
+      "quote": "🎤 Karaoke to follow",
+      "url": "https://www.foodyas.com/US/Lancaster/115093764844584/The-Station-House-Tavern-and-Sports-Bar"
+     }
+    ],
+    "reviewNote": "Targeted web search, manual read"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-24",
+      "quote": "🎧 DJ Nelly bringing the vibes",
+      "url": "https://www.foodyas.com/US/Lancaster/115093764844584/The-Station-House-Tavern-and-Sports-Bar"
+     },
+     {
+      "date": "2026-10-13",
+      "quote": "🎧 DJ | Seafood Sunday is BACK! 🦐🦞🏈 Come hungry, rep your Birds, and let’s turn up for another Eagles tailgate!",
+      "url": "https://www.foodyas.com/US/Lancaster/115093764844584/The-Station-House-Tavern-and-Sports-Bar"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/115093764844584/The-Station-House-Tavern-and-Sports-Bar",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-24",
+    "website": "https://www.thestationhousetavernandsportsbar.com/"
+   }
   },
   {
    "id": "john-j-jeffries",
@@ -553,7 +1050,37 @@
    "crowd": null,
    "vibes": [],
    "source": "johnjjeffries.com",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://johnjjeffries.com/",
+        "quote": "g of ingredients is just as crucial as creative and expert preparation. Our Lancaster, PA fine dining restaurant features pastured, grass-fed meats and organic produce in an elegantly convert",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/john-j-jeffries-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/61440859993/John-J-Jeffries",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-09-08",
+    "website": "https://www.johnjjeffries.com/"
+   }
   },
   {
    "id": "lancaster-brewing-co-taproom",
@@ -589,7 +1116,43 @@
    "source": "TasteLanc; Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 826-9555",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/lancaster/lancaster-brewing-company-taproom-and-grill-/",
+        "quote": "praising their engaging service and helpful recommendations. The atmosphere has a casual sports bar feel, making it a great option for a last-minute meal with friends, family, or even for s",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'good for watching sports' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/lancaster/lancaster-brewing-company-taproom-and-grill-/",
+        "quote": "good for watching sports"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/lancaster-brewing-company-taproom-and-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/171622103310335/Lancaster-Brewing-Company-Taproom",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-09-14",
+    "website": null
+   }
   },
   {
    "id": "american-bar-and-grill",
@@ -699,7 +1262,58 @@
     "Live music & events"
    ],
    "source": "abg-lancaster.com",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Lancaster/147848901926063/American-Bar-%26-Grill",
+        "quote": "Website | The American Bar and Grill is a family owned and operated corner bar established in 1987. We provide high quality bar food to an eclectic demographic. | (1127",
+        "self": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.abg-lancaster.com/",
+        "quote": "ottle/ Can | Reviews | About | Blog | FAQ | Contact | ORDER ONLINE | BUY GIFT CARD | BEST CORNER BAR IN AMERICA | founded in 1987 | family owned | off the wall! | ORDER ONLINE | BUY GIFT CAR",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.abg-lancaster.com/",
+        "quote": "UY GIFT CARD | One of the Most Preferred Restaurants in Lancaster, PA | FREE LIVE MUSIC | FAMILY FRIENDLY | FREE WIFI | PRIVATE PARTIES | UNCOMPROMISINGLY ORIGINAL | TASTY BEERS | UNCONVENTIONAL",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/147848901926063/American-Bar-%26-Grill",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-09-17",
+    "website": "https://www.abg-lancaster.com/"
+   }
   },
   {
    "id": "decades",
@@ -760,7 +1374,55 @@
     "Bar scene"
    ],
    "source": "TasteLanc",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Lancaster/160697174597106/Decades-Lancaster",
+        "quote": "45 game retro arcade, bowling alley, and events venue in Lancaster, PA. 21+ after 8:30pm, family-friendly before then 🤙 | (1185) | https://linktr.ee/decadeslancaster",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-20",
+      "quote": "🌙401 Prime - Enjoy spooky drink specials, a DJ spinning tunes, spirit samples, and more",
+      "url": "https://www.foodyas.com/US/Lancaster/160697174597106/Decades-Lancaster"
+     },
+     {
+      "date": "2026-10-20",
+      "quote": "🌙The Belvedere - Enjoy feature drink specials, samples and a Rocky Horror Show after-party and dance party with DJ Ironic",
+      "url": "https://www.foodyas.com/US/Lancaster/160697174597106/Decades-Lancaster"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/160697174597106/Decades-Lancaster",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "lancaster-dispensing-co",
@@ -786,7 +1448,44 @@
     "Live music & events"
    ],
    "source": "dispensingco.com; popular times via exa.ai places",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Lancaster/28424127592/The-Lancaster-Dispensing-Company",
+        "quote": "weekends showcase live, local, original music. Come on down to \"DipCo\" and hang with the locals! | 08/21/2026",
+        "self": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.dispensingco.com/",
+        "quote": "weekends showcase live, local, original music. Come on down to \"DipCo\" and hang with the locals! | --> | Come hang out with us... | Come hang out with us... | Our owners, our history an",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/28424127592/The-Lancaster-Dispensing-Company",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.dispensingco.com/"
+   }
   },
   {
    "id": "the-exchange",
@@ -817,7 +1516,15 @@
     "Bar scene"
    ],
    "source": "exchangeroof.com",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/the-exchange-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.exchangeroof.com/"
+   }
   },
   {
    "id": "plough",
@@ -849,7 +1556,15 @@
     "Bar scene"
    ],
    "source": "ploughrestaurant.com, OpenTable",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/plough-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/2177354115675640/Plough-Lancaster",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-14",
+    "website": "https://ploughrestaurant.com/"
+   }
   },
   {
    "id": "josephine-s-downtown",
@@ -880,7 +1595,44 @@
     "Live music & events"
    ],
    "source": "josephinesdowntown.com, OpenTable",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/lancaster/josephines-downtown-/",
+        "quote": "Josephine's Downtown is a renowned restaurant in Lancaster County, celebrated for its fine dining experience, friendly atmosphere, and lively music performances. The menu offers a diverse",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.josephinesdowntown.com/",
+        "quote": "Josephine’s Downtown | Lancaster Fine Dining | You are using an | outdated | browser. Please | upgrade your browser | or | activate Go",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/josephines-downtown-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/113822216654397/Josephine%27s-Downtown",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-29",
+    "website": "https://www.josephinesdowntown.com/"
+   }
   },
   {
    "id": "401-prime",
@@ -910,7 +1662,15 @@
    "source": "OpenTable, 2026 happy hour menu; 401primelancaster.com/about hours (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 606-1515",
-   "phoneSource": "Official site 401primelancaster.com, checked 2026-11-01"
+   "phoneSource": "Official site 401primelancaster.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/401-prime-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-imperial",
@@ -940,7 +1700,15 @@
     "Bar scene"
    ],
    "source": "theimperiallancaster.com; theimperiallancaster.com/restaurant/menus (checked 2026-11-01); Restaurantji (Google-sourced listing, updated Oct 13, 2026) (checked 2026-11-01); The Imperial Facebook post Oct 26, 2026 (via foodyas) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/the-imperial-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/269232987030385/The-Imperial-Restaurant",
+    "fbPostsSeen": 4,
+    "fbNewestPost": "2026-10-26",
+    "website": null
+   }
   },
   {
    "id": "the-belvedere-inn",
@@ -981,7 +1749,15 @@
     "Bar scene"
    ],
    "source": "belvederelancaster.com; popular times via exa.ai places",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/the-belvedere-inn-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/427541937298471/Belvedere-Inn",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-28",
+    "website": "https://www.belvederelancaster.com/"
+   }
   },
   {
    "id": "horse-inn",
@@ -1007,7 +1783,15 @@
    "source": "horseinnlancaster.com; popular times via exa.ai places; Restaurantji (Google-sourced listing, updated Oct 12, 2026) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 392-5528",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/horse-inn-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/139115489494178/Horse-Inn",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-24",
+    "website": "https://horseinnlancaster.com/"
+   }
   },
   {
    "id": "luca",
@@ -1032,7 +1816,15 @@
     "Date night"
    ],
    "source": "lucalancaster.com, OpenTable",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/luca-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/1752940911630364/LUCA",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://lucalancaster.com/"
+   }
   },
   {
    "id": "yorgos",
@@ -1078,7 +1870,182 @@
     "Bar scene"
    ],
    "source": "yorgoslancaster.com, Fig; popular times via exa.ai places",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-18",
+        "url": "https://www.restaurantji.com/pa/lancaster/kefi-at-yorgos-/",
+        "quote": "Kefi at Yorgos is a fine dining restaurant with a small bar near the entrance. The service can be hit or miss, with one r",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "10 pm (1st floor)",
+      "confidence": "high",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": "2026-08-13",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://yorgoslancaster.com/entertainment/",
+        "date": "2026-11-01",
+        "quote": "Thursdays: Karaoke (1st Floor) and Live DJ (3rd Floor) starting at 10 pm"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Lancaster/769584176436618/Yorgos-Restaurant-%26-Lounge",
+        "date": "2026-08-13",
+        "quote": "WING NIGHT ... KARAOKE | 10 PM 🎤 Eat. Sip. Then take the mic. (posted Thu 8/13/2026)"
+       }
+      ],
+      "basis": "manual review of source",
+      "manual": true
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-08-14",
+      "quote": "🎤 Karaoke | 10 PM",
+      "url": "https://www.foodyas.com/US/Lancaster/769584176436618/Yorgos-Restaurant-%26-Lounge"
+     },
+     {
+      "date": "2026-08-14",
+      "quote": "#112 Titos Karaoke LancasterNightlife ",
+      "url": "https://www.foodyas.com/US/Lancaster/769584176436618/Yorgos-Restaurant-%26-Lounge"
+     },
+     {
+      "date": "2026-08-13",
+      "quote": "KARAOKE | 10 PM 🎤",
+      "url": "https://www.foodyas.com/US/Lancaster/769584176436618/Yorgos-Restaurant-%26-Lounge"
+     }
+    ],
+    "reviewNote": "Targeted web search, manual read"
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "10 pm (3rd floor)",
+      "confidence": "medium",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://yorgoslancaster.com/entertainment/",
+        "date": "2026-11-01",
+        "quote": "Thursdays: Karaoke (1st Floor) and Live DJ (3rd Floor) starting at 10 pm; Fridays/Saturdays/Sundays: Live DJ starting at 10 pm (3rd Floor)"
+       }
+      ],
+      "note": "Venue entertainment schedule page (undated); 8/14/2026 FB post also advertised DJ 10 PM 3rd floor",
+      "basis": "manual review of source",
+      "manual": true
+     },
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "10 pm (3rd floor)",
+      "confidence": "medium",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://yorgoslancaster.com/entertainment/",
+        "date": "2026-11-01",
+        "quote": "Thursdays: Karaoke (1st Floor) and Live DJ (3rd Floor) starting at 10 pm; Fridays/Saturdays/Sundays: Live DJ starting at 10 pm (3rd Floor)"
+       }
+      ],
+      "note": "Venue entertainment schedule page (undated); 8/14/2026 FB post also advertised DJ 10 PM 3rd floor",
+      "basis": "manual review of source",
+      "manual": true
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "10 pm (3rd floor)",
+      "confidence": "medium",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://yorgoslancaster.com/entertainment/",
+        "date": "2026-11-01",
+        "quote": "Thursdays: Karaoke (1st Floor) and Live DJ (3rd Floor) starting at 10 pm; Fridays/Saturdays/Sundays: Live DJ starting at 10 pm (3rd Floor)"
+       }
+      ],
+      "note": "Venue entertainment schedule page (undated); 8/14/2026 FB post also advertised DJ 10 PM 3rd floor",
+      "basis": "manual review of source",
+      "manual": true
+     },
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": "10 pm (3rd floor)",
+      "confidence": "medium",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://yorgoslancaster.com/entertainment/",
+        "date": "2026-11-01",
+        "quote": "Thursdays: Karaoke (1st Floor) and Live DJ (3rd Floor) starting at 10 pm; Fridays/Saturdays/Sundays: Live DJ starting at 10 pm (3rd Floor)"
+       }
+      ],
+      "note": "Venue entertainment schedule page (undated); 8/14/2026 FB post also advertised DJ 10 PM 3rd floor",
+      "basis": "manual review of source",
+      "manual": true
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-08-14",
+      "quote": "🎧 DJ | 10 PM",
+      "url": "https://www.foodyas.com/US/Lancaster/769584176436618/Yorgos-Restaurant-%26-Lounge"
+     }
+    ],
+    "reviewNote": "Targeted web search, manual read"
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/kefi-at-yorgos-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/769584176436618/Yorgos-Restaurant-%26-Lounge",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-09-09",
+    "website": null
+   }
   },
   {
    "id": "proof",
@@ -1109,7 +2076,15 @@
    "source": "prooflancaster.com; prooflancaster.com; Sun–Mon closed per restaurantguru listing (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 925-7770",
-   "phoneSource": "Official site prooflancaster.com, checked 2026-11-01"
+   "phoneSource": "Official site prooflancaster.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/proof-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.prooflancaster.com/"
+   }
   },
   {
    "id": "south-county-brewing",
@@ -1146,7 +2121,15 @@
    "source": "Restaurant site, Fig",
    "county": "Lancaster",
    "phone": "(717) 740-5555",
-   "phoneSource": "Search-result listings agree: venue site southcountybrewing.com, Yelp, lancasterreview.com, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: venue site southcountybrewing.com, Yelp, lancasterreview.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/601354019723336/South-County-Brewing---Lancaster",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "altana",
@@ -1172,7 +2155,15 @@
    "source": "TasteLanc",
    "county": "Lancaster",
    "phone": "(717) 690-2347",
-   "phoneSource": "Search-result listings agree: Allmenus, Apple Maps, Restaurantji, Tripadvisor, Yellow Pages and others, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: Allmenus, Apple Maps, Restaurantji, Tripadvisor, Yellow Pages and others, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "cocina-mexicana",
@@ -1195,7 +2186,15 @@
    "source": "cocinamexicanalancaster.com",
    "county": "Lancaster",
    "phone": "(717) 393-9193",
-   "phoneSource": "Search-result listings agree: venue site cocinamexicanalancaster.com, Facebook, Restaurantji, Tripadvisor, Yellow Pages and others, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: venue site cocinamexicanalancaster.com, Facebook, Restaurantji, Tripadvisor, Yellow Pages and others, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.cocinamexicanalancaster.com/"
+   }
   },
   {
    "id": "plaza-azteca",
@@ -1218,7 +2217,15 @@
    "crowd": null,
    "vibes": [],
    "source": "Restaurantji",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/plaza-azteca-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/412436042457639/Plaza-Azteca-Lancaster",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-26",
+    "website": null
+   }
   },
   {
    "id": "el-rodeo",
@@ -1243,7 +2250,15 @@
     "Family-friendly"
    ],
    "source": "OpenTable",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/277356072274647/El-Rodeo-Lancaster",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "el-pueblito",
@@ -1266,7 +2281,15 @@
    "crowd": null,
    "vibes": [],
    "source": "exa.ai places",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/1097386747089385/El-Pueblito-Mexican-Store",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-04",
+    "website": null
+   }
   },
   {
    "id": "philthy-good",
@@ -1289,7 +2312,15 @@
    "crowd": null,
    "vibes": [],
    "source": "philthygood.com; Restaurantji (Google-sourced listing, updated Oct 31, 2026) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/philthy-good-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/261619557024740/Philthy-Good",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.philthygood.com/"
+   }
   },
   {
    "id": "issei-noodle",
@@ -1319,7 +2350,53 @@
     "Live music & events"
    ],
    "source": "isseinoodle.com; popular times via exa.ai places",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.isseinoodle.com/lancaster/home",
+        "date": "2026-11-01",
+        "quote": " Join us every FRIDAY NIGHT (after dinner service) for karaoke"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "KARAOKE IS BACK STARTING MARCH 20, 2026",
+      "url": "https://www.isseinoodle.com/lancaster/home"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "We took a little hiatus from karaoke this winter",
+      "url": "https://www.isseinoodle.com/lancaster/home"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/issei-noodle-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/543781999029786/Issei-Noodle-Lancaster",
+    "fbPostsSeen": 2,
+    "fbNewestPost": "2026-09-25",
+    "website": "https://www.isseinoodle.com/lancaster/home"
+   }
   },
   {
    "id": "oka-asian-fusion",
@@ -1342,7 +2419,15 @@
    "crowd": null,
    "vibes": [],
    "source": "okaasianfusion.com",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/oka-asian-fusion-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/567928366615347/Oka-Asian-Fusion",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "himalayan-curry-and-grill",
@@ -1374,7 +2459,37 @@
    "crowd": null,
    "vibes": [],
    "source": "himalayanlancaster.com; Restaurantji (Google-sourced listing, updated Oct 27, 2026) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-27",
+        "url": "https://www.restaurantji.com/pa/lancaster/himalayan-curry-and-grill-/",
+        "quote": "ems, such as momo dumplings, bara, and aloo bodi. The setting is described as elegant but family-friendly, and the staff is friendly and helpful. Customers recommend making reservations, as the r",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/himalayan-curry-and-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/293210077447873/Himalayan-Curry-and-Grill",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "iron-hill-brewery",
@@ -1432,7 +2547,37 @@
     "Bar scene"
    ],
    "source": "ironhillbrewery.com; Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01); Iron Hill Facebook post Oct 29, 2026 (via foodyas) (checked 2026-11-01); phone conflict review (checked 2026-11-01); Venue site ironhillbrewery.com (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-17",
+        "url": "https://www.restaurantji.com/pa/lancaster/iron-hill-brewery-and-restaurant-/",
+        "quote": "i Chicken salads, which have received positive feedback. The restaurant also has a lively sports bar atmosphere with TVs for watching games, making it a great spot for gatherings. The cozy a",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/iron-hill-brewery-and-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/100870103290690/Iron-Hill-Brewery-%26-Restaurant",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-30",
+    "website": "https://www.ironhillbrewery.com/location/lancaster-pa/"
+   }
   },
   {
    "id": "dominion-pizza",
@@ -1455,7 +2600,15 @@
    "source": "exa.ai places",
    "county": "Lancaster",
    "phone": "(717) 393-4239",
-   "phoneSource": "Search-result listings agree: Facebook, Apple Maps, Restaurantji, Tripadvisor, Yelp and others, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: Facebook, Apple Maps, Restaurantji, Tripadvisor, Yelp and others, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/580367002061733/Dominion-Pizza-Queen-Street",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "prince-of-subs",
@@ -1478,7 +2631,15 @@
    "source": "Fork & City; Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 397-0965",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/prince-of-subs-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "cabalar-meat-co",
@@ -1499,7 +2660,15 @@
    "source": "cabalarmeatco.com",
    "county": "Lancaster",
    "phone": "(717) 208-7344",
-   "phoneSource": "Search-result snippet from its Facebook page, checked 2026-11-01"
+   "phoneSource": "Search-result snippet from its Facebook page, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.cabalarmeatco.com/"
+   }
   },
   {
    "id": "rachel-s-cafe-and-creperie",
@@ -1522,7 +2691,15 @@
    "crowd": null,
    "vibes": [],
    "source": "rachelscreperie.com",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/rachels-cafe-and-creperie-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/322736491835638/Rachel%27s-Cafe-%26-Creperie",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-19",
+    "website": "https://www.rachelscreperie.com/"
+   }
   },
   {
    "id": "park-city-diner",
@@ -1547,7 +2724,37 @@
     "Family-friendly"
    ],
    "source": "parkcitydiner.us, eattheway.com; Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01); phone conflict review (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/lancaster/park-city-diner-and-coffee-shop-/",
+        "quote": "parking and is wheelchair accessible, featuring a gentle ramp and helpful staff. It is a family-friendly place suitable for groups, including those with young children. Customers frequently enjo",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/park-city-diner-and-coffee-shop-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/378478595521787/Park-City-Diner",
+    "fbPostsSeen": 1,
+    "fbNewestPost": "2026-05-06",
+    "website": null
+   }
   },
   {
    "id": "lyndon-diner",
@@ -1570,7 +2777,15 @@
    "source": "exa.ai places; Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 393-4878",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/lyndon-city-line-diner-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "tobias-frogg",
@@ -1624,7 +2839,56 @@
    "source": "Venue site; Tobias Frogg Instagram (checked 2026-11-01); Tobias Frogg Facebook post Oct 20, 2026 (via bars10) (checked 2026-11-01); Lancaster County Magazine \"25 Years of Great Food & Atmosphere\" (undated) + Tobias Frogg Facebook post Oct 1, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 394-8366",
-   "phoneSource": "Search-result listings agree: venue site tobias-s-frogg.hub.biz, venue site tobiasfroggrestaurants.com, Restaurantji, Tripadvisor, Yellow Pages and others, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: venue site tobias-s-frogg.hub.biz, venue site tobiasfroggrestaurants.com, Restaurantji, Tripadvisor, Yellow Pages and others, checked 2026-11-01",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [],
+    "dropped": [
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-10-18",
+      "datedLastSeen": "2026-10-18",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Lancaster/1576760199218136/Tobias-S.-Frogg",
+        "date": "2026-10-18",
+        "quote": "Game Day Sunday🏈 is here but let’s not forget, today is our last Sunday till football is over with a Dj🎧"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Lancaster/1576760199218136/Tobias-S.-Frogg",
+        "date": "2026-10-18",
+        "quote": " Let’s send our Dj off the right way and enjoy every game today"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Lancaster/1576760199218136/Tobias-S.-Frogg",
+        "date": "2026-10-16",
+        "quote": "We have heard a mix of emotions with football Sundays and having a Dj"
+       }
+      ],
+      "confidence": "high",
+      "droppedReason": "10/18/2026 post says that was the last DJ Sunday until football season ends (seasonal, currently paused)"
+     }
+    ],
+    "reviewNote": "10/18/2026 post says that was the last DJ Sunday until football season ends (seasonal, currently paused)"
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/1576760199218136/Tobias-S.-Frogg",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-29",
+    "website": "https://tobiasfroggrestaurants.com/lancaster-location/"
+   }
   },
   {
    "id": "stubby-s-bar-and-grille-downtown",
@@ -1650,7 +2914,43 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 394-1635",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "attr",
+        "src": "Google attribute 'good for watching sports' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/lancaster/stubbys-bar-and-grille-/",
+        "quote": "good for watching sports"
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://stubbysbarandgrille.com/",
+        "quote": "Stubby's Bar and Grille | Lancaster's Best Sports Bar | 📞 CALL NOW : Downtown - | 717-394-1635 | Old Hickory - | 717-844-9990 | Home | Menu | S",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/stubbys-bar-and-grille-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/112307282145493/Stubby%27s-Bar-and-Grille",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-28",
+    "website": "https://stubbysbarandgrille.com/"
+   }
   },
   {
    "id": "stubby-s-bar-and-grille-olde-hickory",
@@ -1675,7 +2975,37 @@
     "Sports & games"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://stubbysbarandgrille.com/",
+        "quote": "Stubby's Bar and Grille | Lancaster's Best Sports Bar | 📞 CALL NOW : Downtown - | 717-394-1635 | Old Hickory - | 717-844-9990 | Home | Menu | S",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/195976357406729/The-Olde-Hickory-Grill",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://stubbysbarandgrille.com/"
+   }
   },
   {
    "id": "hi-fi-izakaya",
@@ -1702,7 +3032,38 @@
     "Live music & events"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-12-05",
+      "quote": "Saturday | Dec 5 | Guest Selector | @ >> @DEEJAYONMARS",
+      "url": "https://www.hifiizakaya.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "DJ SCHEDULE & events",
+      "url": "https://www.hifiizakaya.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Doors open at 6PM, music by DJ On Mars starts at 6PM",
+      "url": "https://www.hifiizakaya.com/"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.hifiizakaya.com/"
+   }
   },
   {
    "id": "brendee-s-irish-pub",
@@ -1728,7 +3089,37 @@
     "Sports & games"
    ],
    "source": "Venue site (via search index)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.brendeesirishpub.com/",
+        "quote": "Brendee's Irish Pub – Friendly Neighborhood Pub | Must Be 21+ years old to enter | Open every day NOON-2AM | Home | Menu | Menu | Home",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/38939906199/Brendee%27s-Irish-Pub",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-31",
+    "website": "https://www.brendeesirishpub.com/"
+   }
   },
   {
    "id": "dirty-ol-tavern",
@@ -1767,7 +3158,70 @@
    "source": "TasteLanc / Yahoo Local (agree); Dirty Ol' Tavern Facebook post Oct 5, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 393-3916",
-   "phoneSource": "Search-result listings agree: Restaurantji, Tripadvisor, Yellow Pages, Yelp, businessyab.com and others, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: Restaurantji, Tripadvisor, Yellow Pages, Yelp, businessyab.com and others, checked 2026-11-01",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "9pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-09-29",
+      "datedLastSeen": "2026-09-29",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Lancaster/111831155520185/Dirty-Ol%27-Tavern",
+        "date": "2026-09-29",
+        "quote": " Tuesdays & Thursdays with Barcrawler Karaoke at 9pm "
+       }
+      ],
+      "confidence": "medium"
+     },
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "9pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-09-29",
+      "datedLastSeen": "2026-09-29",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Lancaster/111831155520185/Dirty-Ol%27-Tavern",
+        "date": "2026-09-29",
+        "quote": " Tuesdays & Thursdays with Barcrawler Karaoke at 9pm "
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-09",
+      "quote": " Barcrawler Karaoke Tonight ",
+      "url": "https://www.foodyas.com/US/Lancaster/111831155520185/Dirty-Ol%27-Tavern"
+     },
+     {
+      "date": "2026-09-16",
+      "quote": " Tonight Barcrawler Karaoke at 9pm ",
+      "url": "https://www.foodyas.com/US/Lancaster/111831155520185/Dirty-Ol%27-Tavern"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/111831155520185/Dirty-Ol%27-Tavern",
+    "fbPostsSeen": 4,
+    "fbNewestPost": "2026-10-09",
+    "website": null
+   }
   },
   {
    "id": "quips-pub",
@@ -1810,7 +3264,51 @@
     "Bar scene"
    ],
    "source": "Venue site / Fig Lancaster (agree); Quips Pub official site (quipspub.com) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Dive bar"
+    ],
+    "summary": "A locals-and-regulars spot; no-frills dive-bar feel.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/lancaster/quips-pub-/",
+        "quote": "f beers and whiskeys. The cozy atmosphere and reasonable prices make Quips Pub a favorite neighborhood spot. The restaurant is known for its exceptional sticky toffee pudding, a dense slab of spon",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Dive bar",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/lancaster/quips-pub-/",
+        "quote": "troom facilities could benefit from a more thorough cleaning, giving the establishment a \"hole in the wall bar feel.\" Overall, Quips Pub is considered a great spot for a satisfying meal and a live",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/quips-pub-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.quipspub.com/"
+   }
   },
   {
    "id": "hildy-s-tavern",
@@ -1835,7 +3333,15 @@
    "source": "Restaurantji / Uncharted Lancaster (via search)",
    "county": "Lancaster",
    "phone": "(717) 397-2495",
-   "phoneSource": "Search-result listings agree: MenuPix, Restaurantji, Yellow Pages, Yelp, lancaster.yabsta.com and others, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: MenuPix, Restaurantji, Yellow Pages, Yelp, lancaster.yabsta.com and others, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-coffin-bar",
@@ -1883,7 +3389,15 @@
     "Date night"
    ],
    "source": "Venue site; The Coffin Bar Facebook post Oct 9, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/the-coffin-bar-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/107079055576841/The-Coffin-Bar",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-22",
+    "website": "https://springhousebeer.com/coffin"
+   }
   },
   {
    "id": "the-corner-at-musser",
@@ -1932,7 +3446,137 @@
     "Sports & games"
    ],
    "source": "Venue site / Fig Lancaster",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Lancaster/109644438881402/The-Corner-at-Musser",
+        "quote": "on around the corner at 210 N. Shippen St Open Daily 10am-2am | The Corner at Musser is a neighborhood joint where friendly people meet! We feature a rotating selection of drafts, pours, cocktails,",
+        "self": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://corneratmusser.com/",
+        "quote": "ls | More | About | Contact | Welcome to the Corner at Musser | The Corner at Musser is a neighborhood joint where friendly people meet! We feature a rotating selection of drafts, pours, cocktails,",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "9pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://corneratmusser.com/",
+        "date": "2026-11-01",
+        "quote": "Grab the Mic, Karaoke Every Tuesday & Thursday"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://corneratmusser.com/events/",
+        "date": "2026-11-01",
+        "quote": " Karaoke starting at 9pm | Tuesday"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://corneratmusser.com/events/",
+        "date": "2026-11-01",
+        "quote": "Grab the Mic, Karaoke Every Tuesday & Thursday"
+       },
+       {
+        "src": "FindKaraoke directory (city page updated October 28, 2026)",
+        "url": "https://findkaraoke.net/lancaster",
+        "date": "2026-10-28",
+        "quote": "The Corner at Musser — Tuesday, Thursday. Karaoke every Tuesday and Thursday at The Corner at Musser, a neighborhood bar and restaurant on East Chestnut Street in Lancaster city. Known for daily happy hour specials, it invites patrons to sing loud, sip something cold and take the s"
+       }
+      ],
+      "confidence": "high",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "10pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://corneratmusser.com/",
+        "date": "2026-11-01",
+        "quote": "Grab the Mic, Karaoke Every Tuesday & Thursday"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://corneratmusser.com/events/",
+        "date": "2026-11-01",
+        "quote": " Karaoke: Upstairs at Shag Bar starting at 10pm | Thursday"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://corneratmusser.com/events/",
+        "date": "2026-11-01",
+        "quote": "Grab the Mic, Karaoke Every Tuesday & Thursday"
+       },
+       {
+        "src": "FindKaraoke directory (city page updated October 28, 2026)",
+        "url": "https://findkaraoke.net/lancaster",
+        "date": "2026-10-28",
+        "quote": "The Corner at Musser — Tuesday, Thursday. Karaoke every Tuesday and Thursday at The Corner at Musser, a neighborhood bar and restaurant on East Chestnut Street in Lancaster city. Known for daily happy hour specials, it invites patrons to sing loud, sip something cold and take the s"
+       }
+      ],
+      "confidence": "high",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Karaoke Nights at The Corner are your chance to sing loud, sip something cold, and steal the spotlight",
+      "url": "https://corneratmusser.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Karaoke Nights at The Corner are your chance to sing loud, sip something cold, and steal the spotlight",
+      "url": "https://corneratmusser.com/events/"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/109644438881402/The-Corner-at-Musser",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-28",
+    "website": "https://corneratmusser.com/"
+   }
   },
   {
    "id": "dan-s-pub",
@@ -1958,7 +3602,61 @@
     "Live music & events"
    ],
    "source": "Venue site (via search index); phone conflict review (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.danspub.com/",
+        "date": "2026-11-01",
+        "quote": "Dan's Pub is your friendly neighborhood two-story bar serving late night food, with live DJs every weekend, pool table, and 5 dart boards"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.danspub.com/",
+        "date": "2026-11-01",
+        "quote": "Dan's Pub is your friendly neighborhood two-story bar serving late night food, with live DJs every weekend, pool table, and 5 dart boards"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.danspub.com/"
+   }
   },
   {
    "id": "rumplebrewskin-s-bar",
@@ -1996,7 +3694,49 @@
    "source": "exa.ai places listing / TasteLanc; Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 392-9645",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/lancaster/rumplebrewskins-bar-/",
+        "quote": "Rumplebrewskin's Bar, known as Rump's by locals, is a lively neighborhood spot with a casual atmosphere. The attentive staff serves up de",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/pa/lancaster/rumplebrewskins-bar-/",
+        "quote": "This is a true dive, local spot. Food and service are ok, but it caters to regulars (and there are MANY). Lots of weekly specials. A Lancaster City institution."
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/pa/lancaster/rumplebrewskins-bar-/",
+        "quote": "Great local bar and dine in spot! The wings are super flavorful and tasty. Amazing loving people who just"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/rumplebrewskins-bar-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/236451199782163/Rumplebrewskin%27s",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "shamrock-cafe",
@@ -2022,7 +3762,37 @@
    "source": "Visit Lancaster PA / Fig Lancaster; Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 299-2927",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/lancaster/shamrock-cafe-/",
+        "quote": "Shamrock Cafe is a cozy and welcoming local bar in Lancaster, known for its friendly service, relaxed atmosphere, and good prices. The ba",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/shamrock-cafe-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "q-s-duke-on-liberty",
@@ -2047,7 +3817,15 @@
    "source": "Visit Lancaster PA / Fig Lancaster",
    "county": "Lancaster",
    "phone": "(717) 299-7200",
-   "phoneSource": "Search-result listings agree: venue site qs-duke-on-liberty.edan.io, venue site qs-duke-on-liberty.weeblyte.com, Allmenus, MenuPix, Restaurantji and others, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: venue site qs-duke-on-liberty.edan.io, venue site qs-duke-on-liberty.weeblyte.com, Allmenus, MenuPix, Restaurantji and others, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/208624793014088/Q%27s-Duke-On-Liberty",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "bert-and-the-elephant",
@@ -2082,7 +3860,15 @@
     "Date night"
    ],
    "source": "Venue site / Visit Lancaster PA; Bert & The Elephant venue site (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://bertandtheelephant.com/"
+   }
   },
   {
    "id": "shot-and-bottle",
@@ -2118,7 +3904,15 @@
     "Date night"
    ],
    "source": "Venue site / TasteLanc; Shot and Bottle official site (shotandbottle.com) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/shot-and-bottle-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/200000137262866/Shot-and-Bottle",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-29",
+    "website": "https://www.shotandbottle.com/"
+   }
   },
   {
    "id": "double-c",
@@ -2144,7 +3938,44 @@
     "Bar scene"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Lancaster/108986570711640/Double-C",
+        "quote": "DOUBLE C INTRODUCES “KEYSTONE CASUAL.” THE FIRST OF ITS KIND IN THE NATION. | THE CASUAL NEIGHBORHOOD SPOT THAT DEFINES PENNSYLVANIA FARM TO TABLE.",
+        "self": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://doublec.us/",
+        "quote": ", tacos, and margaritas in Lancaster. | Double C introduces “Keystone Casual”. The casual neighborhood spot that defines Pennsylvania Farm to Table. | The menu offers a variety of burgers, tacos, s",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/double-c-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/108986570711640/Double-C",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-08-28",
+    "website": "https://doublec.us/"
+   }
   },
   {
    "id": "thistle-finch-distillery-burley-bar",
@@ -2181,7 +4012,15 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 13, 2026) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 947-7342",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 13, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 13, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/thistle-finch-distillery-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.thistlefinch.com/visit"
+   }
   },
   {
    "id": "the-greenfield-restaurant-and-bar",
@@ -2207,7 +4046,50 @@
     "Family-friendly"
    ],
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/pa/lancaster/the-greenfield-restaurant-and-bar-/",
+        "quote": "The best fine dining restaurant in Lancaster County. I don’t think there is a time we came to Lancaster and ha"
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Lancaster/204897316196766/The-Greenfield-Restaurant",
+        "quote": "Website | Contact the business | The Greenfield Restaurant & Bar is a fine dining restaurant that resides in what was once a working farmhouse. Enjoy live piano on the wee",
+        "self": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thegreenfieldrestaurant.com/",
+        "quote": "nue is housed in a beautifully preserved farmhouse built in 1780, providing a relaxed yet upscale atmosphere. | Chef Moeller, who served three first families, brings his classical French",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/lancaster/the-greenfield-restaurant-and-bar-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/204897316196766/The-Greenfield-Restaurant",
+    "fbPostsSeen": 5,
+    "fbNewestPost": "2026-10-19",
+    "website": "https://www.thegreenfieldrestaurant.com/"
+   }
   },
   {
    "id": "lancaster-cigar-bar",
@@ -2243,7 +4125,15 @@
    "source": "exa.ai places listing / Fig Lancaster",
    "county": "Lancaster",
    "phone": "(717) 553-5694",
-   "phoneSource": "Search-result listings agree: venue site lancaster-cigar.hub.biz, Facebook, Tripadvisor, Yelp, shisha.com and others, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: venue site lancaster-cigar.hub.biz, Facebook, Tripadvisor, Yelp, shisha.com and others, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/635159009901102/Lancaster-Cigar",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-07",
+    "website": "https://lancastercigar.com/"
+   }
   }
  ],
  "type": "city",

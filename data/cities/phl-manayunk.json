@@ -30,7 +30,37 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
-   "county": "Philadelphia"
+   "county": "Philadelphia",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Philadelphia/372347775969852/Bar-Jawn",
+        "quote": "Website | Contact the business | Bar Jawn your local neighborhood tavern from the owners of Pizza Jawn",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/philadelphia/bar-jawn-/",
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/372347775969852/Bar-Jawn",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-08-25",
+    "website": null
+   }
   },
   {
    "id": "blondie-philly",
@@ -62,7 +92,28 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site blondiephilly.com (checked 2026-11-01)",
    "county": "Philadelphia",
    "phone": "(215) 253-3833",
-   "phoneSource": "OpenStreetMap (node/11072156870, name + location match; Geofabrik extract of 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap (node/11072156870, name + location match; Geofabrik extract of 2026-10-31), checked 2026-11-01",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-31",
+      "quote": "$7 cocktails, a DJ all night & a costume contest worth dressing for | halloween at blondie. saturday, october 31.",
+      "url": "https://www.foodyas.com/US/Philadelphia/101910839283368/Blondie-Philly"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/101910839283368/Blondie-Philly",
+    "fbPostsSeen": 12,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "cactus-cantina",
@@ -98,7 +149,120 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Philadelphia",
    "phone": "(267) 385-6249",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "9 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-10-21",
+      "datedLastSeen": "2026-10-21",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Philadelphia/178610938851631/Cactus-Cantina",
+        "date": "2026-10-21",
+        "quote": "karaoke every thursday with The Grizzz | 🎤 signups at 9 pm | 🍸 $1 vodka drinks from 10–11 pm "
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Philadelphia/178610938851631/Cactus-Cantina",
+        "date": "2026-10-13",
+        "quote": "Karaoke with The Grizzz starting at 9 pm, prizes all night, and $1 vodka drinks from 10–11 pm | Thirsty Thursdays at Cactus 🌵🎤"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-29",
+      "quote": "🎤 KARAOKE at Cactus Restaurant & Bar @ 9 PM",
+      "url": "https://www.foodyas.com/US/Philadelphia/178610938851631/Cactus-Cantina"
+     },
+     {
+      "date": "2026-10-29",
+      "quote": "Start the night with trivia and finish it at karaoke",
+      "url": "https://www.foodyas.com/US/Philadelphia/178610938851631/Cactus-Cantina"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "posted on 2 different Fris",
+      "lastSeen": "2026-10-30",
+      "datedLastSeen": "2026-10-30",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Philadelphia/178610938851631/Cactus-Cantina",
+        "date": "2026-10-30",
+        "quote": "10/30: freaky friday with DJ Ghatak"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Philadelphia/178610938851631/Cactus-Cantina",
+        "date": "2026-10-06",
+        "quote": "we’re looking for DJs to bring the energy Friday + Saturday nights 🌵"
+       }
+      ],
+      "confidence": "medium"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "posted on 2 different Sats",
+      "lastSeen": "2026-10-31",
+      "datedLastSeen": "2026-10-31",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Philadelphia/178610938851631/Cactus-Cantina",
+        "date": "2026-10-31",
+        "quote": "f bad decisions and great drink specials 🎃 | 10/30: freaky friday with DJ Ghatak | 10/31: nightmare on main street with >> 10/31: nightmare on main street with DJ Wade"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Philadelphia/178610938851631/Cactus-Cantina",
+        "date": "2026-10-06",
+        "quote": "we’re looking for DJs to bring the energy Friday + Saturday nights 🌵"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-06",
+      "quote": " Cactus is looking for new DJs 👀🎧",
+      "url": "https://www.foodyas.com/US/Philadelphia/178610938851631/Cactus-Cantina"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/178610938851631/Cactus-Cantina",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "canalside-manayunk",
@@ -124,7 +288,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Philadelphia",
    "phone": "(267) 767-0467",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 11, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 11, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/109469815500386/Canalside-Manayunk",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-21",
+    "website": null
+   }
   },
   {
    "id": "chabaa-thai-bistro",
@@ -147,7 +319,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Philadelphia",
    "phone": "(215) 483-1979",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/151590604900043/Chabaa-Thai-Bistro",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-09-10",
+    "website": null
+   }
   },
   {
    "id": "daiva-s-grille",
@@ -170,7 +350,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site daivasgrille.com (checked 2026-11-01)",
-   "county": "Philadelphia"
+   "county": "Philadelphia",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/134544240016807/Daiva%27s-Grille",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "dawson-street-pub",
@@ -195,7 +383,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Philadelphia",
    "phone": "(215) 482-5677",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/87593991804/Dawson-Street-Pub",
+    "fbPostsSeen": 2,
+    "fbNewestPost": "2026-10-18",
+    "website": null
+   }
   },
   {
    "id": "dream-house-asian-bistro",
@@ -218,7 +414,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Philadelphia",
    "phone": "(215) 482-7375",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 10, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 10, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/205044059601875/Dream-House-Asian-Bistro",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-09-10",
+    "website": null
+   }
   },
   {
    "id": "fiorino",
@@ -243,7 +447,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Philadelphia",
    "phone": "(215) 843-1500",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 13, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 13, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/182800098445408/Fiorino",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-08-31",
+    "website": null
+   }
   },
   {
    "id": "franklin-s-east-falls",
@@ -284,7 +496,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Franklin's East Falls Facebook post Oct 26, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Philadelphia",
    "phone": "(267) 336-7420",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 11, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 11, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Philadelphia/278888498790010/Franklin%27s-East-Falls",
+        "quote": "for your pooch and a free parking lot. Franklin's offers a great place to meet friends, catch the game, enjoy lunch, dinner or a late night snack or simply have a cold one! . . . Regular speci",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/278888498790010/Franklin%27s-East-Falls",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-26",
+    "website": "https://www.franklinspub.com/"
+   }
   },
   {
    "id": "graham-s-pub",
@@ -309,7 +551,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Philadelphia",
    "phone": "(215) 487-3332",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 20, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Philadelphia/175590322478742/Graham%27s-Pub",
+        "quote": "Website | Contact the business | Great bar to grab a drink, something to eat and have fun Sports Bar and Grille with a Large Take Out Beer selection. | (211) | 08/31/2026",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/175590322478742/Graham%27s-Pub",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "henry-james-saloon",
@@ -346,7 +618,28 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Philadelphia",
    "phone": "(215) 483-8460",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 9, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 9, 2026), checked 2026-11-01",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-27",
+      "quote": "Normal schedule of Bingo tonight, Halloween Trivia Wednesday, $1 wings Thursday, & switching it up with some Live Music on Friday night with brianjoslin_music & getting spooky with Halloween Karaoke w",
+      "url": "https://www.foodyas.com/US/Philadelphia/133161303950/Henry-James-Saloon"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/133161303950/Henry-James-Saloon",
+    "fbPostsSeen": 3,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "hilltown-tavern",
@@ -383,7 +676,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site hilltowntavern.com (checked 2026-11-01)",
    "county": "Philadelphia",
    "phone": "(267) 766-5835",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/112170600183250/Hilltown-Tavern",
+    "fbPostsSeen": 13,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "in-riva",
@@ -417,7 +718,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site inrivaeastfalls.com (checked 2026-11-01)",
    "county": "Philadelphia",
    "phone": "(215) 438-4848",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/191123004300044/In-Riva",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-14",
+    "website": null
+   }
   },
   {
    "id": "jd-mcgillicuddy-s-manayunk",
@@ -474,7 +783,33 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site jdmcgillicuddysmanayunk.com (checked 2026-11-01)",
    "county": "Philadelphia",
    "phone": "(215) 930-0209",
-   "phoneSource": "Venue website jdmcgillicuddysmanayunk.com, checked 2026-11-01"
+   "phoneSource": "Venue website jdmcgillicuddysmanayunk.com, checked 2026-11-01",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-09-25",
+      "quote": "Happy Hour ➡️ DJ Kev ➡️ Late Night at Cuddy’s",
+      "url": "https://www.foodyas.com/US/Philadelphia/143473072333737/JD-McGillicuddy%27s-Manayunk"
+     },
+     {
+      "date": "2026-09-25",
+      "quote": "Then stick around because DJ KEV takes over tonight from 10 PM–2 AM",
+      "url": "https://www.foodyas.com/US/Philadelphia/143473072333737/JD-McGillicuddy%27s-Manayunk"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/143473072333737/JD-McGillicuddy%27s-Manayunk",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-22",
+    "website": null
+   }
   },
   {
    "id": "lucky-star-chinese-restaurant",
@@ -504,7 +839,37 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Lucky Star venue site (checked 2026-11-01)",
-   "county": "Philadelphia"
+   "county": "Philadelphia",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.luckystarasian.com/",
+        "quote": "of Lucky Star. | Learn More | Sushi | We have been serving authentic Asian dishes at our family-friendly restaurant since we opened in 2001. | Learn More | entrees | sushi | noodles | appetizers",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.luckystarasian.com/"
+   }
   },
   {
    "id": "lucky-s-last-chance",
@@ -527,7 +892,43 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Philadelphia"
+   "county": "Philadelphia",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-09",
+        "url": "https://www.restaurantji.com/pa/philadelphia/luckys-last-chance-/",
+        "quote": "around the block, but the welcoming environment and quality food make it a favorite among locals and visitors. Many enjoy stopping by for special occasions or just to enjoy a casual meal",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/pa/philadelphia/luckys-last-chance-/",
+        "quote": "Wonderful bartenders that made us feel like regulars. Excellent hotdogs and burgers. Draft beer list could have been more extensive."
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/philadelphia/luckys-last-chance-/",
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/124476094255811/Lucky%27s-Last-Chance---Manayunk",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "main-street-pho",
@@ -550,7 +951,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Philadelphia"
+   "county": "Philadelphia",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/684981731705615/Main-Street-Pho",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "manayunk-indian-grille",
@@ -569,7 +978,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Philadelphia"
+   "county": "Philadelphia",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "maria-s-ristorante-on-summit",
@@ -594,7 +1011,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Philadelphia",
    "phone": "(215) 508-5600",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Philadelphia/52210217644/Maria%27s-Ristorante-on-Summit",
+        "quote": "Website | Contact the business | Family Friendly Italian Restaurants with two locations conveniently located in Conshohocken and the From",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/52210217644/Maria%27s-Ristorante-on-Summit",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "new-ridge-brewing-co",
@@ -619,7 +1066,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Philadelphia",
    "phone": "(215) 330-4677",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 13, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 13, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/139067097028848/New-Ridge-Brewing-Co.",
+    "fbPostsSeen": 11,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "ryan-s-main-street-pub-manayunk",
@@ -675,7 +1130,38 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Philadelphia",
    "phone": "(215) 483-3722",
-   "phoneSource": "OpenStreetMap (node/943210892, name + location match; Geofabrik extract of 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap (node/943210892, name + location match; Geofabrik extract of 2026-10-31), checked 2026-11-01",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-29",
+      "quote": " PUB KARAOKE - HALLOWEEN EDITION",
+      "url": "https://www.foodyas.com/US/Philadelphia/199284730609432/Ryan%27s-Main-Street-Pub-Manayunk"
+     },
+     {
+      "date": "2026-10-29",
+      "quote": " Pub karaoke at 10",
+      "url": "https://www.foodyas.com/US/Philadelphia/199284730609432/Ryan%27s-Main-Street-Pub-Manayunk"
+     },
+     {
+      "date": "2026-10-22",
+      "quote": " Karaoke at 10",
+      "url": "https://www.foodyas.com/US/Philadelphia/199284730609432/Ryan%27s-Main-Street-Pub-Manayunk"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/199284730609432/Ryan%27s-Main-Street-Pub-Manayunk",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "scanlon-s-saloon",
@@ -702,7 +1188,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Philadelphia",
    "phone": "(215) 487-1090",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/322542342506/Scanlon%27s-Saloon",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
   },
   {
    "id": "somo-manayunk",
@@ -737,7 +1231,38 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); SoMo Manayunk venue site (checked 2026-11-01)",
-   "county": "Philadelphia"
+   "county": "Philadelphia",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-31",
+      "quote": " 👻 Join us at SOMO Thursday, October 29th AND Saturday, October 31st, from 10PM–2AM with the best DJs around",
+      "url": "https://www.foodyas.com/US/Philadelphia/156006038244466/SOMO-Manayunk"
+     },
+     {
+      "date": "2026-08-30",
+      "quote": " Join us at SOMO Manayunk for the after party — DJ 3–7PM, $6 mimosas, $5 drafts, and all the Sunday vibes",
+      "url": "https://www.foodyas.com/US/Philadelphia/156006038244466/SOMO-Manayunk"
+     },
+     {
+      "date": "2026-08-29",
+      "quote": "🎧 DJ 3–7 ",
+      "url": "https://www.foodyas.com/US/Philadelphia/156006038244466/SOMO-Manayunk"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/156006038244466/SOMO-Manayunk",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-24",
+    "website": "https://somohospitality.com/"
+   }
   },
   {
    "id": "taqueria-amor",
@@ -786,7 +1311,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Philadelphia",
    "phone": "(267) 331-5874",
-   "phoneSource": "Venue website taqueriaamor.com, checked 2026-11-01"
+   "phoneSource": "Venue website taqueriaamor.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/444963345542936/Taqueria-Amor",
+    "fbPostsSeen": 13,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "the-bayou-bar-and-grill-manayunk",
@@ -832,7 +1365,38 @@
    "source": "hours from the venue's website; Facebook page (via foodyas mirror)",
    "county": "Philadelphia",
    "phone": "(215) 482-2560",
-   "phoneSource": "Venue website bayoubar.com, checked 2026-11-01"
+   "phoneSource": "Venue website bayoubar.com, checked 2026-11-01",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-31",
+      "quote": "🍹 $5 Vodka Hawaiian Punch | 🎶 Get ready for a wild Halloween night! | 🎤 SATURDAY, OCTOBER 31 — SPOOKY OOKY! | 🏆 >> 🏆 Karaoke Contest — $250 IN PRIZES",
+      "url": "https://www.foodyas.com/US/Philadelphia/111643862206977/The-Bayou-Bar-%26-Grill-Manayunk"
+     },
+     {
+      "date": "2026-10-30",
+      "quote": "🏆 Karaoke Contest",
+      "url": "https://www.foodyas.com/US/Philadelphia/111643862206977/The-Bayou-Bar-%26-Grill-Manayunk"
+     },
+     {
+      "date": "2026-10-30",
+      "quote": "🎤 SATURDAY: SPOOOKKYYY KARAOKE SHOWDOWN",
+      "url": "https://www.foodyas.com/US/Philadelphia/111643862206977/The-Bayou-Bar-%26-Grill-Manayunk"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/111643862206977/The-Bayou-Bar-%26-Grill-Manayunk",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "the-goat-s-beard",
@@ -876,7 +1440,28 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site thegoatsbeardphilly.com (checked 2026-11-01)",
    "county": "Philadelphia",
    "phone": "(267) 323-2495",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-24",
+      "quote": "Come in costume, grab a drink, and hit the dance floor while the DJ keeps things going all night 🍸 And yes, there’s a costume contest so make it count 👀 | We’re bringing a Halloween Dance Party to The",
+      "url": "https://www.foodyas.com/US/Philadelphia/124506184399271/The-Goat%27s-Beard"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/124506184399271/The-Goat%27s-Beard",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "the-rook-manayunk",
@@ -919,7 +1504,33 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); The Rook Manayunk Facebook post Oct 1, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Philadelphia",
    "phone": "(267) 323-2906",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-12",
+      "quote": "7 PM - 8:30 PM with Press Play Dj Crew",
+      "url": "https://www.foodyas.com/US/Philadelphia/102701234573519/The-Rook-Manayunk"
+     },
+     {
+      "date": "2026-10-07",
+      "quote": " Press Play Dj Crew",
+      "url": "https://www.foodyas.com/US/Philadelphia/102701234573519/The-Rook-Manayunk"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/102701234573519/The-Rook-Manayunk",
+    "fbPostsSeen": 15,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "the-white-yak-restaurant",
@@ -942,7 +1553,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Website (rendered) whiteyakrestaurant.com (checked 2026-11-01)",
    "county": "Philadelphia",
    "phone": "(215) 483-0764",
-   "phoneSource": "Website (rendered) whiteyakrestaurant.com, checked 2026-11-01"
+   "phoneSource": "Website (rendered) whiteyakrestaurant.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/106972987343601/The-White-Yak-Restaurant",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-15",
+    "website": null
+   }
   },
   {
    "id": "union-tap-house",
@@ -993,7 +1612,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Website (rendered) theuniontaphouse.com (checked 2026-11-01); Venue site theuniontaphouse.com (checked 2026-11-01)",
    "county": "Philadelphia",
    "phone": "(215) 482-8980",
-   "phoneSource": "Website (rendered) theuniontaphouse.com, checked 2026-11-01"
+   "phoneSource": "Website (rendered) theuniontaphouse.com, checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Philadelphia/62289262018/Union-Tap-House",
+        "quote": "Website | Contact the business | Full service corner bar, award winning wings 🏆🍗, extensive bourbon selection 🥃, great beer & more! chicken wings,",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/62289262018/Union-Tap-House",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-08-16",
+    "website": null
+   }
   },
   {
    "id": "unity-taqueria",
@@ -1016,7 +1665,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Philadelphia",
    "phone": "(215) 842-5829",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 30, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 30, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Philadelphia/103865908062324/Unity-Taqueria",
+    "fbPostsSeen": 1,
+    "fbNewestPost": "2026-09-11",
+    "website": null
+   }
   }
  ],
  "counties": [

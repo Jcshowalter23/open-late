@@ -30,7 +30,15 @@
    "source": "Facebook; menu listing; Shippensburg News-Chronicle; Facebook page (via bars10.com) (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 477-5467",
-   "phoneSource": "Facebook page “Knute's Tap Room” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Knute's Tap Room” (via bars10.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "university-grille",
@@ -82,7 +90,15 @@
     "Sports & games"
    ],
    "source": "Venue site; Venue site theugrille.com (checked 2026-11-01)",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://theugrille.com/"
+   }
   },
   {
    "id": "creekside-grille",
@@ -108,7 +124,15 @@
    "source": "Yelp (Sep 2026); Facebook page (via bars10.com) (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 477-2210",
-   "phoneSource": "Facebook page “Creekside Grille” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Creekside Grille” (via bars10.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "maxie-s-brew-house",
@@ -133,7 +157,15 @@
    "source": "Menu listings (Sirved, Checkle); Facebook active Oct 2026",
    "county": "Cumberland",
    "phone": "(717) 530-2055",
-   "phoneSource": "Search-result listings agree: chamberofcommerce.com, craftbeerlocations.com, showmelocal.com, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: chamberofcommerce.com, craftbeerlocations.com, showmelocal.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-mason-jar",
@@ -168,7 +200,15 @@
     "Family-friendly"
    ],
    "source": "Venue site; Facebook",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://themasonjarpa.com/"
+   }
   },
   {
    "id": "el-mariachi-mexican-restaurant",
@@ -194,7 +234,86 @@
     "Bar scene"
    ],
    "source": "Venue site; Facebook",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families",
+     "College crowd",
+     "Date night / upscale"
+    ],
+    "summary": "Families earlier, bar crowd later; a locals-and-regulars spot; popular with college students; a date-night / upscale spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-09",
+        "url": "https://www.restaurantji.com/pa/shippensburg/el-mariachi-mexican-restaurant-/",
+        "quote": "ments to seasoning and toppings, El Mariachi has the potential to become a favorite among locals and travelers alike, as many believe it offers some of the best Mexican food they have ex",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.elmariachishippensburg.net/",
+        "quote": "an tortas, El Mariachi Mexican Restaurant serves authentic flavors that keep Shippensburg locals coming back for more. Since opening in 2021, we’ve focused on fresh ingredients, generous",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-09",
+        "url": "https://www.restaurantji.com/pa/shippensburg/el-mariachi-mexican-restaurant-/",
+        "quote": "El Mariachi Mexican Restaurant is a popular spot for families, conveniently located near I-81. The menu features typical American Tex-Mex dishes that a",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "College crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.elmariachishippensburg.net/",
+        "quote": "hip Shopping Center, El Mariachi Mexican Restaurant proudly serves Shippensburg families, college students, local workers, and visitors looking for authentic Mexican food in a welcoming atmosphere",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.elmariachishippensburg.net/",
+        "quote": "oy fresh Mexican food, cold drinks, and a welcoming atmosphere perfect for lunch, dinner, date nights, family meals, and casual nights out with friends. From table-side guacamole to margarit",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/shippensburg/el-mariachi-mexican-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.elmariachishippensburg.net/"
+   }
   },
   {
    "id": "sakura-japanese-sushi-and-hibachi",
@@ -220,7 +339,15 @@
    "source": "Venue site; Facebook",
    "county": "Cumberland",
    "phone": "(717) 477-5913",
-   "phoneSource": "Search-result listings agree: venue site sakura18.com, Restaurantji, Tripadvisor, Yellow Pages, yahoo.com, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: venue site sakura18.com, Restaurantji, Tripadvisor, Yellow Pages, yahoo.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "rice-pho-vietnamese",
@@ -243,7 +370,15 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 709-9988",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/shippensburg/rice-n-pho-vietnamese-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://ricephovietnameseshippenburg.com/"
+   }
   },
   {
    "id": "kmj-diner",
@@ -268,7 +403,15 @@
    "source": "Google listing via exa; diner site; Checkle and Restaurantji listings (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 300-3232",
-   "phoneSource": "Checkle and Restaurantji listings, checked 2026-11-01"
+   "phoneSource": "Checkle and Restaurantji listings, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "greyhound-family-restaurant",
@@ -293,7 +436,51 @@
    "source": "Yelp (Sep 2026); Facebook; Restaurantji (Google-sourced listing, updated Oct 16, 2026) (checked 2026-11-01)",
    "county": "Franklin",
    "phone": "(717) 300-3594",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-16",
+        "url": "https://www.restaurantji.com/pa/shippensburg/greyhound-family-restaurant-/",
+        "quote": "es. While the service may be slow and some dishes may not meet expectations, it remains a local favorite for its old town charm. Kid-friendly, it's a top choice for families, though reservations",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-16",
+        "url": "https://www.restaurantji.com/pa/shippensburg/greyhound-family-restaurant-/",
+        "quote": "Family Restaurant offers decent food at reasonable prices, with a friendly atmosphere for families. While the service may be slow and some dishes may not meet expectations, it remains a lo",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/shippensburg/greyhound-family-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "diffy-s-family-restaurant",
@@ -318,7 +505,15 @@
    "source": "Facebook post; Restaurantji (Google-sourced listing, updated Oct 10, 2026) (checked 2026-11-01)",
    "county": "Franklin",
    "phone": "(717) 532-2718",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 10, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 10, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/shippensburg/diffys-family-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   }
  ],
  "counties": [

@@ -85,6 +85,9 @@
   // ---------- state
   let city = null, rows = [], now = { d: 0, m: 0 }, dayTouched = false, shown = 0, loadSeq = 0;
   const ALL = 7; // "Deals: All days"
+  const normTxt = (t) => String(t || "").toLowerCase().replace(/[^a-z0-9]+/g, " ");
+  const nightsOn = (list, day) => (list || []).filter((n) => day === ALL || n.d === day);
+  const shortDate = (iso) => { const m = /^(\d{4})-(\d\d)-(\d\d)$/.exec(iso || ""); return m ? new Date(+m[1], m[2] - 1, +m[3]).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }) : iso; };
   const PAGE = 40; // cards per "Show more" step, keeps big counties fast on phones
   const shortArea = (n) => n.replace(/, PA$/, "");
 
@@ -127,7 +130,7 @@
   }
 
   const on = (id) => $(id).getAttribute("aria-pressed") === "true";
-  const CHIPS = ["tonight", "openNow", "kitchenNow", "onlyDeals", "wingDeals", "beerDeals", "hhDeals", "favsOnly"];
+  const CHIPS = ["tonight", "openNow", "kitchenNow", "onlyDeals", "wingDeals", "beerDeals", "hhDeals", "kkNights", "djNights", "favsOnly"];
   // favorites live in localStorage as "area|placeId"
   let favs = new Set();
   try { favs = new Set(JSON.parse(localStorage.getItem("openlate.favs") || "[]")); } catch (e) { favs = new Set(); }
@@ -280,6 +283,7 @@
     const cuisine = $("cuisine").value, price = $("price").value, vibe = $("vibe").value;
     const openNow = on("openNow"), kitchenNow = on("kitchenNow"), onlyDeals = on("onlyDeals");
     const wingDeals = on("wingDeals"), beerDeals = on("beerDeals"), hhDeals = on("hhDeals"), favsOnly = on("favsOnly");
+    const kkOn = on("kkNights"), djOn = on("djNights"); // karaoke / DJ nights on the picked day (medium/high-confidence, non-stale only; see tools/build_data.py)
     const day = Number($("day").value), sort = $("sort").value, tonight = on("tonight");
     const nearOn = sort === "near" && here && !town && bbNear(county, NEAR_MI); // nearby Counties mix in only when you are in or near the picked one
     const pool = rows.concat([...extra.values()].filter((p) => p.cid !== county.id && ((favsOnly && favs.has(pkey(p))) || (nearOn && (miles(p) ?? 99) <= NEAR_MI))));
@@ -303,6 +307,8 @@
         if (beerDeals && !all.some((x) => hasTag(x, "beer"))) return false;
         if (hhDeals && !dd.hh.length) return false;
       }
+      if (kkOn && !nightsOn(r.kk, day).length) return false;
+      if (djOn && !nightsOn(r.dj, day).length) return false;
       return true;
     });
     const key = (p) => {
@@ -342,8 +348,12 @@
     const mf = [cuisine !== "All", price !== "All", vibe !== "All", sort !== "smart" && sort !== "near"].filter(Boolean).length;
     $("mfCount").textContent = mf ? `(${mf} on)` : "";
     const kinds = [wingDeals && "wing", beerDeals && "beer", hhDeals && "happy hour"].filter(Boolean).join(" + ");
+    const evKinds = [kkOn && "karaoke", djOn && "DJ"].filter(Boolean).join(" + ");
+    const what = [kinds && kinds + " deals", evKinds && evKinds + " nights"].filter(Boolean).join(" + ") || "deals";
+    const pfx = (kkOn || djOn) && !(kinds || onlyDeals) ? "Nights" : "Deals";
+    [...$("day").options].forEach((o) => { o.textContent = o.textContent.replace(/^(Deals|Nights):/, pfx + ":"); });
     const scopeN = town ? rows.filter((p) => p.area === town).length : pool.length;
-    $("count").textContent = `${list.length} of ${scopeN} places · ${kinds ? kinds + " deals" : "deals"} for ${day === now.d ? "today" : day === ALL ? "all days" : DAY_LONG[day]}${dist ? " · nearest first" : ""}`;
+    $("count").textContent = `${list.length} of ${scopeN} places · ${what} for ${day === now.d ? "today" : day === ALL ? "all days" : DAY_LONG[day]}${dist ? " · nearest first" : ""}`;
     const nLk = tonight ? list.filter((p) => tonightInfo(p).kitchen > 0).length : 0;
     $("tonightNote").hidden = !tonight || !list.length;
     if (tonight) $("tonightNote").textContent = `🌙 Open past 11 PM tonight · ${nLk ? `${nLk} with food after 11 PM listed first` : "no late kitchen hours listed here"}${dist ? " (Near me sorts by distance)" : ""}.`;
@@ -354,8 +364,8 @@
     $("empty").hidden = list.length > 0;
     if (!list.length) {
       let why = active ? `No places in ${placeName} match these filters` : `No places listed in ${placeName} yet`;
-      if (tonight && !q && !wingDeals && !beerDeals && !hhDeals && !onlyDeals && !kitchenNow && !favsOnly && !openNow) why = `Nothing in ${placeName} is listed as open past 11 PM tonight`;
-      if (openNow && !tonight && !q && !wingDeals && !beerDeals && !hhDeals && !onlyDeals && !kitchenNow && !favsOnly) why = `Nothing in ${placeName} is open right now`;
+      if (tonight && !q && !wingDeals && !beerDeals && !hhDeals && !kkOn && !djOn && !onlyDeals && !kitchenNow && !favsOnly && !openNow) why = `Nothing in ${placeName} is listed as open past 11 PM tonight`;
+      if (openNow && !tonight && !q && !wingDeals && !beerDeals && !hhDeals && !kkOn && !djOn && !onlyDeals && !kitchenNow && !favsOnly) why = `Nothing in ${placeName} is open right now`;
       if (favsOnly && !favs.size) why = "No favorites yet";
       else if (favsOnly && extraLoading) why = "Loading your favorites from other counties…";
       $("emptyTitle").textContent = why + ".";
@@ -388,6 +398,16 @@
         const nowPill = live.length ? `<span class="badge b-now">${live.includes(top) ? "Now" : "HH now"}</span>` : "";
         dline = `<div class="dline" aria-label="${dayWord} deals">${day !== now.d && day !== ALL ? `<span class="bday">${esc(d3)}</span>` : ""}<span class="badge ${kind[0]}">${kind[1]}</span>${nowPill}<span class="dtext">${top.days ? `<b class="ddays">${esc(dayWords(top.days))}:</b> ` : ""}${esc(top.text)}${top.flag ? ` <span class="flag" title="${esc(top.flag)}">⚠</span>` : ""}</span>${n > 0 ? `<span class="dmore">+${n} more</span>` : ""}</div>`;
       }
+      // karaoke / DJ nights on the picked day (all of them on "All days"), e.g. "🎤 Karaoke Thu 10 pm", "🎧 DJ 2nd Thu monthly"
+      const evLine = (list, cls, label, pfx) => {
+        const ns = nightsOn(list, day);
+        if (!ns.length) return "";
+        const txt = ns.slice(0, 2).map((n) => n.w).join(" · ");
+        return `<div class="dline eline"><span class="badge ${cls}">${pfx} ${label}</span><span class="dtext">${esc(txt)}</span>${ns.length > 2 ? `<span class="dmore">+${ns.length - 2} more</span>` : ""}</div>`;
+      };
+      const elines = (kkOn || !djOn ? evLine(r.kk, "b-kk", "Karaoke", "🎤") + evLine(r.dj, "b-dj", "DJ", "🎧") : evLine(r.dj, "b-dj", "DJ", "🎧") + evLine(r.kk, "b-kk", "Karaoke", "🎤"));
+      const ctLine = r.ct && r.ct.l && r.ct.l.length ? `<div class="ctype" title="${esc(r.ct.s)}"><span aria-hidden="true">👥</span> ${esc(r.ct.l.slice(0, 3).join(" · "))}</div>` : "";
+      const nightRows = (list, label) => list && list.length ? `<div class="row"><b>${label}:</b><ul class="wk">${list.map((n) => `<li>${esc(n.w)}${n.t ? ` (${esc(n.t)})` : ""}${n.n ? ` <span class="flag" title="${esc(n.n)}">⚠</span>` : ""} <span class="srcs">— ${n.u ? `<a href="${esc(n.u)}" target="_blank" rel="noopener">${esc(n.s || "source")}</a>` : esc(n.s || "")}${n.seen ? `, seen ${esc(shortDate(n.seen))}` : ""}</span></li>`).join("")}</ul></div>` : "";
       const meta = [r.cuisine, r.priceLevel].filter(Boolean).map(esc).join(" · ");
       const thumbs = (kind, i, x) => {
         const did = dealId(kind, i, x), v = votes[`${p.area}|${r.id}|${did}`];
@@ -406,7 +426,7 @@
         ${top2 ? `<div class="town">${top2}</div>` : ""}
         <h2>${esc(r.name)}${meta ? ` <span class="meta">${meta}</span>` : ""}</h2>
         <div class="status ${st.cls}"><span class="dot" aria-hidden="true"></span><span>${esc(st.text)}</span>${kline}${tonight ? (tonightInfo(p).kitchen > 0 ? `<span class="lk lk-t" title="Kitchen open past 11 PM tonight (per listed kitchen hours)">🍔 Food till ${fmt(tonightInfo(p).kitchen)}</span>` : "") : lateKitchen(p) ? `<span class="lk" title="Kitchen open past 11 PM today (per listed kitchen hours)">Late kitchen</span>` : ""}</div>
-        ${dline}
+        ${dline}${elines}${ctLine}
         ${p.lc ? `<div class="lchk">${esc(p.lc)}</div>` : ""}
         <details class="more-info" data-key="${esc(ck)}"${openCards.has(ck) ? " open" : ""}>
           <summary>Details</summary>
@@ -420,6 +440,8 @@
             ${weeklyHH ? `<div class="row"><b>Happy hours all week:</b>${weeklyHH}</div>` : ""}
             ${weekly ? `<div class="row"><b>Specials all week:</b>${weekly}</div>` : ""}
             <div class="row"><b>Crowd:</b> ${r.crowd ? esc(r.crowd) : NL}</div>
+            ${r.ct ? `<div class="row"><b>Crowd type:</b> ${esc(r.ct.s)}${r.ct.l && r.ct.l.length && !r.ct.l.every((l) => normTxt(r.ct.s).includes(normTxt(l))) ? ` <span class="ctl">(${esc(r.ct.l.join(", "))})</span>` : ""}${r.ct.src && r.ct.src.length ? ` <span class="srcs">— from ${r.ct.u ? `<a href="${esc(r.ct.u)}" target="_blank" rel="noopener">${esc(r.ct.src.join(", "))}</a>` : esc(r.ct.src.join(", "))}</span>` : ""}</div>` : ""}
+            ${nightRows(r.kk, "Karaoke")}${nightRows(r.dj, "DJ nights")}
             <div class="src">Source: ${esc(r.source)} · checked ${esc(p.checkedLabel)}</div>
             <div class="actions">
               <a class="act" href="${esc(dirs)}" target="_blank" rel="noopener">Directions</a>

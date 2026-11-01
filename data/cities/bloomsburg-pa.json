@@ -30,7 +30,43 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "Columbia",
    "phone": "(570) 784-8484",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/pa/bloomsburg/a-taste-of-italy-/",
+        "quote": "for the same name 40 miles away. Our waitress Kirsten was very nice. Great place for a romantic dinner even while traveling. GPS did take us past and back around. Maybe better street v"
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bloomsburg/312874838766283/A-Taste-of-Italy",
+        "quote": "to your liking by our talented chefs. | (260) | Come to “A Taste of Italy” for your next fine dining experience “where every dish is a work of art and every taste a treasure.”",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bloomsburg/a-taste-of-italy-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bloomsburg/312874838766283/A-Taste-of-Italy",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-20",
+    "website": "https://venturistaste.wixsite.com/tasteofitaly"
+   }
   },
   {
    "id": "amici-italian-grille",
@@ -55,7 +91,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 13, 2026) (checked 2026-11-01)",
    "county": "Columbia",
    "phone": "(570) 520-4123",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 13, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 13, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-13",
+        "url": "https://www.restaurantji.com/pa/berwick/amici-italian-grill-/",
+        "quote": "Amici Italian Grille is a welcoming restaurant that offers a kid-friendly atmosphere and a variety of meal options. The homemade food is highly praised, especially",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/berwick/amici-italian-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Berwick/245405805887622/Amici-Italian-Grille",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-21",
+    "website": null
+   }
   },
   {
    "id": "bandit-s-roadhouse",
@@ -97,7 +163,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 22, 2026) (checked 2026-11-01); Bandit's Roadhouse Facebook post Oct 28, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Columbia",
    "phone": "(570) 752-2313",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 22, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 22, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/berwick/bandits-roadhouse-/",
+    "facebookMirror": "https://www.foodyas.com/US/Berwick/402247256503888/Bandit%27s-Roadhouse",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "capitol-bar-and-grill",
@@ -159,7 +233,78 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Capitol Bar and Grill Facebook post Oct 26, 2026 (via bars10) (checked 2026-11-01); Capitol Bar and Grill Facebook post Oct 29, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Columbia"
+   "county": "Columbia",
+   "crowdType": {
+    "labels": [
+     "Dance / club crowd"
+    ],
+    "summary": "A dancing / club crowd late.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/bloomsburg/capitol-bar-and-grill-/",
+        "quote": "omer service. At night, the atmosphere can turn into a lively club-like vibe with a large dance floor and loud music, making it a great place to party. On quieter nights, it remains a good sp",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-28",
+      "quote": "🎤 Party Karaoke starts at 10 PM",
+      "url": "https://www.foodyas.com/US/Bloomsburg/168413079856729/Capitol-Bar-and-Grill"
+     },
+     {
+      "date": "2026-10-26",
+      "quote": "🎤 Party Karaoke starts at 10 PM",
+      "url": "https://www.foodyas.com/US/Bloomsburg/168413079856729/Capitol-Bar-and-Grill"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-31",
+      "quote": "🎧 DJ starts at 10 PM",
+      "url": "https://www.foodyas.com/US/Bloomsburg/168413079856729/Capitol-Bar-and-Grill"
+     },
+     {
+      "date": "2026-10-30",
+      "quote": "🎧 DJ starts at 10 PM",
+      "url": "https://www.foodyas.com/US/Bloomsburg/168413079856729/Capitol-Bar-and-Grill"
+     },
+     {
+      "date": "2026-10-29",
+      "quote": "🎧 DJ after Line Dancing",
+      "url": "https://www.foodyas.com/US/Bloomsburg/168413079856729/Capitol-Bar-and-Grill"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bloomsburg/capitol-bar-and-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bloomsburg/168413079856729/Capitol-Bar-and-Grill",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "country-diner",
@@ -184,7 +329,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Columbia",
    "phone": "(570) 993-7101",
-   "phoneSource": "Venue website countrydiner.net, checked 2026-11-01"
+   "phoneSource": "Venue website countrydiner.net, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bloomsburg/1056624490862508/Country-Diner",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-08",
+    "website": null
+   }
   },
   {
    "id": "country-pride",
@@ -207,7 +360,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Columbia",
    "phone": "(570) 784-9400",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bloomsburg/1921164871475660/Country-Pride",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2023-12-06",
+    "website": null
+   }
   },
   {
    "id": "cricket-s",
@@ -242,7 +403,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01); Cricket's Facebook post Oct 22, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Columbia",
    "phone": "(570) 759-0310",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/berwick/crickets-/",
+    "facebookMirror": "https://www.foodyas.com/US/Berwick/275039034703/Cricket%27s",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-23",
+    "website": "https://berwickcricketclub.teamapp.com/"
+   }
   },
   {
    "id": "daana-paani-restaurant",
@@ -267,7 +436,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 16, 2026) (checked 2026-11-01)",
    "county": "Columbia",
    "phone": "(732) 258-1359",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mifflinville/daana-paani-/",
+    "facebookMirror": "https://www.foodyas.com/US/Mifflinville/102316279404271/Daana-Paani-Restaurant",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2025-06-15",
+    "website": null
+   }
   },
   {
    "id": "diggers-diversion",
@@ -293,7 +470,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Columbia",
    "phone": "(570) 683-9997",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Orangeville/462258640567357/Diggers-Diversion",
+    "fbPostsSeen": 2,
+    "fbNewestPost": "2026-09-10",
+    "website": null
+   }
   },
   {
    "id": "forge-pub-and-eatery",
@@ -319,7 +504,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "Columbia",
    "phone": "(570) 520-4165",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/berwick/the-forge-pub-and-eatery-/",
+        "quote": "easy dining experience. Free parking makes it convenient, though spaces may be limited. A local favorite, The Forge Pub and Eatery is a worthwhile stop for anyone.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/berwick/the-forge-pub-and-eatery-/",
+    "facebookMirror": "https://www.foodyas.com/US/Berwick/2477859965591808/Forge-Pub-and-Eatery",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-15",
+    "website": null
+   }
   },
   {
    "id": "fourth-taco",
@@ -350,7 +565,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 1, 2026) (checked 2026-11-01); Fourth Taco Facebook post Oct 6, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Columbia",
    "phone": "(570) 594-5594",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 1, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 1, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bloomsburg/fourth-taco-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bloomsburg/101702088290314/Fourth-Taco",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-22",
+    "website": null
+   }
   },
   {
    "id": "great-wall-chinese-restaurant",
@@ -373,7 +596,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 15, 2026) (checked 2026-11-01)",
-   "county": "Columbia"
+   "county": "Columbia",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/berwick/great-wall-/",
+    "facebookMirror": "https://www.foodyas.com/US/Berwick/186230301408903/Great-Wall-Chinese-Restaurant",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-05-06",
+    "website": null
+   }
   },
   {
    "id": "happy-mochi-bloomsburg",
@@ -394,7 +625,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Columbia"
+   "county": "Columbia",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bloomsburg/599478873229254/Happy-Mochi-Bloomsburg",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-22",
+    "website": null
+   }
   },
   {
    "id": "la-familia-cocina-boricua",
@@ -415,7 +654,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Columbia"
+   "county": "Columbia",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bloomsburg/640894115783154/La-Familia-Cocina-Boricua",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-22",
+    "website": null
+   }
   },
   {
    "id": "la-malbec-bar-and-restaurant",
@@ -442,7 +689,65 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Columbia"
+   "county": "Columbia",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "Family-friendly; a locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-16",
+        "url": "https://www.restaurantji.com/pa/bloomsburg/la-malbec-bar-and-restaurant-/",
+        "quote": "l. The outdoor patio is beautiful, and the owners are friendly and welcoming, making it a great spot for families. The restaurant is also allergy-friendly, catering to the needs of all customers. Custom",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://lamalbec.com/",
+        "quote": "nce and attention to detail have earned us numerous accolades and a loyal following among locals and visitors alike. | At La Malbec, we believe that dining is not just about satisfying y",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://lamalbec.com/",
+        "quote": "La Malbec Bar & Restaurant | Fine Dining Bloomsburg Call: (272) 203-0902 | STEAK & SEAFOOD FINE DINING | (272) 203-0902 | M | Home",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bloomsburg/la-malbec-bar-and-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bloomsburg/546327152950720/La-Malbec-Bar-%26-Restaurant",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-09-15",
+    "website": "https://lamalbec.com/"
+   }
   },
   {
    "id": "mandos-italian-pizza-2",
@@ -468,7 +773,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via foodyas.com) (checked 2026-11-01)",
    "county": "Columbia",
    "phone": "(570) 784-0123",
-   "phoneSource": "Facebook page “Mando’s Italian Pizza 2” (via foodyas.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Mando’s Italian Pizza 2” (via foodyas.com), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Orangeville/680225895163829/Mando%E2%80%99s-Italian-Pizza-2",
+        "quote": "e you enjoy your favorite wine or beer with your meal.🍕🍷🍔🥤🌮 | We're a warm and welcoming, family-friendly pizzeria dedicated to serving delicious food made with fresh ingredients and love.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Orangeville/680225895163829/Mando%E2%80%99s-Italian-Pizza-2",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-05-19",
+    "website": null
+   }
   },
   {
    "id": "maria-assunta-society",
@@ -491,7 +826,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Columbia",
    "phone": "(570) 759-2077",
-   "phoneSource": "Venue website mariaassuntasociety.com, checked 2026-11-01"
+   "phoneSource": "Venue website mariaassuntasociety.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Berwick/446714428863670/Maria-Assunta-Society",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-16",
+    "website": null
+   }
   },
   {
    "id": "marley-s-brewery-and-grille",
@@ -516,7 +859,51 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Columbia"
+   "county": "Columbia",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Sports fans"
+    ],
+    "summary": "Family-friendly; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/bloomsburg/marleys-brewery-and-grille-/",
+        "quote": "Marley's Brewery & Grille offers great food and a family-friendly atmosphere, perfect for larger groups. Known for their buffalo chicken salad and spinach",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/bloomsburg/marleys-brewery-and-grille-/",
+        "quote": "ropriate level for conversation, and the atmosphere is suitable for families, couples, or watching sports with a drink. The bar brews excellent beers on-site, adding to the appeal. Service is con",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bloomsburg/marleys-brewery-and-grille-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bloomsburg/151137388263198/Marley%27s-Brewery-and-Grille",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-30",
+    "website": "https://marleysbrewery.com/"
+   }
   },
   {
    "id": "mel-s-bar-and-grill",
@@ -553,7 +940,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01); Mel's Bar & Grill Facebook post Oct 23, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Columbia",
    "phone": "(570) 759-9015",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Berwick/106639228487289/Mel%27s-Bar-%26-Grill",
+    "fbPostsSeen": 3,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "nana-s-nook",
@@ -572,7 +967,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Columbia"
+   "county": "Columbia",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "oip-in-bloomsburg",
@@ -597,7 +1000,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Columbia",
    "phone": "(570) 784-7465",
-   "phoneSource": "Venue website oipbloomsburg.com, checked 2026-11-01"
+   "phoneSource": "Venue website oipbloomsburg.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bloomsburg/1288890587857414/Oip-in-Bloomsburg",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-12",
+    "website": "https://oipbloomsburg.com/"
+   }
   },
   {
    "id": "oliran-japanese-hibachi-steakhouse",
@@ -628,7 +1039,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 16, 2026) (checked 2026-11-01); Oliran Facebook post Oct 25, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Columbia",
    "phone": "(570) 784-2688",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bloomsburg/oliran-japanese-hibachi-steakhouse-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bloomsburg/393651510646009/Oliran-Japanese-Hibachi-Steakhouse",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "rc-s-bar-and-grill",
@@ -664,7 +1083,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 25, 2026) (checked 2026-11-01); Venue site rcsbarandgrill.com (checked 2026-11-01)",
    "county": "Columbia",
    "phone": "(570) 925-4104",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 25, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 25, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "After-work crowd"
+    ],
+    "summary": "An after-work / happy-hour crowd.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "After-work crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-25",
+        "url": "https://www.restaurantji.com/pa/benton/rcs-bar-and-grill-/",
+        "quote": "ly, ensuring guests feel welcomed. The kitchen is notably clean, impressing even industry professionals. Customers can enjoy a variety of dishes, including boneless wings, jalapeno poppers, and",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/benton/rcs-bar-and-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Benton/498239317321640/RC%27s-Bar-%26-Grill",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-26",
+    "website": null
+   }
   },
   {
    "id": "rose-marie-s-restaurant",
@@ -689,7 +1138,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 16, 2026) (checked 2026-11-01)",
    "county": "Columbia",
    "phone": "(570) 784-7169",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bloomsburg/rose-maries-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bloomsburg/107722652159143/Rose-Marie%27s-Restaurant",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "sac-lunches",
@@ -710,7 +1167,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Columbia"
+   "county": "Columbia",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bloomsburg/1462346824055337/SAC-Lunches",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "scoreboard-sports-tavern",
@@ -747,7 +1212,44 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01); Scoreboard Sports Tavern Facebook post Oct 20, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Columbia",
    "phone": "(570) 387-8999",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/bloomsburg/scoreboard-sports-tavern-/",
+        "quote": "Everything that comes out of the kitchen looks great. Scoreboard Sports Tavern is a great sports bar with affordable food and is highly recommended for anyone in search of a whiskey and burg",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bloomsburg/61856941320/Scoreboard-Sports-Tavern",
+        "quote": "Contact the business | Scoreboard Sports Tavern Your neighborhood sports bar! Celebrating our 29th year with all of you!!! Great Food, Cold Drinks, 21 Flat Screen TVs",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bloomsburg/scoreboard-sports-tavern-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bloomsburg/61856941320/Scoreboard-Sports-Tavern",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
   },
   {
    "id": "scotch-valley-bar-and-restaurant",
@@ -794,7 +1296,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01); Scotch Valley Facebook post Oct 30, 2026 (via bars10) (checked 2026-11-01); Scotch Valley Facebook post Oct 27 & 29, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Columbia",
    "phone": "(570) 384-4400",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bloomsburg/scotch-valley-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bloomsburg/268491133912422/Scotch-Valley-Bar-%26-Restaurant",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "the-goose-bar-and-grill",
@@ -820,7 +1330,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site thegoose.bar (checked 2026-11-01)",
    "county": "Columbia",
    "phone": "(570) 317-1608",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 16, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 16, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-grill-reaper-restaurant",
@@ -845,7 +1363,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Website (rendered) cash.app (checked 2026-11-01)",
    "county": "Columbia",
    "phone": "(570) 574-8243",
-   "phoneSource": "Website (rendered) cash.app, checked 2026-11-01"
+   "phoneSource": "Website (rendered) cash.app, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://cash.app/order/$thegrillreaper"
+   }
   },
   {
    "id": "the-husky-den-bar-and-grill",
@@ -890,7 +1416,33 @@
    "source": "hours from the venue's website; Facebook page (via bars10.com) (checked 2026-11-01); The Husky Den Facebook post Oct 13, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Columbia",
    "phone": "(570) 784-3003",
-   "phoneSource": "Facebook page “The Husky Den Bar & Grill” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “The Husky Den Bar & Grill” (via bars10.com), checked 2026-11-01",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-27",
+      "quote": "😈 DJ MAGNUM IS TAKING OVER THE DECKS | 🎃👻 THIS SATURDAY… HALLOWEEN TAKES OVER THE HUSKY DEN! 👻🎃",
+      "url": "https://www.foodyas.com/US/Bloomsburg/755647834293413/The-Husky-Den-Bar-%26-Grill"
+     },
+     {
+      "date": "2026-10-27",
+      "quote": "🎧 DJ MAGNUM ON THE DECKS",
+      "url": "https://www.foodyas.com/US/Bloomsburg/755647834293413/The-Husky-Den-Bar-%26-Grill"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bloomsburg/755647834293413/The-Husky-Den-Bar-%26-Grill",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "the-new-taps-sports-bar-and-grill",
@@ -915,7 +1467,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via bars10.com) (checked 2026-11-01)",
    "county": "Columbia",
    "phone": "(570) 317-1630",
-   "phoneSource": "Facebook page “The New Taps Sports Bar & Grill” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “The New Taps Sports Bar & Grill” (via bars10.com), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Berwick/107302918704706/The-New-Taps-Sports-Bar-%26-Grill",
+        "quote": "The New Taps Sports Bar & Grill, 7434 Columbia Boulevard, Berwick, PA (2026) | Home | Cities | Countries | Login",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Berwick/107302918704706/The-New-Taps-Sports-Bar-%26-Grill",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-pampered-chef-with-jessica-yerges",
@@ -934,7 +1516,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Columbia"
+   "county": "Columbia",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-wagon-shed",
@@ -959,7 +1549,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 14, 2026) (checked 2026-11-01)",
    "county": "Columbia",
    "phone": "(570) 784-9999",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bloomsburg/the-wagon-shed-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bloomsburg/121753577835218/The-Wagon-Shed",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "wally-s-viet-thai-restaurant",
@@ -980,7 +1578,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's website",
-   "county": "Columbia"
+   "county": "Columbia",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bloomsburg/234295916439147/Viet-Thai-Restaurant",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "west-end-ale-haus",
@@ -1048,7 +1654,37 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); West End Ale Haus venue site (checked 2026-11-01); West End Ale Haus Facebook post Oct 16 & 23, 2026 (via bars10) (checked 2026-11-01); West End Ale Haus Facebook post Oct 21, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Columbia"
+   "county": "Columbia",
+   "crowdType": {
+    "labels": [
+     "College crowd"
+    ],
+    "summary": "Popular with college students.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "College crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/bloomsburg/west-end-ale-haus-/",
+        "quote": "h wooden floors, two bar settings, and a lively atmosphere. Known for attracting a trendy college crowd and friendly staff, the restaurant offers a variety of dishes, including a daily specialt",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bloomsburg/west-end-ale-haus-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bloomsburg/448068675314849/West-End-Ale-Haus",
+    "fbPostsSeen": 17,
+    "fbNewestPost": "2026-10-31",
+    "website": "https://westendalehaus.com/"
+   }
   }
  ],
  "counties": [

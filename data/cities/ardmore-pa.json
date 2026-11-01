@@ -30,7 +30,37 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Montgomery"
+   "county": "Montgomery",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/ardmore/bella-italia-pizza-/",
+        "quote": "described as friendly and professional, and the place is very clean, making it family and kid friendly. Customers have enjoyed items like the Buffalo chicken cheesesteak, and many appreciate t",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/ardmore/bella-italia-pizza-/",
+    "facebookMirror": "https://www.foodyas.com/US/Ardmore/120045424674761/Bella-Italia",
+    "fbPostsSeen": 11,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "buena-vista-restaurant-and-cantina",
@@ -55,7 +85,59 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Montgomery"
+   "county": "Montgomery",
+   "dj": {
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "9 PM – 2 AM",
+      "basis": "posted on 2 different Sats",
+      "lastSeen": "2026-10-31",
+      "datedLastSeen": "2026-10-31",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Ardmore/292783318057558/Buena-Vista-Restaurant-%26-Cantina",
+        "date": "2026-10-31",
+        "quote": "📅 SATURDAY, OCTOBER 31 | 📍 Buenavista Mexican Restaurant & Bar | 123 Chestnut St, Philadelphia | 🎧 >> 🎧 DJ Christian Martinez / DJ Domo | 🕘 9 PM – 2 AM"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Ardmore/292783318057558/Buena-Vista-Restaurant-%26-Cantina",
+        "date": "2026-10-31",
+        "quote": "ATURDAY, OCTOBER 31 | 📍 Buenavista Mexican Restaurant & Bar | 123 Chestnut St, Philadelphia | 🎧 DJ Christian Martinez / >> 🎧 DJ Christian Martinez / DJ Domo | 🕘 9 PM – 2 AM"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Ardmore/292783318057558/Buena-Vista-Restaurant-%26-Cantina",
+        "date": "2026-10-31",
+        "quote": "📅 SATURDAY, OCTOBER 31 | 📍 Buenavista Mexican Restaurant & Bar | 123 Chestnut St, Philadelphia | 🎧 >> 🎧 DJ DOMO LIVE | 🕘 9 PM – 2 AM"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-19",
+      "quote": " One DJ, one dance floor, and a vibe you don’t want to miss",
+      "url": "https://www.foodyas.com/US/Ardmore/292783318057558/Buena-Vista-Restaurant-%26-Cantina"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/ardmore/buena-vista-mexican-restaurant-in-ardmore-/",
+    "facebookMirror": "https://www.foodyas.com/US/Ardmore/292783318057558/Buena-Vista-Restaurant-%26-Cantina",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "depaul-s-table",
@@ -78,7 +160,37 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site depaulstable.com (checked 2026-11-01)",
-   "county": "Montgomery"
+   "county": "Montgomery",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-25",
+        "url": "https://www.restaurantji.com/pa/ardmore/depauls-table-/",
+        "quote": "DePaul's Table Steakhouse offers an upscale dining experience with amazing food and top notch service. The food is incredible, with p",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/ardmore/depauls-table-/",
+    "facebookMirror": "https://www.foodyas.com/US/Ardmore/106307408209563/DePaul%27s-Table",
+    "fbPostsSeen": 11,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "el-limon-ardmore",
@@ -101,7 +213,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "Montgomery",
    "phone": "(484) 416-3211",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/ardmore/el-limon-/",
+    "facebookMirror": "https://www.foodyas.com/US/Ardmore/617007764832305/El-Limon-Ardmore",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "la-collina-ristorante",
@@ -126,7 +246,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01); Venue site lacollina.us (checked 2026-11-01)",
-   "county": "Montgomery"
+   "county": "Montgomery",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bala-cynwyd/la-collina-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bala-Cynwyd/113884101975474/La-Collina-Ristorante",
+    "fbPostsSeen": 14,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "lark-restaurant",
@@ -156,7 +284,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01); Venue site larkpa.com (checked 2026-11-01)",
-   "county": "Montgomery"
+   "county": "Montgomery",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bala-cynwyd/lark-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.larkpa.com/"
+   }
   },
   {
    "id": "local-wine-and-kitchen",
@@ -181,7 +317,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Local Wine & Kitchen venue site (checked 2026-11-01)",
-   "county": "Montgomery"
+   "county": "Montgomery",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/ardmore/local-wine-and-kitchen-/",
+    "facebookMirror": "https://www.foodyas.com/US/Ardmore/1445814799029918/Local-Wine-%26-Kitchen",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-17",
+    "website": "https://www.localwineandkitchen.com/home"
+   }
   },
   {
    "id": "mcshea-s-restaurant-and-bar",
@@ -215,7 +359,29 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Montgomery"
+   "county": "Montgomery",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Narberth/113521612013842/Mcshea%27s-Restaurant-%26-Bar",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-01",
+    "website": null
+   }
   },
   {
    "id": "mcsorleys-ale-house",
@@ -253,7 +419,117 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); McSorley's Ale House venue site (checked 2026-11-01)",
-   "county": "Delaware"
+   "county": "Delaware",
+   "crowdType": {
+    "labels": [
+     "Sports fans",
+     "Live music fans",
+     "College crowd",
+     "Locals & regulars"
+    ],
+    "summary": "Popular for watching games; known for live music; popular with college students; a locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/pa/ardmore/mcsorleys-bar-and-grill-/",
+        "quote": "It’s SO FUN! Great crowd and fun people! Such a good place to watch a game!"
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/pa/ardmore/mcsorleys-bar-and-grill-/",
+        "quote": "It’s SO FUN! Great crowd and fun people! Such a good place to watch a game!"
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Ardmore/196843271126463/McSorleys-Ale-House",
+        "quote": "Website | Neighborhood sports bar with 16 TV’s and game room area. Food and drinks awesome and reasonably priced. Clean, cl",
+        "self": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://themcsorleysalehouse.com/",
+        "quote": "Home | About | What We Offer | Menu | Calendar | Contact | --> | McSorley's Ale House | SPORTS BAR & PUB | View Our Menu | mcsorleys | E | A | T | P | L | A | Y | D | R | I | N | K | T | A",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-20",
+        "url": "https://www.restaurantji.com/pa/ardmore/mcsorleys-bar-and-grill-/",
+        "quote": "and accurately, even when the place is crowded. The restaurant has a fun atmosphere, with live music, pool tables, and video games. Visitors can enjoy a variety of menu items, including a de",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'has live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/ardmore/mcsorleys-bar-and-grill-/",
+        "quote": "has live music"
+       }
+      ]
+     },
+     {
+      "label": "College crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://themcsorleysalehouse.com/",
+        "quote": "u're a student, alum, or just here for the good vibes, McSorley's Ale House is your go-to college town bar for cheering on your team, grabbing a cold one, and kicking back with friends. We’re the",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://themcsorleysalehouse.com/",
+        "quote": ", laid-back setting. | original drinks delicious food great atmosphere | McSorley’s: Your Neighborhood Bar | McSorley’s is your go-to neighborhood spot where traditions are made and celebrated. By",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-28",
+      "quote": "Dress up in costumes, DJ to follow | Friday 7pm!",
+      "url": "https://www.foodyas.com/US/Ardmore/196843271126463/McSorleys-Ale-House"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/ardmore/mcsorleys-bar-and-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Ardmore/196843271126463/McSorleys-Ale-House",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-28",
+    "website": "https://themcsorleysalehouse.com/"
+   }
   },
   {
    "id": "pescatore-byob",
@@ -278,7 +554,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Website (rendered) pescatorebyob.com (checked 2026-11-01)",
    "county": "Montgomery",
    "phone": "(610) 660-9400",
-   "phoneSource": "Website (rendered) pescatorebyob.com, checked 2026-11-01"
+   "phoneSource": "Website (rendered) pescatorebyob.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bala-Cynwyd/206215212757489/Pescatore-BYOB",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "ripplewood-whiskey-and-craft",
@@ -310,7 +594,37 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Ripplewood venue site (checked 2026-11-01)",
-   "county": "Montgomery"
+   "county": "Montgomery",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Ardmore/174456632952053/Ripplewood-Whiskey-and-Craft",
+        "quote": "le dining rooms and bar areas. Come meet friends for a drink, enjoy an intimate dinner or bring the family. Open for lunch, brunch and dinner.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/ardmore/ripplewood-whiskey-and-craft-/",
+    "facebookMirror": "https://www.foodyas.com/US/Ardmore/174456632952053/Ripplewood-Whiskey-and-Craft",
+    "fbPostsSeen": 12,
+    "fbNewestPost": "2026-10-31",
+    "website": "https://www.ripplewoodbar.com/"
+   }
   },
   {
    "id": "ryan-christopher-s-byob",
@@ -333,7 +647,37 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 21, 2026) (checked 2026-11-01)",
-   "county": "Montgomery"
+   "county": "Montgomery",
+   "crowdType": {
+    "labels": [
+     "College crowd"
+    ],
+    "summary": "Popular with college students.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "College crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Narberth/143047822975/Ryan-Christopher%27s-BYOB",
+        "quote": "e Restaurant, Ryan Christopher who is also a server and manager as well as a hard-working college student. Last but certainly not least is Ryan Christopher's mother and Mike and Phyllis's daughte",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/narberth/ryan-christophers-byob-/",
+    "facebookMirror": "https://www.foodyas.com/US/Narberth/143047822975/Ryan-Christopher%27s-BYOB",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-08",
+    "website": null
+   }
   },
   {
    "id": "sophies-bbq",
@@ -367,7 +711,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site sophiesbbq.com (checked 2026-11-01)",
    "county": "Montgomery",
    "phone": "(484) 454-3074",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-great-american-pub-narberth",
@@ -392,7 +744,58 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Montgomery"
+   "county": "Montgomery",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/narberth/great-american-pub-/",
+        "quote": "ith plenty of parking and wheelchair accessibility, making it a favorite for families and locals alike. Customers have enjoyed the welcoming environment, great wings, cheesesteak egg rol",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Narberth/586791348034632/The-Great-American-Pub-Narberth",
+        "quote": "y 11:30am-10pm | Friday & Saturday 11:30am-10:30pm | Whether you're looking It has been a local favorite for nearly twenty years. | The Great American Pub sits in downtown Narberth, just down th",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/narberth/great-american-pub-/",
+        "quote": "nd charming look, with beautiful original wood accents that add to its character. It is a family-friendly place with plenty of parking and wheelchair accessibility, making it a favorite for famil",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/narberth/great-american-pub-/",
+    "facebookMirror": "https://www.foodyas.com/US/Narberth/586791348034632/The-Great-American-Pub-Narberth",
+    "fbPostsSeen": 1,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "the-greeks",
@@ -425,7 +828,15 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 21, 2026) (checked 2026-11-01); The Greeks Facebook post Oct 20–27, 2026 (via foodyas) (checked 2026-11-01)",
-   "county": "Montgomery"
+   "county": "Montgomery",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/narberth/greeks-/",
+    "facebookMirror": "https://www.foodyas.com/US/Narberth/104974921231568/The-Greeks",
+    "fbPostsSeen": 11,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "the-greeks-next-door",
@@ -460,7 +871,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); The Greeks Next Door Facebook post Oct 16–30, 2026 (via bars10) (checked 2026-11-01); Facebook page (via bars10.com) (checked 2026-11-01)",
    "county": "Montgomery",
    "phone": "(610) 664-1960",
-   "phoneSource": "Facebook page “The Greeks Next Door” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “The Greeks Next Door” (via bars10.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Narberth/272266279539969/The-Greeks-Next-Door",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "tiffin-indian-cuisine-wynnewood",
@@ -483,7 +902,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 21, 2026) (checked 2026-11-01)",
    "county": "Montgomery",
    "phone": "(610) 642-3344",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/wynnewood/tiffin-indian-cuisine-/",
+    "facebookMirror": "https://www.foodyas.com/US/Wynnewood/108075209233580/Tiffin-Indian-Cuisine-Wynnewood",
+    "fbPostsSeen": 19,
+    "fbNewestPost": "2026-10-22",
+    "website": null
+   }
   },
   {
    "id": "white-dog-cafe-haverford",
@@ -526,7 +953,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 21, 2026) (checked 2026-11-01); White Dog Cafe Haverford page (checked 2026-11-01)",
    "county": "Montgomery",
    "phone": "(610) 896-4556",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/haverford/white-dog-cafe-haverford-/",
+        "quote": "ding service and delicious food. Guests describe the atmosphere as welcoming and somewhat upscale, with unique light fixtures and furniture that add charm. The staff is attentive, anticip",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/haverford/white-dog-cafe-haverford-/",
+    "facebookMirror": "https://www.foodyas.com/US/Haverford/825834940800646/White-Dog-Cafe-Haverford",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-09-25",
+    "website": "https://whitedog.com/haverford/"
+   }
   },
   {
    "id": "yu-noodles",
@@ -549,7 +1006,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Montgomery",
    "phone": "(484) 416-9888",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   }
  ],
  "counties": [

@@ -31,7 +31,37 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://pizzaboybrewing.com/",
+        "quote": "at all the buzz is about! | Hungry? You came to the right place! | Browse Our Full Menu | Family Friendly Atmosphere | Thirsty? Our full bar is stocked! | Check Out Our Full Bar | Knowledgeable S",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://pizzaboybrewing.com/"
+   }
   },
   {
    "id": "center-street-grille",
@@ -68,7 +98,15 @@
    "source": "Venue site; Facebook; Center Street Grille venue site hours (checked 2026-11-01); Restaurantji (Google-sourced listing, updated Oct 18, 2026) (checked 2026-11-01); Center Street Grille Facebook post Oct 7–21, 2026 (via foodyas) (checked 2026-11-01); Venue site centerstreetgrille.com (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 732-6900",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/enola/center-street-grille-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://centerstreetgrille.com/"
+   }
   },
   {
    "id": "jigsy-s-brewpub-and-restaurant",
@@ -94,7 +132,51 @@
     "Sports & games"
    ],
    "source": "Venue site",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-22",
+        "url": "https://www.restaurantji.com/pa/enola/jigsys-pizza-/",
+        "quote": "Brewpub & Restaurant | Jigsy's | Brewpub & Restaurant is a neighborhood spot serving great food with friendly service from owners Migsy and Robin. The pizza is always",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-22",
+        "url": "https://www.restaurantji.com/pa/enola/jigsys-pizza-/",
+        "quote": "staurant itself makes customers feel like they are eating at home, with plenty of TV's to watch games and a good bar selection. Great food, drinks, and friendly staff make it a place custome",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/enola/jigsys-pizza-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.jigsyspizza.com/"
+   }
   },
   {
    "id": "tavern-on-the-hill",
@@ -119,7 +201,15 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 18, 2026) (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 732-2077",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/enola/tavern-on-the-hill-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://tavernonthehill.com/"
+   }
   },
   {
    "id": "visaggio-s",
@@ -145,7 +235,15 @@
    "source": "OpenTable; Toast; Restaurantji (Google-sourced listing, updated Oct 18, 2026) (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 697-8082",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/enola/visaggios-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "squeaky-rail-diner",
@@ -170,7 +268,51 @@
    "source": "Restaurantji (Google data); Restaurantji (Google-sourced listing, updated Oct 18, 2026) (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 732-9841",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-18",
+        "url": "https://www.restaurantji.com/pa/enola/squeaky-rail-diner-/",
+        "quote": "d often recommend the homemade slaw and the best pie around. The diner runs smoothly, and regulars receive especially friendly service. With a reputation for great food and a cozy environm",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-18",
+        "url": "https://www.restaurantji.com/pa/enola/squeaky-rail-diner-/",
+        "quote": "rs like them. The atmosphere is clean, spacious, and warm, making it a welcoming spot for families and travelers. The diner is known for its consistently good food, generous portions, and",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/enola/squeaky-rail-diner-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   }
  ],
  "counties": [

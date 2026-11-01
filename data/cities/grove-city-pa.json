@@ -28,7 +28,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Butler",
    "phone": "(724) 794-4899",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/slippery-rock/bj-coney-island-/",
+    "facebookMirror": "https://www.foodyas.com/US/Slippery-Rock/564380696911831/B-%26-J-Coney-Island",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-14",
+    "website": null
+   }
   },
   {
    "id": "big-rail-brewing",
@@ -72,7 +80,57 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site bigrailbrewing.com (checked 2026-11-01)",
-   "county": "Mercer"
+   "county": "Mercer",
+   "crowdType": {
+    "labels": [
+     "Live music fans",
+     "Bikers"
+    ],
+    "summary": "Known for live music; popular with bikers / hosts bike nights.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-06",
+        "url": "https://www.restaurantji.com/pa/grove-city/big-rail-brewing-/",
+        "quote": "iendly and perfect for gathering around a campfire with friends and family while enjoying live music. The selection of beers includes IPAs, and the quality is top-notch, with reasonable pric",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #1",
+        "url": "https://www.restaurantji.com/pa/grove-city/big-rail-brewing-/",
+        "quote": "Awesome beer with amazing service. The live music makes the outdoor venue a perfect place for couples, families and of course our fur babie"
+       }
+      ]
+     },
+     {
+      "label": "Bikers",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-06",
+        "url": "https://www.restaurantji.com/pa/grove-city/big-rail-brewing-/",
+        "quote": "environment. Staff members are knowledgeable and helpful, offering good suggestions. Many motorcycles come in all day, adding to the vibrant community vibe. The outdoor space feels like a ma",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/grove-city/big-rail-brewing-/",
+    "facebookMirror": "https://www.foodyas.com/US/Grove-City/1446277592323679/Big-Rail-Brewing",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-28",
+    "website": "https://bigrailbrewing.com/"
+   }
   },
   {
    "id": "broad-street-grille",
@@ -95,7 +153,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Mercer",
    "phone": "(724) 458-4146",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/grove-city/broad-street-grille-/",
+    "facebookMirror": "https://www.foodyas.com/US/Grove-City/818597261487657/Broad-Street-Grille",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-09",
+    "website": null
+   }
   },
   {
    "id": "country-pride",
@@ -118,7 +184,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Butler",
    "phone": "(814) 786-7988",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 6, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 6, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Harrisville/120175944701232/Country-Pride",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2023-12-06",
+    "website": null
+   }
   },
   {
    "id": "en-lai-chinese-restaurant",
@@ -141,7 +215,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 31, 2026) (checked 2026-11-01)",
    "county": "Butler",
    "phone": "(724) 794-5100",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/slippery-rock/en-lai-/",
+    "facebookMirror": "https://www.foodyas.com/US/Slippery-Rock/102553715346164/En-Lai-Chinese-Restaurant",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-08-22",
+    "website": null
+   }
   },
   {
    "id": "ginger-hill-tavern",
@@ -167,7 +249,80 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Butler"
+   "county": "Butler",
+   "crowdType": {
+    "labels": [
+     "College crowd",
+     "Families",
+     "Sports fans"
+    ],
+    "summary": "Families earlier, bar crowd later; popular with college students; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "College crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/slippery-rock/ginger-hill-tavern-/",
+        "quote": "ometimes featuring a DJ when the university is in session. The atmosphere is typical of a college town bar, with many TVs showing all sports and a lively vibe. The food is tasty, with favorites li",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/pa/slippery-rock/ginger-hill-tavern-/",
+        "quote": "Good college bar right at the main entrance to Slippery Rock campus. First time there, had the Swiss burge"
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/slippery-rock/ginger-hill-tavern-/",
+        "quote": "s a variety of options, including Greek pizza with fresh bread crust and feta, as well as kid-friendly menu choices. The setting can feel busy at times, but it remains a comfortable place to d",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/slippery-rock/ginger-hill-tavern-/",
+        "quote": "rant features numerous TVs throughout the bar and dining area, making it a great place to watch a game. Customers often appreciate the dinner specials, friendly and efficient staff, and good a",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "hints": [
+     "Restaurantji review/summary mentions dj"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/slippery-rock/ginger-hill-tavern-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "jin-sushi",
@@ -190,7 +345,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Mercer"
+   "county": "Mercer",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/grove-city/jin-sushi-/",
+    "facebookMirror": "https://www.foodyas.com/US/Grove-City/175076543167016/Jin-Sushi",
+    "fbPostsSeen": 3,
+    "fbNewestPost": "2026-05-10",
+    "website": null
+   }
   },
   {
    "id": "main-street-diner",
@@ -215,7 +378,15 @@
     "Family-friendly"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Mercer"
+   "county": "Mercer",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/grove-city/main-street-diner-/",
+    "facebookMirror": "https://www.foodyas.com/US/Grove-City/364558623557978/Main-Street-Diner",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
   },
   {
    "id": "shandaggen-bar-and-grille",
@@ -249,7 +420,46 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Shandaggen Bar and Grille Facebook post Oct 9–11, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Mercer"
+   "county": "Mercer",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-30",
+      "quote": " 🎤 It’s KARAOKE DAY at Shandaggen Bar & Grille",
+      "url": "https://www.foodyas.com/US/Jackson-Center/923969344141167/Shandaggen-Bar-and-Grille"
+     },
+     {
+      "date": "2026-10-29",
+      "quote": " ONE MORE DAY UNTIL KARAOKE",
+      "url": "https://www.foodyas.com/US/Jackson-Center/923969344141167/Shandaggen-Bar-and-Grille"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-31",
+      "quote": "🎧 DJ bringing the party",
+      "url": "https://www.foodyas.com/US/Jackson-Center/923969344141167/Shandaggen-Bar-and-Grille"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Jackson-Center/923969344141167/Shandaggen-Bar-and-Grille",
+    "fbPostsSeen": 20,
+    "fbNewestPost": "2026-11-01",
+    "website": null
+   }
   },
   {
    "id": "yellow-creek-inn",
@@ -274,7 +484,37 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Mercer"
+   "county": "Mercer",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/jackson-center/yellow-creek-inn-/",
+        "quote": "The Yellow Creek Inn is a popular local favorite, offering a diverse menu of delectable dishes. The menu features a variety of tempting op",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/jackson-center/yellow-creek-inn-/",
+    "facebookMirror": "https://www.foodyas.com/US/Jackson-Center/1452521494963950/Yellow-Creek-Inn",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   }
  ],
  "counties": [

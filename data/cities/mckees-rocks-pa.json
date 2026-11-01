@@ -30,7 +30,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via bars10.com) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 331-7878",
-   "phoneSource": "Facebook page “Aces Tavern” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Aces Tavern” (via bars10.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/McKees-Rocks/108398891969512/Aces-Tavern",
+    "fbPostsSeen": 1,
+    "fbNewestPost": "2025-10-24",
+    "website": null
+   }
   },
   {
    "id": "angelia-s-italian-grille",
@@ -56,7 +64,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 771-5111",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/mckees-rocks/angelias-italian-grille-/",
+        "quote": "have created a cozy and adorable atmosphere, with a patio and indoor seating, as well as live music on some weekend nights.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mckees-rocks/angelias-italian-grille-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "fuji-sushi-and-grill",
@@ -79,7 +117,15 @@
    "source": "hours from Restaurantji (Google data); Facebook page (via foodyas.com) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 494-5544",
-   "phoneSource": "Facebook page “Fuji Sushi & Grill” (via foodyas.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Fuji Sushi & Grill” (via foodyas.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/McKees-Rocks/692721204166145/Fuji-Sushi-%26-Grill",
+    "fbPostsSeen": 1,
+    "fbNewestPost": "2026-05-18",
+    "website": null
+   }
   },
   {
    "id": "jd-s-joint",
@@ -102,7 +148,43 @@
    "source": "hours from Restaurantji (Google data); Restaurantji (Google-sourced listing, updated Oct 30, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 743-8755",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 30, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 30, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-30",
+        "url": "https://www.restaurantji.com/pa/mckees-rocks/jds-joint-/",
+        "quote": ", and works in a clean and modern environment. The bar side has a lively atmosphere, with locals enjoying the jukebox and fast drinks.",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #1",
+        "url": "https://www.restaurantji.com/pa/mckees-rocks/jds-joint-/",
+        "quote": "prepared and portions large. Also Great to just sit at the bar for a drink with friends. Hometown feel to it."
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mckees-rocks/jds-joint-/",
+    "facebookMirror": "https://www.foodyas.com/US/McKees-Rocks/1210094419082467/JD%E2%80%99S-Joint",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "mickey-s-place",
@@ -132,7 +214,42 @@
    "source": "hours from the venue's website; Restaurantji (Google-sourced listing, updated Sep 20, 2026) (checked 2026-11-01); Venue site mickeysplace.net (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 771-7606",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 20, 2026), checked 2026-11-01",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "8 pm",
+      "confidence": "low",
+      "basis": "third-party karaoke directory only",
+      "lastSeen": "2026-10-29",
+      "datedLastSeen": "2026-10-29",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "FindKaraoke directory (city page updated October 29, 2026)",
+        "url": "https://findkaraoke.net/pittsburgh",
+        "date": "2026-10-29",
+        "quote": "Mickey’s Place — Friday at 8 PM. Mickey's Place in McKees Rocks has karaoke on Friday nights at 8 PM."
+       }
+      ],
+      "note": "Directory listing only; not confirmed by the venue"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mckees-rocks/mickey-s-place-/",
+    "facebookMirror": "https://www.foodyas.com/US/McKees-Rocks/489549474397924/Mickeys_Place",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-05-21",
+    "website": null
+   }
   },
   {
    "id": "norwood-inn-inc",
@@ -157,7 +274,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 331-5488",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/McKees-Rocks/111742572195168/Norwood-Inn-Inc",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "rockefeller-s-grille",
@@ -182,7 +307,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 777-9600",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/mckees-rocks/rockefellers-grille-/",
+        "quote": "staffed at times. The restaurant has ample parking and a spacious banquet room, making it kid-friendly. While the bar is not wheelchair accessible, the overall atmosphere is enjoyable. Custome",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mckees-rocks/rockefellers-grille-/",
+    "facebookMirror": "https://www.foodyas.com/US/McKees-Rocks/305635718330/Rockefeller%27s-Grille",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "side-walk-cafe",
@@ -203,7 +358,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/McKees-Rocks/2147314632034310/SIDE-WALK-CAFE-%27",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-original-bsbs-pine-hollow",
@@ -224,7 +387,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/McKees-Rocks/437651900403876/The-Original-BSB%E2%80%99s---Pine-Hollow",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   }
  ],
  "counties": [

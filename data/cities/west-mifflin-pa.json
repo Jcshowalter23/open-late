@@ -29,7 +29,15 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/West-Mifflin/653159891470037/Secrets-Bar-%26-Grill",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "spencer-s-down-under",
@@ -54,7 +62,15 @@
    "source": "hours from Restaurantji and Steel City Eats (they match); Restaurantji (Google-sourced listing, updated Oct 21, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 462-4337",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/West-Mifflin/115824755105087/Spencer%27s-Down-Under-Inc",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-06-05",
+    "website": null
+   }
   },
   {
    "id": "village-idiot-tap-room",
@@ -79,7 +95,51 @@
    "source": "hours from Restaurantji and Google listing via exa (they match); Restaurantji (Google-sourced listing, updated Oct 21, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 466-2215",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Dive bar"
+    ],
+    "summary": "A locals-and-regulars spot; no-frills dive-bar feel.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/west-mifflin/village-idiot-tap-room-/",
+        "quote": "e. While the women's bathroom is small, the accommodating staff and good drinks make it a local watering hole worth visiting again.",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Dive bar",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/west-mifflin/village-idiot-tap-room-/",
+        "quote": "Tap Room is a friendly place with hot, tasty food. Located in a shopping mall, it offers dive bar basics and a cozy atmosphere. While the women's bathroom is small, the accommodating staf",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-mifflin/village-idiot-tap-room-/",
+    "facebookMirror": "https://www.foodyas.com/US/West-Mifflin/382048736807/The-Village-Idiot",
+    "fbPostsSeen": 1,
+    "fbNewestPost": "2026-01-26",
+    "website": null
+   }
   }
  ],
  "counties": [

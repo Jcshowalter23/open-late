@@ -30,7 +30,15 @@
     "Bar scene"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/manheim/artifice-ales-and-mead-/",
+    "facebookMirror": "https://www.foodyas.com/US/Manheim/102900001294293/ARTifice-Ales-%26-Mead",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-08",
+    "website": "https://artificeales.com/visit/"
+   }
   },
   {
    "id": "the-cat-s-meow",
@@ -80,7 +88,35 @@
     "Bar scene"
    ],
    "source": "Search synthesis of venue site and Yelp (site itself would not load)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [
+     "Restaurantji review/summary mentions karaoke"
+    ],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-31",
+      "quote": "ARTY — SATURDAY, OCTOBER 31! 🕸️ | Get ready for a frightfully fun night of music, costumes, and Halloween fun! 🐈‍⬛🦇 | 🎤 >> 🎤 Karaoke with DJ Mr | 9 PM–12 AM",
+      "url": "https://www.foodyas.com/US/Manheim/254830980601/The-Cats-Meow"
+     },
+     {
+      "date": "2026-10-27",
+      "quote": "👻 Costumes, cocktails, karaoke, and a howling good time await you at The Cat’s Meow",
+      "url": "https://www.foodyas.com/US/Manheim/254830980601/The-Cats-Meow"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/manheim/the-cats-meow-/",
+    "facebookMirror": "https://www.foodyas.com/US/Manheim/254830980601/The-Cats-Meow",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "forklift-and-palate",
@@ -104,7 +140,15 @@
     "Sports & games"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/manheim/forklift-and-palate-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.forkliftandpalate.com/manheim/location"
+   }
   },
   {
    "id": "the-shack",
@@ -129,7 +173,44 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/pa/manheim/the-shack-restaurant-and-mini-golf-/",
+        "quote": "olf is a fun and unique place that offers a great dining experience and entertainment for families and friends. Visitors can enjoy a variety of food options, including the popular BBQ pork",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.theshackmanheim.com/",
+        "quote": "--> | Family Friendly Restaurants in Lancaster PA | THE SHACK MANHEIM | top of page | info@theshackmanheim.com",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/manheim/the-shack-restaurant-and-mini-golf-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.theshackmanheim.com/"
+   }
   },
   {
    "id": "two-cousins-pizza",
@@ -165,7 +246,15 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 19, 2026) (checked 2026-11-01); Two Cousins Pizza Facebook post Sep 9, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 665-0202",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 19, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 19, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/manheim/two-cousins-pizza-of-manheim-/",
+    "facebookMirror": "https://www.foodyas.com/US/Manheim/170999909774450/Two-Cousin%27s-Pizza-Manheim",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-17",
+    "website": "https://www.twocousinspizzamanheim.com/"
+   }
   },
   {
    "id": "kountry-kitchen-family-restaurant",
@@ -190,7 +279,51 @@
     "Family-friendly"
    ],
    "source": "Search synthesis of venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Locals & regulars"
+    ],
+    "summary": "Family-friendly; a locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/pa/manheim/kountry-kitchen-family-restaurant-/",
+        "quote": "etarian choices and gluten-free items that are clearly marked. The atmosphere is nice and kid-friendly, making it a great spot for families. A large free parking lot is available, although som",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://kountrykitchenrest.com/",
+        "quote": "t all positive adjectives you can think of. | The atmosphere (this certainly includes the regulars) is homely, warm | ... read more | and welcoming. The food is great, portions and pricing",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/manheim/kountry-kitchen-family-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Manheim/111522345554796/Kountry-Kitchen-Family-Restaurant",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-03",
+    "website": "https://kountrykitchenrest.com/"
+   }
   },
   {
    "id": "eande-family-diner",
@@ -215,7 +348,37 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-14",
+        "url": "https://www.restaurantji.com/pa/manheim/e-and-e-family-diner-/",
+        "quote": "offering great taste, generous portions, and friendly service, making it a favorite among locals and visitors alike.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/manheim/e-and-e-family-diner-/",
+    "facebookMirror": "https://www.foodyas.com/US/Manheim/520242784515525/E%26E-Diner",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-28",
+    "website": "https://eandefamilydinerpa.com/"
+   }
   }
  ],
  "counties": [

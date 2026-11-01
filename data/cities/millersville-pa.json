@@ -42,7 +42,44 @@
     "Sports & games"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "karaoke": {
+    "nights": [],
+    "stale": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "10 pm",
+      "confidence": "low",
+      "lastSeen": "2026-04-30",
+      "datedLastSeen": "2026-04-30",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "TasteLanc events listing (page last modified 2026-04-30)",
+        "url": "https://tastelanc.com/restaurants/jacks-family-tavern-restaurant/events",
+        "date": "2026-04-30",
+        "quote": "Karaoke Night | wednesday • 22:00"
+       }
+      ],
+      "note": "Only source is a TasteLanc listing last modified before the 6-month cutoff (2026-05-01); not used",
+      "stale": true,
+      "manual": true
+     }
+    ],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [],
+    "reviewNote": "Targeted web search, manual read"
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/millersville/jacks-family-tavern-and-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Millersville/203508179743/Jack%27s-Family-Tavern",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-26",
+    "website": "https://jacksfamilytavern.com/"
+   }
   },
   {
    "id": "sugar-bowl",
@@ -67,7 +104,37 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/pa/millersville/sugar-bowl-millersville-/",
+        "quote": "college campus charm, the ambiance is welcoming, and fresh, hot food is always on offer. Regulars recommend the waffle fries with cheese, chicken strips, and milkshakes, along with the ch",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/millersville/sugar-bowl-millersville-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://sugarbowltogo.com/"
+   }
   },
   {
    "id": "raney-cellars-brewing-co",
@@ -92,7 +159,37 @@
    "source": "Lancaster County Brewers Guild; Restaurantji (Google-sourced listing, updated Oct 27, 2026) (checked 2026-11-01); phone conflict review (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 725-0095",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 27, 2026), checked 2026-11-01. Conflicting (717) 584-5085 rejected: the venue site (Raney page on lancasterbreweries.org) shows the current number, checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 27, 2026), checked 2026-11-01. Conflicting (717) 584-5085 rejected: the venue site (Raney page on lancasterbreweries.org) shows the current number, checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://lancasterbreweries.org/brewery/raney/",
+        "quote": "1:00PM - 7:00PM | AMENITIES | Daily Specials | Regular Entertainment | Food Available | Family Friendly | Public Transport | Bike Friendly | LOCATION | 11 Manor Ave | Millersville",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/millersville/raney-cellars-brewing-company-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://lancasterbreweries.org/brewery/raney/"
+   }
   },
   {
    "id": "nino-s-pizzeria-and-ristorante",
@@ -117,7 +214,15 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Millersville/113463648686091/Nino%27s-Pizzeria-%26-Ristorante-INC.",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-08-05",
+    "website": "https://www.ninospizzamillersville.com/"
+   }
   }
  ],
  "counties": [

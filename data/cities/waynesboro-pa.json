@@ -49,7 +49,37 @@
     "Live music & events"
    ],
    "source": "Venue site; Facebook; Restaurantji (Google-sourced listing, updated Oct 10, 2026) (checked 2026-11-01); Michaux Brewing Facebook post Oct 22, 2026 (via foodyas) (checked 2026-11-01); Michaux Brewing official site (michauxbrewing.com) (checked 2026-11-01)",
-   "county": "Franklin"
+   "county": "Franklin",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.michauxbrewing.com/",
+        "quote": "tio and enjoy live music with family and friends. Join us for trivia every Thursday. Come watch the game or kick back and grab a pint during our happy hour. There is always something going on at",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/waynesboro/michaux-brewing-company-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://michauxbrewing.com/"
+   }
   },
   {
    "id": "trigger-s-table-and-taproom",
@@ -75,7 +105,43 @@
     "Date night"
    ],
    "source": "Venue site; Facebook; Restaurantji (Google-sourced listing, updated Oct 4, 2026) (checked 2026-11-01)",
-   "county": "Franklin"
+   "county": "Franklin",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-04",
+        "url": "https://www.restaurantji.com/pa/waynesboro/trigger-s-table-and-taproom-/",
+        "quote": ", hot, and well-seasoned, providing an elevated dining experience at reasonable prices. Live music, good people, and a welcoming vibe add to the appeal, making it a great spot for hanging",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/pa/waynesboro/trigger-s-table-and-taproom-/",
+        "quote": "This place is awesome. Most anything on the menu can be made gluten-free. Live music and good people. I almost don't want to tell you because they may become to popular. But"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/waynesboro/trigger-s-table-and-taproom-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.triggerstableandtaproom.com/"
+   }
   },
   {
    "id": "park-tavern",
@@ -100,7 +166,15 @@
    "source": "Restaurantji; Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Franklin",
    "phone": "(717) 762-2981",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/waynesboro/park-tavern-inc-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "pappy-s-pub",
@@ -125,7 +199,79 @@
    "source": "Facebook; Restaurantji; Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Franklin",
    "phone": "(717) 762-5839",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans",
+     "Locals & regulars"
+    ],
+    "summary": "Known for live music; a locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/waynesboro/pappys-pub-/",
+        "quote": "is a friendly neighborhood bar with affordable drinks and a family-run atmosphere. Enjoy live bands, karaoke, and a game of pool while savoring their tasty steak and cheese sub meal with fr",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/pa/waynesboro/pappys-pub-/",
+        "quote": ",good vibes Excellent bartenders !Chris and Eric (,I believe is his name) are very cool ..Live music on Saturdays rocks!!"
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/pa/waynesboro/pappys-pub-/",
+        "quote": "Been there 4 times and absolutely love it.. Great live music, Great service Great atmosphere! Will be going back.."
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/waynesboro/pappys-pub-/",
+        "quote": "live music"
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/waynesboro/pappys-pub-/",
+        "quote": "Pappy's Pub is a friendly neighborhood bar with affordable drinks and a family-run atmosphere. Enjoy live bands, karaoke, and a game",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "hints": [
+     "Restaurantji review/summary mentions karaoke",
+     "Restaurantji review/summary mentions karaoke"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/waynesboro/pappys-pub-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "red-run-grill",
@@ -150,7 +296,37 @@
    "source": "Facebook; Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Franklin",
    "phone": "(717) 765-0200",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-14",
+        "url": "https://www.restaurantji.com/pa/waynesboro/red-run-grill-/",
+        "quote": "tiful food that is always hot. The restaurant offers a drive-thru, online ordering, and a kid-friendly outside playground. The inside is nice and clean, though a bit outdated, and some find th",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/waynesboro/red-run-grill-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://redrungrill.com/"
+   }
   },
   {
    "id": "montezuma-of-waynesboro",
@@ -176,7 +352,15 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 11, 2026) (checked 2026-11-01)",
    "county": "Franklin",
    "phone": "(717) 749-7452",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 11, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 11, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/waynesboro/montezuma-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://montezumamex.com/"
+   }
   },
   {
    "id": "sapporo-japanese-restaurant",
@@ -201,7 +385,15 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "Franklin",
    "phone": "(717) 552-6757",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/waynesboro/sapporo-japanese-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.sapporowaynesboro.com/"
+   }
   },
   {
    "id": "masa-sushi-and-asian-food",
@@ -224,7 +416,15 @@
    "crowd": null,
    "vibes": [],
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 3, 2026) (checked 2026-11-01)",
-   "county": "Franklin"
+   "county": "Franklin",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/waynesboro/masa-sushi-asian-food-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://masawaynesboro.com/"
+   }
   },
   {
    "id": "monterey-pass-steakhouse",
@@ -249,7 +449,15 @@
    "source": "Google listing via exa; Sirved; Restaurantji (Google-sourced listing, updated Sep 28, 2026) (checked 2026-11-01)",
    "county": "Franklin",
    "phone": "(717) 387-5418",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "main-street-family-diner",
@@ -274,7 +482,37 @@
    "source": "Apple Maps; Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Franklin",
    "phone": "(717) 655-5387",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/waynesboro/main-street-family-diner-/",
+        "quote": "and many items are vegetarian friendly, providing plenty of choices for different tastes. Kid-friendly options include Mickey Mouse pancakes, chicken tenders, fries, and ice cream, making it a",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/waynesboro/main-street-family-diner-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   }
  ],
  "counties": [

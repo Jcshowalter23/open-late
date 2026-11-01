@@ -31,7 +31,37 @@
     "Family-friendly"
    ],
    "source": "Facebook; Restaurantji; Tripadvisor",
-   "county": "Dauphin"
+   "county": "Dauphin",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-06",
+        "url": "https://www.restaurantji.com/pa/hummelstown/rubber-soul-brewing-company-/",
+        "quote": "and tasty food, with huge portions and some noting gluten-free options as a big plus. The family-friendly environment, combined with good service and a wide drink variety, makes it a great spot f",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/hummelstown/rubber-soul-brewing-company-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.rubbersoulbrewing.com/"
+   }
   },
   {
    "id": "the-1762-at-the-warwick-hotel",
@@ -75,7 +105,15 @@
     "Date night"
    ],
    "source": "Facebook; Yelp; Restaurantji; Restaurantji (Google-sourced listing, updated Oct 1, 2026) (checked 2026-11-01); The 1762 Facebook post Sep 2026 (via bars10) (checked 2026-11-01); phone conflict (checked 2026-11-01)",
-   "county": "Dauphin"
+   "county": "Dauphin",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/hummelstown/warwick-hotel-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "chick-s-tavern",
@@ -100,7 +138,77 @@
    "source": "Facebook; place listing; Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Dauphin",
    "phone": "(717) 566-2293",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Dive bar",
+     "Tourists"
+    ],
+    "summary": "A locals-and-regulars spot; no-frills dive-bar feel; sees a lot of visitors and tourists.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/hummelstown/chicks-/",
+        "quote": "Chick's Tavern is a dive bar with charm when not crowded. It's a local favorite, away from Hershey's tourist chaos. While not fancy, it's a great spot for a casual night",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #1",
+        "url": "https://www.restaurantji.com/pa/hummelstown/chicks-/",
+        "quote": "The service at Chick's is great but most of the regulars are loud and proud Trumpanzees. So expect to hear foolish, obnoxious opinions based soley"
+       }
+      ]
+     },
+     {
+      "label": "Dive bar",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/hummelstown/chicks-/",
+        "quote": "Chick's Tavern is a dive bar with charm when not crowded. It's a local favorite, away from Hershey's tourist chaos. Wh",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/pa/hummelstown/chicks-/",
+        "quote": "nks and good times!! The bartender was incredible! You guys have a beautiful little local dive bar!!! I can’t wait to come back!!"
+       }
+      ]
+     },
+     {
+      "label": "Tourists",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/hummelstown/chicks-/",
+        "quote": "ern is a dive bar with charm when not crowded. It's a local favorite, away from Hershey's tourist chaos. While not fancy, it's a great spot for a casual night out with friends and family.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/hummelstown/chicks-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "g-s-boro-bar-and-grill",
@@ -131,7 +239,56 @@
    "source": "Facebook; Yelp; Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
    "county": "Dauphin",
    "phone": "(717) 566-5142",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans",
+     "Families"
+    ],
+    "summary": "Popular for watching games; family-friendly.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/pa/hummelstown/boro-bar-and-grill-hummelstown-/",
+        "quote": "Cozy environment, great food and place to watch sports, and friendly staff! The local bar everyone wants in their own town."
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'good for watching sports' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/hummelstown/boro-bar-and-grill-hummelstown-/",
+        "quote": "good for watching sports"
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/hummelstown/boro-bar-and-grill-hummelstown-/",
+        "quote": "ay specials. The staff is welcoming and friendly, creating an inviting atmosphere that is great for families and groups. The menu features plenty of options, including the recommended meatloaf, wing",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/hummelstown/boro-bar-and-grill-hummelstown-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "smoked-bar-and-grill",
@@ -157,7 +314,15 @@
     "Family-friendly"
    ],
    "source": "Venue site; OpenTable",
-   "county": "Dauphin"
+   "county": "Dauphin",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "cocoa-diner",
@@ -182,7 +347,37 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Dauphin"
+   "county": "Dauphin",
+   "crowdType": {
+    "labels": [
+     "Tourists"
+    ],
+    "summary": "Sees a lot of visitors and tourists.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Tourists",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/hummelstown/cocoa-diner-/",
+        "quote": "ge refill, clearing plates, or sharing helpful local tips, which is especially useful for tourists. Parking is plentiful, making it easy to visit. The menu features many hearty options, in",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/hummelstown/cocoa-diner-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "soda-jerk-diner-and-dairy-bar",
@@ -207,7 +402,51 @@
     "Family-friendly"
    ],
    "source": "Venue site; Facebook; Apple Maps",
-   "county": "Dauphin"
+   "county": "Dauphin",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/hummelstown/soda-jerk-/",
+        "quote": "pared food and inviting atmosphere, making Soda Jerk Diner & Dairy Bar a popular spot for locals and travelers alike. The pancakes are described as fluffy and flavorful, and the diner i",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://sodajerkdinerhershey.com/",
+        "quote": "ark? Stop at Soda Jerk Diner & Dairy Bar! We’re under 3 miles away from Hershey Park. Our family friendly menu and staff are here to serve you before a sweet trip. | Get Directions | A part of th",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/hummelstown/soda-jerk-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://sodajerkdinerhershey.com/"
+   }
   },
   {
    "id": "dafnos-italian-grille",
@@ -232,7 +471,15 @@
    "source": "Facebook; directory listings; Dun & Bradstreet, hub.biz menu and YellowBot listings (checked 2026-11-01)",
    "county": "Dauphin",
    "phone": "(717) 533-8999",
-   "phoneSource": "Dun & Bradstreet, hub.biz menu and YellowBot listings, checked 2026-11-01"
+   "phoneSource": "Dun & Bradstreet, hub.biz menu and YellowBot listings, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "simply-greek",
@@ -255,7 +502,15 @@
    "crowd": null,
    "vibes": [],
    "source": "Place listing; Facebook",
-   "county": "Dauphin"
+   "county": "Dauphin",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/hershey/simply-greek-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "senor-el-sol-mexican-grill",
@@ -280,7 +535,15 @@
    "source": "ReadyLink; place listing; Facebook page (via foodyas.com) (checked 2026-11-01)",
    "county": "Dauphin",
    "phone": "(717) 482-8030",
-   "phoneSource": "Facebook page “Senor El Sol” (via foodyas.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Senor El Sol” (via foodyas.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://online.skytab.com/22fe477325968a87f06d65b76eef098f"
+   }
   },
   {
    "id": "palermo-s-pizzeria-and-restaurant",
@@ -305,7 +568,15 @@
     "Family-friendly"
    ],
    "source": "Place listing; Facebook",
-   "county": "Dauphin"
+   "county": "Dauphin",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/hummelstown/palermos-pizzeria-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.palermos.com/"
+   }
   },
   {
    "id": "forrest-s-feed-co",
@@ -328,7 +599,51 @@
    "crowd": null,
    "vibes": [],
    "source": "Venue site; Facebook; Restaurantji (Google-sourced listing, updated Oct 1, 2026) (checked 2026-11-01)",
-   "county": "Dauphin"
+   "county": "Dauphin",
+   "crowdType": {
+    "labels": [
+     "Tourists",
+     "Date night / upscale"
+    ],
+    "summary": "Sees a lot of visitors and tourists; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Tourists",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-01",
+        "url": "https://www.restaurantji.com/pa/hummelstown/forrests-feed-co-/",
+        "quote": "available in a refrigerator. Many visitors find Forrest's Feed Co. a quiet spot to escape tourist crowds and enjoy very good BBQ. The food is always plentiful, moist, and tasty, making it",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://forrestsfeedco.com/",
+        "quote": "~ Now Available! | Fall 2026 hours: | Friday 11am-7pm Saturday 11am-7pm | Savor upscale barbecue from a wood-fired smoker. All menu items are made from scratch including our sau",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/hummelstown/forrests-feed-co-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://forrestsfeedco.com/"
+   }
   }
  ],
  "counties": [

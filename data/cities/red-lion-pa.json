@@ -58,7 +58,37 @@
     "Bar scene"
    ],
    "source": "Venue site; Facebook; Black Cap venue site (checked 2026-11-01); Restaurantji (Google-sourced listing, updated Oct 1, 2026) (checked 2026-11-01)",
-   "county": "York"
+   "county": "York",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://blackcapbrew.com/",
+        "quote": "Music Weekends | See What's Happening | Join the Mug Club | A once-a-year membership for regulars who want more out of every visit. | A bigger pour, a birthday beer, and a standing discou",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/red-lion/black-cap-brewing-company-/",
+    "facebookMirror": "https://www.foodyas.com/US/Red-Lion/818193101531750/Black-Cap-Brewing-Company",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-21",
+    "website": "https://www.blackcapbrew.com/"
+   }
   },
   {
    "id": "scrubby-s-craft-brewery-and-taphouse",
@@ -83,7 +113,15 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 18, 2026) (checked 2026-11-01)",
    "county": "York",
    "phone": "(717) 417-8766",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/red-lion/scrubbys-craft-brewery-and-tap-room-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.scrubbys.beer/"
+   }
   },
   {
    "id": "golden-crust-pizza-and-taproom",
@@ -120,7 +158,15 @@
     "Bar scene"
    ],
    "source": "Google listing via exa; Facebook",
-   "county": "York"
+   "county": "York",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/red-lion/golden-crust-pizza-/",
+    "facebookMirror": "https://www.foodyas.com/US/Red-Lion/181939813276/Golden-Crust-Pizza-%26-Taproom",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-21",
+    "website": null
+   }
   },
   {
    "id": "red-lion-tavern",
@@ -145,7 +191,121 @@
    "source": "Facebook (active Oct 2026); Restaurantji (Google-sourced listing, updated Oct 1, 2026) (checked 2026-11-01)",
    "county": "York",
    "phone": "(717) 244-0606",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 1, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 1, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans",
+     "Locals & regulars"
+    ],
+    "summary": "Known for live music; a locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-01",
+        "url": "https://www.restaurantji.com/pa/red-lion/red-lion-tavern-/",
+        "quote": "is a lively spot with a vibrant atmosphere and entertaining events, including karaoke and live bands on weekends. It's a smoking bar, which is rare nowadays. Drink prices are reasonable, and",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Red-Lion/553605444689911/Red-Lion-Tavern",
+        "quote": "Website | \" The only place to be! \" Neighborhood tavern. Weekend entertainment. Food and drinks. | (218)",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "9pm",
+      "basis": "posted on 2 different Thus",
+      "lastSeen": "2026-10-29",
+      "datedLastSeen": "2026-10-29",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Red-Lion/553605444689911/Red-Lion-Tavern",
+        "date": "2026-10-29",
+        "quote": " Hello folks today is Taco day and Karaoke tonight w Rockin Rich 9pm "
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Red-Lion/553605444689911/Red-Lion-Tavern",
+        "date": "2026-10-22",
+        "quote": " Karaoke tonight w Rockin Rich 9pm "
+       }
+      ],
+      "confidence": "medium"
+     },
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "9 pm",
+      "basis": "posted on 2 different Fris",
+      "lastSeen": "2026-10-30",
+      "datedLastSeen": "2026-10-30",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Red-Lion/553605444689911/Red-Lion-Tavern",
+        "date": "2026-10-30",
+        "quote": " Karaoke tonight w Rockin Rich at 9 pm "
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Red-Lion/553605444689911/Red-Lion-Tavern",
+        "date": "2026-10-23",
+        "quote": " Hello folks karaoke tonight w Rockin Rich 9pm "
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [
+     "Restaurantji review/summary mentions karaoke",
+     "Restaurantji review/summary mentions karaoke"
+    ],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-24",
+      "quote": " Karaoke tonight w Rockin Rich 9pm ",
+      "url": "https://www.foodyas.com/US/Red-Lion/553605444689911/Red-Lion-Tavern"
+     },
+     {
+      "date": "2026-10-23",
+      "quote": " Hello folks come on in and watch some football and get some tacos and Karaoke starts at 9pm w Rockin Rich ",
+      "url": "https://www.foodyas.com/US/Red-Lion/553605444689911/Red-Lion-Tavern"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/red-lion/red-lion-tavern-/",
+    "facebookMirror": "https://www.foodyas.com/US/Red-Lion/553605444689911/Red-Lion-Tavern",
+    "fbPostsSeen": 18,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "slow-and-low-bbq",
@@ -170,7 +330,15 @@
    "source": "Facebook (active Oct 2026); Toast ordering page (live hours); venue site slowandlowbbqpa.com (checked 2026-11-01)",
    "county": "York",
    "phone": "(717) 751-8818",
-   "phoneSource": "Venue site slowandlowbbqpa.com, checked 2026-11-01 (conflict: Toast lists 717-751-8188)"
+   "phoneSource": "Venue site slowandlowbbqpa.com, checked 2026-11-01 (conflict: Toast lists 717-751-8188)",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "rocoto-peruvian-and-mexican-grill",
@@ -195,7 +363,15 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "York"
+   "county": "York",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/red-lion/rocoto-peruvian-and-mexican-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Red-Lion/2471545332870375/Rocoto---Peruvian---%26-Mexican-Grill",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.rocotoredlion.com/"
+   }
   },
   {
    "id": "lion-s-pride-restaurant",
@@ -220,7 +396,51 @@
     "Family-friendly"
    ],
    "source": "Venue menu; Facebook",
-   "county": "York"
+   "county": "York",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Locals & regulars"
+    ],
+    "summary": "Family-friendly; a locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/pa/red-lion/lions-pride-restaurants-/",
+        "quote": "ressive dining experience with excellent service and delicious food. The restaurant has a family-friendly atmosphere, a large menu, and reasonable prices. It is a nice family place with homemade",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://lionspriderestaurant.net/",
+        "quote": "elicious Apple Dumpling with vanilla ice cream! | About Us | Lion’s Pride Restaurant is a local favorite, featuring a full breakfast, lunch, and dinner service. We offer a full breakfast menu wi",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/red-lion/lions-pride-restaurants-/",
+    "facebookMirror": "https://www.foodyas.com/US/Red-Lion/104994562877246/Lion%27s-Pride-Restaurant",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-29",
+    "website": "https://lionspriderestaurant.net/"
+   }
   }
  ],
  "counties": [

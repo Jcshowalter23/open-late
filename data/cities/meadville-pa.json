@@ -28,7 +28,64 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Crawford"
+   "county": "Crawford",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Locals & regulars"
+    ],
+    "summary": "Family-friendly; a locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-13",
+        "url": "https://www.restaurantji.com/pa/cochranton/aunt-bees-catering-and-wedding-/",
+        "quote": "Aunt Bee's Catering & Wedding offers a home-cooked meal in a cozy, family-friendly setting with great prices and portions on the lunch and dinner menu. The atmosphere is de",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Cochranton/163280200367704/Aunt-Bee%27s-Restaurant",
+        "quote": "Family friendly with many homemade, home-cooked type choices!! | (380)",
+        "self": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's own Facebook posts (2 since May 2026, via foodyas)",
+        "url": "https://www.foodyas.com/US/Cochranton/163280200367704/Aunt-Bee%27s-Restaurant",
+        "quote": "S FAMOUS BREAKFAST BUFFET | 📅 Sunday, October 4th | ⏰ 7:00 AM – 2:00 PM | 💲 Just $13.99 | Bring the family, bring your appetite, and leave the cooking to us! 🐝❤️ | COME HUNGRY… LEAVE HAPPY! 😋🥞☕"
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-13",
+        "url": "https://www.restaurantji.com/pa/cochranton/aunt-bees-catering-and-wedding-/",
+        "quote": "ner menu. The atmosphere is described as folksy and welcoming, making it a favorite among locals and truckers alike. The parking lot is flat and accessible, perfect for those with limite",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/cochranton/aunt-bees-catering-and-wedding-/",
+    "facebookMirror": "https://www.foodyas.com/US/Cochranton/163280200367704/Aunt-Bee%27s-Restaurant",
+    "fbPostsSeen": 17,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "bella-bella-mozzarella",
@@ -51,7 +108,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 31, 2026) (checked 2026-11-01)",
    "county": "Crawford",
    "phone": "(814) 373-5898",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/meadville/bella-bella-mozzarella-/",
+    "facebookMirror": "https://www.foodyas.com/US/Meadville/104251615764701/Bella-Bella-Mozzarella",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "borock-s-bar-and-grille",
@@ -92,7 +157,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 19, 2026) (checked 2026-11-01); BoRock's Bar & Grille Facebook post Sep 12, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Crawford",
    "phone": "(814) 724-6390",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 19, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 19, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Meadville/555473107926782/BoRock%E2%80%99s-Bar-%26-Grille",
+        "quote": "Your hometown bar where you can relax, unwind and be in a friendly inviting fun atmosphere. 🍺",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Meadville/555473107926782/BoRock%E2%80%99s-Bar-%26-Grille",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-09-16",
+    "website": null
+   }
   },
   {
    "id": "butch-s-pub",
@@ -117,7 +212,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Crawford",
    "phone": "(814) 807-1440",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Meadville/605573399546323/Butch%27s-Pub",
+    "fbPostsSeen": 4,
+    "fbNewestPost": "2026-06-04",
+    "website": null
+   }
   },
   {
    "id": "chippers-pub-meadville",
@@ -157,7 +260,124 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01); Chipper's Pub venue site (checked 2026-11-01)",
-   "county": "Crawford"
+   "county": "Crawford",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale",
+     "Families"
+    ],
+    "summary": "A date-night / upscale spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/meadville/chippers-pub-/",
+        "quote": "Chipper's Pub is a cozy restaurant with a romantic interior and a nice patio. The staff is friendly, especially Miranda, who excels in custo",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://chipperspubmeadville.com/",
+        "quote": "hedule for karaoke, and we have Wi-Fi available too, so you can always stay connected. So bring the family, and the kids can even stay until 11 p.m. Make it an afternoon or evening of | food and f",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "10 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://chipperspubmeadville.com/calendar/",
+        "date": "2026-11-01",
+        "quote": "Karaoke kicks off after 10 PM on Wednesdays, Thursdays, and Fridays (or by request)"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "10 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://chipperspubmeadville.com/calendar/",
+        "date": "2026-11-01",
+        "quote": "Karaoke kicks off after 10 PM on Wednesdays, Thursdays, and Fridays (or by request)"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "10 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://chipperspubmeadville.com/calendar/",
+        "date": "2026-11-01",
+        "quote": "Karaoke kicks off after 10 PM on Wednesdays, Thursdays, and Fridays (or by request)"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [
+     "Google attribute 'karaoke' (via Restaurantji)"
+    ],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "You will also want to check out our schedule for karaoke, and we have Wi-Fi available too, so you can always stay connected",
+      "url": "https://chipperspubmeadville.com/"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/meadville/chippers-pub-/",
+    "facebookMirror": "https://www.foodyas.com/US/Meadville/277104832749/Chippers-Pub-Meadville",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-24",
+    "website": "https://www.chipperspubmeadville.com/"
+   }
   },
   {
    "id": "compadres-meadville",
@@ -182,7 +402,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 9, 2026) (checked 2026-11-01)",
    "county": "Crawford",
    "phone": "(814) 336-6633",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 9, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 9, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-09",
+        "url": "https://www.restaurantji.com/pa/meadville/compadres-mexican-restaurant-/",
+        "quote": "many customers enjoy their strong flavors. The restaurant feels cozy and is suitable for families, providing a small salad, house-made chips, and sauce included with meals. Popular dishes",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/meadville/compadres-mexican-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Meadville/156386461592102/Compadres-Meadville",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "coop-s-smokehouse-and-bar",
@@ -206,7 +456,15 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Crawford"
+   "county": "Crawford",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Cochranton/354032281331367/Coop%27s-Smokehouse-And-Bar",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-06-20",
+    "website": null
+   }
   },
   {
    "id": "cork-and-pork",
@@ -229,7 +487,28 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Crawford"
+   "county": "Crawford",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-22",
+      "quote": "Saturday: 11-9 with karaoke at 6:30 ",
+      "url": "https://www.foodyas.com/US/Conneaut-Lake/1126088150581801/Cork-%26-Pork"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Conneaut-Lake/1126088150581801/Cork-%26-Pork",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "country-bound-bar-and-grill",
@@ -263,7 +542,51 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Aug 30, 2026) (checked 2026-11-01); Country Bound Bar & Grill Facebook post Oct 17, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Crawford",
    "phone": "(814) 763-3215",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Aug 30, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Aug 30, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-08-30",
+        "url": "https://www.restaurantji.com/pa/conneautville/country-bound-bar-and-grill-/",
+        "quote": "Country Bound Bar and Grill is a welcoming small-town spot where locals enjoy tasty food like baked potatoes loaded with various toppings and flavorful BBQ wings",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-08-30",
+        "url": "https://www.restaurantji.com/pa/conneautville/country-bound-bar-and-grill-/",
+        "quote": "owners and staff, ensuring a safe and pleasant environment. With ample parking, upcoming kid-friendly policies, and wheelchair ramps, it’s a great place for everyone to visit.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/conneautville/country-bound-bar-and-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Conneautville/105903042184486/Country-Bound-Bar-%26-Grill",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "country-corner-inn",
@@ -299,7 +622,15 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Crawford"
+   "county": "Crawford",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Linesville/212287728949718/Country-Corner-Inn",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "crystal-lake-inn",
@@ -336,7 +667,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01); Crystal Lake Inn Facebook post Oct 11 & 18, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Crawford",
    "phone": "(814) 382-6249",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Hartstown/1386236398355706/Crystal-Lake-Inn",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
   },
   {
    "id": "cup-n-spoon",
@@ -359,7 +698,15 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Crawford"
+   "county": "Crawford",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Meadville/106801155342654/Cup-n%27-Spoon",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "dominico-at-cussewago-square",
@@ -380,7 +727,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Crawford"
+   "county": "Crawford",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "dutch-treat-dairy",
@@ -403,7 +758,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 9, 2026) (checked 2026-11-01)",
    "county": "Crawford",
    "phone": "(814) 654-7228",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 9, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 9, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/spartansburg/dutch-treat-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Spartansburg/1572477586387949/Dutch-Treat-Dairy",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "firehouse-tap-and-grille",
@@ -430,7 +793,65 @@
    "source": "hours from the venue's website; Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Crawford",
    "phone": "(814) 724-3646",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families",
+     "Tourists"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly; sees a lot of visitors and tourists.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-14",
+        "url": "https://www.restaurantji.com/pa/meadville/firehouse-tap-and-grille-/",
+        "quote": "g busy, guests are seated quickly, making Firehouse Tap & Grille a favorite spot for both locals and out-of-towners, consistently delivering excellent food and friendly service even duri",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-14",
+        "url": "https://www.restaurantji.com/pa/meadville/firehouse-tap-and-grille-/",
+        "quote": "ks, including smoked old fashioneds, which add to the great atmosphere. The restaurant is kid-friendly, with plenty of seating options. Visitors appreciate the sampler platter for appetizers,",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Tourists",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-14",
+        "url": "https://www.restaurantji.com/pa/meadville/firehouse-tap-and-grille-/",
+        "quote": "sts are seated quickly, making Firehouse Tap & Grille a favorite spot for both locals and out-of-towners, consistently delivering excellent food and friendly service even during busy times.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/meadville/firehouse-tap-and-grille-/",
+    "facebookMirror": "https://www.foodyas.com/US/Meadville/407699086074578/Firehouse-Tap-%26-Grille",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-27",
+    "website": "https://www.firehousetapgrille.com/"
+   }
   },
   {
    "id": "hitchy-s-tavern-saegertown",
@@ -454,7 +875,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site hitchystavern.com (checked 2026-11-01); Website (rendered) hitchystavern.com (checked 2026-11-01)",
    "county": "Crawford",
    "phone": "(814) 783-0900",
-   "phoneSource": "Website (rendered) hitchystavern.com, checked 2026-11-01"
+   "phoneSource": "Website (rendered) hitchystavern.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "hunter-s-inn",
@@ -487,7 +916,42 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 6, 2026) (checked 2026-11-01)",
    "county": "Crawford",
    "phone": "(814) 789-2755",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 6, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 6, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/pa/meadville/hunters-inn-/",
+        "quote": "excellent food, fair prices, plenty of seating. Sometime s live music."
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/meadville/hunters-inn-/",
+        "quote": "live music"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/meadville/hunters-inn-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "j-i-s-place-restaurant-and-bar-at-sugar-lake-ho",
@@ -508,7 +972,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Crawford"
+   "county": "Crawford",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "julian-s-bar-and-grill-meadville-pa",
@@ -532,7 +1004,15 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Crawford"
+   "county": "Crawford",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Meadville/1590463787848338/Julian%27s-Bar-%26-Grill-Meadville%2C-PA",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-06-02",
+    "website": null
+   }
   },
   {
    "id": "macks-midway",
@@ -554,7 +1034,15 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Crawford"
+   "county": "Crawford",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "pelican-landing-iii",
@@ -575,7 +1063,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Crawford"
+   "county": "Crawford",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Conneaut-Lake-Park/100422129166383/Pelican-Landing-III",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "ranz-bar-and-grill",
@@ -637,7 +1133,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 12, 2026) (checked 2026-11-01); Ranz Bar & Grill Facebook post Oct 12–22, 2026 (via bars10) (checked 2026-11-01); Venue site ranzwingz.com (checked 2026-11-01)",
    "county": "Crawford",
    "phone": "(814) 724-2185",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/meadville/ranz-bar-and-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Meadville/112224102180939/Ranz-Bar-%26-Grill",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-22",
+    "website": null
+   }
   },
   {
    "id": "riverside-brewing-company",
@@ -663,7 +1167,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01)",
    "county": "Crawford",
    "phone": "(814) 813-5005",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-17",
+        "url": "https://www.restaurantji.com/pa/cambridge-springs/riverside-brewing-company-/",
+        "quote": ". Guests appreciate the high-end feel of the brew pub, and many have praised the food and live music in the outdoor entertainment area. The burgers are gorgeous, and the own draft beer is ta",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/cambridge-springs/riverside-brewing-company-/",
+    "facebookMirror": "https://www.foodyas.com/US/Cambridge-Springs/312731282538356/Riverside-Brewing-Company",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "saegertown-dairy-inn",
@@ -688,7 +1222,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 6, 2026) (checked 2026-11-01)",
    "county": "Crawford",
    "phone": "(814) 763-3333",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 6, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 6, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/saegertown/saegertown-dairy-inn-/",
+    "facebookMirror": "https://www.foodyas.com/US/Saegertown/157183377654644/Saegertown-Dairy-Inn",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-23",
+    "website": null
+   }
   },
   {
    "id": "south-station-9-the-tavern",
@@ -721,7 +1263,28 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01); South Station 9 - The Tavern Facebook post Oct 19, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Crawford",
    "phone": "(814) 337-0007",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-17",
+      "quote": "Karaoke starts at 7pm",
+      "url": "https://www.foodyas.com/US/Meadville/1446511885651118/South-Station-9---The-Tavern"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Meadville/1446511885651118/South-Station-9---The-Tavern",
+    "fbPostsSeen": 3,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "sweet-werx",
@@ -742,7 +1305,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Crawford"
+   "county": "Crawford",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "taco-factory-mexican-cuisine",
@@ -765,7 +1336,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Crawford",
    "phone": "(814) 337-8226",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 11, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 11, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Meadville/324588900746280/Taco-Factory-Mexican-Cuisine",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-26",
+    "website": null
+   }
   },
   {
    "id": "tavern-618",
@@ -812,7 +1391,52 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 20, 2026) (checked 2026-11-01); Tavern 618 Facebook post Oct 15–18, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Crawford",
    "phone": "(814) 213-0070",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 20, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-20",
+        "url": "https://www.restaurantji.com/pa/conneaut-lake/tavern-618-/",
+        "quote": "he dining area is large and open, yet maintains a cozy cabin feel, making it suitable for families and individuals alike. The staff is friendly and attentive, providing fast service, and t",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/pa/conneaut-lake/tavern-618-/",
+        "quote": "The wings!! Some of the best wings I have ever had! Fun, family friendly atmosphere. Great service. Highly recommend."
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "hints": [
+     "Restaurantji review/summary mentions karaoke"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/conneaut-lake/tavern-618-/",
+    "facebookMirror": "https://www.foodyas.com/US/Conneaut-Lake/666009509922821/Tavern-618",
+    "fbPostsSeen": 5,
+    "fbNewestPost": "2026-10-18",
+    "website": null
+   }
   },
   {
    "id": "the-crooked-paddle",
@@ -835,7 +1459,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Crawford",
    "phone": "(814) 683-2304",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/linesville/the-crooked-paddle-/",
+        "quote": "The Crooked Paddle is a family-friendly restaurant with a cute and welcoming atmosphere. The staff is friendly, and the prices ar",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/linesville/the-crooked-paddle-/",
+    "facebookMirror": "https://www.foodyas.com/US/Linesville/540189783138285/The-Crooked-Paddle",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
   },
   {
    "id": "the-tiki-bar-at-conneaut-lake-park",
@@ -859,7 +1513,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "Crawford",
    "phone": "(814) 225-7985",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/conneaut-lake/the-tiki-bar-/",
+        "quote": "elcoming atmosphere and fun-filled environment, the Tiki Bar is a popular destination for locals and visitors alike.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/conneaut-lake/the-tiki-bar-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-triple-deuce-saloon",
@@ -883,7 +1567,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "Crawford",
    "phone": "(814) 980-7722",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/meadville/the-triple-deuce-saloon-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-whole-darn-thing",
@@ -904,7 +1596,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Crawford"
+   "county": "Crawford",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Meadville/426582480731828/The-Whole-Darn-Thing",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "updated-valenza-restaurant-meadville",
@@ -927,7 +1627,51 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 9, 2026) (checked 2026-11-01)",
    "county": "Crawford",
    "phone": "(814) 724-1222",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 9, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 9, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-09",
+        "url": "https://www.restaurantji.com/pa/meadville/valenza-restaurant-/",
+        "quote": "Valenza Restaurant offers a hometown feel with amazing Italian food that will make taste buds dance. The Steak Wedge is a must-try",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-09",
+        "url": "https://www.restaurantji.com/pa/meadville/valenza-restaurant-/",
+        "quote": "essible, although the entry may be tight for larger wheelchairs. With ample parking and a kid-friendly environment, Valenza Restaurant is a top choice for delicious Italian cuisine. Guests hav",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/meadville/valenza-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Meadville/117883911335201/Updated-Valenza-Restaurant-Meadville",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-09-04",
+    "website": null
+   }
   },
   {
    "id": "voodoo-brewing-co-production-facility",
@@ -954,7 +1698,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Crawford",
    "phone": "(814) 333-9123",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/meadville/voodoo-brewery-production-facility-and-event-pub-/",
+    "facebookMirror": "https://www.foodyas.com/US/Meadville/254931941651521/Voodoo-Brewing-Co.---Production-Facility",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-12",
+    "website": null
+   }
   },
   {
    "id": "wicked-hollo-bar-and-grill",
@@ -977,7 +1729,37 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Crawford"
+   "county": "Crawford",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Meadville/258524140681465/Wicked-Hollo-Bar-%26-Grill",
+        "quote": "Contact the business | Wicked Hollo is a family owned bar & grill, we are family friendly and non smoking!",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Meadville/258524140681465/Wicked-Hollo-Bar-%26-Grill",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
   },
   {
    "id": "xu-fei-chinese-restuarant",
@@ -998,7 +1780,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Crawford"
+   "county": "Crawford",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Conneaut-Lake/1160355677159472/Xu-Fei-Chinese-Restuarant",
+    "fbPostsSeen": 2,
+    "fbNewestPost": "2026-06-23",
+    "website": null
+   }
   },
   {
    "id": "yamato-restaurant",
@@ -1023,7 +1813,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 14, 2026) (checked 2026-11-01)",
    "county": "Crawford",
    "phone": "(814) 219-3575",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 14, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-14",
+        "url": "https://www.restaurantji.com/pa/meadville/yamato-/",
+        "quote": "urant is missing live hibachi, but for the space available it is an excellent restaurant. Families will be returning again.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/meadville/yamato-/",
+    "facebookMirror": "https://www.foodyas.com/US/Meadville/897685616752033/Yamato-Restaurant",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-08-14",
+    "website": null
+   }
   },
   {
    "id": "yorkie-s-grille-and-custard",
@@ -1044,7 +1864,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Crawford"
+   "county": "Crawford",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Espyville/142171305808616/Yorkie%27s-Grille-%26-Custard",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-04",
+    "website": null
+   }
   }
  ],
  "counties": [

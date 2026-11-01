@@ -45,7 +45,15 @@
    "source": "Venue site; columbiakettleworks.com Adamstown page (checked 2026-11-01); Columbia Kettle Works–Adamstown Facebook post Oct 21, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 620-1824",
-   "phoneSource": "Search-result snippet from venue site columbiakettleworks.com, checked 2026-11-01"
+   "phoneSource": "Search-result snippet from venue site columbiakettleworks.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.columbiakettleworks.com/"
+   }
   },
   {
    "id": "rural-city-beer-co",
@@ -70,7 +78,80 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Sep 30, 2026) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 335-8001",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 30, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 30, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Live music fans"
+    ],
+    "summary": "A locals-and-regulars spot; known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-30",
+        "url": "https://www.restaurantji.com/pa/reamstown/rural-city-beer-co-/",
+        "quote": "ub fare, and friendly service. Known for their exceptional beer and awesome burgers, this neighborhood spot hosts special events like live music and trivia nights. The staff is super friendly and a",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-30",
+        "url": "https://www.restaurantji.com/pa/reamstown/rural-city-beer-co-/",
+        "quote": "ir exceptional beer and awesome burgers, this neighborhood spot hosts special events like live music and trivia nights. The staff is super friendly and accommodating, creating a welcoming at",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "9 pm",
+      "confidence": "low",
+      "lastSeen": "2026-04-04",
+      "datedLastSeen": "2026-04-04",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "TasteLanc events listing (page last modified 2026-04-04)",
+        "url": "https://tastelanc.com/restaurants/rural-city-beer-co/events",
+        "date": "2026-04-04",
+        "quote": "Karaoke Night | friday • 21:00"
+       }
+      ],
+      "note": "Only source is a TasteLanc listing last modified before the 6-month cutoff (2026-05-01); not used",
+      "stale": true,
+      "manual": true
+     }
+    ],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [],
+    "reviewNote": "Targeted web search, manual read"
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/reamstown/rural-city-beer-co-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://ruralcitybeer.com/"
+   }
   },
   {
    "id": "the-penguin-hotel",
@@ -120,7 +201,74 @@
     "Family-friendly"
    ],
    "source": "Venue site; Hours: Restaurantji listing (Google-sourced); kitchen hours: thepenguinhotel.com (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Locals & regulars"
+    ],
+    "summary": "Family-friendly; a locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/stevens/the-penguin-hotel-/",
+        "quote": "Shrimp. For dessert, the Chocolate Peanut Butter Thunder Cake is a tasty option. With a family-friendly and joyful atmosphere, The Penguin Hotel is perfect for a night out. The cozy and intimat",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Stevens/530885906934431/The-Penguin-Hotel",
+        "quote": "that offers your favorite pub handheld sandwiches to our signature dishes that brings our locals back again and again.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke",
+      "url": "https://www.thepenguinhotel.com/general-1"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "🎤 COME JOIN US FOR KARAOKE",
+      "url": "https://www.thepenguinhotel.com/general-1"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Whether you’re a karaoke superstar, a shower singer, or just coming to cheer everyone on, everyone is welcome",
+      "url": "https://www.thepenguinhotel.com/general-1"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/stevens/the-penguin-hotel-/",
+    "facebookMirror": "https://www.foodyas.com/US/Stevens/530885906934431/The-Penguin-Hotel",
+    "fbPostsSeen": 2,
+    "fbNewestPost": "2026-10-25",
+    "website": "https://www.thepenguinhotel.com/"
+   }
   },
   {
    "id": "johnny-s-bar-and-steakhouse",
@@ -152,7 +300,28 @@
     "Date night"
    ],
    "source": "Venue site; Johnny's venue site happy hour (checked 2026-11-01); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " - The Ultimate Ladies' Singalong Brunch - Nov",
+      "url": "https://johnnysbarandsteakhouse.com/"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/stevens/johnnys-bar-and-steakhouse-/",
+    "facebookMirror": "https://www.foodyas.com/US/Stevens/171644078105/Johnny%27s-Bar-and-Steakhouse",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-24",
+    "website": "https://johnnysbarandsteakhouse.com/"
+   }
   },
   {
    "id": "cocalico-tavern",
@@ -178,7 +347,46 @@
    "source": "exa.ai places listing / Restaurantji",
    "county": "Lancaster",
    "phone": "(717) 336-0000",
-   "phoneSource": "Apple Maps; Unilocal listing, checked 2026-11-01"
+   "phoneSource": "Apple Maps; Unilocal listing, checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-13",
+        "url": "https://www.restaurantji.com/pa/stevens/cocalico-tavern-/",
+        "quote": "mmodating bartenders contribute to a \"Cheers\" vibe that makes it a favorite spot for many locals. While it is a kid-free environment, adults can enjoy the best wings and a great selectio",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "hints": [
+     "Google attribute 'karaoke' (via Restaurantji)"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/stevens/cocalico-tavern-/",
+    "facebookMirror": "https://www.foodyas.com/US/Stevens/163125046622/Cocalico-Tavern",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "the-village-haus",
@@ -203,7 +411,56 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Live music fans",
+     "Locals & regulars"
+    ],
+    "summary": "Known for live music; a locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #1",
+        "url": "https://www.restaurantji.com/pa/reinholds/the-village-haus-/",
+        "quote": "s big menu, food was great. They need help like every place today but I highly recommend. Live music many nights is just nice. Wish they had a country night!"
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/reinholds/the-village-haus-/",
+        "quote": "live music"
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-17",
+        "url": "https://www.restaurantji.com/pa/reinholds/the-village-haus-/",
+        "quote": "xing atmosphere makes it a great spot for both meals and drinks, especially popular among regulars who appreciate the hardworking and humorous staff. The restaurant features excellent sand",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/reinholds/the-village-haus-/",
+    "facebookMirror": "https://www.foodyas.com/US/Reinholds/248131248570720/The-Village-Haus-at-Stoudtburg-Village",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-10",
+    "website": "https://thevillagehaus.com/"
+   }
   },
   {
    "id": "the-station-at-reinholds-inn",
@@ -263,7 +520,15 @@
     "Live music & events"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Reinholds/88102143703/The-Station-at-Reinholds-Inn",
+    "fbPostsSeen": 1,
+    "fbNewestPost": "2026-10-25",
+    "website": "https://www.reinholdsinn.com/"
+   }
   },
   {
    "id": "huie-s-gray-fox-inn",
@@ -288,7 +553,15 @@
    "source": "Restaurantji / exa.ai places listing (agree); Restaurantji (Google-sourced listing, updated Oct 21, 2026) (checked 2026-11-01)",
    "county": "Berks",
    "phone": "(717) 484-2625",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   }
  ],
  "counties": [

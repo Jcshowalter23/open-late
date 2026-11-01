@@ -32,7 +32,110 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 12, 2026) (checked 2026-11-01)",
    "county": "Butler",
    "phone": "(724) 283-8570",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-12",
+        "url": "https://www.restaurantji.com/pa/butler/11th-frame-bar-and-grille-/",
+        "quote": "ount of craft beer on tap, and generous appetizers, it's a great place to meet friends or watch a game. The restaurant offers a variety of activities, such as cornhole, karaoke, and bowling, w",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "7 PM",
+      "basis": "posted on 2 different Fris",
+      "lastSeen": "2026-10-11",
+      "datedLastSeen": "2026-10-11",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Butler/1761519314105544/11th-Frame-Bar-and-Grille",
+        "date": "2026-10-11",
+        "quote": "Karaoke night with DJ Sammy starts at 7 PM | Friday 🤠"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Butler/1761519314105544/11th-Frame-Bar-and-Grille",
+        "date": "2026-09-27",
+        "quote": "Jumbo wings and karaoke are on the schedule | Friday 🤠"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [
+     "Restaurantji review/summary mentions karaoke"
+    ],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-28",
+      "quote": "9 PM | 18+ with parent/legal guardian | 🎤 10/28 | Boos & Booze >> Boos & Booze Karaoke Party",
+      "url": "https://www.foodyas.com/US/Butler/1761519314105544/11th-Frame-Bar-and-Grille"
+     },
+     {
+      "date": "2026-10-11",
+      "quote": " 🍻🎶 We’ve got trivia, karaoke, line dancing, and live music lined up, so there’s plenty of reason to get out and join us | Monday & Tuesday 🧠",
+      "url": "https://www.foodyas.com/US/Butler/1761519314105544/11th-Frame-Bar-and-Grille"
+     },
+     {
+      "date": "2026-10-05",
+      "quote": " DJ Sammy has karaoke starting at 7 PM, paired with our jumbo wing special",
+      "url": "https://www.foodyas.com/US/Butler/1761519314105544/11th-Frame-Bar-and-Grille"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-28",
+      "quote": "18+ with parent/legal guardian | 🎤 10/28 | Boos & Booze Karaoke Party | >> DJ Sammy | 9 PM",
+      "url": "https://www.foodyas.com/US/Butler/1761519314105544/11th-Frame-Bar-and-Grille"
+     },
+     {
+      "date": "2026-10-23",
+      "quote": "ady for a Halloween lineup packed with music, dancing, karaoke, and plenty of fun! | 👢 10/23 | Halloween Line Dancing | >> DJ Sammy | 9 PM",
+      "url": "https://www.foodyas.com/US/Butler/1761519314105544/11th-Frame-Bar-and-Grille"
+     },
+     {
+      "date": "2026-10-05",
+      "quote": "Line dancing is happening in The BackAlley with DJ Brandi Lynn starting at 9 PM | Friday 🤠",
+      "url": "https://www.foodyas.com/US/Butler/1761519314105544/11th-Frame-Bar-and-Grille"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/butler/11th-frame-bar-and-grille-/",
+    "facebookMirror": "https://www.foodyas.com/US/Butler/1761519314105544/11th-Frame-Bar-and-Grille",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-12",
+    "website": null
+   }
   },
   {
    "id": "all-stars-bar-and-restaurant",
@@ -57,7 +160,43 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 14, 2026) (checked 2026-11-01)",
    "county": "Clarion",
    "phone": "(724) 526-5706",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 14, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #1",
+        "url": "https://www.restaurantji.com/pa/east-brady/all-stars-/",
+        "quote": "All Stars is the definition of “neighborhood bar and restaurant.” They have incredible food (especially wings) and a huge drink selection"
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/East-Brady/240480249325495/All-Stars-Bar-%26-Restaurant",
+        "quote": "tates | East Brady, PA | All Stars Bar & Restaurant | Directions | Contact the business | Local Bar & Restaurant - Great food. Cold drinks. Good times. | (1)",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/east-brady/all-stars-/",
+    "facebookMirror": "https://www.foodyas.com/US/East-Brady/240480249325495/All-Stars-Bar-%26-Restaurant",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "beginner-s-luck-fox-s-extension",
@@ -78,7 +217,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Butler"
+   "county": "Butler",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Chicora/421277677732197/Beginner%27s-Luck---Fox%27s-Extension",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-05-07",
+    "website": null
+   }
   },
   {
    "id": "belmont-ii",
@@ -99,7 +246,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Butler"
+   "county": "Butler",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Butler/150196821698732/Belmont-II",
+    "fbPostsSeen": 2,
+    "fbNewestPost": "2026-03-14",
+    "website": null
+   }
   },
   {
    "id": "bill-s-beer-barn",
@@ -122,7 +277,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Butler"
+   "county": "Butler",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Butler/140551662647196/Bill%27s-Beer-Barn",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2024-09-30",
+    "website": null
+   }
   },
   {
    "id": "brighton-hot-dog-shoppe",
@@ -143,7 +306,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Butler",
    "phone": "(724) 841-0074",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://twitter.com/ButlerBrighton"
+   }
   },
   {
    "id": "cellar-works-brewing",
@@ -167,7 +338,15 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Butler"
+   "county": "Butler",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Sarver/547727808593191/Cellar-Works-Brewing",
+    "fbPostsSeen": 12,
+    "fbNewestPost": "2024-12-05",
+    "website": null
+   }
   },
   {
    "id": "compadres-mexican-restaurant-butler",
@@ -192,7 +371,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 12, 2026) (checked 2026-11-01)",
    "county": "Butler",
    "phone": "(724) 282-1702",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/butler/compadres-mexican-restaurant-and-cantina-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "countryside-beer-distributor",
@@ -215,7 +402,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Butler"
+   "county": "Butler",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Sarver/108230034437965/Countryside-Beer-Distributor",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-21",
+    "website": null
+   }
   },
   {
    "id": "county-line-tavern-and-grille",
@@ -240,7 +435,46 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01); Venue site countylinetavernandgrille.com (checked 2026-11-01)",
    "county": "Butler",
    "phone": "(724) 283-7079",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/fenelton/county-line-tavern-/",
+        "quote": "ing environment, with a nice selection on the menu and bar, making it a favorite spot for regulars in the area.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "hints": [
+     "Restaurantji review/summary mentions dj"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/fenelton/county-line-tavern-/",
+    "facebookMirror": "https://www.foodyas.com/US/Fenelton/173123682704307/County-Line-Tavern-%26-Grille",
+    "fbPostsSeen": 1,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "dew-drop-inn",
@@ -266,7 +500,91 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Butler",
    "phone": "(724) 445-3733",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "monthly",
+      "start": "8:30PM–12:30AM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-10-10",
+      "datedLastSeen": "2026-10-10",
+      "postsSeen": 6,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Chicora/70411139761/Dew-Drop-Inn",
+        "date": "2026-10-10",
+        "quote": "onight!!! | 🚨🎤 YOUR SHOWER CONCERT CALLED… IT'S TIME TO TAKE THE STAGE! 😂🎶🍻 | 🔥 TONIGHT — SATURDAY, OCTOBER 10TH! 🔥 | 🎤 >> 🎤 KARAOKE AT THE DEW DROP INN"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Chicora/70411139761/Dew-Drop-Inn",
+        "date": "2026-10-10",
+        "quote": "📅 Karaoke EVERY 2nd Saturday"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Chicora/70411139761/Dew-Drop-Inn",
+        "date": "2026-10-10",
+        "quote": "🎤 Karaoke | Come on out on SATURDAY, 10/10!"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-09-10",
+      "quote": " Karaoke is BACK",
+      "url": "https://www.foodyas.com/US/Chicora/70411139761/Dew-Drop-Inn"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "monthly",
+      "start": "8:30PM–12:30AM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-10-10",
+      "datedLastSeen": "2026-10-10",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Chicora/70411139761/Dew-Drop-Inn",
+        "date": "2026-10-10",
+        "quote": "ALLED… IT'S TIME TO TAKE THE STAGE! 😂🎶🍻 | 🔥 TONIGHT — SATURDAY, OCTOBER 10TH! 🔥 | 🎤 KARAOKE AT THE DEW DROP INN! | 🎧 w/ >> 🎧 w/ DJ Ande | ⏰ 8:30PM–12:30AM"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Chicora/70411139761/Dew-Drop-Inn",
+        "date": "2026-09-10",
+        "quote": "🎧 w/ DJ Sammy | 🍻 Every 2nd Saturday of the Month | 🍻 Every 2nd Saturday of the Month"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Chicora/70411139761/Dew-Drop-Inn",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-10",
+    "website": null
+   }
   },
   {
    "id": "field-house",
@@ -291,7 +609,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 30, 2026) (checked 2026-11-01)",
    "county": "Butler",
    "phone": "(724) 352-9603",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 30, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 30, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-30",
+        "url": "https://www.restaurantji.com/pa/cabot/field-house-restaurant-/",
+        "quote": "istently great service and meals. Guests can enjoy a good beer selection and a variety of live music and events, creating a lively yet comfortable environment. The restaurant features severa",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/cabot/field-house-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Cabot/201856203193063/Field-House",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
   },
   {
    "id": "handlebar-cafe-and-craft-house-saxonburg-pa",
@@ -318,7 +666,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Butler"
+   "county": "Butler",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Butler/664525650603128/Handlebar-Cafe-and-Craft-House%2C-Saxonburg%2C-PA",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-28",
+    "website": "https://www.handlebarcafesaxonburg.com/"
+   }
   },
   {
    "id": "helltown-taproom-butler",
@@ -351,7 +707,51 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Helltown Taproom Butler Facebook post Oct 26–29, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Butler"
+   "county": "Butler",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Live music fans"
+    ],
+    "summary": "Family-friendly; known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-11-01",
+        "url": "https://www.restaurantji.com/pa/butler/helltown-butler-/",
+        "quote": "eshing atmosphere, though the music can get very loud, making it hard to talk. The bar is family-friendly and dog-friendly in warm weather, with a cute cozy area despite the open floor plan and h",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-11-01",
+        "url": "https://www.restaurantji.com/pa/butler/helltown-butler-/",
+        "quote": "ce, a wide selection of IPAs, and local bottled seltzers. The rotation of food trucks and live music create a refreshing atmosphere, though the music can get very loud, making it hard to tal",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/butler/helltown-butler-/",
+    "facebookMirror": "https://www.foodyas.com/US/Butler/102375372877760/Helltown-Taproom-Butler",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "hop-car-brewing",
@@ -376,7 +776,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Butler",
    "phone": "(724) 841-0302",
-   "phoneSource": "Venue website hopcarbrewing.com, checked 2026-11-01"
+   "phoneSource": "Venue website hopcarbrewing.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Butler/791681894038907/Hop-Car-Brewing",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "jjs-world",
@@ -399,7 +807,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Butler",
    "phone": "(724) 607-1667",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/chicora/jjs-world-/",
+    "facebookMirror": "https://www.foodyas.com/US/Chicora/335902599599465/JJ%E2%80%99s-World",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-26",
+    "website": null
+   }
   },
   {
    "id": "la-vigneta-winery-and-italian-grill",
@@ -424,7 +840,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Butler",
    "phone": "(724) 524-1703",
-   "phoneSource": "Venue website lavignetawinery.com, checked 2026-11-01"
+   "phoneSource": "Venue website lavignetawinery.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "mama-rosas-restaurant",
@@ -447,7 +871,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Butler",
    "phone": "(724) 287-7315",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/butler/mama-rosas-restaurant-and-lounge-/",
+    "facebookMirror": "https://www.foodyas.com/US/Butler/187354527790951/Mama-Rosa%E2%80%99s-Restaurant",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
   },
   {
    "id": "mcbride-station-bar-and-grill",
@@ -472,7 +904,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Butler",
    "phone": "(724) 481-1151",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Dive bar"
+    ],
+    "summary": "No-frills dive-bar feel.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Dive bar",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/butler/mcbride-station-/",
+        "quote": "McBride Station is a cozy local dive bar with a good atmosphere. The bartender, Jeanette, is friendly and welcoming, making sure e",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/butler/mcbride-station-/",
+    "facebookMirror": "https://www.foodyas.com/US/Butler/142545573010198/Mcbride-Station-Bar-And-Grill",
+    "fbPostsSeen": 5,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "micos-kitchen",
@@ -495,7 +957,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Butler"
+   "county": "Butler",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Butler/106534694945498/Micos-Kitchen",
+    "fbPostsSeen": 12,
+    "fbNewestPost": "2024-07-23",
+    "website": "https://micoskitchen.net/"
+   }
   },
   {
    "id": "missing-links-brewery",
@@ -521,7 +991,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Aug 23, 2026) (checked 2026-11-01)",
    "county": "Butler",
    "phone": "(724) 486-3777",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Aug 23, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Aug 23, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/renfrew/missing-links-brewery-/",
+    "facebookMirror": "https://www.foodyas.com/US/Renfrew/154719731730729/Missing-Links-Brewery",
+    "fbPostsSeen": 5,
+    "fbNewestPost": "2026-04-05",
+    "website": null
+   }
   },
   {
    "id": "natili-north",
@@ -546,7 +1024,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Butler",
    "phone": "(724) 283-2149",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/butler/natili-north-/",
+    "facebookMirror": "https://www.foodyas.com/US/Butler/284904164875276/Natili-North",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "ocean-dragon-chinese-restaurant",
@@ -569,7 +1055,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 12, 2026) (checked 2026-11-01)",
    "county": "Butler",
    "phone": "(724) 540-1618",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/sarver/ocean-dragon-chinese-/",
+    "facebookMirror": "https://www.foodyas.com/US/Sarver/1621378024543226/Ocean-Dragon-Chinese-Restaurant",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "osaka-hibachi-restaurant",
@@ -590,7 +1084,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Butler"
+   "county": "Butler",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/sarver/osaka-hibachi-and-sushi-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.osakasarver.com/"
+   }
   },
   {
    "id": "peter-b-s-bar-and-grill",
@@ -613,7 +1115,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Butler"
+   "county": "Butler",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Sarver/111259942266063/Peter-B%27s-Bar-%26-Grill",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "pocha-by-kye-won",
@@ -636,7 +1146,42 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Butler",
    "phone": "(724) 393-2229",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/pa/saxonburg/pocha-by-kye-won-/",
+        "quote": "ABSOLUTELY EXCELLENT!! The food was amazing and the staff was wonderful. My husband was in Korea while in the Army and really enjoys finding Korean restaurants to try. We had se"
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/saxonburg/pocha-by-kye-won-/",
+        "quote": "live music"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/saxonburg/pocha-by-kye-won-/",
+    "facebookMirror": "https://www.foodyas.com/US/Saxonburg/132001010007375/POCHA-by-Kye-Won",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
   },
   {
    "id": "rachel-s-roadhouse-butler",
@@ -659,7 +1204,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Butler"
+   "county": "Butler",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/butler/rachels-roadhouse-butler-pa-/",
+    "facebookMirror": "https://www.foodyas.com/US/Butler/169677659838002/Rachel%27s-Roadhouse---Butler",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-07-09",
+    "website": null
+   }
   },
   {
    "id": "rey-azteca-butler",
@@ -680,7 +1233,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 12, 2026) (checked 2026-11-01)",
    "county": "Butler",
    "phone": "(724) 285-2600",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/butler/rey-azteca-butler-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "rock-a-fellas-sports-grille",
@@ -713,7 +1274,15 @@
    "source": "hours from the venue's website; Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01); Venue site rockafellassportsgrille.com (checked 2026-11-01)",
    "county": "Butler",
    "phone": "(724) 295-3999",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/sarver/rock-a-fellas-sports-grille-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "rockhouse-bargrill",
@@ -737,7 +1306,28 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Butler"
+   "county": "Butler",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-09-24",
+      "quote": "Today we have Karaoke with Djs Samantha Enderle and Shawn R | ☀️⛅️Happy Thursday!!☀️⛅️",
+      "url": "https://www.foodyas.com/US/Butler/1608896526066953/RockHouse-BarGrill"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Butler/1608896526066953/RockHouse-BarGrill",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-21",
+    "website": null
+   }
   },
   {
    "id": "the-beer-garden-sports-bar-and-grille",
@@ -762,7 +1352,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Butler",
    "phone": "(724) 894-2428",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/petrolia/beer-garden-/",
+    "facebookMirror": "https://www.foodyas.com/US/Petrolia/165305342422/The-Beer-Garden-Sports-Bar-%26-Grille",
+    "fbPostsSeen": 2,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "the-chop-shop",
@@ -785,7 +1383,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 15, 2026) (checked 2026-11-01)",
    "county": "Butler",
    "phone": "(724) 256-9959",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 15, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 15, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/butler/chop-shop-/",
+    "facebookMirror": "https://www.foodyas.com/US/Butler/112027892211108/The-Chop-Shop",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-23",
+    "website": null
+   }
   },
   {
    "id": "the-corners-burgers-n-shakes",
@@ -808,7 +1414,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Butler"
+   "county": "Butler",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/chicora/the-corners-burgers-n-shakes-/",
+    "facebookMirror": "https://www.foodyas.com/US/Chicora/101264486058322/The-Corners-Burgers-%E2%80%98n-Shakes",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-16",
+    "website": "https://www.thecornersburgersnshakes.com/"
+   }
   },
   {
    "id": "the-millerstown-inn",
@@ -834,7 +1448,82 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "Butler",
    "phone": "(724) 445-2157",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/chicora/millerstown-inn-/",
+        "quote": "Millerstown Inn is a popular spot for families and groups, serving delicious food like perogies and portobello mushrooms. While there mi",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "monthly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-09-19",
+      "datedLastSeen": "2026-09-19",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Chicora/181274548896380/The-Millerstown-INN",
+        "date": "2026-09-19",
+        "quote": "Starting in October, we will be having karaoke nights every first and third Wednesday of the month"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-09-19",
+      "quote": "Karaoke by DJTUNESMITH 🎤",
+      "url": "https://www.foodyas.com/US/Chicora/181274548896380/The-Millerstown-INN"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-24",
+      "quote": " COME OUT & CELEBRATE WITH DJ BRENT 😋🕺🏼",
+      "url": "https://www.foodyas.com/US/Chicora/181274548896380/The-Millerstown-INN"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/chicora/millerstown-inn-/",
+    "facebookMirror": "https://www.foodyas.com/US/Chicora/181274548896380/The-Millerstown-INN",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "tonys-cafe-sarver",
@@ -857,7 +1546,51 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 30, 2026) (checked 2026-11-01)",
    "county": "Butler",
    "phone": "(724) 295-0011",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 30, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 30, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-30",
+        "url": "https://www.restaurantji.com/pa/sarver/tonys-pizza-cafe-/",
+        "quote": "th mobility needs. The owner's kindness and attentiveness to customers, often remembering regulars, contribute to the overall pleasant dining experience. Overall, Tony's Pizza Cafe is a hi",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-30",
+        "url": "https://www.restaurantji.com/pa/sarver/tonys-pizza-cafe-/",
+        "quote": "t is worth the wait. The restaurant offers a cozy atmosphere, making it an ideal spot for families and groups. Parking is readily available, and the establishment is easily accessible for",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/sarver/tonys-pizza-cafe-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "yamato-hibachi-sushi-butler",
@@ -876,7 +1609,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Butler"
+   "county": "Butler",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   }
  ],
  "counties": [

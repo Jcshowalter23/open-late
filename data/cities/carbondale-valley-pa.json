@@ -28,7 +28,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Lackawanna",
    "phone": "(570) 876-9993",
-   "phoneSource": "Venue website alexandersmayfield.com, checked 2026-11-01"
+   "phoneSource": "Venue website alexandersmayfield.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "barrett-s-pub",
@@ -74,7 +82,15 @@
    "source": "hours from the venue's website; Venue site barrettspub.com (checked 2026-11-01)",
    "county": "Lackawanna",
    "phone": "(570) 876-2503",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "beer-express-simpson",
@@ -99,7 +115,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via bars10.com) (checked 2026-11-01)",
    "county": "Lackawanna",
    "phone": "(570) 282-5338",
-   "phoneSource": "Facebook page “Beer Express Simpson” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Beer Express Simpson” (via bars10.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Simpson/303834919628173/Beer-Express-Simpson",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "bottler-s-tavern",
@@ -125,7 +149,50 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "Lackawanna",
    "phone": "(570) 876-1695",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Jermyn/108133792560987/Bottler%27s-Tavern",
+        "quote": "his family to own and operate the business with his wife Alicia McDermott. Bottlers is a sports bar with surround TV's for all sporting events including NFL Sunday Ticket. Also available; p",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-30",
+      "quote": " HALLOWEEN BASH AT | BOTTLERS TAVERN!! | 10/30 8-11pm | FEATURING >> FEATURING DJ SOSA ENTERTAINMENT | 10/30 8-11pm",
+      "url": "https://www.foodyas.com/US/Jermyn/108133792560987/Bottler%27s-Tavern"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Jermyn/108133792560987/Bottler%27s-Tavern",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-20",
+    "website": null
+   }
   },
   {
    "id": "breaker-brewing-outpost",
@@ -159,7 +226,43 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 31, 2026) (checked 2026-11-01)",
    "county": "Lackawanna",
    "phone": "(570) 392-9078",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-31",
+        "url": "https://www.restaurantji.com/pa/archbald/breaker-brewing-outpost-/",
+        "quote": "d that the place can be quiet at first, creating a good environment for conversation, but live music later in the evening can make it difficult to hear each other. The staff, particularly th",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/archbald/breaker-brewing-outpost-/",
+        "quote": "live music"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/archbald/breaker-brewing-outpost-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "bud-s-bar-and-grill",
@@ -185,7 +288,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Aug 31, 2026) (checked 2026-11-01)",
    "county": "Lackawanna",
    "phone": "(570) 876-5477",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Aug 31, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Aug 31, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/archbald/buds-bar-and-grill-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "cafe-colarusso",
@@ -210,7 +321,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 13, 2026) (checked 2026-11-01)",
    "county": "Lackawanna",
    "phone": "(570) 489-2456",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 13, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 13, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/jessup/cafe-colarusso-/",
+    "facebookMirror": "https://www.foodyas.com/US/Jessup/84371463446/Cafe-Colarusso",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-09-11",
+    "website": null
+   }
   },
   {
    "id": "calandi-s-bar",
@@ -235,7 +354,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via bars10.com) (checked 2026-11-01)",
    "county": "Lackawanna",
    "phone": "(570) 282-6393",
-   "phoneSource": "Facebook page “Calandi's Bar” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Calandi's Bar” (via bars10.com), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Carbondale/1416918515048272/Calandi%27s-Bar",
+        "quote": "landi's Bar | Home | United States | Carbondale, PA | Calandi's Bar | Call | Directions | Local bar/tavern with affordable drinks and home cooked food.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Carbondale/1416918515048272/Calandi%27s-Bar",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "cheap-shots-bar-and-restaurant",
@@ -262,7 +411,58 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 23, 2026) (checked 2026-11-01)",
    "county": "Lackawanna",
    "phone": "(570) 291-4420",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 23, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 23, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-23",
+        "url": "https://www.restaurantji.com/pa/dickson-city/cheap-shots-bar-and-restaurant-/",
+        "quote": "valley, known for its great food, cold beer, and attentive staff. The restaurant features live music or a DJ on certain nights, along with pool tables and dart boards for entertainment. The",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #1",
+        "url": "https://www.restaurantji.com/pa/dickson-city/cheap-shots-bar-and-restaurant-/",
+        "quote": "are friendly and quick to get your drink refilled. there is so much to do between there live music venues, multiple pool tables, slots, or just hang out on there outdoor patio. all around"
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/dickson-city/cheap-shots-bar-and-restaurant-/",
+        "quote": "live music"
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "hints": [
+     "Restaurantji review/summary mentions dj"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/dickson-city/cheap-shots-bar-and-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "dj-abbey",
@@ -284,7 +484,15 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Lackawanna"
+   "county": "Lackawanna",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "east-side-bar",
@@ -305,7 +513,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Lackawanna"
+   "county": "Lackawanna",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "frank-s-place",
@@ -328,7 +544,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 22, 2026) (checked 2026-11-01)",
    "county": "Lackawanna",
    "phone": "(570) 282-6655",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 22, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 22, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/simpson/franks-place-simpson-pa-/",
+    "facebookMirror": "https://www.foodyas.com/US/Simpson/231220993633788/Frank%27s-Place",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "great-wall-of-carbondale",
@@ -351,7 +575,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 13, 2026) (checked 2026-11-01)",
    "county": "Lackawanna",
    "phone": "(570) 282-1422",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 13, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 13, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/carbondale/great-wall-2/",
+    "facebookMirror": "https://www.foodyas.com/US/Carbondale/136732775217168/Great-Wall-of-carbondale",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "italian-pub",
@@ -375,7 +607,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Lackawanna"
+   "county": "Lackawanna",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "jak-s-pub-and-eatery",
@@ -412,7 +652,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01); JAK's Pub Facebook post Oct 14 & 28, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Lackawanna",
    "phone": "(570) 489-1600",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/jessup/jaks-pub-and-eatery-/",
+    "facebookMirror": "https://www.foodyas.com/US/Jessup/572253472885825/JAK%27s-Pub-and-Eatery",
+    "fbPostsSeen": 13,
+    "fbNewestPost": "2026-10-31",
+    "website": "https://www.bizapedia.com/pa/jaks-pub-eatery-llc.html"
+   }
   },
   {
    "id": "joseph-s-restaurant",
@@ -433,7 +681,15 @@
     "Family-friendly"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Lackawanna"
+   "county": "Lackawanna",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "kol-steakhouse",
@@ -484,7 +740,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Kol Steakhouse Facebook post Oct 10–14, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Lackawanna",
    "phone": "(570) 536-6020",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Carbondale/1973044902952018/Kol-Steakhouse",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-14",
+    "website": null
+   }
   },
   {
    "id": "m-and-js-bar-and-grill",
@@ -507,7 +771,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "Lackawanna",
    "phone": "(570) 521-4585",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/olyphant/m-and-js-bar-and-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "moran-s-tavern-landm-bar-and-grill",
@@ -530,7 +802,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Lackawanna"
+   "county": "Lackawanna",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Carbondale/125505580846330/Moran%27s-Tavern%3B-L%26M-Bar-%26-Grill%2C-Inc.",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2024-11-25",
+    "website": null
+   }
   },
   {
    "id": "old-city-tavern",
@@ -555,7 +835,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via bars10.com) (checked 2026-11-01)",
    "county": "Lackawanna",
    "phone": "(570) 282-4456",
-   "phoneSource": "Facebook page “Old City Tavern” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Old City Tavern” (via bars10.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Carbondale/438028826580892/Old-City-Tavern",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "orazzi-s-blue-ridge-inn-restaurant-and-motel",
@@ -579,7 +867,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Lackawanna"
+   "county": "Lackawanna",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Greenfield-Township/116257735061337/Orazzi%27s-Blue-Ridge-Inn-Restaurant-%26-Motel",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-03",
+    "website": null
+   }
   },
   {
    "id": "peanut-bar",
@@ -630,7 +926,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01); Peanut Bar Facebook post Oct 25–29, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Lackawanna",
    "phone": "(570) 282-4418",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/carbondale/peanut-bar-/",
+        "quote": "ts, and the back area, Cashew Bar, serves great food and drinks. With ample parking and a kid-friendly atmosphere, it is a perfect spot for families. Known for their delicious wings, including",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/carbondale/peanut-bar-/",
+    "facebookMirror": "https://www.foodyas.com/US/Carbondale/189048733203/Peanut-Bar",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "pietro-s-restaurant",
@@ -655,7 +981,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 22, 2026) (checked 2026-11-01)",
    "county": "Lackawanna",
    "phone": "(570) 383-2109",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 22, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 22, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/jessup/pietros-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Jessup/936543069775679/Pietro%27s-Restaurant",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "purvs-north-valley-tavern",
@@ -681,7 +1015,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Lackawanna"
+   "county": "Lackawanna",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Olyphant/765321286667729/Purv%E2%80%99s-North-Valley-Tavern",
+    "fbPostsSeen": 2,
+    "fbNewestPost": "2026-10-27",
+    "website": "https://northvalleytavern.com/"
+   }
   },
   {
    "id": "queen-city-tavern",
@@ -705,7 +1047,37 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Queen City Tavern venue site (checked 2026-11-01)",
-   "county": "Lackawanna"
+   "county": "Lackawanna",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.queencitytavern.com/",
+        "quote": "rt of the Basalyga Hospitality family. Nestled in the heart of Olyphant, we bring classic corner bar vibes with hot, delicious food and ice-cold beer. Whether you’re here for a quick bite, a",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.queencitytavern.com/"
+   }
   },
   {
    "id": "rosalianos-on-the-river",
@@ -728,7 +1100,38 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Lackawanna"
+   "county": "Lackawanna",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-29",
+      "quote": "🎤 THURSDAY, OCTOBER 29 – HALLOWEEN KARAOKE PARTY",
+      "url": "https://www.foodyas.com/US/Jermyn/803738786146998/Rosaliano%E2%80%99s-on-the-River"
+     },
+     {
+      "date": "2026-10-29",
+      "quote": "28 – PASTA AND W**E FLIGHT NIGHT | ⏰ 4:30–9 PM | 🎤 THURSDAY, OCTOBER 29 – HALLOWEEN KARAOKE PARTY!�⏰ Open 4:30-9:30PM | >> Karaoke 6:30–9:30 PM",
+      "url": "https://www.foodyas.com/US/Jermyn/803738786146998/Rosaliano%E2%80%99s-on-the-River"
+     },
+     {
+      "date": "2026-10-22",
+      "quote": "🎶 Karaoke from 6:30–9:30 PM",
+      "url": "https://www.foodyas.com/US/Jermyn/803738786146998/Rosaliano%E2%80%99s-on-the-River"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Jermyn/803738786146998/Rosaliano%E2%80%99s-on-the-River",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "russens-sports-bar",
@@ -754,7 +1157,43 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 16, 2026) (checked 2026-11-01)",
    "county": "Lackawanna",
    "phone": "(570) 291-4355",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Olyphant/303918766329121/Russens-Sports-Bar",
+        "quote": "Contact the business | Sports Bar and grill Dart Boards, Pool Tables, Skill Games",
+        "self": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's own Facebook posts (3 since May 2026, via foodyas)",
+        "url": "https://www.foodyas.com/US/Olyphant/303918766329121/Russens-Sports-Bar",
+        "quote": "Getting Closer to Our Grand Opening! 🍻 | As we work our way toward the Grand Opening of R Sports Bar, we’re still working out a few glitches, making improvements, and adding new bartenders t"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Olyphant/303918766329121/Russens-Sports-Bar",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-09-18",
+    "website": null
+   }
   },
   {
    "id": "schooners-o-t-h",
@@ -788,7 +1227,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via bars10.com) (checked 2026-11-01); Venue site schooners.com (checked 2026-11-01)",
    "county": "Lackawanna",
    "phone": "(570) 489-8867",
-   "phoneSource": "Facebook page “Schooners O.T.H” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Schooners O.T.H” (via bars10.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Olyphant/113461645354164/Schooners-O.T.H",
+    "fbPostsSeen": 11,
+    "fbNewestPost": "2026-04-05",
+    "website": null
+   }
   },
   {
    "id": "the-bar-and-company",
@@ -812,7 +1259,15 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Lackawanna"
+   "county": "Lackawanna",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Olyphant/457610204755575/The-Bar-and-Company",
+    "fbPostsSeen": 11,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "the-moontower-bar-and-grill",
@@ -837,7 +1292,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 15, 2026) (checked 2026-11-01)",
    "county": "Lackawanna",
    "phone": "(570) 521-4451",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 15, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 15, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Archbald/268066803315161/The-Moontower-Bar-and-Grill",
+        "quote": "ite | Contact the business | Non Smoking Restaurant and Bar w Patio Great Food and Drink, Family Friendly. All Ages Welcome Until | (204)",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Archbald/268066803315161/The-Moontower-Bar-and-Grill",
+    "fbPostsSeen": 4,
+    "fbNewestPost": "2026-10-14",
+    "website": null
+   }
   },
   {
    "id": "the-stonehouse",
@@ -862,7 +1347,51 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Lackawanna",
    "phone": "(570) 281-6333",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Live music fans"
+    ],
+    "summary": "A locals-and-regulars spot; known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/carbondale/the-stonehouse-/",
+        "quote": "me enjoy a cheesesteak sandwich and fries or a chicken Caesar salad large enough for two. Regulars mention the tasty hamburgers and fries, with the burgers being huge at half a pound, maki",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/carbondale/the-stonehouse-/",
+        "quote": "rvice is quick and efficient, with friendly bartenders who create a welcoming atmosphere. Live music adds to the experience, and the outside seating is enjoyable on nice days. The parking lo",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/carbondale/the-stonehouse-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "vino-rosso",
@@ -883,7 +1412,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Lackawanna"
+   "county": "Lackawanna",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "windsor-inn",
@@ -909,7 +1446,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01); Venue site hotwing.com (checked 2026-11-01)",
    "county": "Lackawanna",
    "phone": "(570) 876-4600",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/jermyn/windsor-inn-/",
+    "facebookMirror": "https://www.foodyas.com/US/Jermyn/285553093003/Windsor-Inn",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   }
  ],
  "counties": [

@@ -37,7 +37,15 @@
     "Date night"
    ],
    "source": "Venue site; Yelp (agree)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mount-joy/bubes-brewery-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "twisted-bine-beer-co",
@@ -73,7 +81,15 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 928-4214",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mount-joy/twisted-bine-beer-co-/",
+    "facebookMirror": "https://www.foodyas.com/US/Mount-Joy/136882103407050/Twisted-Bine-Beer-Co.",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-31",
+    "website": "https://twistedbinebeerco.com/"
+   }
   },
   {
    "id": "yah-brew-taproom-mj",
@@ -111,7 +127,37 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Sep 5, 2026) (checked 2026-11-01); Venue site yahbrewco.com (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 928-4629",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 5, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 5, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.yahbrewco.com/taproom-1",
+        "quote": "the public lot behind the police station | PUB STYLE SERVICE, RESERVATIONS NOT ACCEPTED | FAMILY FRIENDLY | TWO PATIO SPACES AVAILABLE FOR OUTDOOR DINING | PETS WELCOME ON OUR FRONT PATIO | Newsl",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mount-joy/yah-brew-retro-bar-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.yahbrewco.com/taproom-1"
+   }
   },
   {
    "id": "mick-s-all-american-pub-mount-joy",
@@ -159,7 +205,81 @@
     "Family-friendly"
    ],
    "source": "Venue site; Mick's Facebook (via bars10) (checked 2026-11-01); Mick's (Mount Joy) Facebook post Oct 23, 2026 (via bars10); venue-site event 'Happy Hours Weekdays' (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "Family-friendly; a locals-and-regulars spot; popular for watching games.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/pa/mount-joy/micks-all-american-pub-/",
+        "quote": "tion of specialty and local beers is impressive. The pub has a private dining section for families with kids and a large open dining room with a central bar and plenty of TVs. The staff is",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Manheim/125504130799221/Mick%27s-All-American-Pub%2C-Mt.-Joy",
+        "quote": "Website | FULL SERVICE RESTAURANT AND BAR LOCAL PUB WITH FAMILY FRIENDLY DINING ROOMS, GREAT BAR AND SECOND STORY DECK WITH OUTSIDE, COVERED BAR. | DAILY FOOD AND",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/pa/mount-joy/micks-all-american-pub-/",
+        "quote": "Mick's All American Pub is a local favorite that attracts groups from 11:30 am onwards. The food is delicious, with a range of option",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/pa/mount-joy/micks-all-american-pub-/",
+        "quote": "oups from 11:30 am onwards. The food is delicious, with a range of options beyond typical sports bar fare, including big portions. The service is excellent, attentive, and friendly, and the",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "hints": [
+     "Google attribute 'karaoke' (via Restaurantji)"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mount-joy/micks-all-american-pub-/",
+    "facebookMirror": "https://www.foodyas.com/US/Manheim/125504130799221/Mick%27s-All-American-Pub%2C-Mt.-Joy",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "joy-s-tavern",
@@ -194,7 +314,44 @@
     "Bar scene"
    ],
    "source": "exa.ai places listing; Joy's Tavern Facebook post Oct 23–24, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/mount-joy/joys-tavern-/",
+        "quote": "Joy's Tavern is a must-visit in the Mount Joy area. It is also one of the best places to watch football games, with phenomenal beers and drinks. By treating the staff with respect, visitors can",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Mount-Joy/1783096328603731/Joy%27s-Tavern",
+        "quote": "Website | Best local sports bar located in the awesome little town of Mount Joy, Pennsylvania !! We won't tell you everyt",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mount-joy/joys-tavern-/",
+    "facebookMirror": "https://www.foodyas.com/US/Mount-Joy/1783096328603731/Joy%27s-Tavern",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-26",
+    "website": null
+   }
   },
   {
    "id": "beanie-s-bar-and-grill",
@@ -241,7 +398,42 @@
     "Bar scene"
    ],
    "source": "exa.ai places listing",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #1",
+        "url": "https://www.restaurantji.com/pa/mount-joy/beanies-bar-and-grill-/",
+        "quote": "Beanie’s delivers exactly what a local bar & grill should: bold portions and punchy flavor. The Volcano Burger was a full send. Jui"
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/pa/mount-joy/beanies-bar-and-grill-/",
+        "quote": "The food and drink was great . Really nice hometown bar with hard working staff."
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mount-joy/beanies-bar-and-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Mount-Joy/261962578141/Beanie%27s-Bar-%26-Grill",
+    "fbPostsSeen": 4,
+    "fbNewestPost": "2026-10-15",
+    "website": null
+   }
   },
   {
    "id": "mosby-s-pub",
@@ -274,7 +466,51 @@
     "Bar scene"
    ],
    "source": "exa.ai places listing; Restaurantji (Google-sourced listing, updated Oct 19, 2026) (checked 2026-11-01); Mosby's Pub Facebook post Oct 14, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Date night / upscale"
+    ],
+    "summary": "Family-friendly; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/pa/mount-joy/mosbys-pub-/",
+        "quote": "t service, contributing to a friendly atmosphere. The restaurant is family-oriented, with kid-friendly options such as a kids burger and fries, and the servers are always very sweet to childre",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/pa/mount-joy/mosbys-pub-/",
+        "quote": "gs. The atmosphere is described as comfortable and intimate, making it a great spot for a date night. The large bar area is clean and separate from the dining room, adding to the welcoming e",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mount-joy/mosbys-pub-/",
+    "facebookMirror": "https://www.foodyas.com/US/Mount-Joy/166641463383940/Mosby%27s-Tavern",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-14",
+    "website": null
+   }
   },
   {
    "id": "dimaria-s-ny-pizza-and-italian",
@@ -299,7 +535,15 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mount-joy/dimarias-pizza-/",
+    "facebookMirror": "https://www.foodyas.com/US/Mount-Joy/1498905176993891/DiMaria%27s-NY-pizza-and-Italian-restaurant",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-09-24",
+    "website": "https://www.dimariasmountjoy.com/"
+   }
   },
   {
    "id": "harvey-s-main-street-bbq",
@@ -324,7 +568,15 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 19, 2026) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 653-4224",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 19, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 19, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mount-joy/harvey-s-main-street-bar-b-q-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.harveysbarbecue.com/restaurant.php"
+   }
   },
   {
    "id": "mount-joy-diner-mojo",
@@ -349,7 +601,37 @@
     "Family-friendly"
    ],
    "source": "Diner's Facebook page",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/pa/mount-joy/mount-joy-family-restaurant-/",
+        "quote": "Mount Joy Family Restaurant is a welcoming establishment known for its delicious food and family-friendly atmosphere. The menu offers a wide selection of breakfast options, some even a bit off th",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mount-joy/mount-joy-family-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Mount-Joy/130333827017858/Mount-Joy-Diner-%28Mojo%29",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-05-10",
+    "website": null
+   }
   },
   {
    "id": "gus-s-keystone-family-restaurant-mount-joy",
@@ -374,7 +656,37 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/pa/mount-joy/guss-keystone-family-restaurant-/",
+        "quote": "ke sliced turkey with mashed potatoes. The service is attentive and friendly, making it a great spot for families and larger groups. Customers appreciate the cleanliness and reasonable prices, often retu",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mount-joy/guss-keystone-family-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Mount-Joy/108156779226597/Gus%27s-Keystone-Family-Restaurant-Mount-Joy",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-23",
+    "website": "https://guskeystone.com/"
+   }
   }
  ],
  "counties": [

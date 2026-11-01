@@ -29,7 +29,15 @@
     "Sports & games"
    ],
    "source": "hours from Google listing via exa",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Elizabeth/893530963851978/Creekside-Tavern",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "lochmon-tavern",
@@ -54,7 +62,51 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Allegheny",
    "phone": "(412) 896-4527",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 19, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 19, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Date night / upscale"
+    ],
+    "summary": "Family-friendly; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Elizabeth/256115748664391/LochMon-Tavern",
+        "quote": "ishment, with reasonable prices, a fully stocked bar, and daily dinner specials! | We are family friendly, have a great staff, and are available for parties!",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Elizabeth/256115748664391/LochMon-Tavern",
+        "quote": "tes | Elizabeth, PA | LochMon Tavern | Call | Directions | We consider ourselves to be an upscale dining establishment, with reasonable prices, a fully stocked bar, and daily dinner speci",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Elizabeth/256115748664391/LochMon-Tavern",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "mama-pepinos-elizabeth",
@@ -75,7 +127,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "rockwell-s-red-lion-restaurant",
@@ -105,7 +165,37 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Rockwell's Red Lion Facebook post Oct 28, 2026 (via foodyas) (checked 2026-11-01)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-16",
+        "url": "https://www.restaurantji.com/pa/elizabeth/rockwells-red-lion-restaurant-/",
+        "quote": "Rockwell's Red Lion Restaurant offers an upscale atmosphere, making it an ideal location for special events. The menu boasts excellent cho",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/elizabeth/rockwells-red-lion-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Elizabeth/104747761185365/Rockwell%27s-Red-Lion-Restaurant",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   }
  ],
  "counties": [

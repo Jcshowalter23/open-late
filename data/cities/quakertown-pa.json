@@ -28,7 +28,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(215) 529-7011",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/richlandtown/alcamo-pizzeria-and-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "beckers-corner",
@@ -51,7 +59,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(215) 536-3220",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/quakertown/beckers-corner-/",
+    "facebookMirror": "https://www.foodyas.com/US/Quakertown/347953082555/Beckers-Corner",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-09-28",
+    "website": null
+   }
   },
   {
    "id": "bistro-1015",
@@ -74,7 +90,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Bucks",
    "phone": "(267) 373-0133",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 11, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 11, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Quakertown/870688372799956/Bistro-1015",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-27",
+    "website": "https://bistro1015.printify.me/"
+   }
   },
   {
    "id": "earls-pub-and-grill",
@@ -112,7 +136,51 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 8, 2026) (checked 2026-11-01); Earls Pub and Grill Facebook post Oct 21–22, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(215) 538-2121",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 8, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 8, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Date night / upscale"
+    ],
+    "summary": "Family-friendly; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-08",
+        "url": "https://www.restaurantji.com/pa/quakertown/earls-pub-and-grill-/",
+        "quote": "tive, making it a great spot for both casual drinks and family dinners. The atmosphere is family friendly, yet cozy enough for a date night, or trendy enough for friends to get together for a mea",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-08",
+        "url": "https://www.restaurantji.com/pa/quakertown/earls-pub-and-grill-/",
+        "quote": "asual drinks and family dinners. The atmosphere is family friendly, yet cozy enough for a date night, or trendy enough for friends to get together for a meal or a beer at the bar. The staff",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/quakertown/earls-pub-and-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Trumbauersville/104904011077589/Earls-Pub-and-Grill",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-23",
+    "website": null
+   }
   },
   {
    "id": "faraco-s-pizzeria-and-pub",
@@ -138,7 +206,37 @@
     "Family-friendly"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 10, 2026) (checked 2026-11-01)",
-   "county": "Bucks"
+   "county": "Bucks",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-10",
+        "url": "https://www.restaurantji.com/pa/quakertown/faracos-pizza-/",
+        "quote": "rent. The service is great, with friendly and accommodating staff. The restaurant is also kid-friendly, with a welcoming atmosphere and staff who are happy to accommodate families with young c",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/quakertown/faracos-pizza-/",
+    "facebookMirror": "https://www.foodyas.com/US/Quakertown/168307927086829/Faraco%27s-Pizzeria-and-Pub",
+    "fbPostsSeen": 4,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "fiesta-habanero",
@@ -161,7 +259,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(215) 538-2228",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/quakertown/fiesta-habanero-/",
+        "quote": "panadas, spicy pork tacos, and huge burritos. They also offer many vegetarian options and kid-friendly dishes with authentic Mexican flavors. The salsa, guacamole, and fresh cilantro and onion",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/quakertown/fiesta-habanero-/",
+    "facebookMirror": "https://www.foodyas.com/US/Quakertown/256305901108391/Fiesta-Habanero",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-09-26",
+    "website": null
+   }
   },
   {
    "id": "gruver-s",
@@ -197,7 +325,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01); Gruver's Facebook post Oct 8 & 15, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(215) 536-5904",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-17",
+        "url": "https://www.restaurantji.com/pa/richlandtown/gruvers-beer-bar-/",
+        "quote": "n gem with friendly owners and a welcoming atmosphere. Originally a service station, this local watering hole offers Taco Tuesday and Weiner Wednesday specials. The hot dogs and tacos are a must-try,",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/richlandtown/gruvers-beer-bar-/",
+    "facebookMirror": "https://www.foodyas.com/US/Richlandtown/1863841473858606/Gruver%27s",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-15",
+    "website": null
+   }
   },
   {
    "id": "little-orchids-kitchen-and-bar",
@@ -223,7 +381,15 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Bucks"
+   "county": "Bucks",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/quakertown/little-orchids-kitchen-and-bar-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.littleorchidsknb.com/"
+   }
   },
   {
    "id": "mccoole-s-at-the-historic-red-lion-inn",
@@ -250,7 +416,51 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site mccoolesredlioninn.com (checked 2026-11-01)",
-   "county": "Bucks"
+   "county": "Bucks",
+   "crowdType": {
+    "labels": [
+     "Dance / club crowd",
+     "Date night / upscale"
+    ],
+    "summary": "A dancing / club crowd late; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/quakertown/mccooles-red-lion-inn-/",
+        "quote": "th casual meals and special events, such as weddings, with plenty of space for buffet and dancing. It is also pet-friendly, welcoming guests with dogs and even offering a doggie menu. Ove",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Quakertown/98532003305/McCoole%27s-at-the-Historic-Red-Lion-Inn",
+        "quote": "d in the 1740s, McCoole's is a colonial period tavern and historic treasure known for its upscale dining, affordable tavern menu, craft beers & cocktails. McCoole's draws upon a rich hist",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/quakertown/mccooles-red-lion-inn-/",
+    "facebookMirror": "https://www.foodyas.com/US/Quakertown/98532003305/McCoole%27s-at-the-Historic-Red-Lion-Inn",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "the-proper-brewing-company",
@@ -298,7 +508,15 @@
    "source": "hours from the venue's website; Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01); Venue site theproperbrewing.com (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(215) 650-9777",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/quakertown/the-proper-brewing-company-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-west-end",
@@ -354,7 +572,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01); Venue site thewestendpa.com (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(267) 347-4003",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/quakertown/the-west-end-/",
+        "quote": "delicious. The food is good with generous portions, providing value for money. It is a family-friendly place where a surprise party was held, and the staff, including Maria, was very helpful a",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/quakertown/the-west-end-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "true-blue-mediterranean-grill",
@@ -379,7 +627,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 15, 2026) (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(267) 875-0711",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 15, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 15, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/quakertown/true-blue-mediterranean-express-/",
+    "facebookMirror": "https://www.foodyas.com/US/Quakertown/583278681527792/True-Blue-Mediterranean-Grill",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-12",
+    "website": null
+   }
   },
   {
    "id": "trum-tavern",
@@ -414,7 +670,46 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 21, 2026) (checked 2026-11-01); Venue site trumtavern.com (checked 2026-11-01)",
    "county": "Bucks",
    "phone": "(215) 538-2445",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Trumbauersville/97580886595/Trum-Tavern",
+        "quote": "great tasting food that's prepared fresh with the highest quality of ingredients. A great sports bar stocked with many cold beers and liquors. Treat yourself today with a nutritious meal fro",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "hints": [
+     "Google attribute 'karaoke' (via Restaurantji)"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/trumbauersville/trum-tavern-inc-/",
+    "facebookMirror": "https://www.foodyas.com/US/Trumbauersville/97580886595/Trum-Tavern",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   }
  ],
  "counties": [

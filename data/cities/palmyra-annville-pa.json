@@ -46,7 +46,71 @@
     "Date night"
    ],
    "source": "Venue site; Facebook; Babe's venue site (checked 2026-11-01); Babe's Grill House Facebook post Sep 23, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Lebanon"
+   "county": "Lebanon",
+   "crowdType": {
+    "labels": [
+     "Sports fans",
+     "Families",
+     "Bikers"
+    ],
+    "summary": "Popular for watching games; family-friendly; popular with bikers / hosts bike nights.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #1",
+        "url": "https://www.restaurantji.com/pa/palmyra/babes-grill-house-/",
+        "quote": "Was in the area for a seminar and decided to stop by for dinner and watch football game. Service was excellent and food was outstanding. The restaurant is a amazing place"
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://babesgrillhouse.com/",
+        "quote": "Menu | Reservations | Directions | ORGANIC FOOD | Are you looking for a great place to watch the game or simply grab a beer? Then this is the place for you! Babe's Grill House opened its door",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-12",
+        "url": "https://www.restaurantji.com/pa/palmyra/babes-grill-house-/",
+        "quote": "flavors. The restaurant is a really nice place with a cozy atmosphere and amazing prices. Families will appreciate the upstairs playroom attached to a small dining area. The food is delici",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Bikers",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://babesgrillhouse.com/",
+        "quote": "t. Food was very good. Service was friendly and made us very comfortable. Traffic noise (motorcycles) was the bad part. No fault of the restaurant. We will sit inside next time. | Posted o",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/palmyra/babes-grill-house-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.babesgrillhouse.com/"
+   }
   },
   {
    "id": "funck-s-restaurant",
@@ -92,7 +156,15 @@
    "source": "Venue site; Facebook; funcks.com Palmyra hours (checked 2026-11-01); Restaurantji (Google-sourced listing, updated Oct 19, 2026) (checked 2026-11-01)",
    "county": "Lebanon",
    "phone": "(717) 838-1611",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 19, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 19, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/palmyra/funcks-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.funcks.com/"
+   }
   },
   {
    "id": "lazzaro-s-italian-bistro",
@@ -113,7 +185,37 @@
    "crowd": null,
    "vibes": [],
    "source": "Venue site; Visit Lebanon Valley",
-   "county": "Lebanon"
+   "county": "Lebanon",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.lazzarositalianbistro.com/",
+        "quote": "aly, Lazzaro's was established in 2012, and has since been a favorite gathering place for locals and visitors alike. Offering fresh seafood and pasta dishes, mouth-watering appetizers, a",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.lazzarositalianbistro.com/"
+   }
   },
   {
    "id": "rey-azteca-of-palmyra",
@@ -145,7 +247,15 @@
    "source": "Facebook hours via foodyas; Visit Lebanon Valley listing; Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01); Rey Azteca Facebook post Jun 26, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Lebanon",
    "phone": "(717) 473-3486",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/palmyra/rey-azteca-mexican-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "sinkhole-saloon-and-grille",
@@ -177,7 +287,51 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Lebanon"
+   "county": "Lebanon",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.sinkholesaloon.com/",
+        "quote": "restaurant operations and together with Amy, established a family friendly restaurant and hometown bar. Doug passed away in 2022, Amy along with Sue, continues to operate the business. | The S",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.sinkholesaloon.com/",
+        "quote": "tary career. Christine oversaw restaurant operations and together with Amy, established a family friendly restaurant and hometown bar. Doug passed away in 2022, Amy along with Sue, continues to o",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/palmyra/sinkhole-saloon-and-grill-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.sinkholesaloon.com/"
+   }
   },
   {
    "id": "snitz-creek-brewery-palmyra",
@@ -203,7 +357,15 @@
    "source": "Venue site; Facebook; Facebook page (via bars10.com) (checked 2026-11-01)",
    "county": "Lebanon",
    "phone": "(717) 838-8705",
-   "phoneSource": "Facebook page “Snitz Creek Brewery Palmyra” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Snitz Creek Brewery Palmyra” (via bars10.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.snitzcreekbrewery.com/"
+   }
   },
   {
    "id": "rising-sun-bar-and-kitchen",
@@ -243,7 +405,15 @@
     "Bar scene"
    ],
    "source": "Venue site; Venue site risingsunkitchenandbar.com (checked 2026-11-01)",
-   "county": "Lebanon"
+   "county": "Lebanon",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.risingsunkitchenandbar.com/"
+   }
   },
   {
    "id": "the-filling-station",
@@ -268,7 +438,37 @@
    "source": "Facebook hours via foodyas (posts through Oct 30, 2026); Visit Lebanon Valley listing; Restaurantji (Google-sourced listing, updated Oct 19, 2026) (checked 2026-11-01)",
    "county": "Lebanon",
    "phone": "(717) 838-9077",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 19, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 19, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/pa/palmyra/filling-station-/",
+        "quote": "o available and highly recommended. The Filling Station has a loyal following, with many regulars being known by name, giving the place a true hometown feel. It’s a go-to spot for locals",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/palmyra/filling-station-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "kylin-asian-fusion",
@@ -291,7 +491,15 @@
    "source": "Venue site; Facebook; Restaurantji (Google-sourced listing, updated Oct 31, 2026) (checked 2026-11-01)",
    "county": "Lebanon",
    "phone": "(717) 838-8899",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/palmyra/kylin-asian-fusion-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "lisa-s-cafe",
@@ -316,7 +524,15 @@
     "Family-friendly"
    ],
    "source": "Venue site; Yelp (Oct 2026)",
-   "county": "Lebanon"
+   "county": "Lebanon",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/palmyra/lisas-cafe-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.lisascafe2.com/location/lisas-cafe-palmyra/"
+   }
   },
   {
    "id": "miaa-mexican-bistro",
@@ -341,7 +557,15 @@
    "source": "Google listing via exa; Facebook (posts through Oct 2026); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Lebanon",
    "phone": "(717) 473-5626",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/palmyra/miaa-mexican-bistro-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "harper-s-tavern",
@@ -389,7 +613,37 @@
     "Family-friendly"
    ],
    "source": "Venue site; Facebook",
-   "county": "Lebanon"
+   "county": "Lebanon",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.harperstavern.com/",
+        "quote": "ain dining room is our library area. This offers an even more intimate setting to share a romantic meal. Or perhaps you prefer to be close to the bar. There is plenty of seating | downstai",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.harperstavern.com/"
+   }
   },
   {
    "id": "rotunda-restaurant-and-brewery",
@@ -423,7 +677,43 @@
     "Family-friendly"
    ],
    "source": "Venue site; Facebook; Rotunda Facebook post Oct 30, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Lebanon"
+   "county": "Lebanon",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-16",
+        "url": "https://www.restaurantji.com/pa/annville/batdorf-restaurant-/",
+        "quote": "of their own brews and other great options, served by exceptionally friendly bartenders. Live music sometimes adds to the lively environment, making the Rotunda a popular spot for a pub-sty",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/annville/batdorf-restaurant-/",
+        "quote": "live music"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/annville/batdorf-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://rotundabrewing.com/restaurant/"
+   }
   },
   {
    "id": "snitz-creek-brewery-ft-indiantown-gap",
@@ -449,7 +739,66 @@
    "source": "Venue site; Facebook; Snitz Creek venue site kitchen hours (checked 2026-11-01); Restaurantji (Google-sourced listing, updated Oct 31, 2026) (checked 2026-11-01); Snitz Creek Brewery official site (snitzcreekbrewery.com) (checked 2026-11-01)",
    "county": "Lebanon",
    "phone": "(717) 865-2764",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 31, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-31",
+        "url": "https://www.restaurantji.com/pa/annville/snitz-creek-brewery-/",
+        "quote": "service. The brewery also has a downstairs bar with pool tables, karaoke, and occasional live bands, making it a fun and lively spot to visit. Customers have praised the brewery's Brisket B",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": "7 pm",
+      "confidence": "low",
+      "basis": "third-party karaoke directory only",
+      "lastSeen": "2026-10-26",
+      "datedLastSeen": "2026-10-26",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "FindKaraoke directory (city page updated October 26, 2026)",
+        "url": "https://findkaraoke.net/annville",
+        "date": "2026-10-26",
+        "quote": "Snitz Creek Brewery — Monday at 7 PM. Monday karaoke at the Annville taproom of Snitz Creek Brewery near Fort Indiantown Gap, hosted by Cheaters Never Prosper Trivia and billed as family-friendly, from 7 to 9 PM. The brewery also runs occasional Saturday night karaoke sessions "
+       }
+      ],
+      "note": "Directory listing only; not confirmed by the venue"
+     }
+    ],
+    "hints": [
+     "Restaurantji review/summary mentions karaoke"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/annville/snitz-creek-brewery-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.snitzcreekbrewery.com/"
+   }
   },
   {
    "id": "pho-bar-and-grill",
@@ -472,7 +821,15 @@
    "source": "Venue site; Facebook page (via foodyas.com) (checked 2026-11-01)",
    "county": "Lebanon",
    "phone": "(717) 685-1562",
-   "phoneSource": "Facebook page “Pho Bar & Grill” (via foodyas.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Pho Bar & Grill” (via foodyas.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "schwalm-s-cleona-restaurant",
@@ -497,7 +854,15 @@
    "source": "Google listing via exa; Restaurantji; Visit Lebanon Valley; Restaurantji (Google-sourced listing, updated Oct 16, 2026) (checked 2026-11-01)",
    "county": "Lebanon",
    "phone": "(717) 274-9942",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/cleona/schwalms-cleona-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   }
  ],
  "counties": [

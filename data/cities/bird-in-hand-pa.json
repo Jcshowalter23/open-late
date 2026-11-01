@@ -30,7 +30,58 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Locals & regulars"
+    ],
+    "summary": "Family-friendly; a locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-09",
+        "url": "https://www.restaurantji.com/pa/bird-in-hand/bird-in-hand-family-restaurant-and-smorgasbord-/",
+        "quote": "uring knowledgeable staff who make guests feel comfortable and welcome. The restaurant is kid-friendly, with amenities like booster seats, high-chairs, and a cute little Noah's ark for childre",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://bird-in-hand.com/restaurant-smorgasbord/",
+        "quote": "our unique Noah’s Ark | Kids’ Buffet | . Built by a local Amish craftsman, it features a kid-friendly selection of favorite foods for younger taste buds and, of course, delicious desserts.",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://bird-in-hand.com/restaurant-smorgasbord/",
+        "quote": "ion. Many members of our waitstaff have been with us for years, and they treat everyone – locals, first-time guests, and repeat visitors – like family. It’s the kind of place where you c",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bird-in-hand/bird-in-hand-family-restaurant-and-smorgasbord-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bird-in-Hand/400364716673037/Bird-in-Hand-Family-Restaurant-%26-Smorgasbord",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-09-30",
+    "website": "https://bird-in-hand.com/restaurant-smorgasbord/"
+   }
   },
   {
    "id": "smokehouse-at-plain-and-fancy-farm",
@@ -55,7 +106,37 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 768-4400",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-17",
+        "url": "https://www.restaurantji.com/pa/bird-in-hand/smokehouse-bbq-and-brews-at-plain-and-fancy-farm-/",
+        "quote": "et and peaceful, with a lit fireplace and a bar where you can meet up with friends. It is family friendly with a children's menu and coloring pages. The staff is attentive, pleasant, and super sw",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bird-in-hand/smokehouse-bbq-and-brews-at-plain-and-fancy-farm-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bird-in-Hand/257428341337765/Smokehouse-at-Plain-%26-Fancy-Farm",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-29",
+    "website": "https://www.smokehousebbqandbrews.com/location-hours/"
+   }
   },
   {
    "id": "the-kling-house-restaurant",
@@ -80,7 +161,15 @@
     "Family-friendly"
    ],
    "source": "Venue site (Kitchen Kettle Village); Kling House official site (kitchenkettle.com) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.kitchenkettle.com/good-food/kling-house-restaurant.asp"
+   }
   }
  ],
  "counties": [

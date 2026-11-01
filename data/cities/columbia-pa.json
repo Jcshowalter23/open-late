@@ -39,7 +39,15 @@
    "source": "Venue site; columbiakettleworks.com menu note (checked 2026-11-01); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01); Columbia Kettle Works Facebook post Oct 27, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 342-2374",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/columbia/columbia-kettle-works-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.columbiakettleworks.com/"
+   }
   },
   {
    "id": "starview-brews",
@@ -81,7 +89,71 @@
     "Bar scene"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Live music fans"
+    ],
+    "summary": "A locals-and-regulars spot; known for live music.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-11",
+        "url": "https://www.restaurantji.com/pa/columbia/starview-brews-/",
+        "quote": "9. The owner and staff are very friendly and welcoming, creating a warm environment where locals and visitors can relax, enjoy live music, and chat with the brewmaster. It’s a great spot",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://starviewbrews.com/",
+        "quote": "Home - Starview Brews | Brewery in Columbia, PA | Skip to content | Where Everyone Knows Your Name | Home | Our Story | Menu | Food | Craft Beer | Specialty Drinks | BEERS ON TAP | M",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-11",
+        "url": "https://www.restaurantji.com/pa/columbia/starview-brews-/",
+        "quote": "dly and welcoming, creating a warm environment where locals and visitors can relax, enjoy live music, and chat with the brewmaster. It’s a great spot to grab a drink and some good vibes.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ’s Westgate",
+      "url": "https://starviewbrews.com/"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/columbia/starview-brews-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://starviewbrews.com/"
+   }
   },
   {
    "id": "bully-s-restaurant-and-pub",
@@ -118,7 +190,57 @@
     "Date night"
    ],
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 19, 2026) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale",
+     "Families"
+    ],
+    "summary": "A date-night / upscale spot; family-friendly.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/pa/columbia/bullys-restaurant-and-pub-/",
+        "quote": "When friends come to town we go to Bully’s. It is the place to go for casual upscale dining in Columbia. I have been taking guests there since Dave and Sherry opened 25 years"
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Columbia/178725958853987/Bully%27s-Restaurant-%26-Pub",
+        "quote": "Described by many as one of the best-kept secrets in Lancaster and York. American-style “upscale casual” comfort food with a twist includes light fare, soups, entrees, and desserts. Hand",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/pa/columbia/bullys-restaurant-and-pub-/",
+        "quote": "ave always had amazing food and drinks here, and the restaurant is very accommodating for families. The unique wedge-shaped site features plenty of parking and an onsite bakery. Well-appoi",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/columbia/bullys-restaurant-and-pub-/",
+    "facebookMirror": "https://www.foodyas.com/US/Columbia/178725958853987/Bully%27s-Restaurant-%26-Pub",
+    "fbPostsSeen": 11,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "union-station-grill",
@@ -161,7 +283,66 @@
     "Family-friendly"
    ],
    "source": "Venue site (structured data); Union Station Grill Facebook post Oct 26, 2026 (via foodyas) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/columbia/union-station-grill-/",
+        "quote": "ade French fries, though they may sometimes be slightly undercooked. The restaurant has a family-friendly atmosphere and is wheelchair accessible. There is a cute patio for outdoor dining and str",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "9 pm",
+      "confidence": "medium",
+      "lastSeen": "2026-04-30",
+      "datedLastSeen": null,
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "TasteLanc events listing (undated)",
+        "url": "https://tastelanc.com/restaurants/union-station-grill/events",
+        "date": "2026-04-30",
+        "quote": "Karaoke Night — wednesday • 21:00"
+       }
+      ],
+      "note": "TasteLanc listing last modified 2026-04-30 (before the 6-month cutoff); no newer source found",
+      "manual": true,
+      "stale": true
+     }
+    ],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [],
+    "reviewNote": "Targeted web search, manual read"
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/columbia/union-station-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Columbia/110132165815/Union-Station-Grill",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-26",
+    "website": "https://www.unionstationgrill.net/"
+   }
   },
   {
    "id": "smith-s-hotel-and-bar",
@@ -186,7 +367,15 @@
    "source": "Columbia EDC restaurant list",
    "county": "Lancaster",
    "phone": "(717) 684-3385",
-   "phoneSource": "Apple Maps; venue contact page (smiths-hotel.weeblyte.com); Chamber of Commerce listing, checked 2026-11-01"
+   "phoneSource": "Apple Maps; venue contact page (smiths-hotel.weeblyte.com); Chamber of Commerce listing, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Columbia/71318856372/Smith%27s-Hotel",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-09-28",
+    "website": null
+   }
   },
   {
    "id": "black-olive-family-diner",
@@ -211,7 +400,37 @@
    "source": "Columbia EDC restaurant list; venue site; Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 342-2464",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/columbia/black-olive-family-diner-/",
+        "quote": "ive Family Diner is a highly recommended dining experience, making it a favorite spot for families and friends alike.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/columbia/black-olive-family-diner-/",
+    "facebookMirror": "https://www.foodyas.com/US/Columbia/227349880984011/Black-Olive-Family-Diner",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "level-up-pizza-bar-and-grill",
@@ -236,7 +455,15 @@
    "source": "Columbia EDC restaurant list; Restaurantji (Google-sourced listing, updated Oct 19, 2026) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 426-2000",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 19, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 19, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/marietta/cafe-capriccio-pizzaria-/",
+    "facebookMirror": "https://www.foodyas.com/US/Columbia/108826438199716/Level-Up-Pizza-%26-Grill",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "hinkle-s-restaurant",
@@ -261,7 +488,37 @@
     "Family-friendly"
    ],
    "source": "Columbia EDC restaurant list; Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/columbia/hinkles-restaurant-/",
+        "quote": "joying flavorful dishes like Creamed Dried Beef served over home fries. The restaurant is kid-friendly with little surprises for children and offers good accessibility, including a ramp at the",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/columbia/hinkles-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Columbia/1615841615103355/Hinkle%27s-Restaurant",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-26",
+    "website": "https://hinklesrestaurant.com/"
+   }
   }
  ],
  "counties": [

@@ -61,7 +61,58 @@
     "Family-friendly"
    ],
    "source": "Venue site; Funck's Leola Facebook post Oct 28, 2026 (via bars10) (checked 2026-11-01); Funck's Leola Facebook post Oct 27, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale",
+     "Locals & regulars"
+    ],
+    "summary": "A date-night / upscale spot; a locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/pa/leola/funcks-/",
+        "quote": "Funck's Restaurant offers a relaxing and upscale vibe with a cool, well-appointed interior and many beautiful spaces. The establishment is",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Leola/921692364547327/Funck%27s-Restaurant-Leola.PA",
+        "quote": "ety of craft beer to lift your spirits year ‘round. Whether it’s lunch with the family or date night, our laid-back atmosphere is the perfect spot to order a pint from our rotating taps and",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Leola/921692364547327/Funck%27s-Restaurant-Leola.PA",
+        "quote": "unty for great food, drinks & more. Here at Funck’s Restaurant, we’re proud to be Leola’s neighborhood bar and grill for good brews, good food, and good times. Our dishes are crafted from fresh, n",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/leola/funcks-/",
+    "facebookMirror": "https://www.foodyas.com/US/Leola/921692364547327/Funck%27s-Restaurant-Leola.PA",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-28",
+    "website": "https://www.funcks.com/location/funcks-restaurant-leola/"
+   }
   },
   {
    "id": "gracie-s-on-west-main",
@@ -92,7 +143,37 @@
     "Date night"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.graciesonwestmain.com/",
+        "quote": "it’s locally brewed coffee with friends, a weekend family brunch, a business lunch, or a date night dinner, Gracie’s has it made from scratch for you. | View our menus | Upcoming Events | N",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/leacock-leola-bareville/gracies-on-west-main-/",
+    "facebookMirror": "https://www.foodyas.com/US/Leola/643345532345601/Gracie%27s-on-West-Main",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-06-05",
+    "website": "https://www.graciesonwestmain.com/"
+   }
   },
   {
    "id": "osteria-avanti",
@@ -117,7 +198,15 @@
    "source": "Venue site (via search index); Restaurantji (Google-sourced listing, updated Oct 19, 2026) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 656-8983",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 19, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 19, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/leacock-leola-bareville/osteria-avanti-official-site-/",
+    "facebookMirror": "https://www.foodyas.com/US/Leola/270591759620264/Osteria-Avanti-Restaurant-at-The-Inn-at-Leola-Village",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.osteriaavanti.com/"
+   }
   },
   {
    "id": "helen-s-corner-bar",
@@ -142,7 +231,94 @@
     "Bar scene"
    ],
    "source": "exa.ai places listing",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Leola/114296868594752/Helen%27s-Corner-Bar-%26-Restaurant",
+        "quote": "Friendly, casual neighborhood bar. A local landmark featuring moderately-priced craft beers on tap, tavern fare and 3 pool",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "9:00 till midnight",
+      "basis": "posted on 3 different Sats",
+      "lastSeen": "2026-10-08",
+      "datedLastSeen": "2026-10-08",
+      "postsSeen": 3,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Leola/114296868594752/Helen%27s-Corner-Bar-%26-Restaurant",
+        "date": "2026-10-08",
+        "quote": "Carrie OK, Carrie OK, KARAOKE | Saturday from 9:00 till midnight. | Saturday from 9:00 till midnight."
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Leola/114296868594752/Helen%27s-Corner-Bar-%26-Restaurant",
+        "date": "2026-09-12",
+        "quote": " Another Saturday Night karaoke from 9:00 p"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Leola/114296868594752/Helen%27s-Corner-Bar-%26-Restaurant",
+        "date": "2026-08-15",
+        "quote": " Join us tonight Saturday August 15th for 🎤 karaoke with DJ timbo"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-09-12",
+      "quote": "Saturday night, my buddy Shawn Hoover aka DJ C***r, will be hosting karaoke at Helen's Corner Bar & Restaurant from 9-12",
+      "url": "https://www.foodyas.com/US/Leola/114296868594752/Helen%27s-Corner-Bar-%26-Restaurant"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-09-12",
+      "quote": "DJ Timbo sez:",
+      "url": "https://www.foodyas.com/US/Leola/114296868594752/Helen%27s-Corner-Bar-%26-Restaurant"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Leola/114296868594752/Helen%27s-Corner-Bar-%26-Restaurant",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-08",
+    "website": null
+   }
   },
   {
    "id": "leola-pizza",
@@ -167,7 +343,15 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/leacock-leola-bareville/leola-pizza-place-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.leolapizzapa.com/"
+   }
   },
   {
    "id": "wayside-public-house",
@@ -206,7 +390,15 @@
     "Date night"
    ],
    "source": "Venue site; Wayside venue site happy hour (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/leola/reflections-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://waysidepublichouse.com/"
+   }
   }
  ],
  "counties": [

@@ -56,7 +56,24 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01); Mick's All American Pub Facebook post Sep 29, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 435-9696",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01",
+   "karaoke": {
+    "nights": [],
+    "hints": [
+     "Google attribute 'karaoke' (via Restaurantji)"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/willow-street/micks-all-american-pub-/",
+    "facebookMirror": "https://www.foodyas.com/US/Lancaster/882670555261077/Mick%27s-All-American-Pub%2C-Willow-Valley",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-11",
+    "website": null
+   }
   },
   {
    "id": "willow-street-diner",
@@ -81,7 +98,37 @@
     "Family-friendly"
    ],
    "source": "Venue site; Willow Street Diner official site (willowstreetdiner.com) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Willow-Street/204726082892504/Willow-Street-Restaurant-%26-Diner",
+        "quote": "licious sandwiches, salads, burgers, hot soups and a wide array of tempting side options. Bring the family down for a hearty dinner, where our menu will delight you with our selections of steaks,",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/willow-street/willow-street-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Willow-Street/204726082892504/Willow-Street-Restaurant-%26-Diner",
+    "fbPostsSeen": 1,
+    "fbNewestPost": "2026-10-24",
+    "website": "https://willowstreetdiner.com/"
+   }
   },
   {
    "id": "george-s-at-kendig-square",
@@ -106,7 +153,15 @@
    "source": "Venue site (via search index); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 464-5252",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/willow-street/georges-kendig-square-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Willow-Street/447861375247840/George%27s-Family-Restaurant-at-Kendig-Square",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2025-07-20",
+    "website": null
+   }
   },
   {
    "id": "two-cousins-pizza-willow-street",
@@ -131,7 +186,15 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/willow-street/two-cousins-pizza-willow-street-/",
+    "facebookMirror": "https://www.foodyas.com/US/Willow-Street/194248313933294/Two-Cousins-Pizza---Willow-Street",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-05-25",
+    "website": "https://twocousinspizza.com/willow-street/"
+   }
   },
   {
    "id": "caruso-s-willow-street",
@@ -156,7 +219,15 @@
    "source": "Yelp (via search) / Caruso's locations page (address); Restaurantji (Google-sourced listing, updated Oct 17, 2026) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 464-6464",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 17, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/willow-street/carusos-italian-restaurant-and-pizzeria-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://carusospizzeria.com/"
+   }
   }
  ],
  "counties": [

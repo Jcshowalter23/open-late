@@ -44,7 +44,37 @@
     "Live music & events"
    ],
    "source": "Venue site; Moo-Duck venue site specials (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/elizabethtown/moo-duck-brewery-/",
+        "quote": "dinner and drinks, with the added bonus of free parking in front of the station. Loved by locals, Moo-Duck Brewery is a must-visit spot for delicious food and great beer.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/elizabethtown/moo-duck-brewery-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://mooduckbrewery.com/"
+   }
   },
   {
    "id": "black-gryphon",
@@ -80,7 +110,15 @@
     "Date night"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Elizabethtown/139114799499640/Black-Gryphon-Dining-%26-Spirits",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-31",
+    "website": "https://www.theblackgryphon.com/"
+   }
   },
   {
    "id": "t-j-rockwell-s-elizabethtown",
@@ -134,7 +172,15 @@
     "Sports & games"
    ],
    "source": "Venue site; tjrockwells.com/menus (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Elizabethtown/764955056983325/T.J.-Rockwell%27s",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.tjrockwells.com/location/tj-rockwells-elizabethtown/"
+   }
   },
   {
    "id": "pine-creek-spirits",
@@ -160,7 +206,15 @@
    "source": "Venue site",
    "county": "Lancaster",
    "phone": "(717) 366-4352",
-   "phoneSource": "Search-result listings agree: Toast, lanclocal.com, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: Toast, lanclocal.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Elizabethtown/559960947491274/Pine-Creek-Spirits-Taproom",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "lucky-ducks-bar-and-grille",
@@ -186,7 +240,51 @@
     "Family-friendly"
    ],
    "source": "exa.ai places listing / RestaurantJump (agree); Lucky Ducks Facebook post Oct 23, 2026 (via foodyas) (checked 2026-11-01)",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "College crowd",
+     "Locals & regulars"
+    ],
+    "summary": "Popular with college students; a locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "College crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/elizabethtown/lucky-ducks-bar-and-grille-/",
+        "quote": "here is lively, especially in the summertime when the deck is open, though some feel that college students can affect the vibe during the college season. With reasonable prices and great service,",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/elizabethtown/lucky-ducks-bar-and-grille-/",
+        "quote": "Lucky Ducks Bar & Grille in Elizabethtown, PA, is a beloved local haunt that offers a charming and relaxing dining experience. The outdoor deck, featuring a babb",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/elizabethtown/lucky-ducks-bar-and-grille-/",
+    "facebookMirror": "https://www.foodyas.com/US/Elizabethtown/170427086360212/Lucky-Ducks-Bar-and-Grille",
+    "fbPostsSeen": 3,
+    "fbNewestPost": "2026-10-23",
+    "website": null
+   }
   },
   {
    "id": "ridge-run-tavern",
@@ -247,7 +345,64 @@
     "Sports & games"
    ],
    "source": "Venue site; happy hour from the bar's Facebook (via RestaurantJump)",
-   "county": "Dauphin"
+   "county": "Dauphin",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Live music fans"
+    ],
+    "summary": "A locals-and-regulars spot; known for live music.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/elizabethtown/ridge-run-tavern-/",
+        "quote": "r is dedicated to ensuring every visitor has a great time, making it a welcoming spot for regulars and newcomers alike. Visitors often enjoy pool and darts, and the bartender provides frie",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://ridgeruntavern.com/",
+        "quote": "O THE RIDGE | ABOUT US | OUR MENU | Must Be | +21 | to Enter | Amazing Food, Drinks and a Hometown Bar Atmosphere | FOOD & DRINKS | SMOKING BAR | LIVE MUSIC | DARTS & POOL | OUR SPECIALS | Wee",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/pa/elizabethtown/ridge-run-tavern-/",
+        "quote": "owners, bartenders, wings, a/c, large orange slices for my drink and live music."
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://ridgeruntavern.com/",
+        "quote": "rthing | Great place to eat and drink. Me and my friends love to shoot pool and listen to live music every friday night. Highly recommend giving this place a try! | Trey Mandes | Great Tavern... h",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/elizabethtown/ridge-run-tavern-/",
+    "facebookMirror": "https://www.foodyas.com/US/Elizabethtown/388446824894112/Ridge-Run-Tavern",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-15",
+    "website": "https://ridgeruntavern.com/"
+   }
   },
   {
    "id": "country-meadows-restaurant",
@@ -272,7 +427,37 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/pa/elizabethtown/country-meadows-restaurant-/",
+        "quote": "ner. The portions are quite large, making it an excellent choice for those looking for an upscale diner experience. The staff is friendly, attentive, and works extremely fast to keep thin",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/elizabethtown/country-meadows-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Elizabethtown/164918963554999/Country-Meadows-Restaurant",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.countrymeadowsrestaurant.net/"
+   }
   },
   {
    "id": "pandj-pizza",
@@ -297,7 +482,15 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/elizabethtown/p-and-j-pizza-/",
+    "facebookMirror": "https://www.foodyas.com/US/Elizabethtown/613708068685724/P%26J%27S-Pizza",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://pandjpizza.com/"
+   }
   },
   {
    "id": "momo-shack",
@@ -322,7 +515,15 @@
    "source": "exa.ai places listing",
    "county": "Lancaster",
    "phone": "(223) 283-6011",
-   "phoneSource": "Search-result snippet from its Facebook page, checked 2026-11-01"
+   "phoneSource": "Search-result snippet from its Facebook page, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Elizabethtown/554037651118910/MOMO-SHACK",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-17",
+    "website": null
+   }
   },
   {
    "id": "hokkaido",
@@ -348,7 +549,15 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "Lancaster",
    "phone": "(717) 361-2988",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/elizabethtown/hokkaido-sushi-and-hibachi-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.hokkaido1623.com/"
+   }
   },
   {
    "id": "babbo-s-pizza",
@@ -383,7 +592,37 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Lancaster"
+   "county": "Lancaster",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/pa/elizabethtown/babbos-pizza-/",
+        "quote": "wheelchair accessible and has plenty of parking. Kids are welcome, and the atmosphere is family-friendly. Customers have praised the quality of the pizza crust and sauce, and appreciate the comf",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/elizabethtown/babbos-pizza-/",
+    "facebookMirror": "https://www.foodyas.com/US/Elizabethtown/1433943116697579/Babbo%27s-Pizza",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-09-03",
+    "website": "https://babbospizza.com/"
+   }
   }
  ],
  "counties": [

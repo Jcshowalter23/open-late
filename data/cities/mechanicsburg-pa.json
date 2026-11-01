@@ -29,7 +29,37 @@
    "source": "Venue site; Facebook; Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 795-4660",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/mechanicsburg/appalachian-brewing-co-mech-/",
+        "quote": "us food, welcoming atmosphere, and fun activities, making it a great destination for both locals and visitors.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mechanicsburg/appalachian-brewing-co-mech-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://abcbrew.com/mechanicsburg"
+   }
   },
   {
    "id": "wolf-brewing-co",
@@ -65,7 +95,84 @@
     "Sports & games"
    ],
    "source": "Venue site; Wolf Brewing venue site (checked 2026-11-01)",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdType": {
+    "labels": [
+     "Live music fans",
+     "Families",
+     "Date night / upscale"
+    ],
+    "summary": "Known for live music; family-friendly; a date-night / upscale spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-25",
+        "url": "https://www.restaurantji.com/pa/mechanicsburg/wolf-brewing-co-/",
+        "quote": "friendly policy adds to its charm. However, the atmosphere can be loud, especially during live music events near the bar. Despite this, Wolf Brewing Co. remains a popular spot to enjoy wonde",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/mechanicsburg/wolf-brewing-co-/",
+        "quote": "live music"
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-25",
+        "url": "https://www.restaurantji.com/pa/mechanicsburg/wolf-brewing-co-/",
+        "quote": "Brewing Co. offers a lively atmosphere with live singing and modern decor that appeals to families and beer enthusiasts. The food is exceptional, with standout dishes like the fried Green",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.wolfbrewingco.com/",
+        "quote": "LACE TO GATHER & UNWIND | Whether you’re planning a fun night out with friends, a relaxed date night, a private event or anything in between - Wolf Brewing Co. is the perfect place to gather",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Event hosts/organizers are welcome to source outside entertainment (example: live music, DJ, karaoke, comedian, trivia, etc) for their private event",
+      "url": "https://www.wolfbrewingco.com/private-events"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mechanicsburg/wolf-brewing-co-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.wolfbrewingco.com/"
+   }
   },
   {
    "id": "midstate-distillery",
@@ -91,7 +198,15 @@
    "source": "Google listing via exa",
    "county": "Cumberland",
    "phone": "(717) 745-5040",
-   "phoneSource": "Search-result listings agree: venue site midstate-distillery-windsor-park-tasting-room.wheree.com, Apple Maps, Yelp, checkle.com, simplythebestharrisburg.com and others, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: venue site midstate-distillery-windsor-park-tasting-room.wheree.com, Apple Maps, Yelp, checkle.com, simplythebestharrisburg.com and others, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.midstatedistillery.com/"
+   }
   },
   {
    "id": "gilligan-s-bar-and-grill",
@@ -117,7 +232,64 @@
     "Sports & games"
    ],
    "source": "Venue site; Facebook",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdType": {
+    "labels": [
+     "Sports fans",
+     "Date night / upscale"
+    ],
+    "summary": "Popular for watching games; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.gilligansbarandgrill.net/mechanicsburg",
+        "quote": "Saturday until 1:00 am | Closed on Mondays | The Arena | The Arena is Gilligan’s upscale sports bar. Enjoy the time with family or friends as you cheer on your favorite teams. | Our Privat",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.gilligansbarandgrill.net/mechanicsburg",
+        "quote": "iday and Saturday until 1:00 am | Closed on Mondays | The Arena | The Arena is Gilligan’s upscale sports bar. Enjoy the time with family or friends as you cheer on your favorite teams.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Entertainment by DJ Hollywood",
+      "url": "https://www.gilligansbarandgrill.net/upcoming-events"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mechanicsburg/gilligans-bar-and-grill-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.gilligansbarandgrill.net/mechanicsburg"
+   }
   },
   {
    "id": "dukes-bar-and-grille-west",
@@ -150,7 +322,15 @@
     "Sports & games"
    ],
    "source": "Venue site; Facebook; Venue site dukesbarandgrille.com (checked 2026-11-01)",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mechanicsburg/dukes-bar-and-grille-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://dukesbarandgrille.com/"
+   }
   },
   {
    "id": "black-n-bleu",
@@ -192,7 +372,15 @@
     "Family-friendly"
    ],
    "source": "Venue site; Black N Bleu Facebook post Oct 22, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mechanicsburg/black-n-bleu-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "snappers-bar-and-grill",
@@ -226,7 +414,58 @@
     "Family-friendly"
    ],
    "source": "Venue site; Facebook",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-13",
+        "url": "https://www.restaurantji.com/pa/mechanicsburg/snappers-bar-and-grill-/",
+        "quote": "nder were particularly enjoyed, and the old fashioned cocktails were also well-received. Locals frequent the restaurant, often opting for the Greek salad or the weekly specials. The bar",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://mechanicsburgrestaurant.com/",
+        "quote": "Mechanicsburg restaurant? Snappers Bar & Grill offers fresh seafood, hand-cut steaks, and local favorites. Visit us for the best casual dining in PA. | Snappers Bar and Grill was established in",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-13",
+        "url": "https://www.restaurantji.com/pa/mechanicsburg/snappers-bar-and-grill-/",
+        "quote": "opting for the Greek salad or the weekly specials. The bar area is described as a relaxed sports bar, while the dining room offers a more formal, yet still relaxed, atmosphere suitable for s",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mechanicsburg/snappers-bar-and-grill-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://mechanicsburgrestaurant.com/"
+   }
   },
   {
    "id": "t-j-rockwell-s-mechanicsburg",
@@ -276,7 +515,15 @@
    "source": "Venue site; tjrockwells.com/menus (checked 2026-11-01); Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 766-4200",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mechanicsburg/t-j-rockwells-american-grill-and-tavern-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.tjrockwells.com/"
+   }
   },
   {
    "id": "caddy-shack-restaurant",
@@ -335,7 +582,37 @@
     "Sports & games"
    ],
    "source": "Venue site; Caddy Shack venue site (checked 2026-11-01); Caddy Shack Restaurant Facebook post Oct 1, 2026 (via bars10) (checked 2026-11-01); The Caddy Shack official site (caddyshackrestaurant.com) (checked 2026-11-01)",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://caddyshackrestaurant.com/",
+        "quote": "al | 🎁 | Download TasteCumberland and unlock an exclusive coupon for The Caddy Shack. | A local favorite for over 30 years. Wings, steaks, daily specials, and private events. | Quick Links | Hom",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.caddyshackrestaurant.com/"
+   }
   },
   {
    "id": "creekside-grill-at-liberty-forge",
@@ -361,7 +638,15 @@
    "source": "Venue site; libertyforgegolf.com/contact (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 620-8357",
-   "phoneSource": "Official site libertyforgegolf.com (3921 Lisburn Rd listing), checked 2026-11-01"
+   "phoneSource": "Official site libertyforgegolf.com (3921 Lisburn Rd listing), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.libertyforgegolf.com/creeksidegrill"
+   }
   },
   {
    "id": "bacco-pizzeria-and-wine-bar",
@@ -387,7 +672,15 @@
    "source": "Facebook; venue site; baccopizzeriawinebar.com (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 477-3955",
-   "phoneSource": "Official site baccopizzeriawinebar.com, checked 2026-11-01; Yelp shows this location as temporarily closed"
+   "phoneSource": "Official site baccopizzeriawinebar.com, checked 2026-11-01; Yelp shows this location as temporarily closed",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.baccopizzeriawinebar.com/"
+   }
   },
   {
    "id": "luna-italian-cuisine",
@@ -411,7 +704,15 @@
    "source": "Venue site; Official site lunaitalian.com/locations (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 620-8683",
-   "phoneSource": "Official site lunaitalian.com/locations, checked 2026-11-01"
+   "phoneSource": "Official site lunaitalian.com/locations, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.lunaitalian.com/"
+   }
   },
   {
    "id": "davinci-s-italian-eatery",
@@ -436,7 +737,37 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.davinciitalianeatery.com/",
+        "quote": "slice - we're here to serve you. Don't hesitate to check us out and see why we're such a local favorite in Cumberland County. | Our menu includes a variety of flavorsome pizzas. You can get our",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mechanicsburg/davinci-italian-eatery-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.davinciitalianeatery.com/"
+   }
   },
   {
    "id": "thea",
@@ -461,7 +792,37 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 19, 2026) (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 759-4654",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 19, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 19, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/pa/mechanicsburg/thea-/",
+        "quote": "ease. The atmosphere is clean and pleasant, with a great outside atmosphere and sometimes live music. The entire dining experience is outstanding and extravagant. Customers consistently prai",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mechanicsburg/thea-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://thea-dining.com/"
+   }
   },
   {
    "id": "sophia-s-at-walden",
@@ -487,7 +848,37 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 12, 2026) (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 791-0100",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-12",
+        "url": "https://www.restaurantji.com/pa/mechanicsburg/sophias-at-walden-/",
+        "quote": "and friendly, providing plenty of seating both inside and on the patio. The menu includes kid-friendly meals, with the chocolate chip cookie being a standout. Vegetarian options are available,",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mechanicsburg/sophias-at-walden-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "spice-restaurant-and-bar",
@@ -519,7 +910,15 @@
    "source": "Venue site; Spice venue site (checked 2026-11-01); Restaurantji (Google-sourced listing, updated Oct 15, 2026) (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 691-3131",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 15, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 15, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mechanicsburg/spice-restaurant-and-bar-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.spicerestaurantsandbar.com/"
+   }
   },
   {
    "id": "sapporo-east",
@@ -544,7 +943,15 @@
     "Date night"
    ],
    "source": "Venue site",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mechanicsburg/sapporo-east-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://sapporoeastsushi.com/"
+   }
   },
   {
    "id": "plaza-azteca",
@@ -570,7 +977,15 @@
     "Bar scene"
    ],
    "source": "Facebook; Restaurantji (Google-sourced listing, updated Oct 19, 2026) (checked 2026-11-01)",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mechanicsburg/plaza-azteca-mechanicsburg-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "casa-mariachi",
@@ -595,7 +1010,37 @@
    "source": "Restaurantji (Google data); Chamber of Commerce listing; Restaurantji (Google-sourced listing, updated Oct 1, 2026) (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 522-6919",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 1, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 1, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-01",
+        "url": "https://www.restaurantji.com/pa/mechanicsburg/casa-mariachi-/",
+        "quote": "amen on their specials board. Casa Mariachi offers warm and friendly service, making it a great spot for families. Guests have noted that the staff is friendly, and the service is fast and accurate. Whil",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mechanicsburg/casa-mariachi-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "tatiana-s-restaurant",
@@ -621,7 +1066,15 @@
     "Date night"
    ],
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 19, 2026) (checked 2026-11-01)",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mechanicsburg/tatianas-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.tatianasrestaurant.com/"
+   }
   },
   {
    "id": "josie-s-german-cafe-and-market",
@@ -646,7 +1099,51 @@
    "source": "Venue site",
    "county": "Cumberland",
    "phone": "(717) 697-6462",
-   "phoneSource": "Search-result listings agree: venue site germanfoodatjosies.com, venue site josiesgermancakesandmarket.netwaiter.com, Allmenus, Tripadvisor, Yelp and others, checked 2026-11-01"
+   "phoneSource": "Search-result listings agree: venue site germanfoodatjosies.com, venue site josiesgermancakesandmarket.netwaiter.com, Allmenus, Tripadvisor, Yelp and others, checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-03",
+        "url": "https://www.restaurantji.com/pa/mechanicsburg/josies-german-delicatessen-/",
+        "quote": "Josie's German Restaurant And Market is a favorite among locals and visitors alike, offering authentic German dishes just like grandma made. The menu fea",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-03",
+        "url": "https://www.restaurantji.com/pa/mechanicsburg/josies-german-delicatessen-/",
+        "quote": "options like jaggerschnitzel and delicious black forest cake, which have been a hit with families and friends. The restaurant also offers a variety of German lunch meats and bread for tak",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mechanicsburg/josies-german-delicatessen-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://germanfoodatjosies.com/"
+   }
   },
   {
    "id": "dad-s-garage-grill-and-burger-house",
@@ -671,7 +1168,51 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdType": {
+    "labels": [
+     "Dive bar",
+     "Locals & regulars"
+    ],
+    "summary": "No-frills dive-bar feel; a locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Dive bar",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/mechanicsburg/dads-garage-grill-and-burger-house-/",
+        "quote": "House is a charming eatery that embodies the true spirit of a classic burger joint. This hole-in-the-wall spot boasts fantastic burgers, including the Louisiana Burger, and mouth-watering sides l",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://dadsgarageburgerhouse.com/",
+        "quote": "tomato and sauce. Delish | Randi Thickey | 2022-11-04 | Food is always excellent. We are regulars here | Mike S | 2022-11-03 | Food was good. I will eat there again when I work in that to",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mechanicsburg/dads-garage-grill-and-burger-house-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://dadsgarageburgerhouse.com/"
+   }
   },
   {
    "id": "hampden-diner",
@@ -696,7 +1237,43 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-01",
+        "url": "https://www.restaurantji.com/pa/hampden/hampden-diner-/",
+        "quote": "welcoming atmosphere that makes diners feel at home. The restaurant is often described as family-friendly, and guests appreciate the quick service, ample parking, and convenient location near pop",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/pa/hampden/hampden-diner-/",
+        "quote": "d was absolutely the best I have had in a very long time. recommend this restaurant for a family friendly environment. May God absolutely bless this establishment and the people there."
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/hampden/hampden-diner-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "new-silver-spring-diner",
@@ -721,7 +1298,15 @@
    "source": "Restaurantji (Google data); Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 766-4857",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mechanicsburg/silver-spring-diner-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "sunlight-diner",
@@ -746,7 +1331,51 @@
     "Family-friendly"
    ],
    "source": "Restaurant.com listing; Yelp (Apr 2026)",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/mechanicsburg/sunlight-diner-/",
+        "quote": "with classic music like Elvis, make it a reliable diner with a home-town feel, beloved by locals and visitors alike. The inside of the diner is beautiful, adding to the overall positive",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/mechanicsburg/sunlight-diner-/",
+        "quote": "e breakfast potatoes are noted as the best in Mechanicsburg. The welcoming atmosphere and kid-friendly environment, combined with classic music like Elvis, make it a reliable diner with a home",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mechanicsburg/sunlight-diner-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-peppermill-family-restaurant",
@@ -769,7 +1398,15 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mechanicsburg/peppermill-family-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://peppermillfamilyrestaurant.net/"
+   }
   },
   {
    "id": "brothers-family-diner",
@@ -794,7 +1431,15 @@
     "Family-friendly"
    ],
    "source": "Google listing via exa; Restaurantji",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mechanicsburg/brothers-family-dining-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "c-c-s-kitchen",
@@ -819,7 +1464,15 @@
    "source": "Restaurantji (Google data); Restaurantji (Google-sourced listing, updated Sep 30, 2026) (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 766-6713",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 30, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 30, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/mechanicsburg/c-c-s-kitchen-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   }
  ],
  "counties": [

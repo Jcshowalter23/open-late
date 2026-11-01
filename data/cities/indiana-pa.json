@@ -40,7 +40,37 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site alpattisbar.com (checked 2026-11-01)",
-   "county": "Indiana"
+   "county": "Indiana",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Indiana/111708812193728/Al-Patti%27s-Bar-and-Grill",
+        "quote": "Website | Al Patti's is one of Indiana's best and oldest sports bars and is home to IUP Mens and Womens Rugby! | (261)",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/111708812193728/Al-Patti%27s-Bar-and-Grill",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-07-31",
+    "website": "https://www.alpattisbar.com/"
+   }
   },
   {
    "id": "boomies",
@@ -61,7 +91,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Indiana"
+   "county": "Indiana",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "casa-jalisco-restaurante-mexicano",
@@ -84,7 +122,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 6, 2026) (checked 2026-11-01)",
    "county": "Indiana",
    "phone": "(724) 471-2345",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 6, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 6, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/indiana/casa-jalisco-restaurante-mexicano-/",
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/103096318188476/Casa-Jalisco-Restaurante-Mexicano",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-15",
+    "website": null
+   }
   },
   {
    "id": "chestnut-ridge-golf-resort-restaurant-and-even",
@@ -109,7 +155,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Indiana",
    "phone": "(724) 459-7191",
-   "phoneSource": "Venue website chestnutridgeresort.com, checked 2026-11-01"
+   "phoneSource": "Venue website chestnutridgeresort.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Blairsville/147011017240/Chestnut-Ridge-Golf-Resort%2C-Restaurant-%26-Event-Center",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-08-28",
+    "website": null
+   }
   },
   {
    "id": "coal-run-craft",
@@ -132,7 +186,43 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 15, 2026) (checked 2026-11-01)",
    "county": "Indiana",
    "phone": "(724) 726-5140",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 15, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 15, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-15",
+        "url": "https://www.restaurantji.com/pa/homer-city/coal-run-craft-inc-/",
+        "quote": "crunch wrap with sweet hot sauce. The indoor and outdoor dining options, bar seating, and live music program make Coal Run Craft a fantastic place to eat, relax, and enjoy. Overall, it is a",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/homer-city/coal-run-craft-inc-/",
+        "quote": "live music"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/homer-city/coal-run-craft-inc-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "danny-s-tacos",
@@ -153,7 +243,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Indiana"
+   "county": "Indiana",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/110730751494952/Danny%27s-Tacos",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-05",
+    "website": null
+   }
   },
   {
    "id": "dean-s-diner",
@@ -174,7 +272,15 @@
     "Family-friendly"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Indiana"
+   "county": "Indiana",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "donatellos",
@@ -199,7 +305,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Indiana",
    "phone": "(724) 349-5865",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/indiana/donatellos-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/352747051439492/Donatellos",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-23",
+    "website": null
+   }
   },
   {
    "id": "el-paso-mexican-grill-blairsville",
@@ -222,7 +336,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Indiana",
    "phone": "(724) 675-8104",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/blairsville/el-paso-mexican-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Blairsville/101240134637654/El-Paso-Mexican-Grill-Blairsville",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2023-12-29",
+    "website": null
+   }
   },
   {
    "id": "el-tesoro-mexican-bar-and-grille",
@@ -245,7 +367,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Indiana"
+   "county": "Indiana",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/111119293638950/El-Tesoro-Mexican-Bar-and-Grille",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "fedder-s-grill",
@@ -268,7 +398,15 @@
     "Bar scene"
    ],
    "source": "hours from Google listing via exa",
-   "county": "Indiana"
+   "county": "Indiana",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "fusion-bar-and-grill",
@@ -312,7 +450,15 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site fusionbarramada.wixsite.com (checked 2026-11-01)",
-   "county": "Indiana"
+   "county": "Indiana",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://fusionbarramada.wixsite.com/fusionbar"
+   }
   },
   {
    "id": "griffith-s-tavern",
@@ -338,7 +484,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Indiana",
    "phone": "(814) 446-5393",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Armagh/350650565837/Griffith%27s-Tavern",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "h-b-culpeppers-philadelphia-street",
@@ -361,7 +515,57 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Indiana",
    "phone": "(724) 349-5486",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans",
+     "Families"
+    ],
+    "summary": "Popular for watching games; family-friendly.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "attr",
+        "src": "Google attribute 'good for watching sports' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/indiana/h-b-culpeppers-/",
+        "quote": "good for watching sports"
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Indiana/176319742406258/H.B.-Culpeppers",
+        "quote": "Harry Spielman (H) and Ben Bruns (B). In J Open for lunch, dinner, and drinks. | (490) | Watch all the games on 19 HDTVS including 10 foot projector on 2 floors. Smoking and non-smoking sections av",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Indiana/176319742406258/H.B.-Culpeppers",
+        "quote": "ors. Smoking and non-smoking sections available. Great food and drink specials every day. Family friendly and a great space for large groups!",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/indiana/h-b-culpeppers-/",
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/176319742406258/H.B.-Culpeppers",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "h-b-culpeppers-philadephia-street",
@@ -404,7 +608,58 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror); H.B. Culpeppers venue site (checked 2026-11-01)",
-   "county": "Indiana"
+   "county": "Indiana",
+   "crowdType": {
+    "labels": [
+     "Sports fans",
+     "Families"
+    ],
+    "summary": "Popular for watching games; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Indiana/176319742406258/H.B.-Culpeppers",
+        "quote": "Harry Spielman (H) and Ben Bruns (B). In J Open for lunch, dinner, and drinks. | (490) | Watch all the games on 19 HDTVS including 10 foot projector on 2 floors. Smoking and non-smoking sections av",
+        "self": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://hbculpeppers.com/",
+        "quote": "H.B. Culpeppers | Sports Bar & Grill | Indiana, PA | Skip to content | 724-349-5486 | 653 Philadelphia St. Indiana, PA",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Indiana/176319742406258/H.B.-Culpeppers",
+        "quote": "ors. Smoking and non-smoking sections available. Great food and drink specials every day. Family friendly and a great space for large groups!",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/176319742406258/H.B.-Culpeppers",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://hbculpeppers.com/"
+   }
   },
   {
    "id": "h-r-steinhouse",
@@ -429,7 +684,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Indiana",
    "phone": "(724) 465-8493",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/529284623922901/H.R.-Steinhouse",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "italian-village-pizza-ivp-indiana-pa",
@@ -455,7 +718,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 4, 2026) (checked 2026-11-01)",
    "county": "Indiana",
    "phone": "(724) 349-6873",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 4, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 4, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/indiana/italian-village-pizza-/",
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/597005240389734/Italian-Village-Pizza-IVP-Indiana-PA",
+    "fbPostsSeen": 3,
+    "fbNewestPost": "2026-02-08",
+    "website": null
+   }
   },
   {
    "id": "lemoona-house",
@@ -478,7 +749,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Indiana"
+   "county": "Indiana",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/113407481164681/Lemoona-House",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.lemoonahouse.com/"
+   }
   },
   {
    "id": "levity-brewing-co",
@@ -503,7 +782,43 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 18, 2026) (checked 2026-11-01); Venue site levitybrewing.com (checked 2026-11-01)",
    "county": "Indiana",
    "phone": "(724) 427-5665",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 18, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-18",
+        "url": "https://www.restaurantji.com/pa/indiana/levity-brewing-co-/",
+        "quote": "ndly and helpful staff, as well as the great atmosphere and ample parking. Trivia nights, live bands, and summer festivals add to the lively and enjoyable experience.",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/pa/indiana/levity-brewing-co-/",
+        "quote": "Tasty beers, live music, great atmosphere"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/indiana/levity-brewing-co-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "ma-and-pa-s",
@@ -538,7 +853,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Ma & Pa's Facebook post Oct 20 & 27, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Indiana",
    "phone": "(814) 948-5948",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 20, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Heilwood/468782779966824/Ma-%26-Pa%27s",
+    "fbPostsSeen": 16,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "maudie-s-sixers",
@@ -568,7 +891,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Maudie's Sixers Facebook post Oct 23, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Indiana",
    "phone": "(724) 479-4150",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/317653305111/Maudie%27s-Sixers",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "mavericks",
@@ -592,7 +923,15 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Indiana"
+   "county": "Indiana",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "nap-s-cucina-mia",
@@ -618,7 +957,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 14, 2026) (checked 2026-11-01)",
    "county": "Indiana",
    "phone": "(724) 465-5396",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/indiana/naps-cucina-mia-/",
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/113956391969360/Nap%27s-Cucina-Mia",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-09-25",
+    "website": "https://napscucinamia.com/"
+   }
   },
   {
    "id": "noble-stein-brewing-company",
@@ -645,7 +992,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Aug 19, 2026) (checked 2026-11-01)",
    "county": "Indiana",
    "phone": "(724) 801-8768",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Aug 19, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Aug 19, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Indiana/1044666412215638/Noble-Stein-Brewing-Company",
+        "quote": "ayne Ave. | (331) | Noble Stein Brewing Company strives to provide quality craft beers to locals and visitors alike while providing a warm and inviting taproom to sit and share a pint or",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/indiana/noble-stein-brewing-company-/",
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/1044666412215638/Noble-Stein-Brewing-Company",
+    "fbPostsSeen": 13,
+    "fbNewestPost": "2026-10-30",
+    "website": "https://noblesteinbrewingcompany.com/"
+   }
   },
   {
    "id": "pan-asia-cafe-sushi-and-noodles",
@@ -668,7 +1045,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 28, 2026) (checked 2026-11-01)",
    "county": "Indiana",
    "phone": "(724) 471-2797",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/indiana/pan-asia-cafe-/",
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/101014522237498/Pan-Asia-Cafe---Sushi-%26-Noodles",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-15",
+    "website": null
+   }
   },
   {
    "id": "pauls-freeze-n-fry",
@@ -693,7 +1078,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Website (rendered) paulsfreeze-n-fry.square.site (checked 2026-11-01)",
    "county": "Indiana",
    "phone": "(724) 464-3774",
-   "phoneSource": "Website (rendered) paulsfreeze-n-fry.square.site, checked 2026-11-01"
+   "phoneSource": "Website (rendered) paulsfreeze-n-fry.square.site, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/105457802574110/Paul%E2%80%99s-Freeze-N-Fry",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "pikel-s-bp-inn",
@@ -716,7 +1109,37 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Indiana"
+   "county": "Indiana",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Home/157333794328132/Pikel%27s-BP-Inn",
+        "quote": "BP Inn | Home | United States | Home, PA | Pikel's BP Inn | Call | Directions | Website | Neighborhood Hangout (Must be 21yrs of Age) Open around 11, Closes whenever. Lunch Served daily. Grill closed",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Home/157333794328132/Pikel%27s-BP-Inn",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "point-street-tavern",
@@ -742,7 +1165,44 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 15, 2026) (checked 2026-11-01)",
    "county": "Indiana",
    "phone": "(724) 702-0370",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 15, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 15, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-15",
+        "url": "https://www.restaurantji.com/pa/saltsburg/point-street-tavern-/",
+        "quote": "iders, and homemade chili. The atmosphere is pleasant, especially in the front rooms, and live music performances add to the vibe. The owners are friendly and accommodating, making it a grea",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Saltsburg/246033502566815/Point-Street-Tavern",
+        "quote": "A gathering place right off the river & trail in the heart of Saltsburg, PA. Live music every Friday night Opening under new ownership Monday September 1st, 2025 | (342) | Stop by for",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/saltsburg/point-street-tavern-/",
+    "facebookMirror": "https://www.foodyas.com/US/Saltsburg/246033502566815/Point-Street-Tavern",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-23",
+    "website": null
+   }
   },
   {
    "id": "ravaila-s-restaurant",
@@ -763,7 +1223,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Indiana"
+   "county": "Indiana",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.ravailasrestaurant.com/"
+   }
   },
   {
    "id": "siam-thai-kitchen",
@@ -786,7 +1254,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01); Venue site siamthaikitchen.net (checked 2026-11-01)",
    "county": "Indiana",
    "phone": "(724) 717-6917",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/indiana/siam-thai-kitchen-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "spaghetti-benders",
@@ -812,7 +1288,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "Indiana",
    "phone": "(724) 357-8822",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Indiana/115856595104176/Spaghetti-Benders",
+        "quote": "Website | Spaghetti Benders offers authentic Italian food in a family-friendly restaurant. Join us for karaoke Our listed hours are for when the kitchen is open. | (283",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/indiana/spaghetti-benders-/",
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/115856595104176/Spaghetti-Benders",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-14",
+    "website": null
+   }
   },
   {
    "id": "teerak-thai-restaurant",
@@ -835,7 +1341,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 12, 2026) (checked 2026-11-01)",
    "county": "Indiana",
    "phone": "(724) 471-2176",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-11-01",
+        "url": "https://www.restaurantji.com/pa/indiana/teerak-thai-restaurant-/",
+        "quote": "curry, the overall experience remains highly positive, making it a favorite spot for both locals and visitors alike. Many customers also enjoy the noodles and brown rice, often mentionin",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/indiana/teerak-thai-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/306747962793835/Teerak-Thai-Restaurant",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-20",
+    "website": null
+   }
   },
   {
    "id": "thai-at-indiana",
@@ -858,7 +1394,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Indiana",
    "phone": "(724) 471-2779",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/indiana/thai-indiana-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/807324672709379/Thai-at-Indiana",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-09-05",
+    "website": null
+   }
   },
   {
    "id": "the-coney",
@@ -894,7 +1438,80 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
    "county": "Indiana",
    "phone": "(724) 465-8082",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Indiana/170337556314199/The-Coney",
+        "quote": "Contact the business | A family-friendly pub that’s fun for everyone! We have Irish and American cuisine, drinks, outside seating,",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-10-29",
+      "datedLastSeen": "2026-10-29",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Indiana/170337556314199/The-Coney",
+        "date": "2026-10-29",
+        "quote": " Join us at The Coney every Thursday at 9 for karaoke"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/Indiana/170337556314199/The-Coney",
+        "date": "2026-10-22",
+        "quote": " Join us at The Coney every Thursday at 9 for karaoke"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-24",
+      "quote": "Emo themed karaoke hosted by Kiara Smith at the Back Bar | Emo Night returns to The Coney on Saturday, October 24th! 🖤",
+      "url": "https://www.foodyas.com/US/Indiana/170337556314199/The-Coney"
+     },
+     {
+      "date": "2026-10-24",
+      "quote": "Emo themed karaoke hosted by Kiara Smith at the Back Bar | Emo Night returns to The Coney on Saturday, October 24th! 🖤",
+      "url": "https://www.foodyas.com/US/Indiana/170337556314199/The-Coney"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/indiana/the-coney-/",
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/170337556314199/The-Coney",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "the-road-side",
@@ -915,7 +1532,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Indiana",
    "phone": "(724) 354-6036",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 4, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 4, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-rose-inn",
@@ -940,7 +1565,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Indiana"
+   "county": "Indiana",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "tj-s-fun-zone",
@@ -963,7 +1596,22 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Indiana"
+   "county": "Indiana",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/221472097723684/TJ%27s-Fun-Zone",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2024-04-17",
+    "website": null
+   }
   },
   {
    "id": "tres-amigos",
@@ -986,7 +1634,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 16, 2026) (checked 2026-11-01)",
    "county": "Indiana",
    "phone": "(724) 349-1040",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 16, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/indiana/tres-amigos-mexican-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/629021770458510/Tres-Amigos",
+    "fbPostsSeen": 5,
+    "fbNewestPost": "2026-07-04",
+    "website": null
+   }
   },
   {
    "id": "twisted-jimmy-s",
@@ -1007,7 +1663,15 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Indiana"
+   "county": "Indiana",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "umi-hibachi-steakhouse",
@@ -1030,7 +1694,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 21, 2026) (checked 2026-11-01)",
    "county": "Indiana",
    "phone": "(724) 801-8056",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/indiana/umi-hibachi-steakhouse-/",
+        "quote": "UMI Hibachi Steakhouse offers a romantic, modern atmosphere with a candlelit ambiance. The restaurant serves exceptional food, inc",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/indiana/umi-hibachi-steakhouse-/",
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/1192143354169753/UMI-Hibachi-Steakhouse",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "wolfendales",
@@ -1056,7 +1750,28 @@
    "source": "hours from Restaurantji (Google data)",
    "county": "Indiana",
    "phone": "(724) 801-8241",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 19, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 19, 2026), checked 2026-11-01",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-02",
+      "quote": "DJ & Karaoke | Friday Night | 9PM to 2AM ",
+      "url": "https://www.foodyas.com/US/Indiana/120663504616371/Wolfendales"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/120663504616371/Wolfendales",
+    "fbPostsSeen": 11,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "z-buffet-pa",
@@ -1077,7 +1792,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Indiana"
+   "county": "Indiana",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Indiana/452291864635656/Z-Buffet-PA",
+    "fbPostsSeen": 5,
+    "fbNewestPost": "2024-12-15",
+    "website": null
+   }
   }
  ],
  "counties": [

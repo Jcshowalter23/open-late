@@ -28,7 +28,57 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
    "county": "Delaware",
    "phone": "(484) 497-5389",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans",
+     "Locals & regulars"
+    ],
+    "summary": "Known for live music; a locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/glenolden/39-north-taproom-and-grille-/",
+        "quote": "artenders and Cheers-like vibe create a welcoming atmosphere for all. Friday nights bring live music, and the staff is warm, attentive, and makes everyone feel like a regular. The mussels an",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/glenolden/39-north-taproom-and-grille-/",
+        "quote": "live music"
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/glenolden/39-north-taproom-and-grille-/",
+        "quote": "re made from scratch, never frozen, and absolutely delicious. The friendly bartenders and Cheers-like vibe create a welcoming atmosphere for all. Friday nights bring live music, and the staff",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/glenolden/39-north-taproom-and-grille-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "casey-s-ridley-park",
@@ -81,7 +131,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 21, 2026) (checked 2026-11-01)",
    "county": "Delaware",
    "phone": "(484) 540-7524",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/ridley-park/caseys-ridley-park-/",
+        "quote": "f salad choices. The atmosphere is enhanced by an outdoor area, making it a great spot to watch games or enjoy dinner, especially on the outdoor deck in nice weather. The restaurant has a ba",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/ridley-park/caseys-ridley-park-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "charlies-hamburgers",
@@ -104,7 +184,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 9, 2026) (checked 2026-11-01)",
    "county": "Delaware",
    "phone": "(610) 461-4228",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 9, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 9, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/folsom/charlies-hamburgers-/",
+    "facebookMirror": "https://www.foodyas.com/US/Folsom/114246375274058/Charlies-Hamburgers",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-09-26",
+    "website": null
+   }
   },
   {
    "id": "coaches-bar-and-grille",
@@ -142,7 +230,68 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Delaware",
    "phone": "(610) 521-6668",
-   "phoneSource": "Venue website coachesbargrille.com, checked 2026-11-01"
+   "phoneSource": "Venue website coachesbargrille.com, checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Essington/116588928364904/Coaches-Bar-and-Grille",
+        "quote": "Website | Local sports bar in Essington, PA with gameday broadcasts, karaoke, and live music. Swing by! | (576)",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-28",
+      "quote": " Karaoke with DJ Jammin’ John",
+      "url": "https://www.foodyas.com/US/Essington/116588928364904/Coaches-Bar-and-Grille"
+     },
+     {
+      "date": "2026-10-15",
+      "quote": "Friday Karaoke 8:30-11:30PM 🎤",
+      "url": "https://www.foodyas.com/US/Essington/116588928364904/Coaches-Bar-and-Grille"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-14",
+      "quote": " This Friday night with DJ Jammin’ John",
+      "url": "https://www.foodyas.com/US/Essington/116588928364904/Coaches-Bar-and-Grille"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Essington/116588928364904/Coaches-Bar-and-Grille",
+    "fbPostsSeen": 11,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "el-limon-morton",
@@ -163,7 +312,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 10, 2026) (checked 2026-11-01)",
    "county": "Delaware",
    "phone": "(610) 222-6800",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 10, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 10, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-10",
+        "url": "https://www.restaurantji.com/pa/morton/el-lim-n-morton-/",
+        "quote": "lity of the food shines through. The restaurant is known for its large portion sizes and kid-friendly menu items, such as nachos and burritos. Customers have raved about the excellent value,",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/morton/el-lim-n-morton-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "frontier-saloon-and-beer-store",
@@ -188,7 +367,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Delaware",
    "phone": "(610) 534-1424",
-   "phoneSource": "OpenStreetMap (way/882821532, name + location match; Geofabrik extract of 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap (way/882821532, name + location match; Geofabrik extract of 2026-10-31), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Holmes/765873880188499/Frontier-Saloon-%26-Beer-Store",
+    "fbPostsSeen": 3,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "gateway-diner",
@@ -214,7 +401,37 @@
     "Family-friendly"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Delaware"
+   "county": "Delaware",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/holmes/gateway-diner-/",
+        "quote": "ice and quick. The diner is wheelchair accessible with a ramp from the parking lot and is great for families, as children also enjoy the food from the kids menu. It is a recommended spot for a satis",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/holmes/gateway-diner-/",
+    "facebookMirror": "https://www.foodyas.com/US/Holmes/105801144460431/Gateway-Diner",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
   },
   {
    "id": "grill-and-glaze",
@@ -233,7 +450,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Delaware"
+   "county": "Delaware",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://grillandglaze.com/"
+   }
   },
   {
    "id": "hunts-annex",
@@ -258,7 +483,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Delaware",
    "phone": "(610) 833-2344",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/woodlyn/hunts-annex-lounge-/",
+    "facebookMirror": "https://www.foodyas.com/US/Woodlyn/10150161124735451/Hunts-Annex",
+    "fbPostsSeen": 12,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "lehmans-tavern",
@@ -283,7 +516,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via bars10.com) (checked 2026-11-01)",
    "county": "Delaware",
    "phone": "(610) 521-1822",
-   "phoneSource": "Facebook page “Lehmans Tavern” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Lehmans Tavern” (via bars10.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Essington/162795090440799/Lehmans-Tavern",
+    "fbPostsSeen": 1,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "marty-magee-s",
@@ -310,7 +551,80 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Delaware",
    "phone": "(610) 583-9880",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans",
+     "Locals & regulars"
+    ],
+    "summary": "Known for live music; a locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/prospect-park/marty-magees-irish-pub-/",
+        "quote": "e. With two floors, each offering a different experience, it is an ideal place to catch a live band or play pool. The friendly staff is always nice and welcoming, making it a welcoming spot",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/pa/prospect-park/marty-magees-irish-pub-/",
+        "quote": "Great local Irish pub with live music, billiards, and good eats!"
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Prospect-Park/103579163044138/Marty-Magee%27s",
+        "quote": "g high | (1123) | Marty Magee’s is a classic Irish-American Pub that offers a comfortable neighborhood pub atmosphere, great live music, competitive bar sports teams and a spirited environment to",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-31",
+      "quote": " Join us this Saturday, October 31st, with DJ Spaceman kicking things off at 9️⃣pm",
+      "url": "https://www.foodyas.com/US/Prospect-Park/103579163044138/Marty-Magee%27s"
+     },
+     {
+      "date": "2026-10-23",
+      "quote": " One of our guests just said it best: “Great place with the best Thursday night DJ ever,” and we love hearing that",
+      "url": "https://www.foodyas.com/US/Prospect-Park/103579163044138/Marty-Magee%27s"
+     },
+     {
+      "date": "2026-10-23",
+      "quote": " Swing by Marty Magee’s tonight and catch the Thursday DJ for yourself",
+      "url": "https://www.foodyas.com/US/Prospect-Park/103579163044138/Marty-Magee%27s"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/prospect-park/marty-magees-irish-pub-/",
+    "facebookMirror": "https://www.foodyas.com/US/Prospect-Park/103579163044138/Marty-Magee%27s",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "monaghan-s-irish-pub",
@@ -336,7 +650,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via bars10.com) (checked 2026-11-01)",
    "county": "Delaware",
    "phone": "(610) 595-0303",
-   "phoneSource": "Facebook page “Monaghan's Irish Pub” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Monaghan's Irish Pub” (via bars10.com), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Essington/117774934916120/Monaghan%27s-Irish-Pub",
+        "quote": "Website | Great, friendly neighborhood pub with excellent food. | (1368)",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Essington/117774934916120/Monaghan%27s-Irish-Pub",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-29",
+    "website": null
+   }
   },
   {
    "id": "nifty-fifty-s",
@@ -359,7 +703,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Delaware"
+   "county": "Delaware",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/folsom/nifty-fiftys-/",
+    "facebookMirror": "https://www.foodyas.com/US/Folsom/661514990711600/Nifty-Fifty%27s",
+    "fbPostsSeen": 18,
+    "fbNewestPost": "2026-11-01",
+    "website": null
+   }
   },
   {
    "id": "rosemary",
@@ -404,7 +756,15 @@
     "Family-friendly"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site rosemaryrp.com (checked 2026-11-01)",
-   "county": "Delaware"
+   "county": "Delaware",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Ridley-Park/100485132853129/Rosemary",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-06",
+    "website": null
+   }
   },
   {
    "id": "santino-s-tap-and-table",
@@ -426,7 +786,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Delaware"
+   "county": "Delaware",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-ridley-house",
@@ -452,7 +820,15 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Delaware"
+   "county": "Delaware",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/holmes/the-ridley-house-/",
+    "facebookMirror": "https://www.foodyas.com/US/Ridley/333065190958894/The-Ridley-House",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-27",
+    "website": null
+   }
   },
   {
    "id": "tom-n-jerry-s-sports-pub",
@@ -479,7 +855,63 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01)",
    "county": "Delaware",
    "phone": "(610) 586-1008",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans",
+     "Locals & regulars"
+    ],
+    "summary": "Known for live music; a locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/folsom/tom-n-jerrys-/",
+        "quote": "ming atmosphere. The outdoor bar is a popular spot, offering a space away from the indoor live music, which features the best sound system and sound engineer. The bartenders, especially Tara",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #1",
+        "url": "https://www.restaurantji.com/pa/folsom/tom-n-jerrys-/",
+        "quote": "Nice bar. People are friendly. There's live band. Didn't have food or drink so no review."
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/pa/folsom/tom-n-jerrys-/",
+        "quote": "My son's band played, great atmosphere people were great"
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/pa/folsom/tom-n-jerrys-/",
+        "quote": "enders, especially Tara, are attentive and provide amazing service with a friendly touch. Regulars and newcomers alike contribute to a friendly, local vibe. The food is reported to be high",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/folsom/tom-n-jerrys-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "zac-s-hamburgers",
@@ -500,7 +932,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 9, 2026) (checked 2026-11-01)",
    "county": "Delaware",
    "phone": "(610) 532-6766",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 9, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 9, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-09",
+        "url": "https://www.restaurantji.com/pa/folsom/zacs-hamburgers-/",
+        "quote": "pickup, Zac's provides a satisfying meal that's hard to beat, making it a go-to spot for locals and travelers alike, including those from the Latina community who highly recommend it.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/folsom/zacs-hamburgers-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   }
  ],
  "counties": [

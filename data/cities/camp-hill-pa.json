@@ -41,7 +41,65 @@
     "Sports & games"
    ],
    "source": "Apple Maps; venue site",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Date night / upscale",
+     "Locals & regulars"
+    ],
+    "summary": "Family-friendly; a date-night / upscale spot; a locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/camp-hill/brewhouse-grille-/",
+        "quote": "y on busy weekends. The service is friendly, and the food is widely praised as delicious. Families and groups of friends often enjoy dining on the deck or inside the restaurant, which is q",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/camp-hill/brewhouse-grille-/",
+        "quote": "a popular bar with a cozy, small-town atmosphere and excellent service. The menu features upscale tavern fare, such as pretzel bites with honey mustard and loaded fries. The meatloaf meal",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.brewhousegrille.com/",
+        "quote": "long-time friends came across a bar for sale. What was once a fun idea has turned into a local favorite. | The Brewhouse Grille has 38 beers on tap, a menu that goes beyond typical \"bar food,\"",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/camp-hill/brewhouse-grille-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.brewhousegrille.com/"
+   }
   },
   {
    "id": "sierra-madre-saloon",
@@ -92,7 +150,15 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Sep 13, 2026) (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 763-1277",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 13, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 13, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/camp-hill/sierra-madre-saloon-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "flinchy-s",
@@ -118,7 +184,15 @@
     "Sports & games"
    ],
    "source": "Venue site",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/camp-hill/flinchys-restaurant-bar-and-deck-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://flinchys.com/"
+   }
   },
   {
    "id": "ever-grain-brewing-co",
@@ -144,7 +218,15 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/camp-hill/evergrain-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://evergrainbrewing.com/"
+   }
   },
   {
    "id": "the-watershed-pub",
@@ -180,7 +262,15 @@
     "Date night"
    ],
    "source": "Venue site; Watershed Pub venue site (checked 2026-11-01)",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/camp-hill/the-watershed-pub-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://thewatershed.pub/"
+   }
   },
   {
    "id": "theo-s-bar-and-grille",
@@ -212,7 +302,43 @@
     "Bar scene"
    ],
    "source": "Venue site; Google listing via exa",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/camp-hill/theos-bar-and-grille-/",
+        "quote": "what high. The deck is a great spot to enjoy a cocktail, like the Key Lime Martini, while watching sports. The restaurant has a consistent track record of delicious food and excellent service, ma",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'good for watching sports' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/camp-hill/theos-bar-and-grille-/",
+        "quote": "good for watching sports"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/camp-hill/theos-bar-and-grille-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.theosgrille.net/"
+   }
   },
   {
    "id": "aura-modern-mediterranean",
@@ -251,7 +377,15 @@
     "Date night"
    ],
    "source": "Venue site",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/camp-hill/aura-modern-mediterranean-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.auramodernmed.com/"
+   }
   },
   {
    "id": "mercato-mio",
@@ -283,7 +417,15 @@
     "Date night"
    ],
    "source": "Venue site; OpenTable; Restaurantji (Google-sourced listing, updated Oct 15, 2026) (checked 2026-11-01); Venue site mercatomiodining.com (checked 2026-11-01)",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/camp-hill/mercato-mio-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://mercatomiodining.com/"
+   }
   },
   {
    "id": "el-sol-cantina",
@@ -317,7 +459,37 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://elsolcantina.com/",
+        "quote": "xican dishes, excellent specials, and an extensive selection of premium drinks – all in a family friendly and casual atmosphere. | Learn More | Muy | Bueno | Fajitas Mixtas | Chicken / Shrimp / S",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://elsolcantina.com/"
+   }
   },
   {
    "id": "el-toro-coatzingo",
@@ -342,7 +514,37 @@
     "Family-friendly"
    ],
    "source": "Venue site; Facebook; Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdType": {
+    "labels": [
+     "Dive bar"
+    ],
+    "summary": "No-frills dive-bar feel.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Dive bar",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/camp-hill/el-toro-coatzingo-/",
+        "quote": "rvice is friendly and timely, and the portions are filling. The restaurant is a kind of a hole in the wall, but the food is great! The place is bright and clean, and the atmosphere is calm and qui",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/camp-hill/el-toro-coatzingo-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://eltorocoatzingopa.com/"
+   }
   },
   {
    "id": "cedars-lebanese-cuisine",
@@ -375,7 +577,15 @@
     "Date night"
    ],
    "source": "Venue site; Venue site cedarslebanesecuisine.com (checked 2026-11-01)",
-   "county": "Cumberland"
+   "county": "Cumberland",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://cedarslebanesecuisine.com/"
+   }
   },
   {
    "id": "chop-shish-mediterranean",
@@ -400,7 +610,15 @@
    "source": "Google listing via exa; Apple Maps; Yelp; Restaurantji (Google-sourced listing, updated Oct 15, 2026) (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 303-0444",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 15, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 15, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/camp-hill/chop-shish-mediterranean-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "takashi",
@@ -425,7 +643,15 @@
    "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 30, 2026) (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 303-0288",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 30, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 30, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/camp-hill/takashi-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "monsoon-indian-and-nepali-cuisine",
@@ -448,7 +674,15 @@
    "source": "Venue site; Official site monsoonindianpa.com (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 975-9091",
-   "phoneSource": "Official site monsoonindianpa.com, checked 2026-11-01"
+   "phoneSource": "Official site monsoonindianpa.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "peppino-s-italian-restaurant",
@@ -473,7 +707,37 @@
    "source": "Google listing via exa; Restaurantji (Google-sourced listing, updated Sep 28, 2026) (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 731-0995",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 28, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-28",
+        "url": "https://www.restaurantji.com/pa/camp-hill/peppinos-pizzeria-/",
+        "quote": "s amazing food, friendly staff, and a good amount of space inside. The lunch specials and kid-friendly options are particularly praised. The restaurant is wheelchair accessible with no stairs.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/camp-hill/peppinos-pizzeria-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.peppinositalianpizzeria.com/"
+   }
   },
   {
    "id": "camp-hill-diner",
@@ -498,7 +762,15 @@
    "source": "Facebook (posts through Oct 2026); Restaurantji (Google-sourced listing, updated Oct 2, 2026) (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 836-0453",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 2, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 2, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "lower-allen-diner",
@@ -523,7 +795,51 @@
    "source": "Restaurantji (Google data); Facebook; Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 730-7300",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/camp-hill/lower-allen-diner-/",
+        "quote": "ood.\" The diner's spotless cleanliness and central location make it a go-to spot for both locals and visitors alike.",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/camp-hill/lower-allen-diner-/",
+        "quote": "The Lower Allen Diner is a popular eatery offering a family-friendly atmosphere and plenty of free parking. The staff is known for their excellent service, gr",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/camp-hill/lower-allen-diner-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "summit-family-restaurant",
@@ -548,7 +864,15 @@
    "source": "Facebook; Restaurantji; Restaurant.com; Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
    "county": "Cumberland",
    "phone": "(717) 737-4310",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/camp-hill/summit-family-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   }
  ],
  "counties": [

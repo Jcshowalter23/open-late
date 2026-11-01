@@ -28,7 +28,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bridgeville/104240381923666/28-Bridges-Brewery",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "31-sports-bar-and-grille",
@@ -93,7 +101,76 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 12, 2026) (checked 2026-11-01); Venue site 31sportsbargrille.com (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 632-2922",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans",
+     "Live music fans"
+    ],
+    "summary": "Popular for watching games; known for live music.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-12",
+        "url": "https://www.restaurantji.com/pa/bridgeville/31-sports-bar-and-grille-/",
+        "quote": "31 Sports Bar & Grille is a popular spot in Bridgeville, offering both indoor and outdoor seating with",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bridgeville/493122290774842/31-Sports-Bar---Grille",
+        "quote": "Website | 31 Sports Bar - Grille in Collier is Owned by Former Pittsburgh Penguin Goaltender Ken Wregget.",
+        "self": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's own Facebook posts (9 since May 2026, via foodyas)",
+        "url": "https://www.foodyas.com/US/Bridgeville/493122290774842/31-Sports-Bar---Grille",
+        "quote": "🎄 Book Your Holiday Party at 31 Sports Bar & Grille! | The holiday season is right around the corner, and now is the perfect time to"
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-12",
+        "url": "https://www.restaurantji.com/pa/bridgeville/31-sports-bar-and-grille-/",
+        "quote": "ot in Bridgeville, offering both indoor and outdoor seating with TVs for sports games and live music on weekends. The outdoor \"tiki bar\" on the deck is especially popular during warmer weath",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #1",
+        "url": "https://www.restaurantji.com/pa/bridgeville/31-sports-bar-and-grille-/",
+        "quote": "Great place! Good food great place to hear live music awesome outside deck."
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/pa/bridgeville/31-sports-bar-and-grille-/",
+        "quote": "Really great spot......Fun live music and awesome food"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bridgeville/31-sports-bar-and-grille-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bridgeville/493122290774842/31-Sports-Bar---Grille",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-14",
+    "website": null
+   }
   },
   {
    "id": "bee-z-bistro-and-pub",
@@ -119,7 +196,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 12, 2026) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 257-9877",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-12",
+        "url": "https://www.restaurantji.com/pa/bridgeville/beez-bistro-and-pub-/",
+        "quote": "Bee'z Bistro & Pub is a popular spot for groups and families, offering a delightful dining experience. The menu boasts a variety of options, including",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bridgeville/beez-bistro-and-pub-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bridgeville/910601095703605/Bee%27z-Bistro-%26-Pub",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "dee-jay-s-bbq-collier",
@@ -182,7 +289,63 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Dee Jay's Collier happy hour page (checked 2026-11-01); phone conflict review (checked 2026-11-01); Venue site deejaysfamousribs.com (checked 2026-11-01)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [
+     "Restaurantji review/summary mentions dj"
+    ],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Dee Jay's BBQ Ribs & Grille",
+      "url": "https://deejaysfamousribs.com/collier/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Dee Jay's Collier",
+      "url": "https://deejaysfamousribs.com/collier/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Dee Jay's BBQ Ribs & Grille",
+      "url": "https://deejaysfamousribs.com/specials/"
+     }
+    ],
+    "dropped": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://deejaysfamousribs.com/specials/",
+        "date": "2026-11-01",
+        "quote": "Dee Jay's Collier | Wednesday Lunch Buffet"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running",
+      "droppedReason": "False positive: 'Dee Jay's' is the restaurant name"
+     }
+    ],
+    "reviewNote": "False positive: 'Dee Jay's' is the restaurant name"
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bridgeville/dee-jays-bbq-ribs-grille-collier-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bridgeville/112298664790736/Dee-Jay%27s-BBQ---Collier",
+    "fbPostsSeen": 4,
+    "fbNewestPost": "2026-10-24",
+    "website": "https://deejaysfamousribs.com/collier/"
+   }
   },
   {
    "id": "napoli-collier-township",
@@ -220,7 +383,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site napolipa.com (checked 2026-11-01); Website (rendered) napolipa.com (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 221-2484",
-   "phoneSource": "Website (rendered) napolipa.com, checked 2026-11-01"
+   "phoneSource": "Website (rendered) napolipa.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "otb-bicycle-cafe-hastings",
@@ -268,7 +439,15 @@
     "Family-friendly"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); otbbicyclecafe.com (checked 2026-11-01); OTB Bicycle Cafe Hastings Facebook post Oct 23–27, 2026 (via foodyas) (checked 2026-11-01)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/South-Fayette/108710941995246/OTB-Bicycle-Cafe-at-Hastings",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-27",
+    "website": "https://otbbicyclecafe.com/hastings/"
+   }
   },
   {
    "id": "pizzaiolo-primo-south-fayette",
@@ -307,7 +486,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 21, 2026) (checked 2026-11-01); Pizzaiolo Primo South Fayette Facebook post Oct 9, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 914-8150",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bridgeville/milkshake-factory-south-fayette-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bridgeville/136359622897247/Pizzaiolo-Primo-South-Fayette",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
   },
   {
    "id": "rag-top-bar-and-grill",
@@ -343,7 +530,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via bars10.com) (checked 2026-11-01); Rag Top Bar and Grill Facebook post Sep 21 & 28, 2026 (via foodyas) (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 221-4606",
-   "phoneSource": "Facebook page “Rag Top Bar and Grill” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Rag Top Bar and Grill” (via bars10.com), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bridgeville/386107398863263/Rag-Top-Bar-and-Grill",
+        "quote": "Contact the business | Ragtop Bar & Grill is a laid-back neighborhood bar in Bridgeville with cold drinks, friendly faces, good music, and a fun hometown atmospher",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bridgeville/386107398863263/Rag-Top-Bar-and-Grill",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-13",
+    "website": null
+   }
   },
   {
    "id": "sauce",
@@ -364,7 +581,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Allegheny"
+   "county": "Allegheny",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Bridgeville/192216064247047/Sauce",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "the-crafty-jackalope",
@@ -429,7 +654,57 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 12, 2026) (checked 2026-11-01); Venue site craftyjackalope.com (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 220-9785",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans",
+     "Locals & regulars"
+    ],
+    "summary": "Known for live music; a locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-12",
+        "url": "https://www.restaurantji.com/pa/bridgeville/the-crafty-jackalope-/",
+        "quote": "it, and stout options. Customers are looking forward to returning for more great food and live music.",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/bridgeville/the-crafty-jackalope-/",
+        "quote": "live music"
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Bridgeville/383732005154247/The-Crafty-Jackalope",
+        "quote": "Website | The Crafty Jackalope is a neighborhood bar & grill in the heart of Bridgeville | (1121)",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/bridgeville/the-crafty-jackalope-/",
+    "facebookMirror": "https://www.foodyas.com/US/Bridgeville/383732005154247/The-Crafty-Jackalope",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
   }
  ],
  "counties": [

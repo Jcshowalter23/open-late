@@ -30,7 +30,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Chester"
+   "county": "Chester",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/383412878193690/Aldo%E2%80%99s-Restaurant-%26-Grill",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-29",
+    "website": "https://www.aldosrestaurantandgrillwestchester.com/"
+   }
   },
   {
    "id": "bar-avalon",
@@ -68,7 +76,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 9, 2026) (checked 2026-11-01); Venue site avalonrestaurant.net (checked 2026-11-01)",
    "county": "Chester",
    "phone": "(610) 436-4100",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 9, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 9, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-09",
+        "url": "https://www.restaurantji.com/pa/west-chester/bar-avalon-/",
+        "quote": "ith sour cherry drizzle, complement the meals well. Overall, Bar Avalon West Chester is a neighborhood spot known for reliable food, attentive service, and a warm atmosphere, making it a highly rec",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-chester/bar-avalon-/",
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/151266803048/Bar-Avalon",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "bierhaul-townhouse",
@@ -105,7 +143,76 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Chester",
    "phone": "(717) 918-0868",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 30, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 30, 2026), checked 2026-11-01",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "9 pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-03",
+      "datedLastSeen": "2026-11-03",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "Downtown West Chester event calendar (recurring event)",
+        "url": "https://www.downtownwestchester.com/event/bierhaul-babes-karaoke-2/2026-10-06/",
+        "date": "2026-11-03",
+        "quote": "Bierhaul Babes Karaoke — Join award-winning drag performers Roxanne Rohls and Ophelia Bawdy every Tuesday night for karaoke! 21+ / No Cover (listed every Tue Oct 6–Nov 3, 2026, 9:00 pm)"
+       }
+      ],
+      "note": "Drag-hosted karaoke",
+      "basis": "manual review of source",
+      "manual": true
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-25",
+      "quote": "🎤 Best Karaoke Performance Of The Night - $75 Gift Card",
+      "url": "https://www.foodyas.com/US/West-Chester/250126628174340/BierHaul-Townhouse"
+     }
+    ],
+    "reviewNote": "Targeted web search, manual read"
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-10-10",
+      "datedLastSeen": "2026-10-10",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/West-Chester/250126628174340/BierHaul-Townhouse",
+        "date": "2026-10-10",
+        "quote": "VINYL BRUNCH every Sunday from 12:30-3:30, dig the ever rotating crates from our DJs immaculate vinyl collections"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/250126628174340/BierHaul-Townhouse",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "el-comalito-mexican-taqueria",
@@ -128,7 +235,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Chester"
+   "county": "Chester",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/392033407662526/El-Comalito-Mexican-Taqueria",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-23",
+    "website": null
+   }
   },
   {
    "id": "el-limon-downtown-west-chester",
@@ -151,7 +266,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Chester",
    "phone": "(215) 377-9557",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 26, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 26, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/112202384244991/El-Limon-Downtown-West-Chester",
+    "fbPostsSeen": 4,
+    "fbNewestPost": "2026-09-02",
+    "website": null
+   }
   },
   {
    "id": "enzo-s-italian-eatery",
@@ -174,7 +297,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Delaware"
+   "county": "Delaware",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://enzoswestchester.com/"
+   }
   },
   {
    "id": "fellini-cafe-of-west-chester",
@@ -200,7 +331,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Chester"
+   "county": "Chester",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/367807103383602/Fellini-Cafe-of-West-Chester",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-10-08",
+    "website": null
+   }
   },
   {
    "id": "jolene-s-west-chester",
@@ -223,7 +362,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 9, 2026) (checked 2026-11-01)",
    "county": "Chester",
    "phone": "(484) 999-3656",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 9, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 9, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-09",
+        "url": "https://www.restaurantji.com/pa/west-chester/jolene-s-/",
+        "quote": "highly recommended restaurant known for its cozy, low-lit atmosphere that is perfect for date nights. The service is attentive, and the waitstaff is well-trained. The restaurant offers a go",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-chester/jolene-s-/",
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/116246668163129/Jolene%27s-West-Chester",
+    "fbPostsSeen": 5,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "kooma-west-chester",
@@ -248,7 +417,51 @@
     "Date night"
    ],
    "source": "hours from the venue's website; Facebook page (via foodyas mirror)",
-   "county": "Chester"
+   "county": "Chester",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-15",
+        "url": "https://www.restaurantji.com/pa/west-chester/kooma-west-chester-/",
+        "quote": "ester is a welcoming place with tasty food and good service, making it a great choice for locals and visitors alike.",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/West-Chester/113967935300618/Kooma-West-Chester",
+        "quote": "our food is art and our atmosphere is enchanting. | (779) | Experience what happens when fine dining and dynamic nightlife are combined. Come experience what everyone is talking about.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-chester/kooma-west-chester-/",
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/113967935300618/Kooma-West-Chester",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-04",
+    "website": null
+   }
   },
   {
    "id": "limoncello-west-chester",
@@ -280,7 +493,44 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Limoncello venue site (checked 2026-11-01); Restaurantji (Google-sourced listing, updated Oct 9, 2026) (checked 2026-11-01)",
    "county": "Chester",
    "phone": "(610) 436-6230",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 9, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 9, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/West-Chester/185416954813853/Limoncello-West-Chester",
+        "quote": "Website | Our mission is to provide extraordinary, authentic Italian cuisine in a family-friendly environment. Inspiring others through deliciousness, one meal at a time. | (2241) | Our m",
+        "self": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.limoncellorestaurant.com/",
+        "quote": "S | 610-524-3112 | Our mission is to provide extraordinary authentic Italian cuisine in a family-friendly environment, consistently putting our guests first in everything we do. Our passion is fu",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-chester/limoncello-ristorante-and-caterers-/",
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/185416954813853/Limoncello-West-Chester",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-30",
+    "website": "https://www.limoncellorestaurant.com/"
+   }
   },
   {
    "id": "old-original-nick-s-roast-beef",
@@ -303,7 +553,51 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Chester"
+   "county": "Chester",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/west-chester/old-original-nicks-roast-beef-/",
+        "quote": "ude and the quality of the food make Old Original Nick's Roast Beef a favorite spot among locals and visitors alike.",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/West-Chester/641458625985430/Old-Original-Nick%27s-Roast-Beef---West-Chester%2C-PA",
+        "quote": "as Roast turkey, Baked Ham, Roast pork and our famous Gravy Fries | We have a bar but are family friendly",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-chester/old-original-nicks-roast-beef-/",
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/641458625985430/Old-Original-Nick%27s-Roast-Beef---West-Chester%2C-PA",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "opa-taverna",
@@ -328,7 +622,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
-   "county": "Chester"
+   "county": "Chester",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-chester/opa-opa-west-chester-/",
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/160096157889117/Opa-Taverna",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-20",
+    "website": null
+   }
   },
   {
    "id": "penn-s-table-restaurant",
@@ -353,7 +655,15 @@
     "Family-friendly"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Chester"
+   "county": "Chester",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-chester/penns-table-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/114690198575269/Penn%27s-Table-Restaurant",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
   },
   {
    "id": "righteous-tap-house",
@@ -387,7 +697,57 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 9, 2026) (checked 2026-11-01); Righteous Tap House Facebook post Sep 27, 2026 (via bars10) (checked 2026-11-01)",
    "county": "Chester",
    "phone": "(484) 593-0850",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 9, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 9, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans",
+     "Families"
+    ],
+    "summary": "Known for live music; family-friendly.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-09",
+        "url": "https://www.restaurantji.com/pa/west-chester/righteous-tap-house-/",
+        "quote": "serve, making sure guests have a good experience. Although it can be lively with games or live music, the atmosphere remains welcoming. This is a great place to spend time with friends, meet",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/west-chester/righteous-tap-house-/",
+        "quote": "live music"
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-09",
+        "url": "https://www.restaurantji.com/pa/west-chester/righteous-tap-house-/",
+        "quote": "friends, meet new people, and enjoy good food and drinks. It has outdoor seating and is a great place for families.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-chester/righteous-tap-house-/",
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/477812042381004/Righteous-Tap-House",
+    "fbPostsSeen": 4,
+    "fbNewestPost": "2026-10-16",
+    "website": "https://online.skytab.com/9148ff28dde8515c0d6414bdc5ca3744"
+   }
   },
   {
    "id": "roots-cafe-wc",
@@ -410,7 +770,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
    "county": "Chester",
    "phone": "(610) 455-0100",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-chester/roots-cafe-/",
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/255427404482793/Roots-Cafe-WC",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-08-21",
+    "website": null
+   }
   },
   {
    "id": "sabatino-s-grill",
@@ -435,7 +803,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Chester",
    "phone": "(610) 701-3399",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/115931385093985/Sabatino%27s-Grill",
+    "fbPostsSeen": 4,
+    "fbNewestPost": "2026-10-26",
+    "website": null
+   }
   },
   {
    "id": "saloon-151",
@@ -462,7 +838,77 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Chester",
    "phone": "(610) 701-8489",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 21, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/West-Chester/746597575436855/Saloon-151",
+        "quote": "Mexican dishes. The atmosphere is relaxed, comfortable with a hint of a country bar and a sports bar combined. We enjoy live acoustic music most nights and always have the best DJ's on Weeke",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "10 pm–2 am (Tequila Bar)",
+      "confidence": "high",
+      "lastSeen": "2026-11-13",
+      "datedLastSeen": "2026-11-13",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "Downtown West Chester event calendar (recurring event)",
+        "url": "https://www.downtownwestchester.com/venue/saloon-151/",
+        "date": "2026-11-13",
+        "quote": "Recurring | Karaoke Party at Saloon 151 ... karaoke experience every Friday Night from 10pm – 2am (listed Nov 6, Nov 13 2026)"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/West-Chester/746597575436855/Saloon-151",
+        "date": "2026-10-23",
+        "quote": "DJ Nick Eliot in the main bar & Karaoke in the Tequila Bar tonight (posted Fri 10/23/2026)"
+       }
+      ],
+      "basis": "manual review of source",
+      "manual": true
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-23",
+      "quote": " DJ Nick Eliot in the main bar & Karaoke in the Tequila Bar tonight",
+      "url": "https://www.foodyas.com/US/West-Chester/746597575436855/Saloon-151"
+     }
+    ],
+    "reviewNote": "Targeted web search, manual read"
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/746597575436855/Saloon-151",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "santino-s-tap-and-table",
@@ -487,7 +933,37 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 11, 2026) (checked 2026-11-01)",
-   "county": "Chester"
+   "county": "Chester",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-11",
+        "url": "https://www.restaurantji.com/pa/west-chester/santinos-tap-and-table-west-chester-/",
+        "quote": "omenica and DeMarco's Restaurant & Bar's 35-year culinary legacy, creating a distinctive, family-friendly dining experience. Gluten-free options are clearly marked on the menu, accommodating diet",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-chester/santinos-tap-and-table-west-chester-/",
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/100315896148871/Santino%27s-Tap-%26-Table--West-Chester",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "square-bar",
@@ -513,7 +989,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 29, 2026) (checked 2026-11-01); Venue site squarebarwc.com (checked 2026-11-01)",
    "county": "Chester",
    "phone": "(610) 696-9825",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 29, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/695625993881359/Square-Bar",
+    "fbPostsSeen": 3,
+    "fbNewestPost": "2026-08-26",
+    "website": null
+   }
   },
   {
    "id": "station-142",
@@ -538,7 +1022,71 @@
     "Live music & events"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 20, 2026) (checked 2026-11-01)",
-   "county": "Chester"
+   "county": "Chester",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-20",
+        "url": "https://www.restaurantji.com/pa/west-chester/station-142-/",
+        "quote": "enu that caters to everyone, including kids. The restaurant features friendly service and live music, creating a fun experience. Many recommend visiting for special occasions, as it provides",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/west-chester/station-142-/",
+        "quote": "live music"
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "10 pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-04",
+      "datedLastSeen": "2026-11-04",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "Downtown West Chester event calendar (recurring event)",
+        "url": "https://www.downtownwestchester.com/event/karaoke-at-station-142/2026-10-07/",
+        "date": "2026-11-04",
+        "quote": "Come over to Station 142 every Wednesday at 10pm for Karaoke! ... Signups at 10PM (listed every Wed Oct 7–Nov 4, 2026)"
+       }
+      ],
+      "basis": "manual review of source",
+      "manual": true
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [],
+    "reviewNote": "Targeted web search, manual read"
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-chester/station-142-/",
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/544236385436557/Station-142",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "stove-and-tap-west-chester",
@@ -565,7 +1113,51 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Chester"
+   "county": "Chester",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Date night / upscale"
+    ],
+    "summary": "Family-friendly; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/west-chester/stove-and-tap-/",
+        "quote": "is place can be very loud, so a phone should be on the highest volume. It is a casual and family friendly environment with great food and great service each time.",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.stoveandtap-wc.com/",
+        "quote": "BRUNCH MENU | LUNCH MENU | ALL DAY MENU | DESSERT MENU | DRINK MENU | HAPPY HOUR MENU | DATE NIGHT MENU | RESERVATIONS | ORDER | EVENTS | DAILY SPECIALS | UPCOMING EVENTS | SUNDAY BOOZEY B",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-chester/stove-and-tap-/",
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/103358501601559/Stove-and-Tap-West-Chester",
+    "fbPostsSeen": 11,
+    "fbNewestPost": "2026-10-29",
+    "website": "https://www.stoveandtap-wc.com/"
+   }
   },
   {
    "id": "teca-wc",
@@ -597,7 +1189,15 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Teca WC Facebook post Aug 16, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "Chester"
+   "county": "Chester",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-chester/teca-/",
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/407054606357994/Teca-WC",
+    "fbPostsSeen": 3,
+    "fbNewestPost": "2026-08-16",
+    "website": "https://www.tecarestaurants.com/home-1"
+   }
   },
   {
    "id": "the-mediterranean-restaurant",
@@ -620,7 +1220,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Sep 12, 2026) (checked 2026-11-01)",
    "county": "Chester",
    "phone": "(610) 431-7074",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 12, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 12, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-chester/the-mediterranean-/",
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/190728837655324/The-Mediterranean-Restaurant",
+    "fbPostsSeen": 1,
+    "fbNewestPost": "2026-10-03",
+    "website": null
+   }
   },
   {
    "id": "vudu-high-street-caffe",
@@ -643,7 +1251,15 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Chester"
+   "county": "Chester",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-chester/high-street-caffe-/",
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/106457701555651/Vudu--High-Street-Caffe",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-28",
+    "website": null
+   }
   },
   {
    "id": "west-chester-kildare-s-irish-pub",
@@ -670,7 +1286,158 @@
     "Sports & games"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Chester"
+   "county": "Chester",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "10 pm–2 am",
+      "confidence": "high",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": "2026-10-29",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "Downtown West Chester event calendar (recurring event)",
+        "url": "https://www.downtownwestchester.com/event/thursday-night-karaoke-at-kildares/2026-10-15/",
+        "date": "2026-10-29",
+        "quote": "Thursday Night Karaoke at Kildare’s — An event every week that begins at 10:00 pm on Thursday, repeating until January 7, 2027"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://kildarespubwc.com/loyalty-program/",
+        "date": "2026-11-01",
+        "quote": "Thursdays: ... Name that Tune Music Trivia 8pm-10pm Karaoke Night: 10pm – 2am"
+       },
+       {
+        "src": "FindKaraoke directory (city page updated October 20, 2026)",
+        "url": "https://findkaraoke.net/west-chester-pa",
+        "date": "2026-10-20",
+        "quote": "Kildares Irish Pub - West Chester, PA — Sunday, Thursday at 10 PM. Kildare's Irish Pub in West Chester holds karaoke on Thursday nights and on Sundays with host Brian Aglira, both from 10 PM to 2 AM. It is an Irish pub on West Gay Street."
+       }
+      ],
+      "basis": "manual review of source",
+      "manual": true
+     },
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": "10 pm–2 am",
+      "confidence": "high",
+      "lastSeen": "2026-11-08",
+      "datedLastSeen": "2026-11-08",
+      "postsSeen": 3,
+      "sources": [
+       {
+        "src": "Downtown West Chester event calendar (recurring event)",
+        "url": "https://www.downtownwestchester.com/event/kildares-karaoke-night-3/2026-11-08/",
+        "date": "2026-11-08",
+        "quote": "Every Sunday from 10pm-2am, come to Kildare’s Irish Pub for karaoke! (recurring weekly until January 10, 2027)"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://kildarespubwc.com/loyalty-program/",
+        "date": "2026-11-01",
+        "quote": "Sundays: ... Karaoke with Brian Aglira 10pm – 2am"
+       },
+       {
+        "src": "venue Facebook post (via foodyas)",
+        "url": "https://www.foodyas.com/US/West-Chester/281125455289942/West-Chester-Kildare%27s-Irish-Pub",
+        "date": "2026-10-06",
+        "quote": "Sunday Karaoke is waiting for you"
+       },
+       {
+        "src": "FindKaraoke directory (city page updated October 20, 2026)",
+        "url": "https://findkaraoke.net/west-chester-pa",
+        "date": "2026-10-20",
+        "quote": "Kildares Irish Pub - West Chester, PA — Sunday, Thursday at 10 PM. Kildare's Irish Pub in West Chester holds karaoke on Thursday nights and on Sundays with host Brian Aglira, both from 10 PM to 2 AM. It is an Irish pub on West Gay Street."
+       }
+      ],
+      "basis": "manual review of source",
+      "manual": true
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-06",
+      "quote": " KARAOKE",
+      "url": "https://www.foodyas.com/US/West-Chester/281125455289942/West-Chester-Kildare%27s-Irish-Pub"
+     },
+     {
+      "date": "2026-10-06",
+      "quote": "Sunday Karaoke is waiting for you",
+      "url": "https://www.foodyas.com/US/West-Chester/281125455289942/West-Chester-Kildare%27s-Irish-Pub"
+     }
+    ],
+    "reviewNote": "Targeted web search, manual read"
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "10 pm–2 am",
+      "confidence": "medium",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://kildarespubwc.com/loyalty-program/",
+        "date": "2026-11-01",
+        "quote": "Fridays: ... Live DJs 10pm – 2am ... Saturdays: Live DJs 10pm – 2am"
+       }
+      ],
+      "note": "Venue weekly entertainment list (undated); confirm still running",
+      "basis": "manual review of source",
+      "manual": true
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "10 pm–2 am",
+      "confidence": "medium",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://kildarespubwc.com/loyalty-program/",
+        "date": "2026-11-01",
+        "quote": "Fridays: ... Live DJs 10pm – 2am ... Saturdays: Live DJs 10pm – 2am"
+       }
+      ],
+      "note": "Venue weekly entertainment list (undated); confirm still running",
+      "basis": "manual review of source",
+      "manual": true
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-09",
+      "quote": "Eagles football, plenty of CHEER, great food, cold drinks… and of course, a DJ | Come make your Sunday a Funday at Kildare’s! ",
+      "url": "https://www.foodyas.com/US/West-Chester/281125455289942/West-Chester-Kildare%27s-Irish-Pub"
+     }
+    ],
+    "reviewNote": "Targeted web search, manual read"
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/281125455289942/West-Chester-Kildare%27s-Irish-Pub",
+    "fbPostsSeen": 20,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   },
   {
    "id": "west-chester-seafood-kitchen",
@@ -695,7 +1462,15 @@
     "Date night"
    ],
    "source": "hours from the venue's website; Facebook page (via foodyas mirror); Venue site wcseafoodkitchen.com (checked 2026-11-01)",
-   "county": "Chester"
+   "county": "Chester",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "wrong-crowd-beer",
@@ -738,7 +1513,15 @@
     "Bar scene"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Wrong Crowd Beer Facebook post Oct 21, 2026 (via bars10) (checked 2026-11-01); Venue site wrongcrowdbeer.com (checked 2026-11-01)",
-   "county": "Chester"
+   "county": "Chester",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/west-chester/wrong-crowd-beer-company-/",
+    "facebookMirror": "https://www.foodyas.com/US/West-Chester/769196249786506/Wrong-Crowd-Beer",
+    "fbPostsSeen": 15,
+    "fbNewestPost": "2026-10-31",
+    "website": null
+   }
   }
  ],
  "counties": [

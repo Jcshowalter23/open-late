@@ -50,7 +50,72 @@
     "Family-friendly"
    ],
    "source": "Venue site; AleCraft venue site (checked 2026-11-01)",
-   "county": "York"
+   "county": "York",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Live music fans",
+     "Locals & regulars"
+    ],
+    "summary": "Family-friendly; known for live music; a locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-18",
+        "url": "https://www.restaurantji.com/pa/railroad/alecraft-brewery-/",
+        "quote": "yland border, near Railroad Park. The brewery also has a bounce house for kids, making it family-friendly. Staff members, including bartenders and the chef, are friendly, welcoming, and attentive",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/New-Freedom/108806151536874/AleCraft-Brewery",
+        "quote": "e business | So York Co, PA • Off the NCR Trail 🚲 | 20 Taps of Gluten-Free Craft Beer 🍺 | Family-Friendly • Full Kitchen 🍽️ | Good food. Good drinks. Good people. | (2) | Check out our events and",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-18",
+        "url": "https://www.restaurantji.com/pa/railroad/alecraft-brewery-/",
+        "quote": "rs and the chef, are friendly, welcoming, and attentive, contributing to a warm ambiance. Live music and a well-maintained, beautifully designed interior and exterior add to the inviting atm",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.alecraft.beer/",
+        "quote": "in Railroad Borough just off the Heritage Rail Trail — mailing address says New Freedom, locals know it as Railroad. We pour over fifty hand-crafted beers on tap or in cans for carry-ou",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/railroad/alecraft-brewery-/",
+    "facebookMirror": "https://www.foodyas.com/US/New-Freedom/108806151536874/AleCraft-Brewery",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-23",
+    "website": "https://www.alecraft.beer/"
+   }
   },
   {
    "id": "buon-appetito-ristorante-and-brewery",
@@ -76,7 +141,15 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 19, 2026) (checked 2026-11-01)",
    "county": "York",
    "phone": "(717) 225-0666",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 19, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 19, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/spring-grove/buon-appetito-ristorante-/",
+    "facebookMirror": "https://www.foodyas.com/US/Spring-Grove/971862009490685/Buon-Appetito-Ristorante-%26-Brewery",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-05-01",
+    "website": null
+   }
   },
   {
    "id": "goofy-s-eatery-and-spirits",
@@ -101,7 +174,77 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 19, 2026) (checked 2026-11-01); Venue site goofyseateryandspirits.com (checked 2026-11-01)",
    "county": "York",
    "phone": "(717) 225-9909",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 19, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 19, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Bikers",
+     "Families",
+     "Locals & regulars"
+    ],
+    "summary": "Popular with bikers / hosts bike nights; family-friendly; a locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Bikers",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/pa/spring-grove/goofys-/",
+        "quote": "The staff did an awesome job today when 75-80 of us bikers rolled in for lunch very minimal wait time for our food"
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Spring-Grove/1560009680924825/Goofy%27s-Eatery-%26-Spirits",
+        "quote": "ar located in Spring Grove, Pa Gotta Play to WIN! | Established in 1989, Goofy's attracts bikers, tourists and families, who all mix together and have a great time. From food and drinks",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/pa/spring-grove/goofys-/",
+        "quote": "Had an enjoyable meal with my daughter, sister & brother in law. Everyone was pleased with their meal."
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Spring-Grove/1560009680924825/Goofy%27s-Eatery-%26-Spirits",
+        "quote": "Website | Contact the business | Goofy's Eatery & Spirits is a family friendly restaurant and bar located in Spring Grove, Pa Gotta Play to WIN! | Established in 1989,",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/pa/spring-grove/goofys-/",
+        "quote": "restaurant only accepts cash, but there is an ATM on-site for convenience. It is a small hometown bar and grill with a friendly, responsive service team. The environment is comfortable and wh",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/spring-grove/goofys-/",
+    "facebookMirror": "https://www.foodyas.com/US/Spring-Grove/1560009680924825/Goofy%27s-Eatery-%26-Spirits",
+    "fbPostsSeen": 4,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "gunpowder-falls-brewing",
@@ -137,7 +280,37 @@
    "source": "Venue site; Facebook; Restaurantji (Google-sourced listing, updated Sep 25, 2026) (checked 2026-11-01)",
    "county": "York",
    "phone": "(717) 759-0330",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 25, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 25, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-25",
+        "url": "https://www.restaurantji.com/pa/new-freedom/gunpowder-falls-brewing-/",
+        "quote": "it a nice spot to enjoy a flight of beers. Gunpowder Falls Brewing is a popular place for locals and visitors alike, with many returning regularly to savor the food and drinks.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/new-freedom/gunpowder-falls-brewing-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   },
   {
    "id": "hopewell-station-family-restaurant",
@@ -162,7 +335,44 @@
     "Family-friendly"
    ],
    "source": "Venue site",
-   "county": "York"
+   "county": "York",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/pa/stewartstown/hopewell-station-family-restaurant-/",
+        "quote": ". Appetizers like mozzarella sticks and bang bang shrimp are especially well-liked. For families, kids’ burgers are a hit, and portions are generous for the price. The restaurant has rec",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.hopewellstationfamilyrestaurant.com/",
+        "quote": "s gather, and everyone is treated like part of the Hopewell Station family. Come hungry, bring the family, and stay awhile. We look forward to serving you! | Order OnLine | ORDER NOW! | BREAKFAST",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/stewartstown/hopewell-station-family-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Stewartstown/590569697464697/Hopewell-Station-Family-Restaurant",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.hopewellstationfamilyrestaurant.com/"
+   }
   },
   {
    "id": "jalapenos-mexican-grill",
@@ -187,7 +397,15 @@
    "source": "Venue site; Facebook; Restaurantji (Google-sourced listing, updated Sep 25, 2026) (checked 2026-11-01)",
    "county": "York",
    "phone": "(717) 942-2912",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 25, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 25, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/shrewsbury/jalapenos-mexican-grill-/",
+    "facebookMirror": "https://www.foodyas.com/US/Shrewsbury/103117751760003/Jalapenos---Mexican-Grill",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-03-28",
+    "website": "https://www.thejalapenomexicangrill.com/"
+   }
   },
   {
    "id": "jefferson-inn",
@@ -213,7 +431,28 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Facebook page (via bars10.com) (checked 2026-11-01)",
    "county": "York",
    "phone": "(717) 225-1352",
-   "phoneSource": "Facebook page “Jefferson Inn” (via bars10.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Jefferson Inn” (via bars10.com), checked 2026-11-01",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-19",
+      "quote": " 10/19/2026 | Stop out tomorrow night and sing with us!! | >> Karaoke with Miss \"T\" York, PA ",
+      "url": "https://www.foodyas.com/US/Spring-Grove/243357645786742/Jefferson-Inn"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Spring-Grove/243357645786742/Jefferson-Inn",
+    "fbPostsSeen": 1,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   }
   },
   {
    "id": "mason-dixon-family-restaurant",
@@ -238,7 +477,15 @@
     "Family-friendly"
    ],
    "source": "Venue site; Facebook",
-   "county": "York"
+   "county": "York",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/shrewsbury/mason-dixon-family-restaurant-/",
+    "facebookMirror": "https://www.foodyas.com/US/Shrewsbury/228207565075/Mason-Dixon-Family-Restaurant",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-23",
+    "website": "https://www.masondixonfamilyrestaurant.com/"
+   }
   },
   {
    "id": "new-freedom-restaurant",
@@ -263,7 +510,37 @@
    "source": "Facebook (active Oct 2026); Restaurantji (Google-sourced listing, updated Oct 12, 2026) (checked 2026-11-01)",
    "county": "York",
    "phone": "(717) 235-7664",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-12",
+        "url": "https://www.restaurantji.com/pa/new-freedom/new-freedom-restaurant-and-coffee-shop-/",
+        "quote": "as the friendly and efficient service. The restaurant's casual, home-style atmosphere and kid-friendly environment make it a welcoming destination for families and individuals alike.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/new-freedom/new-freedom-restaurant-and-coffee-shop-/",
+    "facebookMirror": "https://www.foodyas.com/US/New-Freedom/159062937462332/New-Freedom-Restaurant",
+    "fbPostsSeen": 4,
+    "fbNewestPost": "2026-10-30",
+    "website": null
+   }
   },
   {
    "id": "porky-and-the-brisket-smokehouse",
@@ -288,7 +565,15 @@
    "source": "Facebook; Clipp listing; Facebook page (via foodyas.com) (checked 2026-11-01)",
    "county": "York",
    "phone": "(717) 993-2003",
-   "phoneSource": "Facebook page “Porky and The Brisket” (via foodyas.com), checked 2026-11-01"
+   "phoneSource": "Facebook page “Porky and The Brisket” (via foodyas.com), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Stewartstown/901266016408875/Porky-and-The-Brisket",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-08-06",
+    "website": "https://porkyandthebrisket.com/"
+   }
   },
   {
    "id": "seven-sports-bar-and-grille",
@@ -321,7 +606,65 @@
     "Bar scene"
    ],
    "source": "Venue site; Seven Sports Bar venue site (checked 2026-11-01)",
-   "county": "York"
+   "county": "York",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Sports fans"
+    ],
+    "summary": "Family-friendly; popular for watching games.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-22",
+        "url": "https://www.restaurantji.com/pa/new-freedom/seven-sports-bar-and-grille-/",
+        "quote": "s fans, but earlier in the day, it’s an excellent spot for lunch and drinks. The venue is kid-friendly and features plenty of TVs showing sports, along with a good drink menu. The expansive me",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.sevensportsbarandgrille.com/",
+        "quote": "sts, complemented by high bar tables and stools; or the Dining Room, offering a brighter, family-friendly setting away from the bustling bar area (but don’t worry, you’ll still be able to catch t",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-22",
+        "url": "https://www.restaurantji.com/pa/new-freedom/seven-sports-bar-and-grille-/",
+        "quote": "Seven Sports Bar & Grille is a welcoming place that provides friendly service, making for a pleasant dinin",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.sevensportsbarandgrille.com/",
+        "quote": "Seven Sports Bar & Grille | 0 | Skip to Content | MENUS | FOOD | DRINKS | GLUTEN FREE | CATERING | ORDER O",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/new-freedom/seven-sports-bar-and-grille-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.sevensportsbarandgrille.com/"
+   }
   },
   {
    "id": "table-1837-glen-rock-mill-inn",
@@ -373,7 +716,57 @@
     "Date night"
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror); Glen Rock Mill Inn venue site (checked 2026-11-01); Table 1837 Facebook post Oct 16–22, 2026 (via bars10) (checked 2026-11-01)",
-   "county": "York"
+   "county": "York",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/pa/glen-rock/glen-rock-mill-inn-/",
+        "quote": "Glen Rock Mill Inn offers a romantic atmosphere with attentive servers, perfect for special occasions. The restaurant features",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/pa/glen-rock/glen-rock-mill-inn-/",
+        "quote": "elebrate our anniversary. Relaxed atmosphere, attentive servers. the Food was incredible. Fine Dining with proper portions. A pianist was playing when we entered. The lighting was warm. I don"
+       },
+       {
+        "type": "venue",
+        "src": "venue's Facebook page description (via foodyas)",
+        "url": "https://www.foodyas.com/US/Glen-Rock/132624151314/Table-1837---Glen-Rock-Mill-Inn",
+        "quote": "Website | Fine dining with local, farm-sourced New American cuisine in our historic restaurant and inn. | (1032",
+        "self": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://table1837.com/",
+        "quote": "ust 40 minutes from Harrisburg and Baltimore, we’re the perfect locale for a light lunch, romantic night out or a quick getaway. | Make a Reservation | Our Menus | AWARD WINNING DINING, Wh",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/glen-rock/glen-rock-mill-inn-/",
+    "facebookMirror": "https://www.foodyas.com/US/Glen-Rock/132624151314/Table-1837---Glen-Rock-Mill-Inn",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-10-23",
+    "website": "https://www.table1837.com/"
+   }
   },
   {
    "id": "taphouse-6-new-freedom-shrewsbury",
@@ -407,7 +800,15 @@
     "Bar scene"
    ],
    "source": "Venue site; Venue site taphouse6.com (New Freedom page and Contact page) (checked 2026-11-01)",
-   "county": "York"
+   "county": "York",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://taphouse6.com/new-freedom"
+   }
   },
   {
    "id": "the-great-dragon",
@@ -430,7 +831,37 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 2, 2026) (checked 2026-11-01)",
    "county": "York",
    "phone": "(717) 225-9375",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 2, 2026), checked 2026-11-01"
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 2, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-02",
+        "url": "https://www.restaurantji.com/pa/spring-grove/great-dragon-/",
+        "quote": "raining, the restaurant is clean and offers dine-in options, making it a great choice for families and those looking for a quick and delicious meal.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/spring-grove/great-dragon-/",
+    "facebookMirror": "https://www.foodyas.com/US/Spring-Grove/102230129819791/The-Great-Dragon",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-06-29",
+    "website": null
+   }
   }
  ],
  "counties": [
