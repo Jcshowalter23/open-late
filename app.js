@@ -329,10 +329,11 @@
       const now = nowOf(p);
       if (p.is24) return [0, 3000];
       const s = stateAt(p.w, now.d, now.m);
-      if (s.open) return [0, s.close < now.m ? s.close + 1440 : s.close];
+      // minutes from now (not clock times), so places on Central and Eastern time sort together correctly in All counties
+      if (s.open) return [0, (s.close < now.m ? s.close + 1440 : s.close) - now.m];
       if (!s.known) return [3, 0];
       const t = p.w[now.d], nxt = t ? t.map((iv) => iv[0]).filter((o) => o > now.m) : [];
-      if (nxt.length) return [1, Math.min(...nxt)];
+      if (nxt.length) return [1, Math.min(...nxt) - now.m];
       const tm = p.w[(now.d + 1) % 7];
       return tm && tm.length ? [2, Math.min(...tm.map((iv) => iv[0]))] : [2, 9999];
     };
