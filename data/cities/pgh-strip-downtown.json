@@ -297,8 +297,8 @@
    "website": "https://www.cinderlands.com/cinderlands-warehouse/",
    "hours": "Mon-Tue 11:30a-9p; Wed-Thu 11:30a-10p; Fri-Sat 11:30a-11p; Sun 10:30a-10p",
    "hoursNote": "Venue site lists Warehouse location. Venue site posts brunch/HH windows; Facebook hours shown.; call ahead.",
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Mon-Tue 11:30a-8:30p; Wed-Thu 11:30a-9:30p; Fri-Sat 11:30a-9:45p",
+   "kitchenNote": "Food times from venue site; Sunday not captured. (Venue site cinderlands.com, checked 2026-11-01)",
    "happyHours": [
     {
      "days": "Mon-Fri",
@@ -310,14 +310,24 @@
      "checked": "2026-11-01"
     }
    ],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Thu",
+     "text": "Wing night: $1 wings (min. 6)",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue site cinderlands.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
     "Live music & events",
     "Sports & games"
    ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror); cinderlands.com (checked 2026-11-01)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); cinderlands.com (checked 2026-11-01); Venue site cinderlands.com (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 209-1575",
    "phoneSource": "OpenStreetMap (way/535064192, name + location match; Geofabrik extract of 2026-10-31), checked 2026-11-01"
@@ -334,15 +344,31 @@
    "website": "http://www.conalmapgh.com/",
    "hours": "Mon closed; Tue-Thu 5p-11p; Fri-Sat 5p-1a; Sun 4p-8p",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
+   "kitchen": "Wed-Thu 4p-10p; Fri-Sat 4p-11p; Sun 4p-8p",
+   "kitchenNote": "Site says open at 4 pm Wed–Sun (listed hours differ). Live jazz nightly. (Venue site conalmapgh.com, checked 2026-11-01)",
+   "happyHours": [
+    {
+     "days": "Wed-Sat",
+     "text": "Happy hour 4–6 pm: $8 Paloma/Painkiller, $9 martini/old fashioned, $1 off select beers",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue site conalmapgh.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Sun",
+     "text": "Happy hour 4–5 pm",
+     "src": "Venue site conalmapgh.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
     "Live music & events"
    ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site conalmapgh.com (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 932-2387",
    "phoneSource": "Venue website conalmapgh.com, checked 2026-11-01"
@@ -362,14 +388,14 @@
    "hours": "Mon closed; Tue-Wed 8a-9p; Thu-Sat 8a-10p; Sun 3p-8p",
    "hoursNote": "Venue site lists Venue site lists Tue–Thu to 9p (Facebook lists Thu to 10p).; call ahead.",
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen closes 3–5 pm daily (reopens 4 pm Sat). (Venue site dianoiaseatery.com, checked 2026-11-01)",
    "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [
     "Date night"
    ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site dianoiaseatery.com (checked 2026-11-01)",
    "county": "Allegheny"
   },
   {
@@ -763,14 +789,24 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy hour 5–8 pm: $1.50 off craft drafts",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue site originalmitchells.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
     "Bar scene",
     "Sports & games"
    ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site originalmitchells.com (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 471-3663",
    "phoneSource": "Venue website originalmitchells.com, checked 2026-11-01"
@@ -978,13 +1014,36 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy hour 4–6 pm: $2 off draft beer, $6 well cocktails",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue site revelpgh.com",
+     "checked": "2026-11-01",
+     "flag": "Another page on the site says 3–6 pm."
+    },
+    {
+     "days": "Fri",
+     "text": "Late happy hour 8–10 pm",
+     "src": "Venue site revelpgh.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Sat",
+     "text": "Happy hour 3–5 pm",
+     "src": "Venue site revelpgh.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
     "Date night"
    ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 10, 2026) (checked 2026-11-01)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 10, 2026) (checked 2026-11-01); Venue site revelpgh.com (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 281-1134",
    "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 10, 2026), checked 2026-11-01"
@@ -1033,15 +1092,15 @@
    "website": "http://www.rolandspittsburgh.com/",
    "hours": "Mon-Wed 11a-12a; Thu 11a-10p; Fri 11a-12a; Sat 11a-10p; Sun 11a-9p",
    "hoursNote": "Venue site lists Venue site lists Sunday to 10p (Facebook 9p).; call ahead.",
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Mon-Sat 11a-10p; Sun 11a-9p",
+   "kitchenNote": "Kitchen hours; bar 11 am–midnight. (Venue site rolandspittsburgh.com, checked 2026-11-01)",
    "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [
     "Date night"
    ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site rolandspittsburgh.com (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 261-3401",
    "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 12, 2026), checked 2026-11-01"
@@ -1368,12 +1427,12 @@
    "hours": "Mon-Fri 5p-2a; Sat-Sun 11a-2a",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until midnight daily. ⚠ Site also says Sun–Sat from 4 pm and Mon–Fri from 5 pm. (Venue site thewarrenpgh.com, checked 2026-11-01)",
    "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [],
-   "source": "hours from the venue's Facebook page (via foodyas mirror)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site thewarrenpgh.com (checked 2026-11-01)",
    "county": "Allegheny"
   },
   {

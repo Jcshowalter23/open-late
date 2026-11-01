@@ -66,14 +66,14 @@
    "hours": "Mon-Wed 4p-12a; Thu 4a-12a; Fri 4p-2a; Sat-Sun 11a-2a",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Site lists kitchen 4–10 pm (venue 4 pm–midnight) for the day checked. (Venue site butlerstreetderby.com, checked 2026-11-01)",
    "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [
     "Live music & events"
    ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site butlerstreetderby.com (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 212-6570",
    "phoneSource": "Venue website butlerstreetderby.com, checked 2026-11-01"
@@ -165,16 +165,29 @@
    "website": "http://www.lawrencehallpgh.com/",
    "hours": "Mon-Wed 4p-10p; Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-9p",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
+   "kitchen": "Mon-Wed 4p-9p; Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-8p",
+   "kitchenNote": "Kitchens close 1 hour before closing; select kitchens may vary. (Venue site lawrencehallpgh.com, checked 2026-11-01)",
+   "happyHours": [
+    {
+     "days": "Mon",
+     "text": "Happy hour at Dear James 4:30–8:30 pm",
+     "src": "Venue site lawrencehallpgh.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Tue-Fri",
+     "text": "Happy hour at Dear James 4:30–6:30 pm",
+     "src": "Venue site lawrencehallpgh.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
     "Bar scene",
     "Live music & events"
    ],
-   "source": "hours from the venue's website",
+   "source": "hours from the venue's website; Venue site lawrencehallpgh.com (checked 2026-11-01)",
    "county": "Allegheny"
   },
   {
@@ -330,16 +343,26 @@
    "hours": "Mon-Wed 4p-12a; Thu-Fri 4p-2a; Sat 1p-2a; Sun 1p-10p",
    "hoursNote": "Venue site says closed Monday and Tue–Wed 4p–12a; call ahead Mondays.",
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "\"If the bar is open, the kitchen is open\" (Tue–Sun, Cold Friends Kitchen). (Venue site newamsterdampgh.com, checked 2026-11-01)",
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Thu",
+     "text": "Wing night: $1 wings (min. 10, dine-in); karaoke 10 pm",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue site newamsterdampgh.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
     "Live music & events",
     "Sports & games"
    ],
-   "source": "hours from Restaurantji (Google data)",
+   "source": "hours from Restaurantji (Google data); Venue site newamsterdampgh.com (checked 2026-11-01)",
    "county": "Allegheny"
   },
   {
@@ -469,13 +492,32 @@
    "website": "http://iluvcantina.com/",
    "hours": "Sun-Thu 5p-9:45p; Fri 5p-10:45p; Sat 3p-10:45p",
    "hoursNote": "Hours from the venue site; Facebook lists later closes.",
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
+   "kitchen": "Sun-Thu 5p-9:45p; Fri 5p-10:45p; Sat 3p-10:45p",
+   "kitchenNote": "Kitchen hours; bar closes at volume. (Venue site iluvcantina.com, checked 2026-11-01)",
+   "happyHours": [
+    {
+     "days": "Sun-Fri",
+     "text": "Happy hour 5–6 pm: $6 cocktails, $4 cervezas",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue site iluvcantina.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Sat",
+     "text": "Happy hour 3–5 pm: $6 cocktails, $4 cervezas",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue site iluvcantina.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
-   "source": "hours from the venue's website; Facebook page (via foodyas mirror)",
+   "source": "hours from the venue's website; Facebook page (via foodyas mirror); Venue site iluvcantina.com (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 904-2279",
    "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
@@ -544,15 +586,55 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy hour 4–6 pm (in-house): 89¢ wings, $4 select drafts, $5 wine",
+     "tags": [
+      "wings",
+      "beer"
+     ],
+     "src": "Venue site stinkysbarandgrill.com",
+     "checked": "2026-11-01"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "$4 drafts; $10.99 burger & fries",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue site stinkysbarandgrill.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Tue",
+     "text": "$9.99 pick-em apps; $5 Modelo drafts",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue site stinkysbarandgrill.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "89¢ wings; $4 Yuengling drafts",
+     "tags": [
+      "wings",
+      "beer"
+     ],
+     "src": "Venue site stinkysbarandgrill.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
     "Live music & events",
     "Sports & games"
    ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site stinkysbarandgrill.com (checked 2026-11-01)",
    "county": "Allegheny"
   },
   {
@@ -705,15 +787,15 @@
    "website": "http://www.wmpenntavern.com/",
    "hours": "Sun-Wed 11a-11p; Thu-Sat 11a-2a",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Daily 11a-11p",
+   "kitchenNote": "Kitchen 11 am–11 pm, 7 days. (Venue site wmpenntavern.com, checked 2026-11-01)",
    "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [
     "Bar scene"
    ],
-   "source": "hours from the venue's website",
+   "source": "hours from the venue's website; Venue site wmpenntavern.com (checked 2026-11-01)",
    "county": "Allegheny",
    "phone": "(412) 621-1000",
    "phoneSource": "Venue website wmpenntavern.com, checked 2026-11-01"
