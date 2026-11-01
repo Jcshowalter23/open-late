@@ -1,6 +1,6 @@
 // Open Late service worker: app shell cached; data is network-first so updates show up, with offline fallback.
-const VERSION = "open-late-v2";
-const SHELL = ["./", "index.html", "styles.css", "app.js", "manifest.webmanifest", "icons/icon.svg", "icons/icon-192.png", "icons/icon-512.png", "data/cities.json", "data/cities/lancaster-pa.json", "data/cities/york-pa.json", "data/cities/harrisburg-pa.json", "data/cities/neffsville-pa.json", "data/cities/lititz-pa.json", "data/cities/manheim-pa.json", "data/cities/ephrata-pa.json"];
+const VERSION = "open-late-v3";
+const SHELL = ["./", "index.html", "styles.css", "app.js", "manifest.webmanifest", "icons/icon.svg", "icons/icon-192.png", "icons/icon-512.png", "data/cities.json", "data/cities/lancaster-pa.json", "data/cities/york-pa.json", "data/cities/harrisburg-pa.json", "data/cities/neffsville-pa.json", "data/cities/lititz-pa.json", "data/cities/manheim-pa.json", "data/cities/ephrata-pa.json", "data/cities/reading-pa.json", "data/cities/marietta-pa.json", "data/cities/columbia-pa.json", "data/cities/denver-pa.json", "data/cities/cocalico-pa.json"];
 self.addEventListener("install", (e) => { e.waitUntil(caches.open(VERSION).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting())); });
 self.addEventListener("activate", (e) => { e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== VERSION).map((k) => caches.delete(k)))).then(() => self.clients.claim())); });
 self.addEventListener("fetch", (e) => {
