@@ -975,14 +975,30 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "Taco Tuesday",
+     "src": "Venue site machsgutepub.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Thu",
+     "text": "Wing night",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue site machsgutepub.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
     "Live music & events",
     "Sports & games"
    ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01); Venue site machsgutepub.com (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 866-3311",
    "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"
@@ -1001,15 +1017,15 @@
    "website": "https://redstagpub.com/links",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-11p; Sun 9a-9p",
    "hoursNote": "Website bar hours; kitchen may close earlier on some nights.",
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Mon-Thu 11a-9p; Fri-Sat 11a-11p; Sun 9a-9p",
+   "kitchenNote": "Late-night menu Fri–Sat 10–11 pm; bar open until 1 hour after the kitchen closes. (Venue site redstagpub.com, checked 2026-11-01)",
    "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [
     "Bar scene"
    ],
-   "source": "hours from the venue's website",
+   "source": "hours from the venue's website; Venue site redstagpub.com (checked 2026-11-01)",
    "county": "Northampton"
   },
   {
@@ -1154,14 +1170,14 @@
    "hours": "Mon-Fri 10a-2a; Sat-Sun 9a-2a",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open Wednesday–Sunday from 3 pm until close. (Venue site northendwanderers.com, checked 2026-11-01)",
    "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [
     "Live music & events"
    ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site northendwanderers.com (checked 2026-11-01)",
    "county": "Northampton"
   },
   {
@@ -1335,15 +1351,15 @@
    "website": "http://www.retroburgerbethlehem.com/",
    "hours": "Mon-Tue 11:30a-10p; Wed closed; Thu 11:30a-10p; Fri-Sat 11:30a-12a; Sun 11:30a-10p",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Sun-Tue 11:30a-8p; Thu 11:30a-8p; Fri-Sat 11:30a-9p",
+   "kitchenNote": "Kitchen hours from venue site; bar open later. (Venue site retroburgerbethlehem.com, checked 2026-11-01)",
    "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [
     "Live music & events"
    ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site retroburgerbethlehem.com (checked 2026-11-01)",
    "county": "Lehigh",
    "phone": "(610) 419-3810",
    "phoneSource": "Venue website retroburgerbethlehem.com, checked 2026-11-01"
@@ -1664,9 +1680,22 @@
    "website": "http://www.tapasonmain.com/",
    "hours": "Mon-Thu 11:30a-10p; Fri 11:30a-11p; Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
+   "kitchen": "Mon-Thu 11:30a-10p; Fri 11:30a-11p; Sat 11a-11p; Sun 11a-10p",
+   "kitchenNote": "Kitchen hours (weekend brunch from 11 am). (Venue site tapasonmain.com, checked 2026-11-01)",
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy hour 5–7 pm",
+     "src": "Venue site tapasonmain.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Sat-Sun",
+     "text": "Weekend happy hour 3–5 pm",
+     "src": "Venue site tapasonmain.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1674,7 +1703,7 @@
     "Live music & events",
     "Date night"
    ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site tapasonmain.com (checked 2026-11-01)",
    "county": "Northampton"
   },
   {
@@ -1993,16 +2022,35 @@
    "website": "http://www.urbanobethlehem.com/",
    "hours": "Mon-Thu 11:30a-10p; Fri-Sat 11:30a-11p; Sun 11a-10p",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
+   "kitchen": "Mon-Thu 11:30a-10p; Fri 11:30a-11p; Sun 11a-10p",
+   "kitchenNote": "Kitchen hours from venue site; Saturday not stated. (Venue site urbanobethlehem.com, checked 2026-11-01)",
+   "happyHours": [
+    {
+     "days": "Mon-Thu",
+     "text": "Happy hour 4–6 pm",
+     "src": "Venue site urbanobethlehem.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Fri-Sat",
+     "text": "Happy hour 4–6 pm and 9–11 pm",
+     "src": "Venue site urbanobethlehem.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Sun",
+     "text": "Happy hour 1–4 pm",
+     "src": "Venue site urbanobethlehem.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
     "Bar scene",
     "Live music & events"
    ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01); Venue site urbanobethlehem.com (checked 2026-11-01)",
    "county": "Northampton",
    "phone": "(610) 419-1736",
    "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01"

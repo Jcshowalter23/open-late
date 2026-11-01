@@ -1170,11 +1170,18 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Thu",
+     "text": "Happy hour 4–6 pm: drink and appetizer specials",
+     "src": "Venue site morgansrest.net",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
-   "source": "hours from the venue's Facebook page (via foodyas mirror)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site morgansrest.net (checked 2026-11-01)",
    "county": "Lehigh",
    "phone": "(610) 769-4100",
    "phoneSource": "OpenStreetMap (way/1525448791, name + location match; Geofabrik extract of 2026-10-31), checked 2026-11-01"
@@ -1632,13 +1639,13 @@
    "website": "http://shantyon19th.com/",
    "hours": "Mon closed; Tue-Sat 4p-12a; Sun 10a-7p",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Tue-Wed 4p-10p; Thu-Sat 4p-11p; Sun 10a-7p",
+   "kitchenNote": "Kitchen hours from venue site. (Venue site shantyon19th.com, checked 2026-11-01)",
    "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [],
-   "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Aug 30, 2026) (checked 2026-11-01); phone conflict review (checked 2026-11-01)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Aug 30, 2026) (checked 2026-11-01); phone conflict review (checked 2026-11-01); Venue site shantyon19th.com (checked 2026-11-01)",
    "county": "Lehigh",
    "phone": "(610) 841-0150",
    "phoneSource": "Venue site shantyon19th.com, checked 2026-11-01. Replaces (610) 841-9153 (Restaurantji, updated Aug 30, 2026), which the venue site does not show"
@@ -1725,11 +1732,41 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Wed",
+     "text": "Happy hour 3–5 pm",
+     "src": "Venue site stahleys.com",
+     "checked": "2026-11-01",
+     "flag": "Site lists Mon–Wed on its specials preview; other days may be on its full specials page."
+    }
+   ],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "Lobster $22.99 (3 sides); clam bake $17.99",
+     "src": "Venue site stahleys.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Tue",
+     "text": "Tacos 2 for $11",
+     "src": "Venue site stahleys.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "Wing night: $1 wings; trivia 6–9 pm",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue site stahleys.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
-   "source": "hours from the venue's Facebook page (via foodyas mirror)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site stahleys.com (checked 2026-11-01)",
    "county": "Lehigh",
    "phone": "(610) 433-2468",
    "phoneSource": "OpenStreetMap (node/6904198066, name + location match; Geofabrik extract of 2026-10-31), checked 2026-11-01"
@@ -2357,14 +2394,21 @@
    "hours": "Mon-Thu 11:30a-9p; Fri-Sat 11:30a-10p; Sun 11:30a-9p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
+   "kitchenNote": "Bar menu available between lunch and dinner and for one hour after last dining-room seating. (Venue site westsidegrillpa.com, checked 2026-11-01)",
+   "happyHours": [
+    {
+     "days": "Fri",
+     "text": "Happy hour 4–7 pm: selected appetizers half price",
+     "src": "Venue site westsidegrillpa.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
     "Date night"
    ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 1, 2026) (checked 2026-11-01)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Restaurantji (Google-sourced listing, updated Oct 1, 2026) (checked 2026-11-01); Venue site westsidegrillpa.com (checked 2026-11-01)",
    "county": "Lehigh",
    "phone": "(610) 508-4500",
    "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 1, 2026), checked 2026-11-01"
@@ -2490,13 +2534,26 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy hour 3–6 pm (bar area only)",
+     "src": "Venue site youellsoysterhouse.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Sat-Sun",
+     "text": "Happy hour 11 am–3 pm (bar area only)",
+     "src": "Venue site youellsoysterhouse.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
     "Date night"
    ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site youellsoysterhouse.com (checked 2026-11-01)",
    "county": "Lehigh"
   },
   {
