@@ -172,6 +172,7 @@
       setNear(true);
       const miss = rows.filter((p) => typeof p.r.lat !== "number").length;
       toast(miss ? `Sorted by distance · ${miss} place${miss === 1 ? "" : "s"} without a map location are listed last` : "Sorted by distance from you");
+      loadNearby().catch(() => { /* nearby counties are a bonus; the current County still sorts */ });
     }, (err) => {
       locating = false; $("nearMe").classList.remove("busy");
       toast(err && err.code === 1 ? "Location permission was denied, so Near me can't sort by distance." : "Couldn't get your location. Try again in a moment.");
@@ -280,7 +281,9 @@
     const openNow = on("openNow"), kitchenNow = on("kitchenNow"), onlyDeals = on("onlyDeals");
     const wingDeals = on("wingDeals"), beerDeals = on("beerDeals"), hhDeals = on("hhDeals"), favsOnly = on("favsOnly");
     const day = Number($("day").value), sort = $("sort").value, tonight = on("tonight");
-    let list = rows.filter((p) => {
+    const nearOn = sort === "near" && here && !town && bbNear(county, NEAR_MI); // nearby Counties mix in only when you are in or near the picked one
+    const pool = rows.concat([...extra.values()].filter((p) => p.cid !== county.id && ((favsOnly && favs.has(pkey(p))) || (nearOn && (miles(p) ?? 99) <= NEAR_MI))));
+    let list = pool.filter((p) => {
       const r = p.r;
       if (town && p.area !== town) return false;
       if (q && !r.name.toLowerCase().includes(q) && !p.areaName.toLowerCase().includes(q)) return false;
@@ -339,7 +342,7 @@
     const mf = [cuisine !== "All", price !== "All", vibe !== "All", sort !== "smart" && sort !== "near"].filter(Boolean).length;
     $("mfCount").textContent = mf ? `(${mf} on)` : "";
     const kinds = [wingDeals && "wing", beerDeals && "beer", hhDeals && "happy hour"].filter(Boolean).join(" + ");
-    const scopeN = town ? rows.filter((p) => p.area === town).length : rows.length;
+    const scopeN = town ? rows.filter((p) => p.area === town).length : pool.length;
     $("count").textContent = `${list.length} of ${scopeN} places · ${kinds ? kinds + " deals" : "deals"} for ${day === now.d ? "today" : day === ALL ? "all days" : DAY_LONG[day]}${dist ? " · nearest first" : ""}`;
     const nLk = tonight ? list.filter((p) => tonightInfo(p).kitchen > 0).length : 0;
     $("tonightNote").hidden = !tonight || !list.length;
@@ -354,7 +357,7 @@
       if (tonight && !q && !wingDeals && !beerDeals && !hhDeals && !onlyDeals && !kitchenNow && !favsOnly && !openNow) why = `Nothing in ${placeName} is listed as open past 11 PM tonight`;
       if (openNow && !tonight && !q && !wingDeals && !beerDeals && !hhDeals && !onlyDeals && !kitchenNow && !favsOnly) why = `Nothing in ${placeName} is open right now`;
       if (favsOnly && !favs.size) why = "No favorites yet";
-      else if (favsOnly && ![...favs].some((k) => rows.some((p) => pkey(p) === k))) why = `No favorites in ${county.name} County yet`;
+      else if (favsOnly && extraLoading) why = "Loading your favorites from other counties…";
       $("emptyTitle").textContent = why + ".";
       $("emptyText").textContent = why.includes("past 11 PM") ? `Only places with posted hours can show here. Try ${town ? "the whole county, " : ""}a neighboring county, or turn off Tonight.` : favsOnly && !list.length && why.startsWith("No favorites") ? "Tap the ♡ on any place to save it here. Favorites stay on this device." : town ? `Try the whole county, or ${active ? "clear the filters" : "pick another city"}.` : (active ? "Try clearing the filters or picking another day." : "Try a neighboring county.");
       $("clearFilters").hidden = !active;
@@ -397,7 +400,7 @@
       const reviews = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(where)}`;
       const tel = r.phone ? r.phone.replace(/[^0-9+]/g, "") : "";
       const maps = r.address ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${r.name}, ${r.address}, ${p.areaName}, PA`)}` : "";
-      const top2 = [town ? "" : esc(p.areaName), mi !== null ? `<span class="mi">${fmtMi(mi)}</span>` : ""].filter(Boolean).join(" · ");
+      const top2 = [town ? "" : esc(p.cn && !p.areaName.includes(`${p.cn} County`) ? `${p.areaName}, ${p.cn} County` : p.areaName), mi !== null ? `<span class="mi">${fmtMi(mi)}</span>` : ""].filter(Boolean).join(" · ");
       return `<article class="card${tonight && tonightInfo(p).kitchen > 0 ? " card-lk" : ""}" data-key="${esc(ck)}">
         <button type="button" class="fav" data-act="fav" aria-pressed="${fav}" aria-label="${fav ? "Remove from" : "Add to"} favorites: ${esc(r.name)}">${fav ? "♥" : "♡"}</button>
         ${top2 ? `<div class="town">${top2}</div>` : ""}
@@ -504,7 +507,7 @@
         mapLayer = L.layerGroup().addTo(map);
         $("map").addEventListener("click", (e) => {
           const b = e.target.closest("[data-mopen]"); if (!b) return;
-          const p = rows.find((x) => pkey(x) === b.dataset.mopen);
+          const p = findKey(b.dataset.mopen);
           setView("list", { noScroll: true }); if (p) openPlace(p.r.id, p.area);
         });
       }
@@ -587,7 +590,8 @@
   }
   // ?place=<id> deep link: page through results until that card shows, open its Details, scroll to it
   function openPlace(id, areaId) {
-    const p = rows.find((x) => x.r.id === id && (!areaId || x.area === areaId)) || rows.find((x) => x.r.id === id);
+    const all = rows.concat([...extra.values()]);
+    const p = all.find((x) => x.r.id === id && (!areaId || x.area === areaId)) || all.find((x) => x.r.id === id);
     if (!p) return;
     const key = pkey(p);
     openCards.add(key);
@@ -609,11 +613,64 @@
 
   // Selection = one county (always) + optional town/area inside it. Places are tagged with their own county,
   // so an area that straddles a line shows only this county's places and can appear under several counties.
-  const live = (index) => index.areas.filter((a) => a.status === "live" && a.file);
-  let index = null, county = null;
+  // Data: data/index.json (every County, small) + data/county/<id>.json (one County's places), built by tools/build_data.py.
+  // Only the picked County loads; other Counties load on demand for favorites and Near me and show as extras.
+  let index = null, county = null, extraLoading = false;
+  const NEAR_MI = 10;
   const countyById = (id) => index.counties.find((c) => c.id === (id || "").toLowerCase());
-  const areaById = (id) => live(index).find((a) => a.id === id);
-  const primaryCounty = (aid) => { const a = areaById(aid); return a && a.counties && countyById(a.counties[0].toLowerCase().replace(/\s+/g, "-")); };
+  const primaryCounty = (aid) => { const cs = index.areaCounties[aid]; return cs && countyById(cs[0]); };
+  const countyData = new Map(); // id -> Promise of the County file
+  const extra = new Map(); // pkey -> prepped place from another County
+  function getJSON(url) { return fetch(url, { cache: "no-cache" }).then((r) => { if (!r.ok) throw new Error(`${url}: HTTP ${r.status}`); return r.json(); }); }
+  function getCounty(cid) {
+    if (!countyData.has(cid)) {
+      const c = countyById(cid), pre = window.__olPre; // index.html starts the likely County's fetch before app.js loads
+      const pr = pre && pre.id === cid ? pre.p.catch(() => getJSON(c.file)) : getJSON(c.file);
+      if (pre && pre.id === cid) window.__olPre = null;
+      countyData.set(cid, pr.catch((e) => { countyData.delete(cid); throw e; }));
+    }
+    return countyData.get(cid);
+  }
+  function areaMap(d) { const m = new Map(); for (const a of d.areas) m.set(a.id, a); return m; }
+  function addExtras(d, keep) {
+    if (county && d.id === county.id) return 0;
+    const am = areaMap(d); let n = 0;
+    for (const r of d.restaurants) {
+      const k = `${r.a}|${r.id}`;
+      if (extra.has(k) || !keep(r, k)) continue;
+      const p = prep(r, am.get(r.a)); p.cid = d.id; p.cn = d.name; extra.set(k, p); n++;
+    }
+    return n;
+  }
+  const findKey = (k) => rows.find((x) => pkey(x) === k) || extra.get(k);
+  // Favorites saved in other Counties: load just the Counties they live in
+  async function loadFavExtras() {
+    const cids = new Set();
+    for (const k of favs) { if (findKey(k)) continue; for (const c of index.areaCounties[k.split("|")[0]] || []) if (county && c !== county.id) cids.add(c); }
+    if (!cids.size) return;
+    extraLoading = true; render();
+    try { (await Promise.allSettled([...cids].map(getCounty))).forEach((x) => { if (x.status === "fulfilled") addExtras(x.value, (r, k) => favs.has(k)); }); }
+    finally { extraLoading = false; render(); }
+  }
+  // Near me: load Counties within NEAR_MI of you; if you're nowhere near the picked County, switch to the one you're in
+  const bbNear = (c, mi) => { if (!c.bb || !here) return false; const dLa = mi / 69, dLo = mi / (69 * Math.cos(here.lat * Math.PI / 180)); return here.lat >= c.bb[0] - dLa && here.lat <= c.bb[2] + dLa && here.lng >= c.bb[1] - dLo && here.lng <= c.bb[3] + dLo; };
+  async function loadNearby() {
+    if (!here || !index) return;
+    const near = index.counties.filter((c) => bbNear(c, NEAR_MI)).slice(0, 12);
+    if (!near.length) return;
+    const got = await Promise.allSettled(near.map((c) => getCounty(c.id)));
+    const closest = (d) => { let b = Infinity; for (const r of d.restaurants) { const m = miles({ r }); if (m !== null && m < b) b = m; } return b; };
+    const ds = got.filter((x) => x.status === "fulfilled").map((x) => x.value);
+    const curD = Math.min(...rows.map((p) => miles(p) ?? Infinity));
+    let best = null;
+    for (const d of ds) { const m = closest(d); if (!best || m < best.m) best = { d, m }; }
+    if (best && best.d.id !== county.id && curD > NEAR_MI && best.m <= NEAR_MI) {
+      await loadCounty(best.d.id, "");
+      toast(`You're near ${best.d.name} County, so it's showing places there, nearest first`);
+    }
+    for (const d of ds) addExtras(d, (r) => { const m = miles({ r }); return m !== null && m <= NEAR_MI; });
+    render();
+  }
   function checkedRange(labels) {
     const u = Array.from(new Set(labels.filter(Boolean)));
     if (u.length < 2) return u[0] || "";
@@ -647,18 +704,12 @@
     const seq = ++loadSeq;
     county = countyById(cid) || countyById("lancaster");
     $("county").value = county.id;
-    const metas = live(index).filter((a) => county.areas.includes(a.id));
     $("count").textContent = `Loading ${county.name} County…`;
-    // every area file in the county loads in parallel, then merges
-    const files = await Promise.all(metas.map((m) => fetch(m.file, { cache: "no-cache" }).then((r) => { if (!r.ok) throw new Error(`${m.file}: HTTP ${r.status}`); return r.json(); })));
+    const d = await getCounty(county.id); // one file with just this County's places
     if (seq !== loadSeq) return; // a newer pick won
-    const merged = [];
-    files.forEach((f, i) => {
-      const area = { id: metas[i].id, name: metas[i].name, checkedLabel: f.checkedLabel };
-      for (const r of f.restaurants) if (r.county === county.name) merged.push(prep(r, area));
-    });
-    rows = merged;
-    city = { name: "", timezone: (files[0] && files[0].timezone) || "America/New_York", checkedLabel: checkedRange(files.map((f) => f.checkedLabel)) };
+    const am = areaMap(d), metas = d.areas;
+    rows = d.restaurants.map((r) => prep(r, am.get(r.a)));
+    city = { name: "", timezone: (metas[0] && metas[0].timezone) || "America/New_York", checkedLabel: checkedRange(metas.map((m) => m.checkedLabel)) };
     const cnt = new Map();
     for (const p of rows) cnt.set(p.area, (cnt.get(p.area) || 0) + 1);
     const towns = metas.filter((m) => cnt.has(m.id)).map((m) => ({ id: m.id, name: shortArea(m.name) })).sort((x, y) => x.name.localeCompare(y.name));
@@ -672,11 +723,12 @@
     now = { d: -1, m: 0 };
     tick();
     render();
+    if (on("favsOnly")) loadFavExtras().catch(() => {});
   }
 
   async function init() {
     opts($("vibe"), VIBES);
-    index = await (await fetch("data/cities.json", { cache: "no-cache" })).json();
+    index = await (window.__olIdx ? window.__olIdx.catch(() => getJSON("data/index.json")) : getJSON("data/index.json"));
     $("county").innerHTML = index.counties.slice().sort((a, b) => a.name.localeCompare(b.name)).map((c) => `<option value="${esc(c.id)}">${esc(c.name)} County (${c.places})</option>`).join("");
     // start: ?county=&area= link, then an old ?area= link (mapped to its primary county), then the remembered pick, then Lancaster County
     const sp = new URLSearchParams(location.search);
@@ -698,6 +750,7 @@
     CHIPS.forEach((id) => $(id).addEventListener("click", () => {
       $(id).setAttribute("aria-pressed", String(!on(id)));
       if (on(id)) track(`filter/${id}`, "Filter on");
+      if (id === "favsOnly" && on(id)) loadFavExtras().catch(() => {});
       if (id === "tonight") { try { sessionStorage.setItem("openlate.tonight", on(id) ? "on" : "off"); } catch (e) { /* ignore */ } }
       render();
     }));
@@ -723,7 +776,7 @@
     $("sort").addEventListener("change", () => { if ($("sort").value === "near") { if (here) setNear(true); else askLocation(); } else $("nearMe").setAttribute("aria-pressed", "false"); });
     $("list").addEventListener("click", (e) => {
       const b = e.target.closest("[data-act]"); if (!b) return;
-      const card = b.closest(".card"), key = card.dataset.key, p = rows.find((x) => pkey(x) === key);
+      const card = b.closest(".card"), key = card.dataset.key, p = findKey(key);
       if (b.dataset.act === "fav") {
         if (favs.has(key)) favs.delete(key); else favs.add(key);
         saveFavs();

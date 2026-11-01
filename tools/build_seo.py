@@ -4,7 +4,7 @@
 import json, os, html, datetime, re, sys, glob
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); os.chdir(root)
 sys.path.insert(0, os.path.join(root, "tools"))
-import build_og
+import build_og, build_data
 SITE = "https://openlateapp.com"
 idx = json.load(open("data/cities.json"))
 areas = {a["id"]: a for a in idx["areas"] if a.get("status") == "live" and a.get("file")}
@@ -242,3 +242,5 @@ sm.append("</urlset>")
 open("sitemap.xml", "w").write("\n".join(sm) + "\n")
 open("robots.txt", "w").write(f"User-agent: *\nAllow: /\nDisallow: /tools/\n\nSitemap: {SITE}/sitemap.xml\n")
 print(f"seo: {len(counties)} county pages, sitemap {len(seen)} urls, {len(want)} share pages ({stub_changed} written, {removed} removed), og images changed: {og_changed}")
+_dc, _ds, _do = build_data.build()
+print(f"data: {len(_do) - 1} County files + index.json ({len(_dc)} written, {len(_ds)} removed)")

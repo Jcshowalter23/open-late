@@ -33,11 +33,15 @@ To list deals people say are out of date, create a GoatCounter API key with only
 - `manifest.webmanifest`, `icons/` – PWA install metadata
 - `data/cities.json` – area index. Each area has `id`, `name`, `type` (`city` or `town`), `region`, `timezone`, `file`, `status` (`live` or `coming-soon`). Regions group the selector. Coming-soon areas show disabled.
 - `data/cities/<area-id>.json` – one file per area: `name`, `timezone`, `checked`, `checkedLabel`, `restaurants[]`
+- `data/index.json`, `data/county/<county-id>.json` – **what the app actually loads**, generated from the two above by
+  `tools/build_data.py` (run by `tools/build_seo.py`; `validate.py` fails if they're stale). The app loads the index plus the
+  picked County's file only (one request, ~30 KB gzipped); other Counties load on demand for favorites and Near me.
+  After editing any `data/cities/*.json`, run `python3 tools/build_seo.py`.
 
 ## Adding a City
 1. Create `data/cities/<id>.json` with the same shape as `lancaster-pa.json`.
 2. In `data/cities.json`, set that area's `file` and `"status": "live"`.
-3. Add the file to `SHELL` in `sw.js` and bump `VERSION`.
+3. Run `python3 tools/build_seo.py` (rebuilds `data/county/*.json`, `data/index.json`, County pages and share pages) and bump `VERSION` in `sw.js`.
 
 ## Restaurant fields
 `hours` and `kitchen` use: `"Mon-Thu 11a-12a; Fri-Sat 11a-1a; Sun closed"`, `"Daily 24h"`, split shifts `"Mon 11a-2p,5p-9p"`. A close time at or before the open time means past midnight. Days not mentioned = not listed. `null` = not listed. Happy hours and specials are `{ "days": "Mon-Fri" | "Tue,Thu" | "Daily", "text": "..." }`. `priceLevel` is `$`–`$$$$` or `null`.
