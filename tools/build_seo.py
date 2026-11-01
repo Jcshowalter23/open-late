@@ -12,7 +12,7 @@ files = {aid: json.load(open(a["file"])) for aid, a in areas.items()}
 DAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 today = datetime.date.today().isoformat()
 e = lambda s: html.escape(str(s), quote=True)
-short = lambda n: re.sub(r",? (PA|MD|DE|DC|Washington,? DC)$", "", n)
+short = lambda n: re.sub(r"(\S), Baltimore$", r"\1", re.sub(r",? (PA|MD|DE|DC|Washington,? DC)$", "", n))
 
 def parse_days(s):
     if s == "Daily": return list(range(7))

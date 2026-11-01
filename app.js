@@ -89,7 +89,7 @@
   const nightsOn = (list, day) => (list || []).filter((n) => day === ALL || n.d === day);
   const shortDate = (iso) => { const m = /^(\d{4})-(\d\d)-(\d\d)$/.exec(iso || ""); return m ? new Date(+m[1], m[2] - 1, +m[3]).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }) : iso; };
   const PAGE = 40; // cards per "Show more" step, keeps big counties fast on phones
-  const shortArea = (n) => n.replace(/,? (PA|MD|DE|DC|Washington,? DC)$/, "");
+  const shortArea = (n) => n.replace(/,? (PA|MD|DE|DC|Washington,? DC)$/, "").replace(/(\S), Baltimore$/, "$1"); // "Canton, Highlandtown & Greektown, Baltimore" -> the County already says Baltimore City
 
   function prep(r, area, loc) {
     const w = parseWeek(r.hours);
@@ -442,7 +442,7 @@
             <div class="row"><b>Crowd:</b> ${r.crowd ? esc(r.crowd) : NL}</div>
             ${r.ct ? `<div class="row"><b>Crowd type:</b> ${esc(r.ct.s)}${r.ct.l && r.ct.l.length && !r.ct.l.every((l) => normTxt(r.ct.s).includes(normTxt(l))) ? ` <span class="ctl">(${esc(r.ct.l.join(", "))})</span>` : ""}${r.ct.src && r.ct.src.length ? ` <span class="srcs">— from ${r.ct.u ? `<a href="${esc(r.ct.u)}" target="_blank" rel="noopener">${esc(r.ct.src.join(", "))}</a>` : esc(r.ct.src.join(", "))}</span>` : ""}</div>` : ""}
             ${nightRows(r.kk, "Karaoke")}${nightRows(r.dj, "DJ nights")}
-            <div class="src">Source: ${esc(r.source)} · checked ${esc(p.checkedLabel)}</div>
+            <div class="src">Source: ${esc(String(r.source).replace(/\s*\(checked \d{4}-\d\d-\d\d\)/g, ""))} · checked ${esc(p.checkedLabel)}</div>
             <div class="actions">
               <a class="act" href="${esc(dirs)}" target="_blank" rel="noopener">Directions</a>
               ${tel ? `<a class="act" href="tel:${esc(tel)}">Call</a>` : ""}
