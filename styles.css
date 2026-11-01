@@ -107,3 +107,10 @@ main{max-width:1200px;margin:0 auto;padding:12px 16px 24px}
 .morewrap{text-align:center;margin:16px 0 0}
 .foot{max-width:1200px;margin:0 auto;padding:8px 16px calc(28px + env(safe-area-inset-bottom));color:var(--ink2);font-size:.9rem}
 .small{font-size:.78rem;color:var(--ink3)}
+/* phones: County and City each get a full-width row so long names (e.g. Northumberland County) stay readable */
+@media (max-width:759px){
+  .pickers{grid-template-columns:auto 1fr;gap:6px 10px;align-items:center}
+  .pick{display:contents}
+  .pick span{font-size:.68rem}
+  .pick select{min-height:38px;padding:6px 10px}
+}
