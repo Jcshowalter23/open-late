@@ -1260,7 +1260,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/wv/dunbar/the-pitch-sports-bar-and-grill-/ (updated 2026-09-28), checked 2026-11-01",
    "lat": 38.379904,
    "lng": -81.758929,
-   "website": null,
+   "website": "https://www.thepitchwv.com/",
+   "websiteSource": "OpenStreetMap way/944867454 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Sat 11a-9p; Sun 8a-3p",
    "hoursNote": null,
    "kitchen": null,
@@ -1275,12 +1276,32 @@
    "county": "Kanawha",
    "crowdType": {
     "labels": [
-     "Families",
-     "Sports fans"
+     "Sports fans",
+     "Families"
     ],
-    "summary": "Family-friendly; popular for watching games.",
-    "confidence": "medium",
+    "summary": "Popular for watching games; family-friendly.",
+    "confidence": "high",
     "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-28",
+        "url": "https://www.restaurantji.com/wv/dunbar/the-pitch-sports-bar-and-grill-/",
+        "quote": "The Pitch Sports Bar & Grill is a restaurant known for its delicious food and great service. The Italian hoagi",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thepitchwv.com/",
+        "quote": "--> | The Pitch | Sports bar | 2947 Fairlawn Avenue, Dunbar, WV, USA | top of page | Home | Menu | Order | Location &",
+        "self": true
+       }
+      ]
+     },
      {
       "label": "Families",
       "confidence": "medium",
@@ -1293,19 +1314,6 @@
         "agg": true
        }
       ]
-     },
-     {
-      "label": "Sports fans",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-28",
-        "url": "https://www.restaurantji.com/wv/dunbar/the-pitch-sports-bar-and-grill-/",
-        "quote": "The Pitch Sports Bar & Grill is a restaurant known for its delicious food and great service. The Italian hoagi",
-        "agg": true
-       }
-      ]
      }
     ]
    },
@@ -1315,7 +1323,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.thepitchwv.com/"
    }
   },
   {

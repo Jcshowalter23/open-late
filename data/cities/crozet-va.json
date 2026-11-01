@@ -71,13 +71,25 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/charlottesville/asado-wing-and-taco-company-/ (updated 2026-10-01), checked 2026-11-01",
    "lat": 38.033583,
    "lng": -78.498655,
-   "website": null,
+   "website": "https://asadocville.com",
+   "websiteSource": "OpenStreetMap node/2633347585 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11a-12a; Sat 12p-12a; Sun 12p-10p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$1 OFF Draft Beer",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website asadocville.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-01) (checked 2026-11-01)",
@@ -110,7 +122,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://asadocville.com"
    }
   },
   {
@@ -157,7 +169,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/scottsville/beijing-kitchen-/ (updated 2026-10-20), checked 2026-11-01",
    "lat": 37.79977,
    "lng": -78.495785,
-   "website": null,
+   "website": "https://www.ekit.us/restaurantviewpage/Beijing-Kitchen-VA-24590",
+   "websiteSource": "OpenStreetMap node/12123110425 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-8:30p; Fri-Sat 11a-9:30p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -168,13 +181,35 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-20) (checked 2026-11-01)",
    "county": "Albemarle",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.ekit.us/restaurantviewpage/Beijing-Kitchen-VA-24590",
+        "quote": "marketplace and we proudly service communities all over the United States. We give hungry locals an opportunity to peruse restaurant menus and order | online | . | Popular Cities | -->",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/scottsville/beijing-kitchen-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.ekit.us/restaurantviewpage/Beijing-Kitchen-VA-24590"
    }
   },
   {
@@ -358,7 +393,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/north-garden/dr-hos-humble-pie-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 37.956716,
    "lng": -78.658847,
-   "website": null,
+   "website": "https://www.drhoshumblepie.com/",
+   "websiteSource": "OpenStreetMap node/11587797769 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 3p-9p; Fri-Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -375,11 +411,11 @@
      "Families"
     ],
     "summary": "A locals-and-regulars spot; family-friendly.",
-    "confidence": "medium",
+    "confidence": "high",
     "details": [
      {
       "label": "Locals & regulars",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence": [
        {
         "type": "reviews",
@@ -387,6 +423,13 @@
         "url": "https://www.restaurantji.com/va/north-garden/dr-hos-humble-pie-/",
         "quote": "With a casual atmosphere and a decent beer and wine menu, it comes highly recommended by locals. Vegetarians and vegans can enjoy customizable pizzas, like the Buddha Pizza with tofu an",
         "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.drhoshumblepie.com/",
+        "quote": "tantly evolving. | Originally a much loved 900 square foot take out shop, jam packed with locals and occasional live music in the corner, the restaurant was expanded to its current space",
+        "self": true
        }
       ]
      },
@@ -411,7 +454,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.drhoshumblepie.com/"
    }
   },
   {
@@ -425,7 +468,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/charlottesville/duners-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.057707,
    "lng": -78.598549,
-   "website": null,
+   "website": "https://www.dunersrestaurant.com/",
+   "websiteSource": "OpenStreetMap node/1523624997 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Sun 5p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -436,13 +480,35 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-29) (checked 2026-11-01)",
    "county": "Albemarle",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.dunersrestaurant.com/",
+        "quote": "s | Open Menu | Close Menu | Today's Menu | Our Story | Gift Cards | Reservations | ivy’s Neighborhood Gem | Savor Timeless Flavors at Duner’s | Duner’s is a long-standing restaurant whose mission",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/charlottesville/duners-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.dunersrestaurant.com/"
    }
   },
   {
@@ -456,7 +522,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/charlottesville/east-garden-/ (updated 2026-10-07), checked 2026-11-01",
    "lat": 38.033259,
    "lng": -78.455189,
-   "website": null,
+   "website": "https://www.eastgardenva.com/",
+   "websiteSource": "OpenStreetMap way/1133334390 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -473,7 +540,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.eastgardenva.com/"
    }
   },
   {
@@ -554,7 +621,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/crozet/fardowners-restaurant-inc-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.069331,
    "lng": -78.700458,
-   "website": null,
+   "website": "https://www.fardowners.com/",
+   "websiteSource": "OpenStreetMap node/1606941609 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11:30a-9p; Tue-Thu 3p-9p; Fri-Sat 11:30a-10p; Sun 10a-2p",
    "hoursNote": null,
    "kitchen": null,
@@ -593,7 +661,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.fardowners.com/"
    }
   },
   {
@@ -607,7 +675,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/waynesboro/mi-rancho-/ (updated 2026-09-21), checked 2026-11-01",
    "lat": 38.062359,
    "lng": -78.650199,
-   "website": null,
+   "website": "https://www.fiestaaztecaivy.com/",
+   "websiteSource": "OpenStreetMap node/12119298879 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-10p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -622,9 +691,11 @@
    "county": "Albemarle",
    "crowdType": {
     "labels": [
-     "Families"
+     "Families",
+     "Locals & regulars",
+     "Sports fans"
     ],
-    "summary": "Family-friendly.",
+    "summary": "Family-friendly; a locals-and-regulars spot; popular for watching games.",
     "confidence": "medium",
     "details": [
      {
@@ -639,6 +710,32 @@
         "agg": true
        }
       ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://fiestaaztecaivy.com/",
+        "quote": "sizzlers, homemade aguas frescas, street corn, and ice-cold Mexican popsicles. | Loved by Locals, | Proven by Reviews! | Posted on Google | Tina Limberick | Ambiance is spot ons. Food is",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://fiestaaztecaivy.com/",
+        "quote": "cuisine. | Whether you’re stopping by for lunch, catching the game in our fully equipped sports bar, or relaxing on the patio when our garage doors roll up, we deliver an unforgettable dini",
+        "self": true
+       }
+      ]
      }
     ]
    },
@@ -648,7 +745,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.fiestaaztecaivy.com/"
    }
   },
   {
@@ -662,7 +759,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/charlottesville/fig-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.033609,
    "lng": -78.498703,
-   "website": null,
+   "website": "https://www.figuva.com",
+   "websiteSource": "OpenStreetMap node/2633347597 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Fri 5p-9p; Sat 9a-2p,5p-9p; Sun 9a-2p",
    "hoursNote": null,
    "kitchen": null,
@@ -679,7 +777,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.figuva.com"
    }
   },
   {
@@ -693,7 +791,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/charlottesville/guadalajara-2/ (updated 2026-08-30), checked 2026-11-01",
    "lat": 38.034717,
    "lng": -78.449468,
-   "website": null,
+   "website": "https://www.guadalajaramexicanva.com/",
+   "websiteSource": "OpenStreetMap way/291629338 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11a-10p; Sat 11:30a-10p; Sun 11:30a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -724,7 +823,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/charlottesville/guadalajara-3/ (updated 2026-10-07), checked 2026-11-01",
    "lat": 38.070335,
    "lng": -78.484982,
-   "website": null,
+   "website": "https://www.guadalajaramexicanva.com",
+   "websiteSource": "OpenStreetMap node/4141777189 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11a-10p; Sat 11:30a-10p; Sun 11:30a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -970,7 +1070,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/charlottesville/plaza-azteca-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.073704,
    "lng": -78.480459,
-   "website": null,
+   "website": "https://mexicoviejogrillva.com/",
+   "websiteSource": "OpenStreetMap way/1054215081 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -1011,7 +1112,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://mexicoviejogrillva.com/"
    }
   },
   {
@@ -1056,7 +1157,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/crozet/mi-rancho-mexican-crozet-/ (updated 2026-10-07), checked 2026-11-01",
    "lat": 38.058633,
    "lng": -78.710338,
-   "website": null,
+   "website": "https://misranchosmexican.com/",
+   "websiteSource": "OpenStreetMap node/11038259909 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1342,12 +1444,22 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/crozet/restoration-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.057139,
    "lng": -78.718096,
-   "website": null,
+   "website": "https://restorationcrozet.com/",
+   "websiteSource": "OpenStreetMap node/1606986153 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 8a-9p; Fri 8a-10p; Sat 10a-10p; Sun 10a-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Enjoy weekday happy hour from 3pm to 6pm, Wine Wednesday, weekend brunch and so much more",
+     "tags": [],
+     "src": "Venue website oldtrailclub.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -1355,9 +1467,10 @@
    "county": "Albemarle",
    "crowdType": {
     "labels": [
-     "Locals & regulars"
+     "Locals & regulars",
+     "Families"
     ],
-    "summary": "A locals-and-regulars spot.",
+    "summary": "A locals-and-regulars spot; family-friendly.",
     "confidence": "medium",
     "details": [
      {
@@ -1372,6 +1485,19 @@
         "agg": true
        }
       ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://oldtrailclub.com/",
+        "quote": "longside golf, the | Old Trail Swim Club | provides a perfect summertime retreat with our family-friendly pools, lap swimming, and | pavilion rentals | . The community center serves as a hub for",
+        "self": true
+       }
+      ]
      }
     ]
    },
@@ -1381,7 +1507,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://restorationcrozet.com/"
    }
   },
   {
@@ -1481,7 +1607,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/charlottesville/sakura-japanese-steak-seafood-house-and-sushi-bar-/ (updated 2026-10-07), checked 2026-11-01",
    "lat": 38.129766,
    "lng": -78.441444,
-   "website": null,
+   "website": "https://sakura-us.com/menu-charlottesville/",
+   "websiteSource": "OpenStreetMap node/1471431383 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 4p-9p; Sat-Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1498,7 +1625,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://sakura-us.com/menu-charlottesville/"
    }
   },
   {
@@ -1576,7 +1703,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/charlottesville/tea-house-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 38.052107,
    "lng": -78.681165,
-   "website": null,
+   "website": "https://teahouseva.com/",
+   "websiteSource": "OpenStreetMap node/11038054235 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 11:30a-9:30p; Fri-Sat 11:30a-10p; Sun 11:30a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -1607,7 +1735,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/charlottesville/thai-99-ii-/ (updated 2026-10-07), checked 2026-11-01",
    "lat": 38.084989,
    "lng": -78.470723,
-   "website": null,
+   "website": "https://www.thai99charlottesville.com",
+   "websiteSource": "OpenStreetMap node/5791954501 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Fri 11a-2:30p,5p-9p; Sat-Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1640,7 +1769,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/charlottesville/the-ivy-inn-restaurant-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.046828,
    "lng": -78.518553,
-   "website": null,
+   "website": "https://www.ivyinnrestaurant.com",
+   "websiteSource": "OpenStreetMap way/1307264034 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Sat 5p-9p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -1659,7 +1789,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.ivyinnrestaurant.com"
    }
   },
   {
@@ -1726,7 +1856,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/charlottesville/white-spot-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.034389,
    "lng": -78.500086,
-   "website": null,
+   "website": "https://www.thespotuva.com",
+   "websiteSource": "OpenStreetMap node/2633347590 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 9a-2:30a; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -1743,7 +1874,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.thespotuva.com"
    }
   },
   {
@@ -1757,7 +1888,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/charlottesville/the-virginian-/ (updated 2026-09-21), checked 2026-11-01",
    "lat": 38.034928,
    "lng": -78.500542,
-   "website": null,
+   "website": "https://www.thevirginiancville.com/",
+   "websiteSource": "OpenStreetMap node/2784023032 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-2a; Sun 10a-2a",
    "hoursNote": null,
    "kitchen": null,
@@ -1796,7 +1928,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.thevirginiancville.com/"
    }
   },
   {
@@ -1810,7 +1942,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/charlottesville/tip-top-restaurant-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.032364,
    "lng": -78.446988,
-   "website": null,
+   "website": "https://tiptoprestaurant.com/",
+   "websiteSource": "OpenStreetMap way/1118214712 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 6a-9p; Sun 7a-3p",
    "hoursNote": null,
    "kitchen": null,
@@ -1863,7 +1996,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://tiptoprestaurant.com/"
    }
   },
   {
@@ -1930,7 +2063,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/charlottesville/vivace-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.045357,
    "lng": -78.517589,
-   "website": null,
+   "website": "https://www.vivacecville.com/",
+   "websiteSource": "OpenStreetMap node/12162413944 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 4:30p-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -1947,7 +2081,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.vivacecville.com/"
    }
   },
   {

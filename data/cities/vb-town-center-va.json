@@ -69,7 +69,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/757-korean-barbeque-/ (updated 2026-09-26), checked 2026-11-01",
    "lat": 36.857386,
    "lng": -76.143437,
-   "website": null,
+   "website": "https://757koreanbarbecue.com/",
+   "websiteSource": "OpenStreetMap node/9519101379 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11:30a-9:30p; Tue closed; Wed-Sun 11:30a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -88,7 +89,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://757koreanbarbecue.com/"
    }
   },
   {
@@ -293,13 +294,25 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/ike-sportz-bar-and-grill-/ (updated 2026-10-07), checked 2026-11-01",
    "lat": 36.883289,
    "lng": -76.183853,
-   "website": null,
+   "website": "https://champssportsbarandgrill.com/",
+   "websiteSource": "OpenStreetMap node/13093248885 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 7a-1a",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$10 Beer Buckets",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website champssportsbarandgrill.com/virginia-beach-champs-sports-bar-and-grill-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -308,12 +321,32 @@
    "county": "Virginia Beach City",
    "crowdType": {
     "labels": [
-     "Locals & regulars",
-     "Sports fans"
+     "Sports fans",
+     "Locals & regulars"
     ],
-    "summary": "A locals-and-regulars spot; popular for watching games.",
-    "confidence": "medium",
+    "summary": "Popular for watching games; a locals-and-regulars spot.",
+    "confidence": "high",
     "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/va/virginia-beach/ike-sportz-bar-and-grill-/",
+        "quote": "Champs Sports Bar & Grill offers a lively and welcoming atmosphere with friendly servers and bartenders who",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://champssportsbarandgrill.com/",
+        "quote": "Best Bar in Virginia Beach | Champs Sports Bar & Grill | × | We are taking online reservations! | Let’s ensure you get a great table: Bo",
+        "self": true
+       }
+      ]
+     },
      {
       "label": "Locals & regulars",
       "confidence": "medium",
@@ -326,19 +359,6 @@
         "agg": true
        }
       ]
-     },
-     {
-      "label": "Sports fans",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
-        "url": "https://www.restaurantji.com/va/virginia-beach/ike-sportz-bar-and-grill-/",
-        "quote": "Champs Sports Bar & Grill offers a lively and welcoming atmosphere with friendly servers and bartenders who",
-        "agg": true
-       }
-      ]
      }
     ]
    },
@@ -348,7 +368,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://champssportsbarandgrill.com/"
    }
   },
   {
@@ -426,7 +446,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/domoishi-8/ (updated 2026-10-18), checked 2026-11-01",
    "lat": 36.881331,
    "lng": -76.186878,
-   "website": null,
+   "website": "https://domoishi.com/locations/va/north-hampton/",
+   "websiteSource": "OpenStreetMap node/12349692999 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 10a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -443,7 +464,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://domoishi.com/locations/va/north-hampton/"
    }
   },
   {
@@ -457,7 +478,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/el-azteca-/ (updated 2026-10-31), checked 2026-11-01",
    "lat": 36.846283,
    "lng": -76.131177,
-   "website": null,
+   "website": "http://www.elaztecamr.net/",
+   "websiteSource": "OpenStreetMap node/6173926926 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11a-10p; Sat 12p-10:30p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -610,7 +632,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/fuji-hana-sushi-/ (updated 2026-09-30), checked 2026-11-01",
    "lat": 36.885114,
    "lng": -76.181141,
-   "website": null,
+   "website": "https://www.fujihanava.com/",
+   "websiteSource": "OpenStreetMap node/13093248877 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11a-10p; Tue closed; Wed-Thu 11a-10p; Fri-Sat 11a-10:30p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -627,7 +650,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.fujihanava.com/"
    }
   },
   {
@@ -798,7 +821,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/jade-villa-chinese-restaurant-/ (updated 2026-10-31), checked 2026-11-01",
    "lat": 36.846088,
    "lng": -76.136987,
-   "website": null,
+   "website": "https://www.jadevillavb.com/",
+   "websiteSource": "OpenStreetMap way/1491677693 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Sun 12p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -898,7 +922,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/judys-sichuan-cuisine-/ (updated 2026-10-08), checked 2026-11-01",
    "lat": 36.846283,
    "lng": -76.131177,
-   "website": null,
+   "website": "https://www.judyssichuancuisine.com/",
+   "websiteSource": "OpenStreetMap node/7946399951 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11:30a-9p; Tue closed; Wed-Thu 11:30a-9p; Fri-Sat 11:30a-9:30p; Sun 11:30a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -915,7 +940,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.judyssichuancuisine.com/"
    }
   },
   {
@@ -960,7 +985,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/keagans-irish-pub-and-restaurant-/ (updated 2026-10-30), checked 2026-11-01",
    "lat": 36.842257,
    "lng": -76.134751,
-   "website": null,
+   "website": "http://www.keagansvb.com/",
+   "websiteSource": "OpenStreetMap node/5125657473 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-12:30a; Fri-Sat 12p-3a; Sun 12p-12:30a",
    "hoursNote": null,
    "kitchen": null,
@@ -1042,7 +1068,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/kellys-tavern-haygood-/ (updated 2026-10-31), checked 2026-11-01",
    "lat": 36.873178,
    "lng": -76.134517,
-   "website": null,
+   "website": "https://www.kellystavern.com/",
+   "websiteSource": "OpenStreetMap node/12396422327 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-12a; Fri-Sat 11a-2a; Sun 11a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -1055,13 +1082,35 @@
    ],
    "source": "hours from Restaurantji listing (updated 2026-10-31) (checked 2026-11-01)",
    "county": "Virginia Beach City",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.kellystavern.com/",
+        "quote": "--> | Kelly's Tavern | Family Friendly Irish Pub in Hampton Roads | Hampton Roads, Virginia, USA | top of page | HOME | ORDER",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/virginia-beach/kellys-tavern-haygood-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.kellystavern.com/"
    }
   },
   {
@@ -1075,7 +1124,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/king-hua-/ (updated 2026-08-24), checked 2026-11-01",
    "lat": 36.863943,
    "lng": -76.131876,
-   "website": null,
+   "website": "https://kinghuava.com/",
+   "websiteSource": "OpenStreetMap node/12379392865 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 11a-10p; Fri-Sat 11a-11p; Sun 12p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1092,7 +1142,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://kinghuava.com/"
    }
   },
   {
@@ -1397,7 +1447,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/noodle-man-/ (updated 2026-10-13), checked 2026-11-01",
    "lat": 36.87296,
    "lng": -76.134455,
-   "website": null,
+   "website": "https://noodle-man-virginia-beach.com/",
+   "websiteSource": "OpenStreetMap node/12349583887 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11a-9p; Tue closed; Wed-Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1408,13 +1459,35 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-13) (checked 2026-11-01)",
    "county": "Virginia Beach City",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://noodle-man-virginia-beach.com/",
+        "quote": "icy. Customer service was excellent, with interactions with other tables showing a strong family-friendly atmosphere. The establishment was clean and is highly recommended. | Tee Jay | Excellent!",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/virginia-beach/noodle-man-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://noodle-man-virginia-beach.com/"
    }
   },
   {
@@ -1481,7 +1554,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/plaza-degollado-mexican-grill-/ (updated 2026-10-22), checked 2026-11-01",
    "lat": 36.843359,
    "lng": -76.185292,
-   "website": null,
+   "website": "https://plaza-degollado-mexican-grill.business.site/",
+   "websiteSource": "OpenStreetMap node/10030522038 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-10:30p; Sat 11:30a-10:30p; Sun 11:30a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1567,7 +1641,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/reginellas-italian-ristorante-/ (updated 2026-09-28), checked 2026-11-01",
    "lat": 36.841811,
    "lng": -76.113622,
-   "website": null,
+   "website": "https://reginellas.com/",
+   "websiteSource": "OpenStreetMap node/7946399921 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-10p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1600,7 +1675,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/saffron-indian-bistro-/ (updated 2026-10-12), checked 2026-11-01",
    "lat": 36.840988,
    "lng": -76.133126,
-   "website": null,
+   "website": "https://www.saffronvabeach.com/",
+   "websiteSource": "OpenStreetMap node/7946417286 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-2:30p,5p-10p; Fri-Sat 11:30a-2:30p,5p-11p; Sun 11:30a-2:30p,5p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1611,13 +1687,35 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-12) (checked 2026-11-01)",
    "county": "Virginia Beach City",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.saffronvabeach.com/",
+        "quote": "ble Now | Plan ahead for an elevated dining experience at SAFFRON. Reserve your table for date nights, family meals, group celebrations, or business gatherings and enjoy attentive service in",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/virginia-beach/saffron-indian-bistro-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.saffronvabeach.com/"
    }
   },
   {
@@ -1797,7 +1895,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/aberdeen-barn-/ (updated 2026-10-08), checked 2026-11-01",
    "lat": 36.8815,
    "lng": -76.1851,
-   "website": null,
+   "website": "https://aberdeenbarn.net/",
+   "websiteSource": "OpenStreetMap way/407411642 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 2:30p-8:30p; Tue-Thu 2:30p-9p; Fri 2p-9:30p; Sat 1p-10p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1816,7 +1915,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://aberdeenbarn.net/"
    }
   },
   {
@@ -1861,7 +1960,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/the-tailgate-sports-pub-/ (updated 2026-10-31), checked 2026-11-01",
    "lat": 36.846283,
    "lng": -76.131177,
-   "website": null,
+   "website": "https://www.thetailgatevb.com/",
+   "websiteSource": "OpenStreetMap node/7946399955 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 5p-12a; Tue-Thu 4p-12a; Fri 12p-1a; Sat 11a-1a; Sun 11a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -1925,7 +2025,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.thetailgatevb.com/"
    }
   },
   {
@@ -1972,7 +2072,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/tida-thai-cuisine-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 36.846283,
    "lng": -76.131177,
-   "website": null,
+   "website": "http://www.tidathai.com/",
+   "websiteSource": "OpenStreetMap node/6225142698 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11a-2:30p,5p-9p; Tue-Fri 11a-2:45p,5p-9p; Sat 12p-9p; Sun 12p-8:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -2036,7 +2137,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/tupelo-honey-/ (updated 2026-10-20), checked 2026-11-01",
    "lat": 36.842074,
    "lng": -76.131177,
-   "website": null,
+   "website": "https://tupelohoneycafe.com/restaurant/virginia-beach/",
+   "websiteSource": "OpenStreetMap node/7946343469 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 8a-8p; Sat 8a-9p; Sun 8a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -2049,13 +2151,35 @@
    ],
    "source": "hours from Restaurantji listing (updated 2026-10-20) (checked 2026-11-01)",
    "county": "Virginia Beach City",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://tupelohoneycafe.com/restaurant/virginia-beach/",
+        "quote": "e. Our menu has something for everyone, making us the perfect choice for a family dinner, date night, business lunch, special event, and more. | SEE MENU | Thank You Kindly! | The latest pre",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/virginia-beach/tupelo-honey-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://tupelohoneycafe.com/restaurant/virginia-beach/"
    }
   },
   {
@@ -2186,7 +2310,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/wing-king-2/ (updated 2026-10-18), checked 2026-11-01",
    "lat": 36.840641,
    "lng": -76.09751,
-   "website": null,
+   "website": "https://www.wingkingonline.com/",
+   "websiteSource": "OpenStreetMap node/12349769637 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11a-10p; Tue-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -2225,7 +2350,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.wingkingonline.com/"
    }
   },
   {
@@ -2239,7 +2364,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/yama-sushi-roll-house-independence-/ (updated 2026-10-04), checked 2026-11-01",
    "lat": 36.863858,
    "lng": -76.131874,
-   "website": null,
+   "website": "https://www.yamachen.com/",
+   "websiteSource": "OpenStreetMap node/12379392872 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11:30a-3p,4:30p-10p; Sat-Sun 12p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -2256,7 +2382,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.yamachen.com/"
    }
   },
   {
@@ -2270,7 +2396,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/zushi-japanese-bistro-/ (updated 2026-10-12), checked 2026-11-01",
    "lat": 36.842193,
    "lng": -76.131513,
-   "website": null,
+   "website": "http://www.zushibistro.com/",
+   "websiteSource": "OpenStreetMap node/7946343458 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Wed 4p-9:30p; Thu 11:30a-2p,5p-9:30p; Fri 11:30a-2p,5p-10p; Sat 4p-10p; Sun closed",
    "hoursNote": null,
    "kitchen": null,

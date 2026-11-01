@@ -322,13 +322,22 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/hampton/county-grill-and-smokehouse-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 37.0429,
    "lng": -76.3464,
-   "website": null,
+   "website": "https://countygrill.com/",
+   "websiteSource": "OpenStreetMap way/388469161 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-10p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Wine Wednesday: Half Off Wine until 9pm",
+     "tags": [],
+     "src": "Venue website countygrill.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -363,7 +372,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://countygrill.com/"
    }
   },
   {
@@ -498,7 +507,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/hampton/domoishi-ramen-poke-tea-wings-/ (updated 2026-09-04), checked 2026-11-01",
    "lat": 37.042356,
    "lng": -76.39081,
-   "website": null,
+   "website": "https://domoishi.com/",
+   "websiteSource": "OpenStreetMap node/9448430895 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-10p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -691,7 +701,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/hampton/fullers-raw-bar-/ (updated 2026-10-12), checked 2026-11-01",
    "lat": 37.0176,
    "lng": -76.3215,
-   "website": null,
+   "website": "https://fullersrawbars.com/",
+   "websiteSource": "OpenStreetMap node/12230676597 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -732,7 +743,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://fullersrawbars.com/"
    }
   },
   {
@@ -899,7 +910,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/hampton/great-wall-restaurant-/ (updated 2026-10-30), checked 2026-11-01",
    "lat": 37.053818,
    "lng": -76.34725,
-   "website": null,
+   "website": "https://greatwallva.com/",
+   "websiteSource": "OpenStreetMap node/12230785519 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -916,7 +928,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://greatwallva.com/"
    }
   },
   {
@@ -1435,13 +1447,55 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/hampton/marker-20-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 37.026,
    "lng": -76.3435,
-   "website": null,
+   "website": "https://www.marker20.com/marker20/",
+   "websiteSource": "OpenStreetMap node/12230758920 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue 3p-12a; Wed-Thu 11a-12a; Fri-Sat 11a-2a; Sun 10a-12a",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour Weekdays 3pm-6pm",
+     "tags": [],
+     "src": "Venue website marker20.com/marker20",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$10 Bud Light Pitchers, $3 PBR & Rolling Rock 16oz Cans, $10 Half Dozen Wings, $6 Dirty Rice Balls",
+     "tags": [
+      "wings",
+      "beer"
+     ],
+     "src": "Venue website marker20.com/marker20",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "Food specials and $3 PBR and Rolling Rock 16oz cans 3pm-9pm",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website marker20.com/marker20",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "Bucket Specials 25% OFF: Bud, Bud Light, Miller Lite, Coors Light, Mich Ultra, Corona, Corona Light, White Claw, and Nutrl",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website marker20.com/marker20",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-11-01); the venue's Facebook page could not be read (checked 2026-11-01)",
@@ -1483,7 +1537,7 @@
      },
      {
       "label": "Locals & regulars",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence": [
        {
         "type": "reviews",
@@ -1491,6 +1545,13 @@
         "url": "https://www.restaurantji.com/va/hampton/marker-20-/",
         "quote": "ken care of, even during busy times. The restaurant has a family-friendly atmosphere, and regulars feel welcomed like they're part of the community. The Chicken Philly and steamed shrimp a",
         "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.marker20.com/marker20/",
+        "quote": "EN MIC NIGHT THURSDAYS 7PM-10PM! | See Our Catering Menu for Your Holiday Parties | --> | Locals' Favorite Since 2002 | --> | Chock-full of friends you haven't met yet, Marker 20 is your",
+        "self": true
        }
       ]
      },
@@ -1528,7 +1589,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.marker20.com/marker20/"
    }
   },
   {
@@ -1606,7 +1667,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/hampton/mill-creek-tavern-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 37.031231,
    "lng": -76.307823,
-   "website": null,
+   "website": "https://mill-creek-tavern.edan.io/",
+   "websiteSource": "OpenStreetMap node/12230705375 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1647,7 +1709,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://mill-creek-tavern.edan.io/"
    }
   },
   {
@@ -1661,7 +1723,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/hampton/monsoon-indian-bistro-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 37.044741,
    "lng": -76.394886,
-   "website": null,
+   "website": "https://monsoonva.com/",
+   "websiteSource": "OpenStreetMap node/9448430870 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-2:30p,5p-10p; Fri 11a-2:30p,5p-10:30p; Sat 12p-3p,5p-10:30p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -1803,7 +1866,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/hampton/musasi-japanese-restaurant-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 37.025589,
    "lng": -76.345275,
-   "website": null,
+   "website": "https://www.musasihampton.com/",
+   "websiteSource": "OpenStreetMap node/12230784600 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 4p-9p; Tue-Thu 11a-2:30p,4:30p-9p; Fri 11a-2:30p,4:30p-10p; Sat 3:30p-10p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -1820,7 +1884,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.musasihampton.com/"
    }
   },
   {
@@ -2013,7 +2077,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/hampton/pbr-and-tapps-/ (updated 2026-10-07), checked 2026-11-01",
    "lat": 37.035113,
    "lng": -76.393056,
-   "website": null,
+   "website": "https://powerplanthamptonroads.com/venue/pbr-hampton/",
+   "websiteSource": "OpenStreetMap node/9448462466 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Sat 8p-2a; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -2048,12 +2113,18 @@
    },
    "dj": {
     "nights": [],
+    "stale": [],
     "hints": [
      "Restaurantji review/summary mentions dj"
     ],
-    "stale": false,
-    "oneoffs": [],
-    "conflicts": []
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-26",
+      "quote": "Latin Nights | Thu, Nov 26, 8:00 PM | PBR Hampton | Join us for a special night of Latin dancing with >> Join us for a special night of Latin dancing with DJ Xtreme",
+      "url": "https://powerplanthamptonroads.com/events/"
+     }
+    ]
    },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
@@ -2061,7 +2132,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://powerplanthamptonroads.com/venue/pbr-hampton/"
    }
   },
   {
@@ -2106,7 +2177,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/hampton/new-poke-surf-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 37.050402,
    "lng": -76.391993,
-   "website": null,
+   "website": "https://www.pokesurfhampton.com/",
+   "websiteSource": "OpenStreetMap node/9448430846 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-9p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -2123,7 +2195,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.pokesurfhampton.com/"
    }
   },
   {
@@ -2137,7 +2209,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/hampton/red-crab-juicy-seafood-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 37.043489,
    "lng": -76.354445,
-   "website": null,
+   "website": "https://redcrabseafood.com/locations/hampton-va/",
+   "websiteSource": "OpenStreetMap node/12230761745 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-10p; Fri-Sat 11:30a-11p; Sun 11:30a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -2156,7 +2229,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://redcrabseafood.com/locations/hampton-va/"
    }
   },
   {
@@ -2961,7 +3034,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/hampton/the-grey-goose-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 37.0253,
    "lng": -76.3467,
-   "website": null,
+   "website": "https://www.greygooserestaurant.com/",
+   "websiteSource": "OpenStreetMap node/12231750793 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri 11a-10p; Sat 10a-10p; Sun 10a-2p",
    "hoursNote": null,
    "kitchen": null,
@@ -2972,13 +3046,35 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-11-01); the venue's Facebook page could not be read (checked 2026-11-01)",
    "county": "Hampton City",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.greygooserestaurant.com/",
+        "quote": "ing up Southern eats with a chef’s twist, The Grey Goose is a must for Hampton visitors & locals alike. | a caterer near me! | Let us cater your wedding, party, shower or other event on",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/hampton/the-grey-goose-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.greygooserestaurant.com/"
    }
   },
   {
@@ -2992,7 +3088,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/hampton/the-twisted-crab-seafood-and-bar-/ (updated 2026-10-01), checked 2026-11-01",
    "lat": 37.044873,
    "lng": -76.394934,
-   "website": null,
+   "website": "https://www.thetwistedcrab.com",
+   "websiteSource": "OpenStreetMap node/9448430871 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 12p-10p; Fri-Sat 12p-10:30p; Sun 12p-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -3033,7 +3130,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.thetwistedcrab.com"
    }
   },
   {
@@ -3131,7 +3228,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/hampton/tres-compadres-mexican-grill-and-bar-/ (updated 2026-09-04), checked 2026-11-01",
    "lat": 37.016869,
    "lng": -76.324857,
-   "website": null,
+   "website": "https://www.trescompadresmexican.com/",
+   "websiteSource": "OpenStreetMap node/12230775835 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-10:30p; Sat 10a-10:30p; Sun 11:30a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -3150,7 +3248,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.trescompadresmexican.com/"
    }
   },
   {
@@ -3197,7 +3295,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/hampton/vitos-pizza-and-italian-restaurant-/ (updated 2026-10-07), checked 2026-11-01",
    "lat": 37.019675,
    "lng": -76.40405,
-   "website": null,
+   "website": "https://www.vitospizzahampton.com/",
+   "websiteSource": "OpenStreetMap way/388498924 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 10a-10p; Fri-Sat 10a-11p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -3217,7 +3316,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.vitospizzahampton.com/"
    }
   }
  ],

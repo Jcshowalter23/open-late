@@ -80,7 +80,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/dale-city/china-gourmet-/ (updated 2026-08-05), checked 2026-11-01",
    "lat": 38.647005,
    "lng": -77.338802,
-   "website": null,
+   "website": "https://www.chinagourmetdalecity.com/",
+   "websiteSource": "OpenStreetMap node/4191939507 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11a-9:30p; Tue closed; Wed-Thu 11a-9:30p; Fri-Sat 11a-10p; Sun 11a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -257,7 +258,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/dale-city/l-bs-pizzeria-and-sports-bar-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 38.661779,
    "lng": -77.36759,
-   "website": null,
+   "website": "https://www.lbspizzeriasportsbar.com/",
+   "websiteSource": "OpenStreetMap node/3223523599 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -274,13 +276,34 @@
    "county": "Prince William",
    "crowdType": {
     "labels": [
-     "Live music fans",
      "Sports fans",
-     "Bikers"
+     "Live music fans",
+     "Bikers",
+     "Locals & regulars"
     ],
-    "summary": "Known for live music; popular for watching games; popular with bikers / hosts bike nights.",
+    "summary": "Popular for watching games; known for live music; popular with bikers / hosts bike nights; a locals-and-regulars spot.",
     "confidence": "high",
     "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-20",
+        "url": "https://www.restaurantji.com/va/dale-city/l-bs-pizzeria-and-sports-bar-/",
+        "quote": "L&B's Pizzeria & Sports Bar is a popular spot, offering great food and service. The pizza, steak and cheese, and chic",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.lbspizzeriasportsbar.com/",
+        "quote": "L & B's Pizzeria & Sports Bar - Dale City, VA - 5401 Mapledale Plaza - Hours, Menu, Order | Skip to main content | L &",
+        "self": true
+       }
+      ]
+     },
      {
       "label": "Live music fans",
       "confidence": "high",
@@ -301,19 +324,6 @@
       ]
      },
      {
-      "label": "Sports fans",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-20",
-        "url": "https://www.restaurantji.com/va/dale-city/l-bs-pizzeria-and-sports-bar-/",
-        "quote": "L&B's Pizzeria & Sports Bar is a popular spot, offering great food and service. The pizza, steak and cheese, and chic",
-        "agg": true
-       }
-      ]
-     },
-     {
       "label": "Bikers",
       "confidence": "medium",
       "evidence": [
@@ -325,6 +335,19 @@
         "agg": true
        }
       ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.lbspizzeriasportsbar.com/",
+        "quote": "staple of the community for years. Try the food and see why they've remained popular with locals. Take home your pizza with curbside pickup. It's never been easier to grab a pizza whenev",
+        "self": true
+       }
+      ]
      }
     ]
    },
@@ -334,7 +357,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.lbspizzeriasportsbar.com/"
    }
   },
   {
@@ -520,7 +543,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/dale-city/sampan-/ (updated 2026-08-19), checked 2026-11-01",
    "lat": 38.6466,
    "lng": -77.3357,
-   "website": null,
+   "website": "https://www.sampancarryout.com",
+   "websiteSource": "OpenStreetMap node/3888580330 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 11a-9p; Fri-Sat 11a-9:30p; Sun 11:30a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -710,7 +734,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/woodbridge/zaffron-/ (updated 2026-10-07), checked 2026-11-01",
    "lat": 38.643521,
    "lng": -77.336379,
-   "website": null,
+   "website": "https://thezaffron.com/",
+   "websiteSource": "OpenStreetMap node/12323724134 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Sat 11a-10p; Sun 11a-9:50p",
    "hoursNote": null,
    "kitchen": null,

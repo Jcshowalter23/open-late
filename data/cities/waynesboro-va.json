@@ -16,7 +16,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/waynesboro/a-taste-of-cuba-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 38.065632,
    "lng": -78.934986,
-   "website": null,
+   "website": "https://atasteofcuba.godaddysites.com/",
+   "websiteSource": "OpenStreetMap node/12186561872 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Sat 11a-9p; Sun 11a-8:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -33,7 +34,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://atasteofcuba.godaddysites.com/"
    }
   },
   {
@@ -47,7 +48,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/waynesboro/bottles-/ (updated 2026-09-04), checked 2026-11-01",
    "lat": 38.0752,
    "lng": -78.9351,
-   "website": null,
+   "website": "https://www.bottlesandgames.com/",
+   "websiteSource": "OpenStreetMap node/3699053025 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Thu 5p-12a; Fri-Sat 5p-1a; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -60,12 +62,32 @@
    "county": "Waynesboro City",
    "crowdType": {
     "labels": [
-     "Locals & regulars",
-     "Families"
+     "Families",
+     "Locals & regulars"
     ],
-    "summary": "A locals-and-regulars spot; family-friendly.",
-    "confidence": "medium",
+    "summary": "Family-friendly; a locals-and-regulars spot.",
+    "confidence": "high",
     "details": [
+     {
+      "label": "Families",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-04",
+        "url": "https://www.restaurantji.com/va/waynesboro/bottles-/",
+        "quote": "restaurant provides a decent selection of food and beverages at reasonable prices. During family-friendly days, kids can enjoy karaoke, billiards, and all the games and activities available, maki",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.bottlesandgames.com/",
+        "quote": "and activities (except the mechanical bull) are included in your entry band. | Bottles is family friendly until 9pm every night. Ages 18+ only after. | Just want to eat? Entry is FREE for dinner",
+        "self": true
+       }
+      ]
+     },
      {
       "label": "Locals & regulars",
       "confidence": "medium",
@@ -78,33 +100,31 @@
         "agg": true
        }
       ]
-     },
-     {
-      "label": "Families",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-04",
-        "url": "https://www.restaurantji.com/va/waynesboro/bottles-/",
-        "quote": "restaurant provides a decent selection of food and beverages at reasonable prices. During family-friendly days, kids can enjoy karaoke, billiards, and all the games and activities available, maki",
-        "agg": true
-       }
-      ]
      }
     ]
    },
    "karaoke": {
     "nights": [],
+    "stale": [],
     "hints": [
      "Restaurantji review/summary mentions karaoke",
      "Restaurantji review/summary mentions karaoke",
      "Restaurantji review/summary mentions karaoke",
      "Restaurantji review/summary mentions karaoke"
     ],
-    "stale": false,
-    "oneoffs": [],
-    "conflicts": []
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Bottles is a fast casual, entertainment venue with games, karaoke, and plenty of places to chill",
+      "url": "https://www.bottlesandgames.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Enjoy a wide selection of games and activities including corn hole, karaoke, foosball, arcade games, ride the mechanical bull, and more",
+      "url": "https://www.bottlesandgames.com/privateevents"
+     }
+    ]
    },
    "dj": {
     "nights": [],
@@ -122,7 +142,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.bottlesandgames.com/"
    }
   },
   {
@@ -136,7 +156,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/waynesboro/delly-up-/ (updated 2026-10-08), checked 2026-11-01",
    "lat": 38.068511,
    "lng": -78.888507,
-   "website": null,
+   "website": "https://dellyup.com/",
+   "websiteSource": "OpenStreetMap node/12288044977 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue 11a-4p; Wed-Thu 11a-8p; Fri-Sat 11a-9p; Sun 11a-4p",
    "hoursNote": null,
    "kitchen": null,
@@ -162,7 +183,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://dellyup.com/"
    }
   },
   {
@@ -176,7 +197,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/waynesboro/dragons-chinese-grill-/ (updated 2026-10-10), checked 2026-11-01",
    "lat": 38.080999,
    "lng": -78.931208,
-   "website": null,
+   "website": "https://www.dragonschinese109.com/",
+   "websiteSource": "OpenStreetMap node/7630117965 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-8:50p; Fri-Sat 11a-9:20p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -209,7 +231,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/waynesboro/king-garden-/ (updated 2026-06-01), checked 2026-11-01",
    "lat": 38.065254,
    "lng": -78.934667,
-   "website": null,
+   "website": "https://website-7453257472851725561184-chineserestaurant.business.site/",
+   "websiteSource": "OpenStreetMap node/6981876043 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 11a-9:30p; Fri-Sat 11a-10p; Sun 11a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -408,7 +431,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/waynesboro/royal-india-palace-/ (updated 2026-09-15), checked 2026-11-01",
    "lat": 38.068339,
    "lng": -78.887273,
-   "website": null,
+   "website": "https://www.royalindiapalacewb.com/",
+   "websiteSource": "OpenStreetMap way/240589473 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11a-2:30p,4p-9:30p; Tue closed; Wed-Sun 11a-2:30p,4p-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -498,7 +522,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/waynesboro/silk-road-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.06311,
    "lng": -78.936601,
-   "website": null,
+   "website": "https://www.silkroadcuisineva.com/",
+   "websiteSource": "OpenStreetMap way/1290905747 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -529,7 +554,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/waynesboro/tailgate-grill-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.070996,
    "lng": -78.894694,
-   "website": null,
+   "website": "https://www.tailgategrillbroadstreetgrill.com/",
+   "websiteSource": "OpenStreetMap node/12186682953 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 10a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -548,7 +574,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.tailgategrillbroadstreetgrill.com/"
    }
   },
   {
@@ -562,7 +588,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/waynesboro/the-fishin-pig-waynesboro-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.0628,
    "lng": -78.9427,
-   "website": null,
+   "website": "https://www.fishinpig.com",
+   "websiteSource": "OpenStreetMap node/6299965409 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -601,7 +628,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.fishinpig.com"
    }
   },
   {
@@ -615,7 +642,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/waynesboro/the-green-leaf-grill-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.0686,
    "lng": -78.889,
-   "website": null,
+   "website": "http://www.thegreenleafgrill.com/",
+   "websiteSource": "OpenStreetMap way/240589477 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Sat 4p-9p; Sun closed",
    "hoursNote": null,
    "kitchen": null,

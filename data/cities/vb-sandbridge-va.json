@@ -230,7 +230,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/civil-libation-/ (updated 2026-10-15), checked 2026-11-01",
    "lat": 36.766576,
    "lng": -76.01402,
-   "website": null,
+   "website": "https://civillibation.com/",
+   "websiteSource": "OpenStreetMap node/12349802816 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 4p-9p; Fri 4p-10p; Sat 10a-10p; Sun 10a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -247,7 +248,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://civillibation.com/"
    }
   },
   {
@@ -261,7 +262,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/gran-maya-mexican-grill-/ (updated 2026-10-06), checked 2026-11-01",
    "lat": 36.78027,
    "lng": -76.002058,
-   "website": null,
+   "website": "http://www.granmayamexgrill.com",
+   "websiteSource": "OpenStreetMap node/9997927604 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-11p; Sat 11:30a-10:30p; Sun 11:30a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -347,7 +349,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/jose-tequilas-mexican-grill-and-cantina-/ (updated 2026-10-02), checked 2026-11-01",
    "lat": 36.764898,
    "lng": -76.015139,
-   "website": null,
+   "website": "https://jose-tequilas.com/jose-tequilas-strawbridge/",
+   "websiteSource": "OpenStreetMap way/402557005 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-11p; Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -366,7 +369,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://jose-tequilas.com/jose-tequilas-strawbridge/"
    }
   },
   {
@@ -468,13 +471,36 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/lucky-oyster-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 36.765759,
    "lng": -76.01449,
-   "website": null,
+   "website": "https://luckyoystervb.com/",
+   "websiteSource": "OpenStreetMap node/2057056862 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour: Drink specials, $1 wings, oysters and clams",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website luckyoystervb.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Bar Area Specials: $6 craft pints",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website luckyoystervb.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -483,9 +509,10 @@
    "county": "Virginia Beach City",
    "crowdType": {
     "labels": [
-     "Families"
+     "Families",
+     "Locals & regulars"
     ],
-    "summary": "Family-friendly.",
+    "summary": "Family-friendly; a locals-and-regulars spot.",
     "confidence": "medium",
     "details": [
      {
@@ -500,6 +527,19 @@
         "agg": true
        }
       ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://luckyoystervb.com/",
+        "quote": "FOOD RESTAURANT IN VIRGINIA BEACH | Where the coast comes to the table | There’s a reason locals and visitors have been pulling up a chair here for years. Lucky Oyster is a seafood resta",
+        "self": true
+       }
+      ]
      }
     ]
    },
@@ -509,7 +549,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://luckyoystervb.com/"
    }
   },
   {
@@ -1005,7 +1045,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/whiskey-kitchen-/ (updated 2026-10-10), checked 2026-11-01",
    "lat": 36.766213,
    "lng": -76.014211,
-   "website": null,
+   "website": "https://thewhiskeykitchen.com/",
+   "websiteSource": "OpenStreetMap node/12349666059 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1044,7 +1085,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://thewhiskeykitchen.com/"
    }
   }
  ],

@@ -49,7 +49,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/fairfax/bangkok-golden-thai-restaurant-/ (updated 2026-10-18), checked 2026-11-01",
    "lat": 38.825919,
    "lng": -77.313385,
-   "website": null,
+   "website": "https://bangkokgolden.com/",
+   "websiteSource": "OpenStreetMap node/11378598539 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11a-3p,4p-9:30p; Tue-Fri 11a-3p,4p-9:45p; Sat 12p-10p; Sun 12p-9:45p",
    "hoursNote": null,
    "kitchen": null,
@@ -88,7 +89,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://bangkokgolden.com/"
    }
   },
   {
@@ -133,7 +134,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/fairfax/blue-iguana-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.8605,
    "lng": -77.3866,
-   "website": null,
+   "website": "https://www.theblueiguana.com/",
+   "websiteSource": "OpenStreetMap node/2067402733 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11:30a-2a",
    "hoursNote": null,
    "kitchen": null,
@@ -257,7 +259,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/fairfax/crafthouse-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 38.858939,
    "lng": -77.355233,
-   "website": null,
+   "website": "https://crafthouseusa.com/",
+   "websiteSource": "OpenStreetMap node/4680995262 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-12a; Fri-Sat 11a-2a; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -319,7 +322,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://crafthouseusa.com/"
    }
   },
   {
@@ -333,7 +336,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/fairfax/guapos-/ (updated 2026-10-06), checked 2026-11-01",
    "lat": 38.856345,
    "lng": -77.395406,
-   "website": null,
+   "website": "https://www.guaposrestaurant.com/location/fair-lakes-guapos-restaurant/",
+   "websiteSource": "OpenStreetMap way/133082652 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Wed 11a-10p; Thu-Fri 11a-11p; Sat 10a-11p; Sun 10a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -397,7 +401,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/fairfax/kelly-s-oyster-house-and-bar-/ (updated 2026-09-14), checked 2026-11-01",
    "lat": 38.844541,
    "lng": -77.307532,
-   "website": null,
+   "website": "https://kellysoysterhouse.com/",
+   "websiteSource": "OpenStreetMap way/420870488 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11:30a-9p; Sat-Sun 11:30a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -411,13 +416,35 @@
    ],
    "source": "hours from Restaurantji listing (updated 2026-09-14) (checked 2026-11-01)",
    "county": "Fairfax",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://kellysoysterhouse.com/",
+        "quote": "Meals To-Go | “A Casual Place for Everyone.” | Fairfax, Virginia’s Newest Restaurant and Sports Bar! | 4069 Chain Bridge Road ~ Fairfax, VA | About Us | | | Menu | | | Directions | Call 571",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/fairfax/kelly-s-oyster-house-and-bar-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://kellysoysterhouse.com/"
    }
   },
   {
@@ -846,13 +873,32 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/fairfax/oh-george-tables-and-taphouse-/ (updated 2026-09-21), checked 2026-11-01",
    "lat": 38.82663,
    "lng": -77.314798,
-   "website": null,
+   "website": "https://ohgeorge.com/",
+   "websiteSource": "OpenStreetMap node/8665206344 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Enjoy 10 wings and draft beer for $20 on Wednesdays at Oh George",
+     "tags": [
+      "wings",
+      "beer"
+     ],
+     "src": "Venue website ohgeorge.com/specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Mon",
+     "text": "$12 Pizza Mondays",
+     "tags": [],
+     "src": "Venue website ohgeorge.com/events",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -887,7 +933,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://ohgeorge.com/"
    }
   },
   {
@@ -1113,7 +1159,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/fairfax/silver-diner-/ (updated 2026-10-17), checked 2026-11-01",
    "lat": 38.859362,
    "lng": -77.37063,
-   "website": null,
+   "website": "https://www.silverdiner.com/locations/fair-oaks",
+   "websiteSource": "OpenStreetMap way/471571099 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Wed 7a-11p; Thu-Sat 7a-12a; Sun 7a-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -1314,7 +1361,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/fairfax/uncle-julios-mexican-from-scratch-/ (updated 2026-10-17), checked 2026-11-01",
    "lat": 38.8571,
    "lng": -77.3558,
-   "website": null,
+   "website": "https://unclejulios.com/",
+   "websiteSource": "OpenStreetMap way/241880527 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1331,7 +1379,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://unclejulios.com/"
    }
   },
   {

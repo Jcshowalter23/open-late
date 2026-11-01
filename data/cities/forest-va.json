@@ -16,7 +16,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/forest/221-tap-and-table-/ (updated 2026-10-13), checked 2026-11-01",
    "lat": 37.37,
    "lng": -79.3018,
-   "website": null,
+   "website": "https://221forest.com/",
+   "websiteSource": "OpenStreetMap node/6655364452 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Wed 11a-9p; Thu-Sat 11a-10p; Sun 11a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -31,9 +32,10 @@
    "county": "Bedford",
    "crowdType": {
     "labels": [
-     "Families"
+     "Families",
+     "Date night / upscale"
     ],
-    "summary": "Family-friendly.",
+    "summary": "Family-friendly; a date-night / upscale spot.",
     "confidence": "medium",
     "details": [
      {
@@ -48,6 +50,19 @@
         "agg": true
        }
       ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://221forest.com/",
+        "quote": "perfect way to give someone the gift of a memorable dining experience. Whether it’s for a romantic dinner or a fun night out with friends, a gift card from 221 Tap & Table is sure to be a",
+        "self": true
+       }
+      ]
      }
     ]
    },
@@ -57,7 +72,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://221forest.com/"
    }
   },
   {
@@ -124,7 +139,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/forest/benjamins-great-cows-and-crabs-/ (updated 2026-09-11), checked 2026-11-01",
    "lat": 37.3663,
    "lng": -79.2949,
-   "website": null,
+   "website": "https://cowsandcrabs.com/",
+   "websiteSource": "OpenStreetMap way/338681193 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 5p-8p; Tue-Thu 11a-8p; Fri 11a-9p; Sat 5p-9p; Sun 10a-2p",
    "hoursNote": null,
    "kitchen": null,
@@ -135,13 +151,35 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-09-11); the venue's Facebook page could not be read (checked 2026-11-01)",
    "county": "Bedford",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.cowsandcrabs.com/",
+        "quote": "Catering, Extensive Craft Beer, Wine, and Mixed Beverages. Benjamin's strives to provide upscale food in a casual, rustic atmosphere, while having fun doing it! | All Events | Weekly Spe",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/forest/benjamins-great-cows-and-crabs-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://cowsandcrabs.com/"
    }
   },
   {
@@ -155,7 +193,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/forest/br-uburgers-craft-burgers-and-beer-/ (updated 2026-09-25), checked 2026-11-01",
    "lat": 37.366,
    "lng": -79.2986,
-   "website": null,
+   "website": "https://www.brauburgers.com/",
+   "websiteSource": "OpenStreetMap node/8250127114 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Wed 11a-9p; Thu-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -186,7 +225,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/forest/bulls-steakhouse-/ (updated 2026-10-07), checked 2026-11-01",
    "lat": 37.3775,
    "lng": -79.2455,
-   "website": null,
+   "website": "https://www.bullssteakhouse.net/",
+   "websiteSource": "OpenStreetMap way/988593674 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Fri 11a-9p; Sat 4:30p-9p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -227,7 +267,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.bullssteakhouse.net/"
    }
   },
   {
@@ -305,7 +345,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/lynchburg/fleming-mountain-grill-/ (updated 2026-10-15), checked 2026-11-01",
    "lat": 37.450583,
    "lng": -79.261947,
-   "website": null,
+   "website": "https://www.flemingmountaingrill.com",
+   "websiteSource": "OpenStreetMap way/996665436 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 5p-9p; Fri-Sat 5p-9:30p; Sun 4p-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -423,7 +464,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/forest/la-carreta-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 37.3688,
    "lng": -79.3005,
-   "website": null,
+   "website": "https://lacarretaforestreviews.com",
+   "websiteSource": "OpenStreetMap node/463761517 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-10:30p; Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -560,7 +602,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/forest/sawa-japanese-steakhouse-/ (updated 2026-10-14), checked 2026-11-01",
    "lat": 37.3686,
    "lng": -79.3002,
-   "website": null,
+   "website": "https://sawahibachiva.com/",
+   "websiteSource": "OpenStreetMap node/6655426253 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9:30p; Fri-Sat 11a-10p; Sun 11:30a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -577,7 +620,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://sawahibachiva.com/"
    }
   },
   {
@@ -646,7 +689,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/forest/yamada-japanese-bbq-/ (updated 2026-10-18), checked 2026-11-01",
    "lat": 37.375145,
    "lng": -79.247043,
-   "website": null,
+   "website": "https://www.yamadabbq.com/",
+   "websiteSource": "OpenStreetMap way/1068554838 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 12p-1a",
    "hoursNote": null,
    "kitchen": null,
@@ -719,7 +763,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.yamadabbq.com/"
    }
   }
  ],

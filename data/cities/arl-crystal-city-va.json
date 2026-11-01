@@ -16,7 +16,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/1983-chinese-cuisine-restaurant-/ (updated 2026-09-10), checked 2026-11-01",
    "lat": 38.864141,
    "lng": -77.063347,
-   "website": null,
+   "website": "https://1983chinesecuisine.com/",
+   "websiteSource": "OpenStreetMap node/10746777097 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11a-10p; Sat-Sun 10:30a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -33,7 +34,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://1983chinesecuisine.com/"
    }
   },
   {
@@ -47,7 +48,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/akivva-grill-/ (updated 2026-09-29), checked 2026-11-01",
    "lat": 38.84485,
    "lng": -77.069081,
-   "website": null,
+   "website": "https://www.akivvagrill.com/",
+   "websiteSource": "OpenStreetMap node/10994392921 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -88,7 +90,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.akivvagrill.com/"
    }
   },
   {
@@ -135,7 +137,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/bees-and-tea-by-asia-bistro-/ (updated 2026-10-19), checked 2026-11-01",
    "lat": 38.863747,
    "lng": -77.063453,
-   "website": null,
+   "website": "https://www.beesandtea.com/",
+   "websiteSource": "OpenStreetMap node/10606726974 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -152,7 +155,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.beesandtea.com/"
    }
   },
   {
@@ -166,7 +169,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/bob-and-ediths-diner-2/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.853405,
    "lng": -77.05417,
-   "website": null,
+   "website": "https://www.bobandedithsdiner.com/",
+   "websiteSource": "OpenStreetMap way/81028607 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 12a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -199,13 +203,22 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/bonsai-grill-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 38.853403,
    "lng": -77.054411,
-   "website": null,
+   "website": "https://crystalbonsaisushirestaurant.com/",
+   "websiteSource": "OpenStreetMap way/345098336 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 4p-9:30p; Fri-Sat 4p-10p; Sun 4p-9:30p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon-Fri",
+     "text": "The price for the early bird special will go up by $2 after (6:30 pm on MON-FRI) & (5 pm on SAT/SUN)",
+     "tags": [],
+     "src": "Venue website crystalbonsaisushirestaurant.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -218,7 +231,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://crystalbonsaisushirestaurant.com/"
    }
   },
   {
@@ -285,13 +298,31 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/chevys-fresh-mex-/ (updated 2026-09-19), checked 2026-11-01",
    "lat": 38.862978,
    "lng": -77.059368,
-   "website": null,
+   "website": "https://www.chevys.com/",
+   "websiteSource": "OpenStreetMap way/1086281535 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-11p; Sat 10a-11p; Sun 10a-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Stop by the Cantina to enjoy our Happy Hour Specials, Monday to Friday from 3pm – 7pm",
+     "tags": [],
+     "src": "Venue website chevys.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Kids Eat For $1 on Wednesdays",
+     "tags": [],
+     "src": "Venue website chevys.com/specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-09-19) (checked 2026-11-01)",
@@ -302,7 +333,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.chevys.com/"
    }
   },
   {
@@ -316,7 +347,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/crystal-city-sports-pub-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 38.853406,
    "lng": -77.053997,
-   "website": null,
+   "website": "http://www.ccsportspub.com/",
+   "websiteSource": "OpenStreetMap way/81028698 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 8a-2a",
    "hoursNote": null,
    "kitchen": null,
@@ -430,7 +462,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/district-dumplings-/ (updated 2026-10-10), checked 2026-11-01",
    "lat": 38.84485,
    "lng": -77.069018,
-   "website": null,
+   "website": "https://www.districtdumplingsarlington.com/",
+   "websiteSource": "OpenStreetMap node/3366910389 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 10:30a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -447,7 +480,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.districtdumplingsarlington.com/"
    }
   },
   {
@@ -461,7 +494,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/federico-ristorante-italiano-/ (updated 2026-10-12), checked 2026-11-01",
    "lat": 38.853407,
    "lng": -77.053825,
-   "website": null,
+   "website": "https://www.federicoristoranteitaliano.com/",
+   "websiteSource": "OpenStreetMap way/81028654 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 3:30p-9p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -474,13 +508,35 @@
    ],
    "source": "hours from Restaurantji listing (updated 2026-10-12) (checked 2026-11-01)",
    "county": "Arlington",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.federicoristoranteitaliano.com/",
+        "quote": "Press | Group Events | Gift Certificates | Directions | Careers | Reviews | Great Food - Local Favorite | Decadent Desserts | Instagram | Catering | Federico Ristorante Italiano | Home | About",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/arlington/federico-ristorante-italiano-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.federicoristoranteitaliano.com/"
    }
   },
   {
@@ -525,7 +581,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/highline-rxr-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.856033,
    "lng": -77.04938,
-   "website": null,
+   "website": "https://www.highlinerxr.com/",
+   "websiteSource": "OpenStreetMap node/3819750057 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 3p-10p; Fri 3p-11p; Sat 12p-11p; Sun 12:30p-8:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -536,13 +593,55 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-29) (checked 2026-11-01)",
    "county": "Arlington",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "7:30 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-14",
+      "datedLastSeen": "2026-11-14",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.highlinerxr.com/trivia",
+        "date": "2026-11-14",
+        "quote": "weekly fun | UPCOMING EVENTS | Saturday, novemebr 14th @ 7:30 pm | The Comedy >> The Comedy Karaoke Trivia Funtime Show with Will Purpura | Saturday, novemebr 14th @ 7:30 pm"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia, comedy, karaoke, live music, singles events, sports watch parties, and more— all in one place",
+      "url": "https://www.highlinerxr.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia Nights, Karaoke Takeovers & Watch Parties",
+      "url": "https://www.highlinerxr.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia Nights, Karaoke Takeovers & Watch Parties",
+      "url": "https://www.highlinerxr.com/events/"
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/arlington/highline-rxr-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.highlinerxr.com/"
    }
   },
   {
@@ -556,7 +655,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/kabob-palace-buffet-/ (updated 2026-09-27), checked 2026-11-01",
    "lat": 38.85317,
    "lng": -77.053384,
-   "website": null,
+   "website": "https://kabobpalaceusa.com/",
+   "websiteSource": "OpenStreetMap node/12207978745 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 12a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -573,7 +673,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://kabobpalaceusa.com/"
    }
   },
   {
@@ -587,7 +687,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/kohinoor-dhaba-inc-/ (updated 2026-10-17), checked 2026-11-01",
    "lat": 38.84788,
    "lng": -77.053817,
-   "website": null,
+   "website": "http://www.kohinoordhaba.com/",
+   "websiteSource": "OpenStreetMap node/3277788978 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -682,7 +783,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/lebanese-taverna-2/ (updated 2026-09-19), checked 2026-11-01",
    "lat": 38.864141,
    "lng": -77.063347,
-   "website": null,
+   "website": "https://www.lebanesetaverna.com/",
+   "websiteSource": "OpenStreetMap node/565547060 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-9p; Fri-Sat 11:30a-9:30p; Sun 11:30a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -737,7 +839,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.lebanesetaverna.com/"
    }
   },
   {
@@ -784,24 +886,90 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/makers-union-pub-/ (updated 2026-10-30), checked 2026-11-01",
    "lat": 38.860838,
    "lng": -77.053826,
-   "website": null,
+   "website": "https://www.makersunionpub.com/",
+   "websiteSource": "OpenStreetMap node/11492748178 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-11p; Sat 10a-11p; Sun 10a-10p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "If that doesn't make us the best happy hour spot, than our $5 Power Hour will",
+     "tags": [],
+     "src": "Venue website makersunionpub.com/events/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "Everything during the first hour of happy hour is only $5",
+     "tags": [],
+     "src": "Venue website makersunionpub.com/events/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "Happy Hour 4-6pm",
+     "tags": [],
+     "src": "Venue website makersunionpub.com/events/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Happy Hour 5-7pm",
+     "tags": [],
+     "src": "Venue website makersunionpub.com/events/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Mon,Thu,Sat,Sun",
+     "text": "Catch every play with $30 drink buckets, 1/2 off apps, and $7 Tito’s cocktails all day Saturday & Sunday and after 7 PM Monday & Thursday",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website makersunionpub.com/events/game-day-made-easy",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-30) (checked 2026-11-01)",
    "county": "Arlington",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.makersunionpub.com/",
+        "quote": "wards | Apply | ORDER ONLINE | RESERVATIONS | Makers Union Pub | Welcome to your favorite neighborhood spot | Northern Virginia | DC | ORDER DIRECT – BETTER PRICE, BETTER DELIVERY | Our Locations",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/arlington/makers-union-pub-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.makersunionpub.com/"
    }
   },
   {
@@ -815,12 +983,22 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/matchbox-2/ (updated 2026-10-05), checked 2026-11-01",
    "lat": 38.864234,
    "lng": -77.059032,
-   "website": null,
+   "website": "https://www.matchboxrestaurants.com/",
+   "websiteSource": "OpenStreetMap node/5469863148 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri 11a-10p; Sat 9a-10p; Sun 9a-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Now happy hour doesn’t just stop at Mon-Fri 3-6pm…",
+     "tags": [],
+     "src": "Venue website matchboxrestaurants.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -832,7 +1010,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.matchboxrestaurants.com/"
    }
   },
   {
@@ -846,7 +1024,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/mcnamaras-pub-and-restaurant-/ (updated 2026-10-20), checked 2026-11-01",
    "lat": 38.853401,
    "lng": -77.054653,
-   "website": null,
+   "website": "https://mcnamaraspub.com/",
+   "websiteSource": "OpenStreetMap way/81028562 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-12a; Fri 11a-2a; Sat 10a-2a; Sun 10a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -868,13 +1047,26 @@
     "oneoffs": [],
     "conflicts": []
    },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ BOOM BOOM",
+      "url": "https://www.thevenueeccadillac.com/"
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/arlington/mcnamaras-pub-and-restaurant-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://mcnamaraspub.com/"
    }
   },
   {
@@ -972,7 +1164,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/omalleys-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 38.850009,
    "lng": -77.052928,
-   "website": null,
+   "website": "https://www.omalleysarlington.com/",
+   "websiteSource": "OpenStreetMap node/12456012842 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 4p-10:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -989,7 +1182,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.omalleysarlington.com/"
    }
   },
   {
@@ -1003,7 +1196,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/padaek-arlington-ridge-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 38.84485,
    "lng": -77.068766,
-   "website": null,
+   "website": "https://padaekdc.com/",
+   "websiteSource": "OpenStreetMap node/6439486687 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 5p-9p; Tue closed; Wed-Sun 12p-3p,5p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1020,7 +1214,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://padaekdc.com/"
    }
   },
   {
@@ -1067,7 +1261,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/potomac-social-tavern-/ (updated 2026-08-07), checked 2026-11-01",
    "lat": 38.860916,
    "lng": -77.04945,
-   "website": null,
+   "website": "https://www.potomacsocialtavern.com/",
+   "websiteSource": "OpenStreetMap way/1085682651 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 4p-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -1083,9 +1278,10 @@
    "crowdType": {
     "labels": [
      "Date night / upscale",
-     "Live music fans"
+     "Live music fans",
+     "Locals & regulars"
     ],
-    "summary": "A date-night / upscale spot; known for live music.",
+    "summary": "A date-night / upscale spot; known for live music; a locals-and-regulars spot.",
     "confidence": "medium",
     "details": [
      {
@@ -1113,6 +1309,19 @@
         "agg": true
        }
       ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.potomacsocialtavern.com/",
+        "quote": "gating | Potomac Social Tavern | Potomac Social Tavern pays homage to your tried and true local watering hole. Offering shareable dishes inspired by local flavors, the menu blends contemporary Americ",
+        "self": true
+       }
+      ]
      }
     ]
    },
@@ -1122,7 +1331,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.potomacsocialtavern.com/"
    }
   },
   {
@@ -1136,7 +1345,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/rasa-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 38.854536,
    "lng": -77.049469,
-   "website": null,
+   "website": "https://www.rasa.co/locations",
+   "websiteSource": "OpenStreetMap node/10694003300 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 10:30a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1312,7 +1522,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/surreal-by-seven-reasons-group-/ (updated 2026-10-30), checked 2026-11-01",
    "lat": 38.854808,
    "lng": -77.049303,
-   "website": null,
+   "website": "https://www.sevenreasonsgroup.com/surreal",
+   "websiteSource": "OpenStreetMap node/11384817769 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 11a-2:30p,5p-9p; Fri 11a-2:30p,5p-10p; Sat 10a-3p,5p-10p; Sun 10a-3p",
    "hoursNote": null,
    "kitchen": null,
@@ -1323,13 +1534,48 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-30) (checked 2026-11-01)",
    "county": "Arlington",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.sevenreasonsgroup.com/surreal",
+        "quote": "e Snug | Seven Reasons Group | An award-winning restaurant group bringing the fun back to fine dining in Washington, DC. | Restaurants | Seven Reasons | Imperfecto | The Saga | Quadrant | The",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "The DJ Area",
+      "url": "https://www.sevenreasonsgroup.com/private-events"
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/arlington/surreal-by-seven-reasons-group-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.sevenreasonsgroup.com/surreal"
    }
   },
   {
@@ -1374,7 +1620,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/tacombi-/ (updated 2026-10-02), checked 2026-11-01",
    "lat": 38.860249,
    "lng": -77.04938,
-   "website": null,
+   "website": "https://www.tacombi.com/",
+   "websiteSource": "OpenStreetMap node/9342262223 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11a-9p; Tue-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1391,7 +1638,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.tacombi.com/"
    }
   },
   {
@@ -1405,7 +1652,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/the-portofino-restaurant-/ (updated 2026-10-12), checked 2026-11-01",
    "lat": 38.853292,
    "lng": -77.053961,
-   "website": null,
+   "website": "https://theportofinorestaurant.com/",
+   "websiteSource": "OpenStreetMap way/239019291 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue 5p-10p; Wed 11a-2p,5p-10p; Thu-Sun 5p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1422,7 +1670,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://theportofinorestaurant.com/"
    }
   },
   {
@@ -1436,7 +1684,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/urban-thai-restaurant-/ (updated 2026-10-12), checked 2026-11-01",
    "lat": 38.853402,
    "lng": -77.054549,
-   "website": null,
+   "website": "https://www.urbanthaiva.com/",
+   "websiteSource": "OpenStreetMap way/81028727 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11a-9:15p; Sat-Sun 11:30a-9:15p",
    "hoursNote": null,
    "kitchen": null,
@@ -1453,7 +1702,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.urbanthaiva.com/"
    }
   },
   {
@@ -1467,7 +1716,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/water-bar-/ (updated 2026-09-06), checked 2026-11-01",
    "lat": 38.859488,
    "lng": -77.049062,
-   "website": null,
+   "website": "https://www.nlwaterbar.com/",
+   "websiteSource": "OpenStreetMap way/1158569590 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-9p; Fri-Sat 11:30a-10p; Sun 11:30a-9p",
    "hoursNote": null,
    "kitchen": null,

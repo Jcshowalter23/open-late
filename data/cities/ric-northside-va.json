@@ -49,7 +49,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/dots-back-inn-/ (updated 2026-10-08), checked 2026-11-01",
    "lat": 37.589,
    "lng": -77.45829,
-   "website": null,
+   "website": "https://www.dotsbackrichmond.com/",
+   "websiteSource": "OpenStreetMap way/745244242 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Wed 10a-10p; Thu-Fri 10a-11p; Sat 9a-11p; Sun 9a-3p",
    "hoursNote": null,
    "kitchen": null,
@@ -90,7 +91,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.dotsbackrichmond.com/"
    }
   },
   {
@@ -157,7 +158,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/enoteca-sogno-/ (updated 2026-10-30), checked 2026-11-01",
    "lat": 37.590936,
    "lng": -77.452822,
-   "website": null,
+   "website": "http://www.enoteca-sogno.com/",
+   "websiteSource": "OpenStreetMap node/11973234304 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Sat 5p-9p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -210,12 +212,22 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/fuzzy-cactus-/ (updated 2026-10-21), checked 2026-11-01",
    "lat": 37.57155,
    "lng": -77.435376,
-   "website": null,
+   "website": "https://fuzzycactusrva.com/",
+   "websiteSource": "OpenStreetMap node/9846828173 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 5p-12a; Fri-Sat 5p-2a; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Tue-Fri",
+     "text": "Happy Hour Tuesday – Friday 5pm – 7pm",
+     "tags": [],
+     "src": "Venue website fuzzycactusrva.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -243,13 +255,31 @@
      }
     ]
    },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "12/21/24 – DJ AREA WOMAN – FREE EVENT",
+      "url": "https://fuzzycactusrva.com/calendar/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "12/27/24 – DJ DIEHARD XMAS METAL EXTRAVAGANZA (YULE BE SORRY) 10PM – NO COVER",
+      "url": "https://fuzzycactusrva.com/calendar/"
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/richmond/fuzzy-cactus-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://fuzzycactusrva.com/"
    }
   },
   {
@@ -327,7 +357,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/mi-jalisco-family-mexican-restaurant-/ (updated 2026-10-17), checked 2026-11-01",
    "lat": 37.588704,
    "lng": -77.458127,
-   "website": null,
+   "website": "https://mi-jalisco.com/",
+   "websiteSource": "OpenStreetMap way/532536334 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -346,7 +377,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://mi-jalisco.com/"
    }
   },
   {
@@ -552,7 +583,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/the-smoky-mug-/ (updated 2026-10-17), checked 2026-11-01",
    "lat": 37.570447,
    "lng": -77.43288,
-   "website": null,
+   "website": "https://smokymug.com",
+   "websiteSource": "OpenStreetMap way/751144360 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 7a-12p; Tue-Thu 7a-9p; Fri 7a-10p; Sat 8a-10p; Sun 8a-2:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -569,7 +601,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://smokymug.com"
    }
   }
  ],

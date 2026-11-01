@@ -71,7 +71,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/pulaski/big-belly-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 37.062161,
    "lng": -80.760066,
-   "website": null,
+   "website": "https://www.bigbellymenu.com/",
+   "websiteSource": "OpenStreetMap node/7943413299 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -82,13 +83,35 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-29) (checked 2026-11-01)",
    "county": "Pulaski",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.bigbellymenu.com/",
+        "quote": "staurant is a mainstay of the community. Try them for yourself and see why they're such a local favorite. Pick up your pizza at Big Belly with curbside pickup. It makes picking up a meal easier",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/pulaski/big-belly-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.bigbellymenu.com/"
    }
   },
   {
@@ -312,7 +335,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/dublin/fazolis-/ (updated 2026-10-07), checked 2026-11-01",
    "lat": 37.075261,
    "lng": -80.693993,
-   "website": null,
+   "website": "https://fazolis.com/stores/va-dublin-4416-cleburne-blvd-24084/",
+   "websiteSource": "OpenStreetMap node/12207034425 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 10:30a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -351,7 +375,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://fazolis.com/stores/va-dublin-4416-cleburne-blvd-24084/"
    }
   },
   {
@@ -396,7 +420,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/pulaski/hardees-/ (updated 2026-10-16), checked 2026-11-01",
    "lat": 37.048408,
    "lng": -80.76093,
-   "website": null,
+   "website": "https://locations.hardees.com/va/pulaski/1032-main-street",
+   "websiteSource": "OpenStreetMap way/1420018079 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 5a-9p; Sun 6a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -413,7 +438,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://locations.hardees.com/va/pulaski/1032-main-street"
    }
   },
   {
@@ -456,7 +481,8 @@
    "zip": "24084",
    "phone": "(540) 674-4441",
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/dublin/veronas-pizzeria-and-italian-/ (updated 2026-09-29), checked 2026-11-01",
-   "website": null,
+   "website": "https://veronaspizzeriaitalian.netwaiter.com/dublin/about/",
+   "websiteSource": "OpenStreetMap node/12207007230 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11:30a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -476,7 +502,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://veronaspizzeriaitalian.netwaiter.com/dublin/about/"
    }
   }
  ],

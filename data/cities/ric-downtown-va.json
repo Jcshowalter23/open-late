@@ -16,7 +16,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/graffiato-richmond-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 37.546226,
    "lng": -77.443166,
-   "website": null,
+   "website": "https://barsolita.com/",
+   "websiteSource": "OpenStreetMap node/3331522187 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 5p-9p; Fri 5p-10p; Sat 11a-10p; Sun 10a-3p",
    "hoursNote": null,
    "kitchen": null,
@@ -35,7 +36,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://barsolita.com/"
    }
   },
   {
@@ -147,7 +148,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/casa-del-barco-at-canal-walk-/ (updated 2026-10-08), checked 2026-11-01",
    "lat": 37.534079,
    "lng": -77.436303,
-   "website": null,
+   "website": "https://casadelbarco.com",
+   "websiteSource": "OpenStreetMap node/2722696337 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -222,7 +224,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/chicanos-cocina-bar-and-grill-/ (updated 2026-10-12), checked 2026-11-01",
    "lat": 37.540176,
    "lng": -77.439706,
-   "website": null,
+   "website": "https://chicanoscocina.com/",
+   "websiteSource": "OpenStreetMap node/7687401622 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-11p; Sat 11:30a-11p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -241,7 +244,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://chicanoscocina.com/"
    }
   },
   {
@@ -298,7 +301,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/dcg-district-chicken-and-gyro-/ (updated 2026-09-09), checked 2026-11-01",
    "lat": 37.54692,
    "lng": -77.446459,
-   "website": null,
+   "website": "https://tastedcg.com/",
+   "websiteSource": "OpenStreetMap node/4255695814 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Wed 11a-12a; Thu 11a-1a; Fri-Sat 11a-4a; Sun 11a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -317,7 +321,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://tastedcg.com/"
    }
   },
   {
@@ -331,7 +335,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/fall-line-kitchen-and-bar-/ (updated 2026-09-28), checked 2026-11-01",
    "lat": 37.543018,
    "lng": -77.437294,
-   "website": null,
+   "website": "https://www.falllinerestaurant.com/",
+   "websiteSource": "OpenStreetMap node/3505593204 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 6:30a-10a,11a-3p,5p-10p; Fri 6:30a-10a,11a-3p,5p-11p; Sat 7a-1p,5p-11p; Sun 7a-1p,5p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -406,12 +411,22 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/godfreys-/ (updated 2026-10-09), checked 2026-11-01",
    "lat": 37.543136,
    "lng": -77.43991,
-   "website": null,
+   "website": "https://godfreysva.com/",
+   "websiteSource": "OpenStreetMap node/3505593223 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed 8p-2a; Thu closed; Fri 8p-2a; Sat 11a-4:30p,8p-2a; Sun 11a-4:30p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Doors open with happy hour @ 8pm",
+     "tags": [],
+     "src": "Venue website godfreysva.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -419,14 +434,15 @@
    "county": "Richmond City",
    "crowdType": {
     "labels": [
-     "LGBTQ-friendly"
+     "LGBTQ-friendly",
+     "Dance / club crowd"
     ],
-    "summary": "LGBTQ-friendly.",
-    "confidence": "medium",
+    "summary": "LGBTQ-friendly; a dancing / club crowd late.",
+    "confidence": "high",
     "details": [
      {
       "label": "LGBTQ-friendly",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence": [
        {
         "type": "reviews",
@@ -440,8 +456,51 @@
         "src": "Restaurantji review #2",
         "url": "https://www.restaurantji.com/va/richmond/godfreys-/",
         "quote": "Popped my drag brunch cherry and I must say 1000/10!!!"
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://godfreysva.com/",
+        "quote": "Godfreys – Home to Richmond's Famous Drag brunch | Skip to content | Godfreys — home | Menu | Drag Brunch Menu | Nightlife | Our Story | C",
+        "self": true
        }
       ]
+     },
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://godfreysva.com/",
+        "quote": "ll the restaurant | Brunch menu | Godfreys Nightlife | We are back with a newly renovated nightclub space to fulfill your nightlife desires! Nightly Drag Shows with DJs & Dancing. Our outdo",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Nightly Drag Shows with DJs & Dancing",
+      "url": "https://godfreysva.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Music with our Godfreys DJs @ 9pm | Showtime @ 11pm",
+      "url": "https://godfreysva.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Nightly Drag Shows with DJs & Dancing",
+      "url": "https://godfreysva.com/nightlife/"
      }
     ]
    },
@@ -451,7 +510,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://godfreysva.com/"
    }
   },
   {
@@ -465,7 +524,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/gwarbar-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 37.5488,
    "lng": -77.443,
-   "website": null,
+   "website": "https://gwarbar.com/",
+   "websiteSource": "OpenStreetMap node/7062239112 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 4p-2a",
    "hoursNote": null,
    "kitchen": null,
@@ -498,12 +558,37 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/henley-on-grace-/ (updated 2026-09-29), checked 2026-11-01",
    "lat": 37.543107,
    "lng": -77.439861,
-   "website": null,
+   "website": "https://henleyongrace.com/",
+   "websiteSource": "OpenStreetMap node/10178419142 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 4p-9p; Fri 5p-10p; Sat-Sun 10:30a-2p,5p-10p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Tue-Thu",
+     "text": "Happy Hour 4-7PM Tues-Thurs",
+     "tags": [],
+     "src": "Venue website henleyongrace.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Tue-Thu",
+     "text": "Happy Hour Tuesday through Thursday with $7 apps and drink specials at lounge and bar only",
+     "tags": [],
+     "src": "Venue website henleyongrace.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "See venue",
+     "text": "Happy Hour 4:00pm to 7:00pm in bar and lounge only – no reservations accepted for Happy Hour",
+     "tags": [],
+     "src": "Venue website henleyongrace.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -511,9 +596,10 @@
    "county": "Richmond City",
    "crowdType": {
     "labels": [
-     "After-work crowd"
+     "After-work crowd",
+     "LGBTQ-friendly"
     ],
-    "summary": "An after-work / happy-hour crowd.",
+    "summary": "An after-work / happy-hour crowd; LGBTQ-friendly.",
     "confidence": "medium",
     "details": [
      {
@@ -528,6 +614,19 @@
         "agg": true
        }
       ]
+     },
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://henleyongrace.com/",
+        "quote": "o henley on grace. | Cal/Asian with a Richmond twist! WELCOMING, FUN, CASUAL, CONNECTING, LGBTQIA+ FRIENDLY on all levels! | Interested in purchasing a Gift Card? Please stop by the res",
+        "self": true
+       }
+      ]
      }
     ]
    },
@@ -537,7 +636,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://henleyongrace.com/"
    }
   },
   {
@@ -551,7 +650,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/irie-ting-jamaican-grill-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 37.541665,
    "lng": -77.444209,
-   "website": null,
+   "website": "https://irieting.com/",
+   "websiteSource": "OpenStreetMap node/7251394689 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 9a-9p; Fri 9a-10p; Sat 10a-10p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -570,7 +670,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://irieting.com/"
    }
   },
   {
@@ -584,12 +684,22 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/ironclad-pizza-grill-/ (updated 2026-10-08), checked 2026-11-01",
    "lat": 37.525697,
    "lng": -77.445256,
-   "website": null,
+   "website": "https://ironcladrva.com/",
+   "websiteSource": "OpenStreetMap node/12326817853 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 4p-12a; Tue-Fri 11a-12a; Sat-Sun 12p-12a",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Join us daily for happy hour specials from 3:00 to 7:00 pm",
+     "tags": [],
+     "src": "Venue website ironcladrva.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -603,11 +713,11 @@
      "Families"
     ],
     "summary": "Popular for watching games; family-friendly.",
-    "confidence": "medium",
+    "confidence": "high",
     "details": [
      {
       "label": "Sports fans",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence": [
        {
         "type": "reviews",
@@ -621,6 +731,13 @@
         "src": "Restaurantji review #1",
         "url": "https://www.restaurantji.com/va/richmond/ironclad-pizza-grill-/",
         "quote": "I love Ironclad Sports Bar and Grill"
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://ironcladrva.com/",
+        "quote": "Ironclad Sports Bar & Grill | The best pizza in RVA | 924 McDonough St. Richmond, VA 23224 | (804) 233-2400",
+        "self": true
        }
       ]
      },
@@ -645,7 +762,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://ironcladrva.com/"
    }
   },
   {
@@ -659,7 +776,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/jamaica-house-restaurant-/ (updated 2026-09-27), checked 2026-11-01",
    "lat": 37.54793,
    "lng": -77.445525,
-   "website": null,
+   "website": "https://jamaicahouserva.com/",
+   "websiteSource": "OpenStreetMap node/10964166975 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-9p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -676,7 +794,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://jamaicahouserva.com/"
    }
   },
   {
@@ -690,7 +808,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/juans-rooftop-and-cantina-/ (updated 2026-10-11), checked 2026-11-01",
    "lat": 37.545624,
    "lng": -77.442161,
-   "website": null,
+   "website": "https://www.juanscafeandcantina.com/rooftop",
+   "websiteSource": "OpenStreetMap node/12215089284 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 5p-10p; Fri 5p-2a; Sat 3p-2a; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -703,13 +822,26 @@
    ],
    "source": "hours from Restaurantji listing (updated 2026-10-11) (checked 2026-11-01)",
    "county": "Richmond City",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Juan’s Karaoke T",
+      "url": "https://juanscafeandcantina.com/rooftop/"
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/richmond/juans-rooftop-and-cantina-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.juanscafeandcantina.com/rooftop"
    }
   },
   {
@@ -754,7 +886,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/j-kogi-/ (updated 2026-10-14), checked 2026-11-01",
    "lat": 37.544757,
    "lng": -77.439877,
-   "website": null,
+   "website": "https://kogirva.com/",
+   "websiteSource": "OpenStreetMap node/10552813157 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 4p-9p; Fri-Sat 12p-10:30p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -771,7 +904,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://kogirva.com/"
    }
   },
   {
@@ -785,7 +918,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/lopossum-/ (updated 2026-10-08), checked 2026-11-01",
    "lat": 37.537875,
    "lng": -77.449792,
-   "website": null,
+   "website": "https://www.lopossum.com/",
+   "websiteSource": "OpenStreetMap node/9008218001 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Sat 5p-9:30p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -824,7 +958,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.lopossum.com/"
    }
   },
   {
@@ -902,7 +1036,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/lillie-pearl-/ (updated 2026-10-06), checked 2026-11-01",
    "lat": 37.546574,
    "lng": -77.442613,
-   "website": null,
+   "website": "https://www.lilliepearlrva.com/",
+   "websiteSource": "OpenStreetMap node/3329638707 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-11p; Sat 10a-11p; Sun 10a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -919,7 +1054,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.lilliepearlrva.com/"
    }
   },
   {
@@ -933,7 +1068,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/jamaican-cafe-on-wheels-/ (updated 2026-09-02), checked 2026-11-01",
    "lat": 37.524034,
    "lng": -77.449896,
-   "website": null,
+   "website": "https://mfjamaicancafe.com/",
+   "websiteSource": "OpenStreetMap node/10879860606 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11a-9p; Tue closed; Wed-Sat 11a-9p; Sun 12p-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -966,7 +1102,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/mama-js-kitchen-/ (updated 2026-07-22), checked 2026-11-01",
    "lat": 37.5465,
    "lng": -77.4396,
-   "website": null,
+   "website": "https://mamajskitchen.com",
+   "websiteSource": "OpenStreetMap node/4255750947 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -983,7 +1120,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://mamajskitchen.com"
    }
   },
   {
@@ -1027,7 +1164,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/ml-steak-modern-chophouse-/ (updated 2026-10-09), checked 2026-11-01",
    "lat": 37.543954,
    "lng": -77.438868,
-   "website": null,
+   "website": "https://www.mlsteakrva.com/downtown",
+   "websiteSource": "OpenStreetMap node/10552813207 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Sat 4p-10p; Sun 4p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1045,11 +1183,11 @@
      "Date night / upscale"
     ],
     "summary": "A date-night / upscale spot.",
-    "confidence": "medium",
+    "confidence": "high",
     "details": [
      {
       "label": "Date night / upscale",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence": [
        {
         "type": "reviews",
@@ -1057,6 +1195,13 @@
         "url": "https://www.restaurantji.com/va/richmond/ml-steak-modern-chophouse-/",
         "quote": "ison and boar meat, is a culinary masterpiece. The restaurant's ambiance is perfect for a romantic evening out and is also relaxed. The food is consistently praised as amazing and absolute",
         "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.mlsteakrva.com/downtown",
+        "quote": "itality in a fun atmosphere. | We highly recommend making a reservation! | RESERVATIONS | UPSCALE FARE | MEETS FUN | PRIVATE EVENTS | LOOKING FOR A PRIVATE EVENT SPACE.....WE HAVE OPTIONS",
+        "self": true
        }
       ]
      }
@@ -1068,7 +1213,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.mlsteakrva.com/downtown"
    }
   },
   {
@@ -1082,7 +1227,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/moms-siam-2-restaurant-/ (updated 2026-10-10), checked 2026-11-01",
    "lat": 37.535126,
    "lng": -77.433565,
-   "website": null,
+   "website": "https://momsiam2.com",
+   "websiteSource": "OpenStreetMap node/4261144443 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-10p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -1099,7 +1245,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://momsiam2.com"
    }
   },
   {
@@ -1144,7 +1290,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/native-plate-/ (updated 2026-09-24), checked 2026-11-01",
    "lat": 37.536639,
    "lng": -77.433758,
-   "website": null,
+   "website": "https://nativeplaterva.com/",
+   "websiteSource": "OpenStreetMap node/846282060 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-10p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -1161,7 +1308,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://nativeplaterva.com/"
    }
   },
   {
@@ -1175,7 +1322,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/penny-lane-pub-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 37.541584,
    "lng": -77.439805,
-   "website": null,
+   "website": "https://www.pennylanepub.com/",
+   "websiteSource": "OpenStreetMap node/3281551599 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Wed 3p-12a; Thu-Fri 3p-2a; Sat 10a-2a; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1226,12 +1374,18 @@
    },
    "karaoke": {
     "nights": [],
+    "stale": [],
     "hints": [
      "Google attribute 'karaoke' (via Restaurantji)"
     ],
-    "stale": false,
-    "oneoffs": [],
-    "conflicts": []
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke - 10pm | Thursday",
+      "url": "https://www.pennylanepub.com/events"
+     }
+    ]
    },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
@@ -1239,7 +1393,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.pennylanepub.com/"
    }
   },
   {
@@ -1253,7 +1407,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/rappahannock-restaurant-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 37.543078,
    "lng": -77.439813,
-   "website": null,
+   "website": "https://www.rroysters.com/",
+   "websiteSource": "OpenStreetMap node/3505576836 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 4p-10p; Fri-Sat 4p-11p; Sun 4p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1292,7 +1447,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.rroysters.com/"
    }
   },
   {
@@ -1306,7 +1461,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/restaurant-adarra-/ (updated 2026-10-12), checked 2026-11-01",
    "lat": 37.539087,
    "lng": -77.450389,
-   "website": null,
+   "website": "https://restaurantadarra.com/",
+   "websiteSource": "OpenStreetMap node/3751094142 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 5p-10p; Tue-Wed closed; Thu-Sun 5p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1337,7 +1493,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/richmond-shawarma-and-falafel-/ (updated 2026-09-10), checked 2026-11-01",
    "lat": 37.539908,
    "lng": -77.439013,
-   "website": null,
+   "website": "https://www.richmondshawarma.com/",
+   "websiteSource": "OpenStreetMap node/11428069611 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-12a; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1354,7 +1511,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.richmondshawarma.com/"
    }
   },
   {
@@ -1368,7 +1525,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/rosie-connollys-pub-restaurant-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 37.533916,
    "lng": -77.429172,
-   "website": null,
+   "website": "https://www.rosieconnollys.com/",
+   "websiteSource": "OpenStreetMap node/2179565181 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 4p-11p; Fri 4p-12:30a; Sat 4p-12a; Sun 11a-4p",
    "hoursNote": null,
    "kitchen": null,
@@ -1409,7 +1567,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.rosieconnollys.com/"
    }
   },
   {
@@ -1485,7 +1643,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/secret-sandwich-society-/ (updated 2026-10-30), checked 2026-11-01",
    "lat": 37.542001,
    "lng": -77.438257,
-   "website": null,
+   "website": "https://www.secretsandwichsociety.com/",
+   "websiteSource": "OpenStreetMap node/7687401599 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-8p; Fri-Sat 11a-9p; Sun 11a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -1502,7 +1661,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.secretsandwichsociety.com/"
    }
   },
   {
@@ -1516,7 +1675,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/southern-railway-taphouse-/ (updated 2026-08-06), checked 2026-11-01",
    "lat": 37.5339,
    "lng": -77.4327,
-   "website": null,
+   "website": "https://srtaphouse.com/",
+   "websiteSource": "OpenStreetMap node/4261299593 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue 11:30a-9p; Wed 11:30a-10p; Thu 11:30a-12a; Fri-Sat 11:30a-2a; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1535,7 +1695,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://srtaphouse.com/"
    }
   },
   {
@@ -1549,7 +1709,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/sweet-p-s-rva-/ (updated 2026-09-09), checked 2026-11-01",
    "lat": 37.547362,
    "lng": -77.444584,
-   "website": null,
+   "website": "https://sweetpsrva.com/",
+   "websiteSource": "OpenStreetMap node/4255695807 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Wed closed; Thu 11a-10p; Fri 11a-11p; Sat 10a-11p; Sun 10a-3p",
    "hoursNote": null,
    "kitchen": null,
@@ -1566,7 +1727,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://sweetpsrva.com/"
    }
   },
   {
@@ -1580,7 +1741,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/tarrants-cafe-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 37.545575,
    "lng": -77.442078,
-   "website": null,
+   "website": "https://www.tarrantsdowntown.com/",
+   "websiteSource": "OpenStreetMap node/3331524807 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11a-10p; Sat 10a-10p; Sun 10a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1593,14 +1755,15 @@
    "county": "Richmond City",
    "crowdType": {
     "labels": [
-     "Locals & regulars"
+     "Locals & regulars",
+     "Date night / upscale"
     ],
-    "summary": "A locals-and-regulars spot.",
-    "confidence": "medium",
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "high",
     "details": [
      {
       "label": "Locals & regulars",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence": [
        {
         "type": "reviews",
@@ -1608,6 +1771,26 @@
         "url": "https://www.restaurantji.com/va/richmond/tarrants-cafe-/",
         "quote": "des non-breakfast options. Overall, Tarrant's Cafe Downtown is a popular choice for both locals and visitors, known for delicious food and a welcoming environment. The restaurant has re",
         "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.tarrantsdowntown.com/",
+        "quote": "experience a weekend night out in the historic district of Richmond, we provide the cozy hometown feel with an upscale take that is perfect for any occasion. We’re especially happy to serve yo",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.tarrantsdowntown.com/",
+        "quote": "From Tarrant’s Cafe to Tarrant’s Downtown | Long known as Tarrant’s, our modern café and upscale diner has been a part of Richmond, VA’s historic district for more than 13 years. As we e",
+        "self": true
        }
       ]
      }
@@ -1619,7 +1802,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.tarrantsdowntown.com/"
    }
   },
   {
@@ -1664,12 +1847,22 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/the-continental-manchester-/ (updated 2026-09-28), checked 2026-11-01",
    "lat": 37.523963,
    "lng": -77.439457,
-   "website": null,
+   "website": "https://thecontinentalrva.com/",
+   "websiteSource": "OpenStreetMap node/11476485775 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11a-10p; Sat 10a-10p; Sun 10a-3p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour 2-6pm M-F",
+     "tags": [],
+     "src": "Venue website thecontinentalrva.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -1703,7 +1896,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://thecontinentalrva.com/"
    }
   },
   {
@@ -1717,7 +1910,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/the-hard-shell-downtown-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 37.534354,
    "lng": -77.432299,
-   "website": null,
+   "website": "https://thehardshell.com/",
+   "websiteSource": "OpenStreetMap way/225361978 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-9:30p; Fri-Sat 11:30a-10p; Sun 10:30a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1734,7 +1928,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://thehardshell.com/"
    }
   },
   {
@@ -1814,7 +2008,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/the-patio-thai-restaurant-/ (updated 2026-09-28), checked 2026-11-01",
    "lat": 37.541564,
    "lng": -77.44428,
-   "website": null,
+   "website": "https://www.patiothairva.com/",
+   "websiteSource": "OpenStreetMap node/7251394688 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-3p,4:30p-9p; Fri 11a-3p,4:30p-10p; Sat 12p-10p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1853,7 +2048,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.patiothairva.com/"
    }
   },
   {
@@ -1867,7 +2062,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/the-tobacco-company-restaurant-/ (updated 2026-09-24), checked 2026-11-01",
    "lat": 37.5356,
    "lng": -77.4346,
-   "website": null,
+   "website": "https://www.thetobaccocompany.com/",
+   "websiteSource": "OpenStreetMap node/846282118 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 4p-9:30p; Fri-Sat 4p-10p; Sun 4p-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -1906,7 +2102,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.thetobaccocompany.com/"
    }
   },
   {

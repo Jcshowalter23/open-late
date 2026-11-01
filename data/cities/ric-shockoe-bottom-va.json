@@ -71,7 +71,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/alewife-/ (updated 2026-10-12), checked 2026-11-01",
    "lat": 37.529106,
    "lng": -77.412287,
-   "website": null,
+   "website": "https://www.alewiferva.com/",
+   "websiteSource": "OpenStreetMap way/751153545 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 5p-9:30p; Sun 10:30a-1:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -110,7 +111,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.alewiferva.com/"
    }
   },
   {
@@ -155,7 +156,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/cobra-burger-/ (updated 2026-10-09), checked 2026-11-01",
    "lat": 37.531478,
    "lng": -77.416174,
-   "website": null,
+   "website": "https://www.cobraburger.com/",
+   "websiteSource": "OpenStreetMap node/12387079201 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 5p-10p; Fri-Sat 5p-11p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -172,7 +174,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.cobraburger.com/"
    }
   },
   {
@@ -186,7 +188,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/dailymenu-/ (updated 2026-10-05), checked 2026-11-01",
    "lat": 37.532918,
    "lng": -77.42754,
-   "website": null,
+   "website": "https://www.dailymenurva.com/",
+   "websiteSource": "OpenStreetMap node/10032169927 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Fri 4p-12a; Sat 12p-12a; Sun 12p-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -225,7 +228,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.dailymenurva.com/"
    }
   },
   {
@@ -239,7 +242,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/frontier-by-alamo-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 37.53268,
    "lng": -77.417898,
-   "website": null,
+   "website": "https://www.frontierbyalamo.com",
+   "websiteSource": "OpenStreetMap way/746447635 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed 11:30a-9p; Thu-Sat 11:30a-10p; Sun 11:30a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -256,7 +260,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.frontierbyalamo.com"
    }
   },
   {
@@ -270,7 +274,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/grisette-/ (updated 2026-10-19), checked 2026-11-01",
    "lat": 37.529025,
    "lng": -77.412391,
-   "website": null,
+   "website": "https://grisetterva.com/",
+   "websiteSource": "OpenStreetMap way/751153278 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 5p-10p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -281,13 +286,49 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-19) (checked 2026-11-01)",
    "county": "Richmond City",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://grisetterva.com/",
+        "quote": "om 5:00 till close. Friday & Saturday nights at Grisette are high-energy and fun, but our regulars know, week nights are truly special. | Menu | View menu | Great atmosphere, wonderful win",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://grisetterva.com/",
+        "quote": "g hours: | Mon – Sat: 5:00 pm – 10:00 pm | Site built by | Fresh | Move | Media | Laurent Fine dining, | 107 Duncan Avenue, New York | 914-309-7030, | Open: 09:00 am – 01:00 pm",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/richmond/grisette-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://grisetterva.com/"
    }
   },
   {
@@ -301,7 +342,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/island-shrimp-co-rocketts-landing-/ (updated 2026-10-06), checked 2026-11-01",
    "lat": 37.517681,
    "lng": -77.415627,
-   "website": null,
+   "website": "https://www.conchrepublicrocketts.com",
+   "websiteSource": "OpenStreetMap way/365160216 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -363,7 +405,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/kahlos-taqueria-and-bar-/ (updated 2026-10-30), checked 2026-11-01",
    "lat": 37.536361,
    "lng": -77.417256,
-   "website": null,
+   "website": "https://kahlostaqueriabar.com/",
+   "websiteSource": "OpenStreetMap node/12150785601 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Fri 11:30a-10p; Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -404,7 +447,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://kahlostaqueriabar.com/"
    }
   },
   {
@@ -418,7 +461,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/liberty-public-house-/ (updated 2026-10-15), checked 2026-11-01",
    "lat": 37.532727,
    "lng": -77.417853,
-   "website": null,
+   "website": "https://www.lphrva.com",
+   "websiteSource": "OpenStreetMap node/13061993166 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11:30a-10p; Tue closed; Wed-Fri 11:30a-10p; Sat-Sun 10a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -433,9 +477,10 @@
    "county": "Richmond City",
    "crowdType": {
     "labels": [
-     "Locals & regulars"
+     "Locals & regulars",
+     "LGBTQ-friendly"
     ],
-    "summary": "A locals-and-regulars spot.",
+    "summary": "A locals-and-regulars spot; LGBTQ-friendly.",
     "confidence": "medium",
     "details": [
      {
@@ -450,6 +495,19 @@
         "agg": true
        }
       ]
+     },
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.lphrva.com",
+        "quote": "t to Know Us | We are first and foremost a safe space! LPH has become synonymous with the LGBTQIA community for a welcome space for EVERYONE! | We are overjoyed to have your family (in",
+        "self": true
+       }
+      ]
      }
     ]
    },
@@ -459,7 +517,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.lphrva.com"
    }
   },
   {
@@ -513,7 +571,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/metzger-bar-and-butchery-/ (updated 2026-10-13), checked 2026-11-01",
    "lat": 37.537091,
    "lng": -77.416364,
-   "website": null,
+   "website": "http://www.metzgerbarandbutchery.com/",
+   "websiteSource": "OpenStreetMap node/3085004798 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Sat 5p-9p; Sun 11a-2p",
    "hoursNote": null,
    "kitchen": null,
@@ -546,7 +605,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/miyabi-sushi-/ (updated 2026-08-25), checked 2026-11-01",
    "lat": 37.533393,
    "lng": -77.428316,
-   "website": null,
+   "website": "https://www.newmiyabisushi.com/",
+   "websiteSource": "OpenStreetMap node/12148059002 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue 11a-9:45p; Wed closed; Thu 11a-9:45p; Fri-Sat 11a-10:45p; Sun 12p-9:45p",
    "hoursNote": null,
    "kitchen": null,
@@ -577,7 +637,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/oak-and-apple-/ (updated 2026-10-17), checked 2026-11-01",
    "lat": 37.532849,
    "lng": -77.427426,
-   "website": null,
+   "website": "https://www.oakandapplerichmond.com/",
+   "websiteSource": "OpenStreetMap node/10553295268 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -596,7 +657,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.oakandapplerichmond.com/"
    }
   },
   {
@@ -610,11 +671,12 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/patrick-henrys-pub-and-grille-/ (updated 2026-10-08), checked 2026-11-01",
    "lat": 37.532751,
    "lng": -77.420503,
-   "website": null,
+   "website": "https://www.thephpub.com/",
+   "websiteSource": "OpenStreetMap node/6298178669 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 4p-2a",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 1:30 am per Venue website thephpub.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -679,7 +741,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.thephpub.com/"
    }
   },
   {
@@ -748,7 +810,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/sauce-and-toss-/ (updated 2026-09-10), checked 2026-11-01",
    "lat": 37.534184,
    "lng": -77.4276,
-   "website": null,
+   "website": "https://www.sauceandtossrva.com/",
+   "websiteSource": "OpenStreetMap node/12220713073 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11:30a-10p; Sun 3p-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -787,7 +850,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.sauceandtossrva.com/"
    }
   },
   {
@@ -911,7 +974,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/station-2-/ (updated 2026-10-13), checked 2026-11-01",
    "lat": 37.531732,
    "lng": -77.425597,
-   "website": null,
+   "website": "https://station2richmond.com/",
+   "websiteSource": "OpenStreetMap node/12155602401 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -950,7 +1014,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://station2richmond.com/"
    }
   },
   {
@@ -964,7 +1028,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/sumo-san-restaurant-/ (updated 2026-10-11), checked 2026-11-01",
    "lat": 37.533245,
    "lng": -77.428312,
-   "website": null,
+   "website": "http://www.sumosanrva.com",
+   "websiteSource": "OpenStreetMap way/207696522 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Sun 5p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1031,7 +1096,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/the-boathouse-at-rocketts-landing-/ (updated 2026-10-08), checked 2026-11-01",
    "lat": 37.518208,
    "lng": -77.415853,
-   "website": null,
+   "website": "http://www.boathouserva.com/locations/rocketts-landing/#/overview",
+   "websiteSource": "OpenStreetMap way/365163763 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 4p-9p; Fri-Sat 11a-10p; Sun 10a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1084,7 +1150,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/the-roosevelt-/ (updated 2026-10-12), checked 2026-11-01",
    "lat": 37.53443,
    "lng": -77.416042,
-   "website": null,
+   "website": "https://rooseveltrva.com/",
+   "websiteSource": "OpenStreetMap node/7042078766 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 5p-10p; Sun 5p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1101,7 +1168,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://rooseveltrva.com/"
    }
   },
   {

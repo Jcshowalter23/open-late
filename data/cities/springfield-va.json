@@ -100,7 +100,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/springfield/9-pad-thai-/ (updated 2026-07-03), checked 2026-11-01",
    "lat": 38.782468,
    "lng": -77.18689,
-   "website": null,
+   "website": "https://www.9padthaiva.com/",
+   "websiteSource": "OpenStreetMap node/2296566380 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -117,7 +118,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.9padthaiva.com/"
    }
   },
   {
@@ -328,7 +329,8 @@
    "zip": "22150",
    "phone": "(703) 854-1401",
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/springfield/bob-and-ediths-diner-/ (updated 2026-10-29), checked 2026-11-01",
-   "website": null,
+   "website": "https://bobandedithsdiner.com/",
+   "websiteSource": "OpenStreetMap node/7737725365 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 12a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -422,13 +424,34 @@
    "phone": null,
    "lat": 38.6984,
    "lng": -77.2558,
-   "website": null,
+   "website": "https://bunnymanbrewing.com/",
+   "websiteSource": "OpenStreetMap way/341664159 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 9a-9p; Fri-Sat 9a-10p; Sun 9a-8p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "MONDAY–FRIDAY: Happy Hour from 2–5 PM",
+     "tags": [],
+     "src": "Venue website bunnymanbrewing.com/events",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Snag $5 pretzels, $5 regular tots, $7 specialty tots, and $1 wings",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website bunnymanbrewing.com/events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -441,7 +464,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://bunnymanbrewing.com/"
    }
   },
   {
@@ -455,13 +478,22 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/burtons-grill-and-bar-of-alexandria-/ (updated 2026-09-19), checked 2026-11-01",
    "lat": 38.742249,
    "lng": -77.162989,
-   "website": null,
+   "website": "https://burtonsgrill.com/location/alexandria/",
+   "websiteSource": "OpenStreetMap node/7729144495 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-11p; Sat 10:30a-11p; Sun 10:30a-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Join us for half-priced wine bottles every Wednesday at select locations",
+     "tags": [],
+     "src": "Venue website burtonsgrill.com/locations/va/alexandria",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -474,7 +506,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://burtonsgrill.com/location/alexandria/"
    }
   },
   {
@@ -543,7 +575,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/lorton/casa-tequila-bar-and-grill-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.713245,
    "lng": -77.214481,
-   "website": null,
+   "website": "https://www.casatequilarestaurant.com/",
+   "websiteSource": "OpenStreetMap node/2697922195 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -556,13 +589,35 @@
    ],
    "source": "hours from Restaurantji listing (updated 2026-10-29) (checked 2026-11-01)",
    "county": "Fairfax",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://casatequilarestaurant.com/",
+        "quote": "uickly and our food arrived quickly as well. All in all an excellent experience, and very family friendly. | Review by - Google | five star review by | David R: | Hands down the BEST Lomo Saltado",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/lorton/casa-tequila-bar-and-grill-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.casatequilarestaurant.com/"
    }
   },
   {
@@ -609,7 +664,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/chef-huangs-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 38.723208,
    "lng": -77.120143,
-   "website": null,
+   "website": "http://www.chefhuang.com/",
+   "websiteSource": "OpenStreetMap way/313962104 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11a-9:30p; Tue closed; Wed-Thu 11a-9:30p; Fri-Sat 11a-10p; Sun 11a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -878,7 +934,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/springfield/elenis-greek-taverna-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 38.783034,
    "lng": -77.185538,
-   "website": null,
+   "website": "https://www.elenisgreektaverna.com",
+   "websiteSource": "OpenStreetMap way/220418180 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri 11a-10p; Sat 7a-10p; Sun 7a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1220,7 +1277,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/house-of-dynasty-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 38.753281,
    "lng": -77.138747,
-   "website": null,
+   "website": "https://www.houseofdynasty.com/",
+   "websiteSource": "OpenStreetMap node/7728981222 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9:30p; Fri-Sat 11a-10p; Sun 11a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -1401,7 +1459,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/johnnys-new-york-style-pizzeria-and-restaurant-2/ (updated 2026-10-31), checked 2026-11-01",
    "lat": 38.763869,
    "lng": -77.150661,
-   "website": null,
+   "website": "https://johnnysnewyorkstylepizzeria.com/",
+   "websiteSource": "OpenStreetMap node/13950807401 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 10a-10p; Fri-Sat 10a-11p; Sun 10a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1609,12 +1668,22 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/la-fiamma-italian-kitchen-/ (updated 2026-09-05), checked 2026-11-01",
    "lat": 38.781704,
    "lng": -77.148482,
-   "website": null,
+   "website": "https://lafiammaitalian.com/",
+   "websiteSource": "OpenStreetMap way/223487668 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-9p; Fri-Sat 11:30a-10p; Sun 10a-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy hour is offered Monday to Friday 4pm – 7pm",
+     "tags": [],
+     "src": "Venue website lafiammaitalian.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1664,7 +1733,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://lafiammaitalian.com/"
    }
   },
   {
@@ -1678,7 +1747,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/las-carnitas-restaurant-alexandria-va-/ (updated 2026-10-08), checked 2026-11-01",
    "lat": 38.7339,
    "lng": -77.099089,
-   "website": null,
+   "website": "https://lascarnitasrestaurant.com/",
+   "websiteSource": "OpenStreetMap node/8404785858 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 9a-12a; Fri 9a-2a; Sat 9a-12a; Sun 9a-2a",
    "hoursNote": null,
    "kitchen": null,
@@ -1731,7 +1801,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/lorton/lasani-kabob-restaurant-/ (updated 2026-08-03), checked 2026-11-01",
    "lat": 38.712782,
    "lng": -77.213626,
-   "website": null,
+   "website": "https://www.ritual.co/order/lasani-kabob-restaurant-8998-lorton-station-blvd-lorton-va-22079-usa-lorton/ef5a",
+   "websiteSource": "OpenStreetMap node/5332012877 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9:30p; Fri-Sat 11a-10:30p; Sun 11a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -1748,7 +1819,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.ritual.co/order/lasani-kabob-restaurant-8998-lorton-station-blvd-lorton-va-22079-usa-lorton/ef5a"
    }
   },
   {
@@ -1846,7 +1917,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/mana-pupuseria-and-taqueria-/ (updated 2026-10-08), checked 2026-11-01",
    "lat": 38.736225,
    "lng": -77.094805,
-   "website": null,
+   "website": "https://manapupuseriataqueria.com/",
+   "websiteSource": "OpenStreetMap way/708034269 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Wed 8a-12a; Thu-Sun 8a-2a",
    "hoursNote": null,
    "kitchen": null,
@@ -1863,7 +1935,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://manapupuseriataqueria.com/"
    }
   },
   {
@@ -1930,7 +2002,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/springfield/mikes-american-/ (updated 2026-09-21), checked 2026-11-01",
    "lat": 38.7828,
    "lng": -77.1862,
-   "website": null,
+   "website": "https://mikesamerican.com",
+   "websiteSource": "OpenStreetMap way/224017568 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11a-10:30p; Tue-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-10:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -1947,7 +2020,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://mikesamerican.com"
    }
   },
   {
@@ -1961,7 +2034,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/moby-dick-house-of-kabob-/ (updated 2026-09-22), checked 2026-11-01",
    "lat": 38.772078,
    "lng": -77.13556,
-   "website": null,
+   "website": "https://www.mobyskabob.com/",
+   "websiteSource": "OpenStreetMap node/7734401994 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1972,13 +2046,35 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-09-22) (checked 2026-11-01)",
    "county": "Fairfax",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.mobyskabob.com/",
+        "quote": "ng a prime expansion hub for popular D.C. restaurants, with new openings catering to both locals and commuters. These spots are attracting new residents who prefer staying close to home",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/alexandria/moby-dick-house-of-kabob-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.mobyskabob.com/"
    }
   },
   {
@@ -2285,7 +2381,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/lorton/pho-chateau-/ (updated 2026-08-03), checked 2026-11-01",
    "lat": 38.7051,
    "lng": -77.2078,
-   "website": null,
+   "website": "https://www.pho-chateau.com/",
+   "websiteSource": "OpenStreetMap node/5329915475 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -2302,7 +2399,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.pho-chateau.com/"
    }
   },
   {
@@ -2566,7 +2663,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/shahs-halal-food-alexandria-/ (updated 2026-10-14), checked 2026-11-01",
    "lat": 38.733811,
    "lng": -77.099256,
-   "website": null,
+   "website": "https://www.shahshalalfood.com/shahs-halal-alexandria-va/",
+   "websiteSource": "OpenStreetMap node/8404809373 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 10a-1a; Fri-Sat 10a-3a; Sun 10a-1a",
    "hoursNote": null,
    "kitchen": null,
@@ -2605,7 +2703,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.shahshalalfood.com/shahs-halal-alexandria-va/"
    }
   },
   {
@@ -2683,7 +2781,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/smyrna-restaurant-/ (updated 2026-10-14), checked 2026-11-01",
    "lat": 38.752267,
    "lng": -77.139573,
-   "website": null,
+   "website": "https://restaurantsmyrna.com/",
+   "websiteSource": "OpenStreetMap node/10879034672 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-9:30p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -2722,7 +2821,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://restaurantsmyrna.com/"
    }
   },
   {
@@ -2822,7 +2921,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/springfield/super-chicken-springfield-/ (updated 2026-08-15), checked 2026-11-01",
    "lat": 38.778011,
    "lng": -77.175334,
-   "website": null,
+   "website": "https://superchickenspringfield.com/",
+   "websiteSource": "OpenStreetMap node/2012715935 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 10:30a-10p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -3034,7 +3134,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/lorton/taste-of-beijing-restaurant-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 38.703708,
    "lng": -77.2095,
-   "website": null,
+   "website": "http://www.tasteofbeijingva.com",
+   "websiteSource": "OpenStreetMap node/5329915472 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 11a-9:30p; Fri-Sat 11a-10p; Sun 11a-9:30p",
    "hoursNote": null,
    "kitchen": null,

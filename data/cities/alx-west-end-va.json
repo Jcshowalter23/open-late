@@ -71,7 +71,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/beeliner-diner-/ (updated 2026-10-27), checked 2026-11-01",
    "lat": 38.829201,
    "lng": -77.090921,
-   "website": null,
+   "website": "https://www.beelinerdiner.com/",
+   "websiteSource": "OpenStreetMap node/9732729794 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Wed 7a-9p; Thu-Sat 7a-10p; Sun 7a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -112,7 +113,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.beelinerdiner.com/"
    }
   },
   {
@@ -185,13 +186,29 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/fat-city-kitchen-/ (updated 2026-10-21), checked 2026-11-01",
    "lat": 38.808654,
    "lng": -77.124872,
-   "website": null,
+   "website": "https://www.fatcitykitchen.com/",
+   "websiteSource": "OpenStreetMap node/5414988167 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "Monday Kids Eat FREE",
+     "tags": [],
+     "src": "Venue website fatcitykitchen.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "Our entire list of wine is half price every Wednesday 5-close",
+     "tags": [],
+     "src": "Venue website fatcitykitchen.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-21) (checked 2026-11-01)",
@@ -224,7 +241,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.fatcitykitchen.com/"
    }
   },
   {
@@ -238,24 +255,88 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/clydes-at-mark-center-/ (updated 2026-09-15), checked 2026-11-01",
    "lat": 38.832859,
    "lng": -77.12322,
-   "website": null,
+   "website": "https://clydes.com/location/clydes-mark-center/",
+   "websiteSource": "OpenStreetMap node/2050423870 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-12a; Fri-Sat 11a-1a; Sun 11a-12a",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "kitchenNote": "Kitchen open until 11 pm per Venue website clydes.com/location/clydes-mark-center, checked 2026-11-01; days not stated.",
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "$5 off conservas & $10 off caviar during oyster happy hour",
+     "tags": [],
+     "src": "Venue website clydes.com/location/clydes-georgetown",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "11 pm - Close $3 Off Seasonal Cocktails $5 Hard Seltzers $6 Draft Beer $9 House Wine",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website clydes.com/location/clydes-gallery-place",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "$2 off Draft Beers",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website clydes.com/location/clydes-tower-oaks-lodge",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-09-15) (checked 2026-11-01)",
    "county": "Alexandria City",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "9 pm - 11:30 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.clydes.com/location/clydes-willow-creek-farm/",
+        "date": "2026-11-01",
+        "quote": "Karaoke | Thursdays: 9 pm - 11:30 pm | Thursdays: 9 pm - 11:30 pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke",
+      "url": "https://www.clydes.com/location/clydes-willow-creek-farm/"
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/alexandria/clydes-at-mark-center-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://clydes.com/location/clydes-mark-center/"
    }
   },
   {
@@ -410,7 +491,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/fratelli-italian-restaurant-/ (updated 2026-09-22), checked 2026-11-01",
    "lat": 38.808297,
    "lng": -77.13274,
-   "website": null,
+   "website": "https://fratelli2.com/",
+   "websiteSource": "OpenStreetMap node/12207847804 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-9:30p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -429,7 +511,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://fratelli2.com/"
    }
   },
   {
@@ -443,7 +525,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/good-luck-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 38.811866,
    "lng": -77.109546,
-   "website": null,
+   "website": "http://www.goodluckchinesedelivery.com",
+   "websiteSource": "OpenStreetMap node/10121252019 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -642,7 +725,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/la-terraza-/ (updated 2026-09-21), checked 2026-11-01",
    "lat": 38.842892,
    "lng": -77.109546,
-   "website": null,
+   "website": "https://laterrazarestaurantbarandgrill.com/",
+   "websiteSource": "OpenStreetMap way/724048754 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-11:30p; Fri-Sun 11a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -673,7 +757,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/los-toltecos-alexandria-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 38.810999,
    "lng": -77.101193,
-   "website": null,
+   "website": "https://www.lostoltecosalexandria.com/",
+   "websiteSource": "OpenStreetMap way/217610440 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -713,7 +798,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/makeda-ethiopian-restaurant-/ (updated 2026-10-01), checked 2026-11-01",
    "lat": 38.806229,
    "lng": -77.133485,
-   "website": null,
+   "website": "https://makedarestaurant-va.com/",
+   "websiteSource": "OpenStreetMap node/12207708836 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-2a; Sun 11a-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -724,13 +810,35 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-01) (checked 2026-11-01)",
    "county": "Alexandria City",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://makedarestaurant-va.com/",
+        "quote": " | 5/5 | This is my new favorite Ethiopian spot! Awesome ambiance, food, and vibe. Great date night or just hanging with friends. I come here almost once a week! | Gelila Sebhatu | Follow u",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/alexandria/makeda-ethiopian-restaurant-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://makedarestaurant-va.com/"
    }
   },
   {
@@ -744,7 +852,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/mumbai-darbar-indian-cuisine-/ (updated 2026-09-28), checked 2026-11-01",
    "lat": 38.806561,
    "lng": -77.133386,
-   "website": null,
+   "website": "https://www.mumbaidarbar.com/",
+   "websiteSource": "OpenStreetMap node/12207708853 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-2p,3p-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -764,7 +873,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.mumbaidarbar.com/"
    }
   },
   {
@@ -809,7 +918,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/pho-viet-flare-restaurant-/ (updated 2026-10-11), checked 2026-11-01",
    "lat": 38.806397,
    "lng": -77.133436,
-   "website": null,
+   "website": "https://phovietflare.com/",
+   "websiteSource": "OpenStreetMap node/12207708846 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 10a-9p; Sun 10a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -848,7 +958,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://phovietflare.com/"
    }
   },
   {
@@ -862,7 +972,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/port-city-brewing-company-/ (updated 2026-10-20), checked 2026-11-01",
    "lat": 38.808335,
    "lng": -77.101792,
-   "website": null,
+   "website": "https://www.portcitybrewing.com/",
+   "websiteSource": "OpenStreetMap way/217366461 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 3p-9p; Tue-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -923,7 +1034,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.portcitybrewing.com/"
    }
   },
   {
@@ -937,7 +1048,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/reynolds-street-bar-and-grill-/ (updated 2026-07-22), checked 2026-11-01",
    "lat": 38.812572,
    "lng": -77.125349,
-   "website": null,
+   "website": "https://www.reynoldsstreetbarandgrill.com/",
+   "websiteSource": "OpenStreetMap node/12207962621 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Wed 4p-12a; Thu 4p-1a; Fri 2p-1:30a; Sat 4p-1a; Sun 4p-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -978,7 +1090,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.reynoldsstreetbarandgrill.com/"
    }
   },
   {
@@ -1023,7 +1135,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/silver-diner-alexandria-/ (updated 2026-10-31), checked 2026-11-01",
    "lat": 38.841436,
    "lng": -77.107327,
-   "website": null,
+   "website": "https://www.silverdiner.com/",
+   "websiteSource": "OpenStreetMap node/10687259040 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 8a-10p; Fri-Sat 7a-11p; Sun 7a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1064,7 +1177,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.silverdiner.com/"
    }
   },
   {
@@ -1111,7 +1224,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/taqueria-picoso-/ (updated 2026-10-27), checked 2026-11-01",
    "lat": 38.830652,
    "lng": -77.124893,
-   "website": null,
+   "website": "https://taqueriapicoso.com/",
+   "websiteSource": "OpenStreetMap node/7158919939 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Wed 11a-10p; Thu-Sat 11a-11p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1164,7 +1278,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/taste-of-asia-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 38.808605,
    "lng": -77.125504,
-   "website": null,
+   "website": "https://www.tasteofasia-alexandria.com/",
+   "websiteSource": "OpenStreetMap node/5414988165 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Sun 11a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -1181,7 +1296,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.tasteofasia-alexandria.com/"
    }
   },
   {
@@ -1195,7 +1310,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/thai-lemon-grass-/ (updated 2026-09-29), checked 2026-11-01",
    "lat": 38.807056,
    "lng": -77.133196,
-   "website": null,
+   "website": "https://www.thailemonva.com/",
+   "websiteSource": "OpenStreetMap node/12207914877 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -1234,7 +1350,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.thailemonva.com/"
    }
   },
   {
@@ -1332,7 +1448,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/z-burger-alexandria-/ (updated 2026-10-14), checked 2026-11-01",
    "lat": 38.804194,
    "lng": -77.133477,
-   "website": null,
+   "website": "https://www.zburger.com/",
+   "websiteSource": "OpenStreetMap node/12207922728 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-1a; Sun 11a-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -1343,13 +1460,35 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-14) (checked 2026-11-01)",
    "county": "Alexandria City",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.zburger.com/",
+        "quote": "-Burger is the perfect place for families, friends and professionals alike, and is even a local favorite of former President Bill Clinton. | Stop by and join us and eat like the President at one",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/alexandria/z-burger-alexandria-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.zburger.com/"
    }
   },
   {
@@ -1363,7 +1502,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/zaytoun-halal-grill-/ (updated 2026-09-06), checked 2026-11-01",
    "lat": 38.812909,
    "lng": -77.125581,
-   "website": null,
+   "website": "https://zayttoun.com/",
+   "websiteSource": "OpenStreetMap way/706668175 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 10a-2a",
    "hoursNote": null,
    "kitchen": null,
@@ -1396,7 +1536,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/zemeda-/ (updated 2026-09-27), checked 2026-11-01",
    "lat": 38.806561,
    "lng": -77.133386,
-   "website": null,
+   "website": "https://www.zemedamarket.com/",
+   "websiteSource": "OpenStreetMap node/12207708852 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11a-10p; Tue closed; Wed-Thu 11a-10p; Fri-Sun 10a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1413,7 +1554,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.zemedamarket.com/"
    }
   }
  ],

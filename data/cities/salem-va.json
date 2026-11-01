@@ -49,13 +49,24 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/salem/allsports-cafe-salem-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 37.2931,
    "lng": -80.0556,
-   "website": null,
+   "website": "https://allsportscafe.net/",
+   "websiteSource": "OpenStreetMap node/11415647416 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-12a; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Wednesday 99¢ Wings",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website allsportscafe.net/specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-28); the venue's Facebook page could not be read (checked 2026-11-01)",
@@ -88,13 +99,26 @@
      }
     ]
    },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "We have multiple hi-def and large screen TVs, live music, Karaoke and trivia events, and offer smoking and non-smoking dining",
+      "url": "https://allsportscafe.net/"
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/salem/allsports-cafe-salem-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://allsportscafe.net/"
    }
   },
   {
@@ -263,7 +287,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/salem/hardees-/ (updated 2026-10-12), checked 2026-11-01",
    "lat": 37.287703,
    "lng": -80.094086,
-   "website": null,
+   "website": "https://locations.hardees.com/va/salem/2038-w.-main-st",
+   "websiteSource": "OpenStreetMap node/4949980323 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 5a-10p; Sun 6a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -377,7 +402,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/salem/lydias-italian-kitchen-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 37.2704,
    "lng": -80.0377,
-   "website": null,
+   "website": "https://www.lydiasitaliankitchen.com/",
+   "websiteSource": "OpenStreetMap way/1432296358 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 11a-9p; Fri 11a-10p; Sat 12p-10p; Sun 12p-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -396,7 +422,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.lydiasitaliankitchen.com/"
    }
   },
   {

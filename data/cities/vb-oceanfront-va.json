@@ -357,7 +357,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/craft-burger-bar-/ (updated 2026-10-31), checked 2026-11-01",
    "lat": 36.844708,
    "lng": -75.981341,
-   "website": null,
+   "website": "https://barrel17.com/",
+   "websiteSource": "OpenStreetMap way/402406713 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 4p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -372,12 +373,32 @@
    "county": "Virginia Beach City",
    "crowdType": {
     "labels": [
-     "Locals & regulars",
-     "Families"
+     "Families",
+     "Locals & regulars"
     ],
-    "summary": "A locals-and-regulars spot; family-friendly.",
-    "confidence": "medium",
+    "summary": "Family-friendly; a locals-and-regulars spot.",
+    "confidence": "high",
     "details": [
+     {
+      "label": "Families",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-31",
+        "url": "https://www.restaurantji.com/va/virginia-beach/craft-burger-bar-/",
+        "quote": "ng with chicken tenders, fries, and build-a-burger options. The restaurant has a cool and kid-friendly atmosphere, with a dedicated children's menu that even a picky 6-year-old rated perfectly",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://barrel17.com/",
+        "quote": "f other adult beverages to fit everyone’s fancy (who’s eligible of course) If you want to bring the kids out we have an area with table games that will entertain them while your food is being pr",
+        "self": true
+       }
+      ]
+     },
      {
       "label": "Locals & regulars",
       "confidence": "medium",
@@ -390,19 +411,6 @@
         "agg": true
        }
       ]
-     },
-     {
-      "label": "Families",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-31",
-        "url": "https://www.restaurantji.com/va/virginia-beach/craft-burger-bar-/",
-        "quote": "ng with chicken tenders, fries, and build-a-burger options. The restaurant has a cool and kid-friendly atmosphere, with a dedicated children's menu that even a picky 6-year-old rated perfectly",
-        "agg": true
-       }
-      ]
      }
     ]
    },
@@ -412,7 +420,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://barrel17.com/"
    }
   },
   {
@@ -884,12 +892,23 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/driftwood-kitchen-/ (updated 2026-10-14), checked 2026-11-01",
    "lat": 36.86454,
    "lng": -75.980678,
-   "website": null,
+   "website": "https://www.driftwoodkitchenvb.com/",
+   "websiteSource": "OpenStreetMap node/12349846860 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Sun 9a-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "High Five Happy Hour - is 3-6pm Daily where it's Discounted Appetizers and $5 wines, wells and bottled beer - Brunch 9am-3pm",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website driftwoodkitchenvb.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -901,7 +920,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.driftwoodkitchenvb.com/"
    }
   },
   {
@@ -1107,7 +1126,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/gringos-taqueria-/ (updated 2026-10-09), checked 2026-11-01",
    "lat": 36.837788,
    "lng": -75.980357,
-   "website": null,
+   "website": "https://gringos757.com/",
+   "websiteSource": "OpenStreetMap node/12333583546 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Sat 11a-9p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -1125,11 +1145,11 @@
      "Tourists"
     ],
     "summary": "A locals-and-regulars spot; family-friendly; sees a lot of visitors and tourists.",
-    "confidence": "medium",
+    "confidence": "high",
     "details": [
      {
       "label": "Locals & regulars",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence": [
        {
         "type": "reviews",
@@ -1137,6 +1157,13 @@
         "url": "https://www.restaurantji.com/va/virginia-beach/gringos-taqueria-/",
         "quote": "fort to ensure customers feel welcomed and appreciated. Gringo's is a great spot for both locals and tourists, though it can fill up quickly, so it's recommended to arrive early. The foo",
         "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://gringos757.com/",
+        "quote": "rup and top-shelf tequila to make our Baja style margarita. Thanks to all of our lifelong locals!! | Full Menu | Specialties | Burritos | Bowls | Tacos | Happy Guests | Lauren V. | Poste",
+        "self": true
        }
       ]
      },
@@ -1174,7 +1201,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://gringos757.com/"
    }
   },
   {
@@ -1221,7 +1248,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/hardees-3/ (updated 2026-10-17), checked 2026-11-01",
    "lat": 36.788947,
    "lng": -75.997486,
-   "website": null,
+   "website": "https://locations.hardees.com/va/virginia-beach/1494-general-booth-blvd",
+   "websiteSource": "OpenStreetMap way/402561242 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 5a-9p; Sun 6a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1260,7 +1288,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://locations.hardees.com/va/virginia-beach/1494-general-booth-blvd"
    }
   },
   {
@@ -1274,27 +1302,58 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/icehouse-restaurant-/ (updated 2026-10-10), checked 2026-11-01",
    "lat": 36.837673,
    "lng": -75.980365,
-   "website": null,
+   "website": "https://www.icehousevb.com/",
+   "websiteSource": "OpenStreetMap node/12333583547 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-12a",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Fri",
+     "text": "Friday - Shrimp Tacos $13",
+     "tags": [],
+     "src": "Venue website icehousevb.com/weekly-specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Mon",
+     "text": "Monday Night - Burger Night $9",
+     "tags": [],
+     "src": "Venue website icehousevb.com/weekly-specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Thu",
+     "text": "Thursday Night - 1/2 Rack of Ribs $16",
+     "tags": [],
+     "src": "Venue website icehousevb.com/weekly-specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Sun",
+     "text": "Sunday Night - 1 LB of Shrimp $15",
+     "tags": [],
+     "src": "Venue website icehousevb.com/weekly-specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-10) (checked 2026-11-01)",
    "county": "Virginia Beach City",
    "crowdType": {
     "labels": [
-     "Locals & regulars"
+     "Locals & regulars",
+     "Live music fans"
     ],
-    "summary": "A locals-and-regulars spot.",
-    "confidence": "medium",
+    "summary": "A locals-and-regulars spot; known for live music.",
+    "confidence": "high",
     "details": [
      {
       "label": "Locals & regulars",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence": [
        {
         "type": "reviews",
@@ -1302,6 +1361,32 @@
         "url": "https://www.restaurantji.com/va/virginia-beach/icehouse-restaurant-/",
         "quote": "crab cake. The prime rib sandwich with dip sauce is also a standout. The restaurant is a local favorite spot and a nostalgic restaurant. They also offer wheelchair accessibility and parking on",
         "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.icehousevb.com/",
+        "quote": "57) 422-1968 | ​ | Serving Lunch & Dinner. | Mon- Sun 11AM - 12PM | About | WHERE ALL THE LOCALS GO | YOUR NEIGHBORHOOD | INSTITUTION | These days restaurants come and go but the Icehous",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/va/virginia-beach/icehouse-restaurant-/",
+        "quote": "live music"
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.icehousevb.com/",
+        "quote": "bringing you drink specials, call us to see what we've got for you! | We're bringing you LIVE music EVERY Thursday night, join us for a night out! | MUSIC | Music | Contact | CONTACT US | THE | I",
+        "self": true
        }
       ]
      }
@@ -1313,7 +1398,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.icehousevb.com/"
    }
   },
   {
@@ -1867,7 +1952,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/mosaic-cafe-eatery-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 36.849461,
    "lng": -75.975448,
-   "website": null,
+   "website": "https://www.mosaiccaferestaurant.com/",
+   "websiteSource": "OpenStreetMap node/4364792166 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 8a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -1884,7 +1970,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.mosaiccaferestaurant.com/"
    }
   },
   {
@@ -1898,13 +1984,35 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/murphy-s-irish-pub-/ (updated 2026-09-23), checked 2026-11-01",
    "lat": 36.8578,
    "lng": -75.9792,
-   "website": null,
+   "website": "https://murphyspub.com/",
+   "websiteSource": "OpenStreetMap way/402408799 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-1a; Fri 11a-2a; Sat 9a-2a; Sun 9a-1a",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "25 OFF Irish and Craft Beers $1",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website murphyspub.com/weekly-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "25 OFF Domestic Beers $3",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website murphyspub.com/weekly-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -1939,7 +2047,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://murphyspub.com/"
    }
   },
   {
@@ -1984,7 +2092,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/ocean-eddies-seafood-restaurant-/ (updated 2026-10-31), checked 2026-11-01",
    "lat": 36.843008,
    "lng": -75.97355,
-   "website": null,
+   "website": "http://www.oceaneddiesvabeach.com",
+   "websiteSource": "OpenStreetMap node/3408633879 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9:30p; Fri-Sat 11a-10p; Sun 11a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -2222,13 +2331,22 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/pelons-baja-grill-/ (updated 2026-10-30), checked 2026-11-01",
    "lat": 36.864521,
    "lng": -75.980672,
-   "website": null,
+   "website": "https://pelonsbajagrill.com/",
+   "websiteSource": "OpenStreetMap node/12349846858 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Thu",
+     "text": "Enjoy Pelon's Jumbo House Margarita for $9 all day on Thursdays",
+     "tags": [],
+     "src": "Venue website pelonsbajagrill.com/virginia-beach-pelon-s-baja-grill-happy-hours-specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -2241,7 +2359,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://pelonsbajagrill.com/"
    }
   },
   {
@@ -2255,7 +2373,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/repeal-bourbon-and-burgers-/ (updated 2026-09-01), checked 2026-11-01",
    "lat": 36.850149,
    "lng": -75.97566,
-   "website": null,
+   "website": "https://www.repealvb.com/",
+   "websiteSource": "OpenStreetMap node/12349858479 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -2294,7 +2413,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.repealvb.com/"
    }
   },
   {
@@ -2711,7 +2830,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/sorellas-an-italian-eatery-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 36.858996,
    "lng": -75.980403,
-   "website": null,
+   "website": "https://sorellasvb.com/",
+   "websiteSource": "OpenStreetMap node/12195795101 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9:30p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -2730,7 +2850,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://sorellasvb.com/"
    }
   },
   {
@@ -2934,7 +3054,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/taqueria-jessys-/ (updated 2026-08-26), checked 2026-11-01",
    "lat": 36.842139,
    "lng": -75.992351,
-   "website": null,
+   "website": "https://jessystacos.com/",
+   "websiteSource": "OpenStreetMap node/12474933546 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 9a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -3006,7 +3127,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/tautogs-restaurant-/ (updated 2026-10-31), checked 2026-11-01",
    "lat": 36.851229,
    "lng": -75.975977,
-   "website": null,
+   "website": "https://www.tautogs.com/",
+   "websiteSource": "OpenStreetMap node/12193541401 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 5p-10p; Tue-Wed closed; Thu-Sun 5p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -3017,13 +3139,35 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-31) (checked 2026-11-01)",
    "county": "Virginia Beach City",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.tautogs.com/",
+        "quote": "Lexington, Virginia | \"Overall, the best experience in VA Beach\" | “Always outstanding. Fine dining with a beachy, casual atmosphere. Ordered and received exactly what I wanted. Cup of soup",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/virginia-beach/tautogs-restaurant-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.tautogs.com/"
    }
   },
   {
@@ -3099,12 +3243,22 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/the-atlantic-/ (updated 2026-10-21), checked 2026-11-01",
    "lat": 36.858595,
    "lng": -75.979196,
-   "website": null,
+   "website": "https://theatlanticvb.com/",
+   "websiteSource": "OpenStreetMap node/12344926582 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9:30p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy Hour, 3-600PM Daily",
+     "tags": [],
+     "src": "Venue website theatlanticvb.com/virginia-beach-the-atlantic-on-pacific-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -3116,7 +3270,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://theatlanticvb.com/"
    }
   },
   {
@@ -3130,7 +3284,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/the-bunker-brewpub-/ (updated 2026-10-19), checked 2026-11-01",
    "lat": 36.849284,
    "lng": -75.975519,
-   "website": null,
+   "website": "https://bunkerbrewpub.com/",
+   "websiteSource": "OpenStreetMap node/13394135890 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 3p-10p; Tue closed; Wed-Thu 3p-10p; Fri-Sat 12p-10p; Sun 12p-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -3143,13 +3298,55 @@
    ],
    "source": "hours from Restaurantji listing (updated 2026-10-19) (checked 2026-11-01)",
    "county": "Virginia Beach City",
+   "crowdType": {
+    "labels": [
+     "Live music fans",
+     "Families"
+    ],
+    "summary": "Known for live music; family-friendly.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/va/virginia-beach/the-bunker-brewpub-/",
+        "quote": "live music"
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://bunkerbrewpub.com/",
+        "quote": "e to check out local and national touring talent. Join us for a concert in our first-rate live music venue and the best sounding room at the Virginia | Beach Oceanfront! Our intimate and accessibl",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://bunkerbrewpub.com/",
+        "quote": "bring something truly special to the Virginia Beach Oceanfront. | So began The Bunker! A family friendly restaurant specializing in the taste of southern coastal cuisine; complete with seafood p",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/virginia-beach/the-bunker-brewpub-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://bunkerbrewpub.com/"
    }
   },
   {

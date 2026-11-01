@@ -16,13 +16,25 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/andys-pizza-carlyle-at-atlas-brew-works-alexandria-/ (updated 2026-09-04), checked 2026-11-01",
    "lat": 38.802869,
    "lng": -77.070736,
-   "website": null,
+   "website": "https://atlasbrewworks.com/",
+   "websiteSource": "OpenStreetMap node/11998991947 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "An exclusive membership where you get 18 or 24 Atlas beers quarterly + awesome perks, like up to 20% off taproom drafts and a free pint on pickup day",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website atlasbrewworks.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -33,9 +45,10 @@
    "crowdType": {
     "labels": [
      "Sports fans",
-     "Date night / upscale"
+     "Date night / upscale",
+     "Locals & regulars"
     ],
-    "summary": "Popular for watching games; a date-night / upscale spot.",
+    "summary": "Popular for watching games; a date-night / upscale spot; a locals-and-regulars spot.",
     "confidence": "high",
     "details": [
      {
@@ -69,6 +82,19 @@
         "agg": true
        }
       ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://atlasbrewworks.com/",
+        "quote": "tant step towards our goal of becoming a carbon neutral brewery. | LEARN MORE | From your local bar to Nats Park, you can find our beers at more than 2,000 locations in DC, Maryland and Vir",
+        "self": true
+       }
+      ]
      }
     ]
    },
@@ -78,7 +104,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://atlasbrewworks.com/"
    }
   },
   {
@@ -92,7 +118,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/casa-tequila-bar-and-grill-/ (updated 2026-09-19), checked 2026-11-01",
    "lat": 38.805453,
    "lng": -77.05966,
-   "website": null,
+   "website": "https://www.casatequilarestaurant.com/",
+   "websiteSource": "OpenStreetMap node/12207854069 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10:30p; Sun 11a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -105,13 +132,35 @@
    ],
    "source": "hours from Restaurantji listing (updated 2026-09-19) (checked 2026-11-01)",
    "county": "Alexandria City",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://casatequilarestaurant.com/",
+        "quote": "uickly and our food arrived quickly as well. All in all an excellent experience, and very family friendly. | Review by - Google | five star review by | David R: | Hands down the BEST Lomo Saltado",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/alexandria/casa-tequila-bar-and-grill-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.casatequilarestaurant.com/"
    }
   },
   {
@@ -125,7 +174,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/fosters-grille-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 38.800592,
    "lng": -77.064321,
-   "website": null,
+   "website": "https://www.fostersgrille.com/",
+   "websiteSource": "OpenStreetMap node/2245865107 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -144,7 +194,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.fostersgrille.com/"
    }
   },
   {
@@ -158,7 +208,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/gin-ramen-and-asian-tapas-/ (updated 2026-10-17), checked 2026-11-01",
    "lat": 38.802411,
    "lng": -77.061698,
-   "website": null,
+   "website": "https://www.ginramenalexandria.com/",
+   "websiteSource": "OpenStreetMap node/12207962682 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-2:30p,4p-9p; Fri 11a-2:30p,4p-10p; Sat 12p-10p; Sun 12p-8:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -177,7 +228,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.ginramenalexandria.com/"
    }
   },
   {
@@ -191,7 +242,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/ichiban-izakaya-/ (updated 2026-09-04), checked 2026-11-01",
    "lat": 38.800991,
    "lng": -77.068375,
-   "website": null,
+   "website": "https://www.ichibanizakaya.com/",
+   "websiteSource": "OpenStreetMap node/12207907591 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11:30a-9:30p; Sun 12p-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -208,7 +260,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.ichibanizakaya.com/"
    }
   },
   {
@@ -222,24 +274,84 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/theismann-s-restaurant-and-bar-/ (updated 2026-09-21), checked 2026-11-01",
    "lat": 38.8056,
    "lng": -77.0603,
-   "website": null,
+   "website": "https://www.theismanns.com/",
+   "websiteSource": "OpenStreetMap node/875506964 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11a-11p; Sat-Sun 10a-11p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon-Fri",
+     "text": "Monday through Friday from 3 pm to 7 pm, score $5 well-drinks, house wines and draft beers as well as $8 specialty cocktails for the win",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website theismanns.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "50% Off Bottles of Wine on Wednesdays",
+     "tags": [],
+     "src": "Venue website theismanns.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-09-21); the venue's Facebook page could not be read (checked 2026-11-01)",
    "county": "Alexandria City",
+   "crowdType": {
+    "labels": [
+     "Sports fans",
+     "Locals & regulars"
+    ],
+    "summary": "Popular for watching games; a locals-and-regulars spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/va/alexandria/theismann-s-restaurant-and-bar-/",
+        "quote": "We enjoyed it so much while in town we went 2 days in a row ! Great food, great place to watch sports but the best part was the staff. We were lucky to have David take care of us on day 1."
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://theismanns.com/",
+        "quote": "Large Party Catering | Reservations | Classic American Fare with Good Game | A beloved sports bar and lounge, Joe Theismann’s Restaurant celebrates Washington D.C.’s two-time pro bowler,",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://theismanns.com/",
+        "quote": "2,928 | Open daily for dining room & patio dining, curbside pickup and delivery! | 🍔 | Neighborhood Bar & Grill | 🍷 | 50% Off Bottles of Wine on Wednesdays | Cold, on tap, and always better wit",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/alexandria/theismann-s-restaurant-and-bar-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.theismanns.com/"
    }
   },
   {
@@ -324,7 +436,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/pasara-thai-/ (updated 2026-09-28), checked 2026-11-01",
    "lat": 38.803731,
    "lng": -77.064205,
-   "website": null,
+   "website": "http://www.pasarathairestaurant.com/",
+   "websiteSource": "OpenStreetMap node/662064834 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11:30a-9:30p; Sat-Sun 12p-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -386,7 +499,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/quattro-formaggi-/ (updated 2026-08-06), checked 2026-11-01",
    "lat": 38.804544,
    "lng": -77.060774,
-   "website": null,
+   "website": "http://www.4maggi.com/",
+   "websiteSource": "OpenStreetMap node/765750809 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 10a-10p; Sat-Sun 10a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -450,7 +564,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/sake-japanese-steakhouse-and-bar-/ (updated 2026-09-03), checked 2026-11-01",
    "lat": 38.800605,
    "lng": -77.064493,
-   "website": null,
+   "website": "https://www.sake-japanese-steakhouse.com/locations",
+   "websiteSource": "OpenStreetMap node/2245865110 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9:30p; Fri-Sat 11a-10:30p; Sun 11:30a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -491,7 +606,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.sake-japanese-steakhouse.com/locations"
    }
   },
   {
@@ -505,7 +620,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/sweet-fire-donnas-/ (updated 2026-10-18), checked 2026-11-01",
    "lat": 38.802328,
    "lng": -77.061707,
-   "website": null,
+   "website": "https://sweetfiredonnas.com/",
+   "websiteSource": "OpenStreetMap node/5444142279 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Wed 11a-10p; Thu-Sat 11a-12a; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -558,7 +674,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/tequila-and-taco-/ (updated 2026-10-10), checked 2026-11-01",
    "lat": 38.802077,
    "lng": -77.061735,
-   "website": null,
+   "website": "https://alexandriataco.com/",
+   "websiteSource": "OpenStreetMap node/2249725649 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11a-9p; Tue-Thu 11a-9:30p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -589,7 +706,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/umiya-sushi-/ (updated 2026-10-22), checked 2026-11-01",
    "lat": 38.807378,
    "lng": -77.081517,
-   "website": null,
+   "website": "https://www.umiyasushiva.com/",
+   "websiteSource": "OpenStreetMap way/222412968 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-3:30p,5p-10p; Fri 11a-11p; Sat 12p-11p; Sun 12p-10p",
    "hoursNote": null,
    "kitchen": null,

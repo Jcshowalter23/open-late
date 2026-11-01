@@ -47,7 +47,8 @@
    "zip": "23181",
    "phone": "(804) 843-7070",
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/west-point/blue-crab-restaurant-/ (updated 2026-10-18), checked 2026-11-01",
-   "website": null,
+   "website": "https://thebluecrabofwp.com/",
+   "websiteSource": "OpenStreetMap node/12328696916 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-9p; Sun 11a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -80,7 +81,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/aylett/don-pedro-mexican-restaurant-/ (updated 2026-10-08), checked 2026-11-01",
    "lat": 37.743323,
    "lng": -77.134466,
-   "website": null,
+   "website": "https://donpedro2.com/",
+   "websiteSource": "OpenStreetMap node/8379229074 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-9p; Sun 11:30a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -119,7 +121,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://donpedro2.com/"
    }
   },
   {
@@ -133,7 +135,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/west-point/hardees-/ (updated 2026-10-18), checked 2026-11-01",
    "lat": 37.53684,
    "lng": -76.800091,
-   "website": null,
+   "website": "https://locations.hardees.com/va/west-point/323-14th-st",
+   "websiteSource": "OpenStreetMap node/5776928857 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 5a-9p; Sun 6a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -150,7 +153,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://locations.hardees.com/va/west-point/323-14th-st"
    }
   },
   {
@@ -195,7 +198,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/king-william/roma-ristorante-italiano-/ (updated 2026-06-25), checked 2026-11-01",
    "lat": 37.744653,
    "lng": -77.132557,
-   "website": null,
+   "website": "https://romaofkingwilliam.com/",
+   "websiteSource": "OpenStreetMap node/9916006203 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Sat 11a-9:30p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -210,9 +214,10 @@
    "county": "King William",
    "crowdType": {
     "labels": [
-     "Families"
+     "Families",
+     "Locals & regulars"
     ],
-    "summary": "Family-friendly.",
+    "summary": "Family-friendly; a locals-and-regulars spot.",
     "confidence": "medium",
     "details": [
      {
@@ -227,6 +232,19 @@
         "agg": true
        }
       ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://romaofkingwilliam.com/",
+        "quote": "eatballs in our homemade tomato sauce & baked mozzarella cheese topped with fresh basil | Local Favorites | Bada Bing Shrimp | $12.5 | 6 Jumbo beer battered fried shrimp tossed with your choice",
+        "self": true
+       }
+      ]
      }
     ]
    },
@@ -236,7 +254,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://romaofkingwilliam.com/"
    }
   },
   {

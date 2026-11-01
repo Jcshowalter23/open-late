@@ -69,7 +69,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/sperryville/new-iberia-kitchen-/ (updated 2026-09-04), checked 2026-11-01",
    "lat": 38.658477,
    "lng": -78.216873,
-   "website": null,
+   "website": "https://www.newiberiakitchen.com/",
+   "websiteSource": "OpenStreetMap node/11759304275 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Sat 11a-3p,5p-9p; Sun 10a-3p",
    "hoursNote": null,
    "kitchen": null,
@@ -86,7 +87,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.newiberiakitchen.com/"
    }
   },
   {
@@ -98,7 +99,8 @@
    "zip": "22740",
    "phone": "(540) 987-5008",
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/sperryville/the-black-twig-diner-and-bar-/ (updated 2026-10-16), checked 2026-11-01",
-   "website": null,
+   "website": "https://www.theblacktwigdiner.com/",
+   "websiteSource": "OpenStreetMap node/12324687912 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue 11a-8p; Wed closed; Thu 11a-8p; Fri 11a-3p; Sat 11a-9p; Sun 11a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -131,13 +133,36 @@
      }
     ]
    },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "HOMECOMING NIGHT WITH LIVE DJ LICKA SHOT & IDLE HOUR | Friday, November 28, 2025",
+      "url": "https://www.theblacktwigdiner.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "IDLE HOUR PRESENTS HOMECOMING 2025 WITH DJ LICKA SHOT - BLACK FRIDAY PARTY",
+      "url": "https://www.theblacktwigdiner.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " All vinyl all night DJ Licka Shot will be spinning music from the 60s to the 2000s to keep the good times rolling at this post-Thanksgiving party",
+      "url": "https://www.theblacktwigdiner.com/events"
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/sperryville/the-black-twig-diner-and-bar-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.theblacktwigdiner.com/"
    }
   },
   {
@@ -151,7 +176,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/flint-hill/the-dark-horse-irish-gastro-pub-/ (updated 2026-10-14), checked 2026-11-01",
    "lat": 38.765516,
    "lng": -78.100565,
-   "website": null,
+   "website": "https://darkhorseflinthill.com/about/",
+   "websiteSource": "OpenStreetMap way/860882696 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11a-10p; Sat-Sun 10:30a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -164,13 +190,35 @@
    ],
    "source": "hours from Restaurantji listing (updated 2026-10-14) (checked 2026-11-01)",
    "county": "Rappahannock",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://darkhorseflinthill.com/about/",
+        "quote": "f the restaurant, which is located in a gorgeously rebuilt 1800s mansion. Because of our “Cheers-like” feel, we are able to draw both regulars and casual, visiting guests to our unique menu.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/flint-hill/the-dark-horse-irish-gastro-pub-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://darkhorseflinthill.com/about/"
    }
   },
   {
@@ -184,7 +232,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/sperryville/three-blacksmiths-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 38.658687,
    "lng": -78.229515,
-   "website": null,
+   "website": "https://www.threeblacksmiths.com/",
+   "websiteSource": "OpenStreetMap way/164547428 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Sat 6:45p-11p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -201,7 +250,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.threeblacksmiths.com/"
    }
   }
  ],

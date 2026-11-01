@@ -69,7 +69,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/mclean/cafe-tatti-/ (updated 2026-10-06), checked 2026-11-01",
    "lat": 38.931388,
    "lng": -77.17354,
-   "website": null,
+   "website": "https://www.cafetatti.com/",
+   "websiteSource": "OpenStreetMap node/3884185479 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11:30a-9p; Sat 4:30p-10p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -80,13 +81,49 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-06) (checked 2026-11-01)",
    "county": "Fairfax",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Date night / upscale"
+    ],
+    "summary": "Family-friendly; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.cafetatti.com/",
+        "quote": "en’t been!” | Lytle Warren | “You wouldn’t expect a linen service French restaurant to be kid-friendly, but the adoring staff and their love of children made this an unforgettable experience.",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.cafetatti.com/",
+        "quote": "Reserve now | View Menu | Order Now | Reserve now | View Menu | Order Now | ABOUT US | Romantic French Restaurant in McLean, VA | Cafe Tatti has been a treasured dining gem for more tha",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/mclean/cafe-tatti-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.cafetatti.com/"
    }
   },
   {
@@ -133,7 +170,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/mclean/chiang-mai-thai-cookhouse-/ (updated 2026-10-11), checked 2026-11-01",
    "lat": 38.934714,
    "lng": -77.179873,
-   "website": null,
+   "website": "https://chiangmaithaimclean.com/",
+   "websiteSource": "OpenStreetMap node/12207904218 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-3p,4:30p-9p; Fri 11a-3p,4:30p-10p; Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -150,7 +188,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://chiangmaithaimclean.com/"
    }
   },
   {
@@ -390,12 +428,22 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/mclean/j-gilberts-wood-fired-steaks-and-seafood-mclean-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.937,
    "lng": -77.1842,
-   "website": null,
+   "website": "https://www.jgilberts.com/location/jgilberts-mclean/",
+   "websiteSource": "OpenStreetMap node/2124536635 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9:30p; Fri-Sat 11a-10p; Sun 10a-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Thu",
+     "text": "SUN: 10:00 AM - 9:00 PM MON - THU: 11:00 AM - 9:30 PM FRI - SAT: 11:00 AM - 10:00 PM Happy Hour: Mon - Fri & Sun 4 PM - 7 PM",
+     "tags": [],
+     "src": "Venue website jgilberts.com/location/jgilberts-mclean",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -409,7 +457,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.jgilberts.com/location/jgilberts-mclean/"
    }
   },
   {
@@ -423,7 +471,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/mclean/kazan-restaurant-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 38.933676,
    "lng": -77.179309,
-   "website": null,
+   "website": "https://www.kazanrestaurant.com/",
+   "websiteSource": "OpenStreetMap node/2296474079 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11:30a-2p,5p-9p; Sat 5p-9p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -440,7 +489,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.kazanrestaurant.com/"
    }
   },
   {
@@ -454,7 +503,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/mclean/listranis-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 38.934318,
    "lng": -77.178236,
-   "website": null,
+   "website": "https://listranismclean.com/",
+   "websiteSource": "OpenStreetMap node/3884180047 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Wed 11a-8p; Thu-Sat 11a-9p; Sun 11a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -499,7 +549,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://listranismclean.com/"
    }
   },
   {
@@ -566,7 +616,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/mclean/masala-indian-cuisine-/ (updated 2026-10-17), checked 2026-11-01",
    "lat": 38.935354,
    "lng": -77.176144,
-   "website": null,
+   "website": "https://www.masalava.com/online-order/",
+   "websiteSource": "OpenStreetMap node/3584164926 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11:30a-2p,5p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -607,7 +658,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.masalava.com/online-order/"
    }
   },
   {
@@ -712,26 +763,57 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/mclean/mylos-grill-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 38.919899,
    "lng": -77.15076,
-   "website": null,
+   "website": "https://www.mylosgrill.com/",
+   "websiteSource": "OpenStreetMap node/3909967586 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 8a-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "Enjoy a bottle of wine from our wine list at half price every Tuesday",
+     "tags": [],
+     "src": "Venue website mylosgrill.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
    ],
    "source": "hours from Restaurantji listing (updated 2026-09-20) (checked 2026-11-01)",
    "county": "Fairfax",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.mylosgrill.com/",
+        "quote": "makes it even better. This place is truly a hidden gem! Highly recommend supporting this local favorite! | Google Review | A | Athena Gioldasis | October 16, 2026 | Mylo's Grill is a fantastic",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/mclean/mylos-grill-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.mylosgrill.com/"
    }
   },
   {
@@ -1073,7 +1155,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/mclean/tachibana-japanese-restaurant-/ (updated 2026-10-11), checked 2026-11-01",
    "lat": 38.932346,
    "lng": -77.176747,
-   "website": null,
+   "website": "http://tachibana.us",
+   "websiteSource": "OpenStreetMap node/3897463233 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 11:30a-2p,5p-9p; Fri 11:30a-2p,5p-9:30p; Sat 12p-2:30p,5p-9:30p; Sun 12p-2:30p,5p-9p",
    "hoursNote": null,
    "kitchen": null,

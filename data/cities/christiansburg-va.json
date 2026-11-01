@@ -79,7 +79,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/christiansburg/el-bronco-/ (updated 2026-10-06), checked 2026-11-01",
    "lat": 37.126674,
    "lng": -80.413299,
-   "website": null,
+   "website": "https://www.elbroncomexican.com",
+   "websiteSource": "OpenStreetMap node/12207004437 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-10:30p; Sat 12p-10:30p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -118,7 +119,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.elbroncomexican.com"
    }
   },
   {
@@ -163,7 +164,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/christiansburg/gran-rodeo-/ (updated 2026-10-06), checked 2026-11-01",
    "lat": 37.1627,
    "lng": -80.4191,
-   "website": null,
+   "website": "https://granrodeo.com/",
+   "websiteSource": "OpenStreetMap way/202353442 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-11p; Sat 12p-11p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -180,7 +182,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://granrodeo.com/"
    }
   },
   {
@@ -194,7 +196,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/christiansburg/hardees-3/ (updated 2026-10-12), checked 2026-11-01",
    "lat": 37.136259,
    "lng": -80.362126,
-   "website": null,
+   "website": "https://locations.hardees.com/va/christiansburg/2347-roanoke-street",
+   "websiteSource": "OpenStreetMap way/363417238 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 5a-9p; Sun 6a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -211,7 +214,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://locations.hardees.com/va/christiansburg/2347-roanoke-street"
    }
   },
   {
@@ -225,24 +228,62 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/christiansburg/hunan-house-/ (updated 2026-10-06), checked 2026-11-01",
    "lat": 37.135396,
    "lng": -80.369662,
-   "website": null,
+   "website": "https://foodeist.com/place/hunanhouse",
+   "websiteSource": "OpenStreetMap way/662380258 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11a-9:45p; Tue closed; Wed-Sun 11a-9:45p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Wine Wednesday offers 50% off cellar bottles and 25% off wines by the glass",
+     "tags": [],
+     "src": "Venue website foodeist.com/articles/the-grill-room-at-the-windsor-court-introduces-new-weekly-dining-experiences",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Thu",
+     "text": "Thursday’s menu features Chargrilled Louisiana Oysters with Prosecco for $22 and Slow-Roasted Prime Rib with Cabernet Sauvignon for $58",
+     "tags": [],
+     "src": "Venue website foodeist.com/articles/the-grill-room-at-the-windsor-court-introduces-new-weekly-dining-experiences",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-06) (checked 2026-11-01)",
    "county": "Montgomery",
+   "crowdType": {
+    "labels": [
+     "College crowd"
+    ],
+    "summary": "Popular with college students.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "College crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://foodeist.com/place/hunanhouse",
+        "quote": "chairs Available | Dessert | Drive-through | Groups | Good for kids | Casual | Tourists | College students | Show more | Show less | Accessibility | Wheelchair accessible entrance | Offerings | Co",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/christiansburg/hunan-house-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://foodeist.com/place/hunanhouse"
    }
   },
   {
@@ -344,7 +385,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/christiansburg/long-john-silvers-/ (updated 2026-10-12), checked 2026-11-01",
    "lat": 37.132862,
    "lng": -80.377,
-   "website": null,
+   "website": "https://www.ljsilvers.com/",
+   "websiteSource": "OpenStreetMap way/475497450 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 10a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -361,7 +403,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.ljsilvers.com/"
    }
   },
   {
@@ -489,7 +531,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/christiansburg/ocean-samurai-cburg-all-you-can-eat-sushi-and-hibachi-haino-shi-ri-ben-liao-li-fang-ti-/ (updated 2026-09-10), checked 2026-11-01",
    "lat": 37.150582,
    "lng": -80.414548,
-   "website": null,
+   "website": "https://www.oceansam.net/",
+   "websiteSource": "OpenStreetMap node/7996203121 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11a-3p,4:30p-9:30p; Tue closed; Wed-Thu 11a-3p,4:30p-9:30p; Fri 11a-3p,4:30p-10p; Sat 12p-10p; Sun 12p-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -528,7 +571,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.oceansam.net/"
    }
   },
   {
@@ -817,7 +860,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/christiansburg/the-farmhouse-/ (updated 2026-10-06), checked 2026-11-01",
    "lat": 37.1534,
    "lng": -80.4219,
-   "website": null,
+   "website": "https://thefarmhousechristiansburg.com/",
+   "websiteSource": "OpenStreetMap way/1330838256 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Fri 4p-10p; Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -830,9 +874,10 @@
    "county": "Montgomery",
    "crowdType": {
     "labels": [
-     "Date night / upscale"
+     "Date night / upscale",
+     "Live music fans"
     ],
-    "summary": "A date-night / upscale spot.",
+    "summary": "A date-night / upscale spot; known for live music.",
     "confidence": "medium",
     "details": [
      {
@@ -847,6 +892,19 @@
         "agg": true
        }
       ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://thefarmhousechristiansburg.com/",
+        "quote": "door Courtyard | Outdoor Bar | Fall Cocktails | Waterman Cocktails | Fall Cocktail Menu | Live music every thursday in the courtyard! | Every Thursday Night at 6pm! | Join us in the courtyard for",
+        "self": true
+       }
+      ]
      }
     ]
    },
@@ -856,7 +914,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://thefarmhousechristiansburg.com/"
    }
   },
   {

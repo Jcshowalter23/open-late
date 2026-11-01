@@ -16,7 +16,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/bedford/beales-/ (updated 2026-10-06), checked 2026-11-01",
    "lat": 37.335723,
    "lng": -79.517634,
-   "website": null,
+   "website": "https://www.bealesbeer.com",
+   "websiteSource": "OpenStreetMap node/11911175441 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Thu 4p-9p; Fri 4p-10p; Sat 12p-10p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -33,7 +34,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.bealesbeer.com"
    }
   },
   {
@@ -430,7 +431,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/moneta/jakes-place-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 37.1588,
    "lng": -79.6631,
-   "website": null,
+   "website": "https://www.jakesplacesml.com",
+   "websiteSource": "OpenStreetMap way/888270863 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Fri 4p-9p; Sat 12p-9p; Sun 12p-3p",
    "hoursNote": null,
    "kitchen": null,
@@ -447,7 +449,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.jakesplacesml.com"
    }
   },
   {
@@ -520,7 +522,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/bedford/liberty-station-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 37.3372,
    "lng": -79.5276,
-   "website": null,
+   "website": "https://www.oldelibertystation.com/",
+   "websiteSource": "OpenStreetMap way/313409310 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 11a-9p; Fri 11a-10p; Sat 3p-10p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -531,13 +534,35 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-29); the venue's Facebook page could not be read (checked 2026-11-01)",
    "county": "Bedford",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.oldelibertystation.com/",
+        "quote": ", created with the best ingredients available, will satisfy the appetite of travelers and locals alike. | ​ | Best of all, our guests can complete their meal with a slice of Harry's Famo",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/bedford/liberty-station-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.oldelibertystation.com/"
    }
   },
   {

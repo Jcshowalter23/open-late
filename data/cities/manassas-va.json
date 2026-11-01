@@ -160,7 +160,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/manassas/battle-street-bistro-/ (updated 2026-10-31), checked 2026-11-01",
    "lat": 38.751575,
    "lng": -77.472645,
-   "website": null,
+   "website": "https://www.battlestreetbistro.com",
+   "websiteSource": "OpenStreetMap way/1042428212 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 10a-9p; Fri 10a-10p; Sat 9a-10p; Sun 9a-3p",
    "hoursNote": null,
    "kitchen": null,
@@ -199,7 +200,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.battlestreetbistro.com"
    }
   },
   {
@@ -213,7 +214,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/manassas/carmellos-of-old-town-manassas-/ (updated 2026-10-21), checked 2026-11-01",
    "lat": 38.751115,
    "lng": -77.472406,
-   "website": null,
+   "website": "https://carmellos.com/",
+   "websiteSource": "OpenStreetMap node/3894449069 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Thu 5p-9:30p; Fri-Sat 5p-10p; Sun 5p-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -224,13 +226,35 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-21) (checked 2026-11-01)",
    "county": "Manassas City",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://carmellos.com/",
+        "quote": "Carmello's | Fine Dining in Historic Manassas | (703) 368-5522 | [email protected] | Home | Private Dining | About",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/manassas/carmellos-of-old-town-manassas-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://carmellos.com/"
    }
   },
   {
@@ -804,7 +828,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/manassas/jukebox-diner-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 38.768664,
    "lng": -77.486468,
-   "website": null,
+   "website": "https://jukeboxdiner.com/",
+   "websiteSource": "OpenStreetMap node/3925447512 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 7a-10p; Fri-Sat 7a-11p; Sun 7a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -823,7 +848,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://jukeboxdiner.com/"
    }
   },
   {
@@ -1054,7 +1079,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/manassas/lume-asian-fusion-/ (updated 2026-09-05), checked 2026-11-01",
    "lat": 38.7511,
    "lng": -77.472552,
-   "website": null,
+   "website": "https://www.lumeasianfusion.com/",
+   "websiteSource": "OpenStreetMap node/12180114950 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-12a; Fri 11a-2a; Sat 10:30a-2a; Sun 10:30a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -1071,7 +1097,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.lumeasianfusion.com/"
    }
   },
   {
@@ -1274,7 +1300,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/manassas/monza-/ (updated 2026-10-21), checked 2026-11-01",
    "lat": 38.7514,
    "lng": -77.4724,
-   "website": null,
+   "website": "https://www.eatmonza.com/",
+   "websiteSource": "OpenStreetMap node/3894485266 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Wed 11:30a-10p; Thu 11:30a-11p; Fri 11:30a-12:30a; Sat 10:30a-12:30a; Sun 10:30a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1287,9 +1314,10 @@
    "county": "Manassas City",
    "crowdType": {
     "labels": [
-     "Live music fans"
+     "Live music fans",
+     "Locals & regulars"
     ],
-    "summary": "Known for live music.",
+    "summary": "Known for live music; a locals-and-regulars spot.",
     "confidence": "medium",
     "details": [
      {
@@ -1304,6 +1332,19 @@
         "agg": true
        }
       ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.eatmonza.com/",
+        "quote": "nd sports playing on the big screens 24/7...and you can see why we're the area's favorite neighborhood hangout. Come join us! | Contact Us | Address: | 9405 Battle Street, | Manassas, Virginia 20110",
+        "self": true
+       }
+      ]
      }
     ]
    },
@@ -1313,7 +1354,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.eatmonza.com/"
    }
   },
   {
@@ -1506,7 +1547,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/manassas/public-house-kitchen-and-brewery-/ (updated 2026-10-21), checked 2026-11-01",
    "lat": 38.7513,
    "lng": -77.4727,
-   "website": null,
+   "website": "https://www.phbrewpub.com/",
+   "websiteSource": "OpenStreetMap way/747457963 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11a-2a; Tue 4p-2a; Wed-Sat 11a-2a; Sun 10a-2a",
    "hoursNote": null,
    "kitchen": null,
@@ -1525,7 +1567,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.phbrewpub.com/"
    }
   },
   {
@@ -1539,7 +1581,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/manassas/pupuseria-dona-azucena-/ (updated 2026-09-28), checked 2026-11-01",
    "lat": 38.742693,
    "lng": -77.451005,
-   "website": null,
+   "website": "https://rikkosperu.com/",
+   "websiteSource": "OpenStreetMap node/5326401806 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 8:30a-11p; Sun 8:30a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1732,7 +1775,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/manassas/shakin-crab-/ (updated 2026-09-29), checked 2026-11-01",
    "lat": 38.742652,
    "lng": -77.451014,
-   "website": null,
+   "website": "https://www.theshakincrab.com/menus",
+   "websiteSource": "OpenStreetMap node/2320260533 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 3p-9:30p; Fri-Sat 12p-10:30p; Sun 12p-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -1751,7 +1795,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.theshakincrab.com/menus"
    }
   },
   {
@@ -1863,7 +1907,8 @@
    "zip": "20109",
    "phone": "(703) 361-9997",
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/manassas/super-chicken-/ (updated 2026-08-28), checked 2026-11-01",
-   "website": null,
+   "website": "http://superchickenva.com/",
+   "websiteSource": "OpenStreetMap node/12323740013 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 9a-10p; Sat 11a-11p; Sun 10a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -2071,7 +2116,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/manassas/zandras-taqueria-/ (updated 2026-10-30), checked 2026-11-01",
    "lat": 38.751096,
    "lng": -77.472586,
-   "website": null,
+   "website": "https://www.zandrastacos.com/",
+   "websiteSource": "OpenStreetMap node/5257651590 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-1a; Sun 11a-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -2088,7 +2134,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.zandrastacos.com/"
    }
   }
  ],

@@ -59,7 +59,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/south-boston/becks-bar-and-grill-/ (updated 2026-10-14), checked 2026-11-01",
    "lat": 36.7407,
    "lng": -78.9226,
-   "website": null,
+   "website": "https://www.becksbarandgrill.com/",
+   "websiteSource": "OpenStreetMap node/12327139831 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -100,7 +101,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.becksbarandgrill.com/"
    }
   },
   {
@@ -227,7 +228,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/south-boston/hardees-/ (updated 2026-10-01), checked 2026-11-01",
    "lat": 36.687454,
    "lng": -78.898795,
-   "website": null,
+   "website": "https://locations.hardees.com/va/south-boston/1010-bill-tuck-highway-box-6b",
+   "websiteSource": "OpenStreetMap way/94378543 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 5a-9p; Sun 6a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -244,7 +246,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://locations.hardees.com/va/south-boston/1010-bill-tuck-highway-box-6b"
    }
   },
   {
@@ -258,7 +260,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/halifax/hardees-/ (updated 2026-10-18), checked 2026-11-01",
    "lat": 36.761038,
    "lng": -78.927975,
-   "website": null,
+   "website": "https://locations.hardees.com/va/halifax/410-south-main-street",
+   "websiteSource": "OpenStreetMap node/5497797195 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 5a-9p; Sun 6a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -275,7 +278,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://locations.hardees.com/va/halifax/410-south-main-street"
    }
   },
   {
@@ -353,7 +356,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/south-boston/juicy-seafood-/ (updated 2026-09-09), checked 2026-11-01",
    "lat": 36.738,
    "lng": -78.9203,
-   "website": null,
+   "website": "https://juicyseafoodonline.com/",
+   "websiteSource": "OpenStreetMap node/12327347137 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9:30p; Fri-Sat 11a-10p; Sun 12p-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -372,7 +376,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://juicyseafoodonline.com/"
    }
   },
   {
@@ -656,7 +660,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/halifax/molasses-grill-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 36.765213,
    "lng": -78.928666,
-   "website": null,
+   "website": "https://www.molassesgrill.com/",
+   "websiteSource": "OpenStreetMap node/3609059958 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Wed closed; Thu-Sat 5p-10p; Sun 5p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -675,7 +680,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.molassesgrill.com/"
    }
   },
   {
@@ -689,7 +694,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/south-boston/o-sole-mio-pizzeria-/ (updated 2026-09-10), checked 2026-11-01",
    "lat": 36.687551,
    "lng": -78.897926,
-   "website": null,
+   "website": "https://www.osolemiopizzeria.com/",
+   "websiteSource": "OpenStreetMap node/12403540369 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -702,9 +708,10 @@
    "county": "Halifax",
    "crowdType": {
     "labels": [
-     "Families"
+     "Families",
+     "Locals & regulars"
     ],
-    "summary": "Family-friendly.",
+    "summary": "Family-friendly; a locals-and-regulars spot.",
     "confidence": "medium",
     "details": [
      {
@@ -719,6 +726,19 @@
         "agg": true
        }
       ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.osolemiopizzeria.com/",
+        "quote": "staurant is a mainstay of the community. Try them for yourself and see why they're such a local favorite. You can get your pizza to go with curbside pickup from O Sole Mio Pizzeria. Grab somethi",
+        "self": true
+       }
+      ]
      }
     ]
    },
@@ -728,7 +748,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.osolemiopizzeria.com/"
    }
   },
   {

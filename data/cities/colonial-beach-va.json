@@ -16,7 +16,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/montross/angelos-pizza-co-/ (updated 2026-10-16), checked 2026-11-01",
    "lat": 38.095265,
    "lng": -76.827107,
-   "website": null,
+   "website": "https://www.angelos.rocks/",
+   "websiteSource": "OpenStreetMap way/1074095703 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 12p-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -37,7 +38,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.angelos.rocks/"
    }
   },
   {
@@ -50,7 +51,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/colonial-beach/colonial-beach-brewing-/ (updated 2026-09-13), checked 2026-11-01",
    "lat": 38.2519,
    "lng": -76.9632,
-   "website": null,
+   "website": "https://www.cbb.beer",
+   "websiteSource": "OpenStreetMap way/829376583 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 5p-10p; Fri 4p-11p; Sat 12p-11p; Sun 12p-6p",
    "hoursNote": null,
    "kitchen": null,
@@ -114,7 +116,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.cbb.beer"
    }
   },
   {
@@ -128,7 +130,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/colonial-beach/dockside-restaurant-and-tiki-bar-/ (updated 2026-10-15), checked 2026-11-01",
    "lat": 38.23043,
    "lng": -76.96271,
-   "website": null,
+   "website": "https://www.docksidetikibar.com/",
+   "websiteSource": "OpenStreetMap node/12328670783 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Thu 4p-9p; Fri 4p-10p; Sat 12p-11p; Sun 10a-6p",
    "hoursNote": null,
    "kitchen": null,
@@ -307,11 +310,12 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/colonial-beach/ice-house-brewery-and-kitchen-/ (updated 2026-10-06), checked 2026-11-01",
    "lat": 38.248383,
    "lng": -76.965122,
-   "website": null,
+   "website": "https://www.icehousecb.com/",
+   "websiteSource": "OpenStreetMap way/692630699 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 4:30p-9p; Tue closed; Wed-Thu 4:30p-9p; Fri 4:30p-10p; Sat 8:30a-11a,11:30a-10p; Sun 8:30a-11a,11:30a-8p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 9 pm per Venue website icehousecb.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -322,9 +326,10 @@
    "county": "Westmoreland",
    "crowdType": {
     "labels": [
-     "Live music fans"
+     "Live music fans",
+     "Locals & regulars"
     ],
-    "summary": "Known for live music.",
+    "summary": "Known for live music; a locals-and-regulars spot.",
     "confidence": "medium",
     "details": [
      {
@@ -345,18 +350,47 @@
         "quote": "ident the Icehouse is the place to go!! Delicious food and drinks, beautifully decorated, live music, karaoke, nights, and great game nights"
        }
       ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.icehousecb.com/",
+        "quote": "experience. Located on Monroe Bay in Colonial Beach, Virginia, we’re the | go-to spot for locals and visitors looking to relax, refuel, and enjoy | the coastal charm | of | Virginia’s No",
+        "self": true
+       }
+      ]
      }
     ]
    },
    "karaoke": {
     "nights": [],
+    "stale": [],
     "hints": [
      "Restaurantji review/summary mentions karaoke",
      "Restaurantji review/summary mentions karaoke"
     ],
-    "stale": false,
-    "oneoffs": [],
-    "conflicts": []
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "From weekly traditions like Trivia Night and Karaoke to live music, comedy shows, and seasonal festivals, our waterfront stage is the place where the community gathers to celebrate",
+      "url": "https://www.icehousecb.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke Night is one of our most popular weekly traditions",
+      "url": "https://www.icehousecb.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Wednesday Karaoke Night",
+      "url": "https://www.icehousecb.com/events"
+     }
+    ]
    },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
@@ -364,7 +398,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.icehousecb.com/"
    }
   },
   {

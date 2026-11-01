@@ -206,7 +206,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/amherst/the-amherst-corner-restaurant-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 37.621154,
    "lng": -79.013896,
-   "website": null,
+   "website": "https://www.theamherstcorner.com",
+   "websiteSource": "OpenStreetMap way/1308544248 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue 10:30a-5p; Wed-Sat 10:30a-9p; Sun 10:30a-5p",
    "hoursNote": null,
    "kitchen": null,
@@ -217,13 +218,35 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-29) (checked 2026-11-01)",
    "county": "Amherst",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://theamherstcorner.com/",
+        "quote": "Family-Friendly Dining with Outdoor Seating at The Amherst Corner Restaurant | Home | Order Online | This",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/amherst/the-amherst-corner-restaurant-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.theamherstcorner.com"
    }
   },
   {

@@ -49,7 +49,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/winchester/antica-trattoria-/ (updated 2026-07-22), checked 2026-11-01",
    "lat": 39.183973,
    "lng": -78.166554,
-   "website": null,
+   "website": "https://anticatrattoriarestaurant.com/",
+   "websiteSource": "OpenStreetMap node/12233738834 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Sat 11:30a-2:30p,5p-9p; Sun 12p-2:30p,4p-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -90,7 +91,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://anticatrattoriarestaurant.com/"
    }
   },
   {
@@ -188,7 +189,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/winchester/awabi-sushi-bar-/ (updated 2026-10-20), checked 2026-11-01",
    "lat": 39.18268,
    "lng": -78.166243,
-   "website": null,
+   "website": "https://www.winchesterawabi.com/",
+   "websiteSource": "OpenStreetMap node/12233634996 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-3p,5p-9p; Fri-Sun 11:30a-3p,4p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -205,7 +207,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.winchesterawabi.com/"
    }
   },
   {
@@ -252,7 +254,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/winchester/crush-wine-bar-ltd-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 39.144088,
    "lng": -78.189754,
-   "website": null,
+   "website": "https://www.thecrushwinebar.com/",
+   "websiteSource": "OpenStreetMap node/5410129409 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Sat 5p-10p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -267,12 +270,32 @@
    "county": "Winchester City",
    "crowdType": {
     "labels": [
-     "Locals & regulars",
-     "Date night / upscale"
+     "Date night / upscale",
+     "Locals & regulars"
     ],
-    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
-    "confidence": "medium",
+    "summary": "A date-night / upscale spot; a locals-and-regulars spot.",
+    "confidence": "high",
     "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/va/winchester/crush-wine-bar-ltd-/",
+        "quote": "aurants in DC and northern Virginia. Guests often describe the environment as relaxed and romantic, perfect for celebrating special moments or enjoying a quiet meal. The staff consistently",
+        "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thecrushwinebar.com/",
+        "quote": ", the food and drinks are mouth watering, and the ambiance really sets a relaxing, light, romantic atmosphere. They go above and beyond … | Featured in | Stay up to date | Subscribe | Rese",
+        "self": true
+       }
+      ]
+     },
      {
       "label": "Locals & regulars",
       "confidence": "medium",
@@ -285,19 +308,6 @@
         "agg": true
        }
       ]
-     },
-     {
-      "label": "Date night / upscale",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
-        "url": "https://www.restaurantji.com/va/winchester/crush-wine-bar-ltd-/",
-        "quote": "aurants in DC and northern Virginia. Guests often describe the environment as relaxed and romantic, perfect for celebrating special moments or enjoying a quiet meal. The staff consistently",
-        "agg": true
-       }
-      ]
      }
     ]
    },
@@ -307,7 +317,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.thecrushwinebar.com/"
    }
   },
   {
@@ -321,7 +331,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/winchester/dividing-creek-beer-co-/ (updated 2026-10-01), checked 2026-11-01",
    "lat": 39.185664,
    "lng": -78.164956,
-   "website": null,
+   "website": "https://dividingcreekbeerco.com/",
+   "websiteSource": "OpenStreetMap node/8117638751 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 3p-10p; Fri-Sat 12p-10p; Sun 12p-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -340,7 +351,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://dividingcreekbeerco.com/"
    }
   },
   {
@@ -354,7 +365,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/winchester/eastern-chinese-restaurant-/ (updated 2026-09-02), checked 2026-11-01",
    "lat": 39.160639,
    "lng": -78.169818,
-   "website": null,
+   "website": "http://easternchinesecuisine.com/",
+   "websiteSource": "OpenStreetMap node/6525664016 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 10:45a-9:30p; Tue closed; Wed-Thu 10:45a-9:30p; Fri-Sat 10:45a-10p; Sun 12p-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -385,7 +397,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/winchester/el-centro-/ (updated 2026-10-11), checked 2026-11-01",
    "lat": 39.184115,
    "lng": -78.165693,
-   "website": null,
+   "website": "https://www.elcentromex.com/",
+   "websiteSource": "OpenStreetMap node/2623608640 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-9p; Fri-Sat 11a-10p; Sun 11:30a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -449,7 +462,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/winchester/el-sabor-latino-restaurant-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 39.161333,
    "lng": -78.176992,
-   "website": null,
+   "website": "https://elsaborlatinova.com/",
+   "websiteSource": "OpenStreetMap node/12233933096 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 10a-8p; Fri-Sat 10a-9p; Sun 10a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -685,7 +699,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/winchester/i-j-canns-american-grille-/ (updated 2026-10-05), checked 2026-11-01",
    "lat": 39.142314,
    "lng": -78.190223,
-   "website": null,
+   "website": "https://ijcanns.com/",
+   "websiteSource": "OpenStreetMap node/5410249197 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-9:30p; Sun 11a-8:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -698,13 +713,35 @@
    ],
    "source": "hours from Restaurantji listing (updated 2026-10-05) (checked 2026-11-01)",
    "county": "Winchester City",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://ijcanns.com/",
+        "quote": "ike no other. Visit us at our Winchester, VA location and enjoy a drink on the patio. Or, bring the family for a palate-pleasing meal that is served with a smile. No matter why you visit us, we ar",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/winchester/i-j-canns-american-grille-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://ijcanns.com/"
    }
   },
   {
@@ -718,7 +755,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/winchester/ichiban-japanese-steak-and-seafood-house-/ (updated 2026-10-19), checked 2026-11-01",
    "lat": 39.161876,
    "lng": -78.168507,
-   "website": null,
+   "website": "https://ichibansteak.com/",
+   "websiteSource": "OpenStreetMap node/2228107512 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 12p-9p; Fri-Sat 12p-9:30p; Sun 12p-8:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -763,7 +801,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://ichibansteak.com/"
    }
   },
   {
@@ -808,7 +846,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/winchester/italian-touch-/ (updated 2026-10-21), checked 2026-11-01",
    "lat": 39.181841,
    "lng": -78.166563,
-   "website": null,
+   "website": "https://www.italian-touch.net/",
+   "websiteSource": "OpenStreetMap node/12233744931 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 10:30a-9:30p; Fri 10:30a-1:30a; Sat 11a-1:30a; Sun 11a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -827,7 +866,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.italian-touch.net/"
    }
   },
   {
@@ -872,7 +911,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/winchester/macados-/ (updated 2026-05-29), checked 2026-11-01",
    "lat": 39.185582,
    "lng": -78.16514,
-   "website": null,
+   "website": "https://www.macados.net/",
+   "websiteSource": "OpenStreetMap way/699133624 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 9a-11p; Fri-Sat 9a-12a; Sun 9a-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -889,7 +929,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.macados.net/"
    }
   },
   {
@@ -934,7 +974,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/winchester/mi-ranchito-restaurant-/ (updated 2026-10-11), checked 2026-11-01",
    "lat": 39.163516,
    "lng": -78.172832,
-   "website": null,
+   "website": "https://restaurantypupuseriamiranchitova.com/",
+   "websiteSource": "OpenStreetMap node/12233634988 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 9a-9p; Sun 9a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -951,7 +992,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://restaurantypupuseriamiranchitova.com/"
    }
   },
   {
@@ -994,7 +1035,8 @@
    "zip": "22603",
    "phone": "(540) 450-5767",
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/winchester/oishii-sushi-and-ramen-/ (updated 2026-09-04), checked 2026-11-01",
-   "website": null,
+   "website": "https://www.oishiisushiramenva.com/",
+   "websiteSource": "OpenStreetMap node/12233738743 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9:30p; Fri-Sat 11a-10:30p; Sun 12p-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -1011,7 +1053,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.oishiisushiramenva.com/"
    }
   },
   {
@@ -1087,7 +1129,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/winchester/perus-chicken-restaurant-/ (updated 2026-10-18), checked 2026-11-01",
    "lat": 39.143375,
    "lng": -78.189776,
-   "website": null,
+   "website": "https://peruschickenva.com/",
+   "websiteSource": "OpenStreetMap node/12089616958 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1104,7 +1147,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://peruschickenva.com/"
    }
   },
   {
@@ -1118,13 +1161,36 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/winchester/piccadillys-public-house-/ (updated 2026-10-18), checked 2026-11-01",
    "lat": 39.1855,
    "lng": -78.1621,
-   "website": null,
+   "website": "https://www.piccadillypublichouse.com/",
+   "websiteSource": "OpenStreetMap way/479624633 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Wed 11:30a-10p; Thu 11:30a-11p; Fri-Sat 11:30a-1a; Sun 11:30a-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "1/2 Price Boneless Wings, Draft Beer, $2 off Pub Fare",
+     "tags": [
+      "wings",
+      "beer"
+     ],
+     "src": "Venue website piccadillypublichouse.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "Draft Beer, House Rail Drinks, 6oz House Wine, $2 off Pub Fare",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website piccadillypublichouse.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -1153,13 +1219,53 @@
      }
     ]
    },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Thursday: Sky High Karaoke 7:30-11pm",
+      "url": "https://www.piccadillypublichouse.com/live-shows"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "monthly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.piccadillypublichouse.com/",
+        "date": "2026-11-01",
+        "quote": "LIVE DJ | Last Saturday of every month | Last Saturday of every month"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/winchester/piccadillys-public-house-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.piccadillypublichouse.com/"
    }
   },
   {
@@ -1312,7 +1418,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/winchester/thai-lotus-/ (updated 2026-10-30), checked 2026-11-01",
    "lat": 39.142818,
    "lng": -78.190086,
-   "website": null,
+   "website": "https://www.thailotuswinchester.com/",
+   "websiteSource": "OpenStreetMap node/12123426309 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-8p; Fri-Sat 11a-9p; Sun 11a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -1329,7 +1436,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.thailotuswinchester.com/"
    }
   },
   {
@@ -1374,7 +1481,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/winchester/union-jack-pub-and-restaurant-/ (updated 2026-10-11), checked 2026-11-01",
    "lat": 39.1848,
    "lng": -78.1657,
-   "website": null,
+   "website": "https://www.theunionjackpub.com/",
+   "websiteSource": "OpenStreetMap node/8098933540 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-11p; Fri 11a-1a; Sat 10a-1a; Sun 10a-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -1415,7 +1523,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.theunionjackpub.com/"
    }
   },
   {
@@ -1574,7 +1682,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/winchester/village-square-restaurant-/ (updated 2026-10-11), checked 2026-11-01",
    "lat": 39.1848,
    "lng": -78.1657,
-   "website": null,
+   "website": "https://www.villagesquarerestaurant.com/",
+   "websiteSource": "OpenStreetMap node/11558612880 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11:30a-9p; Sun 10:30a-2p",
    "hoursNote": null,
    "kitchen": null,
@@ -1594,7 +1703,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.villagesquarerestaurant.com/"
    }
   },
   {
@@ -1608,7 +1717,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/winchester/violino-ristorante-italiano-/ (updated 2026-10-15), checked 2026-11-01",
    "lat": 39.186148,
    "lng": -78.164935,
-   "website": null,
+   "website": "https://violinoristorante.com/",
+   "websiteSource": "OpenStreetMap way/870561269 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Fri 11:30a-2p,5p-9p; Sat 12p-2p,5p-9p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -1623,9 +1733,10 @@
    "county": "Winchester City",
    "crowdType": {
     "labels": [
-     "Locals & regulars"
+     "Locals & regulars",
+     "Date night / upscale"
     ],
-    "summary": "A locals-and-regulars spot.",
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
     "confidence": "medium",
     "details": [
      {
@@ -1640,6 +1751,19 @@
         "agg": true
        }
       ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://violinoristorante.com/",
+        "quote": "y – Friday) | 12pm – 2pm (Saturday) | Dinner: | 5pm – 9pm (Tuesday - Saturday) | intimate Fine Dining | Northern Italian & Contemporary Cuisine | Violino Ristorante Italiano is located in Win",
+        "self": true
+       }
+      ]
      }
     ]
    },
@@ -1649,7 +1773,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://violinoristorante.com/"
    }
   },
   {

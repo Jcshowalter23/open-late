@@ -16,7 +16,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/gordonsville/china-/ (updated 2026-06-08), checked 2026-11-01",
    "lat": 38.139645,
    "lng": -78.193389,
-   "website": null,
+   "website": "http://chinagordonsville.com/",
+   "websiteSource": "OpenStreetMap node/3336418103 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Sat 11a-9p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -47,24 +48,89 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/gordonsville/champion-ice-house-/ (updated 2026-09-26), checked 2026-11-01",
    "lat": 38.1387,
    "lng": -78.1881,
-   "website": null,
+   "website": "https://www.gordonsvilleicehouse.com/",
+   "websiteSource": "OpenStreetMap node/12278584100 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Thu 11a-8p; Fri-Sat 11a-9p; Sun 10a-7p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Wed",
+     "text": "Families can also enjoy weekly specials, including Kids Eat Free on Wednesdays, plus happy hour and trivia for extra fun throughout the week",
+     "tags": [],
+     "src": "Venue website gordonsvilleicehouse.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-09-26); the venue's Facebook page could not be read (checked 2026-11-01)",
    "county": "Orange",
+   "crowdType": {
+    "labels": [
+     "Live music fans",
+     "Families",
+     "Date night / upscale"
+    ],
+    "summary": "Known for live music; family-friendly; a date-night / upscale spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/va/gordonsville/champion-ice-house-/",
+        "quote": "live music"
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.gordonsvilleicehouse.com/",
+        "quote": "--> | Family & Dog-Friendly Restaurant, Beer Garden, Catering, Take Out & Delivery, Live Music Venue Gordonsville VA - Gordonsville Ice House | top of page | GORDONSVILLE ICE HOUSE | MENU",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.gordonsvilleicehouse.com/",
+        "quote": "or every 50 points | Plus, enjoy 25 bonus points just for signing up! | SIGN UP TODAY | A Family-Friendly Restaurant and Gathering Place | Our restaurant is designed to bring people together thro",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.gordonsvilleicehouse.com/",
+        "quote": "ack decades. In homage to those roots, GIH brings the attention to detail of an acclaimed fine dining chef to one of the nation’s most popular foods. Many consider it the best version ever.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/gordonsville/champion-ice-house-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.gordonsvilleicehouse.com/"
    }
   },
   {
@@ -78,7 +144,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/barboursville/palladio-restaurant-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.15878,
    "lng": -78.277296,
-   "website": null,
+   "website": "https://www.bbvwine.com/palladio-restaurant",
+   "websiteSource": "OpenStreetMap node/3769608760 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Thu 12p-2:30p; Fri-Sat 12p-2:30p,6:30p-9p; Sun 12p-2:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -95,7 +162,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.bbvwine.com/palladio-restaurant"
    }
   },
   {

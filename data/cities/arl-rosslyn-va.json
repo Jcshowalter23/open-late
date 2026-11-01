@@ -47,7 +47,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/bibimix-/ (updated 2026-09-27), checked 2026-11-01",
    "lat": 38.892868,
    "lng": -77.080966,
-   "website": null,
+   "website": "https://www.bibimixbowl.com/",
+   "websiteSource": "OpenStreetMap node/6141419229 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -64,7 +65,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.bibimixbowl.com/"
    }
   },
   {
@@ -78,7 +79,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/burger-district-gourmet-burgers-and-bar-/ (updated 2026-07-13), checked 2026-11-01",
    "lat": 38.892263,
    "lng": -77.08237,
-   "website": null,
+   "website": "https://www.burgerdistrict.us/",
+   "websiteSource": "OpenStreetMap node/4210132189 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Wed 11a-8p; Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -171,26 +173,78 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/continental-beer-garden-/ (updated 2026-08-24), checked 2026-11-01",
    "lat": 38.896918,
    "lng": -77.07239,
-   "website": null,
+   "website": "https://continentalpoollounge.com/continental-beer-garden/",
+   "websiteSource": "OpenStreetMap node/4974382714 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Fri 3:30p-10p; Sat-Sun closed",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour 4-7pm",
+     "tags": [],
+     "src": "Venue website continentalpoollounge.com/continental-beer-garden",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$2 off pints/cans/glasses of wine",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website continentalpoollounge.com/continental-beer-garden",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Sun",
+     "text": "1% – $9/$32 Downeast Flavored Cider 5% – $9/$32 Golden Road Mango Cart 5% – $9/$32 3 Notch’d Passionfruit Gose 5% – $10/$36 Solace Suns Out Hops Out Session IPA 4",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website continentalpoollounge.com/continental-beer-garden",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
    ],
    "source": "hours from Restaurantji listing (updated 2026-08-24) (checked 2026-11-01)",
    "county": "Arlington",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://continentalpoollounge.com/continental-beer-garden/",
+        "quote": "Saturdays. We are 100% outdoor so operation is weather dependent. | • Happy Hour 4-7pm • Family Friendly (minors can enter accompanied by a parent/guardian) and pups welcome! | Continental Beer",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/arlington/continental-beer-garden-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://continentalpoollounge.com/continental-beer-garden/"
    }
   },
   {
@@ -204,8 +258,77 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/courthaus-social-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.890331,
    "lng": -77.086523,
-   "website": null,
+   "website": "https://www.courthaussocial.com/",
+   "websiteSource": "OpenStreetMap node/3739550132 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Wed 11a-10p; Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-29) (checked 2026-11-01)",
+   "county": "Arlington",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/va/arlington/courthaus-social-/",
+        "quote": "s a great space for relaxing with drinks and chatting, making it a favorite spot for many locals. Recent reviews highlight the quality of the food, especially the German-style plates and",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.courthaussocial.com/",
+        "quote": "• Happy Hour | Mon- Fri 3-6 pm • District Trivia | Wed 7pm • Dog Friendly Patio • Sports Bar | Location | Conveniently located in Arlington, Virginia next to the | Courthouse Metro S",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/va/arlington/courthaus-social-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.courthaussocial.com/"
+   }
+  },
+  {
+   "id": "va-guajillo",
+   "name": "Guajillo",
+   "cuisine": "Restaurant",
+   "address": "1727 Wilson Blvd, Arlington",
+   "state": "VA",
+   "zip": "22209",
+   "phone": "(703) 807-0840",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/guajillo-/ (updated 2026-10-29), checked 2026-11-01",
+   "lat": 38.893954,
+   "lng": -77.078726,
+   "website": "https://www.guajillomexican.com/",
+   "websiteSource": "OpenStreetMap node/2563891113 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 4p-9p; Fri 12p-10p; Sat-Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
@@ -227,11 +350,11 @@
       "confidence": "medium",
       "evidence": [
        {
-        "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
-        "url": "https://www.restaurantji.com/va/arlington/courthaus-social-/",
-        "quote": "s a great space for relaxing with drinks and chatting, making it a favorite spot for many locals. Recent reviews highlight the quality of the food, especially the German-style plates and",
-        "agg": true
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.guajillomexican.com/",
+        "quote": "their chips and warm salsa (full of flavor) to their guacamole.” | — Stuart L. | See Why Locals Love Our Mexican Food in Arlington | “Looking for the best Mexican restaurant near you in",
+        "self": true
        }
       ]
      }
@@ -239,42 +362,11 @@
    },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/va/arlington/courthaus-social-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   }
-  },
-  {
-   "id": "va-guajillo",
-   "name": "Guajillo",
-   "cuisine": "Restaurant",
-   "address": "1727 Wilson Blvd, Arlington",
-   "state": "VA",
-   "zip": "22209",
-   "phone": "(703) 807-0840",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/guajillo-/ (updated 2026-10-29), checked 2026-11-01",
-   "lat": 38.893954,
-   "lng": -77.078726,
-   "website": null,
-   "hours": "Mon-Thu 4p-9p; Fri 12p-10p; Sat-Sun 11a-10p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from Restaurantji listing (updated 2026-10-29) (checked 2026-11-01)",
-   "county": "Arlington",
-   "crowdChecked": "2026-11-01",
-   "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/arlington/guajillo-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.guajillomexican.com/"
    }
   },
   {
@@ -319,7 +411,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/hot-lolas-2/ (updated 2026-10-06), checked 2026-11-01",
    "lat": 38.894848,
    "lng": -77.073943,
-   "website": null,
+   "website": "https://www.hotlolas.com/",
+   "websiteSource": "OpenStreetMap node/10571991077 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -336,7 +429,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.hotlolas.com/"
    }
   },
   {
@@ -350,7 +443,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/inca-social-/ (updated 2026-10-01), checked 2026-11-01",
    "lat": 38.893938,
    "lng": -77.078431,
-   "website": null,
+   "website": "https://incasocial.com/",
+   "websiteSource": "OpenStreetMap node/3396064826 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Wed 11a-10p; Thu-Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -361,13 +455,48 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-01) (checked 2026-11-01)",
    "county": "Arlington",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://incasocial.com/",
+        "quote": "ats every guest like family, and our restaurants are perfect for celebrations, birthdays, date nights, private events, corporate happy hours, and catering at your venue. | When you dine at I",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Every Saturday night we turn up the energy with Inca Nights starting at 8pm featuring live music or DJs that bring the perfect vibe for late dinner and dancing",
+      "url": "https://incasocial.com/"
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/arlington/inca-social-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://incasocial.com/"
    }
   },
   {
@@ -381,7 +510,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/irelands-four-courts-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.8918,
    "lng": -77.0841,
-   "website": null,
+   "website": "https://www.irelandsfourcourts.com/",
+   "websiteSource": "OpenStreetMap way/1089664537 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue 2p-1a; Wed 2p-2a; Thu-Fri 11:30a-2a; Sat 9a-2a; Sun 9a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -394,14 +524,15 @@
    "county": "Arlington",
    "crowdType": {
     "labels": [
-     "Sports fans"
+     "Sports fans",
+     "Locals & regulars"
     ],
-    "summary": "Popular for watching games.",
-    "confidence": "medium",
+    "summary": "Popular for watching games; a locals-and-regulars spot.",
+    "confidence": "high",
     "details": [
      {
       "label": "Sports fans",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence": [
        {
         "type": "reviews",
@@ -409,8 +540,102 @@
         "url": "https://www.restaurantji.com/va/arlington/irelands-four-courts-/",
         "quote": "Chicken Wrap being a popular choice. The lively atmosphere features multiple screens for watching sports, and even when busy, the bar stays clean and well-maintained. The menu offers a good vari",
         "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.irelandsfourcourts.com/",
+        "quote": "Ireland’s Four Courts | Irish Pub & Sports Bar in Arlington, VA | Skip to main content | 2051 Wilson Boulevard, | Arlington, VA 22201",
+        "self": true
        }
       ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.irelandsfourcourts.com/",
+        "quote": "e’re proud to be part of the Arlington community and a home away from home for neighbors, regulars, sports fans, and local supporters’ clubs. | From the Nova Vikes to Penn State and Army f",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.irelandsfourcourts.com/",
+        "date": "2026-11-01",
+        "quote": "Karaoke | Every Wednesday"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": "9:00 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.irelandsfourcourts.com/",
+        "date": "2026-11-01",
+        "quote": "Holiday Sunday Karaoke"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.irelandsfourcourts.com/",
+        "date": "2026-11-01",
+        "quote": "When Monday is a federal holiday, keep the weekend going with Sunday night karaoke | 9:00 PM"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.irelandsfourcourts.com/entertainment/",
+        "date": "2026-11-01",
+        "quote": "Holiday Sunday Karaoke | Holiday Sundays | 9:00 PM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Live Music, Pub Quiz & Karaoke in Arlington",
+      "url": "https://www.irelandsfourcourts.com/entertainment/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Ireland’s Four Courts brings the best in local entertainment to Arlington, from live music and karaoke to comedy open mics and weekly pub quiz",
+      "url": "https://www.irelandsfourcourts.com/entertainment/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "From weekly favorites to live music and holiday karaoke,",
+      "url": "https://www.irelandsfourcourts.com/entertainment/"
      }
     ]
    },
@@ -420,7 +645,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.irelandsfourcourts.com/"
    }
   },
   {
@@ -465,7 +690,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/mele-bistro-/ (updated 2026-09-18), checked 2026-11-01",
    "lat": 38.893962,
    "lng": -77.078703,
-   "website": null,
+   "website": "https://www.melebistro.com/",
+   "websiteSource": "OpenStreetMap node/571865059 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 4:30p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -496,26 +722,84 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/open-road-rosslyn-/ (updated 2026-10-20), checked 2026-11-01",
    "lat": 38.895149,
    "lng": -77.070875,
-   "website": null,
+   "website": "https://www.openroadgrill.com",
+   "websiteSource": "OpenStreetMap node/8567931757 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$2 off Classic Wings",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website eatopenroad.com/locations/merrifield",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "$2 off small plates, sliding pint and cocktail specials",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website eatopenroad.com/locations/rosslyn",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
    ],
    "source": "hours from Restaurantji listing (updated 2026-10-20) (checked 2026-11-01)",
    "county": "Arlington",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://eatopenroad.com/",
+        "quote": "s made for long afternoons. | It's a spot where families are welcome and neighbors become regulars, rooted in the communities we serve. Wherever the road takes you across the DC Metro area",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://eatopenroad.com/",
+        "quote": "ad brings together neighborhood energy, live music, inviting patios, craft cocktails, and family-friendly spaces for everyone to enjoy. | Book a Table | Order Online | See Our Menus | Best of NoV",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/arlington/open-road-rosslyn-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.openroadgrill.com"
    }
   },
   {
@@ -529,7 +813,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/quarterdeck-/ (updated 2026-10-15), checked 2026-11-01",
    "lat": 38.888,
    "lng": -77.0758,
-   "website": null,
+   "website": "https://www.quarterdeckarlington.com/",
+   "websiteSource": "OpenStreetMap way/150858020 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11:30a-11:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -546,7 +831,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.quarterdeckarlington.com/"
    }
   },
   {
@@ -560,7 +845,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/ragtime-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.888864,
    "lng": -77.083515,
-   "website": null,
+   "website": "https://ragtimerestaurant.com",
+   "websiteSource": "OpenStreetMap node/3737297140 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11a-2a; Sat-Sun 10a-2a",
    "hoursNote": null,
    "kitchen": null,
@@ -672,7 +958,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/saigon-noodles-and-grill-/ (updated 2026-08-28), checked 2026-11-01",
    "lat": 38.89364,
    "lng": -77.079181,
-   "website": null,
+   "website": "https://www.saigonnoodlesgrill.com/",
+   "websiteSource": "OpenStreetMap node/4058894289 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -691,7 +978,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.saigonnoodlesgrill.com/"
    }
   },
   {
@@ -705,7 +992,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/sawatdee-thai-restaurant-/ (updated 2026-09-03), checked 2026-11-01",
    "lat": 38.890443,
    "lng": -77.086252,
-   "website": null,
+   "website": "https://www.sawatdeeva.com/",
+   "websiteSource": "OpenStreetMap node/578402212 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-3p,4:30p-9:30p; Fri 11:30a-3p,4:30p-9:45p; Sat-Sun 12p-9:45p",
    "hoursNote": null,
    "kitchen": null,
@@ -744,7 +1032,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.sawatdeeva.com/"
    }
   },
   {
@@ -789,7 +1077,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/sfoglina-rosslyn-/ (updated 2026-10-20), checked 2026-11-01",
    "lat": 38.894667,
    "lng": -77.069618,
-   "website": null,
+   "website": "https://sfoglinapasta.com/rosslyn",
+   "websiteSource": "OpenStreetMap node/10965203293 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-9:30p; Fri 11:30a-10p; Sat 12p-10p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -806,7 +1095,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://sfoglinapasta.com/rosslyn"
    }
   },
   {
@@ -820,7 +1109,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/sushi-rock-/ (updated 2026-09-29), checked 2026-11-01",
    "lat": 38.892303,
    "lng": -77.08055,
-   "website": null,
+   "website": "https://www.sushirockva.com/",
+   "websiteSource": "OpenStreetMap node/916267347 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -837,7 +1127,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.sushirockva.com/"
    }
   },
   {
@@ -851,7 +1141,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/toryumon-japanese-house-arlington-/ (updated 2026-10-31), checked 2026-11-01",
    "lat": 38.894212,
    "lng": -77.077453,
-   "website": null,
+   "website": "https://www.toryumonarlington.com/",
+   "websiteSource": "OpenStreetMap node/10083811319 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-3:15p,5p-10p; Fri 11a-3:15p,5p-10:30p; Sat 12p-10:30p; Sun 12p-9:30p",
    "hoursNote": null,
    "kitchen": null,

@@ -16,12 +16,22 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/ballston-local-/ (updated 2026-09-27), checked 2026-11-01",
    "lat": 38.880608,
    "lng": -77.115197,
-   "website": null,
+   "website": "https://www.ballstonlocal.com/",
+   "websiteSource": "OpenStreetMap node/9596339846 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-12a; Fri 11:30a-2a; Sat 12p-2a; Sun 12p-12a",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "HAPPY HOUR 3pm-7pm",
+     "tags": [],
+     "src": "Venue website ballstonlocal.com/arlington-ballston-ballston-local-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -30,9 +40,10 @@
    "crowdType": {
     "labels": [
      "Locals & regulars",
-     "Sports fans"
+     "Sports fans",
+     "Date night / upscale"
     ],
-    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "summary": "A locals-and-regulars spot; popular for watching games; a date-night / upscale spot.",
     "confidence": "medium",
     "details": [
      {
@@ -60,6 +71,19 @@
         "agg": true
        }
       ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://ballstonlocal.com/",
+        "quote": "rom. Their friendly staff adds to the overall enjoyable dining experience. Whether it's a date night or a gathering with friends, \"Bollston Local\" has something for everyone. | Review by - G",
+        "self": true
+       }
+      ]
      }
     ]
    },
@@ -78,7 +102,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.ballstonlocal.com/"
    }
   },
   {
@@ -92,7 +116,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/big-buns-damn-good-burgers-/ (updated 2026-07-13), checked 2026-11-01",
    "lat": 38.880134,
    "lng": -77.113369,
-   "website": null,
+   "website": "https://www.eatbigbuns.com/",
+   "websiteSource": "OpenStreetMap node/1619566649 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -109,7 +134,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.eatbigbuns.com/"
    }
   },
   {
@@ -123,7 +148,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/the-bronson-bierhall-/ (updated 2026-10-19), checked 2026-11-01",
    "lat": 38.882282,
    "lng": -77.109479,
-   "website": null,
+   "website": "https://bronsonbierhall.com/",
+   "websiteSource": "OpenStreetMap node/6555963529 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-12a; Fri 11:30a-2a; Sat 11a-2a; Sun 11a-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -140,7 +166,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://bronsonbierhall.com/"
    }
   },
   {
@@ -154,7 +180,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/carbonara-/ (updated 2026-09-03), checked 2026-11-01",
    "lat": 38.880419,
    "lng": -77.10568,
-   "website": null,
+   "website": "https://carbonarava.com/",
+   "websiteSource": "OpenStreetMap node/11751506192 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11:30a-10p; Sat-Sun 12p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -207,7 +234,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://carbonarava.com/"
    }
   },
   {
@@ -221,7 +248,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/crystal-thai-restaurant-/ (updated 2026-10-01), checked 2026-11-01",
    "lat": 38.86745,
    "lng": -77.116856,
-   "website": null,
+   "website": "https://crystalthai.com/",
+   "websiteSource": "OpenStreetMap node/3744737332 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11:30a-9:30p; Sat-Sun 12p-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -238,7 +266,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://crystalthai.com/"
    }
   },
   {
@@ -252,7 +280,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/fettoosh-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.877887,
    "lng": -77.122155,
-   "website": null,
+   "website": "http://www.fettoosh.com/",
+   "websiteSource": "OpenStreetMap node/5895178163 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Sat 11:30a-9:30p; Sun 12p-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -283,7 +312,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/first-down-sports-bar-and-grill-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.882397,
    "lng": -77.110923,
-   "website": null,
+   "website": "https://www.firstdownsportsbar.com/",
+   "websiteSource": "OpenStreetMap node/1290889901 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue 3p-12a; Wed 11a-11p; Thu 11a-12a; Fri-Sat 11a-2a; Sun 11a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -301,11 +331,11 @@
      "Sports fans"
     ],
     "summary": "Popular for watching games.",
-    "confidence": "medium",
+    "confidence": "high",
     "details": [
      {
       "label": "Sports fans",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence": [
        {
         "type": "reviews",
@@ -319,6 +349,13 @@
         "src": "Restaurantji review #3",
         "url": "https://www.restaurantji.com/va/arlington/first-down-sports-bar-and-grill-/",
         "quote": "Older sports bar. Fun to watch a sports game. Food was decent. Drinks were good"
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://firstdownsportsbar.com/",
+        "quote": "Must-Try Bar in Ballston | First Down Sports Bar & Grill | Skip to main content | Drinks | Menu | Order | Catering | Events | Parties | Su",
+        "self": true
        }
       ]
      }
@@ -330,7 +367,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.firstdownsportsbar.com/"
    }
   },
   {
@@ -344,7 +381,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/gyu-san-japanese-bbq-and-bar-/ (updated 2026-10-20), checked 2026-11-01",
    "lat": 38.879975,
    "lng": -77.112507,
-   "website": null,
+   "website": "https://www.gyusan.com/",
+   "websiteSource": "OpenStreetMap node/12207975098 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-10p; Fri 11:30a-11p; Sat 12:30p-11p; Sun 12:30p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -363,7 +401,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.gyusan.com/"
    }
   },
   {
@@ -377,7 +415,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/hawkers-asian-street-food-/ (updated 2026-10-07), checked 2026-11-01",
    "lat": 38.879927,
    "lng": -77.110308,
-   "website": null,
+   "website": "https://eathawkers.com/locations/arlington/",
+   "websiteSource": "OpenStreetMap node/9960460114 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -394,7 +433,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://eathawkers.com/locations/arlington/"
    }
   },
   {
@@ -439,7 +478,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/immigrant-food-ballston-/ (updated 2026-09-04), checked 2026-11-01",
    "lat": 38.882307,
    "lng": -77.111912,
-   "website": null,
+   "website": "https://immigrantfood.com/",
+   "websiteSource": "OpenStreetMap node/12078643618 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 11a-9p; Fri 11a-10p; Sat 11:30a-10p; Sun 11:30a-3p",
    "hoursNote": null,
    "kitchen": null,
@@ -478,7 +518,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://immigrantfood.com/"
    }
   },
   {
@@ -578,7 +618,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/jon-s-joint-/ (updated 2026-09-05), checked 2026-11-01",
    "lat": 38.873511,
    "lng": -77.104837,
-   "website": null,
+   "website": "https://www.seamless.com/menu/jons-joint-250-n-glebe-rd-arlington/9739536",
+   "websiteSource": "OpenStreetMap node/3900513815 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -595,7 +636,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.seamless.com/menu/jons-joint-250-n-glebe-rd-arlington/9739536"
    }
   },
   {
@@ -609,7 +650,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/kabob-house-food-corner-/ (updated 2026-10-17), checked 2026-11-01",
    "lat": 38.881573,
    "lng": -77.107645,
-   "website": null,
+   "website": "https://kabobgardenrestaurant.com/",
+   "websiteSource": "OpenStreetMap node/12978069057 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-10p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -626,7 +668,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://kabobgardenrestaurant.com/"
    }
   },
   {
@@ -640,7 +682,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/la-union-restaurant-/ (updated 2026-09-26), checked 2026-11-01",
    "lat": 38.876592,
    "lng": -77.127767,
-   "website": null,
+   "website": "https://www.launionrestaurant.com/",
+   "websiteSource": "OpenStreetMap way/262949474 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-9p; Sun 1p-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -724,7 +767,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/pupatella-/ (updated 2026-09-19), checked 2026-11-01",
    "lat": 38.877853,
    "lng": -77.122288,
-   "website": null,
+   "website": "https://www.pupatella.com/",
+   "websiteSource": "OpenStreetMap node/2918682165 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -741,7 +785,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.pupatella.com/"
    }
   },
   {
@@ -755,7 +799,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/quincy-hall-/ (updated 2026-10-17), checked 2026-11-01",
    "lat": 38.882616,
    "lng": -77.107833,
-   "website": null,
+   "website": "https://www.quincyhallbar.com/",
+   "websiteSource": "OpenStreetMap node/9627480607 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 4p-10p; Tue-Wed 4p-11p; Thu 4p-12a; Fri 4p-2a; Sat 11a-2a; Sun 11:30a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -768,9 +813,11 @@
    "county": "Arlington",
    "crowdType": {
     "labels": [
-     "Families"
+     "Families",
+     "Locals & regulars",
+     "Sports fans"
     ],
-    "summary": "Family-friendly.",
+    "summary": "Family-friendly; a locals-and-regulars spot; popular for watching games.",
     "confidence": "medium",
     "details": [
      {
@@ -785,18 +832,76 @@
         "agg": true
        }
       ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.quincyhallbar.com/",
+        "quote": "--> | Sports Bar & Neighborhood Bar in Arlington, VA | Quincy Hall | top of page | Join us on Halloween to find your new boo!",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.quincyhallbar.com/",
+        "quote": "--> | Sports Bar & Neighborhood Bar in Arlington, VA | Quincy Hall | top of page | Join us on Halloween to",
+        "self": true
+       }
+      ]
      }
     ]
    },
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "10pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.quincyhallbar.com/",
+        "date": "2026-11-01",
+        "quote": "Saturday Night Karaoke"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.quincyhallbar.com/",
+        "date": "2026-11-01",
+        "quote": "Saturday Night Karaoke with Championship Leage Karaoke"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.quincyhallbar.com/private-events",
+        "date": "2026-11-01",
+        "quote": "Late Night Karaoke Every Saturday at 10pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
     "hints": [
      "Google attribute 'karaoke' (via Restaurantji)",
      "Restaurantji review/summary mentions karaoke"
     ],
-    "stale": false,
-    "oneoffs": [],
-    "conflicts": []
+    "conflicts": [],
+    "oneoffs": []
    },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
@@ -804,7 +909,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.quincyhallbar.com/"
    }
   },
   {
@@ -818,7 +923,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/ravi-chatkhara-/ (updated 2026-08-27), checked 2026-11-01",
    "lat": 38.874025,
    "lng": -77.105206,
-   "website": null,
+   "website": "https://www.ravikabobusa.com/",
+   "websiteSource": "OpenStreetMap node/4210979827 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -849,7 +955,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/rickys-pub-and-grill-/ (updated 2026-08-25), checked 2026-11-01",
    "lat": 38.873507,
    "lng": -77.104478,
-   "website": null,
+   "website": "https://rickyspubarlington.com/",
+   "websiteSource": "OpenStreetMap node/3900520288 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 9:30a-10p; Fri-Sat 9:30a-2a; Sun 9:30a-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -890,7 +997,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://rickyspubarlington.com/"
    }
   },
   {
@@ -904,11 +1011,12 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/rus-uz-/ (updated 2026-08-04), checked 2026-11-01",
    "lat": 38.882526,
    "lng": -77.109526,
-   "website": null,
+   "website": "https://rusuz.com/",
+   "websiteSource": "OpenStreetMap node/3732378171 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 12p-9p; Fri-Sat 12p-10p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 30 pm per Venue website rusuz.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -921,7 +1029,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://rusuz.com/"
    }
   },
   {
@@ -935,7 +1043,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/ser-restaurant-/ (updated 2026-10-16), checked 2026-11-01",
    "lat": 38.883827,
    "lng": -77.116734,
-   "website": null,
+   "website": "https://ser-restaurant.com/",
+   "websiteSource": "OpenStreetMap node/3732378172 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-10p; Fri-Sat 11:30a-11p; Sun 11:30a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -952,7 +1061,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://ser-restaurant.com/"
    }
   },
   {
@@ -966,7 +1075,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/silver-diner-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.879951,
    "lng": -77.114057,
-   "website": null,
+   "website": "https://www.silverdiner.com/",
+   "websiteSource": "OpenStreetMap node/10838100093 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 7a-11p; Tue-Thu 7a-12a; Fri-Sat 7a-1a; Sun 7a-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -1007,7 +1117,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.silverdiner.com/"
    }
   },
   {
@@ -1021,7 +1131,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/soul-thai-kitchen-and-bar-/ (updated 2026-09-03), checked 2026-11-01",
    "lat": 38.873647,
    "lng": -77.140464,
-   "website": null,
+   "website": "https://www.soulthaikitchenandbar.com/",
+   "websiteSource": "OpenStreetMap node/7335560119 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11a-10p; Sat-Sun 12p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1040,7 +1151,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.soulthaikitchenandbar.com/"
    }
   },
   {
@@ -1054,12 +1165,22 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/taco-bamba-/ (updated 2026-10-31), checked 2026-11-01",
    "lat": 38.879828,
    "lng": -77.107686,
-   "website": null,
+   "website": "https://www.tacobamba.com/location/taco-bamba-taqueria-ballston/",
+   "websiteSource": "OpenStreetMap node/11369515747 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 8a-10p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Late-night happy hour is available from 9pm-close at our",
+     "tags": [],
+     "src": "Venue website tacobamba.com/location/taco-bamba-taqueria-ballston",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -1071,7 +1192,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.tacobamba.com/location/taco-bamba-taqueria-ballston/"
    }
   },
   {
@@ -1116,7 +1237,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/teds-bulletin-/ (updated 2026-10-17), checked 2026-11-01",
    "lat": 38.879861,
    "lng": -77.110784,
-   "website": null,
+   "website": "https://www.tedsbulletin.com/location/ballston/",
+   "websiteSource": "OpenStreetMap node/6519116641 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 7a-10p; Fri-Sat 7a-11p; Sun 7a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1133,7 +1255,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.tedsbulletin.com/location/ballston/"
    }
   },
   {
@@ -1147,7 +1269,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/thai-treasure-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.882584,
    "lng": -77.105845,
-   "website": null,
+   "website": "https://thaitreasureva.com/",
+   "websiteSource": "OpenStreetMap node/12207966525 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1166,7 +1289,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://thaitreasureva.com/"
    }
   },
   {
@@ -1180,7 +1303,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/the-commentary-/ (updated 2026-10-20), checked 2026-11-01",
    "lat": 38.880271,
    "lng": -77.114038,
-   "website": null,
+   "website": "https://thecommentaryarl.com/",
+   "websiteSource": "OpenStreetMap node/10838100092 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 6:30a-11p; Sat-Sun 7a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1191,13 +1315,31 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-20) (checked 2026-11-01)",
    "county": "Arlington",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Bp'Ib&1\u0014k wI1V,cq5,tz~ۖȗ\u0011Hx(2ap ˄׽=)lz\u000fyWEN\u0015Dj'7 \u0017|xNnBm\u001aig\u0010R\u0012 \u001bmFf-2gGHS6{M B\u000eѣ\\U\u0016 &|`\u0015eCd{r*i8c",
+      "url": "https://thecommentaryarl.com/wp-content/uploads/2025/01/6-1.jpg"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Ez>Y8SULG \u0001甼Y\u0013\u0019\u0018=9crTKJ&D9S\"\u0014 Њ\u0014\u0018\u001b\\9g{\u0006m5Uˮwmtirmi(fvCq\u0006}M}M}DJ;zR])fѝ&*\u0017#\u0007/y*[\u0015h񯩽",
+      "url": "https://thecommentaryarl.com/wp-content/uploads/2025/01/6-1.jpg"
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/arlington/the-commentary-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://thecommentaryarl.com/"
    }
   },
   {
@@ -1211,12 +1353,30 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/the-salt-line-/ (updated 2026-10-09), checked 2026-11-01",
    "lat": 38.879839,
    "lng": -77.108219,
-   "website": null,
+   "website": "https://www.thesaltline.com/",
+   "websiteSource": "OpenStreetMap node/12207975145 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-10p; Fri 11:30a-11p; Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "While The Salt Line Bethesda does not feature a private dining room, we can seat 10-12 guests in our main dining room or larger happy hour groups in the bar area",
+     "tags": [],
+     "src": "Venue website thesaltline.com/bethesda-private-events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Happy Hour menu available from opening until 6PM",
+     "tags": [],
+     "src": "Venue website thesaltline.com/location/the-salt-line",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -1250,7 +1410,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.thesaltline.com/"
    }
   },
   {
@@ -1264,7 +1424,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/uncle-julios-mexican-from-scratch-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 38.882287,
    "lng": -77.112785,
-   "website": null,
+   "website": "https://unclejulios.com/locations/arlington-ballston/",
+   "websiteSource": "OpenStreetMap node/1290909578 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1303,7 +1464,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://unclejulios.com/locations/arlington-ballston/"
    }
   },
   {
@@ -1317,7 +1478,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/urban-tandoor-/ (updated 2026-10-12), checked 2026-11-01",
    "lat": 38.879941,
    "lng": -77.107537,
-   "website": null,
+   "website": "https://www.utandoorva.com/",
+   "websiteSource": "OpenStreetMap node/6016366497 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-2:30p,5p-9:30p; Fri-Sat 11:30a-2:30p,5p-10p; Sun 11:30a-2:30p,5p-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -1332,9 +1494,10 @@
    "county": "Arlington",
    "crowdType": {
     "labels": [
-     "Date night / upscale"
+     "Date night / upscale",
+     "Locals & regulars"
     ],
-    "summary": "A date-night / upscale spot.",
+    "summary": "A date-night / upscale spot; a locals-and-regulars spot.",
     "confidence": "medium",
     "details": [
      {
@@ -1349,6 +1512,19 @@
         "agg": true
        }
       ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.utandoorva.com/",
+        "quote": "available at | this moment. | OK | Join Our Loyalty | Program | Exclusive rewards for our regulars | Signup Now | ×",
+        "self": true
+       }
+      ]
      }
     ]
    },
@@ -1358,7 +1534,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.utandoorva.com/"
    }
   },
   {

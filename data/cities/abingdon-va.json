@@ -142,7 +142,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/abingdon/captain-ds-seafood-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 36.70119,
    "lng": -81.974503,
-   "website": null,
+   "website": "https://locations.captainds.com/ll/US/VA/Abingdon/555-Cummings-St",
+   "websiteSource": "OpenStreetMap way/544781870 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 10:30a-10p; Fri-Sat 10:30a-11p; Sun 10:30a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -159,7 +160,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://locations.captainds.com/ll/US/VA/Abingdon/555-Cummings-St"
    }
   },
   {
@@ -206,7 +207,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/abingdon/delta-blues-bbq-abingdon-/ (updated 2026-09-06), checked 2026-11-01",
    "lat": 36.709,
    "lng": -81.9784,
-   "website": null,
+   "website": "https://www.deltablues-bbq.com/",
+   "websiteSource": "OpenStreetMap node/12242267982 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 11a-9p; Fri-Sat 11a-9:30p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -379,7 +381,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/abingdon/jjs-restaurant-and-sports-bar-/ (updated 2026-10-15), checked 2026-11-01",
    "lat": 36.7024,
    "lng": -82.0059,
-   "website": null,
+   "website": "https://www.eatatjjs.com/",
+   "websiteSource": "OpenStreetMap node/12240466239 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -397,11 +400,11 @@
      "Sports fans"
     ],
     "summary": "Popular for watching games.",
-    "confidence": "medium",
+    "confidence": "high",
     "details": [
      {
       "label": "Sports fans",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence": [
        {
         "type": "reviews",
@@ -409,6 +412,13 @@
         "url": "https://www.restaurantji.com/va/abingdon/jjs-restaurant-and-sports-bar-/",
         "quote": "JJ's Restaurant & Sports Bar is a popular spot known for its great food and amazing people. The restaurant serves hand",
         "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.eatatjjs.com/",
+        "quote": "--> | Home | JJs Restaurant & Sports Bar | Abingdon VA | top of page | Home | Menu | Location & Hours | More | Use tab to navigate",
+        "self": true
        }
       ]
      }
@@ -420,7 +430,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.eatatjjs.com/"
    }
   },
   {
@@ -434,7 +444,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/abingdon/los-dorados-/ (updated 2026-10-18), checked 2026-11-01",
    "lat": 36.704981,
    "lng": -81.97476,
-   "website": null,
+   "website": "https://losdoradosabingdon.com/",
+   "websiteSource": "OpenStreetMap node/12240005974 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -445,13 +456,35 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-18) (checked 2026-11-01)",
    "county": "Washington",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://losdoradosabingdon.com/",
+        "quote": "ngdon, Virginia, where we’ve expanded to share our traditions with even more people. As a family-friendly restaurant, we serve every meal with love from sizzling fajitas to hand-pressed tortillas",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/abingdon/los-dorados-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://losdoradosabingdon.com/"
    }
   },
   {
@@ -496,7 +529,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/abingdon/milanos-italian-cuisine-/ (updated 2026-10-18), checked 2026-11-01",
    "lat": 36.6981,
    "lng": -82.0099,
-   "website": null,
+   "website": "https://milanoscuisine.com/",
+   "websiteSource": "OpenStreetMap node/12240205402 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue 11a-9p; Wed 11a-9:30p; Thu 11a-9p; Fri-Sat 11a-9:30p; Sun 11a-8:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -509,13 +543,35 @@
    ],
    "source": "hours from Restaurantji listing (updated 2026-10-18); the venue's Facebook page could not be read (checked 2026-11-01)",
    "county": "Washington",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://milanoscuisine.com/",
+        "quote": "rs • Pizza | An authentic taste of Italy at your convenience. Enjoy lunch with friends, a romantic dinner for two, or come in and pick up your favorite menu items hot and ready when you ge",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/abingdon/milanos-italian-cuisine-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://milanoscuisine.com/"
    }
   },
   {
@@ -589,7 +645,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/abingdon/rain-restaurant-/ (updated 2026-10-15), checked 2026-11-01",
    "lat": 36.7133,
    "lng": -81.9676,
-   "website": null,
+   "website": "https://visitabingdonvirginia.com/directory/rain-restaurant",
+   "websiteSource": "OpenStreetMap node/12240359847 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Sat 5p-9p; Sun closed",
    "hoursNote": null,
    "kitchen": null,

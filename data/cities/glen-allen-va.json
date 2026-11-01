@@ -47,7 +47,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/glen-allen/alohahola-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 37.666174,
    "lng": -77.459387,
-   "website": null,
+   "website": "https://alohahola.com/",
+   "websiteSource": "OpenStreetMap node/12554922396 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-10p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -64,7 +65,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://alohahola.com/"
    }
   },
   {
@@ -109,7 +110,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/glen-allen/dugout-restaurant-/ (updated 2026-10-13), checked 2026-11-01",
    "lat": 37.648,
    "lng": -77.4666,
-   "website": null,
+   "website": "https://dugoutbarandgrille.com/",
+   "websiteSource": "OpenStreetMap way/709504923 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 12p-12a; Tue-Thu 11a-12a; Fri-Sat 11a-2a; Sun 12p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -174,12 +176,28 @@
    },
    "karaoke": {
     "nights": [],
+    "stale": [],
     "hints": [
      "Restaurantji review/summary mentions karaoke"
     ],
-    "stale": false,
-    "oneoffs": [],
-    "conflicts": []
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Food and drink specials daily, trivia, karaoke, and live music weekly, come on by",
+      "url": "https://dugoutbarandgrille.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke",
+      "url": "https://dugoutbarandgrille.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Come join us for our weekly Karaoke",
+      "url": "https://dugoutbarandgrille.com/events"
+     }
+    ]
    },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
@@ -187,7 +205,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://dugoutbarandgrille.com/"
    }
   },
   {
@@ -256,12 +274,28 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/glen-allen/intermission-beer-company-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 37.673691,
    "lng": -77.460651,
-   "website": null,
+   "website": "https://www.intermissionbeer.com/",
+   "websiteSource": "OpenStreetMap node/13413720417 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Wed closed; Thu 5p-9p; Fri 4p-9p; Sat 2p-9p; Sun 2p-6p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Wed",
+     "text": "Arcade Happy Hour: Half Off Games Wednesdays",
+     "tags": [],
+     "src": "Venue website intermissionbeer.com/events",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "Every Wednesday from 3 PM – 9 PM, your credits go twice as far with HALF OFF all games during Game Happy Hours",
+     "tags": [],
+     "src": "Venue website intermissionbeer.com/events",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -275,11 +309,11 @@
      "Date night / upscale"
     ],
     "summary": "Family-friendly; a date-night / upscale spot.",
-    "confidence": "medium",
+    "confidence": "high",
     "details": [
      {
       "label": "Families",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence": [
        {
         "type": "reviews",
@@ -287,6 +321,13 @@
         "url": "https://www.restaurantji.com/va/glen-allen/intermission-beer-company-/",
         "quote": "ble, and chill, making it perfect for hanging out or even getting some work done. It is a family-friendly establishment where kids can enjoy reasonably priced arcade games or board games while ad",
         "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.intermissionbeer.com/",
+        "quote": "ose who prefer something different. | Bring the whole family! | Both of our locations are family-friendly and feature a dog-friendly patio, perfect for enjoying the outdoors with your furry compa",
+        "self": true
        }
       ]
      },
@@ -311,7 +352,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.intermissionbeer.com/"
    }
   },
   {
@@ -460,7 +501,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/glen-allen/q-barbeque-/ (updated 2026-07-10), checked 2026-11-01",
    "lat": 37.666194,
    "lng": -77.458858,
-   "website": null,
+   "website": "https://qbarbeque.com/",
+   "websiteSource": "OpenStreetMap node/2720094243 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-9p; Sun 11a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -501,7 +543,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://qbarbeque.com/"
    }
   },
   {
@@ -601,7 +643,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/glen-allen/thai-top-ten-/ (updated 2026-10-12), checked 2026-11-01",
    "lat": 37.671072,
    "lng": -77.461089,
-   "website": null,
+   "website": "https://thaitoptentogo.com/",
+   "websiteSource": "OpenStreetMap node/4588413293 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11:30a-3p,5p-10p; Sat 12p-10p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -618,7 +661,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://thaitoptentogo.com/"
    }
   },
   {

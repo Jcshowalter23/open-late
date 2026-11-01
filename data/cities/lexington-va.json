@@ -47,7 +47,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/lexington/brew-ridge-taps-/ (updated 2026-10-07), checked 2026-11-01",
    "lat": 37.7837,
    "lng": -79.4426,
-   "website": null,
+   "website": "https://thegeorges.com/taps/",
+   "websiteSource": "OpenStreetMap node/4144596906 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 11a-9p; Fri-Sat 11a-10p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -62,9 +63,11 @@
    "county": "Lexington City",
    "crowdType": {
     "labels": [
-     "Locals & regulars"
+     "Locals & regulars",
+     "Date night / upscale",
+     "Live music fans"
     ],
-    "summary": "A locals-and-regulars spot.",
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot; known for live music.",
     "confidence": "medium",
     "details": [
      {
@@ -79,6 +82,32 @@
         "agg": true
        }
       ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://thegeorges.com/taps/",
+        "quote": "cebook | Follow | Follow | Follow | Dine | TAPS | TAPS is our main bar and lounge serving upscale pub fare featuring craft beers, creative cocktails, salads, burgers, handhelds, and snack",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://thegeorges.com/taps/",
+        "quote": "urmet salads. When the weather is nice, guests can enjoy TAPS Terrace for outdoor dining. Live music every Wednesday night helps to break up the week! | Our menus change frequently based on season",
+        "self": true
+       }
+      ]
      }
     ]
    },
@@ -88,7 +117,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://thegeorges.com/taps/"
    }
   },
   {
@@ -160,7 +189,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/lexington/don-tequilas-/ (updated 2026-09-25), checked 2026-11-01",
    "lat": 37.7787,
    "lng": -79.438,
-   "website": null,
+   "website": "https://www.dontequilamexicanva.com/",
+   "websiteSource": "OpenStreetMap node/3071084733 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-10:30p; Sat 12p-10:30p; Sun 12p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -177,7 +207,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.dontequilamexicanva.com/"
    }
   },
   {
@@ -191,7 +221,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/lexington/golden-garden-asian-restaurant-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 37.78406,
    "lng": -79.444383,
-   "website": null,
+   "website": "http://tongdynastyva.com/",
+   "websiteSource": "OpenStreetMap node/2995509773 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 11a-9:30p; Fri-Sat 11a-10p; Sun 12p-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -330,7 +361,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/lexington/heliotrope-brewing-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 37.783606,
    "lng": -79.443489,
-   "website": null,
+   "website": "https://heliotropebrewery.com/",
+   "websiteSource": "OpenStreetMap node/2995509784 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 4p-9p; Tue closed; Wed-Thu 4p-9p; Fri 4p-10p; Sat 12p-10p; Sun 12p-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -349,7 +381,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://heliotropebrewery.com/"
    }
   },
   {
@@ -468,7 +500,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/lexington/the-palms-/ (updated 2026-09-25), checked 2026-11-01",
    "lat": 37.7849,
    "lng": -79.4438,
-   "website": null,
+   "website": "https://www.thepalmslexington.com/",
+   "websiteSource": "OpenStreetMap way/383925425 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -507,7 +540,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.thepalmslexington.com/"
    }
   }
  ],

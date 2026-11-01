@@ -328,7 +328,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/wv/oak-hill/toms-carry-out-/ (updated 2026-10-11), checked 2026-11-01",
    "lat": 37.975054,
    "lng": -81.155514,
-   "website": null,
+   "website": "https://tomschili.com/",
+   "websiteSource": "OpenStreetMap node/4567598988 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -339,13 +340,35 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-11) (checked 2026-11-01)",
    "county": "Fayette",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://tomschili.com/",
+        "quote": ". From classic chili dogs to burgers, fries, and shakes, our menu is built on the flavors locals grew up on and still come back for today. | Facebook | Fresh Flavor. Local Favorite. | A",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/wv/oak-hill/toms-carry-out-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://tomschili.com/"
    }
   }
  ],

@@ -160,7 +160,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/haymarket/fosters-grille-/ (updated 2026-10-11), checked 2026-11-01",
    "lat": 38.8138,
    "lng": -77.6403,
-   "website": null,
+   "website": "https://www.fostersgrille.com/store/haymarket/",
+   "websiteSource": "OpenStreetMap node/5271083905 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -179,7 +180,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.fostersgrille.com/store/haymarket/"
    }
   },
   {
@@ -302,7 +303,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/haymarket/locals-tacos-and-tequila-2/ (updated 2026-09-01), checked 2026-11-01",
    "lat": 38.844041,
    "lng": -77.638953,
-   "website": null,
+   "website": "https://localstacosva.com/",
+   "websiteSource": "OpenStreetMap way/1571413187 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -415,7 +417,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/haymarket/olde-dominion-tavern-/ (updated 2026-10-11), checked 2026-11-01",
    "lat": 38.8431,
    "lng": -77.6433,
-   "website": null,
+   "website": "https://www.oldedominiontavern.com/",
+   "websiteSource": "OpenStreetMap way/1571413171 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-11p; Fri 11a-12a; Sat 10a-12a; Sun 10a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -430,14 +433,15 @@
    "county": "Prince William",
    "crowdType": {
     "labels": [
-     "Date night / upscale"
+     "Date night / upscale",
+     "Locals & regulars"
     ],
-    "summary": "A date-night / upscale spot.",
-    "confidence": "medium",
+    "summary": "A date-night / upscale spot; a locals-and-regulars spot.",
+    "confidence": "high",
     "details": [
      {
       "label": "Date night / upscale",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence": [
        {
         "type": "reviews",
@@ -445,6 +449,26 @@
         "url": "https://www.restaurantji.com/va/haymarket/olde-dominion-tavern-/",
         "quote": "Olde Dominion Tavern offers an upscale menu with a variety of entrees, bar food, and great salads. The food is prepared fresh, a",
         "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.oldedominiontavern.com/",
+        "quote": "stacked, and made to order — the neighborhood standby, done properly. | Steaks & Chops | Date night done right: properly seared cuts and a wine list poured to match. | Fresh Seafood | Coast",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.oldedominiontavern.com/",
+        "quote": "atio | ◆ | Private Party Room | ◆ | Pull up a chair and stay a while. | We're Haymarket's neighborhood tavern — the kind of place you'll come back to. Scratch cooking, an easy bar, and a room that wo",
+        "self": true
        }
       ]
      }
@@ -456,7 +480,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.oldedominiontavern.com/"
    }
   },
   {
@@ -555,7 +579,8 @@
    "zip": "20169",
    "phone": "(703) 753-9380",
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/haymarket/sakura-grill-/ (updated 2026-10-08), checked 2026-11-01",
-   "website": null,
+   "website": "https://www.sakuragrillva.com/",
+   "websiteSource": "OpenStreetMap way/582968699 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -596,7 +621,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.sakuragrillva.com/"
    }
   },
   {
@@ -639,11 +664,12 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/haymarket/thai-peppers-restaurant-/ (updated 2026-10-11), checked 2026-11-01",
    "lat": 38.844074,
    "lng": -77.639031,
-   "website": null,
+   "website": "https://www.thaipeppersva.com/",
+   "websiteSource": "OpenStreetMap way/1571413186 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 12p-9p; Fri 11a-9p; Sat-Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 15 pm per Venue website thaipeppersva.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -678,7 +704,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.thaipeppersva.com/"
    }
   },
   {

@@ -287,7 +287,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/gainesville/nankar-peru-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 38.766408,
    "lng": -77.605476,
-   "website": null,
+   "website": "https://nankarperuvian.com/",
+   "websiteSource": "OpenStreetMap node/12323686054 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-8:30p; Fri-Sat 11a-9p; Sun 12p-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -326,7 +327,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://nankarperuvian.com/"
    }
   },
   {
@@ -516,27 +517,46 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/manassas/the-black-sheep-restaurant-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.7425,
    "lng": -77.5214,
-   "website": null,
+   "website": "https://theblacksheeprestaurant.com/",
+   "websiteSource": "OpenStreetMap node/8951930087 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-11p; Sat 10a-11p; Sun 10a-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon-Fri",
+     "text": "Join us for a relaxing evening every weekday and unwind with $2 off your favorite draft beer or house wine",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website theblacksheeprestaurant.com/happenings-and-events",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Mon",
+     "text": "Join us for Corkscrew Monday at The Black Sheep and enjoy half-priced select bottles from our wine list",
+     "tags": [],
+     "src": "Venue website theblacksheeprestaurant.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-29); the venue's Facebook page could not be read (checked 2026-11-01)",
    "county": "Prince William",
    "crowdType": {
     "labels": [
-     "Date night / upscale"
+     "Date night / upscale",
+     "Locals & regulars"
     ],
-    "summary": "A date-night / upscale spot.",
-    "confidence": "medium",
+    "summary": "A date-night / upscale spot; a locals-and-regulars spot.",
+    "confidence": "high",
     "details": [
      {
       "label": "Date night / upscale",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence": [
        {
         "type": "reviews",
@@ -544,6 +564,26 @@
         "url": "https://www.restaurantji.com/va/manassas/the-black-sheep-restaurant-/",
         "quote": "The Black Sheep Restaurant offers an upscale dining experience with a sophisticated atmosphere and elegant touches. The menu features",
         "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://theblacksheeprestaurant.com/",
+        "quote": "her you're joining us for a weekday lunch, a weekend brunch, a whiskey dinner, a mid-week date night, or an intimate private event, The Black Sheep delivers warm hospitality in an unforgetta",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://theblacksheeprestaurant.com/",
+        "quote": "ty in an unforgettable setting. Come taste why we're the go-to restaurant in Manassas for locals and visitors alike. Reservations are welcome. Walk-ins always are too. | Host Your Next P",
+        "self": true
        }
       ]
      }
@@ -555,7 +595,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://theblacksheeprestaurant.com/"
    }
   }
  ],

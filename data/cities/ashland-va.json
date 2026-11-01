@@ -172,13 +172,24 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/ashland/center-of-the-universe-brewing-company-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 37.7086,
    "lng": -77.447,
-   "website": null,
+   "website": "https://cotubrewing.com/",
+   "websiteSource": "OpenStreetMap node/9991156282 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 4p-9p; Sat 12p-7p; Sun 12p-8p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Fri",
+     "text": "Join us in the taproom every Friday evening for free entertainment while enjoying delicious Mexican cuisine from Casa Herradura and a wide assortment of beer, wine, cider, and non-alcoholic beverages",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website cotubrewing.com/events/friday-fiestas",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -213,7 +224,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://cotubrewing.com/"
    }
   },
   {
@@ -279,7 +290,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/hanover/el-zocalo-mexican-restaurant-/ (updated 2026-09-28), checked 2026-11-01",
    "lat": 37.7666,
    "lng": -77.3705,
-   "website": null,
+   "website": "https://www.elzocalomexrestaurant.com/",
+   "websiteSource": "OpenStreetMap way/706041861 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11a-9p; Sat 12p-9p; Sun 12p-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -430,13 +442,24 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/ashland/il-forno-bar-and-grill-/ (updated 2026-09-04), checked 2026-11-01",
    "lat": 37.758,
    "lng": -77.4743,
-   "website": null,
+   "website": "https://ilfornobargrill.com/",
+   "websiteSource": "OpenStreetMap node/9646921271 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 11a-10p; Fri-Sat 11a-10:30p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Tue-Sun",
+     "text": "Tuesday – Sunday from 11:00am – 6:00pm $2 Off Cocktails + Wine + Beers Wine Down Wednesdays – 1/2 Off All Bottles of Wine",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website ilfornobargrill.com/happy-hour",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -446,9 +469,10 @@
    "crowdType": {
     "labels": [
      "Families",
-     "Date night / upscale"
+     "Date night / upscale",
+     "Live music fans"
     ],
-    "summary": "Family-friendly; a date-night / upscale spot.",
+    "summary": "Family-friendly; a date-night / upscale spot; known for live music.",
     "confidence": "medium",
     "details": [
      {
@@ -476,6 +500,19 @@
         "agg": true
        }
       ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://ilfornobargrill.com/",
+        "quote": "ASTE OF ITALY | A WORLD OF FLAVOR | ORDER ONLINE | 435 England Street Ashland, Virginia | LIVE MUSIC EVERY TUESDAY NIGHT | 6:00PM - 8:30PM | IL FORNO BAR + GRILL | About Us | Meet Giuseppe Giamban",
+        "self": true
+       }
+      ]
      }
     ]
    },
@@ -485,7 +522,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://ilfornobargrill.com/"
    }
   },
   {
@@ -758,7 +795,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/ashland/marcos-italian-restaurant-/ (updated 2026-10-19), checked 2026-11-01",
    "lat": 37.7577,
    "lng": -77.4665,
-   "website": null,
+   "website": "https://marcositaliantogo.com/",
+   "websiteSource": "OpenStreetMap way/263454026 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -799,7 +837,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://marcositaliantogo.com/"
    }
   },
   {
@@ -813,7 +851,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/ashland/marios-italian-restaurant-/ (updated 2026-08-06), checked 2026-11-01",
    "lat": 37.692385,
    "lng": -77.436001,
-   "website": null,
+   "website": "http://www.cadplans.us/infopages/marios_01.htm",
+   "websiteSource": "OpenStreetMap node/2600923208 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 10a-10p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -1214,7 +1253,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/ashland/thai-gourmet-restaurant-/ (updated 2026-10-08), checked 2026-11-01",
    "lat": 37.692435,
    "lng": -77.436032,
-   "website": null,
+   "website": "https://www.thaigourmetkitchen.com/",
+   "websiteSource": "OpenStreetMap node/7888053485 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11a-9p; Sat-Sun 2p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1267,7 +1307,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.thaigourmetkitchen.com/"
    }
   },
   {
@@ -1314,7 +1354,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/ashland/iron-horse-restaurant-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 37.7586,
    "lng": -77.4816,
-   "website": null,
+   "website": "https://www.ironhorserestaurant.com/",
+   "websiteSource": "OpenStreetMap way/240237611 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue 4p-9p; Wed-Thu 12p-9p; Fri-Sat 12p-10p; Sun 11a-8:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -1353,7 +1394,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.ironhorserestaurant.com/"
    }
   },
   {

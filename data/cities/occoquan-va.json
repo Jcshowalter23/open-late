@@ -15,7 +15,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/occoquan/bar-j-chili-parlor-and-restaurant-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 38.683,
    "lng": -77.2588,
-   "website": null,
+   "website": "https://www.bar-jchili.com/",
+   "websiteSource": "OpenStreetMap node/5132030849 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri 11a-10p; Sat 9a-10p; Sun 9a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -48,12 +49,22 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/occoquan/bottle-stop-wine-bar-/ (updated 2026-08-06), checked 2026-11-01",
    "lat": 38.6847,
    "lng": -77.2607,
-   "website": null,
+   "website": "https://www.bottlestopva.com/",
+   "websiteSource": "OpenStreetMap node/12323667671 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 4p-9p; Fri-Sat 12p-10p; Sun 12p-6p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Tue-Fri",
+     "text": "Happy Hour Food & Drink Specials available Tuesday-Friday 4-7pm",
+     "tags": [],
+     "src": "Venue website bottlestopva.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -103,7 +114,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.bottlestopva.com/"
    }
   },
   {
@@ -148,7 +159,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/occoquan/madigans-waterfront-/ (updated 2026-09-23), checked 2026-11-01",
    "lat": 38.6833,
    "lng": -77.2591,
-   "website": null,
+   "website": "https://www.madiganswaterfront.com/",
+   "websiteSource": "OpenStreetMap node/796154333 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11a-10p; Sat-Sun 10:30a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -159,13 +171,96 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-09-23); the venue's Facebook page could not be read (checked 2026-11-01)",
    "county": "Prince William",
+   "crowdType": {
+    "labels": [
+     "Dance / club crowd"
+    ],
+    "summary": "A dancing / club crowd late.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://madiganswaterfront.com/",
+        "quote": "r Page | for all the latest bands and events and come and enjoy our fully stocked bar and dance floor. | Dining Room Hours: | Monday-Friday 11:00am-10:00pm Saturday-Sunday 10:30am-10:00pm | B",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://madiganswaterfront.com/Occoquan-virginia-va-restaurant-specials-news/",
+        "date": "2026-11-01",
+        "quote": "Karaoke every Thursday night"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Historic waterfront restaurant and bar in Occoquan featuring waterfront dining, banquet room, catering, live entertainment, music, bands and karaoke, buffet, events, banquet room, special events, part",
+      "url": "https://madiganswaterfront.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke",
+      "url": "https://madiganswaterfront.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Northern Virginia Banquets Special Events VA - Madigans Waterfront Seafood Restaurant - Historic waterfront restaurant and bar in Occoquan featuring waterfront dining, banquet room and catering, live ",
+      "url": "https://madiganswaterfront.com/restaurant-northern-va-calendar-entertainment/"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ ",
+      "url": "https://madiganswaterfront.com/banquets_special_events_virginia_va/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "To make your wedding, dinner party or special event perfect, please reach out to us for details concerning contracts, special event letters, DJ contracts and DJ’s wedding planners",
+      "url": "https://madiganswaterfront.com/banquets_special_events_virginia_va/"
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/occoquan/madigans-waterfront-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.madiganswaterfront.com/"
    }
   },
   {

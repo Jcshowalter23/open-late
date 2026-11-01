@@ -136,7 +136,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/boulevard-burger-and-brew-/ (updated 2026-10-13), checked 2026-11-01",
    "lat": 37.566658,
    "lng": -77.468107,
-   "website": null,
+   "website": "https://www.boulevardburgerandbrew.com/",
+   "websiteSource": "OpenStreetMap way/252983254 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -177,7 +178,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.boulevardburgerandbrew.com/"
    }
   },
   {
@@ -267,13 +268,31 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/buddys-place-/ (updated 2026-10-10), checked 2026-11-01",
    "lat": 37.56042,
    "lng": -77.474485,
-   "website": null,
+   "website": "https://www.buddysplace.net/",
+   "websiteSource": "OpenStreetMap way/367704015 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-2a",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour - Weekdays 11am - 7pm",
+     "tags": [],
+     "src": "Venue website buddysplace.net",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Thu",
+     "text": "$4 Shot Thursday",
+     "tags": [],
+     "src": "Venue website buddysplace.net",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-10) (checked 2026-11-01)",
@@ -301,13 +320,52 @@
     ]
    },
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": "10pm-1am",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.buddysplace.net/",
+        "date": "2026-11-01",
+        "quote": "Karaoke Night | Sunday & Mondays 10pm-1am! | Sunday & Mondays 10pm-1am!"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": "10pm-1am",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.buddysplace.net/",
+        "date": "2026-11-01",
+        "quote": "Karaoke Night | Sunday & Mondays 10pm-1am! | Sunday & Mondays 10pm-1am!"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
     "hints": [
      "Restaurantji review/summary mentions karaoke"
     ],
-    "stale": false,
-    "oneoffs": [],
-    "conflicts": []
+    "conflicts": [],
+    "oneoffs": []
    },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
@@ -315,7 +373,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.buddysplace.net/"
    }
   },
   {
@@ -391,7 +449,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/cochiloco-scott-s-addition-/ (updated 2026-09-09), checked 2026-11-01",
    "lat": 37.569989,
    "lng": -77.472389,
-   "website": null,
+   "website": "https://www.cochilocorva.com/",
+   "websiteSource": "OpenStreetMap node/12161696503 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 4p-10p; Fri-Sat 12p-12a; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -408,7 +467,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.cochilocorva.com/"
    }
   },
   {
@@ -422,7 +481,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/dont-look-back-triple-/ (updated 2026-10-13), checked 2026-11-01",
    "lat": 37.566975,
    "lng": -77.47571,
-   "website": null,
+   "website": "https://www.dontlookback.co/",
+   "websiteSource": "OpenStreetMap node/7093628987 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11:30a-2a",
    "hoursNote": null,
    "kitchen": null,
@@ -449,7 +509,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.dontlookback.co/"
    }
   },
   {
@@ -462,7 +522,8 @@
    "phone": null,
    "lat": 37.568231,
    "lng": -77.471993,
-   "website": null,
+   "website": "https://www.eazzyburger.com/",
+   "websiteSource": "OpenStreetMap node/10552727413 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Sat 11a-9p; Sun 12p-6p",
    "hoursNote": null,
    "kitchen": null,
@@ -479,7 +540,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.eazzyburger.com/"
    }
   },
   {
@@ -493,7 +554,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/elephant-thai-/ (updated 2026-10-21), checked 2026-11-01",
    "lat": 37.576111,
    "lng": -77.486981,
-   "website": null,
+   "website": "https://elephantthairva.net/",
+   "websiteSource": "OpenStreetMap node/12326914384 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue 11a-2:30p,4p-10p; Wed closed; Thu 11a-2:30p,4p-10p; Fri 11a-2:30p,4p-10:30p; Sat 4p-10:30p; Sun 4p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -560,7 +622,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/en-su-boca-/ (updated 2026-10-12), checked 2026-11-01",
    "lat": 37.563564,
    "lng": -77.469475,
-   "website": null,
+   "website": "https://www.ensuboca.com/",
+   "websiteSource": "OpenStreetMap way/252996616 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-2a",
    "hoursNote": null,
    "kitchen": null,
@@ -599,7 +662,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.ensuboca.com/"
    }
   },
   {
@@ -735,7 +798,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/fighting-fish-scott-s-addition-/ (updated 2026-10-06), checked 2026-11-01",
    "lat": 37.562906,
    "lng": -77.47015,
-   "website": null,
+   "website": "https://www.fightingfishrva.com/",
+   "websiteSource": "OpenStreetMap node/9983648910 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 12p-9p; Fri-Sat 12p-10p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -752,7 +816,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.fightingfishrva.com/"
    }
   },
   {
@@ -824,7 +888,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/gus-bar-and-grill-/ (updated 2026-10-08), checked 2026-11-01",
    "lat": 37.56123,
    "lng": -77.468282,
-   "website": null,
+   "website": "http://gusbarandgrill.com/",
+   "websiteSource": "OpenStreetMap way/334124817 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -879,7 +944,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/harrys-at-hofheimer-/ (updated 2026-10-15), checked 2026-11-01",
    "lat": 37.562828,
    "lng": -77.470462,
-   "website": null,
+   "website": "https://www.harrysrva.com/",
+   "websiteSource": "OpenStreetMap node/9983607409 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 4p-10p; Fri 4p-1a; Sat 11a-1a; Sun 11a-3p",
    "hoursNote": null,
    "kitchen": null,
@@ -893,9 +959,10 @@
    "crowdType": {
     "labels": [
      "Date night / upscale",
-     "Live music fans"
+     "Live music fans",
+     "Industry / late-night"
     ],
-    "summary": "A date-night / upscale spot; known for live music.",
+    "summary": "A date-night / upscale spot; known for live music; popular with service-industry and late-night workers.",
     "confidence": "medium",
     "details": [
      {
@@ -923,17 +990,64 @@
         "agg": true
        }
       ]
+     },
+     {
+      "label": "Industry / late-night",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.harrysrva.com/",
+        "quote": "ations | Celebrations | Happenings | Weekly Happenings | Sip and Paint | Manifesto Hour | After Shift | Analog | Harry's LIVE | Novella | It's Disco B*tch Day Party | Sing Along Brunch Club",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "A high-energy Throwback Hip-Hop Sing-Along Brunch where the DJ spins iconic hip-hop favorites, drinks flow, and the entire room becomes the show | 11AM + 130PM",
+      "url": "https://www.harrysrva.com/news/weeklyhappenings"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "A high-energy Throwback Hip-Hop Sing-Along Brunch where the DJ spins iconic hip-hop favorites, drinks flow, and the entire room becomes the show | 11AM + 130PM",
+      "url": "https://www.harrysrva.com/news/weeklyhappenings"
      }
     ]
    },
    "dj": {
     "nights": [],
+    "stale": [],
     "hints": [
      "Restaurantji review/summary mentions dj"
     ],
-    "stale": false,
-    "oneoffs": [],
-    "conflicts": []
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "🎧 DJ Rotation",
+      "url": "https://www.harrysrva.com/news/weeklyhappenings"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "A weekly showcase celebrating Richmond's DJs, music culture, and creative community",
+      "url": "https://www.harrysrva.com/news/weeklyhappenings"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "rotating lineup of local DJs",
+      "url": "https://www.harrysrva.com/news/weeklyhappenings"
+     }
+    ]
    },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
@@ -941,7 +1055,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.harrysrva.com/"
    }
   },
   {
@@ -955,7 +1069,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/hunan-east-/ (updated 2026-10-08), checked 2026-11-01",
    "lat": 37.576266,
    "lng": -77.48717,
-   "website": null,
+   "website": "https://www.hunaneastrva.com/",
+   "websiteSource": "OpenStreetMap way/466009763 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-10:30p; Sat 4p-10:30p; Sun 4p-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -1008,7 +1123,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/kismet-modern-indian-rva-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 37.564036,
    "lng": -77.472204,
-   "website": null,
+   "website": "https://kismetrva.com/",
+   "websiteSource": "OpenStreetMap node/10301499211 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 12p-2:30p,5p-9p; Fri-Sat 12p-2:30p,5p-10p; Sun 12p-2:30p,5p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1027,7 +1143,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://kismetrva.com/"
    }
   },
   {
@@ -1041,7 +1157,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/lemon-cuisine-of-india-/ (updated 2026-10-12), checked 2026-11-01",
    "lat": 37.565978,
    "lng": -77.474915,
-   "website": null,
+   "website": "https://lemoncuisineofindia.com/",
+   "websiteSource": "OpenStreetMap way/334127311 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9:30p; Fri 11a-10p; Sat 11:30a-10p; Sun 11:30a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -1080,7 +1197,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://lemoncuisineofindia.com/"
    }
   },
   {
@@ -1094,7 +1211,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/lillian-/ (updated 2026-09-03), checked 2026-11-01",
    "lat": 37.566508,
    "lng": -77.470138,
-   "website": null,
+   "website": "https://www.lillianoysterhall.com/",
+   "websiteSource": "OpenStreetMap node/10552727382 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Thu 4p-9p; Fri-Sat 4p-10p; Sun 3p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1133,7 +1251,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.lillianoysterhall.com/"
    }
   },
   {
@@ -1147,7 +1265,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/lost-letter-/ (updated 2026-10-18), checked 2026-11-01",
    "lat": 37.565173,
    "lng": -77.47026,
-   "website": null,
+   "website": "https://www.lostletterrva.com/",
+   "websiteSource": "OpenStreetMap node/9982596213 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Thu 5p-9p; Fri-Sat 5p-10p; Sun 5p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1164,7 +1283,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.lostletterrva.com/"
    }
   },
   {
@@ -1178,7 +1297,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/lucky-af-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 37.567332,
    "lng": -77.471118,
-   "website": null,
+   "website": "https://www.getluckyaf.com/",
+   "websiteSource": "OpenStreetMap node/9208267169 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-9:30p; Fri-Sat 11:30a-10:30p; Sun 5p-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -1231,7 +1351,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.getluckyaf.com/"
    }
   },
   {
@@ -1245,7 +1365,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/supper-/ (updated 2026-09-13), checked 2026-11-01",
    "lat": 37.565253,
    "lng": -77.472191,
-   "website": null,
+   "website": "https://www.lunchorsupper.com/",
+   "websiteSource": "OpenStreetMap node/4259861762 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri 11a-10p; Sat 10a-10p; Sun 10a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1262,7 +1383,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.lunchorsupper.com/"
    }
   },
   {
@@ -1307,7 +1428,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/peter-chang-/ (updated 2026-10-13), checked 2026-11-01",
    "lat": 37.562813,
    "lng": -77.470438,
-   "website": null,
+   "website": "https://www.peterchangrichmond.com/",
+   "websiteSource": "OpenStreetMap node/4259919201 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-2:45p,5p-9p; Fri 11a-2:45p,5p-9:30p; Sat 12p-9:30p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1324,7 +1446,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.peterchangrichmond.com/"
    }
   },
   {
@@ -1338,7 +1460,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/pinkys-/ (updated 2026-10-15), checked 2026-11-01",
    "lat": 37.567978,
    "lng": -77.468465,
-   "website": null,
+   "website": "https://www.pinkysrva.com/",
+   "websiteSource": "OpenStreetMap node/9982795299 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1371,13 +1494,26 @@
      }
     ]
    },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ Ant Boogie",
+      "url": "https://www.pinkysrva.com/-events"
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/richmond/pinkys-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.pinkysrva.com/"
    }
   },
   {
@@ -1391,7 +1527,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/sabai-/ (updated 2026-10-15), checked 2026-11-01",
    "lat": 37.561657,
    "lng": -77.468994,
-   "website": null,
+   "website": "https://www.sabairva.com",
+   "websiteSource": "OpenStreetMap way/334129662 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 4p-11p; Fri-Sat 4p-2a; Sun 4p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1422,7 +1559,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/scotty-s-taphouse-/ (updated 2026-09-09), checked 2026-11-01",
    "lat": 37.567618,
    "lng": -77.474753,
-   "website": null,
+   "website": "https://scottystaphouse.com/",
+   "websiteSource": "OpenStreetMap node/9984522453 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed 3p-10p; Thu 3p-12a; Fri 3p-2a; Sat 11:30a-2a; Sun 11:30a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1441,7 +1579,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://scottystaphouse.com/"
    }
   },
   {
@@ -1486,7 +1624,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/sheppard-street-tavern-/ (updated 2026-10-08), checked 2026-11-01",
    "lat": 37.560401,
    "lng": -77.473182,
-   "website": null,
+   "website": "https://sheppardstreettavern.com/",
+   "websiteSource": "OpenStreetMap node/4264029275 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 4p-2a; Sat-Sun 11a-2a",
    "hoursNote": null,
    "kitchen": null,
@@ -1549,7 +1688,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/stellas-/ (updated 2026-10-12), checked 2026-11-01",
    "lat": 37.567085,
    "lng": -77.486688,
-   "website": null,
+   "website": "https://stellasrichmond.com",
+   "websiteSource": "OpenStreetMap way/749325127 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11:30a-3p,4p-10p; Sat 4p-10p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -1560,13 +1700,35 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-12) (checked 2026-11-01)",
    "county": "Richmond City",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://stellasrichmond.com",
+        "quote": "reek cuisine. Anchoring a corner on Lafayette Street in Richmond, Stella Dikos’ home is a romantic and charming space. From the early morning until afternoon, you’ll find Stella herself cr",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/richmond/stellas-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://stellasrichmond.com"
    }
   },
   {
@@ -1611,7 +1773,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/taqueria-y-antojitos-el-chido-w-broad-st-/ (updated 2026-10-07), checked 2026-11-01",
    "lat": 37.572501,
    "lng": -77.482619,
-   "website": null,
+   "website": "https://elchidorestaurant.com/",
+   "websiteSource": "OpenStreetMap way/753711397 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1628,7 +1791,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://elchidorestaurant.com/"
    }
   },
   {
@@ -1642,7 +1805,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/tazza-kitchen-scotts-addition-/ (updated 2026-09-29), checked 2026-11-01",
    "lat": 37.569828,
    "lng": -77.473905,
-   "website": null,
+   "website": "https://www.tazzakitchen.com/location/scottsaddition/",
+   "websiteSource": "OpenStreetMap node/6762737857 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 4:30p-9p; Tue-Thu 11:30a-2p,4:30p-9p; Fri 11:30a-2p,4:30p-10p; Sat 11a-10p; Sun 11a-2:30p,4:30p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1659,7 +1823,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.tazzakitchen.com/location/scottsaddition/"
    }
   },
   {
@@ -1673,7 +1837,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/texas-inn-richmond-/ (updated 2026-09-03), checked 2026-11-01",
    "lat": 37.560185,
    "lng": -77.473059,
-   "website": null,
+   "website": "https://www.texasinn.com/",
+   "websiteSource": "OpenStreetMap node/4264029281 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Wed 8a-12a; Thu-Sat 8a-2a; Sun 10a-6p",
    "hoursNote": null,
    "kitchen": null,
@@ -1692,7 +1857,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.texasinn.com/"
    }
   },
   {
@@ -1706,7 +1871,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/the-stables-/ (updated 2026-10-17), checked 2026-11-01",
    "lat": 37.556326,
    "lng": -77.478078,
-   "website": null,
+   "website": "https://www.thestablesrva.com/",
+   "websiteSource": "OpenStreetMap node/3087787132 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Sat 4:30p-9:15p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -1745,7 +1911,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.thestablesrva.com/"
    }
   },
   {
@@ -1865,7 +2031,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/wood-and-iron-gameday-restaurant-and-bar-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 37.569092,
    "lng": -77.47467,
-   "website": null,
+   "website": "https://woodandirongameday.com/scotts-addition-virginia/",
+   "websiteSource": "OpenStreetMap node/9984522460 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Wed 11a-12a; Thu-Fri 11a-2a; Sat 10a-2a; Sun 10a-12a",
    "hoursNote": null,
    "kitchen": null,

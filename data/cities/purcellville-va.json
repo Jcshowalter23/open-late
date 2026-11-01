@@ -124,7 +124,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/bluemont/bear-chase-brewing-company-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 39.110732,
    "lng": -77.846037,
-   "website": null,
+   "website": "https://bearchasebrew.com/",
+   "websiteSource": "OpenStreetMap node/8831928516 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -232,7 +233,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/purcellville/bia-kitchen-/ (updated 2026-09-28), checked 2026-11-01",
    "lat": 39.1371,
    "lng": -77.715,
-   "website": null,
+   "website": "https://biakitchen.com/",
+   "websiteSource": "OpenStreetMap way/244543422 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Sat 11:30a-9p; Sun 12p-3p,5p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -285,7 +287,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/purcellville/casa-tequila-bar-and-grill-/ (updated 2026-10-15), checked 2026-11-01",
    "lat": 39.135,
    "lng": -77.6981,
-   "website": null,
+   "website": "https://www.casatequilarestaurant.com/",
+   "websiteSource": "OpenStreetMap node/12117939741 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -300,9 +303,10 @@
    "county": "Loudoun",
    "crowdType": {
     "labels": [
-     "Sports fans"
+     "Sports fans",
+     "Families"
     ],
-    "summary": "Popular for watching games.",
+    "summary": "Popular for watching games; family-friendly.",
     "confidence": "medium",
     "details": [
      {
@@ -317,6 +321,19 @@
         "agg": true
        }
       ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://casatequilarestaurant.com/",
+        "quote": "uickly and our food arrived quickly as well. All in all an excellent experience, and very family friendly. | Review by - Google | five star review by | David R: | Hands down the BEST Lomo Saltado",
+        "self": true
+       }
+      ]
      }
     ]
    },
@@ -326,7 +343,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.casatequilarestaurant.com/"
    }
   },
   {
@@ -424,7 +441,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/hamilton/hamilton-station-gastropub-/ (updated 2026-10-17), checked 2026-11-01",
    "lat": 39.135,
    "lng": -77.6522,
-   "website": null,
+   "website": "https://www.hsgdining.com/",
+   "websiteSource": "OpenStreetMap node/12236553544 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 3p-10p; Tue-Thu 11:30a-10p; Fri-Sat 11:30a-12a; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -437,13 +455,46 @@
    ],
    "source": "hours from Restaurantji listing (updated 2026-10-17); the venue's Facebook page could not be read (checked 2026-11-01)",
    "county": "Loudoun",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "8:30pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.hsgdining.com/",
+        "date": "2026-11-01",
+        "quote": "KARAOKE NIGHT FRIDAYS IN OCTOBER 10/2, 10/9"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.hsgdining.com/entertainment",
+        "date": "2026-11-01",
+        "quote": "Karaoke every 1st and 3rd Friday at 8:30pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/hamilton/hamilton-station-gastropub-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.hsgdining.com/"
    }
   },
   {
@@ -680,7 +731,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/purcellville/market-burger-fries-and-shakes-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 39.1369,
    "lng": -77.7156,
-   "website": null,
+   "website": "https://www.marketburger.net/",
+   "websiteSource": "OpenStreetMap node/2519155727 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -691,13 +743,35 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-29); the venue's Facebook page could not be read (checked 2026-11-01)",
    "county": "Loudoun",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.marketburger.net/",
+        "quote": "r eggs may increase the risk of foodborne illness. | Visit our other establishment! | For fine dining, visit | Market Table Bistro | in the heart of Historic Lovettsville.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/purcellville/market-burger-fries-and-shakes-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.marketburger.net/"
    }
   },
   {
@@ -955,7 +1029,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/purcellville/smokin-willy-bbq-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 39.1385,
    "lng": -77.7061,
-   "website": null,
+   "website": "https://www.smokinwilly.com/",
+   "websiteSource": "OpenStreetMap node/626229149 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-8:30p; Fri-Sat 11a-9p; Sun 11a-8:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -972,7 +1047,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.smokinwilly.com/"
    }
   },
   {
@@ -1081,7 +1156,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/purcellville/velocity-wings-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 39.135896,
    "lng": -77.69856,
-   "website": null,
+   "website": "https://www.velocitywings.net/purcellville",
+   "websiteSource": "OpenStreetMap node/631072614 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-11p; Sat 10a-11p; Sun 10a-10p",
    "hoursNote": null,
    "kitchen": null,

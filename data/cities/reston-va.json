@@ -16,7 +16,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/ariake-japanese-restaurant-/ (updated 2026-10-16), checked 2026-11-01",
    "lat": 38.9352,
    "lng": -77.3641,
-   "website": null,
+   "website": "https://ariakerestaurant.com/",
+   "websiteSource": "OpenStreetMap node/924248156 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-2:30p,4:30p-9:30p; Fri-Sat 11:30a-2:30p,5p-10p; Sun 11:30a-2:30p,4:30p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -55,7 +56,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://ariakerestaurant.com/"
    }
   },
   {
@@ -69,7 +70,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/bartaco-reston-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 38.958,
    "lng": -77.3606,
-   "website": null,
+   "website": "https://bartaco.com",
+   "websiteSource": "OpenStreetMap node/3559946647 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -88,7 +90,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://bartaco.com"
    }
   },
   {
@@ -102,7 +104,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/buffalo-wing-factory-/ (updated 2026-10-11), checked 2026-11-01",
    "lat": 38.937235,
    "lng": -77.362304,
-   "website": null,
+   "website": "https://www.buffalowingfactory.com/locations/",
+   "websiteSource": "OpenStreetMap node/3373393508 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11a-10p; Tue 11a-9p; Wed-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -147,7 +150,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.buffalowingfactory.com/locations/"
    }
   },
   {
@@ -161,7 +164,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/cafesano-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 38.938537,
    "lng": -77.329001,
-   "website": null,
+   "website": "https://cafesano.com/",
+   "websiteSource": "OpenStreetMap node/1732774580 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -178,7 +182,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://cafesano.com/"
    }
   },
   {
@@ -283,7 +287,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/finn-thai-restaurant-and-bar-/ (updated 2026-09-12), checked 2026-11-01",
    "lat": 38.97871,
    "lng": -77.350265,
-   "website": null,
+   "website": "https://www.finnthai.com/reston",
+   "websiteSource": "OpenStreetMap node/8900009240 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9:30p; Fri-Sat 11a-10p; Sun 11a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -302,7 +307,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.finnthai.com/reston"
    }
   },
   {
@@ -316,24 +321,56 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/founding-farmers-reston-station-/ (updated 2026-09-17), checked 2026-11-01",
    "lat": 38.949023,
    "lng": -77.337976,
-   "website": null,
+   "website": "https://www.wearefoundingfarmers.com/locations/reston/",
+   "websiteSource": "OpenStreetMap way/530444972 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 8a-9p; Tue-Thu 8a-10p; Fri 8a-11p; Sat 9a-11p; Sun 9a-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Our weekday happy hour menu is available Monday – Friday 3:30pm – 5:30pm at the bar only",
+     "tags": [],
+     "src": "Venue website wearefoundingfarmers.com/location/dc",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-09-17) (checked 2026-11-01)",
    "county": "Fairfax",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.wearefoundingfarmers.com/location/reston/",
+        "quote": "ering | Breakfast - A la Carte | Founding Farmers breakfast in Reston, VA is popular with locals, including commuters, before they catch the Metro at the adjacent Reston Station. | Avail",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/reston/founding-farmers-reston-station-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.wearefoundingfarmers.com/locations/reston/"
    }
   },
   {
@@ -347,7 +384,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/glory-days-grill-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.979894,
    "lng": -77.348523,
-   "website": null,
+   "website": "https://www.glorydaysgrill.com/locations/virginia/reston-at-north-point-village-center/",
+   "websiteSource": "OpenStreetMap node/3882839347 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -422,7 +460,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.glorydaysgrill.com/locations/virginia/reston-at-north-point-village-center/"
    }
   },
   {
@@ -436,7 +474,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/gregorios-trattoria-/ (updated 2026-09-25), checked 2026-11-01",
    "lat": 38.9795,
    "lng": -77.3492,
-   "website": null,
+   "website": "https://gregoriostrattoria.com/",
+   "websiteSource": "OpenStreetMap node/3882864213 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-10p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -449,13 +488,49 @@
    ],
    "source": "hours from Restaurantji listing (updated 2026-09-25); the venue's Facebook page could not be read (checked 2026-11-01)",
    "county": "Fairfax",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Date night / upscale"
+    ],
+    "summary": "Family-friendly; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://gregoriostrattoria.com/",
+        "quote": "Gregorio's Trattoria — serving Potomac, Bethesda, Park Potomac, and Reston. Enjoy a cozy, family-friendly atmosphere where fresh ingredients and timeless recipes come together. From handcrafted p",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://gregoriostrattoria.com/",
+        "quote": "They are super kind and go out of their way to make you feel special. Wonderful place for date night or a night out with family. | Featuring | Catering | Vegetarian Options | Happy-hour food",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/reston/gregorios-trattoria-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://gregoriostrattoria.com/"
    }
   },
   {
@@ -502,7 +577,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/harvest-vine-/ (updated 2026-10-01), checked 2026-11-01",
    "lat": 38.949106,
    "lng": -77.353682,
-   "website": null,
+   "website": "https://www.marriott.com/en-us/hotels/wasow-the-westin-reston-heights/dining/",
+   "websiteSource": "OpenStreetMap way/541661463 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 4p-11p; Fri-Sun 5p-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -513,13 +589,49 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-01) (checked 2026-11-01)",
    "county": "Fairfax",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.marriott.com/en-us/hotels/wasow-the-westin-reston-heights/dining/",
+        "quote": "of classic dishes and seasonal specialties. | Japanese | Ariake | 1.4 Miles | Ariake is a local favorite offering a wide range of traditional Japanese dishes including fresh sushi and sashimi.",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.marriott.com/en-us/hotels/wasow-the-westin-reston-heights/dining/",
+        "quote": "-made dishes specifically paired with its own proprietary wines. The location includes an upscale-casual dining room and a wine tasting room. | Other | Pisco y Nazca Ceviche Gastrobar | 1",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/reston/harvest-vine-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.marriott.com/en-us/hotels/wasow-the-westin-reston-heights/dining/"
    }
   },
   {
@@ -533,7 +645,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/jacksons-mighty-fine-food-and-lucky-lounge-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 38.9578,
    "lng": -77.3589,
-   "website": null,
+   "website": "https://jacksonsva.com/",
+   "websiteSource": "OpenStreetMap node/832367351 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11a-10p; Tue-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -550,7 +663,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://jacksonsva.com/"
    }
   },
   {
@@ -564,7 +677,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/kalypsos-sports-tavern-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 38.9688,
    "lng": -77.3408,
-   "website": null,
+   "website": "https://www.kalypsossportstavern.com/",
+   "websiteSource": "OpenStreetMap node/5273053225 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-1a; Fri-Sat 11a-2a; Sun 11a-1a",
    "hoursNote": null,
    "kitchen": null,
@@ -577,13 +691,26 @@
    ],
    "source": "hours from Restaurantji listing (updated 2026-09-20); the venue's Facebook page could not be read (checked 2026-11-01)",
    "county": "Fairfax",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Join us for live music, karaoke, and your favorite teams",
+      "url": "https://www.kalypsossportstavern.com/"
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/reston/kalypsos-sports-tavern-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.kalypsossportstavern.com/"
    }
   },
   {
@@ -596,7 +723,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/lake-anne-brew-house-/ (updated 2026-10-20), checked 2026-11-01",
    "lat": 38.9684,
    "lng": -77.341,
-   "website": null,
+   "website": "https://lakeannebrewhouse.com/visit/",
+   "websiteSource": "OpenStreetMap node/4969361273 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Fri 4p-9p; Sat 10a-9p; Sun 1p-7p",
    "hoursNote": null,
    "kitchen": null,
@@ -615,7 +743,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://lakeannebrewhouse.com/visit/"
    }
   },
   {
@@ -627,12 +755,22 @@
    "zip": "20190",
    "phone": "(571) 313-0272",
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/makers-union-/ (updated 2026-10-06), checked 2026-11-01",
-   "website": null,
+   "website": "https://www.makersunionpub.com/reston-va",
+   "websiteSource": "OpenStreetMap node/11231221852 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-12a; Sat 10a-2a; Sun 10a-10p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "A happy hour featuring our bar favorites, everyday from 3-6p",
+     "tags": [],
+     "src": "Venue website makersunionpub.com/reston-va",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -643,9 +781,10 @@
    "crowdType": {
     "labels": [
      "Date night / upscale",
-     "Live music fans"
+     "Live music fans",
+     "Sports fans"
     ],
-    "summary": "A date-night / upscale spot; known for live music.",
+    "summary": "A date-night / upscale spot; known for live music; popular for watching games.",
     "confidence": "medium",
     "details": [
      {
@@ -673,6 +812,19 @@
         "agg": true
        }
       ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.makersunionpub.com/reston-va",
+        "quote": "272 | Reston’s Local Spot | We designed Makers Union with you in mind. It’s your place to watch the game and enjoy a beer at the bar or a place to meet up with your work crew during the week or",
+        "self": true
+       }
+      ]
      }
     ]
    },
@@ -682,7 +834,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.makersunionpub.com/reston-va"
    }
   },
   {
@@ -749,7 +901,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/matsutake-sushi-and-sake-bar-/ (updated 2026-10-02), checked 2026-11-01",
    "lat": 38.97836,
    "lng": -77.349345,
-   "website": null,
+   "website": "http://www.matsutakesushi.com",
+   "websiteSource": "OpenStreetMap node/10598772445 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11:30a-9:30p; Sat 12p-9:30p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -896,13 +1049,29 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/passionfish-/ (updated 2026-10-17), checked 2026-11-01",
    "lat": 38.9581,
    "lng": -77.36,
-   "website": null,
+   "website": "https://www.passionfishreston.com/",
+   "websiteSource": "OpenStreetMap node/761320920 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-9p; Fri 11:30a-10p; Sat 4p-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Sun",
+     "text": "Live Jazz Brunch Every Sunday - Three Courses Just $35 + $3 Brunch Cocktails",
+     "tags": [],
+     "src": "Venue website passionfishreston.com/special-promotions",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Sun",
+     "text": "PassionFish also offers a three-course $35 Sunday Live Jazz Brunch deal",
+     "tags": [],
+     "src": "Venue website passionfishreston.com/about",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-17); the venue's Facebook page could not be read (checked 2026-11-01)",
@@ -912,11 +1081,11 @@
      "Date night / upscale"
     ],
     "summary": "A date-night / upscale spot.",
-    "confidence": "medium",
+    "confidence": "high",
     "details": [
      {
       "label": "Date night / upscale",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence": [
        {
         "type": "reviews",
@@ -924,6 +1093,13 @@
         "url": "https://www.restaurantji.com/va/reston/passionfish-/",
         "quote": "and crab cakes are also highly recommended. The restaurant is described as fancy with an upscale atmosphere, making it a great choice for formal dinners. Customers have noted the portion",
         "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.passionfishreston.com/",
+        "quote": "PassionFish – Fresh Seafood & Fine Dining in Reston, VA | Skip to main content | Hours & Location | Menus | Private Events | Order",
+        "self": true
        }
       ]
      }
@@ -935,7 +1111,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.passionfishreston.com/"
    }
   },
   {
@@ -949,7 +1125,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/pisco-y-nazca-ceviche-gastrobar-/ (updated 2026-10-27), checked 2026-11-01",
    "lat": 38.958598,
    "lng": -77.360313,
-   "website": null,
+   "website": "https://piscoynazca.com/reston-va/",
+   "websiteSource": "OpenStreetMap node/11231341301 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-10p; Fri 11:30a-11p; Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -990,7 +1167,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://piscoynazca.com/reston-va/"
    }
   },
   {
@@ -1004,7 +1181,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/pista-house-indian-cuisine-/ (updated 2026-09-28), checked 2026-11-01",
    "lat": 38.937708,
    "lng": -77.362147,
-   "website": null,
+   "website": "https://pistahousevirginia.com",
+   "websiteSource": "OpenStreetMap node/5353088935 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 11:30a-2:30p,5:30p-10p; Fri-Sun 11:30a-3p,5:30p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1045,7 +1223,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://pistahousevirginia.com"
    }
   },
   {
@@ -1059,7 +1237,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/reds-table-/ (updated 2026-09-28), checked 2026-11-01",
    "lat": 38.939,
    "lng": -77.3308,
-   "website": null,
+   "website": "https://redstableva.com/",
+   "websiteSource": "OpenStreetMap node/4565176799 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -1104,7 +1283,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://redstableva.com/"
    }
   },
   {
@@ -1200,7 +1379,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/silver-diner-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 38.966904,
    "lng": -77.358538,
-   "website": null,
+   "website": "https://www.silverdiner.com/locations/reston",
+   "websiteSource": "OpenStreetMap way/79455273 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Wed 7a-11p; Thu-Sat 7a-12a; Sun 7a-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -1255,12 +1435,22 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/sixty-vines-/ (updated 2026-10-14), checked 2026-11-01",
    "lat": 38.958648,
    "lng": -77.356962,
-   "website": null,
+   "website": "https://www.sixtyvines.com/",
+   "websiteSource": "OpenStreetMap node/12090667187 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-11p; Sat 10a-11p; Sun 10a-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour runs weekdays, 3–6 p",
+     "tags": [],
+     "src": "Venue website sixtyvines.com/locations/winter-park",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -1294,7 +1484,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.sixtyvines.com/"
    }
   },
   {
@@ -1308,7 +1498,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/sterling/taco-zocalo-sterling-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.9491,
    "lng": -77.3338,
-   "website": null,
+   "website": "https://zocalotaco.com/",
+   "websiteSource": "OpenStreetMap node/10774379611 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 10:30a-9p; Sun 12p-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -1325,7 +1516,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://zocalotaco.com/"
    }
   },
   {
@@ -1339,7 +1530,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/taste-of-istanbul-/ (updated 2026-09-26), checked 2026-11-01",
    "lat": 38.960784,
    "lng": -77.360428,
-   "website": null,
+   "website": "https://tasteofistanbulcatering.com/",
+   "websiteSource": "OpenStreetMap node/6223267949 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9:30p; Fri 11a-11p; Sat-Sun 9a-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -1421,11 +1613,12 @@
    "zip": "20190",
    "phone": "(571) 720-1085",
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/the-simon-at-reston-station-/ (updated 2026-09-10), checked 2026-11-01",
-   "website": null,
+   "website": "https://www.thesimonrestonstation.com/",
+   "websiteSource": "OpenStreetMap node/13068309635 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 6a-10p; Sat-Sun 7a-10p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 10 pm per Venue website thesimonrestonstation.com/location/the-simon, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -1438,7 +1631,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.thesimonrestonstation.com/"
    }
   },
   {
@@ -1451,24 +1644,100 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/tiki-thai-/ (updated 2026-10-07), checked 2026-11-01",
    "lat": 38.955,
    "lng": -77.3634,
-   "website": null,
+   "website": "https://www.tikithai.com/",
+   "websiteSource": "OpenStreetMap way/603105012 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-12a; Fri-Sat 11a-2a; Sun 11a-12a",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Visit us for happy hour every day from 3 to 6 pm",
+     "tags": [],
+     "src": "Venue website tikithai.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Daily",
+     "text": "Happy Hour Everyday: 3-6pm",
+     "tags": [],
+     "src": "Venue website tikithai.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-07); the venue's Facebook page could not be read (checked 2026-11-01)",
    "county": "Fairfax",
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "11:00pm – Close",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://tikithai.com/tiki-event-hub/",
+        "date": "2026-11-01",
+        "quote": "DJ Nights | Every Friday & Saturday Night | Every Friday & Saturday Night | 11:00pm – Close"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://tikithai.com/tiki-event-hub/",
+        "date": "2026-11-01",
+        "quote": " Our live DJs bring the hottest music to Reston Town Center (RTC) | West—perfect for late-night drinks, dancing, and unforgettable weekends at Tiki Thai."
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "11:00pm – Close",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://tikithai.com/tiki-event-hub/",
+        "date": "2026-11-01",
+        "quote": "DJ Nights | Every Friday & Saturday Night | Every Friday & Saturday Night | 11:00pm – Close"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://tikithai.com/tiki-event-hub/",
+        "date": "2026-11-01",
+        "quote": " Our live DJs bring the hottest music to Reston Town Center (RTC) | West—perfect for late-night drinks, dancing, and unforgettable weekends at Tiki Thai."
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/reston/tiki-thai-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.tikithai.com/"
    }
   },
   {
@@ -1482,7 +1751,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/reston/uncle-julios-mexican-from-scratch-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 38.9581,
    "lng": -77.3587,
-   "website": null,
+   "website": "https://unclejulios.com/",
+   "websiteSource": "OpenStreetMap node/1778438878 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1499,7 +1769,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://unclejulios.com/"
    }
   }
  ],

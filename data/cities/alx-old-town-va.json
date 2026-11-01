@@ -16,7 +16,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/alice-comfort-cocktail-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 38.80504,
    "lng": -77.047297,
-   "website": null,
+   "website": "https://alicecocktailbar.com/",
+   "websiteSource": "OpenStreetMap node/12498403843 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 5p-10p; Tue closed; Wed-Thu 5p-10p; Fri-Sat 5p-12a; Sun 12p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -69,7 +70,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/asian-bistro-/ (updated 2026-09-21), checked 2026-11-01",
    "lat": 38.805279,
    "lng": -77.048255,
-   "website": null,
+   "website": "https://www.abistro.com",
+   "websiteSource": "OpenStreetMap way/205194796 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11:15a-9p; Sun 4p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -86,7 +88,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.abistro.com"
    }
   },
   {
@@ -100,7 +102,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/augies-mussel-house-and-patio-/ (updated 2026-10-12), checked 2026-11-01",
    "lat": 38.805585,
    "lng": -77.051512,
-   "website": null,
+   "website": "https://www.eataugies.com/",
+   "websiteSource": "OpenStreetMap way/205055894 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-12a; Fri-Sat 11a-2a; Sun 11a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -113,13 +116,35 @@
    ],
    "source": "hours from Restaurantji listing (updated 2026-10-12) (checked 2026-11-01)",
    "county": "Alexandria City",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.eataugies.com/",
+        "quote": "'s is growing! Our beloved beer garden in Old Town Alexandria is now joined by our newest sports bar in Annapolis Town Center — with another location on the way. | Each spot has its own pers",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/alexandria/augies-mussel-house-and-patio-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.eataugies.com/"
    }
   },
   {
@@ -133,13 +158,41 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/bastille-/ (updated 2026-09-25), checked 2026-11-01",
    "lat": 38.8116,
    "lng": -77.0514,
-   "website": null,
+   "website": "https://www.bastillerestaurant.com/",
+   "websiteSource": "OpenStreetMap node/11075705705 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Sun 4p-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Ample free street parking is available in the surrounding Parker-Gray neighborhood, making it easy to join us for dinner, Happy Hour, wine dinners, and special celebrations",
+     "tags": [],
+     "src": "Venue website bastillerestaurant.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Tue,Wed,Thu,Sun",
+     "text": "Make Bastille part of your week with a few extra reasons to stop in—from 30% off bottles of wine on Tuesdays and all-night Happy Hour on Wednesdays and Sundays to Burger & Bordeaux on Thursdays",
+     "tags": [],
+     "src": "Venue website bastillerestaurant.com/menus-events/weeklyevents",
+     "checked": "2026-11-01"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Enjoy specially priced beer, wine and cocktails, plus $9 house martinis",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website bastillerestaurant.com/menus-events/weeklyevents",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-09-25); the venue's Facebook page could not be read (checked 2026-11-01)",
@@ -150,7 +203,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.bastillerestaurant.com/"
    }
   },
   {
@@ -243,13 +296,42 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/blackwall-hitch-/ (updated 2026-09-25), checked 2026-11-01",
    "lat": 38.8055,
    "lng": -77.0392,
-   "website": null,
+   "website": "https://blackwallhitchalexandria.com/",
+   "websiteSource": "OpenStreetMap way/160778681 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-11p; Fri 11:30a-1:30a; Sat 11a-1:30a; Sun 10a-11p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "kitchenNote": "Kitchen open until 10 pm per Venue website blackwallhitchalexandria.com, checked 2026-11-01; days not stated.",
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour 3pm-6pm",
+     "tags": [],
+     "src": "Venue website blackwallhitchalexandria.com/daily-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "All Day Happy Hour",
+     "tags": [],
+     "src": "Venue website blackwallhitchalexandria.com/daily-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Half Price Artisan Pizzas, Wings and Select Apps",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website blackwallhitchalexandria.com/daily-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-09-25); the venue's Facebook page could not be read (checked 2026-11-01)",
@@ -296,7 +378,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://blackwallhitchalexandria.com/"
    }
   },
   {
@@ -310,7 +392,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/bob-and-ediths-diner-2/ (updated 2026-10-02), checked 2026-11-01",
    "lat": 38.806612,
    "lng": -77.058611,
-   "website": null,
+   "website": "https://www.bobandedithsdiner.com/",
+   "websiteSource": "OpenStreetMap way/545745922 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 12a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -343,7 +426,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/bollywood-masala-/ (updated 2026-09-05), checked 2026-11-01",
    "lat": 38.804455,
    "lng": -77.041636,
-   "website": null,
+   "website": "https://bollywoodmasalaalexandria.com/",
+   "websiteSource": "OpenStreetMap node/12207948771 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-9:30p; Fri-Sat 11:30a-10p; Sun 11:30a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -362,7 +446,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://bollywoodmasalaalexandria.com/"
    }
   },
   {
@@ -445,13 +529,22 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/bugsys-pizza-restaurant-/ (updated 2026-09-21), checked 2026-11-01",
    "lat": 38.80431,
    "lng": -77.040437,
-   "website": null,
+   "website": "https://bugsyspizza.com/",
+   "websiteSource": "OpenStreetMap way/205327205 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-10:30p; Fri-Sat 11:30a-12:30a; Sun 11:30a-10:30p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "Every Monday, buy one pizza, get a second one FREE",
+     "tags": [],
+     "src": "Venue website bugsyspizza.com/sports-bar-events",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -466,11 +559,11 @@
      "Families"
     ],
     "summary": "Popular for watching games; family-friendly.",
-    "confidence": "medium",
+    "confidence": "high",
     "details": [
      {
       "label": "Sports fans",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence": [
        {
         "type": "reviews",
@@ -484,6 +577,13 @@
         "src": "Restaurantji review #1",
         "url": "https://www.restaurantji.com/va/alexandria/bugsys-pizza-restaurant-/",
         "quote": "Let’s Go Caps! Great place to watch sports! Edgar is a cool bartender."
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://bugsyspizza.com/",
+        "quote": "t , Alexandria | Menu | Drinks | Sports Bar Schedule and Events | Order | Reserve | Jobs | Instagram page | Toggle navigation | Insta",
+        "self": true
        }
       ]
      },
@@ -508,7 +608,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://bugsyspizza.com/"
    }
   },
   {
@@ -522,7 +622,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/caphe-banh-mi-/ (updated 2026-10-21), checked 2026-11-01",
    "lat": 38.805846,
    "lng": -77.043504,
-   "website": null,
+   "website": "https://www.caphebanhmi.com/",
+   "websiteSource": "OpenStreetMap node/5468796400 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11a-3p,5p-8p; Tue closed; Wed-Fri 11a-3p,5p-9p; Sat 11a-9p; Sun 11a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -606,12 +707,22 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/chadwicks-/ (updated 2026-10-10), checked 2026-11-01",
    "lat": 38.802946,
    "lng": -77.039829,
-   "website": null,
+   "website": "https://www.chadwicksoldtown.com/",
+   "websiteSource": "OpenStreetMap node/1728146192 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11a-2a; Sat-Sun 10a-2a",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Thu",
+     "text": "Happy Hour M-THur 4-7pm",
+     "tags": [],
+     "src": "Venue website chadwicksoldtown.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -623,7 +734,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.chadwicksoldtown.com/"
    }
   },
   {
@@ -637,13 +748,34 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/chart-house-/ (updated 2026-09-21), checked 2026-11-01",
    "lat": 38.805252,
    "lng": -77.039104,
-   "website": null,
+   "website": "https://www.chart-house.com/location/chart-house-alexandria-va/",
+   "websiteSource": "OpenStreetMap way/136240880 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-9p; Fri-Sat 11:30a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "SUN: 11:00 AM - 9:00 PM MON - THU: 11:30 AM - 9:00 PM FRI - SAT: 11:30 AM - 10:00 PM Happy Hour: Monday - Friday 4PM - 6:30PM",
+     "tags": [],
+     "src": "Venue website chart-house.com/location/chart-house-alexandria-va",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$5 DOMESTIC & SPECIALTY BOTTLE",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website chart-house.com/location/chart-house-alexandria-va",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-09-21) (checked 2026-11-01)",
@@ -654,7 +786,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.chart-house.com/location/chart-house-alexandria-va/"
    }
   },
   {
@@ -668,7 +800,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/chop-shop-taco-/ (updated 2026-10-14), checked 2026-11-01",
    "lat": 38.813405,
    "lng": -77.048744,
-   "website": null,
+   "website": "https://www.chopshoptaco.com/",
+   "websiteSource": "OpenStreetMap node/11891723417 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 12p-10p; Fri-Sat 12p-11p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -707,7 +840,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.chopshoptaco.com/"
    }
   },
   {
@@ -721,7 +854,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/daniel-oconnells-irish-restaurant-and-bar-/ (updated 2026-10-08), checked 2026-11-01",
    "lat": 38.804,
    "lng": -77.0408,
-   "website": null,
+   "website": "https://www.danieloconnells.com/",
+   "websiteSource": "OpenStreetMap way/204598333 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-1a",
    "hoursNote": null,
    "kitchen": null,
@@ -740,7 +874,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.danieloconnells.com/"
    }
   },
   {
@@ -840,13 +974,22 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/don-taco-/ (updated 2026-10-30), checked 2026-11-01",
    "lat": 38.8051,
    "lng": -77.0485,
-   "website": null,
+   "website": "https://dontacova.com/",
+   "websiteSource": "OpenStreetMap way/205029379 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 12p-10p; Tue-Thu 12p-11p; Fri-Sat 12p-12a; Sun 12p-10p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Sat,Sun",
+     "text": "Brunch is Saturday and Sunday, 12pm to 3pm, with huevos rancheros, a breakfast burrito, an omelet, micheladas and $1 off mimosas",
+     "tags": [],
+     "src": "Venue website dontacova.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-30); the venue's Facebook page could not be read (checked 2026-11-01)",
@@ -857,7 +1000,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://dontacova.com/"
    }
   },
   {
@@ -871,7 +1014,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/dos-amigos-/ (updated 2026-10-10), checked 2026-11-01",
    "lat": 38.812908,
    "lng": -77.05457,
-   "website": null,
+   "website": "http://www.dosamigosoldtown.com",
+   "websiteSource": "OpenStreetMap node/2765990052 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-9:45p; Sun 11a-8:45p",
    "hoursNote": null,
    "kitchen": null,
@@ -902,11 +1046,12 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/elaines-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 38.806609,
    "lng": -77.041155,
-   "website": null,
+   "website": "https://www.elaines-restaurant.com/",
+   "websiteSource": "OpenStreetMap node/12207937372 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 30 pm per Venue website elaines-restaurant.com/location/elaines-restaurant, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -941,7 +1086,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.elaines-restaurant.com/"
    }
   },
   {
@@ -955,7 +1100,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/la-trattoria-/ (updated 2026-09-19), checked 2026-11-01",
    "lat": 38.8047,
    "lng": -77.0472,
-   "website": null,
+   "website": "https://epicureonking.com/",
+   "websiteSource": "OpenStreetMap node/12207900682 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 5p-11p; Tue closed; Wed-Thu 5p-11p; Fri-Sat 5p-12a; Sun 5p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -994,7 +1140,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://epicureonking.com/"
    }
   },
   {
@@ -1008,7 +1154,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/fish-market-restaurant-/ (updated 2026-09-21), checked 2026-11-01",
    "lat": 38.804302,
    "lng": -77.040371,
-   "website": null,
+   "website": "https://www.fishmarketva.com/",
+   "websiteSource": "OpenStreetMap way/160691968 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-9p; Fri-Sat 11:30a-10:30p; Sun 11:30a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1039,7 +1186,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/fontaine-caffe-and-creperie-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 38.804398,
    "lng": -77.04375,
-   "website": null,
+   "website": "https://www.fontainecaffe.com/",
+   "websiteSource": "OpenStreetMap way/204629771 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 10a-3p,5:30p-9p; Fri 10a-3p,5:30p-10p; Sat 9a-10p; Sun 9a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -1056,7 +1204,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.fontainecaffe.com/"
    }
   },
   {
@@ -1070,7 +1218,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/gadsbys-tavern-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 38.805095,
    "lng": -77.0436,
-   "website": null,
+   "website": "https://www.gadsbystavernrestaurant.com/",
+   "websiteSource": "OpenStreetMap way/205317817 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue closed; Wed-Fri 11:30a-3p,5:30p-10p; Sat 11:30a-10p; Sun 11:30a-3p,5:30p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1139,7 +1288,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/goodys-carryout-/ (updated 2026-10-10), checked 2026-11-01",
    "lat": 38.807855,
    "lng": -77.051004,
-   "website": null,
+   "website": "https://www.goodyscarryout.com",
+   "websiteSource": "OpenStreetMap node/875506974 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -1170,7 +1320,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/hanks-oyster-bar-/ (updated 2026-10-10), checked 2026-11-01",
    "lat": 38.813128,
    "lng": -77.044137,
-   "website": null,
+   "website": "https://hanksoysterbar.com/old-town/",
+   "websiteSource": "OpenStreetMap node/11874406824 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1212,7 +1363,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://hanksoysterbar.com/old-town/"
    }
   },
   {
@@ -1226,7 +1377,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/hanks-pasta-bar-/ (updated 2026-09-18), checked 2026-11-01",
    "lat": 38.813958,
    "lng": -77.043961,
-   "website": null,
+   "website": "https://hankspastabar.com/",
+   "websiteSource": "OpenStreetMap node/13096994691 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11a-9p; Sat-Sun 4p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1245,7 +1397,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://hankspastabar.com/"
    }
   },
   {
@@ -1398,7 +1550,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/hinata-sushi-bar-grill-/ (updated 2026-10-01), checked 2026-11-01",
    "lat": 38.814135,
    "lng": -77.043774,
-   "website": null,
+   "website": "https://www.clover.com/online-ordering/hinata-alexandria",
+   "websiteSource": "OpenStreetMap node/11608828749 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-2:30p,4:30p-9p; Fri-Sat 11:30a-2:30p,4:30p-10p; Sun 5p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1439,7 +1592,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.clover.com/online-ordering/hinata-alexandria"
    }
   },
   {
@@ -1453,7 +1606,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/hummingbird-/ (updated 2026-08-24), checked 2026-11-01",
    "lat": 38.802827,
    "lng": -77.040495,
-   "website": null,
+   "website": "https://www.hummingbirdva.net/",
+   "websiteSource": "OpenStreetMap node/11090437433 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 7a-9p; Tue-Sat 7a-11p; Sun 7a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1472,7 +1626,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.hummingbirdva.net/"
    }
   },
   {
@@ -1486,7 +1640,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/il-porto-ristorante-/ (updated 2026-10-21), checked 2026-11-01",
    "lat": 38.804323,
    "lng": -77.040546,
-   "website": null,
+   "website": "https://www.ilportoristorante.com/",
+   "websiteSource": "OpenStreetMap way/160692021 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11:30a-10p; Sat-Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1499,13 +1654,49 @@
    ],
    "source": "hours from Restaurantji listing (updated 2026-10-21) (checked 2026-11-01)",
    "county": "Alexandria City",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.ilportoristorante.com/",
+        "quote": "easy pickup or delivery and savor the same authentic Italian flavors that have made us a local favorite for decades. | Order Online | Testimonials | What Our Guests Say | Alba Huex | Trustindex",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.ilportoristorante.com/",
+        "quote": "assic Italian dining experience filled with warmth, flavor, and tradition. Whether it’s a romantic dinner, a family gathering, or a night out with friends, our team will make sure every mo",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/alexandria/il-porto-ristorante-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.ilportoristorante.com/"
    }
   },
   {
@@ -1550,7 +1741,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/josephine-/ (updated 2026-10-27), checked 2026-11-01",
    "lat": 38.804784,
    "lng": -77.045928,
-   "website": null,
+   "website": "https://www.josephineoldtown.com",
+   "websiteSource": "OpenStreetMap way/204948014 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-11p; Sat 10a-11p; Sun 10a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1589,7 +1781,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.josephineoldtown.com"
    }
   },
   {
@@ -1698,7 +1890,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/kisso-asian-bistro-/ (updated 2026-09-17), checked 2026-11-01",
    "lat": 38.804457,
    "lng": -77.042629,
-   "website": null,
+   "website": "https://www.kissoasianbistro.com/",
+   "websiteSource": "OpenStreetMap node/12207936059 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11:30a-10p; Sun 12p-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -1709,13 +1902,35 @@
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-09-17) (checked 2026-11-01)",
    "county": "Alexandria City",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://kissoasianbistro.com/",
+        "quote": "orative video is currently playing | Kisso Asian Bistro - Alexandria, VA | Order online | Local favorites in Alexandria | Staying in tonight? Bring the table to you with Black Dragon Roll, Pad T",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/alexandria/kisso-asian-bistro-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.kissoasianbistro.com/"
    }
   },
   {
@@ -1796,7 +2011,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/landini-brothers-restaurant-/ (updated 2026-09-21), checked 2026-11-01",
    "lat": 38.804315,
    "lng": -77.04048,
-   "website": null,
+   "website": "https://www.landinibrothers.com/",
+   "websiteSource": "OpenStreetMap way/160692035 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-10p; Fri-Sat 11:30a-11p; Sun 11:30a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1813,7 +2029,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.landinibrothers.com/"
    }
   },
   {
@@ -1827,7 +2043,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/laportas-restaurant-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 38.804006,
    "lng": -77.058176,
-   "website": null,
+   "website": "http://www.laportas.net/",
+   "websiteSource": "OpenStreetMap node/875506954 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-11p; Sat 3:30p-11p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1858,7 +2075,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/le-refuge-restaurant-/ (updated 2026-10-09), checked 2026-11-01",
    "lat": 38.805376,
    "lng": -77.046823,
-   "website": null,
+   "website": "https://www.lerefugealexandria.com/",
+   "websiteSource": "OpenStreetMap way/205314905 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11:30a-2p,5:30p-9p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -1897,7 +2115,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.lerefugealexandria.com/"
    }
   },
   {
@@ -1911,7 +2129,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/lenas-wood-fired-pizza-and-tap-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 38.8134,
    "lng": -77.056,
-   "website": null,
+   "website": "https://www.lenaswoodfire.com/",
+   "websiteSource": "OpenStreetMap node/3943833907 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-12a; Sat 10a-12a; Sun 10a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1981,7 +2200,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/los-cuates-2/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 38.805598,
    "lng": -77.051608,
-   "website": null,
+   "website": "https://www.cuatesgrillmenu.com/",
+   "websiteSource": "OpenStreetMap node/12207964801 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-10p; Fri-Sat 11:30a-2a; Sun 11:30a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1993,14 +2213,53 @@
    "source": "hours from Restaurantji listing (updated 2026-10-28) (checked 2026-11-01)",
    "county": "Alexandria City",
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.cuatesgrillmenu.com/",
+        "date": "2026-11-01",
+        "quote": "KARAOKE NIGTHS | FRIDAYS AND SATURDAYS | FRIDAYS AND SATURDAYS"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.cuatesgrillmenu.com/",
+        "date": "2026-11-01",
+        "quote": "KARAOKE NIGTHS | FRIDAYS AND SATURDAYS | FRIDAYS AND SATURDAYS"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
     "hints": [
      "Restaurantji review/summary mentions karaoke",
      "Restaurantji review/summary mentions karaoke"
     ],
-    "stale": false,
-    "oneoffs": [],
-    "conflicts": []
+    "conflicts": [],
+    "oneoffs": []
    },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
@@ -2008,7 +2267,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.cuatesgrillmenu.com/"
    }
   },
   {
@@ -2022,7 +2281,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/mai-thai-restaurant-old-town-/ (updated 2026-09-28), checked 2026-11-01",
    "lat": 38.804121,
    "lng": -77.03983,
-   "website": null,
+   "website": "http://www.maithai.us/",
+   "websiteSource": "OpenStreetMap way/204586370 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-10:30p; Fri 11:30a-11p; Sat 10:30a-11p; Sun 11:30a-10:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -2053,7 +2313,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/mason-social-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 38.812801,
    "lng": -77.049901,
-   "website": null,
+   "website": "http://mason-social.com/",
+   "websiteSource": "OpenStreetMap way/219061423 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue 12p-11p; Wed-Thu 11a-11p; Fri-Sat 11a-12a; Sun 10a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -2106,7 +2367,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/mias-italian-kitchen-/ (updated 2026-09-19), checked 2026-11-01",
    "lat": 38.804183,
    "lng": -77.04035,
-   "website": null,
+   "website": "https://www.miasitalian.com/",
+   "websiteSource": "OpenStreetMap way/204598310 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-11p; Fri 11a-12a; Sat 9a-12a; Sun 9a-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -2125,7 +2387,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.miasitalian.com/"
    }
   },
   {
@@ -2139,7 +2401,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/milk-and-honey-old-town-/ (updated 2026-09-09), checked 2026-11-01",
    "lat": 38.805269,
    "lng": -77.048178,
-   "website": null,
+   "website": "https://www.themilkandhoney.com/old-town",
+   "websiteSource": "OpenStreetMap node/9655030673 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 9a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -2187,7 +2450,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.themilkandhoney.com/old-town"
    }
   },
   {
@@ -2201,7 +2464,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/momo-sushi-and-cafe-/ (updated 2026-09-22), checked 2026-11-01",
    "lat": 38.806614,
    "lng": -77.041192,
-   "website": null,
+   "website": "https://www.momosushicafe.com/",
+   "websiteSource": "OpenStreetMap node/2778689949 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11:30a-2:30p,4p-9:30p; Sun 4p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -2218,7 +2482,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.momosushicafe.com/"
    }
   },
   {
@@ -2347,7 +2611,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/nasime-japanese-restaurant-/ (updated 2026-10-11), checked 2026-11-01",
    "lat": 38.80584,
    "lng": -77.052591,
-   "website": null,
+   "website": "http://nasimerestaurant.com/",
+   "websiteSource": "OpenStreetMap node/12207792611 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 6p-10p; Fri-Sat 6p-10:30p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -2378,7 +2643,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/noodle-box-/ (updated 2026-09-28), checked 2026-11-01",
    "lat": 38.804869,
    "lng": -77.045929,
-   "website": null,
+   "website": "https://www.noodleboxoldtown.com/",
+   "websiteSource": "OpenStreetMap way/204948032 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11a-9p; Sat closed; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -2521,7 +2787,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/pita-house-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 38.805145,
    "lng": -77.047212,
-   "website": null,
+   "website": "https://www.thepitahouse.com",
+   "websiteSource": "OpenStreetMap way/160690370 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -2538,7 +2805,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.thepitahouse.com"
    }
   },
   {
@@ -2552,7 +2819,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/rock-it-grill-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 38.80599,
    "lng": -77.053786,
-   "website": null,
+   "website": "https://www.rockit-grill.com/Bar-Grill-Menu-Alexandria-VA.html",
+   "websiteSource": "OpenStreetMap node/875506961 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Daily 11a-1:30a",
    "hoursNote": null,
    "kitchen": null,
@@ -2671,7 +2939,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/sam-phao-thai-cuisine-/ (updated 2026-10-01), checked 2026-11-01",
    "lat": 38.805571,
    "lng": -77.05052,
-   "website": null,
+   "website": "https://www.samphaothai.com/",
+   "websiteSource": "OpenStreetMap way/160690365 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11:30a-9:15p; Sun 4:30p-9:15p",
    "hoursNote": null,
    "kitchen": null,
@@ -2688,7 +2957,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.samphaothai.com/"
    }
   },
   {
@@ -2702,7 +2971,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/shanghai-peking-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 38.810303,
    "lng": -77.050434,
-   "website": null,
+   "website": "http://shanghai-peking.com/",
+   "websiteSource": "OpenStreetMap node/3657614798 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 10:30a-10p; Fri 10:30a-10:30p; Sat 11a-10:30p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -2733,7 +3003,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/sisters-/ (updated 2026-10-31), checked 2026-11-01",
    "lat": 38.813932,
    "lng": -77.042873,
-   "website": null,
+   "website": "https://www.sistersthai.com/",
+   "websiteSource": "OpenStreetMap node/9879898673 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -2772,7 +3043,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.sistersthai.com/"
    }
   },
   {
@@ -2786,7 +3057,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/sonoma-cellar-/ (updated 2026-09-18), checked 2026-11-01",
    "lat": 38.80445,
    "lng": -77.041599,
-   "website": null,
+   "website": "https://www.mysonomacellar.com/",
+   "websiteSource": "OpenStreetMap node/10689197210 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue 3:30p-9p; Wed-Fri 3:30p-10p; Sat 11:30a-10p; Sun 11:30a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -2803,7 +3075,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.mysonomacellar.com/"
    }
   },
   {
@@ -2817,7 +3089,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/southside-815-/ (updated 2026-10-10), checked 2026-11-01",
    "lat": 38.796814,
    "lng": -77.048803,
-   "website": null,
+   "website": "https://www.southside815.com/",
+   "websiteSource": "OpenStreetMap node/1853734780 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11:30a-1:30a; Sun 11a-1:30a",
    "hoursNote": null,
    "kitchen": null,
@@ -2833,11 +3106,11 @@
      "Locals & regulars"
     ],
     "summary": "A locals-and-regulars spot.",
-    "confidence": "medium",
+    "confidence": "high",
     "details": [
      {
       "label": "Locals & regulars",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence": [
        {
         "type": "reviews",
@@ -2845,6 +3118,13 @@
         "url": "https://www.restaurantji.com/va/alexandria/southside-815-/",
         "quote": "Southside 815 in Alexandria is a lively neighborhood bar known for its delicious Maryland crab soup and blackened fish. The restaurant offers atte",
         "agg": true
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.southside815.com/",
+        "quote": "inks | Specials | Late Night & Happy Hour | Order Online | Events | Gallery | Contact | A local favorite for over 30 years! | At Southside 815, we pride ourselves on serving quality Southern cui",
+        "self": true
        }
       ]
      }
@@ -2856,7 +3136,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.southside815.com/"
    }
   },
   {
@@ -2870,12 +3150,22 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/t-j-stones-/ (updated 2026-09-25), checked 2026-11-01",
    "lat": 38.813968,
    "lng": -77.044042,
-   "website": null,
+   "website": "https://tjstones.com/",
+   "websiteSource": "OpenStreetMap node/2776113356 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Wed 11a-12a; Thu-Sat 11a-1a; Sun 11a-12a",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "And don't forget Happy Hour Mon-Fri 4-7pm",
+     "tags": [],
+     "src": "Venue website tjstones.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -2909,7 +3199,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://tjstones.com/"
    }
   },
   {
@@ -2923,7 +3213,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/table-talk-restaurant-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.804237,
    "lng": -77.058423,
-   "website": null,
+   "website": "https://www.tabletalkdiner.co/",
+   "websiteSource": "OpenStreetMap way/215963201 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Tue 7a-3:30p; Wed-Sun 7a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -2962,7 +3253,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.tabletalkdiner.co/"
    }
   },
   {
@@ -2976,7 +3267,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/taverna-cretekou-/ (updated 2026-09-22), checked 2026-11-01",
    "lat": 38.805179,
    "lng": -77.048375,
-   "website": null,
+   "website": "https://tavernacretekou.com/",
+   "websiteSource": "OpenStreetMap way/205029402 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Fri 11:30a-2:30p,4p-9p; Sat 12p-9p; Sun 11a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -3009,7 +3301,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/thai-signature-local-thai-street-food-and-bar-/ (updated 2026-10-31), checked 2026-11-01",
    "lat": 38.805038,
    "lng": -77.047276,
-   "website": null,
+   "website": "https://thai-signature.com/",
+   "websiteSource": "OpenStreetMap way/205023956 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-10p; Fri-Sat 11:30a-11p; Sun 11:30a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -3050,7 +3343,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://thai-signature.com/"
    }
   },
   {
@@ -3119,7 +3412,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/the-light-horse-/ (updated 2026-10-18), checked 2026-11-01",
    "lat": 38.80514,
    "lng": -77.047171,
-   "website": null,
+   "website": "https://thelighthorserestaurant.com/",
+   "websiteSource": "OpenStreetMap way/160690362 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 4p-1a; Tue-Thu 11a-12a; Fri-Sat 11a-1:30a; Sun 11a-1a",
    "hoursNote": null,
    "kitchen": null,
@@ -3188,7 +3482,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/the-majestic-/ (updated 2026-10-10), checked 2026-11-01",
    "lat": 38.805425,
    "lng": -77.049357,
-   "website": null,
+   "website": "https://www.majesticcafe.com",
+   "websiteSource": "OpenStreetMap way/205186360 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Fri 11:30a-11p; Sat 10a-11p; Sun 10a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -3241,7 +3536,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/the-peoples-drug-/ (updated 2026-10-13), checked 2026-11-01",
    "lat": 38.805416,
    "lng": -77.04911,
-   "website": null,
+   "website": "https://thepeoplesdrug.com",
+   "websiteSource": "OpenStreetMap node/13446899228 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11:30a-12a; Sun 11:30a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -3258,7 +3554,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://thepeoplesdrug.com"
    }
   },
   {
@@ -3272,7 +3568,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/the-warehouse-/ (updated 2026-09-20), checked 2026-11-01",
    "lat": 38.804346,
    "lng": -77.041696,
-   "website": null,
+   "website": "https://www.warehousebarandgrill.com/",
+   "websiteSource": "OpenStreetMap way/204608391 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-10:30p; Sat 9a-10:30p; Sun 9a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -3303,7 +3600,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/the-wharf-/ (updated 2026-10-21), checked 2026-11-01",
    "lat": 38.80432,
    "lng": -77.040524,
-   "website": null,
+   "website": "https://www.wharfrestaurant.com/",
+   "websiteSource": "OpenStreetMap way/160691975 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 12p-9:30p; Fri 12p-10:30p; Sat 11a-10:30p; Sun 11a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -3356,7 +3654,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.wharfrestaurant.com/"
    }
   },
   {
@@ -3370,7 +3668,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/thompson-italian-/ (updated 2026-10-15), checked 2026-11-01",
    "lat": 38.805465,
    "lng": -77.050602,
-   "website": null,
+   "website": "https://thompsonitalian.com/alexandria/",
+   "websiteSource": "OpenStreetMap node/11874404375 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 5p-9p; Fri-Sun 4:30p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -3411,7 +3710,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://thompsonitalian.com/alexandria/"
    }
   },
   {
@@ -3425,7 +3724,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/tokyo-japanese-steak-house-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 38.814495,
    "lng": -77.039048,
-   "website": null,
+   "website": "https://www.tjsh1995.com/",
+   "websiteSource": "OpenStreetMap node/4452770390 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11:30a-2:30p,4:30p-10p; Fri 11:30a-2:30p,4:30p-10:30p; Sat 12p-10:30p; Sun 12p-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -3464,7 +3764,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.tjsh1995.com/"
    }
   },
   {
@@ -3478,7 +3778,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/trattoria-da-franco-/ (updated 2026-09-04), checked 2026-11-01",
    "lat": 38.802696,
    "lng": -77.047559,
-   "website": null,
+   "website": "https://www.trattoria-dafranco.com/",
+   "websiteSource": "OpenStreetMap node/12207849288 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Sun 4p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -3497,7 +3798,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.trattoria-dafranco.com/"
    }
   },
   {
@@ -3511,7 +3812,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/two-nineteen-restaurant-/ (updated 2026-09-21), checked 2026-11-01",
    "lat": 38.804463,
    "lng": -77.041711,
-   "website": null,
+   "website": "https://219restaurant.com/",
+   "websiteSource": "OpenStreetMap node/10689145303 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 4p-10p; Fri-Sat 4p-11p; Sun 4p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -3556,7 +3858,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://219restaurant.com/"
    }
   },
   {
@@ -3570,7 +3872,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/union-street-public-house-/ (updated 2026-10-08), checked 2026-11-01",
    "lat": 38.803556,
    "lng": -77.040488,
-   "website": null,
+   "website": "https://www.unionstreetpublichouse.com/",
+   "websiteSource": "OpenStreetMap way/204598336 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 4p-12a; Tue-Fri 11:30a-2a; Sat 10a-2a; Sun 10a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -3585,9 +3888,10 @@
    "county": "Alexandria City",
    "crowdType": {
     "labels": [
-     "Families"
+     "Families",
+     "Locals & regulars"
     ],
-    "summary": "Family-friendly.",
+    "summary": "Family-friendly; a locals-and-regulars spot.",
     "confidence": "medium",
     "details": [
      {
@@ -3602,6 +3906,19 @@
         "agg": true
        }
       ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.unionstreetpublichouse.com/",
+        "quote": "s been serving revolutionary American cuisine in a warm and lively atmosphere since 1986. Locals and out-of-towners alike flock to the waterfront location for fresh seafood, grilled stea",
+        "self": true
+       }
+      ]
      }
     ]
    },
@@ -3611,7 +3928,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.unionstreetpublichouse.com/"
    }
   },
   {
@@ -3625,12 +3942,30 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/urbano-116-/ (updated 2026-10-01), checked 2026-11-01",
    "lat": 38.804204,
    "lng": -77.040525,
-   "website": null,
+   "website": "https://www.urbano116.com/",
+   "websiteSource": "OpenStreetMap node/6226211833 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Wed 11a-10p; Thu 11a-11p; Fri-Sat 11a-11:30p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy hour every Monday through Friday from 3–7pm",
+     "tags": [],
+     "src": "Venue website urbano116.com/weekly-specials",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "— All Day Happy Hour",
+     "tags": [],
+     "src": "Venue website urbano116.com/weekly-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -3642,7 +3977,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.urbano116.com/"
    }
   },
   {
@@ -3656,7 +3991,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/vasos-kitchen-/ (updated 2026-10-16), checked 2026-11-01",
    "lat": 38.817879,
    "lng": -77.046997,
-   "website": null,
+   "website": "https://vasos-kitchen.com/",
+   "websiteSource": "OpenStreetMap node/12207837187 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Sat 11a-9p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -3673,7 +4009,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://vasos-kitchen.com/"
    }
   },
   {
@@ -3687,7 +4023,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/vasos-mediterranean-bistro-/ (updated 2026-10-01), checked 2026-11-01",
    "lat": 38.8056,
    "lng": -77.051627,
-   "website": null,
+   "website": "https://www.vasosonking.com/",
+   "websiteSource": "OpenStreetMap way/205055862 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -3706,7 +4043,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.vasosonking.com/"
    }
   },
   {
@@ -3720,7 +4057,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/vermilion-/ (updated 2026-09-22), checked 2026-11-01",
    "lat": 38.805603,
    "lng": -77.051646,
-   "website": null,
+   "website": "https://vermilionrestaurant.com/",
+   "websiteSource": "OpenStreetMap way/205055925 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon closed; Tue 4p-10p; Wed-Fri 4p-11p; Sat 10:30a-11p; Sun 10:30a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -3733,13 +4071,41 @@
    ],
    "source": "hours from Restaurantji listing (updated 2026-09-22) (checked 2026-11-01)",
    "county": "Alexandria City",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/va/alexandria/vermilion-/",
+        "quote": "Exceptional service and wonderful food made with quality ingredients. Warm, upscale atmosphere."
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.vermilionrestaurant.com/",
+        "quote": "e Restaurant Association of Metropolitan Washington, while the restaurant was named “Best Upscale Casual Restaurant” and received 3 stars from the Washington Post. | Chef Chittum then too",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/alexandria/vermilion-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://vermilionrestaurant.com/"
    }
   },
   {
@@ -3753,7 +4119,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/virtue-feed-and-grain-/ (updated 2026-09-16), checked 2026-11-01",
    "lat": 38.803838,
    "lng": -77.040279,
-   "website": null,
+   "website": "http://virtuefeedandgrain.com",
+   "websiteSource": "OpenStreetMap way/204586372 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-11p; Sat 10a-11p; Sun 10a-10p",
    "hoursNote": null,
    "kitchen": null,

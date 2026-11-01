@@ -647,7 +647,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/chesterfield/made-in-asia-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 37.4024,
    "lng": -77.6748,
-   "website": null,
+   "website": "https://www.madeinasiacc.com/",
+   "websiteSource": "OpenStreetMap node/6764303756 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 4p-9p; Fri-Sat 4p-11p; Sun 4p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -755,7 +756,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/midlothian/mr-pepe-woodlake-/ (updated 2026-09-02), checked 2026-11-01",
    "lat": 37.404045,
    "lng": -77.685442,
-   "website": null,
+   "website": "https://www.mrpepemexicanrestaurant.us/MrPepe2_Woodlake/index.html",
+   "websiteSource": "OpenStreetMap node/6764303230 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-10p; Fri 11a-10:30p; Sat-Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -772,7 +774,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.mrpepemexicanrestaurant.us/MrPepe2_Woodlake/index.html"
    }
   },
   {
@@ -978,7 +980,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/chesterfield/swagat-indian-cuisine-/ (updated 2026-10-14), checked 2026-11-01",
    "lat": 37.373636,
    "lng": -77.499491,
-   "website": null,
+   "website": "https://www.swagatva.com/",
+   "websiteSource": "OpenStreetMap node/6761691075 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11a-2:45p,4:30p-9:30p; Tue closed; Wed-Thu 11a-2:45p,4:30p-9:30p; Fri-Sat 11:30a-3p,4:30p-9:45p; Sun 11:30a-3p,4:30p-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -997,7 +1000,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.swagatva.com/"
    }
   },
   {
@@ -1162,24 +1165,67 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/midlothian/flyin-pig-/ (updated 2026-10-08), checked 2026-11-01",
    "lat": 37.4517,
    "lng": -77.6484,
-   "website": null,
+   "website": "https://theflyinpigrestaurant.com/",
+   "websiteSource": "OpenStreetMap node/3165947305 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 11a-12a; Fri-Sat 11a-2a; Sun 11a-12a",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Extended happy hour (2-7p)",
+     "tags": [],
+     "src": "Venue website theflyinpigrestaurant.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "50% off of orders of (5) traditional wings",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website theflyinpigrestaurant.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-08); the venue's Facebook page could not be read (checked 2026-11-01)",
    "county": "Chesterfield",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://theflyinpigrestaurant.com/",
+        "quote": "The Flyin' Pig | Your Neighborhood Bar & Grill - Midlothian, VA | Reservations: 804-447-4592 | Sunday - Thursday 11am - 12am | F",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/va/midlothian/flyin-pig-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://theflyinpigrestaurant.com/"
    }
   },
   {
