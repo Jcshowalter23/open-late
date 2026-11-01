@@ -694,10 +694,46 @@
     const wantView = sp.get("view") === "map" || sp.get("view") === "list" ? sp.get("view") : sp.get("place") ? "list" : savedView;
     if (wantView === "map") setView("map", { noScroll: !sp.get("view") });
     if (sp.get("place")) openPlace(sp.get("place"), aid);
+    setupKofi(sp);
     // periodic refresh keeps how many cards were already revealed
     const refresh = () => { const keep = shown; tick(); render(); while (shown < keep && !$("more").hidden) render(true); };
     setInterval(refresh, 30000);
     document.addEventListener("visibilitychange", () => { if (!document.hidden && city) refresh(); });
+  }
+
+  // ---------- Ko-fi tip link + gentle prompt (config.js `kofi`; empty = off; ?kofitest=1|fast previews it)
+  function setupKofi(sp) {
+    const test = sp.get("kofitest");
+    const url = CFG.kofi || (test ? "https://ko-fi.com/" : "");
+    if (!url) return;
+    const ls = (k, v) => { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } };
+    $("kofiLink").href = url; $("kofiGo").href = url; $("kofiFoot").hidden = false;
+    $("kofiLink").addEventListener("click", () => track("kofi/footer", "Ko-fi footer link"));
+    // one visit per browser session
+    let visits = +ls("openlate.visits") || 0;
+    try { if (!sessionStorage.getItem("openlate.visit")) { sessionStorage.setItem("openlate.visit", "1"); visits += 1; ls("openlate.visits", String(visits)); } } catch (e) { /* storage off */ }
+    const snoozed = (+ls("openlate.kofiSnooze") || 0) > Date.now();
+    const auto = !navigator.webdriver && !/jsdom|HeadlessChrome/i.test(navigator.userAgent || "");
+    if (!test && (!auto || visits < 3 || snoozed)) return;
+    const sheet = $("kofiSheet");
+    const hide = (how) => {
+      sheet.hidden = true; document.body.classList.remove("kofi-on");
+      ls("openlate.kofiSnooze", String(Date.now() + 30 * 864e5));
+      track("kofi/" + how, how === "clicked" ? "Ko-fi tip clicked" : "Ko-fi prompt dismissed");
+    };
+    $("kofiGo").addEventListener("click", () => hide("clicked"));
+    $("kofiLater").addEventListener("click", () => hide("dismissed"));
+    $("kofiX").addEventListener("click", () => hide("dismissed"));
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !sheet.hidden) hide("dismissed"); });
+    // never over the form, an open Details, or an active search; wait and retry instead
+    const busy = () => $("formDlg").open || !!document.querySelector("#list details[open]") || $("top").classList.contains("searching") || (document.activeElement && /INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName));
+    let tries = 0;
+    const attempt = () => {
+      if (document.hidden || busy()) { if (++tries < 30) setTimeout(attempt, 10000); return; }
+      sheet.hidden = false; document.body.classList.add("kofi-on");
+      track("kofi/shown", "Ko-fi prompt shown");
+    };
+    setTimeout(attempt, test === "fast" ? 1500 : 20000);
   }
 
   function fail(e) { console.error(e); $("count").textContent = "Couldn't load restaurant data. Check your connection and reload."; }

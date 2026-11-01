@@ -215,3 +215,13 @@ main{padding-bottom:84px}
 #map{height:calc(100vh - var(--toph,190px) - 92px);height:calc(100dvh - var(--toph,190px) - 92px);min-height:300px;max-height:none}
 @media (min-width:760px){#map{height:calc(100vh - var(--toph,120px) - 120px);min-height:420px}}
 #mapwrap{scroll-margin-top:calc(var(--toph,190px) + 8px)}
+
+/* v78: Ko-fi tip link + bottom sheet */
+.kofi-foot a{color:var(--link);font-weight:600}
+.kofi-foot[hidden],.kofisheet[hidden]{display:none}
+.kofisheet{position:fixed;left:50%;bottom:calc(12px + env(safe-area-inset-bottom));transform:translateX(-50%);z-index:1200;width:min(460px,calc(100% - 20px));background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:16px;padding:16px 18px 14px;box-shadow:0 10px 36px rgba(0,0,0,.3)}
+.kofisheet h2{margin:0 36px 6px 0;font-size:1.1rem}
+.kofisheet p{margin:0 0 12px;font-size:.92rem;color:var(--ink2);line-height:1.45}
+.kofix{position:absolute;top:10px;right:10px}
+.kofibtns{display:flex;gap:10px;flex-wrap:wrap}
+body.kofi-on .viewfab{display:none}

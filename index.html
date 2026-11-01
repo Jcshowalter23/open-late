@@ -117,7 +117,14 @@
   <p class="footbtns"><a id="suggest" class="btn" href="#" data-form="suggest">Suggest an update</a> <a class="btn ghost" href="#" data-form="add">Add a place</a></p>
   <p>Know a special, a closing time, or a change? Restaurants and visitors can send it in. <a href="#" data-form="claim" class="claimlink">Own a bar? Claim your listing</a>.</p>
   <p class="small">Sources: each venue's Facebook page and website, plus local guides such as TasteLanc and OpenTable (the source is named on every card). Not affiliated with any restaurant. <a href="counties/">Browse by County</a></p>
+  <p class="kofi-foot" id="kofiFoot" hidden><a id="kofiLink" href="#" target="_blank" rel="noopener">☕ Support Open Late</a></p>
 </footer>
+<div class="kofisheet" id="kofiSheet" role="dialog" aria-labelledby="kofiTitle" aria-describedby="kofiText" hidden>
+  <button type="button" class="fx kofix" id="kofiX" aria-label="Close">✕</button>
+  <h2 id="kofiTitle">☕ Enjoying Open Late?</h2>
+  <p id="kofiText">Open Late is free and run by one person in Lancaster County. A small tip helps cover hosting, keep hours and deals up to date, and expand to more cities.</p>
+  <div class="kofibtns"><a class="btn" id="kofiGo" href="#" target="_blank" rel="noopener">Leave a tip on Ko-fi</a><button type="button" class="btn ghost" id="kofiLater">Maybe later</button></div>
+</div>
 <button type="button" class="viewfab" id="viewFab" aria-label="Switch to map view">🗺 Map</button>
 <dialog id="formDlg" aria-labelledby="fTitle">
   <form id="sForm" method="dialog" novalidate>

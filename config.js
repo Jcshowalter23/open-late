@@ -7,7 +7,10 @@ window.OPENLATE_CONFIG = {
   formEndpoint: "https://formsubmit.co/ajax/jcshowalter23@gmail.com",
   // Privacy-friendly, cookie-free visitor counts via GoatCounter. Empty = analytics off.
   // Set to your GoatCounter count URL, e.g. "https://openlate.goatcounter.com/count".
-  goatcounter: "https://openlateapp.goatcounter.com/count"
+  goatcounter: "https://openlateapp.goatcounter.com/count",
+  // Ko-fi tip page, e.g. "https://ko-fi.com/openlate". Empty = no tip link or prompt anywhere.
+  // Preview the prompt before turning it on: add ?kofitest=1 (shows after 20 s) or ?kofitest=fast to any page.
+  kofi: ""
 };
 // Analytics loader (does nothing while goatcounter is empty). Page views are counted automatically;
 // the app also records a few anonymous events (county/city picks, filter chips, Map, form sent).
