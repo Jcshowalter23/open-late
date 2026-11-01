@@ -958,13 +958,39 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy hour 4–6 pm: $3 Garage beers",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue site theuniontaphouse.com",
+     "checked": "2026-11-01"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "Wing night all day",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue site theuniontaphouse.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "Trivia 7:30–9:30 pm",
+     "src": "Venue site theuniontaphouse.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
    ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror); Website (rendered) theuniontaphouse.com (checked 2026-11-01)",
+   "source": "hours from the venue's Facebook page (via foodyas mirror); Website (rendered) theuniontaphouse.com (checked 2026-11-01); Venue site theuniontaphouse.com (checked 2026-11-01)",
    "county": "Philadelphia",
    "phone": "(215) 482-8980",
    "phoneSource": "Website (rendered) theuniontaphouse.com, checked 2026-11-01"
