@@ -47,3 +47,10 @@ input:focus,select:focus{outline:2px solid var(--rose);outline-offset:1px}
 .city select{background:#262a38;color:#fff;border-color:#3a3f52;min-height:36px;padding:6px 10px;font-size:15px;width:auto}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 @media (min-width:760px){.top{position:sticky;top:0;z-index:5}}
+.badge{display:inline-block;font-size:.72rem;font-weight:700;padding:1px 7px;border-radius:999px;margin-right:5px;vertical-align:1px}
+.b-wings{background:#fde3cf;color:#8a3b00}.b-beer{background:#fdf1c4;color:#6b5000}
+@media (prefers-color-scheme:dark){.b-wings{background:#4a2a12;color:#ffc89a}.b-beer{background:#433a12;color:#f5dc7a}}
+.hit{font-size:.9rem;padding:8px 10px;border-radius:10px;background:var(--mut);color:var(--ink)}
+.flag{font-size:.78rem;color:#a14a00}
+@media (prefers-color-scheme:dark){.flag{color:#ffb070}}
+.dsrc{font-size:.75rem;color:var(--ink3)}

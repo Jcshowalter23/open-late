@@ -21,13 +21,20 @@
    "happyHours": [
     {
      "days": "Daily",
-     "text": "Happy hour 4–6 pm: half-price drafts"
+     "text": "Happy hour 4–6 pm: half-price drafts",
+     "tags": [
+      "beer"
+     ]
     }
    ],
    "specials": [
     {
      "days": "Mon",
-     "text": "Half-price wings; $15 Yuengling pitchers"
+     "text": "Half-price wings; $15 Yuengling pitchers",
+     "tags": [
+      "beer",
+      "wings"
+     ]
     },
     {
      "days": "Tue",
@@ -47,11 +54,17 @@
     },
     {
      "days": "Sat",
-     "text": "$4 Michelob Ultra bottles"
+     "text": "$4 Michelob Ultra bottles",
+     "tags": [
+      "beer"
+     ]
     },
     {
      "days": "Sun",
-     "text": "Half-price ramen bowls; $15 Miller Lite pitchers"
+     "text": "Half-price ramen bowls; $15 Miller Lite pitchers",
+     "tags": [
+      "beer"
+     ]
     }
    ],
    "crowd": null,
@@ -76,7 +89,11 @@
    "specials": [
     {
      "days": "Sun",
-     "text": "5 wings for $3; $1 off domestic drafts"
+     "text": "5 wings for $3; $1 off domestic drafts",
+     "tags": [
+      "beer",
+      "wings"
+     ]
     },
     {
      "days": "Mon",
@@ -118,7 +135,10 @@
    "specials": [
     {
      "days": "Sun,Mon,Thu,Fri",
-     "text": "$1 wings all day (dine-in)"
+     "text": "$1 wings all day (dine-in)",
+     "tags": [
+      "wings"
+     ]
     }
    ],
    "crowd": null,
@@ -142,7 +162,10 @@
    "specials": [
     {
      "days": "Tue",
-     "text": "Wing night 5–10 pm: $6 wings"
+     "text": "Wing night 5–10 pm: $6 wings",
+     "tags": [
+      "wings"
+     ]
     }
    ],
    "crowd": null,
@@ -183,7 +206,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Sun",
+     "text": "Sunday wing special: 6 jumbo wings for $8",
+     "tags": [
+      "wings"
+     ],
+     "src": "Liquid Hero Facebook post Oct 11, 2026 (via bars10)",
+     "checked": "Oct 31, 2026",
+     "flag": "Oct 4, 2026 post said 8 jumbos for $8"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -285,7 +319,10 @@
     },
     {
      "days": "Mon",
-     "text": "NY strip + side $15; 20 oz Miller Lite $2.50"
+     "text": "NY strip + side $15; 20 oz Miller Lite $2.50",
+     "tags": [
+      "beer"
+     ]
     },
     {
      "days": "Tue",
@@ -365,7 +402,18 @@
    "kitchen": null,
    "kitchenNote": "Kitchen closes 10 pm Saturday (other days not listed).",
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "75¢ bone-in wings, 4 pm–close (dine-in)",
+     "tags": [
+      "wings"
+     ],
+     "src": "genovaspizza.com West York location",
+     "checked": "Oct 31, 2026",
+     "flag": "Listed as a football-season promotion"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Family-friendly"
@@ -405,7 +453,10 @@
    "happyHours": [
     {
      "days": "Mon-Fri",
-     "text": "Happy hour 4–6 pm: half-off domestic drafts (one page says every day)"
+     "text": "Happy hour 4–6 pm: half-off domestic drafts (one page says every day)",
+     "tags": [
+      "beer"
+     ]
     }
    ],
    "specials": [
@@ -416,6 +467,26 @@
     {
      "days": "Thu",
      "text": "Karaoke 8–11 pm (1st & 3rd Thursdays)"
+    },
+    {
+     "days": "Wed",
+     "text": "Wing Wednesday: 12 wings for $12, $3 Yuengling drafts (bar only)",
+     "tags": [
+      "wings",
+      "beer"
+     ],
+     "src": "Alley Oops Facebook post Sep 16, 2026 (via bars10)",
+     "checked": "Oct 31, 2026"
+    },
+    {
+     "days": "Sun",
+     "text": "NFL Sundays: 12 wings + fries $16",
+     "tags": [
+      "wings"
+     ],
+     "src": "Alley Oops Facebook post Oct 4, 2026 (via bars10)",
+     "checked": "Oct 31, 2026",
+     "flag": "Football-season promo"
     }
    ],
    "crowd": null,
@@ -470,6 +541,15 @@
     {
      "days": "Sun",
      "text": "$25 steamer tray; $13 burger"
+    },
+    {
+     "days": "Sun",
+     "text": "50¢ wings after 8 pm (Scotty's After 8)",
+     "tags": [
+      "wings"
+     ],
+     "src": "Scotty Dog's Facebook posts Oct 23 & 27, 2026 (via bars10)",
+     "checked": "Oct 31, 2026"
     }
    ],
    "crowd": null,
@@ -494,15 +574,27 @@
    "specials": [
     {
      "days": "Tue",
-     "text": "$3 Bud Light Lime; 6–8 pm $4 Long Island, $4 Captain & Cola, $5 Electric Lemonade"
+     "text": "$3 Bud Light Lime; 6–8 pm $4 Long Island, $4 Captain & Cola, $5 Electric Lemonade",
+     "tags": [
+      "beer"
+     ]
     },
     {
      "days": "Wed",
-     "text": "$2.50 Yuengling pints; 5–7 pm $2.50 Michelob Ultra & $3 Modelo; 8–10 pm $1.50 PBR"
+     "text": "Yuengs n Wings: 50¢ boneless / 75¢ bone-in wings until 10 pm; $2.50 Yuengling pints until midnight; 5–7 pm $2.50 Michelob Ultra & $3 Modelo pints; 8–10 pm $1.50 PBR",
+     "tags": [
+      "wings",
+      "beer"
+     ],
+     "src": "Murph's Facebook post Oct 28, 2026 (via bars10)",
+     "checked": "Oct 31, 2026"
     },
     {
      "days": "Thu",
-     "text": "$3 Bud Light; 9–11 pm $7 liquor pitchers"
+     "text": "$3 Bud Light; 9–11 pm $7 liquor pitchers",
+     "tags": [
+      "beer"
+     ]
     },
     {
      "days": "Fri",
@@ -557,7 +649,10 @@
    "happyHours": [
     {
      "days": "Daily",
-     "text": "Happy hour 4–6 pm: discounted wine, beer & rail, $3 off apps (football Sundays also 1–3 pm)"
+     "text": "Happy hour 4–6 pm: discounted wine, beer & rail, $3 off apps (football Sundays also 1–3 pm)",
+     "tags": [
+      "beer"
+     ]
     }
    ],
    "specials": [
@@ -567,7 +662,10 @@
     },
     {
      "days": "Wed",
-     "text": "10 wings for $10 (dine-in)"
+     "text": "10 wings for $10 (dine-in)",
+     "tags": [
+      "wings"
+     ]
     }
    ],
    "crowd": null,

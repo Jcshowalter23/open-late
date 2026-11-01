@@ -93,8 +93,15 @@
     return { r, w, k, is24, vibes: late || is24 ? [...r.vibes, "Late night"] : r.vibes };
   }
   function deals(p, d) {
-    const f = (list) => (list || []).filter((x) => parseDays(x.days).includes(d)).map((x) => x.text);
+    const f = (list) => (list || []).filter((x) => parseDays(x.days).includes(d));
     return { hh: f(p.r.happyHours), sp: f(p.r.specials) };
+  }
+  const hasTag = (x, t) => Array.isArray(x.tags) && x.tags.includes(t);
+  const BADGE = { wings: "🍗 Wings", beer: "🍺 Beer" };
+  function dealHtml(x) {
+    const b = (x.tags || []).filter((t) => BADGE[t]).map((t) => `<span class="badge b-${t}">${BADGE[t]}</span>`).join("");
+    const extra = [x.flag ? `<span class="flag">⚠ ${esc(x.flag)}</span>` : "", x.src ? `<span class="dsrc">(${esc(x.src)}${x.checked ? `, checked ${esc(x.checked)}` : ""})</span>` : ""].filter(Boolean).join(" ");
+    return `${b}${esc(x.text)}${extra ? " " + extra : ""}`;
   }
   function opts(sel, items, keep) {
     const cur = keep ? sel.value : null;
@@ -118,6 +125,7 @@
     const q = $("q").value.trim().toLowerCase();
     const cuisine = $("cuisine").value, price = $("price").value, vibe = $("vibe").value;
     const openNow = $("openNow").checked, kitchenNow = $("kitchenNow").checked, onlyDeals = $("onlyDeals").checked;
+    const wingDeals = $("wingDeals").checked, beerDeals = $("beerDeals").checked;
     const day = Number($("day").value), sort = $("sort").value;
     let list = rows.filter((p) => {
       const r = p.r;
@@ -128,7 +136,12 @@
       if (vibe !== "All" && !p.vibes.includes(vibe)) return false;
       if (openNow && !stateAt(p.w, now.d, now.m, p.is24).open) return false;
       if (kitchenNow && !(p.k && stateAt(p.k, now.d, now.m).open)) return false;
-      if (onlyDeals) { const dd = deals(p, day); if (!dd.hh.length && !dd.sp.length) return false; }
+      if (onlyDeals || wingDeals || beerDeals) {
+        const dd = deals(p, day), all = [...dd.hh, ...dd.sp];
+        if (onlyDeals && !all.length) return false;
+        if (wingDeals && !all.some((x) => hasTag(x, "wings"))) return false;
+        if (beerDeals && !all.some((x) => hasTag(x, "beer"))) return false;
+      }
       return true;
     });
     const key = (p) => {
@@ -145,7 +158,8 @@
       if (kb < 0) return -1;
       return sort === "late" ? kb - ka : ka - kb;
     });
-    $("count").textContent = `Showing ${list.length} of ${rows.length} · deals shown for ${DAY_LONG[day]}`;
+    const kinds = [wingDeals && "wing", beerDeals && "beer"].filter(Boolean).join(" + ");
+    $("count").textContent = `Showing ${list.length} of ${rows.length} · ${kinds ? kinds + " deals" : "deals"} shown for ${DAY_LONG[day]}`;
     $("empty").hidden = list.length > 0;
     const NL = "not listed";
     $("list").innerHTML = list.map((p) => {
@@ -157,17 +171,20 @@
       else pill = `<span class="pill">Today's hours not listed</span>`;
       let kpill = "";
       if (p.k) { const ks = stateAt(p.k, now.d, now.m); kpill = ks.open ? `<span class="pill ok">Kitchen open · until ${fmt(ks.close)}</span>` : `<span class="pill">Kitchen closed now</span>`; }
-      const weekly = (r.specials || []).map((x) => `${esc(x.days.replace(/-/g, "–").replace(/,/g, "/"))}: ${esc(x.text)}`).join(" · ");
-      const weeklyHH = (r.happyHours || []).map((x) => `${esc(x.days.replace(/-/g, "–").replace(/,/g, "/"))}: ${esc(x.text)}`).join(" · ");
+      const wk = (x) => `${esc(x.days.replace(/-/g, "–").replace(/,/g, "/"))}: ${dealHtml(x)}`;
+      const weekly = (r.specials || []).map(wk).join(" · ");
+      const weeklyHH = (r.happyHours || []).map(wk).join(" · ");
+      const top = [...dd.hh, ...dd.sp].filter((x) => (wingDeals && hasTag(x, "wings")) || (beerDeals && hasTag(x, "beer")));
       const d3 = DAYS[day];
       return `<article class="card">
         <h2>${esc(r.name)}</h2>
         <div class="meta">${esc(r.cuisine)} · ${r.priceLevel ? esc(r.priceText) : "Price not listed"}<br>${esc(r.address || NL)}</div>
         <div class="pills">${pill}${kpill}</div>
+        ${top.length ? `<div class="hit">${top.map(dealHtml).join("<br>")}</div>` : ""}
         <div class="row"><b>Hours:</b> ${r.hours ? esc(pretty(r.hours)) : NL}${r.hoursNote ? ` — ${esc(r.hoursNote)}` : ""}</div>
         <div class="row"><b>Kitchen:</b> ${r.kitchen ? esc(pretty(r.kitchen)) : NL}${r.kitchenNote ? ` — ${esc(r.kitchenNote)}` : ""}</div>
-        <div class="row"><b>${d3} happy hour:</b> <span class="deal">${dd.hh.length ? dd.hh.map(esc).join("; ") : NL}</span></div>
-        <div class="row"><b>${d3} specials:</b> <span class="deal">${dd.sp.length ? dd.sp.map(esc).join("; ") : NL}</span></div>
+        <div class="row"><b>${d3} happy hour:</b> <span class="deal">${dd.hh.length ? dd.hh.map(dealHtml).join("; ") : NL}</span></div>
+        <div class="row"><b>${d3} specials:</b> <span class="deal">${dd.sp.length ? dd.sp.map(dealHtml).join("; ") : NL}</span></div>
         ${weeklyHH ? `<div class="row"><b>Happy hours all week:</b> ${weeklyHH}</div>` : ""}
         ${weekly ? `<div class="row"><b>Specials all week:</b> ${weekly}</div>` : ""}
         <div class="row"><b>Crowd:</b> ${r.crowd ? esc(r.crowd) : NL}</div>
@@ -202,10 +219,10 @@
   }
 
   function fillAreas(index) {
-    // grouped by region; cities first, then towns; areas without data show as "coming soon" and can't be picked
+    // grouped by region, A–Z within each region; areas without data show as "coming soon" and can't be picked
     const sel = $("city");
     sel.innerHTML = index.regions.map((rg) => {
-      const items = index.areas.filter((a) => a.region === rg.id).sort((a, b) => (a.type === b.type ? 0 : a.type === "city" ? -1 : 1) || a.name.localeCompare(b.name));
+      const items = index.areas.filter((a) => a.region === rg.id).sort((a, b) => a.name.localeCompare(b.name));
       if (!items.length) return "";
       return `<optgroup label="${esc(rg.name)}">` + items.map((a) => {
         const live = a.status === "live" && a.file;
@@ -223,7 +240,7 @@
     const start = ok(saved) ? saved : index.defaultArea;
     $("city").value = start;
     $("city").addEventListener("change", () => { localStorage.setItem("openlate.area", $("city").value); dayTouched = false; loadCity($("city").value, index); });
-    ["q", "cuisine", "price", "vibe", "sort", "openNow", "kitchenNow", "onlyDeals"].forEach((id) => $(id).addEventListener(id === "q" ? "input" : "change", render));
+    ["q", "cuisine", "price", "vibe", "sort", "openNow", "kitchenNow", "onlyDeals", "wingDeals", "beerDeals"].forEach((id) => $(id).addEventListener(id === "q" ? "input" : "change", render));
     $("day").addEventListener("change", () => { dayTouched = true; render(); });
     await loadCity(start, index);
     setInterval(() => { tick(); render(); }, 30000);
