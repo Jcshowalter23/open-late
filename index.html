@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Open Late · Restaurant hours, kitchen times & specials</title>
-<meta name="description" content="Open Late: restaurants and bars in Lancaster, PA: live open now and kitchen open now, happy hours and specials by day, crowd notes.">
+<meta name="description" content="Open Late: restaurants and bars across Pennsylvania: who's open now, whose kitchen is still open, happy hours and wing and beer specials by day.">
 <meta name="theme-color" content="#14161f">
 <link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="favicon.ico" sizes="32x32">
 <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
-<link rel="icon" href="icons/icon-192.png" sizes="192x192" type="image/png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -17,50 +17,64 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="top">
-  <div class="brand">
-    <img src="icons/icon.svg" alt="" width="36" height="36">
-    <div>
-      <h1>Open Late</h1>
-      <p class="tag">Who's open, whose kitchen is open, and tonight's specials</p>
+<header class="top" id="top">
+  <div class="bar">
+    <a class="brand" href="./" aria-label="Open Late home">
+      <img src="icons/logo.svg" alt="" width="30" height="30">
+      <span class="word">Open <b>Late</b></span>
+    </a>
+    <div class="now" id="now" aria-live="polite"></div>
+    <div class="searchwrap" id="searchwrap">
+      <label class="sr" for="q">Search by name or city</label>
+      <input id="q" type="search" placeholder="Search by name or city" autocomplete="off" enterkeyhint="search">
     </div>
+    <button type="button" class="iconbtn" id="searchBtn" aria-label="Search" aria-expanded="false" aria-controls="searchwrap">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+    </button>
   </div>
   <div class="pickers">
     <label class="pick"><span>County</span><select id="county" aria-label="County"></select></label>
     <label class="pick"><span>City</span><select id="town" aria-label="City"></select></label>
   </div>
-  <div class="now" id="now" aria-live="polite"></div>
+  <div class="chiprow" role="group" aria-label="Filters">
+    <label class="chip chip-day"><span class="sr">Deals for</span><select id="day" aria-label="Deals for day"></select></label>
+    <button type="button" class="chip" id="openNow" aria-pressed="false"><span class="dot d-open" aria-hidden="true"></span>Open now</button>
+    <button type="button" class="chip" id="kitchenNow" aria-pressed="false" title="Only places that publish a kitchen close time">Kitchen open</button>
+    <button type="button" class="chip" id="wingDeals" aria-pressed="false">🍗 Wing deals</button>
+    <button type="button" class="chip" id="beerDeals" aria-pressed="false">🍺 Beer deals</button>
+    <button type="button" class="chip" id="onlyDeals" aria-pressed="false">Any deal</button>
+  </div>
 </header>
 
 <main>
-  <p class="notice">Hours and specials change often, so call ahead before you go. Everything for <span id="cityName">Lancaster, PA</span> was checked <span id="checked">Oct 31, 2026</span>; anything a source didn't publish shows as "not listed".</p>
-
-  <section class="controls" aria-label="Filters">
-    <label class="field grow"><span>Search by name or city</span>
-      <input id="q" type="search" placeholder="e.g. Tellus or Lititz" autocomplete="off"></label>
-    <label class="field"><span>Cuisine</span><select id="cuisine"></select></label>
-    <label class="field"><span>Price</span><select id="price">
-      <option value="All">Any price</option><option>$</option><option>$$</option><option>$$$</option><option>$$$$</option><option value="none">Price not listed</option>
-    </select></label>
-    <label class="field"><span>Vibe</span><select id="vibe"></select></label>
-    <label class="field"><span>Deals for</span><select id="day"></select></label>
-    <label class="field"><span>Sort</span><select id="sort">
-      <option value="name">A–Z</option><option value="late">Closes latest</option><option value="soon">Closes soonest</option>
-    </select></label>
-    <div class="chips">
-      <label class="chip"><input type="checkbox" id="openNow"> Open now</label>
-      <label class="chip"><input type="checkbox" id="kitchenNow"> Kitchen open now</label>
-      <label class="chip"><input type="checkbox" id="onlyDeals"> Has a deal that day</label>
-      <label class="chip"><input type="checkbox" id="wingDeals"> 🍗 Wing deals</label>
-      <label class="chip"><input type="checkbox" id="beerDeals"> 🍺 Beer deals</label>
+  <details class="more-filters" id="moreFilters">
+    <summary>More filters <span class="mf-count" id="mfCount"></span></summary>
+    <div class="controls">
+      <label class="field"><span>Cuisine</span><select id="cuisine"></select></label>
+      <label class="field"><span>Price</span><select id="price">
+        <option value="All">Any price</option><option>$</option><option>$$</option><option>$$$</option><option>$$$$</option><option value="none">Price not listed</option>
+      </select></label>
+      <label class="field"><span>Vibe</span><select id="vibe"></select></label>
+      <label class="field"><span>Sort</span><select id="sort">
+        <option value="name">A–Z</option><option value="late">Closes latest</option><option value="soon">Closes soonest</option>
+      </select></label>
     </div>
-    <p class="hint">"Kitchen open now" only includes places that publish a kitchen close time. Wing and beer deals follow the "Deals for" day.</p>
-  </section>
+    <p class="hint">"Kitchen open" only includes places that publish a kitchen close time. Deal filters follow the day you pick in the first chip.</p>
+  </details>
 
   <p class="count" id="count"></p>
   <div class="grid" id="list"></div>
   <p class="morewrap"><button type="button" class="btn more" id="more" hidden>Show more</button></p>
-  <p class="empty" id="empty" hidden>No places match these filters.</p>
+  <div class="empty" id="empty" hidden>
+    <svg viewBox="0 0 64 64" width="48" height="48" aria-hidden="true"><circle cx="28" cy="34" r="18" fill="#e8a33d"/><circle cx="37" cy="27" r="16" fill="var(--bg)"/></svg>
+    <p class="empty-title" id="emptyTitle">Nothing matches right now</p>
+    <p class="empty-text" id="emptyText"></p>
+    <div class="empty-actions">
+      <button type="button" class="btn" id="clearFilters" hidden>Clear filters</button>
+      <button type="button" class="btn ghost" id="seeCounty" hidden>See all of Lancaster County</button>
+    </div>
+  </div>
+  <p class="notice">Hours and specials change often, so call ahead. Everything for <span id="cityName">Lancaster County, PA</span> was checked <span id="checked">Oct 31, 2026</span>; anything a source didn't publish shows as "not listed".</p>
 </main>
 
 <footer class="foot">

@@ -6,6 +6,7 @@ No build step and no backend. Serve the folder with any static host (`python3 -m
 
 ## Files
 - `index.html`, `styles.css`, `app.js` – the app
+- `validate.py` – data/asset sanity checks (`python3 validate.py`)
 - `sw.js` – service worker (app shell cached; data files network-first, offline fallback). Bump `VERSION` when you change shell files.
 - `manifest.webmanifest`, `icons/` – PWA install metadata
 - `data/cities.json` – area index. Each area has `id`, `name`, `type` (`city` or `town`), `region`, `timezone`, `file`, `status` (`live` or `coming-soon`). Regions group the selector. Coming-soon areas show disabled.

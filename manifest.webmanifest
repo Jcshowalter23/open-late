@@ -1,7 +1,7 @@
 {
   "name": "Open Late",
   "short_name": "Open Late",
-  "description": "Who's open, whose kitchen is still open, and today's specials and happy hours. Starting with Lancaster, PA.",
+  "description": "Who's open late, whose kitchen is still open, and today's wing, beer and happy hour specials across Pennsylvania.",
   "id": "./",
   "start_url": "./",
   "scope": "./",
@@ -9,11 +9,35 @@
   "orientation": "portrait",
   "background_color": "#14161f",
   "theme_color": "#14161f",
-  "categories": ["food", "lifestyle", "travel"],
+  "categories": [
+    "food",
+    "lifestyle",
+    "travel"
+  ],
   "icons": [
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
-    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
   ]
 }

@@ -62,7 +62,7 @@
   function lastClose(w, d) { const t = w[d]; return t ? Math.max(...t.map((iv) => iv[1])) : -1; }
   function fmt(min) {
     const m = ((min % 1440) + 1440) % 1440, h = Math.floor(m / 60), mm = m % 60;
-    const ap = h < 12 ? "am" : "pm", h12 = h % 12 === 0 ? 12 : h % 12;
+    const ap = h < 12 ? "AM" : "PM", h12 = h % 12 === 0 ? 12 : h % 12;
     return mm ? `${h12}:${String(mm).padStart(2, "0")} ${ap}` : `${h12} ${ap}`;
   }
   function pretty(s) {
@@ -113,22 +113,54 @@
   function fillDay() {
     const sel = $("day");
     const prev = sel.value;
-    opts(sel, DAYS.map((d, i) => ({ value: String(i), label: i === now.d ? `${DAY_LONG[i]} (today)` : DAY_LONG[i] })));
+    opts(sel, DAYS.map((d, i) => ({ value: String(i), label: i === now.d ? "Deals: Today" : `Deals: ${DAYS[i]}` })));
     sel.value = dayTouched && prev !== "" ? prev : String(now.d);
   }
   function tick() {
     const prevD = now.d;
     now = cityNow(city.timezone);
-    $("now").textContent = `Now in ${city.name}: ${DAY_LONG[now.d]} ${fmt(now.m)} ${tzAbbr(city.timezone)}`;
+    $("now").textContent = `${DAYS[now.d]} ${fmt(now.m)} ${tzAbbr(city.timezone)}`;
+    $("now").title = `Now in ${city.name}: ${DAY_LONG[now.d]} ${fmt(now.m)} ${tzAbbr(city.timezone)}`;
     if (prevD !== now.d || !$("day").options.length) fillDay();
+  }
+
+  const on = (id) => $(id).getAttribute("aria-pressed") === "true";
+  const CHIPS = ["openNow", "kitchenNow", "onlyDeals", "wingDeals", "beerDeals"];
+  const openCards = new Set(); // which cards have Details expanded, so the 30-second refresh keeps them open
+  function status(p) {
+    if (p.is24) return { cls: "s-open", text: "Open 24 hours" };
+    const s = stateAt(p.w, now.d, now.m);
+    if (s.open) {
+      const left = s.close - now.m;
+      if (left <= 60) return { cls: "s-soon", text: `Closing soon · ${fmt(s.close)} (${left} min)` };
+      return { cls: "s-open", text: `Open until ${fmt(s.close)}` };
+    }
+    if (!s.known) return { cls: "s-closed", text: "Today's hours not listed" };
+    const t = p.w[now.d];
+    const next = t ? t.map((iv) => iv[0]).filter((o) => o > now.m).sort((a, b) => a - b)[0] : undefined;
+    return { cls: "s-closed", text: next !== undefined ? `Closed · opens ${fmt(next)}` : "Closed now" };
+  }
+  function filtersActive() {
+    return CHIPS.some(on) || $("q").value.trim() !== "" || $("cuisine").value !== "All" || $("price").value !== "All" || $("vibe").value !== "All";
+  }
+  function clearFilters() {
+    CHIPS.forEach((id) => $(id).setAttribute("aria-pressed", "false"));
+    $("q").value = ""; $("cuisine").value = "All"; $("price").value = "All"; $("vibe").value = "All";
+    setSearchOpen(false);
+    render();
+  }
+  function setSearchOpen(open) {
+    $("top").classList.toggle("searching", open);
+    $("searchBtn").setAttribute("aria-expanded", String(open));
+    if (open) $("q").focus();
   }
 
   function render(more) {
     const q = $("q").value.trim().toLowerCase();
     const town = $("town").value;
     const cuisine = $("cuisine").value, price = $("price").value, vibe = $("vibe").value;
-    const openNow = $("openNow").checked, kitchenNow = $("kitchenNow").checked, onlyDeals = $("onlyDeals").checked;
-    const wingDeals = $("wingDeals").checked, beerDeals = $("beerDeals").checked;
+    const openNow = on("openNow"), kitchenNow = on("kitchenNow"), onlyDeals = on("onlyDeals");
+    const wingDeals = on("wingDeals"), beerDeals = on("beerDeals");
     const day = Number($("day").value), sort = $("sort").value;
     let list = rows.filter((p) => {
       const r = p.r;
@@ -162,45 +194,72 @@
       if (kb < 0) return -1;
       return sort === "late" ? kb - ka : ka - kb;
     });
+    // chip + "More filters" state
+    $("day").parentElement.classList.toggle("on", day !== now.d);
+    const mf = [cuisine !== "All", price !== "All", vibe !== "All", sort !== "name"].filter(Boolean).length;
+    $("mfCount").textContent = mf ? `(${mf} on)` : "";
     const kinds = [wingDeals && "wing", beerDeals && "beer"].filter(Boolean).join(" + ");
-    $("count").textContent = `${list.length} of ${rows.length} places match · ${kinds ? kinds + " deals" : "deals"} shown for ${DAY_LONG[day]}`;
+    $("count").textContent = `${list.length} of ${rows.length} places · ${kinds ? kinds + " deals" : "deals"} for ${day === now.d ? "today" : DAY_LONG[day]}`;
+    // empty state
+    const active = filtersActive();
+    const placeName = town ? $("town").selectedOptions[0].dataset.name : `${county.name} County`;
     $("empty").hidden = list.length > 0;
+    if (!list.length) {
+      let why = active ? `No places in ${placeName} match these filters` : `No places listed in ${placeName} yet`;
+      if (openNow && !q && !wingDeals && !beerDeals && !onlyDeals && !kitchenNow) why = `Nothing in ${placeName} is open right now`;
+      $("emptyTitle").textContent = why + ".";
+      $("emptyText").textContent = town ? `Try the whole county, or ${active ? "clear the filters" : "pick another city"}.` : (active ? "Try clearing the filters or picking another day." : "Try a neighboring county.");
+      $("clearFilters").hidden = !active;
+      $("seeCounty").hidden = !town;
+      $("seeCounty").textContent = `See all of ${county.name} County`;
+    }
     const prev = more ? shown : 0;
     shown = more ? Math.min(list.length, shown + PAGE) : Math.min(list.length, PAGE);
     const left = list.length - shown;
     $("more").hidden = left <= 0;
     $("more").textContent = `Show ${Math.min(PAGE, left)} more (${left} left)`;
-    const ACC = true;
     const NL = "not listed";
+    const d3 = DAYS[day], dayWord = day === now.d ? "Today" : DAY_LONG[day];
     const html = list.slice(prev, shown).map((p) => {
-      const r = p.r, s = stateAt(p.w, now.d, now.m, p.is24), dd = deals(p, day);
-      let pill;
-      if (p.is24) pill = `<span class="pill ok">Open 24 hours</span>`;
-      else if (s.open) pill = `<span class="pill ok">Open · closes ${fmt(s.close)}</span>`;
-      else if (s.known) pill = `<span class="pill">Closed now</span>`;
-      else pill = `<span class="pill">Today's hours not listed</span>`;
-      let kpill = "";
-      if (p.k) { const ks = stateAt(p.k, now.d, now.m); kpill = ks.open ? `<span class="pill ok">Kitchen open · until ${fmt(ks.close)}</span>` : `<span class="pill">Kitchen closed now</span>`; }
+      const r = p.r, st = status(p), dd = deals(p, day), all = [...dd.hh, ...dd.sp];
+      const ck = `${p.area}|${r.name}`;
+      let kline = "";
+      if (p.k) { const ks = stateAt(p.k, now.d, now.m); kline = ks.open ? `<span class="kitchen k-open">Kitchen until ${fmt(ks.close)}</span>` : `<span class="kitchen">Kitchen closed</span>`; }
+      const badges = [];
+      if (all.some((x) => hasTag(x, "wings"))) badges.push(`<span class="badge b-wings">🍗 Wings</span>`);
+      if (all.some((x) => hasTag(x, "beer"))) badges.push(`<span class="badge b-beer">🍺 Beer</span>`);
+      if (dd.hh.length) badges.push(`<span class="badge b-hh">Happy hour</span>`);
+      if (dd.sp.some((x) => !hasTag(x, "wings") && !hasTag(x, "beer"))) badges.push(`<span class="badge b-sp">Special</span>`);
+      // headline deal: one that matches the active deal chips, else wings/beer, else happy hour, else first special
+      const pick = all.filter((x) => (wingDeals && hasTag(x, "wings")) || (beerDeals && hasTag(x, "beer")));
+      const headline = pick.length ? pick : [all.find((x) => hasTag(x, "wings") || hasTag(x, "beer")) || dd.hh[0] || dd.sp[0]].filter(Boolean);
       const wk = (x) => `${esc(x.days.replace(/-/g, "–").replace(/,/g, "/"))}: ${dealHtml(x)}`;
       const weekly = (r.specials || []).map(wk).join(" · ");
       const weeklyHH = (r.happyHours || []).map(wk).join(" · ");
-      const top = [...dd.hh, ...dd.sp].filter((x) => (wingDeals && hasTag(x, "wings")) || (beerDeals && hasTag(x, "beer")));
-      const d3 = DAYS[day];
+      const maps = r.address ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${r.name}, ${r.address}, ${p.areaName}, PA`)}` : "";
       return `<article class="card">
-        ${ACC ? `<div class="town">📍 ${esc(p.areaName)}</div>` : ""}<h2>${esc(r.name)}</h2>
-        <div class="meta">${esc(r.cuisine)} · ${r.priceLevel ? esc(r.priceText) : "Price not listed"}<br>${esc(r.address || NL)}</div>
-        <div class="pills">${pill}${kpill}</div>
-        ${top.length ? `<div class="hit">${top.map(dealHtml).join("<br>")}</div>` : ""}
-        <div class="row"><b>Hours:</b> ${r.hours ? esc(pretty(r.hours)) : NL}${r.hoursNote ? ` — ${esc(r.hoursNote)}` : ""}</div>
-        <div class="row"><b>Kitchen:</b> ${r.kitchen ? esc(pretty(r.kitchen)) : NL}${r.kitchenNote ? ` — ${esc(r.kitchenNote)}` : ""}</div>
-        <div class="row"><b>${d3} happy hour:</b> <span class="deal">${dd.hh.length ? dd.hh.map(dealHtml).join("; ") : NL}</span></div>
-        <div class="row"><b>${d3} specials:</b> <span class="deal">${dd.sp.length ? dd.sp.map(dealHtml).join("; ") : NL}</span></div>
-        ${weeklyHH ? `<div class="row"><b>Happy hours all week:</b> ${weeklyHH}</div>` : ""}
-        ${weekly ? `<div class="row"><b>Specials all week:</b> ${weekly}</div>` : ""}
-        <div class="row"><b>Crowd:</b> ${r.crowd ? esc(r.crowd) : NL}</div>
-        <div class="src">Source: ${esc(r.source)} · checked ${esc(p.checkedLabel)}</div>
-        <div class="links">${r.website ? `<a href="${esc(r.website)}" target="_blank" rel="noopener">Website</a>` : `<span class="row"><b>Website:</b> ${NL}</span>`}
-          <a href="${esc(mailto(r.name, p.areaName))}">Suggest an update</a></div>
+        <div class="town">${esc(p.areaName)}</div>
+        <h2>${esc(r.name)}</h2>
+        <div class="status ${st.cls}"><span class="dot" aria-hidden="true"></span><span>${esc(st.text)}</span>${kline}</div>
+        ${badges.length ? `<div class="badges" aria-label="${dayWord} deals">${day !== now.d ? `<span class="bday">${esc(d3)}</span>` : ""}${badges.join("")}</div>` : ""}
+        ${headline.length ? `<div class="hit">${headline.slice(0, 2).map((x) => `<div>${esc(x.text)}${x.flag ? ` <span class="flag" title="${esc(x.flag)}">⚠ sources differ</span>` : ""}</div>`).join("")}</div>` : ""}
+        <details class="more-info" data-key="${esc(ck)}"${openCards.has(ck) ? " open" : ""}>
+          <summary>Details</summary>
+          <div class="info">
+            <div class="row">${esc(r.cuisine)} · ${r.priceLevel ? esc(r.priceText) : "Price not listed"}</div>
+            <div class="row"><b>Address:</b> ${r.address ? `<a href="${esc(maps)}" target="_blank" rel="noopener">${esc(r.address)}</a>` : NL}</div>
+            <div class="row"><b>Hours:</b> ${r.hours ? esc(pretty(r.hours)) : NL}${r.hoursNote ? ` — ${esc(r.hoursNote)}` : ""}</div>
+            <div class="row"><b>Kitchen:</b> ${r.kitchen ? esc(pretty(r.kitchen)) : NL}${r.kitchenNote ? ` — ${esc(r.kitchenNote)}` : ""}</div>
+            <div class="row"><b>${d3} happy hour:</b> <span class="deal">${dd.hh.length ? dd.hh.map(dealHtml).join("; ") : NL}</span></div>
+            <div class="row"><b>${d3} specials:</b> <span class="deal">${dd.sp.length ? dd.sp.map(dealHtml).join("; ") : NL}</span></div>
+            ${weeklyHH ? `<div class="row"><b>Happy hours all week:</b> ${weeklyHH}</div>` : ""}
+            ${weekly ? `<div class="row"><b>Specials all week:</b> ${weekly}</div>` : ""}
+            <div class="row"><b>Crowd:</b> ${r.crowd ? esc(r.crowd) : NL}</div>
+            <div class="src">Source: ${esc(r.source)} · checked ${esc(p.checkedLabel)}</div>
+            <div class="links">${r.website ? `<a href="${esc(r.website)}" target="_blank" rel="noopener">Website</a>` : `<span class="row"><b>Website:</b> ${NL}</span>`}
+              <a href="${esc(mailto(r.name, p.areaName))}">Suggest an update</a></div>
+          </div>
+        </details>
       </article>`;
     }).join("");
     if (more) $("list").insertAdjacentHTML("beforeend", html); else $("list").innerHTML = html;
@@ -295,7 +354,14 @@
     else cid = "lancaster";
     $("county").addEventListener("change", () => { dayTouched = false; loadCounty($("county").value, "").catch(fail); });
     $("town").addEventListener("change", () => { setHeading(); saveSel(); $("suggest").href = mailto(""); tick(); render(); });
-    ["q", "cuisine", "price", "vibe", "sort", "openNow", "kitchenNow", "onlyDeals", "wingDeals", "beerDeals"].forEach((id) => $(id).addEventListener(id === "q" ? "input" : "change", () => render()));
+    ["q", "cuisine", "price", "vibe", "sort"].forEach((id) => $(id).addEventListener(id === "q" ? "input" : "change", () => render()));
+    CHIPS.forEach((id) => $(id).addEventListener("click", () => { $(id).setAttribute("aria-pressed", String(!on(id))); render(); }));
+    $("searchBtn").addEventListener("click", () => setSearchOpen(!$("top").classList.contains("searching")));
+    $("q").addEventListener("keydown", (e) => { if (e.key === "Escape") { $("q").value = ""; setSearchOpen(false); render(); } });
+    $("q").addEventListener("blur", () => { if (!$("q").value.trim()) setSearchOpen(false); });
+    $("clearFilters").addEventListener("click", clearFilters);
+    $("seeCounty").addEventListener("click", () => { $("town").value = ""; $("town").dispatchEvent(new Event("change")); window.scrollTo(0, 0); });
+    $("list").addEventListener("toggle", (e) => { const d = e.target; if (d.dataset && d.dataset.key) { if (d.open) openCards.add(d.dataset.key); else openCards.delete(d.dataset.key); } }, true);
     $("day").addEventListener("change", () => { dayTouched = true; render(); });
     $("more").addEventListener("click", () => render(true));
     await loadCounty(cid, aid);
