@@ -43,9 +43,6 @@ input:focus,select:focus{outline:2px solid var(--rose);outline-offset:1px}
 .btn{display:inline-block;background:var(--rose);color:#14161f;text-decoration:none;padding:11px 18px;border-radius:10px;font-weight:600}
 .btn:hover{background:var(--rose-d)}
 .small{font-size:.78rem;color:var(--ink3)}
-.topright{display:flex;gap:12px;align-items:center;flex-wrap:wrap;min-width:0;max-width:100%}
-.city select{background:#262a38;color:#fff;border-color:#3a3f52;min-height:36px;padding:6px 10px;font-size:15px;width:auto;max-width:100%;text-overflow:ellipsis}
-.city{min-width:0;max-width:100%;display:block}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 @media (min-width:760px){.top{position:sticky;top:0;z-index:5}}
 .badge{display:inline-block;font-size:.72rem;font-weight:700;padding:1px 7px;border-radius:999px;margin-right:5px;vertical-align:1px}
@@ -55,15 +52,14 @@ input:focus,select:focus{outline:2px solid var(--rose);outline-offset:1px}
 .flag{font-size:.78rem;color:#a14a00}
 @media (prefers-color-scheme:dark){.flag{color:#ffb070}}
 .dsrc{font-size:.75rem;color:var(--ink3)}
-.areapick{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;min-width:0;max-width:100%}
-.areapick input{background:#262a38;color:#fff;border:1px solid #3a3f52;border-radius:8px;min-height:36px;padding:6px 10px;font-size:16px;width:230px;max-width:100%}
-.areapick input::placeholder{color:#a9adbd}
-.areacount{font-size:.78rem;color:#c9ccd8}
-.areacount:empty{display:none}
-@media (max-width:520px){.areapick{width:100%}.areapick input{flex:1 1 100%;width:100%}.areapick .city{flex:1 1 100%}.areapick .city select{width:100%}}
-.field[hidden]{display:none}
 .town{font-size:.75rem;font-weight:700;letter-spacing:.3px;text-transform:uppercase;color:#9a5d00}
 @media (prefers-color-scheme:dark){.town{color:#f3c070}}
 .morewrap{text-align:center;margin:16px 0 0}
 .btn.more{border:0;font:inherit;font-weight:600;cursor:pointer;min-height:44px}
 .btn.more[hidden]{display:none}
+.pickers{display:grid;grid-template-columns:auto 1fr;gap:6px 8px;align-items:center;width:100%;max-width:420px}
+.pick{display:contents}
+.pick span{font-size:.72rem;font-weight:700;letter-spacing:.4px;text-transform:uppercase;color:#a9adbd}
+.pick select{background:#262a38;color:#fff;border:1px solid #3a3f52;border-radius:8px;min-height:40px;padding:6px 10px;font-size:16px;width:100%;min-width:0;text-overflow:ellipsis}
+@media (max-width:520px){.tag{display:none}.top{padding-bottom:8px;gap:8px}.now{font-size:.78rem;opacity:.8}}
+@media (min-width:760px){.pickers{grid-template-columns:auto 1fr auto 1fr;max-width:640px}}

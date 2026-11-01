@@ -25,16 +25,19 @@
       <p class="tag">Who's open, whose kitchen is open, and tonight's specials</p>
     </div>
   </div>
-  <div class="topright"><div class="areapick"><input id="areaq" type="search" placeholder="Find your area or county (e.g. Fishtown, Lancaster County)" aria-label="Search areas" autocomplete="off" enterkeyhint="go"><span class="areacount" id="areaCount" aria-live="polite"></span><label class="city"><span class="sr">City</span><select id="city" aria-label="City"></select></label></div><div class="now" id="now" aria-live="polite"></div></div>
+  <div class="pickers">
+    <label class="pick"><span>County</span><select id="county" aria-label="County"></select></label>
+    <label class="pick"><span>City</span><select id="town" aria-label="City"></select></label>
+  </div>
+  <div class="now" id="now" aria-live="polite"></div>
 </header>
 
 <main>
   <p class="notice">Hours and specials change often, so call ahead before you go. Everything for <span id="cityName">Lancaster, PA</span> was checked <span id="checked">Oct 31, 2026</span>; anything a source didn't publish shows as "not listed".</p>
 
   <section class="controls" aria-label="Filters">
-    <label class="field grow"><span id="qLabel">Search by name</span>
-      <input id="q" type="search" placeholder="e.g. Tellus" autocomplete="off"></label>
-    <label class="field" id="townWrap" hidden><span>Town / area</span><select id="town"></select></label>
+    <label class="field grow"><span>Search by name or city</span>
+      <input id="q" type="search" placeholder="e.g. Tellus or Lititz" autocomplete="off"></label>
     <label class="field"><span>Cuisine</span><select id="cuisine"></select></label>
     <label class="field"><span>Price</span><select id="price">
       <option value="All">Any price</option><option>$</option><option>$$</option><option>$$$</option><option>$$$$</option><option value="none">Price not listed</option>
