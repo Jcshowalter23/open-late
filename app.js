@@ -218,17 +218,26 @@
     render();
   }
 
-  function fillAreas(index) {
-    // grouped by region, A–Z within each region; areas without data show as "coming soon" and can't be picked
+  function fillAreas(index, filter) {
+    // grouped by region, A–Z within each region; optional type-to-search filter on area or region name
     const sel = $("city");
-    sel.innerHTML = index.regions.map((rg) => {
-      const items = index.areas.filter((a) => a.region === rg.id).sort((a, b) => a.name.localeCompare(b.name));
+    const cur = sel.value || localStorage.getItem("openlate.area") || index.defaultArea;
+    const q = (filter || "").trim().toLowerCase().replace(/[.,]/g, "");
+    const norm = (s) => s.toLowerCase().replace(/[.,]/g, "");
+    let shown = 0, hasCur = false;
+    const html = index.regions.map((rg) => {
+      const items = index.areas.filter((a) => a.region === rg.id && (!q || norm(a.name).includes(q) || norm(rg.name).includes(q) || (a.aka || "").toLowerCase().includes(q))).sort((a, b) => a.name.localeCompare(b.name));
       if (!items.length) return "";
       return `<optgroup label="${esc(rg.name)}">` + items.map((a) => {
         const live = a.status === "live" && a.file;
+        shown++; if (a.id === cur) hasCur = true;
         return `<option value="${esc(a.id)}"${live ? "" : " disabled"}>${esc(a.name)}${live ? "" : " (coming soon)"}</option>`;
       }).join("") + `</optgroup>`;
     }).join("");
+    const lead = !q ? "" : hasCur ? "" : `<option value="" disabled selected>${shown ? `${shown} match${shown === 1 ? "" : "es"} — pick one` : "No areas match"}</option>`;
+    sel.innerHTML = lead + html;
+    if (hasCur) sel.value = cur;
+    $("areaCount").textContent = q ? `${shown} area${shown === 1 ? "" : "s"} match` : "";
   }
 
   async function init() {
@@ -239,7 +248,14 @@
     const ok = (id) => index.areas.some((a) => a.id === id && a.status === "live" && a.file);
     const start = ok(saved) ? saved : index.defaultArea;
     $("city").value = start;
-    $("city").addEventListener("change", () => { localStorage.setItem("openlate.area", $("city").value); dayTouched = false; loadCity($("city").value, index); });
+    $("city").addEventListener("change", () => { if (!$("city").value) return; localStorage.setItem("openlate.area", $("city").value); dayTouched = false; loadCity($("city").value, index); });
+    $("areaq").addEventListener("input", () => fillAreas(index, $("areaq").value));
+    $("areaq").addEventListener("keydown", (e) => {
+      if (e.key !== "Enter") return;
+      e.preventDefault();
+      const first = Array.from($("city").options).find((o) => o.value && !o.disabled);
+      if (first) { $("city").value = first.value; $("city").dispatchEvent(new Event("change")); $("areaq").value = ""; fillAreas(index, ""); $("areaq").blur(); }
+    });
     ["q", "cuisine", "price", "vibe", "sort", "openNow", "kitchenNow", "onlyDeals", "wingDeals", "beerDeals"].forEach((id) => $(id).addEventListener(id === "q" ? "input" : "change", render));
     $("day").addEventListener("change", () => { dayTouched = true; render(); });
     await loadCity(start, index);

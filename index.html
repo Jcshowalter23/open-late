@@ -25,7 +25,7 @@
       <p class="tag">Who's open, whose kitchen is open, and tonight's specials</p>
     </div>
   </div>
-  <div class="topright"><label class="city"><span class="sr">City</span><select id="city" aria-label="City"></select></label><div class="now" id="now" aria-live="polite"></div></div>
+  <div class="topright"><div class="areapick"><input id="areaq" type="search" placeholder="Find your area (e.g. Fishtown, Media)" aria-label="Search areas" autocomplete="off" enterkeyhint="go"><span class="areacount" id="areaCount" aria-live="polite"></span><label class="city"><span class="sr">City</span><select id="city" aria-label="City"></select></label></div><div class="now" id="now" aria-live="polite"></div></div>
 </header>
 
 <main>
@@ -61,7 +61,7 @@
 <footer class="foot">
   <p><a id="suggest" class="btn" href="#">Suggest an update</a></p>
   <p>Know a special, a closing time, or a change? Restaurants and visitors can send it in.</p>
-  <p class="small">Sources: TasteLanc, OpenTable, Exa popular times, Fig Lancaster and each restaurant's website (listed on every card). Not affiliated with any restaurant.</p>
+  <p class="small">Sources: each venue's Facebook page and website, plus local guides such as TasteLanc and OpenTable (the source is named on every card). Not affiliated with any restaurant.</p>
 </footer>
 <script src="app.js" defer></script>
 </body>

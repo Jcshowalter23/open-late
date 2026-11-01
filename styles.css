@@ -55,3 +55,9 @@ input:focus,select:focus{outline:2px solid var(--rose);outline-offset:1px}
 .flag{font-size:.78rem;color:#a14a00}
 @media (prefers-color-scheme:dark){.flag{color:#ffb070}}
 .dsrc{font-size:.75rem;color:var(--ink3)}
+.areapick{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;min-width:0;max-width:100%}
+.areapick input{background:#262a38;color:#fff;border:1px solid #3a3f52;border-radius:8px;min-height:36px;padding:6px 10px;font-size:16px;width:230px;max-width:100%}
+.areapick input::placeholder{color:#a9adbd}
+.areacount{font-size:.78rem;color:#c9ccd8}
+.areacount:empty{display:none}
+@media (max-width:520px){.areapick{width:100%}.areapick input{flex:1 1 100%;width:100%}.areapick .city{flex:1 1 100%}.areapick .city select{width:100%}}

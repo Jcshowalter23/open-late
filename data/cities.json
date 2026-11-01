@@ -8,6 +8,26 @@
     {
       "id": "south-central-pa",
       "name": "South Central PA"
+    },
+    {
+      "id": "philadelphia-pa",
+      "name": "Philadelphia"
+    },
+    {
+      "id": "bucks-county-pa",
+      "name": "Bucks County, PA"
+    },
+    {
+      "id": "montgomery-county-pa",
+      "name": "Montgomery County & Main Line, PA"
+    },
+    {
+      "id": "delaware-county-pa",
+      "name": "Delaware County, PA"
+    },
+    {
+      "id": "chester-county-pa",
+      "name": "Chester County, PA"
     }
   ],
   "areas": [
@@ -469,6 +489,576 @@
       "timezone": "America/New_York",
       "file": "data/cities/waynesboro-pa.json",
       "status": "live"
+    },
+    {
+      "id": "phl-center-city",
+      "name": "Center City & Rittenhouse, Philadelphia",
+      "type": "neighborhood",
+      "region": "philadelphia-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/phl-center-city.json",
+      "status": "live",
+      "aka": "Philadelphia, Philly, Rittenhouse, Washington Square, Midtown Village, Chinatown, Logan Square, Gayborhood"
+    },
+    {
+      "id": "phl-old-city",
+      "name": "Old City & Society Hill, Philadelphia",
+      "type": "neighborhood",
+      "region": "philadelphia-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/phl-old-city.json",
+      "status": "live",
+      "aka": "Philadelphia, Philly, Society Hill, Penn's Landing"
+    },
+    {
+      "id": "phl-queen-village",
+      "name": "Queen Village, Bella Vista & East Passyunk, Philadelphia",
+      "type": "neighborhood",
+      "region": "philadelphia-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/phl-queen-village.json",
+      "status": "live",
+      "aka": "Philadelphia, Philly, South Street, Pennsport, Passyunk Square, Italian Market"
+    },
+    {
+      "id": "phl-south-philly",
+      "name": "South Philly, Philadelphia",
+      "type": "neighborhood",
+      "region": "philadelphia-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/phl-south-philly.json",
+      "status": "live",
+      "aka": "Philadelphia, Philly, Graduate Hospital, Point Breeze, Packer Park, Stadium District, Girard Estate"
+    },
+    {
+      "id": "phl-fishtown",
+      "name": "Fishtown, Northern Liberties & Kensington, Philadelphia",
+      "type": "neighborhood",
+      "region": "philadelphia-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/phl-fishtown.json",
+      "status": "live",
+      "aka": "Philadelphia, Philly, NoLibs, Kensington, Temple"
+    },
+    {
+      "id": "phl-port-richmond",
+      "name": "Port Richmond & Bridesburg, Philadelphia",
+      "type": "neighborhood",
+      "region": "philadelphia-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/phl-port-richmond.json",
+      "status": "live",
+      "aka": "Philadelphia, Philly"
+    },
+    {
+      "id": "phl-fairmount",
+      "name": "Fairmount & Brewerytown, Philadelphia",
+      "type": "neighborhood",
+      "region": "philadelphia-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/phl-fairmount.json",
+      "status": "live",
+      "aka": "Philadelphia, Philly, Art Museum, Spring Garden"
+    },
+    {
+      "id": "phl-west-philly",
+      "name": "West & Southwest Philly, Philadelphia",
+      "type": "neighborhood",
+      "region": "philadelphia-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/phl-west-philly.json",
+      "status": "live",
+      "aka": "Philadelphia, Philly, University City, Overbrook, Wynnefield, Eastwick"
+    },
+    {
+      "id": "phl-manayunk",
+      "name": "Manayunk, Roxborough & East Falls, Philadelphia",
+      "type": "neighborhood",
+      "region": "philadelphia-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/phl-manayunk.json",
+      "status": "live",
+      "aka": "Philadelphia, Philly"
+    },
+    {
+      "id": "phl-nw-philly",
+      "name": "Chestnut Hill, Mt. Airy & Germantown, Philadelphia",
+      "type": "neighborhood",
+      "region": "philadelphia-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/phl-nw-philly.json",
+      "status": "live",
+      "aka": "Philadelphia, Philly, Mount Airy, Northwest Philly"
+    },
+    {
+      "id": "phl-north-philly",
+      "name": "North Philly & Olney, Philadelphia",
+      "type": "neighborhood",
+      "region": "philadelphia-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/phl-north-philly.json",
+      "status": "live",
+      "aka": "Philadelphia, Philly, Logan, Oak Lane, Feltonville"
+    },
+    {
+      "id": "phl-ne-philly",
+      "name": "Northeast Philly, Philadelphia",
+      "type": "neighborhood",
+      "region": "philadelphia-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/phl-ne-philly.json",
+      "status": "live",
+      "aka": "Philadelphia, Philly, Mayfair, Fox Chase, Holmesburg, Tacony, Somerton, Frankford, Bustleton, Rhawnhurst"
+    },
+    {
+      "id": "doylestown-pa",
+      "name": "Doylestown & Central Bucks, PA",
+      "type": "town",
+      "region": "bucks-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/doylestown-pa.json",
+      "status": "live",
+      "aka": "Doylestown, Dublin, Chalfont, Plumsteadville, Pipersville, Carversville, Holicong"
+    },
+    {
+      "id": "new-hope-pa",
+      "name": "New Hope & Upper Bucks River Towns, PA",
+      "type": "town",
+      "region": "bucks-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/new-hope-pa.json",
+      "status": "live",
+      "aka": "New Hope, Lahaska, Erwinna, Upper Black Eddy, Riegelsville, Ottsville"
+    },
+    {
+      "id": "newtown-pa",
+      "name": "Newtown & Richboro, PA",
+      "type": "town",
+      "region": "bucks-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/newtown-pa.json",
+      "status": "live",
+      "aka": "Newtown, Richboro, Wycombe, Pineville"
+    },
+    {
+      "id": "bensalem-pa",
+      "name": "Bensalem, PA",
+      "type": "town",
+      "region": "bucks-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/bensalem-pa.json",
+      "status": "live",
+      "aka": "Bensalem"
+    },
+    {
+      "id": "feasterville-trevose-pa",
+      "name": "Feasterville-Trevose, PA",
+      "type": "town",
+      "region": "bucks-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/feasterville-trevose-pa.json",
+      "status": "live",
+      "aka": "Feasterville, Trevose, Lower Southampton"
+    },
+    {
+      "id": "southampton-pa",
+      "name": "Southampton, PA",
+      "type": "town",
+      "region": "bucks-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/southampton-pa.json",
+      "status": "live",
+      "aka": "Southampton"
+    },
+    {
+      "id": "warminster-pa",
+      "name": "Warminster, PA",
+      "type": "town",
+      "region": "bucks-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/warminster-pa.json",
+      "status": "live",
+      "aka": "Warminster"
+    },
+    {
+      "id": "warrington-pa",
+      "name": "Warrington & Jamison, PA",
+      "type": "town",
+      "region": "bucks-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/warrington-pa.json",
+      "status": "live",
+      "aka": "Warrington, Jamison"
+    },
+    {
+      "id": "levittown-pa",
+      "name": "Levittown & Fairless Hills, PA",
+      "type": "town",
+      "region": "bucks-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/levittown-pa.json",
+      "status": "live",
+      "aka": "Levittown, Fairless Hills"
+    },
+    {
+      "id": "bristol-pa",
+      "name": "Bristol & Croydon, PA",
+      "type": "town",
+      "region": "bucks-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/bristol-pa.json",
+      "status": "live",
+      "aka": "Bristol, Croydon"
+    },
+    {
+      "id": "yardley-morrisville-pa",
+      "name": "Yardley & Morrisville, PA",
+      "type": "town",
+      "region": "bucks-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/yardley-morrisville-pa.json",
+      "status": "live",
+      "aka": "Yardley, Morrisville, Lower Makefield"
+    },
+    {
+      "id": "langhorne-pa",
+      "name": "Langhorne, PA",
+      "type": "town",
+      "region": "bucks-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/langhorne-pa.json",
+      "status": "live",
+      "aka": "Langhorne"
+    },
+    {
+      "id": "quakertown-pa",
+      "name": "Quakertown, PA",
+      "type": "town",
+      "region": "bucks-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/quakertown-pa.json",
+      "status": "live",
+      "aka": "Quakertown, Richlandtown, Trumbauersville"
+    },
+    {
+      "id": "perkasie-pa",
+      "name": "Perkasie & Sellersville, PA",
+      "type": "town",
+      "region": "bucks-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/perkasie-pa.json",
+      "status": "live",
+      "aka": "Perkasie, Sellersville, Hilltown"
+    },
+    {
+      "id": "ambler-pa",
+      "name": "Ambler, PA",
+      "type": "town",
+      "region": "montgomery-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/ambler-pa.json",
+      "status": "live",
+      "aka": "Ambler"
+    },
+    {
+      "id": "blue-bell-pa",
+      "name": "Blue Bell & Fort Washington, PA",
+      "type": "town",
+      "region": "montgomery-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/blue-bell-pa.json",
+      "status": "live",
+      "aka": "Blue Bell, Fort Washington, Spring House"
+    },
+    {
+      "id": "conshohocken-pa",
+      "name": "Conshohocken, PA",
+      "type": "town",
+      "region": "montgomery-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/conshohocken-pa.json",
+      "status": "live",
+      "aka": "Conshohocken"
+    },
+    {
+      "id": "king-of-prussia-pa",
+      "name": "King of Prussia & Bridgeport, PA",
+      "type": "town",
+      "region": "montgomery-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/king-of-prussia-pa.json",
+      "status": "live",
+      "aka": "King of Prussia, Bridgeport, KOP, Upper Merion"
+    },
+    {
+      "id": "norristown-pa",
+      "name": "Norristown, PA",
+      "type": "town",
+      "region": "montgomery-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/norristown-pa.json",
+      "status": "live",
+      "aka": "Norristown"
+    },
+    {
+      "id": "glenside-pa",
+      "name": "Glenside & Abington, PA",
+      "type": "town",
+      "region": "montgomery-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/glenside-pa.json",
+      "status": "live",
+      "aka": "Glenside, Abington, Wyncote, Elkins Park"
+    },
+    {
+      "id": "jenkintown-pa",
+      "name": "Jenkintown & Huntingdon Valley, PA",
+      "type": "town",
+      "region": "montgomery-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/jenkintown-pa.json",
+      "status": "live",
+      "aka": "Jenkintown, Huntingdon Valley"
+    },
+    {
+      "id": "hatboro-willow-grove-pa",
+      "name": "Hatboro & Willow Grove, PA",
+      "type": "town",
+      "region": "montgomery-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/hatboro-willow-grove-pa.json",
+      "status": "live",
+      "aka": "Hatboro, Willow Grove"
+    },
+    {
+      "id": "horsham-pa",
+      "name": "Horsham, PA",
+      "type": "town",
+      "region": "montgomery-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/horsham-pa.json",
+      "status": "live",
+      "aka": "Horsham"
+    },
+    {
+      "id": "lansdale-pa",
+      "name": "Lansdale & Hatfield, PA",
+      "type": "town",
+      "region": "montgomery-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/lansdale-pa.json",
+      "status": "live",
+      "aka": "Lansdale, Hatfield, Kulpsville"
+    },
+    {
+      "id": "north-wales-pa",
+      "name": "North Wales, PA",
+      "type": "town",
+      "region": "montgomery-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/north-wales-pa.json",
+      "status": "live",
+      "aka": "North Wales"
+    },
+    {
+      "id": "souderton-pa",
+      "name": "Souderton, Telford & Harleysville, PA",
+      "type": "town",
+      "region": "montgomery-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/souderton-pa.json",
+      "status": "live",
+      "aka": "Souderton, Telford, Harleysville"
+    },
+    {
+      "id": "collegeville-pa",
+      "name": "Collegeville & Skippack, PA",
+      "type": "town",
+      "region": "montgomery-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/collegeville-pa.json",
+      "status": "live",
+      "aka": "Collegeville, Skippack, Schwenksville, Perkiomenville"
+    },
+    {
+      "id": "royersford-pa",
+      "name": "Royersford & Spring City, PA",
+      "type": "town",
+      "region": "montgomery-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/royersford-pa.json",
+      "status": "live",
+      "aka": "Royersford, Spring City"
+    },
+    {
+      "id": "pottstown-pa",
+      "name": "Pottstown, PA",
+      "type": "town",
+      "region": "montgomery-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/pottstown-pa.json",
+      "status": "live",
+      "aka": "Pottstown, Gilbertsville"
+    },
+    {
+      "id": "upper-perkiomen-pa",
+      "name": "Upper Perkiomen (Pennsburg & East Greenville), PA",
+      "type": "town",
+      "region": "montgomery-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/upper-perkiomen-pa.json",
+      "status": "live",
+      "aka": "Pennsburg, East Greenville, Palm"
+    },
+    {
+      "id": "lafayette-hill-pa",
+      "name": "Lafayette Hill, Flourtown & Oreland, PA",
+      "type": "town",
+      "region": "montgomery-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/lafayette-hill-pa.json",
+      "status": "live",
+      "aka": "Lafayette Hill, Flourtown, Oreland"
+    },
+    {
+      "id": "ardmore-pa",
+      "name": "Ardmore, Narberth & Bala Cynwyd, PA",
+      "type": "town",
+      "region": "montgomery-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/ardmore-pa.json",
+      "status": "live",
+      "aka": "Ardmore, Narberth, Bala Cynwyd, Wynnewood, Haverford, Main Line, Lower Merion"
+    },
+    {
+      "id": "havertown-pa",
+      "name": "Havertown, PA",
+      "type": "town",
+      "region": "delaware-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/havertown-pa.json",
+      "status": "live",
+      "aka": "Havertown"
+    },
+    {
+      "id": "media-pa",
+      "name": "Media & Swarthmore, PA",
+      "type": "town",
+      "region": "delaware-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/media-pa.json",
+      "status": "live",
+      "aka": "Media, Swarthmore"
+    },
+    {
+      "id": "glen-mills-pa",
+      "name": "Glen Mills & Chadds Ford, PA",
+      "type": "town",
+      "region": "delaware-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/glen-mills-pa.json",
+      "status": "live",
+      "aka": "Glen Mills, Chadds Ford"
+    },
+    {
+      "id": "wayne-pa",
+      "name": "Wayne, Berwyn & Paoli, PA",
+      "type": "town",
+      "region": "delaware-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/wayne-pa.json",
+      "status": "live",
+      "aka": "Wayne, Berwyn, Paoli, Villanova, Main Line, Radnor, Tredyffrin"
+    },
+    {
+      "id": "upper-darby-pa",
+      "name": "Upper Darby & Drexel Hill, PA",
+      "type": "town",
+      "region": "delaware-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/upper-darby-pa.json",
+      "status": "live",
+      "aka": "Upper Darby, Drexel Hill, Clifton Heights, Lansdowne, Broomall"
+    },
+    {
+      "id": "ridley-pa",
+      "name": "Ridley Area, PA",
+      "type": "town",
+      "region": "delaware-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/ridley-pa.json",
+      "status": "live",
+      "aka": "Folsom, Ridley Park, Holmes, Morton, Woodlyn, Prospect Park, Glenolden, Essington, Sharon Hill, Ridley"
+    },
+    {
+      "id": "aston-chester-pa",
+      "name": "Aston, Chester & Marcus Hook, PA",
+      "type": "town",
+      "region": "delaware-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/aston-chester-pa.json",
+      "status": "live",
+      "aka": "Aston, Chester, Marcus Hook"
+    },
+    {
+      "id": "west-chester-pa",
+      "name": "West Chester, PA",
+      "type": "town",
+      "region": "chester-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/west-chester-pa.json",
+      "status": "live",
+      "aka": "West Chester"
+    },
+    {
+      "id": "exton-downingtown-pa",
+      "name": "Exton & Downingtown, PA",
+      "type": "town",
+      "region": "chester-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/exton-downingtown-pa.json",
+      "status": "live",
+      "aka": "Exton, Downingtown, Chester Springs, Glenmoore, Thorndale"
+    },
+    {
+      "id": "malvern-pa",
+      "name": "Malvern, PA",
+      "type": "town",
+      "region": "chester-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/malvern-pa.json",
+      "status": "live",
+      "aka": "Malvern"
+    },
+    {
+      "id": "phoenixville-pa",
+      "name": "Phoenixville, PA",
+      "type": "town",
+      "region": "chester-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/phoenixville-pa.json",
+      "status": "live",
+      "aka": "Phoenixville, Kimberton"
+    },
+    {
+      "id": "coatesville-pa",
+      "name": "Coatesville & Western Chester County, PA",
+      "type": "town",
+      "region": "chester-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/coatesville-pa.json",
+      "status": "live",
+      "aka": "Coatesville, Parkesburg, Sadsburyville, Honey Brook, Elverson"
+    },
+    {
+      "id": "southern-chester-pa",
+      "name": "Southern Chester County, PA",
+      "type": "town",
+      "region": "chester-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/southern-chester-pa.json",
+      "status": "live",
+      "aka": "Kennett Square, Avondale, Toughkenamon, West Grove, Landenberg, Oxford, Nottingham, Kennett"
     }
   ]
 }
