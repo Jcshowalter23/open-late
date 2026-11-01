@@ -33,6 +33,10 @@
     {
       "id": "WV",
       "name": "West Virginia"
+    },
+    {
+      "id": "SC",
+      "name": "South Carolina"
     }
   ],
   "countyAliases": {
@@ -300,6 +304,36 @@
       "id": "southern-wv",
       "name": "Southern Coalfields (Bluefield, Logan)",
       "state": "WV"
+    },
+    {
+      "id": "charleston-sc",
+      "name": "Charleston & Lowcountry",
+      "state": "SC"
+    },
+    {
+      "id": "myrtle-beach-sc",
+      "name": "Myrtle Beach & Grand Strand",
+      "state": "SC"
+    },
+    {
+      "id": "columbia-sc",
+      "name": "Columbia & Midlands",
+      "state": "SC"
+    },
+    {
+      "id": "upstate-sc",
+      "name": "Greenville, Spartanburg & the Upstate",
+      "state": "SC"
+    },
+    {
+      "id": "olde-english-sc",
+      "name": "Rock Hill & Olde English District",
+      "state": "SC"
+    },
+    {
+      "id": "pee-dee-sc",
+      "name": "Florence & Pee Dee",
+      "state": "SC"
     }
   ],
   "areas": [
@@ -15827,6 +15861,1410 @@
       ],
       "state": "WV",
       "pickerState": "WV"
+    },
+    {
+      "id": "due-west-sc",
+      "name": "Due West & Calhoun Falls (Abbeville County), SC",
+      "type": "town",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/due-west-sc.json",
+      "status": "live",
+      "counties": [
+        "Abbeville"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "graniteville-sc",
+      "name": "Graniteville, Wagener & New Ellenton, SC",
+      "type": "city",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/graniteville-sc.json",
+      "status": "live",
+      "counties": [
+        "Aiken"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "north-augusta-sc",
+      "name": "North Augusta, Clearwater & Burnettown, SC",
+      "type": "town",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/north-augusta-sc.json",
+      "status": "live",
+      "counties": [
+        "Aiken"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "fairfax-sc",
+      "name": "Fairfax, SC",
+      "type": "town",
+      "region": "charleston-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/fairfax-sc.json",
+      "status": "live",
+      "counties": [
+        "Allendale"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "honea-path-sc",
+      "name": "Honea Path, Belton & Homeland Park, SC",
+      "type": "city",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/honea-path-sc.json",
+      "status": "live",
+      "counties": [
+        "Anderson"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "powdersville-sc",
+      "name": "Powdersville, Williamston & Pelzer, SC",
+      "type": "town",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/powdersville-sc.json",
+      "status": "live",
+      "counties": [
+        "Anderson"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "pendleton-sc",
+      "name": "Pendleton, Sandy Springs & La France, SC",
+      "type": "town",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/pendleton-sc.json",
+      "status": "live",
+      "counties": [
+        "Anderson"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "denmark-sc",
+      "name": "Denmark & Ehrhardt (Bamberg County), SC",
+      "type": "town",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/denmark-sc.json",
+      "status": "live",
+      "counties": [
+        "Bamberg"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "williston-sc",
+      "name": "Williston & Blackville (Barnwell County), SC",
+      "type": "town",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/williston-sc.json",
+      "status": "live",
+      "counties": [
+        "Barnwell"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "burton-sc",
+      "name": "Burton, Harbor Island & Laurel Bay, SC",
+      "type": "city",
+      "region": "charleston-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/burton-sc.json",
+      "status": "live",
+      "counties": [
+        "Beaufort"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "bluffton-sc",
+      "name": "Bluffton & Daufuskie Island, SC",
+      "type": "city",
+      "region": "charleston-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/bluffton-sc.json",
+      "status": "live",
+      "counties": [
+        "Beaufort"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "port-royal-sc",
+      "name": "Port Royal & Fripp Island, SC",
+      "type": "town",
+      "region": "charleston-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/port-royal-sc.json",
+      "status": "live",
+      "counties": [
+        "Beaufort"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "goose-creek-sc",
+      "name": "Goose Creek, Hanahan & Ladson, SC",
+      "type": "town",
+      "region": "charleston-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/goose-creek-sc.json",
+      "status": "live",
+      "counties": [
+        "Berkeley"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "moncks-corner-sc",
+      "name": "Moncks Corner & Bonneau Beach, SC",
+      "type": "city",
+      "region": "charleston-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/moncks-corner-sc.json",
+      "status": "live",
+      "counties": [
+        "Berkeley"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "st-matthews-sc",
+      "name": "St. Matthews, SC",
+      "type": "town",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/st-matthews-sc.json",
+      "status": "live",
+      "counties": [
+        "Calhoun"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "chs-king-st-sc",
+      "name": "Downtown & King Street, Charleston",
+      "type": "neighborhood",
+      "region": "charleston-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/chs-king-st-sc.json",
+      "status": "live",
+      "aka": "Charleston, CHS, Upper King, French Quarter, Market",
+      "counties": [
+        "Charleston"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "mount-pleasant-sc",
+      "name": "Mount Pleasant, Seabrook Island & Lincolnville, SC",
+      "type": "city",
+      "region": "charleston-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/mount-pleasant-sc.json",
+      "status": "live",
+      "counties": [
+        "Charleston"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "isle-of-palms-sc",
+      "name": "Isle of Palms, Sullivan's Island & Awendaw, SC",
+      "type": "town",
+      "region": "charleston-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/isle-of-palms-sc.json",
+      "status": "live",
+      "counties": [
+        "Charleston"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "chs-west-ashley-sc",
+      "name": "West Ashley, Charleston",
+      "type": "neighborhood",
+      "region": "charleston-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/chs-west-ashley-sc.json",
+      "status": "live",
+      "aka": "Charleston, CHS, Avondale, Savannah Hwy",
+      "counties": [
+        "Charleston"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "chs-james-island-sc",
+      "name": "James Island & Folly Road, Charleston",
+      "type": "neighborhood",
+      "region": "charleston-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/chs-james-island-sc.json",
+      "status": "live",
+      "aka": "Charleston, CHS",
+      "counties": [
+        "Charleston"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "folly-beach-sc",
+      "name": "Folly Beach & James Island, SC",
+      "type": "town",
+      "region": "charleston-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/folly-beach-sc.json",
+      "status": "live",
+      "counties": [
+        "Charleston"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "kiawah-island-sc",
+      "name": "Kiawah Island, Hollywood & Ravenel, SC",
+      "type": "town",
+      "region": "charleston-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/kiawah-island-sc.json",
+      "status": "live",
+      "counties": [
+        "Charleston"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "chs-johns-island-sc",
+      "name": "Johns Island, Charleston",
+      "type": "neighborhood",
+      "region": "charleston-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/chs-johns-island-sc.json",
+      "status": "live",
+      "aka": "Charleston, CHS, Kiawah",
+      "counties": [
+        "Charleston"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "gaffney-sc",
+      "name": "Gaffney, Blacksburg & East Gaffney (Cherokee County), SC",
+      "type": "town",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/gaffney-sc.json",
+      "status": "live",
+      "counties": [
+        "Cherokee"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "great-falls-sc",
+      "name": "Great Falls, Eureka Mill & Richburg (Chester County), SC",
+      "type": "town",
+      "region": "olde-english-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/great-falls-sc.json",
+      "status": "live",
+      "counties": [
+        "Chester"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "cheraw-sc",
+      "name": "Cheraw, Pageland & Jefferson (Chesterfield County), SC",
+      "type": "town",
+      "region": "olde-english-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/cheraw-sc.json",
+      "status": "live",
+      "counties": [
+        "Chesterfield"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "manning-sc",
+      "name": "Manning, Summerton & Wyboo (Clarendon County), SC",
+      "type": "town",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/manning-sc.json",
+      "status": "live",
+      "counties": [
+        "Clarendon"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "walterboro-sc",
+      "name": "Walterboro, Edisto Beach & Cottageville (Colleton County), SC",
+      "type": "town",
+      "region": "charleston-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/walterboro-sc.json",
+      "status": "live",
+      "counties": [
+        "Colleton"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "darlington-county-sc",
+      "name": "Darlington County, SC",
+      "type": "town",
+      "region": "pee-dee-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/darlington-county-sc.json",
+      "status": "live",
+      "counties": [
+        "Darlington"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "hartsville-sc",
+      "name": "Hartsville, Lydia & Lamar, SC",
+      "type": "town",
+      "region": "pee-dee-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/hartsville-sc.json",
+      "status": "live",
+      "counties": [
+        "Darlington"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "latta-sc",
+      "name": "Latta, Hamer & Lake View (Dillon County), SC",
+      "type": "town",
+      "region": "myrtle-beach-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/latta-sc.json",
+      "status": "live",
+      "counties": [
+        "Dillon"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "summerville-sc",
+      "name": "Summerville, Ridgeville & St. George, SC",
+      "type": "city",
+      "region": "charleston-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/summerville-sc.json",
+      "status": "live",
+      "counties": [
+        "Dorchester"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "north-charleston-sc",
+      "name": "North Charleston, SC",
+      "type": "city",
+      "region": "charleston-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/north-charleston-sc.json",
+      "status": "live",
+      "counties": [
+        "Dorchester"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "johnston-sc",
+      "name": "Johnston & Trenton (Edgefield County), SC",
+      "type": "town",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/johnston-sc.json",
+      "status": "live",
+      "counties": [
+        "Edgefield"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "winnsboro-sc",
+      "name": "Winnsboro & Ridgeway (Fairfield County), SC",
+      "type": "town",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/winnsboro-sc.json",
+      "status": "live",
+      "counties": [
+        "Fairfield"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "timmonsville-sc",
+      "name": "Timmonsville, SC",
+      "type": "city",
+      "region": "pee-dee-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/timmonsville-sc.json",
+      "status": "live",
+      "counties": [
+        "Florence"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "lake-city-sc",
+      "name": "Lake City, Johnsonville & Scranton, SC",
+      "type": "town",
+      "region": "pee-dee-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/lake-city-sc.json",
+      "status": "live",
+      "counties": [
+        "Florence"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "litchfield-beach-sc",
+      "name": "Litchfield Beach, SC",
+      "type": "town",
+      "region": "myrtle-beach-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/litchfield-beach-sc.json",
+      "status": "live",
+      "counties": [
+        "Georgetown"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "murrells-inlet-sc",
+      "name": "Murrells Inlet, SC",
+      "type": "town",
+      "region": "myrtle-beach-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/murrells-inlet-sc.json",
+      "status": "live",
+      "counties": [
+        "Georgetown"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "andrews-sc",
+      "name": "Andrews, SC",
+      "type": "town",
+      "region": "myrtle-beach-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/andrews-sc.json",
+      "status": "live",
+      "counties": [
+        "Georgetown"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "pawleys-island-sc",
+      "name": "Pawleys Island, SC",
+      "type": "town",
+      "region": "myrtle-beach-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/pawleys-island-sc.json",
+      "status": "live",
+      "counties": [
+        "Georgetown"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "taylors-sc",
+      "name": "Taylors, SC",
+      "type": "town",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/taylors-sc.json",
+      "status": "live",
+      "counties": [
+        "Greenville"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "simpsonville-sc",
+      "name": "Simpsonville, SC",
+      "type": "city",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/simpsonville-sc.json",
+      "status": "live",
+      "counties": [
+        "Greenville"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "wade-hampton-sc",
+      "name": "Wade Hampton, SC",
+      "type": "town",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/wade-hampton-sc.json",
+      "status": "live",
+      "counties": [
+        "Greenville"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "mauldin-sc",
+      "name": "Mauldin, SC",
+      "type": "town",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/mauldin-sc.json",
+      "status": "live",
+      "counties": [
+        "Greenville"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "gantt-sc",
+      "name": "Gantt & Dunean, SC",
+      "type": "city",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/gantt-sc.json",
+      "status": "live",
+      "counties": [
+        "Greenville"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "greer-sc",
+      "name": "Greer, SC",
+      "type": "city",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/greer-sc.json",
+      "status": "live",
+      "counties": [
+        "Greenville"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "travelers-rest-sc",
+      "name": "Travelers Rest & Slater-Marietta, SC",
+      "type": "town",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/travelers-rest-sc.json",
+      "status": "live",
+      "counties": [
+        "Greenville"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "berea-sc",
+      "name": "Berea, Parker & Sans Souci, SC",
+      "type": "town",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/berea-sc.json",
+      "status": "live",
+      "counties": [
+        "Greenville"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "five-forks-sc",
+      "name": "Five Forks, SC",
+      "type": "town",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/five-forks-sc.json",
+      "status": "live",
+      "counties": [
+        "Greenville"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "fountain-inn-sc",
+      "name": "Fountain Inn, SC",
+      "type": "town",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/fountain-inn-sc.json",
+      "status": "live",
+      "counties": [
+        "Greenville"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "ninety-six-sc",
+      "name": "Ninety Six, Ware Shoals & Hodges (Greenwood County), SC",
+      "type": "city",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/ninety-six-sc.json",
+      "status": "live",
+      "counties": [
+        "Greenwood"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "estill-sc",
+      "name": "Estill, Yemassee & Varnville (Hampton County), SC",
+      "type": "town",
+      "region": "charleston-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/estill-sc.json",
+      "status": "live",
+      "counties": [
+        "Hampton"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "myrtle-beach-sc",
+      "name": "Myrtle Beach, SC",
+      "type": "city",
+      "region": "myrtle-beach-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/myrtle-beach-sc.json",
+      "status": "live",
+      "counties": [
+        "Horry"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "north-myrtle-beach-sc",
+      "name": "North Myrtle Beach & Atlantic Beach, SC",
+      "type": "city",
+      "region": "myrtle-beach-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/north-myrtle-beach-sc.json",
+      "status": "live",
+      "counties": [
+        "Horry"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "garden-city-sc",
+      "name": "Garden City, SC",
+      "type": "town",
+      "region": "myrtle-beach-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/garden-city-sc.json",
+      "status": "live",
+      "counties": [
+        "Horry"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "surfside-beach-sc",
+      "name": "Surfside Beach, SC",
+      "type": "city",
+      "region": "myrtle-beach-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/surfside-beach-sc.json",
+      "status": "live",
+      "counties": [
+        "Horry"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "carolina-forest-sc",
+      "name": "Carolina Forest & Forestbrook, SC",
+      "type": "town",
+      "region": "myrtle-beach-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/carolina-forest-sc.json",
+      "status": "live",
+      "counties": [
+        "Horry"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "little-river-sc",
+      "name": "Little River, SC",
+      "type": "town",
+      "region": "myrtle-beach-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/little-river-sc.json",
+      "status": "live",
+      "counties": [
+        "Horry"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "conway-sc",
+      "name": "Conway, Aynor & Red Hill, SC",
+      "type": "town",
+      "region": "myrtle-beach-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/conway-sc.json",
+      "status": "live",
+      "counties": [
+        "Horry"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "socastee-sc",
+      "name": "Socastee, SC",
+      "type": "town",
+      "region": "myrtle-beach-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/socastee-sc.json",
+      "status": "live",
+      "counties": [
+        "Horry"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "loris-sc",
+      "name": "Loris, SC",
+      "type": "town",
+      "region": "myrtle-beach-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/loris-sc.json",
+      "status": "live",
+      "counties": [
+        "Horry"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "ridgeland-sc",
+      "name": "Ridgeland & Hardeeville (Jasper County), SC",
+      "type": "town",
+      "region": "charleston-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/ridgeland-sc.json",
+      "status": "live",
+      "counties": [
+        "Jasper"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "camden-sc",
+      "name": "Camden, Lugoff & Elgin (Kershaw County), SC",
+      "type": "town",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/camden-sc.json",
+      "status": "live",
+      "counties": [
+        "Kershaw"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "springdale-sc",
+      "name": "Springdale, Kershaw & Buford (Lancaster County), SC",
+      "type": "town",
+      "region": "olde-english-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/springdale-sc.json",
+      "status": "live",
+      "counties": [
+        "Lancaster"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "clinton-sc",
+      "name": "Clinton, Cross Hill & Princeton (Laurens County), SC",
+      "type": "town",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/clinton-sc.json",
+      "status": "live",
+      "counties": [
+        "Laurens"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "bishopville-sc",
+      "name": "Bishopville, Ashwood & Lynchburg (Lee County), SC",
+      "type": "town",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/bishopville-sc.json",
+      "status": "live",
+      "counties": [
+        "Lee"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "gilbert-sc",
+      "name": "Gilbert, SC",
+      "type": "city",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/gilbert-sc.json",
+      "status": "live",
+      "counties": [
+        "Lexington"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "chapin-sc",
+      "name": "Chapin, SC",
+      "type": "town",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/chapin-sc.json",
+      "status": "live",
+      "counties": [
+        "Lexington"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "west-columbia-sc",
+      "name": "West Columbia, Seven Oaks & Oak Grove, SC",
+      "type": "city",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/west-columbia-sc.json",
+      "status": "live",
+      "counties": [
+        "Lexington"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "red-bank-sc",
+      "name": "Red Bank, Batesburg-Leesville & Pelion, SC",
+      "type": "town",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/red-bank-sc.json",
+      "status": "live",
+      "counties": [
+        "Lexington"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "cayce-sc",
+      "name": "Cayce, Gaston & South Congaree, SC",
+      "type": "town",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/cayce-sc.json",
+      "status": "live",
+      "counties": [
+        "Lexington"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "mullins-sc",
+      "name": "Mullins, SC",
+      "type": "town",
+      "region": "myrtle-beach-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/mullins-sc.json",
+      "status": "live",
+      "counties": [
+        "Marion"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "bennettsville-sc",
+      "name": "Bennettsville, McColl & Clio (Marlboro County), SC",
+      "type": "town",
+      "region": "pee-dee-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/bennettsville-sc.json",
+      "status": "live",
+      "counties": [
+        "Marlboro"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "prosperity-sc",
+      "name": "Prosperity, Little Mountain & Helena (Newberry County), SC",
+      "type": "town",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/prosperity-sc.json",
+      "status": "live",
+      "counties": [
+        "Newberry"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "walhalla-sc",
+      "name": "Walhalla, Westminster & West Union, SC",
+      "type": "town",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/walhalla-sc.json",
+      "status": "live",
+      "counties": [
+        "Oconee"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "seneca-sc",
+      "name": "Seneca, Fair Play & South Union, SC",
+      "type": "city",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/seneca-sc.json",
+      "status": "live",
+      "counties": [
+        "Oconee"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "santee-sc",
+      "name": "Santee, Eutawville & Holly Hill, SC",
+      "type": "town",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/santee-sc.json",
+      "status": "live",
+      "counties": [
+        "Orangeburg"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "branchville-sc",
+      "name": "Branchville, Wilkinson Heights & North, SC",
+      "type": "city",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/branchville-sc.json",
+      "status": "live",
+      "counties": [
+        "Orangeburg"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "easley-sc",
+      "name": "Easley, Liberty & Arial, SC",
+      "type": "city",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/easley-sc.json",
+      "status": "live",
+      "counties": [
+        "Pickens"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "clemson-sc",
+      "name": "Clemson, Central & Clemson University, SC",
+      "type": "town",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/clemson-sc.json",
+      "status": "live",
+      "counties": [
+        "Pickens"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "pickens-county-sc",
+      "name": "Pickens County, SC",
+      "type": "town",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/pickens-county-sc.json",
+      "status": "live",
+      "counties": [
+        "Pickens"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "columbia-sc",
+      "name": "Columbia & St. Andrews, SC",
+      "type": "city",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/columbia-sc.json",
+      "status": "live",
+      "counties": [
+        "Richland"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "forest-acres-sc",
+      "name": "Forest Acres, Eastover & Arthurtown, SC",
+      "type": "town",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/forest-acres-sc.json",
+      "status": "live",
+      "counties": [
+        "Richland"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "dentsville-sc",
+      "name": "Dentsville, Blythewood & Woodfield, SC",
+      "type": "town",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/dentsville-sc.json",
+      "status": "live",
+      "counties": [
+        "Richland"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "irmo-sc",
+      "name": "Irmo & Lake Murray of Richland, SC",
+      "type": "town",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/irmo-sc.json",
+      "status": "live",
+      "counties": [
+        "Richland"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "ridge-spring-sc",
+      "name": "Ridge Spring, SC",
+      "type": "town",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/ridge-spring-sc.json",
+      "status": "live",
+      "counties": [
+        "Saluda"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "inman-sc",
+      "name": "Inman, Landrum & Campobello, SC",
+      "type": "town",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/inman-sc.json",
+      "status": "live",
+      "counties": [
+        "Spartanburg"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "hilltop-sc",
+      "name": "Hilltop, Pacolet & Cowpens, SC",
+      "type": "city",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/hilltop-sc.json",
+      "status": "live",
+      "counties": [
+        "Spartanburg"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "boiling-springs-sc",
+      "name": "Boiling Springs, Valley Falls & Chesnee, SC",
+      "type": "town",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/boiling-springs-sc.json",
+      "status": "live",
+      "counties": [
+        "Spartanburg"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "woodruff-sc",
+      "name": "Woodruff & Enoree, SC",
+      "type": "town",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/woodruff-sc.json",
+      "status": "live",
+      "counties": [
+        "Spartanburg"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "lyman-sc",
+      "name": "Lyman & Wellford, SC",
+      "type": "town",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/lyman-sc.json",
+      "status": "live",
+      "counties": [
+        "Spartanburg"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "duncan-sc",
+      "name": "Duncan & Reidville, SC",
+      "type": "town",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/duncan-sc.json",
+      "status": "live",
+      "counties": [
+        "Spartanburg"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "rembert-sc",
+      "name": "Rembert, Dalzell & Lakewood (Sumter County), SC",
+      "type": "city",
+      "region": "columbia-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/rembert-sc.json",
+      "status": "live",
+      "counties": [
+        "Sumter"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "buffalo-sc",
+      "name": "Buffalo, Jonesville & Carlisle (Union County), SC",
+      "type": "town",
+      "region": "upstate-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/buffalo-sc.json",
+      "status": "live",
+      "counties": [
+        "Union"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "kingstree-sc",
+      "name": "Kingstree, Hemingway & Lane (Williamsburg County), SC",
+      "type": "town",
+      "region": "myrtle-beach-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/kingstree-sc.json",
+      "status": "live",
+      "counties": [
+        "Williamsburg"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "rock-hill-sc",
+      "name": "Rock Hill, India Hook & Newport, SC",
+      "type": "city",
+      "region": "olde-english-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/rock-hill-sc.json",
+      "status": "live",
+      "counties": [
+        "York"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "fort-mill-sc",
+      "name": "Fort Mill, Lake Wylie & Baxter Village, SC",
+      "type": "city",
+      "region": "olde-english-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/fort-mill-sc.json",
+      "status": "live",
+      "counties": [
+        "York"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "clover-sc",
+      "name": "Clover, SC",
+      "type": "town",
+      "region": "olde-english-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/clover-sc.json",
+      "status": "live",
+      "counties": [
+        "York"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
+    },
+    {
+      "id": "mcconnells-sc",
+      "name": "McConnells, Sharon & Smyrna, SC",
+      "type": "town",
+      "region": "olde-english-sc",
+      "timezone": "America/New_York",
+      "file": "data/cities/mcconnells-sc.json",
+      "status": "live",
+      "counties": [
+        "York"
+      ],
+      "state": "SC",
+      "pickerState": "SC"
     }
   ],
   "counties": [
@@ -21617,6 +23055,556 @@
       "places": 6,
       "areas": [
         "mullens-wv"
+      ]
+    },
+    {
+      "id": "sc-abbeville",
+      "name": "Abbeville",
+      "label": "Abbeville County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 8,
+      "areas": [
+        "due-west-sc"
+      ]
+    },
+    {
+      "id": "sc-aiken",
+      "name": "Aiken",
+      "label": "Aiken County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 96,
+      "areas": [
+        "graniteville-sc",
+        "north-augusta-sc"
+      ]
+    },
+    {
+      "id": "sc-allendale",
+      "name": "Allendale",
+      "label": "Allendale County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 3,
+      "areas": [
+        "fairfax-sc"
+      ]
+    },
+    {
+      "id": "sc-anderson",
+      "name": "Anderson",
+      "label": "Anderson County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 147,
+      "areas": [
+        "honea-path-sc",
+        "powdersville-sc",
+        "pendleton-sc"
+      ]
+    },
+    {
+      "id": "sc-bamberg",
+      "name": "Bamberg",
+      "label": "Bamberg County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 6,
+      "areas": [
+        "denmark-sc"
+      ]
+    },
+    {
+      "id": "sc-barnwell",
+      "name": "Barnwell",
+      "label": "Barnwell County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 11,
+      "areas": [
+        "williston-sc"
+      ]
+    },
+    {
+      "id": "sc-beaufort",
+      "name": "Beaufort",
+      "label": "Beaufort County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 98,
+      "areas": [
+        "bluffton-sc",
+        "burton-sc",
+        "port-royal-sc"
+      ]
+    },
+    {
+      "id": "sc-berkeley",
+      "name": "Berkeley",
+      "label": "Berkeley County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 84,
+      "areas": [
+        "moncks-corner-sc",
+        "goose-creek-sc"
+      ]
+    },
+    {
+      "id": "sc-calhoun",
+      "name": "Calhoun",
+      "label": "Calhoun County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 2,
+      "areas": [
+        "st-matthews-sc"
+      ]
+    },
+    {
+      "id": "sc-charleston",
+      "name": "Charleston",
+      "label": "Charleston County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 475,
+      "areas": [
+        "chs-king-st-sc",
+        "chs-west-ashley-sc",
+        "chs-james-island-sc",
+        "chs-johns-island-sc",
+        "mount-pleasant-sc",
+        "isle-of-palms-sc",
+        "folly-beach-sc",
+        "kiawah-island-sc"
+      ]
+    },
+    {
+      "id": "sc-cherokee",
+      "name": "Cherokee",
+      "label": "Cherokee County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 21,
+      "areas": [
+        "gaffney-sc"
+      ]
+    },
+    {
+      "id": "sc-chester",
+      "name": "Chester",
+      "label": "Chester County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 16,
+      "areas": [
+        "great-falls-sc"
+      ]
+    },
+    {
+      "id": "sc-chesterfield",
+      "name": "Chesterfield",
+      "label": "Chesterfield County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 15,
+      "areas": [
+        "cheraw-sc"
+      ]
+    },
+    {
+      "id": "sc-clarendon",
+      "name": "Clarendon",
+      "label": "Clarendon County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 8,
+      "areas": [
+        "manning-sc"
+      ]
+    },
+    {
+      "id": "sc-colleton",
+      "name": "Colleton",
+      "label": "Colleton County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 16,
+      "areas": [
+        "walterboro-sc"
+      ]
+    },
+    {
+      "id": "sc-darlington",
+      "name": "Darlington",
+      "label": "Darlington County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 29,
+      "areas": [
+        "hartsville-sc",
+        "darlington-county-sc"
+      ]
+    },
+    {
+      "id": "sc-dillon",
+      "name": "Dillon",
+      "label": "Dillon County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 13,
+      "areas": [
+        "latta-sc"
+      ]
+    },
+    {
+      "id": "sc-dorchester",
+      "name": "Dorchester",
+      "label": "Dorchester County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 104,
+      "areas": [
+        "summerville-sc",
+        "north-charleston-sc"
+      ]
+    },
+    {
+      "id": "sc-edgefield",
+      "name": "Edgefield",
+      "label": "Edgefield County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 10,
+      "areas": [
+        "johnston-sc"
+      ]
+    },
+    {
+      "id": "sc-fairfield",
+      "name": "Fairfield",
+      "label": "Fairfield County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 8,
+      "areas": [
+        "winnsboro-sc"
+      ]
+    },
+    {
+      "id": "sc-florence",
+      "name": "Florence",
+      "label": "Florence County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 98,
+      "areas": [
+        "timmonsville-sc",
+        "lake-city-sc"
+      ]
+    },
+    {
+      "id": "sc-georgetown",
+      "name": "Georgetown",
+      "label": "Georgetown County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 72,
+      "areas": [
+        "murrells-inlet-sc",
+        "andrews-sc",
+        "litchfield-beach-sc",
+        "pawleys-island-sc"
+      ]
+    },
+    {
+      "id": "sc-greenville",
+      "name": "Greenville",
+      "label": "Greenville County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 433,
+      "areas": [
+        "gantt-sc",
+        "greer-sc",
+        "simpsonville-sc",
+        "mauldin-sc",
+        "travelers-rest-sc",
+        "wade-hampton-sc",
+        "fountain-inn-sc",
+        "five-forks-sc",
+        "berea-sc",
+        "taylors-sc"
+      ]
+    },
+    {
+      "id": "sc-greenwood",
+      "name": "Greenwood",
+      "label": "Greenwood County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 42,
+      "areas": [
+        "ninety-six-sc"
+      ]
+    },
+    {
+      "id": "sc-hampton",
+      "name": "Hampton",
+      "label": "Hampton County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 9,
+      "areas": [
+        "estill-sc"
+      ]
+    },
+    {
+      "id": "sc-horry",
+      "name": "Horry",
+      "label": "Horry County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 386,
+      "areas": [
+        "myrtle-beach-sc",
+        "north-myrtle-beach-sc",
+        "surfside-beach-sc",
+        "conway-sc",
+        "garden-city-sc",
+        "little-river-sc",
+        "carolina-forest-sc",
+        "loris-sc",
+        "socastee-sc"
+      ]
+    },
+    {
+      "id": "sc-jasper",
+      "name": "Jasper",
+      "label": "Jasper County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 16,
+      "areas": [
+        "ridgeland-sc"
+      ]
+    },
+    {
+      "id": "sc-kershaw",
+      "name": "Kershaw",
+      "label": "Kershaw County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 28,
+      "areas": [
+        "camden-sc"
+      ]
+    },
+    {
+      "id": "sc-lancaster",
+      "name": "Lancaster",
+      "label": "Lancaster County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 31,
+      "areas": [
+        "springdale-sc"
+      ]
+    },
+    {
+      "id": "sc-laurens",
+      "name": "Laurens",
+      "label": "Laurens County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 19,
+      "areas": [
+        "clinton-sc"
+      ]
+    },
+    {
+      "id": "sc-lee",
+      "name": "Lee",
+      "label": "Lee County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 3,
+      "areas": [
+        "bishopville-sc"
+      ]
+    },
+    {
+      "id": "sc-lexington",
+      "name": "Lexington",
+      "label": "Lexington County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 189,
+      "areas": [
+        "gilbert-sc",
+        "west-columbia-sc",
+        "cayce-sc",
+        "chapin-sc",
+        "red-bank-sc"
+      ]
+    },
+    {
+      "id": "sc-marion",
+      "name": "Marion",
+      "label": "Marion County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 8,
+      "areas": [
+        "mullins-sc"
+      ]
+    },
+    {
+      "id": "sc-marlboro",
+      "name": "Marlboro",
+      "label": "Marlboro County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 3,
+      "areas": [
+        "bennettsville-sc"
+      ]
+    },
+    {
+      "id": "sc-newberry",
+      "name": "Newberry",
+      "label": "Newberry County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 16,
+      "areas": [
+        "prosperity-sc"
+      ]
+    },
+    {
+      "id": "sc-oconee",
+      "name": "Oconee",
+      "label": "Oconee County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 53,
+      "areas": [
+        "seneca-sc",
+        "walhalla-sc"
+      ]
+    },
+    {
+      "id": "sc-orangeburg",
+      "name": "Orangeburg",
+      "label": "Orangeburg County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 46,
+      "areas": [
+        "branchville-sc",
+        "santee-sc"
+      ]
+    },
+    {
+      "id": "sc-pickens",
+      "name": "Pickens",
+      "label": "Pickens County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 66,
+      "areas": [
+        "easley-sc",
+        "clemson-sc",
+        "pickens-county-sc"
+      ]
+    },
+    {
+      "id": "sc-richland",
+      "name": "Richland",
+      "label": "Richland County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 236,
+      "areas": [
+        "columbia-sc",
+        "dentsville-sc",
+        "forest-acres-sc",
+        "irmo-sc"
+      ]
+    },
+    {
+      "id": "sc-saluda",
+      "name": "Saluda",
+      "label": "Saluda County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 6,
+      "areas": [
+        "ridge-spring-sc"
+      ]
+    },
+    {
+      "id": "sc-spartanburg",
+      "name": "Spartanburg",
+      "label": "Spartanburg County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 208,
+      "areas": [
+        "hilltop-sc",
+        "inman-sc",
+        "boiling-springs-sc",
+        "duncan-sc",
+        "woodruff-sc",
+        "lyman-sc"
+      ]
+    },
+    {
+      "id": "sc-sumter",
+      "name": "Sumter",
+      "label": "Sumter County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 42,
+      "areas": [
+        "rembert-sc"
+      ]
+    },
+    {
+      "id": "sc-union",
+      "name": "Union",
+      "label": "Union County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 11,
+      "areas": [
+        "buffalo-sc"
+      ]
+    },
+    {
+      "id": "sc-williamsburg",
+      "name": "Williamsburg",
+      "label": "Williamsburg County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 11,
+      "areas": [
+        "kingstree-sc"
+      ]
+    },
+    {
+      "id": "sc-york",
+      "name": "York",
+      "label": "York County",
+      "state": "SC",
+      "pickerState": "SC",
+      "places": 165,
+      "areas": [
+        "rock-hill-sc",
+        "fort-mill-sc",
+        "clover-sc",
+        "mcconnells-sc"
       ]
     }
   ]

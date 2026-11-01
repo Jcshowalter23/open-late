@@ -102,7 +102,7 @@ PAGE = """<!doctype html>
 <main class="lp">
 {body}
 </main>
-<footer class="foot"><p class="small">Hours and specials change often, so call ahead. Sources are named on every place in the live list. Not affiliated with any restaurant. <a href="/counties/">All counties</a> · <a href="/">Open the app</a></p></footer>
+<footer class="foot"><p class="small">Hours and specials change often, so call ahead. Sources are named on every place in the live list. Not affiliated with any restaurant. <a href="/counties/">All counties</a> · <a href="/">Open the app</a></p><p class="small">Questions or corrections? <a href="mailto:support@openlateapp.com">support@openlateapp.com</a></p></footer>
 </body>
 </html>
 """
