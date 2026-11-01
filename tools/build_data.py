@@ -121,10 +121,17 @@ def build(write=True):
         bb = [round(min(p[0] for p in pts), 4), round(min(p[1] for p in pts), 4), round(max(p[0] for p in pts), 4), round(max(p[1] for p in pts), 4)] if pts else None
         ctr = [round(sum(p[0] for p in pts) / len(pts), 4), round(sum(p[1] for p in pts) / len(pts), 4)] if pts else None
         fn = f"data/county/{c['id']}.json"
-        meta = {"label": c.get("label") or f"{c['name']} County", "st": c.get("pickerState") or "PA", "loc": c.get("state") or "PA"}  # picker State (DC sits under MD) + real state for headings
+        meta = {"label": c.get("label") or f"{c['name']} County", "st": c.get("pickerState") or c.get("state") or "PA", "loc": c.get("state") or "PA"}  # picker State + real state for headings
         out[fn] = dump({"id": c["id"], "name": c["name"], **meta, "areas": areas, "restaurants": places}) + "\n"
         counties.append({"id": c["id"], "name": c["name"], **meta, "places": len(places), "file": fn, "bb": bb, "c": ctr})
-    out["data/index.json"] = dump({"defaultCounty": "lancaster", "counties": counties, "areaCounties": area_counties}) + "\n"
+    # States for the picker, data-driven from data/cities.json "states": the default County's State first, then A-Z by name;
+    # only States that have a County. cityWord (e.g. "Neighborhood" for DC) renames the City picker there.
+    names = {s["id"]: s for s in idx.get("states") or []}
+    have = {c["st"] for c in counties}
+    dflt = next((c["st"] for c in counties if c["id"] == "lancaster"), "PA")
+    states = [{"id": st, "name": (names.get(st) or {}).get("name") or st, **({"cityWord": names[st]["cityWord"]} if (names.get(st) or {}).get("cityWord") else {})} for st in have]
+    states.sort(key=lambda s: (s["id"] != dflt, s["name"]))
+    out["data/index.json"] = dump({"defaultCounty": "lancaster", "states": states, "counties": counties, "areaCounties": area_counties, "countyAliases": idx.get("countyAliases") or {}}) + "\n"
     changed = []
     for fn, s in out.items():
         cur = open(fn, encoding="utf-8").read() if os.path.exists(fn) else None

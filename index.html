@@ -7,7 +7,7 @@
   (function(){try{var j=function(u){var p=fetch(u,{cache:"no-cache"}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json()});p.catch(function(){});return p};
   var q=new URLSearchParams(location.search),c=q.get("county"),s=null;
   if(!c&&!q.get("area")){try{s=JSON.parse(localStorage.getItem("openlate.sel")||"null")}catch(e){}c=s&&s.county?s.county:(s&&s.area?"":"lancaster")}
-  window.__olIdx=j("data/index.json");if(c&&/^[a-z-]+$/.test(c))window.__olPre={id:c,p:j("data/county/"+c+".json")}}catch(e){}})();
+  window.__olIdx=j("data/index.json");c={"md-washington-dc":"washington-dc"}[c]||c;if(c&&/^[a-z-]+$/.test(c))window.__olPre={id:c,p:j("data/county/"+c+".json")}}catch(e){}})();
 </script>
 <!-- Google tag (gtag.js). gtag.js (~180 KB) loads once the first cards are on screen (or 4 s after page load at the latest),
      so it doesn't compete with the restaurant data on slow phones. The page_view is queued in dataLayer and sent when it loads. -->

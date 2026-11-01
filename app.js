@@ -369,7 +369,8 @@
       if (favsOnly && !favs.size) why = "No favorites yet";
       else if (favsOnly && extraLoading) why = "Loading your favorites from other counties…";
       $("emptyTitle").textContent = why + ".";
-      $("emptyText").textContent = why.includes("past 11 PM") ? `Only places with posted hours can show here. Try ${town ? "the whole county, " : ""}a neighboring county, or turn off Tonight.` : favsOnly && !list.length && why.startsWith("No favorites") ? "Tap the ♡ on any place to save it here. Favorites stay on this device." : town ? `Try the whole county, or ${active ? "clear the filters" : "pick another city"}.` : (active ? "Try clearing the filters or picking another day." : "Try a neighboring county.");
+      const whole = cityWord() === "City" ? "the whole county" : `all of ${cLabel(county)}`; // DC: "all of Washington, DC"
+      $("emptyText").textContent = why.includes("past 11 PM") ? `Only places with posted hours can show here. Try ${town ? `${whole}, ` : ""}a neighboring county, or turn off Tonight.` : favsOnly && !list.length && why.startsWith("No favorites") ? "Tap the ♡ on any place to save it here. Favorites stay on this device." : town ? `Try ${whole}, or ${active ? "clear the filters" : `pick another ${cityWord().toLowerCase()}`}.` : (active ? "Try clearing the filters or picking another day." : "Try a neighboring county.");
       $("clearFilters").hidden = !active;
       $("seeCounty").hidden = !town;
       $("seeCounty").textContent = `See all of ${cLabel(county)}`;
@@ -639,15 +640,21 @@
   // Only the picked County loads; other Counties load on demand for favorites and Near me and show as extras.
   let index = null, county = null, extraLoading = false;
   const NEAR_MI = 10;
-  const STATES = { PA: "Pennsylvania", MD: "Maryland", DE: "Delaware" };
+  // States come from data/index.json "states" (order and names set in tools/build_data.py), so adding one is a data change only
   const cLabel = (c) => (c && c.label) || `${c.name} County`; // "Cecil County", "Baltimore City", "Washington, DC"
-  const cSt = (c) => (c && c.st) || "PA"; // picker State (Washington, DC is listed under Maryland)
+  const cSt = (c) => (c && c.st) || "PA"; // picker State ("DC" for Washington, DC)
   const cFull = (c) => (c.loc === "DC" ? cLabel(c) : `${cLabel(c)}, ${c.loc || "PA"}`);
+  const stateInfo = (st) => (index.states || []).find((s) => s.id === st) || { id: st, name: st };
+  const cityWord = () => (county && stateInfo(cSt(county)).cityWord) || "City"; // "Neighborhood" in Washington, DC
   function fillCounties(st) {
     $("state").value = st;
-    $("county").innerHTML = index.counties.filter((c) => cSt(c) === st).sort((a, b) => cLabel(a).localeCompare(cLabel(b))).map((c) => `<option value="${esc(c.id)}">${esc(cLabel(c))} (${c.places})</option>`).join("");
+    const cs = index.counties.filter((c) => cSt(c) === st).sort((a, b) => cLabel(a).localeCompare(cLabel(b)));
+    $("county").innerHTML = cs.map((c) => `<option value="${esc(c.id)}">${esc(cLabel(c))} (${c.places})</option>`).join("");
+    $("county").closest(".pick").hidden = cs.length === 1; // a one-County State (Washington, DC): no County box, State then Neighborhood
+    const w = stateInfo(st).cityWord || "City";
+    $("town").closest(".pick").querySelector("span").textContent = w; $("town").setAttribute("aria-label", w);
   }
-  const countyById = (id) => index.counties.find((c) => c.id === (id || "").toLowerCase());
+  const countyById = (id) => { id = (id || "").toLowerCase(); id = (index.countyAliases || {})[id] || id; return index.counties.find((c) => c.id === id); }; // old ids (md-washington-dc) still open
   const primaryCounty = (aid) => { const cs = index.areaCounties[aid]; return cs && countyById(cs[0]); };
   const countyData = new Map(); // id -> Promise of the County file
   const extra = new Map(); // pkey -> prepped place from another County
@@ -745,7 +752,7 @@
     const cnt = new Map();
     for (const p of rows) cnt.set(p.area, (cnt.get(p.area) || 0) + 1);
     const towns = metas.filter((m) => cnt.has(m.id)).map((m) => ({ id: m.id, name: shortArea(m.name) })).sort((x, y) => x.name.localeCompare(y.name));
-    $("town").innerHTML = `<option value="">All cities (${rows.length})</option>` + towns.map((t) => `<option value="${esc(t.id)}" data-name="${esc(t.name)}">${esc(t.name)} (${cnt.get(t.id)})</option>`).join("");
+    $("town").innerHTML = `<option value="">All ${cityWord() === "City" ? "cities" : cityWord().toLowerCase() + "s"} (${rows.length})</option>` + towns.map((t) => `<option value="${esc(t.id)}" data-name="${esc(t.name)}">${esc(t.name)} (${cnt.get(t.id)})</option>`).join("");
     $("town").value = towns.some((t) => t.id === areaId) ? areaId : "";
     $("checked").textContent = city.checkedLabel;
     opts($("cuisine"), ["All", ...Array.from(new Set(rows.map((p) => p.r.cuisine))).sort()]);
@@ -761,9 +768,9 @@
   async function init() {
     opts($("vibe"), VIBES);
     index = await (window.__olIdx ? window.__olIdx.catch(() => getJSON("data/index.json")) : getJSON("data/index.json"));
-    const sts = Object.keys(STATES).filter((st) => index.counties.some((c) => cSt(c) === st));
-    $("state").innerHTML = sts.map((st) => `<option value="${st}">${STATES[st]}</option>`).join("");
-    fillCounties("PA");
+    const sts = (index.states && index.states.length ? index.states : [{ id: "PA", name: "Pennsylvania" }]).filter((s) => index.counties.some((c) => cSt(c) === s.id));
+    $("state").innerHTML = sts.map((s) => `<option value="${esc(s.id)}">${esc(s.name)}</option>`).join("");
+    fillCounties(cSt(countyById(index.defaultCounty || "lancaster")));
     // start: ?county=&area= link, then an old ?area= link (mapped to its primary county), then the remembered pick, then Lancaster County
     const sp = new URLSearchParams(location.search);
     let saved = null;
@@ -773,14 +780,14 @@
       saved = /^county:/.test(old) ? { county: old.slice(7), area: "" } : { county: "", area: old };
     }
     let cid = "", aid = "";
-    if (countyById(sp.get("county"))) { cid = sp.get("county"); aid = sp.get("area") || ""; }
+    if (countyById(sp.get("county"))) { cid = countyById(sp.get("county")).id; aid = sp.get("area") || ""; }
     else if (sp.get("area") && primaryCounty(sp.get("area"))) { aid = sp.get("area"); cid = primaryCounty(aid).id; }
-    else if (countyById(saved.county)) { cid = saved.county; aid = saved.area || ""; }
+    else if (countyById(saved.county)) { cid = countyById(saved.county).id; aid = saved.area || ""; }
     else if (saved.area && primaryCounty(saved.area)) { aid = saved.area; cid = primaryCounty(aid).id; }
     else cid = "lancaster";
     $("state").addEventListener("change", () => { // a new State: open its biggest County
-      const st = $("state").value; // Pennsylvania -> the usual default County; others -> their biggest County in that state itself (not DC under Maryland)
-      const top = st === "PA" ? countyById(index.defaultCounty || "lancaster") : index.counties.filter((c) => cSt(c) === st && (c.loc || "PA") === st).sort((a, b) => b.places - a.places)[0];
+      const st = $("state").value, dc = countyById(index.defaultCounty || "lancaster"); // the default County's State -> that County; others -> their biggest County
+      const top = dc && cSt(dc) === st ? dc : index.counties.filter((c) => cSt(c) === st).sort((a, b) => (((b.loc || "PA") === st) - ((a.loc || "PA") === st)) || b.places - a.places)[0];
       if (!top) return; dayTouched = false; track(`state/${st}`, "State picked"); loadCounty(top.id, "").catch(fail);
     });
     $("county").addEventListener("change", () => { dayTouched = false; track(`county/${$("county").value}`, "County picked"); loadCounty($("county").value, "").catch(fail); });

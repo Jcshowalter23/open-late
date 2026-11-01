@@ -26,6 +26,7 @@ a{color:inherit}
 @media (max-width:420px){.top.searching .word{display:none}}
 .pickers{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .pick{display:flex;flex-direction:column;gap:2px;min-width:0}
+.pick[hidden]{display:none!important}
 .pick span{font-size:.66rem;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:#a9adbd}
 .pick select{background:#262a38;color:#fff;border:1px solid #3a3f52;border-radius:8px;min-height:38px;padding:6px 8px;font-size:16px;width:100%;min-width:0;text-overflow:ellipsis}
 .chiprow{display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:0 0 2px}

@@ -176,10 +176,11 @@ REGS = "all 67 Pennsylvania counties" if REG == "Pennsylvania" else "Pennsylvani
 body = [f'<h1>Open late across {e(REG)}, by County</h1>',
         f'<p class="lede">{tot:,} restaurants and bars in {len(counties)} counties across {e(REGS)}: hours, kitchen hours, happy hours and wing and beer specials.</p>',
         '<p><a class="btn" href="/">Open the live list</a></p>']
-ST_NAMES = [("PA", "Pennsylvania"), ("MD", "Maryland"), ("DE", "Delaware"), ("DC", "Washington, DC")]
+# one group per picker State, in the app's order (data/index.json "states": Pennsylvania first, then A-Z)
+ST_NAMES = [(s["id"], s["name"]) for s in json.load(open("data/index.json")).get("states") or []] or [("PA", "Pennsylvania")]
 multi = REG != "Pennsylvania"
 for st, stn in ST_NAMES:
-    cs = [c for c in counties if (c.get("state") or "PA") == st]
+    cs = [c for c in counties if (c.get("pickerState") or c.get("state") or "PA") == st]
     if not cs: continue
     if multi: body.append(f'<h2>{e(stn)}</h2>')
     body.append('<ul class="lp-cities lp-counties">')
@@ -192,6 +193,27 @@ ld = json.dumps({"@context": "https://schema.org", "@type": "BreadcrumbList", "i
 os.makedirs("counties", exist_ok=True)
 if build_og.save(build_og.home_image(tot, len(counties), "PA" if REG == "Pennsylvania" else "PA, MD, DE & DC"), "icons/og-image.png"): og_changed += 1
 open("counties/index.html", "w").write(PAGE.format(title=f"{REG} restaurants & bars open late, by County · Open Late", desc=e(f"Late-night restaurants and bars in {len(counties)} counties across {REGS}: who's open now, kitchen hours, happy hours and specials."), url=SITE + "/counties/", site=SITE, ld=ld, body="\n".join(body), cid="", img="icons/og-image.png", imgalt="Open Late: a crescent moon logo with the words Open Late. Who's open late, whose kitchen is still serving and tonight's specials, across " + REGS + "."))
+
+# Renamed Counties (data/cities.json "countyAliases", e.g. md-washington-dc -> washington-dc): the old landing page
+# becomes a redirect to the new one, keeping ?query and #hash (the app maps old ?county= ids itself). Not in the sitemap.
+REDIR = """<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>{label} · Open Late</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="{url}">
+<meta http-equiv="refresh" content="0; url={path}">
+<script>location.replace({path_js} + location.search + location.hash);</script>
+</head><body style="font-family:system-ui,sans-serif;background:#14161f;color:#fff;padding:24px">
+<p>Moved: <a style="color:#e8a33d" href="{path}">{label} on Open Late</a></p>
+</body></html>
+"""
+slug_of = lambda c: c["id"] if c.get("state") else f"{c['id']}-county"
+for old, new in (idx.get("countyAliases") or {}).items():
+    nc = next((c for c in counties if c["id"] == new), None)
+    if not nc or os.path.isdir(f"{old}-county") and not nc.get("state"): continue
+    os.makedirs(old, exist_ok=True)
+    path = f"/{slug_of(nc)}/"
+    open(f"{old}/index.html", "w").write(REDIR.format(label=e(nc.get("label") or nc["name"]), url=SITE + path, path=path, path_js=json.dumps(path)))
 
 # Share links: /p/<area>/<place>.html, one tiny page per place whose preview names the place and shows its
 # County's image, then opens the live list at that place. noindex (not for search), not in the sitemap.

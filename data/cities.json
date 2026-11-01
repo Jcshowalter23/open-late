@@ -1,5 +1,27 @@
 {
   "defaultArea": "lancaster-pa",
+  "states": [
+    {
+      "id": "PA",
+      "name": "Pennsylvania"
+    },
+    {
+      "id": "MD",
+      "name": "Maryland"
+    },
+    {
+      "id": "DE",
+      "name": "Delaware"
+    },
+    {
+      "id": "DC",
+      "name": "Washington, DC",
+      "cityWord": "Neighborhood"
+    }
+  ],
+  "countyAliases": {
+    "md-washington-dc": "washington-dc"
+  },
   "regions": [
     {
       "id": "lancaster-county-pa",
@@ -66,7 +88,7 @@
     {
       "id": "washington-dc",
       "name": "Washington, DC",
-      "state": "MD"
+      "state": "DC"
     },
     {
       "id": "capital-region-md",
@@ -2906,7 +2928,7 @@
         "Washington, DC"
       ],
       "state": "DC",
-      "pickerState": "MD"
+      "pickerState": "DC"
     },
     {
       "id": "dc-petworth",
@@ -2921,7 +2943,7 @@
         "Washington, DC"
       ],
       "state": "DC",
-      "pickerState": "MD"
+      "pickerState": "DC"
     },
     {
       "id": "dc-downtown",
@@ -2936,7 +2958,7 @@
         "Washington, DC"
       ],
       "state": "DC",
-      "pickerState": "MD"
+      "pickerState": "DC"
     },
     {
       "id": "dc-foggy-bottom",
@@ -2951,7 +2973,7 @@
         "Washington, DC"
       ],
       "state": "DC",
-      "pickerState": "MD"
+      "pickerState": "DC"
     },
     {
       "id": "dc-u-street",
@@ -2966,7 +2988,7 @@
         "Washington, DC"
       ],
       "state": "DC",
-      "pickerState": "MD"
+      "pickerState": "DC"
     },
     {
       "id": "dc-capitol-hill",
@@ -2981,7 +3003,7 @@
         "Washington, DC"
       ],
       "state": "DC",
-      "pickerState": "MD"
+      "pickerState": "DC"
     },
     {
       "id": "dc-adams-morgan",
@@ -2996,7 +3018,7 @@
         "Washington, DC"
       ],
       "state": "DC",
-      "pickerState": "MD"
+      "pickerState": "DC"
     },
     {
       "id": "dc-dupont-circle",
@@ -3011,7 +3033,7 @@
         "Washington, DC"
       ],
       "state": "DC",
-      "pickerState": "MD"
+      "pickerState": "DC"
     },
     {
       "id": "dc-upper-nw",
@@ -3026,7 +3048,7 @@
         "Washington, DC"
       ],
       "state": "DC",
-      "pickerState": "MD"
+      "pickerState": "DC"
     },
     {
       "id": "dc-navy-yard",
@@ -3041,7 +3063,7 @@
         "Washington, DC"
       ],
       "state": "DC",
-      "pickerState": "MD"
+      "pickerState": "DC"
     },
     {
       "id": "dc-east-of-river",
@@ -3056,7 +3078,7 @@
         "Washington, DC"
       ],
       "state": "DC",
-      "pickerState": "MD"
+      "pickerState": "DC"
     },
     {
       "id": "dc-h-street",
@@ -3071,7 +3093,7 @@
         "Washington, DC"
       ],
       "state": "DC",
-      "pickerState": "MD"
+      "pickerState": "DC"
     },
     {
       "id": "dc-columbia-heights",
@@ -3086,7 +3108,7 @@
         "Washington, DC"
       ],
       "state": "DC",
-      "pickerState": "MD"
+      "pickerState": "DC"
     },
     {
       "id": "dc-bloomingdale",
@@ -3101,7 +3123,7 @@
         "Washington, DC"
       ],
       "state": "DC",
-      "pickerState": "MD"
+      "pickerState": "DC"
     },
     {
       "id": "dc-southwest-wharf",
@@ -3116,7 +3138,7 @@
         "Washington, DC"
       ],
       "state": "DC",
-      "pickerState": "MD"
+      "pickerState": "DC"
     },
     {
       "id": "dover-de",
@@ -5088,11 +5110,11 @@
       ]
     },
     {
-      "id": "md-washington-dc",
+      "id": "washington-dc",
       "name": "Washington, DC",
       "label": "Washington, DC",
       "state": "DC",
-      "pickerState": "MD",
+      "pickerState": "DC",
       "places": 786,
       "areas": [
         "dc-georgetown",
