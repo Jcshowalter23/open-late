@@ -1,0 +1,14 @@
+/* static County landing pages (built by tools/build_seo.py) */
+.landing .top{position:static}
+.lp{max-width:860px}
+.lp h1{font-size:1.7rem;line-height:1.2;margin:10px 0 8px}
+.lp h2{font-size:1.15rem;margin:22px 0 8px}
+.lede{font-size:1.02rem;color:var(--ink2);margin:0 0 14px}
+.crumbs{font-size:.82rem;color:var(--ink3);margin:4px 0 0}
+.crumbs a,.lp li a,.foot a{color:var(--link)}
+.lp .btn{margin:0 8px 8px 0}
+.lp-cities{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:6px 16px}
+.lp-cities li,.lp-late li{padding:6px 0;border-bottom:1px solid var(--line)}
+.lp-cities a,.lp-late a{font-weight:600;text-decoration:none}
+.lp-cities span,.lp-late span{color:var(--ink3);font-size:.86rem}
+.lp-late{padding-left:22px;margin:0}

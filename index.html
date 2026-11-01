@@ -3,8 +3,25 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Open Late · Restaurant hours, kitchen times & specials</title>
-<meta name="description" content="Open Late: restaurants and bars across Pennsylvania: who's open now, whose kitchen is still open, happy hours and wing and beer specials by day.">
+<title>Open Late · Pennsylvania restaurants & bars open late, kitchen hours & specials</title>
+<meta name="description" content="Find Pennsylvania restaurants and bars open late tonight: who's open now, whose kitchen is still serving, plus happy hours and wing and beer specials by day, for all 67 counties.">
+<link rel="canonical" href="https://openlateapp.com/" id="canon">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Open Late">
+<meta property="og:title" content="Open Late · Who's open late near you in Pennsylvania">
+<meta property="og:description" content="Restaurants and bars open late, kitchens still serving, happy hours and wing and beer specials, across all 67 PA counties.">
+<meta property="og:url" content="https://openlateapp.com/">
+<meta property="og:image" content="https://openlateapp.com/icons/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Open Late logo: a crescent moon, with the words Open Late, late-night food and drinks across Pennsylvania">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Open Late · Who's open late near you in Pennsylvania">
+<meta name="twitter:description" content="Restaurants and bars open late, kitchens still serving, happy hours and wing and beer specials, across all 67 PA counties.">
+<meta name="twitter:image" content="https://openlateapp.com/icons/og-image.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"Open Late","url":"https://openlateapp.com/","description":"Pennsylvania restaurants and bars open late: hours, kitchen hours, happy hours and specials.","inLanguage":"en-US","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://openlateapp.com/?q={search_term_string}"},"query-input":"required name=search_term_string"}}
+</script>
 <meta name="theme-color" content="#14161f">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="favicon.ico" sizes="32x32">
@@ -15,6 +32,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Open Late">
 <link rel="stylesheet" href="styles.css">
+<script src="config.js"></script>
 </head>
 <body>
 <header class="top" id="top">
@@ -38,6 +56,7 @@
   </div>
   <div class="chiprow" role="group" aria-label="Filters">
     <label class="chip chip-day"><span class="sr">Deals for</span><select id="day" aria-label="Deals for day"></select></label>
+    <button type="button" class="chip" id="tonight" aria-pressed="false" title="Places open past 11 PM tonight; late kitchens first">🌙 Tonight</button>
     <button type="button" class="chip" id="openNow" aria-pressed="false"><span class="dot d-open" aria-hidden="true"></span>Open now</button>
     <button type="button" class="chip" id="nearMe" aria-pressed="false" title="Sort by distance from you (asks for your location)">📍 Near me</button>
     <button type="button" class="chip" id="favsOnly" aria-pressed="false">♥ Favorites</button>
@@ -65,7 +84,18 @@
     <p class="hint">"Kitchen open" only includes places that publish a kitchen close time. Deal filters follow the day you pick in the first chip.</p>
   </details>
 
-  <p class="count" id="count"></p>
+  <div class="viewbar">
+    <p class="count" id="count"></p>
+    <div class="seg" role="group" aria-label="View">
+      <button type="button" id="viewList" aria-pressed="true">List</button>
+      <button type="button" id="viewMap" aria-pressed="false">Map</button>
+    </div>
+  </div>
+  <p class="tonight-note" id="tonightNote" hidden></p>
+  <div class="mapwrap" id="mapwrap" hidden>
+    <div id="map" role="region" aria-label="Map of the places in this list"></div>
+    <p class="maplegend"><span><i class="lg lg-open"></i>Open</span><span><i class="lg lg-soon"></i>Closing within an hour</span><span><i class="lg lg-closed"></i>Closed / hours not listed</span><span id="mapMiss"></span></p>
+  </div>
   <div class="grid" id="list"></div>
   <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
   <p class="morewrap"><button type="button" class="btn more" id="more" hidden>Show more</button></p>
@@ -82,10 +112,40 @@
 </main>
 
 <footer class="foot">
-  <p><a id="suggest" class="btn" href="#">Suggest an update</a></p>
-  <p>Know a special, a closing time, or a change? Restaurants and visitors can send it in.</p>
-  <p class="small">Sources: each venue's Facebook page and website, plus local guides such as TasteLanc and OpenTable (the source is named on every card). Not affiliated with any restaurant.</p>
+  <p class="footbtns"><a id="suggest" class="btn" href="#" data-form="suggest">Suggest an update</a> <a class="btn ghost" href="#" data-form="add">Add a place</a></p>
+  <p>Know a special, a closing time, or a change? Restaurants and visitors can send it in. <a href="#" data-form="claim" class="claimlink">Own a bar? Claim your listing</a>.</p>
+  <p class="small">Sources: each venue's Facebook page and website, plus local guides such as TasteLanc and OpenTable (the source is named on every card). Not affiliated with any restaurant. <a href="counties/">Browse by County</a></p>
 </footer>
+<dialog id="formDlg" aria-labelledby="fTitle">
+  <form id="sForm" method="dialog" novalidate>
+    <div class="fhead"><h2 id="fTitle">Suggest an update</h2><button type="button" class="fx" id="fClose" aria-label="Close">✕</button></div>
+    <p class="fsub" id="fSub">Tell us what's wrong or missing. We check every change against a source before it goes live.</p>
+    <label class="ff"><span>Place</span><input id="fPlace" name="place" type="text" maxlength="120" required autocomplete="off" placeholder="Restaurant or bar name"></label>
+    <label class="ff" id="fWhereRow"><span>City and County</span><input id="fWhere" name="where" type="text" maxlength="120" autocomplete="off"></label>
+    <label class="ff" id="fAddrRow" hidden><span>Address (if you know it)</span><input id="fAddr" name="address" type="text" maxlength="160" autocomplete="off"></label>
+    <fieldset class="ff" id="fWhatSet"><legend>What's wrong or missing?</legend>
+      <div class="fchecks">
+        <label><input type="checkbox" name="what" value="Hours"> Hours</label>
+        <label><input type="checkbox" name="what" value="Kitchen hours"> Kitchen hours</label>
+        <label><input type="checkbox" name="what" value="Happy hour"> Happy hour</label>
+        <label><input type="checkbox" name="what" value="Specials"> Specials</label>
+        <label><input type="checkbox" name="what" value="Phone"> Phone</label>
+        <label><input type="checkbox" name="what" value="Closed"> Closed for good</label>
+        <label><input type="checkbox" name="what" value="Other"> Something else</label>
+      </div>
+    </fieldset>
+    <label class="ff"><span id="fDetailsLbl">Details</span><textarea id="fDetails" name="details" rows="4" maxlength="2000" required placeholder="e.g. Kitchen closes at 11 PM Fri–Sat; $0.75 wings on Tuesdays. A link or menu photo URL helps."></textarea></label>
+    <div class="frow2">
+      <label class="ff"><span>Your name (optional)</span><input id="fName" name="name" type="text" maxlength="80" autocomplete="name"></label>
+      <label class="ff"><span>Email (optional, only to follow up)</span><input id="fEmail" name="email" type="email" maxlength="120" autocomplete="email"></label>
+    </div>
+    <label class="fown"><input type="checkbox" id="fOwn" name="owner" value="yes"> I own or work here <span class="fhint">(claim this listing: we'll email you to confirm, then keep it up to date for you)</span></label>
+    <label class="hp" aria-hidden="true">Leave this empty <input type="text" name="_honey" id="fHoney" tabindex="-1" autocomplete="off"></label>
+    <p class="fmsg" id="fMsg" role="status" aria-live="polite"></p>
+    <div class="fbtns"><button type="submit" class="btn" id="fSend">Send</button><button type="button" class="btn ghost" id="fCancel">Cancel</button></div>
+    <p class="small">Sent to the Open Late editor by email through FormSubmit.co. We don't publish your name or email.</p>
+  </form>
+</dialog>
 <script src="app.js" defer></script>
 </body>
 </html>

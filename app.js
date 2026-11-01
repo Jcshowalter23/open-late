@@ -127,7 +127,7 @@
   }
 
   const on = (id) => $(id).getAttribute("aria-pressed") === "true";
-  const CHIPS = ["openNow", "kitchenNow", "onlyDeals", "wingDeals", "beerDeals", "hhDeals", "favsOnly"];
+  const CHIPS = ["tonight", "openNow", "kitchenNow", "onlyDeals", "wingDeals", "beerDeals", "hhDeals", "favsOnly"];
   // favorites live in localStorage as "area|placeId"
   let favs = new Set();
   try { favs = new Set(JSON.parse(localStorage.getItem("openlate.favs") || "[]")); } catch (e) { favs = new Set(); }
@@ -179,6 +179,20 @@
   }
   const hhNow = (x) => { const r = hhRange(x.text); return !!r && ((now.m >= r[0] && now.m < r[1]) || (r[1] > 1440 && now.m < r[1] - 1440)); };
   const lateKitchen = (p) => !!(p.k && p.k[now.d] && p.k[now.d].some((iv) => iv[1] > 23 * 60));
+  // "Tonight": the evening of today (or of yesterday, between midnight and 5 AM). A place counts when its
+  // listed hours for that night run past 11 PM and it hasn't closed yet; kitchen = latest listed kitchen close past 11 PM.
+  function tonightInfo(p) {
+    const late = now.m < 300, nd = late ? (now.d + 6) % 7 : now.d, rel = late ? now.m + 1440 : now.m;
+    if (p.is24) return { close: 3000, kitchen: -1 };
+    const t = p.w[nd]; if (!t) return null;
+    let close = -1, kc = -1;
+    for (const iv of t) if (iv[1] > 1380 && iv[1] > rel) close = Math.max(close, iv[1]);
+    if (close < 0) return null;
+    const k = p.k && p.k[nd];
+    if (k) for (const iv of k) if (iv[1] > 1380 && iv[1] > rel) kc = Math.max(kc, iv[1]);
+    return { close, kitchen: kc };
+  }
+  const track = (name, title) => { try { if (window.olTrack) window.olTrack(name, title); } catch (e) { /* analytics never breaks the app */ } };
   const prettyDays = (s) => s.replace(/-/g, "–").replace(/,/g, "/");
   const openCards = new Set(); // which cards have Details expanded, so the 30-second refresh keeps them open
   function status(p) {
@@ -215,7 +229,7 @@
     const cuisine = $("cuisine").value, price = $("price").value, vibe = $("vibe").value;
     const openNow = on("openNow"), kitchenNow = on("kitchenNow"), onlyDeals = on("onlyDeals");
     const wingDeals = on("wingDeals"), beerDeals = on("beerDeals"), hhDeals = on("hhDeals"), favsOnly = on("favsOnly");
-    const day = Number($("day").value), sort = $("sort").value;
+    const day = Number($("day").value), sort = $("sort").value, tonight = on("tonight");
     let list = rows.filter((p) => {
       const r = p.r;
       if (town && p.area !== town) return false;
@@ -224,6 +238,7 @@
       if (price === "none" && r.priceLevel) return false;
       if (price !== "All" && price !== "none" && r.priceLevel !== price) return false;
       if (vibe !== "All" && !p.vibes.includes(vibe)) return false;
+      if (tonight && !tonightInfo(p)) return false;
       if (openNow && !stateAt(p.w, now.d, now.m, p.is24).open) return false;
       if (kitchenNow && !(p.k && stateAt(p.k, now.d, now.m).open)) return false;
       if (favsOnly && !favs.has(pkey(p))) return false;
@@ -256,9 +271,11 @@
       return tm && tm.length ? [2, Math.min(...tm.map((iv) => iv[0]))] : [2, 9999];
     };
     const dist = sort === "near" && here ? new Map(list.map((p) => [p, miles(p)])) : null;
-    const sk = sort === "smart" || (sort === "near" && !here) ? new Map(list.map((p) => [p, smartKey(p)])) : null;
+    const tn = tonight && (sort === "smart" || (sort === "near" && !here)) ? new Map(list.map((p) => { const t = tonightInfo(p); return [p, [t.kitchen > 0 ? 0 : 1, -(t.kitchen > 0 ? t.kitchen : t.close)]]; })) : null;
+    const sk = !tn && (sort === "smart" || (sort === "near" && !here)) ? new Map(list.map((p) => [p, smartKey(p)])) : null;
     list.sort((a, b) => {
       if (dist) { const x = dist.get(a), y = dist.get(b); if (x === null || y === null) return x === null && y === null ? a.r.name.localeCompare(b.r.name) : x === null ? 1 : -1; return x - y; }
+      if (tn) { const x = tn.get(a), y = tn.get(b); return x[0] - y[0] || x[1] - y[1] || a.r.name.localeCompare(b.r.name); }
       if (sk) { const x = sk.get(a), y = sk.get(b); return x[0] - y[0] || x[1] - y[1] || a.r.name.localeCompare(b.r.name); }
       if (sort === "name") return a.r.name.localeCompare(b.r.name);
       const ka = key(a), kb = key(b);
@@ -274,17 +291,22 @@
     const kinds = [wingDeals && "wing", beerDeals && "beer", hhDeals && "happy hour"].filter(Boolean).join(" + ");
     const scopeN = town ? rows.filter((p) => p.area === town).length : rows.length;
     $("count").textContent = `${list.length} of ${scopeN} places · ${kinds ? kinds + " deals" : "deals"} for ${day === now.d ? "today" : day === ALL ? "all days" : DAY_LONG[day]}${dist ? " · nearest first" : ""}`;
+    const nLk = tonight ? list.filter((p) => tonightInfo(p).kitchen > 0).length : 0;
+    $("tonightNote").hidden = !tonight || !list.length;
+    if (tonight) $("tonightNote").textContent = `🌙 Open past 11 PM tonight · ${nLk ? `${nLk} with food after 11 PM listed first` : "no late kitchen hours listed here"}${dist ? " (Near me sorts by distance)" : ""}.`;
+    lastList = list;
     // empty state
     const active = filtersActive();
     const placeName = town ? $("town").selectedOptions[0].dataset.name : `${county.name} County`;
     $("empty").hidden = list.length > 0;
     if (!list.length) {
       let why = active ? `No places in ${placeName} match these filters` : `No places listed in ${placeName} yet`;
-      if (openNow && !q && !wingDeals && !beerDeals && !hhDeals && !onlyDeals && !kitchenNow && !favsOnly) why = `Nothing in ${placeName} is open right now`;
+      if (tonight && !q && !wingDeals && !beerDeals && !hhDeals && !onlyDeals && !kitchenNow && !favsOnly && !openNow) why = `Nothing in ${placeName} is listed as open past 11 PM tonight`;
+      if (openNow && !tonight && !q && !wingDeals && !beerDeals && !hhDeals && !onlyDeals && !kitchenNow && !favsOnly) why = `Nothing in ${placeName} is open right now`;
       if (favsOnly && !favs.size) why = "No favorites yet";
       else if (favsOnly && ![...favs].some((k) => rows.some((p) => pkey(p) === k))) why = `No favorites in ${county.name} County yet`;
       $("emptyTitle").textContent = why + ".";
-      $("emptyText").textContent = favsOnly && !list.length && why.startsWith("No favorites") ? "Tap the ♡ on any place to save it here. Favorites stay on this device." : town ? `Try the whole county, or ${active ? "clear the filters" : "pick another city"}.` : (active ? "Try clearing the filters or picking another day." : "Try a neighboring county.");
+      $("emptyText").textContent = why.includes("past 11 PM") ? `Only places with posted hours can show here. Try ${town ? "the whole county, " : ""}a neighboring county, or turn off Tonight.` : favsOnly && !list.length && why.startsWith("No favorites") ? "Tap the ♡ on any place to save it here. Favorites stay on this device." : town ? `Try the whole county, or ${active ? "clear the filters" : "pick another city"}.` : (active ? "Try clearing the filters or picking another day." : "Try a neighboring county.");
       $("clearFilters").hidden = !active;
       $("seeCounty").hidden = !town;
       $("seeCounty").textContent = `See all of ${county.name} County`;
@@ -292,7 +314,7 @@
     const prev = more ? shown : 0;
     shown = more ? Math.min(list.length, shown + PAGE) : Math.min(list.length, PAGE);
     const left = list.length - shown;
-    $("more").hidden = left <= 0;
+    $("more").hidden = left <= 0 || view === "map";
     $("more").textContent = `Show ${Math.min(PAGE, left)} more (${left} left)`;
     const NL = "not listed";
     const d3 = day === ALL ? "All days" : DAYS[day], dayWord = day === now.d ? "Today" : day === ALL ? "All days" : DAY_LONG[day];
@@ -323,11 +345,11 @@
       const tel = r.phone ? r.phone.replace(/[^0-9+]/g, "") : "";
       const maps = r.address ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${r.name}, ${r.address}, ${p.areaName}, PA`)}` : "";
       const top2 = [town ? "" : esc(p.areaName), mi !== null ? `<span class="mi">${fmtMi(mi)}</span>` : ""].filter(Boolean).join(" · ");
-      return `<article class="card" data-key="${esc(ck)}">
+      return `<article class="card${tonight && tonightInfo(p).kitchen > 0 ? " card-lk" : ""}" data-key="${esc(ck)}">
         <button type="button" class="fav" data-act="fav" aria-pressed="${fav}" aria-label="${fav ? "Remove from" : "Add to"} favorites: ${esc(r.name)}">${fav ? "♥" : "♡"}</button>
         ${top2 ? `<div class="town">${top2}</div>` : ""}
         <h2>${esc(r.name)}${meta ? ` <span class="meta">${meta}</span>` : ""}</h2>
-        <div class="status ${st.cls}"><span class="dot" aria-hidden="true"></span><span>${esc(st.text)}</span>${kline}${lateKitchen(p) ? `<span class="lk" title="Kitchen open past 11 PM today (per listed kitchen hours)">Late kitchen</span>` : ""}</div>
+        <div class="status ${st.cls}"><span class="dot" aria-hidden="true"></span><span>${esc(st.text)}</span>${kline}${tonight ? (tonightInfo(p).kitchen > 0 ? `<span class="lk lk-t" title="Kitchen open past 11 PM tonight (per listed kitchen hours)">🍔 Food till ${fmt(tonightInfo(p).kitchen)}</span>` : "") : lateKitchen(p) ? `<span class="lk" title="Kitchen open past 11 PM today (per listed kitchen hours)">Late kitchen</span>` : ""}</div>
         ${dline}
         <details class="more-info" data-key="${esc(ck)}"${openCards.has(ck) ? " open" : ""}>
           <summary>Details</summary>
@@ -350,12 +372,143 @@
             </div>
             ${r.phone ? `<div class="row"><b>Phone:</b> <a href="tel:${esc(tel)}">${esc(r.phone)}</a></div>` : ""}
             <div class="links">${r.website ? `<a href="${esc(r.website)}" target="_blank" rel="noopener">Website</a>` : `<span class="row"><b>Website:</b> ${NL}</span>`}
-              <a href="${esc(mailto(r.name, p.areaName))}">Suggest an update</a></div>
+              <a href="${esc(mailto(r.name, p.areaName))}" data-act="suggest">Suggest an update</a>
+              <a href="${esc(mailto(r.name, p.areaName))}" data-act="claim">Own it? Claim this listing</a></div>
           </div>
         </details>
       </article>`;
     }).join("");
     if (more) $("list").insertAdjacentHTML("beforeend", html); else $("list").innerHTML = html;
+    if (view === "map" && map) drawMap(false);
+  }
+
+  // ---------- Map view (Leaflet + OpenStreetMap tiles, loaded only the first time Map is opened)
+  let view = "list", map = null, mapLayer = null, leafletP = null, lastList = [], mapSig = "", popKey = "", markers = new Map();
+  function loadLeaflet() {
+    if (window.L) return Promise.resolve(window.L);
+    if (leafletP) return leafletP;
+    leafletP = new Promise((res, rej) => {
+      const l = document.createElement("link"); l.rel = "stylesheet"; l.href = "vendor/leaflet/leaflet.css"; document.head.appendChild(l);
+      const sc = document.createElement("script"); sc.src = "vendor/leaflet/leaflet.js";
+      sc.onload = () => (window.L ? res(window.L) : rej(new Error("Leaflet missing")));
+      sc.onerror = () => { leafletP = null; rej(new Error("Leaflet failed to load")); };
+      document.head.appendChild(sc);
+    });
+    return leafletP;
+  }
+  const PIN = { "s-open": "#1f8a4c", "s-soon": "#e08a00", "s-closed": "#8b8580" };
+  function popupHtml(p) {
+    const st = status(p), dd = deals(p, now.d), top = [...dd.hh, ...dd.sp][0], t = on("tonight") ? tonightInfo(p) : null;
+    return `<div class="mp"><b class="mp-n">${esc(p.r.name)}</b><div class="mp-m">${esc([p.r.cuisine, p.areaName].filter(Boolean).join(" · "))}</div>
+      <div class="mp-s ${st.cls}"><span class="dot" aria-hidden="true"></span>${esc(st.text)}</div>
+      ${t && t.kitchen > 0 ? `<div class="mp-k">🍔 Food till ${fmt(t.kitchen)}</div>` : ""}
+      ${top ? `<div class="mp-d">${esc(top.text.length > 90 ? top.text.slice(0, 88) + "…" : top.text)}</div>` : ""}
+      <button type="button" class="act mp-btn" data-mopen="${esc(pkey(p))}">Details</button></div>`;
+  }
+  function drawMap(fit) {
+    if (!map || !window.L) return;
+    const L = window.L, pts = lastList.filter((p) => typeof p.r.lat === "number" && typeof p.r.lng === "number");
+    mapLayer.clearLayers(); markers = new Map();
+    const rank = { "s-closed": 0, "s-soon": 1, "s-open": 2 };
+    const withSt = pts.map((p) => [p, status(p)]).sort((a, b) => (rank[a[1].cls] || 0) - (rank[b[1].cls] || 0));
+    for (const [p, st] of withSt) {
+      const key = pkey(p);
+      const m = L.circleMarker([p.r.lat, p.r.lng], { radius: st.cls === "s-closed" ? 6 : 8, color: "#fff", weight: 2, fillColor: PIN[st.cls] || PIN["s-closed"], fillOpacity: 0.95 });
+      m.bindPopup(() => popupHtml(p), { maxWidth: 260, minWidth: 180 });
+      m.bindTooltip(p.r.name, { direction: "top", offset: [0, -6] });
+      m.on("popupopen", () => { popKey = key; }); m.on("popupclose", () => { if (popKey === key) popKey = ""; });
+      m.addTo(mapLayer); markers.set(key, m);
+    }
+    if (here) L.circleMarker([here.lat, here.lng], { radius: 8, color: "#fff", weight: 3, fillColor: "#2f6fe4", fillOpacity: 1 }).bindTooltip("You are here").addTo(mapLayer);
+    const miss = lastList.length - pts.length;
+    $("mapMiss").textContent = miss ? `${miss} place${miss === 1 ? "" : "s"} without a map location ${miss === 1 ? "isn't" : "aren't"} shown` : "";
+    const sig = pts.map(pkey).join(",") + (here && on("nearMe") ? "|near" : "");
+    if (fit || sig !== mapSig) {
+      mapSig = sig;
+      if (here && on("nearMe")) map.setView([here.lat, here.lng], 13);
+      else if (pts.length === 1) map.setView([pts[0].r.lat, pts[0].r.lng], 15);
+      else if (pts.length) map.fitBounds(L.latLngBounds(pts.map((p) => [p.r.lat, p.r.lng])), { padding: [24, 24], maxZoom: 15 });
+      else map.setView([40.9, -77.7], 7);
+    } else if (popKey && markers.has(popKey)) markers.get(popKey).openPopup();
+  }
+  function setView(v) {
+    view = v;
+    $("viewList").setAttribute("aria-pressed", String(v === "list"));
+    $("viewMap").setAttribute("aria-pressed", String(v === "map"));
+    $("mapwrap").hidden = v !== "map";
+    $("list").hidden = v === "map";
+    if (v === "list") { render(); return; }
+    track("view/map", "Map opened");
+    $("more").hidden = true;
+    loadLeaflet().then((L) => {
+      if (!map) {
+        map = L.map("map", { preferCanvas: true, zoomControl: true, scrollWheelZoom: true });
+        L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors' }).addTo(map);
+        mapLayer = L.layerGroup().addTo(map);
+        $("map").addEventListener("click", (e) => {
+          const b = e.target.closest("[data-mopen]"); if (!b) return;
+          const p = rows.find((x) => pkey(x) === b.dataset.mopen);
+          setView("list"); if (p) openPlace(p.r.id, p.area);
+        });
+      }
+      map.invalidateSize();
+      drawMap(true);
+    }).catch(() => { toast("Couldn't load the map. Check your connection and try again."); setView("list"); });
+  }
+
+  // ---------- Suggest an update / Claim your listing / Add a place form (FormSubmit.co AJAX, see config.js)
+  let formCtx = { mode: "suggest" };
+  const CFG = window.OPENLATE_CONFIG || {};
+  function openForm(mode, p) {
+    const f = $("sForm"); f.reset();
+    const townName = $("town").value && $("town").selectedOptions[0] ? $("town").selectedOptions[0].dataset.name : "";
+    const where = p ? `${p.areaName}, ${county.name} County` : county ? (townName ? `${townName}, ${county.name} County` : `${county.name} County`) : "";
+    formCtx = { mode, key: p ? pkey(p) : "", url: p ? placeUrl(p) : location.href };
+    $("fTitle").textContent = mode === "claim" ? "Claim your listing" : mode === "add" ? "Add a place" : "Suggest an update";
+    $("fSub").textContent = mode === "claim" ? "Own or work at this place? Tell us who you are and what to fix. We'll email you to confirm, then keep your hours and specials current." : mode === "add" ? "Know a restaurant or bar we're missing? Send what you know. We check it against a source before it goes live." : "Tell us what's wrong or missing. We check every change against a source before it goes live.";
+    $("fPlace").value = p ? p.r.name : "";
+    $("fWhere").value = where;
+    $("fAddrRow").hidden = mode !== "add";
+    $("fWhatSet").hidden = mode === "add";
+    $("fOwn").checked = mode === "claim";
+    $("fDetailsLbl").textContent = mode === "add" ? "Hours, kitchen hours, specials, phone, website (whatever you know)" : mode === "claim" ? "What should we update? (hours, kitchen hours, happy hour, specials, phone)" : "Details";
+    $("fEmail").previousElementSibling.textContent = mode === "claim" ? "Email (so we can confirm you)" : "Email (optional, only to follow up)";
+    $("fMsg").textContent = ""; $("fMsg").className = "fmsg"; $("fSend").disabled = false;
+    const d = $("formDlg");
+    if (typeof d.showModal === "function") { if (!d.open) d.showModal(); } else d.setAttribute("open", "");
+    setTimeout(() => (p ? $("fDetails") : $("fPlace")).focus(), 30);
+  }
+  function closeForm() { const d = $("formDlg"); if (typeof d.close === "function" && d.open) d.close(); else d.removeAttribute("open"); }
+  function formMailto(o) {
+    const body = `Type: ${o.type}\nPlace: ${o.place}\nCity and County: ${o.where}\n${o.address ? `Address: ${o.address}\n` : ""}What's wrong or missing: ${o.what || "-"}\nI own or work here: ${o.owner}\n\n${o.details}\n\nName: ${o.name}\nEmail: ${o.email}\nPage: ${o.page}\n`;
+    return `mailto:${SUGGEST_TO}?subject=${encodeURIComponent(o._subject)}&body=${encodeURIComponent(body)}`;
+  }
+  async function sendForm(e) {
+    e.preventDefault();
+    const msg = $("fMsg"), what = [...document.querySelectorAll('#sForm input[name="what"]:checked')].map((x) => x.value);
+    const place = $("fPlace").value.trim(), details = $("fDetails").value.trim(), email = $("fEmail").value.trim();
+    const say = (t, cls, link) => { msg.className = "fmsg " + (cls || ""); msg.textContent = t; if (link) { const a = document.createElement("a"); a.href = link; a.textContent = "Email it instead"; msg.append(" ", a); } };
+    if (!place) { say("Please enter the place's name.", "err"); $("fPlace").focus(); return; }
+    if (!details && !what.includes("Closed")) { say("Please add a few details.", "err"); $("fDetails").focus(); return; }
+    if (email && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { say("That email doesn't look right (or leave it empty).", "err"); $("fEmail").focus(); return; }
+    if ($("fOwn").checked && !email) { say("Please add an email so we can confirm you own or work here.", "err"); $("fEmail").focus(); return; }
+    const type = $("fOwn").checked ? "Claim listing" : formCtx.mode === "add" ? "Add a place" : "Suggest an update";
+    const o = { _subject: `Open Late · ${type}: ${place} (${$("fWhere").value.trim() || "PA"})`, _template: "table", _captcha: "false",
+      type, place, where: $("fWhere").value.trim(), address: $("fAddr").value.trim(), what: what.join(", "), details,
+      name: $("fName").value.trim(), email, owner: $("fOwn").checked ? "Yes" : "No", page: formCtx.url, placeKey: formCtx.key };
+    if (email) o._replyto = email;
+    if ($("fHoney").value) { say("Thanks! Sent.", "ok"); setTimeout(closeForm, 1500); return; } // bots fill the hidden field; drop silently
+    if (!CFG.formEndpoint) { say("The form isn't set up yet.", "err", formMailto(o)); return; }
+    $("fSend").disabled = true; say("Sending…");
+    try {
+      const res = await fetch(CFG.formEndpoint, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify(o) });
+      const j = await res.json().catch(() => ({}));
+      if (res.ok && String(j.success) === "true") {
+        say("Thanks! Sent. We check every change against a source before it goes live.", "ok");
+        track(`form/${formCtx.mode === "add" ? "add" : $("fOwn").checked ? "claim" : "suggest"}`, "Form sent");
+        setTimeout(closeForm, 2600);
+      } else { $("fSend").disabled = false; say("Couldn't send right now.", "err", formMailto(o)); }
+    } catch (err) { $("fSend").disabled = false; say("Couldn't send (are you offline?).", "err", formMailto(o)); }
   }
 
   function placeUrl(p) {
@@ -418,6 +571,11 @@
     city.name = town ? `${town}, ${county.name} County` : `${county.name} County, PA`;
     $("cityName").textContent = city.name;
     document.title = `Open Late · ${city.name} restaurant hours, kitchen times & specials`;
+    const desc = `Restaurants and bars open late in ${town ? `${town}, ${county.name} County, PA` : `${county.name} County, PA`}: who's open now, kitchen hours, happy hours and wing and beer specials.`;
+    const setMeta = (sel, attr, v) => { const el = document.querySelector(sel); if (el) el.setAttribute(attr, v); };
+    const canon = `https://openlateapp.com/?county=${encodeURIComponent(county.id)}${$("town").value ? `&area=${encodeURIComponent($("town").value)}` : ""}`;
+    setMeta('meta[name="description"]', "content", desc); setMeta('meta[property="og:description"]', "content", desc);
+    setMeta('meta[property="og:title"]', "content", document.title); setMeta('meta[property="og:url"]', "content", canon); setMeta("#canon", "href", canon);
   }
 
   async function loadCounty(cid, areaId) {
@@ -469,10 +627,21 @@
     else if (countyById(saved.county)) { cid = saved.county; aid = saved.area || ""; }
     else if (saved.area && primaryCounty(saved.area)) { aid = saved.area; cid = primaryCounty(aid).id; }
     else cid = "lancaster";
-    $("county").addEventListener("change", () => { dayTouched = false; loadCounty($("county").value, "").catch(fail); });
-    $("town").addEventListener("change", () => { setHeading(); saveSel(); $("suggest").href = mailto(""); tick(); render(); });
+    $("county").addEventListener("change", () => { dayTouched = false; track(`county/${$("county").value}`, "County picked"); loadCounty($("county").value, "").catch(fail); });
+    $("town").addEventListener("change", () => { if ($("town").value) track(`city/${$("town").value}`, "City picked"); setHeading(); saveSel(); $("suggest").href = mailto(""); tick(); render(); });
     ["q", "cuisine", "price", "vibe", "sort"].forEach((id) => $(id).addEventListener(id === "q" ? "input" : "change", () => render()));
-    CHIPS.forEach((id) => $(id).addEventListener("click", () => { $(id).setAttribute("aria-pressed", String(!on(id))); render(); }));
+    CHIPS.forEach((id) => $(id).addEventListener("click", () => {
+      $(id).setAttribute("aria-pressed", String(!on(id)));
+      if (on(id)) track(`filter/${id}`, "Filter on");
+      if (id === "tonight") { try { sessionStorage.setItem("openlate.tonight", on(id) ? "on" : "off"); } catch (e) { /* ignore */ } }
+      render();
+    }));
+    $("viewList").addEventListener("click", () => setView("list"));
+    $("viewMap").addEventListener("click", () => setView("map"));
+    document.querySelectorAll("[data-form]").forEach((a) => a.addEventListener("click", (e) => { e.preventDefault(); openForm(a.dataset.form, null); }));
+    $("sForm").addEventListener("submit", sendForm);
+    $("fClose").addEventListener("click", closeForm); $("fCancel").addEventListener("click", closeForm);
+    $("formDlg").addEventListener("click", (e) => { if (e.target === $("formDlg")) closeForm(); });
     $("searchBtn").addEventListener("click", () => setSearchOpen(!$("top").classList.contains("searching")));
     $("q").addEventListener("keydown", (e) => { if (e.key === "Escape") { $("q").value = ""; setSearchOpen(false); render(); } });
     $("q").addEventListener("blur", () => { if (!$("q").value.trim()) setSearchOpen(false); });
@@ -494,8 +663,18 @@
         b.setAttribute("aria-label", `${f ? "Remove from" : "Add to"} favorites: ${p ? p.r.name : ""}`);
         if (on("favsOnly")) render();
       } else if (b.dataset.act === "share" && p) share(p);
+      else if ((b.dataset.act === "suggest" || b.dataset.act === "claim") && p) { e.preventDefault(); openForm(b.dataset.act, p); }
     });
+    if (sp.get("q")) { $("q").value = sp.get("q"); setSearchOpen(true); }
+    // after 9 PM (until 3 AM) Tonight starts on, unless it was turned off this visit, a place link was opened, or this is an automated test
+    let tn = null; try { tn = sessionStorage.getItem("openlate.tonight"); } catch (e) { tn = null; }
+    const auto = !navigator.webdriver && !/jsdom|HeadlessChrome/i.test(navigator.userAgent || "");
     await loadCounty(cid, aid);
+    if (!sp.get("place") && (tn === "on" || (tn === null && auto && (now.m >= 21 * 60 || now.m < 180)))) {
+      $("tonight").setAttribute("aria-pressed", "true"); render();
+      if (tn === null) toast("It's late: showing places open past 11 PM. Tap 🌙 Tonight to see everything.");
+    }
+    if (sp.get("view") === "map") setView("map");
     if (sp.get("place")) openPlace(sp.get("place"), aid);
     // periodic refresh keeps how many cards were already revealed
     const refresh = () => { const keep = shown; tick(); render(); while (shown < keep && !$("more").hidden) render(true); };
