@@ -28,6 +28,14 @@
     {
       "id": "chester-county-pa",
       "name": "Chester County, PA"
+    },
+    {
+      "id": "pittsburgh-pa",
+      "name": "Pittsburgh"
+    },
+    {
+      "id": "allegheny-county-pa",
+      "name": "Allegheny County, PA"
     }
   ],
   "areas": [
@@ -1059,6 +1067,376 @@
       "file": "data/cities/southern-chester-pa.json",
       "status": "live",
       "aka": "Kennett Square, Avondale, Toughkenamon, West Grove, Landenberg, Oxford, Nottingham, Kennett"
+    },
+    {
+      "id": "pgh-strip-downtown",
+      "name": "Strip District, Downtown & Uptown, Pittsburgh",
+      "type": "neighborhood",
+      "region": "pittsburgh-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/pgh-strip-downtown.json",
+      "status": "live",
+      "aka": "Strip District, Downtown, Uptown, Cultural District, Golden Triangle"
+    },
+    {
+      "id": "pgh-lawrenceville",
+      "name": "Lawrenceville & Polish Hill, Pittsburgh",
+      "type": "neighborhood",
+      "region": "pittsburgh-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/pgh-lawrenceville.json",
+      "status": "live",
+      "aka": "Lawrenceville, Polish Hill, Stanton Heights"
+    },
+    {
+      "id": "pgh-bloomfield-garfield",
+      "name": "Bloomfield, Garfield & Friendship, Pittsburgh",
+      "type": "neighborhood",
+      "region": "pittsburgh-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/pgh-bloomfield-garfield.json",
+      "status": "live",
+      "aka": "Bloomfield, Garfield, Friendship, Little Italy"
+    },
+    {
+      "id": "pgh-shadyside",
+      "name": "Shadyside, Pittsburgh",
+      "type": "neighborhood",
+      "region": "pittsburgh-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/pgh-shadyside.json",
+      "status": "live",
+      "aka": "Shadyside"
+    },
+    {
+      "id": "pgh-east-liberty",
+      "name": "East Liberty, Highland Park & Homewood, Pittsburgh",
+      "type": "neighborhood",
+      "region": "pittsburgh-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/pgh-east-liberty.json",
+      "status": "live",
+      "aka": "East Liberty, Highland Park, Homewood, Larimer, Morningside, Point Breeze"
+    },
+    {
+      "id": "pgh-oakland",
+      "name": "Oakland, Pittsburgh",
+      "type": "neighborhood",
+      "region": "pittsburgh-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/pgh-oakland.json",
+      "status": "live",
+      "aka": "Oakland, University of Pittsburgh, CMU, Shadyside edge"
+    },
+    {
+      "id": "pgh-squirrel-hill",
+      "name": "Squirrel Hill, Greenfield & Regent Square, Pittsburgh",
+      "type": "neighborhood",
+      "region": "pittsburgh-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/pgh-squirrel-hill.json",
+      "status": "live",
+      "aka": "Squirrel Hill, Greenfield, Regent Square, Swissvale"
+    },
+    {
+      "id": "pgh-south-side",
+      "name": "South Side, Pittsburgh",
+      "type": "neighborhood",
+      "region": "pittsburgh-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/pgh-south-side.json",
+      "status": "live",
+      "aka": "South Side, South Side Flats, South Side Slopes, Carson Street"
+    },
+    {
+      "id": "pgh-mt-washington",
+      "name": "Mt. Washington & Duquesne Heights, Pittsburgh",
+      "type": "neighborhood",
+      "region": "pittsburgh-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/pgh-mt-washington.json",
+      "status": "live",
+      "aka": "Mount Washington, Mt. Washington, Duquesne Heights"
+    },
+    {
+      "id": "pgh-north-side",
+      "name": "North Side & North Shore, Pittsburgh",
+      "type": "neighborhood",
+      "region": "pittsburgh-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/pgh-north-side.json",
+      "status": "live",
+      "aka": "North Side, North Shore, Mexican War Streets, Deutschtown, Brighton Heights, Manchester, Troy Hill"
+    },
+    {
+      "id": "pgh-south-hills-city",
+      "name": "Beechview, Brookline & Carrick, Pittsburgh",
+      "type": "neighborhood",
+      "region": "pittsburgh-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/pgh-south-hills-city.json",
+      "status": "live",
+      "aka": "Beechview, Brookline, Carrick, Overbrook, Bon Air"
+    },
+    {
+      "id": "pgh-west-end",
+      "name": "West End, Crafton Heights & Robinson edge, Pittsburgh",
+      "type": "neighborhood",
+      "region": "pittsburgh-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/pgh-west-end.json",
+      "status": "live",
+      "aka": "West End, Crafton Heights, Elliott, Sheraden, East Carnegie"
+    },
+    {
+      "id": "pgh-east-suburbs-city",
+      "name": "Wilkinsburg, Edgewood & Penn Hills (city ZIPs), Pittsburgh",
+      "type": "neighborhood",
+      "region": "pittsburgh-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/pgh-east-suburbs-city.json",
+      "status": "live",
+      "aka": "Wilkinsburg, Edgewood, Penn Hills"
+    },
+    {
+      "id": "wexford-pa",
+      "name": "Wexford & Pine/Marshall, PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/wexford-pa.json",
+      "status": "live",
+      "aka": "Wexford, Pine Township, Marshall Township, Bradford Woods"
+    },
+    {
+      "id": "north-hills-pa",
+      "name": "North Hills (Ross, McCandless, Hampton, Shaler), PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/north-hills-pa.json",
+      "status": "live",
+      "aka": "Ross Township, McCandless, Hampton, Shaler, Allison Park, Gibsonia, Glenshaw, West View, Franklin Park"
+    },
+    {
+      "id": "millvale-reserve-pa",
+      "name": "Millvale, Reserve, Etna & Sharpsburg, PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/millvale-reserve-pa.json",
+      "status": "live",
+      "aka": "Millvale, Reserve Township, Etna, Sharpsburg, Millvale Borough"
+    },
+    {
+      "id": "fox-chapel-aspinwall-pa",
+      "name": "Fox Chapel, Aspinwall & O'Hara, PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/fox-chapel-aspinwall-pa.json",
+      "status": "live",
+      "aka": "Fox Chapel, Aspinwall, O'Hara, Blawnox, Indiana Township"
+    },
+    {
+      "id": "sewickley-pa",
+      "name": "Sewickley & Quaker Valley, PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/sewickley-pa.json",
+      "status": "live",
+      "aka": "Sewickley, Leetsdale, Edgeworth, Bell Acres, Glen Osborne"
+    },
+    {
+      "id": "airport-corridor-pa",
+      "name": "Airport Corridor (Moon, Robinson, Findlay, North Fayette), PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/airport-corridor-pa.json",
+      "status": "live",
+      "aka": "Moon Township, Robinson Township, Findlay, North Fayette, Coraopolis, Imperial, Oakdale"
+    },
+    {
+      "id": "mckees-rocks-pa",
+      "name": "McKees Rocks & Kennedy, PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/mckees-rocks-pa.json",
+      "status": "live",
+      "aka": "McKees Rocks, Kennedy Township, Stowe Township"
+    },
+    {
+      "id": "carnegie-pa",
+      "name": "Carnegie & Scott Township, PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/carnegie-pa.json",
+      "status": "live",
+      "aka": "Carnegie, Scott Township, Heidelberg, Rosslyn Farms"
+    },
+    {
+      "id": "bridgeville-pa",
+      "name": "Bridgeville & Collier, PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/bridgeville-pa.json",
+      "status": "live",
+      "aka": "Bridgeville, Collier Township, South Fayette"
+    },
+    {
+      "id": "mt-lebanon-pa",
+      "name": "Mt. Lebanon, PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/mt-lebanon-pa.json",
+      "status": "live",
+      "aka": "Mt. Lebanon, Mount Lebanon, Dormont"
+    },
+    {
+      "id": "upper-st-clair-pa",
+      "name": "Upper St. Clair, PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/upper-st-clair-pa.json",
+      "status": "live",
+      "aka": "Upper St. Clair"
+    },
+    {
+      "id": "bethel-park-pa",
+      "name": "Bethel Park & South Park, PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/bethel-park-pa.json",
+      "status": "live",
+      "aka": "Bethel Park, South Park Township"
+    },
+    {
+      "id": "south-hills-suburbs-pa",
+      "name": "Baldwin, Whitehall, Castle Shannon & Pleasant Hills, PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/south-hills-suburbs-pa.json",
+      "status": "live",
+      "aka": "Baldwin, Whitehall, Castle Shannon, Pleasant Hills, Brentwood"
+    },
+    {
+      "id": "homestead-pa",
+      "name": "Homestead, Munhall & the Waterfront, PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/homestead-pa.json",
+      "status": "live",
+      "aka": "Homestead, Munhall, West Homestead, The Waterfront"
+    },
+    {
+      "id": "west-mifflin-pa",
+      "name": "West Mifflin, PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/west-mifflin-pa.json",
+      "status": "live",
+      "aka": "West Mifflin"
+    },
+    {
+      "id": "mckeesport-pa",
+      "name": "McKeesport, Duquesne & Glassport, PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/mckeesport-pa.json",
+      "status": "live",
+      "aka": "McKeesport, Duquesne, Dravosburg, Glassport, Port Vue, Liberty"
+    },
+    {
+      "id": "clairton-pa",
+      "name": "Clairton & Jefferson Hills, PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/clairton-pa.json",
+      "status": "live",
+      "aka": "Clairton, Jefferson Hills"
+    },
+    {
+      "id": "elizabeth-pa",
+      "name": "Elizabeth & Forward Township, PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/elizabeth-pa.json",
+      "status": "live",
+      "aka": "Elizabeth, Forward Township, Boston PA"
+    },
+    {
+      "id": "monroeville-pa",
+      "name": "Monroeville & Turtle Creek Valley, PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/monroeville-pa.json",
+      "status": "live",
+      "aka": "Monroeville, Pitcairn, Turtle Creek, Wilmerding, East Pittsburgh, Wall"
+    },
+    {
+      "id": "oakmont-pa",
+      "name": "Oakmont & Verona, PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/oakmont-pa.json",
+      "status": "live",
+      "aka": "Oakmont, Verona"
+    },
+    {
+      "id": "plum-pa",
+      "name": "Plum, PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/plum-pa.json",
+      "status": "live",
+      "aka": "Plum, Plum Borough"
+    },
+    {
+      "id": "alle-kiski-pa",
+      "name": "Allegheny Valley (Springdale to Tarentum), PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/alle-kiski-pa.json",
+      "status": "live",
+      "aka": "Springdale, Cheswick, Tarentum, Brackenridge, Natrona Heights, Creighton, Harmar"
+    },
+    {
+      "id": "eastern-allegheny-pa",
+      "name": "Braddock, North Versailles & eastern mill towns, PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/eastern-allegheny-pa.json",
+      "status": "live",
+      "aka": "Braddock, North Versailles, Swissvale edge, Rankin, East McKeesport"
+    },
+    {
+      "id": "bellevue-emsworth-pa",
+      "name": "Bellevue, Avalon, Emsworth & Ben Avon, PA",
+      "type": "town",
+      "region": "allegheny-county-pa",
+      "timezone": "America/New_York",
+      "file": "data/cities/bellevue-emsworth-pa.json",
+      "status": "live",
+      "aka": "Bellevue, Avalon, Emsworth, Ben Avon, Ben Avon Heights, Kilbuck"
     }
   ]
 }
