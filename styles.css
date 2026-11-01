@@ -235,3 +235,7 @@ dialog#formDlg::backdrop{background:rgba(10,12,18,.55)}
 .vbtn{font:inherit;font-size:1rem;line-height:1;padding:5px 10px;border-radius:999px;border:1px solid var(--line);background:transparent;cursor:pointer;min-height:32px}
 .vbtn:active{transform:scale(.95)}
 .vthanks{color:var(--ink2);font-weight:600}
+
+.count.loading::after{content:"";display:inline-block;width:.7em;height:.7em;margin-left:.4em;vertical-align:-.05em;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:olspin .8s linear infinite}
+@keyframes olspin{to{transform:rotate(360deg)}}
+.card .town .tzn{font-size:.75rem;color:var(--ink3)}
