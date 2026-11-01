@@ -89,14 +89,14 @@
   const nightsOn = (list, day) => (list || []).filter((n) => day === ALL || n.d === day);
   const shortDate = (iso) => { const m = /^(\d{4})-(\d\d)-(\d\d)$/.exec(iso || ""); return m ? new Date(+m[1], m[2] - 1, +m[3]).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }) : iso; };
   const PAGE = 40; // cards per "Show more" step, keeps big counties fast on phones
-  const shortArea = (n) => n.replace(/, PA$/, "");
+  const shortArea = (n) => n.replace(/,? (PA|MD|DE|DC|Washington,? DC)$/, "");
 
-  function prep(r, area) {
+  function prep(r, area, loc) {
     const w = parseWeek(r.hours);
     const k = r.kitchen ? parseWeek(r.kitchen) : null;
     const is24 = r.hours === "Daily 24h";
     const late = w.some((dh) => dh && dh.some((iv) => iv[1] > 1440));
-    return { r, w, k, is24, lc: checkedText(lastChecked(r)), vibes: late || is24 ? [...r.vibes, "Late night"] : r.vibes, area: area.id, areaName: shortArea(area.name), checkedLabel: area.checkedLabel };
+    return { r, w, k, is24, lc: checkedText(lastChecked(r)), vibes: late || is24 ? [...r.vibes, "Late night"] : r.vibes, area: area.id, areaName: shortArea(area.name), loc: loc || "PA", checkedLabel: area.checkedLabel };
   }
   function deals(p, d) {
     if (d === ALL) { const g = (list) => (list || []).filter((x) => parseDays(x.days).length); return { hh: g(p.r.happyHours), sp: g(p.r.specials) }; }
@@ -360,7 +360,7 @@
     lastList = list;
     // empty state
     const active = filtersActive();
-    const placeName = town ? $("town").selectedOptions[0].dataset.name : `${county.name} County`;
+    const placeName = town ? $("town").selectedOptions[0].dataset.name : `${cLabel(county)}`;
     $("empty").hidden = list.length > 0;
     if (!list.length) {
       let why = active ? `No places in ${placeName} match these filters` : `No places listed in ${placeName} yet`;
@@ -372,7 +372,7 @@
       $("emptyText").textContent = why.includes("past 11 PM") ? `Only places with posted hours can show here. Try ${town ? "the whole county, " : ""}a neighboring county, or turn off Tonight.` : favsOnly && !list.length && why.startsWith("No favorites") ? "Tap the ♡ on any place to save it here. Favorites stay on this device." : town ? `Try the whole county, or ${active ? "clear the filters" : "pick another city"}.` : (active ? "Try clearing the filters or picking another day." : "Try a neighboring county.");
       $("clearFilters").hidden = !active;
       $("seeCounty").hidden = !town;
-      $("seeCounty").textContent = `See all of ${county.name} County`;
+      $("seeCounty").textContent = `See all of ${cLabel(county)}`;
     }
     const prev = more ? shown : 0;
     shown = more ? Math.min(list.length, shown + PAGE) : Math.min(list.length, PAGE);
@@ -415,12 +415,12 @@
       };
       const wkList = (list, kind) => list && list.length ? `<ul class="wk">${list.map((x, i) => `<li>${dealHtml(x)}${thumbs(kind, i, x)}</li>`).join("")}</ul>` : "";
       const weekly = wkList(r.specials, "s"), weeklyHH = wkList(r.happyHours, "h");
-      const where = `${r.name}, ${r.address ? r.address + ", " : ""}${p.areaName}, PA`;
+      const where = `${r.name}, ${r.address ? r.address + ", " : ""}${p.areaName}, ${p.loc}`;
       const dirs = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(where)}`;
       const reviews = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(where)}`;
       const tel = r.phone ? r.phone.replace(/[^0-9+]/g, "") : "";
-      const maps = r.address ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${r.name}, ${r.address}, ${p.areaName}, PA`)}` : "";
-      const top2 = [town ? "" : esc(p.cn && !p.areaName.includes(`${p.cn} County`) ? `${p.areaName}, ${p.cn} County` : p.areaName), mi !== null ? `<span class="mi">${fmtMi(mi)}</span>` : ""].filter(Boolean).join(" · ");
+      const maps = r.address ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${r.name}, ${r.address}, ${p.areaName}, ${p.loc}`)}` : "";
+      const top2 = [town ? "" : esc(p.cn && !p.areaName.includes(p.cn) ? `${p.areaName}, ${p.cn}` : p.areaName), mi !== null ? `<span class="mi">${fmtMi(mi)}</span>` : ""].filter(Boolean).join(" · ");
       return `<article class="card${tonight && tonightInfo(p).kitchen > 0 ? " card-lk" : ""}" data-key="${esc(ck)}">
         <button type="button" class="fav" data-act="fav" aria-pressed="${fav}" aria-label="${fav ? "Remove from" : "Add to"} favorites: ${esc(r.name)}">${fav ? "♥" : "♡"}</button>
         ${top2 ? `<div class="town">${top2}</div>` : ""}
@@ -544,7 +544,7 @@
   function openForm(mode, p) {
     const f = $("sForm"); f.reset();
     const townName = $("town").value && $("town").selectedOptions[0] ? $("town").selectedOptions[0].dataset.name : "";
-    const where = p ? `${p.areaName}, ${county.name} County` : county ? (townName ? `${townName}, ${county.name} County` : `${county.name} County`) : "";
+    const where = p ? `${p.areaName}, ${cLabel(county)}` : county ? (townName ? `${townName}, ${cLabel(county)}` : `${cLabel(county)}`) : "";
     formCtx = { mode, key: p ? pkey(p) : "", url: p ? placeUrl(p) : location.href };
     $("fTitle").textContent = mode === "claim" ? "Claim your listing" : mode === "add" ? "Add a place" : "Suggest an update";
     $("fSub").textContent = mode === "claim" ? "Own or work at this place? Tell us who you are and what to fix. We'll email you to confirm, then keep your hours and specials current." : mode === "add" ? "Know a restaurant or bar we're missing? Send what you know. We check it against a source before it goes live." : "Tell us what's wrong or missing. We check every change against a source before it goes live.";
@@ -575,7 +575,7 @@
     if (email && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { say("That email doesn't look right (or leave it empty).", "err"); $("fEmail").focus(); return; }
     if ($("fOwn").checked && !email) { say("Please add an email so we can confirm you own or work here.", "err"); $("fEmail").focus(); return; }
     const type = $("fOwn").checked ? "Claim listing" : formCtx.mode === "add" ? "Add a place" : "Suggest an update";
-    const o = { _subject: `Open Late · ${type}: ${place} (${$("fWhere").value.trim() || "PA"})`, _template: "table", _captcha: "false",
+    const o = { _subject: `Open Late · ${type}: ${place} (${$("fWhere").value.trim() || (county ? cFull(county) : "")})`, _template: "table", _captcha: "false",
       type, place, where: $("fWhere").value.trim(), address: $("fAddr").value.trim(), what: what.join(", "), details,
       name: $("fName").value.trim(), email, owner: $("fOwn").checked ? "Yes" : "No", page: formCtx.url, placeKey: formCtx.key };
     if (email) o._replyto = email;
@@ -639,6 +639,14 @@
   // Only the picked County loads; other Counties load on demand for favorites and Near me and show as extras.
   let index = null, county = null, extraLoading = false;
   const NEAR_MI = 10;
+  const STATES = { PA: "Pennsylvania", MD: "Maryland", DE: "Delaware" };
+  const cLabel = (c) => (c && c.label) || `${c.name} County`; // "Cecil County", "Baltimore City", "Washington, DC"
+  const cSt = (c) => (c && c.st) || "PA"; // picker State (Washington, DC is listed under Maryland)
+  const cFull = (c) => (c.loc === "DC" ? cLabel(c) : `${cLabel(c)}, ${c.loc || "PA"}`);
+  function fillCounties(st) {
+    $("state").value = st;
+    $("county").innerHTML = index.counties.filter((c) => cSt(c) === st).sort((a, b) => cLabel(a).localeCompare(cLabel(b))).map((c) => `<option value="${esc(c.id)}">${esc(cLabel(c))} (${c.places})</option>`).join("");
+  }
   const countyById = (id) => index.counties.find((c) => c.id === (id || "").toLowerCase());
   const primaryCounty = (aid) => { const cs = index.areaCounties[aid]; return cs && countyById(cs[0]); };
   const countyData = new Map(); // id -> Promise of the County file
@@ -660,7 +668,7 @@
     for (const r of d.restaurants) {
       const k = `${r.a}|${r.id}`;
       if (extra.has(k) || !keep(r, k)) continue;
-      const p = prep(r, am.get(r.a)); p.cid = d.id; p.cn = d.name; extra.set(k, p); n++;
+      const p = prep(r, am.get(r.a), d.loc); p.cid = d.id; const lb = d.label || `${d.name} County`; p.cn = county && (county.loc || "PA") !== (d.loc || "PA") ? cFull({ label: lb, loc: d.loc || "PA" }) : lb; extra.set(k, p); n++; // across a state line: "Chester County, PA"
     }
     return n;
   }
@@ -678,7 +686,8 @@
   const bbNear = (c, mi) => { if (!c.bb || !here) return false; const dLa = mi / 69, dLo = mi / (69 * Math.cos(here.lat * Math.PI / 180)); return here.lat >= c.bb[0] - dLa && here.lat <= c.bb[2] + dLa && here.lng >= c.bb[1] - dLo && here.lng <= c.bb[3] + dLo; };
   async function loadNearby() {
     if (!here || !index) return;
-    const near = index.counties.filter((c) => bbNear(c, NEAR_MI)).slice(0, 12);
+    const cd = (c) => (c.c ? (c.c[0] - here.lat) ** 2 + ((c.c[1] - here.lng) * Math.cos(here.lat * Math.PI / 180)) ** 2 : 9);
+    const near = index.counties.filter((c) => bbNear(c, NEAR_MI)).sort((a, b) => cd(a) - cd(b)).slice(0, 12); // closest first, across state lines
     if (!near.length) return;
     const got = await Promise.allSettled(near.map((c) => getCounty(c.id)));
     const closest = (d) => { let b = Infinity; for (const r of d.restaurants) { const m = miles({ r }); if (m !== null && m < b) b = m; } return b; };
@@ -688,7 +697,7 @@
     for (const d of ds) { const m = closest(d); if (!best || m < best.m) best = { d, m }; }
     if (best && best.d.id !== county.id && curD > NEAR_MI && best.m <= NEAR_MI) {
       await loadCounty(best.d.id, "");
-      toast(`You're near ${best.d.name} County, so it's showing places there, nearest first`);
+      toast(`You're near ${best.d.label || `${best.d.name} County`}, so it's showing places there, nearest first`);
     }
     for (const d of ds) addExtras(d, (r) => { const m = miles({ r }); return m !== null && m <= NEAR_MI; });
     render();
@@ -712,10 +721,10 @@
   function setHeading() {
     const t = $("town").selectedOptions[0];
     const town = $("town").value && t ? t.dataset.name : "";
-    city.name = town ? `${town}, ${county.name} County` : `${county.name} County, PA`;
+    city.name = town ? `${town}, ${cLabel(county)}` : `${cFull(county)}`;
     $("cityName").textContent = city.name;
     document.title = `Open Late · ${city.name} restaurant hours, kitchen times & specials`;
-    const desc = `Restaurants and bars open late in ${town ? `${town}, ${county.name} County, PA` : `${county.name} County, PA`}: who's open now, kitchen hours, happy hours and wing and beer specials.`;
+    const desc = `Restaurants and bars open late in ${town ? `${town}, ${cFull(county)}` : `${cFull(county)}`}: who's open now, kitchen hours, happy hours and wing and beer specials.`;
     const setMeta = (sel, attr, v) => { const el = document.querySelector(sel); if (el) el.setAttribute(attr, v); };
     const canon = `https://openlateapp.com/?county=${encodeURIComponent(county.id)}${$("town").value ? `&area=${encodeURIComponent($("town").value)}` : ""}`;
     setMeta('meta[name="description"]', "content", desc); setMeta('meta[property="og:description"]', "content", desc);
@@ -725,12 +734,13 @@
   async function loadCounty(cid, areaId) {
     const seq = ++loadSeq;
     county = countyById(cid) || countyById("lancaster");
+    if ($("state").value !== cSt(county) || !$("county").querySelector(`option[value="${county.id}"]`)) fillCounties(cSt(county));
     $("county").value = county.id;
-    $("count").textContent = `Loading ${county.name} County…`;
+    $("count").textContent = `Loading ${cLabel(county)}…`;
     const d = await getCounty(county.id); // one file with just this County's places
     if (seq !== loadSeq) return; // a newer pick won
     const am = areaMap(d), metas = d.areas;
-    rows = d.restaurants.map((r) => prep(r, am.get(r.a)));
+    rows = d.restaurants.map((r) => prep(r, am.get(r.a), d.loc));
     city = { name: "", timezone: (metas[0] && metas[0].timezone) || "America/New_York", checkedLabel: checkedRange(metas.map((m) => m.checkedLabel)) };
     const cnt = new Map();
     for (const p of rows) cnt.set(p.area, (cnt.get(p.area) || 0) + 1);
@@ -751,7 +761,9 @@
   async function init() {
     opts($("vibe"), VIBES);
     index = await (window.__olIdx ? window.__olIdx.catch(() => getJSON("data/index.json")) : getJSON("data/index.json"));
-    $("county").innerHTML = index.counties.slice().sort((a, b) => a.name.localeCompare(b.name)).map((c) => `<option value="${esc(c.id)}">${esc(c.name)} County (${c.places})</option>`).join("");
+    const sts = Object.keys(STATES).filter((st) => index.counties.some((c) => cSt(c) === st));
+    $("state").innerHTML = sts.map((st) => `<option value="${st}">${STATES[st]}</option>`).join("");
+    fillCounties("PA");
     // start: ?county=&area= link, then an old ?area= link (mapped to its primary county), then the remembered pick, then Lancaster County
     const sp = new URLSearchParams(location.search);
     let saved = null;
@@ -766,6 +778,11 @@
     else if (countyById(saved.county)) { cid = saved.county; aid = saved.area || ""; }
     else if (saved.area && primaryCounty(saved.area)) { aid = saved.area; cid = primaryCounty(aid).id; }
     else cid = "lancaster";
+    $("state").addEventListener("change", () => { // a new State: open its biggest County
+      const st = $("state").value; // Pennsylvania -> the usual default County; others -> their biggest County in that state itself (not DC under Maryland)
+      const top = st === "PA" ? countyById(index.defaultCounty || "lancaster") : index.counties.filter((c) => cSt(c) === st && (c.loc || "PA") === st).sort((a, b) => b.places - a.places)[0];
+      if (!top) return; dayTouched = false; track(`state/${st}`, "State picked"); loadCounty(top.id, "").catch(fail);
+    });
     $("county").addEventListener("change", () => { dayTouched = false; track(`county/${$("county").value}`, "County picked"); loadCounty($("county").value, "").catch(fail); });
     $("town").addEventListener("change", () => { if ($("town").value) track(`city/${$("town").value}`, "City picked"); setHeading(); saveSel(); $("suggest").href = mailto(""); tick(); render(); });
     ["q", "cuisine", "price", "vibe", "sort"].forEach((id) => $(id).addEventListener(id === "q" ? "input" : "change", () => render()));

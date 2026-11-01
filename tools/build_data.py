@@ -11,7 +11,7 @@ Called by tools/build_seo.py, so every rebuild keeps these current; validate.py 
 Only rewrites files whose content changed."""
 import json, os, re, datetime
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DROP = {"phoneSource", "county", "crowdType", "karaoke", "dj", "crowdChecked", "crowdSources"}  # research fields stay in the source data; the app gets the compact ct/kk/dj below
+DROP = {"phoneSource", "county", "state", "zip", "conflicts", "crowdType", "karaoke", "dj", "crowdChecked", "crowdSources"}  # research fields stay in the source data; the app gets the compact ct/kk/dj below
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 CHECKED = re.compile(r"checked (\d{4}-\d{2}-\d{2}|[A-Z][a-z]{2,8} \d{1,2}, \d{4})")
 
@@ -121,8 +121,9 @@ def build(write=True):
         bb = [round(min(p[0] for p in pts), 4), round(min(p[1] for p in pts), 4), round(max(p[0] for p in pts), 4), round(max(p[1] for p in pts), 4)] if pts else None
         ctr = [round(sum(p[0] for p in pts) / len(pts), 4), round(sum(p[1] for p in pts) / len(pts), 4)] if pts else None
         fn = f"data/county/{c['id']}.json"
-        out[fn] = dump({"id": c["id"], "name": c["name"], "areas": areas, "restaurants": places}) + "\n"
-        counties.append({"id": c["id"], "name": c["name"], "places": len(places), "file": fn, "bb": bb, "c": ctr})
+        meta = {"label": c.get("label") or f"{c['name']} County", "st": c.get("pickerState") or "PA", "loc": c.get("state") or "PA"}  # picker State (DC sits under MD) + real state for headings
+        out[fn] = dump({"id": c["id"], "name": c["name"], **meta, "areas": areas, "restaurants": places}) + "\n"
+        counties.append({"id": c["id"], "name": c["name"], **meta, "places": len(places), "file": fn, "bb": bb, "c": ctr})
     out["data/index.json"] = dump({"defaultCounty": "lancaster", "counties": counties, "areaCounties": area_counties}) + "\n"
     changed = []
     for fn, s in out.items():

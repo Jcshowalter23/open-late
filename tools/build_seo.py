@@ -12,7 +12,7 @@ files = {aid: json.load(open(a["file"])) for aid, a in areas.items()}
 DAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 today = datetime.date.today().isoformat()
 e = lambda s: html.escape(str(s), quote=True)
-short = lambda n: re.sub(r", PA$", "", n)
+short = lambda n: re.sub(r",? (PA|MD|DE|DC|Washington,? DC)$", "", n)
 
 def parse_days(s):
     if s == "Daily": return list(range(7))
@@ -130,20 +130,21 @@ for c in counties:
         L = latest(r.get("hours"))
         if L and L > 1380: late.append((L, latest(r.get("kitchen")) or 0, r["name"], short(areas[aid]["name"]), aid, r))
     late.sort(key=lambda x: (-x[0], -x[1], x[2]))
-    cid = c["id"]; slug = f"{cid}-county"; url = f"{SITE}/{slug}/"
+    cid = c["id"]; slug = f"{cid}-county" if not c.get("state") else cid; url = f"{SITE}/{slug}/"  # MD/DE/DC ids are already state-prefixed (md-washington), so no clash with PA's /washington-county/
+    LBL = c.get("label") or f"{c['name']} County"; ST = c.get("state") or "PA"; WHERE = LBL if ST == "DC" else f"{LBL}, {ST}"
     app = f"/?county={cid}"
     def _d(l):
         try: return datetime.datetime.strptime(l, "%b %d, %Y")
         except ValueError: return datetime.datetime.min
     labels = sorted({files[a]["checkedLabel"] for a in cities if files[a].get("checkedLabel")}, key=_d)
     checked = labels[-1] if labels else ""
-    title = f"Open late in {c['name']} County, PA: bars & restaurants, kitchen hours, specials · Open Late"
-    desc = f"{n} restaurants and bars in {c['name']} County, PA: who's open late tonight, kitchen hours, happy hours and wing and beer specials, by City."
+    title = f"Open late in {WHERE}: bars & restaurants, kitchen hours, specials · Open Late"
+    desc = f"{n} restaurants and bars in {WHERE}: who's open late tonight, kitchen hours, happy hours and wing and beer specials, by City."
     stats = f"{n} places across {len(cities)} {'City' if len(cities) == 1 else 'Cities'}" + (f"; {kit} post kitchen hours" if kit else "") + (f"; {hh} list a happy hour" if hh else "") + (f"; {sp} list weekly specials" if sp else "") + (f"; {wings} have wing deals" if wings else "") + "."
-    body = [f'<p class="crumbs"><a href="/counties/">All counties</a> › {e(c["name"])} County</p>',
-            f'<h1>Open late in {e(c["name"])} County, PA</h1>',
-            f'<p class="lede">Which bars and restaurants in {e(c["name"])} County are still open, whose kitchen is still serving, and today\'s happy hours and wing and beer specials. {e(stats)}</p>',
-            f'<p><a class="btn" href="{e(app)}">See who\'s open now in {e(c["name"])} County</a> <a class="btn ghost" href="{e(app)}&amp;view=map">Map</a></p>',
+    body = [f'<p class="crumbs"><a href="/counties/">All counties</a> › {e(LBL)}</p>',
+            f'<h1>Open late in {e(WHERE)}</h1>',
+            f'<p class="lede">Which bars and restaurants in {e(LBL)} are still open, whose kitchen is still serving, and today\'s happy hours and wing and beer specials. {e(stats)}</p>',
+            f'<p><a class="btn" href="{e(app)}">See who\'s open now in {e(LBL)}</a> <a class="btn ghost" href="{e(app)}&amp;view=map">Map</a></p>',
             '<h2>By City</h2><ul class="lp-cities">']
     for aid, k in city_list:
         body.append(f'<li><a href="{e(app)}&amp;area={e(aid)}">{e(short(areas[aid]["name"]))}</a> <span>{k} place{"s" if k != 1 else ""}</span></li>')
@@ -160,28 +161,37 @@ for c in counties:
     ld = json.dumps({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Open Late", "item": SITE + "/"},
         {"@type": "ListItem", "position": 2, "name": "Counties", "item": SITE + "/counties/"},
-        {"@type": "ListItem", "position": 3, "name": f"{c['name']} County", "item": url}]}, separators=(",", ":"))
+        {"@type": "ListItem", "position": 3, "name": LBL, "item": url}]}, separators=(",", ":"))
     os.makedirs(slug, exist_ok=True)
     img = f"icons/og/{cid}.png"
-    if build_og.save(build_og.county_image(c["name"], n, len(cities), len(late), hh + sp), img): og_changed += 1
-    imgalt = f"Open Late: open late in {c['name']} County, PA. {n} bars and restaurants across {len(cities)} {'City' if len(cities) == 1 else 'Cities'}."
+    if build_og.save(build_og.county_image(c["name"], n, len(cities), len(late), hh + sp, title=LBL, url=f"openlateapp.com/{slug}"), img): og_changed += 1
+    imgalt = f"Open Late: open late in {WHERE}. {n} bars and restaurants across {len(cities)} {'City' if len(cities) == 1 else 'Cities'}."
     open(f"{slug}/index.html", "w").write(PAGE.format(title=e(title), desc=e(desc), url=url, site=SITE, ld=ld, body="\n".join(body), cid=cid, img=img, imgalt=e(imgalt)))
     county_of[c["name"]] = cid
     urls.insert(2, (url, "0.8"))
 # counties index
 tot = sum(c["places"] for c in counties)
-body = ['<h1>Open late across Pennsylvania, by County</h1>',
-        f'<p class="lede">{tot:,} restaurants and bars in all {len(counties)} Pennsylvania counties: hours, kitchen hours, happy hours and wing and beer specials.</p>',
-        '<p><a class="btn" href="/">Open the live list</a></p><ul class="lp-cities lp-counties">']
-for c in counties:
-    body.append(f'<li><a href="/{e(c["id"])}-county/">{e(c["name"])} County</a> <span>{c["places"]} places</span></li>')
-body.append("</ul>")
+REG = "Pennsylvania" if all(not c.get("state") for c in counties) else "Pennsylvania, Maryland, Delaware & DC"
+REGS = "all 67 Pennsylvania counties" if REG == "Pennsylvania" else "Pennsylvania, Maryland, Delaware and Washington, DC"
+body = [f'<h1>Open late across {e(REG)}, by County</h1>',
+        f'<p class="lede">{tot:,} restaurants and bars in {len(counties)} counties across {e(REGS)}: hours, kitchen hours, happy hours and wing and beer specials.</p>',
+        '<p><a class="btn" href="/">Open the live list</a></p>']
+ST_NAMES = [("PA", "Pennsylvania"), ("MD", "Maryland"), ("DE", "Delaware"), ("DC", "Washington, DC")]
+multi = REG != "Pennsylvania"
+for st, stn in ST_NAMES:
+    cs = [c for c in counties if (c.get("state") or "PA") == st]
+    if not cs: continue
+    if multi: body.append(f'<h2>{e(stn)}</h2>')
+    body.append('<ul class="lp-cities lp-counties">')
+    for c in cs:
+        body.append(f'<li><a href="/{e(c["id"]) + ("" if c.get("state") else "-county")}/">{e(c.get("label") or c["name"] + " County")}</a> <span>{c["places"]} places</span></li>')
+    body.append("</ul>")
 ld = json.dumps({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "Open Late", "item": SITE + "/"},
     {"@type": "ListItem", "position": 2, "name": "Counties", "item": SITE + "/counties/"}]}, separators=(",", ":"))
 os.makedirs("counties", exist_ok=True)
-if build_og.save(build_og.home_image(tot, len(counties)), "icons/og-image.png"): og_changed += 1
-open("counties/index.html", "w").write(PAGE.format(title="Pennsylvania restaurants & bars open late, by County · Open Late", desc=e(f"Late-night restaurants and bars in all {len(counties)} Pennsylvania counties: who's open now, kitchen hours, happy hours and specials."), url=SITE + "/counties/", site=SITE, ld=ld, body="\n".join(body), cid="", img="icons/og-image.png", imgalt="Open Late: a crescent moon logo with the words Open Late. Who's open late, whose kitchen is still serving and tonight's specials, across all 67 Pennsylvania counties."))
+if build_og.save(build_og.home_image(tot, len(counties), "PA" if REG == "Pennsylvania" else "PA, MD, DE & DC"), "icons/og-image.png"): og_changed += 1
+open("counties/index.html", "w").write(PAGE.format(title=f"{REG} restaurants & bars open late, by County · Open Late", desc=e(f"Late-night restaurants and bars in {len(counties)} counties across {REGS}: who's open now, kitchen hours, happy hours and specials."), url=SITE + "/counties/", site=SITE, ld=ld, body="\n".join(body), cid="", img="icons/og-image.png", imgalt="Open Late: a crescent moon logo with the words Open Late. Who's open late, whose kitchen is still serving and tonight's specials, across " + REGS + "."))
 
 # Share links: /p/<area>/<place>.html, one tiny page per place whose preview names the place and shows its
 # County's image, then opens the live list at that place. noindex (not for search), not in the sitemap.
@@ -211,19 +221,23 @@ STUB = """<!doctype html>
 <p><a style="color:#e8a33d" href="{app}">{name} on Open Late</a></p>
 </body></html>
 """
-cid_by_name = {c["name"]: c["id"] for c in counties}
+cid_by_name = {(c.get("state") or "PA", c["name"]): c["id"] for c in counties}  # (state, name): MD has its own Washington, Montgomery, Somerset counties
+cby_id = {c["id"]: c for c in counties}
+def where(c):  # "Lancaster County, PA", "Baltimore City, MD", "Washington, DC"
+    lbl = c.get("label") or f"{c['name']} County"
+    return lbl if c.get("state") == "DC" else f"{lbl}, {c.get('state') or 'PA'}"
 want = set(); stub_changed = 0
 for aid, f in files.items():
     city = short(f["name"])
     for r in f["restaurants"]:
-        cid = cid_by_name.get(r.get("county"))
+        cid = cid_by_name.get((r.get("state") or "PA", r.get("county")))
         if not cid: continue
         path = f"p/{aid}/{r['id']}.html"; want.add(path)
         app = f"/?county={cid}&area={aid}&place={r['id']}"
         what = (r.get("cuisine") or "Restaurant").strip()
-        desc = f"{what} in {city}, {r['county']} County, PA. Open now? Kitchen hours, happy hours and specials on Open Late."
-        page = STUB.format(title=e(f"{r['name']} · {city}, PA · Open Late"), desc=e(desc), url=f"{SITE}/{path}", site=SITE,
-                           img=f"icons/og/{cid}.png", imgalt=e(f"Open Late: open late in {r['county']} County, PA"),
+        desc = f"{what} in {city}, {where(cby_id[cid])}. Open now? Kitchen hours, happy hours and specials on Open Late."
+        page = STUB.format(title=e(f"{r['name']} · {city}, {r.get('state') or 'PA'} · Open Late"), desc=e(desc), url=f"{SITE}/{path}", site=SITE,
+                           img=f"icons/og/{cid}.png", imgalt=e(f"Open Late: open late in {where(cby_id[cid])}"),
                            app=e(app), app_js=json.dumps(app), name=e(r["name"]))
         if not os.path.exists(path) or open(path).read() != page:
             os.makedirs(os.path.dirname(path), exist_ok=True); open(path, "w").write(page); stub_changed += 1

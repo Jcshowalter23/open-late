@@ -1,6 +1,6 @@
 # Open Late
 
-Static, mobile-first PWA: which restaurants and bars are open now, whose kitchen is still open, and the day's specials. First area: Lancaster, PA.
+Static, mobile-first PWA: which restaurants and bars are open now, whose kitchen is still open, and the day's specials. Covers Pennsylvania, Maryland, Delaware and Washington, DC (picker: State → County → City; DC is listed under Maryland as "Washington, DC").
 
 No build step and no backend. Serve the folder with any static host (`python3 -m http.server`).
 

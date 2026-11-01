@@ -61,7 +61,7 @@ def save(im, path):
     if os.path.exists(full) and hashlib.sha1(open(full, "rb").read()).digest() == hashlib.sha1(data).digest(): return False
     os.makedirs(os.path.dirname(full), exist_ok=True); open(full, "wb").write(data); return True
 
-def home_image(n_places, n_counties):
+def home_image(n_places, n_counties, where="PA"):
     im, d = base()
     ic = icon(300); im.paste(ic, (90, 150), ic)
     f = font(124, 800); x = 450
@@ -69,13 +69,13 @@ def home_image(n_places, n_counties):
     f2 = font(40, 500)
     d.text((x + 4, 312), "Who's open late, whose kitchen is", font=f2, fill=MUTED)
     d.text((x + 4, 362), "still serving & tonight's specials", font=f2, fill=MUTED)
-    d.text((x + 4, 448), f"openlateapp.com · {n_places:,} places · all {n_counties} PA counties", font=fit(d, f"openlateapp.com · {n_places:,} places · all {n_counties} PA counties", 700, 30, 700, 22), fill=AMBER)
+    d.text((x + 4, 448), (s := f"openlateapp.com · {n_places:,} places · " + (f"all {n_counties} PA counties" if where == "PA" else f"{n_counties} counties · {where}")), font=fit(d, s, 700, 30, 700, 22), fill=AMBER)
     return im
 
-def county_image(name, n_places, n_cities, n_late, n_deals):
+def county_image(name, n_places, n_cities, n_late, n_deals, title=None, url=None):
     im, d = base()
     wordmark(im, d, 80, 70, 44)
-    title = f"{name} County"
+    title = title or f"{name} County"
     d.text((80, 190), "Open late in", font=font(46, 500), fill=MUTED)
     tf = fit(d, title, 800, 112, W - 160, 60)
     d.text((76, 250), title, font=tf, fill=WHITE)
@@ -85,7 +85,7 @@ def county_image(name, n_places, n_cities, n_late, n_deals):
     d.text((80, 400), line, font=fit(d, line, 600, 40, W - 160, 26), fill=WHITE)
     sub = "Kitchen hours, happy hours, wing & beer specials" if n_deals else "Hours and kitchen hours, by City"
     d.text((80, 458), sub, font=fit(d, sub, 500, 36, W - 160, 24), fill=MUTED)
-    url = f"openlateapp.com/{name.lower().replace(' ', '-')}-county"
+    url = url or f"openlateapp.com/{name.lower().replace(' ', '-')}-county"
     d.text((80, 540), url, font=font(32, 700), fill=AMBER)
     return im
 

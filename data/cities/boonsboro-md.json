@@ -1,0 +1,413 @@
+{
+ "id": "boonsboro-md",
+ "name": "Boonsboro, Sharpsburg & Smithsburg, MD",
+ "timezone": "America/New_York",
+ "checked": "2026-11-01",
+ "checkedLabel": "Nov 1, 2026",
+ "restaurants": [
+  {
+   "id": "md-benders-public-house-and-eatery",
+   "name": "Benders Public House & Eatery",
+   "cuisine": "American",
+   "address": "111 & 113 E Main St, Sharpsburg",
+   "state": "MD",
+   "zip": "21782",
+   "phone": "(301) 432-5813",
+   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Sharpsburg/248187660464/Benders-Public-House-%26-Eatery), checked 2026-11-01",
+   "lat": 39.4587,
+   "lng": -77.7482,
+   "priceText": "$ (Facebook page)",
+   "priceLevel": "$",
+   "website": "http://captainbenderstavern.com/",
+   "hours": "Mon 4p-9p; Tue-Thu 11a-9p; Fri-Sat 11a-11p; Sun 12p-9p",
+   "hoursNote": "Restaurantji (updated 2026-09-02) lists different hours: Mon 4p-9p; Tue 11a-11p; Wed-Thu 11a-10p; Fri 11a-12a; Sat 11a-11p; Sun 12p-9p. Call ahead to confirm.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene",
+    "Live music & events"
+   ],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Washington",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-02",
+        "url": "https://www.restaurantji.com/md/sharpsburg/captain-bender-s-tavern-/",
+        "quote": "ndly staff and local draft beers, making it a perfect spot for travelers, especially with live music on Saturdays and late hours on weekends. While most experiences are positive, a few guest",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/md/sharpsburg/captain-bender-s-tavern-/",
+        "quote": "live music"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/md/sharpsburg/captain-bender-s-tavern-/",
+    "facebookMirror": "https://www.foodyas.com/US/Sharpsburg/248187660464/Benders-Public-House-%26-Eatery",
+    "fbPostsSeen": 8,
+    "fbNewestPost": "2026-10-24",
+    "website": null
+   },
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "facebook": "Mon 4p-9p; Tue-Thu 11a-9p; Fri-Sat 11a-11p; Sun 12p-9p",
+      "restaurantji": "Mon 4p-9p; Tue 11a-11p; Wed-Thu 11a-10p; Fri 11a-12a; Sat 11a-11p; Sun 12p-9p"
+     },
+     "days": [
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+     ],
+     "resolution": "Facebook page hours kept (venue-managed, active)",
+     "checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "md-bonnies-at-the-red-byrd",
+   "name": "Bonnie's at the Red Byrd",
+   "cuisine": "Family style",
+   "address": "19409 Shepherdstown Pike, Keedysville",
+   "state": "MD",
+   "zip": "21756",
+   "phone": "(301) 432-5822",
+   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Keedysville/133241270050150/Bonnie%27s-at-the-Red-Byrd), checked 2026-11-01",
+   "lat": 39.4922,
+   "lng": -77.6946,
+   "priceText": "$$ (Facebook page)",
+   "priceLevel": "$$",
+   "website": null,
+   "hours": "Mon-Fri 8a-8p; Sat 8a-9p; Sun 8a-8p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Family-friendly"
+   ],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Washington",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/md/keedysville/bonnies-at-the-red-byrd-/",
+    "facebookMirror": "https://www.foodyas.com/US/Keedysville/133241270050150/Bonnie%27s-at-the-Red-Byrd",
+    "fbPostsSeen": 10,
+    "fbNewestPost": "2026-10-25",
+    "website": null
+   }
+  },
+  {
+   "id": "md-dogpatch-tavern",
+   "name": "Dogpatch Tavern",
+   "cuisine": "Pub",
+   "address": "21836 National Pike, Boonsboro",
+   "state": "MD",
+   "zip": "21713",
+   "phone": null,
+   "lat": 39.542,
+   "lng": -77.6079,
+   "priceText": "$$ (Facebook page)",
+   "priceLevel": "$$",
+   "website": "http://www.dogpatchtavern.com/",
+   "hours": "Mon closed; Tue-Wed 12p-10p; Thu 12p-12a; Fri 12a-2a; Sat-Sun closed",
+   "hoursNote": "Facebook shows only Fri 12am - 2am for that day (may be a lunch/brunch-only listing); call ahead.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Washington",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Boonsboro/202987559729558/Dogpatch-Tavern",
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "md-petes-restaurant-and-bar",
+   "name": "Pete's Restaurant and Bar",
+   "cuisine": "Bar & grill",
+   "address": "144 West Main St, Sharpsburg",
+   "state": "MD",
+   "zip": "21782",
+   "phone": "(301) 432-2591",
+   "phoneSource": "Restaurantji listing  (updated ?), checked 2026-11-01",
+   "lat": 39.4577,
+   "lng": -77.7495,
+   "website": null,
+   "hours": "Mon closed; Tue-Fri 4p-2a; Sat 12p-2a; Sun 12p-12a",
+   "hoursNote": "Restaurantji (updated ?) lists different hours: Mon closed; Tue-Sat 8a-1a; Sun closed. Call ahead to confirm.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Washington",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Sharpsburg/100487599117610/Pete%27s-Restaurant-and-Bar",
+    "fbPostsSeen": 6,
+    "fbNewestPost": "2026-07-22",
+    "website": null
+   },
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "facebook": "Mon closed; Tue-Fri 4p-2a; Sat 12p-2a; Sun 12p-12a",
+      "restaurantji": "Mon closed; Tue-Sat 8a-1a; Sun closed"
+     },
+     "days": [
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+     ],
+     "resolution": "Facebook page hours kept (venue-managed, active)",
+     "checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "md-rub-it-up-bbq",
+   "name": "Rub it up BBQ",
+   "cuisine": "Barbecue",
+   "address": "Sharpsburg 21782, Sharpsburg",
+   "state": "MD",
+   "zip": "21782",
+   "phone": null,
+   "lat": 39.406,
+   "lng": -77.7209,
+   "priceText": "$$ (Facebook page)",
+   "priceLevel": "$$",
+   "website": null,
+   "hours": "Mon 6a-9p; Tue-Thu 6a-9a; Fri-Sat 6a-5p; Sun 11a-5p",
+   "hoursNote": "Facebook shows only Tue 6am - 9am, Wed 6am - 9am, Thu 6am - 9am for that day (may be a lunch/brunch-only listing); call ahead.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Washington",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Sharpsburg/412462242522787/Rub-it-up-BBQ",
+    "fbPostsSeen": 2,
+    "fbNewestPost": "2026-06-29",
+    "website": null
+   }
+  },
+  {
+   "id": "md-sizzling-fajita",
+   "name": "Sizzling Fajita",
+   "cuisine": "Restaurant",
+   "address": "3 S Main St, Boonsboro",
+   "state": "MD",
+   "zip": "21777",
+   "phone": "(240) 769-0904",
+   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Boonsboro/438018052733330/Sizzling-Fajita), checked 2026-11-01",
+   "lat": 39.5063,
+   "lng": -77.6519,
+   "website": "https://www.toasttab.com/sizzling-fajita-3-south-main-street",
+   "hours": "Mon-Sat 11a-10p; Sun 11a-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Live music & events"
+   ],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Washington",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-07-16",
+      "quote": "Thanks for understanding, and we’ll catch y’all at the next karaoke night",
+      "url": "https://www.foodyas.com/US/Boonsboro/438018052733330/Sizzling-Fajita"
+     },
+     {
+      "date": "2026-07-16",
+      "quote": "Then stick around because Karaoke kicks off at 7 PM",
+      "url": "https://www.foodyas.com/US/Boonsboro/438018052733330/Sizzling-Fajita"
+     },
+     {
+      "date": "2026-07-16",
+      "quote": "Due to some unforeseen circumstances, karaoke is canceled for tonight",
+      "url": "https://www.foodyas.com/US/Boonsboro/438018052733330/Sizzling-Fajita"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/md/boonsboro/sizzling-fajita-/",
+    "facebookMirror": "https://www.foodyas.com/US/Boonsboro/438018052733330/Sizzling-Fajita",
+    "fbPostsSeen": 9,
+    "fbNewestPost": "2026-07-24",
+    "website": null
+   }
+  },
+  {
+   "id": "md-the-wolfes-den",
+   "name": "The Wolfe's Den",
+   "cuisine": "Bar & grill",
+   "address": "6 W Water St, Smithsburg",
+   "state": "MD",
+   "zip": "21783",
+   "phone": "(301) 824-3911",
+   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Smithsburg/171911982839151/The-Wolfe%27s-Den), checked 2026-11-01",
+   "lat": 39.6547,
+   "lng": -77.5732,
+   "website": "http://www.wolfes.com/",
+   "hours": "Mon-Tue 4p-12a; Wed 3p-12a; Thu 3p-2a; Fri-Sat 12p-2a; Sun 12p-12a",
+   "hoursNote": "Restaurantji (updated 2026-10-29) lists different hours: Mon-Tue 4p-12a; Wed-Thu 3p-12a; Fri-Sun 12p-12a. Call ahead to confirm.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene",
+    "Live music & events"
+   ],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Washington",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/md/smithsburg/wolfes-den-/",
+        "quote": "that reminds customers of their mother's cooking. The restaurant is cozy and feels like a neighborhood tavern, making it a popular spot for locals and visitors alike. It offers several beers on tap a",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/md/smithsburg/wolfes-den-/",
+    "facebookMirror": "https://www.foodyas.com/US/Smithsburg/171911982839151/The-Wolfe%27s-Den",
+    "fbPostsSeen": 7,
+    "fbNewestPost": "2026-06-17",
+    "website": null
+   },
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "facebook": "Mon-Tue 4p-12a; Wed 3p-12a; Thu 3p-2a; Fri-Sat 12p-2a; Sun 12p-12a",
+      "restaurantji": "Mon-Tue 4p-12a; Wed-Thu 3p-12a; Fri-Sun 12p-12a"
+     },
+     "days": [
+      "Thu",
+      "Fri",
+      "Sat"
+     ],
+     "resolution": "Facebook page hours kept (venue-managed, active)",
+     "checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "md-the-yellow-house",
+   "name": "The Yellow House",
+   "cuisine": "Bar & grill",
+   "address": "8005 Old National Pike, Boonsboro",
+   "state": "MD",
+   "zip": "21713",
+   "phone": "(301) 432-5227",
+   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Boonsboro/208207492535356/The-Yellow-House), checked 2026-11-01",
+   "lat": 39.5339,
+   "lng": -77.6682,
+   "website": null,
+   "hours": "Mon-Wed 12p-7p; Thu-Sat 12p-11p; Sun 12p-8p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene",
+    "Live music & events"
+   ],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Washington",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": "https://www.foodyas.com/US/Boonsboro/208207492535356/The-Yellow-House",
+    "fbPostsSeen": 5,
+    "fbNewestPost": "2026-10-14",
+    "website": null
+   }
+  }
+ ],
+ "type": "town",
+ "region": "western-md",
+ "counties": [
+  "Washington"
+ ],
+ "state": "MD"
+}
