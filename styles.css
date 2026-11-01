@@ -84,6 +84,7 @@ main{max-width:1200px;margin:0 auto;padding:12px 16px 24px}
 .dtext{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .dmore{flex:none;font-size:.76rem;font-weight:600;color:var(--ink3)}
 .flag{font-size:.74rem;color:#a14a00;white-space:nowrap}
+.info .flag{white-space:normal}
 @media (prefers-color-scheme:dark){.flag{color:#ffb070}}
 .more-info summary{cursor:pointer;font-size:.8rem;font-weight:600;color:var(--link);padding:2px 0;min-height:28px;list-style:none;display:inline-flex;align-items:center;gap:4px}
 .more-info summary::-webkit-details-marker{display:none}
@@ -131,6 +132,7 @@ main{max-width:1200px;margin:0 auto;padding:12px 16px 24px}
 @media (prefers-color-scheme:dark){.lk{background:#16382a;color:#9fe0bf}}
 .b-now{background:#1f9d5c;color:#fff}
 .ddays{font-weight:700;color:var(--ink2)}
+.lchk{font-size:.72rem;color:var(--ink3);margin-top:2px}
 .actions{display:flex;flex-wrap:wrap;gap:6px;margin:2px 0}
 .act{font:inherit;font-size:.84rem;font-weight:600;color:var(--link);background:var(--mut);border:0;border-radius:999px;padding:6px 12px;text-decoration:none;cursor:pointer;min-height:32px;display:inline-flex;align-items:center}
 .toast{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom));transform:translateX(-50%);background:var(--night);color:#fff;padding:10px 16px;border-radius:999px;font-size:.88rem;box-shadow:0 4px 18px rgba(0,0,0,.25);z-index:50;max-width:calc(100% - 32px);text-align:center}
@@ -218,3 +220,8 @@ dialog#formDlg::backdrop{background:rgba(10,12,18,.55)}
 .kofisheet p{margin:0 0 12px;font-size:.92rem;color:var(--ink2);line-height:1.45}
 .kofix{position:absolute;top:10px;right:10px}
 .kofibtns{display:flex;gap:10px;flex-wrap:wrap}
+
+/* v82: plain-word deal days, weekly deal lists, last checked */
+.wk{list-style:none;margin:4px 0 0;padding:0}
+.wk li{padding:6px 0;border-top:1px dashed var(--line)}
+.wk li:first-child{border-top:0;padding-top:2px}

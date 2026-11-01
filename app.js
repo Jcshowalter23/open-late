@@ -93,7 +93,7 @@
     const k = r.kitchen ? parseWeek(r.kitchen) : null;
     const is24 = r.hours === "Daily 24h";
     const late = w.some((dh) => dh && dh.some((iv) => iv[1] > 1440));
-    return { r, w, k, is24, vibes: late || is24 ? [...r.vibes, "Late night"] : r.vibes, area: area.id, areaName: shortArea(area.name), checkedLabel: area.checkedLabel };
+    return { r, w, k, is24, lc: checkedText(lastChecked(r)), vibes: late || is24 ? [...r.vibes, "Late night"] : r.vibes, area: area.id, areaName: shortArea(area.name), checkedLabel: area.checkedLabel };
   }
   function deals(p, d) {
     if (d === ALL) { const g = (list) => (list || []).filter((x) => parseDays(x.days).length); return { hh: g(p.r.happyHours), sp: g(p.r.specials) }; }
@@ -105,7 +105,7 @@
   function dealHtml(x) {
     const b = (x.tags || []).filter((t) => BADGE[t]).map((t) => `<span class="badge b-${t}">${BADGE[t]}</span>`).join("");
     const extra = [x.flag ? `<span class="flag">⚠ ${esc(x.flag)}</span>` : "", x.src ? `<span class="dsrc">(${esc(x.src)}${x.checked ? `, checked ${esc(x.checked)}` : ""})</span>` : ""].filter(Boolean).join(" ");
-    return `${b}${esc(x.text)}${extra ? " " + extra : ""}`;
+    return `${dayTag(x)}${dayTag(x) ? " " : ""}${b}${esc(x.text)}${extra ? " " + extra : ""}`;
   }
   function opts(sel, items, keep) {
     const cur = keep ? sel.value : null;
@@ -194,6 +194,45 @@
   }
   const track = (name, title) => { try { if (window.olTrack) window.olTrack(name, title); } catch (e) { /* analytics never breaks the app */ } };
   const prettyDays = (s) => s.replace(/-/g, "–").replace(/,/g, "/");
+  // deal days in plain words, built only from the days the data lists ("Tue" -> "Every Tuesday", "Sat,Sun" -> "Weekends").
+  // Anything that isn't a day list ("See venue", "NFL game days") is shown as written, never guessed.
+  const MON_FIRST = (d) => (d + 6) % 7;
+  function dayWords(s) {
+    if (!s) return "";
+    const set = new Set(parseDays(s));
+    if (!set.size) return prettyDays(s);
+    if (set.size === 7) return "Daily";
+    const has = (...ds) => ds.every((d) => set.has(d));
+    if (set.size === 2 && has(0, 6)) return "Weekends";
+    if (set.size === 5 && has(1, 2, 3, 4, 5)) return "Weekdays";
+    if (set.size === 1) return `Every ${DAY_LONG[[...set][0]]}`;
+    // runs of consecutive days (wrapping Sat->Sun), Monday-first: 3+ days "Mon–Thu", shorter runs as single days
+    let start = 0; while (set.has((start + 6) % 7)) start = (start + 6) % 7; // walk back to a run start
+    const runs = []; let cur = null;
+    for (let g = 0; g < 7; g++) { const d = (start + g) % 7; if (set.has(d)) { if (cur) cur.push(d); else { cur = [d]; runs.push(cur); } } else cur = null; }
+    runs.sort((x, y) => MON_FIRST(x[0]) - MON_FIRST(y[0]));
+    const items = [];
+    for (const r of runs) { if (r.length >= 3) items.push(`${DAYS[r[0]]}–${DAYS[r[r.length - 1]]}`); else r.forEach((d) => items.push(DAYS[d])); }
+    return items.length === 1 ? items[0] : `${items.slice(0, -1).join(", ")} & ${items[items.length - 1]}`;
+  }
+  const dayTag = (x) => x.days ? `<span class="ddays">${esc(dayWords(x.days))}:</span>` : "";
+  // "Checked Oct 31": the newest explicit "checked" date in this place's own source fields (none -> no line)
+  const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  function parseDate(s) {
+    let m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s); if (m) return new Date(+m[1], +m[2] - 1, +m[3]);
+    m = /^([A-Z][a-z]{2})[a-z]* (\d{1,2}), (\d{4})$/.exec(s); if (m && MONTHS.includes(m[1])) return new Date(+m[3], MONTHS.indexOf(m[1]), +m[2]);
+    return null;
+  }
+  const CHECKED_RE = /checked (\d{4}-\d{2}-\d{2}|[A-Z][a-z]{2,8} \d{1,2}, \d{4})/g;
+  function lastChecked(r) {
+    if (r.lc !== undefined) return r.lc ? parseDate(r.lc) : null; // precomputed by tools/build_data.py
+    let best = null;
+    const see = (d) => { if (d && !isNaN(d) && (!best || d > best)) best = d; };
+    for (const k of ["phoneSource", "source", "hoursNote", "kitchenNote"]) { const v = r[k]; if (typeof v === "string") for (const m of v.matchAll(CHECKED_RE)) see(parseDate(m[1])); }
+    for (const x of [...(r.happyHours || []), ...(r.specials || [])]) if (x.checked) see(parseDate(x.checked));
+    return best;
+  }
+  const checkedText = (d) => d ? `Checked ${MONTHS[d.getMonth()]} ${d.getDate()}${d.getFullYear() !== new Date().getFullYear() ? `, ${d.getFullYear()}` : ""}` : "";
   const openCards = new Set(); // which cards have Details expanded, so the 30-second refresh keeps them open
   function status(p) {
     if (p.is24) return { cls: "s-open", text: "Open 24 hours" };
@@ -333,12 +372,12 @@
         const kind = hasTag(top, "wings") ? ["b-wings", "🍗 Wings"] : hasTag(top, "beer") ? ["b-beer", "🍺 Beer"] : dd.hh.includes(top) ? ["b-hh", "Happy hour"] : ["b-sp", "Special"];
         const n = all.length - 1;
         const nowPill = live.length ? `<span class="badge b-now">${live.includes(top) ? "Now" : "HH now"}</span>` : "";
-        dline = `<div class="dline" aria-label="${dayWord} deals">${day !== now.d && day !== ALL ? `<span class="bday">${esc(d3)}</span>` : ""}<span class="badge ${kind[0]}">${kind[1]}</span>${nowPill}<span class="dtext">${day === ALL ? `<b class="ddays">${esc(prettyDays(top.days))}:</b> ` : ""}${esc(top.text)}${top.flag ? ` <span class="flag" title="${esc(top.flag)}">⚠</span>` : ""}</span>${n > 0 ? `<span class="dmore">+${n} more</span>` : ""}</div>`;
+        dline = `<div class="dline" aria-label="${dayWord} deals">${day !== now.d && day !== ALL ? `<span class="bday">${esc(d3)}</span>` : ""}<span class="badge ${kind[0]}">${kind[1]}</span>${nowPill}<span class="dtext">${top.days ? `<b class="ddays">${esc(dayWords(top.days))}:</b> ` : ""}${esc(top.text)}${top.flag ? ` <span class="flag" title="${esc(top.flag)}">⚠</span>` : ""}</span>${n > 0 ? `<span class="dmore">+${n} more</span>` : ""}</div>`;
       }
       const meta = [r.cuisine, r.priceLevel].filter(Boolean).map(esc).join(" · ");
-      const wk = (x) => `${esc(x.days.replace(/-/g, "–").replace(/,/g, "/"))}: ${dealHtml(x)}`;
-      const weekly = (r.specials || []).map(wk).join(" · ");
-      const weeklyHH = (r.happyHours || []).map(wk).join(" · ");
+      const wk = (x) => dealHtml(x);
+      const wkList = (list) => list && list.length ? `<ul class="wk">${list.map((x) => `<li>${wk(x)}</li>`).join("")}</ul>` : "";
+      const weekly = wkList(r.specials), weeklyHH = wkList(r.happyHours);
       const where = `${r.name}, ${r.address ? r.address + ", " : ""}${p.areaName}, PA`;
       const dirs = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(where)}`;
       const reviews = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(where)}`;
@@ -351,6 +390,7 @@
         <h2>${esc(r.name)}${meta ? ` <span class="meta">${meta}</span>` : ""}</h2>
         <div class="status ${st.cls}"><span class="dot" aria-hidden="true"></span><span>${esc(st.text)}</span>${kline}${tonight ? (tonightInfo(p).kitchen > 0 ? `<span class="lk lk-t" title="Kitchen open past 11 PM tonight (per listed kitchen hours)">🍔 Food till ${fmt(tonightInfo(p).kitchen)}</span>` : "") : lateKitchen(p) ? `<span class="lk" title="Kitchen open past 11 PM today (per listed kitchen hours)">Late kitchen</span>` : ""}</div>
         ${dline}
+        ${p.lc ? `<div class="lchk">${esc(p.lc)}</div>` : ""}
         <details class="more-info" data-key="${esc(ck)}"${openCards.has(ck) ? " open" : ""}>
           <summary>Details</summary>
           <div class="info">
@@ -360,8 +400,8 @@
             <div class="row"><b>Kitchen:</b> ${r.kitchen ? esc(pretty(r.kitchen)) : NL}${r.kitchenNote ? ` — ${esc(r.kitchenNote)}` : ""}</div>
             <div class="row"><b>${d3} happy hour:</b> <span class="deal">${dd.hh.length ? dd.hh.map(dealHtml).join("; ") : NL}</span></div>
             <div class="row"><b>${d3} specials:</b> <span class="deal">${dd.sp.length ? dd.sp.map(dealHtml).join("; ") : NL}</span></div>
-            ${weeklyHH ? `<div class="row"><b>Happy hours all week:</b> ${weeklyHH}</div>` : ""}
-            ${weekly ? `<div class="row"><b>Specials all week:</b> ${weekly}</div>` : ""}
+            ${weeklyHH ? `<div class="row"><b>Happy hours all week:</b>${weeklyHH}</div>` : ""}
+            ${weekly ? `<div class="row"><b>Specials all week:</b>${weekly}</div>` : ""}
             <div class="row"><b>Crowd:</b> ${r.crowd ? esc(r.crowd) : NL}</div>
             <div class="src">Source: ${esc(r.source)} · checked ${esc(p.checkedLabel)}</div>
             <div class="actions">
