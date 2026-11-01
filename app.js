@@ -89,7 +89,7 @@
   const nightsOn = (list, day) => (list || []).filter((n) => day === ALL || n.d === day);
   const shortDate = (iso) => { const m = /^(\d{4})-(\d\d)-(\d\d)$/.exec(iso || ""); return m ? new Date(+m[1], m[2] - 1, +m[3]).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }) : iso; };
   const PAGE = 40; // cards per "Show more" step, keeps big counties fast on phones
-  const shortArea = (n) => n.replace(/,? (PA|MD|DE|DC|GA|FL|VA|Washington,? DC)$/, "").replace(/(\S), Baltimore$/, "$1"); // "Canton, Highlandtown & Greektown, Baltimore" -> the County already says Baltimore City
+  const shortArea = (n) => n.replace(/,? (PA|MD|DE|DC|GA|FL|VA|WV|Washington,? DC)$/, "").replace(/(\S), Baltimore$/, "$1"); // "Canton, Highlandtown & Greektown, Baltimore" -> the County already says Baltimore City
 
   function prep(r, area, loc) {
     const w = parseWeek(r.hours);
@@ -252,6 +252,7 @@
     return best;
   }
   const checkedText = (d) => d ? `Checked ${MONTHS[d.getMonth()]} ${d.getDate()}${d.getFullYear() !== new Date().getFullYear() ? `, ${d.getFullYear()}` : ""}` : "";
+  const openLines = new Set(); // deal / karaoke / DJ lines tapped open to full text ("<card key>|<line>"), kept through refreshes
   const openCards = new Set(); // which cards have Details expanded, so the 30-second refresh keeps them open
   function status(p) {
     const now = nowOf(p);
@@ -402,18 +403,20 @@
       if (hhDeals && live.length) pick.unshift(live[0]);
       const top = pick[0] || all.find((x) => hasTag(x, "wings") || hasTag(x, "beer")) || dd.hh[0] || dd.sp[0];
       let dline = "";
+      // a tappable 2-line-clamped text: tap shows the full text, tap again clamps it
+      const dtx = (ln, inner) => { const o = openLines.has(`${ck}|${ln}`); return `<span class="dtext${o ? " full" : ""}" data-ln="${ln}" role="button" tabindex="0" aria-expanded="${o}">${inner}</span>`; };
       if (top) {
         const kind = hasTag(top, "wings") ? ["b-wings", "🍗 Wings"] : hasTag(top, "beer") ? ["b-beer", "🍺 Beer"] : dd.hh.includes(top) ? ["b-hh", "Happy hour"] : ["b-sp", "Special"];
         const n = all.length - 1;
         const nowPill = live.length ? `<span class="badge b-now">${live.includes(top) ? "Now" : "HH now"}</span>` : "";
-        dline = `<div class="dline" aria-label="${dayWord} deals">${day !== now.d && day !== ALL ? `<span class="bday">${esc(d3)}</span>` : ""}<span class="badge ${kind[0]}">${kind[1]}</span>${nowPill}<span class="dtext">${top.days ? `<b class="ddays">${esc(dayWords(top.days))}:</b> ` : ""}${esc(top.text)}${top.flag ? ` <span class="flag" title="${esc(top.flag)}">⚠</span>` : ""}</span>${n > 0 ? `<span class="dmore">+${n} more</span>` : ""}</div>`;
+        dline = `<div class="dline" aria-label="${dayWord} deals">${day !== now.d && day !== ALL ? `<span class="bday">${esc(d3)}</span>` : ""}<span class="badge ${kind[0]}">${kind[1]}</span>${nowPill}${dtx("d", `${top.days ? `<b class="ddays">${esc(dayWords(top.days))}:</b> ` : ""}${esc(top.text)}${top.flag ? ` <span class="flag" title="${esc(top.flag)}">⚠</span>` : ""}`)}${n > 0 ? `<button type="button" class="dmore" data-more="1">+${n} more</button>` : ""}</div>`;
       }
       // karaoke / DJ nights on the picked day (all of them on "All days"), e.g. "🎤 Karaoke Thu 10 pm", "🎧 DJ 2nd Thu monthly"
       const evLine = (list, cls, label, pfx) => {
         const ns = nightsOn(list, day);
         if (!ns.length) return "";
         const txt = ns.slice(0, 2).map((n) => n.w).join(" · ");
-        return `<div class="dline eline"><span class="badge ${cls}">${pfx} ${label}</span><span class="dtext">${esc(txt)}</span>${ns.length > 2 ? `<span class="dmore">+${ns.length - 2} more</span>` : ""}</div>`;
+        return `<div class="dline eline"><span class="badge ${cls}">${pfx} ${label}</span>${dtx(label, esc(txt))}${ns.length > 2 ? `<button type="button" class="dmore" data-more="1">+${ns.length - 2} more</button>` : ""}</div>`;
       };
       const elines = (kkOn || !djOn ? evLine(r.kk, "b-kk", "Karaoke", "🎤") + evLine(r.dj, "b-dj", "DJ", "🎧") : evLine(r.dj, "b-dj", "DJ", "🎧") + evLine(r.kk, "b-kk", "Karaoke", "🎤"));
       const ctLine = r.ct && r.ct.l && r.ct.l.length ? `<div class="ctype" title="${esc(r.ct.s)}"><span aria-hidden="true">👥</span> ${esc(r.ct.l.slice(0, 3).join(" · "))}</div>` : "";
@@ -661,7 +664,7 @@
   const stateInfo = (st) => (index.states || []).find((s) => s.id === st) || { id: st, name: st };
   const cityWord = () => (county && stateInfo(cSt(county)).cityWord) || "City"; // "Neighborhood" in Washington, DC
   function fillCounties(st) {
-    $("state").value = st;
+    $("state").value = st; $("county").dataset.st = st;
     const cs = index.counties.filter((c) => cSt(c) === st).sort((a, b) => cLabel(a).localeCompare(cLabel(b)));
     const tot = cs.reduce((n, c) => n + (c.places || 0), 0);
     $("county").innerHTML = (cs.length > 1 ? `<option value="all">All counties (${tot})</option>` : "") + cs.map((c) => `<option value="${esc(c.id)}">${esc(cLabel(c))} (${c.places})</option>`).join("");
@@ -773,7 +776,7 @@
     if (cs.length < 2) return loadCounty(cs.length ? cs[0].id : "lancaster", areaId);
     county = allCounty(st);
     allCids = new Set(cs.map((c) => c.id));
-    if ($("state").value !== st || !$("county").querySelector('option[value="all"]')) fillCounties(st);
+    if ($("county").dataset.st !== st || !$("county").querySelector('option[value="all"]')) fillCounties(st); // the State box already shows the new State on a change, so check which State the County list was built for
     $("county").value = "all";
     $("town").innerHTML = ""; // a new pick starts at All cities (or the linked city once its County arrives)
     rows = [];
@@ -919,7 +922,18 @@
     $("more").addEventListener("click", () => render(true));
     $("nearMe").addEventListener("click", () => { if (on("nearMe")) setNear(false); else if (here) setNear(true); else askLocation(); });
     $("sort").addEventListener("change", () => { if ($("sort").value === "near") { if (here) setNear(true); else askLocation(); } else $("nearMe").setAttribute("aria-pressed", "false"); });
+    // deal lines: tap the text to show all of it (tap again to clamp); "+N more" opens Details, where every deal is listed
+    const lineTap = (e) => {
+      const m = e.target.closest(".dmore[data-more]");
+      if (m) { const det = m.closest(".card").querySelector("details.more-info"); if (det) { det.open = true; det.scrollIntoView({ block: "nearest", behavior: "smooth" }); } e.stopPropagation(); return true; }
+      const t = e.target.closest(".dtext[data-ln]"); if (!t || e.target.closest(".flag")) return false;
+      const id = `${t.closest(".card").dataset.key}|${t.dataset.ln}`, o = !t.classList.contains("full");
+      t.classList.toggle("full", o); t.setAttribute("aria-expanded", o); if (o) openLines.add(id); else openLines.delete(id);
+      return true;
+    };
+    $("list").addEventListener("keydown", (e) => { if ((e.key === "Enter" || e.key === " ") && e.target.matches && e.target.matches(".dtext[data-ln]")) { e.preventDefault(); lineTap(e); } });
     $("list").addEventListener("click", (e) => {
+      if (lineTap(e)) return;
       const b = e.target.closest("[data-act]"); if (!b) return;
       const card = b.closest(".card"), key = card.dataset.key, p = findKey(key);
       if (b.dataset.act === "fav") {
