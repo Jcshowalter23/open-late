@@ -83,14 +83,16 @@
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
   // ---------- state
-  let city = null, rows = [], now = { d: 0, m: 0 }, dayTouched = false;
+  let city = null, rows = [], now = { d: 0, m: 0 }, dayTouched = false, shown = 0, loadSeq = 0;
+  const PAGE = 40; // cards per "Show more" step, keeps big counties fast on phones
+  const shortArea = (n) => n.replace(/, PA$/, "");
 
-  function prep(r) {
+  function prep(r, area) {
     const w = parseWeek(r.hours);
     const k = r.kitchen ? parseWeek(r.kitchen) : null;
     const is24 = r.hours === "Daily 24h";
     const late = w.some((dh) => dh && dh.some((iv) => iv[1] > 1440));
-    return { r, w, k, is24, vibes: late || is24 ? [...r.vibes, "Late night"] : r.vibes };
+    return { r, w, k, is24, vibes: late || is24 ? [...r.vibes, "Late night"] : r.vibes, area: area.id, areaName: shortArea(area.name), checkedLabel: area.checkedLabel };
   }
   function deals(p, d) {
     const f = (list) => (list || []).filter((x) => parseDays(x.days).includes(d));
@@ -121,15 +123,17 @@
     if (prevD !== now.d || !$("day").options.length) fillDay();
   }
 
-  function render() {
+  function render(more) {
     const q = $("q").value.trim().toLowerCase();
+    const town = city.isCounty ? $("town").value : "";
     const cuisine = $("cuisine").value, price = $("price").value, vibe = $("vibe").value;
     const openNow = $("openNow").checked, kitchenNow = $("kitchenNow").checked, onlyDeals = $("onlyDeals").checked;
     const wingDeals = $("wingDeals").checked, beerDeals = $("beerDeals").checked;
     const day = Number($("day").value), sort = $("sort").value;
     let list = rows.filter((p) => {
       const r = p.r;
-      if (q && !r.name.toLowerCase().includes(q)) return false;
+      if (town && p.area !== town) return false;
+      if (q && !r.name.toLowerCase().includes(q) && !(city.isCounty && p.areaName.toLowerCase().includes(q))) return false;
       if (cuisine !== "All" && r.cuisine !== cuisine) return false;
       if (price === "none" && r.priceLevel) return false;
       if (price !== "All" && price !== "none" && r.priceLevel !== price) return false;
@@ -159,10 +163,16 @@
       return sort === "late" ? kb - ka : ka - kb;
     });
     const kinds = [wingDeals && "wing", beerDeals && "beer"].filter(Boolean).join(" + ");
-    $("count").textContent = `Showing ${list.length} of ${rows.length} · ${kinds ? kinds + " deals" : "deals"} shown for ${DAY_LONG[day]}`;
+    $("count").textContent = `${list.length} of ${rows.length} places match · ${kinds ? kinds + " deals" : "deals"} shown for ${DAY_LONG[day]}`;
     $("empty").hidden = list.length > 0;
+    const prev = more ? shown : 0;
+    shown = more ? Math.min(list.length, shown + PAGE) : Math.min(list.length, PAGE);
+    const left = list.length - shown;
+    $("more").hidden = left <= 0;
+    $("more").textContent = `Show ${Math.min(PAGE, left)} more (${left} left)`;
+    const ACC = city.isCounty;
     const NL = "not listed";
-    $("list").innerHTML = list.map((p) => {
+    const html = list.slice(prev, shown).map((p) => {
       const r = p.r, s = stateAt(p.w, now.d, now.m, p.is24), dd = deals(p, day);
       let pill;
       if (p.is24) pill = `<span class="pill ok">Open 24 hours</span>`;
@@ -177,7 +187,7 @@
       const top = [...dd.hh, ...dd.sp].filter((x) => (wingDeals && hasTag(x, "wings")) || (beerDeals && hasTag(x, "beer")));
       const d3 = DAYS[day];
       return `<article class="card">
-        <h2>${esc(r.name)}</h2>
+        ${ACC ? `<div class="town">📍 ${esc(p.areaName)}</div>` : ""}<h2>${esc(r.name)}</h2>
         <div class="meta">${esc(r.cuisine)} · ${r.priceLevel ? esc(r.priceText) : "Price not listed"}<br>${esc(r.address || NL)}</div>
         <div class="pills">${pill}${kpill}</div>
         ${top.length ? `<div class="hit">${top.map(dealHtml).join("<br>")}</div>` : ""}
@@ -188,30 +198,75 @@
         ${weeklyHH ? `<div class="row"><b>Happy hours all week:</b> ${weeklyHH}</div>` : ""}
         ${weekly ? `<div class="row"><b>Specials all week:</b> ${weekly}</div>` : ""}
         <div class="row"><b>Crowd:</b> ${r.crowd ? esc(r.crowd) : NL}</div>
-        <div class="src">Source: ${esc(r.source)} · checked ${esc(city.checkedLabel)}</div>
+        <div class="src">Source: ${esc(r.source)} · checked ${esc(p.checkedLabel)}</div>
         <div class="links">${r.website ? `<a href="${esc(r.website)}" target="_blank" rel="noopener">Website</a>` : `<span class="row"><b>Website:</b> ${NL}</span>`}
-          <a href="${esc(mailto(r.name))}">Suggest an update</a></div>
+          <a href="${esc(mailto(r.name, p.areaName))}">Suggest an update</a></div>
       </article>`;
     }).join("");
+    if (more) $("list").insertAdjacentHTML("beforeend", html); else $("list").innerHTML = html;
   }
 
-  function mailto(place) {
-    const subj = place ? `Open Late update: ${place} (${city.name})` : `Open Late update (${city ? city.name : ""})`;
-    const body = `Restaurant name: ${place || ""}\nCity: ${city ? city.name : ""}\n\nWhat should change? (hours, kitchen closing time, specials, happy hour, crowd, website)\n\n\nWhere did you see it? (link, menu photo, or "I work there")\n\n\nYour name (optional):\n`;
+  function mailto(place, where) {
+    const cn = where || (city ? city.name : "");
+    const subj = place ? `Open Late update: ${place} (${cn})` : `Open Late update (${cn})`;
+    const body = `Restaurant name: ${place || ""}\nCity: ${cn}\n\nWhat should change? (hours, kitchen closing time, specials, happy hour, crowd, website)\n\n\nWhere did you see it? (link, menu photo, or "I work there")\n\n\nYour name (optional):\n`;
     return `mailto:${SUGGEST_TO}?subject=${encodeURIComponent(subj)}&body=${encodeURIComponent(body)}`;
   }
 
+  const live = (index) => index.areas.filter((a) => a.status === "live" && a.file);
+  const countyOf = (index, v) => (/^county:/.test(v || "") ? index.counties.find((c) => "county:" + c.id === v) : null);
+  function validSel(index, v) { return !!(countyOf(index, v) || live(index).some((a) => a.id === v)); }
+  function checkedRange(labels) {
+    const u = Array.from(new Set(labels));
+    if (u.length < 2) return u[0] || "";
+    const t = u.map((l) => [Date.parse(l), l]).sort((x, y) => x[0] - y[0]);
+    return `between ${t[0][1]} and ${t[t.length - 1][1]}`;
+  }
+  function setUrl(v) {
+    try {
+      const u = new URL(location.href);
+      u.searchParams.delete("area"); u.searchParams.delete("county");
+      const c = /^county:(.+)$/.exec(v);
+      if (c) u.searchParams.set("county", c[1]); else u.searchParams.set("area", v);
+      history.replaceState(null, "", u.pathname + u.search + u.hash);
+    } catch (e) { /* URL state is optional */ }
+  }
+
   async function loadCity(id, index) {
-    const live = index.areas.filter((a) => a.status === "live" && a.file);
-    const meta = live.find((c) => c.id === id) || live.find((c) => c.id === index.defaultArea) || live[0];
-    const res = await fetch(meta.file, { cache: "no-cache" });
-    city = await res.json();
-    city.timezone = city.timezone || meta.timezone;
-    rows = city.restaurants.map(prep);
+    const seq = ++loadSeq;
+    const county = countyOf(index, id);
+    let metas, isCounty = !!county;
+    if (county) metas = live(index).filter((a) => county.areas.includes(a.id));
+    else metas = [live(index).find((c) => c.id === id) || live(index).find((c) => c.id === index.defaultArea) || live(index)[0]];
+    $("count").textContent = isCounty ? `Loading all of ${county.name} County…` : "Loading…";
+    // all of a county's area files load in parallel, then merge
+    const files = await Promise.all(metas.map((m) => fetch(m.file, { cache: "no-cache" }).then((r) => { if (!r.ok) throw new Error(`${m.file}: HTTP ${r.status}`); return r.json(); })));
+    if (seq !== loadSeq) return; // a newer pick won
+    const merged = [];
+    files.forEach((f, i) => {
+      const area = { id: metas[i].id, name: f.name || metas[i].name, checkedLabel: f.checkedLabel };
+      for (const r of f.restaurants) if (!isCounty || r.county === county.name) merged.push(prep(r, area));
+    });
+    const tz = files[0].timezone || metas[0].timezone || "America/New_York";
+    city = isCounty
+      ? { isCounty: true, name: `${county.name} County, PA`, timezone: tz, checkedLabel: checkedRange(files.map((f) => f.checkedLabel)) }
+      : Object.assign(files[0], { timezone: tz });
+    rows = merged;
     $("cityName").textContent = city.name;
     $("checked").textContent = city.checkedLabel;
     document.title = `Open Late · ${city.name} restaurant hours, kitchen times & specials`;
-    opts($("cuisine"), ["All", ...Array.from(new Set(city.restaurants.map((r) => r.cuisine))).sort()]);
+    opts($("cuisine"), ["All", ...Array.from(new Set(rows.map((p) => p.r.cuisine))).sort()]);
+    // town sub-filter (county view only)
+    const tw = $("townWrap");
+    tw.hidden = !isCounty;
+    if (isCounty) {
+      const cnt = new Map();
+      for (const p of rows) cnt.set(p.area, (cnt.get(p.area) || 0) + 1);
+      const towns = metas.filter((m) => cnt.has(m.id)).map((m) => ({ value: m.id, label: `${shortArea(rows.find((p) => p.area === m.id).areaName)} (${cnt.get(m.id)})` })).sort((x, y) => x.label.localeCompare(y.label));
+      opts($("town"), [{ value: "", label: `All towns in ${county.name} County (${rows.length})` }, ...towns]);
+    }
+    $("q").placeholder = isCounty ? "Name or town, e.g. Lititz" : "e.g. Tellus";
+    $("qLabel").textContent = isCounty ? "Search by name or town" : "Search by name";
     $("suggest").href = mailto("");
     now = { d: -1, m: 0 };
     tick();
@@ -225,10 +280,24 @@
     const q = (filter || "").trim().toLowerCase().replace(/[.,]/g, "");
     const norm = (s) => s.toLowerCase().replace(/[.,]/g, "");
     let shown = 0, hasCur = false;
+    // each county's "(all)" option sits at the top of the region group that holds most of its places
+    const home = {};
+    for (const c of index.counties) {
+      const byRg = {};
+      for (const id of c.areas) { const a = index.areas.find((x) => x.id === id); if (a) byRg[a.region] = (byRg[a.region] || 0) + 1; }
+      const named = index.regions.find((rg) => rg.name.toLowerCase().startsWith(c.name.toLowerCase() + " county") && byRg[rg.id]);
+      home[c.id] = named ? named.id : Object.keys(byRg).sort((x, y) => byRg[y] - byRg[x])[0];
+    }
+    // typing "county" (or "lancaster county") narrows the list to whole-county options
+    const wantsCounty = /\bcount/.test(q);
+    const rgHit = (rg) => !wantsCounty && norm(rg.name).includes(q);
+    const cMatch = (c, rg) => !q || q.split(/\s+/).every((w) => `${norm(c.name)} county all`.includes(w)) || rgHit(rg);
     const html = index.regions.map((rg) => {
-      const items = index.areas.filter((a) => a.region === rg.id && (!q || norm(a.name).includes(q) || norm(rg.name).includes(q) || (a.aka || "").toLowerCase().includes(q))).sort((a, b) => a.name.localeCompare(b.name));
-      if (!items.length) return "";
-      return `<optgroup label="${esc(rg.name)}">` + items.map((a) => {
+      const cs = index.counties.filter((c) => home[c.id] === rg.id && cMatch(c, rg)).sort((a, b) => a.name.localeCompare(b.name));
+      const copts = cs.map((c) => { shown++; if ("county:" + c.id === cur) hasCur = true; return `<option value="county:${esc(c.id)}">${esc(c.name)} County (all · ${c.places})</option>`; }).join("");
+      const items = index.areas.filter((a) => a.region === rg.id && (!q || norm(a.name).includes(q) || rgHit(rg) || (a.aka || "").toLowerCase().includes(q))).sort((a, b) => a.name.localeCompare(b.name));
+      if (!items.length && !cs.length) return "";
+      return `<optgroup label="${esc(rg.name)}">` + copts + items.map((a) => {
         const live = a.status === "live" && a.file;
         shown++; if (a.id === cur) hasCur = true;
         return `<option value="${esc(a.id)}"${live ? "" : " disabled"}>${esc(a.name)}${live ? "" : " (coming soon)"}</option>`;
@@ -237,18 +306,23 @@
     const lead = !q ? "" : hasCur ? "" : `<option value="" disabled selected>${shown ? `${shown} match${shown === 1 ? "" : "es"} — pick one` : "No areas match"}</option>`;
     sel.innerHTML = lead + html;
     if (hasCur) sel.value = cur;
-    $("areaCount").textContent = q ? `${shown} area${shown === 1 ? "" : "s"} match` : "";
+    $("areaCount").textContent = q ? `${shown} match${shown === 1 ? "" : "es"}` : "";
   }
 
   async function init() {
     opts($("vibe"), VIBES);
     const index = await (await fetch("data/cities.json", { cache: "no-cache" })).json();
-    fillAreas(index);
+    // URL (?county=lancaster or ?area=lititz-pa) wins over the remembered pick
+    const sp = new URLSearchParams(location.search);
+    const fromUrl = sp.get("county") ? "county:" + sp.get("county").toLowerCase() : sp.get("area");
     const saved = localStorage.getItem("openlate.area");
-    const ok = (id) => index.areas.some((a) => a.id === id && a.status === "live" && a.file);
-    const start = ok(saved) ? saved : index.defaultArea;
+    const start = validSel(index, fromUrl) ? fromUrl : validSel(index, saved) ? saved : index.defaultArea;
+    fillAreas(index);
     $("city").value = start;
-    $("city").addEventListener("change", () => { if (!$("city").value) return; localStorage.setItem("openlate.area", $("city").value); dayTouched = false; loadCity($("city").value, index); });
+    if (validSel(index, fromUrl)) localStorage.setItem("openlate.area", start);
+    setUrl(start);
+    const pick = () => { const v = $("city").value; if (!v) return; localStorage.setItem("openlate.area", v); setUrl(v); dayTouched = false; $("town").value = ""; loadCity(v, index).catch(fail); };
+    $("city").addEventListener("change", pick);
     $("areaq").addEventListener("input", () => fillAreas(index, $("areaq").value));
     $("areaq").addEventListener("keydown", (e) => {
       if (e.key !== "Enter") return;
@@ -256,14 +330,18 @@
       const first = Array.from($("city").options).find((o) => o.value && !o.disabled);
       if (first) { $("city").value = first.value; $("city").dispatchEvent(new Event("change")); $("areaq").value = ""; fillAreas(index, ""); $("areaq").blur(); }
     });
-    ["q", "cuisine", "price", "vibe", "sort", "openNow", "kitchenNow", "onlyDeals", "wingDeals", "beerDeals"].forEach((id) => $(id).addEventListener(id === "q" ? "input" : "change", render));
+    ["q", "cuisine", "price", "vibe", "sort", "town", "openNow", "kitchenNow", "onlyDeals", "wingDeals", "beerDeals"].forEach((id) => $(id).addEventListener(id === "q" ? "input" : "change", () => render()));
     $("day").addEventListener("change", () => { dayTouched = true; render(); });
+    $("more").addEventListener("click", () => render(true));
     await loadCity(start, index);
-    setInterval(() => { tick(); render(); }, 30000);
-    document.addEventListener("visibilitychange", () => { if (!document.hidden && city) { tick(); render(); } });
+    // periodic refresh keeps how many cards were already revealed
+    const refresh = () => { const keep = shown; tick(); render(); while (shown < keep && !$("more").hidden) render(true); };
+    setInterval(refresh, 30000);
+    document.addEventListener("visibilitychange", () => { if (!document.hidden && city) refresh(); });
   }
 
-  init().catch((e) => { console.error(e); $("count").textContent = "Couldn't load restaurant data. Check your connection and reload."; });
+  function fail(e) { console.error(e); $("count").textContent = "Couldn't load restaurant data. Check your connection and reload."; }
+  init().catch(fail);
 
   if ("serviceWorker" in navigator) window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
 })();
