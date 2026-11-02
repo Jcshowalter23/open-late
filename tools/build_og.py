@@ -69,7 +69,19 @@ def home_image(n_places, n_counties, where="PA"):
     f2 = font(40, 500)
     d.text((x + 4, 312), "Who's open late, whose kitchen is", font=f2, fill=MUTED)
     d.text((x + 4, 362), "still serving & tonight's specials", font=f2, fill=MUTED)
-    d.text((x + 4, 448), (s := f"openlateapp.com · {n_places:,} places · " + (f"all {n_counties} PA counties" if where == "PA" else f"{n_counties} counties · {where}")), font=fit(d, s, 700, 30, 700, 22), fill=AMBER)
+    if where == "PA":
+        s = f"openlateapp.com · {n_places:,} places · all {n_counties} PA counties"
+        d.text((x + 4, 448), s, font=fit(d, s, 700, 30, 696, 22), fill=AMBER)
+    else:  # many states: URL + counts on one line, states wrapped below so nothing is clipped at the right edge
+        s = f"openlateapp.com · {n_places:,} places · {n_counties} counties"
+        d.text((x + 4, 440), s, font=fit(d, s, 700, 30, 696, 22), fill=AMBER)
+        f3 = font(26, 600); lines, cur = [], ""
+        for w_ in where.split(", "):
+            t = (cur + ", " + w_) if cur else w_
+            if d.textlength(t, font=f3) > 696 and cur: lines.append(cur + ","); cur = w_
+            else: cur = t
+        lines.append(cur)
+        for i, ln in enumerate(lines[:3]): d.text((x + 4, 486 + i * 34), ln, font=f3, fill=MUTED)
     return im
 
 def county_image(name, n_places, n_cities, n_late, n_deals, title=None, url=None):
