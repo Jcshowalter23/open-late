@@ -458,8 +458,8 @@
             <div class="src">Source: ${esc(String(r.source).replace(/\s*\(checked \d{4}-\d\d-\d\d\)/g, ""))} · checked ${esc(p.checkedLabel)}</div>
             <div class="actions">
               <a class="act" href="${esc(dirs)}" target="_blank" rel="noopener">Directions</a>
-              ${tel ? `<a class="act" href="tel:${esc(tel)}">Call</a>` : ""}
               <a class="act" href="${esc(reviews)}" target="_blank" rel="noopener">Reviews</a>
+              ${r.menu ? `<a class="act" href="${esc(r.menu)}" target="_blank" rel="noopener">Menu</a>` : ""}
               <button type="button" class="act" data-act="share">Share</button>
             </div>
             ${r.phone ? `<div class="row"><b>Phone:</b> <a href="tel:${esc(tel)}">${esc(r.phone)}</a></div>` : ""}
