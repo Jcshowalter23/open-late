@@ -1407,7 +1407,7 @@
    "address": "48342 Wynne Rd, Ridge",
    "state": "MD",
    "zip": "20680",
-   "phone": null,
+   "phone": "(301) 679-3900",
    "lat": 38.1102,
    "lng": -76.405,
    "priceText": "$$ (Facebook page)",
@@ -1452,7 +1452,8 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-26",
     "website": "https://pier450.com/"
-   }
+   },
+   "phoneSource": "Venue website pier450.com, checked 2026-11-01"
   },
   {
    "id": "md-plaza-tolteca",
@@ -1465,7 +1466,7 @@
    "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/California/982789655075879/Plaza-Tolteca), checked 2026-11-01",
    "lat": 38.2922,
    "lng": -76.4971,
-   "website": null,
+   "website": "https://www.plazatoltecarestaurant.com/",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-10:30p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1482,8 +1483,9 @@
     "facebookMirror": "https://www.foodyas.com/US/California/982789655075879/Plaza-Tolteca",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.plazatoltecarestaurant.com/"
+   },
+   "websiteSource": "OpenStreetMap way/296784206 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-ruccis-italian-kitchen-and-grille-leonardtow",
@@ -2299,6 +2301,31 @@
      "checked": "2026-11-01"
     }
    ]
+  },
+  {
+   "id": "md-the-greene-turtle-california",
+   "name": "The Greene Turtle",
+   "cuisine": "Restaurant",
+   "address": "23415 Three Notch Road, California",
+   "state": "MD",
+   "zip": "20619",
+   "phone": "(240) 237-8026",
+   "phoneSource": "OpenStreetMap way/48434955 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.310768,
+   "lng": -76.53384,
+   "website": "https://www.thegreeneturtle.com/location/california-md/",
+   "websiteSource": "OpenStreetMap way/48434955 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-12a; Fri-Sat 11a-1a; Sun 11a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/48434955 opening_hours tag (map data 2026-10-31; last checked on the map 2025-11-23) (checked 2026-11-01)",
+   "county": "St. Mary's",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "town",

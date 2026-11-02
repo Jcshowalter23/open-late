@@ -642,7 +642,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/sc/north-myrtle-beach/captain-archies-/ (updated 2026-10-19), checked 2026-11-01",
    "lat": 33.849605,
    "lng": -78.652023,
-   "website": null,
+   "website": "https://www.captainarchies.com/",
    "hours": "Daily 11a-11:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -695,8 +695,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.captainarchies.com/"
+   },
+   "websiteSource": "OpenStreetMap way/1058413903 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "sc-castaway-key-on-main",
@@ -1703,7 +1704,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/sc/north-myrtle-beach/rockefellers-raw-bar-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 33.689607,
    "lng": -78.952361,
-   "website": null,
+   "website": "https://www.rockefellersrawbar.com/",
    "hours": "Mon 11:30a-10p; Tue closed; Wed-Sun 11:30a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1722,8 +1723,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.rockefellersrawbar.com/"
+   },
+   "websiteSource": "OpenStreetMap way/670736460 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "sc-seablue",
@@ -2493,6 +2495,129 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   }
+  },
+  {
+   "id": "sc-hickory-tavern-north-myrtle-beach",
+   "name": "Hickory Tavern",
+   "cuisine": "Restaurant",
+   "address": "1580 US Highway 17 North, North Myrtle Beach",
+   "state": "SC",
+   "zip": "29582",
+   "phone": "(843) 249-6670",
+   "phoneSource": "OpenStreetMap way/1058417822 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 33.842274,
+   "lng": -78.660108,
+   "website": "https://www.thehickorytavern.com/",
+   "websiteSource": "OpenStreetMap way/1058417822 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$17 Domestic Buckets",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website hickorytavern.com/daily-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "$25 High Noon Buckets",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website hickorytavern.com/daily-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/1058417822 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Horry",
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7:00 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-12-30",
+      "datedLastSeen": "2026-12-30",
+      "postsSeen": 9,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://hickorytavern.com/locations/ashville/events/",
+        "date": "2026-12-30",
+        "quote": "Learn More | Asheville Trivia Night | December 30 2026 @ 7:00 PM EST | >> Trivia Night at Hickory Tavern Asheville | Put your knowledge to the test every Wednesday night at Hi... | Put your knowledge to the test every Wednesday night at Hi..."
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://hickorytavern.com/locations/ashville/events/",
+        "date": "2026-12-30",
+        "quote": "Learn More | Asheville Trivia Night | December 30 2026 @ 7:00 PM EST | >> Trivia Night at Hickory Tavern Asheville | Put your knowledge to the test every Wednesday night at Hi... | Put your knowledge to the test every Wednesday night at Hi..."
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://hickorytavern.com/locations/ashville/events/",
+        "date": "2026-12-23",
+        "quote": "Learn More | Asheville Trivia Night | December 23 2026 @ 7:00 PM EST | >> Trivia Night at Hickory Tavern Asheville | Put your knowledge to the test every Wednesday night at Hi... | Put your knowledge to the test every Wednesday night at Hi..."
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-12-11",
+      "quote": " nothing quite like great live music paired with food and drinks you actually love — and th... | Learn More | Asheville >> Asheville Trivia Night | December 16 2026 @ 7:00 PM EST",
+      "url": "https://hickorytavern.com/locations/ashville/events/"
+     },
+     {
+      "date": "2026-12-11",
+      "quote": " nothing quite like great live music paired with food and drinks you actually love — and th... | Learn More | Asheville >> Asheville Trivia Night | December 16 2026 @ 7:00 PM EST",
+      "url": "https://hickorytavern.com/locations/ashville/events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Asheville Trivia Night | November 04 2026 @ 7:00 PM EST",
+      "url": "https://hickorytavern.com/"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Asheville Music Bingo | November 05 2026 @ 6:00 PM EST | Think you know your music? Put it to the test every Thursday night at Hickory Tavern Asheville! Musi... | November 05 2026 @ 6:00 PM EST | Thin",
+      "url": "https://hickorytavern.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Asheville Music Bingo | November 05 2026 @ 6:00 PM EST | Think you know your music? Put it to the test every Thursday night at Hickory Tavern Asheville! Musi... | November 05 2026 @ 6:00 PM EST | Thin",
+      "url": "https://hickorytavern.com/locations/ashville/events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Asheville Music Bingo | November 12 2026 @ 6:00 PM EST | Think you know your music? Put it to the test every Thursday night at Hickory Tavern Asheville! Musi... | November 12 2026 @ 6:00 PM EST | Thin",
+      "url": "https://hickorytavern.com/locations/ashville/events/"
+     }
+    ]
    }
   }
  ],

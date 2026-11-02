@@ -1891,7 +1891,7 @@
    "cuisine": "Italian",
    "address": "Baltimore, Baltimore",
    "state": "MD",
-   "phone": null,
+   "phone": "(410) 837-9999",
    "lat": 39.3035,
    "lng": -76.6164,
    "priceText": "$$ (Facebook page)",
@@ -1916,7 +1916,8 @@
     "fbPostsSeen": 3,
     "fbNewestPost": "2026-10-13",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap way/336371084 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-sandras-kitchen-indian-cuisine",
@@ -3051,6 +3052,286 @@
     "fbNewestPost": "2026-04-09",
     "website": null
    }
+  },
+  {
+   "id": "md-san-pablo-street-tacos-baltimore",
+   "name": "San Pablo Street Tacos",
+   "cuisine": "Mexican",
+   "address": "800 Saint Paul Street, Baltimore",
+   "state": "MD",
+   "zip": "21202",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 39.298769,
+   "lng": -76.614305,
+   "website": "https://www.sanpablotacos.com/",
+   "websiteSource": "OpenStreetMap node/1660858327 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 8a-6a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/1660858327 opening_hours tag (map data 2026-10-31; last checked on the map 2024-01-02) (checked 2026-11-01)",
+   "county": "Baltimore City",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "md-leons-baltimore",
+   "name": "Leon’s",
+   "cuisine": "Bar",
+   "address": "870 Park Avenue, Baltimore",
+   "state": "MD",
+   "zip": "21201",
+   "phone": "(410) 359-4850",
+   "phoneSource": "OpenStreetMap way/336378599 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 39.301515,
+   "lng": -76.618947,
+   "website": "https://www.leonsofbaltimore.com/",
+   "websiteSource": "OpenStreetMap way/336378599 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon 4p-12a; Tue-Sun 4p-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap way/336378599 opening_hours tag (map data 2026-10-31; last checked on the map 2025-11-08) (checked 2026-11-01)",
+   "county": "Baltimore City",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "LGBTQ-friendly"
+    ],
+    "summary": "LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.leonsofbaltimore.com/",
+        "quote": "appy to be back! | Buy Gift Cards here! | Halloween Week Events: | HAPPY HOUR | KARAOKE | DRAG SHOW | SOCIALS | Daily | 4pm - 9pm | Facebook | Instagram | Select Domestic Beers and Select L",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "9PM until Midnight",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.leonsofbaltimore.com/",
+        "date": "2026-11-01",
+        "quote": "We have Karaoke on Sundays, Tuesdays and Thursdays from 9PM until Midnight with Stacey as our host"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.leonsofbaltimore.com/events",
+        "date": "2026-11-01",
+        "quote": "Tuesday Boozday Karaoke | On Tuesdays we have our host Stacey"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.leonsofbaltimore.com/events",
+        "date": "2026-11-01",
+        "quote": "bringing Karaoke to you on Tuesdays in the Backroom"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "9PM until Midnight",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.leonsofbaltimore.com/",
+        "date": "2026-11-01",
+        "quote": "We have Karaoke on Sundays, Tuesdays and Thursdays from 9PM until Midnight with Stacey as our host"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.leonsofbaltimore.com/events",
+        "date": "2026-11-01",
+        "quote": "Sip & Spin Karaoke & Trivia | THURSDAY | On Thursdays we have our host Stacey"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.leonsofbaltimore.com/events",
+        "date": "2026-11-01",
+        "quote": "bringing Karaoke to you in the Backroom | On Thursdays we have our host Stacey"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": "9PM until Midnight",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.leonsofbaltimore.com/",
+        "date": "2026-11-01",
+        "quote": "We have Karaoke on Sundays, Tuesdays and Thursdays from 9PM until Midnight with Stacey as our host"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.leonsofbaltimore.com/events",
+        "date": "2026-11-01",
+        "quote": "Karaoke | SUNDAY"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.leonsofbaltimore.com/events",
+        "date": "2026-11-01",
+        "quote": "Sundays we have our host Stacey at the helm of Karaoke on Sundays in the Backroom"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "KARAOKE",
+      "url": "https://www.leonsofbaltimore.com/"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.leonsofbaltimore.com/events",
+        "date": "2026-11-01",
+        "quote": " We have DJs, Drag Shows, Bear Nights, Leather Nights and much more happening on a Saturday"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "We have trivia with Stacey every 2nd & 4th Wednesday of the month",
+      "url": "https://www.leonsofbaltimore.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Sip & Spin Karaoke & Trivia | THURSDAY | On Thursdays we have our host Stacey",
+      "url": "https://www.leonsofbaltimore.com/events"
+     }
+    ]
+   }
+  },
+  {
+   "id": "md-club-charles-baltimore",
+   "name": "Club Charles",
+   "cuisine": "Bar",
+   "address": "1724-26 Charles Street North, Baltimore",
+   "state": "MD",
+   "zip": "21201",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 39.309502,
+   "lng": -76.616711,
+   "website": "http://clubcharles.us/",
+   "websiteSource": "OpenStreetMap node/9721745117 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Sat 6p-2a; Sun 6p-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/9721745117 opening_hours tag (map data 2026-10-31) (checked 2026-11-01); active on-premise license: Baltimore City liquor licenses (Open Baltimore, downloaded 2026-11-01), address from license",
+   "county": "Baltimore City",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "md-the-club-car-baltimore",
+   "name": "The Club Car",
+   "cuisine": "Bar",
+   "address": "12 West North Avenue, Baltimore",
+   "state": "MD",
+   "zip": "21201",
+   "phone": "(443) 591-0364",
+   "phoneSource": "OpenStreetMap way/253128341 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 39.311447,
+   "lng": -76.617033,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Mon-Wed closed; Thu 5p-10p; Fri-Sat 6p-1a; Sun 5p-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap way/253128341 opening_hours tag (map data 2026-10-31) (checked 2026-11-01); active on-premise license: Baltimore City liquor licenses (Open Baltimore, downloaded 2026-11-01)",
+   "county": "Baltimore City",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "neighborhood",

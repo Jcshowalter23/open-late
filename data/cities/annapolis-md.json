@@ -1786,7 +1786,7 @@
    "address": "2430 Solomons Island Rd, Annapolis",
    "state": "MD",
    "zip": "21401",
-   "phone": null,
+   "phone": "(410) 573-4932",
    "lat": 38.9769,
    "lng": -76.5408,
    "priceText": "$$ (Facebook page)",
@@ -1810,7 +1810,8 @@
     "fbNewestPost": "2026-10-13",
     "website": "https://chevysmd.com/locations/annapolis-chevys-location/"
    },
-   "menu": "https://chevysmd.com/menu/"
+   "menu": "https://chevysmd.com/menu/",
+   "phoneSource": "OpenStreetMap way/367133837 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-chevys-fresh-mex",
@@ -3881,7 +3882,7 @@
    "zip": "21401",
    "phone": "(443) 221-7283",
    "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Annapolis/116389121513599/Jongro-Korean-BBQ), checked 2026-11-01",
-   "website": null,
+   "website": "https://injubbqannapolis.com/",
    "hours": "Mon-Thu 11a-10p; Fri 11a-11p; Sat 11a-12a; Sun 11a-11p",
    "hoursNote": "Restaurantji (updated 2026-10-31) lists different hours: Mon-Thu 11a-10p; Fri-Sat 11a-12a; Sun 11a-10p. Call ahead to confirm.",
    "kitchen": null,
@@ -3900,7 +3901,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Annapolis/116389121513599/Jongro-Korean-BBQ",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-13",
-    "website": null
+    "website": "https://injubbqannapolis.com/"
    },
    "conflicts": [
     {
@@ -3916,7 +3917,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "websiteSource": "OpenStreetMap node/14056978710 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-joss-cafe-and-sushi-bar-annapolis",
@@ -4571,7 +4573,7 @@
    "lng": -76.6015,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://luresbarandgrille.com/",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -4598,7 +4600,30 @@
     "facebookMirror": "https://www.foodyas.com/US/Crownsville/209060439124798/Lures-Bar-and-Grille",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "https://luresbarandgrille.com/"
+   },
+   "websiteSource": "OpenStreetMap way/436758955 website tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://luresbarandgrille.com/",
+        "quote": "lle area. It’s my favorite place to eat when I’m in Maryland!” | Tia Achey | “Lures is My neighborhood bar even though I don’t live nearby. Owner, managers and staff treat me more as a friend then",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -8189,6 +8214,58 @@
     "fbNewestPost": "2026-10-28",
     "website": null
    }
+  },
+  {
+   "id": "md-dark-horse-annapolis",
+   "name": "Dark Horse",
+   "cuisine": "Pub",
+   "address": "985 Bay Ridge Road, Annapolis",
+   "state": "MD",
+   "zip": "21403",
+   "phone": "(443) 437-3072",
+   "phoneSource": "OpenStreetMap node/1168263079 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.945995,
+   "lng": -76.486279,
+   "website": "https://darkhorseannapolis.com/",
+   "websiteSource": "OpenStreetMap node/1168263079 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 11a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/1168263079 opening_hours tag (map data 2026-10-31; last checked on the map 2022-12-08) (checked 2026-11-01)",
+   "county": "Anne Arundel",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "md-roccos-pizzeria-annapolis",
+   "name": "Rocco's Pizzeria",
+   "cuisine": "Pizza",
+   "address": "954 Bay Ridge Road, Annapolis",
+   "state": "MD",
+   "zip": "21403",
+   "phone": "(410) 263-9444",
+   "phoneSource": "OpenStreetMap node/4343772031 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.948132,
+   "lng": -76.486587,
+   "website": "https://www.roccospizzashop.com/",
+   "websiteSource": "OpenStreetMap node/4343772031 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/4343772031 opening_hours tag (map data 2026-10-31; last checked on the map 2023-09-24) (checked 2026-11-01)",
+   "county": "Anne Arundel",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "city",

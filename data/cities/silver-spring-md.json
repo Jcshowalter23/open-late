@@ -3068,7 +3068,7 @@
    "lng": -77.0275,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://java-nation.com/pageSilverSpring.html",
    "hours": "Mon-Wed 9a-9p; Thu-Sat 9a-10p; Sun 9a-9p",
    "hoursNote": "Restaurantji (updated 2026-11-01) lists different hours: Mon-Thu 7a-8p; Fri 7a-9p; Sat 8a-9p; Sun 8a-8p. Call ahead to confirm.",
    "kitchen": null,
@@ -3107,7 +3107,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Silver-Spring/252914147907617/Java-Nation",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "https://java-nation.com/pageSilverSpring.html"
    },
    "conflicts": [
     {
@@ -3128,7 +3128,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "websiteSource": "OpenStreetMap node/12405213536 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-jc-crab-house",
@@ -5149,7 +5150,7 @@
    "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Silver-Spring/483876278146493/Pansa-Llena-Mexican-Grill), checked 2026-11-01",
    "lat": 39.041,
    "lng": -76.991,
-   "website": null,
+   "website": "http://www.pansallena.com/",
    "hours": "Mon-Fri 10:30a-11:30p; Sat-Sun 10:30a-1:30a",
    "hoursNote": "Hours differ by source: Facebook page lists Mon-Thu 10:30a-11p; Fri-Sat 10:30a-12a; Sun 10:30a-11p (no posts since May 2026); Restaurantji (updated 2026-09-19) used as newer. Call ahead.",
    "kitchen": null,
@@ -5190,7 +5191,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Silver-Spring/483876278146493/Pansa-Llena-Mexican-Grill",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.pansallena.com/"
    },
    "conflicts": [
     {
@@ -5211,7 +5212,8 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "websiteSource": "OpenStreetMap node/6641826791 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-pansa-llena-mexican-grill-silver-spring",
@@ -6134,7 +6136,7 @@
    "lng": -76.9959,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://www.samanthasrestaurante.com/home.html",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -6173,8 +6175,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Silver-Spring/139702406063011/Samantha%27s-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-25",
-    "website": null
-   }
+    "website": "https://www.samanthasrestaurante.com/home.html"
+   },
+   "websiteSource": "OpenStreetMap way/512128844 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-san-pancho",
@@ -6215,7 +6218,7 @@
    "cuisine": "Peruvian",
    "address": "Olney, Olney",
    "state": "MD",
-   "phone": null,
+   "phone": "(301) 774-2500",
    "lat": 39.1529,
    "lng": -77.0677,
    "priceText": "$$ (Facebook page)",
@@ -6238,7 +6241,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/12053433435 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-sarku-japan",
@@ -7195,7 +7199,7 @@
    "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Silver-Spring/466306160196014/Spring-Garden-8613), checked 2026-11-01",
    "lat": 38.9976,
    "lng": -77.0379,
-   "website": null,
+   "website": "https://www.springgardensilverspring.com/",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -7212,8 +7216,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Silver-Spring/466306160196014/Spring-Garden-8613",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.springgardensilverspring.com/"
+   },
+   "websiteSource": "OpenStreetMap node/9095808575 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-squisito-pizza-and-pasta-burtonsville",
@@ -7525,13 +7530,24 @@
    "lng": -77.0266,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://www.thaiatsilverspring.com",
    "hours": "Daily 11a-10p",
    "hoursNote": "Hours differ by source: Facebook page lists Mon-Thu 11:30a-10p; Fri 11:30a-11p; Sat 12p-11p; Sun 12p-10p (no posts since May 2026); Restaurantji (updated 2026-09-29) used as newer. Call ahead.",
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$2 off Wine, Miller Light, Coors Light",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website thaiatrestaurants.com/thai-at-silver-spring",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji (updated 2026-09-29; newer than any Facebook activity) (checked 2026-11-01)",
@@ -7542,7 +7558,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Silver-Spring/1538740653100651/Thai-at-silver-spring",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.thaiatsilverspring.com"
    },
    "conflicts": [
     {
@@ -7563,7 +7579,8 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "websiteSource": "OpenStreetMap node/459790883 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-thai-at-silverspring",
@@ -8490,6 +8507,31 @@
     "website": "https://zenerestaurant.com/"
    },
    "menu": "https://zenerestaurant.com/menu/"
+  },
+  {
+   "id": "md-firepan-korean-bbq-silver-spring",
+   "name": "Firepan Korean BBQ",
+   "cuisine": "Korean",
+   "address": "962 Wayne Avenue, Silver Spring",
+   "state": "MD",
+   "zip": null,
+   "phone": "(240) 641-5948",
+   "phoneSource": "OpenStreetMap node/13123538366 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.994258,
+   "lng": -77.026149,
+   "website": "https://www.firepankbbq.com/",
+   "websiteSource": "OpenStreetMap node/13123538366 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11:30a-11p; Fri-Sat 11:30a-12a; Sun 11:30a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/13123538366 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Montgomery",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "city",

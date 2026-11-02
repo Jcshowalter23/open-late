@@ -18,7 +18,7 @@
    "lng": -76.9998,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://amparofondita.com/",
    "hours": "Mon-Tue closed; Wed-Thu 5:30p-10p; Fri-Sat 5:30p-11p; Sun 11a-2p",
    "hoursNote": "Facebook shows only Sun 11am - 2pm for that day (may be a lunch/brunch-only listing); call ahead. Restaurantji (updated 2026-10-29) lists different hours: Mon closed; Tue-Fri 5p-10p; Sat 11a-10p; Sun 11a-9p. Call ahead to confirm.",
    "kitchen": null,
@@ -44,7 +44,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.c./133715477309465/Amparo-Fondita",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "https://amparofondita.com/"
    },
    "conflicts": [
     {
@@ -64,7 +64,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "websiteSource": "OpenStreetMap node/13093798767 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "dc-aris-diner",
@@ -108,7 +109,7 @@
    "address": "600 Howard Rd, SE, Washington, DC",
    "state": "DC",
    "zip": "20020",
-   "phone": null,
+   "phone": "(202) 832-0420",
    "lat": 38.9148,
    "lng": -76.9814,
    "priceText": "$ (Facebook page)",
@@ -145,7 +146,8 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-14",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/4897784553 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "dc-banana-blossom-bistro",
@@ -257,12 +259,21 @@
    "lng": -76.9991,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://www.binge-bar.com/",
    "hours": "Mon-Tue closed; Wed-Thu 5p-10p; Fri-Sat 5p-11p; Sun 2p-7p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour @ 5pm-8pm",
+     "tags": [],
+     "src": "Venue website binge-bar.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -321,8 +332,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./129249682211225/Binge-Bar",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-05-22",
-    "website": null
-   }
+    "website": "https://www.binge-bar.com/"
+   },
+   "websiteSource": "OpenStreetMap node/3137214930 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "dc-bub-and-pops",
@@ -3325,6 +3337,408 @@
      }
     ]
    }
+  },
+  {
+   "id": "dc-the-haymaker-washington",
+   "name": "The Haymaker",
+   "cuisine": "Bar",
+   "address": "1015 H Street Northeast, Washington",
+   "state": "DC",
+   "zip": "20002",
+   "phone": "(202) 399-0020",
+   "phoneSource": "OpenStreetMap node/737404989 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.899996,
+   "lng": -76.992059,
+   "website": "https://www.thehaymakerdc.com/",
+   "websiteSource": "OpenStreetMap node/737404989 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 6p-1a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "HAPPY HOUR 5-7pm",
+     "tags": [],
+     "src": "Venue website thehaymakerdc.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/737404989 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thehaymakerdc.com/",
+        "quote": "ntimate space is the perfect spot to unwind after work, hang out with friends, or enjoy a romantic date night. | FOOD & BEVERAGE MENU | HOURS | Monday – Saturday | 11am - Midnight | HAPPY",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "dc-sid-golds-request-room-washington",
+   "name": "Sid Gold's Request Room",
+   "cuisine": "Bar",
+   "address": "1262 5th Street Northeast, Washington",
+   "state": "DC",
+   "zip": "20002",
+   "phone": "(929) 260-1070",
+   "phoneSource": "OpenStreetMap node/3007954896 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.907929,
+   "lng": -76.998829,
+   "website": "https://sidgolds.com/washington-dc/",
+   "websiteSource": "OpenStreetMap node/3007954896 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Tue closed; Wed 8:30p-12:30a; Thu-Sun 9p-1a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "HAPPY HOUR until 8pm",
+     "tags": [],
+     "src": "Venue website sidgolds.com/washington-dc",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/3007954896 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "6:00 pm",
+      "basis": "posted on 2 different Weds",
+      "lastSeen": "2026-11-11",
+      "datedLastSeen": "2026-11-11",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://sidgolds.com/washington-dc/events/",
+        "date": "2026-11-11",
+        "quote": "Showtunes Singalong Happy Hour with Zack Ford | Wed November 11 @ 6:00 pm | Wed November 11 @ 6:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://sidgolds.com/nashville/nashville-events/",
+        "date": "2026-11-04",
+        "quote": "PIANO KARAOKE w/Paul Loren | Wed November 4 @ 9:00 pm | Wed November 4 @ 9:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://sidgolds.com/washington-dc/events/",
+        "date": "2026-11-04",
+        "quote": "Showtunes Singalong Happy Hour with Zack Ford | Wed November 4 @ 6:00 pm | Wed November 4 @ 6:00 pm"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-07",
+      "quote": "Piano Karaoke with Joe McGinty | Sat November 7 @ 8:00 pm | Sat November 7 @ 8:00 pm",
+      "url": "https://sidgolds.com/washington-dc/events/"
+     },
+     {
+      "date": "2026-11-06",
+      "quote": "Piano Karaoke with Joe McGinty | Fri November 6 @ 8:00 pm | Fri November 6 @ 8:00 pm",
+      "url": "https://sidgolds.com/washington-dc/events/"
+     },
+     {
+      "date": "2026-11-05",
+      "quote": "DRUNKEN DISNEY SINGALONG | Thu November 5 @ 7:00 pm | Thu November 5 @ 7:00 pm",
+      "url": "https://sidgolds.com/nashville/nashville-events/"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-04",
+      "quote": "FRONT BAR: BYO Vinyl w/WNXP DJ Jude Mason & Soccer Moses | Wed November 4 @ 6:00 pm | Wed November 4 @ 6:00 pm",
+      "url": "https://sidgolds.com/nashville/nashville-events/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "dc-bidwell-washington",
+   "name": "Bidwell",
+   "cuisine": "Restaurant",
+   "address": "1309 5th Street Northeast, Washington",
+   "state": "DC",
+   "zip": "20002",
+   "phone": "(202) 547-0172",
+   "phoneSource": "OpenStreetMap node/4644797068 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.908667,
+   "lng": -76.99779,
+   "website": "https://www.bidwelldc.com/",
+   "websiteSource": "OpenStreetMap node/4644797068 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon closed; Tue 11:30a-10p; Wed closed; Thu 11:30a-10p; Fri 11:30a-12a; Sat 9:30a-11p; Sun 9:30a-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/4644797068 opening_hours tag (map data 2026-10-31; last checked on the map 2025-03-06) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-focus-washington",
+   "name": "Focus",
+   "cuisine": "Bar",
+   "address": "1348 H Street Northeast, Washington",
+   "state": "DC",
+   "zip": "20002",
+   "phone": "(202) 850-9055",
+   "phoneSource": "OpenStreetMap node/6432768813 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.900346,
+   "lng": -76.986671,
+   "website": "https://www.focusindc.com/",
+   "websiteSource": "OpenStreetMap node/6432768813 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Wed closed; Thu 5p-2a; Fri 5p-3a; Sat 1p-3a; Sun 12p-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/6432768813 opening_hours tag (map data 2026-10-31; last checked on the map 2026-07-13) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-last-call-washington",
+   "name": "Last Call",
+   "cuisine": "Bar",
+   "address": "1301 4th Street Northeast, Washington",
+   "state": "DC",
+   "zip": "20002",
+   "phone": "(202) 543-2051",
+   "phoneSource": "OpenStreetMap node/10223950015 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.909018,
+   "lng": -76.998682,
+   "website": "https://www.lastcallbardc.com/",
+   "websiteSource": "OpenStreetMap node/10223950015 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 5p-2a; Fri 5p-3a; Sat 12p-3a; Sun 12p-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/10223950015 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "TRIVIA ON TUESDAYS",
+      "url": "https://www.lastcallbardc.com/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "dc-cotton-reed-washington",
+   "name": "Cotton & Reed",
+   "cuisine": "Bar",
+   "address": "1330 5th Street Northeast, Washington",
+   "state": "DC",
+   "zip": "20002",
+   "phone": "(202) 544-2805",
+   "phoneSource": "OpenStreetMap node/10562833515 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.909541,
+   "lng": -76.997709,
+   "website": "https://www.cottonandreed.com/",
+   "websiteSource": "OpenStreetMap node/10562833515 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 4p-12a; Fri 4p-2a; Sat 12p-2a; Sun 12p-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/10562833515 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-crooked-run-fermentation-washington",
+   "name": "Crooked Run Fermentation",
+   "cuisine": "Bar",
+   "address": "550 Morse Street Northeast, Washington",
+   "state": "DC",
+   "zip": "20002",
+   "phone": "(202) 355-9010",
+   "phoneSource": "OpenStreetMap node/10717552276 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.907237,
+   "lng": -76.998049,
+   "website": "https://crookedrunfermentation.com/washington-dc/",
+   "websiteSource": "OpenStreetMap node/10717552276 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11:30a-10p; Fri-Sat 11:30a-12a; Sun 11:30a-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [
+    {
+     "days": "Fri,Sat",
+     "text": "$12 Two slices of J&J Pizza (Cheese or Pepperoni) and a 12oz beer M - F open until 6pm AND Friday and Saturday 11pm - 12am $3 pizza slices, $3 shots, $3 select beers",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website crookedrunfermentation.com/washington-dc",
+     "checked": "2026-11-01"
+    }
+   ],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/10717552276 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "9pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.crookedrunfermentation.com/washington-dc",
+        "date": "2026-11-01",
+        "quote": "Karaoke at 9pm | Friday | Weekly Happy Hour"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "trivia": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.crookedrunfermentation.com/washington-dc",
+        "date": "2026-11-01",
+        "quote": "Cap City Trivia hosts Trivia starting at 7pm | Wednesday"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Cap City Trivia hosts Trivia starting at 7pm | Wednesday",
+      "url": "https://www.crookedrunfermentation.com/washington-dc"
+     }
+    ]
+   }
+  },
+  {
+   "id": "dc-dumpling-hot-pot-beyond-washington",
+   "name": "Dumpling Hot Pot Beyond",
+   "cuisine": "Chinese",
+   "address": "1216 H Street Northeast, Washington",
+   "state": "DC",
+   "zip": "20002",
+   "phone": "(202) 450-1405",
+   "phoneSource": "OpenStreetMap node/12518811923 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.900357,
+   "lng": -76.989567,
+   "website": "https://www.dumplinghotpotbeyond.com/",
+   "websiteSource": "OpenStreetMap node/12518811923 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Fri 5p-12a; Sat 11:30a-10:30p; Sun 12:30p-8:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/12518811923 opening_hours tag (map data 2026-10-31; last checked on the map 2026-05-06) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "neighborhood",

@@ -1286,7 +1286,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/nc/concord/fresh-off-the-grill-/ (updated 2026-10-14), checked 2026-11-01",
    "lat": 35.414055,
    "lng": -80.662364,
-   "website": null,
+   "website": "https://itsgrilltime.com/",
    "hours": "Mon-Sat 10a-9p; Sun 11a-3p",
    "hoursNote": null,
    "kitchen": null,
@@ -1327,8 +1327,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://itsgrilltime.com/"
+   },
+   "websiteSource": "OpenStreetMap way/997491145 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "nc-fresh-off-the-grill-concord",
@@ -3284,6 +3285,58 @@
     "fbNewestPost": null,
     "website": null
    }
+  },
+  {
+   "id": "nc-bjs-restaurant-brewhouse-concord",
+   "name": "BJ's Restaurant & Brewhouse",
+   "cuisine": "Restaurant",
+   "address": "8435 Concord Mills Boulevard, Concord",
+   "state": "NC",
+   "zip": "28027",
+   "phone": "(980) 777-7030",
+   "phoneSource": "OpenStreetMap node/11380461122 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 35.3702,
+   "lng": -80.721064,
+   "website": "https://bjsrestaurants.com/",
+   "websiteSource": "OpenStreetMap node/11380461122 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Sat 11a-12a; Sun 11a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/11380461122 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Cabarrus",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "nc-tailored-smoke-cigar-lounge-concord",
+   "name": "Tailored Smoke Cigar Lounge",
+   "cuisine": "Bar",
+   "address": "8633 Concord Mills Boulevard, Concord",
+   "state": "NC",
+   "zip": "28027",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 35.373283,
+   "lng": -80.727637,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Mon-Tue 1p-11p; Wed-Thu 1p-12a; Fri-Sat 1p-2a; Sun 1p-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/469519281 opening_hours tag (map data 2026-10-31) (checked 2026-11-01); active on-premise license: NC ABC Commission permit search export (on-premise, active; downloaded 2026-11-01)",
+   "county": "Cabarrus",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "city",

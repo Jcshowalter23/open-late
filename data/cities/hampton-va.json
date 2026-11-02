@@ -383,7 +383,7 @@
    "address": "9 South Mallory St, Hampton",
    "state": "VA",
    "zip": "23663",
-   "phone": null,
+   "phone": "(757) 869-6752",
    "lat": 37.0189,
    "lng": -76.3215,
    "website": null,
@@ -462,7 +462,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
-   }
+   },
+   "phoneSource": "Virginia ABC licensee export (LicenseSearchReport.xlsx, run 11/1/2026) premises phone, checked 2026-11-01"
   },
   {
    "id": "va-cyprus-grille",
@@ -567,7 +568,7 @@
    "address": "4330 Kecoughtan Rd, Hampton",
    "state": "VA",
    "zip": "23669",
-   "phone": null,
+   "phone": "(757) 869-6752",
    "lat": 37.018038,
    "lng": -76.352794,
    "website": null,
@@ -616,7 +617,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
-   }
+   },
+   "phoneSource": "Virginia ABC licensee export (LicenseSearchReport.xlsx, run 11/1/2026) premises phone, checked 2026-11-01"
   },
   {
    "id": "va-franks-monster-munchies-cantina",
@@ -1029,7 +1031,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/hampton/japan-sushi-house-/ (updated 2026-10-01), checked 2026-11-01",
    "lat": 37.056911,
    "lng": -76.427774,
-   "website": null,
+   "website": "https://www.japansushihousehampton.com/",
    "hours": "Mon closed; Tue-Thu 11a-9:15p; Fri-Sat 11a-9:45p; Sun 12p-8:45p",
    "hoursNote": null,
    "kitchen": null,
@@ -1046,8 +1048,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.japansushihousehampton.com/"
+   },
+   "websiteSource": "OpenStreetMap node/12230784930 website tag (map data 2026-11-01), checked 2026-11-01"
   },
   {
    "id": "va-jerk-sauce",
@@ -2821,7 +2824,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/hampton/surf-rider-restaurant-/ (updated 2026-10-30), checked 2026-11-01",
    "lat": 37.014306,
    "lng": -76.346342,
-   "website": null,
+   "website": "https://www.surfriderrestaurant.com/",
    "hours": "Mon closed; Tue-Sat 11a-9p; Sun 11a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -2838,8 +2841,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.surfriderrestaurant.com/"
+   },
+   "websiteSource": "OpenStreetMap node/8666569271 website tag (map data 2026-11-01), checked 2026-11-01"
   },
   {
    "id": "va-sushi-king-hampton",
@@ -3350,6 +3354,60 @@
     "fbNewestPost": null,
     "website": "https://www.vitospizzahampton.com/"
    }
+  },
+  {
+   "id": "va-goodys-hampton",
+   "name": "Goody's",
+   "cuisine": "Pub",
+   "address": "11 Queens Way, Hampton",
+   "state": "VA",
+   "zip": "23669",
+   "phone": "(757) 722-3662",
+   "phoneSource": "OpenStreetMap node/3990684017 phone tag (map data 2026-11-01), checked 2026-11-01",
+   "lat": 37.025897,
+   "lng": -76.343829,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Daily 11a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/3990684017 opening_hours tag (map data 2026-11-01) (checked 2026-11-01); active on-premise license: Virginia ABC licensee export (LicenseSearchReport.xlsx, run 11/1/2026)",
+   "county": "Hampton City",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "va-white-oak-lodge-hampton",
+   "name": "White Oak Lodge",
+   "cuisine": "Bar",
+   "address": "3533 Kecoughtan Road, Hampton",
+   "state": "VA",
+   "zip": "23661",
+   "phone": "(757) 723-7707",
+   "phoneSource": "Virginia ABC licensee export (LicenseSearchReport.xlsx, run 11/1/2026) premises phone, checked 2026-11-01",
+   "lat": 37.008311,
+   "lng": -76.362117,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Daily 11a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap way/388509815 opening_hours tag (map data 2026-11-01) (checked 2026-11-01); active on-premise license: Virginia ABC licensee export (LicenseSearchReport.xlsx, run 11/1/2026)",
+   "county": "Hampton City",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "city",

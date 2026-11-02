@@ -830,7 +830,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/nc/raleigh/city-barbeque-2/ (updated 2026-09-28), checked 2026-11-01",
    "lat": 35.815698,
    "lng": -78.695615,
-   "website": null,
+   "website": "https://www.citybbq.com/",
    "hours": "Daily 10:30a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -849,8 +849,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.citybbq.com/"
+   },
+   "websiteSource": "OpenStreetMap way/1096847681 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "nc-crazy-fire-mongolian-grill-and-bar",
@@ -2599,6 +2600,33 @@
     "website": "https://zaykaraleigh.com/"
    },
    "menu": "https://zaykaraleigh.com/Menu.html"
+  },
+  {
+   "id": "nc-the-goat-bar-raleigh",
+   "name": "The Goat Bar",
+   "cuisine": "Bar",
+   "address": "5111 Western Blvd Suite A, Raleigh",
+   "state": "NC",
+   "zip": null,
+   "phone": "(919) 233-4143",
+   "phoneSource": "OpenStreetMap node/3595466492 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 35.786087,
+   "lng": -78.711982,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Daily 4p-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/3595466492 opening_hours tag (map data 2026-10-31) (checked 2026-11-01); active on-premise license: NC ABC Commission permit search export (on-premise, active; downloaded 2026-11-01), address from license",
+   "county": "Wake",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "neighborhood",

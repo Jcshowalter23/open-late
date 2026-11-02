@@ -47,7 +47,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/saint-simons-island/bennies-red-barn-/ (updated 2026-10-31), checked 2026-11-01",
    "lat": 31.2073,
    "lng": -81.3754,
-   "website": null,
+   "website": "http://www.benniesredbarn.com/menu.html",
    "hours": "Mon closed; Tue-Thu 5p-9p; Fri-Sat 5p-10p; Sun 5p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -66,8 +66,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://www.benniesredbarn.com/menu.html"
+   },
+   "websiteSource": "OpenStreetMap way/1218321255 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-brogens-south",
@@ -80,7 +81,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/saint-simons-island/brogens-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 31.1351,
    "lng": -81.3959,
-   "website": null,
+   "website": "https://www.brogens.com/brogens-south/",
    "hours": "Mon-Sat 11a-2a; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -97,8 +98,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.brogens.com/brogens-south/"
+   },
+   "websiteSource": "OpenStreetMap way/1088807420 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-bubba-garcias",
@@ -111,13 +113,21 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/saint-simons-island/bubba-garcias-mexican-cantina-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 31.1622,
    "lng": -81.3883,
-   "website": null,
+   "website": "https://Www.bubbagarcias.com",
    "hours": "Daily 11:30a-10p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "$2 Taco Tuesday",
+     "tags": [],
+     "src": "Venue website bubbagarcias.com/specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-28); the venue's Facebook page could not be read (checked 2026-11-01)",
@@ -128,7 +138,62 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://Www.bubbagarcias.com"
+   },
+   "websiteSource": "OpenStreetMap node/10280672432 website tag (map data 2026-10-31), checked 2026-11-01",
+   "bingo": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "posted on 17 different Thus",
+      "lastSeen": "2027-04-15",
+      "datedLastSeen": "2027-04-15",
+      "postsSeen": 17,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://bubbagarcias.com/events",
+        "date": "2027-04-15",
+        "quote": "Bwk - Music Bingo | Thursday, April 15th, 2027"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://bubbagarcias.com/events",
+        "date": "2027-04-08",
+        "quote": "Bwk - Music Bingo | Thursday, April 8th, 2027"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://bubbagarcias.com/events",
+        "date": "2027-03-25",
+        "quote": "Bwk - Music Bingo | Thursday, March 25th, 2027"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Bwk - Music Bingo | Monthly on every second Thursday | Monthly on every second Thursday",
+      "url": "https://bubbagarcias.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Bwk - Music Bingo | Monthly on every third Thursday | Monthly on every third Thursday",
+      "url": "https://bubbagarcias.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Bwk - Music Bingo | Monthly on every last Thursday | Monthly on every last Thursday",
+      "url": "https://bubbagarcias.com/events"
+     }
+    ]
    }
   },
   {

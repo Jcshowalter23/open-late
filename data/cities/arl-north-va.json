@@ -50,7 +50,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/arlington/chasin-tails-/ (updated 2026-10-16), checked 2026-11-01",
    "lat": 38.8868,
    "lng": -77.1629,
-   "website": null,
+   "website": "https://chasintailsss.com/",
    "hours": "Mon-Wed 11a-10p; Thu 11a-10:30p; Fri-Sat 11a-11:30p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -89,8 +89,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://chasintailsss.com/"
+   },
+   "websiteSource": "OpenStreetMap node/13132024199 website tag (map data 2026-11-01), checked 2026-11-01"
   },
   {
    "id": "va-elevation-burger-arlington",
@@ -765,6 +766,120 @@
     "website": "https://yumesushiva.com/"
    },
    "menu": "https://www.yumesushiva.com/menus/"
+  },
+  {
+   "id": "va-cowboy-cafe-arlington",
+   "name": "Cowboy Cafe",
+   "cuisine": "American",
+   "address": "4792 Langston Boulevard, Arlington",
+   "state": "VA",
+   "zip": "22207",
+   "phone": "(703) 243-8010",
+   "phoneSource": "OpenStreetMap way/208057223 phone tag (map data 2026-11-01), checked 2026-11-01",
+   "lat": 38.896737,
+   "lng": -77.125292,
+   "website": "https://www.thecowboycafe.com/",
+   "websiteSource": "OpenStreetMap way/208057223 website tag (map data 2026-11-01), checked 2026-11-01",
+   "hours": "Mon-Fri 11a-2a; Sat-Sun 9a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Wednesday – 5 Jumbo Wings for $6",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website thecowboycafe.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "See venue",
+     "text": "” — a $15 burger consisting of two half-pound beef patties, barbeque pork, two slices of cheddar, a fried egg and bacon — “after a full order of wings,” he said, still in amazement",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website thecowboycafe.com/our-story",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "Popular draws have included \"Sons of Anarchy\" night, the new brunch and 50cent wing night",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website thecowboycafe.com/our-story",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Sat,Sun",
+     "text": "Saturday & Sunday – Brunch till 3pm / $5",
+     "tags": [],
+     "src": "Venue website thecowboycafe.com",
+     "checked": "2026-11-01"
+    }
+   ],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/208057223 opening_hours tag (map data 2026-11-01) (checked 2026-11-01)",
+   "county": "Arlington",
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": "7:00pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.thecowboycafe.com/",
+        "date": "2026-11-01",
+        "quote": "Monday Night – Trivia (Starts 7:00pm)"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
+  },
+  {
+   "id": "va-chicagos-pizza-with-a-twist-arlington",
+   "name": "Chicago's Pizza With a Twist",
+   "cuisine": "Pizza",
+   "address": "5645 Langston Boulevard, Arlington",
+   "state": "VA",
+   "zip": "22207",
+   "phone": "(571) 347-1700",
+   "phoneSource": "OpenStreetMap way/651782611 phone tag (map data 2026-11-01), checked 2026-11-01",
+   "lat": 38.895587,
+   "lng": -77.142174,
+   "website": "https://www.chicagospizzatwist.com/",
+   "websiteSource": "OpenStreetMap way/651782611 website tag (map data 2026-11-01), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-12a; Sun 11a-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/651782611 opening_hours tag (map data 2026-11-01) (checked 2026-11-01)",
+   "county": "Arlington",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "neighborhood",

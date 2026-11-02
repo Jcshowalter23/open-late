@@ -16,12 +16,29 @@
    "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Washington-D.C./117718971420157/Bistro-Du-Jour), checked 2026-11-01. Conflicting (240) 363-9320 on Restaurantji (updated 2026-10-01) not used. Conflicting (240) 363-9320 on Restaurantji (updated 2026-10-01) not used. Conflicting (240) 363-9320 on Restaurantji (updated 2026-10-01) not used",
    "lat": 38.8796,
    "lng": -77.0253,
-   "website": null,
+   "website": "https://bistro-dujour.com/",
    "hours": "Mon-Thu 8a-9p; Fri-Sat 8a-10p; Sun 8a-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "HAPPY HOUR - Mon-Fri 3-6PM",
+     "tags": [],
+     "src": "Venue website bistro-dujour.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Daily",
+     "text": "HAPPY HOUR - Daily 3-6PM At The Bar",
+     "tags": [],
+     "src": "Venue website bistro-dujour.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -35,7 +52,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./117718971420157/Bistro-Du-Jour",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-09-07",
-    "website": null
+    "website": "https://bistro-dujour.com/"
    },
    "conflicts": [
     {
@@ -47,7 +64,8 @@
      "resolution": "Facebook number kept (venue-managed page)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "websiteSource": "OpenStreetMap node/9278919529 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "dc-hanks-oyster-bar-sw-ballpark-navy-yard",
@@ -520,7 +538,7 @@
    "address": "1130 Maine Ave SW, Washington, DC",
    "state": "DC",
    "zip": "20024",
-   "phone": null,
+   "phone": "(202) 900-4786",
    "lat": 38.8812,
    "lng": -77.0275,
    "priceText": "$$ (Facebook page)",
@@ -543,7 +561,8 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2023-06-26",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/8691887336 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "dc-union-stage-presents",
@@ -737,6 +756,74 @@
     "fbNewestPost": "2026-09-01",
     "website": null
    }
+  },
+  {
+   "id": "dc-surfside-washington",
+   "name": "Surfside",
+   "cuisine": "Restaurant",
+   "address": "33 District Square Southwest, Washington",
+   "state": "DC",
+   "zip": "20024",
+   "phone": "(202) 851-4560",
+   "phoneSource": "OpenStreetMap node/8691887348 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.879926,
+   "lng": -77.025007,
+   "website": "https://www.wharfdc.com/restaurants/surfside/",
+   "websiteSource": "OpenStreetMap node/8691887348 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-12a; Fri-Sat 11a-1a; Sun 11a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/8691887348 opening_hours tag (map data 2026-10-31; last checked on the map 2025-02-19) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Live-K Karaoke Bar",
+      "url": "https://www.wharfdc.com/restaurants/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " This futuristic-themed karaoke bar features 15 private rooms and a main stage",
+      "url": "https://www.wharfdc.com/restaurants/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "dc-sushi-by-bou-washington",
+   "name": "Sushi by Bou",
+   "cuisine": "Japanese",
+   "address": "550 School Street Southwest, Washington",
+   "state": "DC",
+   "zip": null,
+   "phone": null,
+   "phoneSource": null,
+   "lat": 38.883758,
+   "lng": -77.019612,
+   "website": "https://sushibybou.com/locations/sushi-by-bou-lenfant-plaza/",
+   "websiteSource": "OpenStreetMap node/11907601834 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 5p-11p; Fri-Sat 5p-12a; Sun 5p-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/11907601834 opening_hours tag (map data 2026-10-31; last checked on the map 2024-08-20) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "neighborhood",

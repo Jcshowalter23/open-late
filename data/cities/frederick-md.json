@@ -864,7 +864,7 @@
    "lng": -77.4141,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://bigpapistacos.com/",
    "hours": "Mon-Thu 11a-8p; Fri-Sat 11a-9p; Sun 11a-8p",
    "hoursNote": "Restaurantji (updated 2026-10-14) lists different hours: Mon-Thu 10:30a-9p; Fri-Sat 10:30a-10p; Sun 10:30a-9p. Call ahead to confirm.",
    "kitchen": null,
@@ -881,7 +881,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Frederick/109708180856502/Big-Papi%27s-Tacos",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "https://bigpapistacos.com/"
    },
    "conflicts": [
     {
@@ -902,7 +902,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "websiteSource": "OpenStreetMap node/13180633651 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-black-hog-bbq-and-bar",
@@ -1233,7 +1234,7 @@
    "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Frederick/111724973711/Cafe-611), checked 2026-11-01",
    "lat": 39.4219,
    "lng": -77.4102,
-   "website": null,
+   "website": "http://cafe611.com",
    "hours": "Mon-Tue closed; Wed-Thu 3p-9p; Fri 3p-12a; Sat 3p-12:30a; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -1252,8 +1253,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Frederick/111724973711/Cafe-611",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-05-04",
-    "website": null
-   }
+    "website": "http://cafe611.com"
+   },
+   "websiteSource": "OpenStreetMap node/4518808898 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-cafe-bueno",
@@ -3248,7 +3250,7 @@
    "lng": -77.4093,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://www.luckycornerrestaurant.com",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -3265,8 +3267,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Frederick/114003448630872/Lucky-Corner-Vietnamese-Cuisine",
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-08-07",
-    "website": null
-   }
+    "website": "https://www.luckycornerrestaurant.com"
+   },
+   "websiteSource": "OpenStreetMap node/10855978923 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-luna-and-char",
@@ -3860,7 +3863,7 @@
    "address": "Frederick 21704, Frederick",
    "state": "MD",
    "zip": "21704",
-   "phone": null,
+   "phone": "(301) 682-6888",
    "lat": 39.393,
    "lng": -77.4099,
    "priceText": "$$ (Facebook page)",
@@ -3883,7 +3886,8 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-30",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/11364640294 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-olde-towne-tavern",
@@ -5951,6 +5955,33 @@
     "fbNewestPost": "2026-09-23",
     "website": null
    }
+  },
+  {
+   "id": "md-spacie-gracie-frederick",
+   "name": "Spacie Gracie",
+   "cuisine": "Bar",
+   "address": "543 North Market Street, Frederick",
+   "state": "MD",
+   "zip": "21701",
+   "phone": "(301) 898-2056",
+   "phoneSource": "OpenStreetMap way/559174708 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 39.421487,
+   "lng": -77.410336,
+   "website": "https://spacie-gracie.com/",
+   "websiteSource": "OpenStreetMap way/559174708 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 4p-12a; Fri 4p-2a; Sat 12p-2a; Sun 12p-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap way/559174708 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Frederick",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "city",

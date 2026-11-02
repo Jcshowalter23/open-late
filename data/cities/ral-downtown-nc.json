@@ -1974,7 +1974,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/nc/raleigh/jin-jin-chinese-restaurant-/ (updated 2026-09-25), checked 2026-11-01",
    "lat": 35.735439,
    "lng": -78.649369,
-   "website": null,
+   "website": "https://jinjinchinanc.com",
    "hours": "Mon-Tue 11a-9:30p; Wed closed; Thu 11a-9:30p; Fri-Sat 11a-10p; Sun 11:30a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1991,8 +1991,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://jinjinchinanc.com"
+   },
+   "websiteSource": "OpenStreetMap node/9425965289 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "nc-jolie",
@@ -4485,6 +4486,213 @@
     "website": "https://wyehill.com/"
    },
    "menu": "https://wyehill.com/kitchen-and-brewing/menus/"
+  },
+  {
+   "id": "nc-boxcar-bar-and-arcade-raleigh",
+   "name": "Boxcar Bar and Arcade",
+   "cuisine": "Bar",
+   "address": "330 West Davie Street, Raleigh",
+   "state": "NC",
+   "zip": "27601",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 35.775934,
+   "lng": -78.645014,
+   "website": "https://theboxcarbar.com/",
+   "websiteSource": "OpenStreetMap node/4167502533 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 4p-1a; Fri-Sat 12p-2a; Sun 12p-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [
+    {
+     "days": "Daily",
+     "text": "We offer daily drink deals, host themed, special events and free tournaments, live outdoor music on the weekends and more",
+     "tags": [],
+     "src": "Venue website theboxcarbar.com",
+     "checked": "2026-11-01"
+    }
+   ],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/4167502533 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Wake",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "nc-sir-walter-coffee-kitchen-raleigh",
+   "name": "Sir Walter Coffee & Kitchen",
+   "cuisine": "American",
+   "address": "555 Fayetteville Street, Raleigh",
+   "state": "NC",
+   "zip": "27601",
+   "phone": "(919) 999-3324",
+   "phoneSource": "OpenStreetMap node/4507482552 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 35.773524,
+   "lng": -78.639253,
+   "website": "https://sirwaltercoffee.com/",
+   "websiteSource": "OpenStreetMap node/4507482552 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 7a-10p; Fri-Sat 7a-12a; Sun 7a-5p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/4507482552 opening_hours tag (map data 2026-10-31; last checked on the map 2026-07-24) (checked 2026-11-01)",
+   "county": "Wake",
+   "addedBy": "sweep-osm",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "OAK CITY SOUL DEEJAYS | 8PM - 12 AM | SAT VINYL NIGHTS WITH | 8PM - 12 AM",
+      "url": "https://www.sirwaltercoffee.com/blank-1-1"
+     }
+    ]
+   }
+  },
+  {
+   "id": "nc-barcelona-wine-bar-raleigh",
+   "name": "Barcelona Wine Bar",
+   "cuisine": "Tapas Bar &",
+   "address": "430 West Martin Street, Raleigh",
+   "state": "NC",
+   "zip": "27603",
+   "phone": "(919) 808-5400",
+   "phoneSource": "OpenStreetMap node/8409082530 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 35.777298,
+   "lng": -78.645754,
+   "website": "https://www.barcelonawinebar.com/location/raleigh/",
+   "websiteSource": "OpenStreetMap node/8409082530 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Fri 4p-12a; Sat-Sun 11a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/8409082530 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Wake",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "nc-teets-raleigh",
+   "name": "TEETS",
+   "cuisine": "Bar",
+   "address": "425 Glenwood Avenue, Raleigh",
+   "state": "NC",
+   "zip": null,
+   "phone": "(919) 803-6112",
+   "phoneSource": "OpenStreetMap way/47776803 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 35.785833,
+   "lng": -78.647677,
+   "website": "https://www.teetsraleigh.com/",
+   "websiteSource": "OpenStreetMap way/47776803 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Fri 5p-2a; Sat-Sun 12p-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$12 Rum Buckets with collectable rubber animal",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website teetsraleigh.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "$20 Mimosa Bucket",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website teetsraleigh.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap way/47776803 opening_hours tag (map data 2026-10-31; last checked on the map 2026-09-29) (checked 2026-11-01)",
+   "county": "Wake",
+   "addedBy": "sweep-osm",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "TUESDAY: KARAOKE NIGHT @ 9:00PM",
+      "url": "https://www.teetsraleigh.com/"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ @ 9 PM | FOOD TRUCK @ 3PM",
+      "url": "https://www.teetsraleigh.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "WEDNESDAY DJ @ 9 PM",
+      "url": "https://www.teetsraleigh.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "THURSDAY: SELTZER NIGHT - DJ @ 9PM",
+      "url": "https://www.teetsraleigh.com/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "nc-sushi-blues-cafe-raleigh",
+   "name": "Sushi Blues Cafe",
+   "cuisine": "Japanese",
+   "address": "301-110 Glenwood Avenue, Raleigh",
+   "state": "NC",
+   "zip": null,
+   "phone": "(919) 664-8061",
+   "phoneSource": "OpenStreetMap node/1216186407 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 35.784438,
+   "lng": -78.647624,
+   "website": "http://sushibluescafe.com/",
+   "websiteSource": "OpenStreetMap node/1216186407 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon 11:30a-10p; Tue-Thu 11:30a-11p; Fri 11:30a-12a; Sat 12p-12a; Sun 12p-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/1216186407 opening_hours tag (map data 2026-10-31) (checked 2026-11-01); active on-premise license: NC ABC Commission permit search export (on-premise, active; downloaded 2026-11-01), address from license",
+   "county": "Wake",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "neighborhood",

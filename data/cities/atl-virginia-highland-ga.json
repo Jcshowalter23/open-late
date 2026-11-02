@@ -459,7 +459,7 @@
    "address": "931 Monroe Dr NE C-202, Atlanta",
    "state": "GA",
    "zip": "30308",
-   "phone": null,
+   "phone": "(404) 872-2220",
    "lat": 33.7799,
    "lng": -84.3678,
    "priceText": "$$ (Facebook page)",
@@ -501,7 +501,8 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-14",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/13233423254 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-doc-cheys-noodle-house",
@@ -667,7 +668,7 @@
    "address": "939 Ponce de Leon Ave NE, Atlanta",
    "state": "GA",
    "zip": "30306",
-   "phone": null,
+   "phone": "(404) 881-6040",
    "lat": 33.7735,
    "lng": -84.3566,
    "priceText": "$$ (Facebook page)",
@@ -715,7 +716,8 @@
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-28",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/536664043 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-fontaines-oyster-house",
@@ -1359,7 +1361,7 @@
    "address": "1931 Cheshire Bridge Rd NE, Atlanta",
    "state": "GA",
    "zip": "30324",
-   "phone": null,
+   "phone": "(404) 874-6505",
    "lat": 33.81,
    "lng": -84.3596,
    "priceText": "$$ (Facebook page)",
@@ -1442,7 +1444,8 @@
     "fbNewestPost": "2026-10-21",
     "website": "https://ninosatlanta.com/"
    },
-   "menu": "https://www.ninosatlanta.com/menu/dinner"
+   "menu": "https://www.ninosatlanta.com/menu/dinner",
+   "phoneSource": "Venue website www.ninosatlanta.com, checked 2026-11-01"
   },
   {
    "id": "ga-nowaks-cantina",
@@ -2121,6 +2124,83 @@
      "checked": "2026-11-01"
     }
    ]
+  },
+  {
+   "id": "ga-apres-diem-atlanta",
+   "name": "Apres Diem",
+   "cuisine": "Restaurant",
+   "address": "931 Monroe Circle Northeast, Atlanta",
+   "state": "GA",
+   "zip": null,
+   "phone": "(404) 872-3333",
+   "phoneSource": "OpenStreetMap node/1290222141 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 33.779182,
+   "lng": -84.367157,
+   "website": "https://apresdiem.com",
+   "websiteSource": "OpenStreetMap node/1290222141 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-10:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/1290222141 opening_hours tag (map data 2026-10-31; last checked on the map 2025-10-14) (checked 2026-11-01)",
+   "county": "Fulton",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "ga-the-independent-atlanta",
+   "name": "The Independent",
+   "cuisine": "American",
+   "address": "931 Monroe Circle Northeast, Atlanta",
+   "state": "GA",
+   "zip": null,
+   "phone": "(404) 249-9869",
+   "phoneSource": "OpenStreetMap node/2404378568 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 33.779179,
+   "lng": -84.367107,
+   "website": "http://www.theindependentatlanta.com/",
+   "websiteSource": "OpenStreetMap node/2404378568 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Fri 5p-1:30a; Sat 12p-1:30a; Sun 12p-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/2404378568 opening_hours tag (map data 2026-10-31; last checked on the map 2025-10-14) (checked 2026-11-01)",
+   "county": "Fulton",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "ga-fellinis-pizza-atlanta-2",
+   "name": "Fellini's Pizza",
+   "cuisine": "Pizza",
+   "address": "909 Ponce de Leon Avenue Northeast, Atlanta",
+   "state": "GA",
+   "zip": "30306",
+   "phone": "(404) 873-3088",
+   "phoneSource": "OpenStreetMap way/208128711 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 33.773496,
+   "lng": -84.357687,
+   "website": "https://fellinisatlanta.com/ponce-de-leon",
+   "websiteSource": "OpenStreetMap way/208128711 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 11:30a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/208128711 opening_hours tag (map data 2026-10-31; last checked on the map 2024-07-28) (checked 2026-11-01)",
+   "county": "Fulton",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "neighborhood",

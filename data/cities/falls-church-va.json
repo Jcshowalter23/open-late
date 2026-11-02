@@ -309,6 +309,154 @@
     "fbNewestPost": null,
     "website": null
    }
+  },
+  {
+   "id": "va-10-pizza-falls-church",
+   "name": "10 Pizza",
+   "cuisine": "Pizza",
+   "address": "1051 West Broad Street, Falls Church",
+   "state": "VA",
+   "zip": "22046",
+   "phone": "(703) 536-6969",
+   "phoneSource": "OpenStreetMap node/2622784870 phone tag (map data 2026-11-01), checked 2026-11-01",
+   "lat": 38.89131,
+   "lng": -77.185914,
+   "website": "https://10pizza.com/",
+   "websiteSource": "OpenStreetMap node/2622784870 website tag (map data 2026-11-01), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-12a; Fri-Sat 11a-2a; Sun 11a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/2622784870 opening_hours tag (map data 2026-11-01) (checked 2026-11-01)",
+   "county": "Falls Church City",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "va-solace-outpost-falls-church",
+   "name": "Solace Outpost",
+   "cuisine": "Pub",
+   "address": "444 West Broad Street, Falls Church",
+   "state": "VA",
+   "zip": "22046",
+   "phone": "(571) 378-1469",
+   "phoneSource": "OpenStreetMap node/5927857552 phone tag (map data 2026-11-01), checked 2026-11-01",
+   "lat": 38.886271,
+   "lng": -77.176991,
+   "website": "https://solaceoutpost.com/",
+   "websiteSource": "OpenStreetMap node/5927857552 website tag (map data 2026-11-01), checked 2026-11-01",
+   "hours": "Daily 11a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "$7 Happy Hour Bar Snacks",
+     "tags": [],
+     "src": "Venue website solacebrewing.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "Every Tuesday receive 50% off your 32oz or 64oz Growler Fills of Solace beer",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website solacebrewing.com",
+     "checked": "2026-11-01"
+    }
+   ],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/5927857552 opening_hours tag (map data 2026-11-01) (checked 2026-11-01)",
+   "county": "Falls Church City",
+   "addedBy": "sweep-osm",
+   "dj": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "6 - 9PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://solacebrewing.com/",
+        "date": "2026-11-01",
+        "quote": "DJ Killabeats24 | 6 - 9PM | Thu Nov | 6 - 9PM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " A DJ and $5 Draft Beers from 6 – 9PM",
+      "url": "https://solacebrewing.com/"
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7 - 10PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://solacebrewing.com/",
+        "date": "2026-11-01",
+        "quote": "Weekly Trivia | 7 - 10PM | Wed Nov | 7 - 10PM"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://solacebrewing.com/",
+        "date": "2026-11-01",
+        "quote": "Trivia Night | Every Wednesday"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Hosted by Pour House Trivia",
+      "url": "https://solacebrewing.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Sign-ups begin at 6:30PM, trivia starts at 7PM",
+      "url": "https://solacebrewing.com/"
+     }
+    ]
+   }
   }
  ],
  "type": "town",

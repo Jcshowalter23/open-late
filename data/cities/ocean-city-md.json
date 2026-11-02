@@ -3409,7 +3409,7 @@
    "address": "5601 Coastal Hwy, Ocean City",
    "state": "MD",
    "zip": "21842",
-   "phone": null,
+   "phone": "(410) 723-5600",
    "lat": 38.3808,
    "lng": -75.0683,
    "priceText": "$$ (Facebook page)",
@@ -3458,7 +3458,8 @@
     "fbNewestPost": "2026-04-01",
     "website": "https://johnnyspizzapub.com/"
    },
-   "menu": "https://johnnyspizzapub.com/menu/"
+   "menu": "https://johnnyspizzapub.com/menu/",
+   "phoneSource": "Venue website johnnyspizzapub.com, checked 2026-11-01"
   },
   {
    "id": "md-jonah-and-the-whale-seafood-restaurant",
@@ -3535,7 +3536,7 @@
    "address": "12825 Coastal Hwy, Ocean City",
    "state": "MD",
    "zip": "21842",
-   "phone": null,
+   "phone": "(410) 921-1030",
    "lat": 38.4343,
    "lng": -75.0559,
    "priceText": "$$ (Facebook page)",
@@ -3562,7 +3563,8 @@
     "fbNewestPost": "2026-10-10",
     "website": "https://oclibs.com/"
    },
-   "menu": "https://www.oclibs.com/menu"
+   "menu": "https://www.oclibs.com/menu",
+   "phoneSource": "Venue website www.oclibs.com, checked 2026-11-01"
   },
   {
    "id": "md-local-caroline-and-the-boards",
@@ -3676,7 +3678,7 @@
    "lng": -75.0703,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://mackys.com/",
    "hours": "Mon-Wed closed; Thu 3p-11p; Fri 3p-12a; Sat 10a-12a; Sun 10a-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -3705,7 +3707,165 @@
     "facebookMirror": "https://www.foodyas.com/US/Ocean-City/120051348035441/Macky%27s-Bayside-Bar-%26-Grill",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-12",
-    "website": null
+    "website": "https://mackys.com/"
+   },
+   "websiteSource": "OpenStreetMap way/242245652 website tag (map data 2026-10-31), checked 2026-11-01",
+   "dj": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "10pm",
+      "basis": "posted on 2 different Tues",
+      "lastSeen": "2026-08-18",
+      "datedLastSeen": "2026-08-18",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.mackys.com/events",
+        "date": "2026-08-18",
+        "quote": "🎧 DJ TBD 🎵 | Tue, August 18 @ 10pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.mackys.com/events",
+        "date": "2026-08-11",
+        "quote": "🎧 DJ TBD 🎵 | Tue, August 11 @ 10pm"
+       }
+      ],
+      "confidence": "medium"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "9pm-1am",
+      "basis": "posted on 4 different Sats",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": "2026-08-29",
+      "postsSeen": 4,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.mackys.com/events",
+        "date": "2026-11-01",
+        "quote": "DJ 🎧 KP | Saturday, May 22, 2027"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.mackys.com/events",
+        "date": "2026-11-01",
+        "quote": "DJ 🎧 KP | 📅 Sat, May 23, 2027 ⏰ 10pm - 1am | 📅 Sat, May 23, 2027 ⏰ 10pm - 1am"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.mackys.com/events",
+        "date": "2026-11-01",
+        "quote": "Follow DJ KP on | 📅 Sat, May 23, 2027 ⏰ 10pm - 1am"
+       }
+      ],
+      "confidence": "high"
+     },
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": "8pm-10pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.mackys.com/events",
+        "date": "2026-11-01",
+        "quote": "Sunday @ 8pm-10pm 🎧 with DJ 🎵"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.mackys.com/events",
+        "date": "2026-11-01",
+        "quote": "Sundays @ 8pm-10pm 🎧 with DJ TBD 🎵"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "🎧 DJ FLIGHT 🎵",
+      "url": "https://www.mackys.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Come out to Macky's Bayside and dance all night with our live DJ's, spinning your favorite beats",
+      "url": "https://www.mackys.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Grab a Macky’s Bucket and dance the night away with our live DJ as you enjoy the best sunsets on the bay in OCMD",
+      "url": "https://www.mackys.com/events"
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "posted on 4 different Suns",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": "2026-08-30",
+      "postsSeen": 4,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.mackys.com/events",
+        "date": "2026-11-01",
+        "quote": "Trivia 🧠 Night | Sunday, May 30, 2027"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.mackys.com/events",
+        "date": "2026-08-30",
+        "quote": "Trivia 🧠 Night | Sunday, August 30, 2026"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.mackys.com/events",
+        "date": "2026-08-23",
+        "quote": "Trivia 🧠 Night | Sunday, August 23, 2026"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia",
+      "url": "https://www.mackys.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Join us for an exciting evening of Trivia at Macky’s Bayside in OCMD",
+      "url": "https://www.mackys.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "The LAST TRIVIA for the 2026 Season",
+      "url": "https://www.mackys.com/events"
+     }
+    ]
    }
   },
   {
@@ -6216,7 +6376,7 @@
    "lng": -75.0578,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://sophiasitalianrestaurantoceancity.com/",
    "hours": "Mon-Sat 11:30a-9p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -6276,8 +6436,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Ocean-City/110817258127624/Sophia%27s-Italian-Restaurant",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-20",
-    "website": null
-   }
+    "website": "https://sophiasitalianrestaurantoceancity.com/"
+   },
+   "websiteSource": "OpenStreetMap node/14086617252 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-southgate-grill",
@@ -7580,7 +7741,7 @@
    "lng": -75.1091,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://www.lighthousesoundrestaurant.com/",
    "hours": "Daily 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -7609,8 +7770,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Bishopville/110948997101/The-Restaurant-at-Lighthouse-Sound",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-23",
-    "website": null
-   }
+    "website": "https://www.lighthousesoundrestaurant.com/"
+   },
+   "websiteSource": "OpenStreetMap node/1849224507 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-the-shark-on-the-harbor",
@@ -8174,6 +8336,96 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
     "website": null
+   }
+  },
+  {
+   "id": "md-tommys-sub-shop-ocean-city",
+   "name": "Tommy's Sub Shop",
+   "cuisine": "American",
+   "address": "2900 Philadelphia Avenue, Ocean City",
+   "state": "MD",
+   "zip": "21842",
+   "phone": "(410) 289-6650",
+   "phoneSource": "OpenStreetMap node/13062327801 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.358026,
+   "lng": -75.074337,
+   "website": "https://www.tommyssubshop.us/",
+   "websiteSource": "OpenStreetMap node/13062327801 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-1a; Sun 11a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/13062327801 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Worcester",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "md-the-greene-turtle-sports-bar-grille-west-oc-west-ocean-city",
+   "name": "The Greene Turtle Sports Bar & Grille West OC",
+   "cuisine": "Restaurant",
+   "address": "9616 Stephen Decatur Highway, West Ocean City",
+   "state": "MD",
+   "zip": "21842",
+   "phone": "(410) 213-1500",
+   "phoneSource": "OpenStreetMap way/589466944 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.327143,
+   "lng": -75.117862,
+   "website": "https://thegreeneturtle.com/",
+   "websiteSource": "OpenStreetMap way/589466944 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 11a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/589466944 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Worcester",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "md-purple-moose-saloon-ocean-city",
+   "name": "Purple Moose Saloon",
+   "cuisine": "Bar",
+   "address": "102 Boardwalk, Ocean City",
+   "state": "MD",
+   "zip": "21842",
+   "phone": "(410) 289-6953",
+   "phoneSource": "OpenStreetMap way/1090871013 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.330451,
+   "lng": -75.085795,
+   "website": "https://purplemoosesaloon.com/",
+   "websiteSource": "OpenStreetMap way/1090871013 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-2a; Fri-Sun 10a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap way/1090871013 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Worcester",
+   "addedBy": "sweep-osm",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " And, when the bands are jammin’, the DJs are spinning the rock tunes all night long",
+      "url": "https://purplemoosesaloon.com/"
+     }
+    ]
    }
   }
  ],

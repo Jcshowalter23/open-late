@@ -609,7 +609,7 @@
    "address": "409 W Congress St, Savannah",
    "state": "GA",
    "zip": "31401",
-   "phone": null,
+   "phone": "(912) 436-6660",
    "lat": 32.0807,
    "lng": -81.0965,
    "priceText": "$$ (Facebook page)",
@@ -713,7 +713,8 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://order.spoton.com/-/-/6a3c8f49f1f1283a9472d6ba/dinein?tableId"
+   "menu": "https://order.spoton.com/-/-/6a3c8f49f1f1283a9472d6ba/dinein?tableId",
+   "phoneSource": "OpenStreetMap node/3372910037 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-broken-keel",
@@ -1105,7 +1106,7 @@
    "address": "44 Martin Luther King Jr Blvd, Savannah",
    "state": "GA",
    "zip": "31401",
-   "phone": null,
+   "phone": "(912) 232-2720",
    "lat": 32.0805,
    "lng": -81.097,
    "priceText": "$$ (Facebook page)",
@@ -1130,7 +1131,8 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-31",
     "website": "https://corleones.com/"
-   }
+   },
+   "phoneSource": "OpenStreetMap way/208385264 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-crave-hot-dogs-and-bbq",
@@ -2110,7 +2112,7 @@
    "address": "6 East Broughton, Savannah",
    "state": "GA",
    "zip": "31401",
-   "phone": null,
+   "phone": "(912) 228-3277",
    "lat": 32.0788,
    "lng": -81.0903,
    "priceText": "$$ (Facebook page)",
@@ -2153,7 +2155,8 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://naanbroughton.com/savannah-naan-on-broughton-food-menu"
+   "menu": "https://naanbroughton.com/savannah-naan-on-broughton-food-menu",
+   "phoneSource": "Venue website naanbroughton.com, checked 2026-11-01"
   },
   {
    "id": "ga-namaste-savannah",
@@ -2956,7 +2959,7 @@
    "address": "125 Martin Luther King Jr Blvd, Savannah",
    "state": "GA",
    "zip": "31401",
-   "phone": null,
+   "phone": "(912) 200-9255",
    "lat": 32.0795,
    "lng": -81.098,
    "priceText": "$$ (Facebook page)",
@@ -3023,7 +3026,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "OpenStreetMap node/11376131003 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-ruan-thai-cuisine",
@@ -3324,7 +3328,7 @@
    "address": "314 Williamson St, Savannah",
    "state": "GA",
    "zip": "31401",
-   "phone": null,
+   "phone": "(912) 527-6453",
    "lat": 32.0827,
    "lng": -81.0948,
    "priceText": "$$ (Facebook page)",
@@ -3371,7 +3375,8 @@
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-28",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/11443778374 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-savannah-smokehouse",
@@ -3415,7 +3420,7 @@
    "address": "125 E Broughton St, Savannah",
    "state": "GA",
    "zip": "31401",
-   "phone": null,
+   "phone": "(912) 201-8277",
    "lat": 32.0946,
    "lng": -81.0921,
    "priceText": "$$ (Facebook page)",
@@ -3525,7 +3530,8 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
-   }
+   },
+   "phoneSource": "OpenStreetMap node/5110241221 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-savannahs-river-house-seafood",
@@ -3598,7 +3604,7 @@
    "lng": -81.0936,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://sixpencepub.com/",
    "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-11p",
    "hoursNote": "Hours differ by source: Facebook page lists Mon 11a-12a; Tue 11a-1a; Wed 11a-12a; Thu-Fri 11a-1a; Sat 11a-2a; Sun 11a-11p (no posts since May 2026); Restaurantji (updated 2026-10-31) used as newer. Call ahead.",
    "kitchen": null,
@@ -3617,7 +3623,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Savannah/108699475901421/Six-Pence-Pub%2C-Downtown-Savannah-GA",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://sixpencepub.com/"
    },
    "conflicts": [
     {
@@ -3646,7 +3652,44 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "websiteSource": "OpenStreetMap node/11884120551 website tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.sixpencepub.com/",
+        "quote": "huge selection of beers. Recommended | -Kirill Tselynko | A Favorite Gathering Place for Locals & Visitors | Imported Beers, Craft Selections & Full Bar Service | From sightseeing in Sa",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.sixpencepub.com/",
+        "quote": "Savannah Magazine! | Contact Us Today | Stop by One of Our Convenient Locations Today for Family-Friendly Dining with Traditional Pub Charm! | The Perfect Stop During Your Savannah or Blowing Roc",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "ga-sorry-charlies-oyster-bar",
@@ -4423,7 +4466,7 @@
    "address": "109 Martin Luther King Jr Blvd, Savannah",
    "state": "GA",
    "zip": "31401",
-   "phone": null,
+   "phone": "(912) 662-5999",
    "lat": 32.0799,
    "lng": -81.0979,
    "priceText": "$$$ (Facebook page)",
@@ -4461,7 +4504,8 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap way/904505912 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-the-grove-savannah",
@@ -4470,7 +4514,7 @@
    "address": "301 West Congress St, Savannah",
    "state": "GA",
    "zip": "31401",
-   "phone": null,
+   "phone": "(912) 777-7597",
    "lat": 32.0804,
    "lng": -81.0953,
    "priceText": "$$ (Facebook page)",
@@ -4537,7 +4581,8 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.thegrovesavannah.com/menu"
+   "menu": "https://www.thegrovesavannah.com/menu",
+   "phoneSource": "Venue website www.thegrovesavannah.com, checked 2026-11-01"
   },
   {
    "id": "ga-the-hotdog-closet",
@@ -4578,7 +4623,7 @@
    "address": "23 Abercorn St, Savannah",
    "state": "GA",
    "zip": "31401",
-   "phone": null,
+   "phone": "(912) 232-4286",
    "lat": 32.0796,
    "lng": -81.0898,
    "priceText": "$$$ (Facebook page)",
@@ -4620,7 +4665,8 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.theoldepinkhouserestaurant.com/menus"
+   "menu": "https://www.theoldepinkhouserestaurant.com/menus",
+   "phoneSource": "OpenStreetMap way/330749977 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-the-ordinary-pub",
@@ -4971,7 +5017,7 @@
    "address": "313 E River St, Savannah",
    "state": "GA",
    "zip": "31401",
-   "phone": null,
+   "phone": "(912) 236-4229",
    "lat": 32.0806,
    "lng": -81.087,
    "priceText": "$$ (Facebook page)",
@@ -5036,7 +5082,8 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://theshrimpfactory.com/food-menu"
+   "menu": "https://theshrimpfactory.com/food-menu",
+   "phoneSource": "Venue website theshrimpfactory.com, checked 2026-11-01"
   },
   {
    "id": "ga-the-warehouse-bar-and-grille",
@@ -5670,7 +5717,7 @@
    "address": "101 E River St, Savannah",
    "state": "GA",
    "zip": "31401",
-   "phone": null,
+   "phone": "(912) 233-5650",
    "lat": 32.0812,
    "lng": -81.0898,
    "priceText": "$ (Facebook page)",
@@ -5693,7 +5740,8 @@
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-31",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/3372038879 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-wexford-pub",
@@ -5808,7 +5856,7 @@
    "address": "112 West Broughton St, Savannah",
    "state": "GA",
    "zip": "31401",
-   "phone": null,
+   "phone": "(912) 712-3560",
    "lat": 32.0796,
    "lng": -81.0936,
    "priceText": "$$ (Facebook page)",
@@ -5879,7 +5927,8 @@
       "url": "https://worldofbeer.com/locations/savannah/"
      }
     ]
-   }
+   },
+   "phoneSource": "Venue website worldofbeer.com/locations/savannah, checked 2026-11-01"
   },
   {
    "id": "ga-yatai-ramen-yakitori",
@@ -5934,6 +5983,157 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-19",
     "website": null
+   }
+  },
+  {
+   "id": "ga-barracuda-bobs-bar-grill-savannah",
+   "name": "Barracuda Bob's Bar & Grill",
+   "cuisine": "Restaurant",
+   "address": "19 East River Street, Savannah",
+   "state": "GA",
+   "zip": null,
+   "phone": "(912) 777-4381",
+   "phoneSource": "OpenStreetMap node/3372038641 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 32.081318,
+   "lng": -81.090139,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Mon-Fri 11a-10:30p; Sat-Sun 11a-11:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/3372038641 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Chatham",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "ga-kevin-barrys-irish-pub-savannah",
+   "name": "Kevin Barry's Irish Pub",
+   "cuisine": "Pub",
+   "address": "117 West River Street, Savannah",
+   "state": "GA",
+   "zip": null,
+   "phone": "(912) 233-9626",
+   "phoneSource": "OpenStreetMap node/3372910046 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 32.081984,
+   "lng": -81.092522,
+   "website": "https://www.kevinbarrys.com/",
+   "websiteSource": "OpenStreetMap node/3372910046 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Sat 11a-3a; Sun 12:30p-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/3372910046 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Chatham",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "ga-congress-street-social-club-savannah",
+   "name": "Congress Street Social Club",
+   "cuisine": "Bar",
+   "address": "411 West Congress Street, Savannah",
+   "state": "GA",
+   "zip": "31401",
+   "phone": "(912) 238-1985",
+   "phoneSource": "OpenStreetMap way/330329060 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 32.080702,
+   "lng": -81.096731,
+   "website": "https://congressstreetsocialclub.com/",
+   "websiteSource": "OpenStreetMap way/330329060 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Sat 11a-3a; Sun 11a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap way/330329060 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Chatham",
+   "addedBy": "sweep-osm",
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "posted on 2 different Fris",
+      "lastSeen": "2026-11-13",
+      "datedLastSeen": "2026-11-13",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://congressstreetsocialclub.com/savannah-downtown-congress-street-social-club-events",
+        "date": "2026-11-13",
+        "quote": "DJ Square One | Friday November 13th"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://congressstreetsocialclub.com/savannah-downtown-congress-street-social-club-events",
+        "date": "2026-11-06",
+        "quote": "DJ Mavrik | Friday November 6th"
+       }
+      ],
+      "confidence": "medium"
+     },
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "posted on 2 different Suns",
+      "lastSeen": "2026-11-08",
+      "datedLastSeen": "2026-11-08",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://congressstreetsocialclub.com/savannah-downtown-congress-street-social-club-events",
+        "date": "2026-11-08",
+        "quote": "DJ Rojas | Sunday November 8th"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://congressstreetsocialclub.com/savannah-downtown-congress-street-social-club-events",
+        "date": "2026-11-01",
+        "quote": "DJ Rojas | Sunday November 1st"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-12-31",
+      "quote": "Thursday December 31st | Ring in the New Year at Social Club! | 21+ | Dance Party All Night w/ >> Dance Party All Night w/ DJ FLIP | 12:00 PM - 03:00 AM",
+      "url": "https://congressstreetsocialclub.com/savannah-downtown-congress-street-social-club-events"
+     },
+     {
+      "date": "2026-11-07",
+      "quote": "DJ FLIP | Saturday November 7th",
+      "url": "https://congressstreetsocialclub.com/savannah-downtown-congress-street-social-club-events"
+     },
+     {
+      "date": "2026-11-05",
+      "quote": "DJ Heath Wave | Thursday November 5th",
+      "url": "https://congressstreetsocialclub.com/savannah-downtown-congress-street-social-club-events"
+     }
+    ]
    }
   }
  ],

@@ -2375,7 +2375,7 @@
    "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Dover/115265531547613/Taqueria-El-Cabrito---Dover%2C-De), checked 2026-11-01. Conflicting (302) 205-0479 on Restaurantji (updated 2026-10-20) not used. Conflicting (302) 205-0479 on Restaurantji (updated 2026-10-20) not used. Conflicting (302) 205-0479 on Restaurantji (updated 2026-10-20) not used",
    "lat": 39.1579,
    "lng": -75.5317,
-   "website": null,
+   "website": "https://taqueriaelcabritode.com/",
    "hours": "Daily 9a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -2414,7 +2414,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Dover/115265531547613/Taqueria-El-Cabrito---Dover%2C-De",
     "fbPostsSeen": 7,
     "fbNewestPost": "2025-06-29",
-    "website": null
+    "website": "https://taqueriaelcabritode.com/"
    },
    "conflicts": [
     {
@@ -2426,7 +2426,8 @@
      "resolution": "Facebook number kept (venue-managed page)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "websiteSource": "OpenStreetMap node/13399369601 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "de-taste-of-new-york-smyrna",
@@ -3226,6 +3227,124 @@
     "fbNewestPost": null,
     "website": null
    }
+  },
+  {
+   "id": "de-endzone-bar-and-grill-smyrna",
+   "name": "Endzone Bar and Grill",
+   "cuisine": "Pub",
+   "address": "235 Stadium Street, Smyrna",
+   "state": "DE",
+   "zip": "19977",
+   "phone": "(302) 514-9843",
+   "phoneSource": "OpenStreetMap node/2012657236 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 39.280423,
+   "lng": -75.590471,
+   "website": "https://endzonebarandgrill.com/",
+   "websiteSource": "OpenStreetMap node/2012657236 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 11a-1a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/2012657236 opening_hours tag (map data 2026-10-31; last checked on the map 2025-12-16) (checked 2026-11-01)",
+   "county": "Kent",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://endzonebarandgrill.com/",
+        "quote": "satisfy even the pickiest of eaters. From classic pub fare like wings and burgers to more upscale dishes like Quesadillas and Steak, we have something for everyone. And if you’re looking",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-07-08",
+      "quote": "Learn more | 08 | Jul | Sound >> Sound Dj Blaire",
+      "url": "https://endzonebarandgrill.com/upcoming-events/"
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " We offer a variety of events and entertainment throughout the year, including live music, trivia nights, board game nights, and more",
+      "url": "https://endzonebarandgrill.com/events/"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2027-04-11",
+      "quote": "Learn more | 11 | Apr | MUSIC >> MUSIC BINGO",
+      "url": "https://endzonebarandgrill.com/events/"
+     },
+     {
+      "date": "2027-04-11",
+      "quote": "11 | Apr | MUSIC BINGO | It’s >> It’s Bingo its the first night come out to EnD ZoNe BaR & Grill we…",
+      "url": "https://endzonebarandgrill.com/events/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "de-the-greene-turtle-dover",
+   "name": "The Greene Turtle",
+   "cuisine": "Restaurant",
+   "address": "391 North Dupont Highway, Dover",
+   "state": "DE",
+   "zip": "19901",
+   "phone": "(302) 264-9612",
+   "phoneSource": "OpenStreetMap way/693438370 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 39.172957,
+   "lng": -75.520276,
+   "website": "https://www.thegreeneturtle.com/location/dover/",
+   "websiteSource": "OpenStreetMap way/693438370 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/693438370 opening_hours tag (map data 2026-10-31; last checked on the map 2025-12-07) (checked 2026-11-01)",
+   "county": "Kent",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "city",

@@ -406,7 +406,7 @@
    "address": "5906 York Rd, Baltimore",
    "state": "MD",
    "zip": "21212",
-   "phone": null,
+   "phone": "(410) 323-2356",
    "lat": 39.3635,
    "lng": -76.6101,
    "priceText": "$$ (Facebook page)",
@@ -429,7 +429,8 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-27",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/3480340369 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-clavel",
@@ -1638,7 +1639,7 @@
    "lng": -76.6526,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://www.mtwashingtontavern.com/",
    "hours": "Mon-Tue 11a-11p; Wed-Thu 11a-12a; Fri-Sat 11a-2a; Sun 11a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -1724,8 +1725,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/315131498135/Mt.-Washington-Tavern",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-20",
-    "website": null
-   }
+    "website": "https://www.mtwashingtontavern.com/"
+   },
+   "websiteSource": "OpenStreetMap way/210898240 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-namaste-baltimore",
@@ -2016,7 +2018,7 @@
    "lng": -76.6355,
    "priceText": "$$$ (Facebook page)",
    "priceLevel": "$$$",
-   "website": null,
+   "website": "https://www.petitlouis.com/",
    "hours": "Mon 5p-9p; Tue 11a-2p; Wed-Sun closed",
    "hoursNote": "Facebook shows only Tue 11am - 2pm for that day (may be a lunch/brunch-only listing); call ahead. Restaurantji (updated 2026-09-20) lists different hours: Mon 5p-9p; Tue-Thu 11:30a-2p,5p-9p; Fri 11:30a-2p,5p-10p; Sat 5p-10p; Sun 10:30a-2p,5p-9p. Call ahead to confirm.",
    "kitchen": null,
@@ -2035,7 +2037,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/67728979696/Petit-Louis-Bistro",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "https://www.petitlouis.com/"
    },
    "conflicts": [
     {
@@ -2055,7 +2057,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "websiteSource": "OpenStreetMap node/1346511166 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-r-house",
@@ -2299,7 +2302,7 @@
    "address": "3600 Hickory Ave, Baltimore",
    "state": "MD",
    "zip": "21211",
-   "phone": null,
+   "phone": "(667) 303-3263",
    "lat": 39.3312,
    "lng": -76.634,
    "priceText": "$$ (Facebook page)",
@@ -2324,7 +2327,8 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/5331900522 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-the-duchess",
@@ -3104,6 +3108,31 @@
      "checked": "2026-11-01"
     }
    ]
+  },
+  {
+   "id": "md-kings-pizza-subs-baltimore",
+   "name": "King's Pizza & Subs",
+   "cuisine": "Pizza",
+   "address": "907 West 36th Street, Baltimore",
+   "state": "MD",
+   "zip": "21211",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 39.331022,
+   "lng": -76.631608,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Mon-Thu 11a-1a; Fri-Sat 11a-2a; Sun 11a-1a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/3447584224 opening_hours tag (map data 2026-10-31; last checked on the map 2026-02-06) (checked 2026-11-01)",
+   "county": "Baltimore City",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "neighborhood",

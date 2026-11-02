@@ -818,7 +818,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/nc/boone/hardees-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 36.216308,
    "lng": -81.67048,
-   "website": null,
+   "website": "https://locations.hardees.com/nc/boone/344-e-king-st",
    "hours": "Mon-Thu 5a-10p; Fri-Sat 5a-11p; Sun 6a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -835,8 +835,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://locations.hardees.com/nc/boone/344-e-king-st"
+   },
+   "websiteSource": "OpenStreetMap way/694736329 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "nc-hokkaido-restaurant-boone",
@@ -2184,8 +2185,8 @@
    "websiteSource": "OpenStreetMap node/3499486614 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon 11a-12a; Tue 4p-12a; Wed-Sat 11a-2a; Sun 11a-3:30p,5p-10p",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Mon 11a-10p; Tue 4p-10p; Wed-Sat 11a-10p; Sun 5p-10p",
+   "kitchenNote": "Kitchen hours from Venue website thelocalboone.com, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -2618,6 +2619,31 @@
     "fbNewestPost": null,
     "website": null
    }
+  },
+  {
+   "id": "nc-macados-boone",
+   "name": "Macado's",
+   "cuisine": "American",
+   "address": "539 West King Street, Boone",
+   "state": "NC",
+   "zip": "28607",
+   "phone": "(828) 264-1375",
+   "phoneSource": "OpenStreetMap way/698087755 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 36.217481,
+   "lng": -81.682558,
+   "website": "https://www.macados.net",
+   "websiteSource": "OpenStreetMap way/698087755 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 8a-12:30a; Fri-Sat 8a-1:30a; Sun 8a-12:30a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/698087755 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Watauga",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "city",

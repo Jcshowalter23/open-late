@@ -396,7 +396,7 @@
    "address": "410 First St SE, Washington, DC",
    "state": "DC",
    "zip": "20003",
-   "phone": null,
+   "phone": "(202) 484-0228",
    "lat": 38.8847,
    "lng": -77.0055,
    "priceText": "$$ (Facebook page)",
@@ -422,7 +422,8 @@
     "fbNewestPost": "2026-01-28",
     "website": "https://bullfeathersonthehill.com/#"
    },
-   "menu": "https://bullfeathersonthehill.com/washington-bullfeathers-food-menu"
+   "menu": "https://bullfeathersonthehill.com/washington-bullfeathers-food-menu",
+   "phoneSource": "OpenStreetMap node/737405128 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "dc-burrito-brothers-alexandria",
@@ -655,7 +656,7 @@
    "address": "522 8th St SE, Washington, DC",
    "state": "DC",
    "zip": "20003",
-   "phone": null,
+   "phone": "(202) 481-2506",
    "lat": 38.8819,
    "lng": -76.9947,
    "website": "http://www.HanPalaceDC.com/",
@@ -678,7 +679,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/11727469597 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "dc-hanul-cu-bun-t-i",
@@ -1939,6 +1941,33 @@
     "fbNewestPost": null,
     "website": null
    }
+  },
+  {
+   "id": "dc-barkeepers-washington",
+   "name": "Barkeeper's",
+   "cuisine": "Pub",
+   "address": "1901 C Street Southeast, Washington",
+   "state": "DC",
+   "zip": "20003",
+   "phone": "(202) 878-8077",
+   "phoneSource": "OpenStreetMap node/11661677969 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.884891,
+   "lng": -76.976938,
+   "website": "https://barkeepersdc.com/",
+   "websiteSource": "OpenStreetMap node/11661677969 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 5p-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/11661677969 opening_hours tag (map data 2026-10-31; last checked on the map 2024-03-17) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "neighborhood",

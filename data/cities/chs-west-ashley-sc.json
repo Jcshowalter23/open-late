@@ -1637,7 +1637,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/sc/charleston/r-kitchen-2/ (updated 2026-10-09), checked 2026-11-01",
    "lat": 32.797615,
    "lng": -80.00057,
-   "website": null,
+   "website": "https://www.rutledgekitchen.com",
    "hours": "Mon closed; Tue-Sat 6p-7:30p,8p-9:30p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -1654,8 +1654,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.rutledgekitchen.com"
+   },
+   "websiteSource": "OpenStreetMap node/5114997430 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "sc-rio-chico-mexican-restaurant-west-ashley",
@@ -2188,7 +2189,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/sc/charleston/the-glass-onion-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 32.784997,
    "lng": -80.003072,
-   "website": null,
+   "website": "https://www.ilovetheglassonion.com/",
    "hours": "Mon-Sat 8a-9p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -2227,8 +2228,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.ilovetheglassonion.com/"
+   },
+   "websiteSource": "OpenStreetMap way/653833874 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "sc-the-kickin-chicken",
@@ -2605,6 +2607,90 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   }
+  },
+  {
+   "id": "sc-home-team-bbq-charleston",
+   "name": "Home Team BBQ",
+   "cuisine": "Restaurant",
+   "address": "1205 Ashley River Road, Charleston",
+   "state": "SC",
+   "zip": null,
+   "phone": null,
+   "phoneSource": null,
+   "lat": 32.796946,
+   "lng": -79.997828,
+   "website": "https://hometeambbq.com/location/west-ashley/",
+   "websiteSource": "OpenStreetMap node/2529988651 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 11a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "Enjoy $5 draft Wicked Weed during Trivia every Monday night",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website hometeambbq.com/happenings",
+     "checked": "2026-11-01"
+    }
+   ],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/2529988651 opening_hours tag (map data 2026-10-31; last checked on the map 2024-03-29) (checked 2026-11-01)",
+   "county": "Charleston",
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": "7:00 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://hometeambbq.com/happenings/",
+        "date": "2026-11-01",
+        "quote": "Team Trivia – Columbia | Columbia: Mon. 7:00 pm | Columbia: Mon. 7:00 pm"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://hometeambbq.com/happenings/",
+        "date": "2026-11-01",
+        "quote": " Enjoy $5 draft Wicked Weed during Trivia every Monday night"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Come test your knowledge every Monday night with Team Trivia, and stay for the creative daily features and drink specials",
+      "url": "https://hometeambbq.com/location/west-ashley/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Stop by your neighborhood Home Team BBQ for live music, trivia, fundraisers, and more fun events",
+      "url": "https://hometeambbq.com/happenings/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Team Trivia – Greenville",
+      "url": "https://hometeambbq.com/happenings/"
+     }
+    ]
    }
   }
  ],

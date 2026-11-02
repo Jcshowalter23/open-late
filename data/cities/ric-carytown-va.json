@@ -893,7 +893,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/latitude-seafood-co-richmond-/ (updated 2026-10-11), checked 2026-11-01",
    "lat": 37.55172,
    "lng": -77.574728,
-   "website": null,
+   "website": "https://www.latitudeseafoodco.com",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -912,8 +912,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.latitudeseafoodco.com"
+   },
+   "websiteSource": "OpenStreetMap way/757517129 website tag (map data 2026-11-01), checked 2026-11-01"
   },
   {
    "id": "va-lolitas",
@@ -1438,7 +1439,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/southern-kitchen-/ (updated 2026-10-11), checked 2026-11-01",
    "lat": 37.551465,
    "lng": -77.5746,
-   "website": null,
+   "website": "https://southernkitchenrva.net/",
    "hours": "Mon closed; Tue-Thu 4p-9p; Fri-Sat 11a-9p; Sun 11a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -1477,8 +1478,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://southernkitchenrva.net/"
+   },
+   "websiteSource": "OpenStreetMap node/12326916224 website tag (map data 2026-11-01), checked 2026-11-01"
   },
   {
    "id": "va-the-continental-westhampton",
@@ -1598,7 +1600,7 @@
    "address": "3113 West Cary St, Richmond",
    "state": "VA",
    "zip": "23221",
-   "phone": null,
+   "phone": "(804) 355-2253",
    "lat": 37.553088,
    "lng": -77.48065,
    "website": "https://jasperbarrva.com/",
@@ -1654,7 +1656,8 @@
     "fbNewestPost": null,
     "website": "https://jasperbarrva.com/"
    },
-   "menu": "https://www.jasperbarrva.com/home"
+   "menu": "https://www.jasperbarrva.com/home",
+   "phoneSource": "Virginia ABC licensee export (LicenseSearchReport.xlsx, run 11/1/2026) premises phone, checked 2026-11-01"
   },
   {
    "id": "va-toast-new-american-gastropub-at-the-village",
@@ -1886,6 +1889,81 @@
     "fbNewestPost": null,
     "website": null
    }
+  },
+  {
+   "id": "va-ripple-rays-richmond",
+   "name": "Ripple Ray's",
+   "cuisine": "Restaurant",
+   "address": "3123 West Cary Street, Richmond",
+   "state": "VA",
+   "zip": "23221",
+   "phone": "(804) 424-3300",
+   "phoneSource": "OpenStreetMap node/3075570073 phone tag (map data 2026-11-01), checked 2026-11-01",
+   "lat": 37.553288,
+   "lng": -77.481337,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Mon closed; Tue-Sun 4p-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/3075570073 opening_hours tag (map data 2026-11-01; last checked on the map 2025-02-15) (checked 2026-11-01)",
+   "county": "Richmond City",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "va-philly-steak-gyros-richmond",
+   "name": "Philly Steak & Gyros",
+   "cuisine": "American",
+   "address": "3443 West Cary Street, Richmond",
+   "state": "VA",
+   "zip": "23221",
+   "phone": "(804) 562-1174",
+   "phoneSource": "OpenStreetMap node/3075639920 phone tag (map data 2026-11-01), checked 2026-11-01",
+   "lat": 37.554861,
+   "lng": -77.485829,
+   "website": "https://phillysteakgyros.com/",
+   "websiteSource": "OpenStreetMap node/3075639920 website tag (map data 2026-11-01), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-10:30p; Fri-Sat 11a-11:30p; Sun 11a-8p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/3075639920 opening_hours tag (map data 2026-11-01; last checked on the map 2025-05-03) (checked 2026-11-01)",
+   "county": "Richmond City",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "va-home-sweet-home-richmond",
+   "name": "Home Sweet Home",
+   "cuisine": "American",
+   "address": "3433 West Cary Street, Richmond",
+   "state": "VA",
+   "zip": "23221",
+   "phone": "(804) 355-9000",
+   "phoneSource": "OpenStreetMap node/3075639922 phone tag (map data 2026-11-01), checked 2026-11-01",
+   "lat": 37.554788,
+   "lng": -77.485618,
+   "website": "https://hshrva.com/",
+   "websiteSource": "OpenStreetMap node/3075639922 website tag (map data 2026-11-01), checked 2026-11-01",
+   "hours": "Mon-Fri 12p-2a; Sat-Sun 11a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/3075639922 opening_hours tag (map data 2026-11-01; last checked on the map 2025-05-03) (checked 2026-11-01)",
+   "county": "Richmond City",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "neighborhood",

@@ -7324,7 +7324,7 @@
    "lng": -76.5406,
    "priceText": "$ (Facebook page)",
    "priceLevel": "$",
-   "website": null,
+   "website": "http://www.officebargrill.com/",
    "hours": "Daily 12p-2a",
    "hoursNote": null,
    "kitchen": null,
@@ -7442,8 +7442,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Pasadena/462714203780087/The-Office-Bar-%26-Grill",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-10-28",
-    "website": null
-   }
+    "website": "http://www.officebargrill.com/"
+   },
+   "websiteSource": "OpenStreetMap node/10992625257 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-the-prime-rib-maryland",
@@ -7688,7 +7689,7 @@
    "lng": -76.6304,
    "priceText": "$ (Facebook page)",
    "priceLevel": "$",
-   "website": null,
+   "website": "https://www.thetreatrestaurant.com/",
    "hours": "Mon-Thu 10a-10p; Fri-Sat 10a-12a; Sun 12p-9p",
    "hoursNote": "Hours differ by source: Facebook page lists Mon-Thu 10a-10p; Fri 10a-12a; Sat 11a-12a; Sun 12a-9p (no posts since May 2026); Restaurantji (updated 2026-08-26) used as newer. Call ahead.",
    "kitchen": null,
@@ -7705,7 +7706,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Glen-Burnie/109198557337701/The-TREAT",
     "fbPostsSeen": 8,
     "fbNewestPost": "2023-03-08",
-    "website": null
+    "website": "https://www.thetreatrestaurant.com/"
    },
    "conflicts": [
     {
@@ -7721,7 +7722,8 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "websiteSource": "OpenStreetMap node/11877560238 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-tijuana-tacos-iv-glen-burnie",
@@ -8380,6 +8382,99 @@
     "fbNewestPost": "2026-09-23",
     "website": null
    }
+  },
+  {
+   "id": "md-rams-head-dockside-glen-burnie",
+   "name": "Rams Head Dockside",
+   "cuisine": "Beer garden",
+   "address": "1702 Furnace Drive, Glen Burnie",
+   "state": "MD",
+   "zip": "21060",
+   "phone": "(410) 590-2280",
+   "phoneSource": "OpenStreetMap node/5421520022 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 39.183792,
+   "lng": -76.58622,
+   "website": "https://www.ramsheaddockside.com/",
+   "websiteSource": "OpenStreetMap node/5421520022 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 11a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Kids Eat Free Wednesday",
+     "tags": [],
+     "src": "Venue website ramsheaddockside.com/events",
+     "checked": "2026-11-01"
+    }
+   ],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/5421520022 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Anne Arundel",
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.ramsheaddockside.com/events/",
+        "date": "2026-11-01",
+        "quote": "Thursday Trivia w/ Matt"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.ramsheaddockside.com/events/",
+        "date": "2026-11-01",
+        "quote": "Thursday Trivia w/ Matt"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
+  },
+  {
+   "id": "md-pho-one-o-restaurant-lounge-hanover",
+   "name": "Pho One-O Restaurant & Lounge",
+   "cuisine": "Vietnamese",
+   "address": "2651 Annapolis Road, Hanover",
+   "state": "MD",
+   "zip": "21075",
+   "phone": "(410) 551-0401",
+   "phoneSource": "OpenStreetMap node/13449298240 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 39.130419,
+   "lng": -76.741153,
+   "website": "https://www.phooneo.com/",
+   "websiteSource": "OpenStreetMap node/13449298240 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 10a-12a; Fri-Sat 10a-1a; Sun 10a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": "Kitchen open until 30 pm per Venue website phooneo.com, checked 2026-11-01; days not stated.",
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/13449298240 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Anne Arundel",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "town",

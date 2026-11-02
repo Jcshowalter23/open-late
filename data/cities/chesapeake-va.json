@@ -879,7 +879,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/chesapeake/buskys-chill-and-grill-/ (updated 2026-10-16), checked 2026-11-01",
    "lat": 36.690149,
    "lng": -76.236992,
-   "website": null,
+   "website": "https://www.buskyschillngrill.com/",
    "hours": "Daily 11a-2a",
    "hoursNote": null,
    "kitchen": null,
@@ -953,7 +953,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.buskyschillngrill.com/"
    },
    "bingo": {
     "nights": [
@@ -979,7 +979,8 @@
     "stale": false,
     "oneoffs": [],
     "conflicts": []
-   }
+   },
+   "websiteSource": "OpenStreetMap node/3157350795 website tag (map data 2026-11-01), checked 2026-11-01"
   },
   {
    "id": "va-chens-garden-restaurant",
@@ -2347,7 +2348,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/chesapeake/island-jerk-hut-/ (updated 2026-10-10), checked 2026-11-01",
    "lat": 36.820468,
    "lng": -76.22564,
-   "website": null,
+   "website": "https://islandjerkhutva.com/",
    "hours": "Mon closed; Tue-Thu 12p-8p; Fri-Sat 12p-9p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -2373,8 +2374,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://islandjerkhutva.com/"
+   },
+   "websiteSource": "OpenStreetMap node/3187760790 website tag (map data 2026-11-01), checked 2026-11-01"
   },
   {
    "id": "va-jackie-chen",
@@ -5176,6 +5178,31 @@
     "fbNewestPost": null,
     "website": "https://yumisushi-va.com/"
    }
+  },
+  {
+   "id": "va-big-woodys-bar-grill-chesapeake",
+   "name": "Big Woody's Bar & Grill",
+   "cuisine": "Restaurant",
+   "address": "123 North Battlefield Boulevard, Chesapeake",
+   "state": "VA",
+   "zip": "23320",
+   "phone": "(757) 436-1919",
+   "phoneSource": "OpenStreetMap node/11523846475 phone tag (map data 2026-11-01), checked 2026-11-01",
+   "lat": 36.723284,
+   "lng": -76.240339,
+   "website": "https://www.bigwoodys.net/",
+   "websiteSource": "OpenStreetMap node/11523846475 website tag (map data 2026-11-01), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-12a; Fri-Sat 11a-2a; Sun 11a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/11523846475 opening_hours tag (map data 2026-11-01) (checked 2026-11-01)",
+   "county": "Chesapeake City",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "city",

@@ -587,12 +587,12 @@
    "address": "5313 GEORGIA Ave, Washington, DC",
    "state": "DC",
    "zip": "20011",
-   "phone": null,
+   "phone": "(202) 733-5262",
    "lat": 38.9546,
    "lng": -77.0275,
    "priceText": "$ (Facebook page)",
    "priceLevel": "$",
-   "website": null,
+   "website": "http://www.elpulgarcitodc.com",
    "hours": "Mon 4p-2a; Tue closed; Wed 6a-2a; Thu 4p-2a; Fri-Sat 4p-3a; Sun 4p-2a",
    "hoursNote": null,
    "kitchen": null,
@@ -633,8 +633,10 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./104669957758310/El-Pulgarcito-Restaurant-%26-Bar",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://www.elpulgarcitodc.com"
+   },
+   "websiteSource": "OpenStreetMap node/12615735731 website tag (map data 2026-10-31), checked 2026-11-01",
+   "phoneSource": "OpenStreetMap node/12615735731 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "dc-hen-and-fin",
@@ -1116,7 +1118,7 @@
    "lng": -77.0249,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://marybargrillwashingtondc.com/",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": "Hours differ by source: Facebook page lists Mon-Thu 11a-11p; Fri-Sat 11a-3a; Sun 11a-11p (no posts since May 2026); Restaurantji (updated 2026-09-04) used as newer. Call ahead.",
    "kitchen": null,
@@ -1157,7 +1159,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./115647971509572/Mary-Bar%26Grill",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-04-17",
-    "website": null
+    "website": "https://marybargrillwashingtondc.com/"
    },
    "conflicts": [
     {
@@ -1178,7 +1180,8 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "websiteSource": "OpenStreetMap node/737145397 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "dc-morelands-tavern",
@@ -1517,7 +1520,7 @@
    "address": "5915 Georgia Ave NW, Washington, DC",
    "state": "DC",
    "zip": "20011",
-   "phone": null,
+   "phone": "(202) 560-5402",
    "lat": 38.9612,
    "lng": -77.0276,
    "priceText": "$$ (Facebook page)",
@@ -1540,7 +1543,8 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-30",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/12012701661 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "dc-simple-underground-the-stage",
@@ -1828,7 +1832,7 @@
    "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Washington-D.C./782418121831144/Taqueria-Habanero), checked 2026-11-01",
    "lat": 38.9375,
    "lng": -77.0331,
-   "website": null,
+   "website": "https://www.habanerodc.com/",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1845,8 +1849,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./782418121831144/Taqueria-Habanero",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.habanerodc.com/"
+   },
+   "websiteSource": "OpenStreetMap way/69201516 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "dc-taquizas-el-compa",
@@ -2166,6 +2171,311 @@
      "checked": "2026-11-01"
     }
    ]
+  },
+  {
+   "id": "dc-toro-bar-washington",
+   "name": "Toro Bar",
+   "cuisine": "Bar",
+   "address": "3708 14th Street Northwest, Washington",
+   "state": "DC",
+   "zip": null,
+   "phone": null,
+   "phoneSource": null,
+   "lat": 38.937506,
+   "lng": -77.033071,
+   "website": "https://torobar14th.com/",
+   "websiteSource": "OpenStreetMap node/744636055 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 5p-2a; Fri-Sat 5p-3a; Sun 5p-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/744636055 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-snappys-small-bar-washington",
+   "name": "Snappy's Small Bar",
+   "cuisine": "Bar",
+   "address": "3917 Georgia Avenue Northwest, Washington",
+   "state": "DC",
+   "zip": "20011",
+   "phone": "(301) 412-4005",
+   "phoneSource": "OpenStreetMap node/808115259 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.939181,
+   "lng": -77.024568,
+   "website": "https://www.snappysdc.com/",
+   "websiteSource": "OpenStreetMap node/808115259 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 5p-2a; Fri-Sat 3p-3a; Sun 3p-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/808115259 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm",
+   "dj": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.snappysdc.com/happenings",
+        "date": "2026-11-01",
+        "quote": "Bring a few of your favorite songs to put in the “jukebox” queue (Thank you Snappy DJ ipad + Spotify) | Every Tuesday night at sundown you can two-step your way on down to the Oldest Honky Tonk Night on Georgia Ave. We listen to country classics and eat peanut"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
+  },
+  {
+   "id": "dc-mezcalero-cocina-mexicana-washington",
+   "name": "Mezcalero Cocina Mexicana",
+   "cuisine": "Mexican",
+   "address": "3714 14th Street Northwest, Washington",
+   "state": "DC",
+   "zip": "20010",
+   "phone": "(202) 803-2114",
+   "phoneSource": "OpenStreetMap node/4608336781 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.937637,
+   "lng": -77.033062,
+   "website": "https://mezcalerodc.com/",
+   "websiteSource": "OpenStreetMap node/4608336781 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11:30a-11p; Fri-Sat 11:30a-11:30p; Sun 11:30a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/4608336781 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-juneberry-garage-washington",
+   "name": "Juneberry Garage",
+   "cuisine": "Burgers",
+   "address": "6810 Cameron Drive Northwest, Washington",
+   "state": "DC",
+   "zip": null,
+   "phone": null,
+   "phoneSource": null,
+   "lat": 38.972845,
+   "lng": -77.029164,
+   "website": "https://www.juneberrygarage.com/",
+   "websiteSource": "OpenStreetMap node/13176693590 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon closed; Tue-Fri 4p-12a; Sat 11a-12a; Sun 11a-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/13176693590 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-la-villa-pizzeria-washington",
+   "name": "La Villa Pizzeria",
+   "cuisine": "Pizza",
+   "address": "4632 14th Street Northwest, Washington",
+   "state": "DC",
+   "zip": "20011",
+   "phone": "(202) 729-9914",
+   "phoneSource": "OpenStreetMap way/70071107 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.947042,
+   "lng": -77.033009,
+   "website": "https://www.lavillamenu.com/",
+   "websiteSource": "OpenStreetMap way/70071107 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-12a; Fri-Sat 11a-4a; Sun 11a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/70071107 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.lavillamenu.com/",
+        "quote": "complete without trying the famous Cheese Pizza. See what all the fuss is about with this local favorite. | Add french fries to your pizza for a more satisfying meal. It's a great addition to an",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "dc-mereb-bar-restaurant-washington",
+   "name": "Mereb Bar & Restaurant",
+   "cuisine": "Restaurant",
+   "address": "5215 Georgia Avenue Northwest, Washington",
+   "state": "DC",
+   "zip": "20011",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 38.95342,
+   "lng": -77.027333,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Mon-Thu 11a-2a; Fri-Sun 11a-3a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/295846654 opening_hours tag (map data 2026-10-31; last checked on the map 2026-04-01) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-sing-long-carryout-washington",
+   "name": "Sing Long Carryout",
+   "cuisine": "Chinese",
+   "address": "5211 Georgia Avenue Northwest, Washington",
+   "state": "DC",
+   "zip": "20011",
+   "phone": "(202) 291-5663",
+   "phoneSource": "OpenStreetMap way/295846868 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.953312,
+   "lng": -77.02739,
+   "website": "https://www.singlongcarryout.com/",
+   "websiteSource": "OpenStreetMap way/295846868 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon 11a-3p; Tue-Thu 11a-11p; Fri-Sat 11a-11:59p; Sun 12p-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/295846868 opening_hours tag (map data 2026-10-31; last checked on the map 2025-05-16) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-neptune-room-washington",
+   "name": "Neptune Room",
+   "cuisine": "Bar",
+   "address": "5405 Georgia Avenue Northwest, Washington",
+   "state": "DC",
+   "zip": "20011",
+   "phone": "(240) 731-6757",
+   "phoneSource": "OpenStreetMap way/297531779 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.955412,
+   "lng": -77.027642,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Daily 5p-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap way/297531779 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-centenos-restaurant-washington",
+   "name": "Centeno's Restaurant",
+   "cuisine": "Latin American",
+   "address": "827 Kennedy Street Northwest, Washington",
+   "state": "DC",
+   "zip": "20011",
+   "phone": "(202) 882-1919",
+   "phoneSource": "OpenStreetMap way/297532017 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.956593,
+   "lng": -77.025246,
+   "website": "http://www.centenosbarandpizza.com",
+   "websiteSource": "OpenStreetMap way/297532017 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Wed 10a-10p; Thu 10a-12a; Fri-Sat 10a-2a; Sun 10a-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/297532017 opening_hours tag (map data 2026-10-31; last checked on the map 2025-05-19) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-chimalli-washington",
+   "name": "Chimalli",
+   "cuisine": "Mexican",
+   "address": "4401 14th Street NW, Washington",
+   "state": "DC",
+   "zip": null,
+   "phone": null,
+   "phoneSource": null,
+   "lat": 38.944141,
+   "lng": -77.032504,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Mon-Tue 4p-2a; Wed-Thu 11a-2a; Fri-Sat 11a-3a; Sun 11a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/12640854956 opening_hours tag (map data 2026-10-31) (checked 2026-11-01); active on-premise license: DC ABCA liquor license locations layer (DC GIS, downloaded 2026-11-01), address from license",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "neighborhood",

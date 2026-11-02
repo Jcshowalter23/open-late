@@ -16,13 +16,34 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/athens/blind-pig-tavern-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 33.9594,
    "lng": -83.3744,
-   "website": null,
+   "website": "https://blindpigtavern.com/location_downtown/",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 12p-10p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "HAPPY HOUR: Monday through Friday, 2PM to 7PM",
+     "tags": [],
+     "src": "Venue website blindpigtavern.com/location_downtown",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$4 all Mexican beers & WING NIGHT",
+     "tags": [
+      "wings",
+      "beer"
+     ],
+     "src": "Venue website blindpigtavern.com/location_downtown",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -35,7 +56,21 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://blindpigtavern.com/location_downtown/"
+   },
+   "websiteSource": "OpenStreetMap node/8812364590 website tag (map data 2026-10-31), checked 2026-11-01",
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Rock & Roll Bingo @8",
+      "url": "https://blindpigtavern.com/location_downtown/"
+     }
+    ]
    }
   },
   {
@@ -49,7 +84,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/athens/blue-sky-bar-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 33.9581,
    "lng": -83.3749,
-   "website": null,
+   "website": "https://blueskyathens.com/",
    "hours": "Mon-Tue 2p-12a; Wed-Sat 2p-2a; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -68,8 +103,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://blueskyathens.com/"
+   },
+   "websiteSource": "OpenStreetMap node/2501958317 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-cali-n-titos",
@@ -262,7 +298,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/athens/cutters-pub-/ (updated 2026-09-16), checked 2026-11-01",
    "lat": 33.958,
    "lng": -83.3766,
-   "website": null,
+   "website": "https://cutterspub.com/",
    "hours": "Mon-Fri 2p-2a; Sat 12p-2a; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -281,7 +317,30 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://cutterspub.com/"
+   },
+   "websiteSource": "OpenStreetMap node/2501958309 website tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://cutterspub.com/",
+        "quote": "ion. Whatever you’re looking for, be it a drink, old friends, or new ones, Cutters is the neighborhood bar, here to welcome you to a good time. | Book an Event | Signup For News And Specials | Sub",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -328,7 +387,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/athens/farm-burger-athens-/ (updated 2026-10-01), checked 2026-11-01",
    "lat": 33.9608,
    "lng": -83.3817,
-   "website": null,
+   "website": "https://www.farmburger.com/",
    "hours": "Daily 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -367,8 +426,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.farmburger.com/"
+   },
+   "websiteSource": "OpenStreetMap node/9672672302 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-five-and-ten",
@@ -448,13 +508,42 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/athens/five-athens-/ (updated 2026-10-07), checked 2026-11-01",
    "lat": 33.9582,
    "lng": -83.3789,
-   "website": null,
+   "website": "https://www.five-bar.com/location/athens-georgia/",
    "hours": "Mon closed; Tue-Fri 4p-10p; Sat 10a-3p,4p-10p; Sun 10a-3p,4p-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Tue-Sun",
+     "text": "Tuesday - Sunday: 4pm to 6pm at bar and patio 1/2 price well liquor and draft beer $2 off wine glasses",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website five-bar.com/location/athens-georgia",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "See venue",
+     "text": "4pm - 6pm 1/2 price beer & well liquors $2 off wine by the glass 1/2 off signature cocktails",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website five-bar.com/location/athens-georgia",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Daily",
+     "text": "Everyday: 4pm to 6pm at the bar Half-price well liquor, beer and signature cocktails",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website five-bar.com/location/tuscaloosa-alabama",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-07); the venue's Facebook page could not be read (checked 2026-11-01)",
@@ -465,8 +554,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.five-bar.com/location/athens-georgia/"
+   },
+   "websiteSource": "OpenStreetMap node/9813378199 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-flama-brazilian-steak-house",
@@ -565,7 +655,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/athens/georges-lowcountry-table-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 33.9232,
    "lng": -83.3781,
-   "website": null,
+   "website": "https://www.georgeslowcountrytable.com/",
    "hours": "Mon closed; Tue-Thu 4p-9p; Fri 4p-10p; Sat 2p-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -604,8 +694,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.georgeslowcountrytable.com/"
+   },
+   "websiteSource": "OpenStreetMap way/998142311 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-globe-athens",
@@ -618,7 +709,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/athens/the-globe-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 33.958,
    "lng": -83.3772,
-   "website": null,
+   "website": "https://www.globetavern.com/",
    "hours": "Mon-Thu 11a-12a; Fri-Sat 11a-2a; Sun 11a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -657,8 +748,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.globetavern.com/"
+   },
+   "websiteSource": "OpenStreetMap node/2501917083 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-hendershots",
@@ -858,7 +950,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/athens/maepole-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 33.9578,
    "lng": -83.3786,
-   "website": null,
+   "website": "https://www.maepole.com/",
    "hours": "Daily 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -897,8 +989,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.maepole.com/"
+   },
+   "websiteSource": "OpenStreetMap way/890492810 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-marker-7-coastal-grill",
@@ -975,7 +1068,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/athens/osteria-athena-/ (updated 2026-10-21), checked 2026-11-01",
    "lat": 33.9581,
    "lng": -83.3742,
-   "website": null,
+   "website": "https://www.osteriaathena.com/",
    "hours": "Mon closed; Tue-Thu 5p-9p; Fri-Sat 5p-10p; Sun 5p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -994,8 +1087,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.osteriaathena.com/"
+   },
+   "websiteSource": "OpenStreetMap node/9686248601 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-paloma-park",
@@ -1081,7 +1175,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/athens/poquitos-/ (updated 2026-10-14), checked 2026-11-01",
    "lat": 33.9597,
    "lng": -83.3822,
-   "website": null,
+   "website": "https://poquitosathens.com/",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1098,8 +1192,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://poquitosathens.com/"
+   },
+   "websiteSource": "OpenStreetMap node/11816831093 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-porterhouse-grill",
@@ -1112,7 +1207,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/athens/porterhouse-grill-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 33.9585,
    "lng": -83.3732,
-   "website": null,
+   "website": "https://www.porterhousegrillathens.com/",
    "hours": "Mon-Thu 11a-2p,4p-9p; Fri-Sat 11a-2p,4p-10p; Sun 11a-2p,4p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1153,8 +1248,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.porterhousegrillathens.com/"
+   },
+   "websiteSource": "OpenStreetMap node/9686248598 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-punta-cana-latin-grill",
@@ -1200,7 +1296,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/athens/san-angel-cocina-and-cantina-/ (updated 2026-10-07), checked 2026-11-01",
    "lat": 33.9501,
    "lng": -83.4108,
-   "website": null,
+   "website": "https://sanangelcocinacantina.com/",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1217,8 +1313,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://sanangelcocinacantina.com/"
+   },
+   "websiteSource": "OpenStreetMap way/311053003 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-savannah-room",
@@ -1262,7 +1359,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/athens/shokitini-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 33.9575,
    "lng": -83.3793,
-   "website": null,
+   "website": "https://shokitini.com/",
    "hours": "Mon-Thu 5p-10:30p; Fri-Sat 5p-11:30p; Sun 5p-10:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -1288,8 +1385,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://shokitini.com/"
+   },
+   "websiteSource": "OpenStreetMap node/8821450801 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-south-kitchen-bar",
@@ -1302,7 +1400,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/athens/south-kitchen-bar-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 33.9597,
    "lng": -83.3752,
-   "website": null,
+   "website": "https://www.southkitchenbar.com/",
    "hours": "Mon-Thu 11a-10p; Fri 11a-11p; Sat-Sun 10a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1321,8 +1419,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.southkitchenbar.com/"
+   },
+   "websiteSource": "OpenStreetMap node/2501973706 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-sullys-steamers",
@@ -1366,7 +1465,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/athens/taco-mama-athens-/ (updated 2026-09-06), checked 2026-11-01",
    "lat": 33.9588,
    "lng": -83.3774,
-   "website": null,
+   "website": "https://tacomamaonline.com/",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -1383,8 +1482,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://tacomamaonline.com/"
+   },
+   "websiteSource": "OpenStreetMap node/11765221237 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-taqueria-la-parrilla",
@@ -1462,7 +1562,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/athens/taqueria-tsunami-/ (updated 2026-10-20), checked 2026-11-01",
    "lat": 33.9585,
    "lng": -83.3742,
-   "website": null,
+   "website": "https://taqueriatsunami.com/",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1479,8 +1579,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://taqueriatsunami.com/"
+   },
+   "websiteSource": "OpenStreetMap node/8812317608 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-taste-of-india-athens-ga",
@@ -1492,7 +1593,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/athens/taste-of-india-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 33.9281,
    "lng": -83.3381,
-   "website": null,
+   "website": "https://www.tasteofindiatogo.com/",
    "hours": "Mon-Thu 11a-2p,4p-9p; Fri-Sat 11a-2p,4p-10p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -1509,8 +1610,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.tasteofindiatogo.com/"
+   },
+   "websiteSource": "OpenStreetMap node/9813363875 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-terrapin-taproom-athens",
@@ -1592,7 +1694,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/athens/thai-spoon-/ (updated 2026-11-01), checked 2026-11-01",
    "lat": 33.9578,
    "lng": -83.3771,
-   "website": null,
+   "website": "https://www.thaispoonathens.com/",
    "hours": "Mon-Thu 11a-9:45p; Fri 11a-10:30p; Sat 11:30a-10:30p; Sun 4p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1609,8 +1711,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.thaispoonathens.com/"
+   },
+   "websiteSource": "OpenStreetMap node/9686230027 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-the-crab-hut",
@@ -1720,7 +1823,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/athens/the-local-706-/ (updated 2026-10-31), checked 2026-11-01",
    "lat": 33.9381,
    "lng": -83.3876,
-   "website": null,
+   "website": "https://local706.top/",
    "hours": "Mon 5p-9p; Tue 11a-9p; Wed-Thu 11a-9:30p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1765,8 +1868,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://local706.top/"
+   },
+   "websiteSource": "OpenStreetMap way/237171653 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-the-national",
@@ -2011,7 +2115,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/athens/the-world-famous-/ (updated 2026-10-19), checked 2026-11-01",
    "lat": 33.9591,
    "lng": -83.3791,
-   "website": null,
+   "website": "https://theworldfamous.com/",
    "hours": "Mon-Tue 11a-12a; Wed-Sat 11a-2a; Sun 11a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -2050,8 +2154,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://theworldfamous.com/"
+   },
+   "websiteSource": "OpenStreetMap node/3173147561 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-trappeze-pub",
@@ -2064,7 +2169,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/athens/trappeze-pub-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 33.9578,
    "lng": -83.3786,
-   "website": null,
+   "website": "https://www.trappezepub.com/",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -2083,8 +2188,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.trappezepub.com/"
+   },
+   "websiteSource": "OpenStreetMap node/2501917005 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-tres-amigos-athens",
@@ -2128,7 +2234,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/athens/whataburger-/ (updated 2026-10-30), checked 2026-11-01",
    "lat": 33.9397,
    "lng": -83.451,
-   "website": null,
+   "website": "https://locations.whataburger.com/ga/athens/3201-atlanta-hwy.html",
    "hours": "Mon-Wed 7a-2a; Thu 7a-12a; Fri-Sat 12a-12a; Sun 12a-2a,7a-2a",
    "hoursNote": null,
    "kitchen": null,
@@ -2167,8 +2273,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://locations.whataburger.com/ga/athens/3201-atlanta-hwy.html"
+   },
+   "websiteSource": "OpenStreetMap way/1312085651 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-willys-mexicana-grill-athens",
@@ -2281,7 +2388,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ga/athens/zz-and-simones-/ (updated 2026-10-01), checked 2026-11-01",
    "lat": 33.9412,
    "lng": -83.3858,
-   "website": null,
+   "website": "https://www.zzandsimones.com/",
    "hours": "Mon-Thu 5p-9p; Fri-Sat 5p-10p; Sun 10:30a-2p,5p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -2298,7 +2405,122 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.zzandsimones.com/"
+   },
+   "websiteSource": "OpenStreetMap node/11028031241 website tag (map data 2026-10-31), checked 2026-11-01"
+  },
+  {
+   "id": "ga-hi-lo-lounge-athens",
+   "name": "Hi-Lo Lounge",
+   "cuisine": "Pub",
+   "address": "1354 Prince Avenue, Athens",
+   "state": "GA",
+   "zip": "30606",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 33.96357,
+   "lng": -83.400764,
+   "website": "https://www.hiloathens.com/",
+   "websiteSource": "OpenStreetMap node/4241187493 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 11a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/4241187493 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Clarke",
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia | Tuesday, April 8, 2025",
+      "url": "https://www.hiloathens.com/new-events-1"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ga-the-rook-pawn-athens",
+   "name": "The Rook & Pawn",
+   "cuisine": "Pub",
+   "address": "294 West Washington Street, Athens",
+   "state": "GA",
+   "zip": "30601",
+   "phone": "(706) 543-5040",
+   "phoneSource": "Venue website www.therookandpawn.com, checked 2026-11-01",
+   "lat": 33.958815,
+   "lng": -83.380161,
+   "website": "https://www.therookandpawn.com/",
+   "websiteSource": "OpenStreetMap node/9686180534 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-1a; Sun 11a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/9686180534 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Clarke",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "ga-cafe-racer-athens",
+   "name": "Cafe Racer",
+   "cuisine": "Restaurant",
+   "address": "377 Oak Street, Athens",
+   "state": "GA",
+   "zip": null,
+   "phone": "(706) 640-2556",
+   "phoneSource": "OpenStreetMap way/1510695600 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 33.951753,
+   "lng": -83.362499,
+   "website": "https://www.caferacer78.com/",
+   "websiteSource": "OpenStreetMap way/1510695600 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon closed; Tue-Thu 6a-10p; Fri-Sat 6a-12a; Sun 6a-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/1510695600 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Clarke",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.caferacer78.com/",
+        "quote": "Inglewood Ave, is a concept we’ve been dreaming up for years: an approachable, energetic, neighborhood hangout vibe featuring a full bar + room for up to 115 people to sit between our enclosed patio +",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   }
  ],

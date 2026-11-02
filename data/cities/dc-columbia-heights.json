@@ -438,7 +438,7 @@
    "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Washington-D.C./109033284178380/Dc-crab-plug), checked 2026-11-01",
    "lat": 38.9278,
    "lng": -77.0228,
-   "website": null,
+   "website": "https://crabplugdc.com/",
    "hours": "Daily 10:30a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -488,8 +488,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./109033284178380/Dc-crab-plug",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-28",
-    "website": null
-   }
+    "website": "https://crabplugdc.com/"
+   },
+   "websiteSource": "OpenStreetMap node/2804654801 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "dc-de-rhum-spot",
@@ -1929,7 +1930,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/dc/washington/tamashaa-/ (updated 2026-09-10), checked 2026-11-01",
    "lat": 38.9297,
    "lng": -77.0325,
-   "website": null,
+   "website": "https://tamashaa.us/",
    "hours": "Mon-Thu 11a-10p; Fri-Sun 11a-10:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -1948,7 +1949,30 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./117636641434182/Tamashaa",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "https://tamashaa.us/"
+   },
+   "websiteSource": "OpenStreetMap node/11907943283 website tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://tamashaa.us/",
+        "quote": "table. However, to ensure the perfect spot for your visit—especially for weekend dinners, romantic date nights, or larger group celebrations—we highly recommend reserving your table in adv",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2412,6 +2436,237 @@
      "checked": "2026-11-01"
     }
    ]
+  },
+  {
+   "id": "dc-looking-glass-lounge-washington",
+   "name": "Looking Glass Lounge",
+   "cuisine": "Pub",
+   "address": "3634 Georgia Avenue Northwest, Washington",
+   "state": "DC",
+   "zip": "20010",
+   "phone": "(202) 722-7669",
+   "phoneSource": "OpenStreetMap node/738190936 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.935026,
+   "lng": -77.024338,
+   "website": "https://www.thelookingglasslounge.com/",
+   "websiteSource": "OpenStreetMap node/738190936 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 5p-2a; Fri 4p-3a; Sat 5p-3a; Sun 11a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/738190936 opening_hours tag (map data 2026-10-31; last checked on the map 2025-11-13) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-marx-cafe-american-bar-washington",
+   "name": "Marx Cafe American Bar",
+   "cuisine": "Pub",
+   "address": "3203 Mount Pleasant Street Northwest, Washington",
+   "state": "DC",
+   "zip": "20010",
+   "phone": "(202) 518-7600",
+   "phoneSource": "OpenStreetMap node/741027376 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.931335,
+   "lng": -77.038207,
+   "website": "https://marxcafemtp.com/",
+   "websiteSource": "OpenStreetMap node/741027376 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 5a-1:30a; Fri 5a-2:30a; Sat 11a-2:30a; Sun 11a-1:30a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "HAPPY HOUR: MONDAY TO FRIDAY 4PM – 7PM",
+     "tags": [],
+     "src": "Venue website marxcafemtp.com/item-category/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/741027376 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://marxcafemtp.com/",
+        "quote": "ENJOY... | Our Beers, Wines and delicious Mediterranean inspired cuisine... | see more | LIVE MUSIC EVERY WEEK | See all our events and meet our resident performers... | see more | AC MONTGOMERY",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "We host nightly music events with superb live local talent performances and DJ's​",
+      "url": "https://marxcafemtp.com/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "dc-pizza-doro-washington",
+   "name": "Pizza D'oro",
+   "cuisine": "Pizza",
+   "address": "3618 14th Street Northwest, Washington",
+   "state": "DC",
+   "zip": "20010",
+   "phone": "(202) 291-2200",
+   "phoneSource": "OpenStreetMap node/4777169350 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.936947,
+   "lng": -77.032975,
+   "website": "https://pizzadorodc.com/",
+   "websiteSource": "OpenStreetMap node/4777169350 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/4777169350 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-afro-lounge-washington",
+   "name": "Afro Lounge",
+   "cuisine": "Restaurant",
+   "address": "3630 Georgia Avenue Northwest, Washington",
+   "state": "DC",
+   "zip": "20010",
+   "phone": "(202) 478-9826",
+   "phoneSource": "OpenStreetMap node/6122137185 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.934918,
+   "lng": -77.024334,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Mon-Thu 5p-2a; Fri-Sat 5p-3a; Sun 5p-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/6122137185 opening_hours tag (map data 2026-10-31; last checked on the map 2025-11-13) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-okpb-washington",
+   "name": "OKPB",
+   "cuisine": "Bar",
+   "address": "3165 Mount Pleasant Street Northwest, Washington",
+   "state": "DC",
+   "zip": "20009",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 38.930728,
+   "lng": -77.037951,
+   "website": "https://okpbdc.com/",
+   "websiteSource": "OpenStreetMap node/8861223621 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Sat 5p-12a; Sun 5p-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Our Classic Happy Hour All Night Long",
+     "tags": [],
+     "src": "Venue website okpbdc.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/8861223621 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Industry / late-night"
+    ],
+    "summary": "Popular with service-industry and late-night workers.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Industry / late-night",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://okpbdc.com/",
+        "quote": "Picks | Half Price Staff Favorites from 10 pm until close | 10pm | - | 12am | Wednesday | Service Industry Night | 10pm | - | 12am | Event Details | Wednesday | Service Industry Night | $15 for a",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "dc-charlenes-bar-grille-washington",
+   "name": "Charlene's Bar & Grille",
+   "cuisine": "Restaurant",
+   "address": "2618 Georgia Avenue Northwest, Washington",
+   "state": "DC",
+   "zip": "20001",
+   "phone": "(202) 758-3889",
+   "phoneSource": "OpenStreetMap node/2822855310 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.924763,
+   "lng": -77.022869,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Mon-Thu 4p-12a; Fri-Sat 4p-2a; Sun 4p-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/2822855310 opening_hours tag (map data 2026-10-31; last checked on the map 2023-12-08) (checked 2026-11-01); active on-premise license: DC ABCA liquor license locations layer (DC GIS, downloaded 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "neighborhood",

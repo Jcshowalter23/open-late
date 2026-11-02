@@ -738,7 +738,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/virginia-beach/grande-burrito-grill-/ (updated 2026-10-01), checked 2026-11-01",
    "lat": 36.840682,
    "lng": -76.121041,
-   "website": null,
+   "website": "https://grandeburritogrillva.com/",
    "hours": "Mon-Fri 11a-10p; Sat 12p-10p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -757,8 +757,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://grandeburritogrillva.com/"
+   },
+   "websiteSource": "OpenStreetMap node/12342323289 website tag (map data 2026-11-01), checked 2026-11-01"
   },
   {
    "id": "va-ibis-cuisine-restaurant",
@@ -2474,6 +2475,120 @@
     "fbNewestPost": null,
     "website": null
    }
+  },
+  {
+   "id": "va-twist-virginia-beach",
+   "name": "Twist",
+   "cuisine": "American",
+   "address": "4517 Commerce Street, Virginia Beach",
+   "state": "VA",
+   "zip": "23462",
+   "phone": "(757) 995-7878",
+   "phoneSource": "OpenStreetMap node/2050911833 phone tag (map data 2026-11-01), checked 2026-11-01",
+   "lat": 36.841626,
+   "lng": -76.135092,
+   "website": "https://twistvb.com/",
+   "websiteSource": "OpenStreetMap node/2050911833 website tag (map data 2026-11-01), checked 2026-11-01",
+   "hours": "Mon-Thu 4p-12a; Fri-Sat 4p-1a; Sun 4p-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour Monday-Friday 4pm-6pm",
+     "tags": [],
+     "src": "Venue website twistvb.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Thu",
+     "text": "Join us for Ladies’ Night every Thursday at Twist Martini, with extended happy hour drinks just for you until 9 PM",
+     "tags": [],
+     "src": "Venue website twistvb.com/virginia-beach-town-center-twist-martini-and-associate-s-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/2050911833 opening_hours tag (map data 2026-11-01) (checked 2026-11-01)",
+   "county": "Virginia Beach City",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://twistvb.com/",
+        "quote": "catering | perfect spot for celebration | parties | Versatile Venue | Casual gatherings, romantic evenings, and special events | reserve | groups & Parties | perfect place for your privat",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "va-chanellos-virginia-beach",
+   "name": "Chanello's",
+   "cuisine": "Pizza",
+   "address": "3333 Virginia Beach Boulevard, Virginia Beach",
+   "state": "VA",
+   "zip": "23452",
+   "phone": "(757) 486-2100",
+   "phoneSource": "OpenStreetMap node/4115360822 phone tag (map data 2026-11-01), checked 2026-11-01",
+   "lat": 36.840379,
+   "lng": -76.086976,
+   "website": "https://chanellospizza.com/",
+   "websiteSource": "OpenStreetMap node/4115360822 website tag (map data 2026-11-01), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-1a; Fri-Sat 11a-2a; Sun 11a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/4115360822 opening_hours tag (map data 2026-11-01) (checked 2026-11-01)",
+   "county": "Virginia Beach City",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "va-sunrise-pizzeria-virginia-beach",
+   "name": "Sunrise Pizzeria",
+   "cuisine": "Pizza",
+   "address": "4848 Virginia Beach Boulevard, Virginia Beach",
+   "state": "VA",
+   "zip": "23462",
+   "phone": "(757) 456-2923",
+   "phoneSource": "OpenStreetMap node/7946471171 phone tag (map data 2026-11-01), checked 2026-11-01",
+   "lat": 36.844676,
+   "lng": -76.143948,
+   "website": "https://sunrisepizzeria.us/",
+   "websiteSource": "OpenStreetMap node/7946471171 website tag (map data 2026-11-01), checked 2026-11-01",
+   "hours": "Mon-Thu 10a-10:30p; Fri-Sat 10a-11:30p; Sun 10a-10:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/7946471171 opening_hours tag (map data 2026-11-01) (checked 2026-11-01)",
+   "county": "Virginia Beach City",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "neighborhood",

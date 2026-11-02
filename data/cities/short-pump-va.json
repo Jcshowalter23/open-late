@@ -186,7 +186,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/glen-allen/canastas-chicken-/ (updated 2026-10-31), checked 2026-11-01",
    "lat": 37.651094,
    "lng": -77.609689,
-   "website": null,
+   "website": "https://www.canastaschicken.com/",
    "hours": "Mon-Sat 10:30a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -239,8 +239,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.canastaschicken.com/"
+   },
+   "websiteSource": "OpenStreetMap node/6525071782 website tag (map data 2026-11-01), checked 2026-11-01"
   },
   {
    "id": "va-chens-chinese-restaurant-glen-allen",
@@ -644,7 +645,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/richmond/lehja-restaurant-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 37.654594,
    "lng": -77.623569,
-   "website": null,
+   "website": "http://www.lehja.com/",
    "hours": "Mon-Thu 11:30a-2:30p,4:30p-10p; Fri 11:30a-2:30p,4:30p-10:30p; Sat 11:30a-10:30p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -683,8 +684,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://www.lehja.com/"
+   },
+   "websiteSource": "OpenStreetMap node/3211154367 website tag (map data 2026-11-01), checked 2026-11-01"
   },
   {
    "id": "va-los-panchos-short-pump",
@@ -1643,6 +1645,199 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   }
+  },
+  {
+   "id": "va-mpm-restaurant-and-tiki-bar-glen-allen",
+   "name": "MPM Restaurant and Tiki bar",
+   "cuisine": "Thai",
+   "address": "2451 Old Brick Road, Glen Allen",
+   "state": "VA",
+   "zip": "23060",
+   "phone": "(804) 562-9173",
+   "phoneSource": "OpenStreetMap node/2697257732 phone tag (map data 2026-11-01), checked 2026-11-01",
+   "lat": 37.648138,
+   "lng": -77.604564,
+   "website": "https://mpmtikirva.com/",
+   "websiteSource": "OpenStreetMap node/2697257732 website tag (map data 2026-11-01), checked 2026-11-01",
+   "hours": "Mon 3p-12a; Tue-Thu 11a-12a; Fri-Sat 11a-2a; Sun 11a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/2697257732 opening_hours tag (map data 2026-11-01) (checked 2026-11-01)",
+   "county": "Henrico",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "va-monas-lounge-cigar-bar-glen-allen",
+   "name": "Mona’s Lounge & Cigar Bar",
+   "cuisine": "Bar",
+   "address": "2442 Old Brick Road, Glen Allen",
+   "state": "VA",
+   "zip": "23060",
+   "phone": "(804) 360-2460",
+   "phoneSource": "OpenStreetMap node/3556565810 phone tag (map data 2026-11-01), checked 2026-11-01",
+   "lat": 37.64844,
+   "lng": -77.603679,
+   "website": "https://monaloungecigarbar.com/",
+   "websiteSource": "OpenStreetMap node/3556565810 website tag (map data 2026-11-01), checked 2026-11-01",
+   "hours": "Mon 12p-12a; Tue-Thu 12p-1a; Fri-Sat 12p-2a; Sun 2p-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/3556565810 opening_hours tag (map data 2026-11-01) (checked 2026-11-01)",
+   "county": "Henrico",
+   "addedBy": "sweep-osm",
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "8:30PM-1:30AM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://monaloungecigarbar.com/",
+        "date": "2026-11-01",
+        "quote": "Live DJ Set Fridays 8:30PM-1:30AM"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://monaloungecigarbar.com/saturday-live-jazz-7pm-930pm-and-live-dj-930pm-130am/",
+        "date": "2026-11-01",
+        "quote": "Live DJ Set Fridays 8:30PM-1:30AM"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://monaloungecigarbar.com/live-dj-set-fridays-830pm-130am/",
+        "date": "2026-11-01",
+        "quote": "Live DJ Set Fridays 8:30PM-1:30AM - Mona Lounge & Cigar Bar"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " The ambiance is lively but chill, meaning there was a live jazz band, followed by a DJ playing uptempo music; thus, you could dance or lay in the cut and relax",
+      "url": "https://monaloungecigarbar.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Saturday Live Jazz 7PM-9:30PM and Live DJ 9:30PM-1:30AM",
+      "url": "https://monaloungecigarbar.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Saturday Live Jazz 7PM-9:30PM and Live DJ 9:30PM-1:30AM - Mona Lounge & Cigar Bar",
+      "url": "https://monaloungecigarbar.com/saturday-live-jazz-7pm-930pm-and-live-dj-930pm-130am/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "va-the-burg-henrico",
+   "name": "The Burg",
+   "cuisine": "Burgers",
+   "address": "201 Towne Center West Boulevard, Henrico",
+   "state": "VA",
+   "zip": "23233",
+   "phone": "(804) 277-5775",
+   "phoneSource": "OpenStreetMap node/12230800714 phone tag (map data 2026-11-01), checked 2026-11-01",
+   "lat": 37.659347,
+   "lng": -77.626735,
+   "website": "https://ordertheburg.com/",
+   "websiteSource": "OpenStreetMap node/12230800714 website tag (map data 2026-11-01), checked 2026-11-01",
+   "hours": "Mon-Wed 11a-2a; Thu-Sat 11a-3a; Sun 11a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/12230800714 opening_hours tag (map data 2026-11-01) (checked 2026-11-01)",
+   "county": "Henrico",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "va-world-of-beer-richmond",
+   "name": "World of Beer",
+   "cuisine": "Restaurant",
+   "address": "11600 West Broad Street, Richmond",
+   "state": "VA",
+   "zip": "23233",
+   "phone": "(804) 767-7771",
+   "phoneSource": "OpenStreetMap way/225757942 phone tag (map data 2026-11-01), checked 2026-11-01",
+   "lat": 37.652201,
+   "lng": -77.613423,
+   "website": "https://worldofbeer.com/Locations/Richmond",
+   "websiteSource": "OpenStreetMap way/225757942 website tag (map data 2026-11-01), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-12a; Fri-Sat 11a-1a; Sun 11a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/225757942 opening_hours tag (map data 2026-11-01) (checked 2026-11-01)",
+   "county": "Henrico",
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " That's why we make it our purpose to create events that you and your friends will enjoy week in and week out, including exclusive Tap Takeovers from Breweries, Themed Trivia like The Office, & Live M",
+      "url": "https://worldofbeer.com/locations/richmond/"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Bingo Beer Black Lager",
+      "url": "https://worldofbeer.com/locations/richmond/beer/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Bingo Beer Free Space",
+      "url": "https://worldofbeer.com/locations/richmond/beer/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Bingo Beer Lager",
+      "url": "https://worldofbeer.com/locations/richmond/beer/"
+     }
+    ]
    }
   }
  ],

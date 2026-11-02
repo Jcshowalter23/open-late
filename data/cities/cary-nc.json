@@ -1027,7 +1027,7 @@
    "zip": "27604",
    "phone": "(919) 980-6310",
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/nc/raleigh/botiwalla-by-chai-pani-/ (updated 2026-09-22), checked 2026-11-01",
-   "website": null,
+   "website": "https://botiwalla.com/",
    "hours": "Daily 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1066,8 +1066,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://botiwalla.com/"
+   },
+   "websiteSource": "OpenStreetMap node/13944124001 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "nc-bottledog-bites-and-brews",
@@ -3214,7 +3215,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/nc/cary/greek-fiesta-at-crossroads-plaza-/ (updated 2026-08-24), checked 2026-11-01",
    "lat": 35.759209,
    "lng": -78.734171,
-   "website": null,
+   "website": "http://greekfiesta.com/cary/",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -3233,8 +3234,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://greekfiesta.com/cary/"
+   },
+   "websiteSource": "OpenStreetMap node/2121961578 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "nc-guasaca-south-american-grill-morrisville",
@@ -3471,13 +3473,34 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/nc/cary/hickory-tavern-/ (updated 2026-09-27), checked 2026-11-01",
    "lat": 35.845799,
    "lng": -78.886796,
-   "website": null,
+   "website": "https://www.thehickorytavern.com/",
    "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-11p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$17 Domestic Buckets",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website hickorytavern.com/daily-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "$25 High Noon Buckets",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website hickorytavern.com/daily-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -3526,7 +3549,85 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.thehickorytavern.com/"
+   },
+   "websiteSource": "OpenStreetMap node/4424359890 website tag (map data 2026-10-31), checked 2026-11-01",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7:00 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-12-30",
+      "datedLastSeen": "2026-12-30",
+      "postsSeen": 9,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://hickorytavern.com/locations/ashville/events/",
+        "date": "2026-12-30",
+        "quote": "Learn More | Asheville Trivia Night | December 30 2026 @ 7:00 PM EST | >> Trivia Night at Hickory Tavern Asheville | Put your knowledge to the test every Wednesday night at Hi... | Put your knowledge to the test every Wednesday night at Hi..."
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://hickorytavern.com/locations/ashville/events/",
+        "date": "2026-12-30",
+        "quote": "Learn More | Asheville Trivia Night | December 30 2026 @ 7:00 PM EST | >> Trivia Night at Hickory Tavern Asheville | Put your knowledge to the test every Wednesday night at Hi... | Put your knowledge to the test every Wednesday night at Hi..."
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://hickorytavern.com/locations/ashville/events/",
+        "date": "2026-12-23",
+        "quote": "Learn More | Asheville Trivia Night | December 23 2026 @ 7:00 PM EST | >> Trivia Night at Hickory Tavern Asheville | Put your knowledge to the test every Wednesday night at Hi... | Put your knowledge to the test every Wednesday night at Hi..."
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-12-11",
+      "quote": " nothing quite like great live music paired with food and drinks you actually love — and th... | Learn More | Asheville >> Asheville Trivia Night | December 16 2026 @ 7:00 PM EST",
+      "url": "https://hickorytavern.com/locations/ashville/events/"
+     },
+     {
+      "date": "2026-12-11",
+      "quote": " nothing quite like great live music paired with food and drinks you actually love — and th... | Learn More | Asheville >> Asheville Trivia Night | December 16 2026 @ 7:00 PM EST",
+      "url": "https://hickorytavern.com/locations/ashville/events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Asheville Trivia Night | November 04 2026 @ 7:00 PM EST",
+      "url": "https://hickorytavern.com/"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Asheville Music Bingo | November 05 2026 @ 6:00 PM EST | Think you know your music? Put it to the test every Thursday night at Hickory Tavern Asheville! Musi... | November 05 2026 @ 6:00 PM EST | Thin",
+      "url": "https://hickorytavern.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Asheville Music Bingo | November 05 2026 @ 6:00 PM EST | Think you know your music? Put it to the test every Thursday night at Hickory Tavern Asheville! Musi... | November 05 2026 @ 6:00 PM EST | Thin",
+      "url": "https://hickorytavern.com/locations/ashville/events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Asheville Music Bingo | November 12 2026 @ 6:00 PM EST | Think you know your music? Put it to the test every Thursday night at Hickory Tavern Asheville! Musi... | November 12 2026 @ 6:00 PM EST | Thin",
+      "url": "https://hickorytavern.com/locations/ashville/events/"
+     }
+    ]
    }
   },
   {
@@ -3573,7 +3674,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/nc/cary/himalayan-range-nepali-restaurant-/ (updated 2026-09-25), checked 2026-11-01",
    "lat": 35.802358,
    "lng": -78.769451,
-   "website": null,
+   "website": "http://himalayanrangenepalirestaurant.com/",
    "hours": "Mon closed; Tue-Thu 11a-3p,5p-9p; Fri-Sat 11a-3p,5p-10p; Sun 11a-3p,5p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -3590,8 +3691,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://himalayanrangenepalirestaurant.com/"
+   },
+   "websiteSource": "OpenStreetMap node/4518422190 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "nc-hong-kong-no-1",
@@ -3838,7 +3940,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/nc/cary/kashin-japanese-restaurant-/ (updated 2026-09-28), checked 2026-11-01",
    "lat": 35.759506,
    "lng": -78.734273,
-   "website": null,
+   "website": "http://www.kashin.com/",
    "hours": "Mon-Sat 11a-2p,5p-9p; Sun 5p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -3877,8 +3979,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://www.kashin.com/"
+   },
+   "websiteSource": "OpenStreetMap node/2121961579 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "nc-kathmandu-kitchen",
@@ -6410,7 +6513,7 @@
    "zip": "27511",
    "phone": "(919) 363-8888",
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/nc/cary/sports-and-social-cary-/ (updated 2026-10-18), checked 2026-11-01",
-   "website": null,
+   "website": "https://sportsandsocial.com/cary/",
    "hours": "Mon-Wed 11a-12a; Thu-Sat 11a-2a; Sun 11a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -6427,8 +6530,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://sportsandsocial.com/cary/"
+   },
+   "websiteSource": "OpenStreetMap node/10665108019 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "nc-spring-kitchens",
@@ -6497,7 +6601,7 @@
    "zip": "27609",
    "phone": "(919) 703-7535",
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/nc/raleigh/standard-beer-food-2/ (updated 2026-10-21), checked 2026-11-01",
-   "website": null,
+   "website": "https://standardbeerandfood.com",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-8:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -6516,8 +6620,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://standardbeerandfood.com"
+   },
+   "websiteSource": "OpenStreetMap way/1490335683 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "nc-super-wok",
@@ -6957,7 +7062,7 @@
    "zip": "27519",
    "phone": "(919) 651-8281",
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/nc/cary/tazza-kitchen-stone-creek-village-/ (updated 2026-10-18), checked 2026-11-01",
-   "website": null,
+   "website": "https://www.tazzakitchen.com/locations/stonecreekvillage/",
    "hours": "Mon-Tue 4:30p-9p; Wed-Thu 11:30a-2:30p,4:30p-9p; Fri 11:30a-2:30p,4:30p-10p; Sat 11:30a-10p; Sun 10:30a-2:30p,4:30p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -6996,8 +7101,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.tazzakitchen.com/locations/stonecreekvillage/"
+   },
+   "websiteSource": "OpenStreetMap node/2262185417 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "nc-ten-seconds-yunnan-rice-noodle",
@@ -7043,7 +7149,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/nc/cary/tenko-japan-/ (updated 2026-09-29), checked 2026-11-01",
    "lat": 35.758898,
    "lng": -78.7426,
-   "website": null,
+   "website": "http://www.tenkojapan.com/",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-9:30p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -7082,8 +7188,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://www.tenkojapan.com/"
+   },
+   "websiteSource": "OpenStreetMap node/9556631890 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "nc-thai-lotus",
@@ -7236,7 +7343,7 @@
    "address": "302 South Walker St, Cary",
    "state": "NC",
    "zip": "27511",
-   "phone": null,
+   "phone": "(919) 653-7180",
    "lat": 35.784942,
    "lng": -78.778687,
    "website": "https://downtowncarypark.com/locations/the-bark-bar",
@@ -7300,7 +7407,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://downtowncarypark.com/locations/the-bark-bar"
-   }
+   },
+   "phoneSource": "Venue website downtowncarypark.com/locations/the-bark-bar, checked 2026-11-01"
   },
   {
    "id": "nc-the-big-easy-oven-tap",
@@ -7971,7 +8079,7 @@
    "zip": "27519",
    "phone": "(919) 465-3055",
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/nc/cary/tribeca-tavern-/ (updated 2026-10-03), checked 2026-11-01",
-   "website": null,
+   "website": "http://www.tribecatavernnc.com/",
    "hours": "Mon-Fri 11a-10p; Sat-Sun 10a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -8012,8 +8120,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://www.tribecatavernnc.com/"
+   },
+   "websiteSource": "OpenStreetMap way/216896425 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "nc-tryseafood-grill-cary",
@@ -8397,6 +8506,167 @@
     "fbNewestPost": null,
     "website": "https://zestcary.com/"
    }
+  },
+  {
+   "id": "nc-macgregor-draft-house-cary",
+   "name": "MacGregor Draft House",
+   "cuisine": "American",
+   "address": "107 Edinburgh South Drive, Cary",
+   "state": "NC",
+   "zip": "27511",
+   "phone": "(919) 461-1633",
+   "phoneSource": "Venue website macgregordrafthouse.com, checked 2026-11-01",
+   "lat": 35.737046,
+   "lng": -78.798304,
+   "website": "https://www.macgregordrafthouse.com",
+   "websiteSource": "OpenStreetMap node/13278418941 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon 11a-10p; Tue-Thu 11a-11p; Fri-Sat 11a-12a; Sun 12p-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$1 Off All Draft Beers & $2 Off All Tequilas",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website macgregordrafthouse.com/cary-macgregor-draft-house-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "$2 Off Seasonal Cocktails + $6 Wicked Weed Pernicious + $18 Domestic BUCKETS + $9 NACHOS",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website macgregordrafthouse.com/cary-macgregor-draft-house-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/13278418941 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Wake",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://macgregordrafthouse.com/",
+        "quote": "out us | Come For The Game, Stay For The People. | Welcome to MacGregor Draft House, your neighborhood spot in Cary! We’re a family-friendly sports bar with good food, cold beer, and great company",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://macgregordrafthouse.com/",
+        "quote": "The People. | Welcome to MacGregor Draft House, your neighborhood spot in Cary! We’re a family-friendly sports bar with good food, cold beer, and great company. With 30 TVs, you’ll never miss a",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://macgregordrafthouse.com/",
+        "quote": "elcome to MacGregor Draft House, your neighborhood spot in Cary! We’re a family-friendly sports bar with good food, cold beer, and great company. With 30 TVs, you’ll never miss a play — fro",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-04",
+      "quote": "Trivia Night | 07:00 PM - 11:00 PM | Wednesday November 4th | 07:00 PM - 11:00 PM",
+      "url": "https://macgregordrafthouse.com/cary-macgregor-draft-house-happy-hours-specials"
+     }
+    ]
+   }
+  },
+  {
+   "id": "nc-hot-shots-hideaway-bar-cary",
+   "name": "Hot Shots Hideaway Bar",
+   "cuisine": "Bar",
+   "address": "125 Edinburgh Drive, Cary",
+   "state": "NC",
+   "zip": "27511",
+   "phone": "(919) 460-6307",
+   "phoneSource": "Venue website hotshotshideaway.wordpress.com, checked 2026-11-01",
+   "lat": 35.736258,
+   "lng": -78.798248,
+   "website": "https://hotshotshideaway.wordpress.com/",
+   "websiteSource": "OpenStreetMap node/13761156801 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 2p-2a; Fri-Sun 12p-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/13761156801 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Wake",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "nc-spirits-pub-grub-cary",
+   "name": "Spirits Pub & Grub",
+   "cuisine": "Restaurant",
+   "address": "701 East Chatham Street, Cary",
+   "state": "NC",
+   "zip": "27511",
+   "phone": "(919) 462-7001",
+   "phoneSource": "OpenStreetMap way/234063632 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 35.792091,
+   "lng": -78.765602,
+   "website": "https://www.spiritscary.com/",
+   "websiteSource": "OpenStreetMap way/234063632 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Tue 11:30a-10p; Wed-Sat 11:30a-12a; Sun 11:30a-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/234063632 opening_hours tag (map data 2026-10-31; last checked on the map 2026-07-25) (checked 2026-11-01)",
+   "county": "Wake",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "city",

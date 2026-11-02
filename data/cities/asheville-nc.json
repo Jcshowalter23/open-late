@@ -1373,7 +1373,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/nc/asheville/chai-pani-asheville-/ (updated 2026-09-04), checked 2026-11-01",
    "lat": 35.595139,
    "lng": -82.55507,
-   "website": null,
+   "website": "https://chaipani.com/",
    "hours": "Daily 11a-3p,5p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1390,8 +1390,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://chaipani.com/"
+   },
+   "websiteSource": "OpenStreetMap way/403093656 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "nc-character-study",
@@ -3262,7 +3263,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/nc/asheville/gauchinho-brazilian-steakhouse-/ (updated 2026-09-03), checked 2026-11-01",
    "lat": 35.593461,
    "lng": -82.57531,
-   "website": null,
+   "website": "https://www.gauchinhosteakhouse.com/",
    "hours": "Mon-Fri 4p-10p; Sat 11:30a-10p; Sun 11:30a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -3303,8 +3304,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.gauchinhosteakhouse.com/"
+   },
+   "websiteSource": "OpenStreetMap node/6418609541 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "nc-gemelli",
@@ -8224,7 +8226,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/nc/asheville/the-cantina-at-historic-biltmore-village-/ (updated 2026-08-20), checked 2026-11-01",
    "lat": 35.59435,
    "lng": -82.551444,
-   "website": null,
+   "website": "https://www.cantinabiltmore.com/",
    "hours": "Mon 11a-9p; Tue-Wed closed; Thu 11a-8:30p; Fri-Sat 11a-9p; Sun 11a-8:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -8263,8 +8265,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.cantinabiltmore.com/"
+   },
+   "websiteSource": "OpenStreetMap node/5685299958 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "nc-the-crow-and-quill",
@@ -10100,6 +10103,74 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   }
+  },
+  {
+   "id": "nc-standard-pizza-asheville",
+   "name": "Standard Pizza",
+   "cuisine": "Pizza",
+   "address": "755 Biltmore Avenue, Asheville",
+   "state": "NC",
+   "zip": "28803",
+   "phone": "(828) 412-3190",
+   "phoneSource": "OpenStreetMap node/5784576726 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 35.570644,
+   "lng": -82.545185,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 12p-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/5784576726 opening_hours tag (map data 2026-10-31; last checked on the map 2025-03-07) (checked 2026-11-01)",
+   "county": "Buncombe",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "nc-asheville-pizza-brewing-asheville",
+   "name": "Asheville Pizza & Brewing",
+   "cuisine": "Pizza",
+   "address": "77 Coxe Avenue, Asheville",
+   "state": "NC",
+   "zip": "28801",
+   "phone": "(828) 255-4077",
+   "phoneSource": "OpenStreetMap way/237756696 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 35.591742,
+   "lng": -82.555338,
+   "website": "https://www.ashevillebrewing.com/",
+   "websiteSource": "OpenStreetMap way/237756696 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Wed 11a-11p; Thu-Sat 11a-12a; Sun 11a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/237756696 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Buncombe",
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia",
+      "url": "https://www.ashevillebrewing.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Trivia",
+      "url": "https://www.ashevillebrewing.com/"
+     }
+    ]
    }
   }
  ],

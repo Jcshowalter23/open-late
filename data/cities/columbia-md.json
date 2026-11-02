@@ -929,7 +929,7 @@
    "lng": -76.8664,
    "priceText": "$$$ (Facebook page)",
    "priceLevel": "$$$",
-   "website": null,
+   "website": "https://www.cured1821.com/",
    "hours": "Mon-Thu 11a-10p; Fri 11a-11p; Sat 10a-11p; Sun 10a-9p",
    "hoursNote": "Restaurantji (updated 2026-08-25) lists different hours: Mon 11a-9p; Tue-Thu 11a-10p; Fri-Sat 11a-11p; Sun 10a-9p. Call ahead to confirm.",
    "kitchen": null,
@@ -984,7 +984,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Columbia/1497510953645944/Cured---18th-%26-21st",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-23",
-    "website": null
+    "website": "https://www.cured1821.com/"
    },
    "conflicts": [
     {
@@ -1000,7 +1000,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "websiteSource": "OpenStreetMap node/12805213515 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-curry-and-kabob",
@@ -1009,7 +1010,7 @@
    "address": "5325 Village Center Dr Columbia, Baltimore",
    "state": "MD",
    "zip": "21044",
-   "phone": null,
+   "phone": "(410) 715-8777",
    "lat": 39.2198,
    "lng": -76.8739,
    "priceText": "$$ (Facebook page)",
@@ -1035,7 +1036,8 @@
     "fbNewestPost": "2026-10-26",
     "website": "https://curryandkebob.com/"
    },
-   "menu": "https://curryandkebob.com/Menus"
+   "menu": "https://curryandkebob.com/Menus",
+   "phoneSource": "OpenStreetMap node/7015173341 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-cushwa-and-rad-pies-taproom",
@@ -2214,7 +2216,7 @@
    "address": "6410 Frertown Rd, Columbia",
    "state": "MD",
    "zip": "21044",
-   "phone": null,
+   "phone": "(410) 531-2825",
    "lat": 39.1954,
    "lng": -76.8834,
    "website": "http://www.kotosakemd.com/",
@@ -2235,7 +2237,8 @@
     "fbPostsSeen": 1,
     "fbNewestPost": "2022-10-05",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap way/605941183 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-kung-fu-12-szechuan",
@@ -2721,7 +2724,7 @@
    "address": "6420 Freetown Rd Suite 120, Columbia",
    "state": "MD",
    "zip": "21044",
-   "phone": null,
+   "phone": "(301) 498-9666",
    "lat": 39.195,
    "lng": -76.8836,
    "priceText": "$$$ (Facebook page)",
@@ -2768,7 +2771,8 @@
     "fbPostsSeen": 3,
     "fbNewestPost": "2025-12-10",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/3234613761 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-river-hill-grill",
@@ -4355,6 +4359,31 @@
      "checked": "2026-11-01"
     }
    ]
+  },
+  {
+   "id": "md-the-greene-turtle-columbia",
+   "name": "The Greene Turtle",
+   "cuisine": "American",
+   "address": "8872 McGaw Road, Columbia",
+   "state": "MD",
+   "zip": null,
+   "phone": "(410) 312-5255",
+   "phoneSource": "OpenStreetMap node/3601445493 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 39.188255,
+   "lng": -76.818838,
+   "website": "https://thegreeneturtle.com/location/columbia/",
+   "websiteSource": "OpenStreetMap node/3601445493 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon 11a-11p; Tue-Thu 11a-12a; Fri-Sat 11a-1:30a; Sun 11a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/3601445493 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Howard",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "city",

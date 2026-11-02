@@ -1062,7 +1062,7 @@
    "address": "2287 Cascade Rd SW Unit C, Atlanta",
    "state": "GA",
    "zip": "30311",
-   "phone": null,
+   "phone": "(404) 228-4852",
    "lat": 33.7224,
    "lng": -84.464,
    "priceText": "$$ (Facebook page)",
@@ -1102,7 +1102,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "OpenStreetMap node/14092853274 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ga-plant-based-zo-atl",
@@ -1777,7 +1778,7 @@
    "lng": -84.4188,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://www.vietvana.com",
    "hours": "Mon-Sat 11a-9p; Sun 11a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -1794,7 +1795,30 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/321135044426968/Vietvana-Pho-Noodle-House",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.vietvana.com"
+   },
+   "websiteSource": "OpenStreetMap node/13591850297 website tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.vietvana.com",
+        "quote": "anta. I like my food spicy 😋so I did ask for a side of the spicy oil😄 | Read More | I E | Everyone knows your name and your order. I have a new habit that’s better than Starbucks. Always fresh, alwa",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1829,6 +1853,31 @@
     "fbNewestPost": null,
     "website": null
    }
+  },
+  {
+   "id": "ga-barrio-atl-atlanta",
+   "name": "Barrio ATL",
+   "cuisine": "Mexican",
+   "address": "2310 Cascade Road, Atlanta",
+   "state": "GA",
+   "zip": null,
+   "phone": "(404) 947-0575",
+   "phoneSource": "OpenStreetMap node/14092853271 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 33.721924,
+   "lng": -84.463956,
+   "website": "https://barrioatl.com/",
+   "websiteSource": "OpenStreetMap node/14092853271 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon closed; Tue 12p-12a; Wed-Fri 4p-12a; Sat 12p-12a; Sun 12p-8p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/14092853271 opening_hours tag (map data 2026-10-31; last checked on the map 2026-08-13) (checked 2026-11-01)",
+   "county": "Fulton",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "neighborhood",

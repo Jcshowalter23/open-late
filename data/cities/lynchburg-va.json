@@ -1623,7 +1623,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/lynchburg/papa-gallo-/ (updated 2026-10-07), checked 2026-11-01",
    "lat": 37.366913,
    "lng": -79.174444,
-   "website": null,
+   "website": "https://papagallova.com",
    "hours": "Daily 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -1640,8 +1640,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://papagallova.com"
+   },
+   "websiteSource": "OpenStreetMap node/6645115065 website tag (map data 2026-11-01), checked 2026-11-01"
   },
   {
    "id": "va-phillin-philly",
@@ -2661,6 +2662,31 @@
     "website": "https://yamatolynchburg.com/"
    },
    "menu": "https://yamatolynchburg.com/menu.html"
+  },
+  {
+   "id": "va-skyline-lynchburg",
+   "name": "Skyline",
+   "cuisine": "American",
+   "address": "712 Church Street, Lynchburg",
+   "state": "VA",
+   "zip": "24504",
+   "phone": "(434) 616-4425",
+   "phoneSource": "OpenStreetMap node/12950908853 phone tag (map data 2026-11-01), checked 2026-11-01",
+   "lat": 37.415396,
+   "lng": -79.143825,
+   "website": "https://skylineatthevirginian.com",
+   "websiteSource": "OpenStreetMap node/12950908853 website tag (map data 2026-11-01), checked 2026-11-01",
+   "hours": "Mon-Wed 4p-10p; Thu 4p-11p; Fri-Sat 4p-12a; Sun 4p-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/12950908853 opening_hours tag (map data 2026-11-01; last checked on the map 2026-10-26) (checked 2026-11-01)",
+   "county": "Lynchburg City",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "city",

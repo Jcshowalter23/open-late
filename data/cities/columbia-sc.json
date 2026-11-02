@@ -1661,7 +1661,7 @@
    "zip": "29201",
    "phone": "(803) 728-0887",
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/sc/columbia/cowboy-brazilian-steakhouse-/ (updated 2026-10-12), checked 2026-11-01",
-   "website": null,
+   "website": "https://www.cowboybraziliansteakhouse.com/",
    "hours": "Mon-Thu 5p-9p; Fri 5p-10p; Sat 4p-10p; Sun 4p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1680,8 +1680,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.cowboybraziliansteakhouse.com/"
+   },
+   "websiteSource": "OpenStreetMap node/3369734073 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "sc-crazy-wings-downtown",
@@ -2582,7 +2583,7 @@
    "zip": "29209",
    "phone": "(803) 776-7281",
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/sc/columbia/hardees-4/ (updated 2026-10-30), checked 2026-11-01",
-   "website": null,
+   "website": "https://locations.hardees.com/sc/columbia/120-veterans-rd",
    "hours": "Mon-Sat 5a-9:30p; Sun 6a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -2621,8 +2622,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://locations.hardees.com/sc/columbia/120-veterans-rd"
+   },
+   "websiteSource": "OpenStreetMap way/294240814 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "sc-hardees-4",
@@ -4773,8 +4775,8 @@
    "websiteSource": "OpenStreetMap node/12456831428 website tag (map data 2026-10-31), checked 2026-11-01",
    "hours": "Mon-Thu 4p-9p; Fri 4p-2a; Sat 12p-2a; Sun 12p-9p",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Fri 4p-10p",
+   "kitchenNote": "Kitchen hours from Venue website pearlzoysterbar.com/location/pearlz-columbia-sc, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -7708,6 +7710,56 @@
     "fbNewestPost": null,
     "website": null
    }
+  },
+  {
+   "id": "sc-the-vetropolitan-columbia",
+   "name": "The Vetropolitan",
+   "cuisine": "Restaurant",
+   "address": "4561 Hard Scrabble Road, Columbia",
+   "state": "SC",
+   "zip": "29229",
+   "phone": "(803) 851-1066",
+   "phoneSource": "OpenStreetMap node/9902167309 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 34.150715,
+   "lng": -80.91228,
+   "website": "https://thevetropolitan.com",
+   "websiteSource": "OpenStreetMap node/9902167309 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon 4p-11p; Tue-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/9902167309 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Richland",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "sc-whaleys-kitchen-columbia",
+   "name": "Whaley's Kitchen",
+   "cuisine": "Pizza",
+   "address": "1315 Whaley Street, Columbia",
+   "state": "SC",
+   "zip": "29208",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 33.989085,
+   "lng": -81.02431,
+   "website": "https://sc.edu/about/offices_and_divisions/dining_services/restaurants/gamecockgen_campusvillage.php",
+   "websiteSource": "OpenStreetMap node/13126331668 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 8p-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/13126331668 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Richland",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "city",

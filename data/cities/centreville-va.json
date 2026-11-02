@@ -1772,7 +1772,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/centreville/tomo-sushi-and-grill-restaurant-/ (updated 2026-09-22), checked 2026-11-01",
    "lat": 38.836234,
    "lng": -77.428669,
-   "website": null,
+   "website": "https://tomosushigrill.com/",
    "hours": "Mon 12p-2:30p,4:30p-10:30p; Tue-Sat 12p-2:30p,4:30p-2a; Sun 12p-10:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -1791,8 +1791,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://tomosushigrill.com/"
+   },
+   "websiteSource": "OpenStreetMap node/5940600585 website tag (map data 2026-11-01), checked 2026-11-01"
   },
   {
    "id": "va-trattoria-villagio",
@@ -1934,6 +1935,53 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   }
+  },
+  {
+   "id": "va-bella-pizza-centreville",
+   "name": "Bella Pizza",
+   "cuisine": "Pizza",
+   "address": "5740 Pickwick Road, Centreville",
+   "state": "VA",
+   "zip": "20121",
+   "phone": "(703) 502-8888",
+   "phoneSource": "OpenStreetMap node/2397950887 phone tag (map data 2026-11-01), checked 2026-11-01",
+   "lat": 38.838074,
+   "lng": -77.423412,
+   "website": "https://bellapizzava.com/",
+   "websiteSource": "OpenStreetMap node/2397950887 website tag (map data 2026-11-01), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-11:59p; Sun 11a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/2397950887 opening_hours tag (map data 2026-11-01) (checked 2026-11-01)",
+   "county": "Fairfax",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://bellapizzava.com/",
+        "quote": "h quality ingredients, | delicious wings | , | hearty subs | , salads, | pastas | , and | family-friendly specials | that keep customers coming back. We’re celebrated locally for great flavor, fr",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   }
  ],

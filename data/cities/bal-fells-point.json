@@ -629,10 +629,10 @@
    "address": "901 S Bond St, Baltimore",
    "state": "MD",
    "zip": "21231",
-   "phone": null,
+   "phone": "(410) 541-4030",
    "lat": 39.2806,
    "lng": -76.5943,
-   "website": null,
+   "website": "https://www.bajatapbar.com/baltimore-md",
    "hours": "Mon-Wed 3p-11p; Thu-Fri 3p-11:59p; Sat 12a-2a; Sun closed",
    "hoursNote": "Facebook shows only Sat 12am - 2am for that day (may be a lunch/brunch-only listing); call ahead.",
    "kitchen": null,
@@ -673,8 +673,10 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/153563991180473/Baja-Tap",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.bajatapbar.com/baltimore-md"
+   },
+   "websiteSource": "OpenStreetMap node/3031992629 website tag (map data 2026-10-31), checked 2026-11-01",
+   "phoneSource": "OpenStreetMap node/3031992629 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-barcocina",
@@ -759,7 +761,7 @@
    "lng": -76.5913,
    "priceText": "$ (Facebook page)",
    "priceLevel": "$",
-   "website": null,
+   "website": "http://bendersfellspoint.com",
    "hours": "Mon-Fri 6p-2a; Sat 5p-2a; Sun 12p-2a",
    "hoursNote": "Restaurantji (updated 2026-10-11) lists different hours: Mon-Sat 5p-2a; Sun 1p-2a. Call ahead to confirm.",
    "kitchen": null,
@@ -855,7 +857,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/449287138449006/Benders",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-15",
-    "website": null
+    "website": "http://bendersfellspoint.com"
    },
    "conflicts": [
     {
@@ -875,7 +877,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "websiteSource": "OpenStreetMap way/336290618 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-bennys-baltimore",
@@ -3163,7 +3166,7 @@
    "address": "1800 Thames St, Baltimore",
    "state": "MD",
    "zip": "21231",
-   "phone": null,
+   "phone": "(410) 617-0580",
    "lat": 39.2821,
    "lng": -76.5909,
    "priceText": "$ (Facebook page)",
@@ -3186,7 +3189,8 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-09-26",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/5579487246 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-peter-chang-baltimore",
@@ -3794,7 +3798,7 @@
    "lng": -76.59,
    "priceText": "$ (Facebook page)",
    "priceLevel": "$",
-   "website": null,
+   "website": "https://spirits-tavern.menu-world.com/",
    "hours": "Mon-Fri 5p-1a; Sat 4p-1a; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -3835,8 +3839,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/171161768774/Spirits-Tavern",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-15",
-    "website": null
-   }
+    "website": "https://spirits-tavern.menu-world.com/"
+   },
+   "websiteSource": "OpenStreetMap node/13694327901 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "md-tandav-indian-cuisine-baltimore",
@@ -4457,6 +4462,33 @@
     "fbNewestPost": "2026-09-04",
     "website": null
    }
+  },
+  {
+   "id": "md-the-wren-baltimore",
+   "name": "The Wren",
+   "cuisine": "Pub",
+   "address": "1712 Aliceanna Street, Baltimore",
+   "state": "MD",
+   "zip": "21231",
+   "phone": "(410) 675-8466",
+   "phoneSource": "OpenStreetMap node/3053883030 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 39.283674,
+   "lng": -76.592586,
+   "website": "https://www.wrenpub.com/",
+   "websiteSource": "OpenStreetMap node/3053883030 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon closed; Tue-Thu 5p-10:30p; Fri-Sat 3p-11:30p; Sun closed",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/3053883030 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Baltimore City",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "neighborhood",

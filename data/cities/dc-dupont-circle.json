@@ -607,7 +607,7 @@
    "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Washington-D.C./385284391342765/Barbouzard), checked 2026-11-01",
    "lat": 38.9022,
    "lng": -77.0398,
-   "website": null,
+   "website": "https://barbouzard.com/",
    "hours": "Mon 5p-9p; Tue-Thu 11:30a-12a; Fri 11:30a-1a; Sat 5p-1a; Sun 12p-5p",
    "hoursNote": "Restaurantji (updated 2026-09-10) lists different hours: Mon 5p-9p; Tue-Thu 11:30a-10p; Fri 11:30a-1a; Sat 5p-1a; Sun 12p-5p. Call ahead to confirm.",
    "kitchen": null,
@@ -627,7 +627,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./385284391342765/Barbouzard",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "https://barbouzard.com/"
    },
    "conflicts": [
     {
@@ -644,7 +644,53 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "websiteSource": "OpenStreetMap node/739528072 website tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://barbouzard.com/",
+        "quote": "combines French elegance with vibrant Mediterranean flavors, offering a refined twist on fine dining. | Quality Ingredients | We prioritize peak-season, hand-selected ingredients, ensuring e",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Pierre is an accomplished DJ and curator whose career has spanned decades",
+      "url": "https://barbouzard.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Born with a deep love for music, Pierre began his journey in the music world as a DJ",
+      "url": "https://barbouzard.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Pierre’s natural ability to read the room, his unique style, and his vast knowledge of genres quickly made him a sought-after DJ, earning him spots at prestigious venues and events",
+      "url": "https://barbouzard.com/"
+     }
+    ]
+   }
   },
   {
    "id": "dc-bareburger",
@@ -881,7 +927,7 @@
    "address": "1604 U St NW, Washington, DC",
    "state": "DC",
    "zip": "20009",
-   "phone": null,
+   "phone": "(202) 573-8031",
    "lat": 38.9169,
    "lng": -77.0374,
    "priceText": "$$ (Facebook page)",
@@ -926,7 +972,8 @@
     "fbNewestPost": "2026-10-21",
     "website": "https://www.bonneviedc.com/"
    },
-   "menu": "https://www.bonneviedc.com/dining"
+   "menu": "https://www.bonneviedc.com/dining",
+   "phoneSource": "Venue website www.bonneviedc.com, checked 2026-11-01"
   },
   {
    "id": "dc-bravo-bravo-dc",
@@ -935,7 +982,7 @@
    "address": "1001 Connecticut Ave NW, Washington, DC",
    "state": "DC",
    "zip": "20036",
-   "phone": null,
+   "phone": "(202) 223-5330",
    "lat": 38.9029,
    "lng": -77.0391,
    "priceText": "$$ (Facebook page)",
@@ -1011,7 +1058,8 @@
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-28",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/5200760659 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "dc-cafe-citron",
@@ -3220,7 +3268,7 @@
    "address": "1615 L St NW, Washington, DC",
    "state": "DC",
    "zip": "20036",
-   "phone": null,
+   "phone": "(202) 747-5252",
    "lat": 38.9041,
    "lng": -77.0375,
    "priceText": "$$ (Facebook page)",
@@ -3243,7 +3291,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/11329577820 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "dc-pho-viet-usa-u-street",
@@ -3362,7 +3411,7 @@
    "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Washington-D.C./374823532371718/Pops-Legasea), checked 2026-11-01",
    "lat": 38.9059,
    "lng": -77.043,
-   "website": null,
+   "website": "https://popslegasea.com/",
    "hours": "Mon-Wed closed; Thu 7p-10p; Fri-Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -3379,8 +3428,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./374823532371718/Pops-Legasea",
     "fbPostsSeen": 9,
     "fbNewestPost": "2024-10-03",
-    "website": null
-   }
+    "website": "https://popslegasea.com/"
+   },
+   "websiteSource": "OpenStreetMap node/1912289096 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "dc-public-interest",
@@ -3596,7 +3646,7 @@
    "address": "1823 L St NW, Lowr, Washington, DC",
    "state": "DC",
    "zip": "20036",
-   "phone": null,
+   "phone": "(202) 296-6686",
    "lat": 38.9039,
    "lng": -77.0427,
    "priceText": "$ (Facebook page)",
@@ -3619,7 +3669,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/739528133 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "dc-residents-dc",
@@ -3751,7 +3802,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/dc/washington/sampannee-/ (updated 2026-10-27), checked 2026-11-01",
    "lat": 38.9094,
    "lng": -77.0476,
-   "website": null,
+   "website": "https://sampannee.com",
    "hours": "Daily 11a-10p",
    "hoursNote": "Restaurantji (updated 2026-10-27) lists different hours: Daily 12p-9:20p. Call ahead to confirm.",
    "kitchen": null,
@@ -3768,7 +3819,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./117163924656998/Sampannee",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-12",
-    "website": null
+    "website": "https://sampannee.com"
    },
    "conflicts": [
     {
@@ -3789,7 +3840,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "websiteSource": "OpenStreetMap node/739339998 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "dc-sauf-haus",
@@ -3798,7 +3850,7 @@
    "address": "1216 18th St NW, Washington, DC",
    "state": "DC",
    "zip": "20036",
-   "phone": null,
+   "phone": "(202) 844-9064",
    "lat": 38.9064,
    "lng": -77.042,
    "website": "https://www.saufhausdc.com/",
@@ -3859,7 +3911,8 @@
     "fbNewestPost": "2026-10-28",
     "website": "https://www.saufhausdc.com/"
    },
-   "menu": "https://www.saufhausdc.com/menu/"
+   "menu": "https://www.saufhausdc.com/menu/",
+   "phoneSource": "OpenStreetMap node/4156160943 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "dc-sette-osteria",
@@ -4294,7 +4347,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/dc/washington/taberna-del-alabardero-/ (updated 2026-10-29), checked 2026-11-01",
    "lat": 38.9013,
    "lng": -77.0417,
-   "website": null,
+   "website": "https://alabardero.com/",
    "hours": "Mon-Thu 11:30a-10p; Fri 11:30a-10:30p; Sat 11a-10:30p; Sun 11a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -4349,8 +4402,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./110317301248505/Taberna-del-Alabardero---Washington-DC",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-08-26",
-    "website": null
-   }
+    "website": "https://alabardero.com/"
+   },
+   "websiteSource": "OpenStreetMap node/739528182 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "dc-taim-washington-d-c",
@@ -4365,7 +4419,7 @@
    "lng": -77.0443,
    "priceText": "$ (Facebook page)",
    "priceLevel": "$",
-   "website": null,
+   "website": "https://taimkitchen.com/",
    "hours": "Daily 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -4384,8 +4438,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./100102585181752/taim",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-12",
-    "website": null
-   }
+    "website": "https://taimkitchen.com/"
+   },
+   "websiteSource": "OpenStreetMap node/10683734444 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "dc-thai-chef-street-food",
@@ -5319,6 +5374,321 @@
     "fbNewestPost": null,
     "website": "https://www.whaledc.com/"
    }
+  },
+  {
+   "id": "dc-the-fireplace-washington",
+   "name": "The Fireplace",
+   "cuisine": "Bar",
+   "address": "2161 P Street Northwest, Washington",
+   "state": "DC",
+   "zip": "20037",
+   "phone": "(202) 293-1293",
+   "phoneSource": "OpenStreetMap node/739339891 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.909802,
+   "lng": -77.048604,
+   "website": "http://www.fireplacebardc.com/",
+   "websiteSource": "OpenStreetMap node/739339891 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 1p-1a; Fri-Sat 1p-3a; Sun 1p-1a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/739339891 opening_hours tag (map data 2026-10-31; last checked on the map 2024-02-04) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-sacrificial-lamb-washington",
+   "name": "Sacrificial Lamb",
+   "cuisine": "Indian",
+   "address": "1704 R Street Northwest, Washington",
+   "state": "DC",
+   "zip": "20009",
+   "phone": "(202) 797-2736",
+   "phoneSource": "OpenStreetMap node/872962387 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.912462,
+   "lng": -77.038843,
+   "website": "https://dckabobsandwraps.com/",
+   "websiteSource": "OpenStreetMap node/872962387 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11:30a-11p; Fri-Sat 11:30a-12a; Sun 11:30a-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/872962387 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-crepeaway-washington",
+   "name": "Crepeaway",
+   "cuisine": "Restaurant",
+   "address": "2001 L Street Northwest, Washington",
+   "state": "DC",
+   "zip": "20036",
+   "phone": "(202) 973-0404",
+   "phoneSource": "OpenStreetMap node/3000700981 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.903907,
+   "lng": -77.04527,
+   "website": "https://www.crepeaway.com/",
+   "websiteSource": "OpenStreetMap node/3000700981 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Wed 11:30a-12a; Thu 11:30a-3a; Fri-Sat 11:30a-4a; Sun 11:30a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/3000700981 opening_hours tag (map data 2026-10-31; last checked on the map 2025-11-12) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-reynolds-bar-washington",
+   "name": "Reynold's Bar",
+   "cuisine": "Bar",
+   "address": "1320 18th Street Northwest, Washington",
+   "state": "DC",
+   "zip": "20036",
+   "phone": "(202) 495-1300",
+   "phoneSource": "OpenStreetMap node/3839491369 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.908365,
+   "lng": -77.041929,
+   "website": "https://reynoldsbardc.com",
+   "websiteSource": "OpenStreetMap node/3839491369 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon 4p-2a; Tue closed; Wed-Fri 4p-2a; Sat-Sun 5p-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/3839491369 opening_hours tag (map data 2026-10-31; last checked on the map 2025-05-25) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-alero-washington",
+   "name": "Alero",
+   "cuisine": "Mexican",
+   "address": "1724 Connecticut Avenue Northwest, Washington",
+   "state": "DC",
+   "zip": "20009",
+   "phone": "(703) 578-3663",
+   "phoneSource": "OpenStreetMap node/6699525423 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.913404,
+   "lng": -77.045996,
+   "website": "https://www.alerorestaurant.com",
+   "websiteSource": "OpenStreetMap node/6699525423 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/6699525423 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-the-angry-jerk-washington",
+   "name": "The Angry Jerk",
+   "cuisine": "Caribbean",
+   "address": "1300 Connecticut Avenue Northwest, Washington",
+   "state": "DC",
+   "zip": "20036",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 38.907639,
+   "lng": -77.042559,
+   "website": "https://www.theangryjerk.com/",
+   "websiteSource": "OpenStreetMap node/9910712185 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 11a-1a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/9910712185 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-wiseguy-pizza-washington-2",
+   "name": "Wiseguy Pizza",
+   "cuisine": "Pizza",
+   "address": "1205 19th Street Northwest, Washington",
+   "state": "DC",
+   "zip": "20036",
+   "phone": "(954) 284-0630",
+   "phoneSource": "OpenStreetMap node/11848289630 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.905982,
+   "lng": -77.043232,
+   "website": "https://www.wiseguypizza.com/",
+   "websiteSource": "OpenStreetMap node/11848289630 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Wed 10:30a-11p; Thu 10:30a-12a; Fri 10:30a-3a; Sat 11a-3a; Sun 11a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Pizzas, $2 off Beer, Canned Cocktails, 9\" Specialty Pizzas and Wings",
+     "tags": [
+      "wings",
+      "beer"
+     ],
+     "src": "Venue website wiseguypizza.com/whats-up-at-wiseguy/2026/3/11/happy-hour-at-atlantic-park",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/11848289630 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-darvish-kitchen-washington",
+   "name": "Darvish Kitchen",
+   "cuisine": "Restaurant",
+   "address": "1141 Connecticut Avenue Northwest, Washington",
+   "state": "DC",
+   "zip": "20036",
+   "phone": "(202) 783-7777",
+   "phoneSource": "OpenStreetMap node/11981103303 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.905159,
+   "lng": -77.040543,
+   "website": "https://www.darvishkitchen.com/",
+   "websiteSource": "OpenStreetMap node/11981103303 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon closed; Tue-Thu 5p-11p; Fri-Sat 5p-12a; Sun 5p-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/11981103303 opening_hours tag (map data 2026-10-31; last checked on the map 2025-03-17) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-moxies-washington",
+   "name": "Moxies",
+   "cuisine": "Restaurant",
+   "address": "1111 20th Street Northwest, Washington",
+   "state": "DC",
+   "zip": null,
+   "phone": "(202) 807-9604",
+   "phoneSource": "OpenStreetMap node/13177660844 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.903894,
+   "lng": -77.044691,
+   "website": "https://moxies.com/restaurants/washingtondc/",
+   "websiteSource": "OpenStreetMap node/13177660844 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Wed 11a-12a; Thu-Sat 11a-1a; Sun 11a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Offering freshly made dishes for every occasion including lunch, dinner, Happy Hour, late night bites, and weekend brunch, alongside with handcrafted cocktails and an extensive wine list featuring half priced bottles every Wednesday, Moxies is perfect for all occasions",
+     "tags": [],
+     "src": "Venue website moxies.com/restaurants/washingtondc",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "brunch, alongside with handcrafted cocktails and an extensive wine list featuring half priced bottles every Wednesday, Moxies is perfect for all occasions",
+     "tags": [],
+     "src": "Venue website moxies.com/restaurants/washingtondc",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "Enjoy handcrafted cocktails, an extensive wine list featuring half-priced bottles every Wednesday, and a vibrant atmosphere for any occasion",
+     "tags": [],
+     "src": "Venue website moxies.com/restaurants/fort-lauderdale",
+     "checked": "2026-11-01"
+    }
+   ],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/13177660844 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-safa-halal-washington",
+   "name": "Safa Halal",
+   "cuisine": "Middle Eastern",
+   "address": "1917 18th Street Northwest, Washington",
+   "state": "DC",
+   "zip": "20009",
+   "phone": "(240) 455-7998",
+   "phoneSource": "OpenStreetMap node/13203650036 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.916088,
+   "lng": -77.041474,
+   "website": "https://safahalaldc.com/",
+   "websiteSource": "OpenStreetMap node/13203650036 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/13203650036 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-back-door-tacos-washington",
+   "name": "Back Door Tacos",
+   "cuisine": "Mexican",
+   "address": "1624 Q Street Northwest, Washington",
+   "state": "DC",
+   "zip": "20009",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 38.910725,
+   "lng": -77.038127,
+   "website": "https://www.backdoortacosdc.com/",
+   "websiteSource": "OpenStreetMap node/14040003601 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 4p-12a; Fri-Sat 4p-1a; Sun 12p-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/14040003601 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "neighborhood",
