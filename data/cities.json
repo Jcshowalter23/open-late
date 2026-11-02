@@ -454,6 +454,11 @@
       "id": "brooklyn-ny",
       "name": "Brooklyn",
       "state": "NY"
+    },
+    {
+      "id": "queens-ny",
+      "name": "Queens",
+      "state": "NY"
     }
   ],
   "areas": [
@@ -23280,6 +23285,20 @@
       ],
       "state": "NY",
       "pickerState": "NY"
+    },
+    {
+      "id": "queens-ny",
+      "name": "Queens, NY",
+      "type": "city",
+      "region": "queens-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/queens-ny.json",
+      "status": "live",
+      "counties": [
+        "Queens"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
     }
   ],
   "counties": [
@@ -31236,7 +31255,7 @@
       "label": "Brooklyn (Kings County)",
       "state": "NY",
       "pickerState": "NY",
-      "places": 1178,
+      "places": 1180,
       "areas": [
         "brooklyn-ny"
       ]
@@ -31247,9 +31266,20 @@
       "label": "Manhattan (New York County)",
       "state": "NY",
       "pickerState": "NY",
-      "places": 1434,
+      "places": 1437,
       "areas": [
         "new-york-county-ny"
+      ]
+    },
+    {
+      "id": "ny-queens",
+      "name": "Queens",
+      "label": "Queens County",
+      "state": "NY",
+      "pickerState": "NY",
+      "places": 1952,
+      "areas": [
+        "queens-ny"
       ]
     }
   ]

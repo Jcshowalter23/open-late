@@ -15030,6 +15030,60 @@
    }
   },
   {
+   "id": "ny-greenpoint-fish-and-lobster-co",
+   "name": "Greenpoint Fish & Lobster Co.",
+   "cuisine": "Restaurant",
+   "address": "114 Nassau Ave, Brooklyn",
+   "state": "NY",
+   "zip": "11222",
+   "phone": "(718) 313-1913",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ny/long-island-city/greenpoint-fish-and-lobster-co-lic-market-/ (updated 2026-09-30), checked 2026-11-02",
+   "lat": 40.724261,
+   "lng": -73.949122,
+   "website": "https://greenpointfish.com/",
+   "websiteSource": "OpenStreetMap way/280081671 website tag (map data 2026-10-31), checked 2026-11-02",
+   "hours": "Mon-Thu 12p-9p; Fri-Sat 12p-10p; Sun 12p-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-09-30) (checked 2026-11-02)",
+   "county": "Kings",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-30",
+        "url": "https://www.restaurantji.com/ny/long-island-city/greenpoint-fish-and-lobster-co-lic-market-/",
+        "quote": "and crudo sampler. While there's limited indoor seating, the outdoor area is spacious and kid-friendly. The seafood always tastes super fresh and flavorful, and the service is always on point.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ny/long-island-city/greenpoint-fish-and-lobster-co-lic-market-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://greenpointfish.com/"
+   }
+  },
+  {
    "id": "ny-guarapo-latin-fusion",
    "name": "Guarapo Latin Fusion",
    "cuisine": "Restaurant",
@@ -15226,6 +15280,47 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   }
+  },
+  {
+   "id": "ny-haam-caribbean-plant-cuisine",
+   "name": "HAAM Caribbean Plant Cuisine",
+   "cuisine": "Restaurant",
+   "address": "234 Union Ave, Queens",
+   "state": "NY",
+   "zip": "11211",
+   "phone": "(212) 271-0110",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ny/queens/healthy-as-a-motha-vegan-kitchen-/ (updated 2026-10-27), checked 2026-11-02",
+   "lat": 40.707632,
+   "lng": -73.950494,
+   "website": "https://healthyasamotha.com/",
+   "websiteSource": "OpenStreetMap node/11968218727 website tag (map data 2026-10-31), checked 2026-11-02",
+   "hours": "Mon-Thu 4p-10p; Fri 12p-11p; Sat 11a-11p; Sun 11a-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "Mon-Thu",
+     "text": "Happy Hour now Available Mon - Thursday 4-6pm Bite",
+     "tags": [],
+     "src": "Venue website healthyasamotha.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-27) (checked 2026-11-02)",
+   "county": "Kings",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ny/queens/healthy-as-a-motha-vegan-kitchen-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://healthyasamotha.com/"
    }
   },
   {
@@ -47535,31 +47630,6 @@
    "addedBy": "sweep-osm"
   },
   {
-   "id": "ny-new-texas-fried-chicken-new-york",
-   "name": "New Texas Fried Chicken",
-   "cuisine": "Chicken Joint",
-   "address": "639 Wilson Avenue, New York",
-   "state": "NY",
-   "zip": null,
-   "phone": "(718) 574-1620",
-   "phoneSource": "OpenStreetMap node/6129270853 phone tag (map data 2026-10-31), checked 2026-11-02",
-   "lat": 40.689518,
-   "lng": -73.90581,
-   "website": null,
-   "websiteSource": null,
-   "hours": "Daily 10a-12a",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from OpenStreetMap node/6129270853 opening_hours tag (map data 2026-10-31; last checked on the map 2025-04-11) (checked 2026-11-02)",
-   "county": "Kings",
-   "addedBy": "sweep-osm"
-  },
-  {
    "id": "ny-amami-brooklyn",
    "name": "Amami",
    "cuisine": "Japanese",
@@ -48201,6 +48271,31 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/9132786078 opening_hours tag (map data 2026-10-31; last checked on the map 2025-04-30) (checked 2026-11-02)",
+   "county": "Kings",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "ny-crown-fried-chicken-brooklyn",
+   "name": "Crown Fried Chicken",
+   "cuisine": "Chicken Joint",
+   "address": "101 Ralph Avenue, Brooklyn",
+   "state": "NY",
+   "zip": "11221",
+   "phone": "(347) 787-1967",
+   "phoneSource": "OpenStreetMap node/9235661926 phone tag (map data 2026-10-31), checked 2026-11-02",
+   "lat": 40.686646,
+   "lng": -73.923294,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Mon-Thu 10a-3a; Fri-Sat 10a-4a; Sun 10a-3a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/9235661926 opening_hours tag (map data 2026-10-31; last checked on the map 2024-10-18) (checked 2026-11-02)",
    "county": "Kings",
    "addedBy": "sweep-osm"
   },
