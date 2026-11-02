@@ -67,6 +67,9 @@
   }
   // times inside deal/event text: "07:00 PM" / "7PM" -> "7 pm", "01:30pm" -> "1:30 pm" (same style as hours)
   const tf = (s) => String(s || "").replace(/\b0?(\d{1,2})(?::(\d\d))?\s*([AaPp])\.?[Mm]\.?(?![a-z])/g, (m, h, mm, ap) => `${Number(h)}${mm && mm !== "00" ? ":" + mm : ""} ${ap.toLowerCase()}m`);
+  // Featured listings: featured:true, optional featuredUntil (YYYY-MM-DD, last featured day, local date)
+  const todayISO = () => { const t = new Date(); return `${t.getFullYear()}-${String(t.getMonth() + 1).padStart(2, "0")}-${String(t.getDate()).padStart(2, "0")}`; };
+  const isFeat = (r) => !!r && r.featured === true && (!r.featuredUntil || String(r.featuredUntil) >= todayISO());
   function pretty(s) {
     return s.replace(/(\d{1,2}(?::\d{2})?)([ap])(?=[-,;]|$)/g, "$1 $2m").replace(/-/g, "–").replace(/,/g, ", ").replace(/;/g, " ·").replace(/24h/g, "open 24 hours");
   }
@@ -346,6 +349,7 @@
     const tn = tonight && (sort === "smart" || (sort === "near" && !here)) ? new Map(list.map((p) => { const t = tonightInfo(p); return [p, [t.kitchen > 0 ? 0 : 1, -(t.kitchen > 0 ? t.kitchen : t.close)]]; })) : null;
     const sk = !tn && (sort === "smart" || (sort === "near" && !here)) ? new Map(list.map((p) => [p, smartKey(p)])) : null;
     list.sort((a, b) => {
+      const fa = isFeat(a.r), fb = isFeat(b.r); if (fa !== fb) return fa ? -1 : 1;
       if (dist) { const x = dist.get(a), y = dist.get(b); if (x === null || y === null) return x === null && y === null ? a.r.name.localeCompare(b.r.name) : x === null ? 1 : -1; return x - y; }
       if (tn) { const x = tn.get(a), y = tn.get(b); return x[0] - y[0] || x[1] - y[1] || a.r.name.localeCompare(b.r.name); }
       if (sk) { const x = sk.get(a), y = sk.get(b); return x[0] - y[0] || x[1] - y[1] || a.r.name.localeCompare(b.r.name); }
@@ -441,7 +445,7 @@
       return `<article class="card${tonight && tonightInfo(p).kitchen > 0 ? " card-lk" : ""}" data-key="${esc(ck)}">
         <button type="button" class="fav" data-act="fav" aria-pressed="${fav}" aria-label="${fav ? "Remove from" : "Add to"} favorites: ${esc(r.name)}">${fav ? "♥" : "♡"}</button>
         ${top2 ? `<div class="town">${top2}</div>` : ""}
-        <h2>${esc(r.name)}${meta ? ` <span class="meta">${meta}</span>` : ""}</h2>
+        <h2>${esc(r.name)}${isFeat(r) ? ` <span class="badge b-feat">Featured</span>` : ""}${meta ? ` <span class="meta">${meta}</span>` : ""}</h2>
         <div class="status ${st.cls}"><span class="dot" aria-hidden="true"></span><span>${esc(st.text)}</span>${kline}${tonight ? (tonightInfo(p).kitchen > 0 ? `<span class="lk lk-t" title="Kitchen open past 11 PM tonight (per listed kitchen hours)">🍔 Food till ${fmt(tonightInfo(p).kitchen)}</span>` : "") : lateKitchen(p) ? `<span class="lk" title="Kitchen open past 11 PM today (per listed kitchen hours)">Late kitchen</span>` : ""}</div>
         ${dline}${elines}${ctLine}
         ${p.lc ? `<div class="lchk">${esc(p.lc)}</div>` : ""}
@@ -469,7 +473,8 @@
             ${r.phone ? `<div class="row"><b>Phone:</b> <a href="tel:${esc(tel)}">${esc(r.phone)}</a></div>` : ""}
             <div class="links">${r.website ? `<a href="${esc(r.website)}" target="_blank" rel="noopener">Website</a>` : `<span class="row"><b>Website:</b> ${NL}</span>`}
               <a href="${esc(mailto(r.name, p.areaName))}" data-act="suggest">Suggest an update</a>
-              <a href="${esc(mailto(r.name, p.areaName))}" data-act="claim">Own it? Claim this listing</a></div>
+              <a href="${esc(mailto(r.name, p.areaName))}" data-act="claim">Own it? Claim this listing</a>
+              <a href="featured.html">Own this place? Get featured</a></div>
           </div>
         </details>
       </article>`;
