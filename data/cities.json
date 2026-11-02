@@ -464,6 +464,11 @@
       "id": "bronx-ny",
       "name": "The Bronx",
       "state": "NY"
+    },
+    {
+      "id": "staten-island-ny",
+      "name": "Staten Island",
+      "state": "NY"
     }
   ],
   "areas": [
@@ -23318,6 +23323,20 @@
       ],
       "state": "NY",
       "pickerState": "NY"
+    },
+    {
+      "id": "staten-island-ny",
+      "name": "Staten Island, NY",
+      "type": "city",
+      "region": "staten-island-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/staten-island-ny.json",
+      "status": "live",
+      "counties": [
+        "Richmond"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
     }
   ],
   "counties": [
@@ -31310,6 +31329,17 @@
       "places": 1952,
       "areas": [
         "queens-ny"
+      ]
+    },
+    {
+      "id": "ny-richmond",
+      "name": "Richmond",
+      "label": "Staten Island (Richmond County)",
+      "state": "NY",
+      "pickerState": "NY",
+      "places": 281,
+      "areas": [
+        "staten-island-ny"
       ]
     }
   ]
