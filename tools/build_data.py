@@ -141,7 +141,7 @@ def build(write=True):
     dflt = next((c["st"] for c in counties if c["id"] == "lancaster"), "PA")
     states = [{"id": st, "name": (names.get(st) or {}).get("name") or st, **({"cityWord": names[st]["cityWord"]} if (names.get(st) or {}).get("cityWord") else {})} for st in have]
     states.sort(key=lambda s: (s["id"] != dflt, s["name"]))
-    out["data/index.json"] = dump({"defaultCounty": "lancaster", "states": states, "counties": counties, "areaCounties": area_counties, "countyAliases": idx.get("countyAliases") or {}}) + "\n"
+    out["data/index.json"] = dump({"defaultCounty": "lancaster", "states": states, **({"comingSoon": [{"id": x["id"], "name": x["name"]} for x in idx["comingSoon"]]} if idx.get("comingSoon") else {}), "counties": counties, "areaCounties": area_counties, "countyAliases": idx.get("countyAliases") or {}}) + "\n"
     changed = []
     for fn, s in out.items():
         cur = open(fn, encoding="utf-8").read() if os.path.exists(fn) else None

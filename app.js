@@ -875,7 +875,10 @@
     // index.json leaves out defaults to stay small (~320 Counties): label "<name> County", loc = picker State, file data/county/<id>.json
     for (const c of index.counties) { c.st = c.st || "PA"; c.loc = c.loc || c.st; c.label = c.label || `${c.name} County`; c.file = c.file || `data/county/${c.id}.json`; }
     const sts = (index.states && index.states.length ? index.states : [{ id: "PA", name: "Pennsylvania" }]).filter((s) => index.counties.some((c) => cSt(c) === s.id));
-    $("state").innerHTML = sts.map((s) => `<option value="${esc(s.id)}">${esc(s.name)}</option>`).join("");
+    // States still being built ("comingSoon" in data/index.json): disabled options in their own group after the live States, nothing loads for them
+    const soon = (index.comingSoon || []).filter((s) => !sts.some((x) => x.id === s.id));
+    $("state").innerHTML = sts.map((s) => `<option value="${esc(s.id)}">${esc(s.name)}</option>`).join("") +
+      (soon.length ? `<optgroup label="Coming soon">${soon.map((s) => `<option value="" disabled>${esc(s.name)} (coming soon)</option>`).join("")}</optgroup>` : "");
     fillCounties(cSt(countyById(index.defaultCounty || "lancaster")));
     // start: ?county=&area= link, then an old ?area= link (mapped to its primary county), then the remembered pick, then Lancaster County
     const sp = new URLSearchParams(location.search);
