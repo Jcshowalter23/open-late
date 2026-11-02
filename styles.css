@@ -244,5 +244,18 @@ dialog#formDlg::backdrop{background:rgba(10,12,18,.55)}
 .card .town .tzn{font-size:.75rem;color:var(--ink3)}
 /* Details toggle in the card's bottom-right corner, on the Checked row when there is one */
 .more-info>summary{display:flex;width:max-content;margin-left:auto}
-.card .lchk{padding-right:5.5rem;min-height:28px;display:flex;align-items:center;margin-top:0}
+.card .lchk{padding-right:8rem;min-height:28px;display:flex;align-items:center;margin-top:0}
 .card .lchk+.more-info{margin-top:-31px}
+/* Share icon in the card's bottom-right corner, beside the Details toggle */
+.shr{position:absolute;right:6px;bottom:4px;width:32px;height:28px;display:inline-flex;align-items:center;justify-content:center;padding:0;border:0;background:none;color:var(--link);cursor:pointer;border-radius:6px}
+.shr::before{content:"";width:18px;height:18px;background:currentColor;-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3v12M8 7l4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7'/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3v12M8 7l4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7'/%3E%3C/svg%3E") center/contain no-repeat}
+.shr:focus-visible{outline:2px solid var(--link);outline-offset:1px}
+.more-info>summary{margin-right:30px}
+.more-info[open] .links{padding-right:34px}
+/* desktop (>=900px): State, County and City on one row; every filter chip below it, wrapping instead of scrolling off */
+@media (min-width:900px){
+  .top{grid-template-columns:1fr;grid-template-areas:"bar" "pick" "chips"}
+  .pickers{width:auto;max-width:960px;grid-template-columns:repeat(3,minmax(0,1fr))}
+  .chipbar{flex-wrap:wrap;align-self:start}
+  .chipbar .chiprow{display:contents}
+}

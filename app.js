@@ -465,10 +465,10 @@
             ${nightRows(r.kk, "Karaoke")}${nightRows(r.dj, "DJ nights")}${nightRows(r.tv, "Trivia")}${nightRows(r.bg, "Bingo")}
             <div class="src">Source: ${esc(String(r.source).replace(/\s*\(checked \d{4}-\d\d-\d\d\)/g, ""))} · checked ${esc(p.checkedLabel)}</div>
             <div class="actions">
-              <a class="act" href="${esc(dirs)}" target="_blank" rel="noopener">Directions</a>
+              <a class="act" href="${esc(dirs)}" target="_blank" rel="noopener" aria-label="Directions to ${esc(r.name)}" title="Directions">Directions</a>
               <a class="act" href="${esc(reviews)}" target="_blank" rel="noopener">Reviews</a>
+              <a class="act" href="${esc(reviews)}" target="_blank" rel="noopener" data-act="photos" aria-label="Photos of ${esc(r.name)} on Google Maps" title="Photos (Google Maps)">Photos</a>
               ${r.menu ? `<a class="act" href="${esc(r.menu)}" target="_blank" rel="noopener">Menu</a>` : ""}
-              <button type="button" class="act" data-act="share">Share</button>
             </div>
             ${r.phone ? `<div class="row"><b>Phone:</b> <a href="tel:${esc(tel)}">${esc(r.phone)}</a></div>` : ""}
             <div class="links">${r.website ? `<a href="${esc(r.website)}" target="_blank" rel="noopener">Website</a>` : `<span class="row"><b>Website:</b> ${NL}</span>`}
@@ -477,6 +477,7 @@
               <a href="featured.html">Own this place? Get featured</a></div>
           </div>
         </details>
+        <button type="button" class="shr" data-act="share" aria-label="Share ${esc(r.name)}" title="Share"></button>
       </article>`;
     }).join("");
     if (more) $("list").insertAdjacentHTML("beforeend", html); else $("list").innerHTML = html;

@@ -469,6 +469,11 @@
       "id": "staten-island-ny",
       "name": "Staten Island",
       "state": "NY"
+    },
+    {
+      "id": "long-island-ny",
+      "name": "Long Island (Nassau & Suffolk)",
+      "state": "NY"
     }
   ],
   "areas": [
@@ -23297,6 +23302,104 @@
       "pickerState": "NY"
     },
     {
+      "id": "north-hempstead-ny",
+      "name": "North Hempstead, Glen Cove & Manhasset, NY",
+      "type": "city",
+      "region": "long-island-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/north-hempstead-ny.json",
+      "status": "live",
+      "counties": [
+        "Nassau"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "oyster-bay-ny",
+      "name": "Oyster Bay & New Cassel, NY",
+      "type": "city",
+      "region": "long-island-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/oyster-bay-ny.json",
+      "status": "live",
+      "counties": [
+        "Nassau"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "hempstead-ny",
+      "name": "Hempstead, Hicksville & Elmont, NY",
+      "type": "city",
+      "region": "long-island-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/hempstead-ny.json",
+      "status": "live",
+      "counties": [
+        "Nassau"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "farmingdale-ny",
+      "name": "Farmingdale, Massapequa & Massapequa Park, NY",
+      "type": "city",
+      "region": "long-island-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/farmingdale-ny.json",
+      "status": "live",
+      "counties": [
+        "Nassau"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "mineola-ny",
+      "name": "Mineola, Williston Park & Carle Place, NY",
+      "type": "town",
+      "region": "long-island-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/mineola-ny.json",
+      "status": "live",
+      "counties": [
+        "Nassau"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "long-beach-ny",
+      "name": "Long Beach, Barnum Island & Island Park, NY",
+      "type": "city",
+      "region": "long-island-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/long-beach-ny.json",
+      "status": "live",
+      "counties": [
+        "Nassau"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "oceanside-ny",
+      "name": "Oceanside & Point Lookout, NY",
+      "type": "city",
+      "region": "long-island-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/oceanside-ny.json",
+      "status": "live",
+      "counties": [
+        "Nassau"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
       "id": "new-york-county-ny",
       "name": "Manhattan, NY",
       "type": "city",
@@ -23334,6 +23437,118 @@
       "status": "live",
       "counties": [
         "Richmond"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "brookhaven-ny",
+      "name": "Brookhaven, Farmingville & St. James, NY",
+      "type": "city",
+      "region": "long-island-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/brookhaven-ny.json",
+      "status": "live",
+      "counties": [
+        "Suffolk"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "babylon-ny",
+      "name": "Babylon, NY",
+      "type": "city",
+      "region": "long-island-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/babylon-ny.json",
+      "status": "live",
+      "counties": [
+        "Suffolk"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "islip-ny",
+      "name": "Islip, Smithtown & Lake Ronkonkoma, NY",
+      "type": "city",
+      "region": "long-island-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/islip-ny.json",
+      "status": "live",
+      "counties": [
+        "Suffolk"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "east-hampton-ny",
+      "name": "East Hampton, Amagansett & Springs, NY",
+      "type": "city",
+      "region": "long-island-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/east-hampton-ny.json",
+      "status": "live",
+      "counties": [
+        "Suffolk"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "southampton-ny",
+      "name": "Southampton, Greenport & Southold, NY",
+      "type": "city",
+      "region": "long-island-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/southampton-ny.json",
+      "status": "live",
+      "counties": [
+        "Suffolk"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "riverhead-ny",
+      "name": "Riverhead, Hampton Bays & Westhampton Beach, NY",
+      "type": "city",
+      "region": "long-island-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/riverhead-ny.json",
+      "status": "live",
+      "counties": [
+        "Suffolk"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "huntington-ny",
+      "name": "Huntington, Commack & Huntington Station, NY",
+      "type": "city",
+      "region": "long-island-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/huntington-ny.json",
+      "status": "live",
+      "counties": [
+        "Suffolk"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "patchogue-ny",
+      "name": "Patchogue, Medford & Shirley, NY",
+      "type": "city",
+      "region": "long-island-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/patchogue-ny.json",
+      "status": "live",
+      "counties": [
+        "Suffolk"
       ],
       "state": "NY",
       "pickerState": "NY"
@@ -31304,9 +31519,26 @@
       "label": "Brooklyn (Kings County)",
       "state": "NY",
       "pickerState": "NY",
-      "places": 1180,
+      "places": 1179,
       "areas": [
         "brooklyn-ny"
+      ]
+    },
+    {
+      "id": "ny-nassau",
+      "name": "Nassau",
+      "label": "Nassau County",
+      "state": "NY",
+      "pickerState": "NY",
+      "places": 1417,
+      "areas": [
+        "hempstead-ny",
+        "oyster-bay-ny",
+        "north-hempstead-ny",
+        "long-beach-ny",
+        "farmingdale-ny",
+        "oceanside-ny",
+        "mineola-ny"
       ]
     },
     {
@@ -31326,7 +31558,7 @@
       "label": "Queens County",
       "state": "NY",
       "pickerState": "NY",
-      "places": 1952,
+      "places": 1954,
       "areas": [
         "queens-ny"
       ]
@@ -31340,6 +31572,24 @@
       "places": 281,
       "areas": [
         "staten-island-ny"
+      ]
+    },
+    {
+      "id": "ny-suffolk",
+      "name": "Suffolk",
+      "label": "Suffolk County",
+      "state": "NY",
+      "pickerState": "NY",
+      "places": 1339,
+      "areas": [
+        "islip-ny",
+        "babylon-ny",
+        "brookhaven-ny",
+        "huntington-ny",
+        "southampton-ny",
+        "patchogue-ny",
+        "east-hampton-ny",
+        "riverhead-ny"
       ]
     }
   ]
