@@ -45,6 +45,10 @@
     {
       "id": "NJ",
       "name": "New Jersey"
+    },
+    {
+      "id": "NY",
+      "name": "New York"
     }
   ],
   "comingSoon": [
@@ -440,6 +444,11 @@
       "id": "shore-south-nj",
       "name": "South Shore (Atlantic City, Cape May)",
       "state": "NJ"
+    },
+    {
+      "id": "manhattan-ny",
+      "name": "Manhattan",
+      "state": "NY"
     }
   ],
   "areas": [
@@ -23238,6 +23247,20 @@
       ],
       "state": "NJ",
       "pickerState": "NJ"
+    },
+    {
+      "id": "new-york-county-ny",
+      "name": "Manhattan, NY",
+      "type": "city",
+      "region": "manhattan-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/new-york-county-ny.json",
+      "status": "live",
+      "counties": [
+        "New York"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
     }
   ],
   "counties": [
@@ -31186,6 +31209,17 @@
         "hackettstown-nj",
         "phillipsburg-nj",
         "washington-nj-warren"
+      ]
+    },
+    {
+      "id": "ny-new-york",
+      "name": "New York",
+      "label": "Manhattan (New York County)",
+      "state": "NY",
+      "pickerState": "NY",
+      "places": 1437,
+      "areas": [
+        "new-york-county-ny"
       ]
     }
   ]
