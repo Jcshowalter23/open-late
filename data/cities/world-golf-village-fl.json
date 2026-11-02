@@ -154,7 +154,25 @@
    },
    "menu": "https://www.islandwing.com/menus/",
    "trivia": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "7 pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-02",
+      "sources": [
+       {
+        "src": "Trivia Nation schedule",
+        "url": "https://trivianation.com/find-a-show/",
+        "date": "2026-11-02",
+        "quote": "Trivia Nation Game Show Loco · Thu 7:00 PM · Island Wing Company, Jacksonville"
+       }
+      ],
+      "basis": "vendor/host published venue schedule",
+      "vendor": "Trivia Nation"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],

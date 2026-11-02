@@ -1254,7 +1254,32 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "bingo": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "7 pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-02",
+      "sources": [
+       {
+        "src": "Epic Trivia schedule",
+        "url": "https://epictriviafl.com/find-a-show/",
+        "date": "2026-11-02",
+        "quote": "Epic Trivia Music Bingo · Tue 7:00 PM · El Zocalo Mexican Restaurant, Sanford"
+       }
+      ],
+      "basis": "vendor/host published venue schedule",
+      "vendor": "Epic Trivia"
+     }
+    ],
+    "hints": [],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   }
   },
   {
    "id": "fl-elevated-eats-by-chef-juvon",
@@ -3822,7 +3847,66 @@
    ],
    "source": "hours from OpenStreetMap way/323108995 opening_hours tag (map data 2026-10-31) (checked 2026-11-01); active on-premise license: Florida DBPR alcoholic beverage licensee extract (bd400lic.csv, downloaded 2026-11-01)",
    "county": "Seminole",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "bingo": {
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": "7 pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-02",
+      "sources": [
+       {
+        "src": "Epic Trivia schedule",
+        "url": "https://epictriviafl.com/find-a-show/",
+        "date": "2026-11-02",
+        "quote": "Epic Trivia Music Bingo · Mon 7:00 PM · The Wet Spot, Sanford"
+       }
+      ],
+      "basis": "vendor/host published venue schedule",
+      "vendor": "Epic Trivia"
+     },
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "7:30 pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-02",
+      "sources": [
+       {
+        "src": "Epic Trivia schedule",
+        "url": "https://epictriviafl.com/find-a-show/",
+        "date": "2026-11-02",
+        "quote": "Epic Trivia Music Bingo · Thu 7:30 PM · The Wet Spot, Sanford"
+       }
+      ],
+      "basis": "vendor/host published venue schedule",
+      "vendor": "Epic Trivia"
+     },
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": "3 pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-02",
+      "sources": [
+       {
+        "src": "Epic Trivia schedule",
+        "url": "https://epictriviafl.com/find-a-show/",
+        "date": "2026-11-02",
+        "quote": "Epic Trivia Music Bingo · Sun 3:00 PM · The Wet Spot, Sanford"
+       }
+      ],
+      "basis": "vendor/host published venue schedule",
+      "vendor": "Epic Trivia"
+     }
+    ],
+    "hints": [],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   }
   }
  ],
  "type": "city",

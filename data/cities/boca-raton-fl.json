@@ -9353,7 +9353,32 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/159697325 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Palm Beach",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "7 pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-02",
+      "sources": [
+       {
+        "src": "Trivia Nation schedule",
+        "url": "https://trivianation.com/find-a-show/",
+        "date": "2026-11-02",
+        "quote": "Trivia Nation General Knowledge Trivia · Tue 7:00 PM · Duffy’s Sports Grill, Boca Raton"
+       }
+      ],
+      "basis": "vendor/host published venue schedule",
+      "vendor": "Trivia Nation"
+     }
+    ],
+    "hints": [],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   }
   }
  ],
  "type": "city",

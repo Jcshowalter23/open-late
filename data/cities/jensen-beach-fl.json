@@ -467,7 +467,32 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "bingo": {
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": "5 pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-02",
+      "sources": [
+       {
+        "src": "Trivia Nation schedule",
+        "url": "https://trivianation.com/find-a-show/",
+        "date": "2026-11-02",
+        "quote": "Trivia Nation Music Bingo · Mon 5:00 PM · Conchy Joe’s Seafood, Jensen Beach"
+       }
+      ],
+      "basis": "vendor/host published venue schedule",
+      "vendor": "Trivia Nation"
+     }
+    ],
+    "hints": [],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   }
   },
   {
    "id": "fl-corkd-wine-bar",
