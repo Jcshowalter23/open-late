@@ -2252,7 +2252,7 @@
    "address": "3100-3167 Aerial Way, Spring Hill",
    "state": "FL",
    "zip": "34604",
-   "phone": null,
+   "phone": "(813) 664-4810",
    "lat": 28.4791,
    "lng": -82.4765,
    "website": "https://www.regencycenters.com/property/detail/60127/Suncoast-Crossing",
@@ -2273,7 +2273,8 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-29",
     "website": "https://www.regencycenters.com/property/detail/60127/Suncoast-Crossing"
-   }
+   },
+   "phoneSource": "Venue website www.regencycenters.com/property/detail/60127/Suncoast-Crossing, checked 2026-11-01"
   },
   {
    "id": "fl-susies-grill",
@@ -2558,6 +2559,55 @@
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-31",
     "website": null
+   }
+  },
+  {
+   "id": "fl-boss-ladies-gastrobar-billiards-spring-hill",
+   "name": "Boss Ladies Gastrobar & Billiards",
+   "cuisine": "Bar",
+   "address": "4670 Commercial Way, Spring Hill",
+   "state": "FL",
+   "zip": "34606",
+   "phone": "(352) 340-4159",
+   "phoneSource": "OpenStreetMap node/11984663054 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 28.495459,
+   "lng": -82.593471,
+   "website": "https://bossladiesgastrobar.com/",
+   "websiteSource": "OpenStreetMap node/11984663054 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Wed 4p-12a; Thu-Sat 2p-2a; Sun 2p-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/11984663054 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Hernando",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://bossladiesgastrobar.com/",
+        "quote": "You Join Our Email List | Explore what Boss Ladies has to offer, from tasty bar bites to fine dining, right from any page. | Facebook-f | Twitter | Helpful Links | Privacy & Policy | Connect",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   }
  ],

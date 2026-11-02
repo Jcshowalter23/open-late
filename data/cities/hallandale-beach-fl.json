@@ -1792,7 +1792,7 @@
    "address": "1703 E Hallandale Beach Blvd, Hallandale Beach",
    "state": "FL",
    "zip": "33009",
-   "phone": null,
+   "phone": "(954) 457-9394",
    "lat": 25.987,
    "lng": -80.1315,
    "priceText": "$$ (Facebook page)",
@@ -1839,7 +1839,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/4943186821 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-pita-grill-falafel-benny",
@@ -2068,7 +2069,7 @@
    "address": "906 E Hallandale Beach Blvd, Hallandale Beach",
    "state": "FL",
    "zip": "33009",
-   "phone": null,
+   "phone": "(954) 454-8878",
    "lat": 25.9853,
    "lng": -80.139,
    "website": "http://www.upperdeckhallandalebeach.com/",
@@ -2149,7 +2150,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "OpenStreetMap way/250493593 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-wapo-taco-hallandale",
@@ -2288,6 +2290,110 @@
      "checked": "2026-11-01"
     }
    ]
+  },
+  {
+   "id": "fl-patrizias-waterfront-hallandale-beach",
+   "name": "Patrizia's Waterfront",
+   "cuisine": "Italian",
+   "address": "1975 South Ocean Drive, Hallandale Beach",
+   "state": "FL",
+   "zip": "33009",
+   "phone": "(954) 613-8090",
+   "phoneSource": "OpenStreetMap node/4943283223 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 25.979889,
+   "lng": -80.121683,
+   "website": "https://patrizias.com/",
+   "websiteSource": "OpenStreetMap node/4943283223 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 5p-10a; Fri-Sat 5p-11p; Sun 5p-10a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/4943283223 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Broward",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "fl-banchero-hallandale-hallandale-beach",
+   "name": "Banchero Hallandale",
+   "cuisine": "Restaurant",
+   "address": "2500 East Hallandale Beach Boulevard, Hallandale Beach",
+   "state": "FL",
+   "zip": "33009",
+   "phone": "(954) 589-2163",
+   "phoneSource": "OpenStreetMap node/13148595067 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 25.985763,
+   "lng": -80.125486,
+   "website": "https://www.bancheromiami.com/",
+   "websiteSource": "OpenStreetMap node/13148595067 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 12p-11p; Fri-Sat 12p-12a; Sun 12p-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/13148595067 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Broward",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "fl-flanigans-seafood-bar-and-grill-hallandale-beach",
+   "name": "Flanigan's Seafood Bar and Grill",
+   "cuisine": "Restaurant",
+   "address": "4 Federal Highway, Hallandale Beach",
+   "state": "FL",
+   "zip": "33009",
+   "phone": "(954) 458-2566",
+   "phoneSource": "OpenStreetMap way/250493604 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 25.986165,
+   "lng": -80.142133,
+   "website": "https://flanigans.net/",
+   "websiteSource": "OpenStreetMap way/250493604 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-12a; Fri-Sat 11a-1a; Sun 11a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "Sat,Sun",
+     "text": "However you want to play it, Saturdays & Sundays are a total win with Happy Hour 11 AM - 7 PM & 9 PM to close",
+     "tags": [],
+     "src": "Venue website flanigans.net",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "All Night Happy Hour",
+     "tags": [],
+     "src": "Venue website flanigans.net/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Free Curly Fries, Tumbleweed Onions or Chicken Wings with every pitcher (beer, iced tea, lemonade, or soda)",
+     "tags": [
+      "wings",
+      "beer"
+     ],
+     "src": "Venue website flanigans.net/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/250493604 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Broward",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "city",

@@ -6440,8 +6440,8 @@
    "address": "600 F Street NW, Washington",
    "state": "DC",
    "zip": null,
-   "phone": null,
-   "phoneSource": null,
+   "phone": "(202) 758-3867",
+   "phoneSource": "Venue website www.densondc.com, checked 2026-11-01",
    "lat": 38.897077,
    "lng": -77.020118,
    "website": "https://www.densondc.com/",
@@ -6458,7 +6458,29 @@
    ],
    "source": "hours from OpenStreetMap node/4421426916 opening_hours tag (map data 2026-10-31) (checked 2026-11-01); active on-premise license: DC ABCA liquor license locations layer (DC GIS, downloaded 2026-11-01), address from license",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.densondc.com/",
+        "quote": "stole and summon some cold gin.” | — Urban Daddy | READ ON… | “Imagine the Greene Turtle Sports Bar located across the street… Now imagine the exact opposite.” | — Prince of Petworth | READ",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "dc-kata-washington",
@@ -6467,8 +6489,8 @@
    "address": "600 F Street NW, Washington",
    "state": "DC",
    "zip": null,
-   "phone": null,
-   "phoneSource": null,
+   "phone": "(202) 834-6620",
+   "phoneSource": "Venue website www.kata-dc.com, checked 2026-11-01",
    "lat": 38.897167,
    "lng": -77.020117,
    "website": "https://www.kata-dc.com",
@@ -6485,7 +6507,29 @@
    ],
    "source": "hours from OpenStreetMap node/12509773884 opening_hours tag (map data 2026-10-31) (checked 2026-11-01); active on-premise license: DC ABCA liquor license locations layer (DC GIS, downloaded 2026-11-01), address from license",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.kata-dc.com",
+        "quote": "ce is thoughtfully curated to create a vibrant yet intimate setting, perfect for enjoying fine dining with friends and cocktails at the bar. | VIEW THE MENU | be it casual evening or | Grand",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "neighborhood",

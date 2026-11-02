@@ -2509,7 +2509,7 @@
    "lng": -87.2104,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://www.lucysinthesquare.com/",
    "hours": "Mon closed; Tue-Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -2554,8 +2554,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Pensacola/416356851882479/Lucy%27s-in-the-Square",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
-    "website": null
-   }
+    "website": "https://www.lucysinthesquare.com/"
+   },
+   "websiteSource": "OpenStreetMap way/547762442 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-mcguires-irish-pub",
@@ -4847,12 +4848,21 @@
    "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Pensacola/692647523939622/Steak-%27n-Shake), checked 2026-11-01",
    "lat": 30.4771,
    "lng": -87.2049,
-   "website": null,
+   "website": "https://www.steaknshake.com/locations/fl-pensacola-airport-boulevard/",
    "hours": "Daily 7a-2a",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Half Price Happy Hour",
+     "tags": [],
+     "src": "Venue website steaknshake.com/locations/fl-pensacola-airport-boulevard",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -4886,8 +4896,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Pensacola/692647523939622/Steak-%27n-Shake",
     "fbPostsSeen": 18,
     "fbNewestPost": "2026-07-27",
-    "website": null
-   }
+    "website": "https://www.steaknshake.com/locations/fl-pensacola-airport-boulevard/"
+   },
+   "websiteSource": "OpenStreetMap way/292759642 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-steel-pony-diner",
@@ -6526,6 +6537,85 @@
     "fbNewestPost": "2017-02-23",
     "website": null
    }
+  },
+  {
+   "id": "fl-alga-beer-co-pensacola",
+   "name": "Alga Beer Co.",
+   "cuisine": "Bar",
+   "address": "2435 North 12th Avenue, Pensacola",
+   "state": "FL",
+   "zip": "32503",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 30.439695,
+   "lng": -87.206437,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-12a; Sun 11a-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/14027851214 opening_hours tag (map data 2026-10-31) (checked 2026-11-01); active on-premise license: Florida DBPR alcoholic beverage licensee extract (bd400lic.csv, downloaded 2026-11-01)",
+   "county": "Escambia",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "fl-azalea-cocktail-lounge-pensacola",
+   "name": "Azalea Cocktail Lounge",
+   "cuisine": "American",
+   "address": "810 North Davis Street, Pensacola",
+   "state": "FL",
+   "zip": "32501",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 30.423062,
+   "lng": -87.210744,
+   "website": "https://azalealounge.com",
+   "websiteSource": "OpenStreetMap node/14246341701 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 9a-3a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/14246341701 opening_hours tag (map data 2026-10-31; last checked on the map 2026-10-20) (checked 2026-11-01)",
+   "county": "Escambia",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "fl-taste-of-jerusalem-express-pensacola",
+   "name": "Taste of Jerusalem Express",
+   "cuisine": "Middle Eastern",
+   "address": "5309 Bayou Boulevard, Pensacola",
+   "state": "FL",
+   "zip": "32503",
+   "phone": "(850) 285-0675",
+   "phoneSource": "OpenStreetMap way/1537231746 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 30.472564,
+   "lng": -87.211117,
+   "website": "https://tasteofjerusalemexpress.com/",
+   "websiteSource": "OpenStreetMap way/1537231746 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 10a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/1537231746 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Escambia",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "city",

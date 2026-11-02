@@ -2606,7 +2606,7 @@
    "address": "501 Fern St, West Palm Beach",
    "state": "FL",
    "zip": "33401",
-   "phone": null,
+   "phone": "(561) 328-9745",
    "lat": 26.7106,
    "lng": -80.0559,
    "priceText": "$$$ (Facebook page)",
@@ -2668,7 +2668,8 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.ranchersreservefl.com/fern-menu"
+   "menu": "https://www.ranchersreservefl.com/fern-menu",
+   "phoneSource": "Venue website www.ranchersreservefl.com/fern, checked 2026-11-01"
   },
   {
    "id": "fl-fresh-element",
@@ -3124,7 +3125,7 @@
    "address": "384 South Rosemary Ave, West Palm Beach",
    "state": "FL",
    "zip": "33401",
-   "phone": null,
+   "phone": "(561) 834-5010",
    "lat": 26.7103,
    "lng": -80.0576,
    "priceText": "$$$ (Facebook page)",
@@ -3172,7 +3173,8 @@
     "fbNewestPost": "2026-09-04",
     "website": "https://www.harrysbarrestaurant.com/harrys-west-palm-beach"
    },
-   "menu": "https://www.harrysbarrestaurant.com/menus"
+   "menu": "https://www.harrysbarrestaurant.com/menus",
+   "phoneSource": "Venue website www.harrysbarrestaurant.com/harrys-west-palm-beach, checked 2026-11-01"
   },
   {
    "id": "fl-havana-restaurant",
@@ -5709,7 +5711,7 @@
    "address": "2400 S. Dixie Hwy, West Palm Beach",
    "state": "FL",
    "zip": "33401",
-   "phone": null,
+   "phone": "(561) 803-0333",
    "lat": 26.6922,
    "lng": -80.054,
    "priceText": "$$ (Facebook page)",
@@ -5852,7 +5854,8 @@
       "url": "https://www.pigbeachnyc.com/location/boston/"
      }
     ]
-   }
+   },
+   "phoneSource": "OpenStreetMap way/1042262773 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-pink-steak",
@@ -6421,17 +6424,26 @@
    "address": "224 Clematis St, West Palm Beach",
    "state": "FL",
    "zip": "33401",
-   "phone": null,
+   "phone": "(561) 650-1001",
    "lat": 26.7132,
    "lng": -80.0516,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://www.roccostacos.com/location/roccos-tacos-west-palm-beach/",
    "hours": "Mon 11:30a-10p; Tue 11:30a-1a; Wed-Thu 11:30a-11p; Fri 11:30a-1a; Sat 11a-1a; Sun 11a-10p",
    "hoursNote": "Restaurantji (updated 2026-10-30) lists different hours: Mon 11:30a-10p; Tue 11:30a-12a; Wed-Thu 11:30a-11p; Fri 11:30a-12a; Sat 11a-12a; Sun 11a-10p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Tue,Sat,Sun",
+     "text": "Rocco's Tacos & Tequila Bar on Clematis Street in Downtown West Palm Beach serves lunch and dinner daily, Weekend Brunch on Saturday and Sunday, Happy Hour 4–7 PM at the bar, and Taco Tuesday every week",
+     "tags": [],
+     "src": "Venue website roccostacos.com/location/roccos-tacos-west-palm-beach",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -6445,7 +6457,7 @@
     "facebookMirror": "https://www.foodyas.com/US/West-Palm-Beach/101628522639121/Rocco%27s-Tacos-and-Tequila-Bar---West-Palm-Beach",
     "fbPostsSeen": 11,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "https://www.roccostacos.com/location/roccos-tacos-west-palm-beach/"
    },
    "conflicts": [
     {
@@ -6462,7 +6474,9 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "websiteSource": "OpenStreetMap node/13176083912 website tag (map data 2026-10-31), checked 2026-11-01",
+   "phoneSource": "OpenStreetMap node/13176083912 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-rock-n-crab-cajun-seafood-and-bar",
@@ -7228,7 +7242,7 @@
    "address": "251 N. Narcissus Blvd, West Palm Beach",
    "state": "FL",
    "zip": "33401",
-   "phone": null,
+   "phone": "(561) 461-0050",
    "lat": 26.7148,
    "lng": -80.0508,
    "priceText": "$$$ (Facebook page)",
@@ -7285,7 +7299,8 @@
     "fbNewestPost": "2026-10-22",
     "website": "https://spruzzowestpalm.com/"
    },
-   "menu": "https://www.spruzzowestpalm.com/menu"
+   "menu": "https://www.spruzzowestpalm.com/menu",
+   "phoneSource": "Venue website www.spruzzowestpalm.com, checked 2026-11-01"
   },
   {
    "id": "fl-sushi-jo",
@@ -7481,7 +7496,7 @@
    "address": "2161 Palm Beach Lakes, West Palm Beach",
    "state": "FL",
    "zip": "33409",
-   "phone": null,
+   "phone": "(561) 766-0190",
    "lat": 26.7123,
    "lng": -80.0959,
    "website": "https://www.tacosalcarbonpalmbeach.com/",
@@ -7502,7 +7517,8 @@
     "fbPostsSeen": 7,
     "fbNewestPost": "2024-12-26",
     "website": "https://www.tacosalcarbonpalmbeach.com/"
-   }
+   },
+   "phoneSource": "Venue website tacosalcarbonpalmbeach.com, checked 2026-11-01"
   },
   {
    "id": "fl-tacos-del-cartel",
@@ -8978,6 +8994,49 @@
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-19",
     "website": null
+   }
+  },
+  {
+   "id": "fl-elisabettas-ristorante-west-palm-beach",
+   "name": "Elisabetta's Ristorante",
+   "cuisine": "Italian",
+   "address": "185 Banyan Blvd, West Palm Beach",
+   "state": "FL",
+   "zip": "33401",
+   "phone": "(561) 342-6699",
+   "phoneSource": "OpenStreetMap way/996485177 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 26.714517,
+   "lng": -80.050172,
+   "website": "https://www.elisabettas.com/wpb",
+   "websiteSource": "OpenStreetMap way/996485177 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-10p; Fri 11:30a-12a; Sat 11a-12a; Sun 11a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/996485177 opening_hours tag (map data 2026-10-31; last checked on the map 2024-07-06) (checked 2026-11-01)",
+   "county": "Palm Beach",
+   "addedBy": "sweep-osm",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "BAR CAPRI DJ | Friday-Saturday",
+      "url": "https://www.elisabettas.com/wpb"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "BAR CAPRI DJ | Friday-Saturday",
+      "url": "https://www.elisabettas.com/wpb"
+     }
+    ]
    }
   }
  ],

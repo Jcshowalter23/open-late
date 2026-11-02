@@ -277,7 +277,7 @@
    "address": "1919 E colonial, Orlando",
    "state": "FL",
    "zip": "32803",
-   "phone": null,
+   "phone": "(407) 894-4494",
    "lat": 28.5535,
    "lng": -81.3567,
    "website": "https://bikkurioforlando.com/",
@@ -299,7 +299,8 @@
     "fbNewestPost": "2026-10-26",
     "website": "https://bikkurioforlando.com/"
    },
-   "menu": "https://bikkurioforlando.com/orlando-colonial-town-north-bikkuri-sushi-noodle-and-grill-food-menu"
+   "menu": "https://bikkurioforlando.com/orlando-colonial-town-north-bikkuri-sushi-noodle-and-grill-food-menu",
+   "phoneSource": "Venue website bikkurioforlando.com, checked 2026-11-01"
   },
   {
    "id": "fl-bin-b-ng",
@@ -1733,7 +1734,7 @@
    "address": "1110 E Colonial Dr, Orlando",
    "state": "FL",
    "zip": "32803",
-   "phone": null,
+   "phone": "(407) 203-1804",
    "lat": 28.5529,
    "lng": -81.3652,
    "website": "https://www.mills-market.com/kai-kai-bbq",
@@ -1788,7 +1789,8 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.mills-market.com/s/kai-kai-bbq-dumplings-menu-2026.pdf"
+   "menu": "https://www.mills-market.com/s/kai-kai-bbq-dumplings-menu-2026.pdf",
+   "phoneSource": "Venue website www.mills-market.com/kai-kai-bbq, checked 2026-11-01"
   },
   {
    "id": "fl-kaya",
@@ -2307,7 +2309,7 @@
    "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Orlando/109283067882612/Mamak%2C-Asian-Street-Food), checked 2026-11-01",
    "lat": 28.5533,
    "lng": -81.3632,
-   "website": null,
+   "website": "https://www.mamakeats.com/",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 12p-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -2324,8 +2326,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/109283067882612/Mamak%2C-Asian-Street-Food",
     "fbPostsSeen": 11,
     "fbNewestPost": "2026-10-30",
-    "website": null
-   }
+    "website": "https://www.mamakeats.com/"
+   },
+   "websiteSource": "OpenStreetMap node/8819701624 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-marks-jamaican-bar-and-grill",
@@ -3490,13 +3493,24 @@
    "lng": -81.3565,
    "priceText": "$ (Facebook page)",
    "priceLevel": "$",
-   "website": null,
+   "website": "https://stickywithit.com",
    "hours": "Mon-Sat 11:30a-10p; Sun 11:30a-9:30p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$2 OFF ALL DRAFT BEERS",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website mackiesbarandgrill.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -3507,8 +3521,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/122302421796802/Sticky-Rice-Lao-Street-Food",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-06-22",
-    "website": null
-   }
+    "website": "https://stickywithit.com"
+   },
+   "websiteSource": "OpenStreetMap node/11455479319 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-sushi-lolas",
@@ -3623,7 +3638,7 @@
    "address": "948 N Mills Ave, Orlando",
    "state": "FL",
    "zip": "32803",
-   "phone": null,
+   "phone": "(407) 930-8608",
    "lat": 28.5578,
    "lng": -81.3646,
    "priceText": "$ (Facebook page)",
@@ -3646,7 +3661,8 @@
     "fbPostsSeen": 5,
     "fbNewestPost": "2026-10-15",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/13020103002 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-tambayan-at-kusina-by-maya",
@@ -4154,7 +4170,7 @@
    "address": "807 N Mills Ave, Orlando",
    "state": "FL",
    "zip": "32803",
-   "phone": null,
+   "phone": "(407) 920-7744",
    "lat": 28.5553,
    "lng": -81.3643,
    "priceText": "$$ (Facebook page)",
@@ -4201,7 +4217,8 @@
     "fbPostsSeen": 11,
     "fbNewestPost": "2026-10-29",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/11455417044 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-the-thirsty-topher",
@@ -4897,6 +4914,31 @@
     "fbNewestPost": "2025-11-14",
     "website": null
    }
+  },
+  {
+   "id": "fl-orlando-milkhouse-orlando",
+   "name": "Orlando Milkhouse",
+   "cuisine": "American",
+   "address": "203 North Bumby Avenue, Orlando",
+   "state": "FL",
+   "zip": "32803",
+   "phone": "(407) 237-0575",
+   "phoneSource": "OpenStreetMap node/11455520056 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 28.545284,
+   "lng": -81.351568,
+   "website": "https://milkhousesocial.com",
+   "websiteSource": "OpenStreetMap node/11455520056 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-12a; Sun 11a-8p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/11455520056 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Orange",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "neighborhood",

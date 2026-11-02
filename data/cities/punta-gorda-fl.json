@@ -272,7 +272,7 @@
    "address": "4109 Tamiami Trl, Port Charlotte",
    "state": "FL",
    "zip": "33952",
-   "phone": null,
+   "phone": "(941) 613-0002",
    "lat": 26.9697,
    "lng": -82.0832,
    "priceText": "$$ (Facebook page)",
@@ -298,7 +298,8 @@
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-10-31",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap way/955917839 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-cucina-moderna",
@@ -939,7 +940,7 @@
    "phone": null,
    "lat": 26.9277,
    "lng": -82.0635,
-   "website": null,
+   "website": "http://www.village-fish-market.com/",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -967,8 +968,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Punta-Gorda/285686877966560/Leroy%27s-Fish-Shack",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-24",
-    "website": null
-   }
+    "website": "http://www.village-fish-market.com/"
+   },
+   "websiteSource": "OpenStreetMap node/5900681319 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-leroys-southern-kitchen-bar",
@@ -2308,6 +2310,59 @@
      "checked": "2026-11-01"
     }
    ]
+  },
+  {
+   "id": "fl-the-hive-bar-port-charlotte",
+   "name": "The Hive Bar",
+   "cuisine": "Bar",
+   "address": "4095 Tamiami Trail, Port Charlotte",
+   "state": "FL",
+   "zip": "33952",
+   "phone": "(941) 915-2959",
+   "phoneSource": "OpenStreetMap way/955917838 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 26.970094,
+   "lng": -82.083584,
+   "website": "https://the-hive-bar-port-charlotte.edan.io/",
+   "websiteSource": "OpenStreetMap way/955917838 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 10a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap way/955917838 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Charlotte",
+   "addedBy": "sweep-osm",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "The Hive has Food, Live Music, Karaoke, Free Pool, Dart Tournaments, Free Texas Hold'em Tournaments, Buzztime Live Trivia, Poker, Games Etc",
+      "url": "https://the-hive-bar-port-charlotte.edan.io/"
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "The Hive has Food, Live Music, Karaoke, Free Pool, Dart Tournaments, Free Texas Hold'em Tournaments, Buzztime Live Trivia, Poker, Games Etc",
+      "url": "https://the-hive-bar-port-charlotte.edan.io/"
+     }
+    ]
+   }
   }
  ],
  "type": "city",

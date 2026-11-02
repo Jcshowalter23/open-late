@@ -4940,7 +4940,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour Mon-Fri 4-7 PM",
+     "tags": [],
+     "src": "Venue website obrionspub.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -4981,7 +4990,43 @@
     "oneoffs": [],
     "conflicts": []
    },
-   "websiteSource": "OpenStreetMap node/13873463662 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/13873463662 website tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://obrionspub.com",
+        "quote": "om-blend burgers stacked high and built to satisfy. | View Full Menu | From the Kitchen | Local Favorites | Tavern staples elevated with high-quality ingredients, prepared fresh daily. | 01 | O'",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://obrionspub.com",
+        "quote": "O'Brion's Pub & Grille | Irish Pub & Sports Bar in Mount Pleasant, SC | Neighborhood Irish Pub | 361 N Shelmore Blvd | , | Mount Pleasant",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "sc-opal-restaurant-and-bar",

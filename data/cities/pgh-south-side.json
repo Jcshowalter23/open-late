@@ -378,7 +378,9 @@
     "fbPostsSeen": 3,
     "fbNewestPost": "2026-09-27",
     "website": null
-   }
+   },
+   "phone": "(412) 431-9691",
+   "phoneSource": "OpenStreetMap way/204094721 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "dish-osteria",
@@ -654,7 +656,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "25% Off Drafts 7-9PM",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website jekylandhydepgh.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events"
@@ -1781,6 +1794,178 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   }
+  },
+  {
+   "id": "pa-wingharts-burger-whiskey-bar-pittsburgh",
+   "name": "Winghart's Burger & Whiskey Bar",
+   "cuisine": "Bar",
+   "address": "1505 East Carson Street, Pittsburgh",
+   "state": "PA",
+   "zip": "15203",
+   "phone": "(412) 904-4620",
+   "phoneSource": "OpenStreetMap way/203460361 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 40.429098,
+   "lng": -79.983131,
+   "website": "https://winghartburgers.com/",
+   "websiteSource": "OpenStreetMap way/203460361 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 11a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap way/203460361 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Allegheny",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "pa-gennaros-pizza-pittsburgh",
+   "name": "Gennaro’s Pizza",
+   "cuisine": "Pizza",
+   "address": "1417 East Carson Street, Pittsburgh",
+   "state": "PA",
+   "zip": "15203",
+   "phone": "(412) 431-1450",
+   "phoneSource": "OpenStreetMap way/203507409 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 40.428986,
+   "lng": -79.983536,
+   "website": "https://gennarospizzapasta.com/",
+   "websiteSource": "OpenStreetMap way/203507409 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 10a-10p; Fri 10a-12a; Sat 11a-12a; Sun 11a-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/203507409 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Allegheny",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "pa-dees-cafe-pittsburgh",
+   "name": "Dees Cafe",
+   "cuisine": "Bar",
+   "address": "1314, 1316 East Carson Street, Pittsburgh",
+   "state": "PA",
+   "zip": "15203",
+   "phone": "(412) 431-1314",
+   "phoneSource": "OpenStreetMap way/203569419 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 40.428589,
+   "lng": -79.984634,
+   "website": "https://www.deescafe.com/",
+   "websiteSource": "OpenStreetMap way/203569419 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Sat 11a-2a; Sun 12p-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap way/203569419 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Allegheny",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "pa-tiki-lounge-pittsburgh",
+   "name": "Tiki Lounge",
+   "cuisine": "Bar",
+   "address": "2003 East Carson Street, Pittsburgh",
+   "state": "PA",
+   "zip": "15203",
+   "phone": "(412) 381-8454",
+   "phoneSource": "OpenStreetMap way/204087583 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 40.428818,
+   "lng": -79.977377,
+   "website": "https://www.tikilounge412.com/",
+   "websiteSource": "OpenStreetMap way/204087583 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Sat 4p-2a; Sun 8p-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap way/204087583 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Allegheny",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.tikilounge412.com/",
+        "quote": "tuary, and meticulous design. | During the week, the Tiki Lounge is busy with an array of regulars and offers bingo, 2-step, and karaoke. The libations of choice are our special traditiona",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "During the week, the Tiki Lounge is busy with an array of regulars and offers bingo, 2-step, and karaoke",
+      "url": "https://www.tikilounge412.com/"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "On weekends, the place is packed when our DJ pushes the limit, spinning top hits to a pumping sea of people",
+      "url": "https://www.tikilounge412.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "On weekends, the place is packed when our DJ pushes the limit, spinning top hits to a pumping sea of people",
+      "url": "https://www.tikilounge412.com/"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "During the week, the Tiki Lounge is busy with an array of regulars and offers bingo, 2-step, and karaoke",
+      "url": "https://www.tikilounge412.com/"
+     }
+    ]
    }
   }
  ],

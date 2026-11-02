@@ -2694,7 +2694,40 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour: $1 OFF ALL ALCOHOL",
+     "tags": [],
+     "src": "Venue website pintsandpiespub.com/events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "Happy Hour, 4-6pm",
+     "tags": [],
+     "src": "Venue website pintsandpiespub.com/events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Happy Hour, 8-9pm",
+     "tags": [],
+     "src": "Venue website pintsandpiespub.com/events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Happy Hour, 12-1pm",
+     "tags": [],
+     "src": "Venue website pintsandpiespub.com/events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -4044,6 +4077,80 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-23",
     "website": null
+   }
+  },
+  {
+   "id": "pa-hanover-eatery-bethlehem",
+   "name": "Hanover Eatery",
+   "cuisine": "Restaurant",
+   "address": "5090 Bath Pike, Bethlehem",
+   "state": "PA",
+   "zip": "18017",
+   "phone": "(610) 837-1621",
+   "phoneSource": "OpenStreetMap way/1305329382 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 40.681307,
+   "lng": -75.388113,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Daily 6a-3a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/1305329382 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Northampton",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "pa-the-nest-bar-grille-bethlehem",
+   "name": "The Nest Bar & Grille",
+   "cuisine": "Bar",
+   "address": "601 East 4th Street, Bethlehem",
+   "state": "PA",
+   "zip": "18015",
+   "phone": "(610) 419-4330",
+   "phoneSource": "OpenStreetMap way/1560856129 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 40.610832,
+   "lng": -75.370513,
+   "website": "https://www.thenestbethlehem.com/",
+   "websiteSource": "OpenStreetMap way/1560856129 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Fri 4p-12a; Sat-Sun 12p-1a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap way/1560856129 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Northampton",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thenestbethlehem.com/",
+        "quote": "--> | The Nest Sports Bar & Grille | Bethlehem, PA | top of page | HOME | MENU | DRINKS | GALLERY | CONTACT | More",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   }
  ],

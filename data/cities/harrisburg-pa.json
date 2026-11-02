@@ -514,7 +514,7 @@
    "lng": -76.88377,
    "priceText": null,
    "priceLevel": null,
-   "website": null,
+   "website": "https://mcgraths-pub.weeblyte.com/",
    "hours": "Mon-Fri 11:30a-2a; Sat 12p-2a; Sun 11:30a-2a",
    "hoursNote": "Sunday 11:30 am–2 am per Yelp (claimed), Apple Maps and NetWaiter; Visit Harrisburg lists only Mon–Sat.",
    "kitchen": null,
@@ -541,7 +541,58 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://mcgraths-pub.weeblyte.com/"
+   },
+   "websiteSource": "OpenStreetMap node/282028709 website tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "College crowd",
+     "Locals & regulars",
+     "LGBTQ-friendly"
+    ],
+    "summary": "Popular with college students; a locals-and-regulars spot; LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "College crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://mcgraths-pub.weeblyte.com/",
+        "quote": "h’s Pub is widely appreciated as a gathering place for a diverse mix of guests, including college students, families, tourists, and local regulars. Group outings, solo visits, and casual meetups a",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://mcgraths-pub.weeblyte.com/",
+        "quote": "ce for a diverse mix of guests, including college students, families, tourists, and local regulars. Group outings, solo visits, and casual meetups are all comfortably supported. Sporting e",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://mcgraths-pub.weeblyte.com/",
+        "quote": "and live entertainment further contribute to the energetic yet inclusive environment. An LGBTQ+ friendly setting reinforces the pub’s reputation as a welcoming space for all. | Reservat",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2010,7 +2061,7 @@
    "lng": -76.81253,
    "priceText": null,
    "priceLevel": null,
-   "website": null,
+   "website": "http://elrodeopa.com",
    "hours": "Sun-Thu 11a-9p; Fri-Sat 11a-10:30p",
    "hoursNote": "Full bar.",
    "kitchen": null,
@@ -2029,8 +2080,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://elrodeopa.com"
+   },
+   "websiteSource": "OpenStreetMap way/1133513329 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "gabriella-s-italian-ristorante",
@@ -2065,6 +2117,31 @@
     "fbNewestPost": null,
     "website": "https://gabriellaristorante.com/"
    }
+  },
+  {
+   "id": "pa-kpot-korean-bbq-hot-pot-harrisburg",
+   "name": "KPOT Korean BBQ & Hot Pot",
+   "cuisine": "Korean",
+   "address": "2810 Paxton Street, Harrisburg",
+   "state": "PA",
+   "zip": "17111",
+   "phone": "(717) 918-3322",
+   "phoneSource": "OpenStreetMap node/14283585297 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 40.256153,
+   "lng": -76.840969,
+   "website": "https://thekpot.com/location/harrisburg-paxton/",
+   "websiteSource": "OpenStreetMap node/14283585297 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11:30a-10:30p; Fri-Sat 11:30a-11:30p; Sun 11:30a-10:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/14283585297 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Dauphin",
+   "addedBy": "sweep-osm"
   }
  ],
  "counties": [

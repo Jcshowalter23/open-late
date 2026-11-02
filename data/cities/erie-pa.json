@@ -3937,7 +3937,9 @@
     "fbNewestPost": null,
     "website": "https://mckeantav.com/"
    },
-   "menu": "https://mckeantav.com/menu.html"
+   "menu": "https://mckeantav.com/menu.html",
+   "phone": "(814) 298-4887",
+   "phoneSource": "Venue website mckeantav.com, checked 2026-11-01"
   },
   {
    "id": "mi-scuzi-ristorante-italiano",
@@ -6668,7 +6670,27 @@
    "kitchen": "Wed-Fri 3p-8:30p; Sat 2p-8:30p",
    "kitchenNote": "Venue site: kitchen closes 30 minutes before the brewery.",
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "pint is 50% off, while your weekly member pint is still just $1",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website twistedelkbrewery.com/twisted-elk-outpost",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Wed,Thu",
+     "text": "One $1 standard 16 oz draft per member per week, redeemable Wednesday or Thursday; no rollover",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website twistedelkbrewery.com/twisted-elk-outpost",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -6970,6 +6992,109 @@
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-03-17",
     "website": null
+   }
+  },
+  {
+   "id": "pa-roscos-sports-bar-grill-erie",
+   "name": "Rosco's Sports Bar & Grill",
+   "cuisine": "American",
+   "address": "4646 Buffalo Road, Erie",
+   "state": "PA",
+   "zip": "16510",
+   "phone": "(814) 315-9615",
+   "phoneSource": "OpenStreetMap way/1066416584 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 42.149631,
+   "lng": -79.998313,
+   "website": "https://www.roscoserie.com/",
+   "websiteSource": "OpenStreetMap way/1066416584 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 9a-10p; Fri-Sat 11a-12a; Sun 9a-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$2 off Craft Beer Drafts",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website roscoserie.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "20% off All Boneless Wings",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website roscoserie.com/erie-harborcreek-roscos-sports-bar-and-grill-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "Daily Drink Special: $10 Bud Light Pitchers",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website roscoserie.com/erie-harborcreek-roscos-sports-bar-and-grill-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "Daily Drink Special: $12 Mic Ultra Buckets",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website roscoserie.com/erie-harborcreek-roscos-sports-bar-and-grill-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap way/1066416584 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Erie",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://roscoserie.com/",
+        "quote": "Must-Try Sports Bar in Erie | Rosco’s Sports Bar & Grill | × | Let us host your special event! | Whether a bi",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia | 06:00 PM - 08:00 PM",
+      "url": "https://roscoserie.com/erie-harborcreek-roscos-sports-bar-and-grill-happy-hours-specials"
+     }
+    ]
    }
   }
  ],

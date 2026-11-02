@@ -1011,7 +1011,48 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$3 pints, $4 off cocktails",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website eatopenroad.com/locations/tysons",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "$5 pints, $2 off cocktails",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website eatopenroad.com/locations/tysons",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "$2 off Classic Wings",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website eatopenroad.com/locations/merrifield",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "$2 off small plates, sliding pint and cocktail specials",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website eatopenroad.com/locations/rosslyn",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-28) (checked 2026-11-01)",
@@ -1046,7 +1087,63 @@
     "fbNewestPost": null,
     "website": "https://www.openroadgrill.com/location/open-road-outpost-biergarten/"
    },
-   "websiteSource": "OpenStreetMap node/12206887324 website tag (map data 2026-11-01), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/12206887324 website tag (map data 2026-11-01), checked 2026-11-01",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "7 pm to 9 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://eatopenroad.com/locations/merrifield/",
+        "date": "2026-11-01",
+        "quote": "Trivia Night | — Tuesdays 7 pm to 9 pm on the enclosed patio. | — Tuesdays 7 pm to 9 pm on the enclosed patio."
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Enclosed patio, trivia nights, and full-room energy",
+      "url": "https://eatopenroad.com/private-events/"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Bingo Beer Co",
+      "url": "https://eatopenroad.com/locations/tysons/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Bingo Beer Co",
+      "url": "https://eatopenroad.com/locations/merrifield/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Bingo Beer Co",
+      "url": "https://eatopenroad.com/locations/rosslyn/"
+     }
+    ]
+   }
   },
   {
    "id": "va-passionfish-reston",

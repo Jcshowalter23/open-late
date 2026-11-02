@@ -2518,12 +2518,75 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "Half-price select sushi for 9-11 pm every Monday",
+     "tags": [],
+     "src": "Venue website ilovestickyrice.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Thu",
+     "text": "Kids Eat Free Thursdays",
+     "tags": [],
+     "src": "Venue website ilovestickyrice.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/3075433397 opening_hours tag (map data 2026-11-01) (checked 2026-11-01); active on-premise license: Virginia ABC licensee export (LicenseSearchReport.xlsx, run 11/1/2026), address from license",
    "county": "Richmond City",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Young crowd"
+    ],
+    "summary": "Draws a younger crowd.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Young crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://ilovestickyrice.com/",
+        "quote": "eat tots, great atmosphere inside & out. Very Richmond - it's close to VCU so generally a younger crowd. You will not be disappointed! | Stop reviews carousel | Play reviews carousel | Newslett",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2027-01-02",
+      "quote": "te) • 1/2 price house sake • 1/2 price bucket of tots • 1/2 price miso soup • 1/2 price edamame | 04:00 PM - 06:00 PM | >> Karaoke Night | 04:00 PM - 06:00 PM",
+      "url": "https://ilovestickyrice.com/richmond-the-fan-sticky-rice-happy-hours-specials"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-05",
+      "quote": "Join us for our super fast, super fun bingo night | 10:00 PM - 02:00 AM | Thursday November 5th | 10:00 PM - 02:00 AM",
+      "url": "https://ilovestickyrice.com/richmond-the-fan-sticky-rice-happy-hours-specials"
+     }
+    ]
+   }
   }
  ],
  "type": "neighborhood",

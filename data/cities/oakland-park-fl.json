@@ -219,7 +219,7 @@
    "address": "2163 Wilton Dr, Wilton Manors",
    "state": "FL",
    "zip": "33305",
-   "phone": null,
+   "phone": "(954) 880-1191",
    "lat": 26.1555,
    "lng": -80.1395,
    "priceText": "$$ (Facebook page)",
@@ -243,7 +243,8 @@
     "fbNewestPost": "2026-10-31",
     "website": "https://apt9f.com/"
    },
-   "menu": "https://apt9f.com/menu/"
+   "menu": "https://apt9f.com/menu/",
+   "phoneSource": "Venue website apt9f.com, checked 2026-11-01"
   },
   {
    "id": "fl-bake-bros-bistro",
@@ -3572,7 +3573,7 @@
    "address": "1216 East Oakland Park Blvd, Oakland Park",
    "state": "FL",
    "zip": "33334",
-   "phone": null,
+   "phone": "(954) 565-7177",
    "lat": 26.1666,
    "lng": -80.131,
    "priceText": "$$ (Facebook page)",
@@ -3638,7 +3639,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "OpenStreetMap way/813455501 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-pink-sub-loyalty-and-rewards",
@@ -3833,7 +3835,7 @@
    "address": "3500 NE 12 Ave, Oakland Park",
    "state": "FL",
    "zip": "33334",
-   "phone": null,
+   "phone": "(954) 210-4371",
    "lat": 26.1716,
    "lng": -80.131,
    "website": "https://redsearestaurantfl.com/",
@@ -3857,7 +3859,8 @@
     "fbNewestPost": null,
     "website": "https://redsearestaurantfl.com/"
    },
-   "menu": "https://www.redsearestaurantfl.com/dinner-menu/"
+   "menu": "https://www.redsearestaurantfl.com/dinner-menu/",
+   "phoneSource": "Venue website www.redsearestaurantfl.com, checked 2026-11-01"
   },
   {
    "id": "fl-richies-italian-ices",
@@ -4535,7 +4538,7 @@
    "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Lauderdale-by-the-Sea/248260258361561/Tacocraft-Taqueria-%26-Tequila-Bar), checked 2026-11-01",
    "lat": 26.19,
    "lng": -80.0965,
-   "website": null,
+   "website": "https://tacocraft.com/tacocraft-locations/lauderdale-by-the-sea/",
    "hours": "Mon 11:30a-11p; Tue 11:30a-12a; Wed-Thu 11:30a-11p; Fri 11:30a-12a; Sat 11a-12a; Sun 11a-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -4576,8 +4579,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Lauderdale-by-the-Sea/248260258361561/Tacocraft-Taqueria-%26-Tequila-Bar",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-22",
-    "website": null
-   }
+    "website": "https://tacocraft.com/tacocraft-locations/lauderdale-by-the-sea/"
+   },
+   "websiteSource": "OpenStreetMap node/4529252927 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-taqueria-monterrey",
@@ -5839,6 +5843,31 @@
      "checked": "2026-11-01"
     }
    ]
+  },
+  {
+   "id": "fl-dolce-salato-pizza-and-gelato-wilton-manors",
+   "name": "Dolce Salato Pizza and Gelato",
+   "cuisine": "Restaurant",
+   "address": "2406 Wilton Drive, Wilton Manors",
+   "state": "FL",
+   "zip": "33305",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 26.15819,
+   "lng": -80.134308,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Daily 12p-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/4831611122 opening_hours tag (map data 2026-10-31) (checked 2026-11-01); active on-premise license: Florida DBPR alcoholic beverage licensee extract (bd400lic.csv, downloaded 2026-11-01)",
+   "county": "Broward",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "city",

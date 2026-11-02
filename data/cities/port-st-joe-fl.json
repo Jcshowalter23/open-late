@@ -1086,7 +1086,7 @@
    "address": "304 Williams Ave, Port Saint Joe",
    "state": "FL",
    "zip": "32456",
-   "phone": null,
+   "phone": "(850) 705-1018",
    "lat": 29.8141,
    "lng": -85.3027,
    "website": "https://theflyingharpoon.com/",
@@ -1117,7 +1117,8 @@
     "fbNewestPost": "2026-10-26",
     "website": "https://theflyingharpoon.com/"
    },
-   "menu": "https://theflyingharpoon.com/menu"
+   "menu": "https://theflyingharpoon.com/menu",
+   "phoneSource": "Venue website theflyingharpoon.com, checked 2026-11-01"
   },
   {
    "id": "fl-the-hitch",
@@ -1389,6 +1390,55 @@
     "website": "https://www.uptownrawbarandgrill.com/"
    },
    "menu": "https://uptownrawbarandgrill.com/menu/"
+  },
+  {
+   "id": "fl-haughty-heron-port-st-joe",
+   "name": "Haughty Heron",
+   "cuisine": "Bar",
+   "address": "117 Sailors Cove Drive, Port St. Joe",
+   "state": "FL",
+   "zip": "32456",
+   "phone": "(850) 229-3463",
+   "phoneSource": "OpenStreetMap way/1098217445 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 29.814858,
+   "lng": -85.306968,
+   "website": "https://haughtyheron.com/",
+   "websiteSource": "OpenStreetMap way/1098217445 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 10a-10p; Fri-Sat 10a-12a; Sun 10a-8p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap way/1098217445 opening_hours tag (map data 2026-10-31; last checked on the map 2026-08-10) (checked 2026-11-01)",
+   "county": "Gulf",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://haughtyheron.com/",
+        "quote": "days a week, the Haughty Heron is the gathering place where everyone’s a local. Enjoy an upscale interior with sporting events on 7 big screens and a | full-service package store | . And",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "town",

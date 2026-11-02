@@ -2133,7 +2133,7 @@
    "address": "2935 S Orlando Dr, Sanford",
    "state": "FL",
    "zip": "32773",
-   "phone": null,
+   "phone": "(407) 588-8880",
    "lat": 28.7699,
    "lng": -81.2799,
    "website": "https://oceancrabsanford.com/",
@@ -2156,7 +2156,8 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-08-24",
     "website": "https://oceancrabsanford.com/"
-   }
+   },
+   "phoneSource": "Venue website oceancrabsanford.com, checked 2026-11-01"
   },
   {
    "id": "fl-off-the-leash",
@@ -2381,7 +2382,7 @@
    "lng": -81.2648,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://shantellsjustuntil.online",
    "hours": "Mon 11a-9p; Tue closed; Wed-Thu 11a-10p; Fri 11a-4a; Sat 10a-4a; Sun 10a-3:59a",
    "hoursNote": "Restaurantji (updated 2026-10-30) marks this place temporarily closed; call ahead.",
    "kitchen": null,
@@ -2422,7 +2423,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Sanford/661229530589032/Shantell%27s",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-05-19",
-    "website": null
+    "website": "https://shantellsjustuntil.online"
    },
    "conflicts": [
     {
@@ -2431,7 +2432,8 @@
      "src": "https://www.restaurantji.com/fl/sanford/shantells-/",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "websiteSource": "OpenStreetMap way/970969119 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-shawarma-burgers",
@@ -3419,7 +3421,7 @@
    "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Sanford/1261471240532750/The-Tennessee-Truffle-Gallery), checked 2026-11-01",
    "lat": 28.8116,
    "lng": -81.2688,
-   "website": null,
+   "website": "https://www.thetennesseetruffle.com/",
    "hours": "Mon-Wed closed; Thu-Fri 5:30p-10p; Sat 9a-1p,5:30p-10p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -3458,8 +3460,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Sanford/1261471240532750/The-Tennessee-Truffle-Gallery",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.thetennesseetruffle.com/"
+   },
+   "websiteSource": "OpenStreetMap node/8917560365 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-the-wildflower-sanford",
@@ -3768,6 +3771,58 @@
      "checked": "2026-11-01"
     }
    ]
+  },
+  {
+   "id": "fl-5th-element-sanford",
+   "name": "5th Element",
+   "cuisine": "Indian",
+   "address": "1133 Rinehart Road, Sanford",
+   "state": "FL",
+   "zip": "32771",
+   "phone": "(407) 548-6777",
+   "phoneSource": "OpenStreetMap node/5838347285 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 28.806646,
+   "lng": -81.331665,
+   "website": "https://5thelementsanford.com",
+   "websiteSource": "OpenStreetMap node/5838347285 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 5:30p-10a; Fri-Sat 5:30p-10:30a; Sun 11a-3p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/5838347285 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Seminole",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "fl-the-wet-spot-sanford",
+   "name": "The Wet Spot",
+   "cuisine": "Bar",
+   "address": "112 S Park Avenue, Sanford",
+   "state": "FL",
+   "zip": "32771",
+   "phone": "(407) 321-1900",
+   "phoneSource": "OpenStreetMap way/323108995 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 28.811228,
+   "lng": -81.268332,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Daily 11a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap way/323108995 opening_hours tag (map data 2026-10-31) (checked 2026-11-01); active on-premise license: Florida DBPR alcoholic beverage licensee extract (bd400lic.csv, downloaded 2026-11-01)",
+   "county": "Seminole",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "city",

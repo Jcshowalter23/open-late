@@ -526,12 +526,21 @@
    "lng": -82.8341,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://brokenboredbarandgrill.com/",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
+   "kitchenNote": "Kitchen open until 9 pm per Venue website brokenboredbarandgrill.com, checked 2026-11-01; days not stated.",
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "HAPPY HOUR EVERY DAY 11AM – 6PM",
+     "tags": [],
+     "src": "Venue website brokenboredbarandgrill.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -567,7 +576,35 @@
     "facebookMirror": "https://www.foodyas.com/US/Redington-Shores/258368004022176/Broke-N-Bored-Grill",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-02-13",
-    "website": null
+    "website": "https://brokenboredbarandgrill.com/"
+   },
+   "websiteSource": "OpenStreetMap node/14197541801 website tag (map data 2026-10-31), checked 2026-11-01",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://brokenboredbarandgrill.com/",
+        "date": "2026-11-01",
+        "quote": "Join us for Wednesday Night Trivia"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
    }
   },
   {
@@ -1233,7 +1270,7 @@
    "lng": -82.7152,
    "priceText": "$ (Facebook page)",
    "priceLevel": "$",
-   "website": null,
+   "website": "https://eltionicarestaurantfl.com",
    "hours": "Mon-Thu 10a-9p; Fri-Sun 10a-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -1259,7 +1296,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Pinellas-Park/107678295129934/El-Nica-Restaurant",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://eltionicarestaurantfl.com"
    },
    "conflicts": [
     {
@@ -1271,7 +1308,8 @@
      "resolution": "Facebook number kept (venue-managed page)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "websiteSource": "OpenStreetMap node/11136446565 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-el-t-o-nica",
@@ -1280,10 +1318,10 @@
    "address": "5979 n pk Blvd park, Pinellas Park",
    "state": "FL",
    "zip": "33100",
-   "phone": null,
+   "phone": "(727) 308-5575",
    "lat": 27.8396,
    "lng": -82.7151,
-   "website": null,
+   "website": "https://eltionicarestaurantfl.com",
    "hours": "Mon-Thu 9a-9p; Fri-Sat 10a-12a; Sun 10a-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -1300,8 +1338,10 @@
     "facebookMirror": "https://www.foodyas.com/US/Pinellas-Park/105231869039191/El-t%C3%ADo-NICA",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://eltionicarestaurantfl.com"
+   },
+   "websiteSource": "OpenStreetMap node/11136446565 website tag (map data 2026-10-31), checked 2026-11-01",
+   "phoneSource": "OpenStreetMap node/11136446565 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-five-bucks-pinellas-park",
@@ -2221,7 +2261,7 @@
    "lng": -82.7276,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://www.ninespiceshotpotfl.com/",
    "hours": "Daily 1p-1a",
    "hoursNote": null,
    "kitchen": null,
@@ -2262,8 +2302,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Pinellas-Park/2291810967598459/Nine-Spices-Hot-Pot-And-Korean-BBQ-Pinellas",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.ninespiceshotpotfl.com/"
+   },
+   "websiteSource": "OpenStreetMap way/189269731 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-nuevo-vallarta-authentic-mexican-food",

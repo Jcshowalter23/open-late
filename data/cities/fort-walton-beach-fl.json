@@ -2638,7 +2638,7 @@
    "lng": -86.6019,
    "priceText": "$ (Facebook page)",
    "priceLevel": "$",
-   "website": null,
+   "website": "https://stewbys.com/",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-9:30p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -2679,7 +2679,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Walton-Beach/479762572579297/Stewby%27s-Seafood-Shanty",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "https://stewbys.com/"
    },
    "conflicts": [
     {
@@ -2691,7 +2691,8 @@
      "resolution": "Facebook number kept (venue-managed page)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "websiteSource": "OpenStreetMap node/12230067587 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-sura-korean-steakhouse",
@@ -3027,7 +3028,7 @@
    "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Fort-Walton-Beach/1043345539074775/The-Gulf-Restaurant-on-Okaloosa-Island), checked 2026-11-01",
    "lat": 30.4004,
    "lng": -86.5969,
-   "website": null,
+   "website": "https://www.thegulf.com/locations/fort-walton-beach/",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -3068,8 +3069,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Walton-Beach/1043345539074775/The-Gulf-Restaurant-on-Okaloosa-Island",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-27",
-    "website": null
-   }
+    "website": "https://www.thegulf.com/locations/fort-walton-beach/"
+   },
+   "websiteSource": "OpenStreetMap way/550565532 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-the-muse",
@@ -3348,6 +3350,31 @@
     "fbNewestPost": null,
     "website": null
    }
+  },
+  {
+   "id": "fl-riveros-street-fort-walton-beach",
+   "name": "Rivero's Street",
+   "cuisine": "Latin American",
+   "address": "21 Miracle Strip Parkway Southeast, Fort Walton Beach",
+   "state": "FL",
+   "zip": "32548",
+   "phone": "(321) 337-8997",
+   "phoneSource": "OpenStreetMap node/13736205851 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 30.404318,
+   "lng": -86.612499,
+   "website": "https://www.riverosstreet.com/",
+   "websiteSource": "OpenStreetMap node/13736205851 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 3p-10:30p; Fri-Sat 11a-11:30p; Sun 11a-10:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/13736205851 opening_hours tag (map data 2026-10-31; last checked on the map 2026-04-16) (checked 2026-11-01)",
+   "county": "Okaloosa",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "city",

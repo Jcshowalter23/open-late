@@ -12,7 +12,7 @@
    "address": "1930 7th Ave, Tampa",
    "state": "FL",
    "zip": "33605",
-   "phone": null,
+   "phone": "(813) 649-8422",
    "lat": 27.9606,
    "lng": -82.4371,
    "priceText": "$$ (Facebook page)",
@@ -130,7 +130,8 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://7thandgrove.com/tampa-7th-and-grove-food-menu"
+   "menu": "https://7thandgrove.com/tampa-7th-and-grove-food-menu",
+   "phoneSource": "Venue website 7thandgrove.com, checked 2026-11-01"
   },
   {
    "id": "fl-abellas",
@@ -460,7 +461,7 @@
    "address": "1822 E 7th Ave, Tampa",
    "state": "FL",
    "zip": "33605",
-   "phone": null,
+   "phone": "(813) 242-2452",
    "lat": 27.9605,
    "lng": -82.4382,
    "website": "http://barrio-tacos.com/",
@@ -514,7 +515,8 @@
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-29",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap way/524527219 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-bernini-restaurant",
@@ -529,7 +531,7 @@
    "lng": -82.4403,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://berniniofybor.com/",
    "hours": "Mon-Thu 11:30a-10p; Fri-Sat 11:30a-11p; Sun 11:30a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -548,8 +550,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Tampa/121707691173275/Bernini-Restaurant",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-18",
-    "website": null
-   }
+    "website": "https://berniniofybor.com/"
+   },
+   "websiteSource": "OpenStreetMap node/386087935 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-carmines-ybor",
@@ -1177,12 +1180,12 @@
    "address": "Tampa 33605, Tampa",
    "state": "FL",
    "zip": "33605",
-   "phone": null,
+   "phone": "(813) 248-1326",
    "lat": 27.9601,
    "lng": -82.4397,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://www.laterrazzayborcity.com/",
    "hours": "Mon-Wed closed; Thu-Sat 5p-10p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -1201,8 +1204,10 @@
     "facebookMirror": "https://www.foodyas.com/US/Tampa/114010508630206/La-Terrazza-Ristorante-Italiano",
     "fbPostsSeen": 3,
     "fbNewestPost": "2026-03-11",
-    "website": null
-   }
+    "website": "https://www.laterrazzayborcity.com/"
+   },
+   "websiteSource": "OpenStreetMap node/322800473 website tag (map data 2026-10-31), checked 2026-11-01",
+   "phoneSource": "OpenStreetMap node/322800473 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-ladies-of-the-sea-and-soul",
@@ -1501,7 +1506,7 @@
    "address": "2001 N 22nd St, Tampa",
    "state": "FL",
    "zip": "33605",
-   "phone": null,
+   "phone": "(813) 442-8442",
    "lat": 27.9621,
    "lng": -82.4346,
    "website": "https://rosenheimrestaurant.com/",
@@ -1562,7 +1567,8 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-09-08",
     "website": "https://rosenheimrestaurant.com/"
-   }
+   },
+   "phoneSource": "OpenStreetMap node/14064908399 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-rowboat",
@@ -2102,18 +2108,43 @@
    "address": "1600 E 7th Ave, E-113, Tampa",
    "state": "FL",
    "zip": "33605",
-   "phone": null,
+   "phone": "(813) 241-0000",
    "lat": 27.9604,
    "lng": -82.4414,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://yborcitytaphouse.com/",
    "hours": "Mon closed; Tue-Thu 12p-12a; Fri 12p-2a; Sat 11a-2a; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "99 Beer buckets, $18",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website yborcitytaphouse.com/tampa-ybor-city-ybor-city-tap-house-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Sun",
+     "text": "Sunday Funday: Bottomless mimosas or Bloody Mary for $15",
+     "tags": [],
+     "src": "Venue website yborcitytaphouse.com/tampa-ybor-city-ybor-city-tap-house-happy-hours-specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Tue",
+     "text": "Taco Tuesday: 2 Tacos for $7",
+     "tags": [],
+     "src": "Venue website yborcitytaphouse.com/tampa-ybor-city-ybor-city-tap-house-happy-hours-specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -2148,8 +2179,114 @@
     "facebookMirror": "https://www.foodyas.com/US/Tampa/267275620143144/Ybor-City-Tap-House",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-14",
-    "website": null
-   }
+    "website": "https://yborcitytaphouse.com/"
+   },
+   "websiteSource": "OpenStreetMap node/11084717996 website tag (map data 2026-10-31), checked 2026-11-01",
+   "phoneSource": "OpenStreetMap node/11084717996 phone tag (map data 2026-10-31), checked 2026-11-01"
+  },
+  {
+   "id": "fl-el-puerto-argentinean-grill-tampa",
+   "name": "El Puerto Argentinean Grill",
+   "cuisine": "Restaurant",
+   "address": "1623 East 5th Avenue, Tampa",
+   "state": "FL",
+   "zip": "33605",
+   "phone": "(813) 248-8222",
+   "phoneSource": "OpenStreetMap node/322800062 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 27.958677,
+   "lng": -82.440585,
+   "website": "https://www.elpuertoybor.com/",
+   "websiteSource": "OpenStreetMap node/322800062 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon 11a-3p; Tue-Thu 11a-10p; Fri-Sat 11a-12a; Sun 12p-9:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/322800062 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Hillsborough",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "fl-big-easy-tampa",
+   "name": "Big Easy",
+   "cuisine": "Bar",
+   "address": "1704 East 7th Avenue, Tampa",
+   "state": "FL",
+   "zip": "33605",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 27.96038,
+   "lng": -82.440241,
+   "website": "https://thebigeasybar.com/",
+   "websiteSource": "OpenStreetMap node/2641018035 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Fri 4p-12a; Sat 11a-2a; Sun 11a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/2641018035 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Hillsborough",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "fl-bradleys-on-7th-tampa",
+   "name": "Bradley's on 7th",
+   "cuisine": "Bar",
+   "address": "1510 East 7th Avenue, Tampa",
+   "state": "FL",
+   "zip": "33605",
+   "phone": "(813) 241-2723",
+   "phoneSource": "OpenStreetMap node/3408501630 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 27.960377,
+   "lng": -82.442594,
+   "website": "https://bradleyson7th.com/",
+   "websiteSource": "OpenStreetMap node/3408501630 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Sat 4p-3a; Sun 2:30p-3a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/3408501630 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Hillsborough",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "fl-roast-tampa",
+   "name": "Roast",
+   "cuisine": "Restaurant",
+   "address": "1930 E 7th Ave, Tampa",
+   "state": "FL",
+   "zip": null,
+   "phone": null,
+   "phoneSource": null,
+   "lat": 27.960382,
+   "lng": -82.43712,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Mon 9a-4p; Tue 5p-10p; Wed-Thu 9a-4p; Fri 6p-12a; Sat-Sun 11a-3:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/11043176749 opening_hours tag (map data 2026-10-31) (checked 2026-11-01); active on-premise license: Florida DBPR alcoholic beverage licensee extract (bd400lic.csv, downloaded 2026-11-01), address from license",
+   "county": "Hillsborough",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "neighborhood",

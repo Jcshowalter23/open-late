@@ -292,7 +292,7 @@
    "address": "1909 20th St, FL, Estados Unidos, Vero Beach",
    "state": "FL",
    "zip": "32960",
-   "phone": null,
+   "phone": "(772) 968-0661",
    "lat": 27.6385,
    "lng": -80.4048,
    "website": null,
@@ -313,7 +313,8 @@
     "fbPostsSeen": 3,
     "fbNewestPost": "2025-03-31",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/8249708520 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-bistro-fourchette",
@@ -923,7 +924,7 @@
    "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Vero-Beach/596397643564777/Focaccia-14th-ave), checked 2026-11-01",
    "lat": 27.6391,
    "lng": -80.399,
-   "website": null,
+   "website": "https://www.focaccia14thave.com/",
    "hours": "Mon-Thu 10a-8:30p; Fri 10a-9:30p; Sat 11a-9:30p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -942,8 +943,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Vero-Beach/596397643564777/Focaccia-14th-ave",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.focaccia14thave.com/"
+   },
+   "websiteSource": "OpenStreetMap node/13396034166 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-italian-kitchen",
@@ -2043,7 +2045,7 @@
    "lng": -80.3902,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://www.spirostaverna.com/vero-beach-menu/",
    "hours": "Mon-Sat 11a-9p; Sun 11a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -2085,8 +2087,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Vero-Beach/197039803974597/Spiro%27s-Taverna-of-Vero-Beach",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-24",
-    "website": null
-   }
+    "website": "https://www.spirostaverna.com/vero-beach-menu/"
+   },
+   "websiteSource": "OpenStreetMap way/706199676 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-steak-n-shake-vero-beach",
@@ -2817,6 +2820,33 @@
     "fbNewestPost": null,
     "website": null
    }
+  },
+  {
+   "id": "fl-the-grove-vero-beach",
+   "name": "The Grove",
+   "cuisine": "Bar",
+   "address": "2115 14th Avenue, Vero Beach",
+   "state": "FL",
+   "zip": "32960",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 27.640079,
+   "lng": -80.399467,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Mon-Thu 4a-1a; Fri 4a-2a; Sat-Sun 4a-1a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/6728233400 opening_hours tag (map data 2026-10-31) (checked 2026-11-01); active on-premise license: Florida DBPR alcoholic beverage licensee extract (bd400lic.csv, downloaded 2026-11-01)",
+   "county": "Indian River",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "city",

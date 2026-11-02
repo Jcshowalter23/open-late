@@ -532,7 +532,7 @@
    "lng": -81.7139,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://www.buchnersbierhalle.com/",
    "hours": "Mon-Thu 4p-12a; Fri-Sat 4p-2a; Sun 12p-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -576,8 +576,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/2394509790761386/Buchner%27s-Bierhalle",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-26",
-    "website": null
-   }
+    "website": "https://www.buchnersbierhalle.com/"
+   },
+   "websiteSource": "OpenStreetMap node/14212333643 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-captain-ds-6",
@@ -2504,7 +2505,7 @@
    "address": "3620 Saint Johns Ave, Jacksonville",
    "state": "FL",
    "zip": "32205",
-   "phone": null,
+   "phone": "(904) 388-5688",
    "lat": 30.296,
    "lng": -81.7046,
    "priceText": "$$ (Facebook page)",
@@ -2529,7 +2530,8 @@
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-05-20",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/6810510258 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-the-bread-and-board-jacksonville",
@@ -3013,6 +3015,113 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   }
+  },
+  {
+   "id": "fl-the-casbah-jacksonville",
+   "name": "The Casbah",
+   "cuisine": "Restaurant",
+   "address": "3628 St Johns Ave, Jacksonville",
+   "state": "FL",
+   "zip": null,
+   "phone": "(904) 981-9966",
+   "phoneSource": "Venue website www.thecasbahcafe.com, checked 2026-11-01",
+   "lat": 30.295706,
+   "lng": -81.704633,
+   "website": "https://www.thecasbahcafe.com/",
+   "websiteSource": "OpenStreetMap node/6763998979 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 11a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "All Day Happy Hour, Trivia, Live Music, Belly Dancing, Service Industry Night, and more",
+     "tags": [],
+     "src": "Venue website thecasbahcafe.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Wino Wednesday 50% off all Wine Bottles",
+     "tags": [],
+     "src": "Venue website thecasbahcafe.com/events",
+     "checked": "2026-11-01"
+    }
+   ],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/6763998979 opening_hours tag (map data 2026-10-31) (checked 2026-11-01); active on-premise license: Florida DBPR alcoholic beverage licensee extract (bd400lic.csv, downloaded 2026-11-01), address from license",
+   "county": "Duval",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Industry / late-night"
+    ],
+    "summary": "Popular with service-industry and late-night workers.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Industry / late-night",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thecasbahcafe.com/",
+        "quote": "2 AM | Find Us | Weekly Schedule | All Day Happy Hour, Trivia, Live Music, Belly Dancing, Service Industry Night, and more! | View Schedule | Happy Hour | Daily | 3:00PM – 7:00PM | Discount Beer,",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "8 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.thecasbahcafe.com/events",
+        "date": "2026-11-01",
+        "quote": "Trivia Nation with Rance Adams at 8 PM | Tuesday"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "All Day Happy Hour, Trivia, Live Music, Belly Dancing, Service Industry Night, and more",
+      "url": "https://www.thecasbahcafe.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "All Day Happy Hour, Trivia, Live Music, Belly Dancing, Service Industry Night, and more",
+      "url": "https://www.thecasbahcafe.com/menu/casbah-combos-lunch-specials-sides"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "All Day Happy Hour, Trivia, Live Music, Belly Dancing, Service Industry Night, and more",
+      "url": "https://www.thecasbahcafe.com/events"
+     }
+    ]
    }
   }
  ],

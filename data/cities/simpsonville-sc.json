@@ -289,8 +289,28 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Sun-Fri",
+     "text": "HAPPY HOUR: Sun - Fri 4pm-7pm",
+     "tags": [],
+     "src": "Venue website bridgewaybrewing.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$5 well drinks, $2 off wine by the glass, $1 off craft beer",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website bridgewaybrewing.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -341,7 +361,56 @@
     "fbNewestPost": null,
     "website": "https://bridgewaybrewing.com/"
    },
-   "websiteSource": "OpenStreetMap node/11409555075 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/11409555075 website tag (map data 2026-10-31), checked 2026-11-01",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-25",
+      "datedLastSeen": "2026-11-25",
+      "postsSeen": 4,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://bridgewaybrewing.com/events?source=header&spot_id=558703&destination=events&promotion=nba_season",
+        "date": "2026-11-25",
+        "quote": "Trivia with Quizmaster Mike | Wednesday, November 25th, 2026"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://bridgewaybrewing.com/events",
+        "date": "2026-11-25",
+        "quote": "Trivia with Quizmaster Mike | Wednesday, November 25th, 2026"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://bridgewaybrewing.com/events?source=header&spot_id=558703&destination=events&promotion=nba_season",
+        "date": "2026-11-18",
+        "quote": "Trivia with Quizmaster Mike | Wednesday, November 18th, 2026"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia with Quizmaster Mike | Starting on Wednesday November 4th 2026",
+      "url": "https://bridgewaybrewing.com/events?source=header&spot_id=558703&destination=events&promotion=nba_season"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia with Quizmaster Mike | Starting on Wednesday November 4th 2026",
+      "url": "https://bridgewaybrewing.com/events"
+     }
+    ]
+   }
   },
   {
    "id": "sc-carolina-fine-foods-simpsonville",
@@ -1741,7 +1810,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "tuesday Half-Price Wine",
+     "tags": [],
+     "src": "Venue website tavolaitalian.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"

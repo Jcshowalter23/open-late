@@ -435,7 +435,7 @@
    "address": "14813 Lyons Rd, Delray Beach",
    "state": "FL",
    "zip": "33446",
-   "phone": null,
+   "phone": "(561) 877-0000",
    "lat": 26.4565,
    "lng": -80.1892,
    "priceText": "$$ (Facebook page)",
@@ -498,7 +498,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "OpenStreetMap way/488791063 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-bostons-on-the-beach",
@@ -1313,7 +1314,7 @@
    "address": "52 N. Swinton Ave, Delray Beach",
    "state": "FL",
    "zip": "33444",
-   "phone": null,
+   "phone": "(561) 330-3232",
    "lat": 26.4633,
    "lng": -80.0734,
    "priceText": "$$ (Facebook page)",
@@ -1378,7 +1379,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "OpenStreetMap node/4413398892 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-dasara-indian-cuisine-delray",
@@ -2096,7 +2098,7 @@
    "address": "Delray Marketplace, Lyons Rd, Delray Beach",
    "state": "FL",
    "zip": "14811",
-   "phone": null,
+   "phone": "(561) 501-5090",
    "lat": 26.4564,
    "lng": -80.1884,
    "priceText": "$$ (Facebook page)",
@@ -2119,7 +2121,8 @@
     "fbPostsSeen": 6,
     "fbNewestPost": "2025-06-20",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/11057500960 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-gordosgrill-familiaramos",
@@ -4687,7 +4690,7 @@
    "address": "600 North Congress Ave #110, Delray Beach",
    "state": "FL",
    "zip": "34455",
-   "phone": null,
+   "phone": "(561) 330-4912",
    "lat": 26.471,
    "lng": -80.0933,
    "priceText": "$$ (Facebook page)",
@@ -4802,7 +4805,8 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.tacotuesdaystaqueria.com/menu"
+   "menu": "https://www.tacotuesdaystaqueria.com/menu",
+   "phoneSource": "Venue website www.tacotuesdaystaqueria.com, checked 2026-11-01"
   },
   {
    "id": "fl-talias-tuscan-table",
@@ -6142,6 +6146,31 @@
     "fbNewestPost": "2026-09-12",
     "website": null
    }
+  },
+  {
+   "id": "fl-pizaa-r-stica-delray-beach",
+   "name": "Pizaa Rústica",
+   "cuisine": "Restaurant",
+   "address": "1155 East Atlantic Avenue, Delray Beach",
+   "state": "FL",
+   "zip": "33483",
+   "phone": "(561) 279-8766",
+   "phoneSource": "OpenStreetMap node/5315760821 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 26.46191,
+   "lng": -80.06016,
+   "website": "https://pizza-rustica.com/",
+   "websiteSource": "OpenStreetMap node/5315760821 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-2:30a; Fri-Sat 11a-3a; Sun 11a-2:30a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/5315760821 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Palm Beach",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "city",

@@ -486,7 +486,7 @@
    "lng": -79.95536,
    "priceText": null,
    "priceLevel": null,
-   "website": null,
+   "website": "https://www.pfbbqhouse.com/",
    "hours": "Mon-Thu 11a-9:15p; Fri-Sat 11a-9:45p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -505,8 +505,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/103434162614542/PF-BBQ-HOUSE",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.pfbbqhouse.com/"
+   },
+   "websiteSource": "OpenStreetMap node/5240343115 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "ribs-n-bread",
@@ -725,6 +726,91 @@
     "fbNewestPost": "2026-10-10",
     "website": null
    }
+  },
+  {
+   "id": "pa-stackd-pittsburgh",
+   "name": "Stack'd",
+   "cuisine": "American",
+   "address": "3716 Forbes Avenue, Pittsburgh",
+   "state": "PA",
+   "zip": "15213",
+   "phone": "(412) 681-1800",
+   "phoneSource": "OpenStreetMap node/2710170985 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 40.441429,
+   "lng": -79.956992,
+   "website": "https://www.stackdburgers.com/oakland",
+   "websiteSource": "OpenStreetMap node/2710170985 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon 12p-12a; Tue-Sun 11a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [
+    {
+     "days": "Thu",
+     "text": "Thursday - Half off Wings",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website stackdburgers.com/oakland",
+     "checked": "2026-11-01"
+    }
+   ],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/2710170985 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Allegheny",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "pa-the-eatery-at-towers-pittsburgh",
+   "name": "The Eatery at Towers",
+   "cuisine": "Pizza",
+   "address": "3990 Fifth Avenue, Pittsburgh",
+   "state": "PA",
+   "zip": "15213",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 40.442637,
+   "lng": -79.956353,
+   "website": "https://dineoncampus.com/pitt",
+   "websiteSource": "OpenStreetMap node/14145986336 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 7a-12a; Fri 7a-10p; Sat 9a-10p; Sun 9a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/14145986336 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Allegheny",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "pa-little-corner-grill-house-pittsburgh",
+   "name": "Little Corner Grill House 街边儿",
+   "cuisine": "Chinese",
+   "address": "301 North Craig Street, Pittsburgh",
+   "state": "PA",
+   "zip": "15213",
+   "phone": "(412) 904-2327",
+   "phoneSource": "OpenStreetMap way/171464187 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 40.451949,
+   "lng": -79.952309,
+   "website": "https://littlecorner.top/",
+   "websiteSource": "OpenStreetMap way/171464187 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 11a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/171464187 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Allegheny",
+   "addedBy": "sweep-osm"
   }
  ],
  "counties": [

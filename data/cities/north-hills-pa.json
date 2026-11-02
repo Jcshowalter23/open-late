@@ -1402,7 +1402,7 @@
    "lng": -79.96298,
    "priceText": null,
    "priceLevel": null,
-   "website": null,
+   "website": "https://www.rockysrouteeight.com/",
    "hours": "Mon-Wed 4p-8p; Thu 4p-10p; Fri-Sat 4p-9p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -1419,7 +1419,30 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://www.rockysrouteeight.com/"
+   },
+   "websiteSource": "OpenStreetMap way/498594907 website tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.rockysrouteeight.com/",
+        "quote": "Support local businesses by eating local. Enjoy the best pizza in Allison Park like the locals do. | Allison Park residents have made Rocky's Route 8 one of the most popular pizzerias",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1795,6 +1818,89 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2024-07-26",
     "website": null
+   }
+  },
+  {
+   "id": "pa-large-plain-pittsburgh",
+   "name": "Large Plain",
+   "cuisine": "Pizza",
+   "address": "3286 Babcock Boulevard, Pittsburgh",
+   "state": "PA",
+   "zip": "15237",
+   "phone": "(412) 364-4565",
+   "phoneSource": "OpenStreetMap way/355573324 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 40.530923,
+   "lng": -80.017804,
+   "website": "https://www.largeplainpizza.com/",
+   "websiteSource": "OpenStreetMap way/355573324 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 10a-11p; Fri-Sat 10a-12a; Sun 11a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour - $2",
+     "tags": [],
+     "src": "Venue website largeplainpizza.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "00 Domestic Bottles & Drafts + Half-Priced Stix & Rolls",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website largeplainpizza.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/355573324 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Allegheny",
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "7 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-03",
+      "datedLastSeen": "2026-11-03",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://largeplainpizza.com/events",
+        "date": "2026-11-03",
+        "quote": "Trivia Night | Tuesday November 3rd"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://largeplainpizza.com/events",
+        "date": "2026-11-03",
+        "quote": "Trivia Night | Tuesday November 3rd | Every Tuesday | Grab your team and test your knowledge every Tuesday night! >> Trivia kicks off at 7 PM with great food, cold drinks, and prizes up for grabs | Every Tuesday | 07:00 PM - 09:00 PM"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-04",
+      "quote": "Trivia Night - 7:00 PM | 07:00 PM - 09:30 PM | Wednesday November 4th | 07:00 PM - 09:30 PM",
+      "url": "https://largeplainpizza.com/specials"
+     }
+    ]
    }
   }
  ],

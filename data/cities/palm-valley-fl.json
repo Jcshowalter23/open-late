@@ -529,7 +529,7 @@
    "address": "301 N Roscoe Blvd, Ponte Vedra Beach",
    "state": "FL",
    "zip": "32082",
-   "phone": null,
+   "phone": "(904) 285-0139",
    "lat": 30.2104,
    "lng": -81.4098,
    "priceText": "$$ (Facebook page)",
@@ -591,7 +591,8 @@
     "fbNewestPost": null,
     "website": "https://luluswaterfrontgrille.com/"
    },
-   "menu": "https://luluswaterfrontgrille.com/menu"
+   "menu": "https://luluswaterfrontgrille.com/menu",
+   "phoneSource": "OpenStreetMap node/7176682902 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-mulligans-pub-ponte-vedra-beach",
@@ -1363,6 +1364,91 @@
      "checked": "2026-11-01"
     }
    ]
+  },
+  {
+   "id": "fl-mr-chubbys-wings-ponte-vedra-beach",
+   "name": "Mr. Chubby's Wings",
+   "cuisine": "Bar & grill",
+   "address": "150 Valley Circle, Ponte Vedra Beach",
+   "state": "FL",
+   "zip": "32082",
+   "phone": "(904) 500-9464",
+   "phoneSource": "OpenStreetMap way/627613019 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 30.190566,
+   "lng": -81.38079,
+   "website": "https://mrchubbyswings.com/ponte-vedra-beach-location",
+   "websiteSource": "OpenStreetMap way/627613019 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$12 Domestic Buckets",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website mrchubbyswings.com/westside-location",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/627613019 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "St. Johns",
+   "addedBy": "sweep-osm",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Big Money Bingo 7:30-9 PM, then Karaoke 9-Close | Wednesday",
+      "url": "https://mrchubbyswings.com/westside-location"
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia Night 7:30 PM | Monday",
+      "url": "https://mrchubbyswings.com/westside-location"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia Night 7 PM | Tuesday",
+      "url": "https://mrchubbyswings.com/ponte-vedra-beach-location"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia Night | Wednesday | 7:30 PM - 9 PM",
+      "url": "https://mrchubbyswings.com/fleming-island-location"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Big Money Bingo 7:30-9 PM, then Karaoke 9-Close | Wednesday",
+      "url": "https://mrchubbyswings.com/westside-location"
+     }
+    ]
+   }
   }
  ],
  "type": "town",

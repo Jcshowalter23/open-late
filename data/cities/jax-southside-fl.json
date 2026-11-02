@@ -2220,7 +2220,7 @@
    "address": "4320 Deerwood lake pkwy, Jacksonville",
    "state": "FL",
    "zip": "32216",
-   "phone": null,
+   "phone": "(904) 738-8561",
    "lat": 30.2686,
    "lng": -81.5611,
    "priceText": "$$ (Facebook page)",
@@ -2243,7 +2243,8 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-15",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/14061565901 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-kazu-sushi",
@@ -4815,7 +4816,7 @@
    "lng": -81.5061,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://tulumflavorsofmexico.com/",
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -4834,8 +4835,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/224987580704650/Tulum-Flavors-of-Mexico",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-12",
-    "website": null
-   }
+    "website": "https://tulumflavorsofmexico.com/"
+   },
+   "websiteSource": "OpenStreetMap node/13250778566 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-tunis-freshnfast",
@@ -5123,6 +5125,53 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   }
+  },
+  {
+   "id": "fl-the-red-gill-bistro-jacksonville",
+   "name": "The Red Gill Bistro",
+   "cuisine": "American",
+   "address": "4660 Salisbury Road, Jacksonville",
+   "state": "FL",
+   "zip": "32256",
+   "phone": "(904) 619-1208",
+   "phoneSource": "OpenStreetMap way/760458370 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 30.249321,
+   "lng": -81.590135,
+   "website": "https://redgillbistro.com/",
+   "websiteSource": "OpenStreetMap way/760458370 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 24h",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/760458370 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Duval",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://redgillbistro.com/",
+        "quote": "d menus are designed to satisfy every palate — from quick executive bites to multi-course fine dining experiences at 40,000 feet. | Explore Menu | ✈️ Frequently Asked Questions | How can I pl",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   }
  ],

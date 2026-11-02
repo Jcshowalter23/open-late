@@ -774,7 +774,7 @@
    "lng": -77.2334,
    "priceText": null,
    "priceLevel": null,
-   "website": null,
+   "website": "https://food101gettysburg.com",
    "hours": "Mon-Tue closed; Wed-Thu 11a-8p; Fri-Sat 11a-9p; Sun 11a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -815,8 +815,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Gettysburg/197672966932110/The-Pub-%26-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-23",
-    "website": null
-   }
+    "website": "https://food101gettysburg.com"
+   },
+   "websiteSource": "OpenStreetMap way/369320750 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "la-bella-italia",
@@ -1051,7 +1052,16 @@
    "hoursNote": null,
    "kitchen": "Wed-Thu 3p-7p; Fri-Sat 12p-8p; Sun 12p-6p",
    "kitchenNote": "Kitchen closes 1 hour before the taproom; Fri–Sat kitchen closes at 8 pm (venue site).",
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "We open today at 11:30 with happy hour from 4-6 and trivia at 6:30",
+     "tags": [],
+     "src": "Venue website michauxbrewing.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1808,7 +1818,7 @@
    "lng": -77.23202,
    "priceText": null,
    "priceLevel": null,
-   "website": null,
+   "website": "https://thegettysburgercompany.com",
    "hours": "Wed closed; Mon-Tue,Thu-Sun 11a-12a",
    "hoursNote": "The Hideout bar downstairs: Fri 4 pm–midnight, Sat noon–midnight, Sun noon–8 pm.",
    "kitchen": null,
@@ -1828,8 +1838,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Gettysburg/253489612012590/The-Gettysburger-Company",
     "fbPostsSeen": 5,
     "fbNewestPost": "2026-10-25",
-    "website": null
-   }
+    "website": "https://thegettysburgercompany.com"
+   },
+   "websiteSource": "OpenStreetMap way/1071333967 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "the-pub-and-restaurant",
@@ -1970,6 +1981,31 @@
     "fbNewestPost": "2026-10-26",
     "website": null
    }
+  },
+  {
+   "id": "pa-upper-crust-pizza-gettysburg",
+   "name": "Upper Crust Pizza",
+   "cuisine": "Pizza",
+   "address": "19 York Street, Gettysburg",
+   "state": "PA",
+   "zip": "17325",
+   "phone": "(717) 549-2444",
+   "phoneSource": "OpenStreetMap way/803578271 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 39.830621,
+   "lng": -77.230169,
+   "website": "https://theuppercrustpizzas.com",
+   "websiteSource": "OpenStreetMap way/803578271 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 11a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/803578271 opening_hours tag (map data 2026-10-31; last checked on the map 2023-11-08) (checked 2026-11-01)",
+   "county": "Adams",
+   "addedBy": "sweep-osm"
   }
  ],
  "counties": [

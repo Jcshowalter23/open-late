@@ -1889,8 +1889,40 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Join us on weekdays for drink specials and menu items for just $8-including our famous Happy Hour Burger",
+     "tags": [],
+     "src": "Venue website bravoitalian.com/locations/friendly-center",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "See venue",
+     "text": "We are excited to offer drink specials and a special happy hour menu featuring delicious items for just $8 each",
+     "tags": [],
+     "src": "Venue website bravoitalian.com/menu/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Mon-Fri",
+     "text": "Our happy hour is available on weekdays from 3 pm to 6 pm and can be enjoyed at our bar or on our beautiful outdoor terraces",
+     "tags": [],
+     "src": "Venue website bravoitalian.com/menu/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "$7 Wine Wednesday",
+     "tags": [],
+     "src": "Venue website bravoitalian.com/locations/friendly-center",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -8406,7 +8438,17 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "Monday - $1 OFF DRAFTS",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website odenbrewing.com/gso-events",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -8463,7 +8505,45 @@
     "fbNewestPost": null,
     "website": "https://odenbrewing.com/"
    },
-   "websiteSource": "OpenStreetMap node/13070059097 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/13070059097 website tag (map data 2026-10-31), checked 2026-11-01",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "7pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": "2026-07-28",
+      "postsSeen": 4,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://odenbrewing.com/gso-events",
+        "date": "2026-11-01",
+        "quote": "Tuesday - Oden Run Club meets at 6pm, Fermented Facts Trivia 7pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://odenbrewing.com/gso-events",
+        "date": "2026-07-28",
+        "quote": "Fermented Facts Trivia | Tuesday, July 28, 2026"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://odenbrewing.com/gso-events",
+        "date": "2026-07-21",
+        "quote": "Fermented Facts Trivia | Tuesday, July 21, 2026"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
   },
   {
    "id": "nc-old-town-draught-house",

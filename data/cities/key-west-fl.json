@@ -1546,7 +1546,7 @@
    "lng": -81.7929,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://www.elsiboneyrestaurant.com/",
    "hours": "Daily 11a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -1606,8 +1606,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Key-West/1387252608180427/El-Siboney-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
-   }
+    "website": "https://www.elsiboneyrestaurant.com/"
+   },
+   "websiteSource": "OpenStreetMap way/337210679 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-fat-tuesday-duval-st-305-key-west",
@@ -4202,13 +4203,28 @@
    "phone": null,
    "lat": 24.5504,
    "lng": -81.7985,
-   "website": null,
+   "website": "https://foodeist.com/place/new-york-pasta-garden",
    "hours": "Daily 4p-10p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Wine Wednesday offers 50% off cellar bottles and 25% off wines by the glass",
+     "tags": [],
+     "src": "Venue website foodeist.com/articles/the-grill-room-at-the-windsor-court-introduces-new-weekly-dining-experiences",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Thu",
+     "text": "Thursday’s menu features Chargrilled Louisiana Oysters with Prosecco for $22 and Slow-Roasted Prime Rib with Cabernet Sauvignon for $58",
+     "tags": [],
+     "src": "Venue website foodeist.com/articles/the-grill-room-at-the-windsor-court-introduces-new-weekly-dining-experiences",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -4221,7 +4237,58 @@
     "facebookMirror": "https://www.foodyas.com/US/Key-West/856703454192750/New-York-Pasta-Garden-Key-West",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "https://foodeist.com/place/new-york-pasta-garden"
+   },
+   "websiteSource": "OpenStreetMap way/338225796 website tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "LGBTQ-friendly",
+     "Date night / upscale"
+    ],
+    "summary": "Family-friendly; LGBTQ-friendly; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://foodeist.com/place/new-york-pasta-garden",
+        "quote": "for kids | Catering | Breakfast | Casual | Restroom | Debit cards | NFC mobile payments | Family-friendly | Tourists | Checks | Accepts reservations | Romantic | Quiet | Counter service | Curbsid",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://foodeist.com/place/new-york-pasta-garden",
+        "quote": "coffee | Great dessert | Solo dining | Brunch | Gender-neutral restroom | Cozy | Trendy | LGBTQ+ friendly | Transgender safespace | Credit cards | High chairs | Kids' menu | Free parking",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://foodeist.com/place/new-york-pasta-garden",
+        "quote": "ards | NFC mobile payments | Family-friendly | Tourists | Checks | Accepts reservations | Romantic | Quiet | Counter service | Curbside pickup | No-contact delivery | Onsite services | Din",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -7348,6 +7415,78 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   }
+  },
+  {
+   "id": "fl-capt-tonys-saloon-key-west",
+   "name": "Capt Tony's Saloon",
+   "cuisine": "Restaurant",
+   "address": "428 Greene Street, Key West",
+   "state": "FL",
+   "zip": "33040",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 24.55882,
+   "lng": -81.80551,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Daily 24h",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/4887804622 opening_hours tag (map data 2026-10-31) (checked 2026-11-01); active on-premise license: Florida DBPR alcoholic beverage licensee extract (bd400lic.csv, downloaded 2026-11-01)",
+   "county": "Monroe",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "fl-sloppy-joes-bar-key-west",
+   "name": "Sloppy Joe's Bar",
+   "cuisine": "Restaurant",
+   "address": "201 Duval Street, Key West",
+   "state": "FL",
+   "zip": "33040",
+   "phone": "(305) 294-5717",
+   "phoneSource": "OpenStreetMap way/495332246 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 24.559105,
+   "lng": -81.804994,
+   "website": "https://sloppyjoes.com/",
+   "websiteSource": "OpenStreetMap way/495332246 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Sat 10a-4a; Sun 12p-4a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/495332246 opening_hours tag (map data 2026-10-31; last checked on the map 2026-04-02) (checked 2026-11-01)",
+   "county": "Monroe",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://sloppyjoes.com/",
+        "quote": "inks, Sloppy Joe sandwich, Key West snacks, wings, sandwiches and more. | Entertainment | Live music every day 10 a.m.- 2:00 a.m. Dancing every night. Sloppy Joe’s “Still The Best Party In Town!”",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   }
  ],

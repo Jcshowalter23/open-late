@@ -565,7 +565,7 @@
    "lng": -75.15611,
    "priceText": null,
    "priceLevel": null,
-   "website": null,
+   "website": "https://cucinamaria.restaurant/menu.html",
    "hours": "Mon closed; Tue-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -584,8 +584,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Philadelphia/101570835504324/Cucina-Maria--South-Philly",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-27",
-    "website": null
-   }
+    "website": "https://cucinamaria.restaurant/menu.html"
+   },
+   "websiteSource": "OpenStreetMap node/2296211827 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fiorella",
@@ -1545,6 +1546,155 @@
     "fbNewestPost": "2026-10-04",
     "website": null
    }
+  },
+  {
+   "id": "pa-jims-steaks-philadelphia",
+   "name": "Jim's Steaks",
+   "cuisine": "American",
+   "address": "400 South Street, Philadelphia",
+   "state": "PA",
+   "zip": "19147",
+   "phone": "(215) 928-1911",
+   "phoneSource": "OpenStreetMap node/2012639870 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 39.941548,
+   "lng": -75.149304,
+   "website": "https://jimssouthstreet.com",
+   "websiteSource": "OpenStreetMap node/2012639870 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-12a; Fri-Sat 11a-1a; Sun 11a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/2012639870 opening_hours tag (map data 2026-10-31; last checked on the map 2025-02-15) (checked 2026-11-01)",
+   "county": "Philadelphia",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "pa-j-j-pizza-philadelphia",
+   "name": "J & J Pizza",
+   "cuisine": "Restaurant",
+   "address": "1177 South 9th Street, Philadelphia",
+   "state": "PA",
+   "zip": "19147",
+   "phone": "(215) 551-1233",
+   "phoneSource": "OpenStreetMap node/9963872785 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 39.934359,
+   "lng": -75.158731,
+   "website": "https://www.j-jpizza.com/",
+   "websiteSource": "OpenStreetMap node/9963872785 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 9a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/9963872785 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Philadelphia",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "pa-pats-king-of-steaks-philadelphia",
+   "name": "Pat's King of Steaks",
+   "cuisine": "Restaurant",
+   "address": "1237 East Passyunk Avenue, Philadelphia",
+   "state": "PA",
+   "zip": null,
+   "phone": null,
+   "phoneSource": null,
+   "lat": 39.933204,
+   "lng": -75.159249,
+   "website": "https://www.patskingofsteaks.com",
+   "websiteSource": "OpenStreetMap way/334890730 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 24h",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/334890730 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Philadelphia",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "pa-genos-steaks-philadelphia",
+   "name": "Geno's Steaks",
+   "cuisine": "Steakhouse",
+   "address": "1219 South 9th Street, Philadelphia",
+   "state": "PA",
+   "zip": "19147",
+   "phone": "(215) 389-0659",
+   "phoneSource": "OpenStreetMap way/334890731 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 39.933848,
+   "lng": -75.158842,
+   "website": "https://www.genosteaks.com/",
+   "websiteSource": "OpenStreetMap way/334890731 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 24h",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/334890731 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Philadelphia",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.genosteaks.com/",
+        "quote": "serving South Philly cheesesteaks that put Philadelphia on the culinary map. Tourists and locals alike line up at our cheesesteak shop on 9th and Passyunk to experience the authentic Phi",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "pa-solar-myth-philadelphia",
+   "name": "Solar Myth",
+   "cuisine": "Bar",
+   "address": "1131 South Broad Street, Philadelphia",
+   "state": "PA",
+   "zip": null,
+   "phone": null,
+   "phoneSource": null,
+   "lat": 39.936841,
+   "lng": -75.166605,
+   "website": "https://solarmythbar.com/",
+   "websiteSource": "OpenStreetMap way/456378263 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 8a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap way/456378263 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Philadelphia",
+   "addedBy": "sweep-osm"
   }
  ],
  "counties": [

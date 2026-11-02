@@ -2271,7 +2271,7 @@
    "address": "2554 N University Dr, Coral Springs",
    "state": "FL",
    "zip": "33065",
-   "phone": null,
+   "phone": "(954) 300-3888",
    "lat": 26.262,
    "lng": -80.2503,
    "website": "https://laohutongcoralsprings.com/",
@@ -2312,7 +2312,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "Venue website laohutongcoralsprings.com, checked 2026-11-01"
   },
   {
    "id": "fl-leftys-tavern-and-grille",
@@ -4690,7 +4691,7 @@
    "address": "4437 Lyons Rd Suite 101, Coconut Creek",
    "state": "FL",
    "zip": "33073",
-   "phone": null,
+   "phone": "(954) 984-0300",
    "lat": 26.284,
    "lng": -80.1867,
    "priceText": "$$ (Facebook page)",
@@ -4742,7 +4743,8 @@
       "url": "https://worldofbeer.com/locations/coconut-creek/"
      }
     ]
-   }
+   },
+   "phoneSource": "Venue website worldofbeer.com/locations/coconut-creek, checked 2026-11-01"
   },
   {
    "id": "fl-wongs-chinese-restaurant",
@@ -4774,6 +4776,58 @@
     "fbNewestPost": null,
     "website": null
    }
+  },
+  {
+   "id": "fl-world-of-beer-coconut-creek",
+   "name": "World of Beer",
+   "cuisine": "Beer garden",
+   "address": "4437 Lyons Rd, Coconut Creek",
+   "state": "FL",
+   "zip": null,
+   "phone": null,
+   "phoneSource": null,
+   "lat": 26.283983,
+   "lng": -80.188257,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Mon-Thu 12p-2a; Fri-Sat 12p-3a; Sun 12p-1a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/1067296469 opening_hours tag (map data 2026-10-31) (checked 2026-11-01); active on-premise license: Florida DBPR alcoholic beverage licensee extract (bd400lic.csv, downloaded 2026-11-01), address from license",
+   "county": "Broward",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "fl-bjs-restaurant-brewhouse-coral-springs",
+   "name": "Bj's Restaurant & Brewhouse",
+   "cuisine": "American",
+   "address": "1580 North University Drive, Coral Springs",
+   "state": "FL",
+   "zip": "33071",
+   "phone": "(954) 227-7055",
+   "phoneSource": "OpenStreetMap node/13995968901 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 26.250442,
+   "lng": -80.25396,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Daily 11a-11:45p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/13995968901 opening_hours tag (map data 2026-10-31) (checked 2026-11-01); active on-premise license: Florida DBPR alcoholic beverage licensee extract (bd400lic.csv, downloaded 2026-11-01)",
+   "county": "Broward",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "city",

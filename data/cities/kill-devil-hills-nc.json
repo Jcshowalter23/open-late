@@ -165,7 +165,34 @@
     "fbNewestPost": null,
     "website": "https://www.obxbeachsidebistro.com/"
    },
-   "websiteSource": "OpenStreetMap node/13463075685 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/13463075685 website tag (map data 2026-10-31), checked 2026-11-01",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.obxbeachsidebistro.com/happenings/",
+        "date": "2026-11-01",
+        "quote": "Fridays - DRINK AND THINK TRIVIA"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
   },
   {
    "id": "nc-blue-crab-tavern",
@@ -1084,8 +1111,8 @@
    "website": "https://jollyrogerobx.com/",
    "hours": "Daily 7a-2a",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Daily 7a-1a",
+   "kitchenNote": "Kitchen hours from Venue website jollyrogerobx.com, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -1111,7 +1138,55 @@
     "fbNewestPost": null,
     "website": "https://jollyrogerobx.com/"
    },
-   "websiteSource": "OpenStreetMap node/11525233118 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/11525233118 website tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://jollyrogerobx.com/",
+        "quote": "SIC | EXTRAS | SPECIALS/COUPONS | ANNOUNCEMENTS | GALLERY | NEWS | SHOP | CONTACT | ✕ | A LOCALS FAVORITE FOR BREAKFAST, LUNCH & DINNER | A Jolly Good Place to Dine and Play! | SEE EVENT",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "live poker events, pool tournaments, buzztime NTN, music bingo, live trivia, Karaoke, DJ's, bands plus much more",
+      "url": "https://jollyrogerobx.com/about/"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "live poker events, pool tournaments, buzztime NTN, music bingo, live trivia, Karaoke, DJ's, bands plus much more",
+      "url": "https://jollyrogerobx.com/about/"
+     }
+    ]
+   }
   },
   {
    "id": "nc-the-kill-devil-grill",

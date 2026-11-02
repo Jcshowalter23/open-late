@@ -1603,7 +1603,7 @@
    "lng": -75.92781,
    "priceText": null,
    "priceLevel": null,
-   "website": null,
+   "website": "https://theuglyoyster.com/",
    "hours": "Tue-Thu 11:30a-9p; Fri-Sat 11:30a-10p; Sun-Mon closed",
    "hoursNote": "Reopened after a closure; midweek live music events listed in 2026.",
    "kitchen": null,
@@ -1655,8 +1655,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://theuglyoyster.com/"
+   },
+   "websiteSource": "OpenStreetMap node/3730891686 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "tobias-frogg-berks",
@@ -2263,6 +2264,58 @@
     "conflicts": [],
     "oneoffs": []
    }
+  },
+  {
+   "id": "pa-little-brown-jug-reading",
+   "name": "Little Brown Jug",
+   "cuisine": "Bar",
+   "address": "900 East Lancaster Avenue, Reading",
+   "state": "PA",
+   "zip": null,
+   "phone": "(610) 777-3273",
+   "phoneSource": "OpenStreetMap node/6982805195 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 40.314975,
+   "lng": -75.941191,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Daily 12p-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/6982805195 opening_hours tag (map data 2026-10-31; last checked on the map 2023-04-08) (checked 2026-11-01); active on-premise license: PLCB+ public license data export (LicenseExport.aspx, downloaded 2026-11-01)",
+   "county": "Berks",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "pa-klingers-on-carsonia-pennside",
+   "name": "Klinger's on Carsonia",
+   "cuisine": "Restaurant",
+   "address": "721 Carsonia Avenue, Pennside",
+   "state": "PA",
+   "zip": "19606",
+   "phone": "(610) 985-0652",
+   "phoneSource": "OpenStreetMap way/953984964 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 40.338019,
+   "lng": -75.880777,
+   "website": "https://www.klingerspubs.com/klingers-on-carsonia",
+   "websiteSource": "OpenStreetMap way/953984964 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Wed 4p-9p; Thu 4p-11p; Fri 4p-1a; Sat 11:30a-1a; Sun 11:30a-11p",
+   "hoursNote": null,
+   "kitchen": "Fri 4p-12a; Sat 11:30a-12a",
+   "kitchenNote": "Kitchen hours from Venue website klingerspubs.com/carsonia-park-grill-and-bar, checked 2026-11-01; start time taken from listed opening hours.",
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/953984964 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Berks",
+   "addedBy": "sweep-osm"
   }
  ],
  "counties": [

@@ -467,7 +467,7 @@
    "address": "4603 N Florida Ave, Tampa",
    "state": "FL",
    "zip": "33603",
-   "phone": null,
+   "phone": "(813) 770-7306",
    "lat": 27.9872,
    "lng": -82.4591,
    "priceText": "$ (Facebook page)",
@@ -491,7 +491,8 @@
     "fbNewestPost": "2026-09-12",
     "website": "https://www.chanko-ichiban.com/"
    },
-   "menu": "https://www.chanko-ichiban.com/chanko-menu"
+   "menu": "https://www.chanko-ichiban.com/chanko-menu",
+   "phoneSource": "OpenStreetMap node/1312026787 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-chibchas",
@@ -1021,7 +1022,7 @@
    "address": "3611 West Hillsborough Ave, Tampa",
    "state": "FL",
    "zip": "33614",
-   "phone": null,
+   "phone": "(813) 878-6879",
    "lat": 27.9967,
    "lng": -82.502,
    "website": "https://elosoblancorestaurant.com/",
@@ -1043,7 +1044,8 @@
     "fbNewestPost": "2026-10-04",
     "website": "https://elosoblancorestaurant.com/"
    },
-   "menu": "https://elosoblancorestaurant.com/menu"
+   "menu": "https://elosoblancorestaurant.com/menu",
+   "phoneSource": "Venue website elosoblancorestaurant.com, checked 2026-11-01"
   },
   {
    "id": "fl-flavs-barbecue",
@@ -1358,7 +1360,7 @@
    "address": "2115 E Hillsborough Ave #3, Tampa",
    "state": "FL",
    "zip": "33610",
-   "phone": null,
+   "phone": "(813) 252-8855",
    "lat": 27.9956,
    "lng": -82.4354,
    "priceText": "$$ (Facebook page)",
@@ -1398,7 +1400,8 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "Venue website happycrabtampa.kwickmenu.com, checked 2026-11-01"
   },
   {
    "id": "fl-happy-fish-peruvian-fusion-restaurant",
@@ -1815,7 +1818,7 @@
    "address": "4410 N Florida Ave, Tampa",
    "state": "FL",
    "zip": "33603",
-   "phone": null,
+   "phone": "(813) 608-9219",
    "lat": 27.9854,
    "lng": -82.4595,
    "website": "https://www.lacentraltacos.com/",
@@ -1855,7 +1858,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "OpenStreetMap node/14219766506 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-la-cubana-food",
@@ -3482,6 +3486,33 @@
      "checked": "2026-11-01"
     }
    ]
+  },
+  {
+   "id": "fl-ology-brewing-tampa",
+   "name": "Ology Brewing",
+   "cuisine": "Pub",
+   "address": "6401 North Florida Avenue, Tampa",
+   "state": "FL",
+   "zip": "33604",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 28.00515,
+   "lng": -82.45931,
+   "website": "https://ologybrewing.com/",
+   "websiteSource": "OpenStreetMap way/523101872 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 4p-10p; Fri-Sat 12p-12a; Sun 12p-8p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap way/523101872 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Hillsborough",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "neighborhood",

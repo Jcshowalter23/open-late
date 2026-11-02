@@ -142,7 +142,7 @@
    "address": "17080 Collins Ave, Sunny Isles Beach",
    "state": "FL",
    "zip": "33160",
-   "phone": null,
+   "phone": "(305) 309-9999",
    "lat": 25.9337,
    "lng": -80.123,
    "website": "http://www.bakucafe.com/, https://www.opentable.com/r/baku-cafe-bar-and-restaurant-sunny-isles-beach",
@@ -185,7 +185,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "OpenStreetMap node/14130316811 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-baleenkitchen",
@@ -897,7 +898,7 @@
    "lng": -80.122,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": null,
+   "website": "https://oldlisbonrestaurants.com/aventura/",
    "hours": "Daily 12p-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -914,8 +915,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Aventura/334876833650039/Old-Lisbon",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-09-22",
-    "website": null
-   }
+    "website": "https://oldlisbonrestaurants.com/aventura/"
+   },
+   "websiteSource": "OpenStreetMap node/13148270891 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-patagonia-nahuen-sunny-isles-beach",
@@ -1579,6 +1581,162 @@
      "checked": "2026-11-01"
     }
    ]
+  },
+  {
+   "id": "fl-porterhouse-bar-and-grill-sunny-isles-beach",
+   "name": "Porterhouse Bar and Grill",
+   "cuisine": "American",
+   "address": "17004 Collins Avenue, Sunny Isles Beach",
+   "state": "FL",
+   "zip": "33160",
+   "phone": "(305) 907-4111",
+   "phoneSource": "OpenStreetMap node/4046092259 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 25.933206,
+   "lng": -80.122041,
+   "website": "https://porterhousemia.com/",
+   "websiteSource": "OpenStreetMap node/4046092259 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 12p-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/4046092259 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Miami-Dade",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Dance / club crowd"
+    ],
+    "summary": "A locals-and-regulars spot; a dancing / club crowd late.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.porterhousemia.com/",
+        "quote": "mbine quality cuisine with an accessible price point, making us a popular choice for both locals and visitors seeking | authentic dining experiences | . | Bar in Sunny Isles Beach, FL",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.porterhousemia.com/",
+        "quote": "ny Isles Beach, FL | Exclusive Outdoor Terrace Experience | All-in-One: Restaurant, Bar & Night Club | Late Night Dining Until 12AM | Night Club Until 2AM - Weekend Until 5AM | BOOK A TABLE",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Lounge & DJs 11 PM–5 AM | Live singer 8:30–11 PM",
+      "url": "https://www.porterhousemia.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Get creative and bring your best look for an unforgettable night with DJ ALEGSON live, laser shows, and surprises",
+      "url": "https://www.porterhousemia.com/future-events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Lounge & DJs 11 PM–5 AM | Live singer 8:30–11 PM",
+      "url": "https://www.porterhousemia.com/future-events"
+     }
+    ]
+   }
+  },
+  {
+   "id": "fl-la-sandwicherie-sunny-isles-beach",
+   "name": "La Sandwicherie",
+   "cuisine": "Restaurant",
+   "address": "17008 Collins Avenue, Sunny Isles Beach",
+   "state": "FL",
+   "zip": "33160",
+   "phone": "(305) 974-0033",
+   "phoneSource": "OpenStreetMap node/6027314603 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 25.933329,
+   "lng": -80.122031,
+   "website": "https://lasandwicherie.com/",
+   "websiteSource": "OpenStreetMap node/6027314603 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 8a-2a; Fri-Sat 8a-5a; Sun 8a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/6027314603 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Miami-Dade",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Dance / club crowd"
+    ],
+    "summary": "A dancing / club crowd late.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://lasandwicherie.com/",
+        "quote": "s Wynwood Walls, unique retailers, art galleries, artisanal breweries, bars, and eclectic nightclubs! | Open everyday from 8am to 5am. | 169 NW 23 RD ST - MIAMI - FL 33127 (786) 409-2390",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "fl-la-cabrera-sunny-isles-beach",
+   "name": "La Cabrera",
+   "cuisine": "Restaurant",
+   "address": "17100 Collins Avenue, Sunny Isles Beach",
+   "state": "FL",
+   "zip": "33160",
+   "phone": "(305) 705-2185",
+   "phoneSource": "OpenStreetMap way/397015472 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 25.934286,
+   "lng": -80.1221,
+   "website": "https://lacabreramiami.com/",
+   "websiteSource": "OpenStreetMap way/397015472 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11:30a-11p; Fri-Sat 11:30a-11:30p; Sun 11:30a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/397015472 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Miami-Dade",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "city",

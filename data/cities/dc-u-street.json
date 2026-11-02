@@ -6849,8 +6849,8 @@
    "address": "2007 14th Street NW, Washington",
    "state": "DC",
    "zip": null,
-   "phone": null,
-   "phoneSource": null,
+   "phone": "(202) 290-1254",
+   "phoneSource": "Venue website www.crushbardc.com, checked 2026-11-01",
    "lat": 38.917315,
    "lng": -77.031694,
    "website": "https://www.crushbardc.com/",
@@ -6859,7 +6859,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "All Night Happy Hour & Free Nachos",
+     "tags": [],
+     "src": "Venue website crushbardc.com/events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -6867,7 +6876,195 @@
    ],
    "source": "hours from OpenStreetMap node/12015277082 opening_hours tag (map data 2026-10-31) (checked 2026-11-01); active on-premise license: DC ABCA liquor license locations layer (DC GIS, downloaded 2026-11-01), address from license",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "LGBTQ-friendly",
+     "Dance / club crowd"
+    ],
+    "summary": "LGBTQ-friendly; a dancing / club crowd late.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.crushbardc.com/",
+        "quote": "Crush Dance Bar | Washington, DC | LGBTQ+ Bar | 0 | Skip to Content | Home | About | Cocktail Menu | Events | FAQs | Private Events",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.crushbardc.com/",
+        "quote": "y Game Night in DC by Washington City Paper! | COME AS YOU ARE. STAY FOR THE PARTY. | Two dance floors, two DJ booths and a year-round roof garden. Enjoy trivia, drag bingo, happy hour, DJs,",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "10PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.crushbardc.com/events",
+        "date": "2026-11-01",
+        "quote": "DJ’s at 10PM every Thursday, Friday, Saturday & 4PM Sundays"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "10PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.crushbardc.com/events",
+        "date": "2026-11-01",
+        "quote": "DJ’s at 10PM every Thursday, Friday, Saturday & 4PM Sundays"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "10PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.crushbardc.com/events",
+        "date": "2026-11-01",
+        "quote": "DJ’s at 10PM every Thursday, Friday, Saturday & 4PM Sundays"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": "4PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.crushbardc.com/events",
+        "date": "2026-11-01",
+        "quote": " DJ Matt Bailer at 4PM | EVERY SUNDAY"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.crushbardc.com/events",
+        "date": "2026-11-01",
+        "quote": "DJ’s at 10PM every Thursday, Friday, Saturday & 4PM Sundays"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Crush Dance Bar is an inclusive LGBTQ+ gay bar and nightlife destination on 14th Street NW in Washington, DC, featuring DJs, drag bingo, trivia, dance parties, and more",
+      "url": "https://www.crushbardc.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Two dance floors, two DJ booths and a year-round roof garden",
+      "url": "https://www.crushbardc.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Enjoy trivia, drag bingo, happy hour, DJs, dancing and LGBTQ+ nightlife all week at Crush in Washington, DC",
+      "url": "https://www.crushbardc.com/"
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-14",
+      "quote": "Cobalt Reunion | Saturday, November 14th | MORE INFO HERE! | >> Trivia & All Night Happy Hour",
+      "url": "https://www.crushbardc.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Crush Dance Bar is an inclusive LGBTQ+ gay bar and nightlife destination on 14th Street NW in Washington, DC, featuring DJs, drag bingo, trivia, dance parties, and more",
+      "url": "https://www.crushbardc.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Enjoy trivia, drag bingo, happy hour, DJs, dancing and LGBTQ+ nightlife all week at Crush in Washington, DC",
+      "url": "https://www.crushbardc.com/"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Crush Dance Bar is an inclusive LGBTQ+ gay bar and nightlife destination on 14th Street NW in Washington, DC, featuring DJs, drag bingo, trivia, dance parties, and more",
+      "url": "https://www.crushbardc.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Enjoy trivia, drag bingo, happy hour, DJs, dancing and LGBTQ+ nightlife all week at Crush in Washington, DC",
+      "url": "https://www.crushbardc.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Drag Bingo",
+      "url": "https://www.crushbardc.com/events"
+     }
+    ]
+   }
   }
  ],
  "type": "neighborhood",

@@ -867,7 +867,7 @@
    "lng": -75.45482,
    "priceText": null,
    "priceLevel": null,
-   "website": null,
+   "website": "https://eltipicopennsylvaniapa.com/",
    "hours": "Mon-Sat 8a-9p; Sun 9a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -886,8 +886,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Allentown/2109313435981660/El-Tipico-Restaurante",
     "fbPostsSeen": 2,
     "fbNewestPost": "2026-10-07",
-    "website": null
-   }
+    "website": "https://eltipicopennsylvaniapa.com/"
+   },
+   "websiteSource": "OpenStreetMap way/610929629 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "elsa-la-reina-del-chicharron-pa",
@@ -1256,13 +1257,28 @@
    "lng": -75.52415,
    "priceText": null,
    "priceLevel": null,
-   "website": null,
+   "website": "https://foodeist.com/place/gourmetbuffet",
    "hours": "Mon-Thu 11a-9:30p; Fri-Sat 11a-10p; Sun 11a-9:30p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Wine Wednesday offers 50% off cellar bottles and 25% off wines by the glass",
+     "tags": [],
+     "src": "Venue website foodeist.com/articles/the-grill-room-at-the-windsor-court-introduces-new-weekly-dining-experiences",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Thu",
+     "text": "Thursday’s menu features Chargrilled Louisiana Oysters with Prosecco for $22 and Slow-Roasted Prime Rib with Cabernet Sauvignon for $58",
+     "tags": [],
+     "src": "Venue website foodeist.com/articles/the-grill-room-at-the-windsor-court-introduces-new-weekly-dining-experiences",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
@@ -1275,7 +1291,44 @@
     "facebookMirror": "https://www.foodyas.com/US/Allentown/273395002698085/Gourmet-Buffet-%26-Grill",
     "fbPostsSeen": 12,
     "fbNewestPost": "2023-02-16",
-    "website": null
+    "website": "https://foodeist.com/place/gourmetbuffet"
+   },
+   "websiteSource": "OpenStreetMap node/7928569885 website tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "College crowd",
+     "Sports fans"
+    ],
+    "summary": "Popular with college students; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "College crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://foodeist.com/place/gourmetbuffet",
+        "quote": "lable | Delivery | Dessert | Drive-through | Groups | Good for kids | Casual | Tourists | College students | Show more | Show less | Accessibility | Wheelchair accessible entrance | Wheelchair acc",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://foodeist.com/place/gourmetbuffet",
+        "quote": "Cafe Diner | Delio's Deli Grille | Wert's Cafe | Copperhead Grille - Allentown | Volpe's Sports Bar | P.J. Whelihan’s Pub + Restaurant | Willy Joe's | Fairgrounds Hotel | You are here | Hom",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2591,7 +2644,7 @@
    "lng": -75.49434,
    "priceText": null,
    "priceLevel": null,
-   "website": null,
+   "website": "https://www.ritzbarbecue.com/",
    "hours": "Mon 10:30a-8p; Tue 10:30a-9p; Wed-Sat 8a-9p; Sun 8a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -2612,8 +2665,9 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "https://www.ritzbarbecue.com/"
+   },
+   "websiteSource": "OpenStreetMap way/304521189 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "robata-of-tokyo",
@@ -4236,6 +4290,56 @@
     "fbNewestPost": null,
     "website": null
    }
+  },
+  {
+   "id": "pa-loves-restaurant-lounge-allentown",
+   "name": "Love’s Restaurant & Lounge",
+   "cuisine": "Restaurant",
+   "address": "1019 Union Boulevard, Allentown",
+   "state": "PA",
+   "zip": "18109",
+   "phone": "(484) 898-7165",
+   "phoneSource": "OpenStreetMap node/6909493833 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 40.624522,
+   "lng": -75.440832,
+   "website": "https://www.lovesloungelv.com/",
+   "websiteSource": "OpenStreetMap node/6909493833 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 12p-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/6909493833 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Lehigh",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "pa-bru-daddys-brewing-co-allentown",
+   "name": "Bru Daddy's Brewing Co.",
+   "cuisine": "American",
+   "address": "732 Hamilton Street, Allentown",
+   "state": "PA",
+   "zip": "18101",
+   "phone": "(610) 351-7600",
+   "phoneSource": "OpenStreetMap way/1511984770 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 40.601564,
+   "lng": -75.472896,
+   "website": "https://www.brudaddysbrewingcompany.com/",
+   "websiteSource": "OpenStreetMap way/1511984770 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-8p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/1511984770 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Lehigh",
+   "addedBy": "sweep-osm"
   }
  ],
  "counties": [

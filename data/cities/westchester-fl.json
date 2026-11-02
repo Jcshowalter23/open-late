@@ -1928,7 +1928,7 @@
    "address": "20095 S Dixie Hwy, Cutler Bay",
    "state": "FL",
    "zip": "33157",
-   "phone": null,
+   "phone": "(305) 971-0600",
    "lat": 25.5803,
    "lng": -80.3675,
    "priceText": "$ (Facebook page)",
@@ -1971,7 +1971,8 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "OpenStreetMap way/436034322 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-filipe-pizza-and-pasta",
@@ -2765,7 +2766,7 @@
    "address": "13816 sw 56th St, Miami",
    "state": "FL",
    "zip": "33175",
-   "phone": null,
+   "phone": "(305) 967-8286",
    "lat": 25.7142,
    "lng": -80.4179,
    "website": "https://www.kamikoisushifusion.com/",
@@ -2811,7 +2812,8 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://kamikoisushifusion.com/menu"
+   "menu": "https://kamikoisushifusion.com/menu",
+   "phoneSource": "Venue website kamikoisushifusion.com, checked 2026-11-01"
   },
   {
    "id": "fl-keg-south",
@@ -3584,7 +3586,7 @@
    "address": "West Flagler Plaza, Sweetwater",
    "state": "FL",
    "zip": "33174",
-   "phone": null,
+   "phone": "(305) 485-3332",
    "lat": 25.7682,
    "lng": -80.3704,
    "priceText": "$$ (Facebook page)",
@@ -3609,7 +3611,8 @@
     "fbPostsSeen": 2,
     "fbNewestPost": "2026-03-05",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/14181874801 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-magic-grill-mall-of-the-americas",
@@ -5372,7 +5375,7 @@
    "address": "11575 SW 40TH St, Miami",
    "state": "FL",
    "zip": "33165",
-   "phone": null,
+   "phone": "(305) 595-1622",
    "lat": 25.7325,
    "lng": -80.3817,
    "priceText": "$ (Facebook page)",
@@ -5404,7 +5407,8 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-28",
     "website": "https://shortys.com/"
-   }
+   },
+   "phoneSource": "Venue website shortys.com, checked 2026-11-01"
   },
   {
    "id": "fl-siam-palace",
@@ -6324,7 +6328,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/fl/cutler-bay/taco-rico-cutler-bay-/ (updated 2026-10-31), checked 2026-11-01",
    "lat": 25.5782,
    "lng": -80.3667,
-   "website": null,
+   "website": "https://tacoricotmc.com/",
    "hours": "Mon-Thu 11a-9:30p; Fri-Sat 11a-10:30p; Sun 11a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -6341,8 +6345,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Cutler-Bay/316561981546971/Taco-Rico-Cutler-Bay",
     "fbPostsSeen": 2,
     "fbNewestPost": "2026-07-23",
-    "website": null
-   }
+    "website": "https://tacoricotmc.com/"
+   },
+   "websiteSource": "OpenStreetMap node/10979889369 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-taip-peruvian-restaurant-kendall",
@@ -6909,7 +6914,7 @@
    "address": "18515 S DIXIE Hwy, Cutler Bay",
    "state": "FL",
    "zip": "33157",
-   "phone": null,
+   "phone": "(305) 964-5373",
    "lat": 25.5972,
    "lng": -80.3546,
    "priceText": "$$ (Facebook page)",
@@ -6932,7 +6937,8 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-24",
     "website": null
-   }
+   },
+   "phoneSource": "OpenStreetMap node/12342803178 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
    "id": "fl-zgc-equator",
@@ -6963,6 +6969,133 @@
     "fbNewestPost": "2026-10-21",
     "website": null
    }
+  },
+  {
+   "id": "fl-hots-shots-cutler-bay",
+   "name": "Hots Shots",
+   "cuisine": "Pub",
+   "address": "19331 South Dixie Highway, Cutler Bay",
+   "state": "FL",
+   "zip": "33157",
+   "phone": "(786) 581-9281",
+   "phoneSource": "OpenStreetMap node/6035708876 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 25.588166,
+   "lng": -80.359553,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Mon-Thu 1p-2a; Fri-Sat 1p-3a; Sun 1p-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/6035708876 opening_hours tag (map data 2026-10-31) (checked 2026-11-01); active on-premise license: Florida DBPR alcoholic beverage licensee extract (bd400lic.csv, downloaded 2026-11-01)",
+   "county": "Miami-Dade",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "fl-flanigans-seafood-bar-and-grill-pinecrest",
+   "name": "Flanigan's Seafood Bar and Grill",
+   "cuisine": "Restaurant",
+   "address": "11415 South Dixie Highway, Pinecrest",
+   "state": "FL",
+   "zip": "33156",
+   "phone": "(305) 378-4000",
+   "phoneSource": "OpenStreetMap node/6047565081 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 25.664291,
+   "lng": -80.323913,
+   "website": "https://flanigans.net/",
+   "websiteSource": "OpenStreetMap node/6047565081 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11a-12a; Fri-Sat 11a-1a; Sun 11a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "Sat,Sun",
+     "text": "However you want to play it, Saturdays & Sundays are a total win with Happy Hour 11 AM - 7 PM & 9 PM to close",
+     "tags": [],
+     "src": "Venue website flanigans.net",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "All Night Happy Hour",
+     "tags": [],
+     "src": "Venue website flanigans.net/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Free Curly Fries, Tumbleweed Onions or Chicken Wings with every pitcher (beer, iced tea, lemonade, or soda)",
+     "tags": [
+      "wings",
+      "beer"
+     ],
+     "src": "Venue website flanigans.net/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/6047565081 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Miami-Dade",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "fl-flanigans-miami",
+   "name": "Flanigan's",
+   "cuisine": "Seafood",
+   "address": "12790 Southwest 88th Street, Miami",
+   "state": "FL",
+   "zip": "33186",
+   "phone": "(305) 380-0521",
+   "phoneSource": "OpenStreetMap way/436037132 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 25.685501,
+   "lng": -80.402117,
+   "website": "https://www.flanigans.net/location/kendall/",
+   "websiteSource": "OpenStreetMap way/436037132 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Daily 11a-1a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "All Night Happy Hour",
+     "tags": [],
+     "src": "Venue website flanigans.net/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Free Curly Fries, Tumbleweed Onions or Chicken Wings with every pitcher (beer, iced tea, lemonade, or soda)",
+     "tags": [
+      "wings",
+      "beer"
+     ],
+     "src": "Venue website flanigans.net/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/436037132 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Miami-Dade",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "town",
