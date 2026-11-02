@@ -1,2461 +1,2586 @@
 {
-  "id": "harrisburg-pa",
-  "name": "Harrisburg, PA",
-  "timezone": "America/New_York",
-  "checked": "2026-10-31",
-  "checkedLabel": "Oct 31, 2026",
-  "type": "city",
-  "region": "south-central-pa",
-  "restaurants": [
+ "id": "harrisburg-pa",
+ "name": "Harrisburg, PA",
+ "timezone": "America/New_York",
+ "checked": "2026-10-31",
+ "checkedLabel": "Oct 31, 2026",
+ "type": "city",
+ "region": "south-central-pa",
+ "restaurants": [
+  {
+   "id": "cork-and-fork-downtown",
+   "name": "Cork & Fork Downtown",
+   "cuisine": "Italian-inspired wine bar & kitchen",
+   "address": "200 State St",
+   "phone": "(717) 234-8100",
+   "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
+   "lat": 40.26325,
+   "lng": -76.88697,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://corkandfork717.com/downtown",
+   "hours": "Mon-Thu 11:30a-10p; Fri-Sat 11:30a-11p; Sun closed",
+   "hoursNote": "Sun from Google listing via Restaurantji (updated Sep 22, 2026).",
+   "kitchen": "Mon-Thu 11:30a-9p; Fri-Sat 11:30a-10p",
+   "kitchenNote": null,
+   "happyHours": [
     {
-      "id": "cork-and-fork-downtown",
-      "name": "Cork & Fork Downtown",
-      "cuisine": "Italian-inspired wine bar & kitchen",
-      "address": "200 State St",
-      "phone": "(717) 234-8100",
-      "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
-      "lat": 40.26325,
-      "lng": -76.88697,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://corkandfork717.com/downtown",
-      "hours": "Mon-Thu 11:30a-10p; Fri-Sat 11:30a-11p; Sun closed",
-      "hoursNote": "Sun from Google listing via Restaurantji (updated Sep 22, 2026).",
-      "kitchen": "Mon-Thu 11:30a-9p; Fri-Sat 11:30a-10p",
-      "kitchenNote": null,
-      "happyHours": [
-        {
-          "days": "Mon-Fri",
-          "text": "Happy hour 4–6 pm: $10 featured pizza, $2 off cocktails & wine by the glass, $1 off beer, half-price chef small plate",
-          "tags": [
-            "beer"
-          ]
-        }
-      ],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Date night",
-        "Bar scene"
-      ],
-      "source": "Venue site; Restaurantji (Google-sourced listing, updated Sep 22, 2026) (checked 2026-11-01)",
-      "county": "Dauphin",
-      "crowdType": {
-        "labels": [
-          "Locals & regulars",
-          "Date night / upscale"
-        ],
-        "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
-        "confidence": "medium",
-        "details": [
-          {
-            "label": "Locals & regulars",
-            "confidence": "medium",
-            "evidence": [
-              {
-                "type": "reviews",
-                "src": "Restaurantji review summary (from Google reviews), updated 2026-09-22",
-                "url": "https://www.restaurantji.com/pa/harrisburg/cork-and-fork-/",
-                "quote": "her for a special occasion or a casual night out, Cork & Fork remains a favorite for both locals and visitors.",
-                "agg": true
-              }
-            ]
-          },
-          {
-            "label": "Date night / upscale",
-            "confidence": "medium",
-            "evidence": [
-              {
-                "type": "reviews",
-                "src": "Restaurantji review summary (from Google reviews), updated 2026-09-22",
-                "url": "https://www.restaurantji.com/pa/harrisburg/cork-and-fork-/",
-                "quote": "& Fork in Harrisburg, PA, is a hidden gem offering a sophisticated dining experience. The upscale yet inviting atmosphere creates a warm setting for a memorable meal. The menu features a",
-                "agg": true
-              }
-            ]
-          }
-        ]
-      },
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": "https://www.restaurantji.com/pa/harrisburg/cork-and-fork-/",
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://corkandfork717.com/downtown"
-      },
-      "menu": "https://corkandfork717.com/downtown/"
-    },
-    {
-      "id": "carley-s-ristorante-and-piano-bar",
-      "name": "Carley's Ristorante & Piano Bar",
-      "cuisine": "Italian & piano bar",
-      "address": "204 Locust St",
-      "phone": "(717) 909-9191",
-      "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
-      "lat": 40.26128,
-      "lng": -76.8837,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://carleysristorante.com/",
-      "hours": "Mon closed; Tue-Thu 5p-9p; Fri-Sat 5p-10p; Sun closed",
-      "hoursNote": "Sun/Mon/Tue from Google listing via Restaurantji (updated Oct 13, 2026).",
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [
-        {
-          "days": "Tue-Fri",
-          "text": "Happy hour 5–7 pm at the bar: half-price apps, pizzas & bar menu; $2 select domestic drafts",
-          "tags": [
-            "beer"
-          ]
-        }
-      ],
-      "specials": [
-        {
-          "days": "Wed",
-          "text": "Wine Down Wednesday: half-price glasses of wine 5–7 pm"
-        }
-      ],
-      "crowd": null,
-      "vibes": [
-        "Date night",
-        "Live music & events"
-      ],
-      "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 13, 2026) (checked 2026-11-01)",
-      "county": "Dauphin",
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": "https://www.restaurantji.com/pa/harrisburg/carleys-ristorante-/",
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://carleysristorante.com/"
-      },
-      "menu": "https://carleysristorante.com/menu"
-    },
-    {
-      "id": "greystone-public-house",
-      "name": "Greystone Public House",
-      "cuisine": "Gastropub",
-      "address": "2120 Colonial Rd",
-      "phone": "(717) 829-9952",
-      "phoneSource": "Official site greystonepa.com, checked 2026-11-01",
-      "lat": 40.3347,
-      "lng": -76.82592,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://greystonepa.com/",
-      "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 10a-3p",
-      "hoursNote": "Bar hours shown; Sunday is brunch.",
-      "kitchen": "Mon-Sat 11a-9p; Sun 10a-3p",
-      "kitchenNote": null,
-      "happyHours": [
-        {
-          "days": "Mon-Fri",
-          "text": "Happy hour 4–6 pm: $2 off drafts, cocktails, wine & pizzas; oysters $12 per half dozen",
-          "tags": [
-            "beer"
-          ]
-        }
-      ],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Date night",
-        "Live music & events"
-      ],
-      "source": "Venue site",
-      "county": "Dauphin",
-      "crowdType": {
-        "labels": [
-          "Locals & regulars",
-          "Date night / upscale"
-        ],
-        "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
-        "confidence": "medium",
-        "details": [
-          {
-            "label": "Locals & regulars",
-            "confidence": "medium",
-            "evidence": [
-              {
-                "type": "venue",
-                "src": "venue's website",
-                "url": "https://greystonepa.com/",
-                "quote": "akes every occasion feel comfortable yet refined. | Lunch & Dinner: | A thoughtful mix of local favorites and chef-inspired dishes. | Happy Hour: | Craft cocktails, local beers, and small bites,",
-                "self": true
-              }
-            ]
-          },
-          {
-            "label": "Date night / upscale",
-            "confidence": "medium",
-            "evidence": [
-              {
-                "type": "venue",
-                "src": "venue's website",
-                "url": "https://greystonepa.com/",
-                "quote": "o provide the freshest and highest quality products and prepares the food in a casual but upscale environment. | 2120 Colonial Road Harrisburg, PA 17112 | 717.829.9952 contact@greystonepa",
-                "self": true
-              }
-            ]
-          }
-        ]
-      },
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": "https://www.restaurantji.com/pa/harrisburg/greystone-public-house-/",
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://greystonepa.com/"
-      },
-      "menu": "https://greystonepa.com/main-menu/"
-    },
-    {
-      "id": "the-sturges-speakeasy",
-      "name": "The Sturges Speakeasy",
-      "cuisine": "Pub with rooftop deck",
-      "address": "400 Forster St",
-      "phone": "(717) 412-0931",
-      "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
-      "lat": 40.26693,
-      "lng": -76.88553,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://sturgesspeakeasy.com/",
-      "hours": "Mon-Fri 11a-2a; Sat-Sun 10a-2a",
-      "hoursNote": "Sunday brunch 10 am–2 pm.",
-      "kitchen": "Mon-Fri 11a-11p; Sat-Sun 10a-11p",
-      "kitchenNote": "Regular menu until 11 pm; select appetizers until 2 am every day.",
-      "happyHours": [
-        {
-          "days": "Mon-Fri",
-          "text": "Happy hour 4–6 pm: $2 off drafts; $1 off bottles, wine & liquor; $2 off select apps",
-          "tags": [
-            "beer"
-          ]
-        }
-      ],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Bar scene",
-        "Rooftop"
-      ],
-      "source": "Venue site",
-      "county": "Dauphin",
-      "crowdType": {
-        "labels": [
-          "Locals & regulars",
-          "Live music fans"
-        ],
-        "summary": "A locals-and-regulars spot; known for live music.",
-        "confidence": "medium",
-        "details": [
-          {
-            "label": "Locals & regulars",
-            "confidence": "medium",
-            "evidence": [
-              {
-                "type": "reviews",
-                "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
-                "url": "https://www.restaurantji.com/pa/harrisburg/the-sturges-speakeasy-/",
-                "quote": "nal seasoning. The restaurant has a neighborly ambiance, making it an ideal spot for both locals and visitors. Visitors often enjoy the lively bar with live music and a fun crowd, along",
-                "agg": true
-              }
-            ]
-          },
-          {
-            "label": "Live music fans",
-            "confidence": "medium",
-            "evidence": [
-              {
-                "type": "reviews",
-                "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
-                "url": "https://www.restaurantji.com/pa/harrisburg/the-sturges-speakeasy-/",
-                "quote": "g it an ideal spot for both locals and visitors. Visitors often enjoy the lively bar with live music and a fun crowd, along with attentive and engaging bartenders. The food menu features pop",
-                "agg": true
-              }
-            ]
-          }
-        ]
-      },
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": "https://www.restaurantji.com/pa/harrisburg/the-sturges-speakeasy-/",
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://sturgesspeakeasy.com/"
-      },
-      "menu": "https://sturgesspeakeasy.com/menu/"
-    },
-    {
-      "id": "stock-s-on-2nd",
-      "name": "Stock's on 2nd",
-      "cuisine": "Gastropub",
-      "address": "211 N 2nd St",
-      "phone": "(717) 233-6699",
-      "phoneSource": "Official site stocksonsecond.com, checked 2026-11-01",
-      "lat": 40.26134,
-      "lng": -76.88416,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://stocksonsecond.com/",
-      "hours": "Mon-Thu 11:30a-9p; Fri 11:30a-10p; Sat 5p-10p; Sun closed",
-      "hoursNote": "The venue site lists close times as “?”.; Sun from Google listing via Restaurantji (updated Oct 7, 2026).",
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [
-        {
-          "days": "Mon-Fri",
-          "text": "Happy hour 5–7 pm: $5 small plates, $1 off drafts, $5 house wine (explorehbg lists Tue–Fri)",
-          "tags": [
-            "beer"
-          ]
-        }
-      ],
-      "specials": [
-        {
-          "days": "Wed",
-          "text": "Whiskey Business: half-price whiskeys & bourbons 5–7 pm"
-        }
-      ],
-      "crowd": null,
-      "vibes": [
-        "Date night",
-        "Bar scene"
-      ],
-      "source": "exa.ai places listing; happy hour from venue site and explorehbg.com happy-hour guide (Jul 28, 2026); Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
-      "county": "Dauphin",
-      "crowdType": {
-        "labels": [
-          "Date night / upscale"
-        ],
-        "summary": "A date-night / upscale spot.",
-        "confidence": "medium",
-        "details": [
-          {
-            "label": "Date night / upscale",
-            "confidence": "medium",
-            "evidence": [
-              {
-                "type": "reviews",
-                "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
-                "url": "https://www.restaurantji.com/pa/harrisburg/stocks-on-2nd-/",
-                "quote": "ise from customers. The outdoor back patio adds extra space for large groups or a relaxed date night. Customers have enjoyed the great drinks, including the fantastic espresso martini, and t",
-                "agg": true
-              }
-            ]
-          }
-        ]
-      },
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": "https://www.restaurantji.com/pa/harrisburg/stocks-on-2nd-/",
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://stocksonsecond.com/"
-      },
-      "menu": "https://www.stocksonsecond.com/lunch-menu/"
-    },
-    {
-      "id": "high-dive",
-      "name": "High Dive",
-      "cuisine": "Tiki cocktail lounge",
-      "address": "1400 N 3rd St",
-      "phone": "(717) 220-7970",
-      "phoneSource": "Official site highdive717.com, checked 2026-11-01",
-      "lat": 40.27071,
-      "lng": -76.88979,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://highdive717.com/",
-      "hours": "Mon-Thu 4p-11p; Fri-Sat 4p-12a; Sun closed",
-      "hoursNote": null,
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [
-        {
-          "days": "Mon-Thu",
-          "text": "Happy hour 4–6 pm: five cocktails $5 each"
-        }
-      ],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Bar scene",
-        "Date night"
-      ],
-      "source": "Search synthesis of venue site; explorehbg.com happy-hour guide (Jul 28, 2026)",
-      "county": "Dauphin",
-      "crowdType": {
-        "labels": [
-          "Dive bar"
-        ],
-        "summary": "No-frills dive-bar feel.",
-        "confidence": "medium",
-        "details": [
-          {
-            "label": "Dive bar",
-            "confidence": "medium",
-            "evidence": [
-              {
-                "type": "reviews",
-                "src": "Restaurantji review summary (from Google reviews), updated 2026-09-09",
-                "url": "https://www.restaurantji.com/pa/harrisburg/high-dive-/",
-                "quote": "High Dive is a fantastic bar in the midtown area of Harrisburg and is considered a favorite. It is",
-                "agg": true
-              }
-            ]
-          }
-        ]
-      },
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": "https://www.restaurantji.com/pa/harrisburg/high-dive-/",
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://highdive717.com/"
-      }
-    },
-    {
-      "id": "madame-rochele-s-apothecary",
-      "name": "Madame Rochéle's Apothecary",
-      "cuisine": "Cocktail bar",
-      "address": "200 N 2nd St",
-      "lat": 40.26095,
-      "lng": -76.88414,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://www.apothecaryhbg.com/",
-      "hours": "Mon-Tue closed; Wed 4p-12a; Thu-Fri 2p-12a; Sat 11a-12a; Sun 11a-7p",
-      "hoursNote": "Generally 21+. Weekend high tea 11 am–4 pm ($55, reservations encouraged).",
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [
-        {
-          "days": "Wed-Fri",
-          "text": "Happy hour 5–7 pm: half-price tinctures, tonics, potions & elixirs"
-        }
-      ],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Bar scene",
-        "Date night"
-      ],
-      "source": "Venue site; Toast ordering page (toast.app) (checked 2026-11-01)",
-      "county": "Dauphin",
-      "phone": "(717) 232-4499",
-      "phoneSource": "Toast ordering page (toast.app), checked 2026-11-01",
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": null,
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://www.apothecaryhbg.com/"
-      },
-      "menu": "https://www.apothecaryhbg.com/menu"
-    },
-    {
-      "id": "the-millworks",
-      "name": "The Millworks",
-      "cuisine": "Restaurant, biergarten & art studios",
-      "address": "340 Verbeke St",
-      "phone": "(717) 695-4888",
-      "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
-      "lat": 40.27049,
-      "lng": -76.8875,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://millworksharrisburg.com/",
-      "hours": "Mon closed; Tue-Thu 4p-10p; Fri-Sat 11:30a-10p; Sun 10a-3p,5p-9p",
-      "hoursNote": null,
-      "kitchen": "Tue-Thu 4p-9p; Fri-Sat 11:30a-9p; Sun 10a-3p,5p-8:30p",
-      "kitchenNote": null,
-      "happyHours": [
-        {
-          "days": "Tue-Fri",
-          "text": "Happy hour 4–5:30 pm: $2 off drafts, 50% off select small plates"
-        }
-      ],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Rooftop",
-        "Date night"
-      ],
-      "source": "Venue site; happy hour from explorehbg.com happy-hour guide (Jul 28, 2026)",
-      "county": "Dauphin",
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": "https://www.restaurantji.com/pa/harrisburg/millworks-/",
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://millworksharrisburg.com/"
-      },
-      "menu": "https://millworksharrisburg.com/menu/",
-      "trivia": {
-        "nights": [
-          {
-            "day": "Tue",
-            "cadence": "weekly",
-            "start": "6 pm",
-            "confidence": "high",
-            "lastSeen": "2026-11-02",
-            "datedLastSeen": "2026-11-02",
-            "note": "Cheaters Never Prosper Trivia",
-            "sources": [
-              {
-                "src": "cnptrivia.com weekly schedule",
-                "url": "https://cnptrivia.com/weekly-schedule/",
-                "date": "2026-11-02",
-                "quote": "The Millworks at 6pm"
-              }
-            ],
-            "basis": "vendor schedule (CNP Trivia)",
-            "vendor": "Cheaters Never Prosper Trivia"
-          }
-        ],
-        "stale": [],
-        "hints": [],
-        "conflicts": [],
-        "oneoffs": []
-      }
-    },
-    {
-      "id": "mcgrath-s-pub",
-      "name": "McGrath's Pub",
-      "cuisine": "Irish pub",
-      "address": "202 Locust St",
-      "phone": "(717) 232-9914",
-      "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
-      "lat": 40.26122,
-      "lng": -76.88377,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://mcgraths-pub.weeblyte.com/",
-      "hours": "Mon-Fri 11:30a-2a; Sat 12p-2a; Sun 11:30a-2a",
-      "hoursNote": "Sunday 11:30 am–2 am per Yelp (claimed), Apple Maps and NetWaiter; Visit Harrisburg lists only Mon–Sat.",
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [
-        {
-          "days": "Mon-Fri",
-          "text": "Happy hour 4–6 pm: $1 off liquor & bottled beer, $2 Miller Lite & Yuengling drafts, $4 cask beer",
-          "tags": [
-            "beer"
-          ]
-        }
-      ],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Bar scene"
-      ],
-      "source": "exa.ai places listing; explorehbg listing; Yelp (claimed listing), Apple Maps, NetWaiter (checked 2026-11-01)",
-      "county": "Dauphin",
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": null,
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://mcgraths-pub.weeblyte.com/"
-      },
-      "websiteSource": "OpenStreetMap node/282028709 website tag (map data 2026-10-31), checked 2026-11-01",
-      "crowdType": {
-        "labels": [
-          "College crowd",
-          "Locals & regulars",
-          "LGBTQ-friendly"
-        ],
-        "summary": "Popular with college students; a locals-and-regulars spot; LGBTQ-friendly.",
-        "confidence": "medium",
-        "details": [
-          {
-            "label": "College crowd",
-            "confidence": "medium",
-            "evidence": [
-              {
-                "type": "venue",
-                "src": "venue's website",
-                "url": "https://mcgraths-pub.weeblyte.com/",
-                "quote": "h’s Pub is widely appreciated as a gathering place for a diverse mix of guests, including college students, families, tourists, and local regulars. Group outings, solo visits, and casual meetups a",
-                "self": true
-              }
-            ]
-          },
-          {
-            "label": "Locals & regulars",
-            "confidence": "medium",
-            "evidence": [
-              {
-                "type": "venue",
-                "src": "venue's website",
-                "url": "https://mcgraths-pub.weeblyte.com/",
-                "quote": "ce for a diverse mix of guests, including college students, families, tourists, and local regulars. Group outings, solo visits, and casual meetups are all comfortably supported. Sporting e",
-                "self": true
-              }
-            ]
-          },
-          {
-            "label": "LGBTQ-friendly",
-            "confidence": "medium",
-            "evidence": [
-              {
-                "type": "venue",
-                "src": "venue's website",
-                "url": "https://mcgraths-pub.weeblyte.com/",
-                "quote": "and live entertainment further contribute to the energetic yet inclusive environment. An LGBTQ+ friendly setting reinforces the pub’s reputation as a welcoming space for all. | Reservat",
-                "self": true
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "jb-lovedraft-s-micro-pub",
-      "name": "JB Lovedraft's Micro Pub",
-      "cuisine": "Micro pub",
-      "address": "225 N 2nd St",
-      "lat": 40.26158,
-      "lng": -76.88465,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://jblovedrafts.com/",
-      "hours": "Sun-Fri 2p-2a; Sat 1p-2a",
-      "hoursNote": null,
-      "kitchen": "Mon-Tue 5p-12a; Wed-Sun 2p-12a",
-      "kitchenNote": null,
-      "happyHours": [
-        {
-          "days": "Daily",
-          "text": "Late-night happy hour 10 pm–12 am"
-        }
-      ],
-      "specials": [
-        {
-          "days": "Daily",
-          "text": "Free karaoke from 9 pm"
-        },
-        {
-          "days": "Thu",
-          "text": "Trivia 7–9 pm"
-        }
-      ],
-      "crowd": null,
-      "vibes": [
-        "Bar scene",
-        "Live music & events"
-      ],
-      "source": "Venue site; explorehbg.com happy-hour guide (Jul 28, 2026); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
-      "county": "Dauphin",
-      "phone": "(717) 238-2009",
-      "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
-      "crowdType": {
-        "labels": [
-          "Locals & regulars"
-        ],
-        "summary": "A locals-and-regulars spot.",
-        "confidence": "medium",
-        "details": [
-          {
-            "label": "Locals & regulars",
-            "confidence": "medium",
-            "evidence": [
-              {
-                "type": "reviews",
-                "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
-                "url": "https://www.restaurantji.com/pa/harrisburg/jb-lovedrafts-micropub-/",
-                "quote": "atio. This place is known for its amazing food, great happy hour, and welcoming staff and regulars.",
-                "agg": true
-              }
-            ]
-          }
-        ]
-      },
-      "karaoke": {
-        "nights": [
-          {
-            "day": "Mon",
-            "cadence": "weekly",
-            "start": "9 pm–1 am",
-            "confidence": "medium",
-            "lastSeen": "2026-11-01",
-            "datedLastSeen": null,
-            "postsSeen": 1,
-            "sources": [
-              {
-                "src": "venue website (undated page)",
-                "url": "https://jblovedrafts.com/",
-                "date": "2026-11-01",
-                "quote": "KARAOKE & THEMED EVENTS | Weekly karaoke Sun – Sat, 9pm to 1am. (another section of the same page says \"karaoke Monday through Saturday\")"
-              }
-            ],
-            "note": "Venue page says nightly (another section says Mon–Sat); FindKaraoke (Oct 2026) lists only Tue & Thu. Possible conflict, so confirm before showing the Sun/Mon/Wed/Fri/Sat chips",
-            "basis": "manual review of source",
-            "manual": true
-          },
-          {
-            "day": "Wed",
-            "cadence": "weekly",
-            "start": "9 pm–1 am",
-            "confidence": "medium",
-            "lastSeen": "2026-11-01",
-            "datedLastSeen": null,
-            "postsSeen": 1,
-            "sources": [
-              {
-                "src": "venue website (undated page)",
-                "url": "https://jblovedrafts.com/",
-                "date": "2026-11-01",
-                "quote": "KARAOKE & THEMED EVENTS | Weekly karaoke Sun – Sat, 9pm to 1am. (another section of the same page says \"karaoke Monday through Saturday\")"
-              }
-            ],
-            "note": "Venue page says nightly (another section says Mon–Sat); FindKaraoke (Oct 2026) lists only Tue & Thu. Possible conflict, so confirm before showing the Sun/Mon/Wed/Fri/Sat chips",
-            "basis": "manual review of source",
-            "manual": true
-          },
-          {
-            "day": "Fri",
-            "cadence": "weekly",
-            "start": "9 pm–1 am",
-            "confidence": "medium",
-            "lastSeen": "2026-11-01",
-            "datedLastSeen": null,
-            "postsSeen": 1,
-            "sources": [
-              {
-                "src": "venue website (undated page)",
-                "url": "https://jblovedrafts.com/",
-                "date": "2026-11-01",
-                "quote": "KARAOKE & THEMED EVENTS | Weekly karaoke Sun – Sat, 9pm to 1am. (another section of the same page says \"karaoke Monday through Saturday\")"
-              }
-            ],
-            "note": "Venue page says nightly (another section says Mon–Sat); FindKaraoke (Oct 2026) lists only Tue & Thu. Possible conflict, so confirm before showing the Sun/Mon/Wed/Fri/Sat chips",
-            "basis": "manual review of source",
-            "manual": true
-          },
-          {
-            "day": "Sat",
-            "cadence": "weekly",
-            "start": "9 pm–1 am",
-            "confidence": "medium",
-            "lastSeen": "2026-11-01",
-            "datedLastSeen": null,
-            "postsSeen": 1,
-            "sources": [
-              {
-                "src": "venue website (undated page)",
-                "url": "https://jblovedrafts.com/",
-                "date": "2026-11-01",
-                "quote": "KARAOKE & THEMED EVENTS | Weekly karaoke Sun – Sat, 9pm to 1am. (another section of the same page says \"karaoke Monday through Saturday\")"
-              }
-            ],
-            "note": "Venue page says nightly (another section says Mon–Sat); FindKaraoke (Oct 2026) lists only Tue & Thu. Possible conflict, so confirm before showing the Sun/Mon/Wed/Fri/Sat chips",
-            "basis": "manual review of source",
-            "manual": true
-          },
-          {
-            "day": "Sun",
-            "cadence": "weekly",
-            "start": "9 pm–1 am",
-            "confidence": "medium",
-            "lastSeen": "2026-11-01",
-            "datedLastSeen": null,
-            "postsSeen": 1,
-            "sources": [
-              {
-                "src": "venue website (undated page)",
-                "url": "https://jblovedrafts.com/",
-                "date": "2026-11-01",
-                "quote": "KARAOKE & THEMED EVENTS | Weekly karaoke Sun – Sat, 9pm to 1am. (another section of the same page says \"karaoke Monday through Saturday\")"
-              }
-            ],
-            "note": "Venue page says nightly (another section says Mon–Sat); FindKaraoke (Oct 2026) lists only Tue & Thu. Possible conflict, so confirm before showing the Sun/Mon/Wed/Fri/Sat chips",
-            "basis": "manual review of source",
-            "manual": true
-          }
-        ],
-        "hints": [
-          "Restaurantji review/summary mentions karaoke"
-        ],
-        "stale": false,
-        "oneoffs": [],
-        "conflicts": [],
-        "reviewNote": "Targeted web search, manual read"
-      },
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": "https://www.restaurantji.com/pa/harrisburg/jb-lovedrafts-micropub-/",
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://jblovedrafts.com/"
-      }
-    },
-    {
-      "id": "mad-moose-tavern",
-      "name": "Mad Moose Tavern",
-      "cuisine": "Neighborhood bar & grill",
-      "address": "1101 N 2nd St",
-      "lat": 40.26697,
-      "lng": -76.89027,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "http://madmoosetavern.com/",
-      "hours": "Mon-Sat 11:30a-2a; Sun 10a-2a",
-      "hoursNote": "Sunday brunch 10 am–2 pm.",
-      "kitchen": "Daily 11:30a-1a",
-      "kitchenNote": "Sunday brunch from 10 am.",
-      "happyHours": [],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Bar scene"
-      ],
-      "source": "Venue site (via search)",
-      "county": "Dauphin",
-      "phone": "(717) 514-8224",
-      "phoneSource": "Search-result listings agree: Tripadvisor, chamberofcommerce.com, explorehbg.com, checked 2026-11-01",
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": null,
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": null
-      }
-    },
-    {
-      "id": "men-in-the-kitchen",
-      "name": "Men In The Kitchen",
-      "cuisine": "Soul food",
-      "address": "606 N 2nd St",
-      "lat": 40.26363,
-      "lng": -76.88781,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://meninthekitchenhbg.com/",
-      "hours": "Mon closed; Tue-Thu 11:30a-10p; Fri-Sat 12p-12a; Sun 12p-8p",
-      "hoursNote": "Monday closed (Google listing via Restaurantji; venue site lists Tue–Sun only).",
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [],
-      "specials": [],
-      "crowd": null,
-      "vibes": [],
-      "source": "Venue site; Restaurantji (Google-sourced listing); venue site meninthekitchenhbg.com (checked 2026-11-01)",
-      "county": "Dauphin",
-      "phone": "(717) 982-5850",
-      "phoneSource": "Venue site meninthekitchenhbg.com (Book a Table page), checked 2026-11-01",
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": null,
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://meninthekitchenhbg.com/"
-      }
-    },
-    {
-      "id": "bourbon-street-saloon",
-      "name": "Bourbon Street Saloon",
-      "cuisine": "Bar (three bars, pong, pool)",
-      "address": "37 N 2nd St",
-      "lat": 40.26052,
-      "lng": -76.88301,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://bourbonstreetsaloon.com/",
-      "hours": "Mon-Sat 4p-2a; Sun closed",
-      "hoursNote": "Sun from Google listing via Restaurantji (updated Oct 20, 2026).",
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Bar scene",
-        "Sports & games"
-      ],
-      "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
-      "county": "Dauphin",
-      "phone": "(717) 333-4324",
-      "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
-      "crowdType": {
-        "labels": [
-          "Dance / club crowd"
-        ],
-        "summary": "A dancing / club crowd late.",
-        "confidence": "medium",
-        "details": [
-          {
-            "label": "Dance / club crowd",
-            "confidence": "medium",
-            "evidence": [
-              {
-                "type": "reviews",
-                "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
-                "url": "https://www.restaurantji.com/pa/harrisburg/bourbon-street-saloon-/",
-                "quote": "un. Recent renovations in the back section have added amenities like pong, pool, darts, a dance floor, and a DJ, making it a great place for a night out. Smoking is allowed, and the environme",
-                "agg": true
-              }
-            ]
-          }
-        ]
-      },
-      "dj": {
-        "nights": [],
-        "hints": [
-          "Restaurantji review/summary mentions dj"
-        ],
-        "stale": false,
-        "oneoffs": [],
-        "conflicts": []
-      },
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": "https://www.restaurantji.com/pa/harrisburg/bourbon-street-saloon-/",
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://bourbonstreetsaloon.com/"
-      }
-    },
-    {
-      "id": "zembie-s-sports-tavern",
-      "name": "Zembie's Sports Tavern",
-      "cuisine": "Sports tavern",
-      "address": "226 N 2nd St",
-      "phone": "(717) 232-5020",
-      "phoneSource": "Official site zembies.net, checked 2026-11-01",
-      "lat": 40.26147,
-      "lng": -76.88489,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://www.zembies.net/",
-      "hours": "Mon-Fri 11:30a-12a; Sat-Sun 12p-12a",
-      "hoursNote": "Site lists bar hours Mon–Fri 12 pm–12 am, Sat–Sun 1 pm–12 am; kitchen opens earlier.",
-      "kitchen": "Mon-Thu 11:30a-11p; Fri 11:30a-12a; Sat 12p-12a; Sun 12p-10p",
-      "kitchenNote": "Dine-in specials end 11 pm.",
-      "happyHours": [
-        {
-          "days": "Mon-Fri",
-          "text": "Happy hour 5–7 pm"
-        },
-        {
-          "days": "Sun",
-          "text": "Happy hour 8–10 pm"
-        }
-      ],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Sports & games",
-        "Bar scene"
-      ],
-      "source": "Venue site",
-      "county": "Dauphin",
-      "crowdType": {
-        "labels": [
-          "Sports fans"
-        ],
-        "summary": "Popular for watching games.",
-        "confidence": "medium",
-        "details": [
-          {
-            "label": "Sports fans",
-            "confidence": "medium",
-            "evidence": [
-              {
-                "type": "venue",
-                "src": "venue's website",
-                "url": "https://www.zembies.net/",
-                "quote": "s, and affordable daily food & drink specials, Zembie's is Harrisburg's original and best sports bar. | Scroll Down to Content | Slide 1 of 6 | Slide 2 of 6 | Slide 3 of 6 | Slide 4 of 6 | S",
-                "self": true
-              }
-            ]
-          }
-        ]
-      },
-      "karaoke": {
-        "nights": [],
-        "stale": [],
-        "hints": [],
-        "conflicts": [],
-        "oneoffs": [
-          {
-            "date": "2026-11-01",
-            "quote": "Karaoke",
-            "url": "https://www.zembies.net/"
-          }
-        ]
-      },
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": null,
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://www.zembies.net/"
-      },
-      "menu": "https://www.zembies.net/menu/"
-    },
-    {
-      "id": "sammy-s-italian-restaurant",
-      "name": "Sammy's Italian Restaurant",
-      "cuisine": "Italian (BYOB)",
-      "address": "502 N 3rd St",
-      "phone": "(717) 221-0192",
-      "phoneSource": "Official site sammysitalianrestaurant.com, checked 2026-11-01",
-      "lat": 40.2642,
-      "lng": -76.88525,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://sammysitalianrestaurant.com/",
-      "hours": "Mon-Thu 11:30a-9p; Fri 11:30a-10p; Sat 4p-10p; Sun closed",
-      "hoursNote": null,
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Date night",
-        "Family-friendly"
-      ],
-      "source": "Venue site",
-      "county": "Dauphin",
-      "crowdType": {
-        "labels": [
-          "Locals & regulars"
-        ],
-        "summary": "A locals-and-regulars spot.",
-        "confidence": "medium",
-        "details": [
-          {
-            "label": "Locals & regulars",
-            "confidence": "medium",
-            "evidence": [
-              {
-                "type": "venue",
-                "src": "venue's website",
-                "url": "https://sammysitalianrestaurant.com/",
-                "quote": "ted salmon, plated at the range. | Ask for them by name. | The plates this room built its regulars on. Two of them carry the family's own names. | Chicken alla Vic | 34.95 | Sautéed with s",
-                "self": true
-              }
-            ]
-          }
-        ]
-      },
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": "https://www.restaurantji.com/pa/harrisburg/sammys-authentic-italian-restaurant-/",
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://sammysitalianrestaurant.com/"
-      },
-      "menu": "https://sammysitalianrestaurant.com/dinner/"
-    },
-    {
-      "id": "lancaster-brewing-co-harrisburg",
-      "name": "Lancaster Brewing Co. – Harrisburg",
-      "cuisine": "Brewpub",
-      "address": "469 Eisenhower Blvd",
-      "lat": 40.25018,
-      "lng": -76.81355,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://lancasterbrewing.com/dine/harrisburg",
-      "hours": "Mon-Thu 4p-10p; Fri-Sat 12p-11p; Sun 12p-8p",
-      "hoursNote": null,
-      "kitchen": "Mon-Thu 4p-9p; Fri-Sat 12p-10p; Sun 12p-8p",
-      "kitchenNote": null,
-      "happyHours": [
-        {
-          "days": "Mon-Fri",
-          "text": "Happy hour 5–7 pm: $1 off drafts (taproom)",
-          "tags": [
-            "beer"
-          ]
-        }
-      ],
-      "specials": [
-        {
-          "days": "Mon",
-          "text": "$8.99 burger"
-        },
-        {
-          "days": "Tue",
-          "text": "$9.99 meatball grinder"
-        },
-        {
-          "days": "Wed",
-          "text": "$8.99 wings (10 jumbo) with bleu cheese & celery",
-          "tags": [
-            "wings"
-          ],
-          "src": "lancasterbrewing.com Harrisburg page",
-          "checked": "Oct 31, 2026"
-        },
-        {
-          "days": "Thu",
-          "text": "$8.99 thin-crust pizza"
-        },
-        {
-          "days": "Fri",
-          "text": "$4.99 pretzel braid"
-        },
-        {
-          "days": "Sun",
-          "text": "$8.99 wings (10 jumbo) with bleu cheese & celery",
-          "tags": [
-            "wings"
-          ],
-          "src": "lancasterbrewing.com Harrisburg page",
-          "checked": "Oct 31, 2026"
-        }
-      ],
-      "crowd": null,
-      "vibes": [
-        "Family-friendly",
-        "Bar scene"
-      ],
-      "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
-      "county": "Dauphin",
-      "phone": "(717) 564-4448",
-      "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": "https://www.restaurantji.com/pa/harrisburg/lancaster-brewing-company-/",
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://lancasterbrewing.com/dine/harrisburg"
-      },
-      "menu": "https://www.lancasterbrewing.com/dine/lbc-harrisburg/"
-    },
-    {
-      "id": "boneshire-brew-works",
-      "name": "Boneshire Brew Works",
-      "cuisine": "Brewery & kitchen",
-      "address": "7462 Derry St",
-      "phone": "(717) 412-7814",
-      "phoneSource": "Official site boneshire.com, checked 2026-11-01",
-      "lat": 40.26602,
-      "lng": -76.75875,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://boneshire.com/",
-      "hours": "Mon closed; Tue-Thu 4p-10p; Fri-Sat 12p-10p; Sun 12p-8p",
-      "hoursNote": null,
-      "kitchen": "Tue-Thu 4p-8p; Fri-Sun 12p-8p",
-      "kitchenNote": null,
-      "happyHours": [],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Bar scene"
-      ],
-      "source": "Venue site",
-      "county": "Dauphin",
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": null,
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://boneshire.com/"
-      },
-      "menu": "https://www.boneshire.com/on-tap-2/"
-    },
-    {
-      "id": "boneshire-taps-soma",
-      "name": "Boneshire Taps @ SOMA",
-      "cuisine": "Taproom",
-      "address": "13 S 3rd St",
-      "lat": 40.26064,
-      "lng": -76.88016,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://boneshire.com/",
-      "hours": "Mon-Tue closed; Wed-Sat 4p-10p; Sun closed",
-      "hoursNote": "Sun–Tue closed (Google listing via Restaurantji and Sirved).",
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Bar scene"
-      ],
-      "source": "Venue site; Restaurantji (Google-sourced listing), Sirved (checked 2026-11-01)",
-      "county": "Dauphin",
-      "phone": "(717) 412-7814",
-      "phoneSource": "Restaurantji (Google-sourced listing) and Sirved, checked 2026-11-01",
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": null,
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://boneshire.com/"
-      },
-      "menu": "https://www.boneshire.com/on-tap-2/"
-    },
-    {
-      "id": "ihop",
-      "name": "IHOP",
-      "cuisine": "Pancake house (chain)",
-      "address": "4002 Union Deposit Rd",
-      "lat": 40.27854,
-      "lng": -76.82339,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://restaurants.ihop.com/en-us/pa/harrisburg/breakfast-4002-union-deposit-rd-3407",
-      "hours": "Daily 24h",
-      "hoursNote": null,
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Family-friendly"
-      ],
-      "source": "Chain locator; Restaurantji (Google-sourced listing, updated Oct 2, 2026) (checked 2026-11-01)",
-      "county": "Dauphin",
-      "phone": "(717) 346-1995",
-      "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 2, 2026), checked 2026-11-01",
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": "https://www.restaurantji.com/pa/harrisburg/ihop-/",
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://restaurants.ihop.com/en-us/pa/harrisburg/breakfast-4002-union-deposit-rd-3407"
-      },
-      "menu": "https://www.ihop.com/en/menu"
-    },
-    {
-      "id": "rubicon",
-      "name": "Rubicon",
-      "cuisine": "Wine bar & small plates",
-      "address": "270 North St",
-      "phone": "(717) 317-9027",
-      "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
-      "lat": 40.26492,
-      "lng": -76.88611,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://www.rubiconhbg.com/",
-      "hours": "Tue-Sat 5p-9p; Sun-Mon closed",
-      "hoursNote": "Happy hour: $8 curated wines, $10 sparkling (times not listed).",
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [
-        {
-          "days": "See venue",
-          "text": "Happy hour: $8 glass of red or white wine",
-          "src": "Rubicon Facebook post Oct 16, 2026 (via bars10)",
-          "checked": "2026-11-01",
-          "flag": "Days/times not stated"
-        }
-      ],
-      "specials": [
-        {
-          "days": "Tue-Sat",
-          "text": "$1.50 oysters at the bar"
-        }
-      ],
-      "crowd": null,
-      "vibes": [
-        "Date night"
-      ],
-      "source": "Search synthesis of venue site; deals from venue site; Rubicon Facebook post Oct 16, 2026 (via bars10) (checked 2026-11-01)",
-      "county": "Dauphin",
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": "https://www.restaurantji.com/pa/harrisburg/rubicon-/",
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://www.rubiconhbg.com/"
-      },
-      "menu": "https://www.rubiconhbg.com/menus"
-    },
-    {
-      "id": "bodega-food-co",
-      "name": "Bodega Food Co.",
-      "cuisine": "Latin street food",
-      "address": "1100 N 3rd St",
-      "lat": 40.26802,
-      "lng": -76.88781,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://bodegafood.co/",
-      "hours": "Mon-Thu 11a-9p; Fri 11a-12a; Sat 12p-12a; Sun 12p-8p",
-      "hoursNote": null,
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [
-        {
-          "days": "Mon-Fri",
-          "text": "Happy hour 2–4 pm (2x rewards points)",
-          "src": "Venue site bodegafood.co",
-          "checked": "2026-11-01",
-          "flag": "Mentioned in loyalty-program text; specials not listed."
-        }
-      ],
-      "specials": [],
-      "crowd": null,
-      "vibes": [],
-      "source": "Venue site; Venue site bodegafood.co (checked 2026-11-01)",
-      "county": "Dauphin",
-      "phone": "(717) 724-9600",
-      "phoneSource": "Search-result listings agree: Tripadvisor, explorehbg.com, checked 2026-11-01",
-      "crowdType": {
-        "labels": [
-          "Locals & regulars"
-        ],
-        "summary": "A locals-and-regulars spot.",
-        "confidence": "medium",
-        "details": [
-          {
-            "label": "Locals & regulars",
-            "confidence": "medium",
-            "evidence": [
-              {
-                "type": "venue",
-                "src": "venue's website",
-                "url": "https://www.bodegafood.co/",
-                "quote": "About Us | Located in the heart of Midtown Harrisburg, | Bodega Food Co. | is your go-to neighborhood spot for bold, handcrafted eats. | ​ | From juicy smash burgers and chopped cheese beef patty",
-                "self": true
-              }
-            ]
-          }
-        ]
-      },
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": null,
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://bodegafood.co/"
-      }
-    },
-    {
-      "id": "underdog-sports-bar-and-grill",
-      "name": "Underdog Sports Bar & Grill",
-      "cuisine": "Sports bar",
-      "address": "3100 Paxton St",
-      "phone": "(717) 564-5150",
-      "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
-      "lat": 40.25574,
-      "lng": -76.83692,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://www.underdogsportsbarandgrill.com/",
-      "hours": "Daily 11a-1:30a",
-      "hoursNote": null,
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [
-        {
-          "days": "Mon-Fri",
-          "text": "Happy hour 4:30–6:30 pm: $1 off liquor & draft beer",
-          "tags": [
-            "beer"
-          ]
-        },
-        {
-          "days": "Sat,Sun",
-          "text": "Happy hour 5–7 pm: $1 off liquor & draft beer",
-          "tags": [
-            "beer"
-          ]
-        }
-      ],
-      "specials": [
-        {
-          "days": "Mon-Fri",
-          "text": "Lunch specials from $4.99"
-        },
-        {
-          "days": "Mon",
-          "text": "Live trivia 7 pm"
-        },
-        {
-          "days": "Tue",
-          "text": "Free bar bingo 6:30–9 pm"
-        },
-        {
-          "days": "Thu",
-          "text": "$3.50 Golden Road Mango Cart",
-          "tags": [
-            "beer"
-          ],
-          "src": "Underdog Facebook post Oct 22, 2026 (via bars10)",
-          "checked": "Oct 31, 2026",
-          "flag": "Single recent post; may not be weekly"
-        }
-      ],
-      "crowd": null,
-      "vibes": [
-        "Sports & games",
-        "Bar scene"
-      ],
-      "source": "exa.ai places listing; deals from venue site",
-      "county": "Dauphin",
-      "crowdType": {
-        "labels": [
-          "Sports fans"
-        ],
-        "summary": "Popular for watching games.",
-        "confidence": "high",
-        "details": [
-          {
-            "label": "Sports fans",
-            "confidence": "high",
-            "evidence": [
-              {
-                "type": "reviews",
-                "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
-                "url": "https://www.restaurantji.com/pa/harrisburg/underdog-sports-bar-and-grill-/",
-                "quote": "Underdog Sports Bar and Grill provides a friendly atmosphere with delicious food and good service. The menu f",
-                "agg": true
-              },
-              {
-                "type": "attr",
-                "src": "Google attribute 'good for watching sports' (via Restaurantji)",
-                "url": "https://www.restaurantji.com/pa/harrisburg/underdog-sports-bar-and-grill-/",
-                "quote": "good for watching sports"
-              },
-              {
-                "type": "venue",
-                "src": "venue's website",
-                "url": "https://www.underdogsportsbarandgrill.com/",
-                "quote": "Home - Underdog Sports Bar and Grill Underdog Sports Bar and Grill | Home - Underdog Sports Bar and Grill | (717)564",
-                "self": true
-              }
-            ]
-          }
-        ]
-      },
-      "karaoke": {
-        "nights": [],
-        "hints": [
-          "Google attribute 'karaoke' (via Restaurantji)"
-        ],
-        "stale": false,
-        "oneoffs": [],
-        "conflicts": []
-      },
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": "https://www.restaurantji.com/pa/harrisburg/underdog-sports-bar-and-grill-/",
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://www.underdogsportsbarandgrill.com/"
-      },
-      "trivia": {
-        "nights": [
-          {
-            "day": "Wed",
-            "cadence": "weekly",
-            "start": "7 pm",
-            "confidence": "high",
-            "lastSeen": "2026-11-02",
-            "datedLastSeen": "2026-11-02",
-            "note": "Cheaters Never Prosper Trivia: Different event every week",
-            "sources": [
-              {
-                "src": "cnptrivia.com weekly schedule",
-                "url": "https://cnptrivia.com/weekly-schedule/",
-                "date": "2026-11-02",
-                "quote": "Underdog Sports Bar & Grill at 7pm — DIFFERENT EVENT EVERY WEEK"
-              }
-            ],
-            "basis": "vendor schedule (CNP Trivia)",
-            "vendor": "Cheaters Never Prosper Trivia"
-          }
-        ],
-        "stale": [],
-        "hints": [],
-        "conflicts": [],
-        "oneoffs": [
-          {
-            "date": "2026-11-01",
-            "quote": "Live Trivia",
-            "url": "https://www.underdogsportsbarandgrill.com/"
-          },
-          {
-            "date": "2026-11-01",
-            "quote": "Live trivia every Monday at 7:00 with Cheaters Never Prosper",
-            "url": "https://www.underdogsportsbarandgrill.com/"
-          },
-          {
-            "date": "2026-11-01",
-            "quote": "Live Trivia",
-            "url": "https://www.underdogsportsbarandgrill.com/lunch/"
-          }
-        ]
-      },
-      "bingo": {
-        "nights": [
-          {
-            "day": "Tue",
-            "cadence": "weekly",
-            "start": null,
-            "basis": "explicit recurring wording",
-            "lastSeen": "2026-11-01",
-            "datedLastSeen": null,
-            "postsSeen": 0,
-            "sources": [
-              {
-                "src": "venue website (undated page)",
-                "url": "https://www.underdogsportsbarandgrill.com/",
-                "date": "2026-11-01",
-                "quote": "Bar Bingo | FREE every Tuesday night from 6:30-9:00. | FREE every Tuesday night from 6:30-9:00. | Prizes awarded every game!!"
-              }
-            ],
-            "confidence": "medium",
-            "note": "Only on venue website (undated); confirm still running"
-          }
-        ],
-        "stale": [],
-        "hints": [],
-        "conflicts": [],
-        "oneoffs": [
-          {
-            "date": "2026-11-01",
-            "quote": "Bar Bingo",
-            "url": "https://www.underdogsportsbarandgrill.com/"
-          },
-          {
-            "date": "2026-11-01",
-            "quote": "Beer & Bingo",
-            "url": "https://www.underdogsportsbarandgrill.com/"
-          },
-          {
-            "date": "2026-11-01",
-            "quote": "Bar Bingo",
-            "url": "https://www.underdogsportsbarandgrill.com/lunch/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ad-lib-craft-kitchen-and-bar",
-      "name": "Ad Lib Craft Kitchen & Bar",
-      "cuisine": "New American (hotel restaurant)",
-      "address": null,
-      "phone": "(717) 237-6419",
-      "phoneSource": "Official site adlibrestaurants.com, checked 2026-11-01",
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://www.adlibrestaurants.com/",
-      "hours": "Daily 7a-9p",
-      "hoursNote": "Breakfast 7–11 am; lunch 11–5; dinner 5–9 pm; Sunday brunch 11–2.",
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Date night"
-      ],
-      "source": "Search synthesis of venue site & OpenTable",
-      "county": "Dauphin",
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": "https://www.restaurantji.com/pa/harrisburg/ad-lib-craft-kitchen-and-bar-/",
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://www.adlibrestaurants.com/"
-      },
-      "menu": "https://www.adlibrestaurants.com/menu"
-    },
-    {
-      "id": "home231",
-      "name": "Home231",
-      "cuisine": "Farm-to-table",
-      "address": null,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://www.home231.co/",
-      "hours": "Mon 11a-10p; Tue closed; Wed-Fri 11a-10p; Sat 5p-10p; Sun 9a-2p",
-      "hoursNote": null,
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Date night"
-      ],
-      "source": "Search synthesis of venue site; home231.co, NetWaiter and menu-site listings (checked 2026-11-01)",
-      "county": "Dauphin",
-      "phone": "(717) 232-4665",
-      "phoneSource": "home231.co, NetWaiter and menu-site listings, checked 2026-11-01",
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": null,
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": null
-      }
-    },
-    {
-      "id": "1700-degrees-steakhouse",
-      "name": "1700 Degrees Steakhouse",
-      "cuisine": "Steakhouse",
-      "address": "1 N 2nd St",
-      "phone": "(717) 237-6400",
-      "phoneSource": "Official site 1700restaurant.com, checked 2026-11-01",
-      "lat": 40.26027,
-      "lng": -76.88187,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://www.1700restaurant.com/",
-      "hours": "Mon-Sat 5p-9p; Sun closed",
-      "hoursNote": null,
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Date night"
-      ],
-      "source": "Venue site",
-      "county": "Dauphin",
-      "crowdType": {
-        "labels": [
-          "Date night / upscale"
-        ],
-        "summary": "A date-night / upscale spot.",
-        "confidence": "medium",
-        "details": [
-          {
-            "label": "Date night / upscale",
-            "confidence": "medium",
-            "evidence": [
-              {
-                "type": "venue",
-                "src": "venue's website",
-                "url": "https://www.1700restaurant.com/",
-                "quote": "e Wine. Rare Spirits. | There are a number of reasons why you will be delighted with your fine dining experience at 1700 Degrees Steakhouse. The décor is stunning, with large windows overlook",
-                "self": true
-              }
-            ]
-          }
-        ]
-      },
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": null,
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://www.1700restaurant.com/"
-      },
-      "menu": "https://www.1700restaurant.com/menus"
-    },
-    {
-      "id": "dodge-city-steakhouse",
-      "name": "Dodge City Steakhouse",
-      "cuisine": "Steakhouse",
-      "address": "1037 Paxton St",
-      "phone": "(717) 236-2719",
-      "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
-      "lat": 40.25563,
-      "lng": -76.8709,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://www.dodgecityrestaurant.com/",
-      "hours": "Mon closed; Tue-Thu 11a-3p,4p-8p; Fri 11a-3p,4p-9p; Sat 4p-9p; Sun 12p-8p",
-      "hoursNote": null,
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Family-friendly"
-      ],
-      "source": "Venue site",
-      "county": "Dauphin",
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": "https://www.restaurantji.com/pa/harrisburg/dodge-city-steakhouse-/",
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://www.dodgecityrestaurant.com/"
-      },
-      "menu": "https://www.dodgecityrestaurant.com/menu"
-    },
-    {
-      "id": "the-brick-haus",
-      "name": "The Brick Haus",
-      "cuisine": "Bar & restaurant",
-      "address": "229 N 2nd St",
-      "lat": 40.26171,
-      "lng": -76.88476,
-      "priceText": null,
-      "priceLevel": null,
-      "website": null,
-      "hours": "Mon 5p-12a; Tue closed; Wed 5p-12a; Thu-Sat 5p-2a; Sun 12p-12a",
-      "hoursNote": null,
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Bar scene"
-      ],
-      "source": "exa.ai places listing; Restaurantji (Google-sourced listing, updated Sep 17, 2026) (checked 2026-11-01)",
-      "county": "Dauphin",
-      "phone": "(717) 233-4287",
-      "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 17, 2026), checked 2026-11-01",
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": null,
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": null
-      }
-    },
-    {
-      "id": "rookies-craft-burger-bar",
-      "name": "Rookies Craft Burger Bar",
-      "cuisine": "Burger bar & grill",
-      "address": "2238 Derry St",
-      "lat": 40.26034,
-      "lng": -76.84905,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://www.rookiesburgerbar.com/",
-      "hours": "Mon-Thu 11a-11p; Fri 11a-12a; Sat 12p-12a; Sun closed",
-      "hoursNote": "Sunday closed per Tripadvisor and the Google listing; venue site lists Mon–Sat only (a 2023 PennLive piece showed Sunday hours).",
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [
-        {
-          "days": "Daily",
-          "text": "Happy hour 4–7 pm: drink & food specials"
-        }
-      ],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Sports & games",
-        "Family-friendly"
-      ],
-      "source": "Venue site; Tripadvisor, Restaurantji (Google-sourced listing), venue site rookiesburgerbar.com (checked 2026-11-01)",
-      "county": "Dauphin",
-      "phone": "(717) 561-0030",
-      "phoneSource": "Tripadvisor and Restaurantji (Google-sourced listing), checked 2026-11-01",
-      "crowdType": {
-        "labels": [
-          "Families",
-          "Sports fans"
-        ],
-        "summary": "Family-friendly; popular for watching games.",
-        "confidence": "medium",
-        "details": [
-          {
-            "label": "Families",
-            "confidence": "medium",
-            "evidence": [
-              {
-                "type": "venue",
-                "src": "venue's website",
-                "url": "https://www.rookiesburgerbar.com/",
-                "quote": "Foods specials!! | ​ | Thank you for dining with us here at Rookies Craft Burger Bar. Our family friendly grill & bar. | ​ | Application is no longer available. | GET IN TOUCH | TELL US WHAT YOU",
-                "self": true
-              }
-            ]
-          },
-          {
-            "label": "Sports fans",
-            "confidence": "medium",
-            "evidence": [
-              {
-                "type": "venue",
-                "src": "venue's website",
-                "url": "https://www.rookiesburgerbar.com/",
-                "quote": "--> | Rookies Bar & Grill | Sports bar | 2238 Derry St, Harrisburg, PA, USA | top of page | HOME | Why Rookies | RESERVATIONS",
-                "self": true
-              }
-            ]
-          }
-        ]
-      },
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": null,
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://www.rookiesburgerbar.com/"
-      },
-      "menu": "https://www.rookiesburgerbar.com/menu"
-    },
-    {
-      "id": "paxtang-grill",
-      "name": "Paxtang Grill",
-      "cuisine": "American grill & bar",
-      "address": "3323 Derry St",
-      "phone": "(717) 564-2738",
-      "phoneSource": "Official site paxtanggrill.com, checked 2026-11-01",
-      "lat": 40.25909,
-      "lng": -76.83418,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://www.paxtanggrill.com/",
-      "hours": "Mon-Sat 11a-2a; Sun closed",
-      "hoursNote": "Saturday brunch 11 am–2 pm. Sunday closed (venue site lists no Sunday; Google listing and MenuPix show closed). Conflict: the venue store page and Google listing say closed Mondays, while the venue home page lists Monday. Happy-hour menu posted as an image (times not readable).",
-      "kitchen": "Mon-Thu 11a-9p; Fri-Sat 11a-10p",
-      "kitchenNote": "Kitchen hours from venue site (\"new hours\"); bar until 2 am. (Venue site paxtanggrill.com, checked 2026-11-01)",
-      "happyHours": [
-        {
-          "days": "See venue",
-          "text": "Happy hour 2–5 pm: Chef Picks 25% off",
-          "src": "Paxtang Grill Facebook post Oct 23, 2026 (via bars10)",
-          "checked": "2026-11-01",
-          "flag": "Days not stated"
-        }
-      ],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Bar scene"
-      ],
-      "source": "Venue site; Venue site paxtanggrill.com; Google listing (via Exa), MenuPix (checked 2026-11-01); Paxtang Grill Facebook post Oct 23, 2026 (via bars10) (checked 2026-11-01); Venue site paxtanggrill.com (checked 2026-11-01)",
-      "county": "Dauphin",
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": null,
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://www.paxtanggrill.com/"
-      }
-    },
-    {
-      "id": "hooker-s-seafood-joint",
-      "name": "Hooker's Seafood Joint",
-      "cuisine": "Seafood",
-      "address": "405 Walnut St",
-      "lat": 40.26288,
-      "lng": -76.88104,
-      "priceText": null,
-      "priceLevel": null,
-      "website": null,
-      "hours": "Mon closed; Tue-Sat 11a-8p; Sun 11a-5p",
-      "hoursNote": null,
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [],
-      "specials": [],
-      "crowd": null,
-      "vibes": [],
-      "source": "exa.ai places; venue Facebook post",
-      "county": "Dauphin",
-      "phone": "(717) 850-8779",
-      "phoneSource": "Search-result listings agree: chamberofcommerce.com, harrisburgdid.com, checked 2026-11-01",
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": null,
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": null
-      }
-    },
-    {
-      "id": "district-lounge",
-      "name": "District Lounge",
-      "cuisine": "Lounge",
-      "address": "1014 N 3rd St",
-      "lat": 40.2675,
-      "lng": -76.88745,
-      "priceText": null,
-      "priceLevel": null,
-      "website": null,
-      "hours": "Daily 11a-1a",
-      "hoursNote": null,
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Bar scene"
-      ],
-      "source": "exa.ai places listing; Restaurantji (Google-sourced listing, updated Oct 11, 2026) (checked 2026-11-01)",
-      "county": "Dauphin",
-      "phone": "(717) 232-1510",
-      "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 11, 2026), checked 2026-11-01",
-      "crowdType": {
-        "labels": [
-          "Dance / club crowd"
-        ],
-        "summary": "A dancing / club crowd late.",
-        "confidence": "high",
-        "details": [
-          {
-            "label": "Dance / club crowd",
-            "confidence": "high",
-            "evidence": [
-              {
-                "type": "reviews",
-                "src": "Restaurantji review summary (from Google reviews), updated 2026-10-11",
-                "url": "https://www.restaurantji.com/pa/harrisburg/district-bar-and-lounge-/",
-                "quote": "g lighting inside, making it a great place to relax and enjoy. Although it functions as a nightclub with slightly sticky floors, the quality of the food and service makes it worth a visit.",
-                "agg": true
-              },
-              {
-                "type": "attr",
-                "src": "Google attribute 'has dancing' (via Restaurantji)",
-                "url": "https://www.restaurantji.com/pa/harrisburg/district-bar-and-lounge-/",
-                "quote": "has dancing"
-              }
-            ]
-          }
-        ]
-      },
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": "https://www.restaurantji.com/pa/harrisburg/district-bar-and-lounge-/",
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": null
-      }
-    },
-    {
-      "id": "latin-mambo-ii",
-      "name": "Latin Mambo II",
-      "cuisine": "Dominican",
-      "address": "111 N 2nd St",
-      "lat": 40.26068,
-      "lng": -76.88336,
-      "priceText": null,
-      "priceLevel": null,
-      "website": null,
-      "hours": "Daily 9a-10p",
-      "hoursNote": "DoorDash shows 8:45 am–9:10 pm.",
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [],
-      "specials": [
-        {
-          "days": "Mon",
-          "text": "Tripe special",
-          "src": "Hoodline (Sep 2026, citing PennLive)",
-          "checked": "2026-11-01"
-        },
-        {
-          "days": "Thu",
-          "text": "Oxtail special",
-          "src": "Hoodline (Sep 2026, citing PennLive)",
-          "checked": "2026-11-01"
-        },
-        {
-          "days": "Fri",
-          "text": "Goat special",
-          "src": "Hoodline (Sep 2026, citing PennLive)",
-          "checked": "2026-11-01"
-        },
-        {
-          "days": "Sat",
-          "text": "Soup special",
-          "src": "Hoodline (Sep 2026, citing PennLive)",
-          "checked": "2026-11-01"
-        }
-      ],
-      "crowd": null,
-      "vibes": [
-        "Family-friendly"
-      ],
-      "source": "Delivery listing (Uber Eats) via search; opened 2026; Hoodline (Sep 2026, citing PennLive) (checked 2026-11-01)",
-      "county": "Dauphin",
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": null,
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": null
-      }
-    },
-    {
-      "id": "el-rodeo",
-      "name": "El Rodeo",
-      "cuisine": "Mexican",
-      "address": "4659 Jonestown Rd",
-      "phone": "(717) 652-5340",
-      "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
-      "lat": 40.30214,
-      "lng": -76.81253,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "http://elrodeopa.com",
-      "hours": "Sun-Thu 11a-9p; Fri-Sat 11a-10:30p",
-      "hoursNote": "Full bar.",
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Family-friendly"
-      ],
-      "source": "MapQuest listing",
-      "county": "Dauphin",
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": null,
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "http://elrodeopa.com"
-      },
-      "websiteSource": "OpenStreetMap way/1133513329 website tag (map data 2026-10-31), checked 2026-11-01"
-    },
-    {
-      "id": "gabriella-s-italian-ristorante",
-      "name": "Gabriella's Italian Ristorante",
-      "cuisine": "Italian",
-      "address": "3907 Jonestown Rd",
-      "phone": "(717) 540-0040",
-      "phoneSource": "Official site gabriellaristorante.com, checked 2026-11-01",
-      "lat": 40.29289,
-      "lng": -76.83026,
-      "priceText": null,
-      "priceLevel": null,
-      "website": "https://gabriellaristorante.com/",
-      "hours": "Daily 11a-10p",
-      "hoursNote": "Sunday 11 am–10 pm per the Google listing (via Restaurantji); venue says dinner is served all day Sunday.",
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [],
-      "specials": [],
-      "crowd": null,
-      "vibes": [
-        "Family-friendly",
-        "Date night"
-      ],
-      "source": "Venue site (via search); Restaurantji (Google-sourced listing) (checked 2026-11-01)",
-      "county": "Dauphin",
-      "crowdChecked": "2026-11-01",
-      "crowdSources": {
-        "restaurantji": null,
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://gabriellaristorante.com/"
-      }
-    },
-    {
-      "id": "pa-kpot-korean-bbq-hot-pot-harrisburg",
-      "name": "KPOT Korean BBQ & Hot Pot",
-      "cuisine": "Korean",
-      "address": "2810 Paxton Street, Harrisburg",
-      "state": "PA",
-      "zip": "17111",
-      "phone": "(717) 918-3322",
-      "phoneSource": "OpenStreetMap node/14283585297 phone tag (map data 2026-10-31), checked 2026-11-01",
-      "lat": 40.256153,
-      "lng": -76.840969,
-      "website": "https://thekpot.com/location/harrisburg-paxton/",
-      "websiteSource": "OpenStreetMap node/14283585297 website tag (map data 2026-10-31), checked 2026-11-01",
-      "hours": "Mon-Thu 11:30a-10:30p; Fri-Sat 11:30a-11:30p; Sun 11:30a-10:30p",
-      "hoursNote": null,
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [],
-      "specials": [],
-      "crowd": null,
-      "vibes": [],
-      "source": "hours from OpenStreetMap node/14283585297 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
-      "county": "Dauphin",
-      "addedBy": "sweep-osm"
-    },
-    {
-      "id": "pa-royal-winery-harrisburg",
-      "name": "Royal Winery",
-      "cuisine": "Winery & brewery",
-      "address": "5790 Devonshire Rd, Harrisburg",
-      "state": "PA",
-      "zip": "17112",
-      "phone": "(717) 857-5544",
-      "phoneSource": "Cheaters Never Prosper venue match / https://www.royalwineryandvineyard.com/visit-us.html, checked 2026-11-02",
-      "lat": 40.303444,
-      "lng": -76.786753,
-      "website": null,
-      "websiteSource": null,
-      "hours": "Fri 5p-10p; Sat 12p-10p; Sun 12p-6p; Mon-Thu closed",
-      "hoursNote": null,
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [],
-      "specials": [],
-      "crowd": null,
-      "vibes": [],
-      "source": "hours from https://www.royalwineryandvineyard.com/visit-us.html (checked 2026-11-02); venue on the Cheaters Never Prosper Trivia weekly schedule (https://cnptrivia.com/weekly-schedule/)",
-      "county": "Dauphin",
-      "addedBy": "refresh-cnp",
-      "bingo": {
-        "nights": [
-          {
-            "day": "Sun",
-            "cadence": "weekly",
-            "start": "2:30 pm",
-            "confidence": "high",
-            "lastSeen": "2026-11-02",
-            "datedLastSeen": "2026-11-02",
-            "note": "Cheaters Never Prosper Trivia: Music bingo",
-            "sources": [
-              {
-                "src": "cnptrivia.com weekly schedule",
-                "url": "https://cnptrivia.com/weekly-schedule/",
-                "date": "2026-11-02",
-                "quote": "Royal Winery at 2:30pm — MUSIC BINGO"
-              }
-            ],
-            "basis": "vendor schedule (CNP Trivia)",
-            "vendor": "Cheaters Never Prosper Trivia"
-          }
-        ],
-        "stale": [],
-        "hints": [],
-        "conflicts": [],
-        "oneoffs": []
-      },
-      "trivia": {
-        "nights": [
-          {
-            "day": "Fri",
-            "cadence": "1st & 3rd monthly",
-            "start": "6:30 pm",
-            "confidence": "high",
-            "lastSeen": "2026-11-02",
-            "datedLastSeen": "2026-11-02",
-            "note": "Cheaters Never Prosper Trivia: Themed trivia on 1st & 3rd fridays",
-            "sources": [
-              {
-                "src": "cnptrivia.com weekly schedule",
-                "url": "https://cnptrivia.com/weekly-schedule/",
-                "date": "2026-11-02",
-                "quote": "Royal Winery at 6:30pm — THEMED TRIVIA ON 1ST & 3RD FRIDAYS"
-              }
-            ],
-            "basis": "vendor schedule (CNP Trivia)",
-            "vendor": "Cheaters Never Prosper Trivia"
-          }
-        ],
-        "stale": [],
-        "hints": [],
-        "conflicts": [],
-        "oneoffs": []
-      }
-    },
-    {
-      "id": "pa-the-doghouse-harrisburg",
-      "name": "The DogHouse",
-      "cuisine": "Bar & grill",
-      "address": "6791 Linglestown Rd, Harrisburg",
-      "state": "PA",
-      "zip": "17112",
-      "phone": "(717) 651-9493",
-      "phoneSource": "Cheaters Never Prosper venue match / https://www.clipp.com/all-offers/5-off-any-purchase-25-or-more-harrisburg-pa-coupon-12850159, checked 2026-11-02",
-      "lat": 40.349772,
-      "lng": -76.768907,
-      "website": null,
-      "websiteSource": null,
-      "hours": "Mon-Thu 11a-11p; Fri 11a-12a; Sat 12p-12a; Sun 12p-8p",
-      "hoursNote": null,
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [],
-      "specials": [],
-      "crowd": null,
-      "vibes": [],
-      "source": "hours from https://www.clipp.com/all-offers/5-off-any-purchase-25-or-more-harrisburg-pa-coupon-12850159 (venue FAQ doghousebarandgrill.com/service says daily 11a-12a; Yelp shows 9p Mon-Thu, 10p Fri/Sat) (checked 2026-11-02); venue on the Cheaters Never Prosper Trivia weekly schedule (https://cnptrivia.com/weekly-schedule/)",
-      "county": "Dauphin",
-      "addedBy": "refresh-cnp",
-      "bingo": {
-        "nights": [
-          {
-            "day": "Mon",
-            "cadence": "weekly",
-            "start": "6 pm",
-            "confidence": "high",
-            "lastSeen": "2026-11-02",
-            "datedLastSeen": "2026-11-02",
-            "note": "Cheaters Never Prosper Trivia: Music bingo",
-            "sources": [
-              {
-                "src": "cnptrivia.com weekly schedule",
-                "url": "https://cnptrivia.com/weekly-schedule/",
-                "date": "2026-11-02",
-                "quote": "The DogHouse at 6pm — MUSIC BINGO"
-              }
-            ],
-            "basis": "vendor schedule (CNP Trivia)",
-            "vendor": "Cheaters Never Prosper Trivia"
-          },
-          {
-            "day": "Wed",
-            "cadence": "weekly",
-            "start": "7 pm",
-            "confidence": "high",
-            "lastSeen": "2026-11-02",
-            "datedLastSeen": "2026-11-02",
-            "note": "Cheaters Never Prosper Trivia: Music bingo",
-            "sources": [
-              {
-                "src": "cnptrivia.com weekly schedule",
-                "url": "https://cnptrivia.com/weekly-schedule/",
-                "date": "2026-11-02",
-                "quote": "The DogHouse at 7pm — MUSIC BINGO"
-              }
-            ],
-            "basis": "vendor schedule (CNP Trivia)",
-            "vendor": "Cheaters Never Prosper Trivia"
-          }
-        ],
-        "stale": [],
-        "hints": [],
-        "conflicts": [],
-        "oneoffs": []
-      }
-    },
-    {
-      "id": "pa-the-goat-brewing-co-harrisburg",
-      "name": "The Goat Brewing Co",
-      "cuisine": "Brewery & sports bar",
-      "address": "8001 Union Station Blvd, Harrisburg",
-      "state": "PA",
-      "zip": "17111",
-      "phone": "(717) 982-6746",
-      "phoneSource": "Cheaters Never Prosper venue match / https://thegoatbrewing.com/, checked 2026-11-02",
-      "lat": 40.290012,
-      "lng": -76.775219,
-      "website": null,
-      "websiteSource": null,
-      "hours": "Tue-Fri 4p-12a; Sat 11a-12a; Sun 11a-10p; Mon closed",
-      "hoursNote": null,
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [],
-      "specials": [],
-      "crowd": null,
-      "vibes": [],
-      "source": "hours from https://thegoatbrewing.com/ (checked 2026-11-02); venue on the Cheaters Never Prosper Trivia weekly schedule (https://cnptrivia.com/weekly-schedule/)",
-      "county": "Dauphin",
-      "addedBy": "refresh-cnp",
-      "trivia": {
-        "nights": [
-          {
-            "day": "Tue",
-            "cadence": "weekly",
-            "start": "6:30 pm",
-            "confidence": "high",
-            "lastSeen": "2026-11-02",
-            "datedLastSeen": "2026-11-02",
-            "note": "Cheaters Never Prosper Trivia: Music trivia",
-            "sources": [
-              {
-                "src": "cnptrivia.com weekly schedule",
-                "url": "https://cnptrivia.com/weekly-schedule/",
-                "date": "2026-11-02",
-                "quote": "The Goat Brewing Co at 6:30pm — MUSIC TRIVIA"
-              }
-            ],
-            "basis": "vendor schedule (CNP Trivia)",
-            "vendor": "Cheaters Never Prosper Trivia"
-          },
-          {
-            "day": "Wed",
-            "cadence": "weekly",
-            "start": "7 pm",
-            "confidence": "high",
-            "lastSeen": "2026-11-02",
-            "datedLastSeen": "2026-11-02",
-            "note": "Cheaters Never Prosper Trivia",
-            "sources": [
-              {
-                "src": "cnptrivia.com weekly schedule",
-                "url": "https://cnptrivia.com/weekly-schedule/",
-                "date": "2026-11-02",
-                "quote": "The Goat Brewing Co at 7pm"
-              }
-            ],
-            "basis": "vendor schedule (CNP Trivia)",
-            "vendor": "Cheaters Never Prosper Trivia"
-          }
-        ],
-        "stale": [],
-        "hints": [],
-        "conflicts": [],
-        "oneoffs": []
-      },
-      "bingo": {
-        "nights": [
-          {
-            "day": "Thu",
-            "cadence": "weekly",
-            "start": "6:30 pm",
-            "confidence": "high",
-            "lastSeen": "2026-11-02",
-            "datedLastSeen": "2026-11-02",
-            "note": "Cheaters Never Prosper Trivia: Music bingo",
-            "sources": [
-              {
-                "src": "cnptrivia.com weekly schedule",
-                "url": "https://cnptrivia.com/weekly-schedule/",
-                "date": "2026-11-02",
-                "quote": "The Goat Brewing Co at 6:30pm — MUSIC BINGO"
-              }
-            ],
-            "basis": "vendor schedule (CNP Trivia)",
-            "vendor": "Cheaters Never Prosper Trivia"
-          }
-        ],
-        "stale": [],
-        "hints": [],
-        "conflicts": [],
-        "oneoffs": []
-      }
-    },
-    {
-      "id": "pa-angies-diner-lounge-harrisburg",
-      "name": "Angie's Diner & Lounge",
-      "cuisine": "Diner & lounge",
-      "address": "1360 Eisenhower Blvd, Harrisburg",
-      "state": "PA",
-      "zip": "17111",
-      "phone": "(717) 939-0417",
-      "phoneSource": "Cheaters Never Prosper venue match / https://angiesdinerandlounge.com/contact-us/, checked 2026-11-02",
-      "lat": 40.225984,
-      "lng": -76.796495,
-      "website": null,
-      "websiteSource": null,
-      "hours": "daily 6a-2a",
-      "hoursNote": null,
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [],
-      "specials": [],
-      "crowd": null,
-      "vibes": [],
-      "source": "hours from https://angiesdinerandlounge.com/contact-us/ (checked 2026-11-02); venue on the Cheaters Never Prosper Trivia weekly schedule (https://cnptrivia.com/weekly-schedule/)",
-      "county": "Dauphin",
-      "addedBy": "refresh-cnp",
-      "trivia": {
-        "nights": [
-          {
-            "day": "Wed",
-            "cadence": "weekly",
-            "start": "6:30 pm",
-            "confidence": "high",
-            "lastSeen": "2026-11-02",
-            "datedLastSeen": "2026-11-02",
-            "note": "Cheaters Never Prosper Trivia",
-            "sources": [
-              {
-                "src": "cnptrivia.com weekly schedule",
-                "url": "https://cnptrivia.com/weekly-schedule/",
-                "date": "2026-11-02",
-                "quote": "Angie's Diner & Lounge at 6:30pm"
-              }
-            ],
-            "basis": "vendor schedule (CNP Trivia)",
-            "vendor": "Cheaters Never Prosper Trivia"
-          }
-        ],
-        "stale": [],
-        "hints": [],
-        "conflicts": [],
-        "oneoffs": []
-      }
-    },
-    {
-      "id": "pa-boro-bar-grill-riverview-harrisburg",
-      "name": "Boro Bar & Grill RiverView",
-      "cuisine": "Bar & grill",
-      "address": "4425 North Front St, Harrisburg",
-      "state": "PA",
-      "zip": "17110",
-      "phone": "(717) 695-3622",
-      "phoneSource": "Cheaters Never Prosper venue match / https://borobar.com/contact/, checked 2026-11-02",
-      "lat": 40.325452,
-      "lng": -76.89921,
-      "website": null,
-      "websiteSource": null,
-      "hours": "Mon 11:30a-11p; Tue closed; Wed-Sun 11:30a-11p",
-      "hoursNote": null,
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [],
-      "specials": [],
-      "crowd": null,
-      "vibes": [],
-      "source": "hours from https://borobar.com/contact/ (checked 2026-11-02); venue on the Cheaters Never Prosper Trivia weekly schedule (https://cnptrivia.com/weekly-schedule/)",
-      "county": "Dauphin",
-      "addedBy": "refresh-cnp",
-      "trivia": {
-        "nights": [
-          {
-            "day": "Wed",
-            "cadence": "weekly",
-            "start": "7 pm",
-            "confidence": "high",
-            "lastSeen": "2026-11-02",
-            "datedLastSeen": "2026-11-02",
-            "note": "Cheaters Never Prosper Trivia: Rotates between general & music trivia",
-            "sources": [
-              {
-                "src": "cnptrivia.com weekly schedule",
-                "url": "https://cnptrivia.com/weekly-schedule/",
-                "date": "2026-11-02",
-                "quote": "Boro Bar & Grill RiverView at 7pm — ROTATES BETWEEN GENERAL & MUSIC TRIVIA"
-              }
-            ],
-            "basis": "vendor schedule (CNP Trivia)",
-            "vendor": "Cheaters Never Prosper Trivia"
-          }
-        ],
-        "stale": [],
-        "hints": [],
-        "conflicts": [],
-        "oneoffs": []
-      }
+     "days": "Mon-Fri",
+     "text": "Happy hour 4–6 pm: $10 featured pizza, $2 off cocktails & wine by the glass, $1 off beer, half-price chef small plate",
+     "tags": [
+      "beer"
+     ]
     }
-  ],
-  "counties": [
-    "Dauphin"
-  ]
+   ],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Date night",
+    "Bar scene"
+   ],
+   "source": "Venue site; Restaurantji (Google-sourced listing, updated Sep 22, 2026) (checked 2026-11-01)",
+   "county": "Dauphin",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-22",
+        "url": "https://www.restaurantji.com/pa/harrisburg/cork-and-fork-/",
+        "quote": "her for a special occasion or a casual night out, Cork & Fork remains a favorite for both locals and visitors.",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-22",
+        "url": "https://www.restaurantji.com/pa/harrisburg/cork-and-fork-/",
+        "quote": "& Fork in Harrisburg, PA, is a hidden gem offering a sophisticated dining experience. The upscale yet inviting atmosphere creates a warm setting for a memorable meal. The menu features a",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/harrisburg/cork-and-fork-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://corkandfork717.com/downtown"
+   },
+   "menu": "https://corkandfork717.com/downtown/"
+  },
+  {
+   "id": "carley-s-ristorante-and-piano-bar",
+   "name": "Carley's Ristorante & Piano Bar",
+   "cuisine": "Italian & piano bar",
+   "address": "204 Locust St",
+   "phone": "(717) 909-9191",
+   "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
+   "lat": 40.26128,
+   "lng": -76.8837,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://carleysristorante.com/",
+   "hours": "Mon closed; Tue-Thu 5p-9p; Fri-Sat 5p-10p; Sun closed",
+   "hoursNote": "Sun/Mon/Tue from Google listing via Restaurantji (updated Oct 13, 2026).",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "Tue-Fri",
+     "text": "Happy hour 5–7 pm at the bar: half-price apps, pizzas & bar menu; $2 select domestic drafts",
+     "tags": [
+      "beer"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Wine Down Wednesday: half-price glasses of wine 5–7 pm"
+    }
+   ],
+   "crowd": null,
+   "vibes": [
+    "Date night",
+    "Live music & events"
+   ],
+   "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 13, 2026) (checked 2026-11-01)",
+   "county": "Dauphin",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/harrisburg/carleys-ristorante-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://carleysristorante.com/"
+   },
+   "menu": "https://carleysristorante.com/menu"
+  },
+  {
+   "id": "greystone-public-house",
+   "name": "Greystone Public House",
+   "cuisine": "Gastropub",
+   "address": "2120 Colonial Rd",
+   "phone": "(717) 829-9952",
+   "phoneSource": "Official site greystonepa.com, checked 2026-11-01",
+   "lat": 40.3347,
+   "lng": -76.82592,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://greystonepa.com/",
+   "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 10a-3p",
+   "hoursNote": "Bar hours shown; Sunday is brunch.",
+   "kitchen": "Mon-Sat 11a-9p; Sun 10a-3p",
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy hour 4–6 pm: $2 off drafts, cocktails, wine & pizzas; oysters $12 per half dozen",
+     "tags": [
+      "beer"
+     ]
+    }
+   ],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Date night",
+    "Live music & events"
+   ],
+   "source": "Venue site",
+   "county": "Dauphin",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://greystonepa.com/",
+        "quote": "akes every occasion feel comfortable yet refined. | Lunch & Dinner: | A thoughtful mix of local favorites and chef-inspired dishes. | Happy Hour: | Craft cocktails, local beers, and small bites,",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://greystonepa.com/",
+        "quote": "o provide the freshest and highest quality products and prepares the food in a casual but upscale environment. | 2120 Colonial Road Harrisburg, PA 17112 | 717.829.9952 contact@greystonepa",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/harrisburg/greystone-public-house-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://greystonepa.com/"
+   },
+   "menu": "https://greystonepa.com/main-menu/"
+  },
+  {
+   "id": "the-sturges-speakeasy",
+   "name": "The Sturges Speakeasy",
+   "cuisine": "Pub with rooftop deck",
+   "address": "400 Forster St",
+   "phone": "(717) 412-0931",
+   "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
+   "lat": 40.26693,
+   "lng": -76.88553,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://sturgesspeakeasy.com/",
+   "hours": "Mon-Fri 11a-2a; Sat-Sun 10a-2a",
+   "hoursNote": "Sunday brunch 10 am–2 pm.",
+   "kitchen": "Mon-Fri 11a-11p; Sat-Sun 10a-11p",
+   "kitchenNote": "Regular menu until 11 pm; select appetizers until 2 am every day.",
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy hour 4–6 pm: $2 off drafts; $1 off bottles, wine & liquor; $2 off select apps",
+     "tags": [
+      "beer"
+     ]
+    }
+   ],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene",
+    "Rooftop"
+   ],
+   "source": "Venue site",
+   "county": "Dauphin",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Live music fans"
+    ],
+    "summary": "A locals-and-regulars spot; known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/harrisburg/the-sturges-speakeasy-/",
+        "quote": "nal seasoning. The restaurant has a neighborly ambiance, making it an ideal spot for both locals and visitors. Visitors often enjoy the lively bar with live music and a fun crowd, along",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/harrisburg/the-sturges-speakeasy-/",
+        "quote": "g it an ideal spot for both locals and visitors. Visitors often enjoy the lively bar with live music and a fun crowd, along with attentive and engaging bartenders. The food menu features pop",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/harrisburg/the-sturges-speakeasy-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://sturgesspeakeasy.com/"
+   },
+   "menu": "https://sturgesspeakeasy.com/menu/"
+  },
+  {
+   "id": "stock-s-on-2nd",
+   "name": "Stock's on 2nd",
+   "cuisine": "Gastropub",
+   "address": "211 N 2nd St",
+   "phone": "(717) 233-6699",
+   "phoneSource": "Official site stocksonsecond.com, checked 2026-11-01",
+   "lat": 40.26134,
+   "lng": -76.88416,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://stocksonsecond.com/",
+   "hours": "Mon-Thu 11:30a-9p; Fri 11:30a-10p; Sat 5p-10p; Sun closed",
+   "hoursNote": "The venue site lists close times as “?”.; Sun from Google listing via Restaurantji (updated Oct 7, 2026).",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy hour 5–7 pm: $5 small plates, $1 off drafts, $5 house wine (explorehbg lists Tue–Fri)",
+     "tags": [
+      "beer"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Whiskey Business: half-price whiskeys & bourbons 5–7 pm"
+    }
+   ],
+   "crowd": null,
+   "vibes": [
+    "Date night",
+    "Bar scene"
+   ],
+   "source": "exa.ai places listing; happy hour from venue site and explorehbg.com happy-hour guide (Jul 28, 2026); Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
+   "county": "Dauphin",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/harrisburg/stocks-on-2nd-/",
+        "quote": "ise from customers. The outdoor back patio adds extra space for large groups or a relaxed date night. Customers have enjoyed the great drinks, including the fantastic espresso martini, and t",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/harrisburg/stocks-on-2nd-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://stocksonsecond.com/"
+   },
+   "menu": "https://www.stocksonsecond.com/lunch-menu/"
+  },
+  {
+   "id": "high-dive",
+   "name": "High Dive",
+   "cuisine": "Tiki cocktail lounge",
+   "address": "1400 N 3rd St",
+   "phone": "(717) 220-7970",
+   "phoneSource": "Official site highdive717.com, checked 2026-11-01",
+   "lat": 40.27071,
+   "lng": -76.88979,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://highdive717.com/",
+   "hours": "Mon-Thu 4p-11p; Fri-Sat 4p-12a; Sun closed",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "Mon-Thu",
+     "text": "Happy hour 4–6 pm: five cocktails $5 each"
+    }
+   ],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene",
+    "Date night"
+   ],
+   "source": "Search synthesis of venue site; explorehbg.com happy-hour guide (Jul 28, 2026)",
+   "county": "Dauphin",
+   "crowdType": {
+    "labels": [
+     "Dive bar"
+    ],
+    "summary": "No-frills dive-bar feel.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Dive bar",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-09",
+        "url": "https://www.restaurantji.com/pa/harrisburg/high-dive-/",
+        "quote": "High Dive is a fantastic bar in the midtown area of Harrisburg and is considered a favorite. It is",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/harrisburg/high-dive-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://highdive717.com/"
+   }
+  },
+  {
+   "id": "madame-rochele-s-apothecary",
+   "name": "Madame Rochéle's Apothecary",
+   "cuisine": "Cocktail bar",
+   "address": "200 N 2nd St",
+   "lat": 40.26095,
+   "lng": -76.88414,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://www.apothecaryhbg.com/",
+   "hours": "Mon-Tue closed; Wed 4p-12a; Thu-Fri 2p-12a; Sat 11a-12a; Sun 11a-7p",
+   "hoursNote": "Generally 21+. Weekend high tea 11 am–4 pm ($55, reservations encouraged).",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "Wed-Fri",
+     "text": "Happy hour 5–7 pm: half-price tinctures, tonics, potions & elixirs"
+    }
+   ],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene",
+    "Date night"
+   ],
+   "source": "Venue site; Toast ordering page (toast.app) (checked 2026-11-01)",
+   "county": "Dauphin",
+   "phone": "(717) 232-4499",
+   "phoneSource": "Toast ordering page (toast.app), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.apothecaryhbg.com/"
+   },
+   "menu": "https://www.apothecaryhbg.com/menu"
+  },
+  {
+   "id": "the-millworks",
+   "name": "The Millworks",
+   "cuisine": "Restaurant, biergarten & art studios",
+   "address": "340 Verbeke St",
+   "phone": "(717) 695-4888",
+   "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
+   "lat": 40.27049,
+   "lng": -76.8875,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://millworksharrisburg.com/",
+   "hours": "Mon closed; Tue-Thu 4p-10p; Fri-Sat 11:30a-10p; Sun 10a-3p,5p-9p",
+   "hoursNote": null,
+   "kitchen": "Tue-Thu 4p-9p; Fri-Sat 11:30a-9p; Sun 10a-3p,5p-8:30p",
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "Tue-Fri",
+     "text": "Happy hour 4–5:30 pm: $2 off drafts, 50% off select small plates"
+    }
+   ],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Rooftop",
+    "Date night"
+   ],
+   "source": "Venue site; happy hour from explorehbg.com happy-hour guide (Jul 28, 2026)",
+   "county": "Dauphin",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/harrisburg/millworks-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://millworksharrisburg.com/"
+   },
+   "menu": "https://millworksharrisburg.com/menu/",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "6 pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-02",
+      "datedLastSeen": "2026-11-02",
+      "note": "Cheaters Never Prosper Trivia",
+      "sources": [
+       {
+        "src": "cnptrivia.com weekly schedule",
+        "url": "https://cnptrivia.com/weekly-schedule/",
+        "date": "2026-11-02",
+        "quote": "The Millworks at 6pm"
+       }
+      ],
+      "basis": "vendor schedule (CNP Trivia)",
+      "vendor": "Cheaters Never Prosper Trivia"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
+  },
+  {
+   "id": "mcgrath-s-pub",
+   "name": "McGrath's Pub",
+   "cuisine": "Irish pub",
+   "address": "202 Locust St",
+   "phone": "(717) 232-9914",
+   "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
+   "lat": 40.26122,
+   "lng": -76.88377,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://mcgraths-pub.weeblyte.com/",
+   "hours": "Mon-Fri 11:30a-2a; Sat 12p-2a; Sun 11:30a-2a",
+   "hoursNote": "Sunday 11:30 am–2 am per Yelp (claimed), Apple Maps and NetWaiter; Visit Harrisburg lists only Mon–Sat.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy hour 4–6 pm: $1 off liquor & bottled beer, $2 Miller Lite & Yuengling drafts, $4 cask beer",
+     "tags": [
+      "beer"
+     ]
+    }
+   ],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "exa.ai places listing; explorehbg listing; Yelp (claimed listing), Apple Maps, NetWaiter (checked 2026-11-01)",
+   "county": "Dauphin",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://mcgraths-pub.weeblyte.com/"
+   },
+   "websiteSource": "OpenStreetMap node/282028709 website tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "College crowd",
+     "Locals & regulars",
+     "LGBTQ-friendly"
+    ],
+    "summary": "Popular with college students; a locals-and-regulars spot; LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "College crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://mcgraths-pub.weeblyte.com/",
+        "quote": "h’s Pub is widely appreciated as a gathering place for a diverse mix of guests, including college students, families, tourists, and local regulars. Group outings, solo visits, and casual meetups a",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://mcgraths-pub.weeblyte.com/",
+        "quote": "ce for a diverse mix of guests, including college students, families, tourists, and local regulars. Group outings, solo visits, and casual meetups are all comfortably supported. Sporting e",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://mcgraths-pub.weeblyte.com/",
+        "quote": "and live entertainment further contribute to the energetic yet inclusive environment. An LGBTQ+ friendly setting reinforces the pub’s reputation as a welcoming space for all. | Reservat",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "jb-lovedraft-s-micro-pub",
+   "name": "JB Lovedraft's Micro Pub",
+   "cuisine": "Micro pub",
+   "address": "225 N 2nd St",
+   "lat": 40.26158,
+   "lng": -76.88465,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://jblovedrafts.com/",
+   "hours": "Sun-Fri 2p-2a; Sat 1p-2a",
+   "hoursNote": null,
+   "kitchen": "Mon-Tue 5p-12a; Wed-Sun 2p-12a",
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Late-night happy hour 10 pm–12 am"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Daily",
+     "text": "Free karaoke from 9 pm"
+    },
+    {
+     "days": "Thu",
+     "text": "Trivia 7–9 pm"
+    }
+   ],
+   "crowd": null,
+   "vibes": [
+    "Bar scene",
+    "Live music & events"
+   ],
+   "source": "Venue site; explorehbg.com happy-hour guide (Jul 28, 2026); Restaurantji (Google-sourced listing, updated Oct 28, 2026) (checked 2026-11-01)",
+   "county": "Dauphin",
+   "phone": "(717) 238-2009",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 28, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/pa/harrisburg/jb-lovedrafts-micropub-/",
+        "quote": "atio. This place is known for its amazing food, great happy hour, and welcoming staff and regulars.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": "9 pm–1 am",
+      "confidence": "medium",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://jblovedrafts.com/",
+        "date": "2026-11-01",
+        "quote": "KARAOKE & THEMED EVENTS | Weekly karaoke Sun – Sat, 9pm to 1am. (another section of the same page says \"karaoke Monday through Saturday\")"
+       }
+      ],
+      "note": "Venue page says nightly (another section says Mon–Sat); FindKaraoke (Oct 2026) lists only Tue & Thu. Possible conflict, so confirm before showing the Sun/Mon/Wed/Fri/Sat chips",
+      "basis": "manual review of source",
+      "manual": true
+     },
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "9 pm–1 am",
+      "confidence": "medium",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://jblovedrafts.com/",
+        "date": "2026-11-01",
+        "quote": "KARAOKE & THEMED EVENTS | Weekly karaoke Sun – Sat, 9pm to 1am. (another section of the same page says \"karaoke Monday through Saturday\")"
+       }
+      ],
+      "note": "Venue page says nightly (another section says Mon–Sat); FindKaraoke (Oct 2026) lists only Tue & Thu. Possible conflict, so confirm before showing the Sun/Mon/Wed/Fri/Sat chips",
+      "basis": "manual review of source",
+      "manual": true
+     },
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "9 pm–1 am",
+      "confidence": "medium",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://jblovedrafts.com/",
+        "date": "2026-11-01",
+        "quote": "KARAOKE & THEMED EVENTS | Weekly karaoke Sun – Sat, 9pm to 1am. (another section of the same page says \"karaoke Monday through Saturday\")"
+       }
+      ],
+      "note": "Venue page says nightly (another section says Mon–Sat); FindKaraoke (Oct 2026) lists only Tue & Thu. Possible conflict, so confirm before showing the Sun/Mon/Wed/Fri/Sat chips",
+      "basis": "manual review of source",
+      "manual": true
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "9 pm–1 am",
+      "confidence": "medium",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://jblovedrafts.com/",
+        "date": "2026-11-01",
+        "quote": "KARAOKE & THEMED EVENTS | Weekly karaoke Sun – Sat, 9pm to 1am. (another section of the same page says \"karaoke Monday through Saturday\")"
+       }
+      ],
+      "note": "Venue page says nightly (another section says Mon–Sat); FindKaraoke (Oct 2026) lists only Tue & Thu. Possible conflict, so confirm before showing the Sun/Mon/Wed/Fri/Sat chips",
+      "basis": "manual review of source",
+      "manual": true
+     },
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": "9 pm–1 am",
+      "confidence": "medium",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://jblovedrafts.com/",
+        "date": "2026-11-01",
+        "quote": "KARAOKE & THEMED EVENTS | Weekly karaoke Sun – Sat, 9pm to 1am. (another section of the same page says \"karaoke Monday through Saturday\")"
+       }
+      ],
+      "note": "Venue page says nightly (another section says Mon–Sat); FindKaraoke (Oct 2026) lists only Tue & Thu. Possible conflict, so confirm before showing the Sun/Mon/Wed/Fri/Sat chips",
+      "basis": "manual review of source",
+      "manual": true
+     }
+    ],
+    "hints": [
+     "Restaurantji review/summary mentions karaoke"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": [],
+    "reviewNote": "Targeted web search, manual read"
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/harrisburg/jb-lovedrafts-micropub-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://jblovedrafts.com/"
+   }
+  },
+  {
+   "id": "mad-moose-tavern",
+   "name": "Mad Moose Tavern",
+   "cuisine": "Neighborhood bar & grill",
+   "address": "1101 N 2nd St",
+   "lat": 40.26697,
+   "lng": -76.89027,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "http://madmoosetavern.com/",
+   "hours": "Mon-Sat 11:30a-2a; Sun 10a-2a",
+   "hoursNote": "Sunday brunch 10 am–2 pm.",
+   "kitchen": "Daily 11:30a-1a",
+   "kitchenNote": "Sunday brunch from 10 am.",
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "Venue site (via search)",
+   "county": "Dauphin",
+   "phone": "(717) 514-8224",
+   "phoneSource": "Search-result listings agree: Tripadvisor, chamberofcommerce.com, explorehbg.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "men-in-the-kitchen",
+   "name": "Men In The Kitchen",
+   "cuisine": "Soul food",
+   "address": "606 N 2nd St",
+   "lat": 40.26363,
+   "lng": -76.88781,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://meninthekitchenhbg.com/",
+   "hours": "Mon closed; Tue-Thu 11:30a-10p; Fri-Sat 12p-12a; Sun 12p-8p",
+   "hoursNote": "Monday closed (Google listing via Restaurantji; venue site lists Tue–Sun only).",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "Venue site; Restaurantji (Google-sourced listing); venue site meninthekitchenhbg.com (checked 2026-11-01)",
+   "county": "Dauphin",
+   "phone": "(717) 982-5850",
+   "phoneSource": "Venue site meninthekitchenhbg.com (Book a Table page), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://meninthekitchenhbg.com/"
+   }
+  },
+  {
+   "id": "bourbon-street-saloon",
+   "name": "Bourbon Street Saloon",
+   "cuisine": "Bar (three bars, pong, pool)",
+   "address": "37 N 2nd St",
+   "lat": 40.26052,
+   "lng": -76.88301,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://bourbonstreetsaloon.com/",
+   "hours": "Mon-Sat 4p-2a; Sun closed",
+   "hoursNote": "Sun from Google listing via Restaurantji (updated Oct 20, 2026).",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene",
+    "Sports & games"
+   ],
+   "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 20, 2026) (checked 2026-11-01)",
+   "county": "Dauphin",
+   "phone": "(717) 333-4324",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 20, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Dance / club crowd"
+    ],
+    "summary": "A dancing / club crowd late.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+        "url": "https://www.restaurantji.com/pa/harrisburg/bourbon-street-saloon-/",
+        "quote": "un. Recent renovations in the back section have added amenities like pong, pool, darts, a dance floor, and a DJ, making it a great place for a night out. Smoking is allowed, and the environme",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "hints": [
+     "Restaurantji review/summary mentions dj"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/harrisburg/bourbon-street-saloon-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://bourbonstreetsaloon.com/"
+   }
+  },
+  {
+   "id": "zembie-s-sports-tavern",
+   "name": "Zembie's Sports Tavern",
+   "cuisine": "Sports tavern",
+   "address": "226 N 2nd St",
+   "phone": "(717) 232-5020",
+   "phoneSource": "Official site zembies.net, checked 2026-11-01",
+   "lat": 40.26147,
+   "lng": -76.88489,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://www.zembies.net/",
+   "hours": "Mon-Fri 11:30a-12a; Sat-Sun 12p-12a",
+   "hoursNote": "Site lists bar hours Mon–Fri 12 pm–12 am, Sat–Sun 1 pm–12 am; kitchen opens earlier.",
+   "kitchen": "Mon-Thu 11:30a-11p; Fri 11:30a-12a; Sat 12p-12a; Sun 12p-10p",
+   "kitchenNote": "Dine-in specials end 11 pm.",
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy hour 5–7 pm"
+    },
+    {
+     "days": "Sun",
+     "text": "Happy hour 8–10 pm"
+    }
+   ],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Sports & games",
+    "Bar scene"
+   ],
+   "source": "Venue site",
+   "county": "Dauphin",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.zembies.net/",
+        "quote": "s, and affordable daily food & drink specials, Zembie's is Harrisburg's original and best sports bar. | Scroll Down to Content | Slide 1 of 6 | Slide 2 of 6 | Slide 3 of 6 | Slide 4 of 6 | S",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke",
+      "url": "https://www.zembies.net/"
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.zembies.net/"
+   },
+   "menu": "https://www.zembies.net/menu/"
+  },
+  {
+   "id": "sammy-s-italian-restaurant",
+   "name": "Sammy's Italian Restaurant",
+   "cuisine": "Italian (BYOB)",
+   "address": "502 N 3rd St",
+   "phone": "(717) 221-0192",
+   "phoneSource": "Official site sammysitalianrestaurant.com, checked 2026-11-01",
+   "lat": 40.2642,
+   "lng": -76.88525,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://sammysitalianrestaurant.com/",
+   "hours": "Mon-Thu 11:30a-9p; Fri 11:30a-10p; Sat 4p-10p; Sun closed",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Date night",
+    "Family-friendly"
+   ],
+   "source": "Venue site",
+   "county": "Dauphin",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://sammysitalianrestaurant.com/",
+        "quote": "ted salmon, plated at the range. | Ask for them by name. | The plates this room built its regulars on. Two of them carry the family's own names. | Chicken alla Vic | 34.95 | Sautéed with s",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/harrisburg/sammys-authentic-italian-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://sammysitalianrestaurant.com/"
+   },
+   "menu": "https://sammysitalianrestaurant.com/dinner/"
+  },
+  {
+   "id": "lancaster-brewing-co-harrisburg",
+   "name": "Lancaster Brewing Co. – Harrisburg",
+   "cuisine": "Brewpub",
+   "address": "469 Eisenhower Blvd",
+   "lat": 40.25018,
+   "lng": -76.81355,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://lancasterbrewing.com/dine/harrisburg",
+   "hours": "Mon-Thu 4p-10p; Fri-Sat 12p-11p; Sun 12p-8p",
+   "hoursNote": null,
+   "kitchen": "Mon-Thu 4p-9p; Fri-Sat 12p-10p; Sun 12p-8p",
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy hour 5–7 pm: $1 off drafts (taproom)",
+     "tags": [
+      "beer"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "$8.99 burger"
+    },
+    {
+     "days": "Tue",
+     "text": "$9.99 meatball grinder"
+    },
+    {
+     "days": "Wed",
+     "text": "$8.99 wings (10 jumbo) with bleu cheese & celery",
+     "tags": [
+      "wings"
+     ],
+     "src": "lancasterbrewing.com Harrisburg page",
+     "checked": "Oct 31, 2026"
+    },
+    {
+     "days": "Thu",
+     "text": "$8.99 thin-crust pizza"
+    },
+    {
+     "days": "Fri",
+     "text": "$4.99 pretzel braid"
+    },
+    {
+     "days": "Sun",
+     "text": "$8.99 wings (10 jumbo) with bleu cheese & celery",
+     "tags": [
+      "wings"
+     ],
+     "src": "lancasterbrewing.com Harrisburg page",
+     "checked": "Oct 31, 2026"
+    }
+   ],
+   "crowd": null,
+   "vibes": [
+    "Family-friendly",
+    "Bar scene"
+   ],
+   "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
+   "county": "Dauphin",
+   "phone": "(717) 564-4448",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 7, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/harrisburg/lancaster-brewing-company-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://lancasterbrewing.com/dine/harrisburg"
+   },
+   "menu": "https://www.lancasterbrewing.com/dine/lbc-harrisburg/"
+  },
+  {
+   "id": "boneshire-brew-works",
+   "name": "Boneshire Brew Works",
+   "cuisine": "Brewery & kitchen",
+   "address": "7462 Derry St",
+   "phone": "(717) 412-7814",
+   "phoneSource": "Official site boneshire.com, checked 2026-11-01",
+   "lat": 40.26602,
+   "lng": -76.75875,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://boneshire.com/",
+   "hours": "Mon closed; Tue-Thu 4p-10p; Fri-Sat 12p-10p; Sun 12p-8p",
+   "hoursNote": null,
+   "kitchen": "Tue-Thu 4p-8p; Fri-Sun 12p-8p",
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "Venue site",
+   "county": "Dauphin",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://boneshire.com/"
+   },
+   "menu": "https://www.boneshire.com/on-tap-2/"
+  },
+  {
+   "id": "boneshire-taps-soma",
+   "name": "Boneshire Taps @ SOMA",
+   "cuisine": "Taproom",
+   "address": "13 S 3rd St",
+   "lat": 40.26064,
+   "lng": -76.88016,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://boneshire.com/",
+   "hours": "Mon-Tue closed; Wed-Sat 4p-10p; Sun closed",
+   "hoursNote": "Sun–Tue closed (Google listing via Restaurantji and Sirved).",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "Venue site; Restaurantji (Google-sourced listing), Sirved (checked 2026-11-01)",
+   "county": "Dauphin",
+   "phone": "(717) 412-7814",
+   "phoneSource": "Restaurantji (Google-sourced listing) and Sirved, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://boneshire.com/"
+   },
+   "menu": "https://www.boneshire.com/on-tap-2/"
+  },
+  {
+   "id": "ihop",
+   "name": "IHOP",
+   "cuisine": "Pancake house (chain)",
+   "address": "4002 Union Deposit Rd",
+   "lat": 40.27854,
+   "lng": -76.82339,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://restaurants.ihop.com/en-us/pa/harrisburg/breakfast-4002-union-deposit-rd-3407",
+   "hours": "Daily 24h",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Family-friendly"
+   ],
+   "source": "Chain locator; Restaurantji (Google-sourced listing, updated Oct 2, 2026) (checked 2026-11-01)",
+   "county": "Dauphin",
+   "phone": "(717) 346-1995",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 2, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/harrisburg/ihop-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://restaurants.ihop.com/en-us/pa/harrisburg/breakfast-4002-union-deposit-rd-3407"
+   },
+   "menu": "https://www.ihop.com/en/menu"
+  },
+  {
+   "id": "rubicon",
+   "name": "Rubicon",
+   "cuisine": "Wine bar & small plates",
+   "address": "270 North St",
+   "phone": "(717) 317-9027",
+   "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
+   "lat": 40.26492,
+   "lng": -76.88611,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://www.rubiconhbg.com/",
+   "hours": "Tue-Sat 5p-9p; Sun-Mon closed",
+   "hoursNote": "Happy hour: $8 curated wines, $10 sparkling (times not listed).",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy hour: $8 glass of red or white wine",
+     "src": "Rubicon Facebook post Oct 16, 2026 (via bars10)",
+     "checked": "2026-11-01",
+     "flag": "Days/times not stated"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Tue-Sat",
+     "text": "$1.50 oysters at the bar"
+    }
+   ],
+   "crowd": null,
+   "vibes": [
+    "Date night"
+   ],
+   "source": "Search synthesis of venue site; deals from venue site; Rubicon Facebook post Oct 16, 2026 (via bars10) (checked 2026-11-01)",
+   "county": "Dauphin",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/harrisburg/rubicon-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.rubiconhbg.com/"
+   },
+   "menu": "https://www.rubiconhbg.com/menus"
+  },
+  {
+   "id": "bodega-food-co",
+   "name": "Bodega Food Co.",
+   "cuisine": "Latin street food",
+   "address": "1100 N 3rd St",
+   "lat": 40.26802,
+   "lng": -76.88781,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://bodegafood.co/",
+   "hours": "Mon-Thu 11a-9p; Fri 11a-12a; Sat 12p-12a; Sun 12p-8p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy hour 2–4 pm (2x rewards points)",
+     "src": "Venue site bodegafood.co",
+     "checked": "2026-11-01",
+     "flag": "Mentioned in loyalty-program text; specials not listed."
+    }
+   ],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "Venue site; Venue site bodegafood.co (checked 2026-11-01)",
+   "county": "Dauphin",
+   "phone": "(717) 724-9600",
+   "phoneSource": "Search-result listings agree: Tripadvisor, explorehbg.com, checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.bodegafood.co/",
+        "quote": "About Us | Located in the heart of Midtown Harrisburg, | Bodega Food Co. | is your go-to neighborhood spot for bold, handcrafted eats. | ​ | From juicy smash burgers and chopped cheese beef patty",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://bodegafood.co/"
+   }
+  },
+  {
+   "id": "underdog-sports-bar-and-grill",
+   "name": "Underdog Sports Bar & Grill",
+   "cuisine": "Sports bar",
+   "address": "3100 Paxton St",
+   "phone": "(717) 564-5150",
+   "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
+   "lat": 40.25574,
+   "lng": -76.83692,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://www.underdogsportsbarandgrill.com/",
+   "hours": "Daily 11a-1:30a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy hour 4:30–6:30 pm: $1 off liquor & draft beer",
+     "tags": [
+      "beer"
+     ]
+    },
+    {
+     "days": "Sat,Sun",
+     "text": "Happy hour 5–7 pm: $1 off liquor & draft beer",
+     "tags": [
+      "beer"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "days": "Mon-Fri",
+     "text": "Lunch specials from $4.99"
+    },
+    {
+     "days": "Mon",
+     "text": "Live trivia 7 pm"
+    },
+    {
+     "days": "Tue",
+     "text": "Free bar bingo 6:30–9 pm"
+    },
+    {
+     "days": "Thu",
+     "text": "$3.50 Golden Road Mango Cart",
+     "tags": [
+      "beer"
+     ],
+     "src": "Underdog Facebook post Oct 22, 2026 (via bars10)",
+     "checked": "Oct 31, 2026",
+     "flag": "Single recent post; may not be weekly"
+    }
+   ],
+   "crowd": null,
+   "vibes": [
+    "Sports & games",
+    "Bar scene"
+   ],
+   "source": "exa.ai places listing; deals from venue site",
+   "county": "Dauphin",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/pa/harrisburg/underdog-sports-bar-and-grill-/",
+        "quote": "Underdog Sports Bar and Grill provides a friendly atmosphere with delicious food and good service. The menu f",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'good for watching sports' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/harrisburg/underdog-sports-bar-and-grill-/",
+        "quote": "good for watching sports"
+       },
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.underdogsportsbarandgrill.com/",
+        "quote": "Home - Underdog Sports Bar and Grill Underdog Sports Bar and Grill | Home - Underdog Sports Bar and Grill | (717)564",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "hints": [
+     "Google attribute 'karaoke' (via Restaurantji)"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/harrisburg/underdog-sports-bar-and-grill-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.underdogsportsbarandgrill.com/"
+   },
+   "trivia": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7 pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-02",
+      "datedLastSeen": "2026-11-02",
+      "note": "Cheaters Never Prosper Trivia: Different event every week",
+      "sources": [
+       {
+        "src": "cnptrivia.com weekly schedule",
+        "url": "https://cnptrivia.com/weekly-schedule/",
+        "date": "2026-11-02",
+        "quote": "Underdog Sports Bar & Grill at 7pm — DIFFERENT EVENT EVERY WEEK"
+       }
+      ],
+      "basis": "vendor schedule (CNP Trivia)",
+      "vendor": "Cheaters Never Prosper Trivia"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Live Trivia",
+      "url": "https://www.underdogsportsbarandgrill.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Live trivia every Monday at 7:00 with Cheaters Never Prosper",
+      "url": "https://www.underdogsportsbarandgrill.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Live Trivia",
+      "url": "https://www.underdogsportsbarandgrill.com/lunch/"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.underdogsportsbarandgrill.com/",
+        "date": "2026-11-01",
+        "quote": "Bar Bingo | FREE every Tuesday night from 6:30-9:00. | FREE every Tuesday night from 6:30-9:00. | Prizes awarded every game!!"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Bar Bingo",
+      "url": "https://www.underdogsportsbarandgrill.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Beer & Bingo",
+      "url": "https://www.underdogsportsbarandgrill.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Bar Bingo",
+      "url": "https://www.underdogsportsbarandgrill.com/lunch/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ad-lib-craft-kitchen-and-bar",
+   "name": "Ad Lib Craft Kitchen & Bar",
+   "cuisine": "New American (hotel restaurant)",
+   "address": null,
+   "phone": "(717) 237-6419",
+   "phoneSource": "Official site adlibrestaurants.com, checked 2026-11-01",
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://www.adlibrestaurants.com/",
+   "hours": "Daily 7a-9p",
+   "hoursNote": "Breakfast 7–11 am; lunch 11–5; dinner 5–9 pm; Sunday brunch 11–2.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Date night"
+   ],
+   "source": "Search synthesis of venue site & OpenTable",
+   "county": "Dauphin",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/harrisburg/ad-lib-craft-kitchen-and-bar-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.adlibrestaurants.com/"
+   },
+   "menu": "https://www.adlibrestaurants.com/menu"
+  },
+  {
+   "id": "home231",
+   "name": "Home231",
+   "cuisine": "Farm-to-table",
+   "address": null,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://www.home231.co/",
+   "hours": "Mon 11a-10p; Tue closed; Wed-Fri 11a-10p; Sat 5p-10p; Sun 9a-2p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Date night"
+   ],
+   "source": "Search synthesis of venue site; home231.co, NetWaiter and menu-site listings (checked 2026-11-01)",
+   "county": "Dauphin",
+   "phone": "(717) 232-4665",
+   "phoneSource": "home231.co, NetWaiter and menu-site listings, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "1700-degrees-steakhouse",
+   "name": "1700 Degrees Steakhouse",
+   "cuisine": "Steakhouse",
+   "address": "1 N 2nd St",
+   "phone": "(717) 237-6400",
+   "phoneSource": "Official site 1700restaurant.com, checked 2026-11-01",
+   "lat": 40.26027,
+   "lng": -76.88187,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://www.1700restaurant.com/",
+   "hours": "Mon-Sat 5p-9p; Sun closed",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Date night"
+   ],
+   "source": "Venue site",
+   "county": "Dauphin",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.1700restaurant.com/",
+        "quote": "e Wine. Rare Spirits. | There are a number of reasons why you will be delighted with your fine dining experience at 1700 Degrees Steakhouse. The décor is stunning, with large windows overlook",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.1700restaurant.com/"
+   },
+   "menu": "https://www.1700restaurant.com/menus"
+  },
+  {
+   "id": "dodge-city-steakhouse",
+   "name": "Dodge City Steakhouse",
+   "cuisine": "Steakhouse",
+   "address": "1037 Paxton St",
+   "phone": "(717) 236-2719",
+   "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
+   "lat": 40.25563,
+   "lng": -76.8709,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://www.dodgecityrestaurant.com/",
+   "hours": "Mon closed; Tue-Thu 11a-3p,4p-8p; Fri 11a-3p,4p-9p; Sat 4p-9p; Sun 12p-8p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Family-friendly"
+   ],
+   "source": "Venue site",
+   "county": "Dauphin",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/harrisburg/dodge-city-steakhouse-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.dodgecityrestaurant.com/"
+   },
+   "menu": "https://www.dodgecityrestaurant.com/menu"
+  },
+  {
+   "id": "the-brick-haus",
+   "name": "The Brick Haus",
+   "cuisine": "Bar & restaurant",
+   "address": "229 N 2nd St",
+   "lat": 40.26171,
+   "lng": -76.88476,
+   "priceText": null,
+   "priceLevel": null,
+   "website": null,
+   "hours": "Mon 5p-12a; Tue closed; Wed 5p-12a; Thu-Sat 5p-2a; Sun 12p-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "exa.ai places listing; Restaurantji (Google-sourced listing, updated Sep 17, 2026) (checked 2026-11-01)",
+   "county": "Dauphin",
+   "phone": "(717) 233-4287",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Sep 17, 2026), checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "rookies-craft-burger-bar",
+   "name": "Rookies Craft Burger Bar",
+   "cuisine": "Burger bar & grill",
+   "address": "2238 Derry St",
+   "lat": 40.26034,
+   "lng": -76.84905,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://www.rookiesburgerbar.com/",
+   "hours": "Mon-Thu 11a-11p; Fri 11a-12a; Sat 12p-12a; Sun closed",
+   "hoursNote": "Sunday closed per Tripadvisor and the Google listing; venue site lists Mon–Sat only (a 2023 PennLive piece showed Sunday hours).",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy hour 4–7 pm: drink & food specials"
+    }
+   ],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Sports & games",
+    "Family-friendly"
+   ],
+   "source": "Venue site; Tripadvisor, Restaurantji (Google-sourced listing), venue site rookiesburgerbar.com (checked 2026-11-01)",
+   "county": "Dauphin",
+   "phone": "(717) 561-0030",
+   "phoneSource": "Tripadvisor and Restaurantji (Google-sourced listing), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Sports fans"
+    ],
+    "summary": "Family-friendly; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.rookiesburgerbar.com/",
+        "quote": "Foods specials!! | ​ | Thank you for dining with us here at Rookies Craft Burger Bar. Our family friendly grill & bar. | ​ | Application is no longer available. | GET IN TOUCH | TELL US WHAT YOU",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.rookiesburgerbar.com/",
+        "quote": "--> | Rookies Bar & Grill | Sports bar | 2238 Derry St, Harrisburg, PA, USA | top of page | HOME | Why Rookies | RESERVATIONS",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.rookiesburgerbar.com/"
+   },
+   "menu": "https://www.rookiesburgerbar.com/menu"
+  },
+  {
+   "id": "paxtang-grill",
+   "name": "Paxtang Grill",
+   "cuisine": "American grill & bar",
+   "address": "3323 Derry St",
+   "phone": "(717) 564-2738",
+   "phoneSource": "Official site paxtanggrill.com, checked 2026-11-01",
+   "lat": 40.25909,
+   "lng": -76.83418,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://www.paxtanggrill.com/",
+   "hours": "Mon-Sat 11a-2a; Sun closed",
+   "hoursNote": "Saturday brunch 11 am–2 pm. Sunday closed (venue site lists no Sunday; Google listing and MenuPix show closed). Conflict: the venue store page and Google listing say closed Mondays, while the venue home page lists Monday. Happy-hour menu posted as an image (times not readable).",
+   "kitchen": "Mon-Thu 11a-9p; Fri-Sat 11a-10p",
+   "kitchenNote": "Kitchen hours from venue site (\"new hours\"); bar until 2 am. (Venue site paxtanggrill.com, checked 2026-11-01)",
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy hour 2–5 pm: Chef Picks 25% off",
+     "src": "Paxtang Grill Facebook post Oct 23, 2026 (via bars10)",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "Venue site; Venue site paxtanggrill.com; Google listing (via Exa), MenuPix (checked 2026-11-01); Paxtang Grill Facebook post Oct 23, 2026 (via bars10) (checked 2026-11-01); Venue site paxtanggrill.com (checked 2026-11-01)",
+   "county": "Dauphin",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.paxtanggrill.com/"
+   }
+  },
+  {
+   "id": "hooker-s-seafood-joint",
+   "name": "Hooker's Seafood Joint",
+   "cuisine": "Seafood",
+   "address": "405 Walnut St",
+   "lat": 40.26288,
+   "lng": -76.88104,
+   "priceText": null,
+   "priceLevel": null,
+   "website": null,
+   "hours": "Mon closed; Tue-Sat 11a-8p; Sun 11a-5p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "exa.ai places; venue Facebook post",
+   "county": "Dauphin",
+   "phone": "(717) 850-8779",
+   "phoneSource": "Search-result listings agree: chamberofcommerce.com, harrisburgdid.com, checked 2026-11-01",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "district-lounge",
+   "name": "District Lounge",
+   "cuisine": "Lounge",
+   "address": "1014 N 3rd St",
+   "lat": 40.2675,
+   "lng": -76.88745,
+   "priceText": null,
+   "priceLevel": null,
+   "website": null,
+   "hours": "Daily 11a-1a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "exa.ai places listing; Restaurantji (Google-sourced listing, updated Oct 11, 2026) (checked 2026-11-01)",
+   "county": "Dauphin",
+   "phone": "(717) 232-1510",
+   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 11, 2026), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Dance / club crowd"
+    ],
+    "summary": "A dancing / club crowd late.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Dance / club crowd",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-11",
+        "url": "https://www.restaurantji.com/pa/harrisburg/district-bar-and-lounge-/",
+        "quote": "g lighting inside, making it a great place to relax and enjoy. Although it functions as a nightclub with slightly sticky floors, the quality of the food and service makes it worth a visit.",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'has dancing' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/pa/harrisburg/district-bar-and-lounge-/",
+        "quote": "has dancing"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/pa/harrisburg/district-bar-and-lounge-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "latin-mambo-ii",
+   "name": "Latin Mambo II",
+   "cuisine": "Dominican",
+   "address": "111 N 2nd St",
+   "lat": 40.26068,
+   "lng": -76.88336,
+   "priceText": null,
+   "priceLevel": null,
+   "website": null,
+   "hours": "Daily 9a-10p",
+   "hoursNote": "DoorDash shows 8:45 am–9:10 pm.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "Tripe special",
+     "src": "Hoodline (Sep 2026, citing PennLive)",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Thu",
+     "text": "Oxtail special",
+     "src": "Hoodline (Sep 2026, citing PennLive)",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Fri",
+     "text": "Goat special",
+     "src": "Hoodline (Sep 2026, citing PennLive)",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Sat",
+     "text": "Soup special",
+     "src": "Hoodline (Sep 2026, citing PennLive)",
+     "checked": "2026-11-01"
+    }
+   ],
+   "crowd": null,
+   "vibes": [
+    "Family-friendly"
+   ],
+   "source": "Delivery listing (Uber Eats) via search; opened 2026; Hoodline (Sep 2026, citing PennLive) (checked 2026-11-01)",
+   "county": "Dauphin",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "el-rodeo",
+   "name": "El Rodeo",
+   "cuisine": "Mexican",
+   "address": "4659 Jonestown Rd",
+   "phone": "(717) 652-5340",
+   "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
+   "lat": 40.30214,
+   "lng": -76.81253,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "http://elrodeopa.com",
+   "hours": "Sun-Thu 11a-9p; Fri-Sat 11a-10:30p",
+   "hoursNote": "Full bar.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Family-friendly"
+   ],
+   "source": "MapQuest listing",
+   "county": "Dauphin",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "http://elrodeopa.com"
+   },
+   "websiteSource": "OpenStreetMap way/1133513329 website tag (map data 2026-10-31), checked 2026-11-01"
+  },
+  {
+   "id": "gabriella-s-italian-ristorante",
+   "name": "Gabriella's Italian Ristorante",
+   "cuisine": "Italian",
+   "address": "3907 Jonestown Rd",
+   "phone": "(717) 540-0040",
+   "phoneSource": "Official site gabriellaristorante.com, checked 2026-11-01",
+   "lat": 40.29289,
+   "lng": -76.83026,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://gabriellaristorante.com/",
+   "hours": "Daily 11a-10p",
+   "hoursNote": "Sunday 11 am–10 pm per the Google listing (via Restaurantji); venue says dinner is served all day Sunday.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Family-friendly",
+    "Date night"
+   ],
+   "source": "Venue site (via search); Restaurantji (Google-sourced listing) (checked 2026-11-01)",
+   "county": "Dauphin",
+   "crowdChecked": "2026-11-01",
+   "crowdSources": {
+    "restaurantji": null,
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://gabriellaristorante.com/"
+   }
+  },
+  {
+   "id": "pa-kpot-korean-bbq-hot-pot-harrisburg",
+   "name": "KPOT Korean BBQ & Hot Pot",
+   "cuisine": "Korean",
+   "address": "2810 Paxton Street, Harrisburg",
+   "state": "PA",
+   "zip": "17111",
+   "phone": "(717) 918-3322",
+   "phoneSource": "OpenStreetMap node/14283585297 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 40.256153,
+   "lng": -76.840969,
+   "website": "https://thekpot.com/location/harrisburg-paxton/",
+   "websiteSource": "OpenStreetMap node/14283585297 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu 11:30a-10:30p; Fri-Sat 11:30a-11:30p; Sun 11:30a-10:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/14283585297 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Dauphin",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "pa-royal-winery-harrisburg",
+   "name": "Royal Winery",
+   "cuisine": "Winery & brewery",
+   "address": "5790 Devonshire Rd, Harrisburg",
+   "state": "PA",
+   "zip": "17112",
+   "phone": "(717) 857-5544",
+   "phoneSource": "Cheaters Never Prosper venue match / https://www.royalwineryandvineyard.com/visit-us.html, checked 2026-11-02",
+   "lat": 40.303444,
+   "lng": -76.786753,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Fri 5p-10p; Sat 12p-10p; Sun 12p-6p; Mon-Thu closed",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from https://www.royalwineryandvineyard.com/visit-us.html (checked 2026-11-02); venue on the Cheaters Never Prosper Trivia weekly schedule (https://cnptrivia.com/weekly-schedule/)",
+   "county": "Dauphin",
+   "addedBy": "refresh-cnp",
+   "bingo": {
+    "nights": [
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": "2:30 pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-02",
+      "datedLastSeen": "2026-11-02",
+      "note": "Cheaters Never Prosper Trivia: Music bingo",
+      "sources": [
+       {
+        "src": "cnptrivia.com weekly schedule",
+        "url": "https://cnptrivia.com/weekly-schedule/",
+        "date": "2026-11-02",
+        "quote": "Royal Winery at 2:30pm — MUSIC BINGO"
+       }
+      ],
+      "basis": "vendor schedule (CNP Trivia)",
+      "vendor": "Cheaters Never Prosper Trivia"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "trivia": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "1st & 3rd monthly",
+      "start": "6:30 pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-02",
+      "datedLastSeen": "2026-11-02",
+      "note": "Cheaters Never Prosper Trivia: Themed trivia on 1st & 3rd fridays",
+      "sources": [
+       {
+        "src": "cnptrivia.com weekly schedule",
+        "url": "https://cnptrivia.com/weekly-schedule/",
+        "date": "2026-11-02",
+        "quote": "Royal Winery at 6:30pm — THEMED TRIVIA ON 1ST & 3RD FRIDAYS"
+       }
+      ],
+      "basis": "vendor schedule (CNP Trivia)",
+      "vendor": "Cheaters Never Prosper Trivia"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
+  },
+  {
+   "id": "pa-the-doghouse-harrisburg",
+   "name": "The DogHouse",
+   "cuisine": "Bar & grill",
+   "address": "6791 Linglestown Rd, Harrisburg",
+   "state": "PA",
+   "zip": "17112",
+   "phone": "(717) 651-9493",
+   "phoneSource": "Cheaters Never Prosper venue match / https://www.clipp.com/all-offers/5-off-any-purchase-25-or-more-harrisburg-pa-coupon-12850159, checked 2026-11-02",
+   "lat": 40.349772,
+   "lng": -76.768907,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Mon-Thu 11a-11p; Fri 11a-12a; Sat 12p-12a; Sun 12p-8p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from https://www.clipp.com/all-offers/5-off-any-purchase-25-or-more-harrisburg-pa-coupon-12850159 (venue FAQ doghousebarandgrill.com/service says daily 11a-12a; Yelp shows 9p Mon-Thu, 10p Fri/Sat) (checked 2026-11-02); venue on the Cheaters Never Prosper Trivia weekly schedule (https://cnptrivia.com/weekly-schedule/)",
+   "county": "Dauphin",
+   "addedBy": "refresh-cnp",
+   "bingo": {
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": "6 pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-02",
+      "datedLastSeen": "2026-11-02",
+      "note": "Cheaters Never Prosper Trivia: Music bingo",
+      "sources": [
+       {
+        "src": "cnptrivia.com weekly schedule",
+        "url": "https://cnptrivia.com/weekly-schedule/",
+        "date": "2026-11-02",
+        "quote": "The DogHouse at 6pm — MUSIC BINGO"
+       }
+      ],
+      "basis": "vendor schedule (CNP Trivia)",
+      "vendor": "Cheaters Never Prosper Trivia"
+     },
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7 pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-02",
+      "datedLastSeen": "2026-11-02",
+      "note": "Cheaters Never Prosper Trivia: Music bingo",
+      "sources": [
+       {
+        "src": "cnptrivia.com weekly schedule",
+        "url": "https://cnptrivia.com/weekly-schedule/",
+        "date": "2026-11-02",
+        "quote": "The DogHouse at 7pm — MUSIC BINGO"
+       }
+      ],
+      "basis": "vendor schedule (CNP Trivia)",
+      "vendor": "Cheaters Never Prosper Trivia"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
+  },
+  {
+   "id": "pa-the-goat-brewing-co-harrisburg",
+   "name": "The Goat Brewing Co",
+   "cuisine": "Brewery & sports bar",
+   "address": "8001 Union Station Blvd, Harrisburg",
+   "state": "PA",
+   "zip": "17111",
+   "phone": "(717) 982-6746",
+   "phoneSource": "Cheaters Never Prosper venue match / https://thegoatbrewing.com/, checked 2026-11-02",
+   "lat": 40.290012,
+   "lng": -76.775219,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Tue-Fri 4p-12a; Sat 11a-12a; Sun 11a-10p; Mon closed",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from https://thegoatbrewing.com/ (checked 2026-11-02); venue on the Cheaters Never Prosper Trivia weekly schedule (https://cnptrivia.com/weekly-schedule/)",
+   "county": "Dauphin",
+   "addedBy": "refresh-cnp",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "6:30 pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-02",
+      "datedLastSeen": "2026-11-02",
+      "note": "Cheaters Never Prosper Trivia: Music trivia",
+      "sources": [
+       {
+        "src": "cnptrivia.com weekly schedule",
+        "url": "https://cnptrivia.com/weekly-schedule/",
+        "date": "2026-11-02",
+        "quote": "The Goat Brewing Co at 6:30pm — MUSIC TRIVIA"
+       }
+      ],
+      "basis": "vendor schedule (CNP Trivia)",
+      "vendor": "Cheaters Never Prosper Trivia"
+     },
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7 pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-02",
+      "datedLastSeen": "2026-11-02",
+      "note": "Cheaters Never Prosper Trivia",
+      "sources": [
+       {
+        "src": "cnptrivia.com weekly schedule",
+        "url": "https://cnptrivia.com/weekly-schedule/",
+        "date": "2026-11-02",
+        "quote": "The Goat Brewing Co at 7pm"
+       }
+      ],
+      "basis": "vendor schedule (CNP Trivia)",
+      "vendor": "Cheaters Never Prosper Trivia"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "6:30 pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-02",
+      "datedLastSeen": "2026-11-02",
+      "note": "Cheaters Never Prosper Trivia: Music bingo",
+      "sources": [
+       {
+        "src": "cnptrivia.com weekly schedule",
+        "url": "https://cnptrivia.com/weekly-schedule/",
+        "date": "2026-11-02",
+        "quote": "The Goat Brewing Co at 6:30pm — MUSIC BINGO"
+       }
+      ],
+      "basis": "vendor schedule (CNP Trivia)",
+      "vendor": "Cheaters Never Prosper Trivia"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
+  },
+  {
+   "id": "pa-angies-diner-lounge-harrisburg",
+   "name": "Angie's Diner & Lounge",
+   "cuisine": "Diner & lounge",
+   "address": "1360 Eisenhower Blvd, Harrisburg",
+   "state": "PA",
+   "zip": "17111",
+   "phone": "(717) 939-0417",
+   "phoneSource": "Cheaters Never Prosper venue match / https://angiesdinerandlounge.com/contact-us/, checked 2026-11-02",
+   "lat": 40.225984,
+   "lng": -76.796495,
+   "website": null,
+   "websiteSource": null,
+   "hours": "daily 6a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from https://angiesdinerandlounge.com/contact-us/ (checked 2026-11-02); venue on the Cheaters Never Prosper Trivia weekly schedule (https://cnptrivia.com/weekly-schedule/)",
+   "county": "Dauphin",
+   "addedBy": "refresh-cnp",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "6:30 pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-02",
+      "datedLastSeen": "2026-11-02",
+      "note": "Cheaters Never Prosper Trivia",
+      "sources": [
+       {
+        "src": "cnptrivia.com weekly schedule",
+        "url": "https://cnptrivia.com/weekly-schedule/",
+        "date": "2026-11-02",
+        "quote": "Angie's Diner & Lounge at 6:30pm"
+       }
+      ],
+      "basis": "vendor schedule (CNP Trivia)",
+      "vendor": "Cheaters Never Prosper Trivia"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
+  },
+  {
+   "id": "pa-boro-bar-grill-riverview-harrisburg",
+   "name": "Boro Bar & Grill RiverView",
+   "cuisine": "Bar & grill",
+   "address": "4425 North Front St, Harrisburg",
+   "state": "PA",
+   "zip": "17110",
+   "phone": "(717) 695-3622",
+   "phoneSource": "Cheaters Never Prosper venue match / https://borobar.com/contact/, checked 2026-11-02",
+   "lat": 40.325452,
+   "lng": -76.89921,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Mon 11:30a-11p; Tue closed; Wed-Sun 11:30a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from https://borobar.com/contact/ (checked 2026-11-02); venue on the Cheaters Never Prosper Trivia weekly schedule (https://cnptrivia.com/weekly-schedule/)",
+   "county": "Dauphin",
+   "addedBy": "refresh-cnp",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7 pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-02",
+      "datedLastSeen": "2026-11-02",
+      "note": "Cheaters Never Prosper Trivia: Rotates between general & music trivia",
+      "sources": [
+       {
+        "src": "cnptrivia.com weekly schedule",
+        "url": "https://cnptrivia.com/weekly-schedule/",
+        "date": "2026-11-02",
+        "quote": "Boro Bar & Grill RiverView at 7pm — ROTATES BETWEEN GENERAL & MUSIC TRIVIA"
+       }
+      ],
+      "basis": "vendor schedule (CNP Trivia)",
+      "vendor": "Cheaters Never Prosper Trivia"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
+  },
+  {
+   "id": "pa-brothers-pizza-harrisburg",
+   "name": "Brother's Pizza",
+   "cuisine": "Pizza",
+   "address": "1426 North 3rd Street, Harrisburg",
+   "state": "PA",
+   "zip": "17102",
+   "phone": "(717) 234-8300",
+   "phoneSource": "OpenStreetMap node/920490468 phone tag (map data 2026-11-01), checked 2026-11-02",
+   "lat": 40.271447,
+   "lng": -76.890435,
+   "website": "https://www.twobrothersofmidtown.com/",
+   "websiteSource": "OpenStreetMap node/920490468 website tag (map data 2026-11-01), checked 2026-11-02",
+   "hours": "Mon-Fri 10a-9p; Sat-Sun closed",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/920490468 opening_hours tag (map data 2026-11-01; last checked on the map 2026-03-13) (checked 2026-11-02); late hours confirmed by venue website https://www.twobrothersofmidtown.com/: \"rd St | Ste 1937 | Harrisburg, PA 17102 | (717) 234-8300 | Business Hours | Mon - Fri: | 10:00 AM - 9:00 PM | Sat & S\" (checked 2026-11-02)",
+   "county": "Dauphin",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "pa-burger-yum-harrisburg",
+   "name": "Burger Yum",
+   "cuisine": "Burgers",
+   "address": "400 North 2nd Street, Harrisburg",
+   "state": "PA",
+   "zip": "17101",
+   "phone": "(717) 727-7127",
+   "phoneSource": "OpenStreetMap node/3575137125 phone tag (map data 2026-11-01), checked 2026-11-02",
+   "lat": 40.262513,
+   "lng": -76.886358,
+   "website": "http://www.burgeryum.com",
+   "websiteSource": "OpenStreetMap node/3575137125 website tag (map data 2026-11-01), checked 2026-11-02",
+   "hours": "Mon-Sat 11a-9p; Sun closed",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/3575137125 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.burgeryum.com: \"Phone | (717) 727-7127 | Location | 400 North 2nd St. Harrisburg, PA 17101 | Hours | Mon-Sat | 11am–9pm | Sun | c\" (checked 2026-11-02)",
+   "county": "Dauphin",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "pa-arepa-house-harrisburg",
+   "name": "Arepa House",
+   "cuisine": "Latin American",
+   "address": "404 North 2nd Street, Harrisburg",
+   "state": "PA",
+   "zip": "17101",
+   "phone": "(717) 857-6656",
+   "phoneSource": "OpenStreetMap node/10944125334 phone tag (map data 2026-11-01), checked 2026-11-02",
+   "lat": 40.262594,
+   "lng": -76.886437,
+   "website": "https://www.arepahousepa.com",
+   "websiteSource": "OpenStreetMap node/10944125334 website tag (map data 2026-11-01), checked 2026-11-02",
+   "hours": "Mon-Thu 7a-8p; Fri-Sat 9a-9p; Sun 10a-8p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/10944125334 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.arepahousepa.com: \"rrisburg, PA 17101 | BUSINESS HOURS | Mon - Thu | 7:00 am | - | 8:00 pm | Fri - Sat | 9:00 am | - | 9:00 pm | Sunday \" (checked 2026-11-02)",
+   "county": "Dauphin",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "pa-mariamas-african-jamaican-cuisine-harrisburg",
+   "name": "Mariama's African & Jamaican Cuisine",
+   "cuisine": "Restaurant",
+   "address": "145 South Cameron Street, Harrisburg",
+   "state": "PA",
+   "zip": "17101",
+   "phone": "(717) 525-9501",
+   "phoneSource": "OpenStreetMap node/11783343839 phone tag (map data 2026-11-01), checked 2026-11-02",
+   "lat": 40.264335,
+   "lng": -76.87471,
+   "website": "https://mariamarestaurant.wordpress.com/",
+   "websiteSource": "OpenStreetMap node/11783343839 website tag (map data 2026-11-01), checked 2026-11-02",
+   "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-7:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/11783343839 opening_hours tag (map data 2026-11-01; last checked on the map 2026-05-28) (checked 2026-11-02); late hours confirmed by venue website https://mariamarestaurant.wordpress.com/: \"–7:30 PM Monday 11 AM–9 PM Tuesday 11 AM–9 PM Wednesday 11 AM–9 PM Thursday 11 AM–9 PM Friday 11 AM–10 PM Saturday \" (checked 2026-11-02)",
+   "county": "Dauphin",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "pa-china-express-harrisburg",
+   "name": "China Express",
+   "cuisine": "Chinese",
+   "address": "1819 Paxton Street, Harrisburg",
+   "state": "PA",
+   "zip": "17104",
+   "phone": "(717) 238-2151",
+   "phoneSource": "OpenStreetMap way/375301150 phone tag (map data 2026-11-01), checked 2026-11-02",
+   "lat": 40.254656,
+   "lng": -76.856296,
+   "website": "https://www.orderchinaexpressharrisburg.com",
+   "websiteSource": "OpenStreetMap way/375301150 website tag (map data 2026-11-01), checked 2026-11-02",
+   "hours": "Mon 11a-10:30p; Tue closed; Wed-Thu 11a-10:30p; Fri-Sat 11a-11p; Sun 12p-10:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/375301150 opening_hours tag (map data 2026-11-01; last checked on the map 2023-10-29) (checked 2026-11-02); late hours confirmed by venue website https://www.orderchinaexpressharrisburg.com: \" | 11:00 AM - 10:30 PM | Tue: | Closed | Wed & Thu: | 11:00 AM - 10:30 PM | Fri & Sat: | 11:00 AM - 11:00 PM | Sun: | \" (checked 2026-11-02)",
+   "county": "Dauphin",
+   "addedBy": "sweep-osm"
+  }
+ ],
+ "counties": [
+  "Dauphin"
+ ]
 }
