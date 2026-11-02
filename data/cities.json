@@ -459,6 +459,11 @@
       "id": "queens-ny",
       "name": "Queens",
       "state": "NY"
+    },
+    {
+      "id": "bronx-ny",
+      "name": "The Bronx",
+      "state": "NY"
     }
   ],
   "areas": [
@@ -23259,6 +23264,20 @@
       "pickerState": "NJ"
     },
     {
+      "id": "bronx-ny",
+      "name": "The Bronx, NY",
+      "type": "city",
+      "region": "bronx-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/bronx-ny.json",
+      "status": "live",
+      "counties": [
+        "Bronx"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
       "id": "brooklyn-ny",
       "name": "Brooklyn, NY",
       "type": "city",
@@ -31250,6 +31269,17 @@
       ]
     },
     {
+      "id": "ny-bronx",
+      "name": "Bronx",
+      "label": "The Bronx (Bronx County)",
+      "state": "NY",
+      "pickerState": "NY",
+      "places": 355,
+      "areas": [
+        "bronx-ny"
+      ]
+    },
+    {
       "id": "ny-kings",
       "name": "Kings",
       "label": "Brooklyn (Kings County)",
@@ -31266,7 +31296,7 @@
       "label": "Manhattan (New York County)",
       "state": "NY",
       "pickerState": "NY",
-      "places": 1437,
+      "places": 1438,
       "areas": [
         "new-york-county-ny"
       ]
