@@ -494,6 +494,11 @@
       "id": "central-ny",
       "name": "Central NY (Syracuse, Utica)",
       "state": "NY"
+    },
+    {
+      "id": "western-ny",
+      "name": "Western NY (Buffalo, Niagara Falls)",
+      "state": "NY"
     }
   ],
   "areas": [
@@ -24708,118 +24713,6 @@
       "pickerState": "NY"
     },
     {
-      "id": "menands-ny-albany",
-      "name": "Menands & Berne, NY",
-      "type": "city",
-      "region": "capital-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/menands-ny-albany.json",
-      "status": "live",
-      "counties": [
-        "Albany"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "bethlehem-ny-albany",
-      "name": "Bethlehem, Ravena & Coeymans, NY",
-      "type": "town",
-      "region": "capital-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/bethlehem-ny-albany.json",
-      "status": "live",
-      "counties": [
-        "Albany"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "colonie-ny-albany",
-      "name": "Colonie, NY",
-      "type": "city",
-      "region": "capital-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/colonie-ny-albany.json",
-      "status": "live",
-      "counties": [
-        "Albany"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "guilderland-ny-albany",
-      "name": "Guilderland, New Scotland & Altamont, NY",
-      "type": "town",
-      "region": "capital-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/guilderland-ny-albany.json",
-      "status": "live",
-      "counties": [
-        "Albany"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "latham-ny-albany",
-      "name": "Latham, NY",
-      "type": "town",
-      "region": "capital-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/latham-ny-albany.json",
-      "status": "live",
-      "counties": [
-        "Albany"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "cohoes-ny-albany",
-      "name": "Cohoes, Watervliet & Green Island, NY",
-      "type": "town",
-      "region": "capital-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/cohoes-ny-albany.json",
-      "status": "live",
-      "counties": [
-        "Albany"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "roessleville-ny-albany",
-      "name": "Roessleville & Loudonville, NY",
-      "type": "town",
-      "region": "capital-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/roessleville-ny-albany.json",
-      "status": "live",
-      "counties": [
-        "Albany"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "bronx-ny",
-      "name": "The Bronx, NY",
-      "type": "city",
-      "region": "bronx-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/bronx-ny.json",
-      "status": "live",
-      "counties": [
-        "Bronx"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
       "id": "auburn-ny",
       "name": "Auburn, Weedsport & Fair Haven (Cayuga County), NY",
       "type": "town",
@@ -24834,34 +24727,6 @@
       "pickerState": "NY"
     },
     {
-      "id": "hudson-ny-columbia",
-      "name": "Hudson, Greenport & Hillsdale, NY",
-      "type": "town",
-      "region": "hudson-valley-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/hudson-ny-columbia.json",
-      "status": "live",
-      "counties": [
-        "Columbia"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "kinderhook-ny-columbia",
-      "name": "Kinderhook, New Lebanon & Chatham, NY",
-      "type": "town",
-      "region": "hudson-valley-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/kinderhook-ny-columbia.json",
-      "status": "live",
-      "counties": [
-        "Columbia"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
       "id": "homer-ny",
       "name": "Homer, Munsons Corners & Virgil (Cortland County), NY",
       "type": "town",
@@ -24871,188 +24736,6 @@
       "status": "live",
       "counties": [
         "Cortland"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "poughkeepsie-ny-dutchess",
-      "name": "Poughkeepsie, Hopewell Junction & Hyde Park, NY",
-      "type": "city",
-      "region": "hudson-valley-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/poughkeepsie-ny-dutchess.json",
-      "status": "live",
-      "counties": [
-        "Dutchess"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "wappinger-ny-dutchess",
-      "name": "Wappinger & Myers Corner, NY",
-      "type": "town",
-      "region": "hudson-valley-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/wappinger-ny-dutchess.json",
-      "status": "live",
-      "counties": [
-        "Dutchess"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "fishkill-ny-dutchess",
-      "name": "Fishkill, NY",
-      "type": "town",
-      "region": "hudson-valley-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/fishkill-ny-dutchess.json",
-      "status": "live",
-      "counties": [
-        "Dutchess"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "east-fishkill-ny-dutchess",
-      "name": "East Fishkill, LaGrange & Pawling, NY",
-      "type": "town",
-      "region": "hudson-valley-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/east-fishkill-ny-dutchess.json",
-      "status": "live",
-      "counties": [
-        "Dutchess"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "pleasant-valley-ny-dutchess",
-      "name": "Pleasant Valley, Millerton & Millbrook, NY",
-      "type": "town",
-      "region": "hudson-valley-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/pleasant-valley-ny-dutchess.json",
-      "status": "live",
-      "counties": [
-        "Dutchess"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "rhinebeck-ny-dutchess",
-      "name": "Rhinebeck, NY",
-      "type": "town",
-      "region": "hudson-valley-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/rhinebeck-ny-dutchess.json",
-      "status": "live",
-      "counties": [
-        "Dutchess"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "beacon-ny-dutchess",
-      "name": "Beacon, NY",
-      "type": "city",
-      "region": "hudson-valley-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/beacon-ny-dutchess.json",
-      "status": "live",
-      "counties": [
-        "Dutchess"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "red-hook-ny-dutchess",
-      "name": "Red Hook, Pine Plains & Milan, NY",
-      "type": "town",
-      "region": "hudson-valley-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/red-hook-ny-dutchess.json",
-      "status": "live",
-      "counties": [
-        "Dutchess"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "johnstown-ny-fulton",
-      "name": "Johnstown, Gloversville & Mayfield (Fulton County), NY",
-      "type": "town",
-      "region": "capital-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/johnstown-ny-fulton.json",
-      "status": "live",
-      "counties": [
-        "Fulton"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "catskill-ny-greene",
-      "name": "Catskill, Cairo & Leeds, NY",
-      "type": "town",
-      "region": "hudson-valley-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/catskill-ny-greene.json",
-      "status": "live",
-      "counties": [
-        "Greene"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "windham-ny-greene",
-      "name": "Windham, East Durham & Prattsville, NY",
-      "type": "town",
-      "region": "hudson-valley-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/windham-ny-greene.json",
-      "status": "live",
-      "counties": [
-        "Greene"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "hunter-ny-greene",
-      "name": "Hunter, NY",
-      "type": "town",
-      "region": "hudson-valley-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/hunter-ny-greene.json",
-      "status": "live",
-      "counties": [
-        "Greene"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "coxsackie-ny-greene",
-      "name": "Coxsackie & Greenville, NY",
-      "type": "town",
-      "region": "hudson-valley-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/coxsackie-ny-greene.json",
-      "status": "live",
-      "counties": [
-        "Greene"
       ],
       "state": "NY",
       "pickerState": "NY"
@@ -25086,20 +24769,6 @@
       "pickerState": "NY"
     },
     {
-      "id": "brooklyn-ny",
-      "name": "Brooklyn, NY",
-      "type": "city",
-      "region": "brooklyn-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/brooklyn-ny.json",
-      "status": "live",
-      "counties": [
-        "Kings"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
       "id": "oneida-ny",
       "name": "Oneida, Cazenovia & Hamilton (Madison County), NY",
       "type": "town",
@@ -25109,132 +24778,6 @@
       "status": "live",
       "counties": [
         "Madison"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "amsterdam-ny-montgomery",
-      "name": "Amsterdam, Mohawk & Minden (Montgomery County), NY",
-      "type": "town",
-      "region": "capital-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/amsterdam-ny-montgomery.json",
-      "status": "live",
-      "counties": [
-        "Montgomery"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "north-hempstead-ny-nassau",
-      "name": "North Hempstead, Glen Cove & Manhasset, NY",
-      "type": "city",
-      "region": "long-island-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/north-hempstead-ny-nassau.json",
-      "status": "live",
-      "counties": [
-        "Nassau"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "oyster-bay-ny-nassau",
-      "name": "Oyster Bay & New Cassel, NY",
-      "type": "city",
-      "region": "long-island-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/oyster-bay-ny-nassau.json",
-      "status": "live",
-      "counties": [
-        "Nassau"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "hempstead-ny-nassau",
-      "name": "Hempstead, Hicksville & Elmont, NY",
-      "type": "city",
-      "region": "long-island-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/hempstead-ny-nassau.json",
-      "status": "live",
-      "counties": [
-        "Nassau"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "farmingdale-ny-nassau",
-      "name": "Farmingdale, Massapequa & Massapequa Park, NY",
-      "type": "city",
-      "region": "long-island-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/farmingdale-ny-nassau.json",
-      "status": "live",
-      "counties": [
-        "Nassau"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "mineola-ny-nassau",
-      "name": "Mineola, Williston Park & Carle Place, NY",
-      "type": "town",
-      "region": "long-island-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/mineola-ny-nassau.json",
-      "status": "live",
-      "counties": [
-        "Nassau"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "long-beach-ny-nassau",
-      "name": "Long Beach, Barnum Island & Island Park, NY",
-      "type": "city",
-      "region": "long-island-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/long-beach-ny-nassau.json",
-      "status": "live",
-      "counties": [
-        "Nassau"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "oceanside-ny-nassau",
-      "name": "Oceanside & Point Lookout, NY",
-      "type": "city",
-      "region": "long-island-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/oceanside-ny-nassau.json",
-      "status": "live",
-      "counties": [
-        "Nassau"
-      ],
-      "state": "NY",
-      "pickerState": "NY"
-    },
-    {
-      "id": "new-york-county-ny",
-      "name": "Manhattan, NY",
-      "type": "city",
-      "region": "manhattan-ny",
-      "timezone": "America/New_York",
-      "file": "data/cities/new-york-county-ny.json",
-      "status": "live",
-      "counties": [
-        "New York"
       ],
       "state": "NY",
       "pickerState": "NY"
@@ -25380,6 +24923,1056 @@
       "pickerState": "NY"
     },
     {
+      "id": "richland-ny",
+      "name": "Richland, Mexico & Parish, NY",
+      "type": "town",
+      "region": "central-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/richland-ny.json",
+      "status": "live",
+      "counties": [
+        "Oswego"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "fulton-ny",
+      "name": "Fulton, Central Square & Phoenix, NY",
+      "type": "town",
+      "region": "central-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/fulton-ny.json",
+      "status": "live",
+      "counties": [
+        "Oswego"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "scriba-ny",
+      "name": "Scriba, NY",
+      "type": "city",
+      "region": "central-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/scriba-ny.json",
+      "status": "live",
+      "counties": [
+        "Oswego"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "menands-ny-albany",
+      "name": "Menands & Berne, NY",
+      "type": "city",
+      "region": "capital-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/menands-ny-albany.json",
+      "status": "live",
+      "counties": [
+        "Albany"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "bethlehem-ny-albany",
+      "name": "Bethlehem, Ravena & Coeymans, NY",
+      "type": "town",
+      "region": "capital-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/bethlehem-ny-albany.json",
+      "status": "live",
+      "counties": [
+        "Albany"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "colonie-ny-albany",
+      "name": "Colonie, NY",
+      "type": "city",
+      "region": "capital-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/colonie-ny-albany.json",
+      "status": "live",
+      "counties": [
+        "Albany"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "guilderland-ny-albany",
+      "name": "Guilderland, New Scotland & Altamont, NY",
+      "type": "town",
+      "region": "capital-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/guilderland-ny-albany.json",
+      "status": "live",
+      "counties": [
+        "Albany"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "latham-ny-albany",
+      "name": "Latham, NY",
+      "type": "town",
+      "region": "capital-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/latham-ny-albany.json",
+      "status": "live",
+      "counties": [
+        "Albany"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "cohoes-ny-albany",
+      "name": "Cohoes, Watervliet & Green Island, NY",
+      "type": "town",
+      "region": "capital-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/cohoes-ny-albany.json",
+      "status": "live",
+      "counties": [
+        "Albany"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "roessleville-ny-albany",
+      "name": "Roessleville & Loudonville, NY",
+      "type": "town",
+      "region": "capital-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/roessleville-ny-albany.json",
+      "status": "live",
+      "counties": [
+        "Albany"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "wellsville-ny",
+      "name": "Wellsville, Cuba & Alfred (Allegany County), NY",
+      "type": "town",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/wellsville-ny.json",
+      "status": "live",
+      "counties": [
+        "Allegany"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "bronx-ny",
+      "name": "The Bronx, NY",
+      "type": "city",
+      "region": "bronx-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/bronx-ny.json",
+      "status": "live",
+      "counties": [
+        "Bronx"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "olean-ny",
+      "name": "Olean, Allegany & Portville, NY",
+      "type": "town",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/olean-ny.json",
+      "status": "live",
+      "counties": [
+        "Cattaraugus"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "ellicottville-ny",
+      "name": "Ellicottville, Salamanca & Little Valley, NY",
+      "type": "town",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/ellicottville-ny.json",
+      "status": "live",
+      "counties": [
+        "Cattaraugus"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "auburn-ny-cayuga",
+      "name": "Auburn, Weedsport & Fair Haven (Cayuga County), NY",
+      "type": "town",
+      "region": "central-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/auburn-ny-cayuga.json",
+      "status": "live",
+      "counties": [
+        "Cayuga"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "busti-ny",
+      "name": "Busti, Bemus Point & Jamestown West, NY",
+      "type": "town",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/busti-ny.json",
+      "status": "live",
+      "counties": [
+        "Chautauqua"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "jamestown-ny",
+      "name": "Jamestown, Falconer & Celoron, NY",
+      "type": "town",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/jamestown-ny.json",
+      "status": "live",
+      "counties": [
+        "Chautauqua"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "dunkirk-ny",
+      "name": "Dunkirk & Hanover, NY",
+      "type": "town",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/dunkirk-ny.json",
+      "status": "live",
+      "counties": [
+        "Chautauqua"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "westfield-ny",
+      "name": "Westfield, Ripley & Mayville, NY",
+      "type": "town",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/westfield-ny.json",
+      "status": "live",
+      "counties": [
+        "Chautauqua"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "pomfret-ny",
+      "name": "Pomfret, Sheridan & Stockton, NY",
+      "type": "town",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/pomfret-ny.json",
+      "status": "live",
+      "counties": [
+        "Chautauqua"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "hudson-ny-columbia",
+      "name": "Hudson, Greenport & Hillsdale, NY",
+      "type": "town",
+      "region": "hudson-valley-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/hudson-ny-columbia.json",
+      "status": "live",
+      "counties": [
+        "Columbia"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "kinderhook-ny-columbia",
+      "name": "Kinderhook, New Lebanon & Chatham, NY",
+      "type": "town",
+      "region": "hudson-valley-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/kinderhook-ny-columbia.json",
+      "status": "live",
+      "counties": [
+        "Columbia"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "homer-ny-cortland",
+      "name": "Homer, Munsons Corners & Virgil (Cortland County), NY",
+      "type": "town",
+      "region": "central-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/homer-ny-cortland.json",
+      "status": "live",
+      "counties": [
+        "Cortland"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "poughkeepsie-ny-dutchess",
+      "name": "Poughkeepsie, Hopewell Junction & Hyde Park, NY",
+      "type": "city",
+      "region": "hudson-valley-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/poughkeepsie-ny-dutchess.json",
+      "status": "live",
+      "counties": [
+        "Dutchess"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "wappinger-ny-dutchess",
+      "name": "Wappinger & Myers Corner, NY",
+      "type": "town",
+      "region": "hudson-valley-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/wappinger-ny-dutchess.json",
+      "status": "live",
+      "counties": [
+        "Dutchess"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "fishkill-ny-dutchess",
+      "name": "Fishkill, NY",
+      "type": "town",
+      "region": "hudson-valley-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/fishkill-ny-dutchess.json",
+      "status": "live",
+      "counties": [
+        "Dutchess"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "east-fishkill-ny-dutchess",
+      "name": "East Fishkill, LaGrange & Pawling, NY",
+      "type": "town",
+      "region": "hudson-valley-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/east-fishkill-ny-dutchess.json",
+      "status": "live",
+      "counties": [
+        "Dutchess"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "pleasant-valley-ny-dutchess",
+      "name": "Pleasant Valley, Millerton & Millbrook, NY",
+      "type": "town",
+      "region": "hudson-valley-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/pleasant-valley-ny-dutchess.json",
+      "status": "live",
+      "counties": [
+        "Dutchess"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "rhinebeck-ny-dutchess",
+      "name": "Rhinebeck, NY",
+      "type": "town",
+      "region": "hudson-valley-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/rhinebeck-ny-dutchess.json",
+      "status": "live",
+      "counties": [
+        "Dutchess"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "beacon-ny-dutchess",
+      "name": "Beacon, NY",
+      "type": "city",
+      "region": "hudson-valley-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/beacon-ny-dutchess.json",
+      "status": "live",
+      "counties": [
+        "Dutchess"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "red-hook-ny-dutchess",
+      "name": "Red Hook, Pine Plains & Milan, NY",
+      "type": "town",
+      "region": "hudson-valley-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/red-hook-ny-dutchess.json",
+      "status": "live",
+      "counties": [
+        "Dutchess"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "lancaster-ny",
+      "name": "Lancaster, Depew & Alden, NY",
+      "type": "town",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/lancaster-ny.json",
+      "status": "live",
+      "counties": [
+        "Erie"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "hamburg-ny",
+      "name": "Hamburg, Lake Erie Beach & Evans, NY",
+      "type": "city",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/hamburg-ny.json",
+      "status": "live",
+      "counties": [
+        "Erie"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "aurora-ny",
+      "name": "Aurora, Springville & Elma, NY",
+      "type": "town",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/aurora-ny.json",
+      "status": "live",
+      "counties": [
+        "Erie"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "amherst-ny",
+      "name": "Amherst, Williamsville & Eggertsville, NY",
+      "type": "city",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/amherst-ny.json",
+      "status": "live",
+      "counties": [
+        "Erie"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "tonawanda-ny",
+      "name": "Tonawanda, Kenmore & Grand Island, NY",
+      "type": "city",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/tonawanda-ny.json",
+      "status": "live",
+      "counties": [
+        "Erie"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "west-seneca-ny",
+      "name": "West Seneca & Lackawanna, NY",
+      "type": "town",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/west-seneca-ny.json",
+      "status": "live",
+      "counties": [
+        "Erie"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "buffalo-ny",
+      "name": "Buffalo & East Aurora, NY",
+      "type": "city",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/buffalo-ny.json",
+      "status": "live",
+      "counties": [
+        "Erie"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "cheektowaga-ny",
+      "name": "Cheektowaga & Sloan, NY",
+      "type": "city",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/cheektowaga-ny.json",
+      "status": "live",
+      "counties": [
+        "Erie"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "clarence-ny",
+      "name": "Clarence, Harris Hill & Akron, NY",
+      "type": "town",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/clarence-ny.json",
+      "status": "live",
+      "counties": [
+        "Erie"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "orchard-park-ny",
+      "name": "Orchard Park, NY",
+      "type": "town",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/orchard-park-ny.json",
+      "status": "live",
+      "counties": [
+        "Erie"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "johnstown-ny-fulton",
+      "name": "Johnstown, Gloversville & Mayfield (Fulton County), NY",
+      "type": "town",
+      "region": "capital-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/johnstown-ny-fulton.json",
+      "status": "live",
+      "counties": [
+        "Fulton"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "catskill-ny-greene",
+      "name": "Catskill, Cairo & Leeds, NY",
+      "type": "town",
+      "region": "hudson-valley-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/catskill-ny-greene.json",
+      "status": "live",
+      "counties": [
+        "Greene"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "windham-ny-greene",
+      "name": "Windham, East Durham & Prattsville, NY",
+      "type": "town",
+      "region": "hudson-valley-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/windham-ny-greene.json",
+      "status": "live",
+      "counties": [
+        "Greene"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "hunter-ny-greene",
+      "name": "Hunter, NY",
+      "type": "town",
+      "region": "hudson-valley-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/hunter-ny-greene.json",
+      "status": "live",
+      "counties": [
+        "Greene"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "coxsackie-ny-greene",
+      "name": "Coxsackie & Greenville, NY",
+      "type": "town",
+      "region": "hudson-valley-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/coxsackie-ny-greene.json",
+      "status": "live",
+      "counties": [
+        "Greene"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "german-flatts-ny-herkimer",
+      "name": "German Flatts, Little Falls & Frankfort, NY",
+      "type": "town",
+      "region": "north-country-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/german-flatts-ny-herkimer.json",
+      "status": "live",
+      "counties": [
+        "Herkimer"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "old-forge-ny-herkimer",
+      "name": "Old Forge, Eagle Bay & Thendara, NY",
+      "type": "town",
+      "region": "north-country-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/old-forge-ny-herkimer.json",
+      "status": "live",
+      "counties": [
+        "Herkimer"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "brooklyn-ny",
+      "name": "Brooklyn, NY",
+      "type": "city",
+      "region": "brooklyn-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/brooklyn-ny.json",
+      "status": "live",
+      "counties": [
+        "Kings"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "oneida-ny-madison",
+      "name": "Oneida, Cazenovia & Hamilton (Madison County), NY",
+      "type": "town",
+      "region": "central-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/oneida-ny-madison.json",
+      "status": "live",
+      "counties": [
+        "Madison"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "amsterdam-ny-montgomery",
+      "name": "Amsterdam, Mohawk & Minden (Montgomery County), NY",
+      "type": "town",
+      "region": "capital-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/amsterdam-ny-montgomery.json",
+      "status": "live",
+      "counties": [
+        "Montgomery"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "north-hempstead-ny-nassau",
+      "name": "North Hempstead, Glen Cove & Manhasset, NY",
+      "type": "city",
+      "region": "long-island-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/north-hempstead-ny-nassau.json",
+      "status": "live",
+      "counties": [
+        "Nassau"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "oyster-bay-ny-nassau",
+      "name": "Oyster Bay & New Cassel, NY",
+      "type": "city",
+      "region": "long-island-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/oyster-bay-ny-nassau.json",
+      "status": "live",
+      "counties": [
+        "Nassau"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "hempstead-ny-nassau",
+      "name": "Hempstead, Hicksville & Elmont, NY",
+      "type": "city",
+      "region": "long-island-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/hempstead-ny-nassau.json",
+      "status": "live",
+      "counties": [
+        "Nassau"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "farmingdale-ny-nassau",
+      "name": "Farmingdale, Massapequa & Massapequa Park, NY",
+      "type": "city",
+      "region": "long-island-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/farmingdale-ny-nassau.json",
+      "status": "live",
+      "counties": [
+        "Nassau"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "mineola-ny-nassau",
+      "name": "Mineola, Williston Park & Carle Place, NY",
+      "type": "town",
+      "region": "long-island-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/mineola-ny-nassau.json",
+      "status": "live",
+      "counties": [
+        "Nassau"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "long-beach-ny-nassau",
+      "name": "Long Beach, Barnum Island & Island Park, NY",
+      "type": "city",
+      "region": "long-island-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/long-beach-ny-nassau.json",
+      "status": "live",
+      "counties": [
+        "Nassau"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "oceanside-ny-nassau",
+      "name": "Oceanside & Point Lookout, NY",
+      "type": "city",
+      "region": "long-island-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/oceanside-ny-nassau.json",
+      "status": "live",
+      "counties": [
+        "Nassau"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "new-york-county-ny",
+      "name": "Manhattan, NY",
+      "type": "city",
+      "region": "manhattan-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/new-york-county-ny.json",
+      "status": "live",
+      "counties": [
+        "New York"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "south-lockport-ny",
+      "name": "South Lockport, Pendleton & Cambria, NY",
+      "type": "town",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/south-lockport-ny.json",
+      "status": "live",
+      "counties": [
+        "Niagara"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "niagara-falls-ny",
+      "name": "Niagara Falls, NY",
+      "type": "city",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/niagara-falls-ny.json",
+      "status": "live",
+      "counties": [
+        "Niagara"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "lewiston-ny",
+      "name": "Lewiston, Porter & Youngstown, NY",
+      "type": "town",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/lewiston-ny.json",
+      "status": "live",
+      "counties": [
+        "Niagara"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "lockport-ny",
+      "name": "Lockport, Royalton & Hartland, NY",
+      "type": "city",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/lockport-ny.json",
+      "status": "live",
+      "counties": [
+        "Niagara"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "north-tonawanda-ny",
+      "name": "North Tonawanda, Wheatfield & Sanborn, NY",
+      "type": "town",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/north-tonawanda-ny.json",
+      "status": "live",
+      "counties": [
+        "Niagara"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "newfane-ny",
+      "name": "Newfane, Wilson & Somerset, NY",
+      "type": "town",
+      "region": "western-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/newfane-ny.json",
+      "status": "live",
+      "counties": [
+        "Niagara"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "utica-ny-oneida",
+      "name": "Utica, Marcy & Holland Patent, NY",
+      "type": "city",
+      "region": "central-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/utica-ny-oneida.json",
+      "status": "live",
+      "counties": [
+        "Oneida"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "rome-ny-oneida",
+      "name": "Rome, Sylvan Beach & Forestport, NY",
+      "type": "town",
+      "region": "central-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/rome-ny-oneida.json",
+      "status": "live",
+      "counties": [
+        "Oneida"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "new-hartford-ny-oneida",
+      "name": "New Hartford, Yorkville & Washington Mills, NY",
+      "type": "town",
+      "region": "central-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/new-hartford-ny-oneida.json",
+      "status": "live",
+      "counties": [
+        "Oneida"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "manlius-ny-onondaga",
+      "name": "Manlius, Fayetteville & Pompey, NY",
+      "type": "town",
+      "region": "central-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/manlius-ny-onondaga.json",
+      "status": "live",
+      "counties": [
+        "Onondaga"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "syracuse-ny-onondaga",
+      "name": "Syracuse, Liverpool & Solvay, NY",
+      "type": "city",
+      "region": "central-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/syracuse-ny-onondaga.json",
+      "status": "live",
+      "counties": [
+        "Onondaga"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "salina-ny-onondaga",
+      "name": "Salina, Galeville & Camillus, NY",
+      "type": "town",
+      "region": "central-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/salina-ny-onondaga.json",
+      "status": "live",
+      "counties": [
+        "Onondaga"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "skaneateles-ny-onondaga",
+      "name": "Skaneateles, Marcellus & Elbridge, NY",
+      "type": "town",
+      "region": "central-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/skaneateles-ny-onondaga.json",
+      "status": "live",
+      "counties": [
+        "Onondaga"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "clay-ny-onondaga",
+      "name": "Clay, Baldwinsville & North Syracuse, NY",
+      "type": "town",
+      "region": "central-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/clay-ny-onondaga.json",
+      "status": "live",
+      "counties": [
+        "Onondaga"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "dewitt-ny-onondaga",
+      "name": "DeWitt, NY",
+      "type": "city",
+      "region": "central-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/dewitt-ny-onondaga.json",
+      "status": "live",
+      "counties": [
+        "Onondaga"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
+      "id": "cicero-ny-onondaga",
+      "name": "Cicero, NY",
+      "type": "town",
+      "region": "central-ny",
+      "timezone": "America/New_York",
+      "file": "data/cities/cicero-ny-onondaga.json",
+      "status": "live",
+      "counties": [
+        "Onondaga"
+      ],
+      "state": "NY",
+      "pickerState": "NY"
+    },
+    {
       "id": "newburgh-ny-orange",
       "name": "Newburgh, Balmville & Gardnertown, NY",
       "type": "city",
@@ -25506,12 +26099,12 @@
       "pickerState": "NY"
     },
     {
-      "id": "richland-ny",
+      "id": "richland-ny-oswego",
       "name": "Richland, Mexico & Parish, NY",
       "type": "town",
       "region": "central-ny",
       "timezone": "America/New_York",
-      "file": "data/cities/richland-ny.json",
+      "file": "data/cities/richland-ny-oswego.json",
       "status": "live",
       "counties": [
         "Oswego"
@@ -25520,12 +26113,12 @@
       "pickerState": "NY"
     },
     {
-      "id": "fulton-ny",
+      "id": "fulton-ny-oswego",
       "name": "Fulton, Central Square & Phoenix, NY",
       "type": "town",
       "region": "central-ny",
       "timezone": "America/New_York",
-      "file": "data/cities/fulton-ny.json",
+      "file": "data/cities/fulton-ny-oswego.json",
       "status": "live",
       "counties": [
         "Oswego"
@@ -25534,12 +26127,12 @@
       "pickerState": "NY"
     },
     {
-      "id": "scriba-ny",
+      "id": "scriba-ny-oswego",
       "name": "Scriba, NY",
       "type": "city",
       "region": "central-ny",
       "timezone": "America/New_York",
-      "file": "data/cities/scriba-ny.json",
+      "file": "data/cities/scriba-ny-oswego.json",
       "status": "live",
       "counties": [
         "Oswego"
@@ -32702,7 +33295,7 @@
       "label": "Richland County",
       "state": "SC",
       "pickerState": "SC",
-      "places": 240,
+      "places": 241,
       "areas": [
         "columbia-sc",
         "dentsville-sc",
@@ -34410,6 +35003,17 @@
       ]
     },
     {
+      "id": "ny-allegany",
+      "name": "Allegany",
+      "label": "Allegany County",
+      "state": "NY",
+      "pickerState": "NY",
+      "places": 20,
+      "areas": [
+        "wellsville-ny"
+      ]
+    },
+    {
       "id": "ny-bronx",
       "name": "Bronx",
       "label": "The Bronx (Bronx County)",
@@ -34421,6 +35025,18 @@
       ]
     },
     {
+      "id": "ny-cattaraugus",
+      "name": "Cattaraugus",
+      "label": "Cattaraugus County",
+      "state": "NY",
+      "pickerState": "NY",
+      "places": 60,
+      "areas": [
+        "olean-ny",
+        "ellicottville-ny"
+      ]
+    },
+    {
       "id": "ny-cayuga",
       "name": "Cayuga",
       "label": "Cayuga County",
@@ -34428,7 +35044,22 @@
       "pickerState": "NY",
       "places": 41,
       "areas": [
-        "auburn-ny"
+        "auburn-ny-cayuga"
+      ]
+    },
+    {
+      "id": "ny-chautauqua",
+      "name": "Chautauqua",
+      "label": "Chautauqua County",
+      "state": "NY",
+      "pickerState": "NY",
+      "places": 93,
+      "areas": [
+        "jamestown-ny",
+        "dunkirk-ny",
+        "pomfret-ny",
+        "westfield-ny",
+        "busti-ny"
       ]
     },
     {
@@ -34449,9 +35080,9 @@
       "label": "Cortland County",
       "state": "NY",
       "pickerState": "NY",
-      "places": 37,
+      "places": 36,
       "areas": [
-        "homer-ny"
+        "homer-ny-cortland"
       ]
     },
     {
@@ -34470,6 +35101,26 @@
         "red-hook-ny-dutchess",
         "east-fishkill-ny-dutchess",
         "pleasant-valley-ny-dutchess"
+      ]
+    },
+    {
+      "id": "ny-erie",
+      "name": "Erie",
+      "label": "Erie County",
+      "state": "NY",
+      "pickerState": "NY",
+      "places": 689,
+      "areas": [
+        "buffalo-ny",
+        "amherst-ny",
+        "tonawanda-ny",
+        "hamburg-ny",
+        "cheektowaga-ny",
+        "west-seneca-ny",
+        "lancaster-ny",
+        "orchard-park-ny",
+        "clarence-ny",
+        "aurora-ny"
       ]
     },
     {
@@ -34505,8 +35156,8 @@
       "pickerState": "NY",
       "places": 47,
       "areas": [
-        "old-forge-ny",
-        "german-flatts-ny"
+        "old-forge-ny-herkimer",
+        "german-flatts-ny-herkimer"
       ]
     },
     {
@@ -34528,7 +35179,7 @@
       "pickerState": "NY",
       "places": 30,
       "areas": [
-        "oneida-ny"
+        "oneida-ny-madison"
       ]
     },
     {
@@ -34571,6 +35222,22 @@
       ]
     },
     {
+      "id": "ny-niagara",
+      "name": "Niagara",
+      "label": "Niagara County",
+      "state": "NY",
+      "pickerState": "NY",
+      "places": 160,
+      "areas": [
+        "niagara-falls-ny",
+        "lockport-ny",
+        "north-tonawanda-ny",
+        "lewiston-ny",
+        "newfane-ny",
+        "south-lockport-ny"
+      ]
+    },
+    {
       "id": "ny-oneida",
       "name": "Oneida",
       "label": "Oneida County",
@@ -34578,9 +35245,9 @@
       "pickerState": "NY",
       "places": 118,
       "areas": [
-        "utica-ny",
-        "new-hartford-ny",
-        "rome-ny"
+        "utica-ny-oneida",
+        "new-hartford-ny-oneida",
+        "rome-ny-oneida"
       ]
     },
     {
@@ -34589,15 +35256,15 @@
       "label": "Onondaga County",
       "state": "NY",
       "pickerState": "NY",
-      "places": 272,
+      "places": 269,
       "areas": [
-        "syracuse-ny",
-        "dewitt-ny",
-        "cicero-ny",
-        "manlius-ny",
-        "skaneateles-ny",
-        "salina-ny",
-        "clay-ny"
+        "syracuse-ny-onondaga",
+        "dewitt-ny-onondaga",
+        "cicero-ny-onondaga",
+        "manlius-ny-onondaga",
+        "skaneateles-ny-onondaga",
+        "salina-ny-onondaga",
+        "clay-ny-onondaga"
       ]
     },
     {
@@ -34627,9 +35294,9 @@
       "pickerState": "NY",
       "places": 70,
       "areas": [
-        "scriba-ny",
-        "fulton-ny",
-        "richland-ny"
+        "scriba-ny-oswego",
+        "fulton-ny-oswego",
+        "richland-ny-oswego"
       ]
     },
     {
