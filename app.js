@@ -65,6 +65,8 @@
     const ap = h < 12 ? "AM" : "PM", h12 = h % 12 === 0 ? 12 : h % 12;
     return mm ? `${h12}:${String(mm).padStart(2, "0")} ${ap}` : `${h12} ${ap}`;
   }
+  // times inside deal/event text: "07:00 PM" / "7PM" -> "7 pm", "01:30pm" -> "1:30 pm" (same style as hours)
+  const tf = (s) => String(s || "").replace(/\b0?(\d{1,2})(?::(\d\d))?\s*([AaPp])\.?[Mm]\.?(?![a-z])/g, (m, h, mm, ap) => `${Number(h)}${mm && mm !== "00" ? ":" + mm : ""} ${ap.toLowerCase()}m`);
   function pretty(s) {
     return s.replace(/(\d{1,2}(?::\d{2})?)([ap])(?=[-,;]|$)/g, "$1 $2m").replace(/-/g, "–").replace(/,/g, ", ").replace(/;/g, " ·").replace(/24h/g, "open 24 hours");
   }
@@ -108,7 +110,7 @@
   function dealHtml(x) {
     const b = (x.tags || []).filter((t) => BADGE[t]).map((t) => `<span class="badge b-${t}">${BADGE[t]}</span>`).join("");
     const extra = [x.flag ? `<span class="flag">⚠ ${esc(x.flag)}</span>` : "", x.src ? `<span class="dsrc">(${esc(x.src)}${x.checked ? `, checked ${esc(x.checked)}` : ""})</span>` : ""].filter(Boolean).join(" ");
-    return `${dayTag(x)}${dayTag(x) ? " " : ""}${b}${esc(x.text)}${extra ? " " + extra : ""}`;
+    return `${dayTag(x)}${dayTag(x) ? " " : ""}${b}${esc(tf(x.text))}${extra ? " " + extra : ""}`;
   }
   function opts(sel, items, keep) {
     const cur = keep ? sel.value : null;
@@ -411,18 +413,18 @@
         const kind = hasTag(top, "wings") ? ["b-wings", "🍗 Wings"] : hasTag(top, "beer") ? ["b-beer", "🍺 Beer"] : dd.hh.includes(top) ? ["b-hh", "Happy hour"] : ["b-sp", "Special"];
         const n = all.length - 1;
         const nowPill = live.length ? `<span class="badge b-now">${live.includes(top) ? "Now" : "HH now"}</span>` : "";
-        dline = `<div class="dline" aria-label="${dayWord} deals">${day !== now.d && day !== ALL ? `<span class="bday">${esc(d3)}</span>` : ""}<span class="badge ${kind[0]}">${kind[1]}</span>${nowPill}${dtx("d", `${top.days ? `<b class="ddays">${esc(dayWords(top.days))}:</b> ` : ""}${esc(top.text)}${top.flag ? ` <span class="flag" title="${esc(top.flag)}">⚠</span>` : ""}`)}${n > 0 ? `<button type="button" class="dmore" data-more="1">+${n} more</button>` : ""}</div>`;
+        dline = `<div class="dline" aria-label="${dayWord} deals">${day !== now.d && day !== ALL ? `<span class="bday">${esc(d3)}</span>` : ""}<span class="badge ${kind[0]}">${kind[1]}</span>${nowPill}${dtx("d", `${top.days ? `<b class="ddays">${esc(dayWords(top.days))}:</b> ` : ""}${esc(tf(top.text))}${top.flag ? ` <span class="flag" title="${esc(top.flag)}">⚠</span>` : ""}`)}${n > 0 ? `<button type="button" class="dmore" data-more="1">+${n} more</button>` : ""}</div>`;
       }
       // karaoke / DJ nights on the picked day (all of them on "All days"), e.g. "🎤 Karaoke Thu 10 pm", "🎧 DJ 2nd Thu monthly"
       const evLine = (list, cls, label, pfx) => {
         const ns = nightsOn(list, day);
         if (!ns.length) return "";
-        const txt = ns.slice(0, 2).map((n) => n.w).join(" · ");
+        const txt = ns.slice(0, 2).map((n) => tf(n.w)).join(" · ");
         return `<div class="dline eline"><span class="badge ${cls}">${pfx} ${label}</span>${dtx(label, esc(txt))}${ns.length > 2 ? `<button type="button" class="dmore" data-more="1">+${ns.length - 2} more</button>` : ""}</div>`;
       };
       const elines = (kkOn || !djOn ? evLine(r.kk, "b-kk", "Karaoke", "🎤") + evLine(r.dj, "b-dj", "DJ", "🎧") : evLine(r.dj, "b-dj", "DJ", "🎧") + evLine(r.kk, "b-kk", "Karaoke", "🎤")) + evLine(r.tv, "b-tv", "Trivia", "🧠") + evLine(r.bg, "b-bg", "Bingo", "🎱");
       const ctLine = r.ct && r.ct.l && r.ct.l.length ? `<div class="ctype" title="${esc(r.ct.s)}"><span aria-hidden="true">👥</span> ${esc(r.ct.l.slice(0, 3).join(" · "))}</div>` : "";
-      const nightRows = (list, label) => list && list.length ? `<div class="row"><b>${label}:</b><ul class="wk">${list.map((n) => `<li>${esc(n.w)}${n.t ? ` (${esc(n.t)})` : ""}${n.n ? ` <span class="flag" title="${esc(n.n)}">⚠</span>` : ""} <span class="srcs">— ${n.u ? `<a href="${esc(n.u)}" target="_blank" rel="noopener">${esc(n.s || "source")}</a>` : esc(n.s || "")}${n.seen ? `, seen ${esc(shortDate(n.seen))}` : ""}</span></li>`).join("")}</ul></div>` : "";
+      const nightRows = (list, label) => list && list.length ? `<div class="row"><b>${label}:</b><ul class="wk">${list.map((n) => `<li>${esc(tf(n.w))}${n.t ? ` (${esc(n.t)})` : ""}${n.n ? ` <span class="flag" title="${esc(n.n)}">⚠</span>` : ""} <span class="srcs">— ${n.u ? `<a href="${esc(n.u)}" target="_blank" rel="noopener">${esc(n.s || "source")}</a>` : esc(n.s || "")}${n.seen ? `, seen ${esc(shortDate(n.seen))}` : ""}</span></li>`).join("")}</ul></div>` : "";
       const meta = [r.cuisine, r.priceLevel].filter(Boolean).map(esc).join(" · ");
       const thumbs = (kind, i, x) => {
         const did = dealId(kind, i, x), v = votes[`${p.area}|${r.id}|${did}`];

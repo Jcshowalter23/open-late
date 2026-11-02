@@ -48,6 +48,7 @@ def norm_time(t):
     s = re.sub(r"\s*\(.*?\)", "", t).strip()
     s = re.sub(r"(\d)\s*([AaPp])\.?\s*[Mm]?\.?\b", lambda m: f"{m[1]} {m[2].lower()}m", s)
     s = re.sub(r"\s*(?:-|–|till|to)\s*", "–", s)
+    s = re.sub(r"(?<![:\d])0(\d)", r"\1", s)
     s = re.sub(r":00\b", "", s).replace("CLOSE", "close").replace("Close", "close")
     if re.search(r"[a-z]{3,}", re.sub(r"\b(close|midnight|late)\b", "", s)) or len(s) > 18: return ""  # wordy start: keep it for the full text only
     return s
