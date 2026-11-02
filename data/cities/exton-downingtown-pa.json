@@ -1202,6 +1202,48 @@
    "source": "hours from OpenStreetMap way/544888899 opening_hours tag (map data 2026-10-31; last checked on the map 2024-11-12) (checked 2026-11-01)",
    "county": "Chester",
    "addedBy": "sweep-osm"
+  },
+  {
+   "id": "pa-liberty-union-bar-and-grill-chester-springs",
+   "name": "Liberty Union Bar and Grill",
+   "cuisine": "Restaurant",
+   "address": "325 Simpson Drive, Chester Springs",
+   "state": "PA",
+   "zip": "19425",
+   "phone": "(484) 359-4061",
+   "phoneSource": "OpenStreetMap way/850697497 phone tag (map data 2026-11-01), checked 2026-11-02",
+   "lat": 40.077068,
+   "lng": -75.687551,
+   "website": "https://libertyunionbar.com/chester-springs/",
+   "websiteSource": "OpenStreetMap way/850697497 website tag (map data 2026-11-01), checked 2026-11-02",
+   "hours": "Mon-Thu 11:30a-12a; Fri-Sat 11:30a-1a; Sun 11:30a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/850697497 opening_hours tag (map data 2026-11-01; last checked on the map 2023-03-24) (checked 2026-11-02); late hours confirmed by venue website libertyunionbar.com/chester-springs (Mon-Thu 11:30 am-12 am, Fri-Sat 11:30 am-1 am, Sun 11:30 am-12 am) (checked 2026-11-02)",
+   "county": "Chester",
+   "addedBy": "sweep-osm",
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "openstreetmap": "Mon-Thu 4p-12a; Fri-Sat 11:30a-1a; Sun 11:30a-12a",
+      "venue website": "Mon-Thu 11:30a-12a; Fri-Sat 11:30a-1a; Sun 11:30a-12a"
+     },
+     "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu"
+     ],
+     "resolution": "Venue website hours used (newer)",
+     "checked": "2026-11-02"
+    }
+   ]
   }
  ],
  "counties": [

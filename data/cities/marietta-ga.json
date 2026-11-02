@@ -6995,12 +6995,12 @@
       "cadence": "weekly",
       "start": "6 pm",
       "confidence": "high",
-      "lastSeen": "2026-11-01",
+      "lastSeen": "2026-11-02",
       "sources": [
        {
         "src": "Team Trivia schedule",
         "url": "https://www.teamtrivia.com/venue/suburban-tap-marietta-ga",
-        "date": "2026-11-01",
+        "date": "2026-11-02",
         "quote": "Soundcheck Music Bingo · Sun 6:00 PM · Suburban Tap, Marietta"
        }
       ],
@@ -7012,12 +7012,12 @@
       "cadence": "weekly",
       "start": "6:30 pm",
       "confidence": "high",
-      "lastSeen": "2026-11-01",
+      "lastSeen": "2026-11-02",
       "sources": [
        {
         "src": "Team Trivia schedule",
         "url": "https://www.teamtrivia.com/venue/suburban-tap-marietta-ga",
-        "date": "2026-11-01",
+        "date": "2026-11-02",
         "quote": "Team Bingo · Mon 6:30 PM · Suburban Tap, Marietta"
        }
       ],
@@ -7037,12 +7037,12 @@
       "cadence": "weekly",
       "start": "8 pm",
       "confidence": "high",
-      "lastSeen": "2026-11-01",
+      "lastSeen": "2026-11-02",
       "sources": [
        {
         "src": "Team Trivia schedule",
         "url": "https://www.teamtrivia.com/venue/suburban-tap-marietta-ga",
-        "date": "2026-11-01",
+        "date": "2026-11-02",
         "quote": "Team Trivia · Wed 8:00 PM · Suburban Tap, Marietta"
        }
       ],
@@ -7054,12 +7054,12 @@
       "cadence": "weekly",
       "start": "8:30 pm",
       "confidence": "high",
-      "lastSeen": "2026-11-01",
+      "lastSeen": "2026-11-02",
       "sources": [
        {
         "src": "Team Trivia schedule",
         "url": "https://www.teamtrivia.com/venue/suburban-tap-marietta-ga",
-        "date": "2026-11-01",
+        "date": "2026-11-02",
         "quote": "Team Trivia · Sat 8:30 PM · Suburban Tap, Marietta"
        }
       ],
@@ -7770,7 +7770,7 @@
       "cadence": "weekly",
       "start": "8 pm",
       "basis": "explicit recurring wording",
-      "lastSeen": "2026-11-01",
+      "lastSeen": "2026-11-02",
       "datedLastSeen": null,
       "postsSeen": 0,
       "sources": [
@@ -7789,7 +7789,7 @@
        {
         "src": "Team Trivia schedule",
         "url": "https://www.teamtrivia.com/venue/the-wing-cafe-tap-house-marietta-ga",
-        "date": "2026-11-01",
+        "date": "2026-11-02",
         "quote": "Team Trivia · Sun 8:30 PM · The Wing Cafe & Tap House, Marietta"
        }
       ],
@@ -7815,12 +7815,12 @@
       "cadence": "weekly",
       "start": "7 pm",
       "confidence": "high",
-      "lastSeen": "2026-11-01",
+      "lastSeen": "2026-11-02",
       "sources": [
        {
         "src": "Team Trivia schedule",
         "url": "https://www.teamtrivia.com/venue/the-wing-cafe-tap-house-marietta-ga",
-        "date": "2026-11-01",
+        "date": "2026-11-02",
         "quote": "Soundcheck Music Bingo · Wed 7:00 PM · The Wing Cafe & Tap House, Marietta"
        }
       ],
@@ -9193,6 +9193,53 @@
    "source": "hours from OpenStreetMap way/323278226 opening_hours tag (map data 2026-10-31; last checked on the map 2026-10-29) (checked 2026-11-01)",
    "county": "Cobb",
    "addedBy": "sweep-osm"
+  },
+  {
+   "id": "ga-js-lounge-smyrna",
+   "name": "J's Lounge",
+   "cuisine": "Bar",
+   "address": "1995 Windy Hill Road Southeast, Smyrna",
+   "state": "GA",
+   "zip": "30080",
+   "phone": "(678) 383-6164",
+   "phoneSource": "OpenStreetMap node/3019412885 phone tag (map data 2026-11-01), checked 2026-11-02",
+   "lat": 33.898213,
+   "lng": -84.496582,
+   "website": "http://www.js-lounge.com/",
+   "websiteSource": "OpenStreetMap node/3019412885 website tag (map data 2026-11-01), checked 2026-11-02",
+   "hours": "Mon-Fri 5p-3a; Sat 4p-3a; Sun 4p-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/3019412885 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by bars10 listing, 2026 (open until 3 AM) (checked 2026-11-02)",
+   "county": "Cobb",
+   "addedBy": "sweep-osm",
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "openstreetmap": "Mon-Fri 5p-3a; Sat 4p-3a; Sun 4p-12a",
+      "bars10 (2026)": "Mon-Thu 3p-3a; Fri-Sat 2p-3a; Sun 12p-2a"
+     },
+     "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+     ],
+     "resolution": "Both show 3 am closing; opening times and Sunday close differ, kept OpenStreetMap; flagged for review",
+     "checked": "2026-11-02"
+    }
+   ]
   }
  ],
  "type": "city",

@@ -358,7 +358,25 @@
     "website": null
    },
    "trivia": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-02",
+      "sources": [
+       {
+        "src": "Sporcle Events schedule",
+        "url": "https://www.sporcle.com/venue/134248/astro-beer-hall-dc",
+        "date": "2026-11-02",
+        "quote": "The Climb · Wed 7:00pm · Astro Beer Hall - DC, Washington"
+       }
+      ],
+      "basis": "vendor/host published venue schedule",
+      "vendor": "Sporcle Events"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -6498,6 +6516,52 @@
      }
     ]
    }
+  },
+  {
+   "id": "dc-new-big-wong-washington",
+   "name": "New Big Wong",
+   "cuisine": "Chinese",
+   "address": "610 H Street Northwest, Washington",
+   "state": "DC",
+   "zip": "20001",
+   "phone": "(202) 628-0491",
+   "phoneSource": "OpenStreetMap node/486343600 phone tag (map data 2026-11-01), checked 2026-11-02",
+   "lat": 38.899671,
+   "lng": -77.020589,
+   "website": "http://www.new-big-wong.com/",
+   "websiteSource": "OpenStreetMap node/486343600 website tag (map data 2026-11-01), checked 2026-11-02",
+   "hours": "Mon-Thu 10:30a-2a; Fri-Sat 10:30a-4a; Sun 10:30a-2a",
+   "hoursNote": "Listings disagree on exact hours (Yelp Sep 2026 shows about 2 am Sun-Thu and 3 am Fri-Sat; the takeout site shows earlier takeout cutoffs). Call ahead.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/486343600 opening_hours tag (map data 2026-11-01; last checked on the map 2023-09-17) (checked 2026-11-02); late hours confirmed by Yelp listing updated Sep 2026 (open until about 2 am Sun-Thu, 3 am Fri-Sat) (checked 2026-11-02)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm",
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "openstreetmap": "Mon-Thu 10:30a-2a; Fri-Sat 10:30a-4a; Sun 10:30a-2a",
+      "yelp (Sep 2026)": "until about 2a Sun-Thu, 3a Fri-Sat",
+      "newbigwongtogo.com takeout": "takeout until 1a Mon-Thu, 2a Fri, 12a Sat"
+     },
+     "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+     ],
+     "resolution": "Kept OpenStreetMap hours; flagged for review",
+     "checked": "2026-11-02"
+    }
+   ]
   }
  ],
  "type": "neighborhood",

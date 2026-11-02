@@ -4119,6 +4119,58 @@
    "source": "hours from OpenStreetMap way/769525291 opening_hours tag (map data 2026-10-31; last checked on the map 2026-01-05) (checked 2026-11-01)",
    "county": "Lancaster",
    "addedBy": "sweep-osm"
+  },
+  {
+   "id": "pa-red-pin-bar-grill-lancaster",
+   "name": "Red Pin Bar & Grill",
+   "cuisine": "Bar & grill",
+   "address": "1495 Millport Rd, Lancaster",
+   "state": "PA",
+   "zip": "17602",
+   "phone": "(717) 394-6162",
+   "phoneSource": "Cheaters Never Prosper venue match / https://redpinbarandgrill.net/, checked 2026-11-02",
+   "lat": 40.021898,
+   "lng": -76.272475,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Mon-Thu 4:30p-10p; Fri 4:30p-11:30p; Sat 2:30p-12a; Sun 2:30p-9:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from https://redpinbarandgrill.net/ (checked 2026-11-02); venue on the Cheaters Never Prosper Trivia weekly schedule (https://cnptrivia.com/weekly-schedule/)",
+   "county": "Lancaster",
+   "addedBy": "refresh-cnp",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "7 pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-02",
+      "datedLastSeen": "2026-11-02",
+      "note": "Cheaters Never Prosper Trivia",
+      "sources": [
+       {
+        "src": "cnptrivia.com weekly schedule",
+        "url": "https://cnptrivia.com/weekly-schedule/",
+        "date": "2026-11-02",
+        "quote": "Red Pin Bar & Grill at 7pm"
+       }
+      ],
+      "basis": "vendor schedule (CNP Trivia)",
+      "vendor": "Cheaters Never Prosper Trivia"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
   }
  ],
  "type": "city",

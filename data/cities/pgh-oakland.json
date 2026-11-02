@@ -811,6 +811,46 @@
    "source": "hours from OpenStreetMap way/171464187 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Allegheny",
    "addedBy": "sweep-osm"
+  },
+  {
+   "id": "pa-k-ts-fish-chicken-pittsburgh",
+   "name": "K & T's Fish & Chicken",
+   "cuisine": "Restaurant",
+   "address": "4521 Centre Avenue, Pittsburgh",
+   "state": "PA",
+   "zip": "15213",
+   "phone": "(412) 621-2526",
+   "phoneSource": "OpenStreetMap way/171465007 phone tag (map data 2026-11-01), checked 2026-11-02",
+   "lat": 40.451931,
+   "lng": -79.952514,
+   "website": "https://www.ktsfish-chicken.com/",
+   "websiteSource": "Venue's own current site (OpenStreetMap link kntfish.com did not load), checked 2026-11-02",
+   "hours": "Mon closed; Tue-Sun 12p-11:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/171465007 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by Pittsburgh Spotlight and Checkle (Oct 2025) listings (Tue-Sun noon-11:30 PM) (checked 2026-11-02)",
+   "county": "Allegheny",
+   "addedBy": "sweep-osm",
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "openstreetmap": "Mon-Thu 12:15p-11:30p; Fri 2p-11:30p; Sat-Sun 12:15p-11:30p",
+      "pittsburgh spotlight / checkle": "Mon closed; Tue-Sun 12p-11:30p"
+     },
+     "days": [
+      "Mon",
+      "Fri"
+     ],
+     "resolution": "Newer listings used",
+     "checked": "2026-11-02"
+    }
+   ]
   }
  ],
  "counties": [

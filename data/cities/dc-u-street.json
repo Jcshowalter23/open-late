@@ -1560,12 +1560,12 @@
       "cadence": "weekly",
       "start": "7 pm",
       "confidence": "high",
-      "lastSeen": "2026-11-01",
+      "lastSeen": "2026-11-02",
       "sources": [
        {
         "src": "Sporcle Events schedule",
         "url": "https://www.sporcle.com/venue/132858/franklin-hall",
-        "date": "2026-11-01",
+        "date": "2026-11-02",
         "quote": "Opinionation · Mon 7:00pm · Franklin Hall, Washington"
        }
       ],
@@ -4337,12 +4337,12 @@
       "cadence": "weekly",
       "start": "7 pm",
       "confidence": "high",
-      "lastSeen": "2026-11-01",
+      "lastSeen": "2026-11-02",
       "sources": [
        {
         "src": "Sporcle Events schedule",
         "url": "https://www.sporcle.com/venue/137231/takoda-beer-garden",
-        "date": "2026-11-01",
+        "date": "2026-11-02",
         "quote": "Pub Quiz · Wed 7:00pm · TAKODA Beer Garden, Washington"
        }
       ],
@@ -7065,6 +7065,145 @@
      }
     ]
    }
+  },
+  {
+   "id": "dc-number-nine-washington",
+   "name": "Number Nine",
+   "cuisine": "Bar",
+   "address": "1435 P Street Northwest, Washington",
+   "state": "DC",
+   "zip": "20005",
+   "phone": "(202) 986-0999",
+   "phoneSource": "Venue website numberninedc.com, checked 2026-11-02",
+   "lat": 38.909806,
+   "lng": -77.033364,
+   "website": "http://www.numberninedc.com/",
+   "websiteSource": "OpenStreetMap node/741013070 website tag (map data 2026-11-01), checked 2026-11-02",
+   "hours": "Mon-Thu 5p-1:45a; Fri 4p-2:45a; Sat 2p-2:45a; Sun 2p-1:45a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/741013070 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by Restaurantji and Eater DC listings (Mon-Thu 5PM-1:45AM, Fri 4PM-2:45AM, Sat 2PM-2:45AM, Sun 2PM-1:45AM); venue site numberninedc.com gives the same opening times (checked 2026-11-02)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm",
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "openstreetmap": "Mon-Thu 5p-1:45a; Fri-Sat 5p-2:45a; Sun 5p-1:45a",
+      "venue website/restaurantji": "Mon-Thu 5p-1:45a; Fri 4p-2:45a; Sat 2p-2:45a; Sun 2p-1:45a"
+     },
+     "days": [
+      "Fri",
+      "Sat",
+      "Sun"
+     ],
+     "resolution": "Venue website opening times used (newer)",
+     "checked": "2026-11-02"
+    }
+   ]
+  },
+  {
+   "id": "dc-1942dc-washington",
+   "name": "1942DC",
+   "cuisine": "Bar",
+   "address": "1942 9th Street Northwest, Washington",
+   "state": "DC",
+   "zip": "20001",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 38.916753,
+   "lng": -77.024214,
+   "website": "http://1942loungedc.com/",
+   "websiteSource": "OpenStreetMap node/750467838 website tag (map data 2026-11-01), checked 2026-11-02",
+   "hours": "Mon closed; Tue-Thu 6p-2a; Fri-Sat 6p-3a; Sun 6p-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/750467838 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website 1942loungedc.com (Tue-Thu 6pm-2am, Fri-Sat 6pm-3am, Sun 6pm-12am) (checked 2026-11-02)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-judy-restaurant-washington",
+   "name": "Judy Restaurant",
+   "cuisine": "Mexican",
+   "address": "2212 14th Street Northwest, Washington",
+   "state": "DC",
+   "zip": "20009",
+   "phone": "(202) 265-2519",
+   "phoneSource": "Venue website judyrestaurant.com, checked 2026-11-02",
+   "lat": 38.919651,
+   "lng": -77.03229,
+   "website": "https://judyrestaurant.com/",
+   "websiteSource": "Venue's own site (OpenStreetMap link judyrestaurantdc.com did not load), checked 2026-11-02",
+   "hours": "Mon closed; Tue-Thu 11a-1a; Fri-Sat 11a-2a; Sun 1p-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/750467876 opening_hours tag (map data 2026-11-01; last checked on the map 2023-10-02) (checked 2026-11-02); late hours confirmed by venue website judyrestaurant.com/location (Tue-Thu 11 AM-1 AM, Fri-Sat 11 AM-2 AM, Sun 1 PM-midnight) (checked 2026-11-02)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm",
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "openstreetmap": "Mon closed; Tue-Thu 11a-12a; Fri-Sat 11a-2a; Sun closed",
+      "venue website": "Mon closed; Tue-Thu 11a-1a; Fri-Sat 11a-2a; Sun 1p-12a"
+     },
+     "days": [
+      "Tue",
+      "Wed",
+      "Thu",
+      "Sun"
+     ],
+     "resolution": "Venue website hours used (newer)",
+     "checked": "2026-11-02"
+    }
+   ]
+  },
+  {
+   "id": "dc-left-door-washington",
+   "name": "Left Door",
+   "cuisine": "Bar",
+   "address": "1345 South Street Northwest, Washington",
+   "state": "DC",
+   "zip": "20009",
+   "phone": "(202) 734-8576",
+   "phoneSource": "OpenStreetMap node/5319524414 phone tag (map data 2026-11-01), checked 2026-11-02",
+   "lat": 38.914254,
+   "lng": -77.031501,
+   "website": "http://www.leftdoordc.com",
+   "websiteSource": "OpenStreetMap node/5319524414 website tag (map data 2026-11-01), checked 2026-11-02",
+   "hours": "Mon closed; Tue-Sat 5p-12a; Sun closed",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/5319524414 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by Yelp listing (Tue-Sun 5 PM-midnight) (checked 2026-11-02)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "neighborhood",

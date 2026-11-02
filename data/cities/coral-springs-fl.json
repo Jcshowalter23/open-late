@@ -4664,7 +4664,25 @@
    },
    "menu": "https://worldofbeer.com/menu/",
    "trivia": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7 pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-02",
+      "sources": [
+       {
+        "src": "Challenge Entertainment schedule",
+        "url": "https://challengeentertainment.com/show/world-of-beer-coconut-creek-live-trivia/",
+        "date": "2026-11-02",
+        "quote": "Live Trivia · Wed 7:00 PM · World Of Beer - Coconut Creek, Coconut Creek"
+       }
+      ],
+      "basis": "vendor/host published venue schedule",
+      "vendor": "Challenge Entertainment"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],

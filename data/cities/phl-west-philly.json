@@ -1025,6 +1025,51 @@
    "source": "hours from OpenStreetMap way/369570964 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Philadelphia",
    "addedBy": "sweep-osm"
+  },
+  {
+   "id": "pa-evergreen-philadelphia",
+   "name": "Evergreen",
+   "cuisine": "Chinese",
+   "address": "4726 Spruce Street, Philadelphia",
+   "state": "PA",
+   "zip": "19139",
+   "phone": "(215) 476-0371",
+   "phoneSource": "OpenStreetMap way/1255043251 phone tag (map data 2026-11-01), checked 2026-11-02",
+   "lat": 39.953262,
+   "lng": -75.217035,
+   "website": "https://philadelphiaevergreen.com/",
+   "websiteSource": "Venue's own current site (OpenStreetMap link evergreentogo.com did not load), checked 2026-11-02",
+   "hours": "Mon-Thu 10:30a-11p; Fri-Sat 10:30a-12a; Sun 11:30a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/1255043251 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by Beyond Menu ordering page (Fri-Sat until midnight) (checked 2026-11-02)",
+   "county": "Philadelphia",
+   "addedBy": "sweep-osm",
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "openstreetmap": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 12p-11p",
+      "beyond menu": "Mon-Thu 10:30a-11p; Fri-Sat 10:30a-12a; Sun 11:30a-11p"
+     },
+     "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+     ],
+     "resolution": "Ordering page hours used (newer)",
+     "checked": "2026-11-02"
+    }
+   ]
   }
  ],
  "counties": [

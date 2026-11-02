@@ -1695,6 +1695,50 @@
    "source": "hours from OpenStreetMap way/456378263 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Philadelphia",
    "addedBy": "sweep-osm"
+  },
+  {
+   "id": "pa-12-steps-down-philadelphia",
+   "name": "12 Steps Down",
+   "cuisine": "Bar",
+   "address": "831 Christian Street, Philadelphia",
+   "state": "PA",
+   "zip": "19147",
+   "phone": "(215) 238-0379",
+   "phoneSource": "OpenStreetMap node/2876251699 phone tag (map data 2026-11-01), checked 2026-11-02",
+   "lat": 39.939053,
+   "lng": -75.157684,
+   "website": "http://www.12stepsdown.com",
+   "websiteSource": "OpenStreetMap node/2876251699 website tag (map data 2026-11-01), checked 2026-11-02",
+   "hours": "Mon-Thu 5p-2a; Fri-Sun 11a-2a",
+   "hoursNote": null,
+   "kitchen": "Daily 5p-1a",
+   "kitchenNote": "Kitchen 5 pm-1 am daily, per the venue website listing (checked 2026-11-02).",
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/2876251699 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by Visit Philadelphia late-night bars article and Fork & City listing (Mon-Thu 5 pm-2 am, Fri-Sun 11 am-2 am) (checked 2026-11-02)",
+   "county": "Philadelphia",
+   "addedBy": "sweep-osm",
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "openstreetmap": "Daily 11a-2a",
+      "visitphilly / fork & city": "Mon-Thu 5p-2a; Fri-Sun 11a-2a"
+     },
+     "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu"
+     ],
+     "resolution": "Newer listings used",
+     "checked": "2026-11-02"
+    }
+   ]
   }
  ],
  "counties": [

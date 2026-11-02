@@ -1918,7 +1918,7 @@
       "cadence": "weekly",
       "start": "7 pm",
       "basis": "explicit recurring wording",
-      "lastSeen": "2026-11-04",
+      "lastSeen": "2026-11-02",
       "datedLastSeen": "2026-11-04",
       "postsSeen": 1,
       "sources": [
@@ -1939,6 +1939,12 @@
         "url": "https://www.brasstapbeerbar.com/WaterfordLakes/specials",
         "date": "2026-11-01",
         "quote": "Trivia @7pm | Wednesday | Happy Hour from 4pm-7pm"
+       },
+       {
+        "src": "Challenge Entertainment schedule",
+        "url": "https://challengeentertainment.com/show/the-brass-tap-waterford-lakes-orlando-live-trivia/",
+        "date": "2026-11-02",
+        "quote": "Live Trivia · Wed 7:00 PM · The Brass Tap - Waterford Lakes/Orlando, Orlando"
        }
       ],
       "confidence": "medium"
@@ -1966,7 +1972,25 @@
     ]
    },
    "bingo": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "6 pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-02",
+      "sources": [
+       {
+        "src": "Challenge Entertainment schedule",
+        "url": "https://challengeentertainment.com/show/the-brass-tap-waterford-lakes-orlando-singo/",
+        "date": "2026-11-02",
+        "quote": "Singo · Thu 6:00 PM · The Brass Tap - Waterford Lakes/Orlando, Orlando"
+       }
+      ],
+      "basis": "vendor/host published venue schedule",
+      "vendor": "Challenge Entertainment"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],

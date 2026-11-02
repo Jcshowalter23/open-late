@@ -1461,12 +1461,12 @@
       "cadence": "weekly",
       "start": "7:30 pm",
       "confidence": "high",
-      "lastSeen": "2026-11-01",
+      "lastSeen": "2026-11-02",
       "sources": [
        {
         "src": "Team Trivia schedule",
         "url": "https://www.teamtrivia.com/venue/rooster-s-huntington-wv",
-        "date": "2026-11-01",
+        "date": "2026-11-02",
         "quote": "Team Trivia · Wed 7:30 PM · Rooster's, Huntington"
        }
       ],
@@ -1933,7 +1933,9 @@
     "website": "https://www.peddlerwv.com/"
    },
    "trivia": {
-    "nights": [
+    "nights": [],
+    "hints": [],
+    "stale": [
      {
       "day": "Sun",
       "cadence": "weekly",
@@ -1949,11 +1951,10 @@
        }
       ],
       "basis": "vendor/host published venue schedule",
-      "vendor": "Team Trivia"
+      "vendor": "Team Trivia",
+      "staleReason": "No longer listed on the Team Trivia West Virginia schedule (checked 2026-11-02); it was the only source."
      }
     ],
-    "hints": [],
-    "stale": false,
     "oneoffs": [],
     "conflicts": []
    }

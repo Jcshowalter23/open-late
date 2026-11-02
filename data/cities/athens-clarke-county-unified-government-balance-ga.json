@@ -2522,6 +2522,91 @@
      }
     ]
    }
+  },
+  {
+   "id": "ga-1785-bar-grill-athens",
+   "name": "1785 Bar & Grill",
+   "cuisine": "Bar",
+   "address": "420 East Clayton Street, Athens",
+   "state": "GA",
+   "zip": "30601",
+   "phone": "(443) 579-5566",
+   "phoneSource": "OpenStreetMap node/2501973697 phone tag (map data 2026-11-01), checked 2026-11-02",
+   "lat": 33.958808,
+   "lng": -83.373746,
+   "website": "https://www.1785athens.com/",
+   "websiteSource": "OpenStreetMap node/2501973697 website tag (map data 2026-11-01), checked 2026-11-02",
+   "hours": "Mon-Wed 7p-2a; Thu-Sat 8p-2a; Sun 6p-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/2501973697 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website 1785athens.com and Visit Athens GA listing (Mon-Wed 7 PM-2 AM, Thu-Sat 8 PM-2 AM, Sun 6 PM-12 AM) (checked 2026-11-02)",
+   "county": "Clarke",
+   "addedBy": "sweep-osm",
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "openstreetmap": "Mon-Wed 7p-2a; Thu-Sat 9p-2a; Sun 6p-12a",
+      "venue website": "Mon-Wed 7p-2a; Thu-Sat 8p-2a; Sun 6p-12a"
+     },
+     "days": [
+      "Thu",
+      "Fri",
+      "Sat"
+     ],
+     "resolution": "Venue website hours used (newer)",
+     "checked": "2026-11-02"
+    }
+   ]
+  },
+  {
+   "id": "ga-bulldawg-pizza-wings-athens",
+   "name": "Bulldawg Pizza & Wings",
+   "cuisine": "Pizza",
+   "address": "2026 South Milledge Avenue, Athens",
+   "state": "GA",
+   "zip": "30605",
+   "phone": "(706) 355-3294",
+   "phoneSource": "OpenStreetMap node/9105941342 phone tag (map data 2026-11-01), checked 2026-11-02",
+   "lat": 33.924114,
+   "lng": -83.379194,
+   "website": "https://www.bulldawgpizzawingsmore.com/",
+   "websiteSource": "Venue's own current site, checked 2026-11-02",
+   "hours": "Mon 11a-1a; Tue-Wed 11a-1:15a; Thu 11a-1:45a; Fri-Sat 11a-2:45a; Sun 4p-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/9105941342 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by restaurantjump and place listings (Mon 11 AM-1 AM through Fri-Sat 11 AM-2:45 AM) (checked 2026-11-02)",
+   "county": "Clarke",
+   "addedBy": "sweep-osm",
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "openstreetmap": "Mon 11a-1a; Tue-Wed 11a-1:15a; Thu 11a-1:45a; Fri-Sat 11a-2:45a; Sun 4p-11p",
+      "restaurantjump": "Mon 11a-1a; Tue-Wed 11a-1:30a; Thu 11a-2a; Fri-Sat 11a-2:45a; Sun 4p-10:45p"
+     },
+     "days": [
+      "Tue",
+      "Wed",
+      "Thu",
+      "Sun"
+     ],
+     "resolution": "Minor differences; kept OpenStreetMap; flagged for review",
+     "checked": "2026-11-02"
+    }
+   ]
   }
  ],
  "type": "city",

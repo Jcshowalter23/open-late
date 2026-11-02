@@ -1067,6 +1067,48 @@
      }
     ]
    }
+  },
+  {
+   "id": "pa-jack-mcsheas-restaurant-bar-ardmore",
+   "name": "Jack McShea's Restaurant & Bar",
+   "cuisine": "Pub",
+   "address": "34 East Lancaster Avenue, Ardmore",
+   "state": "PA",
+   "zip": null,
+   "phone": "(484) 416-3547",
+   "phoneSource": "OpenStreetMap node/1078209701 phone tag (map data 2026-11-01), checked 2026-11-02",
+   "lat": 40.007163,
+   "lng": -75.289891,
+   "website": "https://www.jackmcsheas-ardmore.com/",
+   "websiteSource": "Venue's own site (OpenStreetMap link mcsheasardmore.com did not load), checked 2026-11-02",
+   "hours": "Mon-Tue 4p-2a; Wed-Sun 11a-2a",
+   "hoursNote": "Kitchen and takeout close at 10 pm (11 pm Fri-Sat), per the venue website.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/1078209701 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website jackmcsheas-ardmore.com (bar open until 2 AM daily) (checked 2026-11-02)",
+   "county": "Montgomery",
+   "addedBy": "sweep-osm",
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "openstreetmap": "Daily 11a-2a",
+      "venue website": "Mon-Tue 4p-2a; Wed-Sun 11a-2a"
+     },
+     "days": [
+      "Mon",
+      "Tue"
+     ],
+     "resolution": "Venue website hours used (newer)",
+     "checked": "2026-11-02"
+    }
+   ]
   }
  ],
  "counties": [

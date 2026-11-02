@@ -1662,6 +1662,52 @@
    "source": "hours from OpenStreetMap node/533753695 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Allegheny",
    "addedBy": "sweep-osm"
+  },
+  {
+   "id": "pa-take-a-break-bar-pittsburgh",
+   "name": "Take A Break Bar",
+   "cuisine": "Bar",
+   "address": "3825 Penn Avenue, Pittsburgh",
+   "state": "PA",
+   "zip": null,
+   "phone": "(412) 681-0861",
+   "phoneSource": "OpenStreetMap node/6076837753 phone tag (map data 2026-11-01), checked 2026-11-02",
+   "lat": 40.464831,
+   "lng": -79.960664,
+   "website": "http://mydlowski88.wixsite.com/take-a-break",
+   "websiteSource": "OpenStreetMap node/6076837753 website tag (map data 2026-11-01), checked 2026-11-02",
+   "hours": "Mon-Sat 11a-2a; Sun 12p-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/6076837753 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by Restaurantji listing (open until 2 AM daily) (checked 2026-11-02)",
+   "county": "Allegheny",
+   "addedBy": "sweep-osm",
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "openstreetmap": "Mon-Sat 11a-2a; Sun 12p-2a",
+      "restaurantji": "Mon-Tue 6p-2a; Wed-Thu 1p-2a; Fri-Sun 12p-2a"
+     },
+     "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+     ],
+     "resolution": "Both agree on 2 am close; opening times differ, kept OpenStreetMap; flagged for review",
+     "checked": "2026-11-02"
+    }
+   ]
   }
  ],
  "counties": [

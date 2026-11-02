@@ -6663,6 +6663,33 @@
    "source": "hours from OpenStreetMap way/682494392 opening_hours tag (map data 2026-10-31) (checked 2026-11-01); active on-premise license: Florida DBPR alcoholic beverage licensee extract (bd400lic.csv, downloaded 2026-11-01), address from license",
    "county": "Lee",
    "addedBy": "sweep-osm"
+  },
+  {
+   "id": "fl-world-famous-cigar-bar-cape-coral",
+   "name": "World Famous Cigar Bar",
+   "cuisine": "Beer garden",
+   "address": "1311 Cape Coral Parkway East, Cape Coral",
+   "state": "FL",
+   "zip": "33904",
+   "phone": "(239) 471-0294",
+   "phoneSource": "OpenStreetMap node/5006252121 phone tag (map data 2026-10-31), checked 2026-11-02",
+   "lat": 26.563058,
+   "lng": -81.94837,
+   "website": "https://www.worldfamouscigarbar.com/",
+   "websiteSource": "OpenStreetMap node/5006252121 website tag (map data 2026-10-31), checked 2026-11-02",
+   "hours": "Mon-Thu 11a-12a; Fri-Sat 11a-2a; Sun 11a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/5006252121 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); venue website loads over https (https://www.worldfamouscigarbar.com/), rechecked 2026-11-02 (earlier drop was a proxy failure on the http:// address)",
+   "county": "Lee",
+   "addedBy": "refresh-restore"
   }
  ],
  "type": "city",
