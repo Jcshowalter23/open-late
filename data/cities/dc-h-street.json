@@ -68,41 +68,6 @@
    "websiteSource": "OpenStreetMap node/13093798767 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
-   "id": "dc-aris-diner",
-   "name": "Ari's Diner",
-   "cuisine": "Diner",
-   "address": "2000 Fenwick St, Washington, DC",
-   "state": "DC",
-   "zip": "20002",
-   "phone": "(202) 688-4131",
-   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Washington-D.C./1668235383497513/Ari%27s-Diner), checked 2026-11-01",
-   "lat": 38.9147,
-   "lng": -76.985,
-   "priceText": "$ (Facebook page)",
-   "priceLevel": "$",
-   "website": "http://Arisdiner.com/",
-   "hours": "Mon closed; Tue-Thu 4p-9p; Fri closed; Sat-Sun 8a-4p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Family-friendly"
-   ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
-   "county": "Washington, DC",
-   "crowdChecked": "2026-11-01",
-   "crowdSources": {
-    "restaurantji": null,
-    "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./1668235383497513/Ari%27s-Diner",
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   }
-  },
-  {
    "id": "dc-atlas-brew-works",
    "name": "Atlas Brew Works",
    "cuisine": "Beer bar",
@@ -897,61 +862,6 @@
     "fbNewestPost": null,
     "website": null
    }
-  },
-  {
-   "id": "dc-dc-diner",
-   "name": "DC Diner",
-   "cuisine": "Diner",
-   "address": "Washington, DC 20002",
-   "state": "DC",
-   "zip": "20002",
-   "phone": "(202) 847-0122",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/dc/washington/unconventional-diner-/ (updated 2026-10-29), checked 2026-11-01",
-   "lat": 38.9004,
-   "lng": -76.9885,
-   "priceText": "$$ (Facebook page)",
-   "priceLevel": "$$",
-   "website": null,
-   "hours": "Daily 7a-10p",
-   "hoursNote": "Hours differ by source: Facebook page lists Mon-Tue closed; Wed-Sat 9a-9a; Sun 9a-3p (no posts since May 2026); Restaurantji (updated 2026-10-29) used as newer. Call ahead.",
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Family-friendly"
-   ],
-   "source": "hours from Restaurantji (updated 2026-10-29; newer than any Facebook activity) (checked 2026-11-01)",
-   "county": "Washington, DC",
-   "crowdChecked": "2026-11-01",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/dc/washington/unconventional-diner-/",
-    "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./317655348645342/DC-Diner",
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   },
-   "conflicts": [
-    {
-     "field": "hours",
-     "values": {
-      "facebook": "Mon-Tue closed; Wed-Sat 9a-9a; Sun 9a-3p",
-      "restaurantji": "Daily 7a-10p"
-     },
-     "days": [
-      "Mon",
-      "Tue",
-      "Wed",
-      "Thu",
-      "Fri",
-      "Sat",
-      "Sun"
-     ],
-     "resolution": "Restaurantji hours used (newer)",
-     "checked": "2026-11-01"
-    }
-   ]
   },
   {
    "id": "dc-dc-harvest",
