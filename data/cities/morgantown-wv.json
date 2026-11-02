@@ -1098,6 +1098,56 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://mountainstatebrewing.com/"
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": "7:00 PM",
+      "confidence": "high",
+      "lastSeen": "2026-11-01",
+      "sources": [
+       {
+        "src": "Team Trivia schedule",
+        "url": "https://www.teamtrivia.com/venue/mountain-state-brewing-company-morgantown-wv",
+        "date": "2026-11-01",
+        "quote": "Team Bingo · Sun 7:00 PM · Mountain State Brewing Company, Morgantown"
+       }
+      ],
+      "basis": "vendor/host published venue schedule",
+      "vendor": "Team Trivia"
+     }
+    ],
+    "hints": [],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "trivia": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "7:00 PM",
+      "confidence": "high",
+      "lastSeen": "2026-11-01",
+      "sources": [
+       {
+        "src": "Team Trivia schedule",
+        "url": "https://www.teamtrivia.com/venue/mountain-state-brewing-company-morgantown-wv",
+        "date": "2026-11-01",
+        "quote": "Team Trivia · Tue 7:00 PM · Mountain State Brewing Company, Morgantown"
+       }
+      ],
+      "basis": "vendor/host published venue schedule",
+      "vendor": "Team Trivia"
+     }
+    ],
+    "hints": [],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
    }
   },
   {
@@ -1510,7 +1560,40 @@
     "fbNewestPost": null,
     "website": "https://www.sabratonstation.com/"
    },
-   "menu": "https://www.sabratonstation.com/menu"
+   "menu": "https://www.sabratonstation.com/menu",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.sabratonstation.com/calendar/",
+        "date": "2026-11-01",
+        "quote": "Wednesday - Team Trivia"
+       },
+       {
+        "src": "Team Trivia schedule",
+        "url": "https://www.teamtrivia.com/venue/sabraton-station-morgantown-wv",
+        "date": "2026-11-01",
+        "quote": "Team Trivia · Wed 7:00 PM · Sabraton Station, Morgantown"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
   },
   {
    "id": "wv-scorers-sabraton",

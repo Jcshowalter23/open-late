@@ -929,7 +929,32 @@
     "fbNewestPost": null,
     "website": "https://www.bondbrothersbeer.com/"
    },
-   "menu": "https://www.bondbrothersbeer.com/pickup-delivery-mailorder-menu"
+   "menu": "https://www.bondbrothersbeer.com/pickup-delivery-mailorder-menu",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7:00 PM",
+      "confidence": "high",
+      "lastSeen": "2026-11-01",
+      "sources": [
+       {
+        "src": "Team Trivia schedule",
+        "url": "https://www.teamtrivia.com/venue/bond-brothers-beer-company-cary-nc",
+        "date": "2026-11-01",
+        "quote": "Team Trivia · Wed 7:00 PM · Bond Brothers Beer Company, Cary"
+       }
+      ],
+      "basis": "vendor/host published venue schedule",
+      "vendor": "Team Trivia"
+     }
+    ],
+    "hints": [],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   }
   },
   {
    "id": "nc-bosphorus-restaurant",
@@ -2325,6 +2350,178 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "trivia": {
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": "8-10pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.dohertysirishpubnc.com/pubtrivia",
+        "date": "2026-11-01",
+        "quote": "Join us every week for Pub Trivia w/ DJ Ray, a live trivia night right here in | Mon. 8-10pm"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.dohertysirishpubnc.com/pubtrivia",
+        "date": "2026-11-01",
+        "quote": "Join us every week for Pub Trivia w/ DJ Ray, a live trivia night right here in | Mon. 7-9pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "7-9pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.dohertysirishpubnc.com/pubtrivia",
+        "date": "2026-11-01",
+        "quote": "Join us every week for Pub Trivia with DJ Patrick W, a live trivia night in | Tue. 7-9pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "8-10pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.dohertysirishpubnc.com/pubtrivia",
+        "date": "2026-11-01",
+        "quote": "Join us every week for Pub Trivia w/ DJ Ray, a live trivia night right here in | Wed. 8-10pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Pub Trivia",
+      "url": "https://www.dohertysirishpubnc.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Join us each week for live Irish music, Pub Trivia, Music Bingo, and Prime Rib Night and there's always another party or holiday even right around the corner",
+      "url": "https://www.dohertysirishpubnc.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Pub Trivia",
+      "url": "https://www.dohertysirishpubnc.com/eventcalendar"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "7-9pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.dohertysirishpubnc.com/bingo",
+        "date": "2026-11-01",
+        "quote": "CARY, Bar Bingo | Tue. 7-9pm | Tue. 7-9pm"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.dohertysirishpubnc.com/bingo",
+        "date": "2026-11-01",
+        "quote": "Bar Bingo with DJ Daphne brings a little nostalgia and a lot of friendly competition to | Tue. 7-9pm"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.dohertysirishpubnc.com/bingo",
+        "date": "2026-11-01",
+        "quote": "Play classic bingo with prizes throughout the night, including a final round progressive jackpot | every Tuesday at 7pm. The cards, the markers, the moment where you’re one number away and suddenly this is the most important thing happening in your life, it’s "
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7-9pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-04",
+      "datedLastSeen": "2026-11-04",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.dohertysirishpubnc.com/bingo",
+        "date": "2026-11-04",
+        "quote": "HOLLY SPRINGS, Bar Bingo | Wed. 7-9pm (Starting 11/4!) | Wed. 7-9pm (Starting 11/4!)"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.dohertysirishpubnc.com/bingo",
+        "date": "2026-11-04",
+        "quote": "Bar Bingo with DJ Daphne brings a little nostalgia and a lot of friendly competition to | Wed. 7-9pm (Starting 11/4!)"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.dohertysirishpubnc.com/bingo",
+        "date": "2026-11-01",
+        "quote": "Play classic bingo with prizes throughout the night, including a final round progressive jackpot | every Wednesday at 7pm. The cards, the markers, the moment where you’re one number away and suddenly this is the most important thing happening in your life, it’"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Bingo",
+      "url": "https://www.dohertysirishpubnc.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Join us each week for live Irish music, Pub Trivia, Music Bingo, and Prime Rib Night and there's always another party or holiday even right around the corner",
+      "url": "https://www.dohertysirishpubnc.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Bingo",
+      "url": "https://www.dohertysirishpubnc.com/eventcalendar"
+     }
+    ]
    }
   },
   {
@@ -7494,6 +7691,31 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "trivia": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "7:30pm",
+      "confidence": "high",
+      "lastSeen": "2026-11-01",
+      "sources": [
+       {
+        "src": "Sporcle Events schedule",
+        "url": "https://www.sporcle.com/venue/56107/the-parkway-tavern",
+        "date": "2026-11-01",
+        "quote": "Pub Quiz · Tue 7:30pm · The Parkway Tavern, Cary"
+       }
+      ],
+      "basis": "vendor/host published venue schedule",
+      "vendor": "Sporcle Events"
+     }
+    ],
+    "hints": [],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
    }
   },
   {

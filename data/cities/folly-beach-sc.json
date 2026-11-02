@@ -394,6 +394,31 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "trivia": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "7:00 PM",
+      "confidence": "high",
+      "lastSeen": "2026-11-01",
+      "sources": [
+       {
+        "src": "Team Trivia schedule",
+        "url": "https://www.teamtrivia.com/venue/locals-sushi-sports-pub-james-island-charleston-sc",
+        "date": "2026-11-01",
+        "quote": "Team Trivia · Tue 7:00 PM · Locals Sushi & Sports Pub - James Island, Charleston"
+       }
+      ],
+      "basis": "vendor/host published venue schedule",
+      "vendor": "Team Trivia"
+     }
+    ],
+    "hints": [],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
    }
   },
   {
@@ -1151,7 +1176,40 @@
     "fbNewestPost": null,
     "website": "https://crabshacks.com/folly-beach.php"
    },
-   "menu": "https://www.crabshacks.com/folly-beach-menu"
+   "menu": "https://www.crabshacks.com/folly-beach-menu",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7pm–9pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.crabshacks.com/coosaw-creek",
+        "date": "2026-11-01",
+        "quote": "Team Trivia with Food & Drink Specials | Every Wednesday · 7pm–9pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " The Crab Shack has been locally owned and operated for the past quarter century and is also home to a large outdoor patio with a separate bar area where we offer oyster roasts and team trivia",
+      "url": "https://www.crabshacks.com/coosaw-creek"
+     }
+    ]
+   }
   },
   {
    "id": "sc-the-pineapple-hut",

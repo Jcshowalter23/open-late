@@ -133,7 +133,7 @@
   }
 
   const on = (id) => $(id).getAttribute("aria-pressed") === "true";
-  const CHIPS = ["tonight", "openNow", "kitchenNow", "onlyDeals", "wingDeals", "beerDeals", "hhDeals", "kkNights", "djNights", "favsOnly"];
+  const CHIPS = ["tonight", "openNow", "kitchenNow", "onlyDeals", "wingDeals", "beerDeals", "hhDeals", "kkNights", "djNights", "tvNights", "bgNights", "favsOnly"];
   // favorites live in localStorage as "area|placeId"
   let favs = new Set();
   try { favs = new Set(JSON.parse(localStorage.getItem("openlate.favs") || "[]")); } catch (e) { favs = new Set(); }
@@ -289,7 +289,7 @@
     const cuisine = $("cuisine").value, price = $("price").value, vibe = $("vibe").value;
     const openNow = on("openNow"), kitchenNow = on("kitchenNow"), onlyDeals = on("onlyDeals");
     const wingDeals = on("wingDeals"), beerDeals = on("beerDeals"), hhDeals = on("hhDeals"), favsOnly = on("favsOnly");
-    const kkOn = on("kkNights"), djOn = on("djNights"); // karaoke / DJ nights on the picked day (medium/high-confidence, non-stale only; see tools/build_data.py)
+    const kkOn = on("kkNights"), djOn = on("djNights"), tvOn = on("tvNights"), bgOn = on("bgNights"); // karaoke / DJ nights on the picked day (medium/high-confidence, non-stale only; see tools/build_data.py)
     const day = Number($("day").value), sort = $("sort").value, tonight = on("tonight");
     const nearOn = sort === "near" && here && !town && bbNear(county, NEAR_MI); // nearby Counties mix in only when you are in or near the picked one
     const pool = rows.concat([...extra.values()].filter((p) => p.cid !== county.id && !(county.all && allCids.has(p.cid)) && ((favsOnly && favs.has(pkey(p))) || (nearOn && (miles(p) ?? 99) <= NEAR_MI))));
@@ -315,6 +315,8 @@
       }
       if (kkOn && !nightsOn(r.kk, day).length) return false;
       if (djOn && !nightsOn(r.dj, day).length) return false;
+      if (tvOn && !nightsOn(r.tv, day).length) return false;
+      if (bgOn && !nightsOn(r.bg, day).length) return false;
       return true;
     });
     const key = (p) => {
@@ -357,7 +359,7 @@
     const mf = [cuisine !== "All", price !== "All", vibe !== "All", sort !== "smart" && sort !== "near"].filter(Boolean).length;
     $("mfCount").textContent = mf ? `(${mf} on)` : "";
     const kinds = [wingDeals && "wing", beerDeals && "beer", hhDeals && "happy hour"].filter(Boolean).join(" + ");
-    const evKinds = [kkOn && "karaoke", djOn && "DJ"].filter(Boolean).join(" + ");
+    const evKinds = [kkOn && "karaoke", djOn && "DJ", tvOn && "trivia", bgOn && "bingo"].filter(Boolean).join(" + ");
     const what = [kinds && kinds + " deals", evKinds && evKinds + " nights"].filter(Boolean).join(" + ") || "deals";
     const pfx = (kkOn || djOn) && !(kinds || onlyDeals) ? "Nights" : "Deals";
     [...$("day").options].forEach((o) => { o.textContent = o.textContent.replace(/^(Deals|Nights):/, pfx + ":"); });
@@ -418,7 +420,7 @@
         const txt = ns.slice(0, 2).map((n) => n.w).join(" · ");
         return `<div class="dline eline"><span class="badge ${cls}">${pfx} ${label}</span>${dtx(label, esc(txt))}${ns.length > 2 ? `<button type="button" class="dmore" data-more="1">+${ns.length - 2} more</button>` : ""}</div>`;
       };
-      const elines = (kkOn || !djOn ? evLine(r.kk, "b-kk", "Karaoke", "🎤") + evLine(r.dj, "b-dj", "DJ", "🎧") : evLine(r.dj, "b-dj", "DJ", "🎧") + evLine(r.kk, "b-kk", "Karaoke", "🎤"));
+      const elines = (kkOn || !djOn ? evLine(r.kk, "b-kk", "Karaoke", "🎤") + evLine(r.dj, "b-dj", "DJ", "🎧") : evLine(r.dj, "b-dj", "DJ", "🎧") + evLine(r.kk, "b-kk", "Karaoke", "🎤")) + evLine(r.tv, "b-tv", "Trivia", "🧠") + evLine(r.bg, "b-bg", "Bingo", "🎱");
       const ctLine = r.ct && r.ct.l && r.ct.l.length ? `<div class="ctype" title="${esc(r.ct.s)}"><span aria-hidden="true">👥</span> ${esc(r.ct.l.slice(0, 3).join(" · "))}</div>` : "";
       const nightRows = (list, label) => list && list.length ? `<div class="row"><b>${label}:</b><ul class="wk">${list.map((n) => `<li>${esc(n.w)}${n.t ? ` (${esc(n.t)})` : ""}${n.n ? ` <span class="flag" title="${esc(n.n)}">⚠</span>` : ""} <span class="srcs">— ${n.u ? `<a href="${esc(n.u)}" target="_blank" rel="noopener">${esc(n.s || "source")}</a>` : esc(n.s || "")}${n.seen ? `, seen ${esc(shortDate(n.seen))}` : ""}</span></li>`).join("")}</ul></div>` : "";
       const meta = [r.cuisine, r.priceLevel].filter(Boolean).map(esc).join(" · ");
@@ -454,7 +456,7 @@
             ${weekly ? `<div class="row"><b>Specials all week:</b>${weekly}</div>` : ""}
             <div class="row"><b>Crowd:</b> ${r.crowd ? esc(r.crowd) : NL}</div>
             ${r.ct ? `<div class="row"><b>Crowd type:</b> ${esc(r.ct.s)}${r.ct.l && r.ct.l.length && !r.ct.l.every((l) => normTxt(r.ct.s).includes(normTxt(l))) ? ` <span class="ctl">(${esc(r.ct.l.join(", "))})</span>` : ""}${r.ct.src && r.ct.src.length ? ` <span class="srcs">— from ${r.ct.u ? `<a href="${esc(r.ct.u)}" target="_blank" rel="noopener">${esc(r.ct.src.join(", "))}</a>` : esc(r.ct.src.join(", "))}</span>` : ""}</div>` : ""}
-            ${nightRows(r.kk, "Karaoke")}${nightRows(r.dj, "DJ nights")}
+            ${nightRows(r.kk, "Karaoke")}${nightRows(r.dj, "DJ nights")}${nightRows(r.tv, "Trivia")}${nightRows(r.bg, "Bingo")}
             <div class="src">Source: ${esc(String(r.source).replace(/\s*\(checked \d{4}-\d\d-\d\d\)/g, ""))} · checked ${esc(p.checkedLabel)}</div>
             <div class="actions">
               <a class="act" href="${esc(dirs)}" target="_blank" rel="noopener">Directions</a>

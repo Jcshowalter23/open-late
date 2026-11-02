@@ -135,7 +135,32 @@
     "fbNewestPost": "2026-10-22",
     "website": "https://www.bluemoonbreweryandgrill.com/"
    },
-   "menu": "https://www.bluemoonbreweryandgrill.com/menu/"
+   "menu": "https://www.bluemoonbreweryandgrill.com/menu/",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "7:00 PM",
+      "confidence": "high",
+      "lastSeen": "2026-11-01",
+      "sources": [
+       {
+        "src": "Dirty South Trivia schedule",
+        "url": "https://www.dirtysouthtrivia.com/",
+        "date": "2026-11-01",
+        "quote": "Pub Quiz · Thu 7:00 PM · Blue Moon Brewery, The Battery"
+       }
+      ],
+      "basis": "vendor/host published venue schedule",
+      "vendor": "Dirty South Trivia"
+     }
+    ],
+    "hints": [],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   }
   },
   {
    "id": "ga-burn-by-rocky-patel-atlanta",
@@ -837,7 +862,45 @@
     "fbNewestPost": "2026-10-03",
     "website": "https://goodgameatl.com/"
    },
-   "menu": "https://goodgameatl.com/food-drink/"
+   "menu": "https://goodgameatl.com/food-drink/",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7:30 pm",
+      "basis": "posted on 3 different Weds",
+      "lastSeen": "2026-11-18",
+      "datedLastSeen": "2026-11-18",
+      "postsSeen": 3,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://goodgameatl.com/events/",
+        "date": "2026-11-18",
+        "quote": "18 | November | 2026 | >> Trivia Night at Good Game | Join us each Wednesday at 7:30 pm, when there is no Braves home game. Test your knowledge and win prizes! | Join us each Wednesday at 7:30 pm, when there is no Braves home game. Test your knowledge and win "
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://goodgameatl.com/events/",
+        "date": "2026-11-11",
+        "quote": "11 | November | 2026 | >> Trivia Night at Good Game | Join us each Wednesday at 7:30 pm, when there is no Braves home game. Test your knowledge and win prizes! | Join us each Wednesday at 7:30 pm, when there is no Braves home game. Test your knowledge and win "
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://goodgameatl.com/events/",
+        "date": "2026-11-04",
+        "quote": "04 | November | 2026 | >> Trivia Night at Good Game | Join us each Wednesday at 7:30 pm, when there is no Braves home game. Test your knowledge and win prizes! | Join us each Wednesday at 7:30 pm, when there is no Braves home game. Test your knowledge and win "
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
   },
   {
    "id": "ga-hikaruramenatl",
@@ -1011,6 +1074,123 @@
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-06",
     "website": null
+   },
+   "trivia": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "7:30 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2027-01-19",
+      "datedLastSeen": "2027-01-19",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.laseterstavern.com/",
+        "date": "2027-01-19",
+        "quote": "sdfasdfasdf | press to zoom | 1/19 | >> Trivia Night"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.laseterstavern.com/",
+        "date": "2026-11-01",
+        "quote": "Join us every Tuesday and Thursday at 7:30 PM for Trivia"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.laseterstavern.com/events",
+        "date": "2026-11-01",
+        "quote": "Join us every Tuesdays & Thursdays at 7:30pm for Trivia hosted by Atlanta Bar Games"
+       }
+      ],
+      "confidence": "medium"
+     },
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "7:30 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.laseterstavern.com/",
+        "date": "2026-11-01",
+        "quote": "Join us every Tuesday and Thursday at 7:30 PM for Trivia"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.laseterstavern.com/events",
+        "date": "2026-11-01",
+        "quote": "Join us every Tuesdays & Thursdays at 7:30pm for Trivia hosted by Atlanta Bar Games"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " A place where you can meet your friends to catch the big game on one of our Hi-Def LCDs or compete in our Head Games Trivia and Music Bingo events",
+      "url": "https://www.laseterstavern.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia Night",
+      "url": "https://www.laseterstavern.com/events"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7:30 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.laseterstavern.com/",
+        "date": "2026-11-01",
+        "quote": "Come in Wednesday nights at 7:30 PM and enjoy some drinks and our Music Bingo event"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " A place where you can meet your friends to catch the big game on one of our Hi-Def LCDs or compete in our Head Games Trivia and Music Bingo events",
+      "url": "https://www.laseterstavern.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Music Bingo",
+      "url": "https://www.laseterstavern.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Music Bingo",
+      "url": "https://www.laseterstavern.com/events"
+     }
+    ]
    }
   },
   {
@@ -1564,7 +1744,30 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia Night - PH'EAST ATLANTAPH'EAST ATLANTA",
+      "url": "https://pheastatl.com/events/trivia-night/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia Night - PH'EAST ATLANTA",
+      "url": "https://pheastatl.com/events/trivia-night/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia Night",
+      "url": "https://pheastatl.com/events/trivia-night/"
+     }
+    ]
+   }
   },
   {
    "id": "ga-pok-works-atlanta",

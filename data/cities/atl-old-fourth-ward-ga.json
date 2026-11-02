@@ -642,6 +642,31 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-04-15",
     "website": null
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7:30 PM",
+      "confidence": "high",
+      "lastSeen": "2026-11-01",
+      "sources": [
+       {
+        "src": "Dirty South Trivia schedule",
+        "url": "https://www.dirtysouthtrivia.com/",
+        "date": "2026-11-01",
+        "quote": "Music Bingo · Wed 7:30 PM · Breaker Breaker, Reynoldstown"
+       }
+      ],
+      "basis": "vendor/host published venue schedule",
+      "vendor": "Dirty South Trivia"
+     }
+    ],
+    "hints": [],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
    }
   },
   {
@@ -2470,7 +2495,20 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.thevortexbar.com/food-menu"
+   "menu": "https://www.thevortexbar.com/food-menu",
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Nerdy Pop-Culture Trivia every Tues @ 8 PM",
+      "url": "https://www.thevortexbar.com/events"
+     }
+    ]
+   }
   },
   {
    "id": "ga-two-urban-licks",

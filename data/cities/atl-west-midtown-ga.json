@@ -675,7 +675,32 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "trivia": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "8:00 PM",
+      "confidence": "high",
+      "lastSeen": "2026-11-01",
+      "sources": [
+       {
+        "src": "Dirty South Trivia schedule",
+        "url": "https://www.dirtysouthtrivia.com/",
+        "date": "2026-11-01",
+        "quote": "Pub Quiz · Thu 8:00 PM · Bone Garden Cantina, West Midtown"
+       }
+      ],
+      "basis": "vendor/host published venue schedule",
+      "vendor": "Dirty South Trivia"
+     }
+    ],
+    "hints": [],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   }
   },
   {
    "id": "ga-botica-atl",
@@ -1038,7 +1063,62 @@
     "fbNewestPost": "2026-10-24",
     "website": "https://www.chicheriamx.com/"
    },
-   "menu": "https://www.chicheriamx.com/menu"
+   "menu": "https://www.chicheriamx.com/menu",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.chicheriamx.com/",
+        "date": "2026-11-01",
+        "quote": "We’re teaming up with Dirty South Trivia to bring you a weekly general knowledge pub quiz packed with prizes, and alongside our Tuesday specials including $10 house margaritas, $10 taco plates, and $25 Mexican beer buckets"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.chicheriamx.com/events",
+        "date": "2026-11-01",
+        "quote": "We’re teaming up with Dirty South Trivia to bring you a weekly general knowledge pub quiz packed with prizes, and alongside our Tuesday specials including $10 house margaritas, $10 taco plates, and $25 Mexican beer buckets"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.chicheriamx.com/events",
+        "date": "2026-11-01",
+        "quote": "We’re teaming up with Dirty South Trivia to bring you a weekly general knowledge pub quiz packed with prizes, and alongside our Tuesday specials including $10 house margaritas, $10 taco plates, and $25 Mexican beer buckets"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia Tuesdays",
+      "url": "https://www.chicheriamx.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia Tuesdays | Every Tuesday | 7 PM",
+      "url": "https://www.chicheriamx.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "We’re teaming up with Dirty South Trivia to bring you a weekly general knowledge pub quiz packed with prizes, and alongside our Tuesday specials including $10 house margaritas, $10 taco plates, and $2",
+      "url": "https://www.chicheriamx.com/"
+     }
+    ]
+   }
   },
   {
    "id": "ga-circle-poke",
@@ -3656,7 +3736,45 @@
     "fbNewestPost": "2026-10-31",
     "website": "https://your3rdspot.com/"
    },
-   "menu": "https://your3rdspot.com/y3s-menu"
+   "menu": "https://your3rdspot.com/y3s-menu",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "7pm",
+      "basis": "posted on 2 different Thus",
+      "lastSeen": "2026-11-19",
+      "datedLastSeen": "2026-11-19",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://your3rdspot.com/membership",
+        "date": "2026-11-19",
+        "quote": "Minute to Win It Trivia | Thursday, November 19 | 7pm | Thursday, November 19 | 7pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://your3rdspot.com/membership",
+        "date": "2026-11-05",
+        "quote": " & Donate | Thursday, November 5 | 7PM | reserve your spot | Quick thinking meets fast-paced fun in Minute to Win It >> Quick thinking meets fast-paced fun in Minute to Win It Trivia"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://your3rdspot.com/membership",
+        "date": "2026-11-05",
+        "quote": "e your spot | Quick thinking meets fast-paced fun in Minute to Win It Trivia! Race against the clock through rapid-fire >> Race against the clock through rapid-fire trivia rounds and exciting one-minute challenges that will put your knowledge and teamwork to t"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
   },
   {
    "id": "ga-yumbii-atlanta",

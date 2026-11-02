@@ -11,7 +11,7 @@ Called by tools/build_seo.py, so every rebuild keeps these current; validate.py 
 Only rewrites files whose content changed."""
 import json, os, re, datetime
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DROP = {"phoneSource", "county", "state", "zip", "conflicts", "crowdType", "karaoke", "dj", "crowdChecked", "crowdSources"}  # research fields stay in the source data; the app gets the compact ct/kk/dj below
+DROP = {"phoneSource", "county", "state", "zip", "conflicts", "crowdType", "karaoke", "dj", "crowdChecked", "crowdSources", "trivia", "bingo"}  # research fields stay in the source data; the app gets the compact ct/kk/dj below
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 CHECKED = re.compile(r"checked (\d{4}-\d{2}-\d{2}|[A-Z][a-z]{2,8} \d{1,2}, \d{4})")
 
@@ -40,6 +40,7 @@ def last_checked(r, research_shown=False):
 DAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 DAY_LONG = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 OK_CONF = ("high", "medium")
+BT_CHECKED = "2026-11-01"
 
 def norm_time(t):
     """'9pm-2am' -> '9 pm–2 am', '8 PM' -> '8 pm', '9P' -> '9 pm', '8PM-CLOSE' -> '8 pm–close'; parentheses dropped (kept in the full text)"""
@@ -112,6 +113,9 @@ def build(write=True):
                 if ct: rr["ct"] = ct
                 if kk: rr["kk"] = kk
                 if dj: rr["dj"] = dj
+                tv, bg = nights(r.get("trivia"), BT_CHECKED), nights(r.get("bingo"), BT_CHECKED)  # bingo/trivia pass: venue websites read 2026-11-01
+                if tv: rr["tv"] = tv
+                if bg: rr["bg"] = bg
                 rr["lc"] = last_checked(r, bool(ct or kk or dj)); rr["a"] = aid
                 places.append(rr); n += 1
             if n:

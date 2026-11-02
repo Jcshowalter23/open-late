@@ -2421,7 +2421,34 @@
     "fbNewestPost": null,
     "website": "https://sweetwatersportsbarandgrill.com/"
    },
-   "menu": "https://sweetwatersportsbarandgrill.com/menu/"
+   "menu": "https://sweetwatersportsbarandgrill.com/menu/",
+   "bingo": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "4-7pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://sweetwatersportsbarandgrill.com/",
+        "date": "2026-11-01",
+        "quote": "BINGO NIGHT | WEDNESDAY | Happy Hour 4-7pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
   },
   {
    "id": "sc-thai-fusion",
@@ -2759,6 +2786,48 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": "6:30 PM",
+      "confidence": "high",
+      "lastSeen": "2026-11-01",
+      "sources": [
+       {
+        "src": "Team Trivia schedule",
+        "url": "https://www.teamtrivia.com/venue/towne-tavern-at-fort-mill-fort-mill-sc",
+        "date": "2026-11-01",
+        "quote": "Soundcheck Music Bingo · Mon 6:30 PM · Towne Tavern at Fort Mill, Fort Mill"
+       }
+      ],
+      "basis": "vendor/host published venue schedule",
+      "vendor": "Team Trivia"
+     },
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "6:30 PM",
+      "confidence": "high",
+      "lastSeen": "2026-11-01",
+      "sources": [
+       {
+        "src": "Team Trivia schedule",
+        "url": "https://www.teamtrivia.com/venue/towne-tavern-at-fort-mill-fort-mill-sc",
+        "date": "2026-11-01",
+        "quote": "Soundcheck Music Bingo · Wed 6:30 PM · Towne Tavern at Fort Mill, Fort Mill"
+       }
+      ],
+      "basis": "vendor/host published venue schedule",
+      "vendor": "Team Trivia"
+     }
+    ],
+    "hints": [],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
    }
   },
   {

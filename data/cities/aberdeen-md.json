@@ -1451,7 +1451,45 @@
     "fbNewestPost": "2026-10-18",
     "website": "https://www.brasstapbeerbar.com/aberdeen"
    },
-   "menu": "https://www.brasstapbeerbar.com/menus/food/193.pdf"
+   "menu": "https://www.brasstapbeerbar.com/menus/food/193.pdf",
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Each location creates a social hub where you can gather for trivia, music, games, exclusive beer tastings, and tap takeovers",
+      "url": "https://www.brasstapbeerbar.com/aberdeen"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "7:00 PM",
+      "confidence": "high",
+      "lastSeen": "2026-11-01",
+      "sources": [
+       {
+        "src": "Team Trivia schedule",
+        "url": "https://www.teamtrivia.com/venue/brass-tap-belcamp-belcamp-md",
+        "date": "2026-11-01",
+        "quote": "Soundcheck Music Bingo · Thu 7:00 PM · Brass Tap Belcamp, Belcamp"
+       }
+      ],
+      "basis": "vendor/host published venue schedule",
+      "vendor": "Team Trivia"
+     }
+    ],
+    "hints": [],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   }
   },
   {
    "id": "md-the-olive-tree",
@@ -1540,7 +1578,57 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia Night",
+      "url": "https://tidewatergrille.com/entertainment-events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia Night",
+      "url": "https://tidewatergrille.com/specials/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia Night at 7pm, Happy Hour 3-7pm, bar only",
+      "url": "https://tidewatergrille.com/monday-night-steak-whiskey-specials/"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "7pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://tidewatergrille.com/monday-night-steak-whiskey-specials/",
+        "date": "2026-11-01",
+        "quote": "– Music Bingo at 7pm, | Thursdays | Happy Hour 3-7pm, bar only."
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
   },
   {
    "id": "md-wing-paradise",
