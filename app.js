@@ -258,7 +258,7 @@
   }
   const checkedText = (d) => d ? `Checked ${MONTHS[d.getMonth()]} ${d.getDate()}${d.getFullYear() !== new Date().getFullYear() ? `, ${d.getFullYear()}` : ""}` : "";
   const openLines = new Set(); // deal / karaoke / DJ lines tapped open to full text ("<card key>|<line>"), kept through refreshes
-  const openCards = new Set(); // which cards have Details expanded, so the 30-second refresh keeps them open
+  const openCards = new Set(); // which card has its details expanded (one at a time), so the 30-second refresh keeps it open
   function status(p) {
     const now = nowOf(p);
     if (p.is24) return { cls: "s-open", text: "Open 24 hours" };
@@ -452,7 +452,7 @@
       const tel = r.phone ? r.phone.replace(/[^0-9+]/g, "") : "";
       const maps = r.address ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${r.name}, ${r.address}, ${p.areaName}, ${p.loc}`)}` : "";
       const top2 = [town ? "" : esc(p.cn && !p.areaName.includes(p.cn) ? `${p.areaName}, ${p.cn}` : p.areaName), pn !== now && p.tz ? `<span class="tzn">${esc(tzAbbr(p.tz))}</span>` : "", mi !== null ? `<span class="mi">${fmtMi(mi)}</span>` : ""].filter(Boolean).join(" · ");
-      return `<article class="card${tonight && tonightInfo(p).kitchen > 0 ? " card-lk" : ""}" data-key="${esc(ck)}">
+      return `<article class="card${tonight && tonightInfo(p).kitchen > 0 ? " card-lk" : ""}" data-key="${esc(ck)}" tabindex="0" aria-expanded="${openCards.has(ck)}" aria-label="${esc(r.name)}, tap for details">
         <button type="button" class="fav" data-act="fav" aria-pressed="${fav}" aria-label="${fav ? "Remove from" : "Add to"} favorites: ${esc(r.name)}">${fav ? "♥" : "♡"}</button>
         ${top2 ? `<div class="town">${top2}</div>` : ""}
         <h2>${esc(r.name)}${isFeat(r) ? ` <span class="badge b-feat">Featured</span>` : ""}${r.vf ? ` <span class="badge b-vf" title="The owner confirmed this listing on ${esc(shortDate(r.vf.d))}">✓ Verified by owner</span>` : ""}${meta ? ` <span class="meta">${meta}</span>` : ""}</h2>
@@ -460,7 +460,7 @@
         ${dline}${elines}${gdLine}${ctLine}${odLine}
         ${p.lc ? `<div class="lchk">${esc(p.lc)}</div>` : ""}
         <details class="more-info" data-key="${esc(ck)}"${openCards.has(ck) ? " open" : ""}>
-          <summary>Details</summary>
+          <summary tabindex="-1" aria-hidden="true"></summary>
           <div class="info">
             <div class="row">${esc(r.cuisine)} · ${r.priceLevel ? esc(r.priceText) : "Price not listed"}</div>
             <div class="row"><b>Address:</b> ${r.address ? `<a href="${esc(maps)}" target="_blank" rel="noopener">${esc(r.address)}</a>` : NL}</div>
@@ -668,7 +668,7 @@
     const p = all.find((x) => x.r.id === id && (!areaId || x.area === areaId)) || all.find((x) => x.r.id === id);
     if (!p) return;
     const key = pkey(p);
-    openCards.add(key);
+    openCards.clear(); openCards.add(key);
     render();
     const find = () => [...$("list").querySelectorAll(".card")].find((c) => c.dataset.key === key);
     while (!find() && !$("more").hidden) render(true);
@@ -996,7 +996,15 @@
       const go = () => { const p = rows.find((x) => x.r.name === h.name && x.area === h.aid); $("q").value = h.name; setSearchOpen(true); render(); if (p) openPlace(p.r.id, h.aid); window.scrollTo && !p && window.scrollTo(0, 0); };
       (h.cid === county.id || (county.all && allCids.has(h.cid)) ? Promise.resolve() : loadCounty(h.cid, "")).then(() => { if (county.all && allDone) return allDone; }).then(go).catch(fail);
     });    $("seeCounty").addEventListener("click", () => { $("town").value = ""; $("town").dispatchEvent(new Event("change")); window.scrollTo(0, 0); });
-    $("list").addEventListener("toggle", (e) => { const d = e.target; if (d.dataset && d.dataset.key) { if (d.open) openCards.add(d.dataset.key); else openCards.delete(d.dataset.key); } }, true);
+    $("list").addEventListener("toggle", (e) => { const d = e.target; if (d.dataset && d.dataset.key) { if (d.open) openCards.add(d.dataset.key); else openCards.delete(d.dataset.key); const c = d.closest(".card"); if (c) c.setAttribute("aria-expanded", String(d.open)); } }, true);
+    // the whole card opens its details (one card open at a time); tapping the open card closes it
+    const setCard = (card, open) => {
+      const det = card && card.querySelector("details.more-info"); if (!det) return null;
+      if (open) { openCards.clear(); for (const o of $("list").querySelectorAll("details.more-info[open]")) if (o !== det) { o.open = false; const oc = o.closest(".card"); if (oc) oc.setAttribute("aria-expanded", "false"); } }
+      det.open = open; card.setAttribute("aria-expanded", String(open));
+      return det;
+    };
+    const CARD_SKIP = "a,button,input,select,textarea,label,.info,.vote,[data-act],.dtext";
     $("day").addEventListener("change", () => { dayTouched = true; render(); });
     $("more").addEventListener("click", () => render(true));
     $("nearMe").addEventListener("click", () => { if (on("nearMe")) setNear(false); else if (here) setNear(true); else askLocation(); });
@@ -1004,16 +1012,28 @@
     // deal lines: tap the text to show all of it (tap again to clamp); "+N more" opens Details, where every deal is listed
     const lineTap = (e) => {
       const m = e.target.closest(".dmore[data-more]");
-      if (m) { const det = m.closest(".card").querySelector("details.more-info"); if (det) { det.open = true; det.scrollIntoView({ block: "nearest", behavior: "smooth" }); } e.stopPropagation(); return true; }
+      if (m) { const det = setCard(m.closest(".card"), true); if (det) det.scrollIntoView({ block: "nearest", behavior: "smooth" }); e.stopPropagation(); return true; }
       const t = e.target.closest(".dtext[data-ln]"); if (!t || e.target.closest(".flag")) return false;
       const id = `${t.closest(".card").dataset.key}|${t.dataset.ln}`, o = !t.classList.contains("full");
       t.classList.toggle("full", o); t.setAttribute("aria-expanded", o); if (o) openLines.add(id); else openLines.delete(id);
       return true;
     };
-    $("list").addEventListener("keydown", (e) => { if ((e.key === "Enter" || e.key === " ") && e.target.matches && e.target.matches(".dtext[data-ln]")) { e.preventDefault(); lineTap(e); } });
+    $("list").addEventListener("keydown", (e) => {
+      if ((e.key === "Enter" || e.key === " ") && e.target.matches && e.target.matches(".dtext[data-ln]")) { e.preventDefault(); lineTap(e); }
+      else if ((e.key === "Enter" || e.key === " ") && e.target.matches && e.target.matches("article.card")) { e.preventDefault(); const det = e.target.querySelector("details.more-info"); setCard(e.target, !(det && det.open)); }
+    });
     $("list").addEventListener("click", (e) => {
       if (lineTap(e)) return;
-      const b = e.target.closest("[data-act]"); if (!b) return;
+      const b = e.target.closest("[data-act]");
+      if (!b) {
+        const card = e.target.closest("article.card"); if (!card) return;
+        const sum = e.target.closest("details.more-info > summary");
+        if (sum) e.preventDefault(); // the chevron follows the card instead of toggling on its own
+        else if (e.target.closest(CARD_SKIP)) return; // links, buttons and the open details text don't toggle the card
+        const sel = window.getSelection && window.getSelection(); if (!sum && sel && !sel.isCollapsed && card.contains(sel.anchorNode)) return; // selecting text
+        const det = card.querySelector("details.more-info"); setCard(card, !(det && det.open));
+        return;
+      }
       const card = b.closest(".card"), key = card.dataset.key, p = findKey(key);
       if (b.dataset.act === "fav") {
         if (favs.has(key)) favs.delete(key); else favs.add(key);
