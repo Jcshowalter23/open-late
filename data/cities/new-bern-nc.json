@@ -1122,8 +1122,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/nc/new-bern/harry-s-blind-tiger-/ (updated 2026-10-07), checked 2026-11-01",
    "lat": 35.105595,
    "lng": -77.038514,
-   "website": null,
-   "hours": "Mon-Tue closed; Wed-Thu 4p-10p; Fri-Sat 11:30a-11:30p; Sun 11:30a-10p",
+   "website": "https://harrysblindtiger.com/",
+   "hours": "Mon-Tue closed; Wed-Thu 4p-10p; Fri-Sun 11:30a-12a",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
@@ -1133,7 +1133,7 @@
    "vibes": [
     "Bar scene"
    ],
-   "source": "hours from Restaurantji listing (updated 2026-10-07) (checked 2026-11-01)",
+   "source": "hours from venue website https://harrysblindtiger.com/ (checked 2026-11-03)",
    "county": "Craven",
    "karaoke": {
     "nights": [],
@@ -1151,7 +1151,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
-   }
+   },
+   "websiteSource": "venue website, checked 2026-11-03"
   },
   {
    "id": "nc-ineffable-wine-and-beer-garden",
@@ -2466,6 +2467,33 @@
     "oneoffs": [],
     "conflicts": []
    }
+  },
+  {
+   "id": "nc-mickey-milligans-billiards-new-bern",
+   "name": "Mickey Milligans Billiards",
+   "cuisine": "Bar",
+   "address": "3411 Trent Road, New Bern",
+   "state": "NC",
+   "zip": null,
+   "phone": "(252) 497-7123",
+   "phoneSource": "venue website, checked 2026-11-03",
+   "lat": 35.092473,
+   "lng": -77.093455,
+   "website": "https://mickeymilliganspub.com/",
+   "websiteSource": "venue website, checked 2026-11-03",
+   "hours": "Mon-Thu 3p-12a; Fri-Sat 3p-2a; Sun 12p-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from venue website https://mickeymilliganspub.com/: \"Visit Mickey Milligans 3411 Trent Road New Bern, NC 28562 252-497-7123 ... Hours Monday–Thursday 3PM–12AM Friday-Saturday 3PM-2AM Sunday 12PM–12AM\" (checked 2026-11-02); location from OpenStreetMap node/3946697904 (map data 2026-10-31)",
+   "county": "Craven",
+   "addedBy": "sweep-osm"
   }
  ],
  "type": "city",
