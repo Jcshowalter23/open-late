@@ -3183,7 +3183,7 @@
   {
    "id": "nc-raleigh-beer-garden",
    "name": "Raleigh Beer Garden",
-   "cuisine": "Restaurant",
+   "cuisine": "Beer garden",
    "address": "614 Glenwood Ave Suite B, Raleigh",
    "state": "NC",
    "zip": "27603",
@@ -3191,18 +3191,28 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/nc/raleigh/raleigh-beer-garden-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 35.78751,
    "lng": -78.647131,
-   "website": null,
+   "website": "https://theraleighbeergarden.com/",
    "hours": "Mon-Fri 11a-2a; Sat-Sun 10a-2a",
-   "hoursNote": null,
+   "hoursNote": "Three floors with 386+ draft beers (Guinness record), a rooftop bar, a 24-tap event field in back, and Hop Shots 18-hole mini golf. No reservations Fri evenings or Sat (venue site).",
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Daily",
+     "text": "Hop Shots mini golf (18 holes), cornhole and ping pong at the 19th Hole bar",
+     "tags": [],
+     "src": "venue website https://theraleighbeergarden.com/",
+     "checked": "2026-11-02"
+    }
+   ],
    "crowd": null,
    "vibes": [
-    "Bar scene"
+    "Bar scene",
+    "Rooftop",
+    "Sports & games"
    ],
-   "source": "hours from Restaurantji listing (updated 2026-10-28) (checked 2026-11-01)",
+   "source": "hours from venue website https://theraleighbeergarden.com/ (checked 2026-11-02); Restaurantji listing agrees (checked 2026-11-01)",
    "county": "Wake",
    "crowdType": {
     "labels": [
@@ -3232,7 +3242,23 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://theraleighbeergarden.com/"
+   },
+   "outdoor": {
+    "types": [
+     "rooftop",
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://theraleighbeergarden.com/",
+      "quote": "Our rooftop bar features 12 rotating taps alongside of the 24 tap system that is located in the Beer Garden's event field in the back.",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4961,6 +4987,198 @@
    "source": "hours from venue website sidequestgameloungeandbar.wordpress.com, checked 2026-11-02 (earlier drop was a proxy failure on the http:// address)",
    "county": "Wake",
    "addedBy": "refresh-restore"
+  },
+  {
+   "id": "nc-the-willard",
+   "name": "The Willard Rooftop Lounge",
+   "cuisine": "Bar",
+   "address": "9 Glenwood Ave (AC Hotel Raleigh Downtown)",
+   "state": "NC",
+   "zip": "27603",
+   "phone": "(984) 251-1172",
+   "phoneSource": "venue website https://www.thewillardraleigh.com/, checked 2026-11-02",
+   "lat": 35.780862,
+   "lng": -78.647633,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://www.thewillardraleigh.com/",
+   "hours": "Mon-Thu 4p-11p; Fri-Sat 12p-12a; Sun 12p-9p",
+   "hoursNote": null,
+   "kitchen": "Mon-Thu 4p-10p; Fri-Sat 12p-11p",
+   "kitchenNote": "Kitchen closes 1 hour before the bar (venue site). The site's booking widget shows Mon-Thu from 5 pm and Fri from 4 pm.",
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene",
+    "Rooftop",
+    "Date night"
+   ],
+   "source": "hours from venue website https://www.thewillardraleigh.com/ (checked 2026-11-02)",
+   "county": "Wake",
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.thewillardraleigh.com/about/",
+      "quote": "An upscale rooftop lounge with unmatched views of downtown Raleigh ... two heated outdoor terraces",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
+  },
+  {
+   "id": "nc-whiskey-kitchen",
+   "name": "Whiskey Kitchen",
+   "cuisine": "Bar & grill",
+   "address": "201 W Martin St, Warehouse District",
+   "state": "NC",
+   "zip": "27601",
+   "phone": "(919) 803-3181",
+   "phoneSource": "venue website https://www.whiskey.kitchen/location_hours/, checked 2026-11-02",
+   "lat": 35.776772,
+   "lng": -78.642161,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://www.whiskey.kitchen/",
+   "hours": "Mon 5p-12a; Tue-Sun 11a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "Monday Flight Nite",
+     "tags": [],
+     "src": "venue website https://www.whiskey.kitchen/location_hours/",
+     "checked": "2026-11-02",
+     "flag": "Details not listed"
+    },
+    {
+     "days": "Wed",
+     "text": "NC Whiskey Wednesdays",
+     "tags": [],
+     "src": "venue website https://www.whiskey.kitchen/location_hours/",
+     "checked": "2026-11-02",
+     "flag": "Details not listed"
+    }
+   ],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from venue website https://www.whiskey.kitchen/location_hours/ (checked 2026-11-02)",
+   "county": "Wake",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.whiskey.kitchen/location_hours/",
+      "quote": "The Gravel Pit semi-private outdoor area max capacity: 30 standing",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
+  },
+  {
+   "id": "nc-urban-oak",
+   "name": "Urban Oak Rooftop Bar & Lounge",
+   "cuisine": "Bar",
+   "address": "200 W Davie St",
+   "state": "NC",
+   "zip": "27601",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 35.775745,
+   "lng": -78.642031,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://www.urbanoakraleigh.com/",
+   "hours": "Mon-Thu 5p-11p; Fri-Sat 4p-12a",
+   "hoursNote": "Closed Sun. 21+ Fri-Sat.",
+   "kitchen": null,
+   "kitchenNote": "Kitchen closes 1 hour before close (venue site).",
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene",
+    "Rooftop",
+    "Date night"
+   ],
+   "source": "hours from venue website https://www.urbanoakraleigh.com/ (checked 2026-11-02)",
+   "county": "Wake",
+   "outdoor": {
+    "types": [
+     "rooftop",
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.urbanoakraleigh.com/",
+      "quote": "As Raleigh's tallest rooftop bar ... An open, uncovered patio on the north side ... On the south side is our covered patio",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
+  },
+  {
+   "id": "nc-the-bend-bar",
+   "name": "The Bend Bar (Trophy)",
+   "cuisine": "Bar",
+   "address": "853 W Morgan St",
+   "state": "NC",
+   "zip": "27603",
+   "phone": "(919) 424-7817",
+   "phoneSource": "venue website https://www.trophybrewing.com/bend-bar, checked 2026-11-02",
+   "lat": 35.779857,
+   "lng": -78.654907,
+   "priceText": null,
+   "priceLevel": null,
+   "website": "https://www.trophybrewing.com/bend-bar",
+   "hours": "Mon-Fri 4p-12a; Sat-Sun 12p-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene",
+    "Live music & events"
+   ],
+   "source": "hours from venue website https://www.trophybrewing.com/bend-bar (checked 2026-11-02)",
+   "county": "Wake",
+   "outdoor": {
+    "types": [
+     "patio",
+     "garden"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.trophybrewing.com/bend-bar",
+      "quote": "in historic homes alongside a covered patio & spacious backyard",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "type": "neighborhood",
