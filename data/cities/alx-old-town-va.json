@@ -2062,16 +2062,16 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/va/alexandria/kings-ransom-/ (updated 2026-10-28), checked 2026-11-01",
    "lat": 38.805045,
    "lng": -77.047338,
-   "website": null,
-   "hours": "Mon-Thu 6p-12a; Fri-Sat 5p-1a; Sun 4p-10p",
-   "hoursNote": null,
+   "website": "https://www.handoveralx.com/",
+   "hours": "Mon-Thu 6p-12a; Fri-Sat 6p-1a; Sun 4p-10p",
+   "hoursNote": "21+ only.",
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [],
-   "source": "hours from Restaurantji listing (updated 2026-10-28) (checked 2026-11-01)",
+   "source": "hours from venue website https://www.handoveralx.com/ (second floor of Handover) (checked 2026-11-03)",
    "county": "Alexandria City",
    "crowdChecked": "2026-11-01",
    "crowdSources": {
@@ -2080,7 +2080,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
-   }
+   },
+   "websiteSource": "venue website, checked 2026-11-03"
   },
   {
    "id": "va-kisso-asian-bistro",
@@ -4862,6 +4863,33 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/3656882081 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.lostdogcafe.com/locations/: \"ns | Hours: | Sunday – Thursday 11:00AM – 10PM | Friday – Saturday 11:00AM – 10PM (Bar Open until 11PM) | July 4\" (checked 2026-11-02)",
+   "county": "Alexandria City",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "va-old-hat-bar-alexandria",
+   "name": "Old Hat Bar",
+   "cuisine": "Bar",
+   "address": "112 North Saint Asaph Street, Alexandria",
+   "state": "VA",
+   "zip": "22314",
+   "phone": "(703) 567-2314",
+   "phoneSource": "OpenStreetMap node/12207943718 phone tag (map data 2026-11-01), checked 2026-11-02",
+   "lat": 38.805525,
+   "lng": -77.045829,
+   "website": "https://www.oldhatbar.com/",
+   "websiteSource": "venue website, checked 2026-11-03",
+   "hours": "Wed-Thu 5p-10p; Fri 5p-12a; Sat 11a-12a; Sun 11a-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from venue website https://www.oldhatbar.com/: \"Regular Hours WEDnesday-thursdaY 5pm-10pm Friday 5pm-12am Saturday 11am-12am Sunday 11am-10pm\" (checked 2026-11-02); location from OpenStreetMap node/12207943718 (map data 2026-11-01)",
    "county": "Alexandria City",
    "addedBy": "sweep-osm"
   }

@@ -10667,6 +10667,49 @@
    "source": "hours from OpenStreetMap node/14081325401 opening_hours tag (map data 2026-10-31; last checked on the map 2026-08-08) (checked 2026-11-02); late hours confirmed by venue website https://piezaapizza.com/: \"AM - 12:00AM | Wednesday: | 11:00AM - 12:00AM | Thursday: | 11:00AM - 12:00AM | Friday: | 11:00AM - 1:00AM | Saturda\" (checked 2026-11-02)",
    "county": "Buncombe",
    "addedBy": "sweep-osm"
+  },
+  {
+   "id": "nc-capella-on-9-asheville",
+   "name": "Capella on 9",
+   "cuisine": "Bar",
+   "address": "10 College Street, Asheville",
+   "state": "NC",
+   "zip": "28801",
+   "phone": "(828) 771-5156",
+   "phoneSource": "OpenStreetMap node/9333543290 phone tag (map data 2026-10-31), checked 2026-11-02",
+   "lat": 35.595842,
+   "lng": -82.551269,
+   "website": "https://www.capellaon9.com/",
+   "websiteSource": "venue website, checked 2026-11-03",
+   "hours": "Mon-Thu 3p-11p; Fri-Sat 3p-12a; Sun 3p-11p",
+   "hoursNote": "Breakfast daily 6:30a-11a.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene",
+    "Rooftop"
+   ],
+   "source": "hours from venue website https://www.capellaon9.com/: \"DINNER, TAPAS & COCKTAILS Sunday - Thursday 3 pm - 11 pm Friday & Saturday 3 pm - 12 am\" (checked 2026-11-02); location from OpenStreetMap node/9333543290 (map data 2026-10-31)",
+   "county": "Buncombe",
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.capellaon9.com/",
+      "quote": "Capella on 9 | Downtown Asheville Rooftop Restaurant & Bar",
+      "fetched": "2026-11-03",
+      "checked": "2026-11-03"
+     }
+    ],
+    "checked": "2026-11-03"
+   }
   }
  ],
  "type": "city",
