@@ -141,6 +141,7 @@ def build(write=True):
     out = {}
     counties = []
     area_counties = {}
+    names_all = []
     for c in sorted(idx["counties"], key=lambda c: c["name"]):
         areas, places = [], []
         for aid in c["areas"]:
@@ -177,6 +178,8 @@ def build(write=True):
         if meta["label"] != f"{c['name']} County": im["label"] = meta["label"]
         r3 = lambda v: [round(x, 3) for x in v] if v else None
         counties.append({"id": c["id"], "name": c["name"], **im, "places": len(places), "bb": r3(bb), "c": r3(ctr)})
+        # v137 site-wide name search: data/names/<State>.json lists every place's name, area (town) and County; the app loads them on the first search
+        for r in places: names_all.append((meta["st"], r["name"], c["id"], r["a"], files[r["a"]].get("name") or live[r["a"]]["name"]))
     # States for the picker, data-driven from data/cities.json "states": the default County's State first, then A-Z by name;
     # only States that have a County. cityWord (e.g. "Neighborhood" for DC) renames the City picker there.
     names = {s["id"]: s for s in idx.get("states") or []}
@@ -185,6 +188,14 @@ def build(write=True):
     states = [{"id": st, "name": (names.get(st) or {}).get("name") or st, **({"cityWord": names[st]["cityWord"]} if (names.get(st) or {}).get("cityWord") else {})} for st in have]
     states.sort(key=lambda s: (s["id"] != dflt, s["name"]))
     out["data/index.json"] = dump({"defaultCounty": "lancaster", "states": states, **({"comingSoon": [{"id": x["id"], "name": x["name"]} for x in idx["comingSoon"]]} if idx.get("comingSoon") else {}), "counties": counties, "areaCounties": area_counties, "countyAliases": idx.get("countyAliases") or {}}) + "\n"
+    # data/names/<State>.json = {"st", "c": [County ids], "a": [[area id, area name]], "p": [[name, County index, area index]]}
+    for st_ in sorted({x[0] for x in names_all}):
+        xs = sorted({(x[1], x[2], x[3], x[4]) for x in names_all if x[0] == st_}, key=lambda x: (x[0].lower(), x[0], x[1], x[2], x[3]))
+        cl = sorted({x[1] for x in xs}); _an = {}
+        for x in xs: _an[x[2]] = min(_an.get(x[2], x[3]), x[3])
+        al = sorted(_an.items())
+        ci = {v: n for n, v in enumerate(cl)}; ai = {v[0]: n for n, v in enumerate(al)}
+        out[f"data/names/{st_}.json"] = json.dumps({"st": st_, "c": cl, "a": [list(a) for a in al], "p": [[x[0], ci[x[1]], ai[x[2]]] for x in xs]}, ensure_ascii=False, separators=(",", ":")) + "\n"
     changed = []
     for fn, s in out.items():
         cur = open(fn, encoding="utf-8").read() if os.path.exists(fn) else None
@@ -193,9 +204,10 @@ def build(write=True):
             if write:
                 os.makedirs(os.path.dirname(fn), exist_ok=True); open(fn, "w", encoding="utf-8").write(s)
     stale = []
-    if os.path.isdir("data/county"):
-        for f in os.listdir("data/county"):
-            p = f"data/county/{f}"
+    for dd in ("data/county", "data/names"):
+        if not os.path.isdir(dd): continue
+        for f in os.listdir(dd):
+            p = f"{dd}/{f}"
             if p not in out:
                 stale.append(p)
                 if write: os.remove(p)
@@ -203,4 +215,4 @@ def build(write=True):
 
 if __name__ == "__main__":
     ch, st, out = build()
-    print(f"data: {len(out) - 1} County files + index.json ({len(ch)} written, {len(st)} removed)")
+    print(f"data: {sum(1 for k in out if k.startswith('data/county/'))} County files + index.json + {sum(1 for k in out if k.startswith('data/names/'))} name lists ({len(ch)} written, {len(st)} removed)")

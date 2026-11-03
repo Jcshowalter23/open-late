@@ -397,6 +397,7 @@
       $("seeCounty").hidden = !town;
       $("seeCounty").textContent = `See all of ${cLabel(county)}`;
     }
+    elsewhere(q);
     const prev = more ? shown : 0;
     shown = more ? Math.min(list.length, shown + PAGE) : Math.min(list.length, PAGE);
     const left = list.length - shown;
@@ -740,6 +741,40 @@
     return n;
   }
   const findKey = (k) => rows.find((x) => pkey(x) === k) || extra.get(k);
+  // Site-wide name search (v137): matches in every State list under the results, the picked County / city first.
+  // data/names/<State>.json files load on the first search (this State first); tapping one opens that County at the place.
+  const nameLists = new Map();
+  const stNames = (st) => { if (!nameLists.has(st)) nameLists.set(st, getJSON(`data/names/${st}.json`).catch(() => { nameLists.delete(st); return null; })); return nameLists.get(st); };
+  let elseKey = "", elseHits = [];
+  function elsewhere(q) {
+    const box = $("elsewhere"); if (!box || !county || !index) return;
+    const st = cSt(county), town = $("town").value, key = `${county.id}|${town}|${q}|${lastList.length}|${rows.length}`;
+    if (key === elseKey) return;
+    elseKey = key;
+    if (q.length < 3) { box.hidden = true; box.innerHTML = ""; return; }
+    const sts = [st, ...(index.states || []).map((s) => s.id).filter((x) => x !== st)];
+    const shown_ = new Set(lastList.map((p) => `${p.r.name}|${p.area}`)); // already on the list above
+    const draw = (lists) => {
+      if (elseKey !== key) return;
+      const hits = [];
+      lists.forEach((d) => { if (!d) return; for (const x of d.p) {
+        if (!x[0].toLowerCase().includes(q)) continue;
+        const cid = d.c[x[1]], a = d.a[x[2]];
+        if (shown_.has(`${x[0]}|${a[0]}`)) continue;
+        const inCounty = county.all ? d.st === st : cid === county.id;
+        hits.push({ name: x[0], cid, aid: a[0], an: shortArea(a[1]).replace(/,\s*[A-Z]{2}$/, ""), st: d.st, rank: (town && a[0] === town ? 0 : inCounty ? 1 : d.st === st ? 2 : 3) * 2 + (x[0].toLowerCase().startsWith(q) ? 0 : 1) });
+      } });
+      hits.sort((x, y) => x.rank - y.rank || x.name.localeCompare(y.name));
+      elseHits = hits;
+      if (!hits.length) { box.hidden = true; box.innerHTML = ""; return; }
+      box.innerHTML = `<p class="empty-text">${hits.length} more ${hits.length === 1 ? "match" : "matches"} for “${esc(q)}”${lists.length < sts.length ? " (searching other states…)" : ""}:</p><div class="empty-actions">` +
+        hits.slice(0, 12).map((h, i) => { const c = countyById(h.cid); return c ? `<button type="button" class="btn ghost" data-hit="${i}">${esc(h.name)} · ${esc(h.an)}, ${esc(cLabel(c))}, ${esc(h.st)}</button>` : ""; }).join("") +
+        `</div>${hits.length > 12 ? `<p class="empty-text">Type more of the name to narrow it down.</p>` : ""}`;
+      box.hidden = false;
+    };
+    const got = [];
+    stNames(st).then((d) => { got[0] = d; draw(got.slice(0, 1)); return Promise.all(sts.slice(1).map(stNames)); }).then((ds) => { ds.forEach((d, n) => { got[n + 1] = d; }); draw(got); });
+  }
   // Favorites saved in other Counties: load just the Counties they live in
   async function loadFavExtras() {
     const cids = new Set();
@@ -955,7 +990,12 @@
     $("q").addEventListener("keydown", (e) => { if (e.key === "Escape") { $("q").value = ""; setSearchOpen(false); render(); } });
     $("q").addEventListener("blur", () => { if (!$("q").value.trim()) setSearchOpen(false); });
     $("clearFilters").addEventListener("click", clearFilters);
-    $("seeCounty").addEventListener("click", () => { $("town").value = ""; $("town").dispatchEvent(new Event("change")); window.scrollTo(0, 0); });
+    $("elsewhere").addEventListener("click", (e) => {
+      const b = e.target.closest("[data-hit]"); const h = b && elseHits[+b.dataset.hit]; if (!h) return;
+      dayTouched = false; track(`search/pick/${h.cid}`, "Search pick");
+      const go = () => { const p = rows.find((x) => x.r.name === h.name && x.area === h.aid); $("q").value = h.name; setSearchOpen(true); render(); if (p) openPlace(p.r.id, h.aid); window.scrollTo && !p && window.scrollTo(0, 0); };
+      (h.cid === county.id || (county.all && allCids.has(h.cid)) ? Promise.resolve() : loadCounty(h.cid, "")).then(() => { if (county.all && allDone) return allDone; }).then(go).catch(fail);
+    });    $("seeCounty").addEventListener("click", () => { $("town").value = ""; $("town").dispatchEvent(new Event("change")); window.scrollTo(0, 0); });
     $("list").addEventListener("toggle", (e) => { const d = e.target; if (d.dataset && d.dataset.key) { if (d.open) openCards.add(d.dataset.key); else openCards.delete(d.dataset.key); } }, true);
     $("day").addEventListener("change", () => { dayTouched = true; render(); });
     $("more").addEventListener("click", () => render(true));
