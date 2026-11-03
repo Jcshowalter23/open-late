@@ -302,7 +302,21 @@
      }
     ]
    },
-   "menu": "https://www.bondstreetap.com/menu"
+   "menu": "https://www.bondstreetap.com/menu",
+   "outdoor": {
+    "types": [
+     "patio",
+     "sidewalk"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/498423267 outdoor tags (patio, sidewalk; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/498423267",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nj-brandos-citi-cucina",
@@ -720,6 +734,31 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "gameday": {
+    "label": "Bills backers bar",
+    "teams": [
+     {
+      "team": "Bills",
+      "league": "NFL",
+      "local": false
+     }
+    ],
+    "kinds": [
+     "backers"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "BillsFans.com Bills Backers chapter directory (chapter listings posted Mar 2025)",
+      "url": "https://www.billsfans.com/bills-backers/united-states/new-jersey/",
+      "quote": "Bills Backers chapter bar: Deal Lake Bar, Loch Arbour",
+      "checked": "2026-11-02",
+      "kind": "backers",
+      "days": []
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2897,7 +2936,22 @@
     "fbNewestPost": null,
     "website": "https://wonderbarasburypark.com/"
    },
-   "menu": "https://wonderbarasburypark.com/menu/"
+   "menu": "https://wonderbarasburypark.com/menu/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://wonderbarasburypark.com/",
+      "quote": "must-visit destination. Known for its laid-back atmosphere, live music, and unforgettable outdoor space, the Wonder Bar of Asbury Park NJ offers something you won’t find anywhere else on the Je",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "type": "city",

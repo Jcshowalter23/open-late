@@ -82,7 +82,30 @@
     "fbNewestPost": "2026-10-19",
     "website": "https://www.1910bar.com/event"
    },
-   "menu": "https://www.1910bar.com/menu"
+   "menu": "https://www.1910bar.com/menu",
+   "outdoor": {
+    "types": [
+     "deck",
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://www.1910bar.com/event/1910barandgrille",
+      "quote": "e hidden gem of Jenkintown. Located inside The Abington Club, 1910 has the area's largest outdoor deck with beautiful views of our 9 hole executive golf course. Whether you rent out the entire",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.1910bar.com/event/banquetroom",
+      "quote": "dates 100 or more guests with an abundance of natural light, direct access to our covered outdoor patio and a beautiful view of the golf course. Choose your music with our built in sound system",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "al-tacos-locos",
@@ -300,6 +323,63 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/515978913 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/515978913",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://draketavern.com/",
+      "quote": "s and celebrations. | Award-winning burgers | Happy hour 4PM – 7PM | Drake Live Fridays | Covered patio | Order Online | Reserve a Table | Plan a Party | This week at Drake | Seven nights, seve",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://draketavern.com/",
+      "quote": "avern is just a great neighborhood spot. Fun, comfortable atmosphere with both indoor and outdoor seating, and it works just as well for dinner with the family as it does for catching a game or g",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Eagles game day",
+    "teams": [
+     {
+      "team": "Eagles",
+      "league": "NFL",
+      "local": true
+     }
+    ],
+    "kinds": [
+     "gameday"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://draketavern.com/upcoming-events/",
+      "quote": "Sam Adams Octoberfest | $6 | Yuengling | $4 | Miller High Life | $3 | Game day at the Drake | $1 Wings on Eagles Sundays | Dine in during Eagles gam",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -536,6 +616,19 @@
     "fbPostsSeen": 14,
     "fbNewestPost": "2026-10-31",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2141465554 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/2141465554",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1061,6 +1154,70 @@
       ]
      }
     ]
+   },
+   "gameday": {
+    "label": "Eagles watch party",
+    "teams": [
+     {
+      "team": "Eagles",
+      "league": "NFL",
+      "local": true
+     }
+    ],
+    "kinds": [
+     "gameday",
+     "watch"
+    ],
+    "days": [
+     "Wed"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://TimeOutPA.com/events/ultimate-trivia",
+      "quote": "Wednesday | Upcoming Events | Menu | Event Nights | Gameday | Eagles Watch Parties | Ultimate Trivia | Every Wednesday | Thursday Social | Every Thursda",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch",
+      "days": [
+       "Wed"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://TimeOutPA.com/events/ultimate-trivia",
+      "quote": "ate Events | Upcoming Events | Menu | Event Nights | Gameday | Eagles Watch Parties | Ultimate Trivia | Every Wednesday | Thursday Social | Every Thursda",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch",
+      "days": [
+       "Wed"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://TimeOutPA.com/events/thursday-social",
+      "quote": "t Time Out | Upcoming Events | Menu | Event Nights | Gameday | Eagles Watch Parties | Ultimate Trivia | Every Wednesday | Thursday Social | Every Thursda",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch",
+      "days": [
+       "Wed"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://TimeOutPA.com/events/run-it-back-friday",
+      "quote": "ut On Pine | Upcoming Events | Menu | Event Nights | Gameday | Eagles Watch Parties | Ultimate Trivia | Every Wednesday | Thursday Social | Every Thursda",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch",
+      "days": [
+       "Wed"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

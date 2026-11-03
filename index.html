@@ -92,6 +92,8 @@
     <button type="button" class="chip" id="djNights" aria-pressed="false" title="DJ nights on the picked day (from the place's own posts or website)">🎧 DJ</button>
     <button type="button" class="chip" id="tvNights" aria-pressed="false" title="Trivia on the picked day (from the place's own website)">🧠 Trivia</button>
     <button type="button" class="chip" id="bgNights" aria-pressed="false" title="Bingo on the picked day (from the place's own website)">🎱 Bingo</button>
+    <button type="button" class="chip" id="gdSpots" aria-pressed="false" title="Game day spots and watch parties (from the place's own website or a team's official fan club list)">🏈 Game day</button>
+    <button type="button" class="chip" id="odSeats" aria-pressed="false" title="Outdoor seating: patio, deck, rooftop and more (from the place's own website or OpenStreetMap)">☀️ Outdoor</button>
     <button type="button" class="chip" id="onlyDeals" aria-pressed="false">Any deal</button>
   </div>
   </div>
@@ -155,6 +157,10 @@
     <p class="fsub" id="fSub">Tell us what's wrong or missing. We check every change against a source before it goes live.</p>
     <label class="ff"><span>Place</span><input id="fPlace" name="place" type="text" maxlength="120" required autocomplete="off" placeholder="Restaurant or bar name"></label>
     <label class="ff" id="fWhereRow"><span>City and County</span><input id="fWhere" name="where" type="text" maxlength="120" autocomplete="off"></label>
+    <div id="fClaimSet" hidden>
+      <label class="ff"><span>Place link or ID (filled in for you)</span><input id="fLink" name="placeLink" type="text" maxlength="300" autocomplete="off"></label>
+      <label class="ff"><span>Your role</span><input id="fRole" name="role" type="text" maxlength="80" autocomplete="organization-title" placeholder="Owner, general manager, marketing…"></label>
+    </div>
     <label class="ff" id="fAddrRow" hidden><span>Address (if you know it)</span><input id="fAddr" name="address" type="text" maxlength="160" autocomplete="off"></label>
     <fieldset class="ff" id="fWhatSet"><legend>What's wrong or missing?</legend>
       <div class="fchecks">
@@ -172,6 +178,7 @@
       <label class="ff"><span>Your name (optional)</span><input id="fName" name="name" type="text" maxlength="80" autocomplete="name"></label>
       <label class="ff"><span>Email (optional, only to follow up)</span><input id="fEmail" name="email" type="email" maxlength="120" autocomplete="email"></label>
     </div>
+    <label class="ff" id="fPhoneRow" hidden><span>Phone (if you'd rather we call or text to confirm)</span><input id="fPhone" name="phone" type="tel" maxlength="40" autocomplete="tel"></label>
     <label class="fown"><input type="checkbox" id="fOwn" name="owner" value="yes"> I own or work here <span class="fhint">(claim this listing: we'll email you to confirm, then keep it up to date for you)</span></label>
     <label class="hp" aria-hidden="true">Leave this empty <input type="text" name="_honey" id="fHoney" tabindex="-1" autocomplete="off"></label>
     <p class="fmsg" id="fMsg" role="status" aria-live="polite"></p>

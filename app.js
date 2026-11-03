@@ -138,7 +138,7 @@
   }
 
   const on = (id) => $(id).getAttribute("aria-pressed") === "true";
-  const CHIPS = ["tonight", "openNow", "kitchenNow", "onlyDeals", "wingDeals", "beerDeals", "hhDeals", "kkNights", "djNights", "tvNights", "bgNights", "favsOnly"];
+  const CHIPS = ["tonight", "openNow", "kitchenNow", "onlyDeals", "wingDeals", "beerDeals", "hhDeals", "kkNights", "djNights", "tvNights", "bgNights", "gdSpots", "odSeats", "favsOnly"];
   // favorites live in localStorage as "area|placeId"
   let favs = new Set();
   try { favs = new Set(JSON.parse(localStorage.getItem("openlate.favs") || "[]")); } catch (e) { favs = new Set(); }
@@ -295,6 +295,7 @@
     const openNow = on("openNow"), kitchenNow = on("kitchenNow"), onlyDeals = on("onlyDeals");
     const wingDeals = on("wingDeals"), beerDeals = on("beerDeals"), hhDeals = on("hhDeals"), favsOnly = on("favsOnly");
     const kkOn = on("kkNights"), djOn = on("djNights"), tvOn = on("tvNights"), bgOn = on("bgNights"); // karaoke / DJ nights on the picked day (medium/high-confidence, non-stale only; see tools/build_data.py)
+    const gdOn = on("gdSpots"), odOn = on("odSeats"); // game day spots / outdoor seating: any day (see tools/build_data.py gameday() / outdoor())
     const day = Number($("day").value), sort = $("sort").value, tonight = on("tonight");
     const nearOn = sort === "near" && here && !town && bbNear(county, NEAR_MI); // nearby Counties mix in only when you are in or near the picked one
     const pool = rows.concat([...extra.values()].filter((p) => p.cid !== county.id && !(county.all && allCids.has(p.cid)) && ((favsOnly && favs.has(pkey(p))) || (nearOn && (miles(p) ?? 99) <= NEAR_MI))));
@@ -322,6 +323,8 @@
       if (djOn && !nightsOn(r.dj, day).length) return false;
       if (tvOn && !nightsOn(r.tv, day).length) return false;
       if (bgOn && !nightsOn(r.bg, day).length) return false;
+      if (gdOn && !r.gd) return false;
+      if (odOn && !r.od) return false;
       return true;
     });
     const key = (p) => {
@@ -370,7 +373,8 @@
     const pfx = (kkOn || djOn) && !(kinds || onlyDeals) ? "Nights" : "Deals";
     [...$("day").options].forEach((o) => { o.textContent = o.textContent.replace(/^(Deals|Nights):/, pfx + ":"); });
     const scopeN = town ? rows.filter((p) => p.area === town).length : pool.length;
-    $("count").textContent = `${list.length} of ${scopeN} places · ${what} for ${day === now.d ? "today" : day === ALL ? "all days" : DAY_LONG[day]}${dist ? " · nearest first" : ""}${allLoad ? ` · loading counties ${allLoad.done} of ${allLoad.total}…` : ""}`;
+    const feat = [gdOn && "game day", odOn && "outdoor seating"].filter(Boolean).join(" + ");
+    $("count").textContent = `${list.length} of ${scopeN} places · ${feat ? feat + " · " : ""}${what} for ${day === now.d ? "today" : day === ALL ? "all days" : DAY_LONG[day]}${dist ? " · nearest first" : ""}${allLoad ? ` · loading counties ${allLoad.done} of ${allLoad.total}…` : ""}`;
     $("count").classList.toggle("loading", !!allLoad);
     const nLk = tonight ? list.filter((p) => tonightInfo(p).kitchen > 0).length : 0;
     $("tonightNote").hidden = !tonight || !list.length;
@@ -427,6 +431,11 @@
         return `<div class="dline eline"><span class="badge ${cls}">${pfx} ${label}</span>${dtx(label, esc(txt))}${ns.length > 2 ? `<button type="button" class="dmore" data-more="1">+${ns.length - 2} more</button>` : ""}</div>`;
       };
       const elines = (kkOn || !djOn ? evLine(r.kk, "b-kk", "Karaoke", "🎤") + evLine(r.dj, "b-dj", "DJ", "🎧") : evLine(r.dj, "b-dj", "DJ", "🎧") + evLine(r.kk, "b-kk", "Karaoke", "🎤")) + evLine(r.tv, "b-tv", "Trivia", "🧠") + evLine(r.bg, "b-bg", "Bingo", "🎱");
+      // game day line, e.g. "🏈 Game day  Eagles watch party · Sun", "🏈 Game day  Bills backers bar"; outdoor line in the crowd-type style, e.g. "☀️ Patio · Rooftop · Fire pit"
+      const gdDays = r.gd && r.gd.d && !/(?:sun|mon|tue|wed|thu|fri|sat)[a-z]* night football|sundays|saturdays|sunday ticket/i.test(r.gd.l) ? r.gd.d.map((v) => DAYS[v]).join(", ") : "";
+      const gdLine = r.gd ? `<div class="dline eline"><span class="badge b-gd">🏈 Game day</span>${dtx("gd", esc(r.gd.l + (gdDays ? " · " + gdDays : "")))}</div>` : "";
+      const odLine = r.od ? `<div class="ctype" title="Outdoor seating${r.od.s ? ` (${esc(r.od.s)})` : ""}"><span aria-hidden="true">☀️</span> ${esc(r.od.t.join(" · "))}</div>` : "";
+      const srcLinks = (list) => list.map((v) => v.u ? `<a href="${esc(v.u)}" target="_blank" rel="noopener">${esc(v.s)}</a>` : esc(v.s)).join(", ");
       const ctLine = r.ct && r.ct.l && r.ct.l.length ? `<div class="ctype" title="${esc(r.ct.s)}"><span aria-hidden="true">👥</span> ${esc(r.ct.l.slice(0, 3).join(" · "))}</div>` : "";
       const nightRows = (list, label) => list && list.length ? `<div class="row"><b>${label}:</b><ul class="wk">${list.map((n) => `<li>${esc(tf(n.w))}${n.t ? ` (${esc(n.t)})` : ""}${n.n ? ` <span class="flag" title="${esc(n.n)}">⚠</span>` : ""} <span class="srcs">— ${n.u ? `<a href="${esc(n.u)}" target="_blank" rel="noopener">${esc(n.s || "source")}</a>` : esc(n.s || "")}${n.seen ? `, seen ${esc(shortDate(n.seen))}` : ""}</span></li>`).join("")}</ul></div>` : "";
       const meta = [r.cuisine, r.priceLevel].filter(Boolean).map(esc).join(" · ");
@@ -445,9 +454,9 @@
       return `<article class="card${tonight && tonightInfo(p).kitchen > 0 ? " card-lk" : ""}" data-key="${esc(ck)}">
         <button type="button" class="fav" data-act="fav" aria-pressed="${fav}" aria-label="${fav ? "Remove from" : "Add to"} favorites: ${esc(r.name)}">${fav ? "♥" : "♡"}</button>
         ${top2 ? `<div class="town">${top2}</div>` : ""}
-        <h2>${esc(r.name)}${isFeat(r) ? ` <span class="badge b-feat">Featured</span>` : ""}${meta ? ` <span class="meta">${meta}</span>` : ""}</h2>
+        <h2>${esc(r.name)}${isFeat(r) ? ` <span class="badge b-feat">Featured</span>` : ""}${r.vf ? ` <span class="badge b-vf" title="The owner confirmed this listing on ${esc(shortDate(r.vf.d))}">✓ Verified by owner</span>` : ""}${meta ? ` <span class="meta">${meta}</span>` : ""}</h2>
         <div class="status ${st.cls}"><span class="dot" aria-hidden="true"></span><span>${esc(st.text)}</span>${kline}${tonight ? (tonightInfo(p).kitchen > 0 ? `<span class="lk lk-t" title="Kitchen open past 11 PM tonight (per listed kitchen hours)">🍔 Food till ${fmt(tonightInfo(p).kitchen)}</span>` : "") : lateKitchen(p) ? `<span class="lk" title="Kitchen open past 11 PM today (per listed kitchen hours)">Late kitchen</span>` : ""}</div>
-        ${dline}${elines}${ctLine}
+        ${dline}${elines}${gdLine}${ctLine}${odLine}
         ${p.lc ? `<div class="lchk">${esc(p.lc)}</div>` : ""}
         <details class="more-info" data-key="${esc(ck)}"${openCards.has(ck) ? " open" : ""}>
           <summary>Details</summary>
@@ -463,6 +472,9 @@
             <div class="row"><b>Crowd:</b> ${r.crowd ? esc(r.crowd) : NL}</div>
             ${r.ct ? `<div class="row"><b>Crowd type:</b> ${esc(r.ct.s)}${r.ct.l && r.ct.l.length && !r.ct.l.every((l) => normTxt(r.ct.s).includes(normTxt(l))) ? ` <span class="ctl">(${esc(r.ct.l.join(", "))})</span>` : ""}${r.ct.src && r.ct.src.length ? ` <span class="srcs">— from ${r.ct.u ? `<a href="${esc(r.ct.u)}" target="_blank" rel="noopener">${esc(r.ct.src.join(", "))}</a>` : esc(r.ct.src.join(", "))}</span>` : ""}</div>` : ""}
             ${nightRows(r.kk, "Karaoke")}${nightRows(r.dj, "DJ nights")}${nightRows(r.tv, "Trivia")}${nightRows(r.bg, "Bingo")}
+            ${r.gd ? `<div class="row"><b>Game day:</b> ${esc(r.gd.l)}${gdDays ? ` (${esc(gdDays)})` : ""}${r.gd.tm && r.gd.tm.length && !r.gd.tm.every((t) => r.gd.l.includes(t)) ? ` <span class="ctl">(${esc(r.gd.tm.join(", "))})</span>` : ""}${r.gd.src && r.gd.src.length ? ` <span class="srcs">— ${srcLinks(r.gd.src)}${r.gd.c ? `, checked ${esc(shortDate(r.gd.c))}` : ""}</span>` : ""}</div>` : ""}
+            ${r.od ? `<div class="row"><b>Outdoor seating:</b> ${esc(r.od.t.join(", "))}${r.od.s ? ` <span class="srcs">— ${srcLinks([{ s: r.od.s, u: r.od.u }])}${r.od.c ? `, checked ${esc(shortDate(r.od.c))}` : ""}</span>` : ""}</div>` : ""}
+            ${r.vf ? `<div class="row"><b>Verified by owner:</b> ${esc(shortDate(r.vf.d))}${r.vf.n ? ` — ${esc(r.vf.n)}` : ""}</div>` : ""}
             <div class="src">Source: ${esc(String(r.source).replace(/\s*\(checked \d{4}-\d\d-\d\d\)/g, ""))} · checked ${esc(p.checkedLabel)}</div>
             <div class="actions">
               <a class="act" href="${esc(dirs)}" target="_blank" rel="noopener" aria-label="Directions to ${esc(r.name)}" title="Directions">Directions</a>
@@ -579,16 +591,25 @@
     $("fAddrRow").hidden = mode !== "add";
     $("fWhatSet").hidden = mode === "add";
     $("fOwn").checked = mode === "claim";
+    $("fLink").value = p ? `${r0(p)}` : "";
+    claimFields();
     $("fDetailsLbl").textContent = mode === "add" ? "Hours, kitchen hours, specials, phone, website (whatever you know)" : mode === "claim" ? "What should we update? (hours, kitchen hours, happy hour, specials, phone)" : "Details";
-    $("fEmail").previousElementSibling.textContent = mode === "claim" ? "Email (so we can confirm you)" : "Email (optional, only to follow up)";
     $("fMsg").textContent = ""; $("fMsg").className = "fmsg"; $("fSend").disabled = false;
     const d = $("formDlg");
     if (typeof d.showModal === "function") { if (!d.open) d.showModal(); } else d.setAttribute("open", "");
     setTimeout(() => (p ? $("fDetails") : $("fPlace")).focus(), 30);
   }
+  const r0 = (p) => `${placeUrl(p)} (ID ${p.area}|${p.r.id})`;
+  // claim fields (place link or ID, role, phone) show whenever "I own or work here" is ticked; owner name is then required, plus an email or a phone
+  function claimFields() {
+    const own = $("fOwn").checked;
+    $("fClaimSet").hidden = !own; $("fPhoneRow").hidden = !own;
+    $("fName").previousElementSibling.textContent = own ? "Your name" : "Your name (optional)";
+    $("fEmail").previousElementSibling.textContent = own ? "Email (so we can confirm you)" : "Email (optional, only to follow up)";
+  }
   function closeForm() { const d = $("formDlg"); if (typeof d.close === "function" && d.open) d.close(); else d.removeAttribute("open"); }
   function formMailto(o) {
-    const body = `Type: ${o.type}\nPlace: ${o.place}\nCity and County: ${o.where}\n${o.address ? `Address: ${o.address}\n` : ""}What's wrong or missing: ${o.what || "-"}\nI own or work here: ${o.owner}\n\n${o.details}\n\nName: ${o.name}\nEmail: ${o.email}\nPage: ${o.page}\n`;
+    const body = `Type: ${o.type}\nPlace: ${o.place}\nCity and County: ${o.where}\n${o.address ? `Address: ${o.address}\n` : ""}What's wrong or missing: ${o.what || "-"}\nI own or work here: ${o.owner}\n${o.owner === "Yes" ? `Role: ${o.role}\nPlace link or ID: ${o.placeLink}\nPhone: ${o.phone}\n` : ""}\n${o.details}\n\nName: ${o.name}\nEmail: ${o.email}\nPage: ${o.page}\n`;
     return `mailto:${SUGGEST_TO}?subject=${encodeURIComponent(o._subject)}&body=${encodeURIComponent(body)}`;
   }
   async function sendForm(e) {
@@ -599,11 +620,15 @@
     if (!place) { say("Please enter the place's name.", "err"); $("fPlace").focus(); return; }
     if (!details && !what.includes("Closed")) { say("Please add a few details.", "err"); $("fDetails").focus(); return; }
     if (email && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { say("That email doesn't look right (or leave it empty).", "err"); $("fEmail").focus(); return; }
-    if ($("fOwn").checked && !email) { say("Please add an email so we can confirm you own or work here.", "err"); $("fEmail").focus(); return; }
+    const own = $("fOwn").checked, phone = $("fPhone").value.trim(), oname = $("fName").value.trim();
+    if (own && !oname) { say("Please add your name so we know who's claiming this listing.", "err"); $("fName").focus(); return; }
+    if (own && !$("fRole").value.trim()) { say("Please add your role (owner, manager…).", "err"); $("fRole").focus(); return; }
+    if (own && !email && phone.replace(/\D/g, "").length < 10) { say("Please add an email or a phone number so we can confirm you own or work here.", "err"); (email ? $("fPhone") : $("fEmail")).focus(); return; }
     const type = $("fOwn").checked ? "Claim listing" : formCtx.mode === "add" ? "Add a place" : "Suggest an update";
     const o = { _subject: `Open Late · ${type}: ${place} (${$("fWhere").value.trim() || (county ? cFull(county) : "")})`, _template: "table", _captcha: "false",
       type, place, where: $("fWhere").value.trim(), address: $("fAddr").value.trim(), what: what.join(", "), details,
-      name: $("fName").value.trim(), email, owner: $("fOwn").checked ? "Yes" : "No", page: formCtx.url, placeKey: formCtx.key };
+      name: $("fName").value.trim(), email, owner: own ? "Yes" : "No", page: formCtx.url, placeKey: formCtx.key,
+      ...(own ? { role: $("fRole").value.trim(), placeLink: $("fLink").value.trim(), phone } : {}) };
     if (email) o._replyto = email;
     if ($("fHoney").value) { say("Thanks! Sent.", "ok"); setTimeout(closeForm, 1500); return; } // bots fill the hidden field; drop silently
     if (!CFG.formEndpoint) { say("The form isn't set up yet.", "err", formMailto(o)); return; }
@@ -923,6 +948,7 @@
     if (window.ResizeObserver) new ResizeObserver(() => { setTopH(); if (map && view === "map") map.invalidateSize(); }).observe($("top"));
     document.querySelectorAll("[data-form]").forEach((a) => a.addEventListener("click", (e) => { e.preventDefault(); openForm(a.dataset.form, null); }));
     $("sForm").addEventListener("submit", sendForm);
+    $("fOwn").addEventListener("change", claimFields);
     $("fClose").addEventListener("click", closeForm); $("fCancel").addEventListener("click", closeForm);
     $("formDlg").addEventListener("click", (e) => { if (e.target === $("formDlg")) closeForm(); });
     $("searchBtn").addEventListener("click", () => setSearchOpen(!$("top").classList.contains("searching")));

@@ -2044,7 +2044,26 @@
     "fbNewestPost": null,
     "website": "https://www.burgerologyusa.com/"
    },
-   "menu": "https://www.burgerologyusa.com/menu"
+   "menu": "https://www.burgerologyusa.com/menu",
+   "gameday": {
+    "label": "Game day",
+    "teams": [],
+    "kinds": [
+     "gameday"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.burgerologyusa.com/footballspecials",
+      "quote": ". SO ARE THE SPECIALS. | Catch the games with us and fuel up with our Game Day Specials, featuring wings, sliders, ice-cold beer buckets, and more.",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-buteras",
@@ -12087,7 +12106,22 @@
     "website": "https://www.southedison.com/"
    },
    "websiteSource": "OpenStreetMap node/2210063047 website tag (map data 2026-10-31), checked 2026-11-02",
-   "menu": "https://www.southedison.com/menu"
+   "menu": "https://www.southedison.com/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.southedison.com/about",
+      "quote": "Nestled just a block south of the bustling town, South Edison offers inviting indoor and outdoor seating options that beautifully embody the relaxed spirit of Montauk. The charming interior enve",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-spider-bite-beer-co",
@@ -13092,7 +13126,26 @@
     "fbNewestPost": null,
     "website": "https://taproomofny.com"
    },
-   "menu": "https://taproomofny.com/our-menu/"
+   "menu": "https://taproomofny.com/our-menu/",
+   "gameday": {
+    "label": "Game day",
+    "teams": [],
+    "kinds": [
+     "gameday"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://taproomofny.com",
+      "quote": "mission. | GAME DAY SPECIALS | Specials every day of the week, during every game of the NFL season. | VIEW SPECIALS HERE | What's On Tap? | Our beer l",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-taquero-mucho",
@@ -13769,6 +13822,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/470320665 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/470320665",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

@@ -204,7 +204,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "waterfront"
+    ],
+    "sources": [
+     {
+      "src": "venue website (waterfront wording)",
+      "url": "https://murano.cafe/",
+      "quote": "for your evening. | EXPLORE OUR WINES | OUTDOOR DINING | Dine Under | the Open Sky | Our lakeside patio offers a front-row seat to Central Florida’s most breathtaking sunsets. As the sky shifts",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://murano.cafe/",
+      "quote": "our staff will help you find the perfect pairing for your evening. | EXPLORE OUR WINES | OUTDOOR DINING | Dine Under | the Open Sky | Our lakeside patio offers a front-row seat to Central Flori",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-chayhana-orlando",
@@ -813,7 +835,22 @@
     "fbNewestPost": "2026-10-31",
     "website": "https://fuzzystacoshop.com/locations/florida/altamonte-springs/"
    },
-   "menu": "https://www.fuzzystacoshop.com/menu/"
+   "menu": "https://www.fuzzystacoshop.com/menu/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.fuzzystacoshop.com/locations/florida/altamonte-springs",
+      "quote": "th our catering and family meals options. We're also dishing out good food and good vibes on our patio! Grab a FuzzyRita or two and kick it with your friends. Plus, our patio is dog-friendly!",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-i-heart-mac-and-cheese-altamonte-springs-fl",
@@ -2427,7 +2464,20 @@
    "source": "hours from OpenStreetMap node/13071548663 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Seminole",
    "addedBy": "sweep-osm",
-   "menu": "https://www.grattindog.com/menus"
+   "menu": "https://www.grattindog.com/menus",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/13071548663 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/13071548663",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "type": "city",

@@ -2119,7 +2119,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.ethosbistro.com/",
+      "quote": "C | If you're looking for a place with great drinks and lots of fun, ethos Greek Bistro's outdoor patio al fresco dining in South Florida is unbeatable. The ambiance is lively, perfect for enjo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.ethosbistro.com/",
+      "quote": "n a Monday evening. Nice modern style and decor. Very warm and inviting. There's pleasant outdoor seating as well. The service is incredibly fast. Delicious warm soft bread was served with herb i",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-even-keel-fish-shack",
@@ -2757,6 +2779,21 @@
       "url": "https://islandcitybistro.com/events/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://islandcitybistro.com/about/",
+      "quote": "smoothies and protein shakes to order. | Come in for dinner or a late bite, grab a table on the patio and watch the Drive go by, or order ahead for pickup or delivery within 10 miles. After d",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3289,7 +3326,22 @@
     "fbNewestPost": "2026-10-21",
     "website": "https://www.lamexicana.online/"
    },
-   "menu": "https://lamexicana.online/main-menu/"
+   "menu": "https://lamexicana.online/main-menu/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://lamexicana.online/",
+      "quote": "order again and decor every last bite! | J Smith | Pretty good tacos and drinks. Love the outdoor area! I enjoyed the live music Saturday night. We enjoyed the chicken and fish tacos. Fresh an",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-las-colinas-restaurant",
@@ -4042,7 +4094,20 @@
     "fbNewestPost": null,
     "website": "http://rosiesbarandgrill.com/"
    },
-   "phoneSource": "Venue website www.rosiesbarandgrill.com, checked 2026-11-02"
+   "phoneSource": "Venue website www.rosiesbarandgrill.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5590639621 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/5590639621",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-salimar-ceviche-bar",
@@ -4423,7 +4488,22 @@
     "fbNewestPost": null,
     "website": "https://www.spicenvybe.com/"
    },
-   "menu": "https://www.spicenvybe.com/menu/"
+   "menu": "https://www.spicenvybe.com/menu/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.spicenvybe.com/2026/10/12/where-to-find-the-best-caribbean-cocktail-happy-hour-in-fort-lauderdale/",
+      "quote": "ango’s Tropical Café | offer a lively fusion of tropical decor, energetic live music, and outdoor patio seating beneath swaying palms that enhance the cocktail experience. These lounges are des",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-stout-bar-and-grill",
@@ -4959,7 +5039,48 @@
     "fbNewestPost": "2026-10-26",
     "website": "https://tequilasunrise.us/"
    },
-   "menu": "https://tequilasunrise.us/fort-lauderdale-fort-lauderdale-tequila-sunrise-mexican-grill-food-menu"
+   "menu": "https://tequilasunrise.us/fort-lauderdale-fort-lauderdale-tequila-sunrise-mexican-grill-food-menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://tequilasunrise.us/fort-lauderdale-fort-lauderdale-tequila-sunrise-mexican-grill-about",
+      "quote": "l and causal local spot. Our Mexican restaurant in Fort Lauderdale has: | Indoor Dining | Outdoor Dining | Private Party Rooms, for small or large groups | Off-Site Catering | The size of your p",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Game day",
+    "teams": [],
+    "kinds": [
+     "gameday"
+    ],
+    "days": [
+     "Sat",
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://tequilasunrise.us/fort-lauderdale-fort-lauderdale-tequila-sunrise-mexican-grill-daily-specials",
+      "quote": "| 🏈🏀⚾ GAME DAY JUST GOT BETTER AT TEQUILA SUNRISE! 🍹🌮 | Check out our Game Day Menu, available ALL DAY Saturdays & Sundays and during ANY sports gam",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday",
+      "days": [
+       "Sat",
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-thai-song-authentic-thai-kitchen",
@@ -5248,7 +5369,22 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "waterfront"
+    ],
+    "sources": [
+     {
+      "src": "venue website (waterfront wording)",
+      "url": "https://www.VillageGrille.com/",
+      "quote": "'s not just a meal; it's an experience, a moment to savor the finer things in life. | Our oceanfront seating provides the perfect backdrop for an exquisite dining experience. Whether you're enjoying",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-the-well-wilton-manors",

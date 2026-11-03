@@ -541,7 +541,22 @@
     "fbNewestPost": "2026-10-22",
     "website": "https://banditostnt.com/towson/"
    },
-   "menu": "https://banditostnt.com/menu/"
+   "menu": "https://banditostnt.com/menu/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://banditostnt.com/towson/",
+      "quote": "pot for everything from lunch to late-night fun. Our vibrant | restaurant offers multiple outdoor seating options and a semi-private lower | dining room, making it the perfect place to host event",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-barleys-backyard-uptown",
@@ -647,6 +662,61 @@
       "url": "https://barleysbackyard.com/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "rooftop",
+     "deck"
+    ],
+    "firePit": true,
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://barleysbackyard.com/",
+      "quote": "ffer! Enjoy mouthwatering brunch, lunch, or dinner, and sip on cocktails while taking in the rooftop view of Towson. The vibes are unmatched! | the Only Rooftop Venue in town | Barley's Back",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://barleysbackyard.com/book-a-party/",
+      "quote": "ty started! | Call Us | Email Us | Submit an Inquiry | barley's backyard | Event Spaces | Outside Deck | Capacity: 10-175 | Celebrate your event in style on our outdoor deck! Perfect for any o",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (fire pit wording)",
+      "url": "https://barleysbackyard.com/book-a-party/",
+      "quote": "erience with a rooftop view of Towson, inviting seating arrangements, and the glow of our fire pits. Sip on a refreshing cocktail and savor delicious bites while enjoying the stunning views",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Sunday Night Football",
+    "teams": [],
+    "kinds": [
+     "football"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://barleysbackyard.com/",
+      "quote": "on | Instagram | Baltimore’s favorite: a fresh Orange Crush 🍊 #Bar | Sunday night football at Backyard! Ravens vs Bills | Craving something sweet? Our seasonal",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -950,6 +1020,21 @@
       "url": "https://bandcbistro.com/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://bandcbistro.com/",
+      "quote": "ch I am going back tonight! Also, I had to call the restaurant just to make sure they had outside seating. The phone was answered by a gentleman named Nick. He was the most pleasant person I thin",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2414,7 +2499,20 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://mykathmandukitchen.com/collections"
+   "menu": "https://mykathmandukitchen.com/collections",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5261321248 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/5261321248",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-kent-house-irish-pub",
@@ -2756,6 +2854,21 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-22",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.libsgrill.com/locations",
+      "quote": "the menu items. | ORDER ONLINE | RESERVATIONS | LIB'S GRILL | LOCATIONS | Enjoy indoor & outdoor dining, as well as curbside pickup at all Lib's Grill locations. | MAKE A RESERVATION | BEL AIR",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3068,7 +3181,22 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://michaelscafe.com/",
+      "quote": "e Timonium restaurant completed its third major renovation with its new indoor lounge and outdoor patio, adding to its existing large dining room, original bar, and conference room. | Michael’s",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-mothers-north-grille",
@@ -3206,6 +3334,19 @@
     "fbPostsSeen": 11,
     "fbNewestPost": "2025-05-04",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3025586583 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/3025586583",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3470,7 +3611,22 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.pappascockeysville.com/",
+      "quote": "through the menu items. | Click Here To Order Online! | 'Tis the Season! | Join us on our outdoor patio all spring and summer! | The Best Way To Snag A Seat! | Join Us for Happy Hour! | Monday",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-peerces",
@@ -4323,6 +4479,33 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-23",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/4966301481 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/4966301481",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.tarksgrill.com/",
+      "quote": "equests. | Bar seating is offered on a first-come, first-served basis. | Dining Options | patio dining | Outdoor Dining Available | Menu | Dining Options | indoor dining | MENU | Dining Option",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.tarksgrill.com/",
+      "quote": "seating is offered on a first-come, first-served basis. | Dining Options | patio dining | Outdoor Dining Available | Menu | Dining Options | indoor dining | MENU | Dining Options | curbside pick",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4411,6 +4594,40 @@
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-30",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://thebutlercabin.us/",
+      "quote": "ther you’re meeting up with old friends, watching your favorite sports, or dining outside on our patio, you’ll always feel at home while you’re at The Butler Cabin. | View this profile on Inst",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://thebutlercabin.us/",
+      "quote": "acos, subs and sandwiches. With a juke-box, billiard table and Sunday NFL ticket, it’s definitely a place to be on the week-end! | Whether you’re meet",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4752,6 +4969,21 @@
       "url": "https://www.thepointtowson.com/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.thepointtowson.com/",
+      "quote": "servatrion at The Point on Resy | Drinks | 3 amazing bars including a craft cocktail bar, patio bar and main bar with live music, we serve a wide selection of handcrafted cocktails, local",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -5016,6 +5248,21 @@
       "url": "https://thevalleyinnmd.com/wp-content/uploads/2026/09/TVI_HH_08.25.26-1.pdf"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://thevalleyinnmd.com/",
+      "quote": "season. | Private Dining Info | Live Music & Events | Unforgettable fun | at the greatest outdoor bar in Baltimore County. | Check our live music page or follow us on Instagram for the latest",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -5110,7 +5357,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/1021388450 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/1021388450",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-vito-ristorante",

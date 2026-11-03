@@ -730,7 +730,20 @@
     "fbNewestPost": "2026-10-14",
     "website": "https://charhut.com/"
    },
-   "menu": "https://charhut.com/menu.html"
+   "menu": "https://charhut.com/menu.html",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/113341881 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/113341881",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-chicken-grill",
@@ -1019,7 +1032,22 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.cjblacks.com/",
+      "quote": "Drinks and Wine including Wine Bottle service or enjoy the Florida sunshine dining on our Outdoor Patio. Live Entertainment on Fridays and Saturday featuring \"Kurt and Cary Duo\" playing Acoust",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-crazy-crab",
@@ -1147,7 +1175,20 @@
     "fbNewestPost": "2026-07-22",
     "website": "https://www.cremagourmet.com/"
    },
-   "menu": "https://cremagourmet.com/menu"
+   "menu": "https://cremagourmet.com/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/6150066512 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/6150066512",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-davie-taco-bar",
@@ -1928,7 +1969,49 @@
      }
     ]
    },
-   "phoneSource": "Venue website geronimosgrill.com, checked 2026-11-02"
+   "phoneSource": "Venue website geronimosgrill.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://geronimosgrill.com/",
+      "quote": "ambiance of the bar is dark which is nice if that's what you like. They also have a nice outdoor seating area... | review by - Yelp | Sterling M: | ...I was very impressed with the atmosphere an",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Game day",
+    "teams": [],
+    "kinds": [
+     "gameday"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://geronimosgrill.com/-events?source=header&spot_id=85665&destination=events&promotion=nba_season",
+      "quote": "-day atmosphere! 🙌🍻 | 📅 Saturday, November 7 ⏰ Kickoff at 7:30 PM | 🏈 GAME DAY SPECIALS: 🍹 Food & Drink Specials throughout the game! 📺 Catch every",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     },
+     {
+      "src": "venue website",
+      "url": "https://geronimosgrill.com/-events?source=header&spot_id=85665&destination=events&promotion=nba_season",
+      "quote": "c game-day atmosphere! 🙌🍻📅 Saturday, November 7 ⏰ Kickoff at 7:30 PM🏈 GAME DAY SPECIALS: 🍹 Food & Drink Specials throughout the game! 📺 Catch every",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-gopho",
@@ -3752,7 +3835,29 @@
     "fbNewestPost": "2026-08-20",
     "website": "https://www.sicilianovenmenu.com/cooper-city"
    },
-   "menu": "https://www.sicilianoven.com/menu"
+   "menu": "https://www.sicilianoven.com/menu",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.sicilianoven.com/locations/west-delray",
+      "quote": "ed right off the turnpike on Atlantic Avenue, this Sicilian Oven location boasts a large, covered patio with an open-air bar. The long high-top tables provide excellent space for group gatherin",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.sicilianoven.com/locations/west-delray",
+      "quote": "ike on Atlantic Avenue, this Sicilian Oven location boasts a large, covered patio with an open-air bar. The long high-top tables provide excellent space for group gatherings, and the main dini",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-south-florida-crabs-and-more",
@@ -4197,7 +4302,34 @@
     "website": "https://tap42.com/davie/"
    },
    "menu": "https://tap42.com/menus/",
-   "phoneSource": "OpenStreetMap node/14316946101 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/14316946101 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/14316946101 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/14316946101",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://tap42.com/locations/davie/",
+      "quote": ", Bloody Marys and Andrews Avenue Lager. Catch the game on the TVs, or grab a seat on the covered patio. Planning a team lunch or celebration? Ask about private events and group reservations at",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://tap42.com/locations/aventura/",
+      "quote": "19565 Biscayne Blvd, in the mall's newer wing overlooking the open-air piazza. | Is there outdoor seating at Tap 42 Aventura? | Yes. There is a covered patio with lounge seating. | Where do I par",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-the-cage-bar-and-grill",
@@ -5025,6 +5157,29 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "beer garden",
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://wunderbardavie.com/",
+      "quote": "a Roman | , Wunderbar is South Florida’s premier authentic German restaurant and Bavarian beer garden. We serve traditional German cuisine, including the best schnitzel in South Florida, hous",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://wunderbardavie.com/davie-broward-wunderbar-german-kitchen-and-biergarten-about",
+      "quote": "Florida. | Open til 10 p.m nightly and 12 a.m Friday and Saturday. With weekly specials, spacious patio seating, games, pool table we have something for the whole family. Catch the game on one",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -5068,6 +5223,21 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://yeoldefalconpub.com/",
+      "quote": "nge them often, so the draft list might not be up-to-date. | Photo Gallery | PET FRIENDLY OUTSIDE SEATING | Private room for Birthday parties and Corporate Events etc. | Want to throw your next e",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

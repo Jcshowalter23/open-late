@@ -237,7 +237,22 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.bacchusoflebanon.com/",
+      "quote": "xperience that specializes in fine dining with a casual vibe. Home to the only cold-proof outdoor patio in the DMV. | 301-657-1722 | Four Seasons Patio | Patio reservations is on first come bas",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-barrel-and-crow",
@@ -292,7 +307,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2358153391 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/2358153391",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-bethesda-crab-house",
@@ -548,7 +576,20 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/796573811 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/796573811",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-blacks-barand-kitchen",
@@ -1304,6 +1345,81 @@
       "url": "https://www.clydes.com/location/clydes-mark-center/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.clydes.com/location/clydes-chevy-chase/?y_source=1_MzcwMDQ4MjMtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D",
+      "quote": "ou allow dogs? | A: Only service dogs are allowed in the restaurant. All dogs are allowed on the patio. | Q: Do you offer group reservations or private dining? | A: Yes, we take group reservat",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.clydes.com/location/clydes-chevy-chase/?y_source=1_MzcwMDQ4MjMtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D",
+      "quote": "vy Chase the perfect place for a memorable dining experience for any occasion. Indoor and outdoor seating available with lunch, dinner, brunch, late night, and raw bar service. | Menus | Happy Ho",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "NFL Sunday Ticket · Commanders",
+    "teams": [
+     {
+      "team": "Commanders",
+      "league": "NFL",
+      "local": true
+     }
+    ],
+    "kinds": [
+     "gameday",
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.clydes.com/location/clydes-mark-center/",
+      "quote": "t Mark Center! Join us every Sunday for games from around the league, game-day food and drink specials from 1–7pm, and Commanders games on the big s",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.clydes.com/location/clydes-mark-center/",
+      "quote": "pped butter, maple syrup, powdered sugar | Happy Hours & Promotions | NFL Sunday Ticket | Crew & Wharf Bar every Sunday from 1-7pm | Catch all the action wit",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.clydes.com/location/clydes-mark-center/",
+      "quote": "Crew & Wharf Bar every Sunday from 1-7pm | Catch all the action with NFL Sunday Ticket at Clyde’s at Mark Center! Join us every Sunday for games from around",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1551,6 +1667,21 @@
     "fbPostsSeen": 17,
     "fbNewestPost": "2026-10-11",
     "website": "https://locations.doghaus.com/locations/md/bethesda/7904-woodmont-ave"
+   },
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://locations.doghaus.com/locations/md/bethesda/7904-woodmont-ave",
+      "quote": "rolls! | Kristin D. | About this Haus | Dog Haus Biergarten Bethesda is a sports bar and beer garden on Woodmont Ave in downtown Bethesda, MD, serving smashburgers and chicken sandwiches on",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2024,7 +2155,29 @@
     "fbNewestPost": "2026-10-12",
     "website": "https://www.wearefoundingfarmers.com/location/moco/"
    },
-   "menu": "https://www.wearefoundingfarmers.com/menus/"
+   "menu": "https://www.wearefoundingfarmers.com/menus/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.wearefoundingfarmers.com/location/moco/",
+      "quote": "weekday breakfast, lunch, dinner, and weekend brunch. | Reserve your table | Join Us for Patio Dining in Potomac | We hope you will join us in Potomac on our patio or at one of our other rest",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.wearefoundingfarmers.com/location/moco/",
+      "quote": "Potomac on our patio or at one of our other restaurants to experience our fun and festive outdoor dining rooms. | Learn more | . | To enjoy our MoCo patio, please book your table outside when ma",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-gringos-and-mariachis",
@@ -2207,6 +2360,36 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-06-12",
     "website": "https://www.hipflaskrooftop.com/"
+   },
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "heated": true,
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.hipflaskrooftop.com/",
+      "quote": "Rooftop Bar Bethesda | Hip Flask Rooftop Bar | Skip to main content | 301-276-7707 | HOME | PRIVATE E",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.hipflaskrooftop.com/",
+      "quote": "-private Events | Book your next get-together in the clouds at Hip Flask Rooftop Bar. Our outdoor area is available Tuesday through Thursday from 5pm to 7pm, and is spacious enough to hold bet",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (heated wording)",
+      "url": "https://www.hipflaskrooftop.com/",
+      "quote": "starting at 5pm. Patrons must be 21+ to enter. | View Menu | Your Cozy Escape | Private, Heated Igloos are Back! | Inspired by Colorado's snow-capped peaks, our heated private igloo on the Hip",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2418,7 +2601,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/7042583785 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/7042583785",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-lias",
@@ -2969,6 +3165,21 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://penangmalaysiancuisinebethesda.mybistro.online/",
+      "quote": "volume_up | Noise Level | Average | local_bar | Alcohol | Full Bar | transit_enterexit | Outdoor Seating | No | wifi | Wi-Fi | No | tv | Has TV | Yes | fastfood | Caters | Yes | Reviews | Tony W",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3206,7 +3417,20 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.plantarestaurants.com/bethesda-location/"
+   "menu": "https://www.plantarestaurants.com/bethesda-location/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/1323149405 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/1323149405",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-poke-dojo",
@@ -3439,6 +3663,21 @@
     "fbPostsSeen": 3,
     "fbNewestPost": "2026-05-23",
     "website": "http://www.EatAtSilver.com/"
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.EatAtSilver.com/events",
+      "quote": "– 6:30pm | DAILY 9:00pm – CLOSE | Enjoy Happy Hour food and drink specials starting at $5 on the patio and at the bar. | HAPPY HOUR MENU | WEEKNIGHT | GATHERINGS | UPGRADE YOUR WEEKNIGHT ROUTI",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3724,6 +3963,19 @@
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-05-10",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/8402911162 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/8402911162",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4241,7 +4493,29 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.thesaltline.com/location/the-salt-line-bethesda/",
+      "quote": "e Salt Line brings coastal spirit to the heart of | Bethesda Row | . | The lively bar and spacious patio make it a perfect spot to unwind. Join us for happy hour | Monday | through | Friday | ,",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.thesaltline.com/location/the-salt-line-bethesda/",
+      "quote": "ials. Served throughout the restaurant at all tables and at the bar. | Indoor & Uncovered Outdoor Dining Available. | WELCOME TO | THE SALT LINE / BETHESDA | Named for the boundary where saltwat",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-tommy-joes-bar-grill",
@@ -4376,7 +4650,53 @@
      }
     ]
    },
-   "phoneSource": "Venue website tommy-joes.com, checked 2026-11-01"
+   "phoneSource": "Venue website tommy-joes.com, checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://tommy-joes.com/",
+      "quote": "ngs we have what you're looking for. With 18 TVs on our main level and 11 on our spacious rooftop bar, you won't miss a minute of the action. | Read more | about us | A Bethesda Tradition | B",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://tommy-joes.com/bethesda-woodmont-triangle-area-tommy-joe-s-about",
+      "quote": "s whatever you are looking for with space for private events up to 350 people, indoor and outdoor dining and the best rooftop bar around. With over 40 TV's, come watch your favorite teams play,",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "NFL Sundays",
+    "teams": [],
+    "kinds": [
+     "football"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://tommy-joes.com/events?source=header&spot_id=56613&destination=events&promotion=nba_season",
+      "quote": "days | Thursday November 5th | Every Thursday | 06:00 PM - 09:00 PM | NFL Sunday | Sunday November 8th | Every Sunday | Join us for Weekly Drink Speci",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-westbard-square",

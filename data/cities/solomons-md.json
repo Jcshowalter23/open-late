@@ -98,7 +98,30 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio",
+     "waterfront"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://BeaconMarinaSolomons.com/",
+      "quote": "afood Bar & Grill take reservations? | Anglers serves breakfast, lunch, and dinner on the waterfront patio. Call the restaurant at 410-326-2772 to reserve a table or check the day's specials, and",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (waterfront wording)",
+      "url": "https://BeaconMarinaSolomons.com/",
+      "quote": "afood Bar & Grill take reservations? | Anglers serves breakfast, lunch, and dinner on the waterfront patio. Call the restaurant at 410-326-2772 to reserve a table or check the day's specials, and",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-atomic-seafood-and-bar",
@@ -264,6 +287,21 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-25",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://brickwfb.com/about-us/",
+      "quote": "rewing served along with handcrafted cocktails featuring herbs from the bistro’s very own rooftop garden. | Culture Trip | Locally Grown Ingredients | Grow Local, Eat Local | Ingredients | fresh",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -485,7 +523,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3227318415 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/3227318415",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-heavy-hitter-bbq",
@@ -594,6 +645,21 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://heritage485.com/",
+      "quote": "r party in the dining room, we have a banquet room that holds up to 40 people. | Is there outdoor seating available? | Yes! We have outdoor seating when the weather allows, come dine with us indo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -773,7 +839,22 @@
      }
     ]
    },
-   "phoneSource": "Venue website www.maraudercharters.com, checked 2026-11-02"
+   "phoneSource": "Venue website www.maraudercharters.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "deck"
+    ],
+    "sources": [
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://www.maraudercharters.com/",
+      "quote": "Yacht | ​The Marauder is the pride and joy of the Chesapeake. | ﻿﻿ | :: Stable Ride | ﻿:: Spacious Deck for Battling Your Fish | :: Multiple People Fish at Once | :: Highest Standard of Safety",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-ogannigans",
@@ -1171,6 +1252,19 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-24",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/547132235 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/547132235",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1436,6 +1530,54 @@
       "url": "https://tikibarsolomonsisland.com/events/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/1669255688 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/1669255688",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://tikibarsolomonsisland.com/live-music/",
+      "quote": "g Celebration! | Get 3 Day Pass | Friday Tickets | Saturday Tickets | Sunday Tickets | April 17th-19th | Live Music Lineup for our 46th Anniversary Grand",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://tikibarsolomonsisland.com/live-music/",
+      "quote": "g Celebration! | Get 3 Day Pass | Friday Tickets | Saturday Tickets | Sunday Tickets | Home | Live Music | Weekly Specials | Menu | Food Menu | Drink Men",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

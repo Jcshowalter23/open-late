@@ -511,6 +511,29 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
+   },
+   "outdoor": {
+    "types": [
+     "beer garden",
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://bottlespub.com/",
+      "quote": "al Events | Location | CRAFT BEER IS OUR PASSION TOO | A VARIETY OF CRAFT PINTS | OUTDOOR BEER GARDEN & PATIO | Mon | Nov | 02 | 7:00 pm | MONDAY BINGO | Tue | Nov | 03 | 11:00 am | – | 3:00",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://bottlespub.com/",
+      "quote": "1-3 EVERYDAY! | Kick back with friends, enjoy a fine brew and chat with the locals on our outdoor patio beer garden. Inside, you can shoot pool, play shuffleboard & throwback video games, golf,",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -606,7 +629,29 @@
     "conflicts": [],
     "oneoffs": []
    },
-   "menu": "https://brokenboredbarandgrill.com/menu/"
+   "menu": "https://brokenboredbarandgrill.com/menu/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://brokenboredbarandgrill.com/",
+      "quote": "e coastal getaway. | We look forward to your visit! We have ample seating both inside and on our patio! We also offer take-out. | Amenities |  | Outdoor Seating |  | Dog-Friendly | (in the o",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://brokenboredbarandgrill.com/",
+      "quote": "ave ample seating both inside and on our patio! We also offer take-out. | Amenities |  | Outdoor Seating |  | Dog-Friendly | (in the outside Tiki area) |  | Family-Friendly |  | Parking | Add",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-caddys-indian-shores",
@@ -679,7 +724,27 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://caddys.com/menus/"
+   "menu": "https://caddys.com/menus/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/6595599608 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/6595599608",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://caddys.com/private-events/",
+      "quote": "ra Beach | CADDY’S INDIAN SHORES SPECS | Venue Layout / Style: | Waterside Dining Covered Outdoor Seating VIP / Semi-Private Space | Reception Style Venue Capacity: | 700 Guests Private Space for",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-cafe-bich-nga",
@@ -1605,7 +1670,20 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/218887875 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/218887875",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-hao-wah-chinese-restaurant-pinellas-park",
@@ -2927,6 +3005,34 @@
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-23",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "deck"
+    ],
+    "firePit": true,
+    "sources": [
+     {
+      "src": "OpenStreetMap way/560132656 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/560132656",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://saltrockgrill.com/about/",
+      "quote": "event, wedding, social soiree or holiday party. We have several semi-private areas and an outside deck. Located directly on the intercoastal waterway, Salt Rock Grill is a must see! Please con",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (fire pit wording)",
+      "url": "https://saltrockgrill.com/about/",
+      "quote": "op maximum flavor and tenderness. Then we grill them over our natural oak and citrus wood fire pit. You won't find a better steak. Our chefs have developed partnerships with local fisherma",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3109,6 +3215,41 @@
       "url": "https://sharkysseapub.com/"
      }
     ]
+   },
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://sharkysseapub.com/",
+      "quote": "od, Pub favorites, Happy Hour specials and don’t forget – we have the NFL Ticket! | Happy Hour is | Monday-Friday from 4 to 6 p.m. | ! | OUR MENU | De",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket"
+     },
+     {
+      "src": "venue website",
+      "url": "https://sharkysseapub.com/",
+      "quote": "li, Gruyère, Fried Onion, & Bacon Jam | All the Sports! | We have the NFL ticket | With multiple high definition TVs all over the place, you won’t mis",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket"
+     },
+     {
+      "src": "venue website",
+      "url": "https://sharkysseapub.com/",
+      "quote": ", Cajun, or Jerk | (12 count minimum) | All the Sports! | We have the NFL ticket! | Come cheer for your favorite team! We get every game! 🏈 | We’ve cr",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3515,6 +3656,21 @@
       "url": "https://www.originalbandingo.com/about-emcee-johnny-g"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "deck"
+    ],
+    "sources": [
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://www.originalbandingo.com/",
+      "quote": "y G! | ​ | ​ | In Gibsonton, FL, at Jerry’s Dockside, 7pm | BANDINGO® MUSIC BINGO Sunsets on the deck with DJ Doug!​ | ​ | ​ | ​ | ​ | ​ | ​​​ | ​ | ​​ | THURSDAYS | ​ | ​​ | ​ | ​​​ | In Pin",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

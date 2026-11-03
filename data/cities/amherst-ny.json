@@ -265,6 +265,15 @@
      "src": "Venue website anchorbar.com/locations/amherst-ny",
      "checked": "2026-11-01",
      "flag": "Days not stated"
+    },
+    {
+     "days": "NFL game days",
+     "text": "Enjoy $5 Coors Light during all games!",
+     "tags": [],
+     "src": "venue website (game day wording)",
+     "url": "https://anchorbar.com/locations/amherst-ny/",
+     "checked": "Nov 2, 2026",
+     "gameday": true
     }
    ],
    "crowd": null,
@@ -320,6 +329,45 @@
       "url": "https://anchorbar.com/locations/amherst-ny/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/478636052 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/478636052",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://anchorbar.com/locations-menus/amherst/amherst-faq/",
+      "quote": "rs. | 11 | Is Anchor Bar Amherst dog friendly? | Yes. Anchor Bar Amherst welcomes dogs to our patio area. Dogs should be leashed and supervised. | 12 | Are there landmarks or attractions n",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Watch parties",
+    "teams": [],
+    "kinds": [
+     "watch"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://anchorbar.com/locations/amherst-ny/",
+      "quote": "All Day! | With Purchase of Adult Meal | Oct | 24 | College Football Watch Parties! | Enjoy $5 Coors Light during all games! | Oct | 27 | Trivia Tuesday",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -712,6 +760,21 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.brickhousetavernandtap.com/location/brick-house-tavern-and-tap-amherst-ny/"
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.brickhousetavernandtap.com/location/brick-house-tavern-and-tap-amherst-ny/",
+      "quote": "arge selection of bourbon and whiskey collections to sip on during your favorite games. | Patio season has arrived. With sizeable patio space and open lounging available outside, bring the cre",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1140,6 +1203,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/207536541 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/207536541",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1214,6 +1290,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/896262739 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/896262739",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1979,7 +2068,22 @@
     "fbNewestPost": null,
     "website": "https://jazzboline.com/"
    },
-   "menu": "https://jazzboline.com/menus/brunch/"
+   "menu": "https://jazzboline.com/menus/brunch/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://jazzboline.com/meetingsevents/",
+      "quote": "porary, minimalist décor set the stage for events at Jazzboline. The restaurant offers an outdoor patio where guests can enjoy drinks and mingle, and inside, tall windows that let in plenty of",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-jims-steakout-amherst",
@@ -2526,7 +2630,22 @@
     "fbNewestPost": null,
     "website": "https://www.mayjenrestaurant.com/"
    },
-   "menu": "https://www.mayjenrestaurant.com/s/May-Jen-Restaurant-Dinner-Menu.pdf"
+   "menu": "https://www.mayjenrestaurant.com/s/May-Jen-Restaurant-Dinner-Menu.pdf",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.mayjenrestaurant.com/dinewithus",
+      "quote": "ne | Dine at May Jen | Join us for lunch and dinner in our newly renovated restaurant and outdoor patio space. To make a reservation, please call us at 716-986-9866. | Links to our current menu",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-mcpartlans-corner",
@@ -2782,7 +2901,22 @@
     "website": "https://www.naan-tastic.com"
    },
    "websiteSource": "OpenStreetMap node/7519523365 website tag (map data 2026-10-31), checked 2026-11-02",
-   "menu": "https://naan-tastic.com/menu"
+   "menu": "https://naan-tastic.com/menu",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://naan-tastic.com/franchise",
+      "quote": "While the size of restaurants can vary the ideal size is 1500– 2,000 square feet, plus an outdoor patio. | Do I need to have a location in mind? | You should be familiar with the trade area tha",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-olympia-grill",
@@ -3758,7 +3892,20 @@
     "fbNewestPost": null,
     "website": "https://www.sbgbuffalo.com/"
    },
-   "menu": "https://www.sbgbuffalo.com/menu.html"
+   "menu": "https://www.sbgbuffalo.com/menu.html",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/11637789246 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/11637789246",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-sorrentinos-spaghetti-house",
@@ -4153,6 +4300,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3890929557 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/3890929557",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4488,7 +4648,32 @@
     "fbNewestPost": null,
     "website": "https://wingnutzbuffalo.com/"
    },
-   "menu": "https://www.wingnutzbuffalo.com/menus/"
+   "menu": "https://www.wingnutzbuffalo.com/menus/",
+   "gameday": {
+    "label": "Sabres watch party",
+    "teams": [
+     {
+      "team": "Sabres",
+      "league": "NHL",
+      "local": true
+     }
+    ],
+    "kinds": [
+     "watch"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.wingnutzbuffalo.com/",
+      "quote": "oting for the Bills, Sabres, or any other team, envision the ultimate watch party setting here. But that’s not all – Room 40 isn’t just for sports fans",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-wok-and-roll",

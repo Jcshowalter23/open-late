@@ -376,7 +376,20 @@
     "fbNewestPost": "2026-05-13",
     "website": "http://www.barriolatinorestaurant.com/"
    },
-   "phoneSource": "Venue website www.barriolatinorestaurant.com, checked 2026-11-02"
+   "phoneSource": "Venue website www.barriolatinorestaurant.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/6346437453 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/6346437453",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-bartaco-miami",
@@ -1356,6 +1369,19 @@
     "fbPostsSeen": 7,
     "fbNewestPost": "2025-07-16",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/6032184858 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/6032184858",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1696,7 +1722,22 @@
     "fbNewestPost": "2026-10-19",
     "website": "https://www.sohoasiangrill.com/"
    },
-   "menu": "https://sohoasiangrill.com/wp-content/uploads/2023/03/menu.pdf"
+   "menu": "https://sohoasiangrill.com/wp-content/uploads/2023/03/menu.pdf",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://sohoasiangrill.com/",
+      "quote": "ASIAN-INSPIRED KOSHER RESTAURANT | ORDER NOW | DELIVERY | CATERING | TAKEOUT | CURBSIDE | OUTDOOR SEATING | ONLINE ORDERING | PRIVATE EVENT | SHABBAT | Our specialties range across different cult",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-street-hibachi",
@@ -2057,7 +2098,22 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/14100081402 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://motek.com/aventura/: \"cayne Boulevard #946, Aventura, 33180 | Hours: | Monday-Thursday 10am-10pm | Friday – Saturday 10am-11pm | Sunday \" (checked 2026-11-02)",
    "county": "Miami-Dade",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://motek.com/aventura/",
+      "quote": "vibrant and welcoming dining experience in the heart of the action. Enjoy both indoor and outdoor seating, perfect for everything from casual brunches to lively dinners. Planning a celebration? W",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "type": "city",

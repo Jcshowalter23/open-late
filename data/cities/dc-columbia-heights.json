@@ -297,6 +297,30 @@
       "url": "https://www.buddysdc.com/event-calendar"
      }
     ]
+   },
+   "gameday": {
+    "label": "Monday Night Football",
+    "teams": [],
+    "kinds": [
+     "football"
+    ],
+    "days": [
+     "Mon"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.buddysdc.com/event-calendar",
+      "quote": "t Buddy’s: Soul Tacos, rotating liquor brand sponsors with giveaways, Monday Night Football on every screen. | Follow us on Facebook & Instagram (@BuddysDC) for",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Mon"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -393,6 +417,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/741027344 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/741027344",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -490,7 +527,20 @@
     "fbNewestPost": "2026-10-28",
     "website": "https://crabplugdc.com/"
    },
-   "websiteSource": "OpenStreetMap node/2804654801 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/2804654801 website tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2804654801 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/2804654801",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-de-rhum-spot",
@@ -752,7 +802,20 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/69204275 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/69204275",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-froggy-bottom-pub",
@@ -1005,6 +1068,26 @@
       "url": "https://www.hookhall.com/communitycalendar"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2987818487 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/2987818487",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.hookhall.com/",
+      "quote": "private event spaces, fitting up to 1,375 guests, with 13,000+ square feet of indoor and outdoor space. From cabanas for 10 to full venue buyouts for 1,300+, we’ll deliver the unexpected for y",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1175,6 +1258,31 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-15",
     "website": "https://www.johnnysallamerican.com/"
+   },
+   "gameday": {
+    "label": "Ohio State backers bar",
+    "teams": [
+     {
+      "team": "Ohio State",
+      "league": "NCAA",
+      "local": false
+     }
+    ],
+    "kinds": [
+     "backers"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.johnnysallamerican.com/",
+      "quote": "Johnny's All American- The Official Ohio State Football Gameday Bar of D.C. & the East Coast | Cart | 0 | Sign In | My Account | Welcome",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "backers"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1728,7 +1836,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/9473039131 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/9473039131",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-raven-grill",
@@ -1903,6 +2024,29 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "heated": true,
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.roosterowl.com/events",
+      "quote": "parties up to 14 guests as large party reservations in our dining room or fully enclosed, heated patio. (Food & beverage minimums may apply!) Buyouts, where some or all of the restaurant is re",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (heated wording)",
+      "url": "https://www.roosterowl.com/events",
+      "quote": "parties up to 14 guests as large party reservations in our dining room or fully enclosed, heated patio. (Food & beverage minimums may apply!) Buyouts, where some or all of the restaurant is re",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2357,6 +2501,65 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "firePit": true,
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3024686411 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/3024686411",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://midlandsdc.com/",
+      "quote": "The Midlands - Beer Garden & Sports Bar | Skip to content | HOME | FOOD & DRINKS | RESERVATIONS | HOME | FOOD & DRIN",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://midlandsdc.com/about/",
+      "quote": "and a fully heated indoor space. | FAQS | Are dogs welcome? | Yes! We welcome dogs in our outdoor seating area! There is 3,000 sq ft of seating along with doggy water bowls, doggy beds and doggy",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (fire pit wording)",
+      "url": "https://midlandsdc.com/about/",
+      "quote": "joy in our garden. We are dog friendly in our garden area and welcome families! | We have fire pits and heaters outside and a fully heated indoor space. | FAQS | Are dogs welcome? | Yes! We",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://midlandsdc.com/",
+      "quote": "den & Sports Bar | LARGE & SPACIOUS | 18 TVS: 7 OUTSIDE & 11 INSIDE | NFL SUNDAY TICKET | 6,000 SQFT SPACE | SEE OUR MENU | RESERVATIONS | Instagram | Facebo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2697,7 +2900,22 @@
      }
     ]
    },
-   "menu": "https://marxcafemtp.com/item-category/dinner-items/"
+   "menu": "https://marxcafemtp.com/item-category/dinner-items/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://marxcafemtp.com/contact-us/",
+      "quote": "act Us | Send us a message | We accept reservations for our indoor seating area only. Our outdoor patio seating is on a first come, first served basis. Notice that we may experience peak hours",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-pizza-doro-washington",
@@ -2830,7 +3048,20 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/2822855310 opening_hours tag (map data 2026-10-31; last checked on the map 2023-12-08) (checked 2026-11-01); active on-premise license: DC ABCA liquor license locations layer (DC GIS, downloaded 2026-11-01)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2822855310 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/2822855310",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-joia-burger-washington",
@@ -2966,6 +3197,19 @@
       "url": "https://www.sonnyspizzadc.com/events"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/6670537792 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/6670537792",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2991,7 +3235,27 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/11265325019 opening_hours tag (map data 2026-11-01; last checked on the map 2023-10-15) (checked 2026-11-02); late hours confirmed by venue website https://www.marthadear.com/about-us: \"Hours. | MONDAY – TUESDAY: CLOSED WEDNESDAY – THURSDAY: 5:00 – 8:30PM** FRIDAY – SATURDAY: 5:00 – 9PM** SUNDAY:\" (checked 2026-11-02)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/11265325019 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/11265325019",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.marthadear.com/",
+      "quote": "sant Street NW Basement, Washington, DC 20010 | Wed — Sun | 5—8:30/9PM Takeout, Indoor + Outdoor Dining | hi@marthadear.com | 202.506.7413 ( | no voicemail | )",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "type": "neighborhood",

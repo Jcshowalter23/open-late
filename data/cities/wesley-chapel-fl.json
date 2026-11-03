@@ -328,7 +328,20 @@
     "fbNewestPost": "2024-09-27",
     "website": null
    },
-   "phoneSource": "OpenStreetMap way/1070649836 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap way/1070649836 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/1070649836 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/1070649836",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-chickn-fun",
@@ -737,6 +750,36 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
+   },
+   "outdoor": {
+    "types": [
+     "beer garden",
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://floridaavebrewing.com/",
+      "quote": "o locations in Florida to enjoy. | Wesley Chapel | Taproom, Restaurant, Full-Service Bar, Beer Garden, Private Events, Brewery Tours | Open today from 11am - 10pm | What's On Tap | Directions",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://floridaavebrewing.com/",
+      "quote": "close | Check out the specials | Liquid Garden - Tampa | Taproom, Food, Full-Service Bar, Outdoor Patio, Brewery | Closed today | What's On Tap | Directions & Hours | Food & Drink Menu | Order",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://floridaavebrewing.com/private-events/",
+      "quote": "nation brewery experience, featuring a full-service restaurant, a large covered patio and outdoor bar, a sprawling beer garden and a state-of-the-art production facility where we host brewery",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1620,6 +1663,21 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.Skyboxrooftopbar.com/",
+      "quote": "appy Hour at Skybox, Pasco's favorite sports bar. | LEARN MORE | --> | Touch the Sky with our Rooftop Bar in Wesley Chapel | After a busy day, an action packed event, or an afternoon shopping",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2275,6 +2333,59 @@
       "url": "https://treblemakersofwc.com/private-events/"
      }
     ]
+   },
+   "gameday": {
+    "label": "Watch parties",
+    "teams": [],
+    "kinds": [
+     "football",
+     "ticket",
+     "watch"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://treblemakersofwc.com/private-events/",
+      "quote": "l genuinely enjoy while our staff takes care of the details. | Sports Watch Parties | Treble Makers is also a great location for: | 🏈 NFL Sundays | ⚾ Ray",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://treblemakersofwc.com/",
+      "quote": "Skip to content | Home | Reservations | Sports Bar | Sports Central | NFL Ticket Wesley Chapel | Treble Gift Cards | Happy Hour Wesley Chapel | Galler",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket"
+     },
+     {
+      "src": "venue website",
+      "url": "https://treblemakersofwc.com/",
+      "quote": "enus | Catering | Home | Reservations | Sports Bar | Sports Central | NFL Ticket Wesley Chapel | Treble Gift Cards | Happy Hour Wesley Chapel | Galler",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket"
+     },
+     {
+      "src": "venue website",
+      "url": "https://treblemakersofwc.com/",
+      "quote": "ootball and all your favorite teams. Catch the action on 13+ TVs with NFL Sunday Ticket, great food, cold drinks and live entertainment throughout the week.",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

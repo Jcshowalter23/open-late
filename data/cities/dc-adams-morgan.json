@@ -263,7 +263,20 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/4887102180 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/4887102180",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-ceibo",
@@ -482,7 +495,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/737066416 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/737066416",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-federalist-pig",
@@ -558,7 +584,20 @@
     "fbNewestPost": "2026-10-28",
     "website": "https://www.federalistpig.com/"
    },
-   "menu": "https://www.federalistpig.com/menus/"
+   "menu": "https://www.federalistpig.com/menus/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/67069444 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/67069444",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-grand-central-restaurant-and-bar",
@@ -670,6 +709,31 @@
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-28",
     "website": null
+   },
+   "gameday": {
+    "label": "Bills backers bar",
+    "teams": [
+     {
+      "team": "Bills",
+      "league": "NFL",
+      "local": false
+     }
+    ],
+    "kinds": [
+     "backers"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "BillsFans.com Bills Backers chapter directory (chapter listings posted Mar 2025)",
+      "url": "https://www.billsfans.com/bills-backers/united-states/washington-dc/",
+      "quote": "Bills Backers chapter bar: Grand Central, Washington",
+      "checked": "2026-11-02",
+      "kind": "backers",
+      "days": []
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1028,6 +1092,56 @@
       "url": "https://www.johnnypistolas.com/events/trivia"
      }
     ]
+   },
+   "gameday": {
+    "label": "Steelers backers bar",
+    "teams": [
+     {
+      "team": "Steelers",
+      "league": "NFL",
+      "local": false
+     }
+    ],
+    "kinds": [
+     "backers",
+     "gameday"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.johnnypistolas.com/event",
+      "quote": "Party at Johnny Pistolas! Sep. 14 at 1 PM! | Johnny Pistolas is your official Steelers bar in D.C., and we’re ready to wave the Terrible Towels high as Pittsbur",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "backers"
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.johnnypistolas.com/event",
+      "quote": "r your black & gold, and let’s show the Jets how Steelers Nation does game day. | Get Tickets | View Event → | Sep | 14 | ADMO Day at Johnny Pistola",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.johnnypistolas.com/event",
+      "quote": "Party at Johnny Pistolas! Sep. 7 at 1 PM! | Johnny Pistolas is your | official Steelers bar in D.C. | , and we’re ready to wave the Terrible Towels high as Pitts",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "backers"
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.johnnypistolas.com/event",
+      "quote": "r your black & gold, and let’s show the Jets how Steelers Nation does game day. | Get Tickets | View Event → | Aug | 1 | Taylor Swift Themed “Swifti",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1094,6 +1208,26 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/737066351 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/737066351",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.jyotidc.com/",
+      "quote": "utely delicious with a wide variety of options. Server was | attentive and knowledgeable. Outside seating. Reasonable pricing. All around | winner! | Sandra S. | Love this place! It's my go to de",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1202,7 +1336,20 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/737066532 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/737066532",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-lucky-buns",
@@ -1255,7 +1402,20 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/737066512 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/737066512",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-madams-organ-blues-bar",
@@ -1345,6 +1505,26 @@
       "url": "https://madamsorgan.com/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/737066484 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/737066484",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://madamsorgan.com/",
+      "quote": "unday 6pm-2am | \"The Heart Of Adams Morgan” | 3 Levels . 5 Bars . Free Pool Table . Roof Deck . Soul Food . Live Music . Top 40 DJ . Drunk Karaoke . Open Mic Night . Non-Profit Happy",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1894,7 +2074,29 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.thelinehotel.com/events/",
+      "quote": "lden Hour at Openaire | November 19 | 4:00 pm | - | 6:00 pm | Golden Hour at Openaire | The rooftop at golden hour deserves a proper menu. Now it has one. Golden Hour at Openaire, Wednesday",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.thelinehotel.com/dc/meetings-events/",
+      "quote": "r twelve and floor-to-ceiling views of the city. Offering 2,500 square feet of indoor and outdoor space, including a 1,300 sq. foot terrace and 1,200 sq. ft of living space, it’s set for events",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-peking-garden",
@@ -2157,6 +2359,28 @@
     "stale": false,
     "oneoffs": [],
     "conflicts": []
+   },
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.roofersuniondc.com/",
+      "quote": "ROOFERS UNION | 0 | Skip to Content | NAVIGATION | Main Dining Room | Rooftop Bar | Level 1 | Happy Hour | Event Lineup | Private Events | Private Cocktail Classes | Photo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.roofersuniondc.com/private-events",
+      "quote": "gan and beyond make this the go-to choice for sunset toasts, networking hours, and lively al fresco gatherings. | From cozy cocktail parties to full-scale celebrations, we’ll help you choos",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2462,6 +2686,19 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-14",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/810334461 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/810334461",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2653,6 +2890,19 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/737066368 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/737066368",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2719,7 +2969,20 @@
     }
    ],
    "websiteSource": "OpenStreetMap node/737066475 website tag (map data 2026-10-31), checked 2026-11-01",
-   "menu": "https://www.thegrillfromipanema.com/menu/"
+   "menu": "https://www.thegrillfromipanema.com/menu/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/737066475 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/737066475",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-the-imperial",
@@ -2844,6 +3107,21 @@
       "url": "https://trystdc.com/events/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://trystdc.com/events/",
+      "quote": "nce | Indoor & Outdoor Spaces | Reserve our cozy main dining room along with our charming outdoor patio | Available Amenities | Two Smart TVs | Wall-mounted displays with A/V connections for pr",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3017,7 +3295,26 @@
      }
     ]
    },
-   "menu": "https://www.herdiner.com/menu"
+   "menu": "https://www.herdiner.com/menu",
+   "gameday": {
+    "label": "Watch parties",
+    "teams": [],
+    "kinds": [
+     "watch"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.herdiner.com/about",
+      "quote": "modern & seriously quirky space. | Stop in for drag, trivia, sports, watch parties, or just to enjoy a perfect (maybe overflowing) martini. | She’s your",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-passato-pizza-grill-washington",
@@ -3188,7 +3485,22 @@
      }
     ]
    },
-   "menu": "https://www.jackrosediningsaloon.com/menus"
+   "menu": "https://www.jackrosediningsaloon.com/menus",
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.jackrosediningsaloon.com/",
+      "quote": "inctly different experiences throughout: the downstairs dining saloon, the glass-enclosed rooftop terrace, and the cellar tasting room and spirits shop, Premier Drams. | Our indoor-outdoor roofto",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-my-canton-washington",
@@ -3238,7 +3550,20 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/9597687543 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by Yelp listing updated Oct 2026 (Fri-Sat 11 AM-12 AM) (checked 2026-11-02)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/9597687543 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/9597687543",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-sakuramen-washington",
@@ -3310,7 +3635,20 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/7782851108 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.elfegnedc.com/: \"ington, DC 20009 | Order online NOW | Call : 202-667-4700 | Opening hours | Monday-Thursday 5:00 PM-10:00 PM | Friday-\" (checked 2026-11-02)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/7782851108 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/7782851108",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-oh-mama-grill-washington",

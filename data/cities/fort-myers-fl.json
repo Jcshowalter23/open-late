@@ -1616,7 +1616,22 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://deadriaticorestaurantswfl.com/",
+      "quote": "ates, spoons, and a knife for cutting. | Do you allow animals? | Yes, pets are welcome in our patio area. | Events & Reservations | Do you have a party room? | We do not have a private part",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-downtown-ichiban-japanese-and-chinese-cuisine",
@@ -1961,7 +1976,22 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.edisontavern.com/menus"
+   "menu": "https://www.edisontavern.com/menus",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.edisontavern.com/",
+      "quote": "nt | Contact Us | Careers | Book An Event | Currently under renovations with a daily open patio bar featuring limited snacks and full bar. | The | GREATEST | Neighborhood Tavern | Celebrate",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-edisons-lab-venue",
@@ -2534,7 +2564,28 @@
     "website": "https://fordsgarageusa.com/"
    },
    "websiteSource": "OpenStreetMap node/3787727853 website tag (map data 2026-10-31), checked 2026-11-01",
-   "menu": "https://fordsgarageusa.com/find-restaurant/"
+   "menu": "https://fordsgarageusa.com/find-restaurant/",
+   "outdoor": {
+    "types": [
+     "patio",
+     "sidewalk"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3787727853 outdoor tags (pedestrian_zone; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/3787727853",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://fordsgarageusa.com/happenings/fords-garage-now-open-in-boynton-beach/",
+      "quote": "square feet and offers seating for more than 250 guests across its indoor dining room and outdoor patio. Guests can enjoy a full-service bar both inside and outside, along with Ford’s Garage’s",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-fords-garage-2",
@@ -2588,6 +2639,19 @@
     "fbPostsSeen": 14,
     "fbNewestPost": "2026-10-30",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "sidewalk"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3787727853 outdoor tags (pedestrian_zone; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/3787727853",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3555,6 +3619,21 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-23",
     "website": "http://izzysftmyers.com/"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.izzysftmyers.com/",
+      "quote": "e Out, To-Go, Delivery, UberEats, GrubHub, Gift Cards, Gift Certificates, Indoor Seating, Outdoor Seating | Best Happy Hour, Best Specials, This Week’s Adventures, Best Daily Specials, Best Weekl",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4140,7 +4219,22 @@
      }
     ]
    },
-   "phoneSource": "Venue website leonispizza.com, checked 2026-11-02"
+   "phoneSource": "Venue website leonispizza.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://leonispizza.com/",
+      "quote": "| Bethany E: | Great sauce, crust, and toppings. We brought our pup along and ate outside on the patio. The people were friendly and didn't mind our dog being with us. The pizza that was left",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-los-taquitos-mexican-food",
@@ -4509,6 +4603,30 @@
       "url": "https://www.mangoritasfmb.com/event-calendar/"
      }
     ]
+   },
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.mangoritasfmb.com/",
+      "quote": "2000’s rock, country, plus karaoke, poker nights, car cruise‑ins, and NFL Sunday Ticket. Listen to the countries biggest and best tribute bands and National",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -5826,7 +5944,30 @@
     "website": "https://www.resurgencebrewing.com/fortmyers"
    },
    "menu": "https://www.resurgencebrewing.com/fort-myers-menu",
-   "phoneSource": "Venue website www.resurgencebrewing.com/fortmyers, checked 2026-11-01"
+   "phoneSource": "Venue website www.resurgencebrewing.com/fortmyers, checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "beer garden",
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.resurgencebrewing.com/fortmyers",
+      "quote": "rs FAQ | What is your Dog Policy? | In Fort Myers, dogs are welcome on our large, covered outdoor patio! It’s a great spot to relax outside with your pup while enjoying a drink and some food. |",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://www.resurgencebrewing.com/about",
+      "quote": "ing both lunch and dinner, an | in-house brewery, an upstairs event space, and an outdoor beer garden. | Find Us | Fort Myers, Florida | 6160 Exchange Lane | In Early 2026, we opened our seco",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-rib-city-florida",
@@ -6188,6 +6329,21 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-24",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.shrimpshackusa.com/",
+      "quote": "to have to order that. Great prices & Great staff. | review by - Yelp | Cathy R: | Great outdoor seating, excellent service!! The food we ordered was so good and huge portions. This was our firs",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -6437,6 +6593,28 @@
       "url": "https://swampcatbrewco.com/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://swampcatbrewco.com/",
+      "quote": "Home | 21+ | Old Enough To Hang? | We pour real beer here in the Beer Garden. Confirm you're 21 or up before you come in. | Yes, I'm 21+ | Not Yet | Come Back Soon |",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://swampcatbrewco.com/the-den",
+      "quote": "ace, great ambiance. | Great spot for live music. Good food. Chill atmosphere. Inside and outside seating. Can't wait to go back! | Excellent brewery. High quality beer and the staff is great. Gr",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -6872,7 +7050,22 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.FirestoneFL.com/",
+      "quote": "tory Building with our Unique Two Story Dining Room, Martini Lounge and famous Waterfront Rooftop Bar located in The River District of Downtown Fort Myers, Florida. Offering Dinner, Drinks, N",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-the-hideaway-bar",

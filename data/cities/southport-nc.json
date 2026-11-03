@@ -643,7 +643,29 @@
     "fbNewestPost": null,
     "website": "https://oliversonthecapefear.menu/"
    },
-   "menu": "https://oliversonthecapefear.menu/menus/lunch-menu/"
+   "menu": "https://oliversonthecapefear.menu/menus/lunch-menu/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://oliversonthecapefear.menu/",
+      "quote": "he salubrious breezes of Southport. Dining options include indoor seating, seating on our covered patio, and outdoor seating on our waterfront terrace, all with extraordinary views of our beaut",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://oliversonthecapefear.menu/",
+      "quote": "es of Southport. Dining options include indoor seating, seating on our covered patio, and outdoor seating on our waterfront terrace, all with extraordinary views of our beautiful Cape Fear River.",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nc-ports-of-call",
@@ -755,6 +777,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/407542976 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/407542976",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

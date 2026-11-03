@@ -198,6 +198,64 @@
       "url": "https://ballstonlocal.com/"
      }
     ]
+   },
+   "gameday": {
+    "label": "Monday Night Football",
+    "teams": [],
+    "kinds": [
+     "football"
+    ],
+    "days": [
+     "Mon",
+     "Thu"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://ballstonlocal.com/arlington-ballston-ballston-local-events",
+      "quote": "| Every Monday | HOSTED BY GEEKS WHO DRINK !! | 06:00 PM - 08:00 PM | MONDAY NIGHT FOOTBALL | Monday November 2nd | ENJOY THE FOOD AND DRINK SPECIALS | BEARS @ S",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Mon"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://ballstonlocal.com/arlington-ballston-ballston-local-events",
+      "quote": "Every Wednesday | Hosted By Geeks Who Drink!! | 07:30 PM - 09:30 PM | THURSDAY NIGHT FOOTBALL | Thursday November 5th | ENJOY THE FOOD AND DRINK SPECIALS | JAGUARS",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Thu"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://ballstonlocal.com/arlington-ballston-ballston-local-events",
+      "quote": "INALS @ SEAHAWKS | 8:20 PM BUCCANEERS @ BEARS | 10:00 AM - 10:00 PM | MONDAY NIGHT FOOTBALL | Monday November 9th | ENJOY THE FOOD AND DRINK SPECIALS | BILLS @ V",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Mon"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://ballstonlocal.com/arlington-ballston-ballston-local-events",
+      "quote": "THE FOOD AND DRINK SPECIALS | BILLS @ VIKINGS | 08:15 PM - 11:15 PM | THURSDAY NIGHT FOOTBALL | Thursday November 12th | ENJOY THE FOOD AND DRINK SPECIALS | COMMAN",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Thu"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -231,7 +289,22 @@
     "fbNewestPost": null,
     "website": "https://www.eatbigbuns.com/"
    },
-   "menu": "https://www.eatbigbuns.com/menu"
+   "menu": "https://www.eatbigbuns.com/menu",
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://www.eatbigbuns.com/about",
+      "quote": "rs, murals and bold sound. Dining rooms and patios came standard with communal tables and beer garden vibes. Newly added beer taps and frozen slushie machines fueled the party-like atmosphere",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "va-bronson-bierhall",
@@ -333,7 +406,20 @@
     "fbNewestPost": null,
     "website": "https://carbonarava.com/"
    },
-   "menu": "https://carbonarava.com/arlington/menus"
+   "menu": "https://carbonarava.com/arlington/menus",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/11751506192 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/11751506192",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "va-crystal-thai-restaurant",
@@ -468,7 +554,54 @@
     "fbNewestPost": null,
     "website": "https://www.firstdownsportsbar.com/"
    },
-   "menu": "https://firstdownsportsbar.com/arlington-ballston-first-down-sports-bar-and-grill-food-menu"
+   "menu": "https://firstdownsportsbar.com/arlington-ballston-first-down-sports-bar-and-grill-food-menu",
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "football",
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://firstdownsportsbar.com/",
+      "quote": "here where fans gather to cheer on their favorite teams. Whether it’s NFL Sundays, March Madness, or international soccer matches, every game feels lik",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://firstdownsportsbar.com/",
+      "quote": "ll us if you are looking for a particular game. We show every game on NFL Sundays (click NFL Sunday Ticket logo below). First Down has the following DI",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://firstdownsportsbar.com/",
+      "quote": "oking for a particular game. We show every game on NFL Sundays (click NFL Sunday Ticket logo below). First Down has the following DIRECTV packages: | Parties",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "va-gyu-san-japanese-bbq-and-bar",
@@ -771,6 +904,21 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://kabobgardenrestaurant.com/"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://kabobgardenrestaurant.com/",
+      "quote": "egetarian options. All food are made halal. | Order Now | The Relaxed ambience | Tranquil outdoor space | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -889,7 +1037,20 @@
     "fbNewestPost": null,
     "website": "https://www.pupatella.com/"
    },
-   "menu": "https://www.pupatella.com/menu"
+   "menu": "https://www.pupatella.com/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2918682165 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/2918682165",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "va-quincy-hall",
@@ -1037,6 +1198,74 @@
       "url": "https://www.quincyhallbar.com/private-events"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.quincyhallbar.com/private-events",
+      "quote": "125 guests. | Full Venue Buyout: | Accommodates up to 350 guests (includes access to the outdoor patio). | Do you offer catering or drink packages for events? | Yes, catering and drink package",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Virginia Tech & Alabama watch party",
+    "teams": [
+     {
+      "team": "Virginia Tech",
+      "league": "NCAA",
+      "local": true
+     },
+     {
+      "team": "Alabama",
+      "league": "NCAA",
+      "local": false
+     }
+    ],
+    "kinds": [
+     "football",
+     "gameday",
+     "watch"
+    ],
+    "days": [
+     "Sat"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.quincyhallbar.com/specialty/what-we-are-known-for",
+      "quote": "h University of Virginia and Virginia Tech alumni groups for game-day watch parties and rivalries. Quincy Hall is also a gathering spot for Arlington Ad",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.quincyhallbar.com/specialty/what-we-are-known-for",
+      "quote": "uincy Hall. We also welcome the Alabama National Capital Chapter for college football Saturdays — Roll Tide. Throughout football and basketball season, we work wit",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sat"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.quincyhallbar.com/specialty/what-we-are-known-for",
+      "quote": "work with University of Virginia and Virginia Tech alumni groups for game-day watch parties and rivalries. Quincy Hall is also a gathering spot fo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1159,7 +1388,20 @@
     "fbNewestPost": null,
     "website": "https://rusuz.com/"
    },
-   "menu": "http://rusuz.com/menu"
+   "menu": "http://rusuz.com/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3732378171 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/3732378171",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "va-ser-restaurant",
@@ -1191,6 +1433,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://ser-restaurant.com/"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3732378172 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/3732378172",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1268,7 +1523,34 @@
     "fbNewestPost": null,
     "website": "https://www.tacobamba.com/location/taco-bamba-taqueria-ballston/"
    },
-   "menu": "https://www.tacobamba.com/menus/"
+   "menu": "https://www.tacobamba.com/menus/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/11369515747 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/11369515747",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.tacobamba.com/location/taco-bamba-taqueria-ballston/",
+      "quote": ", enjoy a full-service bar with weekday | happy hour | from 4-7pm, while a small, shaded, dog-friendly patio offers casual outdoor seating. Paid street parking is available nearby, and we're just a",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.tacobamba.com/location/taco-bamba-taqueria-ballston/",
+      "quote": "eekday | happy hour | from 4-7pm, while a small, shaded, dog-friendly patio offers casual outdoor seating. Paid street parking is available nearby, and we're just a few blocks from the Ballston M",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "va-tacos-el-torito-2",
@@ -1417,7 +1699,22 @@
     "fbNewestPost": null,
     "website": "https://thecommentaryarl.com/"
    },
-   "menu": "https://thecommentaryarl.com/menus/"
+   "menu": "https://thecommentaryarl.com/menus/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://thecommentaryarl.com/celebrations/",
+      "quote": "ing main dining room, an elegant private dining space for up to 23 guests, and a charming outdoor patio perfect for seasonal socializing. | Our spaces combine style and comfort with attentive s",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "va-the-salt-line",
@@ -1488,6 +1785,21 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.thesaltline.com/"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.thesaltline.com/washington-dc-private-events/",
+      "quote": "or Bethesda event inquiries, | please click here. | Take a Tour | The Essex | Riverwalk | Outdoor Bar | Catering | Private Event Software powered by Tripleseat | Reservations | Email Signup |",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1887,7 +2199,32 @@
      }
     ]
    },
-   "menu": "https://punchbowlsocial.com/monday-funday"
+   "menu": "https://punchbowlsocial.com/monday-funday",
+   "gameday": {
+    "label": "Braves game day",
+    "teams": [
+     {
+      "team": "Braves",
+      "league": "MLB",
+      "local": false
+     }
+    ],
+    "kinds": [
+     "gameday"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://punchbowlsocial.com/happy-hour",
+      "quote": "half off games. | Happy Hour is not available on Atlanta Braves home game days. | Let's be friends! Sign up for special offers, exclusive invites an",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "va-panda-cafe-arlington",

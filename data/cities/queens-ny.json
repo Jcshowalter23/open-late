@@ -1167,7 +1167,22 @@
     "fbNewestPost": null,
     "website": "https://abuqir.site"
    },
-   "menu": "https://abuqirseafood.zoyaf.com/menu.html"
+   "menu": "https://abuqirseafood.zoyaf.com/menu.html",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://abuqirseafood.zoyaf.com/",
+      "quote": "king; spaces can be hard to find | Seating and service? | Table service, counter service, outdoor seating | From public listing data. Details may have changed — please confirm with the restaurant",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-ace-pizza-and-pasta",
@@ -2331,6 +2346,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/1708721821 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/1708721821",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2847,7 +2875,29 @@
     "fbNewestPost": null,
     "website": "https://www.amylos.com/"
    },
-   "menu": "https://www.amylos.com/queens-astoria-amylos-taverna-food-menu"
+   "menu": "https://www.amylos.com/queens-astoria-amylos-taverna-food-menu",
+   "outdoor": {
+    "types": [
+     "sidewalk"
+    ],
+    "sources": [
+     {
+      "src": "venue website (sidewalk wording)",
+      "url": "https://www.amylos.com/",
+      "quote": "is warm and inviting. In the spring and summer, the windows slide open and transform the sidewalk cafe into outdoor seating. | Our Menu | Reviews | Review by - Yelp | Erika P.: | Such deliciou",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.amylos.com/",
+      "quote": "ng. In the spring and summer, the windows slide open and transform the sidewalk cafe into outdoor seating. | Our Menu | Reviews | Review by - Yelp | Erika P.: | Such delicious and fresh Greek foo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-anable-basin-sailing-bar-and-grill",
@@ -2903,6 +2953,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://anablebasin.com/"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5286724776 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/5286724776",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3276,6 +3339,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "sidewalk"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2701847918 outdoor tags (sidewalk; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/2701847918",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3369,6 +3445,17 @@
      "tags": [],
      "src": "Venue website arcadiabarlic.com/astoria-astoria-arcadia-bar-and-kitchen-happy-hours-specials",
      "checked": "2026-11-02"
+    },
+    {
+     "days": "Mon",
+     "text": "Monday Night Football w/.50¢ Wings all game long (with Beverage Purchase)",
+     "tags": [
+      "wings"
+     ],
+     "src": "venue website (game day wording)",
+     "url": "https://arcadiabarlic.com/",
+     "checked": "Nov 2, 2026",
+     "gameday": true
     }
    ],
    "crowd": null,
@@ -3429,7 +3516,55 @@
     "conflicts": [],
     "oneoffs": []
    },
-   "menu": "https://arcadiabarlic.com/astoria-astoria-arcadia-bar-and-kitchen-food-menu"
+   "menu": "https://arcadiabarlic.com/astoria-astoria-arcadia-bar-and-kitchen-food-menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/12119061943 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/12119061943",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Monday Night Football",
+    "teams": [],
+    "kinds": [
+     "football"
+    ],
+    "days": [
+     "Mon"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://arcadiabarlic.com/",
+      "quote": "possible for you and your guests. | Catering | cater now | Specials | Monday Night Football w/.50¢ Wings all game long (with Beverage Purchase) | 05:00 PM - 10:0",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Mon"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://arcadiabarlic.com/astoria-astoria-arcadia-bar-and-kitchen-happy-hours-specials",
+      "quote": "EVENTS | PARTIES | JOBS | RESERVE | Specials | Monday November 2nd | Monday Night Football w/.50¢ Wings all game long (with Beverage Purchase) | 05:00 PM - 10:0",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Mon"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-arepa-lady",
@@ -4003,6 +4138,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.astoriaseafoodnyc.com/"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2853050591 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/2853050591",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4324,6 +4472,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/6958104276 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/6958104276",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -5271,6 +5432,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2706036434 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/2706036434",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -5328,7 +5502,22 @@
     "fbNewestPost": null,
     "website": "https://bantrybaynyc.com/"
    },
-   "menu": "https://bantrybaynyc.com/long-island-city-blissville-bantry-bay-food-menu"
+   "menu": "https://bantrybaynyc.com/long-island-city-blissville-bantry-bay-food-menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://bantrybaynyc.com/",
+      "quote": "p | Gina S: | I've been coming to the place for a while. They've stayed open and now have outdoor seating! The food is fantastic. The outdoor seating is very well done and makes you feel safe. Ca",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-bar-dalia",
@@ -5437,7 +5626,22 @@
      }
     ]
    },
-   "menu": "https://www.bardalia.nyc/menu/food"
+   "menu": "https://www.bardalia.nyc/menu/food",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.bardalia.nyc/private-events",
+      "quote": "n-Thurs | Service stops a half hour before close | Heated & enclosed during cold months | Back Patio | Fits 45 people | Available till 11pm F-Sat | Available till 10pm Sun-Th | Service stops",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-bar-enzo",
@@ -5771,6 +5975,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/8640802195 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/8640802195",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -6164,7 +6381,27 @@
     "fbNewestPost": null,
     "website": "https://bayhousebar.com"
    },
-   "menu": "https://bayhousebar.com/menu/"
+   "menu": "https://bayhousebar.com/menu/",
+   "outdoor": {
+    "types": [
+     "deck"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/282947747 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/282947747",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://bayhousebar.com",
+      "quote": "reviews | Call | 718-527-7575 | See the Menu | Open | 7 days | 12 PM – 10 PM | Full bar · Outdoor deck · Dock · Free parking | Come by water | Tie up | and eat | Bayhouse sits right on the wat",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-bayhouse-breezy-point",
@@ -9138,7 +9375,27 @@
     "fbNewestPost": null,
     "website": "https://www.cabanarestaurant.com/"
    },
-   "menu": "https://www.cabanarestaurant.com/menu"
+   "menu": "https://www.cabanarestaurant.com/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2706035626 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/2706035626",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.cabanarestaurant.com/",
+      "quote": "cuisine since 1995. We are pleased to announce we are open for take-out and both indoor/outdoor dining. As we navigate through these difficult times, we do so with the safety of our guest and",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-cafe-amici",
@@ -9401,6 +9658,21 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.cafe52newyork.com/"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.cafe52newyork.com/",
+      "quote": "ood Types | Comfort Food | Vegetarian Options | Service Options | Free Parking | Has TV | Outdoor Seating | 5129 43rd Ave | Woodside, NY 11377 | (718) 424-0250 | Business Hours | Mon - Thu: | 10:",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -10556,7 +10828,20 @@
     "fbNewestPost": null,
     "website": "https://sundownbar.com"
    },
-   "menu": "https://www.sundownbar.com/menu"
+   "menu": "https://www.sundownbar.com/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5697730312 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/5697730312",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-cassidys-ale-house",
@@ -10894,6 +11179,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://centropizzabar.com/"
+   },
+   "outdoor": {
+    "types": [
+     "garden"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/4995779929 outdoor tags (garden; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/4995779929",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -13421,6 +13719,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2844991194 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/2844991194",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -14616,6 +14927,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5364870785 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/5364870785",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -15367,6 +15691,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/10956028576 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/10956028576",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -15432,6 +15769,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5721470367 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/5721470367",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -15527,6 +15877,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/4239902535 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/4239902535",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -16320,7 +16683,26 @@
     "fbNewestPost": null,
     "website": "https://www.divebarlic.com/"
    },
-   "menu": "https://www.divebarlic.com/menu"
+   "menu": "https://www.divebarlic.com/menu",
+   "gameday": {
+    "label": "Watch parties",
+    "teams": [],
+    "kinds": [
+     "watch"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.divebarlic.com/",
+      "quote": "Live Music, Brunch & Watch Parties | Dive Bar LIC | Dive Bar LIC: Sports Bar, Brunch & Nightlife in | Lo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-diwine-natural-wine-bar-and-restaurant",
@@ -16440,6 +16822,19 @@
     "stale": false,
     "oneoffs": [],
     "conflicts": []
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3862918057 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/3862918057",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -16560,6 +16955,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/8335033421 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/8335033421",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -18058,6 +18466,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.duzannyc.com/"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2846684667 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/2846684667",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -20214,6 +20635,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/8612091311 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/8612091311",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -24262,6 +24696,31 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "gameday": {
+    "label": "Bills backers bar",
+    "teams": [
+     {
+      "team": "Bills",
+      "league": "NFL",
+      "local": true
+     }
+    ],
+    "kinds": [
+     "backers"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "BillsFans.com Bills Backers chapter directory (chapter listings posted Mar 2025)",
+      "url": "https://www.billsfans.com/bills-backers/united-states/new-york/downstate-nyc-li/",
+      "quote": "Bills Backers chapter bar: Glenpatrick's Pub, Maspeth",
+      "checked": "2026-11-02",
+      "kind": "backers",
+      "days": []
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -30027,7 +30486,27 @@
     "fbNewestPost": null,
     "website": "https://idasnearabout.com/"
    },
-   "menu": "https://idasnearabout.com/sunnyside-idas-nearabout-idas-nearabout-food-menu"
+   "menu": "https://idasnearabout.com/sunnyside-idas-nearabout-idas-nearabout-food-menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/11651210924 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/11651210924",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://idasnearabout.com/",
+      "quote": "but we loved everything! Nice staff, and super delicious cocktails! There's also a small outdoor area with seating. I'll definitely be back to sample some other stuff on the menu but the old",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-ideal-jamaican-flavors",
@@ -30270,7 +30749,22 @@
     "fbNewestPost": null,
     "website": "https://www.ilfalcolic.com/"
    },
-   "menu": "https://www.ilfalcolic.com/copy-of-lunch-menu"
+   "menu": "https://www.ilfalcolic.com/copy-of-lunch-menu",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.ilfalcolic.com/",
+      "quote": "ing Room | (second floor) | capacity 30 guests | Private Dinning | & Events | Read More | Outdoor Patio | capacity 30 guests | Conta | ct | ​ | 21 50 44th drive | LIC, NY, 11101 | ​ | 718-707-0",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-il-gigante",
@@ -35604,6 +36098,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/8572666754 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/8572666754",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -36640,7 +37147,29 @@
     "fbNewestPost": null,
     "website": "https://la-casa-de-julia.res-menu.com/"
    },
-   "menu": "https://la-casa-de-julia.res-menu.com/menu"
+   "menu": "https://la-casa-de-julia.res-menu.com/menu",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://la-casa-de-julia.res-menu.com/",
+      "quote": "caters to a variety of dining needs. Whether you’re looking to relax with a | margarita | on the patio, catch a soccer match on TV, or enjoy a cozy meal with friends, this restaurant has you c",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://la-casa-de-julia.res-menu.com/",
+      "quote": "ng it a hotspot for gatherings and celebrations. The spacious layout features comfortable outdoor seating, ideal for enjoying hearty dishes while soaking in the lively environment. At La Casa de",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-la-casa-del-cuy",
@@ -36724,6 +37253,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/10594665954 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/10594665954",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -38891,6 +39433,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.licbar.com/"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2393865158 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/2393865158",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -39219,7 +39774,20 @@
     "fbNewestPost": null,
     "website": "https://limeandsaltregopark.com/"
    },
-   "menu": "https://limeandsaltregopark.com/food-menu"
+   "menu": "https://limeandsaltregopark.com/food-menu",
+   "outdoor": {
+    "types": [
+     "sidewalk"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/12957894285 outdoor tags (sidewalk; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/12957894285",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-limena-pisco-restaurant-and-bar",
@@ -39569,6 +40137,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/4931621762 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/4931621762",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -42718,7 +43299,20 @@
     "fbNewestPost": null,
     "website": "https://maxbratwurstundbiertogo.com/"
    },
-   "menu": "https://maxbratwurstundbiertogo.com/menu"
+   "menu": "https://maxbratwurstundbiertogo.com/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2846402161 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/2846402161",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-maxim-garden",
@@ -44578,6 +45172,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3865660457 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/3865660457",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -44612,6 +45219,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5147366467 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/5147366467",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -44783,6 +45403,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "sidewalk"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5763507715 outdoor tags (sidewalk; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/5763507715",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -45789,6 +46422,31 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "gameday": {
+    "label": "Bills backers bar",
+    "teams": [
+     {
+      "team": "Bills",
+      "league": "NFL",
+      "local": true
+     }
+    ],
+    "kinds": [
+     "backers"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "BillsFans.com Bills Backers chapter directory (chapter listings posted Mar 2025)",
+      "url": "https://www.billsfans.com/bills-backers/united-states/new-york/downstate-nyc-li/",
+      "quote": "Bills Backers chapter bar: Murphy's, Astoria",
+      "checked": "2026-11-02",
+      "kind": "backers",
+      "days": []
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -47943,6 +48601,28 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.nikossouvlaki.com/"
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.nikossouvlaki.com/",
+      "quote": "to perfection. | The ambiance is top notch, with bright light, wall murals, and a killer outdoor patio in the heart of Ditmars Blvd. Enjoy our food inside or on the go with friends, family, or",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.nikossouvlaki.com/",
+      "quote": "ing inside. Eat in or take your souvlaki and gyros on the go. | Does Niko's Souvlaki have outdoor seating? | Yes. Niko's Souvlaki has an outdoor patio on Ditmars Blvd, and you can also eat inside",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -49311,6 +49991,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/10656640052 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/10656640052",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -49653,7 +50346,22 @@
     "fbNewestPost": null,
     "website": "https://ohcalcuttanyc.com/"
    },
-   "menu": "https://ohcalcuttanyc.com/oh-calcutta-menu-2026.pdf"
+   "menu": "https://ohcalcuttanyc.com/oh-calcutta-menu-2026.pdf",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://ohcalcuttanyc.com/",
+      "quote": "and vegan options. Great food, service and atmosphere. Very friendly staff. We sat in the back patio which was nice. Would recommend and will visit again. | ” | Absolutely delicious food wit",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-oishii-sushi-japanese-restaurant",
@@ -50401,7 +51109,22 @@
     "fbNewestPost": null,
     "website": "https://www.ovelianyc.com/"
    },
-   "menu": "https://www.ovelianyc.com/menu"
+   "menu": "https://www.ovelianyc.com/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.ovelianyc.com/",
+      "quote": "a modern sensibility; hospitable owners, modest tabs and a casual, pleasant setting with outdoor seating and Bar help keep it popular. | SEE MENU | CATERING | HOURS | W,Th | 5 | PM | - | 10 | PM",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-oven-grill-and-chill",
@@ -51297,6 +52020,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://pwalanyc.com/"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/8955482440 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/8955482440",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -53246,6 +53982,31 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "gameday": {
+    "label": "Bills backers bar",
+    "teams": [
+     {
+      "team": "Bills",
+      "league": "NFL",
+      "local": true
+     }
+    ],
+    "kinds": [
+     "backers"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "BillsFans.com Bills Backers chapter directory (chapter listings posted Mar 2025)",
+      "url": "https://www.billsfans.com/bills-backers/united-states/new-york/downstate-nyc-li/",
+      "quote": "Bills Backers chapter bar: Pig Beach, Astoria",
+      "checked": "2026-11-02",
+      "kind": "backers",
+      "days": []
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -54337,6 +55098,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/10956028588 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/10956028588",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -55792,6 +56566,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/8501242302 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/8501242302",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -56428,6 +57215,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/11660425877 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/11660425877",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -57896,6 +58696,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.rusticoqueens.com"
+   },
+   "outdoor": {
+    "types": [
+     "sidewalk"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5670881678 outdoor tags (sidewalk; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/5670881678",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -58365,6 +59178,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/4204758328 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/4204758328",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -58514,6 +59340,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "sidewalk"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/4768083425 outdoor tags (sidewalk; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/4768083425",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -61374,6 +62213,26 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
+   },
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/241857450 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/241857450",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://www.singlecut.com/",
+      "quote": "ons | Manlius, NY | Located in “The Yard” maker fair, you’ll find our “Barn” Tap Room and Beer Garden, and our climate controlled “Lodge” Tap Room which is open year-round. | Barn and Lodge H",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -61592,7 +62451,22 @@
     "fbNewestPost": null,
     "website": "https://www.sobremesamexicana.com"
    },
-   "menu": "https://www.sobremesamexicana.com/menu"
+   "menu": "https://www.sobremesamexicana.com/menu",
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://www.sobremesamexicana.com/about",
+      "quote": "t of Long Island City on 12th St. and serve as the kitchen for | ICONYC Brewing Company & Beer garden. | Sobremesa is the leisurely time spent tableside with friends and family after an exqui",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-sofrito",
@@ -61712,7 +62586,20 @@
     "fbNewestPost": null,
     "website": "https://solelunanyc.com"
    },
-   "menu": "https://solelunanyc.com/sample-page/"
+   "menu": "https://solelunanyc.com/sample-page/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2845010819 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/2845010819",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-solid-state",
@@ -62122,6 +63009,21 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.spanglishnyc.com/location/spanglish-nyc-astoria/"
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.spanglishnyc.com/location/spanglish-nyc-astoria/",
+      "quote": "right on Ditmars Blvd, we also feature a beautifully renovated party room and a spacious outdoor patio for your special events. Join us for a great experience! | Astoria | 3603 Ditmars Blvd,",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -62315,6 +63217,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/10593084389 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/10593084389",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -62809,6 +63724,21 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://foodeist.com/place/stopinn"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://foodeist.com/best-delivery-in-woodside-queens",
+      "quote": "Alcohol | Accepts Credit Cards | Casual | Dessert | Free Wifi | Good for kids | Groups | Outdoor Seating | Tourists | Wine and Beer | Accepts American Express | Accepts Discover | Accepts Master",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -64724,7 +65654,20 @@
     "fbNewestPost": null,
     "website": "https://www.tacombi.com/"
    },
-   "menu": "https://www.tacombi.com/menu"
+   "menu": "https://www.tacombi.com/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/1183932080 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/1183932080",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-tacombi-forest-hills",
@@ -64755,6 +65698,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/10739630735 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/10739630735",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -65665,7 +66621,22 @@
     "fbNewestPost": null,
     "website": "https://tapthatrbny.com/"
    },
-   "menu": "https://tapthatrbny.com/menus/"
+   "menu": "https://tapthatrbny.com/menus/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://tapthatrbny.com/gallery/",
+      "quote": "rom the New York City ferry, and just a block away from Rockaway Beach. | We have a large outdoor space that is perfect for events or just hanging out day or night. | TAP THAT | GALLERY | 111-0",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-taqueria-al-pastor-flushing",
@@ -65894,6 +66865,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5351608336 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/5351608336",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -67007,6 +67991,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5891690591 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/5891690591",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -68521,7 +69518,20 @@
      }
     ]
    },
-   "menu": "https://thebadolddays.com/menu"
+   "menu": "https://thebadolddays.com/menu",
+   "outdoor": {
+    "types": [
+     "sidewalk"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5343780580 outdoor tags (sidewalk; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/5343780580",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-the-baroness",
@@ -68879,6 +69889,26 @@
     "stale": false,
     "oneoffs": [],
     "conflicts": []
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5487117025 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/5487117025",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.thebonnie.com/",
+      "quote": "memorable. From the cozy Oak Room to our lush Garden complete with a retractable roof and outdoor bar, The Bonnie has you covered for wedding showers, corporate mixers, and celebrations of al",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -69329,7 +70359,22 @@
     "fbNewestPost": null,
     "website": "https://thedeepend.nyc/"
    },
-   "menu": "https://www.thedeepend.nyc/menu-1"
+   "menu": "https://www.thedeepend.nyc/menu-1",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.thedeepend.nyc/",
+      "quote": "RY | CONTACT US | NYC Bar | Restaurant | Event Space | The Deep End | Open for indoor and outdoor seating, takeout and delivery! | Dinner, fun times, late nite eats & drinks | The Deep End 1080",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-the-ditty",
@@ -69431,6 +70476,21 @@
     "stale": false,
     "oneoffs": [],
     "conflicts": []
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://thedittybar.com/",
+      "quote": "ghborhood, the Ditty is a great place to hang out if you dont want to go to the city. The outdoor area is a good size and always fun. Bartenders have great drink recommendations. | Review by -",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -69882,6 +70942,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.licbar.com/"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2393865158 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/2393865158",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -70163,6 +71236,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/9671893391 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/9671893391",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -70231,6 +71317,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.thekeepny.com/"
+   },
+   "outdoor": {
+    "types": [
+     "garden"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5348290122 outdoor tags (backyard; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/5348290122",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -71456,7 +72555,31 @@
      }
     ]
    },
-   "menu": "https://www.therabbithole.nyc/menu"
+   "menu": "https://www.therabbithole.nyc/menu",
+   "gameday": {
+    "label": "NFL Sundays",
+    "teams": [],
+    "kinds": [
+     "football"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.therabbithole.nyc/",
+      "quote": "0 Burger N' Beer | Saturdays & Sundays: $5 Mimosas til 5pm | Sundays: Football Sundays – Beer tower (Bud Light or Corona) + 2 orders of wings $40 | Contact:",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-the-rail-bar-and-grill",
@@ -72169,6 +73292,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/8599156687 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/8599156687",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -72504,6 +73640,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5136306087 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/5136306087",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -73942,6 +75091,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.tropical-restaurants.com/greenpoint"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/280349642 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/280349642",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -74090,6 +75252,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/281355419 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/281355419",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -76109,6 +77284,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5365011095 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/5365011095",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -78232,6 +79420,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/12164684990 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/12164684990",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -79048,7 +80249,22 @@
      }
     ]
    },
-   "menu": "https://www.gottscheerhall.com/menu/"
+   "menu": "https://www.gottscheerhall.com/menu/",
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://www.gottscheerhall.com/",
+      "quote": "on Tap | Bottled Beers | View Bottled Beers | Wine | View Our Wines | Come and enjoy our Beer Garden! | Opens in May. | We have a spacious beer garden (“Biergarten”) where you can take in so",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-3-bros-pizza-new-york",
@@ -79877,6 +81093,19 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/10134605473 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/10134605473",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

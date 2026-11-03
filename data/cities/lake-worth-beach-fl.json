@@ -71,7 +71,30 @@
     "fbNewestPost": null,
     "website": "https://www.eaupalmbeach.com/dining/angle"
    },
-   "menu": "https://eau-palm-beach-apos.s3.us-east-1.amazonaws.com/2026+Menus/Angle/Angle+Dinner+Menu.pdf"
+   "menu": "https://eau-palm-beach-apos.s3.us-east-1.amazonaws.com/2026+Menus/Angle/Angle+Dinner+Menu.pdf",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "firePit": true,
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.eauresortandspa.com/meetings-events/",
+      "quote": "pa, our collection of Palm Beach event venues spans over 30,000 square feet of indoor and outdoor space, designed to adapt to every occasion, from intimate gatherings to large-scale celebration",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (fire pit wording)",
+      "url": "https://www.eauresortandspa.com/upcoming-events/",
+      "quote": "All | Angle | Breeze Ocean Kitchen | Courtyard Lawn | Eau Spa | Exchanges – Pool Level | Fire Pit | Fitness | Grand Ballroom | Loggers | Nobu | Ocean Ballroom | Ocean Front Lawn | Oceana",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-art-basil-restaurant",
@@ -162,7 +185,22 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://artbasil.com/",
+      "quote": "lity ingredients and a little creativity. | Whether you’re joining us for a family dinner on the patio or a special night out, Art Basil offers an inviting and artistic atmosphere. From except",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-atlantis-grill-and-bar",
@@ -4969,7 +5007,20 @@
    ],
    "source": "hours from OpenStreetMap way/291799070 opening_hours tag (map data 2026-10-31) (checked 2026-11-01); active on-premise license: Florida DBPR alcoholic beverage licensee extract (bd400lic.csv, downloaded 2026-11-01)",
    "county": "Palm Beach",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/291799070 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/291799070",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "type": "city",

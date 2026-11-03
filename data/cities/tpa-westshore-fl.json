@@ -279,7 +279,20 @@
     "website": "https://besitotampa.com/"
    },
    "menu": "https://www.besitotampa.com/menus",
-   "phoneSource": "OpenStreetMap node/14332631301 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/14332631301 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/14332631301 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/14332631301",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-big-bamboo-bayside",
@@ -528,6 +541,26 @@
     "fbPostsSeen": 19,
     "fbNewestPost": "2026-10-31",
     "website": "https://www.brickhousetavernandtap.com/location/brick-house-tavern-and-tap-tampa-fl/"
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/524315360 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/524315360",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.brickhousetavernandtap.com/location/brick-house-tavern-and-tap-tampa-fl/",
+      "quote": "s while enjoying your favorite team on our 30+ Tv's to catch every angle of every play! | Patio season has arrived, so visit anytime and enjoy one of our signature cocktails or bring the crew",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -563,6 +596,19 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-02",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3353149700 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/3353149700",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -861,6 +907,19 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-23",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/11087809953 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/11087809953",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1085,7 +1144,22 @@
     "fbNewestPost": "2026-10-15",
     "website": "https://www.flemingssteakhouse.com/Locations/FL/Tampa?y_source=1_MTU1MDMxNzUtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D"
    },
-   "menu": "https://www.flemingssteakhouse.com/menus/dinner"
+   "menu": "https://www.flemingssteakhouse.com/menus/dinner",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.flemingssteakhouse.com/Locations/FL/Tampa?y_source=1_MTU1MDMxNzUtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D",
+      "quote": "of-the-art AV screen that projects animated art. It seats 48, but can be expanded with an outdoor patio space called the Oasis. | Please note that audio visual support can impact room capacitie",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-fresh-kitchen-tampa",
@@ -1154,7 +1228,37 @@
     "fbNewestPost": "2026-10-17",
     "website": "https://www.grimaldispizzeria.com/locations/westshore/"
    },
-   "menu": "https://www.grimaldispizzeria.com/menu/"
+   "menu": "https://www.grimaldispizzeria.com/menu/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "heated": true,
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.grimaldispizzeria.com/location/westshore/",
+      "quote": "- 10:00 pm | Available Services | Delivery via partner site | Free Wifi | Patio Heaters | Patio Seating | General Manager | Sam Kostelis skostelis@grimaldispizzeria.com | Order Now | Join Waitl",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.grimaldispizzeria.com/location/westshore/",
+      "quote": "g both inside and outdoors on our covered patio. Our full-service bar includes indoor and outdoor seating as well. The covered patio offers fans or heaters for warm or chilly days. Call or place",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (heated wording)",
+      "url": "https://www.grimaldispizzeria.com/location/westshore/",
+      "quote": "rday | 11:00 am - 10:00 pm | Available Services | Delivery via partner site | Free Wifi | Patio Heaters | Patio Seating | General Manager | Sam Kostelis skostelis@grimaldispizzeria.com | Order",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-havana-86",
@@ -1487,6 +1591,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2243510890 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/2243510890",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1863,7 +1980,27 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.oystercatchersrestaurant.com/menus/"
+   "menu": "https://www.oystercatchersrestaurant.com/menus/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/477364123 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/477364123",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.oystercatchersrestaurant.com/",
+      "quote": "xing waterfront lunch, dinner with a view, or our signature Sunday brunch buffet. With an outdoor patio, private dock, and floor-to-ceiling windows overlooking the bay, every table offers a rea",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-pei-wei-2",
@@ -2027,7 +2164,20 @@
      "checked": "2026-11-01"
     }
    ],
-   "phoneSource": "OpenStreetMap node/11087809941 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/11087809941 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/11087809941 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/11087809941",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-riveters-tampa",
@@ -2293,7 +2443,22 @@
     }
    ],
    "menu": "https://www.salymarrooftop.com/menus/",
-   "phoneSource": "Venue website www.salymarrooftop.com, checked 2026-11-01"
+   "phoneSource": "Venue website www.salymarrooftop.com, checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.salymarrooftop.com/",
+      "quote": "Tampa Midtown Restaurant and Rooftop Bar | Sal Y Mar Rooftop Bar | Skip to main content | Happenings | Hours and Location | Reserv",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-shells-south-tampa",
@@ -2649,7 +2814,46 @@
     "fbNewestPost": null,
     "website": "https://pressboxsports.com/"
    },
-   "menu": "https://pressboxsports.com/menu/"
+   "menu": "https://pressboxsports.com/menu/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://pressboxsports.com/about/",
+      "quote": "n quarters, pick your perfect playlist on TouchTunes, or kick back with a cold one on our outdoor patio — complete with screens so you don’t miss a minute of the action. And if you're looking a",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "NFL Sundays",
+    "teams": [],
+    "kinds": [
+     "football"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://pressboxsports.com/",
+      "quote": "ng our new matrix wall), you’ll never miss a moment of the game. From NFL Sundays to latenight playoff runs, The Press Box is where sports fans and loc",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-the-sapphire-tampa",

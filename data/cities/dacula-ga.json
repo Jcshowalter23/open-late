@@ -547,7 +547,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5796762453 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/5796762453",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-italian-pizza-pie-dacula",
@@ -603,6 +616,21 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://Italianpizzapiedacula.com/",
+      "quote": "he lunch values are fantastic. I've started bringing my friends and nephews. Love sitting on the patio. | Review by - Google | five star review by | Dawn Mc: | Today was my first time, ordered",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1470,7 +1498,32 @@
     "fbNewestPost": "2026-10-29",
     "website": "https://starsandstrikes.com/"
    },
-   "menu": "https://starsandstrikes.com/eat"
+   "menu": "https://starsandstrikes.com/eat",
+   "gameday": {
+    "label": "Bills backers bar",
+    "teams": [
+     {
+      "team": "Bills",
+      "league": "NFL",
+      "local": false
+     }
+    ],
+    "kinds": [
+     "backers"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "BillsFans.com Bills Backers chapter directory (chapter listings posted Mar 2025)",
+      "url": "https://www.billsfans.com/bills-backers/united-states/georgia/",
+      "quote": "Bills Backers chapter bar: Stars and Strikes, Dacula",
+      "checked": "2026-11-02",
+      "kind": "backers",
+      "days": []
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-tequila-mama-taqueria-dacula",

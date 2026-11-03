@@ -463,6 +463,19 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/1307809640 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/1307809640",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -735,7 +748,20 @@
     "fbNewestPost": "2026-10-28",
     "website": "https://figandbarrel.com/"
    },
-   "menu": "https://figandbarrel.com/menu/"
+   "menu": "https://figandbarrel.com/menu/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/11285205190 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/11285205190",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "first-capital-dispensing",
@@ -961,7 +987,27 @@
     "fbNewestPost": null,
     "website": "https://gifthorsebrewing.com/"
    },
-   "menu": "https://gifthorsebrewing.com/food-menu"
+   "menu": "https://gifthorsebrewing.com/food-menu",
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/1306711946 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/1306711946",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://gifthorsebrewing.com/",
+      "quote": "se Brewing Company | 117 N George St, York, PA | HOME | ABOUT US | DRINKS & EATS | MENU | BEER GARDEN | LIVE MUSIC & EVENTS | CONTACT US | EMPLOYMENT | FOR BANDS | PARTIES CATERING | Fundrais",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "granfalloons-tavern",
@@ -1309,6 +1355,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://liquidhero.com/"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/12101148093 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/12101148093",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1763,7 +1822,20 @@
     "fbNewestPost": "2026-10-23",
     "website": "https://rockfishpublichouse.com/"
    },
-   "menu": "https://rockfishpublichouse.com/menu"
+   "menu": "https://rockfishpublichouse.com/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3636030525 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/3636030525",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "roosevelt-tavern",
@@ -2036,6 +2108,21 @@
       "url": "https://www.scottydogsyork.com/news-events/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://www.scottydogsyork.com/news-events/",
+      "quote": "ave: | 🎤 Live music from Michele Jamison | 🎸 Live music from Alexia Christian | 🍺 Outdoor beer garden | 🦀 The Freedom Boil — “A Boil Worth Fighting For” | 🏰 Bounce house | 🎨 Face painting | 🐾",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2328,7 +2415,65 @@
     "fbNewestPost": "2026-10-16",
     "website": "https://stonegrilleandtaphouse.com/"
    },
-   "menu": "https://stonegrilleandtaphouse.com/menu"
+   "menu": "https://stonegrilleandtaphouse.com/menu",
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "football",
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://stonegrilleandtaphouse.com/",
+      "quote": "rvation | Order Online | Explore Echo’s Reserve | Your Sunday plans | NFL Sunday Ticket is here. | Every Sunday during football season: NFL Sunday Ticket, Ha",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://stonegrilleandtaphouse.com/",
+      "quote": "s | NFL Sunday Ticket is here. | Every Sunday during football season: NFL Sunday Ticket, Happy Hour from 1–3pm and 4–6pm, and food specials inspired by NFL t",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://stonegrilleandtaphouse.com/whats-on",
+      "quote": "| Call 717-741-1159 | Events & Weekly Features | Events & Specials | Football Sundays, weekly specials, guided flights, and ticketed events. | NFL | Every",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://stonegrilleandtaphouse.com/whats-on",
+      "quote": "specials, guided flights, and ticketed events. | NFL | Every Sunday | NFL Sunday Ticket | Watch Sunday football with extended Happy Hour from 1–3pm and 4–6pm",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "the-handsome-cab",
@@ -2397,7 +2542,20 @@
     "fbNewestPost": "2026-10-28",
     "website": "https://meninthekitchen.net/"
    },
-   "websiteSource": "OpenStreetMap node/11284674905 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/11284674905 website tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/11284674905 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/11284674905",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "tutoni-s",
@@ -2619,7 +2777,22 @@
     "fbNewestPost": "2026-10-28",
     "website": "https://victorsofyork.com/"
    },
-   "menu": "https://victorsofyork.com/italian-restaurant-york-pa-menus/"
+   "menu": "https://victorsofyork.com/italian-restaurant-york-pa-menus/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://victorsofyork.com/",
+      "quote": "possible. | From Italian fine dining to our friendly, casual bar. The bocce court to our beautiful patio reminiscent of another place and time. Victor’s sets a perfect tone for almost every mood",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "west-york-inn",

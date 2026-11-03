@@ -193,7 +193,30 @@
     "fbNewestPost": "2026-11-01",
     "website": "https://disneyworld.disney.go.com/dining/contemporary-resort/california-grill/?CMP=OKC-90001336_FB_WDW_dining_california"
    },
-   "menu": "https://disneyworld.disney.go.com/dining/contemporary-resort/california-grill/menus/"
+   "menu": "https://disneyworld.disney.go.com/dining/contemporary-resort/california-grill/menus/",
+   "outdoor": {
+    "types": [
+     "rooftop",
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://disneyworld.disney.go.com/dining/contemporary-resort/california-grill/?CMP=OKC-90001336_FB_WDW_dining_california",
+      "quote": "o’s Terrace – Flavors of the Riviera | Breakfast, Dinner | Delight all the senses at this rooftop dining experience inspired by Europe's cliffside restaurants. | Toledo – Tapas, Steak & Seafood",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://disneyworld.disney.go.com/guest-services/cake-orders/",
+      "quote": "dup Rodeo BBQ | Sci-Fi Dine-In Theater Restaurant | EPCOT | Akershus Royal Banquet Hall | Biergarten Restaurant | Chefs de France | Coral Reef Restaurant | Garden Grill Restaurant | Le Celli",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-crazy-crab-kissimmee",
@@ -811,7 +834,22 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://disneyworld.disney.go.com/dining/hollywood-studios/roundup-rodeo-bbq/menus/"
+   "menu": "https://disneyworld.disney.go.com/dining/hollywood-studios/roundup-rodeo-bbq/menus/",
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://disneyworld.disney.go.com/guest-services/cake-orders/",
+      "quote": "dup Rodeo BBQ | Sci-Fi Dine-In Theater Restaurant | EPCOT | Akershus Royal Banquet Hall | Biergarten Restaurant | Chefs de France | Coral Reef Restaurant | Garden Grill Restaurant | Le Celli",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-san-angel-inn",
@@ -1252,7 +1290,20 @@
     "fbNewestPost": "2026-11-01",
     "website": "https://www.patinagroup.com/tutto-italia"
    },
-   "menu": "https://www.tuttoitaliaristorante.com:443/menu"
+   "menu": "https://www.tuttoitaliaristorante.com:443/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/295592602 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/295592602",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "type": "city",

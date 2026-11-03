@@ -132,7 +132,20 @@
     "fbNewestPost": null,
     "website": "https://www.altocinco.net/"
    },
-   "menu": "https://www.altocinco.net/dine-in-menu"
+   "menu": "https://www.altocinco.net/dine-in-menu",
+   "outdoor": {
+    "types": [
+     "sidewalk"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/165097775 outdoor tags (sidewalk; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/165097775",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-asian-garden",
@@ -291,6 +304,36 @@
       "url": "https://www.brewaurora.com/syracuse"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio",
+     "waterfront"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.brewaurora.com/syracuse",
+      "quote": "and Sundays, with draft beers, cocktails, wine, NA beverages, and a great food menu. Our outdoor patio is open seasonally for outdoor seating, weather permitting. | Join is for Brunch Saturday",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.brewaurora.com/syracuse",
+      "quote": "ils, wine, NA beverages, and a great food menu. Our outdoor patio is open seasonally for outdoor seating, weather permitting. | Join is for Brunch Saturdays and Sundays from 10-2pm | Trivia ever",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (waterfront wording)",
+      "url": "https://www.brewaurora.com/privateevents",
+      "quote": "ful bar and taproom, a private upstairs space, as well as a 3 season deck and 200 feet of waterfront seating. The best part is our waterfront seating and outdoor tapshack where you can pull up an a",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -443,7 +486,20 @@
     "fbNewestPost": null,
     "website": "https://blarneystonesyr.com/"
    },
-   "menu": "https://blarneystonesyr.com/kitchen-menu/"
+   "menu": "https://blarneystonesyr.com/kitchen-menu/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/4718692110 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/4718692110",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-boscos-village-pub",
@@ -5097,6 +5153,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/4280212800 outdoor tags (biergarten; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/4280212800",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

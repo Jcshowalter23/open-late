@@ -202,7 +202,20 @@
     "fbNewestPost": null,
     "website": "https://www.battlestreetbistro.com"
    },
-   "menu": "https://www.battlestreetbistro.com/menus"
+   "menu": "https://www.battlestreetbistro.com/menus",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/1042428212 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/1042428212",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "va-carmellos-of-old-town-manassas",
@@ -1342,6 +1355,21 @@
       "url": "https://www.eatmonza.com/events/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.eatmonza.com/",
+      "quote": "ic Old Town Manassas. Come in for the longest and best happy hour around and relax on the beautiful patio and yard. The menu includes authentic brick oven pizza, home-made pastas, salads, sandwic",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1555,6 +1583,26 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.phbrewpub.com/"
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/747457963 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/747457963",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.phbrewpub.com/",
+      "quote": "is a laid-back hangout specializing in local & house-brewed craft beer, American eats and spacious patio dining. | Private Event Request → | Rewards Program → | Button | Button | Button | Button",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2123,6 +2171,34 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.zandrastacos.com/"
+   },
+   "outdoor": {
+    "types": [
+     "rooftop",
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5257651590 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/5257651590",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.zandrastacos.com/",
+      "quote": "as if you prefer. | ​We also are known for our Mojitos and Margaritas. We have an outdoor rooftop bar in Manassas and large outdoor patio in Haymarket. | It's always a fiesta at Zandra's. | Z",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.zandrastacos.com/",
+      "quote": "nown for our Mojitos and Margaritas. We have an outdoor rooftop bar in Manassas and large outdoor patio in Haymarket. | It's always a fiesta at Zandra's. | Zandra's Manassas and Haymarket are o",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   }
  ],

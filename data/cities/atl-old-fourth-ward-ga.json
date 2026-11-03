@@ -184,7 +184,22 @@
     "fbNewestPost": "2026-10-21",
     "website": "http://azaraatl.com/"
    },
-   "phoneSource": "Venue website www.azaraatl.com, checked 2026-11-02"
+   "phoneSource": "Venue website www.azaraatl.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.azaraatl.com/",
+      "quote": "nu | atlanta SKYLINE VIEWS | Escape above the BeltLine and take in Atlanta’s skyline from our rooftop bar and patio—a space designed for connection, fresh air, and vibrant flavor. | With a re",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-bantam-pub",
@@ -390,6 +405,28 @@
       "url": "https://beetlecatatl.com/about/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://beetlecatatl.com/",
+      "quote": "always are encouraged! Preview | menu | . | Reservations: | 678 732-0360 | or | Online | AL FRESCO DINING | Double the patios, double the fun! The upstairs patio gets full sun in the after",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://beetlecatatl.com/events/",
+      "quote": "her for a party or a meal, large or small. Sample hors d’oeuvres and sip cocktails on the outdoor patio, enjoy dinner in our spacious upper deck dining room, or settle into the downstairs Den f",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -627,7 +664,22 @@
      "checked": "2026-11-01"
     }
    ],
-   "phoneSource": "Venue website www.bread-and-butterfly.com, checked 2026-11-02"
+   "phoneSource": "Venue website www.bread-and-butterfly.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "porch"
+    ],
+    "sources": [
+     {
+      "src": "venue website (porch wording)",
+      "url": "https://www.bread-and-butterfly.com/events",
+      "quote": "accommodate your needs. From the cozy charm of our dining rooms to the breezy elegance of our porch, each area is meticulously designed to create a unique ambiance for your special event. |",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-breaker-breaker",
@@ -684,6 +736,19 @@
     "stale": false,
     "oneoffs": [],
     "conflicts": []
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/1211475355 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/1211475355",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -767,7 +832,29 @@
      "checked": "2026-11-01"
     }
    ],
-   "phoneSource": "OpenStreetMap node/14213103162 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/14213103162 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.buenavidatapas.com/happyhour",
+      "quote": "on the vibrant Atlanta Beltline! Join us every Monday to Friday from 4 PM to 6 PM on our beautiful patio, or inside our hippie-chic space. Enjoy unbeatable specials on select food and drinks in",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.buenavidatapas.com/candlelightjazz",
+      "quote": "tles of wine | Wine tasting flights | Tapas pairings | Spanish charcuterie board | Indoor-outdoor bar & Beltline patio seating | Grab your crew, sip something new, and let the music and ambia",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-cafe-circa-atlanta",
@@ -1198,7 +1285,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/4263220525 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/4263220525",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-ladybird-grove-and-mess-hall",
@@ -1289,7 +1389,38 @@
     "fbNewestPost": "2026-10-31",
     "website": "https://www.ladybirdatl.com/"
    },
-   "menu": "https://www.ladybirdatl.com/menu"
+   "menu": "https://www.ladybirdatl.com/menu",
+   "outdoor": {
+    "types": [
+     "patio",
+     "screened-in"
+    ],
+    "firePit": true,
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.ladybirdatl.com/private-events",
+      "quote": "CHECK OUT OUR SPACES | THE GROVE | Enjoy the great outdoors (and the Beltline!) from our spacious patio. | THE LANAI | Screened in porch meets living room, featuring a variety of seating. | BLA",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (screened-in wording)",
+      "url": "https://www.ladybirdatl.com/private-events",
+      "quote": "OVE | Enjoy the great outdoors (and the Beltline!) from our spacious patio. | THE LANAI | Screened in porch meets living room, featuring a variety of seating. | BLACK BEAR BAR | Our newest sp",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (fire pit wording)",
+      "url": "https://www.ladybirdatl.com/happenings",
+      "quote": "t The Grove. | On The Agenda: | DJ’s from 9:00 PM - 1:45 AM | Complimentary Photo booth | Fire Pits burning throughout The Grove | Watch the Ball Drop live on the Jumbotron | High Life Toas",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-lloyds",
@@ -1322,7 +1453,20 @@
     "fbNewestPost": "2024-10-10",
     "website": null
    },
-   "phoneSource": "OpenStreetMap node/12766966528 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/12766966528 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/12766966528 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/12766966528",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-loaded-potato-bar-atl",
@@ -1479,7 +1623,22 @@
     "website": "https://loreatl.com/"
    },
    "menu": "https://loreatl.com/menu",
-   "phoneSource": "OpenStreetMap way/108653469 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap way/108653469 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://loreatl.com/",
+      "quote": "rvice bars | • Cocktails, mocktails, and THC-infused drinks | • Delicious dinner menu | • Spacious patio downstairs | • Gender neutral bathrooms on both levels | Click for Events! | Special even",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-marcus-bar-and-grille",
@@ -2161,6 +2320,28 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.staplehouse.com/",
+      "quote": "about | events | contact | Scroll | Welcome To Staplehouse | your neighborhood spot with al fresco dining in the heart of old fourth ward | 10/31 open 12:00 - 4:00 PM. | HAPPY HALLOWEEN! |",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.staplehouse.com/events",
+      "quote": "and share our neighborhood restaurant with your guests. Featuring our outdoor garden and covered patio, our spaces are designed for a relaxed atmosphere where people can move around, mingle, a",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2403,7 +2584,22 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.thealbertatlanta.com/",
+      "quote": "the neighborhood for years and has only gotten better! They now have a very dog friendly covered patio with a big screen TV, friendly regulars and staff, and excellent food! The buffalo chicke",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-the-north-highland-pub",
@@ -2807,7 +3003,30 @@
      }
     ]
    },
-   "phoneSource": "Venue website www.wisteria-atlanta.com, checked 2026-11-02"
+   "phoneSource": "Venue website www.wisteria-atlanta.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "patio",
+     "porch"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.wisteria-atlanta.com/",
+      "quote": "holiday parties, corporate events, wedding festivities, and more! | Parties | book now | PATIO DINING | Enjoy fresh, inspired cooking in | a wonderful environment. | See what selection of dri",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (porch wording)",
+      "url": "https://www.wisteria-atlanta.com/atlanta-inman-park-wisteria-about",
+      "quote": "er Jason Hill offers a menu that conjures memories of Sunday suppers of fried chicken and front porch drinks while creating of his own legacy. Jason Hill and executive chef Charles Lowney pay",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-wrecking-bar-brewpub",
@@ -2842,7 +3061,22 @@
     "fbNewestPost": "2026-10-22",
     "website": "http://www.wreckingbarbrewpub.com/"
    },
-   "phoneSource": "Venue website www.wreckingbarbrewpub.com, checked 2026-11-02"
+   "phoneSource": "Venue website www.wreckingbarbrewpub.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://www.wreckingbarbrewpub.com/",
+      "quote": "vent spaces at the Wrecking Bar Brewpub, each with varying capacity and atmosphere: | The Biergarten | The Biergarten is our brewery warehouse event space. It holds up to 50 guests for a sea",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-yuji-modern-japanese",
@@ -2904,7 +3138,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/14185903737 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/14185903737",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-whoopsies-atlanta",
@@ -3044,7 +3291,27 @@
      }
     ]
    },
-   "menu": "https://www.lingeringshade.com/menus"
+   "menu": "https://www.lingeringshade.com/menus",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/11736934434 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/11736934434",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.lingeringshade.com/events",
+      "quote": "y | Experiences | We offer a range of unique experiences from cocktail classes to pilates on the patio to floral making classes. Lingering Shade is your destination for unique events throughou",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-sister-louisas-church-of-the-living-room-ping-pong-emporium-atlanta",

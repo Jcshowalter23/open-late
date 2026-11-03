@@ -729,6 +729,21 @@
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-23",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.coppertapgrille.com/",
+      "quote": "y -- we cannot wait | to | serve you! Our space offers family-friendly dining options and open-air seating in a historic building rehabbed | to an | industrial modern design. Open for lunch and di",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -936,6 +951,21 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-27",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "porch"
+    ],
+    "sources": [
+     {
+      "src": "venue website (porch wording)",
+      "url": "https://EnzosPizzaandGrill.com/",
+      "quote": "cal joints. We ventured in and were greeted by smiling, friendly faces. We sat out on the covered porch and ordered drinks and a small house salad to share. One small deep dish was plenty, but",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2047,7 +2077,20 @@
     "fbNewestPost": "2026-10-23",
     "website": "https://take.cards/DGumW"
    },
-   "phoneSource": "OpenStreetMap node/14098981002 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/14098981002 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/14098981002 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/14098981002",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-st-andrews-bodega",
@@ -2396,7 +2439,38 @@
     "fbNewestPost": "2026-10-21",
     "website": "https://uncleerniesbayfrontgrill.com/"
    },
-   "menu": "https://uncleerniesbayfrontgrill.com/menu/"
+   "menu": "https://uncleerniesbayfrontgrill.com/menu/",
+   "outdoor": {
+    "types": [
+     "deck",
+     "patio"
+    ],
+    "heated": true,
+    "sources": [
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://uncleerniesbayfrontgrill.com/",
+      "quote": "– Brooke Washor Saturdays – Jamah Terry Sundays – Hanson LeBouf Come early, grab a seat on the deck, and enjoy what many call the best sunset views in Bay County overlooking St. Andrews Mar",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://uncleerniesbayfrontgrill.com/",
+      "quote": "by uncleernies with ID 17987332466955189 | Cold? Yeah… we’re not worried about it ❄️🔥 Our heated patio keeps things warm, cozy, and ready for you — no matter what the temperature’s doing outsi",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (heated wording)",
+      "url": "https://uncleerniesbayfrontgrill.com/",
+      "quote": "by uncleernies with ID 17987332466955189 | Cold? Yeah… we’re not worried about it ❄️🔥 Our heated patio keeps things warm, cozy, and ready for you — no matter what the temperature’s doing outsi",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-wine-knot-tapas-2401-ruth-hentz-ave",

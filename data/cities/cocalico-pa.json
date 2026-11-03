@@ -517,7 +517,20 @@
     "fbNewestPost": "2026-10-10",
     "website": "https://thevillagehaus.com/"
    },
-   "menu": "https://thevillagehaus.com/menu-1"
+   "menu": "https://thevillagehaus.com/menu-1",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/1464406464 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/1464406464",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "the-station-at-reinholds-inn",
@@ -612,6 +625,33 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
+   },
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/4049121122 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/4049121122",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://www.reinholdsinn.com/",
+      "quote": "| Bar Area | Our bar area includes 3 televisions, a new pool table, and dining tables. | Beer Garden | Beer Garden | The Reinholds Inn Beer Garden blends rustic charm and lush greenery with",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.reinholdsinn.com/",
+      "quote": "Garden blends rustic charm and lush greenery with craft beers on tap. Guests enjoy casual outdoor seating beneath string lights, hearty pub fare, and a friendly local vibe—perfect for relaxed eve",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -670,7 +710,20 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/4100096190 opening_hours tag (map data 2026-11-01; last checked on the map 2025-09-08) (checked 2026-11-02); late hours confirmed by venue website https://www.rivierapizzapasta.com/: \" 1405 North Reading Road | Reamstown, PA 17565 | Hours: Mon-Thurs. & Sun.11am-10pm Fri. & Sat. 11am-11pm | Join ou\" (checked 2026-11-02)",
    "county": "Lancaster",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/4100096190 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/4100096190",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "counties": [

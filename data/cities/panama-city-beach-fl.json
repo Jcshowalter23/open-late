@@ -359,7 +359,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.backbeachbarbecue.com/our-story/",
+      "quote": "of attention are the restaurant’s two wood fired pits, easily viewed and smelled from the covered patio, outdoor patio or via two garage doors which give the restaurant a true open-air feel. Ba",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.backbeachbarbecue.com/our-story/",
+      "quote": "nd Cottage Collages. Back Beach Barbecue will be equipped with two garage doors, offering open air dining and leading outside to various gathering points – the pits, an outdoor covered patio, and",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-barefoot-hide-a-way-bar-and-grill",
@@ -651,6 +673,19 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap relation/8837896 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/relation/8837896",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1070,6 +1105,19 @@
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-06-19",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/636666183 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/636666183",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1138,6 +1186,19 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-09-18",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/6003255592 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/6003255592",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2401,6 +2462,30 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
+   },
+   "gameday": {
+    "label": "College football Saturdays",
+    "teams": [],
+    "kinds": [
+     "football"
+    ],
+    "days": [
+     "Sat"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://pwillys.com/",
+      "quote": "zers, and play FREE bingo on the app for your chance to win prizes! | Football Saturdays just hit different here. 😎 | Planning a Visit to Pineapple Willy's? |",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sat"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2546,7 +2631,22 @@
     "fbNewestPost": "2026-10-23",
     "website": "https://runawayislandpcb.com/"
    },
-   "menu": "https://runawayislandpcb.com/menu/"
+   "menu": "https://runawayislandpcb.com/menu/",
+   "outdoor": {
+    "types": [
+     "deck"
+    ],
+    "sources": [
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://runawayislandpcb.com/",
+      "quote": "he restaurant boasts 2 levels of inside dining space, but the crowning achievement is the outdoor deck complete with a boardwalk that extends all the way to the shores of the white sandy beach",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-saltwater-grill",
@@ -2863,6 +2963,41 @@
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-14",
     "website": null
+   },
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://sandbarpcb.com/",
+      "quote": "fresh seafood, | slow-smoked BBQ, and nonstop action on 17 TVs. With NFL Sunday Ticket, ESPN, SEC Network, | Fox Sports, and more. | From game-day gathering",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://sandbarpcb.com/about/",
+      "quote": "ocal spot, where 17 TVs carry all the major pro and college sports on NFL Sunday Ticket, ESPN, SEC Network, Fox Sports, and more. It's the kind of place wher",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3602,6 +3737,21 @@
     "fbPostsSeen": 3,
     "fbNewestPost": "2026-10-30",
     "website": "http://www.saltygoatsaloon.com/"
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.saltygoatsaloon.com/about-us",
+      "quote": "ty Beach's favorite local spots to go for food, fun, live music, cold beer and cocktails! Our patio with its Gulf View is the perfect place to enjoy a PCB sunset. | ​ | Smell the Salt, Savo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4072,6 +4222,21 @@
       "url": "https://www.donovansreefpcb.com/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.donovansreefpcb.com/",
+      "quote": "a full bar, pool tables, dance floor, live music, karaoke, big screen TV’s, darts and an outdoor patio! There is plenty of on site parking for your convenience. | Donovan’s is an energetic at",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   }
  ],

@@ -187,7 +187,20 @@
     "fbNewestPost": null,
     "website": "https://blrfoodstreet.com/"
    },
-   "menu": "https://blrfoodstreet.com/food-menu"
+   "menu": "https://blrfoodstreet.com/food-menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/13085541101 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/13085541101",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nc-candt-wok",
@@ -825,7 +838,27 @@
     "fbNewestPost": null,
     "website": "https://www.micancunmx.com"
    },
-   "menu": "https://micancunmx.com/morrisville-mi-cancun-morrisville-food-menu"
+   "menu": "https://micancunmx.com/morrisville-mi-cancun-morrisville-food-menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/288966372 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/288966372",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://micancunmx.com/",
+      "quote": "talking about when we can go back. There is ample amount of seating inside and they have outdoor seating as well. Extremely impressed with the entire experience and excited to return. | slidesho",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nc-nagas-south-indian-cuisine",
@@ -1816,6 +1849,26 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/423437172 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/423437172",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://firebirdsrestaurants.com/morrisville",
+      "quote": "alty crafted cocktails and select wines. Join us for Happy Hour at the | FIREBAR | ® | or on the patio for drink specials and bar bites. We offer top-notch service and upscale dining at a mode",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   }
  ],

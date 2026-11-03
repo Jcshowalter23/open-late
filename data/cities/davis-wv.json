@@ -38,7 +38,29 @@
     "fbNewestPost": null,
     "website": "https://canaanvalleybbq.com/"
    },
-   "menu": "https://canaanvalleybbq.com/menus/"
+   "menu": "https://canaanvalleybbq.com/menus/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://canaanvalleybbq.com/about-us/canaan-valley-bbq/",
+      "quote": "utdoor Dining | Al fresca (outdoor) dining is available, weather permitting, on our large outdoor patio. This area includes tables, chairs, and a fire feature for the comfort of our guests. It’",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://canaanvalleybbq.com/about-us/canaan-valley-bbq/",
+      "quote": "our guests in mind. The restaurant features a full bar, indoor dining room, and seasonal open-air dining. Open and airy, our intimate indoor dining area has a casual, welcoming ale house-like at",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "wv-hellbender-burritos",
@@ -131,7 +153,20 @@
     "fbNewestPost": null,
     "website": "https://www.milosdavis.com/"
    },
-   "menu": "https://www.milosdavis.com/_files/ugd/3d53f8_ef8b0705401540ff991408622e4afc68.pdf"
+   "menu": "https://www.milosdavis.com/_files/ugd/3d53f8_ef8b0705401540ff991408622e4afc68.pdf",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/11470153403 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/11470153403",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "wv-mountain-state-brewing-co-thomas",
@@ -391,7 +426,20 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/555209554 opening_hours tag (map data 2026-11-01; last checked on the map 2023-12-28) (checked 2026-11-02); late hours confirmed by venue website purplefiddle.com ('Hours Fri & Sat: 11 am - 11:30 pm ... Open late for shows') (checked 2026-11-02)",
    "county": "Tucker",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/555209554 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/555209554",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "type": "town",

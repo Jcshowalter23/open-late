@@ -66,7 +66,20 @@
     }
    ],
    "websiteSource": "OpenStreetMap node/9278919529 website tag (map data 2026-10-31), checked 2026-11-01",
-   "menu": "https://www.bistro-dujour.com/wp-content/uploads/sites/11/2024/06/Bottomless-Menu-Web.pdf"
+   "menu": "https://www.bistro-dujour.com/wp-content/uploads/sites/11/2024/06/Bottomless-Menu-Web.pdf",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/9278919529 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/9278919529",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-hanks-oyster-bar-sw-ballpark-navy-yard",
@@ -224,7 +237,30 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "heated": true,
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.kirwansonthewharf.com/venue",
+      "quote": "just outside the restaurant and one directly on the waterbank. In the colder months, our heated patio will let you enjoy the patio throughout the year. If you’re as into European sports as w",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (heated wording)",
+      "url": "https://www.kirwansonthewharf.com/venue",
+      "quote": "just outside the restaurant and one directly on the waterbank. In the colder months, our heated patio will let you enjoy the patio throughout the year. If you’re as into European sports as w",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-la-vie",
@@ -288,7 +324,30 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "heated": true,
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://lavie-dc.com/events",
+      "quote": "creates a sensual indoor–outdoor experience where dramatic interiors open effortlessly to al fresco moments above The Wharf, offering an elevated sense of privacy, flow, and allure for unfo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (heated wording)",
+      "url": "https://lavie-dc.com/events",
+      "quote": "s indoor and outdoor flow with access to the Front and Side Porticos and, seasonally, our heated igloo installation. Depending on the configuration, the Penthouse accommodates cocktail-style",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-maizal-south-american-street-food",
@@ -391,6 +450,19 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5569928684 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/5569928684",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -426,6 +498,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/8691645323 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/8691645323",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -537,6 +622,19 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2024-10-23",
     "website": "https://www.rroysters.com/restaurants/rappbaroysterwharf"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/8691887340 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/8691887340",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -611,7 +709,43 @@
     "fbNewestPost": "2023-06-26",
     "website": "http://www.tikitnt.com/"
    },
-   "phoneSource": "OpenStreetMap node/8691887336 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/8691887336 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "rooftop",
+     "patio"
+    ],
+    "heated": true,
+    "sources": [
+     {
+      "src": "OpenStreetMap node/8691887336 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/8691887336",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.tikitnt.com/about/",
+      "quote": "HERS RUM. On the reverse, it reads: MAKE RUM NOT WAR. A large courtyard patio, a festive roof deck, and bars on three levels surround the distillery itself. Taking its cue from rum’s tropi",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.tikitnt.com/about/",
+      "quote": "are spectacular. Summer capacity at Tiki TNT is about 300, with patrons spilling outside on the patio and rooftop. In cooler months, that number is closer to 100, though heat lamps will exten",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (heated wording)",
+      "url": "https://www.tikitnt.com/about/",
+      "quote": "outside on the patio and rooftop. In cooler months, that number is closer to 100, though heat lamps will extend the open-air season for as long as possible. The District’s environmental reg",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-union-stage-presents",
@@ -654,6 +788,21 @@
       "url": "https://www.unionstagepresents.com/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.unionstagepresents.com/pearl-street/private-events",
+      "quote": "eating: 150 | Banquet Seating: 100 | Key Features | Daytime & evening event rentals, plus outdoor patio | Flexible layout options | 23-foot built-in stage + state-of-the-art sound & lighting sy",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -733,7 +882,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5650667881 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/5650667881",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-ziegfelds-secrets-entertainment-complex",
@@ -860,6 +1022,42 @@
       "url": "https://www.wharfdc.com/restaurants/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "rooftop",
+     "patio"
+    ],
+    "firePit": true,
+    "sources": [
+     {
+      "src": "OpenStreetMap node/8691887348 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/8691887348",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.wharfdc.com/event-space/",
+      "quote": "seats in the balcony—has a front-row view of the stage. Garage doors open on to the cozy outdoor patio on Pearl Street. The Warehouse is also home to a diner that offers craft cocktails and cr",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.wharfdc.com/event-space/",
+      "quote": "timate as it is immaculate. Resting at the end of the 450-foot District Pier, this indoor/outdoor space offers guests the perfect mix of excitement, access, and exclusivity. The two-story glass",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.wharfdc.com/restaurants/",
+      "quote": "in a harmonious dining experience. | See Details | Whiskey Charlie | Whiskey Charlie is a rooftop bar and cocktail lounge boasting spectacular views of the water and beyond. | See Details | W",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -910,7 +1108,20 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/8691887347 opening_hours tag (map data 2026-11-01; last checked on the map 2024-08-20) (checked 2026-11-02); late hours confirmed by venue website https://www.chopsmith.com/: \"ou. | Chopsmith Rewards Sign Up | Wharf Location: | Current Hours of Operation: | Mon-Sat: 8:00 am-9:00 pm | Sunday:\" (checked 2026-11-02)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/8691887347 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/8691887347",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "type": "neighborhood",

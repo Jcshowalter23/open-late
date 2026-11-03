@@ -696,6 +696,19 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/11990814600 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/11990814600",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1929,7 +1942,30 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.spacebarusa.com/menu/"
+   "menu": "https://www.spacebarusa.com/menu/",
+   "outdoor": {
+    "types": [
+     "rooftop",
+     "deck"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.spacebarusa.com/",
+      "quote": "The Space Bar | Rooftop Bar near Kennedy Space Center | Skip to content | The Space Bar requires reservations for par",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://www.spacebarusa.com/about/",
+      "quote": ", which serves breakfast, lunch and dinner. | The signature draw is The Space Bar rooftop deck bar, which offers a truly elevated evening experience and views of the Indian River, Merritt",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-third-culture-kitchen",
@@ -2172,6 +2208,44 @@
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-28",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "deck",
+     "patio"
+    ],
+    "firePit": true,
+    "sources": [
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://www.vineandolive.net/",
+      "quote": "ry and relaxing ambiance. At night our fire pit is a great relaxing spot with comfortable deck seating, a coffee table and end tables for drinks and plates. | View our Menu | Call Us | (321) 5",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.vineandolive.net/",
+      "quote": "iver in our “River Room” Dining Room. If you’re feeling more casual we have a large, open covered patio with lush greenery and relaxing ambiance. At night our fire pit is a great relaxing spot",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.vineandolive.net/",
+      "quote": "rbon footprint by diminishing bottle waste. | Dishes | Drinks | Vegan | Brunch | Indoor & Outdoor Dining | We have beautiful views of the river in our “River Room” Dining Room. If you’re feeling",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (fire pit wording)",
+      "url": "https://www.vineandolive.net/",
+      "quote": "e have a large, open covered patio with lush greenery and relaxing ambiance. At night our fire pit is a great relaxing spot with comfortable deck seating, a coffee table and end tables for",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   }
  ],

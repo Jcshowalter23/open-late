@@ -163,6 +163,28 @@
      ],
      "src": "anniebaileys.com game-day specials",
      "checked": "Oct 31, 2026"
+    },
+    {
+     "days": "Game days",
+     "text": "GAME DAY WINGS $1",
+     "tags": [
+      "wings"
+     ],
+     "src": "venue website (game day wording)",
+     "url": "https://anniebaileys.com/game-day-specials",
+     "checked": "Nov 2, 2026",
+     "gameday": true
+    },
+    {
+     "days": "Game days",
+     "text": "Our Game Day wings are just $1 each when you order 10 or more.",
+     "tags": [
+      "wings"
+     ],
+     "src": "venue website (game day wording)",
+     "url": "https://anniebaileys.com/game-day-specials",
+     "checked": "Nov 2, 2026",
+     "gameday": true
     }
    ],
    "crowd": "Restaurant describes its crowd as everything from first dates to family reunions.",
@@ -209,7 +231,55 @@
     "fbNewestPost": "2026-10-15",
     "website": "https://anniebaileys.com/"
    },
-   "menu": "https://anniebaileys.com/menus"
+   "menu": "https://anniebaileys.com/menus",
+   "gameday": {
+    "label": "Game day specials",
+    "teams": [],
+    "kinds": [
+     "gameday"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://anniebaileys.com/game-day-specials",
+      "quote": "ans just got a little more interesting. Join us at Annie Bailey’s for Game Day specials, cold beers, and wings worth gathering around. Whether you’r",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     },
+     {
+      "src": "venue website",
+      "url": "https://anniebaileys.com/game-day-specials",
+      "quote": "• Bud Light • Budweiser • Corona • Miller High Life | FOOD SPECIALS | GAME DAY WINGS $1 | $1 wings in counts of 10 or more | Come hungry. Our Game D",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     },
+     {
+      "src": "venue website",
+      "url": "https://anniebaileys.com/game-day-specials",
+      "quote": "ME DAY WINGS $1 | $1 wings in counts of 10 or more | Come hungry. Our Game Day wings are just $1 each when you order 10 or more. | Game Day Specials",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     },
+     {
+      "src": "venue website",
+      "url": "https://anniebaileys.com/game-day-specials",
+      "quote": "gry. Our Game Day wings are just $1 each when you order 10 or more. | Game Day Specials are available Sundays only, from 12PM–6PM. | 28-30 E. KING S",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "conestoga-restaurant",
@@ -282,7 +352,20 @@
     "fbNewestPost": null,
     "website": "https://www.conestogarestaurant.com"
    },
-   "websiteSource": "OpenStreetMap way/260698209 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/260698209 website tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/260698209 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/260698209",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "lucky-dog-cafe",
@@ -909,6 +992,19 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/186986013 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/186986013",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1347,7 +1443,22 @@
     "fbNewestPost": "2026-09-17",
     "website": "https://www.abg-lancaster.com/"
    },
-   "menu": "https://www.abg-lancaster.com/apps-and-bar-food"
+   "menu": "https://www.abg-lancaster.com/apps-and-bar-food",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.abg-lancaster.com/",
+      "quote": "meal! | Our lively but homey establishment offers free Wi-Fi, live music, and a seasonal outdoor patio to elevate your dining experience. American Bar & Grill Lanc also offers a \"Lunch Punch\"",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "decades",
@@ -1594,6 +1705,28 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
+   },
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.exchangeroof.com/",
+      "quote": "The Exchange | Rooftop Bar & Lounge in Lancaster, PA - The Exchange | Menus | Reservations | AlpenGlobe Dining | Abo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.exchangeroof.com/",
+      "quote": "er. | You must be 21+ to enter The Exchange after 4pm. | Please be aware that if you book outdoor seating, your reservation is subject to cancellation should there be inclement weather, or unsafe",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2120,7 +2253,22 @@
     "fbNewestPost": "2026-09-09",
     "website": null
    },
-   "menu": "https://yorgoslancaster.com/kefi/menu/"
+   "menu": "https://yorgoslancaster.com/kefi/menu/",
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://yorgoslancaster.com/kefi/location/",
+      "quote": "ge (1st floor), Kefi at Yorgos (2nd floor), or Kefi at Little Mykonos Outdoor (3rd floor, Rooftop Terrace). | --> | Experience Dining Elevated | A city staple for nearly three decades, Yorgos res",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "proof",
@@ -2662,7 +2810,22 @@
     "fbNewestPost": "2026-10-30",
     "website": "https://www.ironhillbrewery.com/location/lancaster-pa/"
    },
-   "menu": "https://ironhillbrewery.com/menu/best-food-menu"
+   "menu": "https://ironhillbrewery.com/menu/best-food-menu",
+   "outdoor": {
+    "types": [
+     "waterfront"
+    ],
+    "sources": [
+     {
+      "src": "venue website (waterfront wording)",
+      "url": "https://ironhillbrewery.com/locations/best-brewery-restaurant-in-wilmington-de/",
+      "quote": "lmington | On the Riverfront in Wilmington, Delaware, minutes from where Iron Hill began. Riverside seating, a scratch kitchen and a rotating beer lineup brewed right here. | Open · Brewed on site",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dominion-pizza",
@@ -3415,7 +3578,22 @@
     "fbNewestPost": "2026-10-22",
     "website": "https://springhousebeer.com/coffin"
    },
-   "menu": "https://springhousebeer.com/s/Spring-House-The-Coffin-Bar-2026-menu.pdf"
+   "menu": "https://springhousebeer.com/s/Spring-House-The-Coffin-Bar-2026-menu.pdf",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://springhousebeer.com/about",
+      "quote": "o features our | flagship taproom and wood-fired pizza kitchen | , a | kickass arcade | , dog-friendly patio, and many square feet for | private and community events | . | You can also find a fresh",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "the-corner-at-musser",
@@ -3582,6 +3760,84 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-28",
     "website": "https://corneratmusser.com/"
+   },
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://corneratmusser.com/about/",
+      "quote": "the coming months we’ll be adding a first-floor patio, second-floor lounge and renovated roof deck. | If you’re curious to see what we’ve been up to, come on over and say Hello! Grab a sea",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Eagles game day",
+    "teams": [
+     {
+      "team": "Eagles",
+      "league": "NFL",
+      "local": true
+     }
+    ],
+    "kinds": [
+     "gameday"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://corneratmusser.com/",
+      "quote": ". We look forward to welcoming you to The Corner! | What's Going On | Gameday at the Corner! | Every Sunday and Whenever the Eagles Play. Available",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://corneratmusser.com/events/",
+      "quote": "Thursday | Crush It! Karaoke: Upstairs at Shag Bar starting at 10pm | Gameday at the Corner | Every Sunday + Whenever The Eagles Play. Available Al",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://corneratmusser.com/events/",
+      "quote": "p you plan an event to remember. | Request Rental | What's Going On | Gameday at the Corner! | Every Sunday and Whenever the Eagles Play. Available",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://corneratmusser.com/about/",
+      "quote": "o the happiness and vitality of his beloved city. | What's Going On | Gameday at the Corner! | Every Sunday and Whenever the Eagles Play. Available",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3876,7 +4132,22 @@
     "fbNewestPost": null,
     "website": "https://bertandtheelephant.com/"
    },
-   "menu": "https://bertandtheelephant.com/menu"
+   "menu": "https://bertandtheelephant.com/menu",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://bertandtheelephant.com/private-parties/",
+      "quote": "inary for Your Event | Whether it’s inside at our warm and inviting bar or outside on our covered patio, our planners are ready to help make your event a most memorable experience. We accommoda",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "shot-and-bottle",
@@ -4099,7 +4370,22 @@
     "fbNewestPost": "2026-10-19",
     "website": "https://www.thegreenfieldrestaurant.com/"
    },
-   "menu": "https://www.thegreenfieldrestaurant.com/event-menus"
+   "menu": "https://www.thegreenfieldrestaurant.com/event-menus",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.thegreenfieldrestaurant.com/about",
+      "quote": "timate setting, our Wine Cellar provides an elegant atmosphere. During warmer months, our outdoor patio is open, offering a delightful seasonal experience. Complement your meal with our seasona",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "lancaster-cigar-bar",
@@ -4393,7 +4679,34 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/161217657 opening_hours tag (map data 2026-11-01; last checked on the map 2024-09-28) (checked 2026-11-02); late hours confirmed by venue website https://cafepasserine.com/: \"a, and beyond. | A curated Selection of Wines, Ferments, and Cookbooks! Open Mon, Thurs, Fri 5 PM - 10 PM Sat 10 AM\" (checked 2026-11-02)",
    "county": "Lancaster",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/161217657 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/161217657",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://cafepasserine.com/",
+      "quote": "four-legged friends, but unfortunately pets aren’t permitted in our indoor dining room or on our patio due to Lancaster health regulations. | Service animals, as defined by the ADA, are always",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://cafepasserine.com/",
+      "quote": "a fabulous team who are here to help you make the perfect bottle selection! | Do you have outdoor dining in Lancaster? | Our outdoor seating is currently closed due to nearby construction. We lo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "type": "city",

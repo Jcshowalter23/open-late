@@ -966,6 +966,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.bigditchbrewing.com/"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5265311860 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/5265311860",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2032,7 +2045,22 @@
     "fbNewestPost": null,
     "website": "https://cocobuffalo.com/"
    },
-   "menu": "https://cocobuffalo.com/menus/dinner-menu/"
+   "menu": "https://cocobuffalo.com/menus/dinner-menu/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://cocobuffalo.com/",
+      "quote": "ry frites and baguette, live music and drink specials | Reservations highly recommended | Patio is Open | Coco offers classic & creative bistro fare to usher you to simpler times whether in our",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-compass-run",
@@ -2299,7 +2327,22 @@
     "fbNewestPost": null,
     "website": "https://www.ditondo1904.com/"
    },
-   "menu": "https://www.ditondo1904.com/menu/"
+   "menu": "https://www.ditondo1904.com/menu/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.ditondo1904.com/",
+      "quote": "(Inside/Outside): 80 guests Menus and pricing can be provided upon request. | Patio | The covered patio and garden area is available to book for parties July-September. For additional informati",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-doc-sullivans",
@@ -3364,7 +3407,29 @@
     "conflicts": [],
     "oneoffs": []
    },
-   "menu": "https://www.genemccarthys.com/takeout-menu"
+   "menu": "https://www.genemccarthys.com/takeout-menu",
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://www.genemccarthys.com",
+      "quote": "OUR BREWS | OFW BREWING CO. | MENU | EVENTS | GIFT SHOP | GALLERY | CONTACT US | SEASONAL BEER GARDEN | MORE | Use tab to navigate through the menu items. | WHAT'S ON TAP | Oatmeal Stout - Ta",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.genemccarthys.com",
+      "quote": "l 716-855-8948 | Kitchen open 11am - 10pm Monday-Saturday | 11am - 9pm Sunday | INDOOR & OUTDOOR DINING | TAKEOUT AVAILABLE | NO RESERVATIONS -- | FIRST COME, FIRST SERVED | CHECK OUT OUR EVENT",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-giacobbis-cucina-citta",
@@ -3778,6 +3843,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/1072485403 outdoor tags (biergarten; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/1072485403",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -6673,6 +6751,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/4869675832 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/4869675832",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -7285,7 +7376,64 @@
     "fbNewestPost": null,
     "website": "https://www.resurgencebrewing.com/"
    },
-   "menu": "https://www.resurgencebrewing.com/menus"
+   "menu": "https://www.resurgencebrewing.com/menus",
+   "outdoor": {
+    "types": [
+     "beer garden",
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://www.resurgencebrewing.com/about",
+      "quote": "ing both lunch and dinner, an | in-house brewery, an upstairs event space, and an outdoor beer garden. | Find Us | Fort Myers, Florida | 6160 Exchange Lane | In Early 2026, we opened our seco",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.resurgencebrewing.com/about",
+      "quote": "alo favorite food and drinks with us! | ​ | ​ | Our new building features a large covered outdoor patio space, two indoor/outdoor bars, and an in-house brewery to watch your favorite beers get",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Bills backers bar",
+    "teams": [
+     {
+      "team": "Bills",
+      "league": "NFL",
+      "local": true
+     }
+    ],
+    "kinds": [
+     "backers",
+     "gameday"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.resurgencebrewing.com/fortmyers",
+      "quote": "FU Awesome extras | Sign Up for Rewards | Gift Cards | We're a Bills Backers Bar! | Game Day Offerings | Reserve a Table | Frequently asked questi",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "backers"
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.resurgencebrewing.com/fortmyers",
+      "quote": "ras | Sign Up for Rewards | Gift Cards | We're a Bills Backers Bar! | Game Day Offerings | Reserve a Table | Frequently asked questions | Fort Myers",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-ricks-famous-steakhouse",
@@ -7804,7 +7952,22 @@
     "fbNewestPost": null,
     "website": "https://www.sohobarbuffalo.com"
    },
-   "menu": "https://www.sohobarbuffalo.com/menus/dinner"
+   "menu": "https://www.sohobarbuffalo.com/menus/dinner",
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.sohobarbuffalo.com/about-us",
+      "quote": "drop with us on New Year’s Eve, partied with us on Parade Day, enjoyed bottle service on our rooftop patio all summer long, dressed up with us on Halloween, and reminisced with us on Thanksg",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-south-city-tavern",
@@ -7870,7 +8033,22 @@
     "fbNewestPost": null,
     "website": "https://southernjunction716.com/"
    },
-   "menu": "https://www.southernjunction716.com/s/SJ_FoodMenu_2026v5.pdf"
+   "menu": "https://www.southernjunction716.com/s/SJ_FoodMenu_2026v5.pdf",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.southernjunction716.com/",
+      "quote": "staff. After getting your meat tray, you find a seat in the dining room or our heated and covered patio! | We ask everyone to order and purchase their food before you seat yourself at a table.",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-southern-tier-brewery-buffalo",
@@ -9197,7 +9375,29 @@
     "fbNewestPost": null,
     "website": "https://www.leftbankrestaurant.com/"
    },
-   "menu": "https://www.leftbankrestaurant.com/full-menu/"
+   "menu": "https://www.leftbankrestaurant.com/full-menu/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.leftbankrestaurant.com/",
+      "quote": "u | Dine With Us | Book your Reservations on Resy | Make a Reservation | Outdoor Dining | Our Patio | For a truly memorable dining experience, cuisine and atmosphere are paired as thoughtfu",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.leftbankrestaurant.com/",
+      "quote": "| Explore Our Menu | Dine With Us | Book your Reservations on Resy | Make a Reservation | Outdoor Dining | Our Patio | For a truly memorable dining experience, cuisine and atmosphere are paired",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-the-merry-shelley",
@@ -9286,6 +9486,21 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://themerryshelley.com/"
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://themerryshelley.com/",
+      "quote": "ent of that. We are a library bar, so we do ask that you keep your inside voice intact. | Our patio seats 13, is open on days that are not too chilly or windy. For larger parties, we recomm",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -9372,7 +9587,22 @@
     "fbNewestPost": null,
     "website": "https://theplacebuffalo.com/"
    },
-   "menu": "https://theplacebuffalo.com/buffalo-elmwood-village-the-place-food-menu"
+   "menu": "https://theplacebuffalo.com/buffalo-elmwood-village-the-place-food-menu",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://theplacebuffalo.com/",
+      "quote": "the environment was so warm and friendly. There's lots of space inside and out -- we sat on the patio since it was an.. | Review by - Yelp | Brianna W: | Alright now let's begin with the star",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-the-plating-society",
@@ -10101,6 +10331,21 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://wineonhertel.com/"
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://wineonhertel.com/",
+      "quote": "e On Hertel - Buffalo, New York | Check out our Special Events & Parties tab (more) !! | Seasonal Patio | Open May - October | Extensive Wine List - Small Plates | Craft Beer & Cider | Vermouth",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

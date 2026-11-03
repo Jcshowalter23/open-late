@@ -214,7 +214,29 @@
     "website": "https://barvictor.com/"
    },
    "menu": "https://www.barvictor.com/menu/",
-   "phoneSource": "Venue website www.barvictor.com, checked 2026-11-01"
+   "phoneSource": "Venue website www.barvictor.com, checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.barvictor.com/events/",
+      "quote": "unday | Half off beer and wings while the games are on, from 5 PM. | Any night | Dominoes on the patio | Domino tables on the patio and sets to borrow. Just ask the bartender. | Programming ch",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.barvictor.com/visit/",
+      "quote": "e, guest count and a few details. | How it works | . | Cigars | Enjoyed in our designated outdoor area. | See the Humidor | . | 97630 Overseas Hwy, Key Largo, FL 33037 | The map is provided by",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-bayside-grille-and-sunset-bar",
@@ -301,7 +323,22 @@
     "fbNewestPost": "2026-10-28",
     "website": "https://baysidegrill.com/"
    },
-   "menu": "https://baysidegrill.com/our-menu"
+   "menu": "https://baysidegrill.com/our-menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://baysidegrill.com/",
+      "quote": "view makes this possible. We offer air-conditioned dining on those Keys tropical days and open-air dining on the more pleasant cooler days. The elevated dining area features our full culinary & l",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-blackwater-siren",
@@ -498,7 +535,22 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.buttonwoodgrill.info/happy-hour",
+      "quote": "ABV. | Come Thirsty. Leave Happy. | No reservations needed. Walk right in and grab a seat on our patio, indoors, or at the bar. | Call | (305) 741-7105 | Seafood, Steaks, Sandwiches on the man",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-buzzards-roost-key-largo",
@@ -967,6 +1019,21 @@
       "url": "https://lazylobsterinthekeys.com/bar/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://lazylobsterinthekeys.com/",
+      "quote": "Lazy Lobster Seafood Restaurant - Key Largo - Indoor and Outdoor Dining - Fresh Local Seafood, Steak, Chicken and Pasta Dishes, Happy Hour Specials Every Day, We",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1087,6 +1154,45 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-28",
     "website": "http://pilothousemarina.com/"
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.pilothousemarina.com/",
+      "quote": "py Hour in The Keys! | A favorite waterfront restaurant in Key Largo! Dine outside on our covered patio and enjoy our natural illuminated aquarium while overlooking our full-service marina on t",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.pilothousemarina.com/restaurant/",
+      "quote": "nts | Happy Hour drink and food specials daily from 4:30 to 6:30 pm | NFL Sunday Ticket | Live Music on Friday and Saturday night | We will continue to socia",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1264,7 +1370,57 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.sharkeysgalley.com/",
+      "quote": "eat deals and of course to view your favorite game on one of the 20 TVs we have inside or on our patio. | Live Music | Daily performances from local musicians | Events | Call 305 453 1905 | le",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "NFL Sundays",
+    "teams": [],
+    "kinds": [
+     "football"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.sharkeysgalley.com/",
+      "quote": "ays 4-7pm | See our happy hour menu | Sharkbite Happy Hour Specials | NFL Sundays | Join us Sundays for some great deals and of course to view your fav",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.sharkeysgalley.com/events/",
+      "quote": "o and Burritos | Wednesday- Meatloaf | Thursday- Pot Roast | Friday | NFL Sundays | Load More | Events | Call 305 453 1905 | leave this field blank | E",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-skippers-dockside",
@@ -1762,7 +1918,46 @@
     "fbNewestPost": "2026-10-15",
     "website": "https://www.bayhousenaples.com/"
    },
-   "menu": "https://www.bayhousenaples.com/menu"
+   "menu": "https://www.bayhousenaples.com/menu",
+   "outdoor": {
+    "types": [
+     "deck",
+     "patio",
+     "waterfront"
+    ],
+    "firePit": true,
+    "sources": [
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://www.bayhousenaples.com/",
+      "quote": "ity in an intimate setting exuding Old Florida charm. Outdoor seating is available on the waterfront deck and around the fire pit on the front patio. The cuisine ranges from all types of seafood",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.bayhousenaples.com/",
+      "quote": "charm. Outdoor seating is available on the waterfront deck and around the fire pit on the front patio. The cuisine ranges from all types of seafood to southern-influenced dishes and regional",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (waterfront wording)",
+      "url": "https://www.bayhousenaples.com/",
+      "quote": "ity in an intimate setting exuding Old Florida charm. Outdoor seating is available on the waterfront deck and around the fire pit on the front patio. The cuisine ranges from all types of seafood",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.bayhousenaples.com/",
+      "quote": "e. Come experience gracious hospitality in an intimate setting exuding Old Florida charm. Outdoor seating is available on the waterfront deck and around the fire pit on the front patio. The cuisi",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-the-catch-restaurant-and-bar",

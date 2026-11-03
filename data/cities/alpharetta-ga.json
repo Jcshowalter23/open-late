@@ -313,7 +313,20 @@
     "fbNewestPost": "2026-10-14",
     "website": null
    },
-   "phoneSource": "OpenStreetMap node/12581357315 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/12581357315 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/12581357315 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/12581357315",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-bocado",
@@ -495,7 +508,30 @@
      }
     ]
    },
-   "phoneSource": "Venue website truckandtap.com/alpharetta/breakdown-burger, checked 2026-11-02"
+   "phoneSource": "Venue website truckandtap.com/alpharetta/breakdown-burger, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "beer garden",
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://truckandtap.com/alpharetta/events/book-a-party/",
+      "quote": "' | > | Accommodation for 30 guests standing and 22 seated. Two garage doors open up to Beer Garden and Food Truck area. | ' | > | The Beer Garden is partially covered and can accommodate u",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://truckandtap.com/alpharetta/events/book-a-party/",
+      "quote": "your event? | Accommodates up to 50 guests standing and 20 seated. The partially covered front patio has seating for 12 and overlooks Milton Avenue. Fully equipped with heaters and misting",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-brimstone-restaurant-and-tavern",
@@ -1546,6 +1582,19 @@
     "fbPostsSeen": 2,
     "fbNewestPost": "2026-10-22",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/12062023289 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/12062023289",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1598,7 +1647,29 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.collettarestaurant.com/atlanta/"
+   "menu": "https://www.collettarestaurant.com/atlanta/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.collettarestaurant.com/location/colletta-fenton-cary/",
+      "quote": "| Gift Cards | Get Directions | Featured Press | Cary Magazine | 2026 Maggy Awards: Best Outdoor Dining | Gallery | Gallery | Reservations | Our Locations | Press | Contact | Privacy | Accessib",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.collettarestaurant.com/about/",
+      "quote": "-style Italian restaurant features 120 indoor dining seats, 60 seats outdoors on the semi-covered patio, and a 12-seat bar. | COLLETTA ATLANTA | Located at Avalon in Alpharetta, GA, Colleta Atl",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-craft-burger-by-shane-old-milton",
@@ -2151,7 +2222,22 @@
     }
    ],
    "websiteSource": "OpenStreetMap node/4520641367 website tag (map data 2026-10-31), checked 2026-11-01",
-   "menu": "https://www.cafeefendi.com/menu"
+   "menu": "https://www.cafeefendi.com/menu",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.cafeefendi.com/",
+      "quote": "n our lively cocktail lounge and bar for handcrafted cocktails , or relax on our enclosed outdoor patio, available year-round. | Whether you’re joining us for a relaxed dinner, a social evening",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-el-porton-midway",
@@ -2565,7 +2651,22 @@
      }
     ]
    },
-   "phoneSource": "Venue website www.foundationatl.com, checked 2026-11-02"
+   "phoneSource": "Venue website www.foundationatl.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.foundationatl.com/events-2-2",
+      "quote": "or have an abbreviated menu curated by our Chef, served plated | THE PATIO | ABOUT | Our covered patio is a beautiful option for those who love dining outdoors while still enjoying a sophistic",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-frostology",
@@ -3291,7 +3392,22 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://littlealleysteak.com/",
+      "quote": "TS | NO EXCESSIVELY REVEALING CLOTHING | This rule applies for all guests, even if dining on the patio or in our private dining room. | PROPER ATTIRE IS STRICTLY REQUIRED | Dress Code is up to",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-little-tokyo-sushi-grill-of-alpharetta-ga",
@@ -4792,7 +4908,22 @@
     "fbNewestPost": null,
     "website": "https://standardrestaurantgroup.com/alpharetta/"
    },
-   "menu": "https://standardrestaurantgroup.com/wp-content/uploads/2026/04/1-STNDRD_MenuDesign_BILLS_2021Season-1.pdf"
+   "menu": "https://standardrestaurantgroup.com/wp-content/uploads/2026/04/1-STNDRD_MenuDesign_BILLS_2021Season-1.pdf",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://standardrestaurantgroup.com/alpharetta/",
+      "quote": "nd if your friends aren’t already there, you will soon make new ones. We offer indoor and outdoor dining with a casual atmosphere. Enjoy lunch, dinner or a little nightlife at one of the Alphare",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-steak-n-shake-alpharetta",
@@ -5382,7 +5513,22 @@
     "fbNewestPost": "2026-10-22",
     "website": "http://tbb122.com/"
    },
-   "phoneSource": "Venue website www.tbb122.com, checked 2026-11-02"
+   "phoneSource": "Venue website www.tbb122.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.tbb122.com/",
+      "quote": "warm, cozy atmosphere, fitted with banquet seating and nooks, wood accents, and spacious outdoor seating underneath a 150 year old oak tree surrounded by organically grown herbs and veggies and",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-teaz-social-atlanta",
@@ -5712,6 +5858,28 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://eatupdrinkup.net/",
+      "quote": "UP on the Roof | Elevated Rooftop Bar & Restaurant Experience | Skip to content | Toggle menu | Locations | Alpharetta, GA | An",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://eatupdrinkup.net/private-events/greenville-sc/",
+      "quote": "P on the Roof. | Our venue in Greenville is especially unique because it features both an al fresco setting, coupled with an interior that features floor to ceiling windows. Plus, the warm",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -6000,6 +6168,21 @@
       "url": "https://xmidtown.com/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://xmidtown.com/",
+      "quote": "Midtown Atlanta serving up popular cocktails, hosting special events, and boasting a huge outdoor patio with the neighborhood’s only living plant wall. Without a doubt, this is the place to be.",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

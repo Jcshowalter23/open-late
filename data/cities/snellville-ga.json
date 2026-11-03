@@ -938,7 +938,29 @@
     "fbNewestPost": "2026-02-09",
     "website": "https://untappd.com/v/exhibit-ale/9741505"
    },
-   "menu": "https://untappd.com/report/menu/9741505"
+   "menu": "https://untappd.com/report/menu/9741505",
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://untappd.com/v/exhibit-ale/9741505",
+      "quote": "| Menu | Blog | Top Rated | Insiders | Help | Shop | Verified | Exhibit Ale | Beer Store, Beer Garden | 2125 Loganville Hwy, Suite 102 Grayson, GA ( | Map | ) | 678-860-7480 | Yelp | Facebook",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://untappd.com/v/exhibit-ale/9741505",
+      "quote": "American Express, Discover, Cash, Samsung Pay, Apple Pay, Google Pay | Growlers | Kegs | Outdoor Seating | Child Friendly | Social | Yelp | Facebook | Foursquare | Venue Stats ( | ? | ) | 11,652",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-fancy-krab",
@@ -1073,6 +1095,19 @@
     "fbPostsSeen": 21,
     "fbNewestPost": "2026-10-31",
     "website": "https://www.freddys.com/location/snellville-ga"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/483705445 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/483705445",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2627,7 +2662,32 @@
     "fbNewestPost": "2026-10-16",
     "website": "https://starsandstrikes.com/"
    },
-   "menu": "https://starsandstrikes.com/eat"
+   "menu": "https://starsandstrikes.com/eat",
+   "gameday": {
+    "label": "Bills backers bar",
+    "teams": [
+     {
+      "team": "Bills",
+      "league": "NFL",
+      "local": false
+     }
+    ],
+    "kinds": [
+     "backers"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "BillsFans.com Bills Backers chapter directory (chapter listings posted Mar 2025)",
+      "url": "https://www.billsfans.com/bills-backers/united-states/georgia/",
+      "quote": "Bills Backers chapter bar: Stars and Strikes, Dacula",
+      "checked": "2026-11-02",
+      "kind": "backers",
+      "days": []
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-takano",
@@ -2930,6 +2990,30 @@
       ]
      }
     ]
+   },
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://thepatioatl.com/",
+      "quote": "We play all sporting events, national, regional and local. We feature NFL Sunday Ticket, NBA, WNBA, MLB, MSL and International soccer network games. We are o",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3112,6 +3196,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/603167393 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/603167393",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

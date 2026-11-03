@@ -211,6 +211,21 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "waterfront"
+    ],
+    "sources": [
+     {
+      "src": "venue website (waterfront wording)",
+      "url": "https://eatbaresco.com/happy-hour-pompano-beach/",
+      "quote": "ture sipping on handcrafted margaritas and cocktails while enjoying the sea breeze on our oceanfront patio, all complemented by the bold flavors of our coastal infused Mexican food. It’s not just",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -297,7 +312,45 @@
      "checked": "2026-11-01"
     }
    ],
-   "phoneSource": "Venue website beachhousepompano.com, checked 2026-11-02"
+   "phoneSource": "Venue website beachhousepompano.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "rooftop",
+     "patio",
+     "waterfront"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://beachhousepompano.com/",
+      "quote": "vibrant destination. | The open-air dining room welcomes the ocean breeze, while upstairs the rooftop bar pours handcrafted cocktails overlooking the water. From sunset dinners to weekend bru",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://beachhousepompano.com/",
+      "quote": "d celebrations in memorable oceanfront event spaces. | Cocktails with a View | Oceanfront patio dining, rooftop drinks, and breezy indoor seating, all with Atlantic views. Join us for lunch, d",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (waterfront wording)",
+      "url": "https://beachhousepompano.com/",
+      "quote": "events, and celebrations in memorable oceanfront event spaces. | Cocktails with a View | Oceanfront patio dining, rooftop drinks, and breezy indoor seating, all with Atlantic views. Join us for l",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://beachhousepompano.com/",
+      "quote": "eafood, wood-fired cooking, and sweeping Atlantic views in one vibrant destination. | The open-air dining room welcomes the ocean breeze, while upstairs the rooftop bar pours handcrafted cocktail",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-bedda-mia-ristorante-and-pizzette",
@@ -470,6 +523,31 @@
       "url": "https://www.brendanssportspub.com/"
      }
     ]
+   },
+   "gameday": {
+    "label": "Bills game day",
+    "teams": [
+     {
+      "team": "Bills",
+      "league": "NFL",
+      "local": false
+     }
+    ],
+    "kinds": [
+     "gameday"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.brendanssportspub.com/",
+      "quote": "culture and family collide. | With wall-to-wall TVs and roaring fans, every game feels like a Home Game...Proud to be your Buffalo Bills bar. | Pool t",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -647,7 +725,29 @@
      }
     ]
    },
-   "phoneSource": "Venue website brewfish.com, checked 2026-11-02"
+   "phoneSource": "Venue website brewfish.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "waterfront"
+    ],
+    "sources": [
+     {
+      "src": "venue website (waterfront wording)",
+      "url": "https://brewfish.com/",
+      "quote": "rewfish | Your seat by the water is waiting | On McNab Road just east of the bridge, with waterfront seating and plenty of room to settle in. | Get directions | (954) 440-3347 | Hours | Monday | Clo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://brewfish.com/",
+      "quote": "yours along and enjoy food, drinks and the waterfront breeze together in our dog-friendly outdoor area. | Find Brewfish | Your seat by the water is waiting | On McNab Road just east of the bri",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-briny-irish-pub",
@@ -773,7 +873,46 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://thebrinyirishpub.com/food-menu/"
+   "menu": "https://thebrinyirishpub.com/food-menu/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://thebrinyirishpub.com/",
+      "quote": "avorites and seafood specials, Briny brings the energy seven days a week. With indoor and outdoor seating, TouchTunes on deck, and a rotating lineup of events, there’s always something happening.",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://thebrinyirishpub.com/",
+      "quote": ", NHL, or Sunday’s biggest matchups, we’ve got you covered with the | NFL Sunday Ticket | . Grab a pint, find your favorite screen, and enjoy the action live",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-brus-room-pompano-beach",
@@ -1941,7 +2080,22 @@
     "website": "https://www.galuppis.com/social"
    },
    "menu": "https://www.galuppis.com/menus/",
-   "phoneSource": "Venue website www.galuppis.com/social, checked 2026-11-01"
+   "phoneSource": "Venue website www.galuppis.com/social, checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.galuppis.com/specialty-events/",
+      "quote": "| My Account | View Cart | Schedule a Tour | Unforgettable Events | Galuppi’s Restaurant, Patio Bar, & Event Facility offers extraordinary beautiful panoramic views overlooking the lakes, b",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-greek-taverna-table-2201",
@@ -3471,7 +3625,37 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "firePit": true,
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.pier6rooftop.com/",
+      "quote": "uper pretty venue with a great vibe and delicious food! Good service. And great views. On the rooftop of the Hilton.\" | Stephen Long, | Guest | Our Menus | Lunch | Lunch | Light, sophisticate",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.pier6rooftop.com/",
+      "quote": "cene for an elevated culinary escape. The focus then shifts to the restaurant’s expansive outdoor seating, designed for comfort and relaxation, offering 360-degree views of the ocean, city lights",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (fire pit wording)",
+      "url": "https://www.pier6rooftop.com/",
+      "quote": "ain content | 954-943-2525 | Home | About | Menus | Weddings & Events | Weddings | Rent a Fire Pit | RFP | Stay With Us | Tru by Hilton | Home2 Suites by Hilton | Happenings | Upcoming Eve",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-prescotts",
@@ -4720,6 +4904,21 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.thefoundryfl.com/",
+      "quote": "es: | Pick-up & Delivery | Order Pickup | Online Delivery | Dine-in | Join Us | Indoor or Outdoor Seating | View Menu | Make Reservation | Foundry Favorites | Button | Happy Hour: 3:00pm-6:00pm |",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -5002,6 +5201,21 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://vaultpompano.com/",
+      "quote": "astal air. Order your favorite beverage, some scrumptious food and soak in the sun on our outdoor patio. Got your dog? No problem! Bring Fido too. | Indoor Dining & Bar | Hurricane force gale w",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -5165,7 +5379,20 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/407301786 opening_hours tag (map data 2026-10-31; last checked on the map 2026-09-05) (checked 2026-11-02); late hours confirmed by venue website https://wingsnthingspompano.com/: \" $25.99 | (954) 781-9464 | Hours | Monday – Thursday 11:00AM – 9:30PM | Friday & Saturday 11:00AM – 10:00PM | Sunday \" (checked 2026-11-02)",
    "county": "Broward",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/407301786 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/407301786",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "type": "city",

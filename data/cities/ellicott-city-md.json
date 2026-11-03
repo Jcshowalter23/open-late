@@ -70,6 +70,21 @@
     "fbPostsSeen": 5,
     "fbNewestPost": "2026-10-23",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.alexandrasrestaurant.com/",
+      "quote": "y sourced produce and meats. | From the atrium-style restaurant to private event rooms to outdoor dining with a fantastic view of the golf course, a unique dining experience awaits you at Alexan",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -529,6 +544,19 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/1007512190 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/1007512190",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1037,6 +1065,21 @@
       "url": "https://www.ellicottdistilling.com/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.ellicottdistilling.com/private-events/",
+      "quote": "tillery Tours | Private Events | Contact Us | Private Events | Rent out our bar and great outdoor space for a private party! A variety of packages are available, from a la carte to a fully cate",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1299,6 +1342,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2514620120 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/2514620120",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1472,7 +1528,26 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.hocobrewhive.com/beer-list/"
+   "menu": "https://www.hocobrewhive.com/beer-list/",
+   "gameday": {
+    "label": "Watch parties",
+    "teams": [],
+    "kinds": [
+     "watch"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.hocobrewhive.com/",
+      "quote": "als, along with other special events like live music, karaoke, sports watch parties (check out our Instagram and Facebook posts for details) there is som",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-jalsa-indian-cuisine",
@@ -1680,6 +1755,21 @@
     "fbPostsSeen": 5,
     "fbNewestPost": "2026-09-29",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.lapalapagrill.com/location/la-palapa-grill/",
+      "quote": "1043 | (410) 465-0070 | info@lapalapagrill.com | Hours of Operation | Open for indoor and outdoor dining, takeout, curbside pickup, and delivery. | Monday: | 11:00am - 9:00pm | Tuesday: | 11:00a",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1770,7 +1860,57 @@
     "fbNewestPost": "2026-10-29",
     "website": "https://www.manorhilltavern.com/"
    },
-   "menu": "https://www.manorhilltavern.com/menu/"
+   "menu": "https://www.manorhilltavern.com/menu/",
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://www.manorhilltavern.com/",
+      "quote": "n | Gift Cards | Contact Us | About | Menu | Events | Private Dining | Beer | Beer Club | Beer Garden | About | Menu | Events | Private Dining | Beer | Beer Club | Beer Garden | Dining | We a",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Sunday Night Football",
+    "teams": [],
+    "kinds": [
+     "football"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.manorhilltavern.com/event/pizza-monday-mht/2026-11-02/",
+      "quote": "y week that begins at 2:00 am on Monday, repeating indefinitely | « | Sunday Night Football Happy Hour at Manor Hill Tavern | Happy Hour at Manor Hill Tavern | »",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.manorhilltavern.com/event/pizza-monday-mht/2026-11-02/",
+      "quote": "dar | Outlook 365 | Outlook Live | Details | Date: | November 2 | « | Sunday Night Football Happy Hour at Manor Hill Tavern | Happy Hour at Manor Hill Tavern | »",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-mi-casa-mexican-restaurant",
@@ -2230,7 +2370,22 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://www.rathskellermd.com/about/",
+      "quote": "that he gutted and rebuilt, along with the original jailhouse that currently sits on our biergarten patio. He wanted to open a bar at the basement of this building, naming it the Rathskell",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-regionale-ellicott-city",
@@ -2718,6 +2873,84 @@
       "url": "https://www.sgpelkridge.com/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.sgpelkridge.com/",
+      "quote": "the app store to today to place orders & track your rewards points! | Hello Sunny Days! | Patio is OPEN! Perfect for happy hour with your friends & coworkers! | TOMORROW NIGHT! LIVE TEAM TRIVIA",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.sgpelkridge.com/",
+      "quote": "s #elkridgeathleticclub #elkridgemaryland #salad | Hello SUMMER! ☀️ We are ready for some outdoor dining ☀️ #sgpelkridge #patio #food #summer #margarita | Happy Friday! After a long week, nothin",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Monday Night Football",
+    "teams": [],
+    "kinds": [
+     "football",
+     "gameday"
+    ],
+    "days": [
+     "Mon",
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.sgpelkridge.com/",
+      "quote": "Join us for great food and fun times all week long! 🎉 | Get ready for Monday Night Football! 🏈 Join us for the Chiefs vs. Broncos at 8:15 PM and take advantage o",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Mon"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.sgpelkridge.com/",
+      "quote": "SGP ELKRIDGE! 🍕🍻 #FootballNight #Specials #GameDayFun | Get ready for NFL Sundays with amazing food and drink specials! 🏈 Join us for brunch until 4 PM",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.sgpelkridge.com/",
+      "quote": "ch USA 🇺🇸 vs Belgium 🇧🇪 with us Monday at 8PM on the big screens! | 🔥 Game Day Specials: | 🍕 Half Price Pizza | 🍋 $8 Triple Triple Lemonades & Mosco",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.sgpelkridge.com/",
+      "quote": "dar | October | 2026 | Sun | Mon | Tue | Wed | Thu | Fri | Sat | 27 | NFL SUNDAY SPECIALS | 28 | HALF PRICE PIZZA | 29 | HALF PRICE PIZZA & KIDS EAT 1",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2771,7 +3004,27 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.syrianacafe.com/menu"
+   "menu": "https://www.syrianacafe.com/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/113572477 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/113572477",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.syrianacafe.com/",
+      "quote": "s do you offer? | We offer | Delivery | , | Dine In | , | Dinner | , | Live Music | and | Outdoor Seating | . | What areas do you serve? | We serve guests from | Catonsville | , | Columbia | , |",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-tandoor-spice-woodstock",
@@ -2841,7 +3094,22 @@
     "fbNewestPost": "2026-10-13",
     "website": "https://www.tandoorspice.com/"
    },
-   "menu": "https://www.tandoorspice.com/menu"
+   "menu": "https://www.tandoorspice.com/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.tandoorspice.com/about-us",
+      "quote": "fted | Food Service | Best Indian Restaurant in DMV area, with huge Bar, Hangout area and Outdoor Seating. | We are proud to serve you dishes made with fresh ingredients and spices. Our chefs wil",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-taqueria-los-primos-ellicot-city",
@@ -3398,6 +3666,21 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-10",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.phoenixuppermain.com/",
+      "quote": "oenix Emporium. In our new home at 8308 Main Street, we are open for indoor and seasonal outdoor dining with some new menu items, and some classic favorites. We have also kept the original Pho",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3572,6 +3855,21 @@
       "url": "https://thewhiteoaktavern.com/events?source=header&spot_id=82451&destination=events&promotion=custom_promotion"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://thewhiteoaktavern.com/",
+      "quote": "s. | Happy Hour is available everywhere: at our bar, in our dining room or outside on our dog-friendly patio. | Don't forget about our special Teacher Happy Hour every Friday. | All specials | slide",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3977,7 +4275,22 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.umisushimd.com/",
+      "quote": "erated.​ | We are dedicated to creating a top-tier dining environment, featuring peaceful outdoor seating with waterfront views, and live entertainment that fosters joy and new experiences. We wi",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-urbankabob",

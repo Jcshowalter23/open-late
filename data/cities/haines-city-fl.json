@@ -1574,6 +1574,36 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio",
+     "sidewalk"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.lascasuelas.com/",
+      "quote": "Las Casuelas. | About our history | Join us at Las Casuelas Terraza | As one of the first patio dining restaurants in the Palm Springs area, we specialize in great outdoor ambience. “Terraza”",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (sidewalk wording)",
+      "url": "https://www.lascasuelas.com/",
+      "quote": "ely Palapa patio with an outdoor bar, dance floor and bandstand, and the intimate Cantina sidewalk patio. Dine and dance under the stars with us! | New menu items | To enhance your dining experi",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.lascasuelas.com/",
+      "quote": "c Terraza, with an antique fountain and colorful flowers, the lively Palapa patio with an outdoor bar, dance floor and bandstand, and the intimate Cantina sidewalk patio. Dine and dance under",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2159,7 +2189,30 @@
     "fbNewestPost": "2026-05-21",
     "website": "https://resort.to/smokehouse-on-the-river"
    },
-   "menu": "https://www.westgateresorts.com/hotels/florida/river-ranch/westgate-river-ranch-resort/dining/smokehouse-on-the-river/menu/"
+   "menu": "https://www.westgateresorts.com/hotels/florida/river-ranch/westgate-river-ranch-resort/dining/smokehouse-on-the-river/menu/",
+   "outdoor": {
+    "types": [
+     "porch"
+    ],
+    "firePit": true,
+    "sources": [
+     {
+      "src": "venue website (porch wording)",
+      "url": "https://www.westgateresorts.com/hotels/florida/river-ranch/westgate-river-ranch-resort/dining/smokehouse-on-the-river/",
+      "quote": "e features a game room, canned alcoholic adult beverages, fun chalk floor dining for kids on the Porch and is topped off by an amazing BBQ menu. Be loud, be hungry & leave happy! | MENU | ORD",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (fire pit wording)",
+      "url": "https://www.westgateresorts.com/specials/valentines-deal/",
+      "quote": "imes Guaranteed at Outdoor Pools & Spa Tub | Perfect Sunset Views with S’mores at Outdoor Fire Pit | Expand Content | Collapse Content | FIND RATES | x | Request For Proposal | First Name",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-splash-at-balmoral",
@@ -2233,7 +2286,31 @@
     "conflicts": [],
     "oneoffs": []
    },
-   "phoneSource": "Venue website splashatbalmoralresort.com, checked 2026-11-01"
+   "phoneSource": "Venue website splashatbalmoralresort.com, checked 2026-11-01",
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://splashatbalmoralresort.com/events/",
+      "quote": "pool pass | . A valid pool pass is required to participate. | Reserve Sunday Ticket | 21 | NOV | Special Event | The Ultimate Santana Experience | Latin",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-talk-of-the-town-barbeque",

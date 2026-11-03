@@ -1002,7 +1002,22 @@
     }
    ],
    "websiteSource": "OpenStreetMap node/12805213515 website tag (map data 2026-10-31), checked 2026-11-01",
-   "menu": "https://www.cured1821.com/menu"
+   "menu": "https://www.cured1821.com/menu",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.cured1821.com/",
+      "quote": "unch 11:00am - 3:00pm | Sunday Brunch 10:00am - 3:00pm | Sunday Dinner 3:00pm - 9:00pm | Patio is open weather permitting from April 1 - October 31 | 18TH & 21ST KITCHEN HOURS | Tuesday - Thur",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-curry-and-kabob",
@@ -1600,6 +1615,19 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/11045253069 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/11045253069",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1713,7 +1741,22 @@
     "fbNewestPost": "2026-10-18",
     "website": "https://www.gmxcolumbia.com/"
    },
-   "menu": "https://www.gmxcolumbia.com/menus/"
+   "menu": "https://www.gmxcolumbia.com/menus/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.gmxcolumbia.com/menus/happy-hour/",
+      "quote": "ents | Reservations | Reservation | Happy Hour | Happy Hour menu is served at the bar and on the patio only from 3pm – 6pm Monday-Friday | Drinks | $2 off specialty | cocktails | ! | $1.50 off",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-hard-shell-crabs-and-seafood",
@@ -2240,7 +2283,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.konstantinestaverna.com/",
+      "quote": "eating is limited – Please call to reserve your table | Book your event | With indoor and outdoor seating capacity over 200, you have many options for designing your special day | Menus | Daily",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.konstantinestaverna.com/events",
+      "quote": "ts events of any size, large or small. Reserve one of our two indoor dining rooms, awning-covered patio, open-air patio, our 70’ tent overlooking the tree-lined pond, our various open-air lawn",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-koshary-corner",
@@ -3180,6 +3245,21 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.smashinggrapes.com/private-events/",
+      "quote": "24 seated GRAPES BAR LOUNGE | 42 seated, 60+ standing FIG GROVE | 48 seated, semi-private OUTDOOR PATIO | 50 standing THE VINEYARD | 64 seated, 85 standing, semi-private MAIN DINING ROOM, THE V",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3960,7 +4040,61 @@
     "fbNewestPost": "2026-10-31",
     "website": "https://theturnhouse.com/"
    },
-   "menu": "https://theturnhouse.com/menu/"
+   "menu": "https://theturnhouse.com/menu/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "firePit": true,
+    "sources": [
+     {
+      "src": "OpenStreetMap way/1007569598 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/1007569598",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://theturnhouse.com/",
+      "quote": "| 2026-05-23T07:47:20-04:00 | Do you have outdoor seating? | Yes. We offer outdoor dining on our patio with views of the golf course, weather permitting. Our patio is a popular choice for both",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://theturnhouse.com/",
+      "quote": "Private event capabilities for any occasion | Free, spacious on-site parking | Indoor and outdoor dining available | Just minutes from downtown Columbia | What Guests Say About The Turn House |",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (fire pit wording)",
+      "url": "https://theturnhouse.com/private-events/",
+      "quote": "Venue Exclusive | Reserve the entire Turn House — indoor dining, bar, outdoor patio, and fire pit. The ultimate private experience for groups of up to 150 guests. | Up to 150 Guests | Eve",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Watch parties",
+    "teams": [],
+    "kinds": [
+     "watch"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://theturnhouse.com/football-carry-out-specials/",
+      "quote": "s | Make Game Day Easy with The Turn House | Whether you’re hosting a watch party or heading to a tailgate, our Football Carry-Out Specials make it eas",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-tinos-italian-bistro",
@@ -4341,6 +4475,19 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-31",
     "website": "http://www.victoriagastropub.com/"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/148393668 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/148393668",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4537,7 +4684,20 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/9742141120 opening_hours tag (map data 2026-11-01; last checked on the map 2026-08-31) (checked 2026-11-02); late hours confirmed by venue website https://dokkhao.com/dok-khao-columbia-home/: \" your home by ordering online! | Hours: Sunday – Thursday: 11 am – 10 pm Friday & Saturday: 11 am – 11 pm | ONLINE \" (checked 2026-11-02)",
    "county": "Howard",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/9742141120 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/9742141120",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-trato-columbia",

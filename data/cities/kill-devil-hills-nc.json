@@ -193,7 +193,30 @@
     "conflicts": [],
     "oneoffs": []
    },
-   "menu": "https://www.obxbeachsidebistro.com/menus"
+   "menu": "https://www.obxbeachsidebistro.com/menus",
+   "outdoor": {
+    "types": [
+     "deck",
+     "waterfront"
+    ],
+    "sources": [
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://www.obxbeachsidebistro.com/location/beachside-bistro/",
+      "quote": "lf-parking is available in the Sea Ranch Resort lot. | We currently offer Indoor Seating, Outdoor Deck Seating, In-Room delivery, and To-Go orders. | Get Directions | Call (252) 255-1063 | Ema",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (waterfront wording)",
+      "url": "https://www.obxbeachsidebistro.com/about-us/",
+      "quote": "e join us for a friendly and welcoming dining experience, either inside or outside on our oceanfront deck! Live music is offered seasonally. | Call (252) 255-1063 | Email Signup | Facebook | Inst",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nc-blue-crab-tavern",
@@ -517,7 +540,20 @@
     "fbNewestPost": null,
     "website": "https://goombays.com/"
    },
-   "menu": "https://goombays.com/menus"
+   "menu": "https://goombays.com/menus",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/515548159 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/515548159",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nc-hokkaido-ramen",
@@ -1098,7 +1134,20 @@
     "fbNewestPost": null,
     "website": "https://www.bonzershack.com/"
    },
-   "menu": "https://www.bonzershack.com/menu"
+   "menu": "https://www.bonzershack.com/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/9902902061 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/9902902061",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nc-the-jolly-roger-restaurant-and-bar",

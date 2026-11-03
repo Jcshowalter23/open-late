@@ -157,6 +157,25 @@
       "url": "https://www.charlieosbarandgrill.com/whats-happening"
      }
     ]
+   },
+   "gameday": {
+    "label": "Game day",
+    "teams": [],
+    "kinds": [
+     "gameday"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.charlieosbarandgrill.com/specials",
+      "quote": "ans Wing Wednesday moved to a Tuesday for a holiday is still | Wings. Game Day is keyword-only on purpose — a Sunday event is a weekend | special un",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -192,7 +211,22 @@
     "fbNewestPost": null,
     "website": "https://www.flatironsteakhouse.com/"
    },
-   "menu": "https://flatironsteakhouse.com/menu/"
+   "menu": "https://flatironsteakhouse.com/menu/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://flatironsteakhouse.com/",
+      "quote": "farms whenever possible. We have a full service bar and seat 65 people as well as outside patio seating, weather permitting. Our mission is to bring good food and drink to our customers in a cr",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-golden-wok-red-hook",
@@ -440,7 +474,20 @@
     "fbNewestPost": null,
     "website": "https://www.santafetivoli.com/"
    },
-   "menu": "https://santafehudsonvalley.com/menus"
+   "menu": "https://santafehudsonvalley.com/menus",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2041480721 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/2041480721",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-savonas-trattoria-red-hook",

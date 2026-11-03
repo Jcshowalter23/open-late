@@ -83,7 +83,20 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5318659561 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/5318659561",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "de-all-in-bbq",
@@ -670,7 +683,20 @@
     }
    ],
    "websiteSource": "OpenStreetMap node/5318905093 website tag (map data 2026-10-31), checked 2026-11-01",
-   "menu": "https://www.caffegelato.net/menus"
+   "menu": "https://www.caffegelato.net/menus",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5318905093 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/5318905093",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "de-calios-newark",
@@ -1693,7 +1719,40 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.foundingbrothersde.com/menu"
+   "menu": "https://www.foundingbrothersde.com/menu",
+   "gameday": {
+    "label": "Eagles game day",
+    "teams": [
+     {
+      "team": "Eagles",
+      "league": "NFL",
+      "local": true
+     }
+    ],
+    "kinds": [
+     "gameday"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.foundingbrothersde.com/game-day",
+      "quote": "Eagles Game Day Specials in Newark, DE | Founding Brothers | 168 E Main St · Newark,",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.foundingbrothersde.com/events",
+      "quote": "e Music + Late Night | Music 8–11 PM · happy hour 10–midnight | Sun | Game Day Specials | $1 wings · $5 drafts · $6 seltzers · $7 crushes at the bar",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "de-freddys-wings-and-wraps",
@@ -1911,6 +1970,33 @@
       "url": "https://meetatgrain.com/fundraisers-new"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/550454184 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/550454184",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://meetatgrain.com/",
+      "quote": "munity, and culture. | Read More About Our Story | Each unique location offers indoor and outdoor dining, award-winning American fare, live acoustic music and a friendly staff to make you feel w",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://meetatgrain.com/newark",
+      "quote": "ations on Easter and Mother’s Day. | Dog Policy | We welcome well trained dogs and guests on our patio. Please keep dogs on a leash. | Music + More @ Grain Newark | Live music, Bingo, Trivia a",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2024,6 +2110,28 @@
       "url": "https://meetatgrain.com/newark"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://meetatgrain.com/grain-exchange",
+      "quote": "equest. We will confirm via email. | Dog Policy | We welcome well trained dogs and guests on our patio. Please keep dogs on a leash. | Join us at Grain Exchange for live music and more! | Look",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://meetatgrain.com/all-locations",
+      "quote": "dinner and weekend brunch | Full bar with 24 taps | Live music stage | Mix of indoor and outdoor seating | Voted Best New Restaurant by Readers of | Delaware Today | Magazine. | Grain H2O | Loca",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2115,7 +2223,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/85686552 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/85686552",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "de-gusto-grill-brookside",
@@ -2360,6 +2481,28 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://shellhammers.com/",
+      "quote": "Bookings | My Account | Order Online | Order Online | Shellhammer's Restaurant | 3 Season Patio Seating Available | Full menu is available on our patio! Enjoy a cocktail with your meal and man'",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://shellhammers.com/",
+      "quote": "u is available on our patio! Enjoy a cocktail with your meal and man's best friend in our outdoor seating area- Dogs are always welcome! | Menu | Happy Hour | Join us for Happy Hour Monday thru F",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2823,7 +2966,22 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.lacasapasta.com/menu-dinner/"
+   "menu": "https://www.lacasapasta.com/menu-dinner/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.lacasapasta.com/",
+      "quote": "Phone: (302) 738 9935 | We are open seven days a week for lunch and dinner, with dine in, outdoor seating, takeout and online ordering options. | Reserve a table, book a private room or request o",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "de-la-parrillada-mexican-grill",
@@ -4614,7 +4772,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/13508069743 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/13508069743",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "de-sonora-restaurant-and-bar",
@@ -6202,7 +6373,20 @@
    "source": "hours from OpenStreetMap node/4213159699 opening_hours tag (map data 2026-10-31; last checked on the map 2023-11-23) (checked 2026-11-01)",
    "county": "New Castle",
    "addedBy": "sweep-osm",
-   "menu": "https://www.santafemexicangrill.com/newark-menus"
+   "menu": "https://www.santafemexicangrill.com/newark-menus",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/4213159699 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/4213159699",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "de-casablanca-moroccan-restaurant-new-castle",
@@ -6506,7 +6690,29 @@
      }
     ]
    },
-   "menu": "https://www.klondikekates.com/menus/"
+   "menu": "https://www.klondikekates.com/menus/",
+   "outdoor": {
+    "types": [
+     "porch"
+    ],
+    "sources": [
+     {
+      "src": "venue website (porch wording)",
+      "url": "https://www.klondikekates.com",
+      "quote": "n Newark DE and deciding where to eat in Newark DE. Perfectly nestled at Choate and Main, our porch is the spot on warm days for cocktails and our famous Kate’s Original Nachos. With 1,300+",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.klondikekates.com/live-music-and-events/",
+      "quote": "Newark: Monday–Friday 3 PM–6 PM with food and drink specials | Popular porch seating for outdoor dining on Main Street Newark | The Venue | Professional sound system for clear audio | Historic",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "de-oishii-ocean-newark",
@@ -6581,7 +6787,20 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/5318974658 opening_hours tag (map data 2026-11-01; last checked on the map 2023-11-23) (checked 2026-11-02); late hours confirmed by venue website https://claymontsteakshop.com: \" | 2720 Concord Pike | Wilmington, DE | 19803 | Hours | Claymont | Mon, Tue, Wed, Thur | 10:00 AM - 10:00 PM | Fri, Sa\" (checked 2026-11-02)",
    "county": "New Castle",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5318974658 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/5318974658",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "de-jakes-wayback-burgers-newark",
@@ -6653,6 +6872,21 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://firebirdsrestaurants.com/wilmington",
+      "quote": "alty crafted cocktails and select wines. Join us for Happy Hour at the | FIREBAR | ® | or on the patio for drink specials and bar bites. We offer top-notch service and upscale dining at a mode",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

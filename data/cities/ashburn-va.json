@@ -910,6 +910,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2819288174 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/2819288174",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1178,7 +1191,22 @@
     "fbNewestPost": null,
     "website": "https://www.parrandos.com/"
    },
-   "menu": "https://www.parrandos.com/menus"
+   "menu": "https://www.parrandos.com/menus",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.parrandos.com/location/ashburn",
+      "quote": "NU | Our dine-in location offers full table and bar service, with both indoor seating and outdoor patio seating, to give you the complete Parrando's premium-quality experience. | Ashburn | Our",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "va-passion-fin",
@@ -1564,6 +1592,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/8786839127 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/8786839127",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1669,6 +1710,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://tavafry.com"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/1189820153 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/1189820153",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1877,7 +1931,37 @@
     "fbNewestPost": null,
     "website": "https://www.lostfoxhideaway.com/"
    },
-   "menu": "https://www.lostfoxhideaway.com/menus"
+   "menu": "https://www.lostfoxhideaway.com/menus",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "firePit": true,
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.lostfoxhideaway.com/",
+      "quote": "our outdoor Terrace Bar. Overlook One Loudoun’s Downtown Plaza with a signature cocktail on our patio or cozy up with a pint next to our stone hearth in The Den. | Above all, we are a place t",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.lostfoxhideaway.com/events",
+      "quote": "ng | The Garden Terrace | Our lush and comfortable Garden Terrace features a full private outdoor bar, three low Mendocino fire tables, one cozy fireplace and bar/high top table seating. The",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (fire pit wording)",
+      "url": "https://www.lostfoxhideaway.com/about",
+      "quote": "11pm & Saturday from 1pm - 4pm | Please inquire at info@lostfoxhideaway.com for lounge & fire pit availability or visit us on OpenTable for reservations in our indoor dining room | Newsle",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "va-twisted-cat-tavern",

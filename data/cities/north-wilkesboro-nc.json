@@ -290,6 +290,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.rosellison10th.com/"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/11395277668 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/11395277668",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -410,7 +423,53 @@
     "fbNewestPost": null,
     "website": "https://thelostwombat.com/"
    },
-   "menu": "https://thelostwombat.com/menu/"
+   "menu": "https://thelostwombat.com/menu/",
+   "outdoor": {
+    "types": [
+     "deck"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://thelostwombat.com/calendar/",
+      "quote": "st Wombat | Playground for the kids in the Yard at The Lost Wombat | Enjoy great food and outdoor dining, while listening to great local live music right here in Wilkes County! | Join us for an",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://thelostwombat.com/tavern/",
+      "quote": "ern offers an unbeatable lineup of games! Leave your worries at the door as you enter our spacious deck where the fun begins. Grab a drink, relax, and challenge your friends to games that will",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://thelostwombat.com/tavern/",
+      "quote": "Tavern at The Lost Wombat! With two massive 70-inch TVs equipped with NFL Sunday Ticket, you won’t miss a single touchdown or game-winning goal. Whether you’",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nc-wisdom-brewing",

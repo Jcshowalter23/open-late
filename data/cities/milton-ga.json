@@ -97,7 +97,22 @@
     "fbNewestPost": "2026-10-28",
     "website": "http://www.7acrebarngrill.com/"
    },
-   "phoneSource": "Venue website www.7acrebarngrill.com, checked 2026-11-02"
+   "phoneSource": "Venue website www.7acrebarngrill.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.7acrebarngrill.com/",
+      "quote": "rainchild of Chris Sedgwick, 7 Acre BarNgrill features a 93 seat family-centric space and patio seating for 43. The menu is simple and includes comfort foods, a full bar featuring 77 whiskeys f",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-bandb-tavern-crabapple",
@@ -448,7 +463,22 @@
      }
     ]
    },
-   "phoneSource": "Venue website hydebrewing.beer, checked 2026-11-02"
+   "phoneSource": "Venue website hydebrewing.beer, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://hydebrewing.beer/",
+      "quote": "has a great bar with a full selection of liquor, and fine ales. Hyde has great indoor and outdoor seating! | Review by - Google | five star review by | David A: | Stopped in today with my two boy",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-lantoinette",
@@ -668,7 +698,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/584749773 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/584749773",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-moctezuma-mexican-grill",
@@ -815,7 +858,22 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.mondoitaliankitchen.com/",
+      "quote": "ivate Events | , | Family Style Catering Trays | , | Reservations for Large Parties | , | Outdoor Dining | and | Full Bar Service | . | What areas do you serve? | We are located at 14155 GA-9 #5",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-olde-blind-dog-irish-pub",
@@ -868,7 +926,49 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://oldeblinddog.com/catering",
+      "quote": "ton community — and we’d love to help make your next event one to remember, especially at the ROOFTOP AT CRABAPPLE MARKET. We offer flexible catering options for corporate events, school func",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Watch parties",
+    "teams": [],
+    "kinds": [
+     "watch"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://oldeblinddog.com/",
+      "quote": "at an easy pace. We’re big supporters of local sports, often hosting watch parties, post-game meetups, and team hangouts. Whether you’re stopping by for",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     },
+     {
+      "src": "venue website",
+      "url": "https://oldeblinddog.com/about",
+      "quote": "ood pint. We proudly support local rugby, cycling, and soccer—hosting watch parties, post-match meet-ups, and team socials. Whether you’re riding with a",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-smash-burgers-by-vice",
@@ -1125,7 +1225,53 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "gameday": {
+    "label": "NFL Sunday Ticket · Dolphins & Cowboys",
+    "teams": [
+     {
+      "team": "Dolphins",
+      "league": "NFL",
+      "local": false
+     },
+     {
+      "team": "Cowboys",
+      "league": "NFL",
+      "local": false
+     }
+    ],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.Suite200Grille.com/",
+      "quote": "45 | Sunday | The full early, late afternoon and Sunday night slate | NFL SUNDAY TICKET ON EVERY SCREEN | Cowboys at Colts 1:00 | Lions at Dolphins 1:00 | Gi",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.Suite200Grille.com/",
+      "quote": "s Weekend | This weekend at Suite 200 | Georgia at Ole Miss. The SEC. NFL Sunday Ticket. | Friday | Dance night | DJ 8:30 to 11:30 | Disco, 80s and yacht roc",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-taconest",

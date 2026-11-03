@@ -376,7 +376,22 @@
      }
     ]
    },
-   "phoneSource": "Venue website www.localsdocksidestmarys.com, checked 2026-11-02"
+   "phoneSource": "Venue website www.localsdocksidestmarys.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.localsdocksidestmarys.com/",
+      "quote": "| FRESH INGREDIENTS | MAKE DELICIOUS DISHES | OUR MENU | FULL BAR AVAILABLE | SPECIALS | OUTDOOR SEATING | RESERVE | HOST YOUR NEXT PARTY WITH US | PARTIES | ORDER ONLINE | Your Favorites TO GO!",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-osaka-japanese-steakhouse-and-sushi",
@@ -855,6 +870,30 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
+   },
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://weepubsouth.com/events/",
+      "quote": "Fans | Live Sports! | Never miss a game! | Watch all of your favorite NFL Sunday Ticket games live on the bigscreen. | Wing & Beer specials available all day",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   }
  ],

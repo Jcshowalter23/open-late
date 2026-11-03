@@ -558,7 +558,22 @@
     "fbNewestPost": null,
     "website": "https://www.five-bar.com/location/athens-georgia/"
    },
-   "websiteSource": "OpenStreetMap node/9813378199 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/9813378199 website tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.five-bar.com/location/athens-georgia/",
+      "quote": "Download PDF | Download PDF | HAPPENINGS: | HAPPY HOUR | Tuesday - Sunday at the bar and on the patio • 4pm - 6pm 1/2 price beer & well liquors $2 off wine by the glass 1/2 off signature cock",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-flama-brazilian-steak-house",
@@ -1429,7 +1444,20 @@
     "website": "https://www.southkitchenbar.com/"
    },
    "websiteSource": "OpenStreetMap node/2501973706 website tag (map data 2026-10-31), checked 2026-11-01",
-   "menu": "https://www.southkitchenbar.com/menus"
+   "menu": "https://www.southkitchenbar.com/menus",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2501973706 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/2501973706",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-sullys-steamers",
@@ -1788,6 +1816,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/237171652 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/237171652",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2489,7 +2530,20 @@
    "source": "hours from OpenStreetMap node/9686180534 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Clarke",
    "addedBy": "sweep-osm",
-   "menu": "https://www.therookandpawn.com/menu"
+   "menu": "https://www.therookandpawn.com/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/9686180534 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/9686180534",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-cafe-racer-athens",
@@ -2537,7 +2591,27 @@
      }
     ]
    },
-   "menu": "https://www.caferacer78.com/breakfast-menu"
+   "menu": "https://www.caferacer78.com/breakfast-menu",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/1510695600 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/1510695600",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.caferacer78.com/",
+      "quote": "hborhood hangout vibe featuring a full bar + room for up to 115 people to sit between our enclosed patio + outside on the lawn. We’re still serving up our classic breakfast menu but we’ve got a",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-bulldawg-pizza-wings-athens",
@@ -2674,6 +2748,21 @@
       "url": "https://johnnyspizza.com/location/athens/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://johnnyspizza.com/location/athens/",
+      "quote": "Saturday: 11:00am-10:00pm | Sunday: 11:00am-9:00pm | 706-354-1515 | Owner: Jeff Stover | Outdoor Seating, Family Friendly, Catering, Handicap Accessible, Serves Beer & Wine, Has High Chairs | To",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2699,7 +2788,20 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/595172296 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://dining.uga.edu/location/bolton-dining-commons/: \"1255 | Fall/Spring Hours: | Monday - Friday | 7:00 am - 10:00 pm | Saturda\" (checked 2026-11-02)",
    "county": "Clarke",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/595172296 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/595172296",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-1785-bar-grill-athens",

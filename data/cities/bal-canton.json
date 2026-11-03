@@ -145,7 +145,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3980742984 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/3980742984",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-ana-restaurant",
@@ -325,7 +338,22 @@
      }
     ]
    },
-   "phoneSource": "Venue website aquabargrill.com, checked 2026-11-02"
+   "phoneSource": "Venue website aquabargrill.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://aquabargrill.com/",
+      "quote": "| 7AM – 9PM | The Atmosphere | The venue features a bright, airy interior and a spacious outdoor patio that overlooks the hotel’s famous mineral water pools. Whether you’re stopping by for a c",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-baltimore-taphouse",
@@ -700,7 +728,22 @@
      }
     ]
    },
-   "menu": "https://www.portsidetavern.com/portside-menu"
+   "menu": "https://www.portsidetavern.com/portside-menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.portsidetavern.com/",
+      "quote": "ok Your Reservations | Due to weather and other circumstances we can’t guarantee Patio or Outdoor Seating but we will do our best to accomodate everyone. | View our Seasonal, DINNER, BRUNCH, and",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-captain-james-landing-seafood-restaurant-and",
@@ -1969,7 +2012,27 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/6184474138 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/6184474138",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://eatatgunther.com/calendar",
+      "quote": "nu from 5 - 9 PM served at our bars | every Tuesday. | Yappier Hour: | Enjoy Yappier Hour on our patio with your pup! | Second Tuesday of every month. | Giveways, dog treats, & more! | View Ev",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-hudson-street-stackhouse",
@@ -2015,6 +2078,30 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-07-01",
     "website": "http://www.hudsonstreetstackhouse.com/"
+   },
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://hudsonstreetstackhouse.com/about/",
+      "quote": "st cable, if the people-watching gets slow. With the NHL Center Ice, NFL Sunday Ticket and ESPN College Game Day there’s alway a game to watch. | Check out",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2207,6 +2294,21 @@
       "url": "https://jimmysfamousseafood.com/about/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://jimmysfamousseafood.com/about/",
+      "quote": "bingo hall, our building now boasts an elegant Dining Room, 2 Banquet Halls, 3 Bars and 2 Outdoor Seating Areas. | While we call Charm City our home, Jimmy’s Famous Seafood went Nationwide in 201",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2528,7 +2630,32 @@
     "website": "https://www.knottypinebmore.com/"
    },
    "menu": "https://4b8a52bb-2b32-4d65-b39b-ca5a4ddcd6dc.usrfiles.com/ugd/4b8a52_475d2eacdaba448b8e6621496fdc4285.pdf",
-   "phoneSource": "Venue website www.knottypinebmore.com, checked 2026-11-01"
+   "phoneSource": "Venue website www.knottypinebmore.com, checked 2026-11-01",
+   "gameday": {
+    "label": "Terps backers bar",
+    "teams": [
+     {
+      "team": "Terps",
+      "league": "NCAA",
+      "local": true
+     }
+    ],
+    "kinds": [
+     "backers"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.knottypinebmore.com/",
+      "quote": "aft beers and enticing seasonal cocktails, we take pride in being the official Maryland Terrapins bar for the vibrant Canton area. As a cherished neighborhood staple for d",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "backers"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-las-americas-latin-cuisine-baltimore",
@@ -2938,7 +3065,22 @@
     "website": "https://www.mamasonthehalfshell.com/"
    },
    "websiteSource": "OpenStreetMap node/5000428793 website tag (map data 2026-10-31), checked 2026-11-01",
-   "menu": "https://www.mamasonthehalfshell.com/menus"
+   "menu": "https://www.mamasonthehalfshell.com/menus",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.mamasonthehalfshell.com/our-story",
+      "quote": "the square. Great date spot - the perfect blend of fine dining and gastro pub. Plenty of outdoor seating as well.\" | - Daniel D. | What did | you | think? | Leave A Review: | Baltimore | Owings",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-mayuree-thai-tavern",
@@ -3545,6 +3687,19 @@
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-03-17",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5000345543 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/5000345543",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3690,7 +3845,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2485268849 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/2485268849",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-pupuseria-mama-tana",
@@ -3930,7 +4098,22 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://sallyos.com/",
+      "quote": "Address | 3531 Gough St, Baltimore | Maryland 21224 | Directions > | Follow Us | Indoor & Outdoor Dining Now Available! | Dinner | Monday-Saturday | 5pm-10pm | Happy Hour Monday-Thursday 5-7pm |",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-samos-greek-island-grill",

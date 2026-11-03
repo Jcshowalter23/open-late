@@ -198,7 +198,20 @@
     "fbNewestPost": null,
     "website": "https://www.fireonmainvictor.com/"
    },
-   "menu": "https://fireonmainvictor.com/menu"
+   "menu": "https://fireonmainvictor.com/menu",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/825621084 outdoor tags (patio; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/825621084",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-india-house-restaurant-victor",
@@ -944,7 +957,29 @@
     "fbNewestPost": null,
     "website": "https://www.thirstyturtlevictor.com/"
    },
-   "menu": "https://thirstyturtlevictor.com/food-menu"
+   "menu": "https://thirstyturtlevictor.com/food-menu",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://thirstyturtlevictor.com/",
+      "quote": "er you're watching the game with friends, grabbing lunch with coworkers, enjoying a drink on our patio or dinner with the family, we have it all! | our menu | RESERVATIONS | Lock in your table",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://thirstyturtlevictor.com/",
+      "quote": "d, cold drinks, your kind of night | Big moments feel easy in a space with a casual buzz, outdoor seating, live music, and a family-friendly feel. It is a strong fit for bridal showers, graduatio",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-toritos-cantina",
@@ -1105,6 +1140,34 @@
       "url": "https://dewolfbrewing.com/events-calendar/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "beer garden",
+     "sidewalk"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/825621041 outdoor tags (parklet; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/825621041",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://dewolfbrewing.com/book-an-event/",
+      "quote": "ust minutes from Rochester. Choose from taproom tables, our cocktail room or the seasonal beer garden, with space for groups of 15 to 125. | Start Your Event Inquiry | Event Spaces: Taproom,",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://dewolfbrewing.com/book-an-event/",
+      "quote": "he taproom, part or all of our cocktail room, a section of the beer garden, or the entire outdoor space. From small gatherings to larger celebrations, we can arrange the space around the size a",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   }
  ],

@@ -888,7 +888,20 @@
     "fbNewestPost": null,
     "website": "https://www.gennaroshamilton.com"
    },
-   "menu": "https://www.gennaroshamilton.com/menu"
+   "menu": "https://www.gennaroshamilton.com/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/8203935564 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/8203935564",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nj-ginza-spot",
@@ -1430,7 +1443,42 @@
     "conflicts": [],
     "oneoffs": []
    },
-   "menu": "https://killarneyspublickhouse.com/food-menu"
+   "menu": "https://killarneyspublickhouse.com/food-menu",
+   "gameday": {
+    "label": "NFL Sundays",
+    "teams": [],
+    "kinds": [
+     "football"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://killarneyspublickhouse.com/events",
+      "quote": "rder 609 Duo - 6pm | DJ Bay -10pm | Read more | 06:00 PM - 12:00 AM | NFL SUNDAY | Sunday November 8th | Opening early for Bengals vs. Falcons 9:30am",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://killarneyspublickhouse.com/events",
+      "quote": ", 2026 | 2 events on Sunday, November 8th, 2026 | 8 | Sun | All day | NFL SUNDAY | Sunday, November 8th, 2026 | 1pm-3pm | Eagles vs Giants | Sunday, N",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nj-la-casona-restaurante-and-bar",
@@ -2073,6 +2121,21 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://robbinsvillebarandgrill.com/",
+      "quote": "and cooked perfectly. The calamari was exceptional. It’s beautiful inside and they have outdoor seating as well. They could use Sam Adams and/or Blue Moon on tap, which they currently don’t hav",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

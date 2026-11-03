@@ -823,7 +823,29 @@
     "fbNewestPost": "2026-10-26",
     "website": "https://www.ethosbistro.com/"
    },
-   "menu": "https://www.ethosbistro.com/menus"
+   "menu": "https://www.ethosbistro.com/menus",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.ethosbistro.com/",
+      "quote": "C | If you're looking for a place with great drinks and lots of fun, ethos Greek Bistro's outdoor patio al fresco dining in South Florida is unbeatable. The ambiance is lively, perfect for enjo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.ethosbistro.com/",
+      "quote": "n a Monday evening. Nice modern style and decor. Very warm and inviting. There's pleasant outdoor seating as well. The service is incredibly fast. Delicious warm soft bread was served with herb i",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-fire-lobster",
@@ -1518,7 +1540,20 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2087530736 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/2087530736",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-lirianos-kitchen",

@@ -1619,7 +1619,29 @@
     "fbNewestPost": null,
     "website": "https://www.thecornerpocket.us/"
    },
-   "menu": "https://thecornerpocket.us/williamsburg-the-corner-pocket-food-menu"
+   "menu": "https://thecornerpocket.us/williamsburg-the-corner-pocket-food-menu",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://thecornerpocket.us/",
+      "quote": "pool hall. With 13 pool tables, darts, a full-service bar, a dining room, and a spacious outdoor patio, there’s something for everyone. Whether you’re grabbing lunch with a coworker, enjoying",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://thecornerpocket.us/",
+      "quote": "menus available | Fresh, Healthy, and Tasty | Menu | Come enjoy our spacious patio | Dine Al Fresco with Us. | book a table | Family friendly | Fun for All Ages | book a party | Reviews | S",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "va-the-hounds-tale",
@@ -1810,7 +1832,20 @@
      }
     ]
    },
-   "menu": "https://www.paulsdelineighborhoodrestaurant.com/new-town-menu/"
+   "menu": "https://www.paulsdelineighborhoodrestaurant.com/new-town-menu/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/6160189647 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/6160189647",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "type": "city",

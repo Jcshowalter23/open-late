@@ -1015,6 +1015,28 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.bullcityburgerandbrewery.com/",
+      "quote": "er 7 days per week with approximately 90 seats inside plus 50 seats of outside year round patio dining. We offer counter style service and a family friendly experience with a children’s play a",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.bullcityburgerandbrewery.com/",
+      "quote": "Durham, NC 27701 ​ | (919) 680-2333 | Hours of Operation: | TO GO ORDER PICK-UP, INDOOR & OUTDOOR DINING ​Monday - Thursday 11:11 AM to 9:30 PM Friday and Saturday 11:11 AM to 10 PM Sunday 11:11",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1125,6 +1147,75 @@
       "url": "https://www.bullmccabesirishpub.com/events"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "beer garden",
+     "patio",
+     "lawn"
+    ],
+    "heated": true,
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.bullmccabesirishpub.com/",
+      "quote": "lawn with large picnic tables, games, and adirondack chairs, or party on the covered and heated patio | We’re also the triangles favorite sports bar — Whether it’s a premier league derby matc",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.bullmccabesirishpub.com/",
+      "quote": "historic five points intersection in downtown Durham with a quaint indoor space & ample outdoor seating — check out the newly landscaped lawn with large picnic tables, games, and adirondack cha",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://www.bullmccabesirishpub.com/events",
+      "quote": ") | Google Calendar | ICS | We’re getting close to that time! Join us as we transform our beer garden into a biergarten for our (10th?!?) Annual Oktoberfest on Saturday September 12th -- a fa",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (lawn wording)",
+      "url": "https://www.bullmccabesirishpub.com/live-music-on-the-lawn-1",
+      "quote": "funk, and world vibes to their music. We’re thrilled to announce that they will debut on our lawn stage on October 30 and know that you’ll like them as much as we do! | Algorhythm Trio Yo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "NFL Sunday Ticket · Steelers",
+    "teams": [
+     {
+      "team": "Steelers",
+      "league": "NFL",
+      "local": false
+     }
+    ],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.bullmccabesirishpub.com/events",
+      "quote": "Jan 13, 2028 | 11:30 PM | 23:30 | Google Calendar | ICS | We have the NFL Sunday Ticket and can show games on a first come, first served basis! Steelers fans",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1428,7 +1519,22 @@
     "fbNewestPost": null,
     "website": "https://commonmarketisgood.com/durham/"
    },
-   "menu": "https://commonmarketisgood.com/durham/menu.htm"
+   "menu": "https://commonmarketisgood.com/durham/menu.htm",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://commonmarketisgood.com/durham/",
+      "quote": "Mon 7am-8pm | Tues-Sat 7am-10pm | Parking: | Our lot and street parking | Dogs: | Allowed on the patio only | Deli Hours | Sun 8am-4pm | Mon 7am-4pm | Tues-Sat 7am-9pm | Sign Up for Our Newsle",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nc-convivio-restaurant",
@@ -2225,7 +2331,22 @@
     "fbNewestPost": null,
     "website": "https://www.eltesoromex.com"
    },
-   "menu": "https://eltesoromex.com/food-menu"
+   "menu": "https://eltesoromex.com/food-menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://eltesoromex.com/",
+      "quote": "acter. | That family story continues at this new Mexican restaurant in Chapel Hill, where outdoor seating, vegetarian choices, and an attentive team help every guest feel welcome. Pickup and deli",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nc-fairview-dining-room",
@@ -2598,6 +2719,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://geerstreetgarden.com/"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/79059900 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/79059900",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3491,6 +3625,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/613971295 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/613971295",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3645,6 +3792,21 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.jujudurham.com/party-at-juju",
+      "quote": "| Events | Host your next event at Juju | With our elegant indoor seating and a spacious outdoor patio, Juju is the perfect spot for your next event. Spread good juju and host with us — we off",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4478,7 +4640,22 @@
     "fbNewestPost": null,
     "website": "https://lostresdurham.com/"
    },
-   "menu": "https://lostresdurham.com/food-menu"
+   "menu": "https://lostresdurham.com/food-menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://lostresdurham.com/",
+      "quote": "iendly service, and reasonable prices. They even will make fresh guacamole at your table. Outdoor seating available when the weather permits. | Review by - Google | five star review by | Andrés C",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nc-lulu-bang-bang",
@@ -4811,7 +4988,20 @@
     "fbNewestPost": null,
     "website": "https://www.maverickssmokehouse.com/"
    },
-   "menu": "https://maverickssmokehouse.com/durham-maverick-s-smokehouse-and-taproom-food-menu"
+   "menu": "https://maverickssmokehouse.com/durham-maverick-s-smokehouse-and-taproom-food-menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/31345349 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/31345349",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nc-mayflower-xvi-seafood-restaurant",
@@ -4897,7 +5087,22 @@
     "fbNewestPost": null,
     "website": "https://www.mezdurham.com/"
    },
-   "menu": "https://mezdurham.com/durham-mez-contemporary-mexican-food-menu"
+   "menu": "https://mezdurham.com/durham-mez-contemporary-mexican-food-menu",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://mezdurham.com/",
+      "quote": "| previous slide | next slide | Spicy & colorful | packed with deliciousness | Our Menu | Outdoor Patio | save your place | reservations | Private Space | for your event | parties | order onlin",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nc-mezcalito-durham-grill-and-tequila-bar",
@@ -5346,6 +5551,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://nantucketgrill.com/location/farrington-road-chapel-hill"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/1040590001 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/1040590001",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -5493,7 +5711,22 @@
     "fbNewestPost": null,
     "website": "https://www.nikosdurham.com/"
    },
-   "menu": "https://www.nikosdurham.com/menus"
+   "menu": "https://www.nikosdurham.com/menus",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.nikosdurham.com/private-events/",
+      "quote": "attentive service, and a lively atmosphere. | Capacity: | 13-20 Guests | Patio | Our lush covered patio provides a beautiful open-air setting for gatherings of up to 60 guests. Surrounded by gr",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nc-nuvotaco",
@@ -8124,7 +8357,22 @@
     "fbNewestPost": null,
     "website": "https://www.thelooprestaurant.com/durham-nc"
    },
-   "menu": "https://www.thelooprestaurant.com/menu"
+   "menu": "https://www.thelooprestaurant.com/menu",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.thelooprestaurant.com/durham-broad-street-north-carolina",
+      "quote": "large | groups | , it | has a beautiful and inviting interior and boasts a cozy exterior covered patio, too. | ​ | This location has the same great menu and service that has defined The Loop f",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nc-the-oak-house-durham",
@@ -8324,6 +8572,21 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://thepinhook.com/"
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://thepinhook.com/about",
+      "quote": "ly dance parties and karaoke are over 21. Most shows are ALL AGES. | SMOKING | We have a back patio for you to engage in your deep breath practice and consume your libations. | For BOOKING:",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -8378,6 +8641,33 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/13408205001 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/13408205001",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.thedurham.com/roof/",
+      "quote": "The Roof at The Durham Hotel | Rooftop Bar in Durham, North Carolina | Skip to main content | Open Menu | The Durham Hotel | Book No",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.thedurham.com/about/",
+      "quote": "s | The Roof at The Durham | , a rooftop lounge with an indoor bar as well as covered and open-air seating that has become a year-round destination for guests and locals alike. The Roof at The Dur",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -9031,7 +9321,22 @@
    ],
    "source": "hours from OpenStreetMap node/14051458201 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Durham",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.westenddurham.com/events",
+      "quote": "imate party with ease. | West End Social offers a relaxed space with a private mezzanine, outdoor patio, and a full selection of wine, beer, and cocktails, Events on the mezzanine have access t",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nc-west-end-wine-bar-durham",
@@ -9146,6 +9451,28 @@
       "url": "https://www.westenddurham.com/social"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.westenddurham.com/social",
+      "quote": "nines. We have an elegant bar downstairs, cozy seating areas on our mezzanine, and a chic outdoor patio where you can enjoy your favorite drinks al fresco. Choose a cozy corner inside or bask i",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.westenddurham.com/social",
+      "quote": "areas on our mezzanine, and a chic outdoor patio where you can enjoy your favorite drinks al fresco. Choose a cozy corner inside or bask in the fresh air as you unwind with friends, colleag",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -9196,7 +9523,27 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/3013504372 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://guglhupf.com/private-parties/: \" | Monday: Closed | Tuesday: 8am - 8pm | Wednesday: 8am - 8PM | Thursday: 8Am - 8pm | Friday: 8am - 9PM | Saturda\" (checked 2026-11-02)",
    "county": "Durham",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3013504372 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/3013504372",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://guglhupf.com/",
+      "quote": "s so yummy too. Free parking. Good environment. Love this place.\" | Ivy C. | \"The outdoor biergarten is delightful. Shady and pleasant even on a hot summer day. We had the pork schnitzel and",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nc-the-daily-beer-bar-durham",
@@ -9223,7 +9570,20 @@
    ],
    "source": "hours from OpenStreetMap node/3312503173 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://www.thedailybeerbar.com/: \"gn by | Caleb Durham | MENUS | ABOUT | Our Hours | Monday | 8:00 AM - 5:00 PM | Tuesday | 8:00 AM - 9:00 PM | Wednesd\" (checked 2026-11-02)",
    "county": "Durham",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3312503173 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/3312503173",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nc-firebirds-durham",
@@ -9270,6 +9630,21 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://firebirdsrestaurants.com/durham",
+      "quote": "alty crafted cocktails and select wines. Join us for Happy Hour at the | FIREBAR | ® | or on the patio for drink specials and bar bites. We offer top-notch service and upscale dining at a mode",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -9297,7 +9672,20 @@
    ],
    "source": "hours from OpenStreetMap node/13917780568 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Durham",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/13917780568 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/13917780568",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "type": "city",

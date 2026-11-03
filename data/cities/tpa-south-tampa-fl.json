@@ -257,7 +257,29 @@
     "fbNewestPost": "2026-10-29",
     "website": "https://acropolistaverna.com/locations/south-tampa"
    },
-   "menu": "https://acropolistaverna.com/menu/"
+   "menu": "https://acropolistaverna.com/menu/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://acropolistaverna.com/orlando-event-hosting/",
+      "quote": "odates up to 195 guests and is ideal for weddings, galas, and large corporate events. The Outdoor Patio Garden seats up to 175 guests and is perfect for open-air receptions and social celebrati",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://acropolistaverna.com/locations/",
+      "quote": "nearest location, and use the ordering links to get started. | Which Greek restaurant has outdoor seating options? | All six Acropolis Greek Taverna locations offer outdoor patio seating — perfec",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-bahia-tacos",
@@ -461,7 +483,22 @@
     "fbNewestPost": "2026-10-27",
     "website": "https://www.barterroir.co/"
    },
-   "menu": "https://www.barterroir.co/menu"
+   "menu": "https://www.barterroir.co/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.barterroir.co/about",
+      "quote": "and thoughtfully crafted cocktails. With a cozy dining room, bar seating, and a welcoming al fresco area, Bar Terroir creates an intimate, lively atmosphere, perfect for indulging in French",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-bartaco-tampa",
@@ -519,7 +556,20 @@
     "fbNewestPost": "2026-10-02",
     "website": "https://bartaco.com/location/tampa/"
    },
-   "menu": "http://order.bartaco.com/menu/bartaco-hyde-park"
+   "menu": "http://order.bartaco.com/menu/bartaco-hyde-park",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/4175035890 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/4175035890",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-bayshore-mediterranean-grill",
@@ -817,6 +867,21 @@
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-29",
     "website": "http://bocellitampa.com/"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://bocellitampa.com/tampa-ballast-point-bocelli-modern-italian-about",
+      "quote": "ayshore Blvd just 1 mile from the side gate of MacDill Air Force Base. We have indoor and outdoor seating, along with a private back room that can be reserved for dinner parties, business, and mo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1301,7 +1366,22 @@
     "fbNewestPost": "2026-10-09",
     "website": "https://www.crucellars.com/"
    },
-   "menu": "https://www.crucellars.com/menus"
+   "menu": "https://www.crucellars.com/menus",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.crucellars.com/cru-cellars-about",
+      "quote": "ghts & craft beer, Cru Cellars also has a full dining menu. In fact, Cru offers the best al fresco dining in Tampa in our secluded wine garden. Our shelves are stocked with small-productio",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-datz",
@@ -1872,7 +1952,55 @@
     "fbNewestPost": "2026-10-25",
     "website": "http://goodluckchucksoho.com/"
    },
-   "phoneSource": "Venue website goodluckchucksoho.com, checked 2026-11-02"
+   "phoneSource": "Venue website goodluckchucksoho.com, checked 2026-11-02",
+   "gameday": {
+    "label": "Monday Night Football",
+    "teams": [],
+    "kinds": [
+     "football"
+    ],
+    "days": [
+     "Mon",
+     "Thu",
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://goodluckchucksoho.com/",
+      "quote": "otball game-day experience right on South Howard Avenue. Whether it’s NFL Sundays, Monday Night Football, Thursday Night Football or a full Saturday of",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://goodluckchucksoho.com/",
+      "quote": "ay experience right on South Howard Avenue. Whether it’s NFL Sundays, Monday Night Football, Thursday Night Football or a full Saturday of college football, Good",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Mon"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://goodluckchucksoho.com/",
+      "quote": "South Howard Avenue. Whether it’s NFL Sundays, Monday Night Football, Thursday Night Football or a full Saturday of college football, Good Luck Chuck’s is the plac",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Thu"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-green-iguana-bar-and-grill",
@@ -2731,6 +2859,19 @@
     "stale": false,
     "oneoffs": [],
     "conflicts": []
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/1768191899 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/1768191899",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2834,6 +2975,41 @@
       ]
      }
     ]
+   },
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://Mackenziessportstavern.com/",
+      "quote": "favorite sports on Direct TV, and during football season, we have the NFL Ticket and the SEC Network. | View Our Menu | every game every sunday with t",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://Mackenziessportstavern.com/",
+      "quote": "d the SEC Network. | View Our Menu | every game every sunday with the nfl ticket | Wings Specials! | Need a larger order? Call and Pre-order today! |",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2910,7 +3086,20 @@
      "checked": "2026-11-01"
     }
    ],
-   "phoneSource": "Venue website maddogs.com, checked 2026-11-02"
+   "phoneSource": "Venue website maddogs.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/11010226382 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/11010226382",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-maru-tampa",
@@ -2979,7 +3168,22 @@
     "fbNewestPost": "2026-10-18",
     "website": "https://www.marutampa.com/?y_source=1_MTA5ODY1MDExNi01NTktbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
    },
-   "menu": "https://www.marutampa.com/menus"
+   "menu": "https://www.marutampa.com/menus",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.marutampa.com/about/",
+      "quote": "t, a birthday or a weekend round with friends, Maru is made for the occasion. Grab a seat on the patio for sunset, settle in as the DJ picks up, and let our team take care of the rest, from yo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-meat-market-tampa",
@@ -3783,6 +3987,19 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/967677596 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/967677596",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -5115,6 +5332,19 @@
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-07-15",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2253001143 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/2253001143",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

@@ -262,7 +262,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/251150710 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/251150710",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-c-and-r-caribbean-jerk",
@@ -581,7 +594,20 @@
     }
    ],
    "websiteSource": "OpenStreetMap node/10161081495 website tag (map data 2026-10-31), checked 2026-11-01",
-   "menu": "https://www.cuddlefishatl.com/menu"
+   "menu": "https://www.cuddlefishatl.com/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/10161081495 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/10161081495",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-d92-korean-bbq",
@@ -614,6 +640,26 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2024-08-28",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/11296392979 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/11296392979",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://d92kbbq.com/",
+      "quote": "thentic Korean BBQ in Decatur, GA. | Table Top Grills. Soju. Craft Cocktails. Draft Beer. Outdoor Seating. | Find it all at Atlanta's best Korean BBQ spot: D92. | Reviews | Review by - Yelp | Ash",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1109,7 +1155,20 @@
     "fbNewestPost": null,
     "website": "http://www.kimball-house.com/"
    },
-   "phoneSource": "OpenStreetMap way/307773271 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap way/307773271 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/307773271 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/307773271",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-la-chiquiada",
@@ -1140,6 +1199,21 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2024-11-08",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://lachiquiada.com/",
+      "quote": "ng the weekend slow with an iced horchata, or catching up over cocktails and candlelight, our patio beckons. | Consider this your cordial invitation to join us whenever you’ve worked up an",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1218,7 +1292,22 @@
      "checked": "2026-11-01"
     }
    ],
-   "phoneSource": "Venue website www.lasbrasasdecatur.com, checked 2026-11-02"
+   "phoneSource": "Venue website www.lasbrasasdecatur.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.lasbrasasdecatur.com/",
+      "quote": "e | local_dining | Catering | Traditional Peruvian cuisine | Roasted rotisserie chicken | Patio seating | Ceviche | Libations | schedule | Hours of Operation | Monday - Sunday | 11:30am-10pm |",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-leons-full-service",
@@ -1305,7 +1394,30 @@
      "checked": "2026-11-01"
     }
    ],
-   "phoneSource": "Venue website www.leonsfullservice.com, checked 2026-11-02"
+   "phoneSource": "Venue website www.leonsfullservice.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "deck",
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://www.leonsfullservice.com/events",
+      "quote": "e Leon Ave | (map) | Google Calendar | ICS | Come join in the fun and Watch the World cup on our deck! | View Event → | Book your LEONs Full Service reservation on Resy | Back To Top | PRIVAT",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.leonsfullservice.com/thedeck",
+      "quote": "te Events | Happenings | Gift Cards | Contact | THE DECK AT LEONs | About the space | Our back patio area, The Deck at LEONs Full Service may be reserved for private parties of up to 40 peop",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-lobster-eats-decatur",
@@ -1513,6 +1625,19 @@
     "fbPostsSeen": 12,
     "fbNewestPost": "2026-10-30",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/544487962 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/544487962",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1660,7 +1785,20 @@
      }
     ]
    },
-   "phoneSource": "Venue website www.NapoleonsGrill.com, checked 2026-11-02"
+   "phoneSource": "Venue website www.NapoleonsGrill.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3601380593 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/3601380593",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-noodle-decatur",
@@ -1793,6 +1931,42 @@
       ]
      }
     ]
+   },
+   "gameday": {
+    "label": "Monday Night Football",
+    "teams": [],
+    "kinds": [
+     "football"
+    ],
+    "days": [
+     "Mon",
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.osullivanspub.com/",
+      "quote": "s is the perfect Irish pub to watch good soccer game and Monday night Sunday night football great food great atmosphere good prices! | S.F. | O’Sullivans is one",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.osullivanspub.com/event-details/monday-movie-night-2026-11-02-23-00",
+      "quote": "ew all 9 dates | About the event | When: | Every Monday evening after Monday Night Football | Where: | O'sullivans Pub | What’s On: | Rotating selection of cult",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Mon"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2515,6 +2689,21 @@
       "url": "https://Santoatl.com/avondale-estates-downtown-avondale-state-santo-cantina-and-cocina-events"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://Santoatl.com/",
+      "quote": "e hard to find at other typical Mexican restaurants. Atmosphere is very welcoming and the outdoor dining area can accommodate a good crowd. | review by - Facebook | Laura W: | Nice addition to A",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3061,6 +3250,19 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/9395547797 outdoor tags (patio; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/9395547797",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3685,7 +3887,20 @@
     "oneoffs": [],
     "conflicts": []
    },
-   "phoneSource": "OpenStreetMap node/498417914 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/498417914 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/498417914 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/498417914",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-uncle-phills",
@@ -3854,7 +4069,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/544052903 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/544052903",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-vegetarian-to-go",
@@ -4030,6 +4258,47 @@
       "url": "https://www.velaparkfoodworks.com/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.velaparkfoodworks.com/",
+      "quote": "aight out onto the park. | Two Outdoor Containers | Extra concepts and counters set right on the patio, blurring the line between inside and out. | The Park | A wide, open park for picnics, pl",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.velaparkfoodworks.com/private-events",
+      "quote": "e private-event venue in the heart of East Lake, Atlanta. | East Lake, Atlanta · Indoor & Outdoor Space | Private Events | YOUR PEOPLE. YOUR PARK. | Birthdays, brand moments, team dinners, rece",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Watch parties",
+    "teams": [],
+    "kinds": [
+     "watch"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.velaparkfoodworks.com/private-events",
+      "quote": "-ups that want energy, food, and an open outdoor canvas. | Game-Day & Watch Parties | Big screens, big appetites, and the park for everyone to gather aro",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4198,6 +4467,19 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/7104887775 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/7104887775",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   }
  ],

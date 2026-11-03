@@ -684,7 +684,20 @@
     "fbNewestPost": null,
     "website": "http://royalstixga.com/"
    },
-   "websiteSource": "OpenStreetMap node/2727105420 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/2727105420 website tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2727105420 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/2727105420",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-sensu",
@@ -1007,6 +1020,28 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.twistedtaco.com/fayetteville-georgia",
+      "quote": "utes from Trilith and Peachtree City. Come in for tacos, burritos, fajitas and margaritas on the patio, or let us bring the taco bar to your office lunch or party. | Button | Button | Button |",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.twistedtaco.com/fayetteville-georgia",
+      "quote": "Vs to catch your favorite games, it’s not just a meal, it’s an experience! | Do you offer outdoor seating at the Fayetteville location? | Yes! Our Fayetteville location features a spacious outdoo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   }
  ],

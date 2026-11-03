@@ -255,6 +255,28 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.opentable.com/r/ahu-mar-miami",
+      "quote": "At AHU MAR you can dine in the main dining room, enjoy drinks at the bar, or sit outside on the patio. | Does this restaurant serve alcohol? | Yes, AHU MAR’s Drinks menu features beers, signa",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.opentable.com/r/ahu-mar-miami",
+      "quote": "ll Bar, Gluten-free Options, Happy Hour, Indoor Fireplace, Late Night, Non-Smoking, Patio/Outdoor Dining, Weekend Brunch, Wheelchair Access, Wine | Concierge | AI Beta | Our AI assistant, Concie",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -761,7 +783,20 @@
     "website": "https://www.bairesgrill.com/"
    },
    "menu": "https://www.bairesgrill.com/menu",
-   "phoneSource": "OpenStreetMap node/13228803916 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/13228803916 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/13228803916 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/13228803916",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-ballinbks",
@@ -952,7 +987,20 @@
      "checked": "2026-11-01"
     }
    ],
-   "phoneSource": "OpenStreetMap way/255185933 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap way/255185933 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/255185933 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/255185933",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-bodega-taqueria-y-tequila-coral-gables",
@@ -1956,7 +2004,22 @@
     }
    ],
    "menu": "https://www.danielssteak.com/miami/menus/dinner-menu/",
-   "phoneSource": "Venue website www.danielssteak.com/miami, checked 2026-11-01"
+   "phoneSource": "Venue website www.danielssteak.com/miami, checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.danielssteak.com/miami/",
+      "quote": "nu | The Bar at Daniel’s | Wine | Miami Cocktail List | Private Dining | Who We Are | D’S ROOFTOP BAR & GRILL | Newsletter Signup | Menus | Miami Dinner Menu | Miami Lunch Menu | Miami Brunch",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-doc-bs-restaurant-bar-coral-gables",
@@ -4672,7 +4735,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.ottoandpepe.com/",
+      "quote": "gned to celebrate real Italian flavors, the kind that pair perfectly with a glass of wine on the patio or at the pasta bar. | MENU | Food | Wine | Cocktails | Lunch Menu | Happy Hour | APPETIZ",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.ottoandpepe.com/",
+      "quote": "edicated Negroni program, alongside a selection of small bites—all designed to be enjoyed al fresco. Business Lunch in WynwoodPlanning a meeting or quick lunch with colleagues? Otto & Pepe",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-ozz-chef",
@@ -4989,7 +5074,22 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://perryssteakhouse.com/specials/senior-menu/"
+   "menu": "https://perryssteakhouse.com/specials/senior-menu/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://perryssteakhouse.com/locations/fl/miami/coral-gables/",
+      "quote": "vibrant Bar 79 | ® | and exceptional service. Showcasing our newest look complete with a large patio, fire element and both outdoor lounge and dining seating — Perry’s is the perfect place t",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-pincho-coral-gables",
@@ -5674,7 +5774,66 @@
     "website": "https://spanglishmiami.com/"
    },
    "menu": "https://spanglishmiami.com/menu/",
-   "phoneSource": "Venue website spanglishmiami.com, checked 2026-11-01"
+   "phoneSource": "Venue website spanglishmiami.com, checked 2026-11-01",
+   "gameday": {
+    "label": "Hurricanes & Dolphins watch party",
+    "teams": [
+     {
+      "team": "Hurricanes",
+      "league": "NCAA",
+      "local": true
+     },
+     {
+      "team": "Dolphins",
+      "league": "NFL",
+      "local": true
+     },
+     {
+      "team": "Notre Dame",
+      "league": "NCAA",
+      "local": false
+     }
+    ],
+    "kinds": [
+     "watch"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://spanglishmiami.com/",
+      "quote": "watch in Wynwood, with a martini in hand | Spanglish programs select watch parties for TV, sports and live events: Miami Dolphins and Miami Hurricanes g",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     },
+     {
+      "src": "venue website",
+      "url": "https://spanglishmiami.com/",
+      "quote": "e Events | Reservations | About | Reviews | Contact | Watch Parties | Watch Parties | TV Watch Parties | NFL | Miami Dolphins | Miami Hurricanes | Colleg",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     },
+     {
+      "src": "venue website",
+      "url": "https://spanglishmiami.com/",
+      "quote": "ions | About | Reviews | Contact | Watch Parties | Watch Parties | TV Watch Parties | NFL | Miami Dolphins | Miami Hurricanes | College Football | Soccer",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     },
+     {
+      "src": "venue website",
+      "url": "https://spanglishmiami.com/event/canes-notre-dame-watch-party/",
+      "quote": "Sunday | Closed | Football · College Football | Canes at Notre Dame | Watch Party | Saturday · 7:30 PM | Reserve a table | Events calendar | At a glanc",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-sports-grill-south-miami",
@@ -5829,6 +5988,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/1247956549 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/1247956549",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -6092,7 +6264,22 @@
     "conflicts": [],
     "oneoffs": []
    },
-   "phoneSource": "Venue website theglobecafe.com, checked 2026-11-02"
+   "phoneSource": "Venue website theglobecafe.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://theglobecafe.com/",
+      "quote": "world class jazz, creative cocktails, an elegant private dining/party room, ample terrace al fresco seating and lovingly prepared fresh food – at a great value. We sincerely look forward t",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-the-gramercy-miami",
@@ -6595,7 +6782,27 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/13148371488 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://calistataverna.com/: \" Giralda Avenue | Coral Gables, FL | 33134 | Get Directions | Hours | Friday, Saturday | 11:45 AM - 10:45 PM | Sunday,\" (checked 2026-11-02)",
    "county": "Miami-Dade",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/13148371488 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/13148371488",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://calistataverna.com/",
+      "quote": "beers. Relish the enchanting Mediterranean ambiance on our Terrace, perfect for enjoying al fresco dining and soaking in the Greek inspired surroundings. Experience the luxury of private d",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "type": "city",

@@ -175,6 +175,26 @@
       "url": "https://www.alessandros.com/happenings"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/989613788 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/989613788",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.alessandros.com/private-alessandros",
+      "quote": "rporate events, and special occasions. | For guests seeking an open-air experience, our | outdoor patio | offers a lively yet relaxed setting perfect for cocktail receptions and social events.",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -320,7 +340,29 @@
     "fbNewestPost": null,
     "website": "https://autographbrasserie.com/"
    },
-   "menu": "https://autographbrasserie.com/menu"
+   "menu": "https://autographbrasserie.com/menu",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://autographbrasserie.com/happenings/",
+      "quote": "d specialties. Reservations are recommended. | MENU | HAPPY HOUR Join us in the Lounge or on the patio Monday through Friday from 3 to 6 PM for $9 specially priced cocktails, $8 glasses of win",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://autographbrasserie.com/happenings/",
+      "quote": "ys feature rotating performances by Shady Groove and Chris Giakas from 5:00 to 8:00 PM. | OUTDOOR DINING Dine on our intimate garden patio, weather permitting, featuring umbrellas and a whimsica",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "black-powder-tavern",
@@ -1451,6 +1493,28 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.wills-bills.com/event-spaces",
+      "quote": "nk tickets for us to treat our guests. The event staff made every attempt to keep us cool on the patio, but it ended up being in the 90s that day. I would absolutely encourage folks to book Wi",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.wills-bills.com/event-spaces",
+      "quote": "py Hours | Virtual Tour | Start Planning → | 60 | Seated | 85 | Standing | The Patio | An outdoor space with all the comforts of dining in. Features a giant throw rug, white tablecloths, and a",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1603,7 +1667,37 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/1203396331 opening_hours tag (map data 2026-11-01; last checked on the map 2023-06-06) (checked 2026-11-02); late hours confirmed by venue website https://phillysteaksberwyn.com/: \"erwyn, PA 19312 | Across from the train station | HOURS | Closed Monday | Tuesday- Saturday 11AM to 9PM | Sunday:\" (checked 2026-11-02)",
    "county": "Chester",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "gameday": {
+    "label": "Monday Night Football · Eagles",
+    "teams": [
+     {
+      "team": "Eagles",
+      "league": "NFL",
+      "local": true
+     }
+    ],
+    "kinds": [
+     "football"
+    ],
+    "days": [
+     "Mon"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://phillysteaksberwyn.com/",
+      "quote": "| Tuesday- Saturday 11AM to 9PM | Sunday: 12 Noon to 8:00PM | Eagles Monday Night Football | Open from 4 PM to 9 PM | 11/10/25 and 12/8/25 | Our Authentic Fresh",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Mon"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "pa-nectar-berwyn",

@@ -388,7 +388,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/10799617072 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/10799617072",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-blue-agave",
@@ -765,6 +778,21 @@
     "fbPostsSeen": 5,
     "fbNewestPost": "2026-10-30",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.citylimitssportsbar.com/",
+      "quote": "eat. Fries were crispy | Rachel L | ★ | ★ | ★ | ★ | ★ | Sports pub with some pet friendly outdoor seating. My husband loved his burger & fries. I really enjoyed the 3 shrimp tacos. Preferring the",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -934,6 +962,21 @@
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-30",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://www.crossbarbaltimore.com/",
+      "quote": "Baltimore's Biergarten | Baltimore's Biergarten | online odering | New Menu | Baltimore Bayern | Events | Locati",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1641,6 +1684,55 @@
       ]
      }
     ]
+   },
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "football",
+     "ticket"
+    ],
+    "days": [
+     "Mon",
+     "Thu",
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://hairofthedogbaltimore.com/weekly-specials",
+      "quote": "lue | Industry Night | Specials deals for restaurant industry peeps | Monday Night Football | Tuesday | Quesadilla & Tequila Night | $4 off all quesadillas | $3",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Mon"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://hairofthedogbaltimore.com/weekly-specials",
+      "quote": "Trivia Night in town | Thursday | Burger Night | $4 of all burgers | Thursday Night Football on Prime | Friday | BOGO Night | Buy one get one | Domestic Beer, RTD",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Thu"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://hairofthedogbaltimore.com/weekly-specials",
+      "quote": "Brunch served from 11am to 2pm | College Football All Day | Sunday | NFL SUNDAY TICKET | Every NFL game every Sunday | Brunch served 11am to 2pm | Copyright",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1717,6 +1809,19 @@
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-04-08",
     "website": "http://www.hershs.com/"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/4958964734 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/4958964734",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1941,6 +2046,21 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://limoncellobaltimore.com/",
+      "quote": "timore, MD location seats about 120 guests between the dining room and bar, with seasonal outdoor dining offering another 30 seats. With a large bar and banquette dining, Limoncello offers an id",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2152,7 +2272,22 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.localsonlybaltimore.com/food-menu"
+   "menu": "https://www.localsonlybaltimore.com/food-menu",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.localsonlybaltimore.com/private-events",
+      "quote": "nly. | Submit | Disco | Room | 900 Square feet | 100 person capacity | Private restroom | Outdoor patio with enclosure | 4 tvs with audio and visual capabilities | Main | Floor | 1600 sq ft | 2",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-m8-beer",
@@ -2370,6 +2505,36 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "deck",
+     "waterfront"
+    ],
+    "sources": [
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://nicksfishhouse.com/",
+      "quote": ". Our menu serves up something for everyone from deck fries to our famous crab cakes. The waterfront deck is the perfect spot whether you want to enjoy a craft beer or orange crush during happy h",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (waterfront wording)",
+      "url": "https://nicksfishhouse.com/",
+      "quote": ". Our menu serves up something for everyone from deck fries to our famous crab cakes. The waterfront deck is the perfect spot whether you want to enjoy a craft beer or orange crush during happy h",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://nicksfishhouse.com/",
+      "quote": "l while enjoying some entertainment. | 2025 Awards Won for Best Raw Bar, Cocktails, View, Outdoor Dining. | Honorable Mention for Steamed Crabs, & Catering. | Reviews | The food was amazing. The",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3012,7 +3177,20 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2150478314 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/2150478314",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "md-ropewalk-tavern",
@@ -3197,6 +3375,36 @@
     "fbPostsSeen": 19,
     "fbNewestPost": "2026-10-28",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "rooftop",
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.ryestreettavern.com/events/",
+      "quote": "ith prizes worth showing off. | 10.31.26 | LIVE MUSIC | Join us Thursday through Saturday on the patio for live music from local artists. | October 29 | 5:00 PM–8:00 PM | Dan Haas Trio October",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.ryestreettavern.com/private-events/",
+      "quote": "Peninsula, is an elegant waterfront event venue for up to 400 guests, featuring indoor & rooftop space to host corporate events, weddings, and milestone celebrations. For information about ho",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.ryestreettavern.com/about/",
+      "quote": "coming and versatile, featuring a fully redesigned kitchen, oyster bar, and a spectacular outdoor dining venue with a 75-seat island bar as its centerpiece. The interior features a harmonious bl",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3733,6 +3941,36 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
     "website": "http://Thecoppershark.com/"
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "firePit": true,
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.thecoppershark.com/about",
+      "quote": "d beams, and intimate bar space leading to an open and airy dining room and our fantastic back patio set for outdoor dining and conversations around our fire pit (weather permitting!). | Sit",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.thecoppershark.com/about",
+      "quote": "te bar space leading to an open and airy dining room and our fantastic back patio set for outdoor dining and conversations around our fire pit (weather permitting!). | Sit at the bar to enjoy an",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (fire pit wording)",
+      "url": "https://www.thecoppershark.com/about",
+      "quote": "ing room and our fantastic back patio set for outdoor dining and conversations around our fire pit (weather permitting!). | Sit at the bar to enjoy an artisanal beer or oak-aged bourbon al",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4205,6 +4443,21 @@
       "url": "https://watershedbaltimore.com/music/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://watershedbaltimore.com/",
+      "quote": "g some of the region’s signature dishes, including steamed hard-shell crabs. An expansive rooftop deck provides an intimate outdoor experience in the heart of Federal Hill, complete with a cov",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4277,6 +4530,87 @@
       "url": "https://www.waywardsmoke.com/events/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.waywardsmoke.com/",
+      "quote": "| @wayward.fedhill | This is a Wayward night. | Theme nights, game days, costumes and the front patio packed out. This is what a Saturday looks like. | Throw Yours Here | Follow on Instagram",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Thursday Night Football · Ravens & Alabama",
+    "teams": [
+     {
+      "team": "Ravens",
+      "league": "NFL",
+      "local": true
+     },
+     {
+      "team": "Alabama",
+      "league": "NCAA",
+      "local": false
+     },
+     {
+      "team": "Steelers",
+      "league": "NFL",
+      "local": false
+     }
+    ],
+    "kinds": [
+     "football",
+     "gameday"
+    ],
+    "days": [
+     "Thu",
+     "Sat"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.waywardsmoke.com/",
+      "quote": "day | Nine flavors, grilled, fried or boneless. | Saturdays | Alabama Game Days | Every Bama game on every screen. Roll Tide. | Weekends | Brunch | S",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday",
+      "days": [
+       "Sat"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.waywardsmoke.com/events/",
+      "quote": "very screen | Brunch into kickoff. | Reserve a Table | Sun Nov | 22 | Game Day | Ravens at Panthers | 1 PM · Every screen | Brunch first, then the g",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.waywardsmoke.com/events/",
+      "quote": "ff time to be set. Get here early. | Reserve a Table | Sun Nov | 29 | Game Day | Ravens at Texans | 1 PM · Every screen | Sunday brunch rolls into k",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.waywardsmoke.com/events/",
+      "quote": "ame. Pregame here, then walk over. | Reserve a Table | Sun Dec | 20 | Game Day | Ravens at Steelers | 1 PM · Every screen | Steelers week. | Reserve",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

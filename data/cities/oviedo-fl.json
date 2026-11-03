@@ -718,7 +718,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/4792184166 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/4792184166",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-gourmet-2-go",
@@ -1919,7 +1932,41 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://ffoviedo.com/group-events/",
+      "quote": "| A vibrant atmosphere in the heart of Oviedo on the Park | Seating Variety | Indoor and outdoor seating options | Customizable Menus | Customizable menus to suit your event's theme and dietary",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://ffoviedo.com/",
+      "quote": "ourbon from our growing collection. | Crack open a beer and watch the NFL ticket or UCF games on our 15 tv’s and 140-inch projector screen. | Can’t de",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-tikka-shack",
@@ -2126,7 +2173,22 @@
      }
     ]
    },
-   "menu": "https://anotherbrokeneggcafe.olo.com/menu/oviedo"
+   "menu": "https://anotherbrokeneggcafe.olo.com/menu/oviedo",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.anotherbrokenegg.com/locations/oviedo-fl/",
+      "quote": "-in, your next online order, group order or catered event. | Full Bar | Online Ordering | Patio Dining | Pet Friendly Patio | Catering | Free WiFi | Owned and Operated By: Another Broken Egg C",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "type": "city",

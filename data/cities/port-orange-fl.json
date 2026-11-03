@@ -264,7 +264,22 @@
     "fbNewestPost": "2026-10-26",
     "website": "https://www.boondocks-restaurant.com/"
    },
-   "menu": "https://www.boondocks-restaurant.com/menus/"
+   "menu": "https://www.boondocks-restaurant.com/menus/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.boondocks-restaurant.com/about/",
+      "quote": "rant a special place. Come by boat, car, or whatever ride you choose and enjoy our unique outdoor dining experience! | Directions | Boondocks is in Wilbur-By-The-Sea, between Daytona Beach Shore",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-dahlia-port-orange",
@@ -634,6 +649,19 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-08-03",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/487559036 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/487559036",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1204,6 +1232,21 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-06-01",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.lacantinamexicanportorange.com/",
+      "quote": "tmosphere for The Mexican Experience. | ​ | Amenities include full-service bar (Cantina), patio dining. La Cantina is committed to serving the community for generations to come carrying on the",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1389,7 +1432,27 @@
     "fbNewestPost": "2026-10-26",
     "website": "https://malibubeachgrill.net/"
    },
-   "menu": "https://malibubeachgrill.net/menu.html"
+   "menu": "https://malibubeachgrill.net/menu.html",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/6579164858 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/6579164858",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://malibubeachgrill.net/",
+      "quote": "casion. | In the Pavillion in Port Orange, Malibu hosts a large dining room, bar area and outdoor patio, along with two private areas for events. Enjoy a date night out, celebrate a special occ",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-mark-and-jills-village-tavern",
@@ -1645,7 +1708,78 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://mulligans-grille.com/assets/docs/mulligans-menu.pdf"
+   "menu": "https://mulligans-grille.com/assets/docs/mulligans-menu.pdf",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://mulligans-grille.com/",
+      "quote": "inutes up the road. Bike Week visitors get our packed courtyard, full bar, and live music on the patio. | March & October | 🏈 | Game Day | Every TV, every game. NFL Sundays, college Saturdays,",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "NFL Sundays · Patriots",
+    "teams": [
+     {
+      "team": "Patriots",
+      "league": "NFL",
+      "local": false
+     }
+    ],
+    "kinds": [
+     "football",
+     "gameday"
+    ],
+    "days": [
+     "Sat",
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://mulligans-grille.com/",
+      "quote": "tyard, full bar, and live music on the patio. | March & October | 🏈 | Game Day | Every TV, every game. NFL Sundays, college Saturdays, Pats fans wel",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday",
+      "days": [
+       "Sat",
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://mulligans-grille.com/",
+      "quote": "live music on the patio. | March & October | 🏈 | Game Day | Every TV, every game. NFL Sundays, college Saturdays, Pats fans welcome. | All season | Fo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday",
+      "days": [
+       "Sat",
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://mulligans-grille.com/",
+      "quote": "n the patio. | March & October | 🏈 | Game Day | Every TV, every game. NFL Sundays, college Saturdays, Pats fans welcome. | All season | Follow us on Fa",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-our-deck-down-under",
@@ -1734,7 +1868,22 @@
     "fbNewestPost": "2026-10-15",
     "website": "https://www.ourdeckdownunder.com/"
    },
-   "menu": "https://www.ourdeckdownunder.com/menu"
+   "menu": "https://www.ourdeckdownunder.com/menu",
+   "outdoor": {
+    "types": [
+     "deck"
+    ],
+    "sources": [
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://www.ourdeckdownunder.com/",
+      "quote": "e with an ice cold beer inside or watch the sunset after a long day on the water from our outdoor deck. Whether you're joining us for lunch or dinner, you will enjoy beautiful panoramic views",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-peanut-butter-and-jealous",
@@ -2635,6 +2784,21 @@
       "url": "https://theturnfl.com/events"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://theturnfl.com/",
+      "quote": "with very little wait time for it to arrive. Definitely going back. We eat a table at the outdoor bar. | Review by - Yelp | five star review by | Linda G: | Great bartenders. Glad to see the",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

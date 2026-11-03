@@ -58,6 +58,19 @@
     "fbPostsSeen": 14,
     "fbNewestPost": "2026-10-31",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/8188425663 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/8188425663",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -407,6 +420,26 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3394522102 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/3394522102",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.cedarsorlando.com/",
+      "quote": "ar’s offers authentic Lebanese flavors in a cozy, family-friendly setting with indoor and outdoor seating. | GET IN TOUCH | cedarsoforlando@gmail.com | 7732 West Sand Lake Road, Orlando FL 32819",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -581,7 +614,20 @@
     "fbNewestPost": "2026-10-31",
     "website": null
    },
-   "phoneSource": "OpenStreetMap node/10798488038 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/10798488038 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/10798488038 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/10798488038",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-flame-kabob",
@@ -1698,6 +1744,21 @@
     "fbPostsSeen": 11,
     "fbNewestPost": "2026-10-30",
     "website": "https://locations.noodles.com/fl/orlando/7822-w-sand-lake-rd"
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://locations.noodles.com/fl/orlando/7822-w-sand-lake-rd",
+      "quote": "354-1301 | Careers | Apply Now | Amenities | Catering | Free Wi-Fi | Delivery | Dine-In | Patio Seating | Store Hours | Delivery Hours | Every dish is fresh and made to order. | We take the tim",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1883,7 +1944,22 @@
     "fbNewestPost": "2026-10-29",
     "website": "https://www.ocean-prime.com/locations-menus/orlando/"
    },
-   "menu": "https://ocean-prime.com/locations-menus/boston/"
+   "menu": "https://ocean-prime.com/locations-menus/boston/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://ocean-prime.com/locations-menus/chicago/",
+      "quote": "njoy $20 Veuve Clicquot by the glass accompanied by $3 featured oysters in our Lounge and on our patio. | Friday Oysters & Bubbles | On Fridays, enjoy $20 Veuve Clicquot by the glass accompani",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-paddywagon-dr-phillips",
@@ -2107,6 +2183,54 @@
       "url": "https://paddywagonorlando.com/events/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://paddywagonorlando.com/event-venue/",
+      "quote": "square feet of indoor space, complemented by an additional 1,250 square feet of beautiful outdoor patio area. Standard maximum capacity is 250 guests, ensuring ample space for events of various",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Watch parties",
+    "teams": [],
+    "kinds": [
+     "football",
+     "watch"
+    ],
+    "days": [
+     "Thu"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://paddywagonorlando.com/events/",
+      "quote": "ring DJs and themed nights, from ’80s throwback nights to raves, plus watch parties and sports memorabilia nights. | Davenport | Wednesday trivia with Ta",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     },
+     {
+      "src": "venue website",
+      "url": "https://paddywagonorlando.com/events/",
+      "quote": "ball runs all weekend on the screens, including college Saturdays and Thursday Night Football. | Lake Buena Vista | Dirty Bingo with DJ Andrew Fortes is the main e",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Thu"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2743,6 +2867,21 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://thehorlando.com/",
+      "quote": "closes at 12:00 AM | HAPPY HOUR | 5 PM – 6:30 PM | Available | ONLY | at the bar and the outdoor Patio | DRESS CODE | In order to deliver the best experience to you in our upscale, sophisticat",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

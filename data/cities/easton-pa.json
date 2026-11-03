@@ -818,6 +818,37 @@
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-01-14",
     "website": "https://www.hangdoglv.com/hangdog-brewing-co/drinks-eats/"
+   },
+   "outdoor": {
+    "types": [
+     "beer garden",
+     "lawn"
+    ],
+    "firePit": true,
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://www.hangdoglv.com/hangdog-brewing-co/drinks-eats/",
+      "quote": "nia’s newest brewery! Hang out and fuel up with friends and family at HangDog’s very own beer garden. | HangDog Brewing Co. | features delicious menu offerings sure to satisfy. We believe go",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (lawn wording)",
+      "url": "https://www.hangdoglv.com/plan-your-event/book-your-event/",
+      "quote": "e filled outing with friends and dive into HangDog Brewery where a chill vibe, music, and lawn games set the scene. Enjoy gourmet food options paired with our crafted brews as you challenge",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (fire pit wording)",
+      "url": "https://www.hangdoglv.com/plan-your-event/corporate-events-team-building/",
+      "quote": "ion or a relaxed company family outing. With activities for ages five and up, yard games, fire pits, and live music, HangDog provides a diverse experience that caters to all attendees. | Co",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1362,7 +1393,29 @@
     "fbNewestPost": "2026-10-25",
     "website": "https://melieaston.com/"
    },
-   "menu": "https://melieaston.com/menu/"
+   "menu": "https://melieaston.com/menu/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://melieaston.com/events/",
+      "quote": "use spirit cocktails, delight in $9 select wines and celebrate with $1 off draft beers. | PATIO SEASON IS OPEN | Our patio is now open at Meli European Taverna! Dine outside in downtown. Enjoy",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://melieaston.com/events/",
+      "quote": "th award winning hospitality. outdoor happy hour is also available! visit us for the best outdoor dining experience in the Lehigh Valley. | BEGINNING IN JUNE – BUSINESS POP UP EVENTS | This year",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "mesa-modern-mexican",
@@ -1424,6 +1477,19 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-26",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/6699327200 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/6699327200",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2457,6 +2523,28 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-13",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "deck"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.riversidebar.com/",
+      "quote": "beer selection, and delicious homemade dishes that appeal to all ages. Our Tiki Bar and outside seating area overlooks the river and is the perfect place to enjoy your afternoon. | Upcoming Eve",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://www.riversidebar.com/about",
+      "quote": "od and good friends.awesome food and drink specials great place in the summer time on the outside deck\" = | Tommy O | Questions? | Get in Touch | Subscribe to our newsletter! | * | indicates r",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2590,6 +2678,21 @@
     "fbPostsSeen": 1,
     "fbNewestPost": "2024-06-27",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.sogosushieaston.com/",
+      "quote": "n a friendly atmosphere to the Lehigh Valley. Featuring a full-bar, sushi bar seating and outdoor patio, enjoy your next night out at Sogo and try our famous Monkey Roll! | Born and raised in E",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3088,6 +3191,31 @@
       "url": "https://www.thecoopsportsbar.com/events/"
      }
     ]
+   },
+   "gameday": {
+    "label": "Eagles game day",
+    "teams": [
+     {
+      "team": "Eagles",
+      "league": "NFL",
+      "local": true
+     }
+    ],
+    "kinds": [
+     "gameday"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.thecoopsportsbar.com/",
+      "quote": "delphia Eagles game and every playoff run. Group bookings welcome for game days and special events. Check our events calendar for trivia nights, watc",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3360,6 +3488,29 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-31",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "firePit": true,
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.threeoaksteakhouse.com/",
+      "quote": "RIC DISTRICT // | EASTON, PA | the area’s only | skyview retractable ceiling | AT OUR | Rooftop bar | Bursting with the Timeless Style of a Classic American Steakhouse | where every beam, f",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (fire pit wording)",
+      "url": "https://www.threeoaksteakhouse.com/private-events",
+      "quote": "ftop Terrace | Exchange vows beneath the open sky or glass roof, with city views and cozy fire pits. | Club Room | Rich textures, a gas | fireplace, and Juliet balconies overlooking Artists",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3407,6 +3558,21 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-23",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.thymeeaston.com/",
+      "quote": "| Order Online | Elevate Your Dining at Thyme Rooftop Grille | Discover Easton's premier rooftop dining destination. The third venture from the ownership | group of Grille 3501 and ZEST brings",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3757,6 +3923,27 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-27",
     "website": "https://wanderlustbeergarden.com/"
+   },
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "firePit": true,
+    "sources": [
+     {
+      "src": "OpenStreetMap node/10616780375 outdoor tags (biergarten; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/10616780375",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (fire pit wording)",
+      "url": "https://www.wanderlustbeergarden.com/visit",
+      "quote": "om rows of authentic German beer garden tables to Adirondack chairs cozily circled around firepits, American built pick-up truck beds turned into booth-styled tables to umbrellaed picnic t",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

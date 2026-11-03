@@ -429,6 +429,19 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-27",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3823367495 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/3823367495",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1386,6 +1399,21 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://foodeist.com/place/crazy-about-you",
+      "quote": "e for lunch and dinner. Expect to spend around $30 - $80 per person. | Highlights include outdoor seating, free Wi-Fi, a full bar, private dining and a waterfront setting. Families will find high",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2965,6 +2993,21 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://thekeg.com/en/",
+      "quote": "into our state of the art restaurant with a beautiful dining room, trendy lounge and bar, enclosed patio and semi-private dining space. Book your table now. | Reserve now | NEW LOCATIONS | We've",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4143,7 +4186,29 @@
      }
     ]
    },
-   "phoneSource": "Venue website oldcutlerinn.com, checked 2026-11-02"
+   "phoneSource": "Venue website oldcutlerinn.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://oldcutlerinn.com/palmetto-bay-palmetto-bay-old-cutler-inn-about",
+      "quote": "tled just across from the famed Deering Estate, this revived venue offers both indoor and outdoor seating, making it ideal for everything from casual meals to special celebrations. The menu showc",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://oldcutlerinn.com/palmetto-bay-palmetto-bay-old-cutler-inn-faq",
+      "quote": "Do you offer indoor and outdoor seating? | Yes — we offer both indoor dining and a scenic outdoor patio. Guests can choose between a comfortable indoor ambiance or relaxed outdoor seating. | Do",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-pamelas-restaurante",
@@ -5718,7 +5783,20 @@
     "fbNewestPost": "2026-09-22",
     "website": "https://soithaifood.com/"
    },
-   "menu": "https://soithaifood.com/menu"
+   "menu": "https://soithaifood.com/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/6047873377 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/6047873377",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-sokai-sushi-bar",
@@ -5953,6 +6031,49 @@
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-08-27",
     "website": "https://vivodolphinmall.com/eat-and-drink/sports-and-social"
+   },
+   "gameday": {
+    "label": "Watch parties",
+    "teams": [],
+    "kinds": [
+     "watch"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://vivodolphinmall.com/eat-and-drink/sports-and-social",
+      "quote": "very Match. Every Goal. Every Moment | AUG | 22 | FEB | 14 | Football Watch Parties | August 22, 2026 | 12:00 PM | Sports & Social Dolphin Mall | YOUR UL",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     },
+     {
+      "src": "venue website",
+      "url": "https://vivodolphinmall.com/eat-and-drink/sports-and-social",
+      "quote": "ment | Events and Entertainment | Events & Weekly Specials | Football Watch Parties | Game day starts here! Catch college and pro football on a 50-ft. BI",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     },
+     {
+      "src": "venue website",
+      "url": "https://vivodolphinmall.com/eat-and-drink/sports-and-social",
+      "quote": "Back | Events and Entertainment | Events & Weekly Specials | Football Watch Parties | Game day starts here! Catch college and pro football on a 50-ft. BI",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     },
+     {
+      "src": "venue website",
+      "url": "https://vivodolphinmall.com/events-and-entertainment/events/football-watch-party",
+      "quote": "Football Watch Parties | Loading component... | Loading component... | Events and Entertainm",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -7336,7 +7457,20 @@
    "source": "hours from OpenStreetMap way/436037132 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Miami-Dade",
    "addedBy": "sweep-osm",
-   "menu": "https://order.flanigans.net/menu/kendall"
+   "menu": "https://order.flanigans.net/menu/kendall",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/436037132 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/436037132",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-mariachi-fiesta-grande-miami-florida-miami",

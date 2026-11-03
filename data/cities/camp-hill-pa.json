@@ -99,6 +99,21 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.brewhousegrille.com/"
+   },
+   "outdoor": {
+    "types": [
+     "deck"
+    ],
+    "sources": [
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://www.brewhousegrille.com/",
+      "quote": "| 7177370030 | brewhousegrille@comcast.net | THE BREWHOUSE We are casual hangout with an outdoor deck that offers creative pub fare & dozens of microbrews. We look forward to serving you! | L",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -232,6 +247,76 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "heated": true,
+    "sources": [
+     {
+      "src": "OpenStreetMap way/559381412 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/559381412",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://thesierramadresaloon.com/",
+      "quote": "! | If smoking isn’t your thing, or you want a more family-friendly atmosphere, check out our patio. | Beers & Specialty drinks | Sierra Madre menu | Upcoming Events | Great Appetizers | WE",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://thesierramadresaloon.com/",
+      "quote": "Madre. As such, we ask that no one under 18 be allowed to enter the premises. We do offer outdoor seating that can accommodate your entire family. | Stay Connected | Facebook | Instagram | X-twit",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (heated wording)",
+      "url": "https://thesierramadresaloon.com/about/",
+      "quote": "we ask that no one under 18 be allowed inside. However we do offer outdoor seating on our heated patio that can accommodate your entire family. | Mission, Vision, Values | You’re the reason we",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://thesierramadresaloon.com/",
+      "quote": "Instagram | X-twitter | Sierra Madre | We host all UFC pay per views, NFL Sunday Ticket, College Game Day, MLB Ticket, NBA Ticket, ESPN+ and Peacock+ | Copyr",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://thesierramadresaloon.com/events/",
+      "quote": "iting lineup you won’t want to miss! | We host all UFC pay per views, NFL Sunday Ticket, College Game Day, MLB Ticket, NBA Ticket, ESPN+ and Peacock+ | Join",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -301,6 +386,21 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://evergrainbrewing.com/"
+   },
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://evergrainbrewing.com/location/taproom/",
+      "quote": "ce pouring from our 75-foot long bar or grab a cocktail and catch some sun in the outdoor beer garden. | Location | 4444 Carlisle Pike Suite C | Camp Hill, PA 17011 | Get Directions | 1 (717)",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -346,7 +446,34 @@
     "fbNewestPost": null,
     "website": "https://thewatershed.pub/"
    },
-   "menu": "https://thewatershed.pub/wp-content/uploads/2026/10/Fall-Menu-Online-06.pdf"
+   "menu": "https://thewatershed.pub/wp-content/uploads/2026/10/Fall-Menu-Online-06.pdf",
+   "outdoor": {
+    "types": [
+     "porch"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/11999597901 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/11999597901",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (porch wording)",
+      "url": "https://thewatershed.pub/",
+      "quote": "More | visit us | Whether it’s for a quick pint or a drawn out meal with neighbors on the front porch, we look forward to sharing our favorite plates, Millworks beers and craft cocktails with",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://thewatershed.pub/",
+      "quote": "he building’s historic integrity while activating the front of the building with expanded outdoor seating. | Learn More | visit us | Whether it’s for a quick pint or a drawn out meal with neighbo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "theo-s-bar-and-grille",

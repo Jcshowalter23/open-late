@@ -243,6 +243,55 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "deck",
+     "waterfront"
+    ],
+    "sources": [
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://www.aquagrill.net/private-events/",
+      "quote": "ering A/C or heaters, we ensure that you’ll have the best of comfort in al fresco dining. Our deck extends over the water for the ultimate enjoyment in lakefront dining. For guests who wan",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (waterfront wording)",
+      "url": "https://www.aquagrill.net/private-events/",
+      "quote": "rgy of the main dining room separate from your function. | Capacity: | 40 seated guests | Lakefront Deck | Can host 20-80 seated guests. Regardless of the weather, we’ve got you covered with our",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.aquagrill.net/private-events/",
+      "quote": "ntrolled deck. Offering A/C or heaters, we ensure that you’ll have the best of comfort in al fresco dining. Our deck extends over the water for the ultimate enjoyment in lakefront dining. F",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.aquagrill.net/about/",
+      "quote": "ont deck with climate control, and a lively full service bar with all NFL ticket, sports packages and 4K HD TVs. For your convenience, we serve lunch",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -592,7 +641,22 @@
     "website": "https://luluswaterfrontgrille.com/"
    },
    "menu": "https://luluswaterfrontgrille.com/menu",
-   "phoneSource": "OpenStreetMap node/7176682902 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/7176682902 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://luluswaterfrontgrille.com/",
+      "quote": "t Grille is to make our guests feel at home when dining with us. We offer both indoor and outdoor seating with occasional live music. Our view of the intercostal is unmatched as you can dine righ",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-mulligans-pub-ponte-vedra-beach",
@@ -1025,7 +1089,29 @@
     "fbNewestPost": "2026-02-03",
     "website": "https://pvtaproom.com/"
    },
-   "menu": "https://pvtaproom.com/menu"
+   "menu": "https://pvtaproom.com/menu",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://pvtaproom.com/",
+      "quote": "| Gift Cards | Contact | Best Bar in Ponte Vedra Beach | Craft Beers | Handcrafted Menu | Dog-Friendly Patio | Order pickup | Order delivery | Start a catering order | Order pickup | Order delivery",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://pvtaproom.com/",
+      "quote": "s you can enjoy at Ponte Vedra Tap Room. | Image gallery | Close | Close | Live Music and Outdoor Seating | Enjoy your meal with the perfect backdrop—whether it’s the energy of live music or the",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-poppys-italiano",
@@ -1511,7 +1597,26 @@
      }
     ]
    },
-   "menu": "https://mrchubbyswings.com/menu"
+   "menu": "https://mrchubbyswings.com/menu",
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://mrchubbyswings.com/ponte-vedra-beach-location",
+      "quote": "$3 wells | Saturday | Game Day | 2-4-1 Margaritas All Day | Sunday | NFL Ticket | $10 Domestic Pitchers All Day | Gallery | View Full Gallery | Links",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "type": "town",

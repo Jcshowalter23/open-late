@@ -303,6 +303,29 @@
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-19",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "patio",
+     "sidewalk"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.ilgranaiopa2.com/",
+      "quote": "le | MENUS | Serving lunch, dinner, and Sunday brunch in our dining rooms, at the bar, or on the patio. | Reservations accepted. Walk-in guests always welcome. | Tuesday, Wednesday, Thursday:",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (sidewalk wording)",
+      "url": "https://www.ilgranaiopa2.com/location.html",
+      "quote": "s are located on the bottom floor of the Mainstay Inn. | Seating is also available on our sidewalk patio, weather permitting.",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -680,6 +703,21 @@
       "url": "https://www.stable12.com/events/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://www.stable12.com/",
+      "quote": "erch | Contact | Join Our Team | Order Beer & Food To-Go | Buy gift cards | Check out our Beer Garden! | SOLD OUT | HOURS | Monday – Tuesday: 5pm-10pm Wednesday- Thursday: 5pm-10pm Friday: 12",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1015,6 +1053,31 @@
       "url": "https://www.twelve78brewing.com/event-calendar/"
      }
     ]
+   },
+   "gameday": {
+    "label": "Eagles game day",
+    "teams": [
+     {
+      "team": "Eagles",
+      "league": "NFL",
+      "local": true
+     }
+    ],
+    "kinds": [
+     "gameday"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.twelve78brewing.com/",
+      "quote": "ear your Eagles gear, grab a fresh Twelve78 beer, and enjoy delicious game-day food from the Short Bus Hot Dog Cart while we cheer on the Birds toge",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

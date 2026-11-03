@@ -2686,7 +2686,22 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.lovebirdeats.com/",
+      "quote": "a great little restaurant you’d want to hang out in. A dive without the dive. Indoor and outdoor seating, a sick little beer selection—you know, your kind of place. Don’t feel up to hanging out",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-lovebird-almost-famous-chicken-2",
@@ -2734,7 +2749,22 @@
     }
    ],
    "websiteSource": "OpenStreetMap node/8295691014 website tag (map data 2026-10-31), checked 2026-11-01",
-   "menu": "https://www.lovebirdeats.com/menu-1"
+   "menu": "https://www.lovebirdeats.com/menu-1",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.lovebirdeats.com/",
+      "quote": "a great little restaurant you’d want to hang out in. A dive without the dive. Indoor and outdoor seating, a sick little beer selection—you know, your kind of place. Don’t feel up to hanging out",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-low-and-slow-smokehouse-lakeland-fl",
@@ -3060,6 +3090,21 @@
       "url": "https://www.mchughspubs.com/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.mchughspubs.com/",
+      "quote": "in between. | Weekends | Every Day | The Usual | Cold beer, warm company, free WiFi, and outside seating. The kind of place where everybody knows your name — or will by the end of the night. | N",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3274,7 +3319,22 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.nineteen61.com/about",
+      "quote": "Nineteen61 Restaurant + Rooftop Bar — Nineteen61 | 0 | Skip to Content | ORDER ONLINE | ORDER CANTINA | ABOUT | SPACES | BAR",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-northside-asian-kitchen",
@@ -5580,6 +5640,43 @@
       "url": "https://www.brasstapbeerbar.com/Lakeland/specials"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5819477777 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/5819477777",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "NFL Sundays",
+    "teams": [],
+    "kinds": [
+     "football"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.brasstapbeerbar.com/Lakeland/specials",
+      "quote": "gunitas IPA. | Saturday | LIVE MUSIC FROM 8PM-MIDNIGHT! | Sunday | $5 NFL SUNDAY DRAFTS: | Abita Purple Haze, | Angry Orchard, | Bells Two Hearted, |",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -5727,6 +5824,29 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-14",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "firePit": true,
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.thejoinerylkld.com/private-events",
+      "quote": "he reservation process! Can’t wait to host your special event! | THE NORTH SIDE | AKA our back patio, The North Side seats up to 52 guests, offers lush greenery, string lights, + fire pits.",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (fire pit wording)",
+      "url": "https://www.thejoinerylkld.com/private-events",
+      "quote": "back patio, The North Side seats up to 52 guests, offers lush greenery, string lights, + fire pits. | View fullsize | View fullsize | View fullsize | View fullsize | View fullsize | View f",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

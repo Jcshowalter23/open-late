@@ -53,7 +53,22 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://1000north.com/",
+      "quote": "oor, pergola-covered dining area with tropical décor and stunning water views. The lively alfresco bar leads to an elegant seating area with tasteful Florida flair, perfect for a memorable",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-718-cafe-and-grill",
@@ -709,7 +724,22 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.bucobar.com/",
+      "quote": "plaza with plenty of parking with no wait. It has a small indoor area and a large covered outdoor patio. The noise level was a bit high but that was probably due to everyone enjoying the happy",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-cafe-des-artistes-jupiter",
@@ -905,6 +935,19 @@
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-09-10",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/12029430771 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/12029430771",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -938,6 +981,19 @@
     "fbPostsSeen": 1,
     "fbNewestPost": "2025-11-17",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/12029430770 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/12029430770",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1823,6 +1879,21 @@
       "url": "https://www.guanabanas.com/events/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.guanabanas.com/about/",
+      "quote": "Guanabanas - About Us - Outdoor dining with a true Florida Experience | Food & Drinks | Hours & Directions | FAQ | Hours & Direc",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2940,7 +3011,43 @@
     "fbNewestPost": "2026-08-28",
     "website": "https://thelocalspub.com/"
    },
-   "menu": "https://localstequesta.com/menu"
+   "menu": "https://localstequesta.com/menu",
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "football",
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://localstequesta.com/",
+      "quote": "ta, FL | 561-730-5056 | Every Game Every Sunday | Local’s has DIRECTV NFL Sunday Ticket! Catch every out-of-market Sunday afternoon NFL game on our TVs with",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://localstequesta.com/",
+      "quote": "y came to watch the game. | Grab your crew, claim your spot and spend NFL Sundays at Local’s! | Weekly Specials | Mondays - Tacos 3 for $10 | Flour tor",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-lucky-shuck",
@@ -2993,6 +3100,21 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.luckyshuckjupiter.com/",
+      "quote": "al design reminiscent of an early 20th century wharfside building. | The sprawling indoor/outdoor space flows out to the Riverwalk along the Jupiter Inlet, with picturesque, waterfront views an",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4748,6 +4870,21 @@
       "url": "https://theburgershackjupiter.com/specials/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://theburgershackjupiter.com/",
+      "quote": "561-768-9574 | Join our mailing list for Events and Specials | Home | Menu | Full Menu | Beer Garden | Events | Weekly Specials | Contact Us | About Us | Burger Shack restaurant facility fea",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -5028,7 +5165,29 @@
     "fbNewestPost": "2026-10-28",
     "website": "https://www.thetwistedtuna.com/"
    },
-   "menu": "https://thetwistedtuna.com/jupiter/"
+   "menu": "https://thetwistedtuna.com/jupiter/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://thetwistedtuna.com/about/",
+      "quote": "featuring many flat-screen TVs, our second floor Bar with a private dining room, and our outdoor patio Bar. The spacious restaurant is perfectly situated with several outdoor dining areas that",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://thetwistedtuna.com/about/",
+      "quote": "om, and our outdoor patio Bar. The spacious restaurant is perfectly situated with several outdoor dining areas that are pet-friendly. | So if you’re in the neighborhood, please come by for some",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-the-woods-jupiter",
@@ -5141,7 +5300,22 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.tiramisujupiter.com/menu/"
+   "menu": "https://www.tiramisujupiter.com/menu/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.tiramisujupiter.com/",
+      "quote": "hing perfect and were very attentive. We will be back!” | 03. | Judy | “Food, service and outdoor dining were terrific. So was our waiter, so down to earth and accommodating. Recommend this plac",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-topcrust-jupiter-kitchen",
@@ -5202,6 +5376,26 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/13078826164 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/13078826164",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.topcrustjupiter.com/",
+      "quote": "s Made from Scratch | Gluten Free Options | Reservations | Serves Vegetarian Dishes | Has Outdoor Seating | Has WiFi | Frequently Asked Questions | What are your most popular dishes? | ⌄ | TopCru",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -5289,6 +5483,29 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-28",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "rooftop",
+     "porch"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.topsidejupiter.com/",
+      "quote": "n blends coastal Italian dining with fresh local seafood on Jupiter’s vibrant waterfront. The rooftop offers an inviting atmosphere inspired by Jupiter’s surf heritage, complete with creative",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (porch wording)",
+      "url": "https://www.topsidejupiter.com/group-events-and-parties/",
+      "quote": "nge (up to 20 guests), middle lounge (up to 22 guests), communal table (up to 12 guests), back porch lounge with private bar (up to 25 guests), topside porch (up to 12 guests), along with th",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

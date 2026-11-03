@@ -662,6 +662,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5613944529 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/5613944529",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1163,7 +1176,22 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/957020846 opening_hours tag (map data 2026-11-01; last checked on the map 2025-08-09) (checked 2026-11-02); late hours confirmed by venue website https://charburger.com/: \"Now! | FREE Pick-Up | Delivery | Hours | Sun to Thurs – | 11:00am to 9pm | Fri & Sat – | 11:00am to 9:30pm | Locatio\" (checked 2026-11-02)",
    "county": "Somerset",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://charburger.com/",
+      "quote": "nd family! Quality Burgers, Chicken, Dogs, Fries and Shakes under one roof with a massive outdoor patio, jungle gym and private dining room! | The only ingredient we are missing is you! | Explo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "type": "town",

@@ -728,7 +728,41 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/590853028 opening_hours tag (map data 2026-11-01; last checked on the map 2025-12-05) (checked 2026-11-02); late hours confirmed by venue website https://www.santuccispizza.com/location/santuccis-pizza-deptford/: \"ord@santuccispizza.com | Order Online | Sunday - Thursday | 11am - 9pm | Friday - Saturday | 11am - 9:30pm | B.Y.O.B\" (checked 2026-11-02)",
    "county": "Gloucester",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.santuccispizza.com/location/santuccis-pizza-deptford/",
+      "quote": "ptford is built for convenience, families, and large gatherings. With spacious indoor and outdoor seating, private event spaces, and a strong catering program, this location is ideal for parties,",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Game day",
+    "teams": [],
+    "kinds": [
+     "gameday"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.santuccispizza.com/location/santuccis-pizza-deptford/",
+      "quote": "porate events, and weekend dinners. Sports fans will love the TVs and game-day specials in this community-focused restaurant. | Get Directions | Ord",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "type": "town",

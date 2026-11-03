@@ -37,7 +37,22 @@
     "fbNewestPost": null,
     "website": "https://www.hammockbeach.com/dine/atlantic-grille/"
    },
-   "menu": "https://www.hammockbeach.com/dine/atlantic-grille/pet-menu/"
+   "menu": "https://www.hammockbeach.com/dine/atlantic-grille/pet-menu/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.hammockbeach.com/dine/atlantic-grille/",
+      "quote": "et Friendly Options | Don't let your furry friend feel left behind when it's time to eat. Our patio at Atlantic Grille is now pet-friendly and offers a special menu just for them! | ​ | See",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-bartletts-restaurant",
@@ -123,7 +138,22 @@
     "fbNewestPost": "2026-10-17",
     "website": "https://www.bartlettsfl.com/"
    },
-   "menu": "https://bartlettsfl.com/palm-coast-palm-coast-bartletts-food-menu"
+   "menu": "https://bartlettsfl.com/palm-coast-palm-coast-bartletts-food-menu",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://bartlettsfl.com/",
+      "quote": ". Our menu offers a fine dining experience with a southern flair. We have both indoor and covered patio seating. | our menu | Skip Photo Gallery | jobs | Join our dream team | We are growing th",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-burger-bros-pc",
@@ -1311,6 +1341,64 @@
       "url": "https://www.brasstapbeerbar.com/palmcoast"
      }
     ]
+   },
+   "gameday": {
+    "label": "NFL Sundays",
+    "teams": [],
+    "kinds": [
+     "football"
+    ],
+    "days": [
+     "Sat",
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.brasstapbeerbar.com/palmcoast",
+      "quote": "ents #FreeToPlay #BrewCrewBenefits #FamilyFeudVibes | Share | close | College Football Saturdays! | 11/7/2026, | All Day! | - | Catch your favorite College Football..",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sat"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.brasstapbeerbar.com/palmcoast",
+      "quote": "11/7/2026, | All Day! | - | Catch your favorite College Football... | College Football Saturdays! | 11/7/2026 | | All Day! | Catch your favorite College Football game",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sat"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.brasstapbeerbar.com/palmcoast",
+      "quote": "favorite College Football games on our big screens! | Share | close | NFL Sundays! | 11/8/2026, | All Day Long! | - | 🏈 The Brass Tap is THE place to b",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.brasstapbeerbar.com/palmcoast",
+      "quote": "26, | All Day Long! | - | 🏈 The Brass Tap is THE place to be for... | NFL Sundays! | 11/8/2026 | | All Day Long! | 🏈 The Brass Tap is THE place to be f",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

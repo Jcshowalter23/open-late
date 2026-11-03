@@ -72,7 +72,43 @@
     "website": "https://bleucanoe.com/restaurant/"
    },
    "websiteSource": "OpenStreetMap way/1566947938 website tag (map data 2026-10-31), checked 2026-11-01",
-   "menu": "https://bleucanoe.com/menu2/"
+   "menu": "https://bleucanoe.com/menu2/",
+   "outdoor": {
+    "types": [
+     "deck",
+     "patio"
+    ],
+    "firePit": true,
+    "sources": [
+     {
+      "src": "OpenStreetMap way/1566947938 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/1566947938",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://bleucanoe.com/restaurant/",
+      "quote": "xed atmosphere adds to its appeal. Guests can dine indoors by the fire or on the spacious outdoor deck during warmer months. The friendly staff ensures every visit feels welcoming and personal",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://bleucanoe.com/restaurant/",
+      "quote": "ne list. | Dog-Friendly Outdoor Seating | Bring your furry friend along for a meal on the covered patio—because great food should be enjoyed with everyone in your family! | Scenic Location | Su",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://bleucanoe.com/restaurant/",
+      "quote": "crafted cocktails, local beers, or selections from an extensive wine list. | Dog-Friendly Outdoor Seating | Bring your furry friend along for a meal on the covered patio—because great food should",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-fridas-taqueria-and-cantina",
@@ -200,6 +236,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/12826442590 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/12826442590",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -376,6 +425,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5628733021 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/5628733021",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   }
  ],

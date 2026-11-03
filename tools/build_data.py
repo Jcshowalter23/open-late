@@ -11,7 +11,7 @@ Called by tools/build_seo.py, so every rebuild keeps these current; validate.py 
 Only rewrites files whose content changed."""
 import json, os, re, datetime
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DROP = {"phoneSource", "county", "state", "zip", "conflicts", "crowdType", "karaoke", "dj", "crowdChecked", "crowdSources", "trivia", "bingo"}  # research fields stay in the source data; the app gets the compact ct/kk/dj below
+DROP = {"phoneSource", "county", "state", "zip", "conflicts", "crowdType", "karaoke", "dj", "crowdChecked", "crowdSources", "trivia", "bingo", "outdoor", "gameday", "verified"}  # research fields stay in the source data; the app gets the compact ct/kk/dj below
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 CHECKED = re.compile(r"checked (\d{4}-\d{2}-\d{2}|[A-Z][a-z]{2,8} \d{1,2}, \d{4})")
 
@@ -91,6 +91,45 @@ def crowd_type(ct):
         if u: out["u"] = u
     return out
 
+OD_ORDER = ["patio", "deck", "porch", "rooftop", "screened-in", "beer garden", "garden", "lawn", "sidewalk", "waterfront", "fire pit", "heated"]
+OD_LABEL = {"screened-in": "Screened-in", "beer garden": "Beer garden", "fire pit": "Fire pit"}
+
+def outdoor(o):
+    """source {types, firePit, heated, sources, checked} -> {t: card labels, s, u, c}; a bare 'outdoor' (e.g. OSM outdoor_seating=yes) is 'Outdoor seating',
+    dropped when a specific type is known; fire pit / heated are extras shown after the types"""
+    if not o or not o.get("types"): return None
+    ty = [t for t in OD_ORDER if t in o["types"] or (t == "fire pit" and o.get("firePit")) or (t == "heated" and o.get("heated"))]
+    if not [t for t in ty if t not in ("fire pit", "heated")]: ty = ["outdoor"] + ty
+    src = (o.get("sources") or [{}])[0]
+    x = {"t": [OD_LABEL.get(t, "Outdoor seating" if t == "outdoor" else t.capitalize()) for t in ty]}
+    if src.get("src"): x["s"] = src["src"]
+    if src.get("url"): x["u"] = src["url"]
+    if o.get("checked"): x["c"] = o["checked"]
+    return x
+
+def gameday(g):
+    """source {label, teams, kinds, days, sources, checked} -> {l, d: day numbers, tm: team names (local first), s, u, c}"""
+    if not g or not g.get("label"): return None
+    x = {"l": g["label"]}
+    d = sorted({DAYS.index(v) for v in g.get("days") or [] if v in DAYS}, key=lambda v: (v + 6) % 7)
+    if d: x["d"] = d
+    tm = [t["team"] for t in g.get("teams") or []]
+    if tm: x["tm"] = tm
+    src = [{"s": v["src"], **({"u": v["url"]} if v.get("url") else {})} for v in (g.get("sources") or []) if v.get("src")]
+    seen, uniq = set(), []
+    for v in src:
+        if (v["s"], v.get("u")) not in seen: seen.add((v["s"], v.get("u"))); uniq.append(v)
+    if uniq: x["src"] = uniq[:2]
+    if g.get("checked"): x["c"] = g["checked"]
+    return x
+
+def verified(v):
+    """set only by tools/verify_place.py after Jon approves an owner claim: {date, by, note} -> {d, n}"""
+    if not v or not v.get("date"): return None
+    x = {"d": v["date"]}
+    if v.get("note"): x["n"] = v["note"]
+    return x
+
 def dump(obj):
     return json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
 
@@ -117,6 +156,10 @@ def build(write=True):
                 tv, bg = nights(r.get("trivia"), BT_CHECKED), nights(r.get("bingo"), BT_CHECKED)  # bingo/trivia pass: venue websites read 2026-11-01
                 if tv: rr["tv"] = tv
                 if bg: rr["bg"] = bg
+                od, gd, vf = outdoor(r.get("outdoor")), gameday(r.get("gameday")), verified(r.get("verified"))
+                if od: rr["od"] = od
+                if gd: rr["gd"] = gd
+                if vf: rr["vf"] = vf
                 rr["lc"] = last_checked(r, bool(ct or kk or dj)); rr["a"] = aid
                 places.append(rr); n += 1
             if n:

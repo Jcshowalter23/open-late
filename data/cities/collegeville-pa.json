@@ -130,6 +130,36 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-01",
     "website": "http://www.bastapastapa.com/"
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "heated": true,
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.bastapastapa.com/",
+      "quote": "od, and gourmet hand tossed pizzas. We have year-round outdoor seating with an enclosed & heated patio for the colder weather. During the summer, we are also home to the local favorite, outdoo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.bastapastapa.com/",
+      "quote": "ng unique pasta dishes, fresh seafood, and gourmet hand tossed pizzas. We have year-round outdoor seating with an enclosed & heated patio for the colder weather. During the summer, we are also ho",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (heated wording)",
+      "url": "https://www.bastapastapa.com/",
+      "quote": "od, and gourmet hand tossed pizzas. We have year-round outdoor seating with an enclosed & heated patio for the colder weather. During the summer, we are also home to the local favorite, outdoo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -188,7 +218,22 @@
     "fbNewestPost": "2026-10-16",
     "website": "https://www.duckinntaproompa.com/"
    },
-   "menu": "https://www.duckinntaproompa.com/lunch-dinner-menu"
+   "menu": "https://www.duckinntaproompa.com/lunch-dinner-menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.duckinntaproompa.com/specials",
+      "quote": "s both satisfying and flavorful. Plus, enjoy the scenic views of Perkiomen Creek from our outside seating or indulge in live entertainment while you dine. Don't miss out on our unique offerings!",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dutch-cottage-tavern",
@@ -297,6 +342,19 @@
     "fbPostsSeen": 14,
     "fbNewestPost": "2026-10-31",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/13271477316 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/13271477316",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -417,6 +475,72 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/11716689573 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/11716689573",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.gravelpikeinn.com/about-us",
+      "quote": "room for extra room and privacy. We are a smoke-free establishment with a front deck and back patio to sit and enjoy along with high-top tables and the bar. | We hope to see you soon and ge",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "NFL Sunday Ticket · Eagles",
+    "teams": [
+     {
+      "team": "Eagles",
+      "league": "NFL",
+      "local": true
+     }
+    ],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.gravelpikeinn.com/events",
+      "quote": "| Events & Specials | Come Watch | The | Eagles | With Us! | *Sunday NFL Ticket | * | CALL FOR TO-GO FOOD | \"Fly, Eagles, Fly\" | We love Sundays and",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.gravelpikeinn.com/",
+      "quote": "& Specials | *Family Dining Room * Two Patios * PA Lottery * Sunday NFL Ticket | Button | Button | Button | Button | *Food * Beer * Dine In * Take-O",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket"
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.gravelpikeinn.com/about-us",
+      "quote": "jukebox, darts, Megatouch, our in-house PA Lottery game, and Sunday NFL ticket. We support all of our local schools and Philadelphia sports teams so",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -761,6 +885,21 @@
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-10-24",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "deck"
+    ],
+    "sources": [
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://trappetavern.com/",
+      "quote": "d Sandwiches as some of our Dining options. | The Trappe has 3 separate bar areas, a huge outdoor deck bar, and our very own beach. Something for everyone! | Perfect Parties | The Trappe | is",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -991,7 +1130,22 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/162281398 opening_hours tag (map data 2026-11-01; last checked on the map 2025-10-14) (checked 2026-11-02); late hours confirmed by venue website https://www.ElVagoMexican.com/: \"KE | SKIPPACK, PA 19474 | (814) 403-4619 | Business Hours | Mon: | Closed | Tue - Sat: | 11:00 AM - 9:00 PM | Sun: | \" (checked 2026-11-02)",
    "county": "Montgomery",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.ElVagoMexican.com/",
+      "quote": "tions | Kids Menu | Low Carb Options | Healthy Options | Service Options | Free Parking | Outdoor Seating | 4000 SKIPPACK PIKE | SKIPPACK, PA 19474 | (814) 403-4619 | Business Hours | Mon: | Clos",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "counties": [

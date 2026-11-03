@@ -1508,7 +1508,30 @@
     "website": "https://www.goosefeatherny.com/"
    },
    "websiteSource": "OpenStreetMap node/10117337366 website tag (map data 2026-10-31), checked 2026-11-02",
-   "menu": "https://www.goosefeatherny.com/menu"
+   "menu": "https://www.goosefeatherny.com/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "firePit": true,
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.goosefeatherny.com/",
+      "quote": "hef Dale Talde.[/fade] | [fade]Hours & Location[/fade] | [fade]We are open for indoor and outdoor dining. Please review our ‘Dining’ Section before coming in to eat. | Dining Hours: | Monday-Thu",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (fire pit wording)",
+      "url": "https://www.goosefeatherny.com/about",
+      "quote": "e dining rooms, a 9-seat bar, and both indoor and outdoor lounge areas. On colder nights, fire pits adorn the outside lounge area. Additionally, two terraces, a garden and a front lawn prov",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-gustito-dominicano-restaurant",
@@ -1641,7 +1664,20 @@
     "fbNewestPost": null,
     "website": "https://www.harpersonmain.com"
    },
-   "menu": "https://www.harpersonmain.com/menu"
+   "menu": "https://www.harpersonmain.com/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/10012251960 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/10012251960",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-hollywood-north-pizza-and-pasta",
@@ -1887,7 +1923,22 @@
     "fbNewestPost": null,
     "website": "https://hudsonsocial.com"
    },
-   "menu": "https://hudsonsocial.com/menus"
+   "menu": "https://hudsonsocial.com/menus",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://hudsonsocial.com",
+      "quote": "ro fare using seasonal ingredients. We feature a spacious indoor dining area, along with outdoor seating & bar. We have ample parking, consisting of our own spaces next to the restaurant, and pe",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ny-j-p-doyles-restaurant-and-public-house",
@@ -2928,6 +2979,31 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "gameday": {
+    "label": "Bills backers bar",
+    "teams": [
+     {
+      "team": "Bills",
+      "league": "NFL",
+      "local": true
+     }
+    ],
+    "kinds": [
+     "backers"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "BillsFans.com Bills Backers chapter directory (chapter listings posted Mar 2025)",
+      "url": "https://www.billsfans.com/bills-backers/united-states/new-york/downstate-nyc-li/",
+      "quote": "Bills Backers chapter bar: Pete's Saloon, Elmsford",
+      "checked": "2026-11-02",
+      "kind": "backers",
+      "days": []
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

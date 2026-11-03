@@ -190,7 +190,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/12425249655 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/12425249655",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-anzo",
@@ -413,7 +426,22 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://bananaboatboynton.com/",
+      "quote": "aily | Lively waterfront spot specializes in island-influenced seafood, with live music & outdoor seating. | Reservations (opens in a new tab) | Reservation policies | We have a 15 minute grace p",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-benvenuto-restaurant",
@@ -1307,6 +1335,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/14084787798 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/14084787798",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1552,7 +1593,20 @@
     "fbNewestPost": "2026-10-30",
     "website": "https://fordsgarageusa.com/locations/boynton-beach-fl/"
    },
-   "menu": "https://fordsgarageusa.com/find-restaurant/"
+   "menu": "https://fordsgarageusa.com/find-restaurant/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/995921917 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/995921917",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-fu-wing-seafood-restaurant",
@@ -1791,6 +1845,21 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.jaxonjog.com/",
+      "quote": "are with a unique and delicious twist — daily specials, a fantastic happy hour, plenty of outdoor seating, and a menu with something for everyone. | 10817 Jog Road, #246, | Boynton Beach, FL 3343",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3064,7 +3133,64 @@
     "fbNewestPost": "2026-10-22",
     "website": "https://rivalriessportspub.com/"
    },
-   "menu": "https://rivalriessportspub.com/menu/"
+   "menu": "https://rivalriessportspub.com/menu/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://rivalriessportspub.com/private-events/",
+      "quote": "edicated stage and installed pro sound system | Air-fried shareables built for groups | A covered patio with its own speakers | Rather talk it through? Call | (561) 739-8164 | . | Leave this em",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Watch parties",
+    "teams": [],
+    "kinds": [
+     "football",
+     "gameday",
+     "watch"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://rivalriessportspub.com/",
+      "quote": "room | Your party. Our screens. Our stage. | Birthdays, team nights, watch parties, fundraisers and company happy hours. Take a section or the whole roo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     },
+     {
+      "src": "venue website",
+      "url": "https://rivalriessportspub.com/",
+      "quote": "n the screens | Get directions | (opens in a new tab) | Pause video | Game day at Rivalries | Live at Rivalries | Rivalries | Opening hours | Mon |",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     },
+     {
+      "src": "venue website",
+      "url": "https://rivalriessportspub.com/",
+      "quote": "| Screens on every wall and stadium sound for the game that matters. NFL Sundays, college Saturdays, soccer, hoops, hockey and fight nights. | How gam",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-rok-prime-bbq",
@@ -3787,7 +3913,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/4424400308 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/4424400308",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-the-butcher-and-the-bar",
@@ -4315,7 +4454,20 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/12486978482 opening_hours tag (map data 2026-10-31; last checked on the map 2026-10-28) (checked 2026-11-01)",
    "county": "Palm Beach",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/12486978482 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/12486978482",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-buds-chicken-and-seafood-boynton-beach",

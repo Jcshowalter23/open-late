@@ -2705,7 +2705,22 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://hookedonharrys.com/location/ocala/",
+      "quote": "ambiance is exceeded by the food standard. Quality of food is outstanding, as is service. Outside seating is provided on the Ocala Sq. Warm, happy environment, fun. | Dick G | We’ve lived in the",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-hibachi-of-sakura",
@@ -2884,6 +2899,21 @@
       "url": "https://www.horseandhoundsrestaurant.com/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.horseandhoundsrestaurant.com/",
+      "quote": "y and attentive service by our waitress. They have indoor seating, bar seating and a nice covered patio where we chose to sit. The atmosphere and weather was absolutely perfect! Very reasonably",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4750,6 +4780,21 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.romasocala.com/",
+      "quote": "welcoming service provided by our dedicated staff. | We are also pet-friendly, offering a spacious patio where you can enjoy your meal with your furry friend by your side. Join us at Roma’s for",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -5716,6 +5761,21 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-09",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.theanchoronsunsetharbor.com/",
+      "quote": "Anchor on Sunset Harbor | Amazing sandwiches, burgers, wings, salads and appetizers with outdoor seating and entertainment! | Home | Our Menu | The Pizza Joint | Photo Gallery | Events | Latest",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -5903,7 +5963,17 @@
      "checked": "2026-11-01"
     }
    ],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Sat",
+     "text": "$4 Game Day Sliders (Buffalo Chicken, Black Sheep, or BLT)",
+     "tags": [],
+     "src": "venue website (game day wording)",
+     "url": "https://www.theblacksheeponbroadwayocala.com/daily-specials",
+     "checked": "Nov 2, 2026",
+     "gameday": true
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events"
@@ -6000,6 +6070,41 @@
       "url": "https://www.theblacksheeponbroadwayocala.com/events"
      }
     ]
+   },
+   "gameday": {
+    "label": "College football Saturdays",
+    "teams": [],
+    "kinds": [
+     "football"
+    ],
+    "days": [
+     "Sat"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.theblacksheeponbroadwayocala.com/daily-specials",
+      "quote": "th the purchase of a bottle of wine | Plus: Dine-In Only | Saturday — College Football Saturdays | $4 Game Day Sliders (Buffalo Chicken, Black Sheep, or BLT) | 50¢ Wi",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sat"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.theblacksheeponbroadwayocala.com/daily-specials",
+      "quote": "and Saturday nights for a night out at The Black Sheep. | Saturday — College Football Saturdays | $4 Game Day Sliders (Buffalo Chicken, Black Sheep, or BLT) | 50¢ Wi",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sat"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -6510,7 +6615,22 @@
      }
     ]
    },
-   "phoneSource": "Venue website www.theremedydogbar.com, checked 2026-11-01"
+   "phoneSource": "Venue website www.theremedydogbar.com, checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.theremedydogbar.com/",
+      "quote": "ted & humans are tolerated! | Eat. | Drink. | Unwind | The Boneyard | The Boneyard is our outdoor space featuring 5,000 square feet of astroturf in an open-air space dedicated to dogs and their",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-the-sunny-pint",
@@ -6946,7 +7066,20 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/13727306801 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Marion",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/13727306801 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/13727306801",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-the-tipsy-skipper-ocala",

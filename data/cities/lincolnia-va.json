@@ -306,7 +306,29 @@
     "fbNewestPost": null,
     "website": "https://www.cedarknollva.com/"
    },
-   "menu": "https://www.cedarknollva.com/menus"
+   "menu": "https://www.cedarknollva.com/menus",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.cedarknollva.com/",
+      "quote": "onal cuisine. | MENUS | Home: Gallery | OPERATING HOURS | Open for Carry-out, Indoor, and Outdoor Dining | Tuesday - Thursday | 4:00pm - 8:00pm | Friday | 4:00pm - 9:00pm | Saturday | 11:00am -",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.cedarknollva.com/events",
+      "quote": "adorned with gorgeous chandeliers and beautiful decor. Our Lafayette room is adjacent to our patio, and a portion of it will be reserved for your party (weather permitting). | Pergola Cove",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "va-chicken-house",
@@ -1057,7 +1079,34 @@
     "fbNewestPost": null,
     "website": "https://hookreel.com/location/baileys-crossroads/"
    },
-   "menu": "https://hookreel.com/menu"
+   "menu": "https://hookreel.com/menu",
+   "gameday": {
+    "label": "Game day",
+    "teams": [],
+    "kinds": [
+     "gameday"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://hookreel.com/location/baileys-crossroads/",
+      "quote": "may vary. Limited time only. | View Menu | See the flyer | Special | Game Day Specials | Only available on CFB & NFL game days. | Cannot be combine",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     },
+     {
+      "src": "venue website",
+      "url": "https://hookreel.com/location/baileys-crossroads/",
+      "quote": "the flyer | Special | Game Day Specials | Only available on CFB & NFL game days. | Cannot be combined with any other discounts, promotions, or offers",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "va-hunan-manor",
@@ -2005,7 +2054,40 @@
     "fbNewestPost": null,
     "website": "https://thetacorock.com/taco-rock-alexandria"
    },
-   "menu": "https://www.thetacorock.com/menu"
+   "menu": "https://www.thetacorock.com/menu",
+   "gameday": {
+    "label": "Commanders watch party",
+    "teams": [
+     {
+      "team": "Commanders",
+      "league": "NFL",
+      "local": true
+     }
+    ],
+    "kinds": [
+     "watch"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.thetacorock.com/events",
+      "quote": "specials | Every game, every screen | All five locations | Commanders Watch Parties | Northern Virginia’s home for Commanders football — volume up, marga",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.thetacorock.com/happy-hour/alexandria",
+      "quote": "gs — dine-in during every live game. | Football specials | Commanders watch parties | What’s on in | Alexandria | New dates are added all the time. | All",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "va-tacos-el-costalilla",

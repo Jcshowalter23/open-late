@@ -484,7 +484,22 @@
     "fbNewestPost": "2026-10-22",
     "website": "https://crabbysbeachside.com/"
    },
-   "menu": "https://crabbysbeachside.com/menu/"
+   "menu": "https://crabbysbeachside.com/menu/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://crabbysbeachside.com/",
+      "quote": "erica’s oldest city. Located just across the street from the beach, join us for indoor or outdoor dining, with ocean views from the first and second floor. Open daily for lunch and dinner, with",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-cucina-giovanni",
@@ -1133,6 +1148,21 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://oddbirdsbar.com/",
+      "quote": "ngie S: | Stumbled on this place while visiting. Great service even though she was busy. Dog friendly patio. Delicious food. Try the enchilada or burger. The shredded chicken and guacamole amazing",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1665,7 +1695,34 @@
     "fbNewestPost": "2026-10-24",
     "website": "http://www.sunsetgrillea1a.com/"
    },
-   "phoneSource": "Venue website sunsetgrillea1a.com, checked 2026-11-02"
+   "phoneSource": "Venue website sunsetgrillea1a.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "deck"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/229029623 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/229029623",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://sunsetgrillea1a.com/",
+      "quote": "R MENU | View our Menus | DINNER | LUNCH | Take it Home | ORDER ONLINE | OUTDOOR DINING | Upstairs Deck | Our upstairs features open-air dining. We have large fans during summer and heaters dur",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://sunsetgrillea1a.com/",
+      "quote": "W | Discover | OUR MENU | View our Menus | DINNER | LUNCH | Take it Home | ORDER ONLINE | OUTDOOR DINING | Upstairs Deck | Our upstairs features open-air dining. We have large fans during summer",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-taco-libre",
@@ -1878,7 +1935,20 @@
     "fbNewestPost": "2026-10-24",
     "website": null
    },
-   "phoneSource": "OpenStreetMap way/378577591 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap way/378577591 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/378577591 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/378577591",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-the-elkhouse-eatery",
@@ -2222,7 +2292,42 @@
      }
     ]
    },
-   "phoneSource": "Venue website thetidesgrill.com, checked 2026-11-02"
+   "phoneSource": "Venue website thetidesgrill.com, checked 2026-11-02",
+   "gameday": {
+    "label": "NFL Sundays",
+    "teams": [],
+    "kinds": [
+     "football"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://thetidesgrill.com/",
+      "quote": "everyone flips out at The Tides. | Game Days | College Saturdays and football Sundays with screens throughout the bar. | Come As You Are | A true beach-tow",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://thetidesgrill.com/nightlife/",
+      "quote": "r-changing schedule. | Sports Throughout the Bar | College Saturdays, football Sundays, and the games people ask for. | Games & Weekly Favorites | Free bing",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-the-wobbly-whale",
@@ -2456,6 +2561,30 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-31",
     "website": "http://www.worldfamousoasis.com/"
+   },
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.worldfamousoasis.com/about/",
+      "quote": "uring football season, the Oasis is the place to be! With 30 TV’s and NFL Sunday Ticket, there isn’t a bad seat in the house! On Saturday’s, the house is alw",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

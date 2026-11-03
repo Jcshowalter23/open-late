@@ -149,6 +149,19 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-26",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2184964312 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/2184964312",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -264,7 +277,22 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://barbacoaatl.com/atlanta-virginia-highland-bar-bacoa-food-menu"
+   "menu": "https://barbacoaatl.com/atlanta-virginia-highland-bar-bacoa-food-menu",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://barbacoaatl.com/",
+      "quote": "ktail program. Whether you're joining us for dinner, brunch, happy hour, or drinks on our covered patio, we look forward to welcoming you. | Read more | about us | Catering | Bar.bacoa would be",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-blaissburger",
@@ -717,7 +745,27 @@
     "fbNewestPost": "2026-10-28",
     "website": null
    },
-   "phoneSource": "OpenStreetMap node/536664043 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/536664043 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/536664043 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/536664043",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.elponce.com/",
+      "quote": "eek! | Google Review | HOURS* | Monday through Sunday: 12:0pm-11:00pm | Offering Inside & Patio Dining, Take Out, Catering & Private Events | 939 Ponce De Leon Ave NE Atlanta, GA 30306 (404) 8",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-fontaines-oyster-house",
@@ -1768,7 +1816,34 @@
     "oneoffs": [],
     "conflicts": []
    },
-   "phoneSource": "Venue website www.thefamilydogatl.com, checked 2026-11-02"
+   "phoneSource": "Venue website www.thefamilydogatl.com, checked 2026-11-02",
+   "gameday": {
+    "label": "Watch parties",
+    "teams": [],
+    "kinds": [
+     "watch"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.thefamilydogatl.com/events/",
+      "quote": "s on the screens, drinks in hand. Come and hang for a good ole bravos watch party! | How about being part of our team? | JOIN THE TEAM | About us | THE",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.thefamilydogatl.com/game-days/",
+      "quote": "s on the screens, drinks in hand. Come and hang for a good ole bravos watch party! | It’s Bone-Fide MADNESS. | Think you’ve got the winning bracket? Pr",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-the-original-el-taco",
@@ -1993,7 +2068,22 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.TinyLous.com/",
+      "quote": "m | Friday | 3:00pm - 1:00am | Saturday | 10:00am - 1:00am | Sunday | 11:00am - 10:00pm | The Rooftop | Monday - Thursday | 4:00pm - 12:00am | Friday | 4:00pm - 1:00am | Saturday | 12:00pm -",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-tio-luchos",
@@ -2092,6 +2182,21 @@
     "fbPostsSeen": 11,
     "fbNewestPost": "2026-10-29",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.eatwhiskeybird.com/private-dining/",
+      "quote": "nt, so we accommodate parties of 9 or more guests by offering private reservations on our front patio and in our Canopy Room. Our front patio can seat up to 14 guests, and our Canopy Room up",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2223,7 +2328,20 @@
    ],
    "source": "hours from OpenStreetMap node/2404378568 opening_hours tag (map data 2026-10-31; last checked on the map 2025-10-14) (checked 2026-11-01)",
    "county": "Fulton",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2404378568 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/2404378568",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-fellinis-pizza-atlanta-2",

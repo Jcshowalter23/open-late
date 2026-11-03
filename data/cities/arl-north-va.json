@@ -135,6 +135,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/1222775402 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/1222775402",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -777,7 +790,22 @@
     "fbNewestPost": null,
     "website": "https://yumesushiva.com/"
    },
-   "menu": "https://www.yumesushiva.com/menus/"
+   "menu": "https://www.yumesushiva.com/menus/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.yumesushiva.com/",
+      "quote": "shi counter for a front-row view as our chefs skillfully prepare each plate, or enjoy our seasonal patio. | Meet our Chef | Private Events | Whether for a company party, bridal shower, or a casu",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "va-cowboy-cafe-arlington",
@@ -867,7 +895,37 @@
     "conflicts": [],
     "oneoffs": []
    },
-   "menu": "https://www.thecowboycafe.com/menu"
+   "menu": "https://www.thecowboycafe.com/menu",
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "heated": true,
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://www.thecowboycafe.com/",
+      "quote": "Cowboy Cafe | Best Burgers, Wings, Biergarten & Brunch | 0 | Skip to Content | About | Our Story | Patio Hours | Updates | Menu | Drink",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.thecowboycafe.com/",
+      "quote": "serves brunch every morning, all-day dining and drinks . | Whether enjoying our indoor or outdoor dining, enjoy the same great food and neighborhood welcome by our staff. Read more about | our s",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (heated wording)",
+      "url": "https://www.thecowboycafe.com/patio-hours",
+      "quote": "ra. | Beyond the mural, the new North Arlington Biergarten also features large umbrellas, heat lamps, lighting, sound and big screen TVs. | The mural theme: we all play an important roll in",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "va-chicagos-pizza-with-a-twist-arlington",

@@ -82,7 +82,31 @@
     "fbNewestPost": "2026-10-24",
     "website": "https://www.theanchorami.com/"
    },
-   "menu": "https://www.theanchorami.com/menu"
+   "menu": "https://www.theanchorami.com/menu",
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.theanchorami.com/",
+      "quote": "our (4) 50\" and (1) 65\" TVs! | Catch every game with NHL Center Ice, NFL Sunday Ticket and MLB Extra Innings! | Pool, Darts & Games | Three 7' Valley pool t",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-beach-bistro",
@@ -468,6 +492,19 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-24",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/508408135 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/508408135",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -642,7 +679,29 @@
     }
    ],
    "websiteSource": "OpenStreetMap relation/21217554 website tag (map data 2026-10-31), checked 2026-11-01",
-   "menu": "https://www.theuglygrouper.com/menu-1"
+   "menu": "https://www.theuglygrouper.com/menu-1",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.theuglygrouper.com/about-us",
+      "quote": "lly after surviving hurricanes and rebuilding stronger. | The restaurant today has a huge outdoor patio, tons of live entertainment, and remains a popular spot for both locals and tourists. | T",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.theuglygrouper.com/about-us",
+      "quote": "for its food (especially grouper sandwiches and fresh seafood), but also for its: | • Outdoor dining | • Live music | • Family-friendly atmosphere | • Kids play area & games | It’s",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-thechateauannamaria",

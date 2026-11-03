@@ -165,7 +165,22 @@
     "website": "https://www.bonappetitrestaurant.com/"
    },
    "menu": "https://bonappetitrestaurant.com/dish_item/lunch-dinner-menu/",
-   "phoneSource": "Venue website bonappetitrestaurant.com, checked 2026-11-01"
+   "phoneSource": "Venue website bonappetitrestaurant.com, checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://bonappetitrestaurant.com/",
+      "quote": "b cam | Welcoming | ATMOSPHERE | Experience an unforgettable dining experience indoors or alfresco. Please note that all our tables have a view of the water and that we will assign you the",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-buffalo-charlies-bar-and-grill",
@@ -312,7 +327,35 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://cafealfresco.com/menu/"
+   "menu": "https://cafealfresco.com/menu/",
+   "outdoor": {
+    "types": [
+     "patio",
+     "sidewalk"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/355918858 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/355918858",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://cafealfresco.com/our-restaurant/",
+      "quote": "s your downtown Dunedin destination for a refreshing light bite or a hearty entrée. | Our outdoor patio is pet friendly. | To ensure you and your pup have the best possible experience with us,",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (sidewalk wording)",
+      "url": "https://cafealfresco.com/our-restaurant/",
+      "quote": "Cards | Wednesday Pasta Night | Takeout Orders | Contact & Directions | Our Restaurant | Sidewalk Cafe & Bistro in Dunedin | Relax and enjoy delicious cuisine in the casual atmosphere of our u",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-carmelitas-mexican-grill-and-cantina",
@@ -672,7 +715,30 @@
     "fbNewestPost": "2026-10-31",
     "website": null
    },
-   "phoneSource": "OpenStreetMap node/11766512246 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/11766512246 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "firePit": true,
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.crownandbull.com/about-us/",
+      "quote": "Dunedin, Florida. The interior and exterior have been upgraded and we have also added an outdoor patio area that includes fire pits, state of the art lighting, and music with every element car",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (fire pit wording)",
+      "url": "https://www.crownandbull.com/about-us/",
+      "quote": "nd exterior have been upgraded and we have also added an outdoor patio area that includes fire pits, state of the art lighting, and music with every element carefully curated with careful a",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-dunedin-brewery",
@@ -732,7 +798,20 @@
     "fbNewestPost": "2026-10-31",
     "website": null
    },
-   "phoneSource": "OpenStreetMap way/128955778 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap way/128955778 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/128955778 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/128955778",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-dunedin-house-of-beer",
@@ -1045,7 +1124,27 @@
     "website": "https://FrenchysOutpostBarGrill.food96.com/"
    },
    "menu": "https://food96.com/menus",
-   "phoneSource": "OpenStreetMap way/523234215 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap way/523234215 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/523234215 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/523234215",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://food96.com/place/frenchysoutpostbargrill",
+      "quote": "items, with sections such as Let's Get It Started, Soups and Flatbreads. Guests will find outdoor seating, wheelchair access, parking, free Wi-Fi and highchairs. Alcoholic drinks are served. | Am",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-fusion-street-eatery",
@@ -1309,7 +1408,29 @@
     "fbNewestPost": "2026-10-05",
     "website": "http://www.hob.beer/"
    },
-   "phoneSource": "Venue website hob.beer, checked 2026-11-02"
+   "phoneSource": "Venue website hob.beer, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://hob.beer/",
+      "quote": "tasty food, snacks and drinks for kids, a dog-treat vending machine, and a large covered outdoor patio right on the Pinellas County Trail. | There’s something for everyone. | View fullsize | H",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://hob.beer/",
+      "quote": "are welcome. This is “Dogedin” after all! | Local organizations and events use our large outdoor space — yoga, meetings, local service projects, and more. | We LOVE our town and we LOVE all ou",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-hog-island-fish-camp-bar-and-restaurant",
@@ -1924,7 +2045,29 @@
     "fbNewestPost": "2026-10-19",
     "website": "http://luckylobsterco.com/"
    },
-   "phoneSource": "Venue website luckylobsterco.com, checked 2026-11-02"
+   "phoneSource": "Venue website luckylobsterco.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://luckylobsterco.com/",
+      "quote": "disappointed! I prefer CT style and it was perfect. Great atmosphere and enjoyed my lunch on the patio. Friendly staff reasonable prices. Whenever I am craving a lobster roll this is where I'l",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://luckylobsterco.com/",
+      "quote": "r review by | Sandra R: | What a great place with good food and a great vibe... plenty of outdoor dining as inside as well. New parking across from the restaurant which has improved their access",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-miggs-craft-kitchen",
@@ -2152,7 +2295,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/1950174600 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/1950174600",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-paddywagon-dunedin",
@@ -2429,7 +2585,22 @@
     "fbNewestPost": "2026-10-16",
     "website": "https://www.prohibitiondunedin.com/"
    },
-   "menu": "http://prohibitiondunedin.com/bar-menu/"
+   "menu": "http://prohibitiondunedin.com/bar-menu/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://prohibitiondunedin.com/",
+      "quote": "n Sundays from 11 am-3 pm | Bakery | Indulge your sweet tooth with our in-house bakery. | Outdoor Patio | Enjoy the south Florida weather on our partially covered, pet-friendly, & smoke-free pa",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-rosies-tavern-of-dunedin",
@@ -2487,6 +2658,19 @@
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-28",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/1767026935 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/1767026935",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2653,6 +2837,19 @@
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-27",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/129073192 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/129073192",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2959,6 +3156,19 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-31",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/1767002225 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/1767002225",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3144,6 +3354,21 @@
       "url": "https://thehonurestaurant.com/dunedin-downtown-the-honu-restaurant-events"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://thehonurestaurant.com/",
+      "quote": "| Skip Photo Gallery | Interior, Kapakele Rum Bar sign at the bar | Interior, tiki bar | Outdoor bar shelves with spirits | Decor details | Coconut drink | Pink cocktail served in a specialt",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

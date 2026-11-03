@@ -289,6 +289,19 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-24",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/9542931510 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/9542931510",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -987,7 +1000,29 @@
     "fbNewestPost": "2026-10-15",
     "website": "https://www.flemingssteakhouse.com/Locations/GA/Atlanta-Dunwoody?y_source=1_MTU1MDMxNzktNTU5LWxvY2F0aW9uLndlYnNpdGU%3D"
    },
-   "menu": "https://www.flemingssteakhouse.com/menus/lunch"
+   "menu": "https://www.flemingssteakhouse.com/menus/lunch",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.flemingssteakhouse.com/Locations/GA/Atlanta-Dunwoody?y_source=1_MTU1MDMxNzktNTU5LWxvY2F0aW9uLndlYnNpdGU%3D",
+      "quote": "ence in the Perimeter/Dunwoody business community. Join us in | our Dining Room or on our Outdoor Patio | as we create a memorable Fleming's experience. | Our | steak suite | is thoughtfully cu",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.flemingssteakhouse.com/Locations/GA/Atlanta-Dunwoody?y_source=1_MTU1MDMxNzktNTU5LWxvY2F0aW9uLndlYnNpdGU%3D",
+      "quote": "er Way | Atlanta, GA 30346 | 770-698-8112 | Get Directions | Hours | Main Dining Room | & Outdoor Dining | Mon–Fri: 11AM–10PM | Sat: 4PM–10PM | Sun: 4PM–9PM | HOLIDAY HOURS | Thanksgiving | , No",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-grecian-gyro-dunwoody",
@@ -1869,7 +1904,22 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://novocucina.com/",
+      "quote": "Novo Cucina – Innovative Italian Food – Pizza, Pasta, Patio Dining – Dunwoody, GA | About | Our Team | Careers | Gift Cards | Contact Us | Dunwoody | Briarc",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-okay-annys",
@@ -2423,7 +2473,26 @@
     "fbNewestPost": "2026-06-19",
     "website": "https://tasteespoon.com/"
    },
-   "menu": "https://tasteespoon.com/menu/"
+   "menu": "https://tasteespoon.com/menu/",
+   "gameday": {
+    "label": "Watch parties",
+    "teams": [],
+    "kinds": [
+     "watch"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://tasteespoon.com/",
+      "quote": "sphere where food, music, and community come together. | Live Music | Watch Parties | Special Events | Watch Sports | Brunch Specials | 7 Days a Week | T",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-the-bird-atlanta",

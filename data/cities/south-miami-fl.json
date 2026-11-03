@@ -921,7 +921,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/6023406956 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/6023406956",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-pla-tu-sushi-thai-tapas",
@@ -1643,7 +1656,29 @@
     "conflicts": [],
     "oneoffs": []
    },
-   "menu": "https://www.titanicbrewery.com/food-menu"
+   "menu": "https://www.titanicbrewery.com/food-menu",
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://www.titanicbrewery.com/",
+      "quote": "eating following all safety procedures and for those who wish to sit outdoors a beautiful beer garden at the back. Titanic craft beers are also the bomb! | five star review by | Carmen S: | T",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.titanicbrewery.com/",
+      "quote": "ew by | Annette G: | I came last Friday with my husband and we can't wait to go back. The outside seating was awesome. The food was delicious, the service was great and the prices were amazing. T",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-miamis-best-pizza-coral-gables",

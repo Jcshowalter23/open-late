@@ -184,6 +184,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3060046054 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/3060046054",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2704,7 +2717,30 @@
      }
     ]
    },
-   "menu": "https://hometeambbq.com/wp-content/uploads/2017/04/2025-Limited-Late-Night-Menu-1.pdf"
+   "menu": "https://hometeambbq.com/wp-content/uploads/2017/04/2025-Limited-Late-Night-Menu-1.pdf",
+   "outdoor": {
+    "types": [
+     "patio",
+     "screened-in"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://hometeambbq.com/location/aspen/",
+      "quote": "ain for some après-ski action and get toasty by the fire in the winter, or post up on our back patio to soak up some sun as it shines over Aspen Mountain, Aspen Highlands, and Hunter Creek V",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (screened-in wording)",
+      "url": "https://hometeambbq.com/location/greenvillesc/",
+      "quote": "ack of Southern rock, blues, and Americana. With a spacious indoor dining room, a popular screened-in porch, and easy access to the adjacent Swamp Rabbit Trail, Home Team BBQ Greenville is a",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "type": "neighborhood",

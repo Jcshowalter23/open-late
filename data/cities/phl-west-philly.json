@@ -144,6 +144,26 @@
     "fbPostsSeen": 12,
     "fbNewestPost": "2026-10-31",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "sidewalk"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/2100740228 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/2100740228",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (sidewalk wording)",
+      "url": "https://www.copabanana.com/",
+      "quote": "me a Penn institution with its genuine campus vibe. | With ceiling to floor windows and a sidewalk cafe overlooking the campus scene, the Copa is also a popular destination for the nearby Penn",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -540,7 +560,29 @@
     "fbNewestPost": "2026-10-16",
     "website": "https://louielouie.restaurant/"
    },
-   "menu": "https://louielouie.restaurant/menu"
+   "menu": "https://louielouie.restaurant/menu",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://louielouie.restaurant/about/",
+      "quote": "| Tour | OPEN DAILY | We are open daily for indoor and outdoor dining. There is open and covered patio dining with heaters. Takeout and delivery are available. | DINNER MENU | Monday – Thursda",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://louielouie.restaurant/about/",
+      "quote": "n offers custom lux seating, perfect for gathering with friends for cocktails and snacks. Outdoor seating reminiscent of a French cafe is the ideal spot for dining and people watching. Take a | T",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "new-deck-tavern",
@@ -654,6 +696,31 @@
       "url": "https://www.newdecktavern.com/about/"
      }
     ]
+   },
+   "gameday": {
+    "label": "Eagles game day",
+    "teams": [
+     {
+      "team": "Eagles",
+      "league": "NFL",
+      "local": true
+     }
+    ],
+    "kinds": [
+     "gameday"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.newdecktavern.com/specials/",
+      "quote": "rs Light Pints, $14 Coors Light Pitchers, $6 Titos Cocktails | Eagles GAMEDAY Specials | During the Game | $2 off Wings, $2 off Pretzels, $6 Peroni",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -783,7 +850,20 @@
    "source": "hours from OpenStreetMap node/1706534939 opening_hours tag (map data 2026-10-31; last checked on the map 2024-07-26) (checked 2026-11-01)",
    "county": "Philadelphia",
    "addedBy": "sweep-osm",
-   "menu": "https://savaspizza.com/philadelphia-university-city-savas-brick-oven-pizza-food-menu"
+   "menu": "https://savaspizza.com/philadelphia-university-city-savas-brick-oven-pizza-food-menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/1706534939 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/1706534939",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "pa-kabobeesh-philadelphia",
@@ -896,7 +976,22 @@
    "source": "hours from OpenStreetMap node/6061096715 opening_hours tag (map data 2026-10-31; last checked on the map 2026-02-10) (checked 2026-11-01)",
    "county": "Philadelphia",
    "addedBy": "sweep-osm",
-   "menu": "https://locopez.com/menus/"
+   "menu": "https://locopez.com/menus/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://locopez.com/locations/fishtown/",
+      "quote": "SAT-SUN 1-3pm | 1/2 PRICED NACHOS, $6 CLASSIC MARGARITAS, $2 OFF DRAFT BEER | INDOOR AND OUTDOOR DINING AVAILABLE | ALL SEATING IS FIRST-COME FIRST-SERVE. RESERVATIONS ARE NOT ACCEPTED. | VIEW",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "pa-petes-pizza-ii-philadelphia",

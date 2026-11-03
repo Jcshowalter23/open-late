@@ -360,7 +360,22 @@
     "fbNewestPost": "2026-10-26",
     "website": "https://www.kenandbarbs.com/"
    },
-   "menu": "https://www.kenandbarbs.com/menus"
+   "menu": "https://www.kenandbarbs.com/menus",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.kenandbarbs.com/about/",
+      "quote": "tside you can eat and drink at the picnic | table style bar overlooking the lagoon, relax on the patio style couches under the outdoor tin | roof or play a game of bocce ball out front. Ken &",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-landys-restaurant",
@@ -1047,7 +1062,20 @@
     "fbNewestPost": "2026-10-30",
     "website": "https://www.sandbartikigrille.com/"
    },
-   "menu": "https://www.sandbartikigrille.com/menu/lunch-dinner-menu/"
+   "menu": "https://www.sandbartikigrille.com/menu/lunch-dinner-menu/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/10006781378 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/10006781378",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-smokin-jerrys-tiki-hut",
@@ -1363,7 +1391,31 @@
     "fbNewestPost": "2026-10-27",
     "website": "https://endzonesportsgrille.com/"
    },
-   "menu": "https://endzonesportsgrille.com/menu"
+   "menu": "https://endzonesportsgrille.com/menu",
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://endzonesportsgrille.com/",
+      "quote": "e sport’s season! | • Over 45 Tv Screens! • Cheer with fellow fans! • NFL Sunday Ticket! All ESPN Channels! • Watching from home? Order our Take Home Game Da",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-the-lighthouse-grill-at-stump-pass",
@@ -1521,6 +1573,21 @@
       "url": "https://waverlyflorida.com/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "deck"
+    ],
+    "sources": [
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://waverlyflorida.com/events-weddings/",
+      "quote": "ot for your wedding day. Our floor to ceiling windows beautiful sheer draped ceilings and outdoor deck with magnificent water and beach views as well as spectacular sunsets all add to make for",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

@@ -193,6 +193,37 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "rooftop",
+     "patio"
+    ],
+    "heated": true,
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.atticorooftop.com/",
+      "quote": "--> | Attico Rooftop Bar & Restaurant | Philadelphia Rooftop Dining | top of page | MENU | RESERVATIONS | EVENTS |",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.atticorooftop.com/event-spac",
+      "quote": "ou need overnight accommodations, we are located in the | Cambria Hotel. | event spaces | OUTDOOR PATIO | Open year-round | featuring a covered alcove, an open-air tent , and a large uncovered",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (heated wording)",
+      "url": "https://www.atticorooftop.com/event-spac",
+      "quote": "ed alcove, an open-air tent , and a large uncovered patio space overlooking Broad Street. Heat lamps are available during the Fall and Winter. | The patio can accommodate standard reservatio",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -386,6 +417,19 @@
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-10-29",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/9382669317 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/9382669317",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -595,6 +639,21 @@
       "url": "https://bruphilly.com/wp-content/uploads/2026/08/HH-Media-NEW-1.webp"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://bruphilly.com/about/",
+      "quote": "Philadelphia for beer lovers, foodies, and nightlife seekers alike. With both indoor and outdoor seating, it’s the perfect place to experience bold flavors, good company, and the spirit of a tru",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -843,7 +902,59 @@
     "fbNewestPost": "2026-10-31",
     "website": "https://cavsrittenhouse.com/"
    },
-   "menu": "https://www.cavsrittenhouse.com/menus"
+   "menu": "https://www.cavsrittenhouse.com/menus",
+   "gameday": {
+    "label": "NFL Sunday Ticket · Union",
+    "teams": [
+     {
+      "team": "Union",
+      "league": "MLS",
+      "local": true
+     }
+    ],
+    "kinds": [
+     "football",
+     "gameday",
+     "ticket"
+    ],
+    "days": [
+     "Thu",
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.cavsrittenhouse.com/specials",
+      "quote": ":30am and 10:00am matches. | Philadelphia Union Soccer | Broadcasting all games + season long opportunities to win tickets! | $6 Dogfish Head Seaquen",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.cavsrittenhouse.com/specials",
+      "quote": "heesesteak, Caprese Chicken) | $5 Michelob Ultra Drafts | Thursday | *THURSDAY NIGHT FOOTBALL | *FOOD SPECIAL: | $0.75 Wings | 11:30am-3pm & 7pm-11pm | $2 Off Mill",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Thu"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.cavsrittenhouse.com/specials",
+      "quote": "up Game Watch Party - | Email: | Mike@cavsrittenhouse.com | Sunday | *NFL SUNDAY TICKET: Every Game on a TV, EVERY week…GO BIRDS! | $2 off Bud Light Buckets",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "charlie-was-a-sinner",
@@ -1011,6 +1122,21 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://dbgphilly.com/about",
+      "quote": "of The Coolest Beer Gardens Around the World\" | by Conde Nast Traveler | “Best Year Round Beer Garden” | Philadelphia Magazine | “One of the Great Beer Gardens\" | by USA Today | DBG | Contact",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1199,6 +1325,21 @@
     "fbPostsSeen": 21,
     "fbNewestPost": "2026-10-30",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://elvezrestaurant.com/",
+      "quote": "| Private Event Software powered by Tripleseat | × | Close | HOURS | Open for Indoor and Outdoor Dining | Happy Hour | Monday-Friday 3-5pm | Lunch | Monday-Friday 11:30am-3pm | Dinner | Sunda",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2297,6 +2438,28 @@
     "fbPostsSeen": 22,
     "fbNewestPost": "2026-10-30",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "sidewalk"
+    ],
+    "sources": [
+     {
+      "src": "venue website (sidewalk wording)",
+      "url": "https://parc-restaurant.com/",
+      "quote": "ut the day. Classic bistro fare, an exceptional wine list, and Philadelphia’s most iconic sidewalk dining create a setting made for lingering. Whether meeting friends, celebrating a special occas",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://parc-restaurant.com/",
+      "quote": "ant.com for customized options. | Event Inquiry | × | Close | HOURS | Open for Indoor and Outdoor Dining. | Outdoor Seating | Monday-Friday begins at 11am | Breakfast | Monday-Friday 8-11am | L",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2397,7 +2560,22 @@
     "fbNewestPost": "2026-10-13",
     "website": "https://prunellaphl.com/"
    },
-   "menu": "https://prunellaphl.com/menu"
+   "menu": "https://prunellaphl.com/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://prunellaphl.com/events",
+      "quote": "anning a party of 5–10 guests, please email us at prunellafoh@schulson.com to explore our outdoor dining options. | For a full restaurant buyout, please complete the event inquiry form. Our team",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "rittenhouse-grill",
@@ -2814,6 +2992,21 @@
     "fbPostsSeen": 21,
     "fbNewestPost": "2026-10-30",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://thedandelionpub.com/",
+      "quote": "g Rooms, Big Room, and Dog Bar. | Event Inquiry | × | Close | HOURS | Open for Indoor and Outdoor Dining | Happy Hour | Monday-Friday 4:30-6:30pm | Lunch | Monday-Friday 11:30am-3pm | Afternoon",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3048,6 +3241,31 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-29",
     "website": null
+   },
+   "gameday": {
+    "label": "Bills backers bar",
+    "teams": [
+     {
+      "team": "Bills",
+      "league": "NFL",
+      "local": false
+     }
+    ],
+    "kinds": [
+     "backers"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "BillsFans.com Bills Backers chapter directory (chapter listings posted Mar 2025)",
+      "url": "https://www.billsfans.com/bills-backers/united-states/pennsylvania/",
+      "quote": "Bills Backers chapter bar: Tir Na Nog, Philadelphia",
+      "checked": "2026-11-02",
+      "kind": "backers",
+      "days": []
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3112,6 +3330,21 @@
     "fbPostsSeen": 11,
     "fbNewestPost": "2026-10-30",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.trattoriacarina.com/",
+      "quote": "TRATTORIA CARINA TEAM | We are currently open for take out, delivery, indoor dining, and outdoor dining, starting at 4:30 PM Monday through Friday, and 11:00 AM on Saturday and Sunday. | Call (",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3145,6 +3378,19 @@
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-13",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/14316378101 outdoor tags (biergarten; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/14316378101",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3392,6 +3638,19 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-08-26",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/1099974343 outdoor tags (biergarten, yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/1099974343",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3515,7 +3774,22 @@
    ],
    "source": "hours from OpenStreetMap node/1034425431 opening_hours tag (map data 2026-10-31; last checked on the map 2023-04-12) (checked 2026-11-01)",
    "county": "Philadelphia",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://vargabar.com/about-us",
+      "quote": "o Vargas, Varga creates a lively setting where guests can relax and enjoy both indoor and outdoor seating near Washington Square. It’s a place where great drinks, satisfying food, and a friendly",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "pa-sang-kee-peking-duck-house-philadelphia",
@@ -3870,7 +4144,29 @@
      }
     ]
    },
-   "menu": "https://thehappyroosterpa.com/philadelphia-the-happy-rooster-food-menu"
+   "menu": "https://thehappyroosterpa.com/philadelphia-the-happy-rooster-food-menu",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://thehappyroosterpa.com",
+      "quote": "ere is a few outdoor tables, and they built an outdoor gazebo which is nice to expand the outdoor seating... | review by - Yelp | Jon E: | The Happy Rooster is authentic neighborhood tavern with",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://thehappyroosterpa.com/philadelphia-the-happy-rooster-about",
+      "quote": "n the area, or spend an evening eating and drinking in our intimate dining area or on our outdoor patio. We also offer private dining, so consider us for your next office party, birthday, or sp",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "pa-masala-kitchen-philadelphia-2",
@@ -4169,7 +4465,42 @@
      }
     ]
    },
-   "menu": "https://devilsalleybarandgrill.com/food-menu"
+   "menu": "https://devilsalleybarandgrill.com/food-menu",
+   "gameday": {
+    "label": "Sunday Night Football",
+    "teams": [],
+    "kinds": [
+     "football"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://devilsalleybarandgrill.com/events?source=pop_up&spot_id=65553&destination=events&promotion=custom_promotion",
+      "quote": "re | 11:00 AM - 10:00 PM | Eagles @ 49ers | Sunday January 3rd 2027 | Sunday Night Football! | Game Sound & DJ | Read more | 08:30 PM - 11:30 PM | Eagles @ Giant",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://devilsalleybarandgrill.com/specials",
+      "quote": "ch Specials! $5 Mimosas & $6 Bloody Marys | 11:30 AM - 03:00 PM | NFL Football Sundays! $3 Bud Light Cans, $10 Alley Ale Pitchers, $12 Michelob Ultra Pitche",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "pa-good-dog-bar-philadelphia",
@@ -4197,7 +4528,22 @@
    "source": "hours from OpenStreetMap way/334239526 opening_hours tag (map data 2026-10-31; last checked on the map 2025-06-27) (checked 2026-11-01)",
    "county": "Philadelphia",
    "addedBy": "sweep-osm",
-   "menu": "https://gooddogbar.com/menu/"
+   "menu": "https://gooddogbar.com/menu/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://gooddogbar.com/",
+      "quote": "rst come - first served. At this time, we do not accept reservations. | We offer indoor & outdoor dining (weather permitting), take-out & delivery. | We are happy to welcome well-behaved leashed",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "pa-ocean-prime-philadelphia",
@@ -4287,6 +4633,21 @@
       "url": "https://ocean-prime.com/locations-menus/beverly-hills/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://ocean-prime.com/locations-menus/chicago/",
+      "quote": "njoy $20 Veuve Clicquot by the glass accompanied by $3 featured oysters in our Lounge and on our patio. | Friday Oysters & Bubbles | On Fridays, enjoy $20 Veuve Clicquot by the glass accompani",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4337,7 +4698,22 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/7098783385 opening_hours tag (map data 2026-11-01; last checked on the map 2026-09-07) (checked 2026-11-02); late hours confirmed by venue website https://www.nanzhounoodlehouse.com/hours--info.html: \" a week and on certain holidays. Sunday- Thursday 11:00 am - 10:00 pm Friday- Saturday 11:00 am - 10:30 pm *Street \" (checked 2026-11-02)",
    "county": "Philadelphia",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.nanzhounoodlehouse.com",
+      "quote": "ne is staying safe and healthy! In accordance to Philadelphia guidelines, we are open for outdoor dining, limited capacity indoor dining, takeout, and delivery (links below) all week. Please be",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "pa-oyster-house-philadelphia",

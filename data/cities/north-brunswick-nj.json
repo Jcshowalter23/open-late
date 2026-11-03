@@ -920,6 +920,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://marketonmaincranbury.com"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/1206292265 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/1206292265",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3197,7 +3210,30 @@
     "website": "https://zinnasbistro.com"
    },
    "websiteSource": "OpenStreetMap node/11746728870 website tag (map data 2026-10-31), checked 2026-11-02",
-   "menu": "https://zinnasbistro.com/food-menu"
+   "menu": "https://zinnasbistro.com/food-menu",
+   "outdoor": {
+    "types": [
+     "porch",
+     "waterfront"
+    ],
+    "sources": [
+     {
+      "src": "venue website (porch wording)",
+      "url": "https://zinnasbistro.com",
+      "quote": "kitchen at 10 Cedarbrook Drive. We're BYOB. Dine inside or out on our lakeside patio and front porch garden patio. Our family also runs catering, private parties and five food trucks serving",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (waterfront wording)",
+      "url": "https://zinnasbistro.com",
+      "quote": "esserts made in our kitchen at 10 Cedarbrook Drive. We're BYOB. Dine inside or out on our lakeside patio and front porch garden patio. Our family also runs catering, private parties and five foo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nj-cranbury-inn-cranbury",

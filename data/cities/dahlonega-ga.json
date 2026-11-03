@@ -576,7 +576,30 @@
      }
     ]
    },
-   "menu": "https://www.theshenaniganspub.com/food/"
+   "menu": "https://www.theshenaniganspub.com/food/",
+   "outdoor": {
+    "types": [
+     "deck",
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://www.theshenaniganspub.com/about-us/our-restaurant/",
+      "quote": "u will feel as though you're in Dublin. There is also a covered patio and a pet-friendly, open air deck. We provide | live entertainment | almost every day of the week. People love getting into",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.theshenaniganspub.com/about-us/our-restaurant/",
+      "quote": "tomer-autographed dollar bills, you will feel as though you're in Dublin. There is also a covered patio and a pet-friendly, open air deck. We provide | live entertainment | almost every day of",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-surcheros-dahlonega-ga",
@@ -760,7 +783,20 @@
     "website": "https://www.zenramensushiburrito.com/dahlonega/"
    },
    "websiteSource": "OpenStreetMap node/13668093170 website tag (map data 2026-10-31), checked 2026-11-01",
-   "menu": "https://www.zenramensushiburrito.com/wp-content/uploads/2022/08/202110-Zen-Ramen-Bar-reduced.pdf"
+   "menu": "https://www.zenramensushiburrito.com/wp-content/uploads/2022/08/202110-Zen-Ramen-Bar-reduced.pdf",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/13668093170 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/13668093170",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-spirits-tavern-dahlonega",
@@ -785,7 +821,20 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/4953267057 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.spirits-tavern.com/about: \" info@spirits-tavern.com | SPIRITS TAVERN | HOURS | Sunday- Thursday 11 am - 10 pm | Friday 11 am - 11 pm | Saturda\" (checked 2026-11-02)",
    "county": "Lumpkin",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/4953267057 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/4953267057",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-gustavos-pizza-dahlonega",
@@ -832,6 +881,19 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/13145941737 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/13145941737",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   }
  ],

@@ -161,7 +161,55 @@
     "oneoffs": [],
     "conflicts": []
    },
-   "phoneSource": "Venue website www.bluemoonbreweryandgrill.com, checked 2026-11-01"
+   "phoneSource": "Venue website www.bluemoonbreweryandgrill.com, checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.bluemoonbreweryandgrill.com/visit/private-events/",
+      "quote": "e it perfect for any occasion. Features a spacious private bar and includes access to the outdoor patio. Catering is available with a curated menu. | Moon Room | Seats up to 40 guests with acce",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Braves game day",
+    "teams": [
+     {
+      "team": "Braves",
+      "league": "MLB",
+      "local": true
+     }
+    ],
+    "kinds": [
+     "gameday"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.bluemoonbreweryandgrill.com/",
+      "quote": "on game days. | × | A deep lineup of favorites | On an Atlanta Braves gameday or any other occasion, Blue Moon Brewery is a hit. This Truist Park r",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.bluemoonbreweryandgrill.com/visit/",
+      "quote": "n | While every day is a good day to visit Blue Moon Brewery & Grill, gameday may be best of all. Get into the spirit with Braves-inspired brews an",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-burn-by-rocky-patel-atlanta",
@@ -334,6 +382,26 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-04-29",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/6050334060 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/6050334060",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.c-ellets.com/",
+      "quote": "ialty sips, there is certainly something delicious for everyone. Grab a drink at our bar, on the patio before a game, or from our Oyster Window and Beer Cart just outside, too. | USDA PRIME ST",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -495,7 +563,37 @@
     "website": "https://www.cincomexicancantinaga.com/"
    },
    "menu": "https://www.cincomexicancantinaga.com/our-menu",
-   "phoneSource": "OpenStreetMap way/264982307 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap way/264982307 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "rooftop",
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.cincomexicancantinaga.com/",
+      "quote": "dcrafted Margaritas | Wines | Bottle Beers | Draft Beers | Tequilas | Catering Services | Rooftop Patio | About | FAQs | Reviews | Locations | Atlanta Location | Cumming Location | Home | Our M",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.cincomexicancantinaga.com/",
+      "quote": "experience to new heights on our rooftop patio. It's the perfect spot to enjoy your meal al fresco, sip on a cocktail, and soak in the skyline. And on the weekend, we kick things up a notc",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.cincomexicancantinaga.com/Atlanta-location",
+      "quote": "9:00 pm | Fri - Sat | 11:00 am | - | 10:00 pm | Sunday | 11:00 am | - | 9:00 pm | Rooftop patio is open 3:00pm Friday through Sunday | Holiday Hours | Walk-Ins Welcome; Weekend Availability | M",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-copelands-of-new-orleans-atlanta",
@@ -583,7 +681,20 @@
     "fbNewestPost": "2025-06-04",
     "website": null
    },
-   "phoneSource": "OpenStreetMap way/559995449 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap way/559995449 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/559995449 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/559995449",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-el-super-pan-at-the-battery",
@@ -880,7 +991,37 @@
     "conflicts": [],
     "oneoffs": []
    },
-   "phoneSource": "OpenStreetMap node/7245871023 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/7245871023 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "gameday": {
+    "label": "Braves game day",
+    "teams": [
+     {
+      "team": "Braves",
+      "league": "MLB",
+      "local": true
+     }
+    ],
+    "kinds": [
+     "gameday"
+    ],
+    "days": [
+     "Thu"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://goodgameatl.com/events/",
+      "quote": "ilable every Thursday in 2026. Offer not valid on Atlanta Braves home game days. Make Thursdays your new family tradition—kick back, enjoy, and let u",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday",
+      "days": [
+       "Thu"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-hikaruramenatl",
@@ -1335,7 +1476,50 @@
      }
     ]
    },
-   "phoneSource": "Venue website liveatthebatteryatlanta.com, checked 2026-11-02"
+   "phoneSource": "Venue website liveatthebatteryatlanta.com, checked 2026-11-02",
+   "gameday": {
+    "label": "Watch parties",
+    "teams": [],
+    "kinds": [
+     "watch"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://liveatthebatteryatlanta.com/",
+      "quote": "ike. | Events | Join us for electrifying live shows, thrilling sports watch parties, and signature festivals. | Aug | 22 | Feb | 14 | Football Watch Part",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     },
+     {
+      "src": "venue website",
+      "url": "https://liveatthebatteryatlanta.com/",
+      "quote": "ials | Sports | Weekly Specials | Events and Entertainment | Football Watch Parties | Your Football HQ is here! Catch college and pro football on a 36-fo",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     },
+     {
+      "src": "venue website",
+      "url": "https://liveatthebatteryatlanta.com/events-and-entertainment/events/football-watch-parties",
+      "quote": "Football Watch Parties | Loading component... | Loading component... | Events and Entertainm",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     },
+     {
+      "src": "venue website",
+      "url": "https://liveatthebatteryatlanta.com/events-and-entertainment/events/football-watch-parties",
+      "quote": "t... | Events and Entertainment | Events & Weekly Specials | Football Watch Parties | Football Watch Parties | Sports & Social Atlanta | August 22, 2026",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-marlows-tavern-atlanta",
@@ -1457,7 +1641,27 @@
     "website": "https://vinings.meehanspublichouse.com/"
    },
    "menu": "https://vinings.meehanspublichouse.com/atlanta-vinings-meehan-s-public-house-food-menu",
-   "phoneSource": "OpenStreetMap node/6433389392 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/6433389392 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/6433389392 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/6433389392",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://vinings.meehanspublichouse.com/",
+      "quote": "ed meals upon request. | catering | PRIVATE DINING | Book your private event on our fully seasonal patio! Seats up to 65 guests | book a party | Reviews | review by - Yelp | Kelli B: | Love this",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-murphs",

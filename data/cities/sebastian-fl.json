@@ -63,7 +63,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/470810248 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/470810248",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-earls-hideaway",
@@ -538,7 +551,30 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.mulligansbeachhouse.com/wp-content/uploads/2024/09/BREAKFAST-MENU-2024.pdf"
+   "menu": "https://www.mulligansbeachhouse.com/wp-content/uploads/2024/09/BREAKFAST-MENU-2024.pdf",
+   "outdoor": {
+    "types": [
+     "patio",
+     "waterfront"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.mulligansbeachhouse.com/sebastian/",
+      "quote": "impse of a manatee with her baby swimming by! Come join us for breakfast on our expansive outdoor patio while enjoying the picturesque view of a sunrise on the river. We also offer lunch and di",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (waterfront wording)",
+      "url": "https://www.mulligansbeachhouse.com/about-us/",
+      "quote": "oom, create an epic outdoor event in our beachside backyard, or even host at our stunning waterfront patio location. We have the capacity to accommodate up to 30 guests and will work with you from",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-no-name-sports-bar",

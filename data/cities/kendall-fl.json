@@ -290,7 +290,22 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://bullagastrobar.com/locations/the-falls/",
+      "quote": "t’s sure to create a stir. | indulge your guests with a private luncheon, intimate dinner on the patio, or cocktail party, featuring bulla’s signature flavors, wines and hand-crafted spirits.",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-burgerfi-2",
@@ -627,6 +642,21 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://holeinthewallflorida.com/",
+      "quote": "Reservations? | We do not take reservations. First come first serve policy. | Do you have outdoor seating? | Yes, there are tables available outside the Kings Creek (near Dadeland), and 144th St",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1064,7 +1094,20 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/10291477420 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/10291477420",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-rock-that-burger",
@@ -1206,6 +1249,19 @@
     "fbPostsSeen": 16,
     "fbNewestPost": "2026-10-31",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3367322462 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/3367322462",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1460,6 +1516,19 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-16",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5996798162 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/5996798162",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1616,7 +1685,29 @@
     "fbNewestPost": null,
     "website": "http://www.tap42.com/kendall"
    },
-   "phoneSource": "Venue website tap42.com/locations/kendall, checked 2026-11-02"
+   "phoneSource": "Venue website tap42.com/locations/kendall, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://tap42.com/locations/kendall/",
+      "quote": "Street). The restaurant faces the center's lake and fountain. | Does Tap 42 Kendall have outdoor seating with a view? | Yes. There is a covered, string-lit patio overlooking the lake and fountai",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://tap42.com/locations/aventura/",
+      "quote": "mimosas, Bloody Marys and Andrews Avenue Lager. Catch the game on the TVs, or take a seat on the patio. Planning a team lunch or celebration? Ask about private events and group reservations at",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-villa-fresh-italian-kitchen-miami",
@@ -1806,7 +1897,20 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/6028463083 opening_hours tag (map data 2026-10-31; last checked on the map 2026-01-30) (checked 2026-11-01)",
    "county": "Miami-Dade",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/6028463083 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/node/6028463083",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "type": "city",

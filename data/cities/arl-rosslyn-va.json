@@ -217,6 +217,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://continentalpoollounge.com/continental-beer-garden/"
+   },
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/4974382714 outdoor tags (biergarten; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/4974382714",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -317,6 +330,26 @@
       "url": "https://www.courthaussocial.com/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3739550132 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/3739550132",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.courthaussocial.com/",
+      "quote": "inside + 195 outside) • Happy Hour | Mon- Fri 3-6 pm • District Trivia | Wed 7pm • Dog Friendly Patio • Sports Bar | Location | Conveniently located in Arlington, Virginia next to the | Cou",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -741,6 +774,21 @@
       "url": "https://www.irelandsfourcourts.com/entertainment/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.irelandsfourcourts.com/sports/",
+      "quote": "’ll need to wait in line. | “What happens when you reach capacity?” | We have room on the back patio where there are three televisions with sound and a full menu available. Once we reach ins",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -952,6 +1000,65 @@
       "url": "https://eatopenroad.com/locations/reston/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "beer garden",
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://eatopenroad.com/private-events/",
+      "quote": "eated or 45 standing, and it can combine with Main Dining. | Tysons | Open Road Outpost & Biergarten at The Boro, with indoor and outdoor gathering space, a lively biergarten, and room for g",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://eatopenroad.com/locations/merrifield/",
+      "quote": "lls Church, VA 22043 | Awards | This week | Trivia Night | — Tuesdays 7 pm to 9 pm on the enclosed patio. | Live Music | — 10/29 Mike Leverone | 10/30 Drew Stevyns | 10/31 Ted Garber | Our NFL W",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Monday Night Football",
+    "teams": [],
+    "kinds": [
+     "football"
+    ],
+    "days": [
+     "Mon",
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://eatopenroad.com/locations/reston/",
+      "quote": "efs vs. Broncos (🔊audio enabled) | Patriots vs. Dolphins | 8:20 PM | Sunday Night Football | Eagles vs. Commanders | Monday, November 2 | 8:15 PM | Monday Night",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://eatopenroad.com/locations/reston/",
+      "quote": "ght Football | Eagles vs. Commanders | Monday, November 2 | 8:15 PM | Monday Night Football | Bears vs. Seahawks | Menus | Reston | Food, happy hour, brunch, and",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Mon"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1252,7 +1359,29 @@
     "fbNewestPost": null,
     "website": "https://sfoglinapasta.com/rosslyn"
    },
-   "menu": "https://sfoglinapasta.com/menus"
+   "menu": "https://sfoglinapasta.com/menus",
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://sfoglinapasta.com/rosslyn",
+      "quote": "Should your plans change or you are running late, please call us at | 703.893.8000 | . | The rooftop terrace at sfoglina rosslyn | The Rooftop Terrace is available exclusively for private ev",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://sfoglinapasta.com/private-events",
+      "quote": "rd covers. | Veranda SEMI-PRIVATE DINING ROOM | van ness | 20 SEATED, 30 standing | PATIO AL FRESCO DINING | van ness | 36 SEATED, 55 standing | *Sfoglina Van Ness patio is fully covered ye",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "va-sushi-rock",

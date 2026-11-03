@@ -507,7 +507,27 @@
     "fbNewestPost": null,
     "website": "https://www.franklinsteakhousefairfield.com"
    },
-   "menu": "https://www.franklinsteakhousefairfield.com/menu/"
+   "menu": "https://www.franklinsteakhousefairfield.com/menu/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/1534079657 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/1534079657",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.franklinsteakhousefairfield.com/book-your-future-event/",
+      "quote": "| Grubhub | Uber Eats | EZ Cater | ChowNow | Contact | Book Your Future Event | Indoor / Outdoor Patio | If you are thinking of having a Private Party to celebrate a Special Event, the Frankli",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nj-hollywood-pizzeria-and-restaurant",
@@ -582,6 +602,52 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://bordercafe.com/"
+   },
+   "gameday": {
+    "label": "NFL Sundays",
+    "teams": [],
+    "kinds": [
+     "football"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://bordercafe.com/location/",
+      "quote": "– Saturday: | 12:00 PM to 10:00 PM | **HAPPY HOUR MON-FRI 3-6PM** | **NFL SUNDAY 1-5PM** | PRIVATE ROOM AVAILABLE | Click Here | Follow us | Burlingto",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://bordercafe.com/location/",
+      "quote": "| 12:00 P | M to 10:0 | 0 PM | **HAPPY HOUR MON-FRI 3 | -6P | M** | **NFL SUNDAY 1-5PM** | PRIVATE ROOM AVAILABLE | Click Here | Follow us | NEW JERSE",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://bordercafe.com/location/",
+      "quote": "rday: | 11:30 AM t | o 10:0 | 0 PM | **HAPPY HOUR MON-FRI 3-6PM** | **NFL SUNDAY 1-5PM** | Follow us | Home | History | Location | NOW HIRINGǃ | Gift",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

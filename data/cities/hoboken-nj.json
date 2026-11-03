@@ -104,6 +104,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.30burgers.com"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/6789144999 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/6789144999",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -332,6 +345,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/6789145022 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/6789145022",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2027,7 +2053,22 @@
     "conflicts": [],
     "oneoffs": []
    },
-   "menu": "https://www.houseofque.com/menu"
+   "menu": "https://www.houseofque.com/menu",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.houseofque.com/americandream",
+      "quote": ". | At House of Que American Dream, located next to BIG SNOW, the ambiance is casual. Our outdoor patio overlooks the live performance level of the Dream Mall. | FOOD MENU | BEER / WINE / COCKT",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nj-il-tavolo-di-palmisano",
@@ -2789,6 +2830,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/14167359127 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/14167359127",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2934,6 +2988,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5113963278 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/5113963278",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3440,7 +3507,50 @@
     "fbNewestPost": null,
     "website": "https://www.pier13hoboken.com/"
    },
-   "menu": "https://pier13hoboken.com/menu/"
+   "menu": "https://pier13hoboken.com/menu/",
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://pier13hoboken.com/",
+      "quote": "Pier Gear | FAQS | Contact Us | $ | 0.00 | 0 | Cart | HOBOKEN'S WATERFRONT PLAYGROUND | Beer Garden · Food Trucks · Live Music · Events · Wellness · Run Club | Plan Your Visit | Upcoming Ev",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Watch parties",
+    "teams": [],
+    "kinds": [
+     "watch"
+    ],
+    "days": [
+     "Wed",
+     "Thu",
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://pier13hoboken.com/",
+      "quote": "Night | Wednesdays: Slice the Price | Thursdays-Sundays: DJs & Sports Watch Parties! | Explore more | Upcoming Events | SUMMER 2026 | Discover what’s hap",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch",
+      "days": [
+       "Wed",
+       "Thu",
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nj-pig-and-parrot-last-resort",
@@ -3515,6 +3625,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/6140954576 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/6140954576",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3630,6 +3753,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/6789145047 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/6789145047",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4225,7 +4361,88 @@
     "fbNewestPost": null,
     "website": "https://www.texasarizona.com/"
    },
-   "menu": "https://texasarizona.com/menu"
+   "menu": "https://texasarizona.com/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/4762022023 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/4762022023",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Penn State backers bar",
+    "teams": [
+     {
+      "team": "Penn State",
+      "league": "NCAA",
+      "local": false
+     }
+    ],
+    "kinds": [
+     "backers",
+     "football",
+     "gameday",
+     "watch"
+    ],
+    "days": [
+     "Sat",
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://texasarizona.com/",
+      "quote": "l screens for every league, every Saturday, every Sunday. | Certified Watch Party Destination | Proud Penn State Alumni Association partner | NFL Sunda",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch",
+      "days": [
+       "Sat",
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://texasarizona.com/",
+      "quote": "what's on tap today. | View Specials | Every Saturday | Nittany Lions Game Day | Texas Arizona is the official Hoboken home of Penn State football.",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday",
+      "days": [
+       "Sat"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://texasarizona.com/",
+      "quote": "ials | Every Saturday | Nittany Lions Game Day | Texas Arizona is the official Hoboken home of Penn State football. Doors open early, screens go up on every wall",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "backers",
+      "days": [
+       "Sat"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://texasarizona.com/",
+      "quote": "tch Party Destination | Proud Penn State Alumni Association partner | NFL Sundays | College Football Saturdays | March Madness | UFC & Boxing | Word On",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nj-the-ainsworth",
@@ -4504,7 +4721,35 @@
      }
     ]
    },
-   "menu": "https://www.thehobokenbiergarten.com/menu"
+   "menu": "https://www.thehobokenbiergarten.com/menu",
+   "outdoor": {
+    "types": [
+     "beer garden",
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/450218998 outdoor tags (biergarten, yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/450218998",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://www.thehobokenbiergarten.com/",
+      "quote": "ery | Gift Cards | Book Your Event | THE HOBOKEN BIERGARTEN | Discover Hoboken’s Ultimate Beer Garden: Craft brews, Unique cocktails and Fresh, Organic Delights | CHECK OUT OUR MENUS | RESER",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.thehobokenbiergarten.com/",
+      "quote": "️ | Every weekend from September 18 to October 17 | Get ready for: 🍖 Backyard BBQs on the outdoor patio 🍺 Traditional stein-holding competitions 🎶 Live music & entertainment 🍂 Festive Oktoberfe",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nj-the-madison-bar-and-grill",
@@ -4636,6 +4881,31 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "gameday": {
+    "label": "Bills backers bar",
+    "teams": [
+     {
+      "team": "Bills",
+      "league": "NFL",
+      "local": false
+     }
+    ],
+    "kinds": [
+     "backers"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "BillsFans.com Bills Backers chapter directory (chapter listings posted Mar 2025)",
+      "url": "https://www.billsfans.com/bills-backers/united-states/new-jersey/",
+      "quote": "Bills Backers chapter bar: The Shannon, Hoboken",
+      "checked": "2026-11-02",
+      "kind": "backers",
+      "days": []
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4807,6 +5077,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/6793958722 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/6793958722",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4841,6 +5124,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://trosgrk.com"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/6789145029 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/6789145029",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

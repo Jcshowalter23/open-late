@@ -2799,6 +2799,61 @@
       "url": "https://thedirtybuffalo.com/specials"
      }
     ]
+   },
+   "gameday": {
+    "label": "Bills backers bar",
+    "teams": [
+     {
+      "team": "Bills",
+      "league": "NFL",
+      "local": false
+     }
+    ],
+    "kinds": [
+     "backers",
+     "gameday"
+    ],
+    "days": [
+     "Thu"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://thedirtybuffalo.com/",
+      "quote": "Thursdays · 7 PM | All locations compete against each other. | Bills Backers | Bills football lives here. | Find your seat with the herd. | View A",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "backers",
+      "days": [
+       "Thu"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://thedirtybuffalo.com/",
+      "quote": "Roads. | Local | Since Day One | Supporting Our | Communities | Bills Backers | Welcome Here | Follow The Dirty | Stay In The Know | Join The List",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "backers"
+     },
+     {
+      "src": "venue website",
+      "url": "https://thedirtybuffalo.com/specials",
+      "quote": "| This Week: | Mon | Wed | Thu | Fri | Dirty Hour | Football | Bills Backers | Monday | Kids Eat Free. | And the games are half off. | Start the w",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "backers"
+     },
+     {
+      "src": "venue website",
+      "url": "https://thedirtybuffalo.com/specials",
+      "quote": "Wings | 52 Sauces | Game Rooms | Cold Beer | Family Friendly | Bills Backers | Bills Football Lives Here. | Each of our three locations has its ow",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "backers"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3032,7 +3087,22 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/12453316741 opening_hours tag (map data 2026-11-01) (checked 2026-11-01)",
    "county": "Virginia Beach City",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://slicelife.com/pizza-delivery/ny-new_york",
+      "quote": "ining as safe as possible, they installed plexiglass between each booth and MERV filters. Outdoor dining is available too. | 4) Roberta’s | Established: | 2008 | Signature dish: | Bee Sting Pizz",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "type": "neighborhood",

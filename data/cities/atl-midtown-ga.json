@@ -160,7 +160,22 @@
      }
     ]
    },
-   "phoneSource": "Venue website altatoro.com, checked 2026-11-02"
+   "phoneSource": "Venue website altatoro.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://altatoro.com/atlanta-midtown-atlanta-altatoro-events",
+      "quote": "ep into | Santa’s Hideaway | , our festive holiday pop-up transforming AltaToro’s heated, enclosed patio into a winter wonderland filled with twinkling lights, lush garlands, and enchanting holi",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-amsterdam-atlanta",
@@ -273,7 +288,22 @@
     "website": "https://www.avelinebaratl.com/"
    },
    "menu": "https://www.avelinebaratl.com/menus",
-   "phoneSource": "OpenStreetMap node/13036508457 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/13036508457 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.avelinebaratl.com/about",
+      "quote": "or artful cocktails and shareable small plates. Join us at sunset, in the dining room, or on our patio, as the space begins to glow. Linger throughout the night with a group of friends or for",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-aviva-by-kameel",
@@ -838,7 +868,22 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.eatboho.com/about-us",
+      "quote": "unch near Georgia Tech, meeting friends for dinner in Midtown Atlanta, or enjoying drinks on our patio, Boho Taco offers a relaxed atmosphere, friendly service, and bold flavors inspired by Me",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-bon-ton-atl",
@@ -1086,6 +1131,19 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/234934492 outdoor tags (terrace; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/234934492",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1221,7 +1279,27 @@
     }
    ],
    "menu": "https://cypressatl.com/our-menu/",
-   "phoneSource": "OpenStreetMap node/8238759950 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/8238759950 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/8238759950 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/8238759950",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://cypressatl.com/",
+      "quote": "r legal guardian* | (404) 815-9243 | 817 W Peachtree St NW, Atlanta, GA 30308 | dine-in / patio seating / to-go / full bar | [menu id=\"13\"] | © Copyright 2025 - Cypress Street Pint & Plate | Al",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-divan-restaurant-and-bar",
@@ -1325,6 +1403,45 @@
     "fbPostsSeen": 12,
     "fbNewestPost": "2026-11-01",
     "website": "https://www.doscaminos.com/location/atlanta/"
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.doscaminos.com/atlanta-special-events/",
+      "quote": "Margs & Music Fridays • Atlanta | ATLANTA’S ONLY LEMON PEPPER TACO | Sunday Brunch | Paws on the Patio • Atlanta | Thanksgiving Day | Event Catering Made Easy | Landry's Select Club | Load Mor",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "College football Saturdays",
+    "teams": [],
+    "kinds": [
+     "football"
+    ],
+    "days": [
+     "Sat"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.doscaminos.com/atlanta-special-events/",
+      "quote": "in content starts here, tab to start navigating | Atlanta Fun Stuff | College Football Saturdays | Happy Hour • Atlanta | Lunch Just Got Better | Margs & Music Friday",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "football",
+      "days": [
+       "Sat"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1423,7 +1540,20 @@
     "fbNewestPost": "2026-10-19",
     "website": null
    },
-   "phoneSource": "OpenStreetMap node/12417463372 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/12417463372 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/12417463372 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/12417463372",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-eleventh-street-pub",
@@ -1951,7 +2081,22 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.granaatl.com/menu-roswell"
+   "menu": "https://www.granaatl.com/menu-roswell",
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.granaatl.com/piedmont",
+      "quote": "state. We look forward to serving you in our family-friendly dining room, mezzanine, and rooftop bar! | ORDER NOW | GIFT CARDS | VIEW OUR MENU | MAKE A RESERVATION FOR GRANA PIEDMONT | Looki",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-halo-midtown-mixx",
@@ -2404,6 +2549,21 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.knockmusichouse.com/"
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.knockmusichouse.com/",
+      "quote": "00 people. The banquet hall space is a 7,000-square-foot open, light-filled space with an outdoor patio and balcony. The event space is perfect for corporate social events, conventions, wrap pa",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2639,6 +2799,19 @@
     "fbPostsSeen": 11,
     "fbNewestPost": "2026-10-28",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/12134269540 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/12134269540",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3040,7 +3213,22 @@
     "fbNewestPost": "2026-10-30",
     "website": "http://www.mistorakitchen.com/"
    },
-   "phoneSource": "Venue website www.mistorakitchen.com, checked 2026-11-02"
+   "phoneSource": "Venue website www.mistorakitchen.com, checked 2026-11-02",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.mistorakitchen.com/about/",
+      "quote": "ays at Mistora on Piedmont, and from the moment we walked in, it was a vibe. | We sat out on the patio for a while, and everything hit: the ambiance, the drinks, the hookah, the music, and esp",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-momonoki",
@@ -3330,6 +3518,43 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio",
+     "screened-in",
+     "porch"
+    ],
+    "firePit": true,
+    "sources": [
+     {
+      "src": "OpenStreetMap way/181972288 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/181972288",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.parktavern.com/",
+      "quote": "Menu | Our Food | Outdoor Dining Midtown Atlanta | Midtown Atlanta Sports Bar | Brewpub | Dog-Friendly Patio | Events | Events | Park Tavern Ski Lodge: Midtown Atlanta’s Winter Escape | Event Venues",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.parktavern.com/",
+      "quote": "The Park Tavern | Skip to content | Restaurant | Menus | Drinks Menu | Our Food | Outdoor Dining Midtown Atlanta | Midtown Atlanta Sports Bar | Brewpub | Dog-Friendly Patio | Events | Ev",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (screened-in wording)",
+      "url": "https://www.parktavern.com/private-events/",
+      "quote": "a lasting impression. | Piedmont Garden Tent | Ski Lodge | Tavern Lounge | Enclosed Patio/Screened Porch | Piedmont Room | Piedmont Garden Tent | Piedmont Garden Tent | Nearly 5000 square feet o",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3528,7 +3753,20 @@
     "fbNewestPost": "2026-10-27",
     "website": "https://rrealtacos.com/"
    },
-   "menu": "https://www.rrealtacos.com/food-menu"
+   "menu": "https://www.rrealtacos.com/food-menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/11580959121 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/11580959121",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-ru-sans-midtown",
@@ -4190,7 +4428,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/226820766 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/226820766",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-the-original-j-r-crickets-in-midtown-atlanta",
@@ -4329,7 +4580,20 @@
     "fbNewestPost": "2026-06-26",
     "website": null
    },
-   "phoneSource": "OpenStreetMap node/12134269560 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/12134269560 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/12134269560 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/12134269560",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-the-sivas",
@@ -4485,7 +4749,22 @@
     "fbNewestPost": "2026-10-30",
     "website": "https://tinlizzyscantina.com/"
    },
-   "menu": "https://tinlizzyscantina.com/menu/"
+   "menu": "https://tinlizzyscantina.com/menu/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://tinlizzyscantina.com/locations/",
+      "quote": "our locations for a great meal, refreshing drinks, and a fun time. All our locations have patio dining year-round and are available for dine-in or delivery. | Midtown | 77 12th Street NE | Atl",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-torched-hop-brewing-company",
@@ -4799,6 +5078,40 @@
       "url": "https://www.wickedwolfatlanta.com/book-your-event"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.wickedwolfatlanta.com/",
+      "quote": "d Wolf has you covered. With three bars, a private dining room, an upstairs lounge, and a spacious patio, we can handle any vibe and every size group. From intimate dinners to full-blown blowout",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Watch parties",
+    "teams": [],
+    "kinds": [
+     "watch"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.wickedwolfatlanta.com/",
+      "quote": "r deals. Looking for a place to catch the game? We’ve got your sports watch parties covered too. Come the weekend, our wild brunches turn into full-blown",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4925,7 +5238,28 @@
     "fbNewestPost": "2026-10-30",
     "website": "https://eatzocalo.com/"
    },
-   "menu": "https://eatzocalo.com/menu"
+   "menu": "https://eatzocalo.com/menu",
+   "outdoor": {
+    "types": [
+     "patio",
+     "porch"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/1078346902 outdoor tags (veranda; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/1078346902",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://eatzocalo.com/",
+      "quote": "me-changer. The atmosphere is lively yet cozy, and the decor adds such a fun vibe. We sat on the patio, and it was perfect for a relaxed evening. Can't wait to come back for more!¨ | Jamie Jor",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-cirque-daiquiri-bar-grill-atlanta",
@@ -5102,7 +5436,22 @@
      }
     ]
    },
-   "menu": "https://www.v12restaurant.com/menu"
+   "menu": "https://www.v12restaurant.com/menu",
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.v12restaurant.com/",
+      "quote": "y, or a night out, every experience is designed to be memorable. | View Dinner Menu | V12 Rooftop Terrace | Retractable, open-air experience. | Inspired by Mercedes-Benz style engineering, the te",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-belly-restaurant-lounge-atlanta",
@@ -5181,7 +5530,22 @@
    ],
    "source": "hours from OpenStreetMap node/13019789376 opening_hours tag (map data 2026-10-31; last checked on the map 2025-07-23) (checked 2026-11-01)",
    "county": "Fulton",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.marriott.com/en-us/hotels/atlox-moxy-atlanta-midtown/dining/",
+      "quote": "-11:00 PM | Fri-Sat | 4:00 PM-1:00 AM | +1 404-2499446 | Dress Code: | Casual | High Note Rooftop Bar | Eclectic | One of Midtown Atlanta’s few true rooftop destinations, High Note serves cre",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-blackjack-bar-tapas-atlanta",
@@ -5237,7 +5601,22 @@
    "source": "hours from OpenStreetMap node/13036508461 opening_hours tag (map data 2026-10-31; last checked on the map 2026-09-29) (checked 2026-11-01)",
    "county": "Fulton",
    "addedBy": "sweep-osm",
-   "menu": "https://granadaatlanta.com/wp-content/uploads/2026/06/May-Peel_Food-Menu_10.27.25_Web.pdf"
+   "menu": "https://granadaatlanta.com/wp-content/uploads/2026/06/May-Peel_Food-Menu_10.27.25_Web.pdf",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://granadaatlanta.com/experience/events/",
+      "quote": "Atlanta's Best Weekly Series at Hotel Granada | From live music at May Peel speakeasy to al fresco Sunday Brunch at Pom Court, discover the best weekly series in Atlanta at Hotel Granada.",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-habaneros-atlanta",
@@ -5635,7 +6014,20 @@
    ],
    "source": "hours from OpenStreetMap node/9270199577 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.lewisbarbecue.com/location/lewis-barbecue-atlanta/: \" days a week starting Monday, Feb 2nd | Sunday - Monday: 11 am - 9 pm | Tuesday - Saturday: 11 am - 10 pm | Order T\" (checked 2026-11-02)",
    "county": "Fulton",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/9270199577 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/9270199577",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-boqueria-atlanta",
@@ -5669,7 +6061,22 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/12924935617 opening_hours tag (map data 2026-11-01; last checked on the map 2026-06-10) (checked 2026-11-02); late hours confirmed by venue website https://boqueriarestaurant.com/location/nyc/soho/: \"ue | 11:30 AM – 10:00 PM | Wed | 11:30 AM – 10:00 PM | Thu | 11:30 AM – 10:00 PM | Fri | 11:30 AM – 11:00 PM | Sat | 1\" (checked 2026-11-02)",
    "county": "Fulton",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://boqueriarestaurant.com/location/atl-colony-square/atl-events-catering/",
+      "quote": "(standing—18 seated) | WINE TABLE SEATS: | 10 | Experience the vibrant atmosphere of our outdoor patio, perfect for hosting events in the spring and fall. A full patio buyout accommodates up t",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "ga-holeman-and-finch-public-house-atlanta",
@@ -5775,6 +6182,19 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/885332249 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/885332249",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   }
  ],

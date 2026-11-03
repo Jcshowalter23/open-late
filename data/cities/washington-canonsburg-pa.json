@@ -1452,6 +1452,28 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://experiencejacksons.com/",
+      "quote": "ery dish is bursting with flavor. | Whether you choose to dine indoors or outdoors on our beautiful patio (seasonal), our restaurant offers a warm and inviting atmosphere for any occasion. Our ex",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://experiencejacksons.com/",
+      "quote": "s Southpointe is the perfect place for you. Come experience our fresh ingredients, indoor/outdoor dining, extensive bar, extraordinary staff, and upscale casual atmosphere today! | Book Your Tab",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2741,7 +2763,71 @@
     "fbNewestPost": "2026-10-15",
     "website": "https://santellos.com/"
    },
-   "menu": "https://santellos.com/menu/"
+   "menu": "https://santellos.com/menu/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "heated": true,
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://santellos.com/",
+      "quote": "W BEERS ON TAP & SEASONAL COCKTAILS | YOUR SEAT IN THE SUN. | Cold drinks, great food and open-air dining made for summer days and nights. | VIEW OUR MENU | SANTELLO’S. ON THE MOVE. | Bring the f",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (heated wording)",
+      "url": "https://santellos.com/",
+      "quote": "time and it was amazing. We sat outside and it was beautiful at night with the lights and patio heaters. We ordered wings and fries and the fries were the best I have had! Our sever Jordan was",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Steelers game day",
+    "teams": [
+     {
+      "team": "Steelers",
+      "league": "NFL",
+      "local": true
+     }
+    ],
+    "kinds": [
+     "gameday"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://santellos.com/",
+      "quote": "the SANTELLOS_HEADER settings in the | script at the bottom (Steelers game days, hours, links). | ===================================================",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     },
+     {
+      "src": "venue website",
+      "url": "https://santellos.com/",
+      "quote": "| HALF OFF | All alcohol and select food · Mon–Fri, 3–6 PM | Steelers Game Day | HALF OFF | All alcohol, kickoff to final whistle | Excludes premium",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     },
+     {
+      "src": "venue website",
+      "url": "https://santellos.com/",
+      "quote": "Monday – Friday · 3 PM – 6 PM | *Excludes premium brands. | Steelers Game Day | Every Steelers Game | Half Off | All alcohol, every Steelers game |",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "shenanigan-s-bar-and-grill",
@@ -3460,7 +3546,29 @@
     "fbNewestPost": "2026-10-06",
     "website": "https://toscanabrickovensouthpointe.com/"
    },
-   "menu": "https://toscanabrickovensouthpointe.com/menu/"
+   "menu": "https://toscanabrickovensouthpointe.com/menu/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://toscanabrickovensouthpointe.com/",
+      "quote": "tyle thin crust pizzas, creative craft cocktails and unique Italian wines. Dine al fresco on our patio, weather permitting, or enjoy the cozy bar. Toscana also features rooms for private group",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://toscanabrickovensouthpointe.com/",
+      "quote": "opolitan-style thin crust pizzas, creative craft cocktails and unique Italian wines. Dine al fresco on our patio, weather permitting, or enjoy the cozy bar. Toscana also features rooms for",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "tradesmens-inn",

@@ -443,7 +443,22 @@
     "fbNewestPost": null,
     "website": "https://www.charleysoceangrill.com/"
    },
-   "menu": "https://www.charleysoceangrill.com/menu.php"
+   "menu": "https://www.charleysoceangrill.com/menu.php",
+   "outdoor": {
+    "types": [
+     "deck"
+    ],
+    "sources": [
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://www.charleysoceangrill.com/",
+      "quote": "ts and has private elevator access, private handicap accessible bathrooms, a private bar, outdoor deck and unparalleled views of the beach and the Atlantic Ocean. | Learn More | RESERVE | -->",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nj-china-chef-eatontown",
@@ -684,7 +699,30 @@
     "website": "https://www.donovansreefbeachbar.com/"
    },
    "websiteSource": "OpenStreetMap node/8112497686 website tag (map data 2026-10-31), checked 2026-11-02",
-   "menu": "https://www.donovansreefbeachbar.com/menu"
+   "menu": "https://www.donovansreefbeachbar.com/menu",
+   "outdoor": {
+    "types": [
+     "deck",
+     "waterfront"
+    ],
+    "sources": [
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://www.donovansreefbeachbar.com/",
+      "quote": "Feel the rhythm in the sand at our beachfront summer stage. Dance the night away outside on the deck or catch the beat of the band inside at the bar. There's something for everyone at Donova",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (waterfront wording)",
+      "url": "https://www.donovansreefbeachbar.com/",
+      "quote": "ivate lifeguarded beach while sipping drinks in the sand, or grab a seat at our authentic beachfront Tiki Bar and enjoy the view. Step inside to catch a game or stay outside to catch the breeze. Ad",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nj-eastern-empire",
@@ -3648,7 +3686,22 @@
     "conflicts": [],
     "oneoffs": []
    },
-   "menu": "https://theroostrestaurant.com/menu/"
+   "menu": "https://theroostrestaurant.com/menu/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://theroostrestaurant.com/",
+      "quote": "or our: | Wide variety of delicious dishes | Unique and tasty specialty cocktails | Large outdoor patio with a breathtaking view of Cream Ridge Golf Course | We also offer 10% discounts for gol",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "nj-the-rum-runner",
@@ -4151,6 +4204,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/887643261 outdoor tags (biergarten; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/887643261",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {

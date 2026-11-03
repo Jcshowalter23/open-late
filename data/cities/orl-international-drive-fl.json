@@ -1128,6 +1128,26 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-27",
     "website": "https://www.cafetututango.com/"
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/140641425 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/140641425",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://cafetututango.com/",
+      "quote": "| @orlandoweekly 2026 Best I-Drive | 🥞 | Bottomless Brunch Fri - Sun | 🎨 | Dining Room & Patio seating | 🥡 | Pickup & delivery options available | ...pretty booked. (Table for two. Same as al",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1215,6 +1235,28 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-30",
     "website": "https://www.opentable.com/r/ceiba-orlando"
+   },
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.opentable.com/r/ceiba-orlando",
+      "quote": "or scenic views | Great for creative cocktails | Good for special occasions | An elevated rooftop dining experience, enjoy sophisticated regional Mexican dishes. Valet parking is complimentary f",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.opentable.com/r/ceiba-orlando",
+      "quote": "f Disney fireworks, and an atmosphere suited to celebrations. | Does this restaurant have outdoor seating? | Yes, Ceiba is an elevated rooftop dining experience with an open-air patio/lounge, and",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3930,6 +3972,36 @@
       "url": "https://olered.com/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "rooftop",
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://olered.com/private-events/",
+      "quote": "op fun, with a massive 40-foot screen, advanced A/V, luxe lounge seating, and a Las Vegas rooftop bar with a view of the Bellagio fountains that’ll knock your boots off. | Check It Out | orla",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://olered.com/private-events/",
+      "quote": "| Check It Out | gatlinburg | Ole Red Gatlinburg | Two floors of private event space, an outdoor patio, and panoramic Smoky Mountain views make this bar and restaurant in Gatlinburg, TN a one-",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://olered.com/private-events/",
+      "quote": "ear on our 6,000-square-foot Nashville rooftop bar, decked out with a full-service indoor-outdoor space with panoramic views of all the action on Lower Broadway. | Check It Out | gatlinburg | O",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4099,6 +4171,21 @@
       "url": "https://www.pinstripes.com/happenings"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.pinstripes.com/happenings",
+      "quote": "Sips & Sounds | Drinks, dinner, and the perfect vibes to start your weekend | Every week, our patio comes alive with local talent, refreshing sips, and live music that sets the tone for the",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -5068,7 +5155,34 @@
     "oneoffs": []
    },
    "phoneSource": "Venue website experiencethepub.com/locations/orlando, checked 2026-11-01",
-   "menu": "https://experiencethepub.com/menu/"
+   "menu": "https://experiencethepub.com/menu/",
+   "gameday": {
+    "label": "Watch parties",
+    "teams": [],
+    "kinds": [
+     "watch"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://experiencethepub.com/locations/orlando/",
+      "quote": "15PM | 11AM – 9:15PM | Upcoming Events | August 2026 | Premier League Watch Parties | Watch all the Premier League action at The Pub! We will be showing",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     },
+     {
+      "src": "venue website",
+      "url": "https://experiencethepub.com/events/euro-cup-copa-matches-637-147-852-291-125-663-248-609-597-697-781-745-409-305-293-321-458-479-382-796-613-739-698-496/",
+      "quote": "Premier League Watch Parties - The Pub | Home | Locations | Menu | Happenings | Parties | Gift Car",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-teatro-martini-orlando",
@@ -5470,7 +5584,60 @@
      }
     ]
    },
-   "phoneSource": "Venue website tinrooforlando.com, checked 2026-11-02"
+   "phoneSource": "Venue website tinrooforlando.com, checked 2026-11-02",
+   "gameday": {
+    "label": "Jaguars watch party",
+    "teams": [
+     {
+      "team": "Jaguars",
+      "league": "NFL",
+      "local": true
+     }
+    ],
+    "kinds": [
+     "gameday",
+     "ticket",
+     "watch"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://tinrooforlando.com/",
+      "quote": "pm! Hosted by Rhenn Again! Solos, Duos, and bands all welcome! | Jags Watch Parties | DUUUVAL! The Green Room at Tin Roof is your spot ALL season long to",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     },
+     {
+      "src": "venue website",
+      "url": "https://tinrooforlando.com/featured-event/jags-watch-parties-green-room/",
+      "quote": "Jags Watch Parties - Orlando Bar | Live Music | Tin Roof | Orlando | Calendar | food & d",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     },
+     {
+      "src": "venue website",
+      "url": "https://tinrooforlando.com/featured-event/jags-watch-parties-green-room/",
+      "quote": "lendar | food & drink | GROUP PARTIES & EVENTS | About | merch | Jags Watch Parties | Tin Roof at Icon Park in Orlando is hosting Jaguar game watches all",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     },
+     {
+      "src": "venue website",
+      "url": "https://tinrooforlando.com/",
+      "quote": "long to catch every Jacksonville Jaguars game! Game sound on, special Game Day menu, NFL Sunday Ticket and we're even open early for the London Game",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-torchys-tacos-vineland",

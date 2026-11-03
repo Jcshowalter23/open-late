@@ -1453,6 +1453,19 @@
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-24",
     "website": "https://historicgrantstation.com/rib-city"
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/894949815 outdoor tags (yes; map data 2026-10-31)",
+      "url": "https://www.openstreetmap.org/way/894949815",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1578,6 +1591,28 @@
       "url": "https://rooneyspalmbay.com/menu/dinner-specials-in-palm-bay/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://rooneyspalmbay.com/",
+      "quote": "t food, cold drinks, and friendly service in our comfortable indoor dining room or on our outdoor patio! | Get Directions | Learn from the Locals | Had lunch there today. Didn’t expect much as",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://rooneyspalmbay.com/live-music-entertainment/",
+      "quote": "d style, making every visit to Rooney’s a unique experience. | Galaxy playing at Rooney’s outdoor bar and patio. December 2025. | Recurring Event Highlights | Here’s a quick look at what you",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1663,6 +1698,21 @@
       "url": "https://rosiesbottomsup.com/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://rosiesbottomsup.com/",
+      "quote": "t schedule | Deliciousness | Our Full menu is always available 11am-2am daily. Indoor and outdoor seating with a river view. Fresh never frozen burgers and wings. Try our Famous Nachos , pizzas,",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2217,6 +2267,41 @@
       "url": "https://blog.youtube/"
      }
     ]
+   },
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [
+     "Sun"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.youtube.com/@TheItalianFishermanGrantFL",
+      "quote": "| Privacy | Policy & Safety | How YouTube works | Test new features | NFL Sunday Ticket | © 2026 Google LLC | The Italian Fisherman - YouTube",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     },
+     {
+      "src": "venue website",
+      "url": "https://about.youtube/",
+      "quote": "Blog | How YouTube Works | Jobs | Press | YouTube Culture & Trends | NFL Sunday Ticket | Products | YouTube Kids | YouTube Music | YouTube Originals | YouTu",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket",
+      "days": [
+       "Sun"
+      ]
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2494,7 +2579,26 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://wingsandthingstoo.com/menu/"
+   "menu": "https://wingsandthingstoo.com/menu/",
+   "gameday": {
+    "label": "NFL Sunday Ticket",
+    "teams": [],
+    "kinds": [
+     "ticket"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://wingsandthingstoo.com/",
+      "quote": "rent flavor combinations. There’s a sauce for everyone! | We have the NFL Ticket! | Address: | 4651 Babcock St NE #3 | Palm Bay, Florida 32905 | Phone",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "ticket"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "fl-yellow-dog-cafe",

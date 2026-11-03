@@ -94,6 +94,19 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/1911661703 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/1911661703",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -202,6 +215,21 @@
       "url": "https://www.ala-dc.com/events"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.ala-dc.com/",
+      "quote": "e bar and designated areas Monday to Friday, all day. First come, first served. Inside or outside seating is subject to availability. | THE EXPERIENCE | MEZZE LUNCH | A selection of our best and",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1055,7 +1083,65 @@
     "website": "https://www.bonneviedc.com/"
    },
    "menu": "https://www.bonneviedc.com/dining",
-   "phoneSource": "Venue website www.bonneviedc.com, checked 2026-11-01"
+   "phoneSource": "Venue website www.bonneviedc.com, checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.bonneviedc.com/",
+      "quote": "day: | 4 pm to Close | Wed-Saturday: | 4 pm to 7:00 pm | Available in the 1st Floor Bar & Rooftop Bar | (*Hightop Seating Only) | Copyright © 2025 Bonne Vie DC. All Rights Reserved.",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Watch parties",
+    "teams": [],
+    "kinds": [
+     "watch"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.bonneviedc.com/",
+      "quote": "e Shows Calendar | Wine Wednesday | Thursday Jazz | Jazz Brunch | NFL Watch Parties | Gift Card | Reservations | Open Menu | Close Menu | Dining | Privat",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.bonneviedc.com/",
+      "quote": "e Shows Calendar | Wine Wednesday | Thursday Jazz | Jazz Brunch | NFL Watch Parties | Gift Card | Reservations | Where Every Day Feels Like a Beautiful L",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.bonneviedc.com/private-events",
+      "quote": "e Shows Calendar | Wine Wednesday | Thursday Jazz | Jazz Brunch | NFL Watch Parties | Gift Card | Reservations | Celebrate the Good Life at Bonne Vie | F",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.bonneviedc.com/live",
+      "quote": "e Shows Calendar | Wine Wednesday | Thursday Jazz | Jazz Brunch | NFL Watch Parties | Gift Card | Reservations | Contact | hello@bonneviedc.com | (202) 5",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-bravo-bravo-dc",
@@ -1891,6 +1977,31 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
     "website": null
+   },
+   "gameday": {
+    "label": "Bills backers bar",
+    "teams": [
+     {
+      "team": "Bills",
+      "league": "NFL",
+      "local": false
+     }
+    ],
+    "kinds": [
+     "backers"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "BillsFans.com Bills Backers chapter directory (chapter listings posted Mar 2025)",
+      "url": "https://www.billsfans.com/bills-backers/united-states/washington-dc/",
+      "quote": "Bills Backers chapter bar: Exiles Bar, Washington",
+      "checked": "2026-11-02",
+      "kind": "backers",
+      "days": []
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2148,7 +2259,20 @@
     "fbNewestPost": "2026-10-28",
     "website": "https://hanksoysterbar.com/dupont-circle/"
    },
-   "menu": "https://hanksoysterbar.com/dupont-circle/menus/"
+   "menu": "https://hanksoysterbar.com/dupont-circle/menus/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/719191146 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/719191146",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-heist-dc",
@@ -2298,6 +2422,19 @@
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-09-21",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/4873040621 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/4873040621",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2376,7 +2513,20 @@
     "fbNewestPost": "2026-10-26",
     "website": "https://immigrantfood.com/"
    },
-   "menu": "https://immigrantfood.com/menus"
+   "menu": "https://immigrantfood.com/menus",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/10802578840 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/10802578840",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-iron-gate-restaurant",
@@ -2470,7 +2620,27 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/739339997 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/739339997",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.irongaterestaurantdc.com/",
+      "quote": "ntinuously operating restaurants and is split between a sumptuous dining room, a wisteria covered patio and a handsomely enclosed carriageway that houses the bar. | Chef Anthony Chittum, a nati",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-johnny-rockets",
@@ -2691,6 +2861,36 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "heated": true,
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.latomatebistro.com/",
+      "quote": ", cocktail parties, dinners, lunches, or aperitivi. | In the winter months, our partially heated patio may transform into a charming winter garden, offering a cozy and intimate atmosphere when",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.latomatebistro.com/",
+      "quote": "a | mint garnish | $ | 17.00 | Classic Aperol and Campari Spritz also available | Patio | Al Fresco | Dining, Year Round | A Patio Perfect for Every Season | Our terrace—recently recognized",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (heated wording)",
+      "url": "https://www.latomatebistro.com/",
+      "quote": ", cocktail parties, dinners, lunches, or aperitivi. | In the winter months, our partially heated patio may transform into a charming winter garden, offering a cozy and intimate atmosphere when",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2780,7 +2980,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/739340061 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/739340061",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-le-desales",
@@ -3275,6 +3488,26 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
     "website": "http://www.missiondupont.com/"
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/739340074 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/739340074",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.missiondupont.com/about/",
+      "quote": "y BentoBox | Main content starts here, tab to start navigating | About Us | Known for its spacious patio, daily happy hour, weekend brunch and multiple private event spaces, Mission is a saloon",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3446,7 +3679,22 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.nerowashdc.com/menus/"
+   "menu": "https://www.nerowashdc.com/menus/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.nerowashdc.com/about/",
+      "quote": "ambiance and a curated mix of deep house and lounge music set the perfect mood, while the beautiful patio offers a serene open-air retreat. If you're seeking something more exclusive, there's a s",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-nooshi-dupont",
@@ -3479,6 +3727,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/739528114 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/739528114",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -3512,7 +3773,20 @@
     "fbNewestPost": null,
     "website": null
    },
-   "phoneSource": "OpenStreetMap node/11329577820 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/11329577820 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/11329577820 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/11329577820",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-pho-viet-usa-u-street",
@@ -3588,7 +3862,20 @@
     "fbNewestPost": "2026-10-28",
     "website": "https://piscoynazca.com/washington-dc/"
    },
-   "menu": "https://piscoynazca.com/washington-dc/menus/"
+   "menu": "https://piscoynazca.com/washington-dc/menus/",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/7168224178 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/7168224178",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-pop-social",
@@ -4008,7 +4295,22 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.residentsdc.com/",
+      "quote": "Dupont Circle, Residents is a charming restaurant & bar offering an exquisite indoor and outdoor dining and cocktail experience. The name stems from our founders, who were once immigrants and b",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-rewind-by-decades",
@@ -4164,7 +4466,30 @@
     "website": "https://www.saufhausdc.com/"
    },
    "menu": "https://www.saufhausdc.com/menu/",
-   "phoneSource": "OpenStreetMap node/4156160943 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/4156160943 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "rooftop",
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://www.saufhausdc.com/",
+      "quote": "all about great beer, good company, and unforgettable moments. Nestled in Dupont Circle, our rooftop beer garden serves up the perfect mix of cold brews, warm pretzels, and lively atmosphere",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://www.saufhausdc.com/",
+      "quote": "vate event space near Dupont Circle Metro? Sauf Haus is DC's largest German beer hall and biergarten, with three private spaces hosting 20 to 350 guests on 18th Street NW, including a roofto",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-sette-osteria",
@@ -4273,7 +4598,29 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.setteosteria.com/menu/"
+   "menu": "https://www.setteosteria.com/menu/",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.setteosteria.com/location/sette-osteria-dupont-circle/",
+      "quote": "or the vibes, and let Sette redefine your dining scene. | Outdoor Dining Perfected: Enjoy Our Patio All Year Long | Our patio at Sette Osteria is open year-round, providing a warm and invit",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.setteosteria.com/location/sette-osteria-dupont-circle/",
+      "quote": "style. Come for the food, stay for the vibes, and let Sette redefine your dining scene. | Outdoor Dining Perfected: Enjoy Our Patio All Year Long | Our patio at Sette Osteria is open year-round,",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-st-arnolds-mussel-bar",
@@ -4444,7 +4791,22 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://stksteakhouse.com/en-us/menus"
+   "menu": "https://stksteakhouse.com/en-us/menus",
+   "outdoor": {
+    "types": [
+     "rooftop"
+    ],
+    "sources": [
+     {
+      "src": "venue website (rooftop wording)",
+      "url": "https://stksteakhouse.com/en-us/location/washington/",
+      "quote": "guests for cocktails, or if you want to get fancy, up to 280 guests for a seated dinner! Our Rooftop Terrace, overlooking the waterfront seats up to 230 guests. Lunch pricing begins at $45,",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-sura-restaurant-dc",
@@ -4586,6 +4948,19 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/806539314 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/806539314",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4657,7 +5032,29 @@
     "website": "https://alabardero.com/"
    },
    "websiteSource": "OpenStreetMap node/739528182 website tag (map data 2026-10-31), checked 2026-11-01",
-   "menu": "https://alabardero.com/menus"
+   "menu": "https://alabardero.com/menus",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://alabardero.com/",
+      "quote": "bardero on the walk from the subway to the hotel. It looked festuve, pretty and there was outside seating. We glanced at the menu and decided to go back. | The staff were friendly, attentive and",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://alabardero.com/private-events",
+      "quote": "el Alabardero offers three elegant private dining spaces, a bar, the main dining room and our patio, all well suited for a broad array of events. A selection of special banquet and cocktail",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-taim-washington-d-c",
@@ -4887,7 +5284,48 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://www.theadmiraldc.com/",
+      "quote": "next event. The Admiral's two floors, multiple large bar areas, dining room and spacious outdoor patio allows it to host events like birthdays, alumni events, late night wedding after-parties,",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.theadmiraldc.com/book-an-event/",
+      "quote": "and three 60 inch HD televisions. The Bancroft Bar also has an additional entrance to our outdoor bar and patio. | Capacity: | 50 Cocktail Reception | 22 seated | Back Bar | The Admiral's Bac",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   },
+   "gameday": {
+    "label": "Watch parties",
+    "teams": [],
+    "kinds": [
+     "watch"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.theadmiraldc.com/about-us/",
+      "quote": "how college football, NFL, basketball, soccer and more, with official watch parties and plenty of space to gather with friends and cheer on your team. |",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "watch"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-the-golden-age",
@@ -5679,7 +6117,20 @@
    "source": "hours from OpenStreetMap node/3000700981 opening_hours tag (map data 2026-10-31; last checked on the map 2025-11-12) (checked 2026-11-01)",
    "county": "Washington, DC",
    "addedBy": "sweep-osm",
-   "menu": "https://www.crepeaway.com/menu"
+   "menu": "https://www.crepeaway.com/menu",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3000700981 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/3000700981",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-reynolds-bar-washington",
@@ -5871,7 +6322,29 @@
    "source": "hours from OpenStreetMap node/13177660844 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Washington, DC",
    "addedBy": "sweep-osm",
-   "menu": "https://moxies.com/restaurants/plano/menus"
+   "menu": "https://moxies.com/restaurants/plano/menus",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://moxies.com/restaurants/boston-seaport/",
+      "quote": "nce two levels of architecturally stunning dining areas, bars, and a stunning upper-level outdoor patio. Enjoy the incredible nightlife at one of the best Boston Seaport bars, including late ni",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://moxies.com/restaurants/dallas-uptown/",
+      "quote": "sit, hotels, shopping and entertainment. With a large patio equipped with fire tables, an outdoor bar, and plenty of TVs, Moxies is the place to catch sporting events or enjoy Happy Hour in D",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-safa-halal-washington",
@@ -6027,7 +6500,22 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/739340001 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://iricchidc.com/: \"ante i Ricchi | Location | 1220 19th Street NW Washington, DC 20036 | Hours | Tuesday – Sunday: 5 – 9pm Closed on\" (checked 2026-11-02)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://iricchidc.com/?page_id=237",
+      "quote": "large events which can accommodate 150 people, we have private and semi-private rooms and outdoor patio space. | The Tuscan Palm Room accommodates up to 50 people for a seated event and allows",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-sakana-japanese-restaurant-washington",
@@ -6094,7 +6582,20 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/4870779031 opening_hours tag (map data 2026-11-01; last checked on the map 2025-08-16) (checked 2026-11-02); late hours confirmed by venue website https://pjclarkes.com/location/washington/: \"Washington DC 20006 | Get us on the horn | (202)-463-6610 | Hours of operation | Mon – Sat: 11 am – 10 pm Sun: 11 a\" (checked 2026-11-02)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/4870779031 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/4870779031",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "dc-teashi-washington",
@@ -6193,6 +6694,19 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/14196769611 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/14196769611",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -6240,6 +6754,21 @@
       ]
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://uchi.uchirestaurants.com/location/sushi-austin/",
+      "quote": "e Map | make a reservation for uchi austin | We accept reservations and welcome walk‑ins. Patio seating is available weather permitting and may be adjusted in the event of inclement weather. |",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   }
  ],

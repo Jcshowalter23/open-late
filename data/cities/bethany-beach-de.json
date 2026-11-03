@@ -56,7 +56,20 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/11033731836 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/11033731836",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "de-99-sea-level",
@@ -291,7 +304,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3657224195 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/3657224195",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "de-bethany-brewing",
@@ -430,6 +456,21 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-23",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "deck"
+    ],
+    "sources": [
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://www.bluecoastbethany.com/",
+      "quote": "s warm hospitality and unforgettable cuisine. | Planning an event? | Our private upstairs back deck space is the perfect setting for a truly memorable occasion. | 🍷 | WINNER OF THE WINE SPE",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -624,7 +665,22 @@
     "fbNewestPost": "2026-10-28",
     "website": "https://www.catch54.com/"
    },
-   "menu": "https://www.catch54.com/menu"
+   "menu": "https://www.catch54.com/menu",
+   "outdoor": {
+    "types": [
+     "deck"
+    ],
+    "sources": [
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://www.catch54.com/",
+      "quote": "There are two bars, both serving happy hour in the summer every day. The upstairs bar and outside deck overlook the bay, enjoy a signature martini, or a glass of wine from the award winning wi",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "de-cedar-land-sea-kitchen",
@@ -1053,7 +1109,20 @@
      "checked": "2026-11-01"
     }
    ],
-   "websiteSource": "OpenStreetMap node/5006298254 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/5006298254 website tag (map data 2026-10-31), checked 2026-11-01",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5006298254 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/5006298254",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "de-fins-ale-house-and-raw-bar-bethany-beach",
@@ -1268,6 +1337,29 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-29",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "firePit": true,
+    "sources": [
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://flipflopsbeachgrill.com/",
+      "quote": "couple of sandwiches with sides were very good, generous portions. They are finishing an outdoor dining area with a fire pit that looks great! | The Flip Flops | Experience | At Flip Flops Beac",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (fire pit wording)",
+      "url": "https://flipflopsbeachgrill.com/",
+      "quote": "sides were very good, generous portions. They are finishing an outdoor dining area with a fire pit that looks great! | The Flip Flops | Experience | At Flip Flops Beach Grill, everything i",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1460,6 +1552,26 @@
       "url": "https://harpoonhannasrestaurant.com/events/"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap way/230913808 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/way/230913808",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://harpoonhannasrestaurant.com/",
+      "quote": "ployee holiday parties, cocktail parties, meetings and much more. | Our waterfront indoor/outdoor space can accommodate any group from 10 – 120 people, customized to make your occasion truly “s",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -1681,6 +1793,33 @@
       "url": "https://www.hookeduprawbar.com/"
      }
     ]
+   },
+   "gameday": {
+    "label": "Game day",
+    "teams": [],
+    "kinds": [
+     "gameday"
+    ],
+    "days": [],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.hookeduprawbar.com/",
+      "quote": "C AT 5PM | FRIDAY | HAPPY HOUR 3-6PM | LIVE MUSIC AT 5PM | SATURDAY | GAME DAY MENU | 12-6pm | SUNDAY | NFL GAME DAY MENU ALL DAY | ALL SPECIALS ARE",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     },
+     {
+      "src": "venue website",
+      "url": "https://www.hookeduprawbar.com/",
+      "quote": "LIVE MUSIC AT 5PM | SATURDAY | GAME DAY MENU | 12-6pm | SUNDAY | NFL GAME DAY MENU ALL DAY | ALL SPECIALS ARE DINE IN ONLY. | EXCLUDED ON HOLIDAYS/",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02",
+      "kind": "gameday"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2109,7 +2248,22 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.mattsfishcampfenwick.com/menu"
+   "menu": "https://www.mattsfishcampfenwick.com/menu",
+   "outdoor": {
+    "types": [
+     "deck"
+    ],
+    "sources": [
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://www.mattsfishcampfenwick.com/private-event-info",
+      "quote": "perfect location to host your next affair! | Upstairs Bar & Booths | Second Level Outdoor Covered Deck | Cocktail Style & Seated Options Available | Restaurant Buyout Options Available | EVENT",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "de-mickeys-family-crab-house",
@@ -2551,7 +2705,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/9923821139 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/9923821139",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "de-nossa-casa",
@@ -2764,6 +2931,19 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-25",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/5006298254 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/5006298254",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -2888,7 +3068,34 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.oceanviewbrewingde.com/menu"
+   "menu": "https://www.oceanviewbrewingde.com/menu",
+   "outdoor": {
+    "types": [
+     "beer garden"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/9931659786 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/9931659786",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (beer garden wording)",
+      "url": "https://www.oceanviewbrewingde.com/",
+      "quote": "ion for locals and visitors alike. Guests can enjoy indoor and outdoor dining, a spacious beer garden, a large full-service bar, free parking, and daily Happy Hour from 4–6 PM year-round. | Y",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     },
+     {
+      "src": "venue website (outdoor wording)",
+      "url": "https://www.oceanviewbrewingde.com/",
+      "quote": "g offers a vibrant destination for locals and visitors alike. Guests can enjoy indoor and outdoor dining, a spacious beer garden, a large full-service bar, free parking, and daily Happy Hour fro",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "de-off-the-hook-bethany-beach",
@@ -2946,7 +3153,20 @@
     "fbNewestPost": "2026-10-23",
     "website": "https://offthehookbethany.com/"
    },
-   "menu": "https://www.offthehookbethany.com/chefs-weekly-entrees"
+   "menu": "https://www.offthehookbethany.com/chefs-weekly-entrees",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3663284547 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/3663284547",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   },
   {
    "id": "de-old-time-grill",
@@ -3432,6 +3652,19 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-25",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "porch"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/8898827527 outdoor tags (veranda; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/8898827527",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4042,6 +4275,21 @@
       "url": "https://cottagecafe.com/specials"
      }
     ]
+   },
+   "outdoor": {
+    "types": [
+     "deck"
+    ],
+    "sources": [
+     {
+      "src": "venue website (deck wording)",
+      "url": "https://cottagecafe.com/hh-menu",
+      "quote": "LOYMENT | ENTERTAINMENT | THANKSGIVING PICKUP 🦃 | HAPPY HOUR AVAILABLE DAILY IN THE PUB & ON THE DECK | 11AM - 6PM | 33034 Coastal Hwy, Bethany Beach, DE 19930 | (302)-539-8710 | OPEN DAILY |",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4120,6 +4368,21 @@
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-18",
     "website": null
+   },
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website (patio wording)",
+      "url": "https://Thelandingmillsboro.com/",
+      "quote": "beautiful bar area that boasts twelve 65-inch TV’s in a relaxed casual atmosphere, to our outdoor patio space and fine dining area there is something to suit all taste buds. | MENU | DRINKS | E",
+      "fetched": "2026-11-02",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
    }
   },
   {
@@ -4858,7 +5121,20 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://zocabethany.com/menus"
+   "menu": "https://zocabethany.com/menus",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "OpenStreetMap node/3701008525 outdoor tags (yes; map data 2026-11-01)",
+      "url": "https://www.openstreetmap.org/node/3701008525",
+      "checked": "2026-11-02"
+     }
+    ],
+    "checked": "2026-11-02"
+   }
   }
  ],
  "type": "town",
