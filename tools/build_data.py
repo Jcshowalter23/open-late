@@ -101,7 +101,7 @@ def outdoor(o):
     ty = [t for t in OD_ORDER if t in o["types"] or (t == "fire pit" and o.get("firePit")) or (t == "heated" and o.get("heated"))]
     if not [t for t in ty if t not in ("fire pit", "heated")]: ty = ["outdoor"] + ty
     src = (o.get("sources") or [{}])[0]
-    x = {"t": [OD_LABEL.get(t, "Outdoor seating" if t == "outdoor" else t.capitalize()) for t in ty]}
+    x = {"t": [OD_LABEL.get(t, "Outdoor" if t == "outdoor" else t.capitalize()) for t in ty]}
     if src.get("src"): x["s"] = src["src"]
     if src.get("url"): x["u"] = src["url"]
     if o.get("checked"): x["c"] = o["checked"]
