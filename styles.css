@@ -141,7 +141,7 @@ main{max-width:1200px;margin:0 auto;padding:12px 16px 24px}
 .b-gd{background:#e2efdc;color:#2c5a1e}.b-vf{background:#dbeefe;color:#0f4c81}
 @media (prefers-color-scheme:dark){.b-gd{background:#22361b;color:#b9e0a5}.b-vf{background:#15324d;color:#a9d3fb}}
 #fClaimSet{display:flex;flex-direction:column;gap:10px}#fClaimSet[hidden]{display:none}
-.ctype{font-size:.8rem;color:var(--ink2);margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ctype,.otype{font-size:.8rem;color:var(--ink2);margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .ctl,.srcs{color:var(--ink3);font-size:.85em}
 .lchk{font-size:.72rem;color:var(--ink3);margin-top:2px}
 .actions{display:flex;flex-wrap:wrap;gap:6px;margin:2px 0}

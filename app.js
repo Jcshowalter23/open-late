@@ -434,7 +434,7 @@
       // game day line, e.g. "🏈 Game day  Eagles watch party · Sun", "🏈 Game day  Bills backers bar"; outdoor line in the crowd-type style, e.g. "☀️ Patio · Rooftop · Fire pit"
       const gdDays = r.gd && r.gd.d && !/(?:sun|mon|tue|wed|thu|fri|sat)[a-z]* night football|sundays|saturdays|sunday ticket/i.test(r.gd.l) ? r.gd.d.map((v) => DAYS[v]).join(", ") : "";
       const gdLine = r.gd ? `<div class="dline eline"><span class="badge b-gd">🏈 Game day</span>${dtx("gd", esc(r.gd.l + (gdDays ? " · " + gdDays : "")))}</div>` : "";
-      const odLine = r.od ? `<div class="ctype" title="Outdoor seating${r.od.s ? ` (${esc(r.od.s)})` : ""}"><span aria-hidden="true">☀️</span> ${esc(r.od.t.join(" · "))}</div>` : "";
+      const odLine = r.od ? `<div class="otype" title="Outdoor seating${r.od.s ? ` (${esc(r.od.s)})` : ""}"><span aria-hidden="true">☀️</span> ${esc(r.od.t.join(" · "))}</div>` : "";
       const srcLinks = (list) => list.map((v) => v.u ? `<a href="${esc(v.u)}" target="_blank" rel="noopener">${esc(v.s)}</a>` : esc(v.s)).join(", ");
       const ctLine = r.ct && r.ct.l && r.ct.l.length ? `<div class="ctype" title="${esc(r.ct.s)}"><span aria-hidden="true">👥</span> ${esc(r.ct.l.slice(0, 3).join(" · "))}</div>` : "";
       const nightRows = (list, label) => list && list.length ? `<div class="row"><b>${label}:</b><ul class="wk">${list.map((n) => `<li>${esc(tf(n.w))}${n.t ? ` (${esc(n.t)})` : ""}${n.n ? ` <span class="flag" title="${esc(n.n)}">⚠</span>` : ""} <span class="srcs">— ${n.u ? `<a href="${esc(n.u)}" target="_blank" rel="noopener">${esc(n.s || "source")}</a>` : esc(n.s || "")}${n.seen ? `, seen ${esc(shortDate(n.seen))}` : ""}</span></li>`).join("")}</ul></div>` : "";
