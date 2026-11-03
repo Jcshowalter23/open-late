@@ -5458,6 +5458,90 @@
    "source": "hours from OpenStreetMap way/1132388707 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://russellsorlando.com/: \"y | 5pm - 9pm | Tuesday | 5pm - 9pm | Wednesday | 5pm - 9pm | Thursday | 5pm - 9pm | Friday | 5pm - 10pm | Saturda\" (checked 2026-11-02)",
    "county": "Orange",
    "addedBy": "sweep-osm"
+  },
+  {
+   "id": "fl-wallys-bar-liquors-orlando",
+   "name": "Wally's Bar & Liquors",
+   "cuisine": "Bar",
+   "address": "1001 North Mills Avenue, Orlando",
+   "state": "FL",
+   "zip": "32803",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 28.558759,
+   "lng": -81.36424,
+   "website": "https://www.wallysbarandliquors.com/",
+   "websiteSource": "OpenStreetMap node/4632418321 website tag (map data 2026-10-31), checked 2026-11-02",
+   "hours": "Mon-Sat 7a-2a; Sun 9a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from venue website https://www.wallysbarandliquors.com/: \"Bar hours Monday – Saturday 7:00 AM – 2:00 AM Sunday 9:00 AM – 2:00 AM Wally's Bar & Liquors 1001 N Mills Ave Orlando, FL 32803\" (checked 2026-11-02); location from OpenStreetMap node/4632418321 (map data 2026-10-31)",
+   "county": "Orange",
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "patio"
+    ],
+    "sources": [
+     {
+      "src": "venue website",
+      "url": "https://www.wallysbarandliquors.com/",
+      "quote": "full bar, patio, jukebox, darts, and a package liquor store",
+      "fetched": "2026-11-03",
+      "checked": "2026-11-03"
+     }
+    ],
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "fl-the-lucky-lure-orlando",
+   "name": "The Lucky Lure",
+   "cuisine": "Pub",
+   "address": "1427 North Orange Avenue, Orlando",
+   "state": "FL",
+   "zip": "32804",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 28.565404,
+   "lng": -81.372631,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Mon-Wed 3p-2a",
+   "hoursNote": "The Ivanhoe Village Main Street listing shows hours only for Mon-Wed; call to confirm other days.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Ivanhoe Village Main Street listing https://ivanhoevillage.org/things-to-do/bars-nightlife/the-lucky-lure/: \"The Lucky Lure ... An open air bar with an island time - fish camp vibe ... Monday 3:00 pm - 2:00 am Tuesday 3:00 pm - 2:00 am Wednesday 3:00 pm - 2:00 am\" (checked 2026-11-02); location from OpenStreetMap way/960901997 (map data 2026-10-31)",
+   "county": "Orange",
+   "addedBy": "sweep-osm",
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "Ivanhoe Village Main Street listing",
+      "url": "https://ivanhoevillage.org/things-to-do/bars-nightlife/the-lucky-lure/",
+      "quote": "An open air bar with an island time - fish camp vibe",
+      "fetched": "2026-11-03",
+      "checked": "2026-11-03"
+     }
+    ],
+    "checked": "2026-11-03"
+   }
   }
  ],
  "type": "neighborhood",
