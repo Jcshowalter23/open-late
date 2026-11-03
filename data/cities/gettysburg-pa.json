@@ -65,41 +65,6 @@
    "menu": "https://abcbrew.com/images/food-menus/MENU-2026-BrewPub-Web.pdf"
   },
   {
-   "id": "battlefield-brew-works",
-   "name": "Battlefield Brew Works",
-   "cuisine": "Brewery, distillery & restaurant",
-   "address": "248 Hunterstown Rd, Gettysburg",
-   "lat": 39.84593,
-   "lng": -77.21007,
-   "priceText": null,
-   "priceLevel": null,
-   "website": "https://www.battlefieldbreworks.com/",
-   "hours": "Mon-Wed closed; Thu-Fri 4p-8p; Sat 12p-8p; Sun 12p-5p",
-   "hoursNote": "Conflict: Google listing (Oct 9, 2026) shows Thu closed.",
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Bar scene",
-    "Family-friendly"
-   ],
-   "source": "Venue site; Restaurantji (Google-sourced listing, updated Oct 9, 2026) (checked 2026-11-01)",
-   "county": "Adams",
-   "phone": "(717) 398-2907",
-   "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 9, 2026), checked 2026-11-01",
-   "crowdChecked": "2026-11-01",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/pa/gettysburg/battlefield-brew-works-and-spirits-of-gettysburg-distillery-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": "https://www.battlefieldbreworks.com/"
-   },
-   "menu": "https://www.battlefieldbreworks.com/menu.html"
-  },
-  {
    "id": "blue-and-gray-bar-and-grill",
    "name": "Blue and Gray Bar & Grill",
    "cuisine": "Bar & grill",
@@ -687,61 +652,6 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
     "website": "https://gettysburgeddies.com/"
-   }
-  },
-  {
-   "id": "gettysburg-family-restaurant",
-   "name": "Gettysburg Family Restaurant",
-   "cuisine": "Family restaurant",
-   "address": "1275 York Rd Ste 5, Gettysburg",
-   "phone": "(717) 337-2700",
-   "phoneSource": "OpenStreetMap (name + location match), checked 2026-11-01",
-   "lat": 39.844,
-   "lng": -77.2011,
-   "priceText": null,
-   "priceLevel": null,
-   "website": null,
-   "hours": "Mon closed; Tue-Sat 6a-8p; Sun 7a-2p",
-   "hoursNote": "Conflict: Google listing (Oct 7, 2026) shows Mon open 6a-8p.",
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Family-friendly"
-   ],
-   "source": "Yelp (Oct 2026); Restaurantji (Google-sourced listing, updated Oct 7, 2026) (checked 2026-11-01)",
-   "county": "Adams",
-   "crowdType": {
-    "labels": [
-     "Families"
-    ],
-    "summary": "Family-friendly.",
-    "confidence": "medium",
-    "details": [
-     {
-      "label": "Families",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
-        "url": "https://www.restaurantji.com/pa/gettysburg/gettysburg-family-restaurant-/",
-        "quote": "ate larger groups. The restaurant can get packed, but customers are often seated quickly. Families appreciate the reasonable prices and large portions, making it a great choice for everyon",
-        "agg": true
-       }
-      ]
-     }
-    ]
-   },
-   "crowdChecked": "2026-11-01",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/pa/gettysburg/gettysburg-family-restaurant-/",
-    "facebookMirror": "https://www.foodyas.com/US/Gettysburg/117493138270095/Gettysburg-Family-Restaurant",
-    "fbPostsSeen": 9,
-    "fbNewestPost": "2026-10-24",
-    "website": null
    }
   },
   {
@@ -2120,6 +2030,33 @@
    "source": "hours from OpenStreetMap way/817733970 opening_hours tag (map data 2026-11-01; last checked on the map 2024-09-04) (checked 2026-11-02); late hours confirmed by venue website https://tommyspizzainc.com/: \" Tuesday | CLOSED | Wednesday | 11:00AM - 9:00PM | Thursday | 11:00AM - 9:00PM | Friday | 11:00AM - 10:00PM | Saturda\" (checked 2026-11-02)",
    "county": "Adams",
    "addedBy": "sweep-osm"
+  },
+  {
+   "id": "pa-garden-grille-and-bar-gettysburg",
+   "name": "Garden Grille & Bar - Gettysburg",
+   "cuisine": "Bar & grill",
+   "address": "1061 York Rd, Gettysburg",
+   "state": "PA",
+   "zip": "17325",
+   "phone": null,
+   "lat": 39.8398,
+   "lng": -77.2067,
+   "priceText": "$$ (Facebook page)",
+   "priceLevel": "$$",
+   "website": "http://www.gettysburg.gardeninn.com/",
+   "hours": "Mon-Fri 6a-10a,5p-10p; Sat 7a-11a,5p-10p; Sun 7a-11a",
+   "hoursNote": "Facebook shows only Sun 7am - 11am for that day (may be a lunch/brunch-only listing); call ahead.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "county": "Adams",
+   "addedBy": "am2-split-hours"
   }
  ],
  "counties": [
