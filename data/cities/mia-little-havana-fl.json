@@ -2101,14 +2101,14 @@
    "address": "528 SW 9th Ave, Miami",
    "state": "FL",
    "zip": "33130",
-   "phone": null,
+   "phone": "(305) 402-4567",
    "lat": 25.7683,
    "lng": -80.2094,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
    "website": "http://www.terras.miami/",
-   "hours": "Mon-Wed closed; Thu 4p-12a; Fri-Sat 4p-2a; Sun 4p-12a",
-   "hoursNote": "Restaurantji (updated 2026-09-11) lists different hours: Mon-Wed 5p-10p; Thu 5p-12a; Fri-Sat 5p-2a; Sun 5p-10p. Call ahead to confirm.",
+   "hours": "Thu 4p-12a; Fri-Sat 4p-2a; Sun 4p-12a",
+   "hoursNote": "Instagram (@terrasmiami) says open Tue-Sun, but no Tue-Wed hours are posted. Call to confirm.",
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
@@ -2117,7 +2117,7 @@
    "vibes": [
     "Rooftop"
    ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
+   "source": "hours from The Rooftop Guide https://www.therooftopguide.com/rooftop-bars-in-miami/terras-at-life-house-little-havana.html (last updated 2026-02-10): \"Thursday: 16.00 - 00.00 / Friday: 16.00 - 02.00 / Saturday: 16.00 - 02.00 / Sunday: 16.00 - 00.00\"; matches the venue Facebook page (checked 2026-11-03)",
    "county": "Miami-Dade",
    "crowdType": {
     "labels": [
@@ -2158,31 +2158,18 @@
     "fbNewestPost": "2026-10-26",
     "website": null
    },
-   "conflicts": [
-    {
-     "field": "hours",
-     "values": {
-      "facebook": "Mon-Wed closed; Thu 4p-12a; Fri-Sat 4p-2a; Sun 4p-12a",
-      "restaurantji": "Mon-Wed 5p-10p; Thu 5p-12a; Fri-Sat 5p-2a; Sun 5p-10p"
-     },
-     "days": [
-      "Mon",
-      "Tue",
-      "Wed",
-      "Thu",
-      "Fri",
-      "Sat",
-      "Sun"
-     ],
-     "resolution": "Facebook page hours kept (venue-managed, active)",
-     "checked": "2026-11-01"
-    }
-   ],
    "outdoor": {
     "types": [
      "rooftop"
     ],
     "sources": [
+     {
+      "src": "The Rooftop Guide (last updated 2026-02-10)",
+      "url": "https://www.therooftopguide.com/rooftop-bars-in-miami/terras-at-life-house-little-havana.html",
+      "quote": "4th floor ... As the only rooftop bar in Little Havana, the breezy terrace ...",
+      "fetched": "2026-11-03",
+      "checked": "2026-11-03"
+     },
      {
       "src": "venue website / Resy listing (Terras Miami Rooftop, 4th floor)",
       "url": "https://terras.miami/",
@@ -2191,7 +2178,7 @@
       "checked": "2026-11-02"
      }
     ],
-    "checked": "2026-11-02"
+    "checked": "2026-11-03"
    }
   },
   {
