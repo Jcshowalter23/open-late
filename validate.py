@@ -43,6 +43,12 @@ for ref in re.findall(r'(?:href|src)="([^"#:]+)"', html):
 js = open("app.js").read()
 for id_ in set(re.findall(r'\$\("([A-Za-z]+)"\)', js)):
     if f'id="{id_}"' not in html: err.append(f'app.js uses #{id_} not in index.html')
+# hours guard (Nov 3, 2026): an impossible close (e.g. 11a-11a, 5p-11a, 6p-4p) fails; the 9 pm rule is a warning
+import hours_guard, test_hours_guard
+if test_hours_guard.main(verbose=False): err.append("tools/test_hours_guard.py failed")
+_imp, _early = hours_guard.run(root)
+for _a, _n, _h, _why in _imp: err.append(f"{_a}: {_n} has impossible hours ({'; '.join(_why)}): fix from a real source or leave that day unlisted")
+if _early: print(f"WARNING: {len(_early)} places have no night closing at 9 pm or later (python3 tools/hours_guard.py --list)")
 print(f"{len(live)} live areas, {len(idx['counties'])} counties, {total} places")
 if err: print("\n".join(err)); sys.exit(1)
 print("OK")
