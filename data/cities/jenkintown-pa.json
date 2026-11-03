@@ -43,29 +43,7 @@
      "checked": "Nov 1, 2026"
     }
    ],
-   "specials": [
-    {
-     "days": "Tue",
-     "text": "$3 specialty taco, $5 margs",
-     "src": "Venue site 1910bar.com",
-     "checked": "2026-11-01"
-    },
-    {
-     "days": "Wed",
-     "text": "$1 wings",
-     "tags": [
-      "wings"
-     ],
-     "src": "Venue site 1910bar.com",
-     "checked": "2026-11-01"
-    },
-    {
-     "days": "Thu",
-     "text": "$11 smashburgers",
-     "src": "Venue site 1910bar.com",
-     "checked": "2026-11-01"
-    }
-   ],
+   "specials": [],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -208,7 +186,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Jenkintown/137758289579253/Drake-Tavern",
     "fbPostsSeen": 18,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://draketavern.com/"
    },
    "trivia": {
     "nights": [
@@ -256,6 +234,70 @@
       "date": "2026-11-01",
       "quote": "Trivia Night",
       "url": "https://draketavern.com/"
+     }
+    ]
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families",
+     "Sports fans",
+     "Live music fans"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly; popular for watching games; known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://draketavern.com/",
+        "quote": "Hours | Kitchen until 10PM | There’s Always Something | Happening at Drake | Jenkintown’s neighborhood tavern for award-winning burgers, great | drinks, live entertainment, sports and celebrations.",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://draketavern.com/",
+        "quote": "ed it. I had the bourbon street burger. Very good. Looks like a good sports bar but still kid friendly.” | Elena Solivan · Google review | “Was passing through and had a delicious bowl of fres",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://draketavern.com/",
+        "quote": "a picky eater but liked it. I had the bourbon street burger. Very good. Looks like a good sports bar but still kid friendly.” | Elena Solivan · Google review | “Was passing through and had a",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://draketavern.com/",
+        "quote": "Brunch | Gatherings | Private events | Explore the Patio | Reserve a Table | Drake Live | Live music every Friday night | 7PM – 10PM, in the bar rather than on a stage at the far end of the room.",
+        "self": true
+       }
+      ]
      }
     ]
    }
@@ -755,7 +797,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Jenkintown/804351719428097/Taberu-Ramen",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-08-24",
-    "website": null
+    "website": "http://www.taberuramen.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.taberuramen.com/",
+        "quote": "Reservations | Order Now | Fusion Flavors, Fired Up Fresh Daily | Welcome to Taberu, your neighborhood bar and restaurant in Jenkintown serving bold fusion dining, comforting ramen, rice bowls, sk",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -836,7 +900,39 @@
    "phone": "(215) 614-5959",
    "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 10, 2026), checked 2026-11-01",
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://TimeOutPA.com/",
+        "date": "2026-11-01",
+        "quote": " Run It Back Friday runs on select Fridays, while Nashe and Karaoke Night run on select dates"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://TimeOutPA.com/",
+        "date": "2026-11-01",
+        "quote": "Karaoke Night | — Select Friday throwback nights"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://TimeOutPA.com/events/ultimate-trivia",
+        "date": "2026-11-01",
+        "quote": "Karaoke Night | Select Fridays"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "hints": [
      "Google attribute 'karaoke' (via Restaurantji)"
     ],
@@ -888,7 +984,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Huntingdon-Valley/100713252454579/Time-Out-On-Pine",
     "fbPostsSeen": 12,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://TimeOutPA.com/"
    },
    "trivia": {
     "nights": [
@@ -941,6 +1037,28 @@
       "date": "2026-11-01",
       "quote": "— Weekly trivia night every Wednesday",
       "url": "https://TimeOutPA.com/"
+     }
+    ]
+   },
+   "crowdType": {
+    "labels": [
+     "Dance / club crowd"
+    ],
+    "summary": "A dancing / club crowd late.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://TimeOutPA.com/",
+        "quote": "ts in Huntingdon Valley, PA | Upcoming Events at Time Out On Pine | Time Out On Pine is a nightclub, bar, sports viewing destination, and private event venue at 2840 Pine Road in Huntingdon",
+        "self": true
+       }
+      ]
      }
     ]
    }
@@ -1048,7 +1166,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/617290365 opening_hours tag (map data 2026-11-01; last checked on the map 2026-02-08) (checked 2026-11-02); late hours confirmed by venue website https://www.munchyspizzagrillpa.com/: \"19027 | (215) 782-1777 | Business Hours | Mon - Thu: | 11:00 AM - 9:00 PM | Fri & Sat: | 11:00 AM - 10:00 PM | Sun: | \" (checked 2026-11-02)",
    "county": "Montgomery",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.munchyspizzagrillpa.com/",
+        "quote": "ery | Contact Form | Munchy’s Pizza & Grill | Munchy’s Pizza & Grill in Elkins Park, is a local favorite known for its diverse menu and welcoming atmosphere. Located onTownship Line Rd, this eat",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "counties": [

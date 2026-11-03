@@ -33,7 +33,29 @@
     "fbNewestPost": null,
     "website": "https://www.apple-annies.com"
    },
-   "websiteSource": "OpenStreetMap node/5605732897 website tag (map data 2026-11-01), checked 2026-11-02"
+   "websiteSource": "OpenStreetMap node/5605732897 website tag (map data 2026-11-01), checked 2026-11-02",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.apple-annies.com",
+        "quote": "the cannolis! | May 8, 2019 | RESTAURANT | Hearty American cuisine served in an inviting family-friendly atmosphere. | LOCATIONS | Morgantown | Fairmont | Spring Mills | BAKERY | One-of-a-kind d",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "wv-asian-bistro",
@@ -2751,13 +2773,46 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$5 HALF-POUND BONELESS WINGS",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website keglerssportsbar.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing https://www.restaurantji.com/wv/morgantown/keglers-/ (updated 2026-10-28) (checked 2026-11-01); active on-premise license: WV ABCA public license search (All Retail On-Premise, Active; downloaded 2026-11-01)",
    "county": "Monongalia",
    "addedBy": "sweep-rj",
-   "websiteSource": "OpenStreetMap node/11862544631 website tag (map data 2026-11-01), checked 2026-11-02"
+   "websiteSource": "OpenStreetMap node/11862544631 website tag (map data 2026-11-01), checked 2026-11-02",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.keglerssportsbar.com/",
+        "quote": "--> | Restaurant | Kegler's Sports Bar | Morgantown | top of page | HOME | DEALS | WHAT'S NEW | Our Menu | Our Bar | Cocktail Me",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "wv-sports-page-morgantown",

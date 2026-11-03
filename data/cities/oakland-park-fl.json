@@ -23,7 +23,16 @@
    "hoursNote": "Restaurantji (updated 2026-10-14) lists different hours: Mon-Thu 11:30a-11p; Fri-Sun 8a-11p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Welcome to 101 Ocean, THE place to be in Lauderdale-By-The-Sea Dining Hours Mon-Thurs 11:30am-12am Fri-Sun 8am-12am Happy Hour Everyday 4pm-7pm",
+     "tags": [],
+     "src": "Venue website link.me/101ocean",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -64,7 +73,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Lauderdale-by-the-Sea/125228905813/101-Ocean",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-07-15",
-    "website": null
+    "website": "http://link.me/101ocean"
    },
    "conflicts": [
     {
@@ -103,7 +112,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Welcome to 101 Ocean, THE place to be in Lauderdale-By-The-Sea Dining Hours Mon-Thurs 11:30am-12am Fri-Sun 8am-12am Happy Hour Everyday 4pm-7pm",
+     "tags": [],
+     "src": "Venue website link.me/101ocean",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -142,7 +160,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Lauderdale-by-the-Sea/585752824627177/101-Ocean-Restaurant",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://link.me/101ocean"
    }
   },
   {
@@ -152,7 +170,7 @@
    "address": "952 NE 62nd St, Fort Lauderdale",
    "state": "FL",
    "zip": "33334",
-   "phone": null,
+   "phone": "(954) 807-8982",
    "lat": 26.203,
    "lng": -80.1334,
    "website": "https://92chickensoflo.com/",
@@ -173,7 +191,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://92chickensoflo.com/"
-   }
+   },
+   "phoneSource": "Venue website 92chickensoflo.com, checked 2026-11-02"
   },
   {
    "id": "fl-angelo-elia-pizza-bar-tapas-fort-lauderdale",
@@ -1288,7 +1307,7 @@
    "address": "2705 N Andrews Ave, Wilton Manors",
    "state": "FL",
    "zip": "33311",
-   "phone": null,
+   "phone": "(267) 259-1966",
    "lat": 26.1611,
    "lng": -80.1465,
    "website": "http://chocolatecitybar.com/",
@@ -1381,8 +1400,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Wilton-Manors/286285751238326/Chocolate-City",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-15",
-    "website": null
-   }
+    "website": "http://chocolatecitybar.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "LGBTQ-friendly"
+    ],
+    "summary": "LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://chocolatecitybar.com/",
+        "quote": "Home | Gift Shop | Sip, Indulge & Celebrate in Style | Experience the only black-owned LGBTQ+ bar in Wilton Manors. Unwind with friends while discovering your new favorite cocktail",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website chocolatecitybar.com, checked 2026-11-02"
   },
   {
    "id": "fl-ciao-ammore-trattoria",
@@ -1917,7 +1959,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Cocktails, Dining, Dancing, Live Shows, 2-4-1 Happy Hour The Most Entetainment on the Drive",
+     "tags": [],
+     "src": "Venue website alibiwiltonmanors.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -1929,7 +1980,56 @@
     "facebookMirror": "https://www.foodyas.com/US/Wilton-Manors/1546264372271434/Eric-Brano%27s-Alibi",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.alibiwiltonmanors.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "LGBTQ-friendly",
+     "Dance / club crowd"
+    ],
+    "summary": "LGBTQ-friendly; a dancing / club crowd late.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.alibiwiltonmanors.com/",
+        "quote": "Georgie's Alibi Monkey Bar Ultimate Gay Bar, Nightclub & Restaurant in Wilton Manors, Florida - Welcome Page | ---> | Alibi Gazette",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.alibiwiltonmanors.com/",
+        "quote": "Georgie's Alibi Monkey Bar Ultimate Gay Bar, Nightclub & Restaurant in Wilton Manors, Florida - Welcome Page | ---> | Alibi Gazette | https://ww",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "bars, a live DJ spinning the hottest music with Drag Performance followed by our Halloween Costume Contest | We will be open 11am until 2am for the event with NO COVER CHARGE. Enjoy our annual Hallowe",
+      "url": "https://www.alibiwiltonmanors.com/"
+     }
+    ]
    }
   },
   {
@@ -2633,7 +2733,30 @@
     "facebookMirror": "https://www.foodyas.com/US/Wilton-Manors/378275235361730/Thirsty%E2%80%99s-Wilton-Manors",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://islandcitybistro.com/"
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Drag, live music, comedy, karaoke hosts and DJs: tell us what you do and where we can see it",
+      "url": "https://islandcitybistro.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Drag, karaoke, live music and parties on Wilton Drive",
+      "url": "https://islandcitybistro.com/events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Drag, live music, comedy, karaoke hosts and DJs: tell us what you do and where we can see it",
+      "url": "https://islandcitybistro.com/events/"
+     }
+    ]
    }
   },
   {
@@ -2741,7 +2864,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Lauderdale-by-the-Sea/231603156956575/Keese%27s-Simply-Delicious",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://www.keeses.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Date night / upscale"
+    ],
+    "summary": "Family-friendly; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://keeses.com/",
+        "quote": "traditional Greek recipes with a coastal Florida charm, the restaurant offers a relaxed, family-friendly atmosphere filled with the spirit of sharing, laughter, and unforgettable meals. | SEAFOO",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://keeses.com/",
+        "quote": "ices, and a love for sharing good food. | Whether you're joining us for a casual lunch, a romantic dinner, or a lively evening with friends, our welcoming atmosphere and coastal charm make",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -3289,7 +3448,7 @@
    "address": "3754 North Andrew Ave, Oakland Park",
    "state": "FL",
    "zip": "33309",
-   "phone": null,
+   "phone": "(954) 565-0001",
    "lat": 26.1734,
    "lng": -80.1464,
    "priceText": "$ (Facebook page)",
@@ -3311,7 +3470,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Oakland-Park/334283243349474/M-%26-S-Best-tropical-restaurant",
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-10-13",
-    "website": null
+    "website": "http://www.mandsbesttropical.com/"
    },
    "conflicts": [
     {
@@ -3332,7 +3491,30 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://mandsbesttropical.com:443/",
+        "quote": "ck beans. | Blessing Them Plates Since Day One | ★ | Oakland Park, FL | Straight From Our Regulars | What People Are Saying | 4.3 | Based on 3,559 ratings | The fried turkey was cooked sof",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website mandsbesttropical.com:443, checked 2026-11-02"
   },
   {
    "id": "fl-maison-du-crab",
@@ -3614,7 +3796,7 @@
    "address": "2271 Wilton Dr, Wilton Manors",
    "state": "FL",
    "zip": "33305",
-   "phone": null,
+   "phone": "(754) 200-5244",
    "lat": 26.1564,
    "lng": -80.1385,
    "priceText": "$$ (Facebook page)",
@@ -3652,8 +3834,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Wilton-Manors/110653588095494/Pub-on-The-Drive",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-10-24",
-    "website": null
-   }
+    "website": "http://www.thepubwm.com/"
+   },
+   "phoneSource": "Venue website thepubwm.com, checked 2026-11-02"
   },
   {
    "id": "fl-quates-mexican-restaurant",
@@ -3797,7 +3980,7 @@
    "address": "2449 Wilton Dr, Wilton Manors",
    "state": "FL",
    "zip": "33305",
-   "phone": null,
+   "phone": "(954) 563-0123",
    "lat": 26.159,
    "lng": -80.1337,
    "priceText": "$$ (Facebook page)",
@@ -3857,8 +4040,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Wilton-Manors/78344752251/Rosie%27s-Bar-and-Grill",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://rosiesbarandgrill.com/"
+   },
+   "phoneSource": "Venue website www.rosiesbarandgrill.com, checked 2026-11-02"
   },
   {
    "id": "fl-salimar-ceviche-bar",
@@ -4011,7 +4195,16 @@
    "hoursNote": "Restaurantji (updated 2026-10-14) marks this place temporarily closed; call ahead.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour: 3:00pm to 6:00pm M-F",
+     "tags": [],
+     "src": "Venue website seawatchontheocean.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -4025,7 +4218,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Lauderdale/92763910452/Sea-Watch-On-the-Ocean",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://www.seawatchontheocean.com/"
    },
    "conflicts": [
     {
@@ -4034,7 +4227,29 @@
      "src": "https://www.restaurantji.com/fl/fort-lauderdale/sea-watch-on-the-ocean-/",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://seawatchontheocean.com/",
+        "quote": "dale Tradition by the Sea | For over 50 years, Sea Watch has been a coastal sanctuary for locals and visitors alike, where ocean views, handcrafted cuisine, and genuine hospitality come",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-spencers-corner-bar",
@@ -4473,7 +4688,8 @@
     "fbNewestPost": "2026-10-22",
     "website": "https://tacocraft.com/tacocraft-locations/lauderdale-by-the-sea/"
    },
-   "websiteSource": "OpenStreetMap node/4529252927 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/4529252927 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://tacocraft.com/wp-content/uploads/AllDayMenu.pdf"
   },
   {
    "id": "fl-taqueria-monterrey",
@@ -4536,7 +4752,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Wilton-Manors/193229134044447/Tee-Jay-Thai-and-Sushi-in-Wilton-Manors",
     "fbPostsSeen": 3,
     "fbNewestPost": "2026-08-15",
-    "website": null
+    "website": "http://www.teejaythaisushi.com/"
    },
    "conflicts": [
     {
@@ -4553,7 +4769,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://teejaythaisushi.com/",
+        "quote": "finest Thai and Japanese cuisine in Fort Lauderdale & Wilton Manors | EXPLORE THE MENU | FINE DINING EXPERIENCE | Our restaurant blends authentic flavors with modern culinary artistry, offer",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-tenth-level-tavern",
@@ -5388,7 +5626,7 @@
    "address": "2150 Wilton Dr, Wilton Manors",
    "state": "FL",
    "zip": "33305",
-   "phone": null,
+   "phone": "(954) 287-0903",
    "lat": 26.1552,
    "lng": -80.1393,
    "priceText": "$$ (Facebook page)",
@@ -5399,7 +5637,27 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon-Fri",
+     "text": "Enjoy an incredible $5 menus featuring house margaritas, draft beers, and fresh house-made guacamole every Monday through Friday from 5:00 PM to 6:00 PM",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website tuliostacos.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "See venue",
+     "text": "Grab a festive mid-week deal featuring $1 OFF all individual tacos, $5 cold Mexican beers, and premium $8",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website tuliostacos.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -5412,8 +5670,45 @@
     "facebookMirror": "https://www.foodyas.com/US/Wilton-Manors/101069198262002/Tulio%27s-Tacos-and-Tequila-Bar",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-30",
-    "website": null
-   }
+    "website": "http://www.tuliostacos.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "LGBTQ-friendly"
+    ],
+    "summary": "A locals-and-regulars spot; LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://tuliostacos.com/",
+        "quote": "Mondays | Taco Tuesdays | Wine-down Weds | Thirsty Thursdays | Weekend Brunch | Loco for Locals | $5 Deals | Fiesta Hour | Mon – Fri | 5-6pm | Unwind after work with the best deals in t",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://tuliostacos.com/",
+        "quote": "riences in the community. | 02 | Inclusive Atmosphere | We are proud to offer a friendly, LGBTQ+-welcoming environment where guests can relax, connect, and enjoy great food and drinks.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website tuliostacos.com, checked 2026-11-02"
   },
   {
    "id": "fl-tulum-tacos-restaurant",
@@ -5451,7 +5746,7 @@
    "address": "2309 N Dixie Hwy, Wilton Manors",
    "state": "FL",
    "zip": "33305",
-   "phone": null,
+   "phone": "(754) 216-0143",
    "lat": 26.1573,
    "lng": -80.1322,
    "priceText": "$$ (Facebook page)",
@@ -5513,7 +5808,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Wilton-Manors/108291984673992/Union-Kitchen-%26-Bar",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-20",
-    "website": null
+    "website": "http://unionkb.com/"
    },
    "conflicts": [
     {
@@ -5532,7 +5827,31 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "|Ql/ P䷸U*eXnE^8ïY`Dj-cP=@9\u0016w4H=\u0003I\u0019\u0001Rp]7",
+      "url": "https://static1.squarespace.com/static/60e87449eb6f0e27c8a36e1a/t/6434c4f4f01cdd44fe24a10c/1681179893984/UKB-Happy+Hour+card.pdf"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " \u0007ɀ3j\u0017 #;dJ%=n$i,~\u000f",
+      "url": "https://static1.squarespace.com/static/60e87449eb6f0e27c8a36e1a/t/6434c4f4f01cdd44fe24a10c/1681179893984/UKB-Happy+Hour+card.pdf"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": ">r\u0005Q*|6\u0006JFyõ7\u001a X\u0013 k\u0003 go\u0012M ؍eﵵ_\u0017sV8CZ&V\u0011h4 \u0019\b*w:c,/\u00184C &:dj^ԍ \\b#\u0007\u0018;\bX K\"\u000e j1u\u0003 6\u0003]nģ\u001a9fLc:a)؜u6O\\BC/~x\u0000Jo T",
+      "url": "https://static1.squarespace.com/static/60e87449eb6f0e27c8a36e1a/t/6434c4f4f01cdd44fe24a10c/1681179893984/UKB-Happy+Hour+card.pdf"
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.unionkb.com, checked 2026-11-02"
   },
   {
    "id": "fl-vinnies-by-the-sea",

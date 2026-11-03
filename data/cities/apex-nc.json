@@ -439,7 +439,69 @@
     ]
    },
    "bingo": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "7-9pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.dohertysirishpubnc.com/bingo",
+        "date": "2026-11-01",
+        "quote": "CARY, Bar Bingo | Tue. 7-9pm | Tue. 7-9pm"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.dohertysirishpubnc.com/bingo",
+        "date": "2026-11-01",
+        "quote": "Bar Bingo with DJ Daphne brings a little nostalgia and a lot of friendly competition to | Tue. 7-9pm"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.dohertysirishpubnc.com/bingo",
+        "date": "2026-11-01",
+        "quote": "Play classic bingo with prizes throughout the night, including a final round progressive jackpot | every Tuesday at 7pm. The cards, the markers, the moment where you’re one number away and suddenly this is the most important thing happening in your life, it’s "
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7-9pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-04",
+      "datedLastSeen": "2026-11-04",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.dohertysirishpubnc.com/bingo",
+        "date": "2026-11-04",
+        "quote": "HOLLY SPRINGS, Bar Bingo | Wed. 7-9pm (Starting 11/4!) | Wed. 7-9pm (Starting 11/4!)"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.dohertysirishpubnc.com/bingo",
+        "date": "2026-11-04",
+        "quote": "Bar Bingo with DJ Daphne brings a little nostalgia and a lot of friendly competition to | Wed. 7-9pm (Starting 11/4!)"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.dohertysirishpubnc.com/bingo",
+        "date": "2026-11-01",
+        "quote": "Play classic bingo with prizes throughout the night, including a final round progressive jackpot | every Wednesday at 7pm. The cards, the markers, the moment where you’re one number away and suddenly this is the most important thing happening in your life, it’"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -740,8 +802,7 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.laranchnc.com/"
-   },
-   "menu": "https://www.laranchnc.com/menus"
+   }
   },
   {
    "id": "nc-la-taberna-mexican-bar-and-grill",
@@ -2423,7 +2484,29 @@
    ],
    "source": "hours from OpenStreetMap way/446362016 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); venue website loads over https (https://www.localbarapex.com/), rechecked 2026-11-02 (earlier drop was a proxy failure on the http:// address)",
    "county": "Wake",
-   "addedBy": "refresh-restore"
+   "addedBy": "refresh-restore",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.localbarapex.com/",
+        "quote": "Local Bar Apex NC | Local Bar Apex NC | About | Specials | Calendar | Contact | About | ××× | Local",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "city",

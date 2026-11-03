@@ -171,6 +171,36 @@
       ],
       "basis": "vendor/host published venue schedule",
       "vendor": "Trivia Nation"
+     },
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2027-04-07",
+      "datedLastSeen": "2027-04-07",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.islandwing.com/locations/daphne-al/",
+        "date": "2027-04-07",
+        "quote": "d | There couldn’t be a better day to stop by and try | National Beer Day is TOMORROW, Friday, April 7th! | Pop Culture >> Pop Culture Trivia Challenge brings the fun every"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.islandwing.com/locations/daphne-al/",
+        "date": "2027-04-07",
+        "quote": "y | National Beer Day is TOMORROW, Friday, April 7th! | Pop Culture Trivia Challenge brings the fun every | Pop Culture >> Pop Culture Trivia Challenge brings the fun every"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.islandwing.com/locations/gulf-shores-al/",
+        "date": "2027-04-07",
+        "quote": " | National Beer Day is TOMORROW, Friday, April 7th! | Stop by The Island today and join us in our partne | Pop Culture >> Pop Culture Trivia Challenge brings the fun every"
+       }
+      ],
+      "confidence": "medium"
      }
     ],
     "stale": [],
@@ -185,7 +215,26 @@
     ]
    },
    "bingo": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2027-04-07",
+      "datedLastSeen": "2027-04-07",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.islandwing.com/locations/gulf-shores-al/",
+        "date": "2027-04-07",
+        "quote": " Stop by The Island today and join us in our partne | Pop Culture Trivia Challenge brings the fun every | Blazin 'Beatz >> Blazin 'Beatz Bingo is a fast paced free to play m"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -342,7 +391,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/113721531827800/Quig%27s-Meats-%26-Eats",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-16",
-    "website": null
+    "website": "http://www.quigsmeatsandeats.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://quigsmeatsandeats.com/",
+        "quote": "no contest. Hand-formed patties, unreal sauce, and the fries are crisp every time. We're regulars now. | \" | MR | Marisa Rodriguez | 2 weeks ago · Local Guide | ★★★★★ | \" | We catered our",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -487,7 +558,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour: $3 off all Cocktails & Wine - Discounted Appetizers",
+     "tags": [],
+     "src": "Venue website trattoriadibernardone.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -501,7 +581,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/106971872231750/Trattoria-di-Bernardone",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://www.trattoriadibernardone.com/"
    }
   }
  ],

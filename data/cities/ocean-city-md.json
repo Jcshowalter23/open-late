@@ -481,7 +481,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Ocean-City/102676085334522/Barrio-Taco",
     "fbPostsSeen": 3,
     "fbNewestPost": "2026-10-18",
-    "website": null
+    "website": "http://www.barrio64.com/"
    },
    "conflicts": [
     {
@@ -498,7 +498,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://barrio64.com/",
+        "quote": "and garlic, topped with onion and queso fresco | Mexican-style red rice | Is Barrio Taco family-friendly? | Yes, Barrio Taco in Ocean City, MD is a kid-friendly, casual dining environment with a",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "md-bayview-bar-and-grille",
@@ -753,7 +775,24 @@
    "hoursNote": "Restaurantji (updated 2026-10-28) lists different hours: Daily 7a-12a. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "serving up breakfast favorites and all day lunch with daily happy hour and weekend entertainment",
+     "tags": [],
+     "src": "Venue website mailchi.mp/71699c2db520/boozyeggtikibar",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Daily",
+     "text": "Join us for Happy Hour everyday, everywhere from 2pm-5pm",
+     "tags": [],
+     "src": "Venue website mailchi.mp/71699c2db520/boozyeggtikibar",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -823,7 +862,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Ocean-City/107890195187449/Boozy-Egg-Tiki-Bar",
     "fbPostsSeen": 5,
     "fbNewestPost": "2026-10-06",
-    "website": null
+    "website": "http://boozyeggtikibaroc.com/"
    },
    "conflicts": [
     {
@@ -941,7 +980,7 @@
    "address": "3303 Coastal Hwy, Ocean City",
    "state": "MD",
    "zip": "21842",
-   "phone": null,
+   "phone": "(410) 524-3663",
    "lat": 38.362,
    "lng": -75.0734,
    "website": "http://brasaoc.com/",
@@ -970,8 +1009,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Ocean-City/956168590923412/Brasa",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-30",
-    "website": null
-   }
+    "website": "http://brasaoc.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://brasaoc.com/",
+        "quote": "ed. Pair that with a strong wine list, craft cocktails, and a room that feels equal parts upscale and fun, and you’ve got the right kind of night. | We’ll work with you to shape the exper",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website brasaoc.com, checked 2026-11-02"
   },
   {
    "id": "md-brass-balls-saloon",
@@ -3374,7 +3436,7 @@
    "address": "Ocean City 21842, Ocean City",
    "state": "MD",
    "zip": "21842",
-   "phone": null,
+   "phone": "(410) 723-5600",
    "lat": 38.379,
    "lng": -75.0685,
    "priceText": "$$ (Facebook page)",
@@ -3399,8 +3461,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Ocean-City/110830735048143/Johnnys-Pizza-%26-Pub",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://johnnyspizzapub.com/"
+   },
+   "phoneSource": "Venue website johnnyspizzapub.com, checked 2026-11-02"
   },
   {
    "id": "md-johnnys-pizza-and-pub-ocean-city",
@@ -3573,7 +3636,7 @@
    "address": "106 S Atlantic Ave, Ocean City",
    "state": "MD",
    "zip": "21842",
-   "phone": null,
+   "phone": "(443) 856-4851",
    "lat": 38.3306,
    "lng": -75.0856,
    "website": "http://www.localcarolineoc.com/",
@@ -3593,8 +3656,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Ocean-City/1283373284860721/Local-Caroline-and-the-Boards",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-05",
-    "website": null
-   }
+    "website": "http://www.localcarolineoc.com/"
+   },
+   "phoneSource": "Venue website localcarolineoc.com, checked 2026-11-02"
   },
   {
    "id": "md-m-r-ducks",
@@ -3866,7 +3930,8 @@
       "url": "https://www.mackys.com/events"
      }
     ]
-   }
+   },
+   "menu": "https://www.mackys.com/menu-1"
   },
   {
    "id": "md-marlin-moon-restaurant",
@@ -4076,7 +4141,16 @@
    "hoursNote": "Restaurantji (updated 2026-10-19) lists different hours: Mon-Tue closed; Wed-Thu 2p-10p; Fri 2p-12a; Sat 12p-12a; Sun 12p-10p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour 2–6",
+     "tags": [],
+     "src": "Venue website motherscantina.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -4088,7 +4162,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Ocean-City/890537720992235/Mother%27s-Cantina",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-09",
-    "website": null
+    "website": "http://www.motherscantina.com/"
    },
    "conflicts": [
     {
@@ -4105,7 +4179,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.motherscantina.com/",
+        "quote": "s I’ve ever had. | Frequently Asked Questions | What dishes are you best known for? | Our regulars come back for the | Maryland crab quesadilla | , layered with sweet lump crab, smoked gou",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "md-nori-sushi-bar-and-grill",
@@ -4734,7 +4830,7 @@
    "address": "306 Dorcester St, Ocean City",
    "state": "MD",
    "zip": "21842",
-   "phone": null,
+   "phone": "(410) 520-4551",
    "lat": 38.3353,
    "lng": -75.0842,
    "priceText": "$$ (Facebook page)",
@@ -4758,8 +4854,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Ocean-City/994343243765392/Oyster-%26-Scales-OC",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://www.oysterandscales.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.oysterandscales.com/",
+        "quote": "f Ocean City’s bayfront, where salt air drifts in with the tide, Oyster & Scales offers a fine dining experience steeped in the timeless elegance of Nantucket and Cape Cod’s storied oyster ho",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.oysterandscales.com, checked 2026-11-02"
   },
   {
    "id": "md-panchoandleftysoc",
@@ -5664,7 +5783,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "HALF PRICE WINGS & FETA DIP",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website saltwater75.com/offseason",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events"
@@ -5699,7 +5829,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Ocean-City/104130532333474/Saltwater-75",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-06-19",
-    "website": null
+    "website": "http://www.saltwater75.com/"
    },
    "conflicts": [
     {
@@ -5804,7 +5934,135 @@
     "facebookMirror": "https://www.foodyas.com/US/Ocean-City/6126256698/Seacrets",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-22",
-    "website": null
+    "website": "http://seacrets.com/"
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "9:00 pm",
+      "basis": "posted on 6 different Fris",
+      "lastSeen": "2026-12-04",
+      "datedLastSeen": "2026-12-04",
+      "postsSeen": 6,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://seacrets.com/calendar/",
+        "date": "2026-12-04",
+        "quote": "December 4 @ 9:00 pm | - | 2:00 am | >> DJ Davie Live in Tiki | 2:00 am"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://seacrets.com/calendar/",
+        "date": "2026-11-27",
+        "quote": "November 27 @ 9:00 pm | - | 2:00 am | >> DJ Davie Live in Tiki | 9:00pm | 2:00 am"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://seacrets.com/calendar/",
+        "date": "2026-11-27",
+        "quote": "November 27 @ 9:00 pm | - | 2:00 am | >> DJ Davie Live in Tiki | November 27 @ 9:00 pm | 2:00 am"
+       }
+      ],
+      "confidence": "high"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "9:00 pm",
+      "basis": "posted on 6 different Sats",
+      "lastSeen": "2026-12-05",
+      "datedLastSeen": "2026-12-05",
+      "postsSeen": 6,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://seacrets.com/calendar/",
+        "date": "2026-12-05",
+        "quote": "December 5 @ 9:00 pm | - | 1:00 am | >> DJ Connair in Morley Hall | 9:00pm | 1:00 am"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://seacrets.com/calendar/",
+        "date": "2026-12-05",
+        "quote": "December 5 @ 9:00 pm | - | 2:00 am | >> DJ E-State Live at Tiki Stage"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://seacrets.com/calendar/",
+        "date": "2026-12-05",
+        "quote": "December 5 @ 9:00 pm | - | 1:00 am | >> DJ Connair in Morley Hall | December 5 @ 9:00 pm | 1:00 am"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ Davie Live in Tiki | October 29 @ 9:00 pm | 2:00am",
+      "url": "https://seacrets.com/calendar/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "DJ E-State Live in Morley Hall | October 30 @ 9:00 pm | 1:00am",
+      "url": "https://seacrets.com/calendar/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "DJ E-STATE, an Eastern Shore native, has been a driving force in the regional music scene | 9:00pm",
+      "url": "https://seacrets.com/calendar/"
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "6:00 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-12-04",
+      "datedLastSeen": "2026-12-04",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://seacrets.com/calendar/",
+        "date": "2026-12-04",
+        "quote": "November 29 | NFL Sundays | December 4 | >> Trivia Night"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://seacrets.com/calendar/",
+        "date": "2026-12-04",
+        "quote": "December 4 @ 6:00 pm | - | 8:00 pm | >> Trivia Night | 9:00pm | 8:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://seacrets.com/calendar/",
+        "date": "2026-12-04",
+        "quote": "December 4 @ 6:00 pm | - | 8:00 pm | >> Trivia Night | December 4 @ 9:00 pm | 8:00 pm"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia Night | 8:00pm",
+      "url": "https://seacrets.com/calendar/"
+     }
+    ]
    }
   },
   {
@@ -6307,7 +6565,8 @@
     "fbNewestPost": "2026-10-20",
     "website": "https://sophiasitalianrestaurantoceancity.com/"
    },
-   "websiteSource": "OpenStreetMap node/14086617252 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/14086617252 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://sophiasitalianrestaurantoceancity.com/menu"
   },
   {
    "id": "md-southgate-grill",
@@ -7096,7 +7355,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Ocean-City/204982199520315/The-Bearded-Clam",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-10",
-    "website": null
+    "website": "http://www.thebeardedclam.com/"
    },
    "bingo": {
     "nights": [],
@@ -7120,6 +7379,33 @@
       "url": "https://www.thebeardedclam.com/events"
      }
     ]
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": "7:30PM-9:30PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.thebeardedclam.com/events",
+        "date": "2026-11-01",
+        "quote": "Dance the evening away with entertainment hosted by local DJ's at Ocean City’s Caroline Street Stage on the beach by the Boardwalk | Mondays from 7:30PM-9:30PM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
    }
   },
   {
@@ -7519,7 +7805,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Ocean-City/1155798857606071/The-Hump-OCMD",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://www.thehumpocmd.com/"
    },
    "conflicts": [
     {
@@ -7528,7 +7814,29 @@
      "src": null,
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thehumpocmd.com/",
+        "quote": "s tucked inside The Dough Roller on South Division Street...a hidden oasis for travelers, locals, night owls, and anyone thirsty enough to wander off the main path. With 7 TVs playing sp",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "md-the-hungry-seagull",
@@ -7663,7 +7971,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://www.lighthousesoundrestaurant.com/menu/"
   },
   {
    "id": "md-the-shark-on-the-harbor",
@@ -7730,7 +8039,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Ocean-City/135399141050/The-Shark-on-the-Harbor",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://www.ocshark.com/"
    },
    "conflicts": [
     {
@@ -7749,7 +8058,30 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "r\u0006\u00158R2N\u0007 X' oqL\u0018tU\b09\u0003*IY\u0004\u001bmܱKE%dj-%\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0001E\u0014P\u0002bR\u0001@\u0019\u0001QK@ ;ҚN\u0000\u0002\u001aJ(\u0001O4--\u00006QJ\u0000Z)E%\u0000&)E%-\u0000-%\u0006\u00001F)h4\u0000ҞP\u0002\u00018@\u0004\u0014 P\u0001A\u0014\u000eJ^))h\u0006\u000e)(\u0007fy4\u0000\u0001K)h\u0001:\u001a\\\u001aJ\u0000\\R\u0011:\u0002\u0005",
+      "url": "https://www.ocshark.com/menus/48A5367A-FEA9-8CAE-3DD571DC82694B86/4CCDF5C7-D033-8AB2-E7F3208CCED37D97/menu.pdf?id=891993E0-0D89-4C57-AD606AA5597B5ADC"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "ј\\TAki#\u000f\u0011\u0018 9qT\u0006J\u0004Rk\u0011;\u0011o4 %v DJ",
+      "url": "https://www.ocshark.com/menus/48A5367A-FEA9-8CAE-3DD571DC82694B86/4CCDF5C7-D033-8AB2-E7F3208CCED37D97/menu.pdf?id=891993E0-0D89-4C57-AD606AA5597B5ADC"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Ie(vB dj;Z\u0016:]J1\"q",
+      "url": "https://www.ocshark.com/menus/48A5367A-FEA9-8CAE-3DD571DC82694B86/4CCDF5C7-D033-8AB2-E7F3208CCED37D97/menu.pdf?id=891993E0-0D89-4C57-AD606AA5597B5ADC"
+     }
+    ]
+   }
   },
   {
    "id": "md-the-view-at-cambria",
@@ -8252,7 +8584,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/13062327801 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Worcester",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.tommyssubshop.us/menu.html"
   },
   {
    "id": "md-the-greene-turtle-sports-bar-grille-west-oc-west-ocean-city",
@@ -8277,7 +8610,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/589466944 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Worcester",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.thegreeneturtle.com/menu/"
   },
   {
    "id": "md-purple-moose-saloon-ocean-city",

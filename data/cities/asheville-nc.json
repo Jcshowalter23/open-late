@@ -3283,7 +3283,8 @@
     "fbNewestPost": null,
     "website": "https://www.gauchinhosteakhouse.com/"
    },
-   "websiteSource": "OpenStreetMap node/6418609541 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/6418609541 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://gauchinhosteakhouse.com/food-menu"
   },
   {
    "id": "nc-gemelli",
@@ -4356,7 +4357,32 @@
    },
    "menu": "https://juicylucysburgerbarandgrill.com/asheville-south-asheville-juicy-lucy-s-burger-bar-and-grill-food-menu",
    "trivia": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "11:00 AM - 10:00 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-03",
+      "datedLastSeen": "2026-11-03",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://juicylucysburgerbarandgrill.com/-events?source=header&spot_id=158989&destination=events&promotion=nba_season",
+        "date": "2026-11-03",
+        "quote": "Tuesday November 3rd | Because food tastes better between bread! | 11:00 AM - 10:00 PM | DJ >> DJ Trivia Tuesdays"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://juicylucysburgerbarandgrill.com/asheville-south-asheville-juicy-lucy-s-burger-bar-and-grill-events",
+        "date": "2026-11-03",
+        "quote": "Tuesday November 3rd | Because food tastes better between bread! | 11:00 AM - 10:00 PM | DJ >> DJ Trivia Tuesdays"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -5318,8 +5344,7 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://mizuasheville.com"
-   },
-   "menu": "https://mizuasheville.com/images/menu.pdf"
+   }
   },
   {
    "id": "nc-modesto",
@@ -9037,7 +9062,30 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://thesocialasheville.com"
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-08",
+      "quote": "Asheville's Longest-Running Karaoke | 09:00 PM | Sunday November 8th | 09:00 PM",
+      "url": "https://thesocialasheville.com"
+     },
+     {
+      "date": "2026-11-08",
+      "quote": "Asheville's Longest-Running Karaoke | 09:00 PM | Sunday November 8th | 09:00 PM",
+      "url": "https://thesocialasheville.com/asheville-the-social-happy-hours-specials"
+     },
+     {
+      "date": "2026-11-04",
+      "quote": "Get Vocal Entertainment Karaoke @ 9pm | 09:00 PM | Wednesday November 4th | 09:00 PM",
+      "url": "https://thesocialasheville.com"
+     }
+    ]
    }
   },
   {
@@ -10148,7 +10196,8 @@
       "url": "https://www.ashevillebrewing.com/"
      }
     ]
-   }
+   },
+   "menu": "https://www.ashevillebrewing.com/menu/"
   },
   {
    "id": "nc-noble-cider-mead-taproom-and-production-facility-asheville",

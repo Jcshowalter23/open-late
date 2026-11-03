@@ -1163,7 +1163,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "We serve beer specials every day of the week – it’s like happy hour all day",
+     "tags": [],
+     "src": "Venue website rocklands.com/locations/arlington-va",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1773,7 +1782,8 @@
       "url": "https://renegadeva.com/"
      }
     ]
-   }
+   },
+   "menu": "https://renegadeva.com/arlington-clarendon-the-renegade-va-food-menu"
   },
   {
    "id": "va-darna-arlington",
@@ -1798,7 +1808,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/3942387866 opening_hours tag (map data 2026-11-01) (checked 2026-11-01)",
    "county": "Arlington",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.darnava.com/menu"
   },
   {
    "id": "va-maison-cheryl-arlington",
@@ -1823,7 +1834,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/5212815321 opening_hours tag (map data 2026-11-01; last checked on the map 2023-01-28) (checked 2026-11-01)",
    "county": "Arlington",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.maisoncheryl.com/dinner"
   },
   {
    "id": "va-stone-hot-brick-oven-pizza-arlington",
@@ -1875,7 +1887,8 @@
    ],
    "source": "hours from OpenStreetMap node/13110972983 opening_hours tag (map data 2026-11-01) (checked 2026-11-01)",
    "county": "Arlington",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.nettiestavern.com/menus"
   }
  ],
  "type": "neighborhood",

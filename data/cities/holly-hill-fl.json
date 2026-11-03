@@ -35,7 +35,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Daytona-Beach/219043504783131/Chucherias-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-07",
-    "website": null
+    "website": "http://www.chucheriashondurenas.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://chucheriasrestaurant.com/",
+        "quote": "Must-Visit Fine Dining in Holly Hill | Chucherias | × | We are taking online reservations! | Let’s ensure you ge",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -183,7 +205,58 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
    "county": "Volusia",
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://frazes.cooking/",
+        "date": "2026-11-01",
+        "quote": "Karaoke on Friday and Saturday, weather permitting"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://frazes.cooking/karaoke",
+        "date": "2026-11-01",
+        "quote": "We host karaoke every Friday and Saturday night (weather permitting)"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://frazes.cooking/",
+        "date": "2026-11-01",
+        "quote": "Karaoke on Friday and Saturday, weather permitting"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://frazes.cooking/karaoke",
+        "date": "2026-11-01",
+        "quote": "We host karaoke every Friday and Saturday night (weather permitting)"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],

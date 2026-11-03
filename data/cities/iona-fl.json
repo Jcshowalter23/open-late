@@ -343,7 +343,16 @@
    "hoursNote": "Restaurantji (updated 2026-10-30) lists different hours: Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour 11am - 5pm",
+     "tags": [],
+     "src": "Venue website lighthousewaterfrontrestaurant.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -380,7 +389,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Myers/351551994870503/Lighthouse-Waterfront-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-20",
-    "website": null
+    "website": "http://lighthousewaterfrontrestaurant.com/"
    },
    "conflicts": [
     {
@@ -699,7 +708,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Myers/684425018323591/Savour-Restaurant",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://savourrestaurant.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://savourrestaurant.com/",
+        "quote": "Savour Restaurant | Upscale Dining in Fort Myers FL | 0 | Skip to Content | Home | Menu/Wine | About | Contact | SAVO",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

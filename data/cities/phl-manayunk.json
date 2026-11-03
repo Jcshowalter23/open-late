@@ -461,7 +461,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Philadelphia/182800098445408/Fiorino",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-08-31",
-    "website": null
+    "website": "http://www.fiorino.us/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.fiorino.us/",
+        "quote": "able | Call us at 215-843-1500 | * * * | Franco’s view of Fiorino | * * * | Highest-rated fine dining restaurants in Philadelphia by diners | Published by | stacker | August 28, 2024 | * * *",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -690,14 +712,70 @@
     "facebookMirror": "https://www.foodyas.com/US/Philadelphia/112170600183250/Hilltown-Tavern",
     "fbPostsSeen": 13,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://hilltowntavern.com/"
    },
    "trivia": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "4 pm - 6 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://hilltowntavern.com/",
+        "date": "2026-11-01",
+        "quote": " Enjoy Happy Hour Weekdays from 4 pm - 6 pm and Trivia Thursdays at 7 pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
     "oneoffs": []
+   },
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Sports fans"
+    ],
+    "summary": "Family-friendly; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://hilltowntavern.com/",
+        "quote": "whiskey infused Hilltown sauce | ! Come in to watch the game, unwind during happy hour or bring the family and grab a booth for dinner. We promise a true neighborhood feel every time you walk thro",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://hilltowntavern.com/",
+        "quote": "h | , handmade burgers and wings with our | whiskey infused Hilltown sauce | ! Come in to watch the game, unwind during happy hour or bring the family and grab a booth for dinner. We promise a t",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -768,26 +846,7 @@
      "checked": "Nov 1, 2026"
     }
    ],
-   "specials": [
-    {
-     "days": "Wed",
-     "text": "Half-price wings with any drink (dine-in)",
-     "tags": [
-      "wings"
-     ],
-     "src": "Venue site jdmcgillicuddysmanayunk.com",
-     "checked": "2026-11-01"
-    },
-    {
-     "days": "Sat",
-     "text": "10 wings $10 (dine-in)",
-     "tags": [
-      "wings"
-     ],
-     "src": "Venue site jdmcgillicuddysmanayunk.com",
-     "checked": "2026-11-01"
-    }
-   ],
+   "specials": [],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -1423,7 +1482,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Philadelphia/111643862206977/The-Bayou-Bar-%26-Grill-Manayunk",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.bayoubar.com/"
    },
    "trivia": {
     "nights": [],
@@ -1435,6 +1494,28 @@
       "date": "2026-11-01",
       "quote": "From game day watch parties to weekly trivia and special events, there's always something happening at the Bayou",
       "url": "https://www.bayoumanayunk.com/"
+     }
+    ]
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.bayoumanayunk.com/",
+        "quote": "nguage and is commonly translated as \"where we go to drink,\" making it perfect home for a neighborhood bar and grill built around community and hospitality. | ​ | Whether you're joining us for our",
+        "self": true
+       }
+      ]
      }
     ]
    }
@@ -1453,26 +1534,7 @@
    "hoursNote": null,
    "kitchen": "Mon-Thu 4p-10p; Fri 12p-10p; Sat 11a-10p; Sun 11a-9p",
    "kitchenNote": "Kitchen hours from venue site. (Venue site thegoatsbeardphilly.com, checked 2026-11-01)",
-   "happyHours": [
-    {
-     "days": "Mon-Thu",
-     "text": "Happy hour 4–6 pm: $5 select beers, $6 mixed drinks, $7 house wine, $10 small plates",
-     "tags": [
-      "beer"
-     ],
-     "src": "Venue site thegoatsbeardphilly.com",
-     "checked": "2026-11-01"
-    },
-    {
-     "days": "Fri",
-     "text": "Happy hour 3–6 pm: $5 select beers, $6 mixed drinks, $7 house wine",
-     "tags": [
-      "beer"
-     ],
-     "src": "Venue site thegoatsbeardphilly.com",
-     "checked": "2026-11-01"
-    }
-   ],
+   "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [

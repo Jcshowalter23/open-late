@@ -240,7 +240,7 @@
    "address": "5975 Exchange Dr Suite L, Eldersburg",
    "state": "MD",
    "zip": "21784",
-   "phone": null,
+   "phone": "(443) 218-1410",
    "lat": 39.4159,
    "lng": -76.9789,
    "website": "http://1623brewing.com/",
@@ -249,7 +249,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Join us for $1 off all draft beer pours & $7 house wines",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website 1623brewing.com/taproom",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events"
@@ -262,8 +273,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Eldersburg/311003632106471/Craft-Culture-at-1623",
     "fbPostsSeen": 12,
     "fbNewestPost": "2025-09-18",
-    "website": null
-   }
+    "website": "http://1623brewing.com/"
+   },
+   "phoneSource": "Venue website 1623brewing.com, checked 2026-11-02"
   },
   {
    "id": "md-crimson-coward-eldersburg-md",
@@ -339,7 +351,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Sykesville/123026034385619/E.W.-Beck%27s-Pub",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.ewbecks.com/"
    },
    "conflicts": [
     {
@@ -360,7 +372,43 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.ewbecks.com/",
+        "quote": "anddad Beck was liked by most everyone he met so it made sense when he purchased a local neighborhood tavern in Lansdowne, MD and called it Ernie’s Tavern. The companionship and camaraderie of hi",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.ewbecks.com/",
+        "quote": "ous soup (cream of crab), and French onion soup. Excellent sides- cole slaw, and a really romantic place for a cozy fireplace dinner. Thank u all for making our dinner warm and special.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "md-los-aztecas",
@@ -1503,7 +1551,7 @@
    "address": "8 N. Main St, Mount Airy",
    "state": "MD",
    "zip": "21771",
-   "phone": null,
+   "phone": "(443) 914-7015",
    "lat": 39.3775,
    "lng": -77.1542,
    "priceText": "$$ (Facebook page)",
@@ -1534,8 +1582,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Mount-Airy/516475174874800/Walker%E2%80%99s-on-Main",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-17",
-    "website": null
-   }
+    "website": "http://www.walkersonmain.com/"
+   },
+   "phoneSource": "Venue website walkersonmain.com, checked 2026-11-02"
   },
   {
    "id": "md-winfield-inn-crab-house",

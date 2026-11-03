@@ -157,7 +157,7 @@
    "address": "30 Market St, New Castle",
    "state": "DE",
    "zip": "19720",
-   "phone": null,
+   "phone": "(302) 322-2794",
    "lat": 39.6604,
    "lng": -75.563,
    "priceText": "$$ (Facebook page)",
@@ -181,8 +181,9 @@
     "facebookMirror": "https://www.foodyas.com/US/New-Castle/292185284352/Arsenal-at-Old-New-Castle",
     "fbPostsSeen": 10,
     "fbNewestPost": "2020-12-20",
-    "website": null
-   }
+    "website": "http://www.newcastlehistory.org/"
+   },
+   "phoneSource": "Venue website www.newcastlehistory.org, checked 2026-11-02"
   },
   {
    "id": "de-asian-house",
@@ -668,7 +669,8 @@
      "checked": "2026-11-01"
     }
    ],
-   "websiteSource": "OpenStreetMap node/5318905093 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/5318905093 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.caffegelato.net/menus"
   },
   {
    "id": "de-calios-newark",
@@ -716,7 +718,7 @@
    "lng": -75.5865,
    "priceText": "$ (Facebook page)",
    "priceLevel": "$",
-   "website": "https://www.riverarestaurantgroup.com/",
+   "website": null,
    "hours": "Mon-Thu 10a-9p; Fri-Sun 10a-10p",
    "hoursNote": "Restaurantji (updated 2026-10-28) lists different hours: Mon 10a-9p; Tue 10a-10p; Wed 10a-9p; Thu 10a-10p; Fri-Sun 10a-12a. Call ahead to confirm.",
    "kitchen": null,
@@ -836,7 +838,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "websiteSource": "removed 2026-11-02: domain now for sale"
   },
   {
    "id": "de-cheddars-scratch-kitchen",
@@ -1834,7 +1837,27 @@
     "website": null
    },
    "trivia": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "6p",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://meetatgrain.com/newark",
+        "date": "2026-11-01",
+        "quote": "Trivia | Tuesdays 6p | Tuesdays 6p"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -1847,7 +1870,27 @@
     ]
    },
    "bingo": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": "6p",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://meetatgrain.com/newark",
+        "date": "2026-11-01",
+        "quote": "Classic Bingo | Mondays 6p | Mondays 6p"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -1909,10 +1952,30 @@
     "facebookMirror": "https://www.foodyas.com/US/Newark/108521095061431/Grain-Exchange",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://www.grain-exchange.com/"
    },
    "bingo": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": "6p",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://meetatgrain.com/newark",
+        "date": "2026-11-01",
+        "quote": "Classic Bingo | Mondays 6p | Mondays 6p"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -1926,6 +1989,39 @@
       "date": "2026-11-01",
       "quote": "Everyone knows Bingo",
       "url": "https://meetatgrain.com/fundraisers-new"
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "6p",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://meetatgrain.com/newark",
+        "date": "2026-11-01",
+        "quote": "Trivia | Tuesdays 6p | Tuesdays 6p"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Live music, Bingo, Trivia and more",
+      "url": "https://meetatgrain.com/newark"
      }
     ]
    }
@@ -3728,7 +3824,7 @@
    "hours": "Mon closed; Tue-Thu 11:30a-9p; Fri-Sat 11:30a-10p; Sun 11:30a-9p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 8:30 pm per Venue website oletapaslounge.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -3765,7 +3861,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Newark/143975388788904/Ole-Tapas",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.oletapaslounge.com/"
    }
   },
   {
@@ -4427,8 +4523,37 @@
    "hoursNote": "Restaurantji (updated 2026-10-17) lists different hours: Mon-Thu 11:30a-9:30p; Fri-Sat 11:30a-10:30p; Sun 10a-8p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy hour features small plates, which rotate daily, and $1 off of draft beers, wine, and mixed drinks",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website skipjacknewark.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "See venue",
+     "text": "Happy Hour 3-6 with drink specials and small plates",
+     "tags": [],
+     "src": "Venue website skipjacknewark.com/newark-skipjack-dining-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Small plates and $1 off all drinks except bottled beers",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website skipjacknewark.com/newark-skipjack-dining-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -4469,7 +4594,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Newark/313981012065741/Skipjack",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-13",
-    "website": null
+    "website": "http://skipjacknewark.com/"
    },
    "conflicts": [
     {
@@ -4926,7 +5051,30 @@
     "facebookMirror": "https://www.foodyas.com/US/Newark/153564648020644/The-Blue-Crab-Grill",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-20",
-    "website": null
+    "website": "http://www.bluecrabgrillde.com/"
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-12-27",
+      "quote": "- Music Bingo | Sunday, December 27th",
+      "url": "https://www.bluecrabgrillde.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Music Bingo | Sun 7/20",
+      "url": "https://www.bluecrabgrillde.com/events"
+     },
+     {
+      "date": "2026-10-16",
+      "quote": "- Music Bingo | Friday, October 16th",
+      "url": "https://www.bluecrabgrillde.com/events"
+     }
+    ]
    }
   },
   {
@@ -5237,7 +5385,7 @@
    "address": "Newark 19713, Newark",
    "state": "DE",
    "zip": "19713",
-   "phone": null,
+   "phone": "(302) 286-9206",
    "lat": 39.6597,
    "lng": -75.7277,
    "priceText": "$$ (Facebook page)",
@@ -5261,8 +5409,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Newark/108358791915246/Tony%27s-Bistro",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://www.tonysbistromenu.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.tonysbistromenu.com/",
+        "quote": "mplete without trying the famous Sicilian Pizza. See what all the fuss is about with this local favorite. | Try garlic knots with your pizza. If you have a family to fee or just a big appetite,",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.tonysbistromenu.com, checked 2026-11-02"
   },
   {
    "id": "de-trattoria-di-napoli",
@@ -5351,7 +5522,57 @@
     "facebookMirror": "https://www.foodyas.com/US/Newark/641205176013991/Troy-Pizza-%26-Family-Restaurant",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://troypizzeria.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "College crowd",
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "Families earlier, bar crowd later; popular with college students; a locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "College crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://troypizzeria.com/",
+        "quote": "around dinnertime, you’ve surely seen our neon sign shining, welcoming local families and college students alike. I get it—those pizza nights can feel like a small celebration after a long day. Th",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://troypizzeria.com/",
+        "quote": "track down your address in no time, so you can stay cozy at home. | See Menu | Your Cozy Neighborhood Spot | Step inside our shop on Kirkwood Hwy and you’ll see why we call it home. From a quick c",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://troypizzeria.com/",
+        "quote": "lzone | Sandwiches | Soda | Special Combos | Services | Delivery | Takeout | Atmosphere | Family Friendly | Casual Dining | More to explore | Lunch Specials | Areas served | Newark | Meadowood",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -5980,7 +6201,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/4213159699 opening_hours tag (map data 2026-10-31; last checked on the map 2023-11-23) (checked 2026-11-01)",
    "county": "New Castle",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.santafemexicangrill.com/newark-menus"
   },
   {
    "id": "de-casablanca-moroccan-restaurant-new-castle",
@@ -6027,7 +6249,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://casablancade.com/new-castle-casablanca-moroccan-restaurant-food-menu"
   },
   {
    "id": "de-the-greene-turtle-sports-bar-newark",
@@ -6054,7 +6277,8 @@
    ],
    "source": "hours from OpenStreetMap node/11030864324 opening_hours tag (map data 2026-10-31; last checked on the map 2023-11-23) (checked 2026-11-01)",
    "county": "New Castle",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.thegreeneturtle.com/menu/"
   },
   {
    "id": "de-mad-macs-newark",
@@ -6281,7 +6505,8 @@
       "url": "https://www.klondikekates.com/location/klondike-kates/"
      }
     ]
-   }
+   },
+   "menu": "https://www.klondikekates.com/menus/"
   },
   {
    "id": "de-oishii-ocean-newark",
@@ -6406,7 +6631,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/6450126501 opening_hours tag (map data 2026-11-01; last checked on the map 2023-12-27) (checked 2026-11-02); late hours confirmed by venue website https://firebirdsrestaurants.com/wilmington: \"| 1225 Churchman's Road | Newark, DE 19713 | Hours | Mon – Thurs: 11:00 AM-10:00 PM | Fri: 11:00 AM-11:00 PM | Sat: 10\" (checked 2026-11-02)",
    "county": "New Castle",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://firebirdsrestaurants.com/wilmington",
+        "quote": "AR | ® | or on the patio for drink specials and bar bites. We offer top-notch service and upscale dining at a modest price. Reserve your table with us today. | Virtual Tour | Private | Di",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "de-great-wall-restaurant-newark",

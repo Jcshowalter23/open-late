@@ -328,13 +328,44 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour from 4-7",
+     "tags": [],
+     "src": "Venue website sandersville.picklebarrelcafe.com/sandersville-pickle-barrel-cafe-and-sports-pub-sandersville-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/12381087019 opening_hours tag (map data 2026-11-01; last checked on the map 2025-03-01) (checked 2026-11-02); late hours confirmed by venue website https://sandersville.picklebarrelcafe.com/: \"33 E Haynes St | Sandersville, GA | 31082 | Hours | Mon | 11:00 AM - 9:00 PM | Tue-Thu | 11:00 AM - 10:00 PM | Fri, Sa\" (checked 2026-11-02)",
    "county": "Washington",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://sandersville.picklebarrelcafe.com/",
+        "quote": "lmination of 20 years of hard work. If you are looking for a clean friendly atmosphere to bring the family, or just to meet new people, the PBC is the place to be. If you can't remember our whole",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "town",

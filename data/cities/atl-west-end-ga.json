@@ -315,7 +315,7 @@
    "address": "1000 White St SW, Atlanta",
    "state": "GA",
    "zip": "30310",
-   "phone": null,
+   "phone": "(470) 788-8171",
    "lat": 33.73,
    "lng": -84.4186,
    "priceText": "$$ (Facebook page)",
@@ -339,8 +339,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/368563203689272/Boxcar-at-Hop-City-West-End",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-08",
-    "website": null
-   }
+    "website": "http://www.boxcaratl.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://boxcaratl.com/",
+        "quote": "e. We were able to get work done on our laptop without any issues. Fun and friendly. Good neighborhood spot. | Review By - Google | five star review by | Ethelyn B: | We arrivedat 4 PM, and were th",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website boxcaratl.com, checked 2026-11-02"
   },
   {
    "id": "ga-captain-ds-atlanta",
@@ -582,7 +605,20 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/441995216382503/GRASS-VBQ-Joint",
     "fbPostsSeen": 5,
     "fbNewestPost": "2023-09-09",
-    "website": null
+    "website": "http://www.grassvbqjoint.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ BOOM BOOM",
+      "url": "https://crescentnobhill.com/amenities"
+     }
+    ]
    }
   },
   {
@@ -1786,7 +1822,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://www.vietvana.com/menu/lunch"
   },
   {
    "id": "ga-viva-la-vegan",
@@ -1844,7 +1881,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/14092853271 opening_hours tag (map data 2026-10-31; last checked on the map 2026-08-13) (checked 2026-11-01)",
    "county": "Fulton",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://barrioatl.com/atlanta-cascade-heights-barrio-atl-food-menu"
   }
  ],
  "type": "neighborhood",

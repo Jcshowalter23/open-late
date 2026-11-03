@@ -165,7 +165,16 @@
    "hoursNote": "Hours differ by source: Facebook page lists Mon-Thu 12p-10p; Fri-Sat 12p-11p; Sun 11:30a-10p (no posts since May 2026); Restaurantji (updated 2026-09-09) used as newer. Call ahead.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Live DJ + Happy Hour prices from 7–10 PM in the bar area at our Deerfield Beach location",
+     "tags": [],
+     "src": "Venue website adegagaucha.com/offers",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -177,7 +186,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Kissimmee/374873165710543/Adega-Gaucha-Kissimmee",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://adegagaucha.com/"
    },
    "conflicts": [
     {
@@ -195,7 +204,42 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://adegagaucha.com/",
+        "quote": "ian churrasco to Florida while delivering the level of hospitality expected from a modern fine dining experience. | About us | P | r | o | u | d | w | i | n | n | e | r | s | o | f | OpenTabl",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Live DJ + Happy Hour prices from 7–10 PM in the bar area at our Deerfield Beach location",
+      "url": "https://adegagaucha.com/offers/"
+     }
+    ]
+   }
   },
   {
    "id": "fl-bento-asian-kitchen-sushi-kissimmee",
@@ -1208,6 +1252,94 @@
     "fbPostsSeen": 20,
     "fbNewestPost": "2026-10-31",
     "website": "https://sickiesburgers.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Bikers"
+    ],
+    "summary": "Popular with bikers / hosts bike nights.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Bikers",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://sickiesburgers.com/",
+        "quote": "lling in a sickie wasn’t about taking a sick day at all. It was about getting back to the motorcycles, the cars, the projects, and the burgers that had no business being as good as they were",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "TRIVIA & BINGO NIGHTS",
+      "url": "https://sickiesburgers.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "From weekly trivia and bingo to limited-time specials, local events and can’t-miss promotions, there’s always another reason to roll into Sickies Garage",
+      "url": "https://sickiesburgers.com/specials-events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Robb’s weekly pub trivia brings a fresh twist to the game, with prizes up for grabs every round | 7-9 pm",
+      "url": "https://sickiesburgers.com/specials-events/"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "7-9 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://sickiesburgers.com/specials-events/",
+        "date": "2026-11-01",
+        "quote": "7-9 pm Thursday Bingo | 7-9 pm | Think you’ve got the brains or the luck? Put it to the test. With prizes on the line every week, all you need to bring is your crew and your game face."
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-03",
+      "quote": "Tuesday Music Bingo | 7-9 pm Beginning November 3",
+      "url": "https://sickiesburgers.com/specials-events/"
+     },
+     {
+      "date": "2026-11-03",
+      "quote": "WICHITA, KS | Tuesday Music Bingo | 7-9 pm Beginning November 3 | Music >> Music Bingo with DJ Bingo | 7-9 pm Beginning November 3",
+      "url": "https://sickiesburgers.com/specials-events/"
+     },
+     {
+      "date": "2026-11-03",
+      "quote": "WICHITA, KS | Tuesday Music Bingo | 7-9 pm Beginning November 3 | Music Bingo with DJ >> Music Bingo with DJ Bingo | 7-9 pm Beginning November 3",
+      "url": "https://sickiesburgers.com/specials-events/"
+     }
+    ]
    }
   },
   {
@@ -1523,7 +1655,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/4738846623 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Osceola",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.flipperspizzaco.com/menu"
   }
  ],
  "type": "town",

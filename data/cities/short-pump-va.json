@@ -241,7 +241,8 @@
     "fbNewestPost": null,
     "website": "https://www.canastaschicken.com/"
    },
-   "websiteSource": "OpenStreetMap node/6525071782 website tag (map data 2026-11-01), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/6525071782 website tag (map data 2026-11-01), checked 2026-11-01",
+   "menu": "https://canastaschickenva.com/main-menu/"
   },
   {
    "id": "va-chens-chinese-restaurant-glen-allen",
@@ -545,7 +546,29 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://indianaromava.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.IndianAromaVA.com/",
+        "quote": "n | Dessert | Grill | Salads | Seafood | Soup | Vegetarian | Atmosphere | Casual Dining | Fine Dining | Good For Kids | Romantic | Food Types | Comfort Food | Family Style | Gluten Free Optio",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1752,7 +1775,8 @@
       "url": "https://monaloungecigarbar.com/saturday-live-jazz-7pm-930pm-and-live-dj-930pm-130am/"
      }
     ]
-   }
+   },
+   "menu": "https://monaloungecigarbar.com/food-menu/"
   },
   {
    "id": "va-the-burg-henrico",
@@ -1838,7 +1862,8 @@
       "url": "https://worldofbeer.com/locations/richmond/beer/"
      }
     ]
-   }
+   },
+   "menu": "https://worldofbeer.com/menu/"
   },
   {
    "id": "va-firebirds-woodfired-grill-richmond",
@@ -1863,7 +1888,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/1197578023 opening_hours tag (map data 2026-11-01; last checked on the map 2026-03-23) (checked 2026-11-02); late hours confirmed by venue website https://firebirdsrestaurants.com/richmond-short-pump: \"ichmond, VA 23233 | Hours | SUN: 10:00 AM-10:00 PM | MON - THURS: 11:00 AM-10:00 PM | FRI: 11:00 AM-11:00 PM | SAT: 10\" (checked 2026-11-02)",
    "county": "Henrico",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://firebirdsrestaurants.com/richmond-short-pump",
+        "quote": "AR | ® | or on the patio for drink specials and bar bites. We offer top-notch service and upscale dining at a modest price. Reserve your table with us today. | Virtual Tour | Restaurant I",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "city",

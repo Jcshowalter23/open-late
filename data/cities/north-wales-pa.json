@@ -466,7 +466,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/771969377 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://firebirdsrestaurants.com/north-wales: \"220 Bethlehem Pike | North Wales, PA 19454 | Hours | Mon – Thurs: 11:00 AM-10:00 PM | Fri: 11:00 AM-11:00 PM | Sat: 10\" (checked 2026-11-02)",
    "county": "Montgomery",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://firebirdsrestaurants.com/north-wales",
+        "quote": "afood or our specialty crafted cocktails and select wines. We offer top-notch service and upscale dining at a modest price. Join us for Happy Hour at the | FIREBAR | ® | or on the patio a",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "counties": [

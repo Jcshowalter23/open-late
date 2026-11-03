@@ -94,24 +94,7 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [
-    {
-     "days": "Daily",
-     "text": "Everyday Happy Hour 2 pm-6 pm",
-     "tags": [],
-     "src": "Venue website 2ndstreetbistro.com",
-     "checked": "2026-11-01",
-     "flag": "Prices not listed"
-    },
-    {
-     "days": "See venue",
-     "text": "Late Night Happy Hour 9 pm-close",
-     "tags": [],
-     "src": "Venue website 2ndstreetbistro.com",
-     "checked": "2026-11-01",
-     "flag": "Days not stated; Prices not listed"
-    }
-   ],
+   "happyHours": [],
    "specials": [
     {
      "days": "See venue",
@@ -632,7 +615,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Pierce/121631664612/Bluewater-Beach-Grill",
     "fbPostsSeen": 10,
     "fbNewestPost": "2019-11-07",
-    "website": null
+    "website": "http://bluewaterbeachgrill.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://bluewaterbeachgrill.com/",
+        "quote": "osphere, and waterfront charm that make Blue Water Beach Grill a favorite destination for locals and visitors alike. We look forward to serving you soon. | Blue Water Beach Grill Photos",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1391,7 +1396,7 @@
    "address": "3120 S US Hwy 1, Fort Pierce",
    "state": "FL",
    "zip": "34982",
-   "phone": null,
+   "phone": "(863) 201-8888",
    "lat": 27.4095,
    "lng": -80.3248,
    "priceText": "$$ (Facebook page)",
@@ -1416,8 +1421,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Pierce/849198431614231/Hungry-Crab-Juicy-Seafood-%26-Bar-Fort-Pierce",
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-04-19",
-    "website": null
-   }
+    "website": "http://Hungrycrabseafood.com/"
+   },
+   "phoneSource": "Venue website Hungrycrabseafood.com, checked 2026-11-02"
   },
   {
    "id": "fl-ikura-sushi-and-hibachi",
@@ -2078,7 +2084,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Pierce/98151248343/On-the-Edge-Bar-and-Grill",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-22",
-    "website": null
+    "website": "http://ontheedgebarandgrill.com/"
    },
    "conflicts": [
     {
@@ -2099,7 +2105,40 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "6–9 p",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://ontheedgebarandgrill.com/",
+        "date": "2026-11-01",
+        "quote": "Karaoke Night | Every Wednesday · 6–9 p.m. | Every Wednesday · 6–9 p.m."
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke Night with Mizz Jennifer | 6:00pm",
+      "url": "https://ontheedgebarandgrill.com/"
+     }
+    ]
+   }
   },
   {
    "id": "fl-one-twenty-one-bar-and-grill",
@@ -2540,7 +2579,7 @@
    "address": "223 Orange Ave, Fort Pierce",
    "state": "FL",
    "zip": "34950",
-   "phone": null,
+   "phone": "(772) 226-0657",
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
    "website": "http://www.harmonylivemusic.com/",
@@ -2579,7 +2618,27 @@
     ]
    },
    "dj": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "monthly",
+      "start": "11 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.harmonylivemusic.com/live-music-events-schedule",
+        "date": "2026-11-01",
+        "quote": " 6:30-9:30 - DJ music follows til 11 PM | DOWNTOWN ART WALK - Every 3rd Friday Historic Ft. Pierce | DOWNTOWN ART WALK - Every 3rd Friday Historic Ft. Pierce | You'd be amazed at all the art and number of artists you'll discover on Art Walk Fridays! Priscilla'"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -2597,8 +2656,22 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Pierce/843132428886620/Priscilla%27s-Oasis-on-Orange",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-28",
-    "website": null
-   }
+    "website": "http://www.harmonylivemusic.com/"
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke on Halloween",
+      "url": "https://www.harmonylivemusic.com/live-music-events-schedule"
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.harmonylivemusic.com, checked 2026-11-02"
   },
   {
    "id": "fl-pueblo-viejo-ft-pierce",
@@ -2618,7 +2691,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "HAPPY HOUR 11am to 5pm EVERYDAY",
+     "tags": [],
+     "src": "Venue website puebloviejofl.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -2630,7 +2712,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Pierce/332258156870330/Pueblo-Viejo-Ft.-Pierce",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.puebloviejofl.com/"
    }
   },
   {
@@ -3122,7 +3204,7 @@
    "address": "6630 S US Hwy 1, Port Saint Lucie",
    "state": "FL",
    "zip": "34952",
-   "phone": null,
+   "phone": "(772) 460-2338",
    "lat": 27.3446,
    "lng": -80.3254,
    "priceText": "$$ (Facebook page)",
@@ -3132,8 +3214,25 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy Hour: Daily 2pm – 6pm",
+     "tags": [],
+     "src": "Venue website stluciedrafthouse.com/about.html",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Thu",
+     "text": "Thursday Kids Night is legendary — kids eat free",
+     "tags": [],
+     "src": "Venue website stluciedrafthouse.com/about.html",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -3146,8 +3245,45 @@
     "facebookMirror": "https://www.foodyas.com/US/Port-Saint-Lucie/1481106155447749/St-Lucie-Draft-House",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-25",
-    "website": null
-   }
+    "website": "http://stluciedrafthouse.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://stluciedrafthouse.com/",
+        "quote": "St. Lucie Draft House | Port St. Lucie's Favorite Neighborhood Spot Since 1994 | St. Lucie | Draft House | Home | Menu | Drinks | Specials | About | Gallery",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://stluciedrafthouse.com/",
+        "quote": "p | 0 | Google Reviews | St. Lucie | Draft House | Port St. Lucie's favorite neighborhood sports bar and restaurant since 1994. | Contact | 6630 S US Hwy 1 Port St. Lucie, FL 34952 | (772) 4",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website stluciedrafthouse.com, checked 2026-11-02"
   },
   {
    "id": "fl-stoneys-bbq-ft-pierce",
@@ -3751,7 +3887,7 @@
    "address": "9501 Reserve Blvd, Port Saint Lucie",
    "state": "FL",
    "zip": "34986",
-   "phone": null,
+   "phone": "(772) 464-8988",
    "lat": 27.3118,
    "lng": -80.422,
    "priceText": "$$ (Facebook page)",
@@ -3799,8 +3935,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Port-Saint-Lucie/1405814956357167/Tutto-Fresco",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-16",
-    "website": null
-   }
+    "website": "http://www.TuttoFrescoPSL.com/"
+   },
+   "phoneSource": "Venue website tuttofrescopsl.com, checked 2026-11-02"
   },
   {
    "id": "fl-video-papayin",

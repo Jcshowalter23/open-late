@@ -266,41 +266,6 @@
    ]
   },
   {
-   "id": "dc-cashions-eat-place",
-   "name": "Cashion's Eat Place",
-   "cuisine": "New American",
-   "address": "1819 Columbia Rd NW, Washington, DC",
-   "state": "DC",
-   "zip": "20009",
-   "phone": "(202) 797-1819",
-   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Washington-D.C./57446813734/Cashion%27s-Eat-Place), checked 2026-11-01",
-   "lat": 38.9219,
-   "lng": -77.0437,
-   "priceText": "$$$ (Facebook page)",
-   "priceLevel": "$$$",
-   "website": "http://www.cashionseatplace.com/",
-   "hours": "Mon closed; Tue 5:30p-10p; Wed-Sat 5:30p-11p; Sun closed",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Date night"
-   ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
-   "county": "Washington, DC",
-   "crowdChecked": "2026-11-01",
-   "crowdSources": {
-    "restaurantji": null,
-    "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./57446813734/Cashion%27s-Eat-Place",
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   }
-  },
-  {
    "id": "dc-ceibo",
    "name": "Ceibo",
    "cuisine": "New American",
@@ -945,7 +910,38 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
    "county": "Washington, DC",
    "dj": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-09",
+      "datedLastSeen": "2026-11-09",
+      "postsSeen": 3,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.johnnypistolas.com/event",
+        "date": "2026-11-09",
+        "quote": "| Google Calendar | ICS | On Sunday, November 9, our weekly Bottomless Bruncharia transforms into a Latin Fiesta! Enjoy >> Enjoy DJ Future DMV spinning your favorite Latin hits, plus live dance instruction to get everyone moving"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.johnnypistolas.com/event",
+        "date": "2026-10-12",
+        "quote": "| Google Calendar | ICS | On Sunday, October 12, our weekly Bottomless Bruncharia transforms into a Latin Fiesta! Enjoy >> Enjoy DJ Future DMV spinning your favorite Latin hits, plus live dance instruction to get everyone moving"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.johnnypistolas.com/event",
+        "date": "2026-07-20",
+        "quote": "PM | Google Calendar | ICS | On Sunday, July 20, our weekly Bottomless Bruncharia turns into a Latin Fiesta! Don't miss >> Don't miss DJ Future DMV at the hottest brunch spot in Adams Morgan"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -1052,7 +1048,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon",
+     "text": "00 pm Happy HourMonday to",
+     "tags": [],
+     "src": "Venue website jyotidc.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1066,7 +1071,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./371423700042722/Jyoti-Indian-Cuisine",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-13",
-    "website": null
+    "website": "http://www.jyotidc.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.jyotidc.com/",
+        "quote": "available at | this moment. | OK | Join Our Loyalty | Program | Exclusive rewards for our regulars | Signup Now | ×",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1281,7 +1308,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./73100927811/Madam%27s-Organ-Blues-Bar",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-16",
-    "website": null
+    "website": "http://www.madamsorgan.com/"
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Drunk Karaoke ",
+      "url": "https://madamsorgan.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "It’s just Karaoke, really really drunk karaoke",
+      "url": "https://madamsorgan.com/events/drunkeoke-hosted-bynikki/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke",
+      "url": "https://madamsorgan.com/events/drunkeoke-hosted-bynikki/"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Top 40 DJ ",
+      "url": "https://madamsorgan.com/"
+     }
+    ]
    }
   },
   {
@@ -1302,7 +1365,16 @@
    "hoursNote": "Restaurantji (updated 2026-08-22) lists different hours: Mon-Thu 4p-11:30p; Fri-Sat 4p-12:30a; Sun closed. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour (4-6PM M-F)",
+     "tags": [],
+     "src": "Venue website mcclellansretreat.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -1314,7 +1386,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./1490799491170435/McClellan%27s-Retreat",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-09",
-    "website": null
+    "website": "http://www.mcclellansretreat.com/"
    },
    "conflicts": [
     {
@@ -1355,7 +1427,32 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Tue-Fri",
+     "text": "Happy hour Tue – Fri, 5 – 6:30 PM",
+     "tags": [],
+     "src": "Venue website mezedc.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "The doors open at 5:00 PM on those evenings and happy hour opens with them",
+     "tags": [],
+     "src": "Venue website mezedc.com/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "Thu",
+     "text": "Happy hour is a walk-in, and a team of fifteen at 5:15 PM on a Thursday is not",
+     "tags": [],
+     "src": "Venue website mezedc.com/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1370,7 +1467,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./221549841710/Mez%C3%A8-Restaurant",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-05-15",
-    "website": null
+    "website": "http://www.mezedc.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://mezedc.com/",
+        "quote": "mall plates made to | share, everything from scratch, everything halal, with a team our | regulars have known by name since the very first year. | In 2026 we're marking our 25th year, hono",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1826,7 +1945,16 @@
    "hoursNote": "Restaurantji (updated 2026-09-10) lists different hours: Mon 4p-9:30p; Tue-Thu 4p-9p; Fri-Sat 4p-10p; Sun 4p-9p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Sun",
+     "text": "PESCE Offer HAPPY HOUR Sunday to Sunday From 4pm to 6pm",
+     "tags": [],
+     "src": "Venue website pesceseafood.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1862,7 +1990,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./102391486108208/Pesce",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-06-20",
-    "website": null
+    "website": "http://www.pesceseafood.com/"
    },
    "conflicts": [
     {
@@ -1938,8 +2066,33 @@
    "hoursNote": "Hours differ by source: Facebook page lists Mon closed; Tue-Thu 5p-12a; Fri-Sat 5p-2a; Sun closed (no posts since May 2026); Restaurantji (updated 2026-10-29) used as newer. Call ahead.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "ALL NIGHT HAPPY HOUR + $5 CHEESEBURGERS",
+     "tags": [],
+     "src": "Venue website roofersuniondc.com/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Daily",
+     "text": "5-7PM DAILY HAPPY HOUR",
+     "tags": [],
+     "src": "Venue website roofersuniondc.com/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "TACO TUESDAY - 3 TACOS FOR $9",
+     "tags": [],
+     "src": "Venue website roofersuniondc.com/happy-hour",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events",
@@ -1960,7 +2113,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./248116385352360/Roofers-Union",
     "fbPostsSeen": 9,
     "fbNewestPost": "2025-12-10",
-    "website": null
+    "website": "http://www.roofersuniondc.com/"
    },
    "conflicts": [
     {
@@ -2371,6 +2524,36 @@
        }
       ],
       "confidence": "medium"
+     },
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": "2026-10-16",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.thegreenzonedc.com/",
+        "date": "2026-11-01",
+        "quote": "WE HAVE ARABIC & MIDDLE EASTERN MUSIC DJs EVERY FRIDAY, international Djs Saturday"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.thegreenzonedc.com/",
+        "date": "2026-10-16",
+        "quote": "Fri oct 16 DJ REMI (Arabic)"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.thegreenzonedc.com/",
+        "date": "2026-10-09",
+        "quote": "Fri oct 9 DJ Deero (Arabic)"
+       }
+      ],
+      "confidence": "high"
      }
     ],
     "stale": [],
@@ -2400,7 +2583,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./695387350525398/The-Green-Zone",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://thegreenzonedc.com/"
    },
    "conflicts": [
     {
@@ -2448,6 +2631,28 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thegreenzonedc.com/",
+        "quote": "ocktail Bars in Washington, D.C.”, | Fat Tire Tours, | 12/18/19 | “Mix It Up: Here’s What Local Bartenders Think You Should Be Ordering”, | DCist, | 12/17/19 | “No English Allowed”, | Middl",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2513,7 +2718,8 @@
      "checked": "2026-11-01"
     }
    ],
-   "websiteSource": "OpenStreetMap node/737066475 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/737066475 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.thegrillfromipanema.com/menu/"
   },
   {
    "id": "dc-the-imperial",
@@ -2624,7 +2830,20 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./75260444818/Tryst-DC",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.trystDC.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Two DJ speakers with Bluetooth connectivity for music and announcements",
+      "url": "https://trystdc.com/events/"
+     }
+    ]
    }
   },
   {
@@ -2685,7 +2904,8 @@
    ],
    "source": "hours from OpenStreetMap node/737066370 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.maisondc.com/menu"
   },
   {
    "id": "dc-her-diner-washington",
@@ -2796,7 +3016,8 @@
       "url": "https://www.herdiner.com/about"
      }
     ]
-   }
+   },
+   "menu": "https://www.herdiner.com/menu"
   },
   {
    "id": "dc-passato-pizza-grill-washington",
@@ -2856,53 +3077,8 @@
    ],
    "source": "hours from OpenStreetMap node/6392398789 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
-  },
-  {
-   "id": "dc-air-washington",
-   "name": "Air",
-   "cuisine": "Restaurant",
-   "address": "2473 18th Street Northwest, Washington",
-   "state": "DC",
-   "zip": "20009",
-   "phone": null,
-   "phoneSource": null,
-   "lat": 38.922324,
-   "lng": -77.042303,
-   "website": "https://theairdc.com",
-   "websiteSource": "OpenStreetMap node/11535106509 website tag (map data 2026-10-31), checked 2026-11-01",
-   "hours": "Mon-Thu closed; Fri 5p-3a; Sat 12p-3a; Sun 11a-2a",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [
-    {
-     "days": "Fri",
-     "text": "The Pre-Game: FREE HOOKAH| Friday Happy Hour",
-     "tags": [],
-     "src": "Venue website theairdc.com",
-     "checked": "2026-11-01"
-    }
-   ],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from OpenStreetMap node/11535106509 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
-   "county": "Washington, DC",
    "addedBy": "sweep-osm",
-   "dj": {
-    "nights": [],
-    "stale": [],
-    "hints": [],
-    "conflicts": [],
-    "oneoffs": [
-     {
-      "date": "2026-11-01",
-      "quote": "FULLY EQUIPPED DJ BOOTH",
-      "url": "https://theairdc.com"
-     }
-    ]
-   }
+   "menu": "https://www.codereddc.com/happy-hour-menu"
   },
   {
    "id": "dc-jack-rose-dining-saloon-washington",
@@ -3011,7 +3187,8 @@
       "url": "https://www.jackrosediningsaloon.com/calendar"
      }
     ]
-   }
+   },
+   "menu": "https://www.jackrosediningsaloon.com/menus"
   },
   {
    "id": "dc-my-canton-washington",
@@ -3086,7 +3263,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/2326233814 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://sakuramen.net/: \"ashington DC 20009 | STORE HOURS | Mon : Closed | Tue-Thu : 5:30pm – 10:00pm | Fri-Sat : 12:00pm – 10:30pm | Sun : 1\" (checked 2026-11-02)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://sakuramen.net/",
+        "quote": "nother cultural profundity that Sydney offers is the riveting world of online pokies. The locals love the thrilling blend of entertainment and excitement. Awaiting your arrival here is",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "dc-elfegne-washington",
@@ -3162,6 +3361,53 @@
    "source": "hours from OpenStreetMap node/12193467402 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.revelershour.com/: \"d NW Washington, DC 20009 | HOURS | Sunday — Thursday | 5:30pm — 9:00pm | Friday — Saturday | 5pm — 9:30pm | DINE | \" (checked 2026-11-02)",
    "county": "Washington, DC",
    "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-air-washington",
+   "name": "Air",
+   "cuisine": "Restaurant",
+   "address": "2473 18th Street Northwest, Washington",
+   "state": "DC",
+   "zip": "20009",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 38.922324,
+   "lng": -77.042303,
+   "website": "https://theairdc.com",
+   "websiteSource": "OpenStreetMap node/11535106509 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Thu closed; Fri 5p-3a; Sat 12p-3a; Sun 11a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "Fri",
+     "text": "The Pre-Game: FREE HOOKAH| Friday Happy Hour",
+     "tags": [],
+     "src": "Venue website theairdc.com",
+     "checked": "2026-11-01"
+    }
+   ],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/11535106509 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "FULLY EQUIPPED DJ BOOTH",
+      "url": "https://theairdc.com"
+     }
+    ]
+   },
+   "menu": "https://theairdc.com/food-menu"
   }
  ],
  "type": "neighborhood",

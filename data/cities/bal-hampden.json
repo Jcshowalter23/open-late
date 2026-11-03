@@ -673,7 +673,24 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon-Sat",
+     "text": "Weekdays: 5pm to 7pm // (excludes Saturday) $1 off Drafts, *$8 select Sparkling / Rosé/ White $8 High & Mellow(High Life PONY & a SHOT) $5 Pickle Back",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website dylansoyster.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Fri,Sat",
+     "text": "$5 off the a half dozen of the “Oyster of the Day” Daily 5pm to 7pm (except Friday & Saturday)",
+     "tags": [],
+     "src": "Venue website dylansoyster.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events",
@@ -700,7 +717,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/1412566632320187/Dylan%27s-Oyster-Cellar",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://dylansoyster.com/"
    },
    "conflicts": [
     {
@@ -719,7 +736,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://dylansoyster.com/",
+        "quote": "land coddies, cheeseburger and whole fish. | sample menu. | Atmosphere: | charming mix of locals and tourists in a lively causal setting. | Location: | The restaurant is located on the e",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "md-flame-japanese-hibachi",
@@ -1727,7 +1766,8 @@
     "fbNewestPost": "2026-10-20",
     "website": "https://www.mtwashingtontavern.com/"
    },
-   "websiteSource": "OpenStreetMap way/210898240 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/210898240 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.mtwashingtontavern.com/baltimore-mt-washington-mt-washington-tavern-food-menu"
   },
   {
    "id": "md-namaste-baltimore",
@@ -2058,7 +2098,8 @@
      "checked": "2026-11-01"
     }
    ],
-   "websiteSource": "OpenStreetMap node/1346511166 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/1346511166 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://petitlouis.com/the_menu/"
   },
   {
    "id": "md-r-house",
@@ -2224,7 +2265,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Wednesday – $9 Burger Special",
+     "tags": [],
+     "src": "Venue website thehollowbaltimore.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji (updated 2026-10-29; newer than any Facebook activity) (checked 2026-11-01)",
@@ -2277,7 +2326,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/363222085759/Swallow-at-the-Hollow",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.thehollowbaltimore.com/"
    },
    "conflicts": [
     {
@@ -2326,9 +2375,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/128397657757644/The-Bluebird-Cocktail-Room",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://thebluebirdbaltimore.com/"
    },
-   "phoneSource": "OpenStreetMap node/5331900522 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/5331900522 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thebluebirdbaltimore.com/",
+        "quote": "Hickory Avenue | Baltimore, MD, 21211 | United States | info@thebluebirdbaltimore.com | A romantic, literary themed cocktail bar in Hampden, Baltimore. | The Bluebird | baltimore",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "md-the-duchess",
@@ -2450,7 +2521,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/714871011700447/The-Local-Fry---Rotunda",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-10",
-    "website": null
+    "website": "http://www.thelocalfry.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thelocalfry.com/",
+        "quote": "RE ITEM - LOADED FRIES | FAN FAVORITE - BALTIMORE’S BEST WINGS | About Us | Your friendly neighborhood spot. | While you might assume we’re a large fast food company, our experience is anything bu",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2554,7 +2647,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy Hour Daily 4-6:30 pm",
+     "tags": [],
+     "src": "Venue website theverandahkitchen.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -2568,7 +2670,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/253579457985949/The-Verandah-Kitchen",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-09-11",
-    "website": null
+    "website": "http://www.theverandahkitchen.com/"
    }
   },
   {
@@ -2587,8 +2689,8 @@
    "website": "http://www.TrueChesapeake.com/",
    "hours": "Mon closed; Tue-Sat 5p-11p; Sun 11a-3p",
    "hoursNote": "Facebook shows only Sun 11am - 3pm for that day (may be a lunch/brunch-only listing); call ahead.",
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Tue-Thu 5p-9p",
+   "kitchenNote": "Kitchen hours from Venue website truechesapeake.com/about-us, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -2625,7 +2727,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/362037720563696/True-Chesapeake",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-06-04",
-    "website": null
+    "website": "http://www.TrueChesapeake.com/"
    }
   },
   {
@@ -3151,13 +3253,106 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Tue",
+     "text": "Tuesday Peaks-Happy Hour All Night and Endless Episodes of Twin Peaks",
+     "tags": [],
+     "src": "Venue website goldenwestcafe.com/events",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Feb 8 (5 PM): Benito Bowl Super Happy Hour",
+     "tags": [],
+     "src": "Venue website goldenwestcafe.com/events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "If you're just over this season of love, this is the party for you, come hang with industry friends and enjoy Happy Hour at 4pm, Karaoke at 7pm, drink and food specials, and tastings from Green River Whiskey",
+     "tags": [],
+     "src": "Venue website goldenwestcafe.com/events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/3432415346 opening_hours tag (map data 2026-11-01; last checked on the map 2023-04-17) (checked 2026-11-02); late hours confirmed by venue website https://www.goldenwestcafe.com: \"9pm | Tuesday | : | 11am - 9pm | Wednesday: | 4pm - 9pm | Thursday: | 11am - 9pm | Friday : | 9am - 10pm | Saturda\" (checked 2026-11-02)",
    "county": "Baltimore City",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.goldenwestcafe.com",
+        "quote": "ans and omnivores alike, we offer a home away from home for our guests. This is the place locals bring their out-of-town guests, where people come for their first date, where people meet",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "7pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.goldenwestcafe.com/events",
+        "date": "2026-11-01",
+        "quote": "If you're just over this season of love, this is the party for you, come hang with industry friends and enjoy Happy Hour at 4pm, Karaoke at 7pm, drink and food specials, and tastings from Green River Whiskey | Tiki Tuesdays at Golden West | Tiki Tuesdays at Go"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-09-25",
+      "quote": "September 13: Malört Bar Crawl | September 25th: | Screening of 9-5 @ 7 PM | Dolly Parton-themed >> Dolly Parton-themed karaoke to follow 🎧 Hosted by DJ AAVE | Screening of 9-5 @ 7 PM",
+      "url": "https://www.goldenwestcafe.com/events"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2027-02-13",
+      "quote": "ime watch & dance party. | Feb 13 (4 PM): Friendzy Galentine’s | – Tattoos for SPCA donations, bestie speed dating, and >> – Tattoos for SPCA donations, bestie speed dating, and DJ Aave | Feb 13 (4 PM",
+      "url": "https://www.goldenwestcafe.com/events"
+     }
+    ]
+   }
   }
  ],
  "type": "neighborhood",

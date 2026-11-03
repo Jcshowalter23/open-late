@@ -865,7 +865,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/540984303044795/City-PUB-Orlando",
     "fbPostsSeen": 9,
     "fbNewestPost": "2023-07-10",
-    "website": null
+    "website": "http://www.citypuborl.com/"
    },
    "conflicts": [
     {
@@ -886,7 +886,29 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "LGBTQ-friendly"
+    ],
+    "summary": "LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.themarketatbluewater.com/",
+        "quote": "ators to Watch | AAPI Artists | BIPOC Artists | Black Artists | Celebrate Women Artists | LGBTQIA Artists | Ukrainian Artists | Back To Menu | Adult Apparel | BO55 SLOT GACOR | Shorts",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-cuba-de-cuba-cuban-bistro",
@@ -1218,7 +1240,7 @@
    "lng": -81.3791,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": "http://www.DowntownPourHouse.com/",
+   "website": null,
    "hours": "Daily 11a-2a",
    "hoursNote": null,
    "kitchen": null,
@@ -1261,7 +1283,8 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-04-02",
     "website": null
-   }
+   },
+   "websiteSource": "removed 2026-11-02: domain now for sale"
   },
   {
    "id": "fl-el-buda-latin-asian-restaurant",
@@ -1895,7 +1918,7 @@
    "address": "25 S Magnolia Ave, Orlando",
    "state": "FL",
    "zip": "32801",
-   "phone": null,
+   "phone": "(407) 481-2928",
    "lat": 28.5416,
    "lng": -81.3773,
    "priceText": "$$ (Facebook page)",
@@ -1921,7 +1944,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/467743949936664/Harp-and-Celt-Irish-Pub-and-Restaurant",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-17",
-    "website": null
+    "website": "http://www.harpandcelt.com/"
    },
    "trivia": {
     "nights": [
@@ -1947,7 +1970,8 @@
     "stale": false,
     "oneoffs": [],
     "conflicts": []
-   }
+   },
+   "phoneSource": "Venue website harpandcelt.com, checked 2026-11-02"
   },
   {
    "id": "fl-harry-buffalo-downtown-orlando",
@@ -2109,7 +2133,20 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/52263268563/HUE-Restaurant",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.huerestaurant.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "dj\u001a\u0007\u0012pl\u0000u\u001a \u0003U7f,\u0001uV\u001b \u0003T\"8'\u000f Xsd^",
+      "url": "https://www.huerestaurant.com/"
+     }
+    ]
    }
   },
   {
@@ -2510,7 +2547,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy Hour Daily from 4 - 7pm",
+     "tags": [],
+     "src": "Venue website kaleidoscopethorntonpark.com/home",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -2547,6 +2593,39 @@
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-27",
     "website": "https://www.kaleidoscopethorntonpark.com/home"
+   },
+   "trivia": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.kaleidoscopethorntonpark.com/home",
+        "date": "2026-11-01",
+        "quote": " They also have a great trivia night on Wednesday’s"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "We host family-friendly events like Kids Trivia and seasonal activities",
+      "url": "https://www.kaleidoscopethorntonpark.com/home"
+     }
+    ]
    }
   },
   {
@@ -2705,7 +2784,7 @@
    "address": "409 N Magnolia, Orlando",
    "state": "FL",
    "zip": "32801",
-   "phone": null,
+   "phone": "(321) 247-5578",
    "lat": 28.5479,
    "lng": -81.3763,
    "priceText": "$$$ (Facebook page)",
@@ -2727,8 +2806,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/111148878368003/Leiah-Restaurant",
     "fbPostsSeen": 15,
     "fbNewestPost": "2026-10-26",
-    "website": null
-   }
+    "website": "http://www.leiahrestaurant.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://leiahrestaurant.com/",
+        "quote": "Mediterranean Fine Dining Restaurant in Orlando FL | Leiah | × | Holiday Parties | The perfect venue for your Holid",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website leiahrestaurant.com, checked 2026-11-02"
   },
   {
    "id": "fl-lizzy-mccormacks-irish-pub",
@@ -3859,7 +3961,7 @@
    "address": "821 N Orange Ave, Orlando",
    "state": "FL",
    "zip": "32801",
-   "phone": null,
+   "phone": "(407) 868-9007",
    "lat": 28.5556,
    "lng": -81.3791,
    "priceText": "$$ (Facebook page)",
@@ -3890,7 +3992,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/421692311509216/Reyes-Mezcaleria",
     "fbPostsSeen": 13,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.reyesmex.com/"
    },
    "conflicts": [
     {
@@ -3906,7 +4008,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "Venue website www.reyesmex.com, checked 2026-11-02"
   },
   {
    "id": "fl-rockpit-brewing-and-distilling",
@@ -3940,7 +4043,56 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/190715444667031/RockPit-Brewing-%26-Distilling",
     "fbPostsSeen": 5,
     "fbNewestPost": "2026-10-13",
-    "website": null
+    "website": "https://www.rockpitbrewing.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://rockpitbrewing.com/",
+        "quote": "from our neighbors at Cecil’s – and see why we’re one of the top-rated Orlando breweries locals can’t stop talking about. | Our Location | 10 W Illiana St Orlando, FL 32806 | (407) 826",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://rockpitbrewing.com/",
+        "quote": "Get Free Drink | Menu | Menu | See Our Cocktails | See Our Spirits | See Our Taplist | Family Friendly | Bring the kids. They’re absolutely welcome. | Dog Friendly | We love dogs and they love",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "trivia",
+      "url": "https://rockpitbrewing.com/"
+     }
+    ]
    }
   },
   {
@@ -3991,8 +4143,25 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour Seating 4pm-7pm $1500",
+     "tags": [],
+     "src": "Venue website rusteakthorntonpark.com/private-events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Sat,Sun",
+     "text": "SATURDAY & SUNDAY BRUNCH $750",
+     "tags": [],
+     "src": "Venue website rusteakthorntonpark.com/private-events",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -4005,7 +4174,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/161613080666200/RusTeak-Thornton-Park",
     "fbPostsSeen": 24,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.rusteakthorntonpark.com/"
    },
    "phoneSource": "OpenStreetMap node/11007005531 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
@@ -4016,7 +4185,7 @@
    "address": "25 Wall St, Orlando",
    "state": "FL",
    "zip": "32801",
-   "phone": null,
+   "phone": "(407) 917-1999",
    "lat": 28.5428,
    "lng": -81.3785,
    "priceText": "$ (Facebook page)",
@@ -4101,7 +4270,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/188809781300385/Shine",
     "fbPostsSeen": 5,
     "fbNewestPost": "2020-03-10",
-    "website": null
+    "website": "http://wallstplaza.net/venues/shine/"
    },
    "conflicts": [
     {
@@ -4118,7 +4287,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "Venue website wallstreetorlando.com/venues/shine, checked 2026-11-02"
   },
   {
    "id": "fl-shots-orlando",
@@ -4639,7 +4809,7 @@
    "address": "805 E Washington St, Orlando",
    "state": "FL",
    "zip": "32801",
-   "phone": null,
+   "phone": "(407) 730-5646",
    "lat": 28.5438,
    "lng": -81.3673,
    "priceText": "$$ (Facebook page)",
@@ -4648,7 +4818,7 @@
    "hours": "Mon-Fri 11a-2a; Sat-Sun 9a-2a",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 2 am per Venue website theclassicthorntonpark.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -4683,8 +4853,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/109256538569561/The-Classic---Thornton-Park",
     "fbPostsSeen": 13,
     "fbNewestPost": "2026-10-31",
-    "website": null
-   }
+    "website": "http://www.theclassicthorntonpark.com/"
+   },
+   "phoneSource": "Venue website www.theclassicthorntonpark.com, checked 2026-11-02"
   },
   {
    "id": "fl-the-commission-beer-chamber",
@@ -4853,7 +5024,7 @@
    "address": "534 W Church St, Orlando",
    "state": "FL",
    "zip": "32805",
-   "phone": null,
+   "phone": "(407) 237-0366",
    "lat": 28.5401,
    "lng": -81.3856,
    "priceText": "$$ (Facebook page)",
@@ -4899,8 +5070,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/1877699619149342/The-District-Gastrobar-Orlando",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
-   }
+    "website": "http://Www.TheDistrictGastrobar.com/"
+   },
+   "phoneSource": "Venue website Www.TheDistrictGastrobar.com, checked 2026-11-02"
   },
   {
    "id": "fl-the-drake",
@@ -5082,7 +5254,7 @@
    "address": "448 North Terry Ave, Orlando",
    "state": "FL",
    "zip": "32801",
-   "phone": null,
+   "phone": "(407) 734-2102",
    "lat": 28.5491,
    "lng": -81.3874,
    "priceText": "$$ (Facebook page)",
@@ -5140,7 +5312,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/105905927913806/The-Monroe",
     "fbPostsSeen": 11,
     "fbNewestPost": "2026-11-01",
-    "website": null
+    "website": "http://www.themonroeorlando.com/"
    },
    "conflicts": [
     {
@@ -5160,7 +5332,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "Venue website www.themonroeorlando.com, checked 2026-11-02"
   },
   {
    "id": "fl-the-other-bar",
@@ -5294,7 +5467,7 @@
    "address": "100 S. Eola Dr, Orlando",
    "state": "FL",
    "zip": "32801",
-   "phone": null,
+   "phone": "(407) 730-3400",
    "lat": 28.5411,
    "lng": -81.3701,
    "priceText": "$$ (Facebook page)",
@@ -5319,8 +5492,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/275924739442379/The-Stubborn-Mule",
     "fbPostsSeen": 12,
     "fbNewestPost": "2026-10-30",
-    "website": null
-   }
+    "website": "http://www.thestubbornmuleorlando.com/"
+   },
+   "phoneSource": "Venue website www.thestubbornmuleorlando.com, checked 2026-11-02"
   },
   {
    "id": "fl-the-tavern-downtown-orlando",
@@ -5743,7 +5917,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/337901292985573/Underground-Orlando",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.undergroundpublichouse.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.undergroundpublichouse.com/",
+        "quote": "to fries and it was delicious.” | — Craig, Google review | Reservations | Book a table. | Bring the family, the office, or the whole away end. Tap Book a table at the top of the page and we will h",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

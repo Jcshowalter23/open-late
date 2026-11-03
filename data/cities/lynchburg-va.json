@@ -466,8 +466,7 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://choicehibachibuffetva.com/"
-   },
-   "menu": "https://choicehibachibuffetva.com/menu-1.html"
+   }
   },
   {
    "id": "va-colcas-chicken",
@@ -1642,7 +1641,8 @@
     "fbNewestPost": null,
     "website": "https://papagallova.com"
    },
-   "websiteSource": "OpenStreetMap node/6645115065 website tag (map data 2026-11-01), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/6645115065 website tag (map data 2026-11-01), checked 2026-11-01",
+   "menu": "https://papagallova.com/menu.html"
   },
   {
    "id": "va-phillin-philly",
@@ -2686,7 +2686,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/12950908853 opening_hours tag (map data 2026-11-01; last checked on the map 2026-10-26) (checked 2026-11-01)",
    "county": "Lynchburg City",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://skylineatthevirginian.com/menus"
   },
   {
    "id": "va-water-stone-pizza-lynchburg",
@@ -2706,7 +2707,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Half OFF All Appetizers - $4 Domestic Beers, $5 Imports and",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website waterstonepizza.com/special-offers",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/2516595217 opening_hours tag (map data 2026-11-01; last checked on the map 2023-04-24) (checked 2026-11-02); late hours confirmed by venue website https://www.waterstonepizza.com/: \"@craddockterryhotel.com | Business Hours | Monday -Thursday | 11:30am -9:00pm | Fri & Sat 11:30am -10pm | Sunday \" (checked 2026-11-02)",
@@ -2758,12 +2770,82 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "No 50¢ wings on Mondays",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website jojopizzalynchburg.com/pizza-party-events",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/12771264066 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.jojopizzalynchburg.com: \"urs of Operation: | Monday | Closed | Tue - Thu | 11:00 am | - | 10:00 pm | Friday | 11:00 am | - | 11:00 pm | Saturda\" (checked 2026-11-02)",
    "county": "Lynchburg City",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.jojopizzalynchburg.com",
+        "quote": "!! | - Robert D. | Button | ☆☆☆☆☆ | Love the pizza and breadsticks. Great specials with a locals atmosphere. A top pizza place in Lynchburg. | - Jonah J. | Button | ☆☆☆☆☆ | This is our n",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "every other week",
+      "start": "7PM-10PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.jojopizzalynchburg.com/pizza-party-events",
+        "date": "2026-11-01",
+        "quote": "JoJo Pizza Karaoke | EVERY OTHER WEDNESDAY 7PM-10PM | EVERY OTHER WEDNESDAY 7PM-10PM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke Night",
+      "url": "https://www.jojopizzalynchburg.com/pizza-party-events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke Night is from 7:00 pm to 10:00 pm, 15% off cursty rolls",
+      "url": "https://www.jojopizzalynchburg.com/pizza-party-events"
+     }
+    ]
+   }
   }
  ],
  "type": "city",

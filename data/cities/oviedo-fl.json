@@ -260,7 +260,16 @@
    "hoursNote": "Restaurantji (updated 2026-09-12) lists different hours: Mon closed; Tue-Thu 4p-10p; Fri-Sat 2p-11p; Sun 1p-7p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": "Kitchen open until 9 pm per Crazy Cork Wine Bar Facebook page About section (via foodyas), checked 2026-11-01; days not stated.",
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Tue-Sat",
+     "text": "Happy Hour: 4 - 6PM Tuesday - Saturday",
+     "tags": [],
+     "src": "Venue website thecrazycorkwinebar.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -311,7 +320,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Oviedo/106802355404553/Crazy-Cork-Wine-Bar",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-23",
-    "website": null
+    "website": "http://thecrazycorkwinebar.com/"
    },
    "conflicts": [
     {
@@ -2001,7 +2010,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Oviedo/147745068596109/TJ%27s-Seafood-Shack",
     "fbPostsSeen": 10,
     "fbNewestPost": "2024-10-31",
-    "website": null
+    "website": "http://www.tjsseafoodshack.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.tjsseafoodshack.com/",
+        "quote": "s, paddle on down to TJ’s Seafood Shack with some friends or family and relax while you a local favorite! | About TJ’s Seafood Shack | SUpERB food at | TJ’s SEAFOOD shack | In 2009, TJ’s Seafood",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2094,7 +2125,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://anotherbrokeneggcafe.olo.com/menu/oviedo"
   }
  ],
  "type": "city",

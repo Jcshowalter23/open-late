@@ -65,7 +65,25 @@
     "facebookMirror": "https://www.foodyas.com/US/Gainesville/2025821297659838/4th-Ave-Food-Park",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-09-28",
-    "website": null
+    "website": "http://www.4thavefoodpark.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Wax Atom (AKA Bob Harper) is your friendly neighborhood DJ that curates a variety of records and mixes them live",
+      "url": "https://www.4thavefoodpark.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Live DJ: Wax Atom | Friday, October 17, 2025",
+      "url": "https://www.4thavefoodpark.com/events"
+     }
+    ]
    }
   },
   {
@@ -173,7 +191,7 @@
    "address": "15 SW 2nd St, Gainesville",
    "state": "FL",
    "zip": "32601",
-   "phone": null,
+   "phone": "(352) 204-2873",
    "lat": 29.6514,
    "lng": -82.3265,
    "priceText": "$$ (Facebook page)",
@@ -183,7 +201,16 @@
    "hoursNote": "Facebook shows only Sat 11am - 3pm for that day (may be a lunch/brunch-only listing); call ahead.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy hour all night long",
+     "tags": [],
+     "src": "Venue website alpinbistro.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -198,8 +225,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Gainesville/1137917749584086/Alpin-Beer-%2B-Wine-bistro",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-06-10",
-    "website": null
-   }
+    "website": "http://www.alpinbistro.com/"
+   },
+   "phoneSource": "Venue website www.alpinbistro.com, checked 2026-11-02"
   },
   {
    "id": "fl-ballyhoo-grill-2-0",
@@ -219,7 +247,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Tue,Wed",
+     "text": "Happy Hour is every day from 2 pm till 7 pm and we extend the happy hour until 10 pm Tuesdays and Wednesdays",
+     "tags": [],
+     "src": "Venue website ballyhoogrill.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -233,7 +270,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Gainesville/105167386194021/Ballyhoo-Grill-2.0",
     "fbPostsSeen": 8,
     "fbNewestPost": "2025-09-19",
-    "website": null
+    "website": "http://www.ballyhoogrill.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.ballyhoogrill.com/",
+        "quote": "1 am until 11 pm Friday and Saturday. Our sushi menu is available every day after 5 pm. | Catch the Game | Make Ballyhoo your destination for the Florida Gators with our new Big High-Def TVs.",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -560,8 +619,34 @@
    "hoursNote": "Facebook shows only Sun 11am - 3pm for that day (may be a lunch/brunch-only listing); call ahead. Restaurantji (updated 2026-10-06) lists different hours: Mon 6p-2a; Tue-Thu 6p-11p; Fri-Sat 6p-2a; Sun closed. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Sat",
+     "text": "monday-saturday: daily happy hour 4-6 pm",
+     "tags": [],
+     "src": "Venue website bocafiesta.com/dailyspecials",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Thu",
+     "text": "thursdays: $3 tequila, $3 whiskey, $3 pbr",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website bocafiesta.com/dailyspecials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Mon",
+     "text": "mondays: bogo margaritas",
+     "tags": [],
+     "src": "Venue website bocafiesta.com/dailyspecials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -613,7 +698,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Gainesville/1431152313777429/Boca-Fiesta",
     "fbPostsSeen": 2,
     "fbNewestPost": "2026-10-20",
-    "website": null
+    "website": "http://bocafiesta.com/"
    },
    "conflicts": [
     {
@@ -3129,7 +3214,8 @@
       "url": "https://www.looseys.com/events/monday-trivia/"
      }
     ]
-   }
+   },
+   "menu": "https://www.looseys.com/menu/"
   },
   {
    "id": "fl-los-tacos-de-mi-abuela",
@@ -3265,7 +3351,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Gainesville/225474219728/Manuel%27s-Vintage-Room",
     "fbPostsSeen": 10,
     "fbNewestPost": "2016-10-24",
-    "website": null
+    "website": "http://Manuelsvintageroom.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.manuelsvintageroom.com/",
+        "quote": "iverse styles with simple text prompts. | ImageEdit | Remove backgrounds, erase objects & upscale effortlessly. | VideoGen | Generate videos from static images and text prompts. | MusicGe",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -3802,7 +3910,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Gainesville/341489586613031/Mother%27s-Pub-%26-Grill-North-Gainesville",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.motherspub.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.motherspub.com/",
+        "quote": "hours by clicking the button below. | view location | book an event | calendars | We have live bands every week at Mother's North. Click below to view our calendar and see what's coming up next!",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -4074,7 +4204,7 @@
    "address": "317 SW 4th Ave, Gainesville",
    "state": "FL",
    "zip": "32601",
-   "phone": null,
+   "phone": "(352) 225-3420",
    "lat": 29.6512,
    "lng": -82.3237,
    "website": "http://www.munecasdowntown.com/",
@@ -4119,8 +4249,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Gainesville/114729219905391/Mu%C3%B1ecas-Downtown",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-05-16",
-    "website": null
-   }
+    "website": "http://www.munecasdowntown.com/"
+   },
+   "phoneSource": "Venue website munecasdowntown.com, checked 2026-11-02"
   },
   {
    "id": "fl-nine-spices-fondue",
@@ -4952,7 +5083,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Gainesville/105499768922339/Seoul-Pocha",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.seoulpochafl.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "LGBTQ-friendly"
+    ],
+    "summary": "LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://slotgacormalam.com/",
+        "quote": "ators to Watch | AAPI Artists | BIPOC Artists | Black Artists | Celebrate Women Artists | LGBTQIA Artists | Ukrainian Artists | Back To Menu | Adult Apparel | SITUS Slot Gacor Malam | S",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -5982,7 +6135,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://tinkerlatinfood.com/wp-content/uploads/2026/01/Tinker-Full-Menu.pdf"
   },
   {
    "id": "fl-uf-lollicup",
@@ -6526,7 +6680,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/12968451702 opening_hours tag (map data 2026-10-31; last checked on the map 2026-08-27) (checked 2026-11-01)",
    "county": "Alachua",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.wawa.com/menu/coffee"
   }
  ],
  "type": "city",

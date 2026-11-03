@@ -708,15 +708,62 @@
    "websiteSource": "OpenStreetMap node/13191891359 website tag (map data 2026-10-31), checked 2026-11-02",
    "hours": "Mon-Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Mon-Wed 11a-9p; Sun 11a-9p",
+   "kitchenNote": "Kitchen hours from Venue website angier.winginitbarandgrille.com, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Starting TODAY, every Wednesday we’re serving up $1 TRADITIONAL WINGS ALL DAY — OPEN TO CLOSE",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website angier.winginitbarandgrille.com/angier-wingin-it-taphouse-and-grille-angier-happy-hours-specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "See venue",
+     "text": "$1 off all draft beer & $4",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website angier.winginitbarandgrille.com/angier-wingin-it-taphouse-and-grille-angier-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/13191891359 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://angier.winginitbarandgrille.com/: \"-9pm (Kitchen closes at 9pm) | Thursday 11am-10pm (Kitchen closes at 9:30pm) | Friday-Saturday 11am-11pm (Kitchen \" (checked 2026-11-02)",
    "county": "Harnett",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "bingo": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7-9pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://angier.winginitbarandgrille.com/angier-wingin-it-taphouse-and-grille-angier-happy-hours-specials",
+        "date": "2026-11-01",
+        "quote": "⏰ Open to Close — Every Wednesday (Don't forget we also have Music bingo Wednesdays from 7-9pm) | 11:00 AM - 09:00 PM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
   }
  ],
  "type": "town",

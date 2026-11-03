@@ -289,8 +289,25 @@
    "hoursNote": "Restaurantji (updated 2026-10-15) lists different hours: Daily 11a-9p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Join us Monday - Friday from 3 PM - 6 PM for Happy Hour and amazing deals on your favorites",
+     "tags": [],
+     "src": "Venue website ajsoystershanty.com/fort-walton-beach-okaloosa-island-aj-s-oyster-shanty-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "Taco Tuesday Lunch Special : 2 tacos with chips & salsa for $10",
+     "tags": [],
+     "src": "Venue website ajsoystershanty.com/fort-walton-beach-okaloosa-island-aj-s-oyster-shanty-happy-hours-specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events",
@@ -368,7 +385,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Walton-Beach/1687011301514744/AJ%27s-Oyster-Shanty",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-06-16",
-    "website": null
+    "website": "http://www.ajsoystershanty.com/"
    },
    "conflicts": [
     {
@@ -389,7 +406,25 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-04",
+      "quote": "Wednesday - Karaoke | Wednesday November 4th, 06:00 PM - 09:00 PM",
+      "url": "https://www.ajsoystershanty.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Wednesday - Karaoke",
+      "url": "https://www.ajsoystershanty.com/fort-walton-beach-okaloosa-island-aj-s-oyster-shanty-events-and-music"
+     }
+    ]
+   }
   },
   {
    "id": "fl-anglers-beachside-grill",
@@ -1162,7 +1197,30 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Walton-Beach/523765710828038/Firecraft-Seafood",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-22",
-    "website": null
+    "website": "http://www.firecraftseafood.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-12-05",
+      "quote": "December 5th | Brandon Day 7pm -TBA | Live Acoustic Artist | >> DJ TBD 10pm - 2am",
+      "url": "https://www.firecraftseafood.com/"
+     },
+     {
+      "date": "2026-11-22",
+      "quote": "November 22nd | Nik Flagstar feat Amanda McArdle 7 pm-10 pm | Rock N’ Roll & Honky Tonk | >> DJ TLC Spinning Electronic mixes 10pm-2am",
+      "url": "https://www.firecraftseafood.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Bands, Djs, or Solo artists",
+      "url": "https://www.firecraftseafood.com/"
+     }
+    ]
    }
   },
   {
@@ -1516,7 +1574,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Walton-Beach/100520216032420/Ivy-%26-Ale",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://www.ivyandale.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.ivyandale.com/",
+        "quote": "n the quality of what we provide. | We believe that part of the magic is uncovering our | neighborhood gem | in person. We | hope to see you soon. | Hours: | Tuesday - Saturday: Happy Hour 3:30-5p",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1721,7 +1801,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Walton-Beach/164970860023101/La-Calle-Food-Hall",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-22",
-    "website": null
+    "website": "http://lacallefoodhall.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "LGBTQ-friendly"
+    ],
+    "summary": "LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://iontogell.space/bmw/",
+        "quote": "ators to Watch | AAPI Artists | BIPOC Artists | Black Artists | Celebrate Women Artists | LGBTQIA Artists | Ukrainian Artists | Back To Menu | Adult Apparel | T-Shirts | Shorts | New!",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1966,8 +2068,53 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Enjoy an all new Happy Hour Dinner menu, along with delicious drink deals including 50% Off Wine by the Glass, 35% Off Cocktails and Martinis, 25% Off Frozen Drinks, 33% Off Beers, 25% Off Wine by the Bottle, 33% Off Spirits and",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website pandorassteakhouse.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "Dinner 5-9:30pm (seasonal) Happy Hour 5-6:30pm",
+     "tags": [],
+     "src": "Venue website pandorassteakhouse.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "Daily",
+     "text": "Join us for Happy Hour 5-6:30pm nightly in the Pandora Bar & Cocktail Lounge",
+     "tags": [],
+     "src": "Venue website pandorassteakhouse.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "35% Off Cocktails and Martinis, 25% Off Frozen Drinks, 33% Off Beers, 25% Off Wine by the Bottle, 33% Off Spirits and more, while relaxing to gorgeous waterfront sunset views over the Destin Harbor",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website pandorassteakhouse.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Wed,Sun",
+     "text": "Join us for an Early Bird Dinner Buy One Get One BOGO discount on our famous Prime Rib au jus Dinner from 4-5pm Sundays and Wednesdays at Pandora’s Steakhouse in at HarborWalk Village in Destin, Florida",
+     "tags": [],
+     "src": "Venue website pandorassteakhouse.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -1980,7 +2127,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Walton-Beach/122858897743449/Pandora%27s-Steak-House",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.pandorassteakhouse.com/"
    }
   },
   {
@@ -2104,7 +2251,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Daily",
+     "text": "Unwind with $8 signature cocktails every night after 7 PM",
+     "tags": [],
+     "src": "Venue website mypepitos.com/drinks-and-happy-hour",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -2115,7 +2270,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Walton-Beach/125615690520953/Pepito%27s-Mexican-Restaurant---Fort-Walton-Beach",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://mypepitos.com/"
    },
    "conflicts": [
     {
@@ -2348,7 +2503,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Walton-Beach/121111484570296/Salty-Duck",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.saltyduck.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://saltyduck.com/",
+        "quote": "ornhole, shuffleboard, giant Jenga, + more | Rotating Taps | Always something new on tap Local favorites + rare finds | Full Bar | From craft beer roots to a fully stocked bar | The Vibe | Game",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://saltyduck.com/",
+        "quote": "Salty Duck – Craft Beer & Sports Bar in Fort Walton Beach, Florida | Skip to content | Salty Duck | Current Beer List | Locati",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -3071,7 +3262,8 @@
     "fbNewestPost": "2026-10-27",
     "website": "https://www.thegulf.com/locations/fort-walton-beach/"
    },
-   "websiteSource": "OpenStreetMap way/550565532 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/550565532 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://thegulf.com/locations/fort-walton-beach/fort-walton-beach-menu/"
   },
   {
    "id": "fl-the-muse",
@@ -3374,7 +3566,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/13736205851 opening_hours tag (map data 2026-10-31; last checked on the map 2026-04-16) (checked 2026-11-01)",
    "county": "Okaloosa",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.riverosstreet.com/menu"
   }
  ],
  "type": "city",

@@ -229,7 +229,24 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour (M-F 2-5pm)",
+     "tags": [],
+     "src": "Venue website badluckramen.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Happy Hour: 2:00-5:00pm",
+     "tags": [],
+     "src": "Venue website badluckramen.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -897,7 +914,8 @@
     "fbNewestPost": null,
     "website": "https://burtonsgrill.com/locations/va/charlottesville/"
    },
-   "websiteSource": "OpenStreetMap node/3119582876 website tag (map data 2026-11-01), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/3119582876 website tag (map data 2026-11-01), checked 2026-11-01",
+   "menu": "https://burtonsgrill.com/menus/va/charlottesville/all-day/"
   },
   {
    "id": "va-cafe-frank",
@@ -1872,7 +1890,8 @@
     "fbNewestPost": null,
     "website": "https://www.jackbrownsjoint.com/locations/charlottesville/"
    },
-   "websiteSource": "OpenStreetMap way/385964939 website tag (map data 2026-11-01), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/385964939 website tag (map data 2026-11-01), checked 2026-11-01",
+   "menu": "https://www.jackbrownsjoint.com/menu/"
   },
   {
    "id": "va-jade-garden",
@@ -2658,8 +2677,7 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.maya-restaurant.com"
-   },
-   "menu": "https://www.maya-restaurant.com/menu"
+   }
   },
   {
    "id": "va-mezeh-charlottesville",
@@ -4718,7 +4736,8 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
-   }
+   },
+   "menu": "https://mejicalirestaurant.com/charlottesville-albemarle-county-university-of-virginia-downtown-mejicali-restaurant-food-menu"
   },
   {
    "id": "va-random-row-brewing-charlottesville",
@@ -4738,14 +4757,86 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Join our Run Club Coordinator, Paul Shockley, for a flat 5K training run through Cville, followed by $3 Mosaic cans and $2 off pints",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website randomrow.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
    ],
    "source": "hours from OpenStreetMap node/11198305607 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://randomrow.com: \"lottesville, VA 22903 | Phone: | (434) 284-8466 | Hours: | Mon-Thurs: 4:30pm - 10pm | Fri: 4:30pm - 11pm | Sat: 12\" (checked 2026-11-02)",
    "county": "Charlottesville City",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://randomrow.com",
+        "date": "2026-11-01",
+        "quote": "Trivia Night | EVERY SUNDAY"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Test your trivia knowledge every Sunday from | 5-7pm",
+      "url": "https://randomrow.com"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Visited a while back for their Office trivia night",
+      "url": "https://randomrow.com/about"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Hosted by Geeks Who Drink with prizes awarded to the best teams | ONE WEDNESDAY PER MONTH",
+      "url": "https://randomrow.com"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Charity Bingo",
+      "url": "https://randomrow.com"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Voted Cville Weekly's Best Throwback, our monthly charity bingo raises money and awareness for local non-profits",
+      "url": "https://randomrow.com"
+     }
+    ]
+   }
   },
   {
    "id": "va-sedona-taphouse-charlottesville",
@@ -4764,8 +4855,41 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "All Day Happy Hour",
+     "tags": [],
+     "src": "Venue website sedonataphouse.com/locations/cliffside-park-nj",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Daily",
+     "text": "Bottled beer is 50% off every day",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website sedonataphouse.com/locations/chester-va",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Sun",
+     "text": "Join us for classic brunch every Sunday featuring $14 Mimosa Flights and our $11 signature Bloody Mary Bar",
+     "tags": [],
+     "src": "Venue website sedonataphouse.com/locations/charlottesville-va",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "Enjoy your favorite bottle of wine (regularly priced under $50) on Wednesdays at half price",
+     "tags": [],
+     "src": "Venue website sedonataphouse.com/locations/charlottesville-va",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/11999821741 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://sedonataphouse.com/locations/charlottesville-va/: \"nt | Careers | Catering | Hours | Monday - Thursday | 11:30am - 9pm | Friday + Saturday | 11:30am - 10pm | Sunday \" (checked 2026-11-02)",
@@ -4795,7 +4919,20 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/12092510979 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.dairymarketcville.com/stalls/iamthai: \"eness to each dish. | Call I Am Thai at 434-207-8488. | HOURS | SUN-THURS: 11AM-9PM | FRI-SAT: 11AM-10PM | WEBSITE\" (checked 2026-11-02)",
    "county": "Charlottesville City",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "TRIVIA NIGHT @ STARR HIll TAPROOM | 7:00 PM",
+      "url": "https://www.dairymarketcville.com/event-list"
+     }
+    ]
+   }
   },
   {
    "id": "va-mashu-festival-charlottesville",
@@ -4820,7 +4957,20 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/12092510985 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.dairymarketcville.com/stalls/mashu-festival: \"e diners experience a true taste of Japanese culture. | HOURS | SUN-THURS: 11AM-9PM | FRI-SAT: 11AM-10PM | FOLLOW \" (checked 2026-11-02)",
    "county": "Charlottesville City",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "TRIVIA NIGHT @ STARR HIll TAPROOM | 7:00 PM",
+      "url": "https://www.dairymarketcville.com/event-list"
+     }
+    ]
+   }
   },
   {
    "id": "va-firefly-charlottesville",
@@ -4838,14 +4988,154 @@
    "hours": "Mon closed; Tue-Sat 11a-9p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 30 pm per Venue website fireflycville.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/12134539518 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://fireflycville.com/: \" | Enter your email address | Submit | © 2024. All rights reserved. | FIREFLY Hours | Tuesday: 11am-9pm* | Wednes\" (checked 2026-11-02)",
    "county": "Charlottesville City",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "LGBTQ-friendly"
+    ],
+    "summary": "Family-friendly; LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://fireflycville.com/",
+        "quote": "FIREFLY: Family-Friendly Charlottesville Restaurant | Firefly | The Loft at FIREFLY | - Airbnb | Sat., Oct. 31st -",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://fireflycville.com/",
+        "quote": "n about private karaoke events! | Pride Happy Hour | Extended Happy Hour to celebrate the LGBTQIA+ community | 4-7pm | Last Friday of every month, unless noted below: | Next: Friday, Oc",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke Nights",
+      "url": "https://fireflycville.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "We host public karaoke at least once per month",
+      "url": "https://fireflycville.com/"
+     },
+     {
+      "date": "2026-10-15",
+      "quote": "Upcoming: | Thursday, October 15th | Contact us | to learn about private >> to learn about private karaoke events",
+      "url": "https://fireflycville.com/"
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://fireflycville.com/",
+        "date": "2026-11-01",
+        "quote": "Tuesdays: Trivia"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-02",
+      "quote": "Family Trivia, 3-6pm | Mon., Nov 2nd - Astronomy on Tap, 7pm | Mon., Nov 2nd - Astronomy on Tap, 7pm",
+      "url": "https://fireflycville.com/"
+     },
+     {
+      "date": "2026-11-02",
+      "quote": "Family Trivia, 3-6pm | Mon., Nov 2nd - Astronomy on Tap, 7pm | Mon., Nov 2nd - Astronomy on Tap, 7pm",
+      "url": "https://fireflycville.com/event-request"
+     },
+     {
+      "date": "2026-11-02",
+      "quote": "Family Trivia, 3-6pm | Mon., Nov 2nd - Astronomy on Tap, 7pm | Mon., Nov 2nd - Astronomy on Tap, 7pm",
+      "url": "https://fireflycville.com/about"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://fireflycville.com/",
+        "date": "2026-11-01",
+        "quote": "Wednesdays: Bingo"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Bingo Night",
+      "url": "https://fireflycville.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Next Bingo Night - Oct 7th | Play 6-7PM",
+      "url": "https://fireflycville.com/"
+     }
+    ]
+   }
   }
  ],
  "type": "city",

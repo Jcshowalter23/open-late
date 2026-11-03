@@ -799,7 +799,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Coral-Springs/307098089155070/Dumpling-King-Coral-Springs",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://dumplingkingonline.us/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://dumplingkingonline.us/",
+        "quote": "ami Beach. Designed in the style of a classic Chinese dumpling house, it quickly became a local favorite, drawing in customers eager for freshly made dumplings and time-honored recipes. | Dumpli",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1279,8 +1301,51 @@
    "hoursNote": null,
    "kitchen": "Daily 11a-1a",
    "kitchenNote": "Kitchen hours from GW Sharkeys Raw Bar and Grill Facebook post Aug 26, 2026 (via foodyas); start time taken from listed opening hours.",
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour 12-7pm In the Biz 7pm-Close Free Pool all day",
+     "tags": [],
+     "src": "Venue website sharkeysfl.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "Happy Hour 12–7pm Trivia Nation 7:30–9:30pm In the Biz 7pm–Close",
+     "tags": [],
+     "src": "Venue website sharkeysfl.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Happy Hour 12–7pm Live Entertainment 8pm–12am",
+     "tags": [],
+     "src": "Venue website sharkeysfl.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Come Enjoy Sharkey’s Happy Hour with $1",
+     "tags": [],
+     "src": "Venue website sharkeysfl.com/events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Tue,Wed",
+     "text": "Taco Tuesday, (pretty good) Wing Wednesday, (where the heck can you get perfect wings for $1 each anymore) karaoke, pool tables, darts, and more",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website sharkeysfl.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -1325,7 +1390,70 @@
     ]
    },
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://sharkeysfl.com/",
+        "date": "2026-11-01",
+        "quote": " Taco Tuesday, (pretty good) Wing Wednesday, (where the heck can you get perfect wings for $1 each anymore) karaoke, pool tables, darts, and more"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://sharkeysfl.com/events/",
+        "date": "2026-11-01",
+        "quote": " Taco Tuesday, (pretty good) Wing Wednesday, (where the heck can you get perfect wings for $1 each anymore) karaoke, pool tables, darts, and more"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://sharkeysfl.com/entertainment/",
+        "date": "2026-11-01",
+        "quote": " Taco Tuesday, (pretty good) Wing Wednesday, (where the heck can you get perfect wings for $1 each anymore) karaoke, pool tables, darts, and more"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://sharkeysfl.com/",
+        "date": "2026-11-01",
+        "quote": " Taco Tuesday, (pretty good) Wing Wednesday, (where the heck can you get perfect wings for $1 each anymore) karaoke, pool tables, darts, and more"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://sharkeysfl.com/events/",
+        "date": "2026-11-01",
+        "quote": " Taco Tuesday, (pretty good) Wing Wednesday, (where the heck can you get perfect wings for $1 each anymore) karaoke, pool tables, darts, and more"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://sharkeysfl.com/entertainment/",
+        "date": "2026-11-01",
+        "quote": " Taco Tuesday, (pretty good) Wing Wednesday, (where the heck can you get perfect wings for $1 each anymore) karaoke, pool tables, darts, and more"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -1386,7 +1514,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Coral-Springs/143029625795884/GW-Sharkeys-Raw-Bar-and-Grill",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-08-26",
-    "website": null
+    "website": "http://www.sharkeysfl.com/"
    },
    "trivia": {
     "nights": [
@@ -2317,7 +2445,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "Mondays are Trivia Night hosted by \"Trivia Nation\" and is FREE to play with chances to win prizes",
+     "tags": [],
+     "src": "Venue website leftystaverncoralsprings.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -2360,7 +2496,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Coral-Springs/108236239218352/Lefty%27s-Tavern-%26-Grille",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-05-18",
-    "website": null
+    "website": "http://leftystaverncoralsprings.com/"
    },
    "trivia": {
     "nights": [
@@ -3352,7 +3488,7 @@
    "address": "9810 W Sample Rd, Coral Springs",
    "state": "FL",
    "zip": "33065",
-   "phone": null,
+   "phone": "(954) 752-2333",
    "lat": 26.2721,
    "lng": -80.2572,
    "priceText": "$$$ (Facebook page)",
@@ -3362,7 +3498,24 @@
    "hoursNote": "Restaurantji (updated 2026-10-30) lists different hours: Mon closed; Tue-Thu 3p-9p; Fri-Sat 3p-10p; Sun closed. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Tue-Sat",
+     "text": "Happy Hour Tuesday-Saturday 3pm-6pm",
+     "tags": [],
+     "src": "Venue website runyonscoralsprings.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Tue-Sat",
+     "text": "HAPPY HOUR IS FROM 3 PM TO 6 PM TUESDAY-SATURDAY",
+     "tags": [],
+     "src": "Venue website runyonscoralsprings.com/menu2/menu",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -3374,7 +3527,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Coral-Springs/185211608280513/Runyons-of-Coral-Springs",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-22",
-    "website": null
+    "website": "http://www.runyonsofcoralsprings.com/"
    },
    "conflicts": [
     {
@@ -3390,7 +3543,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "Venue website runyonscoralsprings.com, checked 2026-11-02"
   },
   {
    "id": "fl-s-e-a-asian-bistro",
@@ -3744,8 +3898,75 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour 3:00PM - 6:00PM",
+     "tags": [],
+     "src": "Venue website tap42.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Besides happy hour and brunch, Tap 42 Aventura runs Monday Night Burger Bash (4 pm to close: $5 off select burgers with a drink, dine-in) and Wine Wednesday ($20 off bottles of wine all day with an entrée)",
+     "tags": [],
+     "src": "Venue website tap42.com/locations/aventura",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$2 Off Beer, $4 Off Spirits, $3 Off Wine, $3 Off Craft Cocktails",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website tap42.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Sat,Sun",
+     "text": "On weekends, our bottomless brunch in Aventura runs Saturday and Sunday from 11 am to 3 pm, with $25 bottomless mimosas, Bloody Marys and Andrews Avenue Lager",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website tap42.com/locations/aventura",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Sat,Sun",
+     "text": "Weekend brunch is served Saturdays and Sundays from 11 am to 3 pm, with $25 bottomless mimosas, Bloody Marys and Andrews Avenue Lager alongside a chef-driven brunch menu",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website tap42.com/locations/aventura",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Mon",
+     "text": "Every Monday from 4 pm to close, take $5 off The Prohibition, The Big Smash or The Drunken Goat burger, each served with crispy fries when you order a beverage",
+     "tags": [],
+     "src": "Venue website tap42.com/weekly-promotions/monday-special",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "Every Wednesday, all day, take $20 off every bottle of wine with the purchase of an entrée, from crisp whites and rosé to bold reds and bubbles",
+     "tags": [],
+     "src": "Venue website tap42.com/weekly-promotions/wednesday-special",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Mon,Wed",
+     "text": "Mondays bring Burger Bash from 4 pm to close, and Wine Wednesday takes $20 off bottles with an entrée",
+     "tags": [],
+     "src": "Venue website tap42.com/locations/aventura",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -3758,7 +3979,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Coral-Springs/102320437806926/TAP-42-Coral-Springs",
     "fbPostsSeen": 10,
     "fbNewestPost": "2020-08-27",
-    "website": null
+    "website": "http://www.tap42.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://tap42.com/",
+        "quote": "(opens in new tab) | Catering | Find a Location | Tap 42 Craft Kitchen & Bar is a leading upscale casual dining and drinking destination! Voted “Best Restaurant in South Florida” by the S",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -4002,7 +4245,24 @@
    "hoursNote": "Restaurantji (updated 2026-10-30) lists different hours: Mon-Tue closed; Wed-Thu 5p-9p; Fri 5p-10p; Sat 5p-10:30p; Sun closed. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Wed-Fri",
+     "text": "HAPPY HOUR WED-FRI 5PM-6:30PM",
+     "tags": [],
+     "src": "Venue website thecookandthecork.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Wed-Fri",
+     "text": "Dinner from 5:00-10:00pm Wednesday-Friday, 5-6:30 Happy Hour, entire restaurant *Friday Happy Hour ends at 6pm at the tables, 6:30 at the bar",
+     "tags": [],
+     "src": "Venue website thecookandthecork.com/location/the-cook-and-the-cork",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -4036,7 +4296,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Coral-Springs/562284160460665/The-Cook-%26-The-Cork",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-14",
-    "website": null
+    "website": "http://www.thecookandthecork.com/"
    },
    "conflicts": [
     {
@@ -4810,8 +5070,8 @@
    "address": "10269 Coral Springs Drive, Coral Springs",
    "state": "FL",
    "zip": "33076",
-   "phone": null,
-   "phoneSource": null,
+   "phone": "(954) 796-6511",
+   "phoneSource": "Venue website www.chinaspringcsfl.com, checked 2026-11-02",
    "lat": 26.288511,
    "lng": -80.268429,
    "website": "https://www.chinaspringcsfl.com",

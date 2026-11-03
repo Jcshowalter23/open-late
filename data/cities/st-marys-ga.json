@@ -328,7 +328,7 @@
    "address": "307 St Marys St W, St. Marys",
    "state": "GA",
    "zip": "31558",
-   "phone": null,
+   "phone": "(912) 510-8577",
    "lat": 30.7203,
    "lng": -81.5526,
    "priceText": "$$ (Facebook page)",
@@ -352,8 +352,31 @@
     "facebookMirror": "https://www.foodyas.com/US/St.-Marys/108161195089076/Locals-DockSide",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-25",
-    "website": null
-   }
+    "website": "http://localsdocksidestmarys.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.localsdocksidestmarys.com/",
+        "quote": "ose | HOME | ORDER/MENU | PARTIES | RESERVE | JOBS | ABOUT US | PARTIES | JOBS | Log In | LOCALS DOCKSIDE | 307 Saint Marys Street West, St. Marys, GA 31558 | ORDER | About us | Deliciou",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.localsdocksidestmarys.com, checked 2026-11-02"
   },
   {
    "id": "ga-osaka-japanese-steakhouse-and-sushi",
@@ -525,7 +548,46 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
    "county": "Camden",
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "6:30pm-10:30pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.riverviewhotelstmarys.com/festivals-events-stmarys-ga",
+        "date": "2026-11-01",
+        "quote": "Karaoke ~ Every Wednesday and Friday 6:30pm-10:30pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "6:30pm-10:30pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.riverviewhotelstmarys.com/festivals-events-stmarys-ga",
+        "date": "2026-11-01",
+        "quote": "Karaoke ~ Every Wednesday and Friday 6:30pm-10:30pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],

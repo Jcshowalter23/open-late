@@ -133,7 +133,7 @@
    "address": "2257 Lenox Rd NE, Atlanta",
    "state": "GA",
    "zip": "30324",
-   "phone": null,
+   "phone": "(404) 329-1007",
    "website": "http://www.babyloncafeatl.com/",
    "hours": "Mon closed; Tue-Sun 12p-4a",
    "hoursNote": null,
@@ -195,8 +195,54 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/113084478338144/Babylon-Cafe-Atlanta",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-09-25",
-    "website": null
-   }
+    "website": "http://www.babyloncafeatl.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.babyloncafeatl.com/",
+        "quote": "A hookah on us. | Every day. | The Babylon Hookah Society is our monthly membership for regulars. Stop by any day we're open and your hookah is complimentary. | One complimentary hookah,",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Blue velvet booths, marble tables and the DJ booth",
+      "url": "https://www.babyloncafeatl.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "DJ booth",
+      "url": "https://www.babyloncafeatl.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Belly dancers, DJs and themed parties",
+      "url": "https://www.babyloncafeatl.com/ticketing/"
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.babyloncafeatl.com, checked 2026-11-02"
   },
   {
    "id": "ga-barleygarden-kitchen-and-craft-bar-avalon",
@@ -378,7 +424,7 @@
    "cuisine": "Burgers",
    "address": "30 Milton Ave, Alpharetta",
    "state": "GA",
-   "phone": null,
+   "phone": "(470) 470-6606",
    "lat": 34.0754,
    "lng": -84.2956,
    "priceText": "$ (Facebook page)",
@@ -402,7 +448,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Alpharetta/101618548389223/Breakdown-Burger",
     "fbPostsSeen": 10,
     "fbNewestPost": "2025-11-10",
-    "website": null
+    "website": "http://truckandtap.com/alpharetta/breakdown-burger/"
    },
    "bingo": {
     "nights": [],
@@ -426,7 +472,30 @@
       "url": "https://truckandtap.com/alpharetta/events/"
      }
     ]
-   }
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://truckandtap.com/alpharetta/breakdown-burger/",
+        "quote": "ce the Magic of the Holidays in Alpharetta at Truck & Tap’s Christmas Pop Up | Voted Best Neighborhood Bar in My Alpharetta Readers’ Choice Awards | Voted #3 Best Beer Bar By Beer Guys Radio | Ins",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website truckandtap.com/alpharetta/breakdown-burger, checked 2026-11-02"
   },
   {
    "id": "ga-brimstone-restaurant-and-tavern",
@@ -435,7 +504,7 @@
    "address": "10595 Old Alabama Rd Connector Suite 1, Alpharetta",
    "state": "GA",
    "zip": "30022",
-   "phone": null,
+   "phone": "(770) 642-2249",
    "lat": 34.0373,
    "lng": -84.2906,
    "priceText": "$$ (Facebook page)",
@@ -444,7 +513,7 @@
    "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-11p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 12 am per Venue website brimstonetavern.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [
     {
@@ -583,6 +652,24 @@
        }
       ],
       "confidence": "medium"
+     },
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "7 PM to 9:30 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-03",
+      "datedLastSeen": "2026-11-03",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://brimstonetavern.com/",
+        "date": "2026-11-03",
+        "quote": "Tuesday November 3rd | Every Tuesday | Come boogie at our official Hustle Dancing night at Brimstone! | Hosted by HIA & >> Hosted by HIA & DJ Tony Felix | 7 PM to 9:30 PM"
+       }
+      ],
+      "confidence": "medium"
      }
     ],
     "stale": [],
@@ -596,7 +683,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Alpharetta/1675236026051706/Brimstone-Restaurant-%26-Tavern",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-02",
-    "website": null
+    "website": "http://www.brimstonetavern.com/"
    },
    "trivia": {
     "nights": [
@@ -628,7 +715,21 @@
       "url": "https://brimstonetavern.com/"
      }
     ]
-   }
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " For this very reason, we bring nightly activities, such as Trivia, Bingo, Poker, Live Music, & stand-up Comedy Club Night for our customers",
+      "url": "https://brimstonetavern.com/alpharetta-brimstone-restaurant-and-tavern-about"
+     }
+    ]
+   },
+   "phoneSource": "Venue website brimstonetavern.com, checked 2026-11-02"
   },
   {
    "id": "ga-burgerfi",
@@ -1285,7 +1386,7 @@
    "address": "60 S Main St, Alpharetta",
    "state": "GA",
    "zip": "30009",
-   "phone": null,
+   "phone": "(678) 317-3232",
    "lat": 34.0735,
    "lng": -84.2944,
    "priceText": "$$ (Facebook page)",
@@ -1330,8 +1431,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Alpharetta/1697240860334681/Citizen-Soul",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-24",
-    "website": null
-   }
+    "website": "http://www.citizensoul.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.citizensoul.com/",
+        "quote": "with simple, fresh ingredients. | OUR MENU | HAVE A SEAT AT OUR BAR | Citizen Soul is an upscale, casual, neighborhood eatery; serving modern American pub fare while specializing in arti",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.citizensoul.com, checked 2026-11-02"
   },
   {
    "id": "ga-coalition-steak-and-seafood",
@@ -1921,7 +2045,70 @@
     ]
    },
    "dj": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "8PM to 2 AM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.cafeefendi.com/",
+        "date": "2026-11-01",
+        "quote": "Every Friday and Saturday from 8PM to 2 AM, Efendi comes alive with live DJ music, traditional belly dancing performances and vibrant late-night entertainment"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.cafeefendi.com/events",
+        "date": "2026-11-01",
+        "quote": "Weekend DJ & Belly Dancing | Every Friday & Saturday, 8 PM–2 AM | Every Friday & Saturday, 8 PM–2 AM"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.cafeefendi.com/events",
+        "date": "2026-11-01",
+        "quote": "Live DJ music, belly dancing performances, and vibrant late-night entertainment every Friday and Saturday, bringing music, movement, and energy to the Efendi experience"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "8PM to 2 AM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.cafeefendi.com/",
+        "date": "2026-11-01",
+        "quote": "Every Friday and Saturday from 8PM to 2 AM, Efendi comes alive with live DJ music, traditional belly dancing performances and vibrant late-night entertainment"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.cafeefendi.com/events",
+        "date": "2026-11-01",
+        "quote": "Weekend DJ & Belly Dancing | Every Friday & Saturday, 8 PM–2 AM | Every Friday & Saturday, 8 PM–2 AM"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.cafeefendi.com/events",
+        "date": "2026-11-01",
+        "quote": "Live DJ music, belly dancing performances, and vibrant late-night entertainment every Friday and Saturday, bringing music, movement, and energy to the Efendi experience"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [
      "Restaurantji review/summary mentions dj"
@@ -1963,7 +2150,8 @@
      "checked": "2026-11-01"
     }
    ],
-   "websiteSource": "OpenStreetMap node/4520641367 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/4520641367 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.cafeefendi.com/menu"
   },
   {
    "id": "ga-el-porton-midway",
@@ -2027,7 +2215,7 @@
    "address": "6180 Atalnta Hwy, Alpharetta",
    "state": "GA",
    "zip": "30004",
-   "phone": null,
+   "phone": "(678) 208-8774",
    "website": "http://elotekingatlanta.com/",
    "hours": "Mon-Thu closed; Fri-Sat 7p-11p; Sun 6p-11p",
    "hoursNote": null,
@@ -2045,8 +2233,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Alpharetta/518711711318803/Elote-King",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-19",
-    "website": null
-   }
+    "website": "http://elotekingatlanta.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://elotekingatlanta.com/",
+        "quote": "h flavor and experience. | Why Choose Elote Atlanta? | 5+ Years Serving Atlanta | Trusted local favorite for authentic Mexican street food | Traditional Mexican Recipes | Authentic elotes made w",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website elotekingatlanta.com, checked 2026-11-02"
   },
   {
    "id": "ga-emphasize-studio",
@@ -2173,7 +2384,7 @@
    "address": "11500 Webb Bridge Way, Suite A7, Alpharetta",
    "state": "GA",
    "zip": "30005",
-   "phone": null,
+   "phone": "(470) 359-6558",
    "lat": 34.0621,
    "lng": -84.2256,
    "website": "http://www.fiorenzaitalian.com/",
@@ -2226,8 +2437,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Alpharetta/974484079077809/Fiorenza-Italian",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-29",
-    "website": null
-   }
+    "website": "http://www.fiorenzaitalian.com/"
+   },
+   "phoneSource": "Venue website fiorenzaitalian.com, checked 2026-11-02"
   },
   {
    "id": "ga-flatlands-bourbon-and-bayou",
@@ -2297,7 +2509,7 @@
    "address": "55 Roswell St, Alpharetta",
    "state": "GA",
    "zip": "30009",
-   "phone": null,
+   "phone": "(678) 691-0028",
    "lat": 34.0664,
    "lng": -84.2998,
    "priceText": "$$ (Facebook page)",
@@ -2308,7 +2520,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon-Thu",
+     "text": "Monday through Thursday in our bar, lounge, or patio: $10 select wines, $8 classic cocktails, and French & Spanish style small bites and tapas",
+     "tags": [],
+     "src": "Venue website foundationatl.com/events-2-2",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -2321,8 +2541,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Alpharetta/504764286277071/Foundation-Social-Eatery",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-27",
-    "website": null
-   }
+    "website": "http://www.foundationatl.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.foundationatl.com/",
+        "quote": "OME | TO FOUNDATION SOCIAL EATERY | At Foundation Social Eatery, we blur the line between fine dining and everyday comfort—offering a uniquely upscale yet grounded experience where creativity",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.foundationatl.com, checked 2026-11-02"
   },
   {
    "id": "ga-frostology",
@@ -2491,7 +2734,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Alpharetta/105230539960439/Ippolito%27s-Italian-Restaurant---Alpharetta",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://www.ippolitosalpharetta.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.ippolitosalpharetta.com/",
+        "quote": "and welcoming atmosphere Ippolito's offers. We love providing our guests with a casual, family-friendly atmosphere and excellent service, along with healthy portions of our wonderful food. Our",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -5063,7 +5328,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Alpharetta/178260682188011/Tarahumata---Mexican-Grill-%26-Tequila-Bar",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-14",
-    "website": null
+    "website": "http://www.tarahumata.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://tarahumata.com/",
+        "quote": "s, great music, and plates everyone raves about. Whether it's a group outing or a special date night, your plans will always feel extra special here. | BOOK A TABLE | Specials | We are updat",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -5073,7 +5360,7 @@
    "address": "122 Marietta St, Alpharetta",
    "state": "GA",
    "zip": "30009",
-   "phone": null,
+   "phone": "(678) 691-8364",
    "lat": 34.0727,
    "lng": -84.2986,
    "website": "http://tbb122.com/",
@@ -5093,8 +5380,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Alpharetta/105765238706560/TBB-122",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-22",
-    "website": null
-   }
+    "website": "http://tbb122.com/"
+   },
+   "phoneSource": "Venue website www.tbb122.com, checked 2026-11-02"
   },
   {
    "id": "ga-teaz-social-atlanta",
@@ -5349,7 +5637,16 @@
    "hoursNote": "Restaurantji (updated 2026-10-01) lists different hours: Mon-Thu 3p-12a; Fri 3p-2a; Sat 11a-2a; Sun 11a-12a. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Tue",
+     "text": "Our dog-friendly happy hour happening every Tuesday from 3 to 6 PM on our scenic rooftop",
+     "tags": [],
+     "src": "Venue website eatupdrinkup.net/events",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -5377,7 +5674,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Alpharetta/110044834636289/UP-on-the-Roof---Alpharetta",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://eatUPdrinkUP.net/"
    },
    "conflicts": [
     {
@@ -5393,7 +5690,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://eatupdrinkup.net/",
+        "quote": "looking the city. Whether it’s a casual weeknight dinner, a weekend brunch with a view, a date night, a group gathering or a milestone celebration, UP on the Roof is the elevated experience",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "ga-veganaire",
@@ -5667,7 +5986,20 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/104412211243781/X-Midtown",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-10",
-    "website": null
+    "website": "http://www.xmidtown.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "From heavy-hitting block parties and award-winning DJs to live entertainment and cozy socials: there’s never a dull moment",
+      "url": "https://xmidtown.com/"
+     }
+    ]
    }
   },
   {

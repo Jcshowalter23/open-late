@@ -412,7 +412,29 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.barcelona-albany.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.barcelona-albany.com/",
+        "quote": "fruity flavors of rose-pink sangria and warm Spanish paella stirred together in a lively, romantic ambiance? | The Barcelona Restaurant at 1192 Western Ave | CONTACT US | VIEW MENU | ABOUT",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1429,8 +1451,8 @@
    "websiteSource": "OpenStreetMap node/9924961762 website tag (map data 2026-10-31), checked 2026-11-02",
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-7p",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Daily 11a-1a",
+   "kitchenNote": "Kitchen hours from Venue website fidensbrewing.com, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -1445,7 +1467,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://fidensbrewing.com"
    }
   },
   {
@@ -4222,7 +4244,7 @@
    "hours": "Mon-Thu 5p-12a; Fri-Sat 5p-1a; Sun 5p-12a",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 11 pm per Venue website savoyonlark.com/visit, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -4237,7 +4259,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.savoyonlark.com"
    }
   },
   {
@@ -4714,8 +4736,25 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Cheese Pizza + Happy Hour Drink for $20",
+     "tags": [],
+     "src": "Venue website thecitybeerhall.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Fri",
+     "text": "Every Friday get all you can eat focaccia pizza for just $5",
+     "tags": [],
+     "src": "Venue website thecitybeerhall.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -4728,7 +4767,91 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.thecitybeerhall.com"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://thecitybeerhall.com/",
+        "quote": "er had that in the past. Really quite the amazing experience. I can't wait to go back for date night! | News, Brews & Exclusive Perks | Location | The City Beer Hall | 42 Howard Street | Alb",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ Natty Daddy and guests will spin a variety of tunes for the dancers",
+      "url": "https://thecitybeerhall.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "DJ Natty Daddy and guests will spin a variety of tunes for the dancers",
+      "url": "https://thecitybeerhall.com/events"
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "posted on 8 different Weds",
+      "lastSeen": "2027-04-28",
+      "datedLastSeen": "2027-04-28",
+      "postsSeen": 8,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://thecitybeerhall.com/events",
+        "date": "2027-04-28",
+        "quote": "Trivia | Wednesday, April 28th, 2027"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://thecitybeerhall.com/events",
+        "date": "2027-03-31",
+        "quote": "Trivia | Wednesday, March 31st, 2027"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://thecitybeerhall.com/events",
+        "date": "2027-03-03",
+        "quote": "Trivia | Wednesday, March 3rd, 2027"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia | Starting on Wednesday October 22nd 2025",
+      "url": "https://thecitybeerhall.com/events"
+     }
+    ]
    }
   },
   {

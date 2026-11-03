@@ -223,7 +223,25 @@
     "fbNewestPost": null,
     "website": "https://paladarlatinkitchen.com/"
    },
-   "menu": "https://paladarlatinkitchen.com/king-of-prussia-pa/"
+   "menu": "https://paladarlatinkitchen.com/king-of-prussia-pa/",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "🎧 DJ + dancing",
+      "url": "https://paladarlatinkitchen.com/610-social-events-calendar/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "🎧 DJ + dancing all night",
+      "url": "https://paladarlatinkitchen.com/610-social-events-calendar/"
+     }
+    ]
+   }
   },
   {
    "id": "puddlers-kitchen-and-tap-conshohocken-brewing",
@@ -438,7 +456,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/6839083808 opening_hours tag (map data 2026-11-01; last checked on the map 2023-08-13) (checked 2026-11-02); late hours confirmed by venue website https://www.littlesicilypizza.com: \"izza 26 Crooked Ln, King of Prussia, PA | Mon: 11 AM–9 PM | Tue-Thurs: 11 AM–10 PM | Fri-Sat: 11 AM–11 PM | Sunday:\" (checked 2026-11-02)",
    "county": "Montgomery",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.littlesicilypizza.com",
+        "quote": "ttle Sicily Pizza, you'll discover a family-run pizzeria where quality meets comfort. Our neighborhood spot specializes in handcrafted pizza, mouthwatering entrees, and a mix of Italian and America",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "pa-pizzeria-vetri-king-of-prussia",
@@ -488,7 +528,43 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/47094437 opening_hours tag (map data 2026-11-01; last checked on the map 2023-10-26) (checked 2026-11-02); late hours confirmed by venue website https://www.sullivanssteakhouse.com/king-of-prussia/: \"ok a Table | --> | Hours | Sunday – Thursday | 11:00 am – 10:00 pm | Friday – Saturday | 11:00 am – 11:00 pm | LUNCH |\" (checked 2026-11-02)",
    "county": "Montgomery",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.sullivanssteakhouse.com/king-of-prussia/",
+        "quote": "he famous Prussia Mall, this steakhouse offers a blend of tradition and modern charm that locals and tourists alike can’t resist. Whether you’re here for an intimate dinner, private dini",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.sullivanssteakhouse.com/king-of-prussia/",
+        "quote": "Book A Table | Order Pickup & Delivery | Order Catering | Reserve Table | Steakhouse & Fine Dining in King of Prussia, PA | Make A Reservation | Location | Select location | Indianapolis,",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "counties": [

@@ -567,7 +567,7 @@
    "hours": "Mon-Thu 5p-12a; Fri 5p-2a; Sat 10a-3p; Sun closed",
    "hoursNote": "Restaurantji (updated 2026-10-09) lists different hours: Mon closed; Tue-Thu 5p-11p; Fri 5p-1a; Sat 11a-3:30p,5p-1a; Sun 11a-3:30p,6p-11p. Call ahead to confirm.",
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 9:30 pm per Venue website eatatblkswan.com, checked 2026-11-01; days not stated.",
    "happyHours": [
     {
      "days": "Tue",
@@ -606,7 +606,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/104635111704831/BLK-Swan",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.eatatblkswan.com/"
    },
    "conflicts": [
     {
@@ -627,7 +627,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.eatatblkswan.com/",
+        "quote": "--> | Blk Swan | Upscale Restaurant in Baltimore | 1302 Fleet Street, Baltimore, MD, USA | top of page | Menu | Re",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "md-bmore1920social",
@@ -1458,7 +1480,16 @@
    "hoursNote": "Restaurantji (updated 2026-10-02) lists different hours: Mon-Thu 11:30a-12a; Fri 12:30a-2a,11:30a-12a; Sat 12:30a-2a,12p-2a; Sun 12p-12a. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Italian Disco offers Happy Hour 7 days a week from 4pm-7pm",
+     "tags": [],
+     "src": "Venue website theitaliandisco.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1494,7 +1525,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/1950463828608718/Italian-Disco",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-12",
-    "website": null
+    "website": "http://www.TheItalianDisco.com/"
    },
    "conflicts": [
     {
@@ -1512,7 +1543,30 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ Schedule",
+      "url": "https://theitaliandisco.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Eat, drink, be merry and vogue to a jukebox loaded with the best dance-floor cuts from the 70s and 80s and get your groove on with an elevated Fiat-slash-DJ booth",
+      "url": "https://theitaliandisco.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "DJ Schedule",
+      "url": "https://theitaliandisco.com/events/"
+     }
+    ]
+   }
   },
   {
    "id": "md-j-corbins-vegan-fitness-cafe",
@@ -1962,7 +2016,17 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Thu",
+     "text": "THURSDAY WATCH SPECIALS: $3 Natty Light, $4 Natty Boh",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website powerplantlive.com/events-and-entertainment/events/sports-watch-ravens-vs-jaguars",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -2322,8 +2386,8 @@
    "website": "http://m8beer.com/",
    "hours": "Mon-Thu 3p-10p; Fri-Sat 11a-11p; Sun 11a-10p",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Wed-Thu 3p-8p; Fri-Sun 11a-8p",
+   "kitchenNote": "Kitchen hours from Venue website m8beer.com, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -2339,7 +2403,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/147731841749091/M8-Beer",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-22",
-    "website": null
+    "website": "http://m8beer.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.m8beer.com/",
+        "quote": "d | 1/5 | VIEW TAPLIST | AUSSIE VIBES. | BALTIMORE BREWS. | FREE PARKING ● DOG FRIENDLY ● KID FRIENDLY ● FULL KITCHEN | DOCKERS | LAGER | 3.5% ABV | VIEW BEERS | TAPROOM HOURS | GAME DAY HOURS",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2471,8 +2557,38 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "All Day Happy Hour",
+     "tags": [],
+     "src": "Venue website mdyards.com/daily-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$3 High Noons, 1/2 off Draft Beer ($4 Drafts)",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website mdyards.com/daily-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "Half Off Flights (Beer, Wine, Tequila)",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website mdyards.com/daily-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events"
@@ -2485,7 +2601,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/214706905069795/Maryland-Yards",
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-03-17",
-    "website": null
+    "website": "http://www.mdyards.com/"
    }
   },
   {
@@ -3061,7 +3177,30 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/102537863232818/Ouzo-Bay",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-02-13",
-    "website": null
+    "website": "http://www.ouzobay.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Dance to the music of a live DJ spinning music Friday & Saturday",
+      "url": "https://ouzobeach.com/about/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Dance to the music of a live DJ spinning music Friday & Saturday",
+      "url": "https://ouzobeach.com/about/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Dance to the music of a live DJ spinning music Friday & Saturday",
+      "url": "https://ouzobeach.com/about/"
+     }
+    ]
    }
   },
   {
@@ -3112,7 +3251,7 @@
    "hours": "Mon-Wed 11a-2a; Thu-Sun 9a-2a",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 11 pm per Venue website peterspourhouse.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -3168,7 +3307,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/133762533300716/Peter%27s-Pour-House",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://www.peterspourhouse.com/"
    }
   },
   {
@@ -3237,7 +3376,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Join us for $5 beer, wine, sangria & specialty drinks in the bar & lounge",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website phillipsseafood.com/promotion/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -3250,7 +3400,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/192316834183235/Phillips-Seafood-restaurant",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://phillipsseafood.com/"
    },
    "conflicts": [
     {
@@ -3277,7 +3427,29 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://phillipsseafood.com/",
+        "quote": "re! Chock full of fresh steamed seafood, our Maine Lobster Bake is the perfect choice for date night. | Browse our Menus | Time to Indulge | Seafood Heaven | Perfect for the seafood lover wh",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "md-pickles-pub",
@@ -3463,7 +3635,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/559119520791975/Puerto-511-Cocina-Peruana",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.puerto511.com/"
    },
    "conflicts": [
     {
@@ -3491,7 +3663,29 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.puerto511.com/",
+        "quote": "ounds bring memories of my hometown Puerto Callao | Our concept and atmosphere are casual fine dining, full of love and passion for one of the world's most delicious cuisines | I cook with th",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "md-quigleys-1-2-irish-pub",
@@ -3526,7 +3720,20 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/435264623184841/Quigley%27s-1-2-Irish-Pub",
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-03-20",
-    "website": null
+    "website": "http://www.quigleyshalfirishpub.com/pubhome.html"
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Sistem Karaoke",
+      "url": "https://www.interbos.study/"
+     }
+    ]
    }
   },
   {
@@ -3813,7 +4020,8 @@
     "fbNewestPost": "2026-08-16",
     "website": "https://www.sottosoprainc.com/"
    },
-   "websiteSource": "OpenStreetMap way/336368792 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/336368792 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.sottosoprainc.com/menu"
   },
   {
    "id": "md-soundbar-baltimore",
@@ -3984,7 +4192,16 @@
    "hoursNote": "Hours differ by source: Facebook page lists Mon closed; Tue-Thu 11:30a-9p; Fri-Sat 11:30a-10p; Sun 11:30a-9p (no posts since May 2026); Restaurantji (updated 2026-10-15) used as newer. Call ahead.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "happy hour specials 5-7:30",
+     "tags": [],
+     "src": "Venue website tacofiesta.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -4018,7 +4235,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/1450455061851585/Taco-Fiesta",
     "fbPostsSeen": 11,
     "fbNewestPost": "2025-01-22",
-    "website": null
+    "website": "http://www.tacofiesta.com/"
    },
    "conflicts": [
     {
@@ -4174,7 +4391,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Downtown-Baltimore/103015614858727/Taqueria-La-Patrona-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-13",
-    "website": null
+    "website": "http://taquerialapatronamex.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://taquerialapatronamex.com/",
+        "quote": "o | Chicken standard, rice, beans, cheese, lettuce, tomato and sauce. | Straight From The Regulars | The People Have Spoken | 4.7 average · 9,178 ratings | The al pastor Tacos (4) was well",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -4287,7 +4526,32 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Thu",
+     "text": "Happy Hour every Thursday from 4-8 PM",
+     "tags": [],
+     "src": "Venue website thegardenrooftop.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Join us for live music and the perfect Happy Hour vibes from 4–7 PM",
+     "tags": [],
+     "src": "Venue website thegardenrooftop.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Happy Hour (Bar): 4:00pm-8:00pm",
+     "tags": [],
+     "src": "Venue website thegardenrooftop.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -4316,7 +4580,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/311484816326888/The-Garden-Roof-Top",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-05-28",
-    "website": null
+    "website": "http://www.thegardenrooftop.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://thegardenrooftop.com/",
+        "quote": "a quality experience for all our guests, we kindly ask that you respect our dress code: | Upscale Chic | . | NOT ALLOWED: | Offensive, Vulgar, or Inappropriate Clothing | Athletic Wear, S",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

@@ -1017,7 +1017,25 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./223068934417659/Mr.-Henry%27s",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://mrhenrysdc.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " He has toured and recorded with artists including: Herbie Hancock, Jill Scott, DJ Jazzy Jeff, Music Soul Child, Jeff Bradshaw, Carrol Riddick, Raheem Devaughn, Chiwoniso Maraire, Kindred The Family S",
+      "url": "https://www.mrhenrysdc.com/event/dave-manley/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Upon arriving in Philly in the mid-nineties, Dave broke ground working with international Dj’s King Britt and Josh Wink",
+      "url": "https://www.mrhenrysdc.com/event/dave-manley/"
+     }
+    ]
    }
   },
   {
@@ -1610,7 +1628,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "featuring $2 off Patio Pounder Cocktails + $5 off Patio Pounder Mini-Pitchers",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website theroostsedc.com/upcoming-events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events"
@@ -1623,7 +1652,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./2327584667487099/The-Roost-DC",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-05",
-    "website": null
+    "website": "http://theroostsedc.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.theroostsedc.com/",
+        "quote": "omparable collection of food, beer, wine and spirits under one roof. It’s a food hall, a neighborhood bar, a place to gather and, above all, a distinctly DC kind of place, created by the communit",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1733,8 +1784,38 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour $1 off Rail and Draft",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website trustysdc.com/washington-capitol-hill-hill-east-potomac-metro-rfk-trusty-s-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "Happy Hour 4-7pm",
+     "tags": [],
+     "src": "Venue website trustysdc.com/washington-capitol-hill-hill-east-potomac-metro-rfk-trusty-s-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$1 off Draft & Rail",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website trustysdc.com/washington-capitol-hill-hill-east-potomac-metro-rfk-trusty-s-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -1765,7 +1846,27 @@
     ]
    },
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "monthly",
+      "start": "06:30 PM - 11:00 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://trustysdc.com/washington-capitol-hill-hill-east-potomac-metro-rfk-trusty-s-events",
+        "date": "2026-11-01",
+        "quote": "Join us the fist and third Wednesday of every month for costume Karaoke at the Bus Bar | 06:30 PM - 11:00 PM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -1796,7 +1897,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./196436629242/Trusty%27s-DC",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-09-29",
-    "website": null
+    "website": "http://www.trustysfullserve.com/"
    },
    "trivia": {
     "nights": [
@@ -1967,7 +2068,8 @@
    ],
    "source": "hours from OpenStreetMap node/11661677969 opening_hours tag (map data 2026-10-31; last checked on the map 2024-03-17) (checked 2026-11-01)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://barkeepersdc.com/menu"
   }
  ],
  "type": "neighborhood",

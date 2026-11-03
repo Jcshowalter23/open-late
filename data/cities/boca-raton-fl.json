@@ -269,7 +269,20 @@
      "resolution": "Facebook number kept (venue-managed page)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "A social, high-energy atmosphere made for groups, celebrations, and catch-ups with a live DJ and a game always on",
+      "url": "https://americansocialbar.com/whats-on/boozy-brunch/"
+     }
+    ]
+   }
   },
   {
    "id": "fl-argentinian-grill",
@@ -624,7 +637,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy Hour Mon-Sat from 4PM-7PM and ALL DAY on Sunday",
+     "tags": [],
+     "src": "Venue website biergartenboca.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -666,7 +688,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Boca-Raton/183003725099677/Biergarten-Boca-Raton",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-16",
-    "website": null
+    "website": "http://biergartenboca.com/"
    }
   },
   {
@@ -906,7 +928,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Boca-Raton/101564109420792/Boca-Hideaway",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://www.bocahideaway.com/"
    },
    "trivia": {
     "nights": [],
@@ -941,6 +963,42 @@
       "date": "2026-11-01",
       "quote": " Happy hour, karaoke, bingo, and trivia nights, just to name a few things they have to offer",
       "url": "https://bocahideaway.com/"
+     }
+    ]
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://bocahideaway.com/",
+        "quote": "FL | YOUR LOCAL HIDEAWAY | GOOD FOOD. COLD DRINKS. GREAT TIMES. | Boca Hideaway | is your neighborhood bar and grill in Boca Raton, where delicious food, refreshing drinks, and a laid-back atmosph",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://bocahideaway.com/",
+        "quote": "f craving. | More than just a place to grab a bite, Boca Hideaway is a place to have fun. Catch the game, enjoy a drink with friends, sing along at karaoke, or join us for bingo, live music, and",
+        "self": true
+       }
+      ]
      }
     ]
    }
@@ -2268,8 +2326,35 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Pop in and join us for Happy Hour every day from 3pm to 7pm",
+     "tags": [],
+     "src": "Venue website Crazyunclemikes.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Plus, we've got $4 craft pints and a delicious $12 Bacon Cheeseburger special all night long",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website Crazyunclemikes.com/beats",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Tue",
+     "text": "How about $4 tacos and $6 margaritas every Tuesday",
+     "tags": [],
+     "src": "Venue website Crazyunclemikes.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events"
@@ -2310,7 +2395,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Boca-Raton/1822616128053040/Crazy-Uncle-Mikes",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-16",
-    "website": null
+    "website": "http://Crazyunclemikes.com/"
    },
    "bingo": {
     "nights": [],
@@ -2332,6 +2417,29 @@
       "date": "2026-11-01",
       "quote": "Start your Sunday off right with Bingo Brunch featuring an incredibly tasty brunch menu from Chef Tara",
       "url": "https://Crazyunclemikes.com/"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Come enjoy our expertly crafted tacos, refreshing margaritas, and Free Dance Lessons at 8:30 with Emmanuel and Music played by DJ Gio Black",
+      "url": "https://Crazyunclemikes.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " DJ Gio Black kicks the night off at 8pm with the best […] | Wed",
+      "url": "https://Crazyunclemikes.com/beats/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " DJ Gio Black kicks the night off at 8pm with the best […] | Thu",
+      "url": "https://Crazyunclemikes.com/beats/"
      }
     ]
    }
@@ -3469,7 +3577,7 @@
    "address": "9101 Lakeridge Blvd, #18, Boca Raton",
    "state": "FL",
    "zip": "33496",
-   "phone": null,
+   "phone": "(561) 314-4543",
    "lat": 26.3951,
    "lng": -80.1918,
    "website": "https://islandnyammins.com/",
@@ -3490,7 +3598,8 @@
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-08",
     "website": "https://islandnyammins.com/"
-   }
+   },
+   "phoneSource": "Venue website www.islandnyammins.com, checked 2026-11-02"
   },
   {
    "id": "fl-ispalina",
@@ -3889,7 +3998,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "HH: MON-FRI,5:00-7:00PM",
+     "tags": [],
+     "src": "Venue website kasumiboca.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -3901,7 +4019,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Boca-Raton/320439657810245/KasumiBoca",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://kasumiboca.com/"
    }
   },
   {
@@ -4483,7 +4601,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Boca-Raton/103100195965459/Le-Sorelle-Restaurant-Downtown",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-09-18",
-    "website": null
+    "website": "http://lesorelle-restaurant.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://lesorelle-restaurant.com/",
+        "quote": "brings the real taste of Italy to every plate you order. Come experience fine dining that locals keep coming back to in Downtown Boca Raton. | FOOD MENU | OUR LOCATION | Le Sorelle Boca",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://lesorelle-restaurant.com/",
+        "quote": "ly-owned kitchen brings the real taste of Italy to every plate you order. Come experience fine dining that locals keep coming back to in Downtown Boca Raton. | FOOD MENU | OUR LOCATION | Le S",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -4597,7 +4751,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "Kids Eat Free Every Monday at Lindburgers Jupiter",
+     "tags": [],
+     "src": "Venue website lindburgers.com/locations/jupiter",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -4608,7 +4770,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Boca-Raton/258862504143110/Lindburgers",
     "fbPostsSeen": 10,
     "fbNewestPost": "2016-12-23",
-    "website": null
+    "website": "http://www.lindburgers.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.lindburgers.com/",
+        "quote": "elicious items. Stop in, order online, or grab takeout and see why Lindburgers has been a local favorite for generations in Delray Beach, Jupiter, and Wellington Florida. | Locations | Delray Be",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -6639,7 +6823,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Boca-Raton/106234759108350/Rino%27s-of-Boca-Raton",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-23",
-    "website": null
+    "website": "http://www.rinosofboca.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.rinosofboca.com/",
+        "quote": "mily’s traditions. Whether it’s your first visit or you’re part of our extended family of regulars, we look forward to welcoming you with warm hospitality, unforgettable flavors, and the t",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.rinosofboca.com/",
+        "quote": ", true authentic Italian food, they have a great bar and a great vibe. Whether it's for a date night or a family event this place is one of the best restaurants in Boca Raton. The chef is am",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -6674,7 +6894,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Boca-Raton/201070693252508/Rise-Sushi---Creative-Asian-Cuisine-%26-Bar",
     "fbPostsSeen": 2,
     "fbNewestPost": "2026-09-05",
-    "website": null
+    "website": "http://risesushiboca.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://risesushiboca.com/",
+        "quote": "retty busy but less so now that it’s off season. One of our favorites. | Alan Stern | Had date night here for the first time and it was a wonderful experience! The food was literally to die",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -6966,7 +7208,41 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "BOGO Tuesday · all beers",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website sicilianoven.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "See venue",
+     "text": "$1 off beers",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website sicilianoven.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Wed",
+     "text": "Wine Wednesday · 50% off bottles",
+     "tags": [],
+     "src": "Venue website sicilianoven.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Thu",
+     "text": "Thirsty Thursday · $10 cocktails",
+     "tags": [],
+     "src": "Venue website sicilianoven.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -6979,7 +7255,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Boca-Raton/109126856355/Sicilian-Oven-Company-Page",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://www.sicilianoven.com/"
    },
    "conflicts": [
     {
@@ -7140,7 +7416,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Boca-Raton/488649611000170/Smash-House-Boca-Raton",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-08-14",
-    "website": null
+    "website": "http://www.smashhouseburgers.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.smashhouseburgers.com/",
+        "quote": "store on the site to see current ordering and delivery options. | Is Smash House Burgers kid-friendly? | Yes. We offer a dedicated | kids menu | featuring the Kids Smashed Burger — a single s",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -7633,7 +7931,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "Enjoy $3 tacos and $5 margaritas all day every Tuesday at our Boca Raton location",
+     "tags": [],
+     "src": "Venue website tacolabsfl.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -7644,7 +7950,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Boca-Raton/151186941409307/Taco-Labs---Boca",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-05-13",
-    "website": null
+    "website": "http://tacolabsfl.com/"
    }
   },
   {
@@ -8213,7 +8519,17 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon-Sat",
+     "text": "From 3 pm-6 pm Monday through Saturday, enjoy half-price beer and cocktails or $7 glasses of wine",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website thegrilleoncongress.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events"
@@ -8248,7 +8564,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Boca-Raton/181719212915/The-Grille-on-Congress",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-23",
-    "website": null
+    "website": "http://www.thegrilleoncongress.com/"
    },
    "conflicts": [
     {
@@ -8607,7 +8923,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Boca-Raton/114668405259582/Thick-and-Thin-Pizza-%26-Restaurant",
     "fbPostsSeen": 5,
     "fbNewestPost": "2026-08-16",
-    "website": null
+    "website": "http://www.thickandthinpizza.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://thickandthinpizza.com/",
+        "quote": "Window Tinting | Financial News | accountant | bookkeeping | boat rental | CPA Tampa | sports bar | cardiology | sommore | glass railings | Birmingham Restaurants | Christian Music | lock",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -9190,7 +9528,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Boca-Raton/88833449091/Yokohama-Sushi",
     "fbPostsSeen": 5,
     "fbNewestPost": "2023-12-06",
-    "website": null
+    "website": "http://www.yokohamasushi.net/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.yokohamasushi.net/",
+        "quote": "for over 17 years | Founded in 2003, | ​Yokohama Sushi is an award-winning sushi bar and local favorite in the Boca Raton restaurant scene. O | ur master chefs transform fresh fish into tantali",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -9262,7 +9622,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/13517520433 opening_hours tag (map data 2026-10-31; last checked on the map 2026-02-01) (checked 2026-11-01)",
    "county": "Palm Beach",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.raveboca.com/_files/ugd/8f7205_7d83567d0540410e9ed0ceef21d5c67e.pdf"
   },
   {
    "id": "fl-mjs-hot-chicken-boca-raton",
@@ -9378,7 +9739,8 @@
     "stale": false,
     "oneoffs": [],
     "conflicts": []
-   }
+   },
+   "menu": "https://www.duffysmvp.com/menu"
   },
   {
    "id": "fl-mister-o1-boca-raton",

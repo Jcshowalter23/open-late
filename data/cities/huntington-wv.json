@@ -1957,6 +1957,28 @@
     ],
     "oneoffs": [],
     "conflicts": []
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.peddlerwv.com/",
+        "quote": "cquiring demand, we expanded our beer selection to 20 different ales and lagers including local favorites like: Bearded Lady Blonde Ale, Silt Sucker Hazy IPA and several different kettle sours.",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2190,8 +2212,8 @@
    "address": "857 3rd Avenue, Huntington",
    "state": "WV",
    "zip": "25701",
-   "phone": null,
-   "phoneSource": null,
+   "phone": "(304) 697-9800",
+   "phoneSource": "Venue website mhofc.com, checked 2026-11-02",
    "lat": 38.42177,
    "lng": -82.44432,
    "website": "https://mhofc.com",
@@ -2201,7 +2223,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "Tuesday Double Play - Second Pizza or Pasta Free",
+     "tags": [],
+     "src": "Venue website mhofc.com/specials/tuesday",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/6186670542 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://mhofc.com/about: \"Closed | Tuesday | 11AM - 10PM | Wednesday | 11AM - 10PM | Thursday | 11AM - 10PM | Friday | 11AM - 11PM | Saturda\" (checked 2026-11-02)",

@@ -106,7 +106,40 @@
     "facebookMirror": "https://www.foodyas.com/US/West-Chester/151266803048/Bar-Avalon",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.avalonrestaurant.net/"
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.avalonrestaurant.net/west-chester-events-specials",
+        "date": "2026-11-01",
+        "quote": " Join us for exclusive West Chester Taps specials and live DJ entertainment throughout the summer season | Join Us This Wednesday"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Food & Drink Specials + Live DJ | 4PM - 7PM",
+      "url": "https://www.avalonrestaurant.net/west-chester-events-specials"
+     }
+    ]
    }
   },
   {
@@ -341,7 +374,29 @@
     "facebookMirror": "https://www.foodyas.com/US/West-Chester/367807103383602/Fellini-Cafe-of-West-Chester",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-08",
-    "website": null
+    "website": "http://fellinicafeofwc.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://fellinicafeofwc.com/",
+        "quote": "m | How to Enjoy Fellini Cafe | Make a Reservation | Order for Pickup | Upcoming Events | Live Music Every Wednesday | To find out who is playing this week, please call the restaurant. | Our Menu",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1089,7 +1144,20 @@
     "facebookMirror": "https://www.foodyas.com/US/West-Chester/544236385436557/Station-142",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://www.station142.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "with DJ Simmy Spins",
+      "url": "https://station142.com/live-music/"
+     }
+    ]
    }
   },
   {
@@ -1264,7 +1332,29 @@
     "facebookMirror": "https://www.foodyas.com/US/West-Chester/106457701555651/Vudu--High-Street-Caffe",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://highstreetcaffe.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://highstreetcaffe.com/",
+        "quote": "ter, PA with a 28 year history of fine, eclectic dining. One of West Chester's \"original\" fine dining establishments. | Download our Menu | Our hours and reservations. | We are located at | 3",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1305,7 +1395,33 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
    "county": "Chester",
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://kildarespubwc.com",
+        "date": "2026-11-01",
+        "quote": " A good Irish pub always has something for everyone: business lunches, family-friendly dinners, international soccer and rugby, karaoke, themed trivia nights, or Sunday brunches"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://kildarespubwc.com/contact-us/",
+        "date": "2026-11-01",
+        "quote": " A good Irish pub always has something for everyone: business lunches, family-friendly dinners, international soccer and rugby, karaoke, themed trivia nights, or Sunday brunches"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -1447,7 +1563,8 @@
       "url": "https://kildarespubwc.com"
      }
     ]
-   }
+   },
+   "menu": "https://kildarespubwc.com/food-menu/"
   },
   {
    "id": "west-chester-seafood-kitchen",
@@ -1621,7 +1738,8 @@
       "url": "https://sidebarandrestaurant.com/weekly-specials"
      }
     ]
-   }
+   },
+   "menu": "https://sidebarandrestaurant.com/menu"
   },
   {
    "id": "pa-lorenzo-and-sons-pizza-west-chester",
@@ -1646,7 +1764,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/6434723194 opening_hours tag (map data 2026-10-31; last checked on the map 2023-07-09) (checked 2026-11-01)",
    "county": "Chester",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://lorenzoswestchester.com/west-chester-lorenzo-and-sons-pizza-of-west-chester-food-menu"
   },
   {
    "id": "pa-ryans-pub-west-chester",
@@ -1686,7 +1805,8 @@
       "url": "https://ryans-pub.com"
      }
     ]
-   }
+   },
+   "menu": "https://ryans-pub.com/food-menu/"
   },
   {
    "id": "pa-jitters-west-chester",
@@ -1713,7 +1833,8 @@
    ],
    "source": "hours from OpenStreetMap node/11387935569 opening_hours tag (map data 2026-10-31; last checked on the map 2025-02-10) (checked 2026-11-01)",
    "county": "Chester",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://jitters-wc.com/menu"
   },
   {
    "id": "pa-m-s-mexicali-cantina-west-chester",
@@ -1765,7 +1886,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/3731607184 opening_hours tag (map data 2026-11-01; last checked on the map 2026-06-26) (checked 2026-11-02); late hours confirmed by venue website https://www.dolcezola.com/location: \"onday: Closed | Tuesday: 4pm to 9pm | Wednesday: 4pm to 9pm | Thursday: 4pm to 9pm | Friday: 4pm to 10pm | Saturda\" (checked 2026-11-02)",
    "county": "Chester",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.dolcezola.com/location",
+        "quote": "ll and passion to create dishes that feel both traditional and new. | Join us for dinner, date nights, catering, or private dining. We are open Tuesday through Sunday! | © 2025 DOLCE ZOLA RE",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "pa-asuka-chinese-japanese-cuisine-west-chester",
@@ -1857,8 +2000,8 @@
    "websiteSource": "OpenStreetMap node/6434733214 website tag (map data 2026-11-01), checked 2026-11-02",
    "hours": "Mon-Tue closed; Wed-Thu 4p-10p; Fri-Sun 12p-10p",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Sun 12p-10p",
+   "kitchenNote": "Kitchen hours from Venue website thesocialwc.com, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -1912,7 +2055,17 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Wing It Wednesday - 10 Wings $10",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website carmineswestchester.com/westchester-west-goshen-carmine-s-pizzeria-happy-hours-specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/6448149134 opening_hours tag (map data 2026-11-01; last checked on the map 2026-02-06) (checked 2026-11-02); late hours confirmed by venue website https://carmineswestchester.com: \"570 West Chester Pike | Newtown Square, PA | 19073 | (610)-356-9009 | Hours | Fri, Sat | 10:00 AM - 10:00 PM | Sun, Mo\" (checked 2026-11-02)",
@@ -1937,12 +2090,78 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "00 Miller Lite Buckets & 10 wings for $10 (7-9PM, eat-in only)",
+     "tags": [
+      "wings",
+      "beer"
+     ],
+     "src": "Venue website thestonetavern1867.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/8344642593 opening_hours tag (map data 2026-11-01; last checked on the map 2024-09-15) (checked 2026-11-02); late hours confirmed by venue website https://www.thestonetavern1867.com: \"stagram and Facebook! @thestonetavern1867 | Our Hours: | Sun-Wed: 11:30am-10pm | Thurs-Sat: 11:30am-11pm | **Check\" (checked 2026-11-02)",
    "county": "Chester",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "8-11pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.thestonetavern1867.com/specials",
+        "date": "2026-11-01",
+        "quote": "Music Trivia 8-11pm | THURSDAYS:"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": "6-8pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.thestonetavern1867.com/specials",
+        "date": "2026-11-01",
+        "quote": "Blarney Bingo 6-8pm | SUNDAYS:"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
   },
   {
    "id": "pa-sedona-taphouse-west-chester",
@@ -1961,8 +2180,48 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Join us for Happy Hour from 4pm – 6pm for $7",
+     "tags": [],
+     "src": "Venue website sedonataphouse.com/locations/west-chester-pa",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Daily",
+     "text": "Bottled beer is 50% off every day",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website sedonataphouse.com/locations/chester-va",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "Receive half-off bottles of wine every Wednesday",
+     "tags": [],
+     "src": "Venue website sedonataphouse.com/locations/west-chester-pa",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Sun",
+     "text": "Join us for classic brunch every Sunday featuring $14 Mimosa Flights and our $11 signature Bloody Mary Bar",
+     "tags": [],
+     "src": "Venue website sedonataphouse.com/locations/charlottesville-va",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "Enjoy your favorite bottle of wine (regularly priced under $50) on Wednesdays at half price",
+     "tags": [],
+     "src": "Venue website sedonataphouse.com/locations/charlottesville-va",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/12220695839 opening_hours tag (map data 2026-11-01; last checked on the map 2024-12-17) (checked 2026-11-02); late hours confirmed by venue website https://sedonataphouse.com/locations/west-chester-pa/: \"e Event | Careers | Catering | Hours | Monday - Thursday | 11am - 10pm | Friday + Saturday | 11am - 11pm | Sunday \" (checked 2026-11-02)",
@@ -2012,12 +2271,42 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Wednesday Only — 15% Off Large Pizza",
+     "tags": [],
+     "src": "Venue website lasvegaspizza.co",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/13371056415 opening_hours tag (map data 2026-11-01; last checked on the map 2026-06-26) (checked 2026-11-02); late hours confirmed by venue website https://www.lasvegaspizza.co/: \"AM – 9:30 PM | Wednesday | 10:30 AM – 9:30 PM | Thursday | 10:30 AM – 9:30 PM | Friday | 10:30 AM – 10:00 PM | Saturda\" (checked 2026-11-02)",
    "county": "Chester",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "College crowd"
+    ],
+    "summary": "Popular with college students.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "College crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.lasvegaspizza.co/",
+        "quote": "ow University ID | NOT ON FRIDAY | WCU Students — 10% Off | 10% discount for West Chester University students | Show University ID | NOT ON FRIDAY | Penn Medicine — 10% Off | 10% discount for Penn Me",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "pa-fiorello-cafe-west-chester",
@@ -2042,7 +2331,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/152422569 opening_hours tag (map data 2026-11-01; last checked on the map 2026-02-06) (checked 2026-11-02); late hours confirmed by venue website https://www.orderfiorellocafe.com/: \"r, PA 19380 | (610) 430-8941 | Business Hours | Mon - Fri: | 11:00 AM - 9:00 PM | Sat: | 11:00 AM - 9:30 PM | Sun: | \" (checked 2026-11-02)",
    "county": "Chester",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.orderfiorellocafe.com/",
+        "quote": "ine for carryout or delivery! | Cuisines | Italian | Pizza | Atmosphere | Casual Dining | Fine Dining | Good For Group | Good For Kids | Food Types | Buffet | Comfort Food | Family Style | Gl",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "counties": [

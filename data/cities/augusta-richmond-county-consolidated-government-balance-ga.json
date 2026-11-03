@@ -1017,7 +1017,8 @@
     "fbNewestPost": null,
     "website": "https://www.incendioaugusta.com/"
    },
-   "websiteSource": "OpenStreetMap node/13972564844 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/13972564844 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.incendioaugusta.com/menu"
   },
   {
    "id": "ga-jamaica-way",
@@ -1081,7 +1082,8 @@
     "fbNewestPost": null,
     "website": "https://www.jimnnicks.com/locations/ga/augusta/275-robert-c-daniel-jr-parkway/"
    },
-   "websiteSource": "OpenStreetMap way/26428739 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/26428739 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.jimnnicks.com/menu/"
   },
   {
    "id": "ga-kitchen-kings",
@@ -2156,7 +2158,8 @@
     "fbNewestPost": null,
     "website": "https://www.soleaugusta.com/"
    },
-   "websiteSource": "OpenStreetMap node/13542339922 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/13542339922 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://soleaugusta.com/food-menu"
   },
   {
    "id": "ga-steak-out-augusta",
@@ -2944,7 +2947,73 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/11950732730 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://thebollweevil.com/: \" | Augusta, GA | 30901 | Get Directions | Hours | Monday-Thursday: 11am-8pm | Friday-Saturday: 11am-9pm | Sunday:\" (checked 2026-11-02)",
    "county": "Richmond",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://thebollweevil.com/",
+        "quote": "Crystal D: | Always great serve and the cakes are on point! It's become my husbands and I date night frequently! And for special occasions. | Review by - Yelp | Julian T: | I LOVE LOVE LOVE",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "5pm-8pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-03",
+      "datedLastSeen": "2026-11-03",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://thebollweevil.com/augusta-riverwalk-boll-weevil-cafe-and-sweetery-events",
+        "date": "2026-11-03",
+        "quote": "Tuesday Night Music Bingo | Tuesday November 3rd | Every Tuesday | Every Tuesday Music Bingo – A fun twist on classic >> Every Tuesday Music Bingo – A fun twist on classic bingo where songs replace numbers | 5pm-8pm | 05:00 PM - 08:00 PM"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://thebollweevil.com/augusta-riverwalk-boll-weevil-cafe-and-sweetery-events",
+        "date": "2026-11-01",
+        "quote": "Tuesday Night Music Bingo"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://thebollweevil.com/augusta-riverwalk-boll-weevil-cafe-and-sweetery-events",
+        "date": "2026-11-01",
+        "quote": "Every Tuesday Music Bingo – A fun twist on classic bingo where songs replace numbers | 5pm-8pm | 05:00 PM - 08:00 PM"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Every Tuesday Music Bingo – A fun twist on classic bingo where songs replace numbers",
+      "url": "https://thebollweevil.com/augusta-riverwalk-boll-weevil-cafe-and-sweetery-events"
+     }
+    ]
+   }
   }
  ],
  "type": "city",

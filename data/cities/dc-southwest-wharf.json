@@ -65,7 +65,8 @@
      "checked": "2026-11-01"
     }
    ],
-   "websiteSource": "OpenStreetMap node/9278919529 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/9278919529 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.bistro-dujour.com/wp-content/uploads/sites/11/2024/06/Bottomless-Menu-Web.pdf"
   },
   {
    "id": "dc-hanks-oyster-bar-sw-ballpark-navy-yard",
@@ -338,7 +339,24 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "HAPPY HOUR - Daily 12PM-6PM At The Bar",
+     "tags": [],
+     "src": "Venue website mividamexico.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Sun-Fri",
+     "text": "HAPPY HOUR - Sun-Fri 4PM-9PM At The Bar",
+     "tags": [],
+     "src": "Venue website mividamexico.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -350,7 +368,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./103400092431132/MI-VIDA",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.mividamexico.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Industry / late-night"
+    ],
+    "summary": "Popular with service-industry and late-night workers.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Industry / late-night",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.mividamexico.com/",
+        "quote": "uertos - Fri Oct 30th - Mon Nov 2nd | El Express Lunch | Weekdays Until 4pm | Hospitality Industry Nights | Sunday & Monday 6pm-Close - 50% Off Food at the Bar Only | MEZCAL MONDAY'S | Half-Off",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -548,7 +588,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour Monday to Friday: 3pm-6pm** (except Holidays)",
+     "tags": [],
+     "src": "Venue website tikitnt.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -560,7 +609,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./344400632970168/Tiki-TNT-%26-Potomac-Distilling-Company",
     "fbPostsSeen": 10,
     "fbNewestPost": "2023-06-26",
-    "website": null
+    "website": "http://www.tikitnt.com/"
    },
    "phoneSource": "OpenStreetMap node/8691887336 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
@@ -591,7 +640,20 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./964730826960458/Union-Stage-Presents",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://www.unionstagepresents.com/"
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Sober Sessions Presents: Songs That Saved My Life, A Sober Emo + Pop Punk Sing-Along",
+      "url": "https://www.unionstagepresents.com/"
+     }
+    ]
    }
   },
   {

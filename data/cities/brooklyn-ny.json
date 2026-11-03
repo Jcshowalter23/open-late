@@ -2036,8 +2036,7 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.ayatnyc.com/location/bayridge/"
-   },
-   "menu": "https://www.ayatnyc.com/bay-ridge-menus/"
+   }
   },
   {
    "id": "ny-ayat-ditmas-park",
@@ -2153,8 +2152,7 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.ayatnyc.com"
-   },
-   "menu": "https://www.ayatnyc.com/east-village-menus"
+   }
   },
   {
    "id": "ny-baba-on-withers",
@@ -8467,8 +8465,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ny/brooklyn/claudias-/ (updated 2026-10-05), checked 2026-11-02",
    "lat": 40.713544,
    "lng": -73.941402,
-   "website": "https://www.claudiasbk.com",
-   "websiteSource": "OpenStreetMap node/6211849520 website tag (map data 2026-10-31), checked 2026-11-02",
+   "website": null,
+   "websiteSource": "removed 2026-11-02: domain now for sale",
    "hours": "Mon-Wed 12p-7p; Thu-Sat 10a-9:30p; Sun 10a-4p",
    "hoursNote": null,
    "kitchen": null,
@@ -10462,8 +10460,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ny/brooklyn/do-a-zita-/ (updated 2026-09-16), checked 2026-11-02",
    "lat": 40.574835,
    "lng": -73.979873,
-   "website": "https://donazitamex.com/",
-   "websiteSource": "OpenStreetMap node/4080312832 website tag (map data 2026-10-31), checked 2026-11-02",
+   "website": null,
+   "websiteSource": "removed 2026-11-02: domain now for sale",
    "hours": "Daily 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -38889,7 +38887,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "All Day Happy Hour Or Get A Half Price Pat La Frieda 7oz Aged Burger For $11",
+     "tags": [],
+     "src": "Venue website thecraicbrooklyn.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -38943,7 +38950,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://thecraicbrooklyn.com/"
    }
   },
   {
@@ -41776,8 +41783,7 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://ubaniny.com"
-   },
-   "menu": "https://ubaniny.com/menu"
+   }
   },
   {
    "id": "ny-ugly-baby",
@@ -45571,43 +45577,6 @@
    }
   },
   {
-   "id": "ny-secret-pour-new-york",
-   "name": "Secret Pour",
-   "cuisine": "Bar",
-   "address": "1114 DeKalb Avenue, New York",
-   "state": "NY",
-   "zip": "11221",
-   "phone": "(718) 484-0548",
-   "phoneSource": "OpenStreetMap node/2567906055 phone tag (map data 2026-10-31), checked 2026-11-02",
-   "lat": 40.693728,
-   "lng": -73.929859,
-   "website": "https://www.secretpour.com/",
-   "websiteSource": "OpenStreetMap node/2567906055 website tag (map data 2026-10-31), checked 2026-11-02",
-   "hours": "Daily 4p-4a",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [
-    {
-     "days": "Daily",
-     "text": "Join us for Happy Hour every day from 4pm-7pm",
-     "tags": [],
-     "src": "Venue website secretpour.com",
-     "checked": "2026-11-01",
-     "flag": "Prices not listed"
-    }
-   ],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Bar scene"
-   ],
-   "source": "hours from OpenStreetMap node/2567906055 opening_hours tag (map data 2026-10-31; last checked on the map 2022-06-04) (checked 2026-11-02)",
-   "county": "Kings",
-   "addedBy": "sweep-osm",
-   "menu": "https://secretpour.com/menu"
-  },
-  {
    "id": "ny-lp-pizzeria-new-york",
    "name": "LP-Pizzeria",
    "cuisine": "Pizza",
@@ -48024,63 +47993,6 @@
    "addedBy": "sweep-osm"
   },
   {
-   "id": "ny-brooklyn-safehouse-brooklyn",
-   "name": "Brooklyn Safehouse",
-   "cuisine": "Bar",
-   "address": "120 Franklin Street, Brooklyn",
-   "state": "NY",
-   "zip": "11222",
-   "phone": "(718) 349-6895",
-   "phoneSource": "OpenStreetMap node/6684049782 phone tag (map data 2026-10-31), checked 2026-11-02",
-   "lat": 40.728863,
-   "lng": -73.957283,
-   "website": "https://brooklynsafehouse.com",
-   "websiteSource": "OpenStreetMap node/6684049782 website tag (map data 2026-10-31), checked 2026-11-02",
-   "hours": "Mon-Fri 4p-4a; Sat-Sun 2p-4a",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [
-    {
-     "days": "Daily",
-     "text": "Daily Happy Hour with Free Wi-Fi and Free Pool",
-     "tags": [],
-     "src": "Venue website brooklynsafehouse.com",
-     "checked": "2026-11-01"
-    }
-   ],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Bar scene"
-   ],
-   "source": "hours from OpenStreetMap node/6684049782 opening_hours tag (map data 2026-10-31) (checked 2026-11-02)",
-   "county": "Kings",
-   "addedBy": "sweep-osm",
-   "crowdType": {
-    "labels": [
-     "Date night / upscale"
-    ],
-    "summary": "A date-night / upscale spot.",
-    "confidence": "medium",
-    "details": [
-     {
-      "label": "Date night / upscale",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "venue",
-        "src": "venue's website",
-        "url": "https://brooklynsafehouse.com",
-        "quote": "expensive Beer Wine and Booze | Brooklyn Safehouse definitely bucks against the trend of upscale bars and restaurants that are currently moving into the hood. We value comfort over sty",
-        "self": true
-       }
-      ]
-     }
-    ]
-   }
-  },
-  {
    "id": "ny-boyfriend-coop-brooklyn",
    "name": "Boyfriend Coop",
    "cuisine": "Bar",
@@ -48299,8 +48211,7 @@
       ]
      }
     ]
-   },
-   "menu": "https://fultonhall.com/16233"
+   }
   },
   {
    "id": "ny-the-gibson-new-york",
@@ -50230,8 +50141,8 @@
    "address": "1118 Cortelyou Road, Brooklyn",
    "state": "NY",
    "zip": "11218",
-   "phone": null,
-   "phoneSource": null,
+   "phone": "(929) 248-8569",
+   "phoneSource": "Venue website www.sycamorebrooklyn.com, checked 2026-11-02",
    "lat": 40.639771,
    "lng": -73.967222,
    "website": "https://www.sycamorebrooklyn.com/",
@@ -50240,7 +50151,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy Hour: Mon to Fri open - 7pm / Sat & Sun open - 4pm",
+     "tags": [],
+     "src": "Venue website sycamorebrooklyn.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -50248,7 +50168,135 @@
    ],
    "source": "hours from OpenStreetMap node/1987892671 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); venue website loads over https (https://www.sycamorebrooklyn.com/), rechecked 2026-11-02 (earlier drop was a proxy failure on the http:// address)",
    "county": "Kings",
-   "addedBy": "refresh-restore"
+   "addedBy": "refresh-restore",
+   "crowdType": {
+    "labels": [
+     "LGBTQ-friendly"
+    ],
+    "summary": "LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.sycamorebrooklyn.com/",
+        "quote": "of FREE DRINKS + COOL SWAG PRIZES. FREE to Play & Always a Great Time! | ~ WEDNESDAY ~ | Drag Bingo and lots of show every 1st WEDNESDAYs @ 8pm w/ fab host Miss Fellatia. Free to play with",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "1:30-5:30pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.sycamorebrooklyn.com/",
+        "date": "2026-11-01",
+        "quote": " Every Saturdays alternating between daytime and night Karaoke times: 1st + 3rd Saturdays DAYTIME Karaoke @1:30-5:30pm AND 2nd + 4th Saturdays NIGHT Karaoke @9pm-1am"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Free KARAOKE",
+      "url": "https://www.sycamorebrooklyn.com/"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "10pm til late",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.sycamorebrooklyn.com/",
+        "date": "2026-11-01",
+        "quote": "Syc DJz Fridays with an awesome lineup of resident Sycamore DJs every Friday @ 10pm til late"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "trivia": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "8pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.sycamorebrooklyn.com/",
+        "date": "2026-11-01",
+        "quote": "TRIVIA TUESDAYS Every 2nd & 4th Tuesdays @ 8pm w/ Trivia Host of the Most Allegra Spread"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "TRIVIA TUESDAYS Every 2nd & 4th Tuesdays @ 8pm w/ Trivia Host of the Most Allegra Spread",
+      "url": "https://www.sycamorebrooklyn.com/"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Drag Bingo and lots of show every 1st WEDNESDAYs @ 8pm w/ fab host Miss Fellatia",
+      "url": "https://www.sycamorebrooklyn.com/"
+     }
+    ]
+   }
   },
   {
    "id": "ny-jupiter-disco-new-york",
@@ -50267,7 +50315,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour 7pm—8pm",
+     "tags": [],
+     "src": "Venue website jupiterdisco.com/info/location-hours",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -50359,8 +50416,8 @@
    "address": "387 Court Street, New York",
    "state": "NY",
    "zip": "11231",
-   "phone": null,
-   "phoneSource": null,
+   "phone": "(718) 504-8181",
+   "phoneSource": "Venue website www.babylucs.com, checked 2026-11-02",
    "lat": 40.68006,
    "lng": -73.99685,
    "website": "https://www.babylucs.com",
@@ -50444,13 +50501,44 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Wed,Thu",
+     "text": "Happy Hour Wednesday & Thursday 5:00 Pm - 6:30 PM",
+     "tags": [],
+     "src": "Venue website batikitchen.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/2565140913 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://www.batikitchen.com: \" | Catering | Special Events | Private Events | Blog | Press | Order Now | Tuesday dinner 6:00 PM - 10:00PM | Wednesd\" (checked 2026-11-02)",
    "county": "Kings",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.batikitchen.com",
+        "quote": "ti Ethiopian Kitchen | Guide to Finding the Best Restaurants in Brooklyn (2025 Edition) | Date Night in Clinton Hill: Why Bati Is One of Brooklyn’s Most Romantic Dinner Spots | Feature in Ed",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "ny-kumo-brooklyn",
@@ -50502,7 +50590,40 @@
    ],
    "source": "hours from OpenStreetMap node/3867409162 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://www.covenhovennyc.com/hours-location: \"| HOURS | We're closed only two days a year: Thanksgiving day and Christmas day. | Monday: | 2pm to 11pm | Tuesday\" (checked 2026-11-02)",
    "county": "Kings",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "8 p",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.covenhovennyc.com/events",
+        "date": "2026-11-01",
+        "quote": "TUESDAY TRIVIA | Come show us your stuff Tuesdays at 8 p.m. Bring your friends in for a few rounds. The winning team receives a gift certificate for $50 of prime craft beer."
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Brush up on new brewery trivia",
+      "url": "https://www.covenhovennyc.com/events"
+     }
+    ]
+   }
   },
   {
    "id": "ny-mr-wonton-brooklyn",
@@ -50711,8 +50832,8 @@
    "address": "11 Water Street, Brooklyn",
    "state": "NY",
    "zip": "11201",
-   "phone": null,
-   "phoneSource": null,
+   "phone": "(917) 882-7516",
+   "phoneSource": "Venue website lukeslobster.com/pages/brooklyn-bridge-park, checked 2026-11-02",
    "lat": 40.703477,
    "lng": -73.994144,
    "website": "https://lukeslobster.com/pages/brooklyn-bridge-park",
@@ -50728,6 +50849,100 @@
    "source": "hours from OpenStreetMap way/245118636 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://lukeslobster.com/pages/brooklyn-bridge-park: \"ooklyn, NY 11201 | 917-882-7516 | Hours | Sunday - Thursday: 11am - 8pm | Friday - Saturday: 11am - 9pm | Connect\" (checked 2026-11-02)",
    "county": "Kings",
    "addedBy": "sweep-osm"
+  },
+  {
+   "id": "ny-secret-pour-new-york",
+   "name": "Secret Pour",
+   "cuisine": "Bar",
+   "address": "1114 DeKalb Avenue, New York",
+   "state": "NY",
+   "zip": "11221",
+   "phone": "(718) 484-0548",
+   "phoneSource": "OpenStreetMap node/2567906055 phone tag (map data 2026-10-31), checked 2026-11-02",
+   "lat": 40.693728,
+   "lng": -73.929859,
+   "website": "https://www.secretpour.com/",
+   "websiteSource": "OpenStreetMap node/2567906055 website tag (map data 2026-10-31), checked 2026-11-02",
+   "hours": "Daily 4p-4a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Join us for Happy Hour every day from 4pm-7pm",
+     "tags": [],
+     "src": "Venue website secretpour.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/2567906055 opening_hours tag (map data 2026-10-31; last checked on the map 2022-06-04) (checked 2026-11-02)",
+   "county": "Kings",
+   "addedBy": "sweep-osm",
+   "menu": "https://secretpour.com/menu"
+  },
+  {
+   "id": "ny-brooklyn-safehouse-brooklyn",
+   "name": "Brooklyn Safehouse",
+   "cuisine": "Bar",
+   "address": "120 Franklin Street, Brooklyn",
+   "state": "NY",
+   "zip": "11222",
+   "phone": "(718) 349-6895",
+   "phoneSource": "OpenStreetMap node/6684049782 phone tag (map data 2026-10-31), checked 2026-11-02",
+   "lat": 40.728863,
+   "lng": -73.957283,
+   "website": "https://brooklynsafehouse.com",
+   "websiteSource": "OpenStreetMap node/6684049782 website tag (map data 2026-10-31), checked 2026-11-02",
+   "hours": "Mon-Fri 4p-4a; Sat-Sun 2p-4a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Daily Happy Hour with Free Wi-Fi and Free Pool",
+     "tags": [],
+     "src": "Venue website brooklynsafehouse.com",
+     "checked": "2026-11-01"
+    }
+   ],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/6684049782 opening_hours tag (map data 2026-10-31) (checked 2026-11-02)",
+   "county": "Kings",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://brooklynsafehouse.com",
+        "quote": "expensive Beer Wine and Booze | Brooklyn Safehouse definitely bucks against the trend of upscale bars and restaurants that are currently moving into the hood. We value comfort over sty",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "city",

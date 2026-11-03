@@ -226,7 +226,18 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour 4pm-7pm $1 off Wells and $1 off Domestic Drafts",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website baystreetsportsgrill.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -240,7 +251,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/1499390287019402/Bay-Street--Sports-Grill",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-10-01",
-    "website": null
+    "website": "http://www.baystreetbarandgrill.com/"
    }
   },
   {
@@ -806,7 +817,16 @@
    "hoursNote": "Restaurantji (updated 2026-09-17) lists different hours: Mon-Thu 11a-9p; Fri 11a-10p; Sat-Sun 11a-2:30p,3:30p-9:30p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Sun-Fri",
+     "text": "Happy Hour: Sunday - Friday 3pm-7pm",
+     "tags": [],
+     "src": "Venue website dorothysdowntown.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -818,7 +838,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/670529689472307/Dorothy%E2%80%99s-Downtown",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-07-28",
-    "website": null
+    "website": "http://Dorothysdowntown.com/"
    },
    "conflicts": [
     {
@@ -1126,7 +1146,7 @@
    "cuisine": "Vegetarian/Vegan",
    "address": "Jacksonville, Jacksonville",
    "state": "FL",
-   "phone": null,
+   "phone": "(904) 477-7537",
    "lat": 30.332,
    "lng": -81.6609,
    "priceText": "$$ (Facebook page)",
@@ -1148,8 +1168,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/102882267873602/Grenville-Kitchen",
     "fbPostsSeen": 9,
     "fbNewestPost": "2022-10-14",
-    "website": null
-   }
+    "website": "http://www.grenvillekitchen.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Industry / late-night"
+    ],
+    "summary": "Popular with service-industry and late-night workers.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Industry / late-night",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.grenvillekitchen.com/",
+        "quote": "dical pandemic, we at Grenville Kitchen have tried to adjust to our changing times in the service industry. So, from us you will notice new open and close times as well as an emphasis on cleaning",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.grenvillekitchen.com, checked 2026-11-02"
   },
   {
    "id": "fl-indulgence-southern-bistro",
@@ -1367,7 +1410,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/482726988267994/Jax-Restaurant-%26-Grill",
     "fbPostsSeen": 3,
     "fbNewestPost": "2026-06-16",
-    "website": null
+    "website": "http://www.jaxrestaurantandgrill.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://jaxrestaurantandgrill.com/",
+        "quote": "and cocktails, it’s the perfect spot to hang out with friends, enjoy a casual dinner, or watch the game in a relaxed atmosphere. | Quick Links | About Us | Menu Details | Our Services | Contact",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

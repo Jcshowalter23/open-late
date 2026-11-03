@@ -1244,7 +1244,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/236503180 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://firebirdsrestaurants.com/gainesville: \"esville, VA 20155 | Hours | SUN: 10:00 AM-10:00 PM | MON - THURS: 11:00 AM-10:00 PM | FRI: 11:00 AM-11:00 PM | SAT: 10\" (checked 2026-11-02)",
    "county": "Prince William",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://firebirdsrestaurants.com/gainesville",
+        "quote": "AR | ® | or on the patio for drink specials and bar bites. We offer top-notch service and upscale dining at a modest price. Reserve your table with us today. | Virtual Tour | Restaurant I",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "city",

@@ -947,8 +947,54 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Don't miss our happy hour, Monday to Friday from 3:00 PM to 5:30 PM, where you can enjoy fantastic deals on drinks and appetizers",
+     "tags": [],
+     "src": "Venue website fajitagrande.net",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Enjoy $5 Casa Margaritas, $7 Espresso martinis, $5 Queso Dip, $8 Mexi Sliders and more during happy hour",
+     "tags": [],
+     "src": "Venue website fajitagrande.net/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "Kick off the week with Margarita Monday, where you can enjoy a house margarita for just $2",
+     "tags": [],
+     "src": "Venue website fajitagrande.net/everyday-specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Tue",
+     "text": "On Tuesdays, savor our array of flavored margaritas for only $6 all day long",
+     "tags": [],
+     "src": "Venue website fajitagrande.net/everyday-specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "Wednesdays bring $6 sangria—choose from red or white—or try our unique sangarita, a delightful mix of half margarita and half sangria",
+     "tags": [],
+     "src": "Venue website fajitagrande.net/everyday-specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Thu",
+     "text": "Finally, don't miss Thirsty Thursday, featuring special cocktails and margaritas like our Sour Patch Margarita and Espresso Martini for just $7",
+     "tags": [],
+     "src": "Venue website fajitagrande.net/everyday-specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -959,7 +1005,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Hagerstown/100234768081076/Fajita-Grande-Hagerstown",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://www.fajitagrande.net/"
    }
   },
   {
@@ -2258,7 +2304,20 @@
     "facebookMirror": "https://www.foodyas.com/US/Hagerstown/162164627175023/Seven-Ten",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://710bowl.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Hire resident DJs and preferred performers, or bring your own entertainment to truly personalize your event",
+      "url": "https://www.710bowl.com/private-events"
+     }
+    ]
    }
   },
   {
@@ -2763,7 +2822,29 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://www.thebroadaxe.com/menu"
+   "menu": "https://www.thebroadaxe.com/menu",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thebroadaxe.com/",
+        "quote": "tems. | 28 W Franklin St, Hagerstown, MD 21740 Phone: 301-733-8454 | The Broad Axe | Your neighborhood pub in downtown Hagerstown. | Pub favorites, craft beer, and cocktails. | Food Menu | Draft B",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "md-the-crab-99-cajun-seafood-restaurant-116-ra",

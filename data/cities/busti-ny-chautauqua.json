@@ -1083,7 +1083,52 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/7955539052 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://bemustaphouse.com/: \" - 8:30PM | Tuesday | CLOSED | Wednesday | CLOSED | Thursday | 4:30PM - 8:30PM | Friday | 12:00PM - 9:00PM | Saturda\" (checked 2026-11-02)",
    "county": "Chautauqua",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://bemustaphouse.com/",
+        "quote": "han a restaurant or public golf course. It is a welcoming community gathering place where locals and visitors alike feel at home. Throughout the year, we host events that bring people to",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ Felix + Costume Contest",
+      "url": "https://bemustaphouse.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "DJ Felix + Costume Contest",
+      "url": "https://bemustaphouse.com/all-events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "DJ Felix + Costume Contest - Bemus Point Golf Club & Tap House",
+      "url": "https://bemustaphouse.com/event/halloween-party-in-bemus-point-ny-dj-felix-costume-contest/"
+     }
+    ]
+   }
   }
  ],
  "type": "town",

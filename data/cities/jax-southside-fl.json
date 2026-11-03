@@ -319,7 +319,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Middleburg/151778234969606/Benito%27s-Italian-Restaurant",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-05-28",
-    "website": null
+    "website": "http://benitos220.com/"
    },
    "conflicts": [
     {
@@ -340,7 +340,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://benitos220.com/",
+        "quote": "n Restaurant & Pizzeria | --> | Home | Dinner Menu | Lunch Menu | Start order | Contact | Fine dining, Italian style | . | Order Now | \"Experience the taste of Italy, right here at home\" | Or",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-bento-asian-kitchen-sushi-jacksonville",
@@ -814,6 +836,28 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
     "website": "https://casamariatequilabarandgrill.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://casamariatequilabarandgrill.com/",
+        "quote": "away from home. \"Casa\" translates to \"Home\" and our wish is to create an atmosphere where everyone knows your name. Join us and become part of our growing extended family. I will begin, \"Hello my na",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2089,7 +2133,26 @@
     ]
    },
    "bingo": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2027-04-07",
+      "datedLastSeen": "2027-04-07",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.islandwing.com/locations/gulf-shores-al/",
+        "date": "2027-04-07",
+        "quote": " Stop by The Island today and join us in our partne | Pop Culture Trivia Challenge brings the fun every | Blazin 'Beatz >> Blazin 'Beatz Bingo is a fast paced free to play m"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -3509,7 +3572,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/102628325846529/Rustic-21-Bistro",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.rustic21.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.rustic21.com/",
+        "quote": "a few times since. Fairly new this place is amazing for family get togethers or a special date night. Wonderful friendly staff and kudos to the chef and crew! If you havent tried them you ar",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -4886,7 +4971,8 @@
     "fbNewestPost": "2026-10-12",
     "website": "https://tulumflavorsofmexico.com/"
    },
-   "websiteSource": "OpenStreetMap node/13250778566 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/13250778566 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://tulumflavorsofmexico.com/menu/"
   },
   {
    "id": "fl-tunis-freshnfast",
@@ -5221,7 +5307,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://redgillbistro.com/our-menu/"
   }
  ],
  "type": "neighborhood",

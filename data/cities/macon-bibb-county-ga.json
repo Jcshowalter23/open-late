@@ -1272,7 +1272,7 @@
    "address": "3464 Williamson Rd, Macon",
    "state": "GA",
    "zip": "31206",
-   "phone": null,
+   "phone": "(678) 786-6503",
    "lat": 32.8038,
    "lng": -83.6964,
    "priceText": "$$ (Facebook page)",
@@ -1308,8 +1308,45 @@
     "facebookMirror": "https://www.foodyas.com/US/Macon/1564668547110635/Ice-Bar-%26-Grill",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-22",
-    "website": null
-   }
+    "website": "http://www.icebarmacon.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Older / 30+",
+     "Dance / club crowd"
+    ],
+    "summary": "Skews older / 30+; a dancing / club crowd late.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Older / 30+",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://ICEBARGRILL.menufy.com/",
+        "quote": "delicious, when in Macon I will be going back.. the Ice Bar & Grill is a fun spot for the older crowd, \"ENJOY!\" | -Tina B. | ★★★★★ | A wonderful place to hang out and party with great people,",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://ICEBARGRILL.menufy.com/",
+        "quote": "age | Contact Form | ICE BAR & GRILL | Welcome to Ice Bar & Grill Macon – Bar & Grill and Night Club! Try our Bar Fare, including our famous ‘Party’ wings, seafood and Late-Night Menu. The I",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website ICEBARGRILL.menufy.com, checked 2026-11-02"
   },
   {
    "id": "ga-j-reids",
@@ -2515,7 +2552,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Macon/108107705615420/Red-Claw-Juicy-Seafood-%26-Bar",
     "fbPostsSeen": 6,
     "fbNewestPost": "2024-07-27",
-    "website": null
+    "website": "http://www.redclawofmacon.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "LGBTQ-friendly"
+    ],
+    "summary": "LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://wwarrgatogel.online/register/",
+        "quote": "ators to Watch | AAPI Artists | BIPOC Artists | Black Artists | Celebrate Women Artists | LGBTQIA Artists | Ukrainian Artists | Back To Menu | Adult Apparel | T-Shirts | Shorts | New!",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2879,7 +2938,8 @@
     "fbNewestPost": null,
     "website": "https://tenmii.com/"
    },
-   "websiteSource": "OpenStreetMap node/11837358269 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/11837358269 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://tenmii.com/macon-tenmii-food-menu"
   },
   {
    "id": "ga-texas-border-grill",
@@ -3468,7 +3528,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://tacomac.com/menu-main/"
   }
  ],
  "type": "city",

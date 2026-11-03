@@ -3427,9 +3427,26 @@
    "hours": "Mon 1p-12a; Tue-Thu 1p-1:30a; Fri-Sat 1p-2:30a; Sun 12p-12a",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "kitchenNote": "Kitchen open until 1 am per Venue website caborvc.net/events, checked 2026-11-01; days not stated.",
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Join Us For Ladies Night where ladies receive Happy Hour Margaritas & Sangria ALL NIGHT",
+     "tags": [],
+     "src": "Venue website caborvc.net/events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "Join Us For Taco Tuesday's $4 and $5 Tacos ALL DAY AND NIGHT",
+     "tags": [],
+     "src": "Venue website caborvc.net/events",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-31) (checked 2026-11-02)",
@@ -3440,7 +3457,113 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.caborvc.net"
+   },
+   "crowdType": {
+    "labels": [
+     "Dance / club crowd"
+    ],
+    "summary": "A dancing / club crowd late.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://caborvc.net/",
+        "quote": "come back again and again. This festive cantina serves standard Mexican eats & takes on a nightclub vibe after dark. | Keep In Touch! | Tasty News ! | Start stop reviews carousel | Review b",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2027-05-18",
+      "datedLastSeen": "2027-05-18",
+      "postsSeen": 30,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://caborvc.net/events",
+        "date": "2027-05-18",
+        "quote": "Karaoke Rockville Center NY | Tuesday, May 18th, 2027"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://caborvc.net/events",
+        "date": "2027-05-11",
+        "quote": "Karaoke Rockville Center NY | Tuesday, May 11th, 2027"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://caborvc.net/events",
+        "date": "2027-05-04",
+        "quote": "Karaoke Rockville Center NY | Tuesday, May 4th, 2027"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://caborvc.net/events",
+        "date": "2026-11-01",
+        "quote": "Join Us every Friday & Saturday where we have a live DJ and dancing"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://caborvc.net/events",
+        "date": "2026-11-01",
+        "quote": "Join Us every Friday & Saturday where we have a live DJ and dancing"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
    }
   },
   {
@@ -27303,8 +27426,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ny/lynbrook/vincents-/ (updated 2026-10-31), checked 2026-11-02",
    "lat": 40.656427,
    "lng": -73.671513,
-   "website": "http://vincentspizzeria.com/",
-   "websiteSource": "OpenStreetMap node/5662016228 website tag (map data 2026-10-31), checked 2026-11-02",
+   "website": null,
+   "websiteSource": "removed 2026-11-02: domain now for sale",
    "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-11p",
    "hoursNote": null,
    "kitchen": null,

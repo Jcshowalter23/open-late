@@ -148,7 +148,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "BUCKET (50pc) $83",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website anchorbar.com/locations-menus/kennesaw-ga/kennesaw-menu",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -618,7 +629,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Kennesaw/144931098883018/El-Taco-Azteca-Mexican-Bar-%26-Grill",
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-10-09",
-    "website": null
+    "website": "http://www.eltacoaztecakennesaw.com/"
    },
    "conflicts": [
     {
@@ -630,7 +641,29 @@
      "resolution": "Facebook number kept (venue-managed page)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://eltacoaztecakennesaw.com/",
+        "quote": "e quite large and absolutely delicious. Wonderful, quick and friendly service. We will be regulars here now! | Review by - Google | five star review by | mark t: | New favorite Mexican res",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "ga-flava-4-ur-neighbors",
@@ -1344,9 +1377,30 @@
    "hours": "Mon-Thu 10:30a-1:30a; Fri-Sat 10:30a-2a; Sun 10:30a-1:30a",
    "hoursNote": "Restaurantji (updated 2026-10-13) lists different hours: Daily 10:30a-2:30a. Call ahead to confirm.",
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 1 am per Venue website kbsgrillandpub.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Modelo Especial – $4",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website kbsgrillandpub.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "Wing Special – 6 Wings (½ dozen) $4",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website kbsgrillandpub.com/kennesaw-kb-s-grill-and-pub-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -1386,7 +1440,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Kennesaw/162479053802657/Kennesaw-Billiards",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://kbsgrillandpub.com/"
    },
    "conflicts": [
     {
@@ -1791,7 +1845,8 @@
     "fbNewestPost": "2026-10-31",
     "website": "https://www.burgerfi.com/"
    },
-   "websiteSource": "OpenStreetMap way/283028254 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/283028254 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.burgerfi.com/menu"
   },
   {
    "id": "ga-mangos-sushi",
@@ -2078,7 +2133,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Kennesaw/100836708361610/Olde-Towne-Tavern-%26-Grille",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://WWW.OTTAVERN.COM/"
    },
    "bingo": {
     "nights": [
@@ -2104,6 +2159,28 @@
     "stale": false,
     "oneoffs": [],
     "conflicts": []
+   },
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://ottavern.com/",
+        "quote": "LY ORDER FROM | GRUBHUB | , | UBER EATS | , OR | DOOR DASH | THANKS! | WINNER FOR: | BEST SPORTS BAR! | BEST WINGS!!! | WE ARE OPEN SO COME ON IN AND GET SOME DELICIOUS FOOD AND AN ICE COLD",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2814,7 +2891,84 @@
     ]
    },
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://prohibitionx.com/",
+        "date": "2026-11-01",
+        "quote": "Join us for karaoke on Mondays, comedy open mic on Tuesdays, live music every Wednesday & Saturday, DJs every Friday and Saturday night"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "10:00 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://prohibitionx.com/",
+        "date": "2026-11-01",
+        "quote": "Spotify Karaoke | Every Wednesday • 10:00 PM | Every Wednesday • 10:00 PM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "10:00 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://prohibitionx.com/",
+        "date": "2026-11-01",
+        "quote": "Spotify Karaoke | Every Thursday • 10:00 PM | Every Thursday • 10:00 PM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": "10:00 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://prohibitionx.com/",
+        "date": "2026-11-01",
+        "quote": "Spotify Karaoke | Every Sunday • 10:00 PM | Every Sunday • 10:00 PM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -2827,7 +2981,27 @@
     ]
    },
    "dj": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "11:00 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://prohibitionx.com/",
+        "date": "2026-11-01",
+        "quote": "Live DJ | Every Friday • 11:00 PM | Every Friday • 11:00 PM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -3526,7 +3700,42 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/12117612297 opening_hours tag (map data 2026-11-01; last checked on the map 2024-08-17) (checked 2026-11-02); late hours confirmed by venue website https://johnnyspizza.com/location/kennesaw-old-hwy-41/: \" | Tuesday: 11:00am-9:00pm | Wednesday: 11:00am-9:00pm | Thursday: 11:00am-9:00pm | Friday: 11:00am-10:00pm | Saturda\" (checked 2026-11-02)",
    "county": "Cobb",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://johnnyspizza.com/location/kennesaw-old-hwy-41/",
+        "quote": "1:00am-10:00pm | Sunday: 11:00am-9:00pm | 678-996-0911 | Owner: Ken Patel and Pat Patel | Family Friendly, Catering, Handicap Accessible, Serves Beer & Wine, Has High Chairs | Tossing Dough in Ke",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Join Us for regular events like trivia, live music, and more",
+      "url": "https://johnnyspizza.com/location/kennesaw-old-hwy-41/"
+     }
+    ]
+   }
   }
  ],
  "type": "city",

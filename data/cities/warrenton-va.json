@@ -346,7 +346,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Thu",
+     "text": "Happy Hour Monday to Thursday 4-6pm - Coming Soon - A NEW and IMPROVED Happy Hour Experience",
+     "tags": [],
+     "src": "Venue website castironcrafthouse.com/upcoming-events",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -358,7 +367,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://castironcrafthouse.com/"
    },
    "menu": "https://castironcrafthouse.com/menus"
   },
@@ -906,7 +915,29 @@
     "fbNewestPost": null,
     "website": "https://girasoleva.com/"
    },
-   "menu": "https://girasoleva.com/our-menu/"
+   "menu": "https://girasoleva.com/our-menu/",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://girasoleva.com/",
+        "quote": "ents & Classes | Press | Contact | Join Our Team | Chef-owned and operated, Girasole is a fine dining restaurant that uses only the freshest ingredients to create authentic, regional Italian",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "va-glory-days-grill-warrenton",

@@ -58,9 +58,22 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./1569128579895044/1310-Kitchen-%26-Bar",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://www.1310kitchendc.com/"
    },
-   "phoneSource": "OpenStreetMap node/11327680624 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/11327680624 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ spinning Taylor favorites and all the women who got us through it",
+      "url": "https://www.1310kitchendc.com/events"
+     }
+    ]
+   }
   },
   {
    "id": "dc-alara-dc",
@@ -92,7 +105,8 @@
     "website": "https://www.alarageorgetown.com"
    },
    "websiteSource": "OpenStreetMap node/13124056569 website tag (map data 2026-10-31), checked 2026-11-01",
-   "phoneSource": "OpenStreetMap node/13124056569 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/13124056569 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.alarageorgetown.com/menus"
   },
   {
    "id": "dc-amigo-mio",
@@ -1679,7 +1693,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./414001352324633/Moby-Dick-House-of-Kabob",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.mobyskabob.com/"
    },
    "conflicts": [
     {
@@ -1699,7 +1713,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.mobyskabob.com/",
+        "quote": "ng a prime expansion hub for popular D.C. restaurants, with new openings catering to both locals and commuters. These spots are attracting new residents who prefer staying close to home",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "dc-mr-smiths-of-georgetown",
@@ -2296,7 +2332,34 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./581802745571739/Susheria-DC",
     "fbPostsSeen": 10,
     "fbNewestPost": "2024-08-15",
-    "website": null
+    "website": "http://susheriadc.com/"
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://susheriadc.com/",
+        "date": "2026-11-01",
+        "quote": " If you're looking for a great time, make sure to come on Wednesdays and check out the DJ"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
    }
   },
   {
@@ -2419,7 +2482,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./299022570222191/The-Alex-Speakeasy",
     "fbPostsSeen": 10,
     "fbNewestPost": "2023-12-27",
-    "website": null
+    "website": "http://Thegrahamgeorgetown.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Young crowd"
+    ],
+    "summary": "Draws a younger crowd.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Young crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://Thegrahamgeorgetown.com/",
+        "quote": "uries-old buildings and weathered cobblestone streets are home to families, students, and young professionals, who give Georgetown its distinct residential feel and traditional yet modern character.",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2453,7 +2538,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./584541338897454/The-Camelot-Showbar",
     "fbPostsSeen": 12,
     "fbNewestPost": "2021-10-29",
-    "website": null
+    "website": "http://www.camelotshowbar.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Dance / club crowd"
+    ],
+    "summary": "A locals-and-regulars spot; a dancing / club crowd late.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://camelotshowbar.com/",
+        "quote": "eled service. Our commitment to excellence has made Camelot nightclub DC a favorite among locals, visitors, and celebrities alike. | From our newly renovated interiors to our world-class",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://camelotshowbar.com/",
+        "quote": "llery | Contact | Welcome to Camelot Showbar | Experience unforgettable nights at Camelot nightclub. Where sophistication meets entertainment. | Washington DC's Most Legendary Night Club",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2473,7 +2594,7 @@
    "hours": "Mon-Tue closed; Wed 4p-10p; Thu 4p-12a; Fri-Sat 4p-1a; Sun closed",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 9 pm per Venue website fountaininndc.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -2488,7 +2609,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./103188841876821/The-Fountain-Inn",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-03-31",
-    "website": null
+    "website": "http://fountaininndc.com/"
    }
   },
   {
@@ -2901,12 +3022,57 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "We frequently update deals, everything from Monday pizza specials to buy one, get one free offers",
+     "tags": [],
+     "src": "Venue website mannyandolgas.com/location/manny-olgas-pizza-tenleytown",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/705259428 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.mannyandolgas.com/location/manny-olgas-pizza-tenleytown/",
+        "quote": "ed into one of DC’s most welcoming neighborhoods, Manny & Olga’s Pizza in Tenleytown is a local favorite for AU students, families, and parkgoers alike. Whether you’re heading home from a show a",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.mannyandolgas.com/location/manny-olgas-pizza-tenleytown/",
+        "quote": "elivery Area Sorry, No Checks Accepted. $15 Minimum on Credit Card Order. | ORDER NOW | Family-Friendly Pizza Delivery Near AU & Fort Reno Park | Tucked into one of DC’s most welcoming neighbor",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "menu": "https://www.mannyandolgas.com/menu/"
   },
   {
    "id": "dc-bourbon-steak-washington",
@@ -2931,7 +3097,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/4879530735 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.bourbonsteakdc.com/menus"
   },
   {
    "id": "dc-the-lobby-washington",

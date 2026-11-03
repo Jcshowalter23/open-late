@@ -1017,12 +1017,95 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon-Thu",
+     "text": "$5 lagers, $5 sangrias, $2 pintxos — Mon through Thursday",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website dewolfbrewing.com/events-calendar",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Tue",
+     "text": "Kids Eat Free Tuesdays, 3:30–6 p",
+     "tags": [],
+     "src": "Venue website dewolfbrewing.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap way/825621041 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://dewolfbrewing.com/: \"Event | Happenings | FAQ | Our Story | Insiders Club | Hours | Mon–Thu 11:30am–9pm | Friday 11:30am–10pm | Saturda\" (checked 2026-11-02)",
    "county": "Ontario",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": "6:30 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://dewolfbrewing.com/events-calendar/",
+        "date": "2026-11-01",
+        "quote": "Weekly Trivia | Every Monday | 6:30 PM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " From trivia nights and live music to casual meetups and private events — it's a space built for gathering and coming back to",
+      "url": "https://dewolfbrewing.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "to see if live music, trivia, or a tap takeover falls around your date, so your guests can enjoy even more while they're here",
+      "url": "https://dewolfbrewing.com/book-an-event/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "From trivia nights and live music to happy hour and special dinners — there's always something going on at DeWolf Brewing",
+      "url": "https://dewolfbrewing.com/events-calendar/"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Name That Tune Bingo | 6:30 PM – 8:00 PM",
+      "url": "https://dewolfbrewing.com/events-calendar/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Part bingo, part name-that-tune",
+      "url": "https://dewolfbrewing.com/events-calendar/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Music Bingo | First Wednesday",
+      "url": "https://dewolfbrewing.com/events-calendar/"
+     }
+    ]
+   }
   }
  ],
  "type": "town",

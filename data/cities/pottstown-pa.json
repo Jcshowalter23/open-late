@@ -274,23 +274,7 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [
-    {
-     "days": "Tue-Fri",
-     "text": "Happy hour 3–5 pm: $1 off wine and select drafts",
-     "tags": [
-      "beer"
-     ],
-     "src": "Venue site hareshillbrewingco.com",
-     "checked": "2026-11-01"
-    },
-    {
-     "days": "Fri",
-     "text": "Teacher's happy hour 3–5 pm: $1 off all drinks, half-off appetizers",
-     "src": "Venue site hareshillbrewingco.com",
-     "checked": "2026-11-01"
-    }
-   ],
+   "happyHours": [],
    "specials": [
     {
      "days": "Tue",
@@ -527,7 +511,30 @@
     "facebookMirror": "https://www.foodyas.com/US/Pottstown/102533387764131/J.J.-Ratigan-Brewing-Company",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://jjratiganbrewing.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-12-31",
+      "quote": " Dinner reservations, followed by late night happy hour with DJ Quick Draw at 9pm | THUR 12/31 - New Year's Eve",
+      "url": "https://www.jjratiganbrewing.com/events"
+     },
+     {
+      "date": "2026-11-25",
+      "quote": "WED 11/25 - Thanksgiving Eve w/ DJ QuickDraw",
+      "url": "https://www.jjratiganbrewing.com/events"
+     },
+     {
+      "date": "2026-11-25",
+      "quote": "Pick-up Wed 11/25, 11am until 7pm. | ORDER | WED 11/25 - Thanksgiving Eve w/ DJ QuickDraw | Late Night Happy Hour w/ >> Late Night Happy Hour w/ DJ QuickDraw",
+      "url": "https://www.jjratiganbrewing.com/events"
+     }
+    ]
    }
   },
   {
@@ -1196,7 +1203,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/8185003374 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://tonylukes.com/stores/philadelphia-premium-outlets/: \":00 pm | Wednesday | 11:00 am | - 7:00 pm | Thursday | 11:00 am | - 7:00 pm | Friday | 11:00 am | - 9:00 pm | Satuday\" (checked 2026-11-02)",
    "county": "Montgomery",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://tonylukes.com/stores/philadelphia-premium-outlets/",
+        "quote": "brings the flavor of authentic Philly cheesesteaks to Montgomery County, giving shoppers, locals, and visitors an easy place to enjoy one of the most iconic sandwiches in the country. Co",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "counties": [

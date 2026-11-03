@@ -1686,7 +1686,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/13690029475 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://www.iankyespizza.com/fl/jensen-beach/34957/ian-kye-s-pizza: \"en Beach, FL | Menu | Hours | About | Open Menu Icon | Locations | Order | Hours | About | 11:15 AM-9:00 PM | Shop ad\" (checked 2026-11-02)",
    "county": "Martin",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.iankyespizza.com/fl/jensen-beach/34957/ian-kye-s-pizza",
+        "quote": "he city, try some of Jensen Beach's top dishes. See what all the fuss is about with these local favorites. Don't miss the chance to try the popular Mighty Veggie. It's a classic for a reason.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "town",

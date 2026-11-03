@@ -133,7 +133,8 @@
     "fbNewestPost": null,
     "website": "https://www.alpacachicken.com/"
    },
-   "websiteSource": "OpenStreetMap node/2836885708 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/2836885708 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.alpacachicken.com/menu/"
   },
   {
    "id": "nc-andrea-reusing",
@@ -2519,7 +2520,43 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://supdogs.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "College crowd",
+     "Families"
+    ],
+    "summary": "Families earlier, bar crowd later; popular with college students.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "College crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.supdogs.com/",
+        "quote": "h burgers in a high-energy and family-friendly environment. | Order Online 🌭 | VOTED BEST COLLEGE BAR IN AMERICA | 3X | ‘19 / ‘20 / ‘22 | 🔥 The Hot List 🔥 | ~ Our Fan Favorites ~ | Jalapeño P",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.supdogs.com/",
+        "quote": "all beef hot dogs along with the freshest made-from-scratch burgers in a high-energy and family-friendly environment. | Order Online 🌭 | VOTED BEST COLLEGE BAR IN AMERICA | 3X | ‘19 / ‘20 / ‘22",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

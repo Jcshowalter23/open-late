@@ -730,8 +730,10 @@
     "facebookMirror": "https://www.foodyas.com/US/Mars/746049268595795/Lao-Sze-Chuan-Pittsburgh",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-22",
-    "website": null
-   }
+    "website": "http://Laoszechuanpgh.com/"
+   },
+   "phone": "(412) 899-8888",
+   "phoneSource": "Venue website www.laoszechuanpgh.com, checked 2026-11-02"
   },
   {
    "id": "log-cabin-inn-srg",
@@ -1043,7 +1045,7 @@
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 11 pm per Venue website tepachepgh.com/events, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [
     {
@@ -1117,7 +1119,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Mars/142230312304558/Tepache-Mexican-Kitchen-%26-Bar",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://www.tepachepgh.com/"
    }
   },
   {
@@ -1187,7 +1189,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/575571348 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://firebirdsrestaurants.com/cranberry: \"ownship, PA 16066 | Hours | SUN: 10:00 AM-10:00 PM | MON - THURS: 11:00 AM-10:00 PM | FRI: 11:00 AM-11:00 PM | SAT: 10\" (checked 2026-11-02)",
    "county": "Butler",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://firebirdsrestaurants.com/cranberry",
+        "quote": "for Happy Hour Monday thru Friday at the | FIREBAR | ® | . We offer top-notch service and upscale dining at a modest price. Reserve your table with us today. | Virtual Tour | Restaurant I",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "counties": [

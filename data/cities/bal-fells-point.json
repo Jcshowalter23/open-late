@@ -307,7 +307,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$2 off all beers, house wines and homemade sangria by the glass",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website amiccis.com/daily-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -340,7 +351,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/458689577319003/Amicci%27s-Little-Italy",
     "fbPostsSeen": 2,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://amiccis.com/"
    }
   },
   {
@@ -655,7 +666,25 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/711867825520486/Barcocina",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-12",
-    "website": null
+    "website": "http://www.barcocina.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Open for Brunch, Lunch, and Dinner daily, as well as late night with live DJs on Friday & Saturday nights makes Barcocina the go to place for all your dining and entertainment needs",
+      "url": "https://www.barcocina.com/about"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Open for Brunch, Lunch, and Dinner daily, as well as late night with live DJs on Friday & Saturday nights makes Barcocina the go to place for all your dining and entertainment needs",
+      "url": "https://www.barcocina.com/about"
+     }
+    ]
    }
   },
   {
@@ -1036,7 +1065,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/103551002072798/BMORE-Taqueria",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.bmoretaqueria.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "LGBTQ-friendly"
+    ],
+    "summary": "LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://firsttimetriathlete.com/about/",
+        "quote": "ators to Watch | AAPI Artists | BIPOC Artists | Black Artists | Celebrate Women Artists | LGBTQIA Artists | Ukrainian Artists | Back To Menu | Adult Apparel | T-Shirts | Shorts | New!",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2267,7 +2318,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/209142656166013/La-Barrita-Restobar",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.labarritarestobar.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.labarritarestobar.com/",
+        "quote": "e with a Baltimore industrial feel. | At La Barrita we treat our guests like family. | An upscale casual restaurant, we suit a variety of dining needs, from special occasions to catching",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -3603,7 +3676,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/155582137789721/Sabatino%27s",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-07-24",
-    "website": null
+    "website": "http://www.sabatinos.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://sabatinos.com/",
+        "quote": "n the heart of Baltimore’s famous Little Italy, | Sabatino’s | has been serving Baltimore locals, business visitors, and tourists delicious traditional Italian fare since 1955! We featur",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://sabatinos.com/",
+        "quote": "business visitors, and tourists delicious traditional Italian fare since 1955! We feature fine dining in a casual atmosphere. Whether you’re out for an intimate dinner for two, a family gathe",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -3786,7 +3895,8 @@
     "fbNewestPost": "2026-10-15",
     "website": "https://spirits-tavern.menu-world.com/"
    },
-   "websiteSource": "OpenStreetMap node/13694327901 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/13694327901 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://spirits-tavern.menu-world.com/menu"
   },
   {
    "id": "md-tandav-indian-cuisine-baltimore",
@@ -4319,7 +4429,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/563580987071054/Todd-Conner%27s-Fells-Point",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.toddconners.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://toddconners.com/",
+        "quote": "TC’s | About TC’s | Contact TC’s | Welcome to Todd Conner's Fell's Point | A Fell's Point Neighborhood Joint! | New Menu Coming Soon | Happy Hour & Specials | Reviews | Smaller Stuff | Boom Boom Shr",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -4460,7 +4592,20 @@
    ],
    "source": "hours from OpenStreetMap way/336284250 opening_hours tag (map data 2026-11-01; last checked on the map 2026-10-16) (checked 2026-11-02); late hours confirmed by venue website https://ministryofbrewing.com/: \"| Beers | Taproom | Beers | Taproom | Events | About | Hours | Monday | 5pm – 9pm | Tuesday | 3pm – 10pm | Wednesd\" (checked 2026-11-02)",
    "county": "Baltimore City",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Dave can help provide beverage advice and movie trivia answers, wake word is “Dave”",
+      "url": "https://ministryofbrewing.com/about"
+     }
+    ]
+   }
   },
   {
    "id": "md-angelis-pizzeria-baltimore",

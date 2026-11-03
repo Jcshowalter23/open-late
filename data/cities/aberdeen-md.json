@@ -968,8 +968,25 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy hour Monday-Friday 3:00 - 6:00pm",
+     "tags": [],
+     "src": "Venue website plazamexicoharford.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "Taco Tuesday $1",
+     "tags": [],
+     "src": "Venue website plazamexicoharford.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -980,7 +997,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Aberdeen/100834122468206/Plaza-Mexico-of-Bel-air",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://www.plazamexicoharford.com/"
    }
   },
   {
@@ -1543,8 +1560,41 @@
    "hoursNote": "Restaurantji (updated 2026-10-29) lists different hours: Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 9a-9p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon",
+     "text": "Mondays – Whiskey & Steak Specials, Happy Hour 3-7pm, bar only",
+     "tags": [],
+     "src": "Venue website tidewatergrille.com/monday-night-steak-whiskey-specials",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Tue",
+     "text": "Tuesdays – All-day Tequila & TexMex Specials, Happy Hour 3-7pm, bar only",
+     "tags": [],
+     "src": "Venue website tidewatergrille.com/monday-night-steak-whiskey-specials",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Trivia Night at 7pm, Happy Hour 3-7pm, bar only",
+     "tags": [],
+     "src": "Venue website tidewatergrille.com/monday-night-steak-whiskey-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Thu",
+     "text": "Thursdays – $4 Glass House Wine",
+     "tags": [],
+     "src": "Venue website tidewatergrille.com/specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events",
@@ -1558,7 +1608,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Havre-de-Grace/138026082953489/The-Tidewater-Grille",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://www.tidewatergrille.com/"
    },
    "conflicts": [
     {
@@ -1629,6 +1679,28 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://tidewatergrille.com/",
+        "quote": "friendly | . The views are awesome and the waterfowl abound. So whether you are seeking a romantic waterfront meal, coming off the boat for a quick bite and a beverage, or simply enjoying",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

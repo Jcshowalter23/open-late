@@ -172,7 +172,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Glyndon/109074208681967/Alfeo%27s-Italian-Kitchen",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-23",
-    "website": null
+    "website": "http://alfeositaliankitchen.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://alfeositaliankitchen.com/",
+        "quote": "ite is crafted with love and tradition. Explore our menu and taste the passion that keeps locals coming back for more! | our menu | Reservations | Save your spot today | Reserve your tab",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -255,7 +277,7 @@
    "address": "7E Gywnns Mill Ct, Owings Mills",
    "state": "MD",
    "zip": "21117",
-   "phone": null,
+   "phone": "(410) 504-8134",
    "lat": 39.4146,
    "lng": -76.7796,
    "priceText": "$$$$ (Facebook page)",
@@ -277,8 +299,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Owings-Mills/328568080605564/Aufschnitt-Meats",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-07-08",
-    "website": null
-   }
+    "website": "http://www.aufschnittmeats.com/"
+   },
+   "phoneSource": "Venue website www.aufschnittmeats.com, checked 2026-11-02"
   },
   {
    "id": "md-beer-lovers-page",
@@ -1458,7 +1481,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Reisterstown/261543144201317/Kecco%27s-Woodfire-Kitchen",
     "fbPostsSeen": 3,
     "fbNewestPost": "2026-06-21",
-    "website": null
+    "website": "http://www.keccoswoodfire.com/"
    },
    "conflicts": [
     {
@@ -1477,7 +1500,43 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.keccoswoodfire.com/",
+        "quote": "th Buffet, Live Music And Decor Space. | Experience Kecco's | Dining with us is something locals seek because they want | that | feeling. You know, that | feeling | you had when you were",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.keccoswoodfire.com/",
+        "quote": "an awesome dinner. The wood cooked and flavored pizza was killer. What a great place for date night dinner. | Baltimore, MD | We love Kecco’s! The servers are friendly and get to know their",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "md-kokoyami-grillandwings",
@@ -1676,7 +1735,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Owings-Mills/174037539296909/Linwoods-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.linwoods.com/"
    },
    "conflicts": [
     {
@@ -1696,7 +1755,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.linwoods.com/",
+        "quote": "inwoods opened in Baltimore County, offering innovative New American cuisine that blended fine dining with neighborhood accessibility. For three decades, Founders Linwood and Ellen Dame built",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "md-little-georgia",

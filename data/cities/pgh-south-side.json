@@ -395,7 +395,7 @@
    "hours": "Mon closed; Tue-Sat 5p-12a; Sun closed",
    "hoursNote": "Venue site lists Venue site lists Tue–Sat to 11p (Facebook to 12a).; call ahead.",
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 10 pm per Venue website dishosteria.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -435,7 +435,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/158705330405/Dish-Osteria-and-Bar",
     "fbPostsSeen": 3,
     "fbNewestPost": "2026-09-18",
-    "website": null
+    "website": "http://www.dishosteria.com/"
    }
   },
   {
@@ -504,7 +504,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/310665859834187/Dive-Bar-%26-Grille",
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-09-03",
-    "website": null
+    "website": "http://www.divebarandgrille.com/"
    },
    "trivia": {
     "nights": [
@@ -550,6 +550,37 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-06",
+      "quote": "Daily Special - Karaoke | 08:00 PM - 11:00 PM | Friday November 6th | 08:00 PM - 11:00 PM",
+      "url": "https://divebarandgrille.com/pittsburgh-dive-bar-and-grille-specials-regent-square"
+     },
+     {
+      "date": "2026-11-05",
+      "quote": " Day Long! 1/2 off wings with a beverage purchase and $2.75 Yuenglings! | 04:00 PM - 10:00 PM | Thursday November 5th | >> Karaoke @ North Hills AND Regent Square at 8pm",
+      "url": "https://divebarandgrille.com/pittsburgh-dive-bar-and-grille-happy-hours-specials"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-07",
+      "quote": "DJ | 08:00 PM - 02:00 AM | Saturday November 7th | 08:00 PM - 02:00 AM",
+      "url": "https://divebarandgrille.com/pittsburgh-dive-bar-and-grille-specials-north-hills"
+     }
+    ]
    }
   },
   {
@@ -711,7 +742,46 @@
     ]
    },
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "9-11PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.jekylandhydepgh.com/",
+        "date": "2026-11-01",
+        "quote": "KARAOKE | THURSDAY | $6 CREEPY COCKTAILS 9-11PM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.jekylandhydepgh.com/",
+        "date": "2026-11-01",
+        "quote": "Karaoke | SUNDAY"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -885,7 +955,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/854376984431581/La-Dolce-Vita-PGH",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://www.ladolcevitapgh.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://ladolcevitapgh.com/",
+        "quote": "is the perfect setting. | Book a party | La Dolce Vita PGH | Welcome to La Dolce Vita, an upscale casual restaurant dedicated to showcasing the beauty of simple Italian cuisine. At La Dol",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -903,7 +995,28 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Wing Night – $0",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website thelibrarypgh.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "$1 off craft beer",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website thelibrarypgh.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -920,7 +1033,29 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://thelibrarypgh.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "LGBTQ-friendly"
+    ],
+    "summary": "LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://thelibrarypgh.com/",
+        "quote": "Home - The Library On Carson | Menu | Now Open... | Join us for | Superhero Drag Brunch | Saturday, June 14 | View Our Restaurant Week Menu | UPCOMING EVENT | Superhero Drag Bru",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1000,20 +1135,7 @@
    "kitchen": "Wed-Thu 5p-10p; Fri-Sun 12p-10p",
    "kitchenNote": "⚠ Site hours differ from listing: Mon–Tue 6 pm–2 am (no kitchen hours given), Wed–Thu 4:30 pm–2:30 am, Fri–Sun 11 am–2:20 am. (Venue site mariospgh.com, checked 2026-11-01)",
    "happyHours": [],
-   "specials": [
-    {
-     "days": "Wed",
-     "text": "Trivia 8 pm",
-     "src": "Venue site mariospgh.com",
-     "checked": "2026-11-01"
-    },
-    {
-     "days": "Thu",
-     "text": "Karaoke 9 pm–1 am",
-     "src": "Venue site mariospgh.com",
-     "checked": "2026-11-01"
-    }
-   ],
+   "specials": [],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -1301,9 +1423,17 @@
    "website": "http://ruggerspub.com/",
    "hours": "Mon-Thu 3p-2a; Fri-Sun 12p-2a",
    "hoursNote": "Vegan and late-night pub food; weekly food specials Wed–Sun (venue site).",
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
+   "kitchen": "Mon-Thu 3p-12a; Fri-Sun 12p-12a",
+   "kitchenNote": "Kitchen hours from Venue website ruggerspub.com/eat, checked 2026-11-01; start time taken from listed opening hours.",
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "ALL DAY EVERY DAY HAPPY HOUR: $3 WELLS, BOMBS, & 24 OZ",
+     "tags": [],
+     "src": "Venue website ruggerspub.com/calendar",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1325,7 +1455,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/134728239893726/Ruggers-Pub",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-02-25",
-    "website": null
+    "website": "http://ruggerspub.com/"
    },
    "trivia": {
     "nights": [
@@ -1353,6 +1483,42 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.ruggerspub.com/",
+        "quote": "music, live rugby, good friends, and good times. ​ | Are we a pub? Sports bar? Dive bar? Locals' spot? Hidden gem? You can decide. | Ruggers Pub has been proudly owned and operated by t",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.ruggerspub.com/",
+        "quote": "vegetarian menu), live music, live rugby, good friends, and good times. ​ | Are we a pub? Sports bar? Dive bar? Locals' spot? Hidden gem? You can decide. | Ruggers Pub has been proudly owned",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1371,8 +1537,37 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Fri",
+     "text": "Happy Hour Every Friday 5 - 7",
+     "tags": [],
+     "src": "Venue website smokinjoessaloon.com/pittsburgh-smokin-joe-s-saloon-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Thu",
+     "text": "Especially on Thursdays when it's 40 wings and a pitcher of miller light for $20",
+     "tags": [
+      "wings",
+      "beer"
+     ],
+     "src": "Venue website smokinjoessaloon.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Sat",
+     "text": "College Football Saturday Yuengling Lager Pints Only $3",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website smokinjoessaloon.com/pittsburgh-smokin-joe-s-saloon-happy-hours-specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -1385,7 +1580,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/115671600810/Smokin%27-Joe%27s",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://smokinjoessaloon.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://smokinjoessaloon.com/",
+        "quote": "t only because they looked amazing... | review by - Yelp | Emily L: | This is my favorite local bar to hang out, grab a brew, and hang with friends. The bartenders are friendly, funny and a",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1440,7 +1657,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/580170465381111/South-Side-BBQ-Company",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://southsidebbqcompany.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Industry / late-night"
+    ],
+    "summary": "Popular with service-industry and late-night workers.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Industry / late-night",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://southsidebbqcompany.com/",
+        "quote": "rigitte Joyce–brings together a combined 70 years of experience in all facets of the food service industry. | The goal of South Side Barbecue Company is to provide the best barbecue possible using",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1846,7 +2085,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/203507409 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Allegheny",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://gennarospizzapasta.com/menu.htm"
   },
   {
    "id": "pa-dees-cafe-pittsburgh",
@@ -1966,7 +2206,8 @@
       "url": "https://www.tikilounge412.com/"
      }
     ]
-   }
+   },
+   "menu": "https://www.tikilounge412.com/beer-menu"
   },
   {
    "id": "pa-local-bar-kitchen-pittsburgh",
@@ -1985,13 +2226,90 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy Hour DAILY 4PM-6PM",
+     "tags": [],
+     "src": "Venue website localonthewater.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Daily",
+     "text": "Happy Hour 4 pm-6 pm, daily",
+     "tags": [],
+     "src": "Venue website localonthewater.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap way/203460356 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); venue website loads over https (https://www.localonthewater.com/), rechecked 2026-11-02 (earlier drop was a proxy failure on the http:// address)",
    "county": "Allegheny",
-   "addedBy": "refresh-restore"
+   "addedBy": "refresh-restore",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.localonthewater.com/",
+        "quote": "stop reviews carousel | Review by - Google | five star review by | Melissa M: | I went to locals a few days ago and the Cesar chicken wrap was SOOOO good, I had a really attentive and sw",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "6 PM",
+      "basis": "posted on 8 different Weds",
+      "lastSeen": "2026-12-30",
+      "datedLastSeen": "2026-12-30",
+      "postsSeen": 8,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.localonthewater.com/",
+        "date": "2026-12-30",
+        "quote": "Music Bingo | Wednesday December 30th"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.localonthewater.com/",
+        "date": "2026-12-30",
+        "quote": "Music Bingo starts at 6 PM | Wednesday December 30th"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.localonthewater.com/north-myrtle-beach-local-on-the-water-live-events",
+        "date": "2026-12-30",
+        "quote": "Music Bingo | Wednesday December 30th"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
   },
   {
    "id": "pa-southside-steaks-pittsburgh",

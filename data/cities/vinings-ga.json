@@ -1053,7 +1053,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/119051583503/Laseter%27s-Tavern-at-Vinings",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-06",
-    "website": null
+    "website": "http://www.laseterstavern.com/"
    },
    "trivia": {
     "nights": [
@@ -1172,7 +1172,29 @@
      }
     ]
    },
-   "phoneSource": "OpenStreetMap node/3383888982 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/3383888982 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.laseterstavern.com/",
+        "quote": "Events | Gallery | More | Use tab to navigate through the menu items. | Laseter’s is your neighborhood tavern. A place where you can meet your friends to catch the big game on one of our Hi-Def LCDs",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "ga-le-pi-ge",
@@ -1216,7 +1238,7 @@
    "address": "825 Battery Ave SE 600, Atlanta",
    "state": "GA",
    "zip": "30339",
-   "phone": null,
+   "phone": "(404) 965-2511",
    "lat": 33.8899,
    "lng": -84.4695,
    "priceText": "$$ (Facebook page)",
@@ -1238,8 +1260,82 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/1210141145723666/Live-at-the-Battery-Atlanta",
     "fbPostsSeen": 12,
     "fbNewestPost": "2026-11-01",
-    "website": null
-   }
+    "website": "http://liveatthebatteryatlanta.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://liveatthebatteryatlanta.com/",
+        "quote": "anta. Enjoy live performances, events, and exciting venues in a dynamic space perfect for locals and visitors alike. | Events | Join us for electrifying live shows, thrilling sports watc",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://liveatthebatteryatlanta.com/",
+        "quote": "ale restaurants to bars and quick bites. | Sports | Sports & Social Atlanta | Raising the Sports Bar | Today to Tuesday 11:00 AM - 12:00 AM | Eat and Drink | Nightlife | PBR Atlanta | The Ri",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://liveatthebatteryatlanta.com/",
+        "quote": "ive | View All Events | Eat & Drink | Indulge in delicious dining options from casual and upscale restaurants to bars and quick bites. | Sports | Sports & Social Atlanta | Raising the Spo",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " at the Battery Atlanta with an all-access New Year&rsquo;s Eve celebration featuring live entertainment, high-energy DJs, captivating performances, immersive activations, a dazzling 32-ft LED screen,",
+      "url": "https://liveatthebatteryatlanta.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Enjoy an all-access experience featuring electrifying live entertainment, high-energy DJs, captivating performances, immersive activations, and picture-perfect moments throughout the night",
+      "url": "https://liveatthebatteryatlanta.com/events-and-entertainment/events/nye-live"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " at the Battery Atlanta with an all-access New Year&rsquo;s Eve celebration featuring live entertainment, high-energy DJs, captivating performances, immersive activations, a dazzling 32-ft LED screen,",
+      "url": "https://liveatthebatteryatlanta.com/events-and-entertainment/events/nye-live"
+     }
+    ]
+   },
+   "phoneSource": "Venue website liveatthebatteryatlanta.com, checked 2026-11-02"
   },
   {
    "id": "ga-marlows-tavern-atlanta",
@@ -1895,7 +1991,7 @@
    "address": "4300 Paces Ferry Rd SE, #107, Atlanta",
    "state": "GA",
    "zip": "30339",
-   "phone": null,
+   "phone": "(770) 801-0069",
    "lat": 33.8644,
    "lng": -84.4662,
    "priceText": "$$ (Facebook page)",
@@ -1941,8 +2037,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/54694435783/SOHO-Atlanta",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-12",
-    "website": null
-   }
+    "website": "http://www.sohoatlanta.com/"
+   },
+   "phoneSource": "Venue website www.sohoatlanta.com, checked 2026-11-02"
   },
   {
    "id": "ga-stoney-river-steakhouse-and-grill",

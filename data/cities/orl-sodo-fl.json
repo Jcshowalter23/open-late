@@ -804,8 +804,7 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.hungryhowies.com/stores/fl/orlando/7628-sun-vista-way"
-   },
-   "menu": "https://www.hungryhowies.com/menu/flavored-crust"
+   }
   },
   {
    "id": "fl-italian-house-restaurant",
@@ -921,7 +920,7 @@
    "address": "2631 S Ferncreek Ave, Orlando",
    "state": "FL",
    "zip": "32806",
-   "phone": null,
+   "phone": "(407) 894-6900",
    "lat": 28.5134,
    "lng": -81.3596,
    "priceText": "$$ (Facebook page)",
@@ -929,8 +928,8 @@
    "website": "http://www.johnnysfillinstation.com/",
    "hours": "Daily 10:30a-2a",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Daily 10:30a-1a",
+   "kitchenNote": "Kitchen hours from Venue website johnnysfillinstation.com, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -996,8 +995,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/127552997368047/Johnny%27s-Fillin-Station",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
-    "website": null
-   }
+    "website": "http://www.johnnysfillinstation.com/"
+   },
+   "phoneSource": "Venue website www.johnnysfillinstation.com, checked 2026-11-02"
   },
   {
    "id": "fl-johnnys-other-side",
@@ -1441,7 +1441,7 @@
    "address": "7780 Lake Underhill Rd, Suite 108, Orlando",
    "state": "FL",
    "zip": "32822",
-   "phone": null,
+   "phone": "(407) 930-1102",
    "lat": 28.5389,
    "lng": -81.2813,
    "priceText": "$$ (Facebook page)",
@@ -1466,8 +1466,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/168595950620855/Muzzarella-Pizza-and-Italian-Kitchen",
     "fbPostsSeen": 7,
     "fbNewestPost": "2025-04-22",
-    "website": null
-   }
+    "website": "http://www.muzzarellaorlando.com/"
+   },
+   "phoneSource": "Venue website www.muzzarellaorlando.com, checked 2026-11-02"
   },
   {
    "id": "fl-o-town-grub-cloud-to-door-kitchen",
@@ -1514,7 +1515,7 @@
    "lng": -81.3412,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": "http://phoandrollorlando.com/",
+   "website": null,
    "hours": "Mon-Sat 11:30a-9:30p; Sun 11:30a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1532,7 +1533,8 @@
     "fbPostsSeen": 8,
     "fbNewestPost": "2022-08-11",
     "website": null
-   }
+   },
+   "websiteSource": "removed 2026-11-02: domain now for sale"
   },
   {
    "id": "fl-phoresh-noodles",
@@ -2052,7 +2054,7 @@
    "address": "2952 Curry Ford Rd, Orlando",
    "state": "FL",
    "zip": "32806",
-   "phone": null,
+   "phone": "(407) 849-0810",
    "lat": 28.5236,
    "lng": -81.3453,
    "priceText": "$ (Facebook page)",
@@ -2074,8 +2076,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/101635189900557/Theo%27s-Kitchen",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-02-18",
-    "website": null
-   }
+    "website": "http://Theoskitchen.com/"
+   },
+   "phoneSource": "Venue website www.theoskitchen.com, checked 2026-11-02"
   },
   {
    "id": "fl-wing-shack-orlando",
@@ -2084,7 +2087,7 @@
    "address": "4650 E Michigan St, Orlando",
    "state": "FL",
    "zip": "32812",
-   "phone": null,
+   "phone": "(321) 483-2440",
    "lat": 28.512,
    "lng": -81.3285,
    "priceText": "$ (Facebook page)",
@@ -2094,8 +2097,79 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Shack Happy Hour Mon–Fri 3–6pm · Mon–Thu 9–11pm",
+     "tags": [],
+     "src": "Venue website wingshack.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Mon-Thu",
+     "text": "Late-night Happy Hour Monday through Thursday, 9pm–11pm",
+     "tags": [],
+     "src": "Venue website wingshack.com/events",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Mon,Wed",
+     "text": "80¢ Wings Mon & Wed 5–9pm",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website wingshack.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Mon,Wed",
+     "text": "\"80¢ wings on Monday and Wednesday changed my life",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website wingshack.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "See venue",
+     "text": "80¢ Wing Night",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website wingshack.com/events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Mon,Wed",
+     "text": "Every Monday & Wednesday 3–9pm — 80¢ per wing",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website wingshack.com/events",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Thu",
+     "text": "Every Thursday 5pm–7pm: buy 10 wings, get 10 free",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website wingshack.com/events",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Tue,Sat",
+     "text": "Kids Eat Free Tue 4–8pm & Sat 11am–4pm",
+     "tags": [],
+     "src": "Venue website wingshack.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events"
@@ -2130,7 +2204,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/180023762071844/Wing-Shack-Orlando",
     "fbPostsSeen": 11,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.wingshack.com/"
    },
    "trivia": {
     "nights": [],
@@ -2144,7 +2218,21 @@
       "url": "https://wingshack.com/"
      }
     ]
-   }
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "\"Live music, karaoke, trivia, wing deals every week — there is always a reason to come back",
+      "url": "https://wingshack.com/"
+     }
+    ]
+   },
+   "phoneSource": "Venue website wingshack.com, checked 2026-11-02"
   },
   {
    "id": "fl-zaza-cuban-comfort-food",

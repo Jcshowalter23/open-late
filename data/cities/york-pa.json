@@ -152,7 +152,33 @@
     ]
    },
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://suburbanbowlerama.com/dine/",
+        "date": "2026-11-01",
+        "quote": "Karaoke Thursdays"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://suburbanbowlerama.com/dine/",
+        "date": "2026-11-01",
+        "quote": "Karaoke Night | 1st & 3rd Thursday"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -1047,7 +1073,8 @@
     "fbNewestPost": "2026-06-03",
     "website": "https://hamirs.com/"
    },
-   "websiteSource": "OpenStreetMap node/11284674917 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/11284674917 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://hamirs.com/lunch"
   },
   {
    "id": "holy-hound-taproom",
@@ -1840,7 +1867,38 @@
    "source": "Venue site",
    "county": "York",
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "monthly",
+      "start": "8:00 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-06",
+      "datedLastSeen": "2026-11-06",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.scottydogsyork.com/news-events/",
+        "date": "2026-11-06",
+        "quote": "Karaoke With Miss T | FRI, NOV 6 · 8:00 PM | FRI, NOV 6 · 8:00 PM"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.scottydogsyork.com/news-events/",
+        "date": "2026-11-06",
+        "quote": "× | Karaoke With Miss T | FRI, NOV 6 · 8:00 PM | 🎤 >> 🎤 Karaoke With Miss T at Scotty Dog’s"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.scottydogsyork.com/news-events/",
+        "date": "2026-11-01",
+        "quote": "Join us every First Friday for Karaoke Night with Miss T in the lounge"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],

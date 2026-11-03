@@ -133,7 +133,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Winter-Haven/172928443443269/4-Lakes-Grill",
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-02-18",
-    "website": null
+    "website": "http://www.fourlakesgolfclub.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Older / 30+"
+    ],
+    "summary": "Skews older / 30+.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Older / 30+",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://fourlakesgolfclub.com/",
+        "quote": "a’s best in active adult retirement living. This stunning community was designed to offer retirees luxury living at affordable prices in a top retirement destination. The community boasts",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -693,8 +715,56 @@
    "hoursNote": "Restaurantji (updated 2026-10-07) lists different hours: Mon-Thu 11a-12a; Fri-Sat 11a-1a; Sun 11a-12a. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour $2",
+     "tags": [],
+     "src": "Venue website dukesbrewhouse.com/brandon-duke-s-brewhouse-brandon-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "50 Domestic Drafts $1 off Wells $1 off Wine",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website dukesbrewhouse.com/brandon-duke-s-brewhouse-brandon-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Tue",
+     "text": "Taco Tuesday w/ Trivia - $8",
+     "tags": [],
+     "src": "Venue website dukesbrewhouse.com/brandon-duke-s-brewhouse-brandon-specials-lakeland",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "Burger Wednesday - $8",
+     "tags": [],
+     "src": "Venue website dukesbrewhouse.com/brandon-duke-s-brewhouse-brandon-specials-lakeland",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Fri",
+     "text": "Fish Fry Friday - $11",
+     "tags": [],
+     "src": "Venue website dukesbrewhouse.com/brandon-duke-s-brewhouse-brandon-specials-lakeland",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Tue",
+     "text": "Taco Tuesday With Trivia $9",
+     "tags": [],
+     "src": "Venue website dukesbrewhouse.com/brandon-duke-s-brewhouse-brandon-specials-plant-city",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -745,7 +815,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Winter-Haven/102836404542549/Duke%27s-Brewhouse-Winter-Haven",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://www.dukesbrewhouse.com/"
    },
    "conflicts": [
     {
@@ -766,18 +836,87 @@
     }
    ],
    "trivia": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "11:00 AM - 12:00 AM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-03",
+      "datedLastSeen": "2026-11-03",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://dukesbrewhouse.com/brandon-duke-s-brewhouse-brandon-events",
+        "date": "2026-11-03",
+        "quote": "Trivia Night | Tuesday November 3rd"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://dukesbrewhouse.com/brandon-duke-s-brewhouse-brandon-specials",
+        "date": "2026-11-01",
+        "quote": "Taco Tuesday with Team Trivia | 11:00 AM - 12:00 AM"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://dukesbrewhouse.com/brandon-duke-s-brewhouse-brandon-specials-lakeland",
+        "date": "2026-11-01",
+        "quote": "Taco Tuesday w/ Trivia - $8 | 11:00 AM - 12:00 AM"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
     "oneoffs": []
    },
    "bingo": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7pm - 9pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-04",
+      "datedLastSeen": "2026-11-04",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://dukesbrewhouse.com/brandon-duke-s-brewhouse-brandon-events",
+        "date": "2026-11-04",
+        "quote": "Jukebox Bingo | Wednesday November 4th"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://dukesbrewhouse.com/brandon-duke-s-brewhouse-brandon-events",
+        "date": "2026-11-01",
+        "quote": "Come Hang Out & Have Some Fun Playing Jukebox Bingo With Us | Every Wednesday | Every Wednesday 7pm - 9pm | 07:00 PM - 09:00 PM"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
     "oneoffs": []
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-04",
+      "quote": " Karaoke at 8pm | Wednesday November 4th",
+      "url": "https://dukesbrewhouse.com/brandon-duke-s-brewhouse-brandon-specials"
+     }
+    ]
    }
   },
   {
@@ -1351,7 +1490,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Winter-Haven/112655828751814/Harry%27s-Old-Place",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-20",
-    "website": null
+    "website": "http://harrysoldplace.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.harrysoldplace.com/",
+        "quote": "Old Place | Discover the freshest seafood in Central Florida and see for yourself why the locals have been raving about us for years. | View Menu | Harry's Old Place | (863) 324-0301 | D",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2032,7 +2193,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy Hour Daily 3pm-6pm",
+     "tags": [],
+     "src": "Venue website maritimewh.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -2066,7 +2236,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Winter-Haven/129955650207316/Maritime---Winter-Haven",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://maritimewh.com/"
    }
   },
   {
@@ -2606,7 +2776,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Winter-Haven/100879972715071/Sauvage",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-22",
-    "website": null
+    "website": "http://sauvagewh.com/"
    },
    "conflicts": [
     {
@@ -2633,7 +2803,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Residence to a frequency healing DJ who will showcase the perfect vibe for the environment",
+      "url": "https://www.sauvagewh.com/"
+     }
+    ]
+   }
   },
   {
    "id": "fl-slit-throat-promo",

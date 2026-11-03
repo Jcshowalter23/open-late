@@ -759,7 +759,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Sun",
+     "text": "Sunday Funday $6 Bloody Marys and mimosas",
+     "tags": [],
+     "src": "Venue website neonsbar72.com/panama-city-beach-bay-point-neons-bar-72-happy-hours-specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -804,7 +812,26 @@
     ]
    },
    "dj": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "6:30–9:30 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-04",
+      "datedLastSeen": "2026-11-04",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://neonsbar72.com/",
+        "date": "2026-11-04",
+        "quote": "Wednesday November 4th | Every Wednesday | 🎶 Music Bingo is back Wednesday night! | Join >> Join DJ Danny D in The Barn from 6:30–9:30 PM for music, laughs, and your chance to win"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -822,7 +849,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Panama-City-Beach/296046606916641/Neons-Bar-72",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.neonsbar72.com/"
    },
    "bingo": {
     "nights": [
@@ -881,7 +908,7 @@
    "address": "5711 N Lagoon Dr, Upper Grand Lagoon",
    "state": "FL",
    "zip": "32408",
-   "phone": null,
+   "phone": "(850) 238-8832",
    "lat": 30.1497,
    "lng": -85.7479,
    "priceText": "$$ (Facebook page)",
@@ -939,8 +966,58 @@
     "facebookMirror": "https://www.foodyas.com/US/Upper-Grand-Lagoon/1470003563219445/Off-The-Hook-Bar-and-Grill",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-31",
-    "website": null
-   }
+    "website": "http://othpcb.com/"
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "6–8 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://othpcb.com/",
+        "date": "2026-11-01",
+        "quote": "Family Friendly Bingo | Every Wednesday Night • 6–8 PM | Every Wednesday Night • 6–8 PM"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://othpcb.com/entertainment",
+        "date": "2026-11-01",
+        "quote": "Family Friendly Bingo | Every Wednesday Night • 6–8 PM | Every Wednesday Night • 6–8 PM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Live Bingo",
+      "url": "https://othpcb.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "LIVE BINGO",
+      "url": "https://othpcb.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Live Bingo",
+      "url": "https://othpcb.com/entertainment"
+     }
+    ]
+   },
+   "phoneSource": "Venue website othpcb.com, checked 2026-11-02"
   },
   {
    "id": "fl-pier-77-seafood-restaurant",

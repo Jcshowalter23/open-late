@@ -2260,7 +2260,27 @@
     ]
    },
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "monthly",
+      "start": "8pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://dogandduckfamilypubs.com/clements-ferry-location/",
+        "date": "2026-11-01",
+        "quote": "So come sing with us during Karaoke Night at Dog & Duck on Clements Ferry Road on the 2nd Friday of Each Month | Starting at 8pm | Weekly Specials & Events"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -2282,7 +2302,39 @@
    },
    "menu": "https://dogandduckfamilypubs.com/food-menu/",
    "trivia": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "7-9pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://dogandduckfamilypubs.com/specials-events/",
+        "date": "2026-11-01",
+        "quote": "NAME THAT TUNE TEAM TRIVIA | Every Thursday from 7-9pm. Test Your Music Skills and Play To Win House Cash! | Every Thursday from 7-9pm. Test Your Music Skills and Play To Win House Cash!"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://dogandduckfamilypubs.com/belle-hall-location/",
+        "date": "2026-11-01",
+        "quote": "NAME THAT TUNE TEAM TRIVIA | Every Thursday from 7-9pm. Test Your Music Skills and Play To Win House Cash! | Every Thursday from 7-9pm. Test Your Music Skills and Play To Win House Cash!"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://dogandduckfamilypubs.com/clements-ferry-location/",
+        "date": "2026-11-01",
+        "quote": "NAME THAT TUNE TEAM TRIVIA | Every Thursday from 7-9pm. Test Your Music Skills and Play To Win House Cash! | Every Thursday from 7-9pm. Test Your Music Skills and Play To Win House Cash!"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -4124,7 +4176,8 @@
     "fbNewestPost": null,
     "website": "https://mainlandcontainerco.com/"
    },
-   "websiteSource": "OpenStreetMap way/1464056166 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/1464056166 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://mainlandcontainerco.com/mount-pleasant-mainland-container-co-kitchen-and-bar-food-menu"
   },
   {
    "id": "sc-malika-canteen",
@@ -4668,7 +4721,8 @@
     "fbNewestPost": null,
     "website": "https://naanatmtpleasant.com/"
    },
-   "websiteSource": "OpenStreetMap node/13740456222 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/13740456222 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://naanatmtpleasant.com/mount-pleasant-naan-at-mt-pleasant-food-menu"
   },
   {
    "id": "sc-neighborhood-tap-house-greenridge",
@@ -5026,7 +5080,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://obrionspub.com/menu"
   },
   {
    "id": "sc-opal-restaurant-and-bar",
@@ -5191,7 +5246,8 @@
     "fbNewestPost": null,
     "website": "https://pattayathai843.square.site/"
    },
-   "websiteSource": "OpenStreetMap node/2043665374 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/2043665374 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://pattayathai843.square.site/"
   },
   {
    "id": "sc-peking-gourmet-5300-rivers-ave-n-charleston",
@@ -8172,7 +8228,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/13606914150 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Charleston",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.bennysva.com/menu"
   },
   {
    "id": "sc-home-team-bbq-mount-pleasant",
@@ -8256,7 +8313,8 @@
       "url": "https://hometeambbq.com/happenings/"
      }
     ]
-   }
+   },
+   "menu": "https://hometeambbq.com/wp-content/uploads/2022/08/Kids-Menu-2027-1.pdf"
   },
   {
    "id": "sc-rebel-taqueria-north-charleston",
@@ -8306,7 +8364,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/1468997076 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Charleston",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://paisanospizzamtp.com/mount-pleasant-paisano-s-pizza-grill-mount-pleasant-food-menu"
   },
   {
    "id": "sc-rockos-north-charleston",
@@ -8369,7 +8428,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://rockoschs.com/food-menu"
   },
   {
    "id": "sc-no-bull-burger-bar-north-charleston",
@@ -8412,7 +8472,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/1484761676 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Charleston",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://nobullburgerbar.com/north-charleston-no-bull-burger-bar-food-menu"
   },
   {
    "id": "sc-platia-greek-goodness-mount-pleasant",
@@ -8437,7 +8498,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/13457135696 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.platiagreekfood.com/: \"leston | 5060 Dorchester Rd, Unit 230 North Charleston, SC 29418 | Weekly hours | Mon–Sat | 10 AM – 9 PM | Sun | 1\" (checked 2026-11-02)",
    "county": "Charleston",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.platiagreekfood.com/",
+        "quote": "for 45 people. Showed | up early, everything was hot, and half my team has since | become regulars.” | G | Amara K. | Google · Catering client | 2025 | 2026 | Best Gyro | Charleston City P",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "city",

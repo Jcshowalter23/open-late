@@ -1611,7 +1611,7 @@
    "hours": "Mon 11a-12a; Tue closed; Wed-Sun 11a-12a",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 9 pm per Venue website usedtobesnj.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -1646,7 +1646,89 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.usedtobesnj.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ Frankie V | Labor Day Monday September 6th",
+      "url": "https://www.usedtobesnj.com/events/"
+     },
+     {
+      "date": "2026-08-30",
+      "quote": "DJ Frankie V | Sunday August 30th",
+      "url": "https://www.usedtobesnj.com/events/"
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "7PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": "2026-09-03",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.usedtobesnj.com/events/",
+        "date": "2026-11-01",
+        "quote": "Trivia Starting @ 7PM | Thursday's"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.usedtobesnj.com/events/",
+        "date": "2026-09-03",
+        "quote": "Trivia Night | Thursday September 3rd"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "7pm - 9pm",
+      "basis": "posted on 2 different Fris",
+      "lastSeen": "2026-09-04",
+      "datedLastSeen": "2026-09-04",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.usedtobesnj.com/events/",
+        "date": "2026-09-04",
+        "quote": "Music Bingo | Friday September 4th"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.usedtobesnj.com/events/",
+        "date": "2026-08-28",
+        "quote": "Music Bingo 7pm - 9pm | Friday August 28th"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
    }
   },
   {
@@ -1859,7 +1941,30 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/11598804663 opening_hours tag (map data 2026-11-01; last checked on the map 2026-07-10) (checked 2026-11-02); late hours confirmed by venue website https://www.urbancoalhouse.com/locations: \"11PM) | FRIDAY – SATURDAY | 11AM – 11PM (BAR OPEN UNTIL 12AM) | SUNDAY | 11AM – 9PM (BAR OPEN UNTIL 10PM) | OUTDOO\" (checked 2026-11-02)",
    "county": "Ocean",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "TRIVIA SATURDAY 9P-11P",
+      "url": "https://www.urbancoalhouse.com/locations"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "TRIVIA WEDNESDAY 7P-9P",
+      "url": "https://www.urbancoalhouse.com/locations"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "TRIVIA THURSDAY 7P-9P",
+      "url": "https://www.urbancoalhouse.com/locations"
+     }
+    ]
+   }
   }
  ],
  "type": "city",

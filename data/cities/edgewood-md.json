@@ -91,7 +91,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour ALL Day",
+     "tags": [],
+     "src": "Venue website bushmilltavern.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -157,7 +166,46 @@
     ]
    },
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.bushmilltavern.com/visit",
+        "date": "2026-11-01",
+        "quote": "We also have nightly food specials along with trivia, karaoke, and live entertainment on the weekends"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.bushmilltavern.com/visit",
+        "date": "2026-11-01",
+        "quote": "We also have nightly food specials along with trivia, karaoke, and live entertainment on the weekends"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "hints": [
      "Restaurantji review/summary mentions karaoke"
     ],
@@ -184,7 +232,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Abingdon/130095827159365/Bushmill-Tavern",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://www.bushmilltavern.com/"
    },
    "trivia": {
     "nights": [],
@@ -764,7 +812,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$2 off BEERS",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website venetianeatery.com/happyhour",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -799,7 +858,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Edgewood/163128830513920/Venetian-Italian-Eatery",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-01-25",
-    "website": null
+    "website": "http://www.venetianeatery.com/"
    }
   }
  ],

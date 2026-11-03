@@ -188,7 +188,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Pompano-Beach/103910175026965/Baresco",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-23",
-    "website": null
+    "website": "http://eatbaresco.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://eatbaresco.com/",
+        "quote": "art with housemade guacamole, then dive into | sizzling fajitas | , fresh seafood, or our local favorite, birria tacos. Meanwhile, sip on | handcrafted margaritas | , premium tequilas, or an ice",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -232,7 +254,7 @@
    "address": "270 N. Pompano Beach Blvd, Pompano Beach",
    "state": "FL",
    "zip": "33062",
-   "phone": null,
+   "phone": "(954) 607-6530",
    "lat": 26.236,
    "lng": -80.0888,
    "priceText": "$$ (Facebook page)",
@@ -256,7 +278,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Pompano-Beach/376692102687033/Beach-House-Pompano",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-23",
-    "website": null
+    "website": "http://beachhousepompano.com/"
    },
    "conflicts": [
     {
@@ -274,7 +296,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "Venue website beachhousepompano.com, checked 2026-11-02"
   },
   {
    "id": "fl-bedda-mia-ristorante-and-pizzette",
@@ -319,7 +342,7 @@
    "address": "2961 NW 9 St, Pompano Beach",
    "state": "FL",
    "zip": "33069",
-   "phone": null,
+   "phone": "(954) 422-2579",
    "lat": 26.2398,
    "lng": -80.1632,
    "priceText": "$ (Facebook page)",
@@ -341,8 +364,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Pompano-Beach/115420816493877/Bigtreebbqinc",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-06-03",
-    "website": null
-   }
+    "website": "http://Bigtreebbq.com/"
+   },
+   "phoneSource": "Venue website Bigtreebbq.com, checked 2026-11-02"
   },
   {
    "id": "fl-bojos-seafood-kitchen",
@@ -455,7 +479,7 @@
    "address": "200 E McNab Rd, Pompano Beach",
    "state": "FL",
    "zip": "33060",
-   "phone": null,
+   "phone": "(954) 440-3347",
    "lat": 26.2109,
    "lng": -80.1195,
    "priceText": "$$ (Facebook page)",
@@ -465,7 +489,16 @@
    "hoursNote": "Restaurantji (updated 2026-10-30) lists different hours: Mon closed; Tue-Thu 4p-10p; Fri-Sat 12p-11p; Sun 11a-9p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Tue-Fri",
+     "text": "Happy Hour · Tuesday–Friday · 4–7 PM",
+     "tags": [],
+     "src": "Venue website brewfish.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -511,7 +544,46 @@
     ]
    },
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "7 – 11 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://brewfish.com/",
+        "date": "2026-11-01",
+        "quote": "Karaoke · 7 – 11 PM | SAT"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://brewfish.com/",
+        "date": "2026-11-01",
+        "quote": "From trivia and lobster night to live music, karaoke and Sunday brunch"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "hints": [
      "Restaurantji review/summary mentions karaoke"
     ],
@@ -525,7 +597,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Pompano-Beach/875438619170816/BrewFish-Bar-%26-Grill",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-15",
-    "website": null
+    "website": "http://brewfish.com/"
    },
    "conflicts": [
     {
@@ -574,7 +646,8 @@
       "url": "https://brewfish.com/"
      }
     ]
-   }
+   },
+   "phoneSource": "Venue website brewfish.com, checked 2026-11-02"
   },
   {
    "id": "fl-briny-irish-pub",
@@ -1315,7 +1388,7 @@
    "address": "1901 N. Federal Hwy #E115, Pompano Beach",
    "state": "FL",
    "zip": "33062",
-   "phone": null,
+   "phone": "(954) 520-3000",
    "lat": 26.2562,
    "lng": -80.1015,
    "priceText": "$$ (Facebook page)",
@@ -1412,7 +1485,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Pompano-Beach/633209776802242/Dangerous-Minds-Brewing-Company",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://dangerousmindsbrewing.com/"
    },
    "conflicts": [
     {
@@ -1472,7 +1545,8 @@
       "url": "https://dangerousmindsbrewing.com/Events"
      }
     ]
-   }
+   },
+   "phoneSource": "Venue website dangerousmindsbrewing.com, checked 2026-11-02"
   },
   {
    "id": "fl-delight-kava-bar",
@@ -2074,7 +2148,7 @@
    "address": "17 S Pompano Pkwy, Pompano Beach",
    "state": "FL",
    "zip": "33069",
-   "phone": null,
+   "phone": "(954) 973-4655",
    "lat": 26.23,
    "lng": -80.1582,
    "priceText": "$ (Facebook page)",
@@ -2118,8 +2192,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Pompano-Beach/107169757624813/It%27s-All-Greek-To-Me-Grill---Pompano",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://itsallgreektomegrill.com/"
+   },
+   "phoneSource": "Venue website itsallgreektomegrill.com, checked 2026-11-02"
   },
   {
    "id": "fl-j-marks-restaurant",
@@ -2977,7 +3052,7 @@
    "address": "3100 E. Atlantic Blvd, Pompano Beach",
    "state": "FL",
    "zip": "33062",
-   "phone": null,
+   "phone": "(954) 876-1066",
    "lat": 26.2347,
    "lng": -80.1256,
    "website": "http://miraggioitalian.com/",
@@ -3017,8 +3092,27 @@
     "facebookMirror": "https://www.foodyas.com/US/Pompano-Beach/432014566654429/Miraggio-Italian-Grill",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-29",
-    "website": null
-   }
+    "website": "http://miraggioitalian.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Catch DJ Pauly D spinning some sick beats on the Miraggio deck this Friday",
+      "url": "https://miraggioitalian.com/"
+     },
+     {
+      "date": "2026-08-19",
+      "quote": "There’s something happening all the time. | SEE EVENT CALENDAR | Monday, August 19 | >> DJ Pauly D",
+      "url": "https://miraggioitalian.com/"
+     }
+    ]
+   },
+   "phoneSource": "Venue website miraggioitalian.com, checked 2026-11-02"
   },
   {
    "id": "fl-mora-grill",
@@ -3318,7 +3412,16 @@
    "hoursNote": "Restaurantji (updated 2026-10-07) lists different hours: Mon-Thu 5p-10p; Fri-Sat 3p-11p; Sun 12p-10p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Thu",
+     "text": "Thursday All Day Happy Hour",
+     "tags": [],
+     "src": "Venue website pier6rooftop.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -3349,7 +3452,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Pompano-Beach/108866934797235/Pier-6-Rooftop-Pompano-Beach",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.pier6rooftop.com/"
    },
    "conflicts": [
     {
@@ -3531,7 +3634,7 @@
    "address": "360 East Mcnab Rd, Pompano Beach",
    "state": "FL",
    "zip": "33060",
-   "phone": null,
+   "phone": "(754) 222-8242",
    "lat": 26.211,
    "lng": -80.1178,
    "website": "http://www.rgssteakhouse.com/",
@@ -3551,7 +3654,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Pompano-Beach/410100322181320/RGS-Steakhouse",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.rgssteakhouse.com/"
    },
    "conflicts": [
     {
@@ -3567,7 +3670,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "Venue website rgssteakhouse.com, checked 2026-11-02"
   },
   {
    "id": "fl-rocher-rose-restaurant",
@@ -4153,7 +4257,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Pompano-Beach/109956207829458/Sushi-By-Bou",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://sushibybou.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.sushibybou.com/",
+        "quote": "ir and precision of our seasoned chefs and curated menus. From birthday celebrations to a date night out, Bou is more than a meal: it's an experience. | Reserve Now | Vibes | Every Location",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -4163,7 +4289,7 @@
    "address": "1621 S. Dixie Hwy, Margate",
    "state": "FL",
    "zip": "33060",
-   "phone": null,
+   "phone": "(239) 324-1289",
    "lat": 26.2478,
    "lng": -80.188,
    "priceText": "$$$ (Facebook page)",
@@ -4185,8 +4311,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Pompano-Beach/265467537222829/Swirl-Wine-Bistro",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-03-23",
-    "website": null
-   }
+    "website": "http://www.swirlwinebistro.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://swirlwinebistro.com/",
+        "quote": "Swirl Wine Bistro – Fine Dining | 4976 W Atlantic Blvd, Margate, FL 33063 | 239-324-1289 | Reserve | BOOK A TABLE | We ar",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website swirlwinebistro.com, checked 2026-11-02"
   },
   {
    "id": "fl-taco-station",
@@ -4534,7 +4683,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Pompano-Beach/685426888229731/The-Foundry-FL",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-23",
-    "website": null
+    "website": "http://www.thefoundryfl.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thefoundryfl.com/",
+        "quote": "2781 E Atlantic Blvd, Pompano Beach, FL 33062, The Foundry is easily accessible for both locals and visitors. | For reservations or inquiries, please call | (754) 205-6977 | . | Click T",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thefoundryfl.com/",
+        "quote": "es and beverages to start your day right. | Whether you're planning a family gathering, a romantic dinner, or a casual meal with friends, The Foundry Restaurant in Pompano Beach is the per",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -4794,7 +4979,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Pompano-Beach/110087828573884/The-Vault-at-Old-Town-Pompano",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.vaultpompano.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://vaultpompano.com/",
+        "quote": "is going so far. We need a pick me | You heard it here first! We are going into NovemBA | Date night? We got you! 🍹 Happy hour from 4pm-7pm | 🚨👻 YOUR HALLOWEEN COSTUME IS ABOUT TO GET JUDGE",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

@@ -916,7 +916,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Towson/46247181055/Bread-and-Circuses-Bistro-and-Bar",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://bandcbistro.com/"
    },
    "conflicts": [
     {
@@ -937,7 +937,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " We also offer Vostok wedding cakes, floral services, photography & videography specialists, & musical acts & DJ’s",
+      "url": "https://bandcbistro.com/"
+     }
+    ]
+   }
   },
   {
    "id": "md-candr-pub-towson",
@@ -1789,7 +1802,20 @@
     "facebookMirror": "https://www.foodyas.com/US/Towson/125132960682448/Fried-and-Fries-Towson",
     "fbPostsSeen": 3,
     "fbNewestPost": "2026-01-17",
-    "website": null
+    "website": "http://www.friedandfries.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Bahkan ada permainan mahjong ways scatter hitam atau skater hitam yang sangat viral yang telah di populerkan oleh jim joker pada saat memainkan music dj dan melakukan spin hingga mendapatkan maxwin x",
+      "url": "https://www.poorgarysmooselakeofficial.com/"
+     }
+    ]
    }
   },
   {
@@ -2586,7 +2612,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Mays-Chapel/410307842336506/Kooper%27s-North",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-23",
-    "website": null
+    "website": "http://www.koopersnorth.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.koopersnorth.com/",
+        "quote": "produce, along with an extensive beer and wine selection. Combining excellent service in family-friendly atmosphere, Kooper's has become recognized as one of the | Must-Try Burgers Across the Co",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2945,7 +2993,16 @@
    "hoursNote": "Restaurantji (updated 2026-09-20) lists different hours: Mon-Thu 11a-10p; Fri 11a-1a; Sat 10a-1a; Sun 10a-10p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Michael’s Café offers happy hour deals from 3-7pm Monday- Friday and live music is performed every Friday evening at the Timonium location and on the first Friday of each month at the White Marsh- Middle River location",
+     "tags": [],
+     "src": "Venue website michaelscafe.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -2995,7 +3052,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Timonium/129097063786228/Michael%27s-Cafe-Timonium",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://michaelscafe.com/"
    },
    "conflicts": [
     {
@@ -3311,8 +3368,8 @@
    "website": "http://pappascockeysville.com/",
    "hours": "Mon 11a-11p; Tue 11a-10p; Wed-Sat 11a-11p; Sun 11a-10p",
    "hoursNote": "Restaurantji (updated 2026-10-21) lists different hours: Daily 11a-2a. Call ahead to confirm.",
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Daily 11a-1a",
+   "kitchenNote": "Kitchen hours from Venue website pappascockeysville.com, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [],
    "specials": [
     {
@@ -3392,7 +3449,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Cockeysville/1447736215504778/Pappas-Restaurant-and-Sports-Bar-Cockeysville",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-12",
-    "website": null
+    "website": "http://pappascockeysville.com/"
    },
    "conflicts": [
     {
@@ -3618,7 +3675,7 @@
    "address": "514 York Rd, Towson",
    "state": "MD",
    "zip": "21204",
-   "phone": null,
+   "phone": "(410) 337-7178",
    "lat": 39.401,
    "lng": -76.6018,
    "priceText": "$$ (Facebook page)",
@@ -3707,8 +3764,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Towson/150391834984802/Rec-Room",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-17",
-    "website": null
-   }
+    "website": "http://www.recroomtowson.com/"
+   },
+   "phoneSource": "Venue website www.recroomtowson.com, checked 2026-11-02"
   },
   {
    "id": "md-red-pepper-sichuan-bistro",
@@ -4587,7 +4645,16 @@
    "hoursNote": "Restaurantji (updated 2026-09-18) lists different hours: Mon-Tue closed; Wed-Fri 4p-12a; Sat 10a-12a; Sun 10a-4p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Wed-Fri",
+     "text": "Happy Hour Wednesday - Friday 4-7PM",
+     "tags": [],
+     "src": "Venue website thepointtowson.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -4632,7 +4699,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Towson/180739002353545/The-Point-in-Towson",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://www.thepointtowson.com/"
    },
    "conflicts": [
     {
@@ -4918,7 +4985,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Lutherville---Timonium/1427150687566553/The-Valley-Inn",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-14",
-    "website": null
+    "website": "http://www.thevalleyinn.us/"
    },
    "conflicts": [
     {
@@ -4936,7 +5003,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "\u0000ʉ np\u0012\u0010>:c]RERw\u0000N,#2JTa NXq\u000eV=ԗJAH8'{('\u0005\u0015cZM-DJ\u0017K\u0014\u0015 P\u0011\u000fu",
+      "url": "https://thevalleyinnmd.com/wp-content/uploads/2026/09/TVI_HH_08.25.26-1.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "md-towson-tavern",
@@ -5358,7 +5438,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/10971701686 opening_hours tag (map data 2026-10-31; last checked on the map 2023-09-14) (checked 2026-11-01)",
    "county": "Baltimore",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://thekpot.com/menu"
   },
   {
    "id": "md-pho-tan-my-lutherville",

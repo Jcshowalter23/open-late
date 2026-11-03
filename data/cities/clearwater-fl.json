@@ -272,7 +272,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Join us for Happy Hour at AJ's Dockside, Monday to Friday from 2 to 5:30 PM",
+     "tags": [],
+     "src": "Venue website ajsdockside.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -300,7 +309,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Clearwater/135283439662583/AJ%27s-Dockside-Bar-and-Grill",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://ajsdockside.com/"
    }
   },
   {
@@ -867,7 +876,7 @@
    "address": "447 Mandalay Ave, Clearwater",
    "state": "FL",
    "zip": "33767",
-   "phone": null,
+   "phone": "(727) 442-4144",
    "lat": 27.9801,
    "lng": -82.8269,
    "priceText": "$$$ (Facebook page)",
@@ -891,8 +900,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Clearwater/1526130570985946/Bobby%27s-Bistro-and-Wine-Bar",
     "fbPostsSeen": 7,
     "fbNewestPost": "2021-03-05",
-    "website": null
-   }
+    "website": "http://www.bobbysbistro.com/"
+   },
+   "phoneSource": "Venue website bobheilmans.com, checked 2026-11-02"
   },
   {
    "id": "fl-brew-garden-taphouse-and-eatery",
@@ -1702,7 +1712,7 @@
    "address": "482 Poinsettia Ave, Clearwater Beach",
    "state": "FL",
    "zip": "33767",
-   "phone": null,
+   "phone": "(727) 446-8805",
    "lat": 27.9816,
    "lng": -82.8264,
    "priceText": "$$ (Facebook page)",
@@ -1747,8 +1757,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Clearwater/101555996591433/Clearwater-Wine-Bar-%26-Bistro",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
-   }
+    "website": "http://www.clearwaterwinebar.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.clearwaterwinebar.com/",
+        "quote": "Wine & Locally-Brewed Craft Beer in a Relaxed Bistro Setting. | Order Delivery | Vibrant local favorite serving delicious Mexican & Italian food, the best sangria on the beach, 40 wines by the",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.clearwaterwinebar.com, checked 2026-11-02"
   },
   {
    "id": "fl-cocos-crush-bar-og",
@@ -2329,7 +2362,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Clearwater/101584062768910/Daily-News-Restaurant",
     "fbPostsSeen": 5,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.dailynewsrestaurant.com/"
    },
    "conflicts": [
     {
@@ -2349,7 +2382,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.dailynewsrestaurant.com/",
+        "quote": "mbiance of a warmly lit dining room. Come and check it out yourself. | EXPLORE THE MENU | FINE DINING EXPERIENCE | Best Table In Town | Fine Dining experience | It’s a memorable dining experi",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-darkriver-productions",
@@ -2391,7 +2446,7 @@
    "address": "1343 Cleveland St, Clearwater",
    "state": "FL",
    "zip": "33755",
-   "phone": null,
+   "phone": "(727) 400-4047",
    "lat": 27.9652,
    "lng": -82.7813,
    "priceText": "$$ (Facebook page)",
@@ -2415,8 +2470,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Clearwater/104886645187063/De-Lukas-Restaurant-and-Bar",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
-    "website": null
-   }
+    "website": "http://delukascroatianrestaurantbar.com/"
+   },
+   "phoneSource": "Venue website delukascroatianrestaurantbar.com, checked 2026-11-02"
   },
   {
    "id": "fl-don-pancho-villa",
@@ -2725,7 +2781,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Clearwater/105126164985819/Gerstle%27s-Beach-Bar-Clearwater",
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-05-12",
-    "website": null
+    "website": "http://Www.Gerstles.com/clearwater"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Live music fans"
+    ],
+    "summary": "A locals-and-regulars spot; known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.gerstles.com/clearwater/",
+        "quote": "s or bourbon-making, but all those things run through its veins — it’s gerstle’s place, a neighborhood bar of indispensable variety. | Explore The Talent | Upcoming Bands | 05 | November | 2026",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.gerstles.com/clearwater/",
+        "quote": "on in for the coldest beers, the best bourbon selection south of Kentucky, and incredible live music every night! | As the legend was told... | It has nothing to do with the derby or bluegrass or",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -3104,7 +3196,7 @@
    "address": "752 S Gulfview Blvd, Clearwater Beach",
    "state": "FL",
    "zip": "33767",
-   "phone": null,
+   "phone": "(727) 953-3040",
    "lat": 27.9663,
    "lng": -82.823,
    "priceText": "$$ (Facebook page)",
@@ -3163,7 +3255,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Clearwater-Beach/286848364514276/HoggDaddys-Beach-Bar-%26-Grill",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.hoggdaddys.com/"
    },
    "conflicts": [
     {
@@ -3255,7 +3347,47 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
-   }
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://hoggdaddys.com/clearwater-beach-clearwater-beach-hogg-daddy-s-beach-bar-and-grill-entertainment",
+        "date": "2026-11-01",
+        "quote": "KARAOKE WEDNESDAYS"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://hoggdaddys.com/clearwater-beach-clearwater-beach-hogg-daddy-s-beach-bar-and-grill-entertainment",
+        "date": "2026-11-01",
+        "quote": "KARAOKE WEDNESDAYS ARE COMING TO HOGG DADDY’S | We’re turning up the mic EVERY WEDNESDAY NIGHT! Good singer? Come show us what you’ve got! Bad singer? EVEN BETTER! This is your moment to shine! Enjoy our specials and the Courage to sing!"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "#karaokenight | 07:00 PM - 10:00 PM",
+      "url": "https://hoggdaddys.com/clearwater-beach-clearwater-beach-hogg-daddy-s-beach-bar-and-grill-entertainment"
+     }
+    ]
+   },
+   "phoneSource": "Venue website hoggdaddys.com, checked 2026-11-02"
   },
   {
    "id": "fl-hot-sake-sushi-and-asian",
@@ -4601,7 +4733,7 @@
    "address": "25 Causeway Blvd, Clearwater",
    "state": "FL",
    "zip": "33767",
-   "phone": null,
+   "phone": "(727) 443-1750",
    "lat": 27.9768,
    "lng": -82.8262,
    "priceText": "$ (Facebook page)",
@@ -4623,7 +4755,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Clearwater/939296859519422/Marina-Cantina",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.marinacantina.com/"
    },
    "conflicts": [
     {
@@ -4643,7 +4775,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "Venue website marinacantina.com, checked 2026-11-02"
   },
   {
    "id": "fl-mega-burrito-restaurant",
@@ -4708,7 +4841,42 @@
     "facebookMirror": "https://www.foodyas.com/US/Clearwater/116390141717956/Mirage-Restaurant",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.miragerestaurant.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://miragerestaurant.com/",
+        "quote": "savor our exquisite dishes. | Dinner | An evening of culinary exploration, perfect for a romantic dinner or a night out with friends. | Special Events | Enjoy our signature dishes and tra",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Our restaurant is alive with entertainment, including memorable performances like karaoke and enchanting belly dances",
+      "url": "https://miragerestaurant.com/about-us/"
+     }
+    ]
    }
   },
   {
@@ -6064,7 +6232,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Clearwater/506922226059348/Sunset-Grill-Clearwater",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.sunsetgrillclearwater.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.sunsetgrillclearwater.com/",
+        "quote": "caters to a variety of tastes while maintaining a cozy, community-focused vibe that keeps locals and visitors coming back so make sure you place your order today for pick up or delivery.",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -6472,7 +6662,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Clearwater-Beach/159879540727667/Tate-Island-Grill",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.sandpearl.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.opalcollection.com/sandpearl/",
+        "quote": "FL gives you an easy-to-digest list of all the top attractions, restaurants, beaches, and local favorites in the area. | Read more | 5 Reasons Why Clearwater is One of the Best White Sand Beache",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.opalcollection.com/sandpearl/",
+        "quote": "oor and outdoor space, this Clearwater Beach resort is the ideal destination to host your romantic beach wedding, high-tech conference, or group retreat. Our expert events team is ready to",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -7168,7 +7394,7 @@
    "address": "2245 Nursery Rd, Clearwater",
    "state": "FL",
    "zip": "33764",
-   "phone": null,
+   "phone": "(727) 519-9001",
    "lat": 27.9418,
    "lng": -82.7442,
    "website": "http://triple-crown-saloon.com/",
@@ -7239,8 +7465,106 @@
     "facebookMirror": "https://www.foodyas.com/US/Clearwater/903599519509545/Triple-CROWN-Saloon",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-24",
-    "website": null
-   }
+    "website": "http://triple-crown-saloon.com/"
+   },
+   "trivia": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2027-05-13",
+      "datedLastSeen": "2027-05-13",
+      "postsSeen": 28,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://triple-crown-saloon.com/events",
+        "date": "2027-05-13",
+        "quote": "Trivia Night | Thursday, May 13th, 2027"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://triple-crown-saloon.com/events",
+        "date": "2027-05-06",
+        "quote": "Trivia Night | Thursday, May 6th, 2027"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://triple-crown-saloon.com/events",
+        "date": "2027-04-29",
+        "quote": "Trivia Night | Thursday, April 29th, 2027"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Our kitchen uses local ingredients and offers legendary fish and chips, delicious craft beer and wine to give you something to sip between rounds of pool or trivia, and with 13 TVs in house, we show ",
+      "url": "https://triple-crown-saloon.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Skip the reruns for trivia and live entertainment",
+      "url": "https://triple-crown-saloon.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " All those facts and song titles rattling around your head belong at trivia or music bingo",
+      "url": "https://triple-crown-saloon.com/"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://triple-crown-saloon.com/events",
+        "date": "2026-11-01",
+        "quote": "Not your average game of Bingo | Every Wednesday"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " All those facts and song titles rattling around your head belong at trivia or music bingo",
+      "url": "https://triple-crown-saloon.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Trivia and music bingo every week",
+      "url": "https://triple-crown-saloon.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Come join us for a music bingo gameshow",
+      "url": "https://triple-crown-saloon.com/events"
+     }
+    ]
+   },
+   "phoneSource": "Venue website triple-crown-saloon.com, checked 2026-11-02"
   },
   {
    "id": "fl-twobuks-saloon",
@@ -7249,7 +7573,7 @@
    "address": "1915 N Hercules Ave, Clearwater",
    "state": "FL",
    "zip": "33763",
-   "phone": null,
+   "phone": "(727) 442-0812",
    "lat": 27.9905,
    "lng": -82.7543,
    "priceText": "$$ (Facebook page)",
@@ -7274,8 +7598,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Clearwater/685017324848478/Twobuks-Saloon",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-31",
-    "website": null
-   }
+    "website": "http://www.twobuks.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://sportsbarclearwater.com/two-buks/",
+        "quote": "Two Buks – Norton's Sports Bar | Skip to content | X-twitter | Instagram | Home | Menus | Locations | Norton’s Southside",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website sportsbarclearwater.com/two-buks, checked 2026-11-02"
   },
   {
    "id": "fl-valentino-ristorante-italiano",
@@ -7671,7 +8018,7 @@
    "address": "282 Windward Psge, Clearwater",
    "state": "FL",
    "zip": "33767",
-   "phone": null,
+   "phone": "(727) 442-5900",
    "lat": 27.9776,
    "lng": -82.8173,
    "priceText": "$$ (Facebook page)",
@@ -7717,8 +8064,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Clearwater/810032372349042/Windward-Bar-%26-Grille",
     "fbPostsSeen": 10,
     "fbNewestPost": "2024-10-11",
-    "website": null
-   }
+    "website": "http://www.windwardbarandgrille.com/"
+   },
+   "phoneSource": "Venue website www.windwardbarandgrille.com, checked 2026-11-02"
   },
   {
    "id": "fl-the-copper-mug-clearwater",
@@ -7768,7 +8116,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/3014520533 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://montyspizzeria.com/: \"9:00 PM | Tue | 11:00 AM–9:00 PM | Wed | 11:00 AM–9:00 PM | Thu | 11:00 AM–9:30 PM | Fri | 11:00 AM–10:00 PM | Sat | 1\" (checked 2026-11-02)",
    "county": "Pinellas",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://montyspizzeria.com/",
+        "quote": "Authentic | Italian Cuisine | Family-Owned. Locally Loved. | Established by families for locals to enjoy authentic Italian cuisine, with recipes, passion, and hospitality that keep gene",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "city",

@@ -480,7 +480,7 @@
    "address": "10107 Southern Blv, Royal Palm Beach",
    "state": "FL",
    "zip": "33411",
-   "phone": null,
+   "phone": "(561) 727-8323",
    "lat": 26.6822,
    "lng": -80.2029,
    "website": "https://palaciodelmofongo.com/",
@@ -524,7 +524,8 @@
     "fbNewestPost": "2026-08-31",
     "website": "https://palaciodelmofongo.com/"
    },
-   "menu": "https://palaciodelmofongo.com/menu-beef/"
+   "menu": "https://palaciodelmofongo.com/menu-beef/",
+   "phoneSource": "Venue website palaciodelmofongo.com, checked 2026-11-02"
   },
   {
    "id": "fl-elrinconcitocolombiano2",
@@ -829,7 +830,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Royal-Palm-Beach/249960108514227/Los-Agaves-Mexican-Cuisine",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.losagavesmexicancuisine.com/"
    },
    "conflicts": [
     {
@@ -841,7 +842,29 @@
      "resolution": "Facebook number kept (venue-managed page)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.losagavesmexicancuisine.com/",
+        "quote": "RE CHEF | SPECIALTIES | WELCOME TO LOS AGAVES MEXICAN RESTAURANT | ★ | ROYAL PALM BEACH'S LOCAL FAVORITE | ★ | AUTHENTIC MEXICAN CUISINE & TRADITIONAL RECIPES | ★ | FRESH GUACAMOLE PREPARED AT Y",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-maxi-tienda-pahokee",
@@ -1193,7 +1216,72 @@
     "facebookMirror": "https://www.foodyas.com/US/Royal-Palm-Beach/163929403805845/Patagonia-Argentinian-Steak-House",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://asadorpatagoniawpb.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://asadorpatagoniawpb.com/",
+        "quote": "king every meal special. | Reserve a table | Sport bar | Cheer on your team at our lively Sports Bar Area, featuring screens for the big games and a menu packed with Argentinian favorites li",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://asadorpatagoniawpb.com/events",
+        "date": "2026-11-01",
+        "quote": "Live Music & Karaoke at Asador Patagonia | Fridays and Saturdays every week | Fridays and Saturdays every week"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " I took my mom there for Mother's Day, and they made the evening extra special with a live DJ and karaoke, which created such a fun and memorable experience",
+      "url": "https://asadorpatagoniawpb.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Join us every Friday and Saturday from 8–11 PM for live music and karaoke at Asador Patagonia",
+      "url": "https://asadorpatagoniawpb.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Live Music & Karaoke at Asador Patagonia | Friday, November 6th, 2026",
+      "url": "https://asadorpatagoniawpb.com/events"
+     }
+    ]
    }
   },
   {

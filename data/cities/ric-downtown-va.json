@@ -1160,7 +1160,8 @@
     "fbNewestPost": null,
     "website": "https://mexico-restaurant.com/"
    },
-   "websiteSource": "OpenStreetMap way/302351667 website tag (map data 2026-11-01), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/302351667 website tag (map data 2026-11-01), checked 2026-11-01",
+   "menu": "https://mexico-restaurant.com/food-menu"
   },
   {
    "id": "va-ml-steak-modern-chophouse",
@@ -2218,7 +2219,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/12739327121 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.goldlionrva.com/: \"d 10am-8pm Thursday. 9am-8pm | Friday 9am-9pm | Saturda\" (checked 2026-11-02)",
    "county": "Richmond City",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "LGBTQ-friendly"
+    ],
+    "summary": "LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.goldlionrva.com/",
+        "quote": "very morning. Each dish is designed to surprise and comfort at the same time. | As | EveryQueer | wrote, | “Stepping into Gold Lion is like stepping into a warm, vibrant hug from someon",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "neighborhood",

@@ -40,7 +40,29 @@
     "facebookMirror": "https://www.foodyas.com/US/State-College/285699134532/American-Ale-House-%26-Grill",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-19",
-    "website": null
+    "website": "http://www.americanalehouse.net/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://americanalehouse.net/",
+        "quote": "Welcome to the Ale House • State College's coziest fine dining | Jump to content | Jump to header | Jump to main menu | 821 Cricklewood Drive State Coll",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -307,7 +329,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://champsdowntown.com/menu"
   },
   {
    "id": "clem-s-roadside-bar-and-grill",
@@ -399,7 +422,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Boalsburg/109108554116/Duffy%27s-Tavern",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://duffystavernpa.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://duffystavernpa.com/",
+        "quote": "Duffy's Boalsburg Tavern – Fine Dining in Boalsburg, Pennsylvania | Skip to content | 814-466-6241 | 814-466-6241 | Home | About",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -476,17 +521,7 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [
-    {
-     "days": "Wed-Fri",
-     "text": "Happy hour 4–5 pm: $4 23 oz Yuengling draft, $8 mules",
-     "tags": [
-      "beer"
-     ],
-     "src": "Venue site gigisdining.com",
-     "checked": "2026-11-01"
-    }
-   ],
+   "happyHours": [],
    "specials": [
     {
      "days": "Sun",
@@ -1164,6 +1199,28 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
     "website": "https://mtviewcountryclub.restaurant/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://mtviewcountryclub.restaurant/",
+        "quote": "o. The natural beauty that surrounds us creates the ideal backdrop for a relaxed lunch, a romantic dinner, or a lively gathering with friends and family. | As part of the Mountain View Cou",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1305,7 +1362,8 @@
    ],
    "source": "hours from OpenStreetMap node/827475196 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Centre",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://localwhiskeybar.com/food-menu"
   },
   {
    "id": "pa-sharkies-bar-state-college",
@@ -1372,7 +1430,8 @@
       "url": "https://www.theshandygaff.com/"
      }
     ]
-   }
+   },
+   "menu": "https://www.theshandygaff.com/menu"
   },
   {
    "id": "pa-penn-steaks-state-college",
@@ -1397,7 +1456,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/4692981652 opening_hours tag (map data 2026-10-31; last checked on the map 2024-12-03) (checked 2026-11-01)",
    "county": "Centre",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://pennsteaks.com/menu"
   },
   {
    "id": "pa-brothers-bar-grill-state-college",
@@ -1464,7 +1524,8 @@
       "url": "https://www.brothersbar.com/statecollege"
      }
     ]
-   }
+   },
+   "menu": "https://www.brothersbar.com/menu-20"
   },
   {
    "id": "pa-el-jefes-taqueria-state-college",
@@ -1489,7 +1550,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/8720202882 opening_hours tag (map data 2026-10-31; last checked on the map 2025-02-04) (checked 2026-11-01)",
    "county": "Centre",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://eljefestaqueria.com/menu/"
   },
   {
    "id": "pa-lupitas-authentic-mexican-food-state-college",
@@ -1539,7 +1601,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/12909290487 opening_hours tag (map data 2026-10-31; last checked on the map 2025-07-01) (checked 2026-11-01)",
    "county": "Centre",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.bennysva.com/menu"
   },
   {
    "id": "pa-tasty-k-state-college",
@@ -1611,7 +1674,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://champssportsgrill.net/food-menu"
   },
   {
    "id": "pa-yallah-taco-state-college",
@@ -1756,12 +1820,59 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Enjoy $2 off our hot dog baskets, because what goes better together than beer & hot dog baskets",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website ottospubandbrewery.com/daily-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap way/262601115 opening_hours tag (map data 2026-11-01; last checked on the map 2026-10-08) (checked 2026-11-02); late hours confirmed by venue website https://www.ottospubandbrewery.com: \"et | State College, PA 16803 | HOURS | Monday - Thursday | 11:00 am - 9:00 pm | Friday | 11:00 am - 11:00 pm | Saturda\" (checked 2026-11-02)",
    "county": "Centre",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.ottospubandbrewery.com",
+        "quote": "here, tasty menu, and craft brewery, we hope it's easy to see why we are a favorite among locals and visitors alike! | WHAT'S NEW AT OTTO'S? | The best of the best—daily specials, weekly",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.ottospubandbrewery.com",
+        "quote": "luten-free options, ensuring that everyone can find something to enjoy. | ​ | Otto's is a family-friendly destination for beer lovers and foodies alike. With our welcoming, casual atmosphere, tas",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "counties": [

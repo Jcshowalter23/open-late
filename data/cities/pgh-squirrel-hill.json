@@ -313,36 +313,20 @@
     "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/266451470522560/El-Burro-Dos",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
-  },
-  {
-   "id": "gullifty-s",
-   "name": "Gullifty's",
-   "cuisine": "American",
-   "address": "1922 Murray Avenue, Pittsburgh",
-   "lat": 40.4357,
-   "lng": -79.92294,
-   "priceText": null,
-   "priceLevel": null,
-   "website": "http://en.wikipedia.org/wiki/index.html?curid=41754788",
-   "hours": "Mon-Thu 11a-12a; Fri-Sat 11a-1a; Sun 10a-12a",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from the venue's Facebook page (via foodyas mirror)",
-   "county": "Allegheny",
-   "crowdChecked": "2026-11-01",
-   "crowdSources": {
-    "restaurantji": null,
-    "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/157206407652034/Gullifty%27s",
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
+    "website": "http://elburropgh.com/pittsburgh-regent-square-food/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " They had a DJ, tequila tastings, and a raffle basket too",
+      "url": "https://www.elburropgh.com/"
+     }
+    ]
    }
   },
   {
@@ -662,7 +646,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/111820345520755/The-Milky-Way",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://milkywaypgh.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.milkywaypgh.com/",
+        "quote": "cious Kosher food, | we are a staple in our community and primarily focused on creating a family-friendly | atmosphere for our guest . When creating our restaurant, we made sure to | infuse the a",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -729,7 +735,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Swissvale/1548955355358187/The-Pub-in-the-Park",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-14",
-    "website": null
+    "website": "http://www.thepubinthepark.com/"
    },
    "trivia": {
     "nights": [],
@@ -741,6 +747,41 @@
       "date": "2026-11-04",
       "quote": "Trivia at 7PM | Wednesday November 4th",
       "url": "https://www.thepubinthepark.com/swissvale-swissvale-pub-in-the-park-happy-hours-specials"
+     }
+    ]
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thepubinthepark.com/",
+        "quote": "review by | Julie Anna E.: | Super fun bar! Great for sports, grabbing a drink, etc. Fun neighborhood bar that brings people in the community together. Always a good time... | Review by - Yelp",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Whether it’s trivia, karaoke, dueling pianos, or a Neil Diamond impersonator, the pub has something for everyone",
+      "url": "https://www.thepubinthepark.com/swissvale-swissvale-pub-in-the-park-about"
      }
     ]
    }
@@ -892,7 +933,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/1371572668 opening_hours tag (map data 2026-10-31) (checked 2026-11-01); active on-premise license: PLCB+ public license data export (LicenseExport.aspx, downloaded 2026-11-01), address from license",
    "county": "Allegheny",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.mineospizza.com/menu.html"
   },
   {
    "id": "pa-squirrel-hill-cafe-pittsburgh",

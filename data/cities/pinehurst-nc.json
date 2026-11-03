@@ -239,7 +239,29 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.elliottsonlinden.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.elliottsonlinden.com/",
+        "quote": "Elliotts on Linden | Fine Dining Farm-To-Table Restaurant in Pinehurst, NC | Skip to main content | 905 Linden Rd, Suite A",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -984,7 +1006,27 @@
    },
    "websiteSource": "OpenStreetMap node/14206428471 website tag (map data 2026-10-31), checked 2026-11-01",
    "trivia": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7:00 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.pinehurst.com/pinehurst-events/",
+        "date": "2026-11-01",
+        "quote": "Trivia at North & South Bar | - Every Wednesday - 7:00 pm | - Every Wednesday - 7:00 pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -1087,7 +1129,27 @@
     "website": "https://www.pinehurst.com/dining/villaggio/"
    },
    "trivia": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7:00 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.pinehurst.com/pinehurst-events/",
+        "date": "2026-11-01",
+        "quote": "Trivia at North & South Bar | - Every Wednesday - 7:00 pm | - Every Wednesday - 7:00 pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],

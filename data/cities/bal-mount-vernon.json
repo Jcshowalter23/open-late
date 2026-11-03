@@ -587,7 +587,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/633069963757127/Fadensonnen",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-20",
-    "website": null
+    "website": "http://www.fadensonnen.com/"
    },
    "conflicts": [
     {
@@ -607,7 +607,51 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "dj": {
+    "nights": [
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "posted on 4 different Suns",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": "2026-11-01",
+      "postsSeen": 4,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.fadensonnen.com/events",
+        "date": "2026-11-01",
+        "quote": "10/18: Headband | 10/25: Microkingdoms | -November, 2026- | 11/1: >> 11/1: DJ Jason Willett"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.fadensonnen.com/events",
+        "date": "2026-09-06",
+        "quote": "8/23: Age of Peace | 8/30: Zach Levinson | -September, 2026- | 9/6: >> 9/6: DJ Hummingbird Feeder"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.fadensonnen.com/events",
+        "date": "2026-08-16",
+        "quote": "-August, 2026- | 8/2: Capacity | 8/9: Rachel Beetz, Nantondu | 8/16: FMVEE, Professor Bang ( >> 8/16: FMVEE, Professor Bang (DJ)"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "2/8: DJ Diaspora | 2/15: Wednesday Knudsen, John Berndt",
+      "url": "https://www.fadensonnen.com/events"
+     }
+    ]
+   }
   },
   {
    "id": "md-fishnet",
@@ -827,7 +871,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$3 OFF Wings, Tenders & Chicken Quesadillas",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website homeslyce.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -840,7 +895,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/1750387871935500/HomeSlyce---JHU",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.homeslyce.com/"
    },
    "conflicts": [
     {
@@ -898,6 +953,28 @@
       "date": "2026-11-01",
       "quote": " They offer trivia night during the week and alcoholic beverages",
       "url": "https://homeslyce.com/"
+     }
+    ]
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://homeslyce.com/",
+        "quote": "kstore. Kid-friendliness: My children enjoyed their wings and fries. The environment was kid friendly and not boisterous. I was there at lunchtime on a Saturday. | Çağrı Fazıl Bayoğlu | I had",
+        "self": true
+       }
+      ]
      }
     ]
    }
@@ -1067,7 +1144,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/651559008277403/Magdalena",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://magdalenarestaurant.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.theivybaltimore.com/dine/magdalena",
+        "quote": "ing it. We are committed to creating lasting memories through exceptional hospitality for locals and travelers. | Wine Menu | Savor the allure of a | perfectly crafted cocktail | Magdale",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.theivybaltimore.com/dine/magdalena",
+        "quote": "spot: The Garden Room, overlooking The Ivy's charming walled courtyard; the intimate and romantic Treasury; the whimsical Tasting Room, ideal for sampling selections from the curated whis",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1813,7 +1926,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/198273610514350/Restaurante-Tio-Pepe",
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-07-24",
-    "website": null
+    "website": "http://www.tiopepe.us/home"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.tiopepe.us/",
+        "quote": "he Restaurante Tio Pepe menu. Your taste buds will be glad you did. Stop by tonight for a fine dining experience you'll never forget. We also accept reservations. | Browse our website | Home",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2043,7 +2178,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/136988159673313/Tambers-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://www.tambersrestaurant.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.tambersrestaurant.com/",
+        "quote": "rant in Baltimore, MD | , has been quietly outperforming its own storefront since 1993. | Regulars in Charles Village tend to describe Tamber's the same way – the restaurant near St. Paul",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2306,8 +2463,28 @@
    "hoursNote": "Restaurantji (updated 2026-10-18) lists different hours: Mon-Tue closed; Wed-Fri 5p-12a; Sat 12p-4p,5p-12a; Sun 12p-5p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Wed-Sat",
+     "text": "Happy hour · Wed–Sat, 6–10 PM",
+     "tags": [],
+     "src": "Venue website TheManorBaltimore.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Late-night wings & pretzels $10",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website TheManorBaltimore.com/private-events-guide",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events"
@@ -2390,7 +2567,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/100708844697135/The-Manor",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.TheManorBaltimore.com/"
    },
    "conflicts": [
     {
@@ -2409,7 +2586,62 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "9 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.TheManorBaltimore.com/",
+        "date": "2026-11-01",
+        "quote": "Karaoke Night | Thursday"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.TheManorBaltimore.com/events",
+        "date": "2026-11-01",
+        "quote": "Karaoke Night | Every Thursday | Starting at 9 PM | Every Thursday · 9 PM"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.TheManorBaltimore.com/events",
+        "date": "2026-11-01",
+        "quote": "Karaoke Night | Every Thursday · 9 PM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-12-12",
+      "quote": " & Saturday, December 12, 2026 · From noon | Microphones & Mimosas | Brunch, mimosas, and the mic. Join us for the next >> Join us for the next karaoke brunch dates at The Manor",
+      "url": "https://www.TheManorBaltimore.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Baltimore Brunch, Karaoke & Nightlife",
+      "url": "https://www.TheManorBaltimore.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Explore karaoke, weekend brunch, drag shows, and nightlife in Mount Vernon at 924 N Charles Street, Baltimore",
+      "url": "https://www.TheManorBaltimore.com/events"
+     }
+    ]
+   }
   },
   {
    "id": "md-the-owl-bar",
@@ -3324,7 +3556,20 @@
    ],
    "source": "hours from OpenStreetMap node/13029823201 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://peabodyheightsbrewery.com: \"m | Tuesday: 4:00 - 10:00pm | Wednesday: 4:00 - 10:00pm | Thursday: 4:00 - 10:00pm | Friday: 4:00 - 11:00pm | Saturda\" (checked 2026-11-02)",
    "county": "Baltimore City",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-04",
+      "quote": "View Details | Wednesday, Nov. 4 | 7:30 pm - 10:00 pm | Greg’s Shitty >> Greg’s Shitty Trivia | 7:30 pm - 10:00 pm",
+      "url": "https://peabodyheightsbrewery.com/events/"
+     }
+    ]
+   }
   },
   {
    "id": "md-angelis-pizzeria-bar-bolton-hill-baltimore",

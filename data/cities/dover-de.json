@@ -2518,7 +2518,7 @@
    "address": "492 Walnut Shade Rd, Dover",
    "state": "DE",
    "zip": "19901",
-   "phone": null,
+   "phone": "(302) 698-3305",
    "lat": 39.0705,
    "lng": -75.5526,
    "priceText": "$$ (Facebook page)",
@@ -2564,7 +2564,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Dover/111522308873384/The-Green-Stinger-Sports-Bar-and-Grill---Woodside",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.GreenStingerDE.com/"
    },
    "trivia": {
     "nights": [
@@ -2619,7 +2619,8 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
-   }
+   },
+   "phoneSource": "Venue website www.GreenStingerDE.com, checked 2026-11-02"
   },
   {
    "id": "de-the-original-sambos-tavern",
@@ -3228,7 +3229,8 @@
       "url": "https://endzonebarandgrill.com/events/"
      }
     ]
-   }
+   },
+   "menu": "https://endzonebarandgrill.com/menu/"
   },
   {
    "id": "de-the-greene-turtle-dover",
@@ -3253,7 +3255,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/693438370 opening_hours tag (map data 2026-10-31; last checked on the map 2025-12-07) (checked 2026-11-01)",
    "county": "Kent",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.thegreeneturtle.com/menu/"
   },
   {
    "id": "de-pizzeria-dimeo-smyrna",
@@ -3278,7 +3281,43 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/1444423455 opening_hours tag (map data 2026-11-01; last checked on the map 2025-12-16) (checked 2026-11-02); late hours confirmed by venue website https://www.pizzeriadimeo.com/: \"07 | pizzeriadimeo@gmail.com | Hours | Mon to Thu | 10:00 AM to 9:00 PM | Fri and Sat | 10:00 AM to 10:00 PM | Sunday \" (checked 2026-11-02)",
    "county": "Kent",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.pizzeriadimeo.com/",
+        "quote": "esh daily | Straight from our kitchen | Italian Favorites | The Italian plates our Smyrna regulars order again and again. Every pasta and dinner comes with salad and bread. | Parmigiana Di",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.pizzeriadimeo.com/",
+        "quote": "and | Pickup | . | What else should I know about Pizzeria DiMeo? | Easy Parking | and | Family Friendly | . | Which areas does Pizzeria DiMeo serve? | Clayton | , | Hickory Ridge | , | Smyrna",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "city",

@@ -1160,7 +1160,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Sun",
+     "text": "KIDS EAT FREE EVERY SUNDAY",
+     "tags": [],
+     "src": "Venue website dickeys.com/promos/current-deals",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -1173,7 +1181,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.dickeys.com"
    }
   },
   {
@@ -4612,8 +4620,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ny/buffalo/xi-an-gourmet-/ (updated 2026-09-24), checked 2026-11-02",
    "lat": 43.012363,
    "lng": -78.821167,
-   "website": "https://www.xiangourmetny.com/",
-   "websiteSource": "OpenStreetMap node/9041754748 website tag (map data 2026-10-31), checked 2026-11-02",
+   "website": null,
+   "websiteSource": "removed 2026-11-02: domain now for sale",
    "hours": "Mon closed; Tue-Sat 11a-9p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -4713,12 +4721,46 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$4 Canned Beer, $5 Draft Beer, 20% Off Cocktails (available only in the bar)",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website grezionmain.com/calendar",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/8004749915 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); venue website loads over https (https://www.grezionmain.com/), rechecked 2026-11-02 (earlier drop was a proxy failure on the http:// address)",
    "county": "Erie",
-   "addedBy": "refresh-restore"
+   "addedBy": "refresh-restore",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2027-02-16",
+      "quote": "2:00 PM | Google Calendar | ICS | Join us Sunday, Feb 16th for Galentine’s Day brunch! 💐✨ We will have >> 💐✨ We will have DJ Sike spinning in the bar, Buffalo Permanent Jewelry Pop-up, exciting food a",
+      "url": "https://www.grezionmain.com/calendar"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "The Christmas Eve party will begin at 9PM in the bar with DJ SIKE",
+      "url": "https://www.grezionmain.com/calendar"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " DJ Crespo Beats will be kicking off the party in the bar at 8pm and spinning until midnight",
+      "url": "https://www.grezionmain.com/calendar"
+     }
+    ]
+   }
   },
   {
    "id": "ny-anchi-a-la-carte-amherst",
@@ -4743,7 +4785,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/7533593105 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://www.anchialacarte.com/: \"6, US | 716-235-8402 | Business Hours | Sunday: | 11:00 AM | - | 8:00 PM | Monday: | 11:00 AM | - | 9:00 PM | Tuesday\" (checked 2026-11-02)",
    "county": "Erie",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.anchialacarte.com/",
+        "quote": "our | Banh Mi | on a Vietnamese baguette with buttery mayo, pickled carrots and cilantro. Regulars also order the grilled | Vermicelli Bowls | , fresh | Spring Rolls | with peanut sauce, a",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "ny-og-dumpling-house-tonawanda",

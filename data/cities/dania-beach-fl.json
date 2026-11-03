@@ -415,7 +415,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Dania-Beach/668612466344217/Elvis-Italian-Grille",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-22",
-    "website": null
+    "website": "http://www.elvisitaliangrille.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://elvisitaliangrille.com/",
+        "quote": "from the Hard Rock Hotel & Casino, we offer a vibrant fine-dining experience perfect for date nights, special occasions, or a night out with friends. | Our menu features hand-rolled pasta,",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -901,7 +923,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "00 Bucket of 5 $20",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website littlecubancafe.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -912,7 +945,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Lauderdale/886943314716202/Little-Cuban-Cafe-Restaurant",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.littlecubancafe.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.littlecubancafe.com/",
+        "quote": "eart of Cuba at Little Cuban Cafe in Dania Beach! | Voted the | top Cuban restaurant | by locals on Google Reviews and proudly ranked among the | 25 best Cuban restaurants in the U.S.",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1143,6 +1198,44 @@
        }
       ],
       "confidence": "medium"
+     },
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://marina84.com/",
+        "date": "2026-11-01",
+        "quote": " We Also Have An Extensive Weekly Line Up With Karaoke Thursdays, And Live Music Every Friday And Saturday, So Be Sure To Check Out Our Events Page"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://marina84.com/",
+        "date": "2026-11-01",
+        "quote": " We Also Have An Extensive Weekly Line Up With Karaoke Thursdays, And Live Music Every Friday And Saturday, So Be Sure To Check Out Our Events Page"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
      }
     ],
     "stale": [],
@@ -2637,7 +2730,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Dania-Beach/113552738235712/Yalla-Beiruty",
     "fbPostsSeen": 2,
     "fbNewestPost": "2026-05-25",
-    "website": null
+    "website": "http://Yallabeiruty.com/"
    },
    "conflicts": [
     {
@@ -2649,7 +2742,30 @@
      "resolution": "Facebook number kept (venue-managed page)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Live DJ",
+      "url": "https://Yallabeiruty.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Would you like a live DJ",
+      "url": "https://Yallabeiruty.com/book-us-for-your-events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Live DJ",
+      "url": "https://Yallabeiruty.com/shows-events/"
+     }
+    ]
+   }
   },
   {
    "id": "fl-zen-mystery",

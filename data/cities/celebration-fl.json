@@ -662,12 +662,49 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Sun",
+     "text": "Bottomless $17, available during brunch on Sundays",
+     "tags": [],
+     "src": "Venue website thewineimperium.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "Get 25% off the purchase of all bottles of wine only on Wednesday",
+     "tags": [],
+     "src": "Venue website thewineimperium.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/761842881 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://thewineimperium.com/: \"The Wine Imperium Downtown Celebration Florida | Open Daily 11:00 am to 10:00 pm Sunday Br\" (checked 2026-11-02)",
    "county": "Osceola",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://thewineimperium.com/",
+        "quote": "selection of wines by the glass or bottle. Our carefully curated wine list features both local favorites and a diverse range of wines from all around the world, ensuring a delightful experience",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-posto-pizza-celebration",
@@ -692,7 +729,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/12796051672 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://www.postopizza.com/location/posto-pizza/: \" Tuesday: | 4:00 pm – 10:00 pm | Wednesday - Thursday: | 11:00 am – 10:00 pm | Friday: | 11:00 am – 11:00 pm | Saturda\" (checked 2026-11-02)",
    "county": "Osceola",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.postopizza.com/",
+        "quote": "e Square Pizzas | Local | Posto Pizza is proudly located in Celebration, Florida, serving locals and visitors throughout Central Florida. | Whether you’re dining in, picking up dinner, o",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "town",

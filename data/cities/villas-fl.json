@@ -108,7 +108,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour 3-7 PM Monday-Friday",
+     "tags": [],
+     "src": "Venue website buckettswingsandmore.com/index.php/about-us",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -142,7 +151,20 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Myers/316113851906389/Bucketts-Wings-%26-More",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://buckettswingsandmore.com/"
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia every Tuesday at 6:30 PM",
+      "url": "https://buckettswingsandmore.com/index.php/about-us/"
+     }
+    ]
    }
   },
   {
@@ -1153,7 +1175,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Join us for Happy Hour every weekday from 11am-6pm",
+     "tags": [],
+     "src": "Venue website roostersbarns.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1168,7 +1199,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Myers/102588312475210/Rooster%27s-Barn-%26-Grill---Ft.-Myers",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://www.roostersbarns.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://roostersbarns.com/",
+        "quote": "Rooster's Sports Barns - Sports Bar, Restaurants, Best Restaurants | Open For A Full Made to Order Breakfast 7",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1306,8 +1359,25 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy Hour 3 - 6 PM daily",
+     "tags": [],
+     "src": "Venue website starzpizzeria.com/fort-myers-paddle-creek-starz-italian-restaurant-and-pub-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "Taco Tuesdays $2",
+     "tags": [],
+     "src": "Venue website starzpizzeria.com/fort-myers-paddle-creek-starz-italian-restaurant-and-pub-happy-hours-specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -1321,7 +1391,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Myers/511072379082727/Starz-Italian-Restaurant-%26-Pub",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.starzpizzeria.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Date night / upscale"
+    ],
+    "summary": "Family-friendly; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.starzpizzeria.com/",
+        "quote": "Perfection | Catering | Book a Table | And Make Some Memories | Reservations | Casual and Family Friendly | Bring The Whole Family | Parties | Dot slide navigation number 1 | Dot slide navigation",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.starzpizzeria.com/",
+        "quote": "is under new management. Dave Virginia is now carrying on the Starz tradition of quality fine dining and excellence in service. You can meet Dave at the Gladiolus Drive location in Ft. Myers",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

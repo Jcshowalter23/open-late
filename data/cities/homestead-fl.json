@@ -335,7 +335,8 @@
     "website": "https://www.doctorlimon.com/"
    },
    "websiteSource": "OpenStreetMap node/12360656210 website tag (map data 2026-10-31), checked 2026-11-01",
-   "phoneSource": "OpenStreetMap node/12360656210 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/12360656210 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.doctorlimon.com/menu/"
   },
   {
    "id": "fl-el-diamante",
@@ -520,7 +521,25 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Creamy Mashed Potatoes BONUS: Get a FREE Bucket of Beers with the purchase of the Pit Master Platter",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website jjscuisine.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Tue",
+     "text": "BRISKET TACO TUESDAYS @ JJ’S CUISINE & MOJITOS 50% off Something incredible is happening in Homestead… Every other Tuesday, JJ’s Cuisine turns up the flavor with our legendary BRISKET TACOS & FRESH MOJITOS NIGHT",
+     "tags": [],
+     "src": "Venue website jjscuisine.com/specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji (updated 2026-10-29; newer than any Facebook activity) (checked 2026-11-01)",
@@ -531,7 +550,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Homestead/100984359512413/JJ%27s-Cuisine",
     "fbPostsSeen": 9,
     "fbNewestPost": "2025-11-16",
-    "website": null
+    "website": "http://www.jjscuisine.com/"
    },
    "conflicts": [
     {
@@ -561,7 +580,29 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://jjscuisine.com/",
+        "quote": "feast ✔ Families looking for a real BBQ dinner ✔ Travelers heading to the Florida Keys ✔ Locals craving authentic smoked BBQ Our meats are slow-smoked for hours over real hardwood, brin",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-la-cruzada-restaurant",

@@ -163,7 +163,7 @@
    "address": "8448 N 56th St, Temple Terrace, Tampa",
    "state": "FL",
    "zip": "33617",
-   "phone": null,
+   "phone": "(813) 988-6959",
    "lat": 28.0274,
    "lng": -82.394,
    "priceText": "$$ (Facebook page)",
@@ -257,8 +257,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Tampa/152119641499086/Gaspar%27s-Patio-Bar-%26-Grille",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-06-03",
-    "website": null
-   }
+    "website": "http://gasparspatiobarandgrille.com/"
+   },
+   "phoneSource": "Venue website www.gasparspatiobarandgrille.com, checked 2026-11-02"
   },
   {
    "id": "fl-greenland-restaurant",
@@ -1103,7 +1104,43 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/14098045102 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); venue website loads over https (https://www.hotredbird.com/), rechecked 2026-11-02 (earlier drop was a proxy failure on the http:// address)",
    "county": "Hillsborough",
-   "addedBy": "refresh-restore"
+   "addedBy": "refresh-restore",
+   "crowdType": {
+    "labels": [
+     "College crowd",
+     "Families"
+    ],
+    "summary": "Families earlier, bar crowd later; popular with college students.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "College crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.hotredbird.com/",
+        "quote": "elief that eating good was for all people – whether you are a big-time baller or a hungry college student who needs something delicious and filling on a budget to help power through the day. | We",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.hotredbird.com/",
+        "quote": "rom another kick-a#! chicken place. We are definitely not ChikFila, so don’t count on any family-friendly Hellos, Thank you’s, Our Pleasures, or kids meals BUT we will do our best to always stay",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "town",

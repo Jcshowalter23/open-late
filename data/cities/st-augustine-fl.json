@@ -573,7 +573,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Augustine/492386744120062/Blackfly-The-Restaurant",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://www.blackflytherestaurant.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://blackflytherestaurant.com/",
+        "quote": "etail, ensuring your guests enjoy the same outstanding flavors that make our restaurant a local favorite. From intimate gatherings to large-scale events, we'll help make your occasion seamless a",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://blackflytherestaurant.com/",
+        "quote": "e below: | About us | Founded in 2012, Blackfly The Restaurant is where travel & art meet upscale cuisine. Located in St. Augustine, Blackfly brings together flavors inspired by the world",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -710,7 +746,7 @@
    "address": "22 Hypolita St, Saint Augustine",
    "state": "FL",
    "zip": "32084",
-   "phone": null,
+   "phone": "(904) 823-0787",
    "lat": 29.8951,
    "lng": -81.3122,
    "priceText": "$$$ (Facebook page)",
@@ -734,8 +770,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Augustine/198767366613/Casa-Maya",
     "fbPostsSeen": 10,
     "fbNewestPost": "2023-03-31",
-    "website": null
-   }
+    "website": "http://casamayasta.com/"
+   },
+   "phoneSource": "Venue website casamayasta.com, checked 2026-11-02"
   },
   {
    "id": "fl-catch-27",
@@ -771,7 +808,8 @@
     "fbNewestPost": "2026-10-14",
     "website": "https://www.catchtwentyseven.com"
    },
-   "websiteSource": "OpenStreetMap way/364786215 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/364786215 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.catchtwentyseven.com/s/C27-Fall-Menu-91026-Food.pdf"
   },
   {
    "id": "fl-chez-lamour",
@@ -1629,7 +1667,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Augustine/103041938334599/Jimmy-Hula%27s-St.-Augustine",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-01",
-    "website": null
+    "website": "http://jimmyhulas.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.jimmyhulas.com/",
+        "quote": "areers | Locations | Privacy Policy | Terms & Conditions | ©2026 Copyright Jimmy Hula's | LOCALS ONLY! | Sign up for the latest news, deals, & offerings | Name | Email | SIGN UP | bottom",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1679,7 +1739,17 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Every Day Happy Hour (5-7 PM): $2 off all draft beers and house wines",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website Leafandbeanbyislandjim.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1694,7 +1764,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Augustine/306312409229431/Leaf-and-Bean-by-Island-Jim-Saint-Augustine",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-09-12",
-    "website": null
+    "website": "http://Leafandbeanbyislandjim.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://Leafandbeanbyislandjim.com/",
+        "quote": "in 2024, our locally owned and operated lounge offers a modern, sophisticated setting for locals and visitors alike. Whether you’re stopping by for a quick cigar pick-up on the way to th",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1908,7 +2000,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Augustine/170407646569/Michael%27s-St.-Augustine",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-21",
-    "website": null
+    "website": "http://www.MichaelsSa.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.MichaelsSa.com/",
+        "quote": "GIFT CARDS | Now Open in Our New Location | in Scenic Vilano Beach | MAKE RESERVATIONS | Fine Dining | Michael’s is a contemporary steak and seafood restaurant in scenic Vilano Beach, Florid",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1965,7 +2079,24 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon-Fri",
+     "text": "All hours spent at Mojo are happy ones, but the Happiest of Hours occur Monday-Friday from 3-6 where we off $1 OFF our beer and wine",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website mojobbq.com/mojo-bar-b-que",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "We love being a place for families to gather, so on Wednesdays: Kids eat free",
+     "tags": [],
+     "src": "Venue website mojobbq.com/mojo-bar-b-que",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -1979,7 +2110,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Augustine/128621693938402/MOJO-Old-City-BBQ",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-22",
-    "website": null
+    "website": "http://www.mojobbq.com/"
    }
   },
   {
@@ -2502,103 +2633,6 @@
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-06-04",
     "website": null
-   }
-  },
-  {
-   "id": "fl-romeos-cafe-italiano",
-   "name": "Romeo's Cafe Italiano",
-   "cuisine": "Italian",
-   "address": "12 Cathedral Pl, Saint Augustine",
-   "state": "FL",
-   "zip": "32084",
-   "phone": "(904) 679-4785",
-   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Saint-Augustine/414059231975025/Romeo%27s-Cafe-Italiano), checked 2026-11-01",
-   "lat": 29.8929,
-   "lng": -81.3117,
-   "priceText": "$$ (Facebook page)",
-   "priceLevel": "$$",
-   "website": "https://www.visitstaugustine.com/restaurant/romeos-cafe-italiano",
-   "hours": "Mon-Fri 3p-10p; Sat-Sun 12p-10p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Date night"
-   ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
-   "county": "St. Johns",
-   "crowdType": {
-    "labels": [
-     "Sports fans",
-     "Date night / upscale"
-    ],
-    "summary": "Popular for watching games; a date-night / upscale spot.",
-    "confidence": "medium",
-    "details": [
-     {
-      "label": "Sports fans",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "venue",
-        "src": "venue's website",
-        "url": "https://www.visitstaugustine.com/restaurant/romeos-cafe-italiano-closed",
-        "quote": "Pancakes/Waffles | Pizza | Polish | Sandwiches | Soul Food | Soup & Salad | Southern | Sports Bar | Sushi | Tapas | Thai | Vegan Friendly | Vegetarian | Waterfront | Request Visitor Infor",
-        "self": true
-       }
-      ]
-     },
-     {
-      "label": "Date night / upscale",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "venue",
-        "src": "venue's website",
-        "url": "https://www.visitstaugustine.com/restaurant/romeos-cafe-italiano-closed",
-        "quote": "Waterfront | Eat & Drink | ALL Restaurants | Bars & Pubs | Breakfast | Family Dining | Fine Dining | Food Trucks | Happy Hour | Seafood | Spanish | ALL Categories | Events | ALL Events | H",
-        "self": true
-       }
-      ]
-     }
-    ]
-   },
-   "karaoke": {
-    "nights": [],
-    "stale": [],
-    "hints": [],
-    "conflicts": [],
-    "oneoffs": [
-     {
-      "date": "2027-01-08",
-      "quote": "Friday, Jan. 8, 2027 | 4:00 p.m. to 6:00 p.m. | (904) 826-0000 | Enjoy Nights of Lights with pirates who lead a holiday >> Enjoy Nights of Lights with pirates who lead a holiday sing-along",
-      "url": "https://www.visitstaugustine.com/events/seasonal"
-     }
-    ]
-   },
-   "dj": {
-    "nights": [],
-    "stale": [],
-    "hints": [],
-    "conflicts": [],
-    "oneoffs": [
-     {
-      "date": "2026-11-01",
-      "quote": "Dancing / DJs",
-      "url": "https://www.visitstaugustine.com/events/live-entertainment"
-     }
-    ]
-   },
-   "crowdChecked": "2026-11-01",
-   "crowdSources": {
-    "restaurantji": null,
-    "facebookMirror": "https://www.foodyas.com/US/Saint-Augustine/414059231975025/Romeo%27s-Cafe-Italiano",
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": "https://www.visitstaugustine.com/restaurant/romeos-cafe-italiano"
    }
   },
   {
@@ -3369,7 +3403,7 @@
    "address": "265 East Marina Cove Dr, Saint Augustine",
    "state": "FL",
    "zip": "32080",
-   "phone": null,
+   "phone": "(904) 547-2723",
    "lat": 29.8658,
    "lng": -81.2961,
    "priceText": "$$ (Facebook page)",
@@ -3393,8 +3427,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Augustine/162298603792917/The-Black-Molly-Grill",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-09-16",
-    "website": null
-   }
+    "website": "http://theblackmollygrill.com/"
+   },
+   "phoneSource": "Venue website theblackmolly.com, checked 2026-11-02"
   },
   {
    "id": "fl-the-boathouse-st-augustine",
@@ -3414,16 +3449,7 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [
-    {
-     "days": "Mon-Fri",
-     "text": "Happy Hour 4-7 *at the bar top only* Monday – Friday – 1/2 off drafts, all wine, single liquor drinks & select appetizers including some sushi options",
-     "tags": [],
-     "src": "Venue website theboathousesta.com",
-     "checked": "2026-11-01",
-     "flag": "Prices not listed"
-    }
-   ],
+   "happyHours": [],
    "specials": [
     {
      "days": "See venue",
@@ -3584,7 +3610,57 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Augustine/148944848513430/The-Cozy-Inn",
     "fbPostsSeen": 1,
     "fbNewestPost": "2025-09-03",
-    "website": null
+    "website": "http://www.thecozyinn.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thecozyinn.com/",
+        "quote": "will guide you to the | sites of interest | and | great eateries where the St. Augustine locals go | . Your accommodations will exceed your expectations! Being a small property, we prid",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thecozyinn.com/",
+        "quote": "of St. Augustine accommodation you would need. Where else in St. Augustine can you find a Kid Friendly and Pet Friendly hotel (nominal pet fee) that is also versatile enough to remain an extre",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thecozyinn.com/",
+        "quote": "hotel (nominal pet fee) that is also versatile enough to remain an extremely private and romantic Inn at the same time? We know that St. Augustine lends itself to both romantic and family",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -3830,7 +3906,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Join us for Happy Hour from 3 to 7pm Monday through Saturday, and 4:30 to 7pm Sunday",
+     "tags": [],
+     "src": "Venue website thereefstaugustine.com/about",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -3844,7 +3929,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Augustine/196492533654/The-Reef-Restaurant",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://thereefstaugustine.com/"
    }
   },
   {

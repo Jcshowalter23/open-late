@@ -558,7 +558,7 @@
    "address": "1099 NE 79th St, Miami",
    "state": "FL",
    "zip": "33138",
-   "phone": null,
+   "phone": "(786) 534-2136",
    "lat": 25.8484,
    "lng": -80.1744,
    "priceText": "$$ (Facebook page)",
@@ -605,8 +605,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami/1595555520758664/Ferraro%27s-Kitchen-Restaurant-%26-Wine-Bar",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-06-08",
-    "website": null
-   }
+    "website": "http://ferraroskitchen.com/"
+   },
+   "phoneSource": "Venue website www.ferraroskitchen.com, checked 2026-11-02"
   },
   {
    "id": "fl-fiorito",
@@ -1741,7 +1742,7 @@
    "address": "162 NW 73rd St, Miami",
    "state": "FL",
    "zip": "33150",
-   "phone": null,
+   "phone": "(305) 631-2496",
    "lat": 25.8404,
    "lng": -80.2005,
    "priceText": "$$ (Facebook page)",
@@ -1763,8 +1764,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami/100839795066420/Rosie%27s",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://rosiesmia.com/"
+   },
+   "phoneSource": "Venue website www.rosiesmia.com, checked 2026-11-02"
   },
   {
    "id": "fl-sherwoods-bistro",
@@ -1850,7 +1852,56 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami/343076969108441/Shokudo",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.shokudomiami.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://shokudomiami.com/",
+        "quote": "w by | Sheenon O: | My wife and I come here once a week and sit at the sushi bar. Perfect neighborhood spot to have some good food and enjoy a night with your better half. Crunchy sushi is always a",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://shokudomiami.com/",
+        "quote": "re your table now to indulge in a delightful dining experience. Whether you're planning a romantic dinner for two or a gathering with friends, our team is here to make your visit memorable",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Deejay L:",
+      "url": "https://shokudomiami.com/"
+     }
+    ]
    }
   },
   {
@@ -1916,7 +1967,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami/101381649325088/Snappers-Miami",
     "fbPostsSeen": 12,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://snappersmiami.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://snappersmiami.com/",
+        "quote": "a restaurant - we're a gathering place for families, friends, and flavor enthusiasts. Our family-friendly atmosphere and drive-through convenience make us a trusted spot for satisfying cravings",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2026,7 +2099,7 @@
    "address": "1071 NE 79th St, Miami",
    "state": "FL",
    "zip": "33138",
-   "phone": null,
+   "phone": "(305) 200-5672",
    "lat": 25.8482,
    "lng": -80.1752,
    "priceText": "$$ (Facebook page)",
@@ -2036,7 +2109,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Best for: old-school Miami · 2510 NW 187th St, Miami Gardens · Happy hour every day, noon to 8pm · Cash is king here",
+     "tags": [],
+     "src": "Venue website out.miami/guides/strip-clubs",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -2050,8 +2132,121 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami/736712286380851/Tap79-Gastropub-%26-Craft-Beer-Bar",
     "fbPostsSeen": 10,
     "fbNewestPost": "2021-12-28",
-    "website": null
-   }
+    "website": "http://www.tap79miami.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale",
+     "Dance / club crowd"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot; a dancing / club crowd late.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.out.miami/guides/strip-clubs",
+        "quote": "One of the best-rated clubs in South Florida, with thousands of reviews and service that regulars keep naming by server. Scarlett's sits on the Miami and Fort Lauderdale line in Hallandal",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.out.miami/guides/strip-clubs",
+        "quote": "sh Cabaret | Miami | an Upper East Side night | 10 | Dean's Gold | North Miami Beach | an upscale night near Aventura | 11 | Taboo Miami by G5ive | North Miami Beach | themed hip-hop nigh",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.out.miami/guides/strip-clubs",
+        "quote": "ed-about club right now, and one of the highest-rated in the whole guide. Erotica mixes a nightclub feel with a hookah and cocktail bar, and reviewers regularly single out the bartenders an",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.out.miami/guides/strip-clubs",
+        "date": "2026-11-01",
+        "quote": " ONE is popular for its after-work happy hour and gets packed after midnight on weekends, when the DJ and VIP sections take over"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.out.miami/guides/strip-clubs",
+        "date": "2026-11-01",
+        "quote": " ONE is popular for its after-work happy hour and gets packed after midnight on weekends, when the DJ and VIP sections take over"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Gold Rush runs more like a nightclub, with LED lighting and a DJ driving the room, and its early-evening specials make it one of the better-value starts to the night on the Upper East Side",
+      "url": "https://www.out.miami/guides/strip-clubs"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Vixens calls itself the Sexy Circus, and the name fits: fire performers, hoop acts and acrobatics run alongside the dancers, and well-known DJs have played the room",
+      "url": "https://www.out.miami/guides/strip-clubs"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Energetic, neon-lit night spot with trapeze dancers, burlesque shows, DJs & live music performances",
+      "url": "https://www.out.miami/nightlife/adult-entertainment/e11even"
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.out.miami/guides/strip-clubs, checked 2026-11-02"
   },
   {
    "id": "fl-the-new-yorker-miami",
@@ -2143,7 +2338,7 @@
    "address": "215 NE 82 St, Miami",
    "state": "FL",
    "zip": "33138",
-   "phone": null,
+   "phone": "(786) 423-3578",
    "lat": 25.8499,
    "lng": -80.1924,
    "priceText": "$$ (Facebook page)",
@@ -2165,8 +2360,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami/114398516631561/Tran-An",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-10-28",
-    "website": null
-   }
+    "website": "http://www.trananmiami.com/"
+   },
+   "phoneSource": "Venue website www.trananmiami.com, checked 2026-11-02"
   },
   {
    "id": "fl-uptown-66-miami",

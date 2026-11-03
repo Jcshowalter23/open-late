@@ -1340,7 +1340,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Join us in on our tiki deck or in our main bar for happy hour specials Monday through Friday from 3pm to 6pm",
+     "tags": [],
+     "src": "Venue website harpoonhannasrestaurant.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1391,7 +1400,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Fenwick-Island/182964788387634/Harpoon-Hanna%27s",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.harpoonhannasrestaurant.com/"
    },
    "trivia": {
     "nights": [],
@@ -1418,6 +1427,39 @@
       "url": "https://harpoonhannasrestaurant.com/calendar/"
      }
     ]
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "6-8 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://harpoonhannasrestaurant.com/calendar/",
+        "date": "2026-11-01",
+        "quote": "Tuesdays 6-8 PM in the bar with DJ Rupe Free to play Food & Drink Specials 21+ to Play Win Prizes"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " We can schedule a DJ or you can bring your own",
+      "url": "https://harpoonhannasrestaurant.com/events/"
+     }
+    ]
    }
   },
   {
@@ -1427,7 +1469,7 @@
    "address": "5799 Lighthouse Cove Route 54, Fenwick Island",
    "state": "DE",
    "zip": "19944",
-   "phone": null,
+   "phone": "(302) 537-6971",
    "lat": 38.4522,
    "lng": -75.0596,
    "priceText": "$ (Facebook page)",
@@ -1471,8 +1513,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Fenwick-Island/654024317964026/High-Stakes-Bar-%26-Grill",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-23",
-    "website": null
-   }
+    "website": "http://www.highstakesbarandgrill.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://highstakesbarandgrill.com/",
+        "quote": "als | Entertainment | About Us | Shop | Gift Cards | Contact Us | --> | --> | --> | --> | Locals agree | It’s the place to be | Welcome to | High Stakes | In the business for 25+ years!",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website highstakesbarandgrill.com, checked 2026-11-02"
   },
   {
    "id": "de-hooked-up-ale-house-and-raw-bar",
@@ -1922,7 +1987,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Bethany-Beach/157937244264647/Matt%27s-Fish-Camp-Bethany",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.mattsfishcampbethany.com/"
    },
    "conflicts": [
     {
@@ -1938,7 +2003,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.mattsfishcampbethany.com/",
+        "quote": "View fullsize | View fullsize | MATT’S FISH CAMP BETHANY | | | BEST LUNCH IN BETHANY & LOCALS FAVORITE SEAFOOD CAMP | Matt’s has become a favorite of locals and summer visitors to the",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "de-matts-fish-camp-fenwick",
@@ -2167,7 +2254,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Selbyville/123697944992/Mio-Fratello-Italian-Steakhouse",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-23",
-    "website": null
+    "website": "http://www.miofratellos.com/"
    },
    "conflicts": [
     {
@@ -2183,7 +2270,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " DJ tower setup",
+      "url": "https://www.miofratellos.com/catering-events"
+     }
+    ]
+   }
   },
   {
    "id": "de-munchies-grill",
@@ -2302,7 +2402,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Fenwick-Island/82208267219/Nantuckets-Restaurant",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://www.nantucketsrestaurant.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Sports fans",
+     "Date night / upscale"
+    ],
+    "summary": "Popular for watching games; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://nantucketsrestaurant.com/",
+        "quote": "w and old friends. Enjoy the cozy atmosphere for dinner, lite fare, cocktails, or just to watch the games. You are bound to know someone, and if not, you’ll leave with new friends. | Take a look",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://nantucketsrestaurant.com/",
+        "quote": "Cards | Reviews | Reservations | Specials | Menu | Celebrations | Reviews | Contact Us | Fine Dining in a Friendly Atmosphere | A Taste of Nantucket in Fenwick Island | A Coastal Delaware",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -3094,7 +3230,7 @@
    "hours": "Mon-Wed 11a-9p; Thu-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 2 am per Venue website raiceslatinkitchen.com/events, checked 2026-11-01; days not stated.",
    "happyHours": [
     {
      "days": "See venue",
@@ -3116,7 +3252,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Millsboro/101331402349932/Ra%C3%ADces-Latin-Kitchen",
     "fbPostsSeen": 2,
     "fbNewestPost": "2026-09-05",
-    "website": null
+    "website": "http://www.raiceslatinkitchen.com/"
    }
   },
   {
@@ -3538,7 +3674,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Selbyville/267810643072924/Selbyville-Pit-%26-Pub",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.pitandpub.com/"
    },
    "conflicts": [
     {
@@ -3557,7 +3693,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.pitandpub.com/",
+        "quote": "with a menu that reaches beyond that realm... - 5 establishments everyone is welcome and locals/visitors alike can call “home”... - several restaurants to be proud of as they employ peo",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "de-signatures-at-bayside",
@@ -4005,7 +4163,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Selbyville/118773311488463/The-Lobster-Shanty",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.twiningshanty.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://twiningshanty.com/",
+        "quote": "nd Fenwick Island’s Coastal Highway. Our water’s edge location is certainly convenient to locals and vacationers alike. | All tables have a great view of the marsh, so you always have a",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -4524,7 +4704,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Selbyville/630904490361411/Yellowfins-Bar-%26-Grill-Selbyville",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://yellowfinsbarandgrill.com/"
    },
    "conflicts": [
     {
@@ -4545,7 +4725,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.yellowfinsbarandgrill.com/",
+        "quote": "s | Our Menu | Yellowfins Bar & Grill is Delaware local's favorite seafood restaurant and sports bar, with locations in Selbyville and Long Neck, Delaware. Enjoy our excellent Happy Hour spe",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "de-zoca-restaurant",

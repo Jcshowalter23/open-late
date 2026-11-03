@@ -1514,7 +1514,8 @@
     "fbNewestPost": null,
     "website": "https://guruindiancuisine.com/"
    },
-   "websiteSource": "OpenStreetMap way/1346398274 website tag (map data 2026-11-01), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/1346398274 website tag (map data 2026-11-01), checked 2026-11-01",
+   "menu": "https://guruindiancuisine.com/our-menu/"
   },
   {
    "id": "va-hacienda-el-patron",
@@ -3703,7 +3704,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/205823875 opening_hours tag (map data 2026-11-01; last checked on the map 2023-04-21) (checked 2026-11-01)",
    "county": "Fredericksburg City",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.irishbrigadetavern.com/our-menu"
   },
   {
    "id": "va-adventure-brewing-co-fredericksburg",
@@ -3723,14 +3725,92 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "We at Adventure appreciate all who serve the public so every Tuesday we offer 20% off beer both in-house and to-go for active and retired military, police, fire, emergency, hospital staff and teachers from 3-9 pm",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website adventurebrewing.com/events",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
    ],
    "source": "hours from OpenStreetMap node/7129338886 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://adventurebrewing.com: \"94194278682810 | 🎃🔥 HALLOWEEN METAL NIGHT RETURNS TO ADVENTURE BREWING! 🔥🎃 Friday, October 30th • 6–10 PM Costumes\" (checked 2026-11-02)",
    "county": "Fredericksburg City",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://adventurebrewing.com",
+        "quote": "Company, 33 Perchwood Dr #101, Fredericksburg, VA 22405, USA | Join us for the ultimate UnFamily friendly fun! (ADULT humor) Inspired by the show on tv (except a bit more raunchy) , UnFamily Feud",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke With a Magician",
+      "url": "https://adventurebrewing.com"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Join us for Karaoke from 5-8pm",
+      "url": "https://adventurebrewing.com"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " So we’re cranking up the mic for a leaf‑kicking, soul‑warming karaoke night you won’t want to miss",
+      "url": "https://adventurebrewing.com"
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-21",
+      "quote": "November 21, 2026 | Rosie's Pizza Food Truck | November 21, 2026 | 2000's Decade >> 2000's Decade Trivia With Aubrey",
+      "url": "https://adventurebrewing.com/events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Do you share the same love of trivia that we do",
+      "url": "https://adventurebrewing.com"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Join us every Wednesday night for the craziest trivia in Stafford",
+      "url": "https://adventurebrewing.com"
+     }
+    ]
+   }
   },
   {
    "id": "va-sams-pizza-subs-fredericksburg",

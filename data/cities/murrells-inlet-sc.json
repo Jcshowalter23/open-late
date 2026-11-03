@@ -618,7 +618,27 @@
    },
    "menu": "https://www.inletsportsbar.com/menu",
    "bingo": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "2PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.inletsportsbar.com/",
+        "date": "2026-11-01",
+        "quote": "BINGO | EVERY TUESDAY AT 2PM | EVERY TUESDAY AT 2PM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -1205,7 +1225,8 @@
     "fbNewestPost": null,
     "website": "https://suckbangblow.com"
    },
-   "websiteSource": "OpenStreetMap node/5761903307 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/5761903307 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://suckbangblow.com/myrtle-beach-restaurant/"
   },
   {
    "id": "sc-the-claw-house",

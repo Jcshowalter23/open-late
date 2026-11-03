@@ -1639,7 +1639,29 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://kapadokyagrill.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://kapadokyagrill.com/",
+        "quote": "ors, and the aroma of freshly grilled kebabs and aromatic spices filled the air, inviting locals and tourists alike to step inside. The interior was a harmonious blend of rustic charm an",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -3195,12 +3217,164 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Come for the deals, stay for the 8 for $10 Wings",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website thecranburyinn.com/events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "25/wing and 50% off select draft beers",
+     "tags": [
+      "wings",
+      "beer"
+     ],
+     "src": "Venue website thecranburyinn.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap way/1203138324 opening_hours tag (map data 2026-11-01; last checked on the map 2026-06-16) (checked 2026-11-02); late hours confirmed by venue website https://www.thecranburyinn.com/: \" 08512 | Get Directions | Hours | Mon, Tue, Wed, Thur | 11:00 AM – 10:00 PM | Fri, Sat | 11:00 AM – 11:00 PM | Sun | 1\" (checked 2026-11-02)",
    "county": "Middlesex",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2027-01-27",
+      "datedLastSeen": "2027-01-27",
+      "postsSeen": 7,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.thecranburyinn.com/events/",
+        "date": "2027-01-27",
+        "quote": "Karaoke Night | Wednesday, January 27th, 2027"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.thecranburyinn.com/events/",
+        "date": "2027-01-13",
+        "quote": "Karaoke Night | Wednesday, January 13th, 2027"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.thecranburyinn.com/events/",
+        "date": "2026-12-30",
+        "quote": "Karaoke Night | Wednesday, December 30th, 2026"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "trivia": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2027-01-20",
+      "datedLastSeen": "2027-01-20",
+      "postsSeen": 6,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.thecranburyinn.com/events/",
+        "date": "2027-01-20",
+        "quote": "TRIVIA NIGHT | Wednesday, January 20th, 2027"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.thecranburyinn.com/events/",
+        "date": "2027-01-06",
+        "quote": "TRIVIA NIGHT | Wednesday, January 6th, 2027"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.thecranburyinn.com/events/",
+        "date": "2026-12-23",
+        "quote": "TRIVIA NIGHT | Wednesday, December 23rd, 2026"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " The new owners really turned The \"old\" Cranbury Inn into a new neighborhood historical restaurant with lots of life and even had a trivia night",
+      "url": "https://www.thecranburyinn.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "TRIVIA NIGHT | Starting on Wednesday November 11th 2026",
+      "url": "https://www.thecranburyinn.com/events/"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "posted on 2 different Tues",
+      "lastSeen": "2026-12-15",
+      "datedLastSeen": "2026-12-15",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.thecranburyinn.com/events/",
+        "date": "2026-12-15",
+        "quote": "Burgers and Bingo | Tuesday, December 15th, 2026"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.thecranburyinn.com/events/",
+        "date": "2026-11-17",
+        "quote": "Burgers and Bingo | Tuesday, November 17th, 2026"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Burgers and Bingo | Starting on Tuesday November 3rd 2026",
+      "url": "https://www.thecranburyinn.com/events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Music Bingo",
+      "url": "https://www.thecranburyinn.com/events/"
+     }
+    ]
+   }
   }
  ],
  "type": "city",

@@ -91,6 +91,28 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-23",
     "website": "https://alonzosoysterbar.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://alonzosoysterbar.com/",
+        "quote": "600 3405 |  | 700 Front Street Key West, FL 33040 | Follow | Follow | Follow | Follow | LOCALS: up to 2 hours parking validation in the A&B Marina lot with Monroe County I.D. Ask your",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -235,7 +257,31 @@
    "hoursNote": "A 2026-07-17 Facebook post mentions closing, but the page kept posting after it; call ahead.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Bagatelle Key West also offers 2 happy hours — breakfast hangover happy hour from 9-11:30am and our afternoon happy hour from 4-6pm",
+     "tags": [],
+     "src": "Venue website bagatellekeywest.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "Daily",
+     "text": "A breakfast hangover happy hour from 9-11:30am daily, highlighting a tapas, small-plate style breakfast",
+     "tags": [],
+     "src": "Venue website bagatellekeywest.com/about",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Daily",
+     "text": "Our afternoon happy hour is from 4-6pm daily at the bar, offering $5 tasting plates and half off most cocktails",
+     "tags": [],
+     "src": "Venue website bagatellekeywest.com/about",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -308,7 +354,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Key-West/224094785429/Bagatelle",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-08-30",
-    "website": null
+    "website": "http://www.bagatellekeywest.com/"
    }
   },
   {
@@ -611,7 +657,7 @@
    "hours": "Mon 4p-3a; Tue-Fri 11:30a-3a; Sat 11:30p-3a; Sun 11:30a-3a",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 10:30 pm per Venue website bradyspubkeywest.com/events, checked 2026-11-01; days not stated.",
    "happyHours": [
     {
      "days": "See venue",
@@ -664,7 +710,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Key-West/111308581548036/Brady%27s-Pub-Key-West",
     "fbPostsSeen": 5,
     "fbNewestPost": "2026-09-11",
-    "website": null
+    "website": "http://bradyspubkeywest.com/"
    },
    "trivia": {
     "nights": [],
@@ -749,7 +795,30 @@
     "facebookMirror": "https://www.foodyas.com/US/Key-West/871141759712936/Bull-and-Whistle",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.bullkeywest.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJs",
+      "url": "https://bullkeywest.com/entertainment"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "DJ Hazzard",
+      "url": "https://bullkeywest.com/entertainment"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "DJ HAZZARD (a",
+      "url": "https://bullkeywest.com/entertainment"
+     }
+    ]
    }
   },
   {
@@ -2124,7 +2193,38 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "We offer great deals on Fresh Florida Seafood as well as 50% Off Well Liquors, House Wine and all Beer",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website halfshellrawbar.com/location/half-shell-raw-bar",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "30% Off Selected Raw Bar Items, Clams on the Half Shell, Peel & Eat \"Pink Gold\" Shrimp, Beer Steamed \"Pink Gold\" Shrimp & Bucket of Steamed Clams",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website halfshellrawbar.com/location/half-shell-raw-bar",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "50% Off All Well Drinks, House Wine, Draft & Bottle Beers Including Pitchers of Beer",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website halfshellrawbar.com/location/half-shell-raw-bar",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -2138,7 +2238,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Key-West/113657301987812/Half-Shell-Raw-Bar",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.halfshellrawbar.com/"
    }
   },
   {
@@ -2388,7 +2488,7 @@
    "hours": "Daily 11a-2:30a",
    "hoursNote": "Restaurantji (updated 2026-10-28) lists different hours: Daily 11a-3:30a. Call ahead to confirm.",
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 11 pm per Venue website irishkevins.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -2464,7 +2564,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Key-West/125289557213/Irish-Kevins",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-15",
-    "website": null
+    "website": "http://www.irishkevins.com/"
    },
    "conflicts": [
     {
@@ -2485,7 +2585,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " All are welcome to sing-along and maybe even become part of the show",
+      "url": "https://irishkevins.com/"
+     }
+    ]
+   }
   },
   {
    "id": "fl-island-dogs",
@@ -2854,7 +2967,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Key-West/226113043337/Key-West-Bar-Card",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-11",
-    "website": null
+    "website": "http://www.KeyWestBarCard.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.KeyWestBarCard.com/",
+        "quote": "he high quality constructed trucker style cap is one of the most popular hats of Key West locals. With a plastic snap closure these hats are one size fits most. Made by | Bradley Hat & A",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -3168,7 +3303,15 @@
    "hoursNote": "Restaurantji (updated 2026-10-31) lists different hours: Daily 5p-10:30p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon",
+     "text": "proud to host the Original Martini Monday, Key West’s premier happy hour, exclusively at Virgilio’s, located behind our Old Town location, where all martinis are just $7 every Monday",
+     "tags": [],
+     "src": "Venue website latrattoria.us",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -3182,7 +3325,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Key-West/301921946371/La-Trattoria",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://www.latrattoria.us/"
    },
    "conflicts": [
     {
@@ -4123,7 +4266,24 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Tue-Sat",
+     "text": "Our happy hour in Key West runs Tuesday through Saturday, 5:00 to 6:30 PM (excluding holidays)",
+     "tags": [],
+     "src": "Venue website milagrorestaurant.net",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Happy Hour in Key West at Milagro: BOGO Drinks and Small Plates on Duval Street",
+     "tags": [],
+     "src": "Venue website milagrorestaurant.net/happy-hour-key-west",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -4137,7 +4297,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Key-West/1768098630162208/Milagro-Restaurant-and-Bar",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-06-19",
-    "website": null
+    "website": "http://milagrorestaurant.net/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.milagrorestaurant.net/",
+        "quote": "wd well. We aim for something a little quieter and more considered, with food and service locals come back for after the cruise ships leave. Come for sunset; stay for a long, unhurried m",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.milagrorestaurant.net/",
+        "quote": "NARY EXPERIENCE | Fresh, Local & Eclectic Dining In the Heart of Old Town, Key West | ​ | Fine Dining Restaurant in Key West with Loud Flavors & a Warm Welcome | A great restaurant in Key Wes",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -4289,7 +4485,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://foodeist.com/place/new-york-pasta-garden/menu"
   },
   {
    "id": "fl-oasis-mediterranean-cuisine",
@@ -4898,7 +5095,7 @@
    "address": "915 Duval St, Key West",
    "state": "FL",
    "zip": "33040",
-   "phone": null,
+   "phone": "(305) 296-0669",
    "lat": 24.5516,
    "lng": -81.7994,
    "priceText": "$$ (Facebook page)",
@@ -4922,8 +5119,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Key-West/185906029016/Point-5-Tapas-%26-Wine-Bar",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://www.915duval.com/"
+   },
+   "phoneSource": "Venue website 915duval.com, checked 2026-11-02"
   },
   {
    "id": "fl-pok-in-the-rear",
@@ -5033,9 +5231,18 @@
    "website": "http://www.ramsheadsouthernmost.com/",
    "hours": "Mon-Tue 8a-11p; Wed-Thu 8:30a-11p; Fri 8a-12a; Sat 8a-11p; Sun 8a-10p",
    "hoursNote": "Restaurantji (updated 2026-09-26) lists different hours: Daily 8a-10p. Call ahead to confirm.",
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
+   "kitchen": "Mon-Tue 8a-10p; Wed-Thu 8:30a-10p; Fri-Sun 8a-10p",
+   "kitchenNote": "Kitchen hours from Venue website ramsheadsouthernmost.com, checked 2026-11-01; start time taken from listed opening hours.",
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour Mon-Fri 4-6PM",
+     "tags": [],
+     "src": "Venue website ramsheadsouthernmost.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -5113,7 +5320,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Key-West/447808272036321/Rams-Head-Southernmost",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-15",
-    "website": null
+    "website": "http://www.ramsheadsouthernmost.com/"
    },
    "conflicts": [
     {
@@ -5235,7 +5442,70 @@
     "facebookMirror": "https://www.foodyas.com/US/Key-West/241681085873795/Rick%27s-Key-West",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-15",
-    "website": null
+    "website": "http://www.ricksbarkeywest.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Dance / club crowd"
+    ],
+    "summary": "A dancing / club crowd late.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.ricksbarkeywest.com/",
+        "quote": "sday and THE DURTBAGS, are live Thursday thru Sunday. | Dance Club | Arguably the biggest dance floor in The Florida Keys, Rick's Upstairs has something for everyone. Live DJ's playing today'",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Entertainment 7 Days a Week, Live Solo Preformers Rick's Downstairs Noon to Midnight than Karaoke Midnight to 4am, Rick's Upstairs DJ's spinning the Best Dance Music on the Island from 8pm to 4am, Dur",
+      "url": "https://www.ricksbarkeywest.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Downstairs Rick's has the Best SOLO and DUO ACTS on the Island 12pm-12am, then KARAOKE 12am-4am",
+      "url": "https://www.ricksbarkeywest.com/"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Rick's DJ's",
+      "url": "https://www.ricksbarkeywest.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Entertainment 7 Days a Week, Live Solo Preformers Rick's Downstairs Noon to Midnight than Karaoke Midnight to 4am, Rick's Upstairs DJ's spinning the Best Dance Music on the Island from 8pm to 4am, Dur",
+      "url": "https://www.ricksbarkeywest.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Live DJ's playing today's hottest hits, state of the art laser and light shows",
+      "url": "https://www.ricksbarkeywest.com/"
+     }
+    ]
    }
   },
   {
@@ -5276,7 +5546,102 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
    "county": "Monroe",
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.rockhouselive.com/memphis",
+        "date": "2026-11-01",
+        "quote": " Always a great entertainment schedule, with karaoke Mondays and Thursdays, live acoustic music on Tuesdays, and the best blues jam in town by the Memphis Blues Society; and music all weekend too"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.rockhouselive.com/memphis",
+        "date": "2026-11-01",
+        "quote": "Karaoke with Crash Entertainment | Tuesdays - | Tuesdays -"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.rockhouselive.com/memphis",
+        "date": "2026-11-01",
+        "quote": " Always a great entertainment schedule, with karaoke Mondays and Thursdays, live acoustic music on Tuesdays, and the best blues jam in town by the Memphis Blues Society; and music all weekend too"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.rockhouselive.com/memphis",
+        "date": "2026-11-01",
+        "quote": "Karaoke with Ricky Mac | Thursdays - | Thursdays -"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.rockhouselive.com/memphis",
+        "date": "2026-11-01",
+        "quote": " Always a great entertainment schedule, with karaoke Mondays and Thursdays, live acoustic music on Tuesdays, and the best blues jam in town by the Memphis Blues Society; and music all weekend too"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.rockhouselive.com/largo",
+        "date": "2026-11-01",
+        "quote": "Whether you’re stopping in for happy hour, catching a live band on the weekend, singing karaoke with friends, or just looking for a fun night out, RockHouse Live is built around one simple mission: eat, drink and ROCK"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.rockhouselive.com/memphis",
+        "date": "2026-11-01",
+        "quote": "Karaoke with Crash Entertainment | Saturdays - | Saturdays -"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -5326,7 +5691,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$1 Off Bottled Beer",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website saltyfrogskeywest.com/key-west-mallory-square-salty-frog-s-bar-and-grill-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -5340,7 +5716,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Key-West/105890622061823/Salty-Frog%27s-Bar-%26-Grill-Key-West",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-21",
-    "website": null
+    "website": "http://www.saltyfrogskeywest.com/"
    },
    "conflicts": [
     {
@@ -5370,7 +5746,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.saltyfrogskeywest.com/",
+        "quote": "ore! | View Menu | About us | Salty Frog's is an open-air beach bar & grill meets midwest neighborhood pub focused on great food, friendly service and southern hospitality... | Read more | about u",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-salute-on-the-beach",
@@ -5447,8 +5845,8 @@
    "website": "http://www.santiagosbodega.com/",
    "hours": "Daily 11a-10p",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Daily 11a-12a",
+   "kitchenNote": "Kitchen hours from Venue website santiagosbodega.com/santiagos-bodega-locations, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -5464,7 +5862,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Key-West/72640160790/Santiago%27s-Bodega-Key-West",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-08-29",
-    "website": null
+    "website": "http://www.santiagosbodega.com/"
    },
    "conflicts": [
     {
@@ -5476,7 +5874,55 @@
      "resolution": "Facebook number kept (venue-managed page)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://santiagosbodega.com/",
+        "quote": "with global tastes, but you share far more with us. Visitors from around the world and locals alike share laughs and stories with us and each other, that’s where the warmth of our din",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " His karaoke rendition of “Gin and Juice” is the stuff of legend",
+      "url": "https://santiagosbodega.com/about-santiagos-bodega"
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " When not auditing files, Jennifer enjoys, music, time with family and beating the pants off everyone in Friends trivia",
+      "url": "https://santiagosbodega.com/about-santiagos-bodega"
+     }
+    ]
+   }
   },
   {
    "id": "fl-sarabeths-key-west",
@@ -6037,7 +6483,15 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Check out our Happy Hour Daily from 4-6 PM: 25% off all drinks",
+     "tags": [],
+     "src": "Venue website southernmostpint.net",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -6052,7 +6506,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Key-West/483548431499456/Southernmost-Pint-Brewpub",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://southernmostpint.net/"
    },
    "conflicts": [
     {
@@ -6593,8 +7047,28 @@
    "hoursNote": "Restaurantji (updated 2026-10-16) lists different hours: Daily 2p-11:30p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy Hour Every Day 4-6pm",
+     "tags": [],
+     "src": "Venue website theretroroomkw.com/events-calendar",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$2 off Draft Beer and Wine",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website theretroroomkw.com/events-calendar",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events"
@@ -6629,7 +7103,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Key-West/1980805548674705/The-Retro-Room",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://theretroroomkw.com/"
    },
    "conflicts": [
     {
@@ -6688,6 +7162,24 @@
      {
       "date": "2026-11-01",
       "quote": "Thursday / Wicked Bingo",
+      "url": "https://www.theretroroomkw.com/events-calendar"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Join us for spooky festivities all night long, including spooky movies, a live DJ, drink and snack specials, free pizza, a mummy wrap race, a costume contest, and a jack o lantern contest",
+      "url": "https://www.theretroroomkw.com/events-calendar"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Saturday / Live DJ",
       "url": "https://www.theretroroomkw.com/events-calendar"
      }
     ]
@@ -6812,7 +7304,7 @@
    "address": "503 Greene St, Key West",
    "state": "FL",
    "zip": "33040",
-   "phone": null,
+   "phone": "(305) 296-4811",
    "lat": 24.5593,
    "lng": -81.8051,
    "website": "http://tikkabarkeywest.com/",
@@ -6834,8 +7326,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Key-West/668193893049532/Tikka-Bar",
     "fbPostsSeen": 2,
     "fbNewestPost": "2026-08-10",
-    "website": null
-   }
+    "website": "http://tikkabarkeywest.com/"
+   },
+   "phoneSource": "Venue website www.tikkabarkeywest.com, checked 2026-11-02"
   },
   {
    "id": "fl-tipsy-rooster-liquor-store-and-bar",
@@ -7066,7 +7559,16 @@
    "hoursNote": "Restaurantji (updated 2026-10-28) lists different hours: Daily 11a-10:30p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Browse our impressive cocktail list and be sure to join us for our Daily Happy Hour from 11am-4pm daily",
+     "tags": [],
+     "src": "Venue website vivaargentiniansteakhouse.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -7116,7 +7618,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Key-West/1602558579955692/Viva-Argentinian-Steakhouse",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.vivaargentiniansteakhouse.com/"
    },
    "conflicts": [
     {
@@ -7487,7 +7989,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://sloppyjoes.com/menu/"
   }
  ],
  "type": "city",

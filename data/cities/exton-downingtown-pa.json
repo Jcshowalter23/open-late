@@ -468,7 +468,29 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.dulingkurtz.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.dulingkurtz.com/",
+        "quote": "or groups of 10 to 50 people. | OVERNIGHT PACKAGES | Celebrating an Anniversary or just a Romantic Getaway? Traveling Near or Far? You'll want to experience the ambience of this | fine din",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1221,7 +1243,26 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Sun",
+     "text": "$6 1lb Wings 12 Sunday Steamed Clams with Garlic Bread All Day - Sundays Only",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website libertyunionbar.com/chester-springs/specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Sun",
+     "text": "Mich Ultra Drafts only $4 During NFL Games Every Sunday",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website libertyunionbar.com/chester-springs/specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap way/850697497 opening_hours tag (map data 2026-11-01; last checked on the map 2023-03-24) (checked 2026-11-02); late hours confirmed by venue website libertyunionbar.com/chester-springs (Mon-Thu 11:30 am-12 am, Fri-Sat 11:30 am-1 am, Sun 11:30 am-12 am) (checked 2026-11-02)",
@@ -1318,7 +1359,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/6970296445 opening_hours tag (map data 2026-11-01; last checked on the map 2025-07-19) (checked 2026-11-02); late hours confirmed by venue website https://taco-maya.com/locations/: \"0:30 am – 8:30 pm | Wed. | 10:30 am – 8:30 pm | Thursday | 10:30 am – 8:30 pm | Friday | 10:30 am – 9:00 pm | Saturda\" (checked 2026-11-02)",
    "county": "Chester",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://taco-maya.com/",
+        "quote": "uesadillas, salads, and more, all freshly prepared for your dining pleasure, in our cozy, family-friendly setting. Carryout is available for your convenience. For larger gatherings, we offer cate",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "pa-caln-pizza-pasta-downingtown",

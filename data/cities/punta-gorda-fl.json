@@ -262,7 +262,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Punta-Gorda/725489834208655/Carmelo%27s-Italian-Ristorante",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.carmelosristorante.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.carmelosristorante.com/",
+        "quote": "ing flavors in a relaxed, comfortable indoor setting, or alfresco in our garden. | From a romantic dinner to a special group event, Carmelo's Italian Ristorante of Punta Gorda is the perfe",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -525,7 +547,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "Monday Special - $7",
+     "tags": [],
+     "src": "Venue website fmdonspg.com/specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -536,7 +566,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Punta-Gorda/1958957854389433/F.M.-DON%27S",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://www.fmdonspg.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://fmdonspg.com/",
+        "quote": "count with us. | Book now | a private party | Reserve | Secure your spot | Whether it's a romantic dinner, a family outing, or a night out with friends, reservations at F.M. Don's guarante",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -717,7 +769,7 @@
    "address": "127 W Marion Ave, Punta Gorda",
    "state": "FL",
    "zip": "33950",
-   "phone": null,
+   "phone": "(941) 639-7655",
    "lat": 26.9356,
    "lng": -82.0505,
    "priceText": "$$ (Facebook page)",
@@ -727,7 +779,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour 4:30pm-6pm",
+     "tags": [],
+     "src": "Venue website italiapg.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -741,8 +802,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Punta-Gorda/1521824818095285/Italia-at-River-City-Grill",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-14",
-    "website": null
-   }
+    "website": "http://ItaliaPG.com/"
+   },
+   "phoneSource": "Venue website www.italiapg.com, checked 2026-11-02"
   },
   {
    "id": "fl-jays-smokin-bbq",
@@ -796,7 +858,17 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Wednesdays: 99 cent Wings",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website beefobradys.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events",
@@ -823,7 +895,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Port-Charlotte/694364027104106/Kings-Beefs",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-08-25",
-    "website": null
+    "website": "http://Beefobradys.com/"
    },
    "conflicts": [
     {
@@ -853,7 +925,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.beefobradys.com/",
+        "quote": "Beef ‘O’ Brady’s Family Sports Restaurant - a team, parent and kid friendly restaurant for the whole family | Skip to main content | Menus | Order Now | Beef's Rewar",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-kiwami-sushi-and-ramen",
@@ -1340,7 +1434,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Sun,Mon",
+     "text": "Closed Monday and Sunday / Happy Hour 4:30pm-6pm",
+     "tags": [],
+     "src": "Venue website rivercitygrillpg.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -1352,7 +1455,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Punta-Gorda/1556478814597001/River-City-Grill",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://rivercitygrillpg.com/"
    }
   },
   {
@@ -1586,7 +1689,7 @@
    "hours": "Daily 11a-1a",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 11 am per Venue website celticray.net, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -1643,7 +1746,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Punta-Gorda/215189255271638/The-Celtic-Ray-Public-House",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://celticray.net/"
    }
   },
   {
@@ -1964,7 +2067,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Punta-Gorda/103549889694244/theicehousepub",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.theicehousepub.com/about-the-icehouse-pub"
+   },
+   "crowdType": {
+    "labels": [
+     "Bikers"
+    ],
+    "summary": "Popular with bikers / hosts bike nights.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Bikers",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.theicehousepub.com/about-the-icehouse-pub",
+        "quote": "he years, it has changed owners and businesses. For a while, it had sat empty. Hurricane Charley all but destroyed the building when it tore the roof off and the south wall collapsed, bu",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2362,7 +2487,8 @@
       "url": "https://the-hive-bar-port-charlotte.edan.io/"
      }
     ]
-   }
+   },
+   "menu": "https://the-hive-bar-port-charlotte.edan.io/menu"
   }
  ],
  "type": "city",

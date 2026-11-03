@@ -303,7 +303,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$4 Domestic Beers, $5 Import Beers, $9 Well Drinks, $12 Specialty and Premium Martinis, $8 House Wines, $10 Premium Wines",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website LeMontPittsburgh.com/lounge",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's website; Facebook page (via foodyas mirror); Venue site lemontpittsburgh.com; OpenTable (checked 2026-11-01)",
@@ -316,7 +327,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/270330013075575/LeMont---Pittsburgh",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-14",
-    "website": null
+    "website": "http://www.LeMontPittsburgh.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.LeMontPittsburgh.com/",
+        "quote": "Us | Private Parties | Menu | Reservations | Since 1960, LeMont has been the pinnacle of fine dining… impeccable service… a panoramic view, elegance, style and exquisite surroundings. If the",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -350,7 +383,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/134352576750986/Monterey-Bay-Fish-Grotto",
     "fbPostsSeen": 14,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.montereybayfishgrotto.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.montereybayfishgrotto.com/",
+        "quote": "mier Seafood Restaurant with Stunning Views | Skip to content | Best of the ‘Burgh 2026 · Fine Dining | Voted Pittsburgh’s best by Pittsburgh Magazine readers — this one’s for every regular,",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -472,7 +527,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/248570185009345/OTARU-Pittsburgh",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://www.otarupgh.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://otarupgh.com/",
+        "quote": "drop of the city as well!! | Review by - Google | five star review by | Huijun L: | Great date night choice! The food is delicious and the view is unbeatable…We had several different kind of",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -643,13 +720,44 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "SUN: 9:00 AM - 8:30 PM MON - WED: 11:30 AM - 9:00 PM THU - SAT: 11:30 AM - 9:30 PM Happy Hour: Monday - Friday 3:30 PM - 6:30 PM (available in the bar, lounge, and patio area only)",
+     "tags": [],
+     "src": "Venue website grandconcourserestaurant.com/location/grand-concourse",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/1460625738 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.grandconcourserestaurant.com/location/grand-concourse/: \"15219 | (412) 261-1717 | SUN: 9:00 AM - 8:30 PM MON - WED: 11:30 AM - 9:00 PM THU - SAT: 11:30 AM - 9:30 PM Happy Hou\" (checked 2026-11-02)",
    "county": "Allegheny",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.grandconcourserestaurant.com/",
+        "quote": "ected by reCAPTCHA. | Reservations | Location | - Required | Location | Grand Concourse | Upscale Dining | Unmatched Grandeur | Please, select a location | Number of People | - Optional",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "counties": [

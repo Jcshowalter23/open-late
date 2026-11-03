@@ -820,7 +820,8 @@
     "fbNewestPost": null,
     "website": "https://hama-sushi.com/"
    },
-   "websiteSource": "OpenStreetMap node/5166509330 website tag (map data 2026-11-01), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/5166509330 website tag (map data 2026-11-01), checked 2026-11-01",
+   "menu": "https://www.hama-sushi.com/dinner/"
   },
   {
    "id": "va-inchins-bamboo-garden",
@@ -1662,8 +1663,39 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "and Happy Hour from 3 to 6",
+     "tags": [],
+     "src": "Venue website pieroscorner.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "Come in every Tuesday for our 25% OFF Pizza deal",
+     "tags": [],
+     "src": "Venue website pieroscorner.com/specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "Wednesdays is Half Price Bottle Wine (VIP Members Only) Try Our Prosciutto & Melon with our Amazing Falanghina",
+     "tags": [],
+     "src": "Venue website pieroscorner.com/specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "Wednesday is 50% OFF Wine",
+     "tags": [],
+     "src": "Venue website pieroscorner.com/specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-08-20) (checked 2026-11-01)",
@@ -1674,7 +1706,43 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://pieroscorner.com"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://pieroscorner.com",
+        "quote": "talian Restaurant In The Heart Of Franklin Farm | We are THE neighborhood restaurant that locals go to since 2003. Our staff is friendly and knowledgeable, the kitchen is led by Chef Gi",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://pieroscorner.com",
+        "quote": "vations | Treat Yourself, You deserve it | Looking for the best restaurant in Herndon for date night or a casual catch-up with a friend? You are in the right place. With warm interiors and i",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

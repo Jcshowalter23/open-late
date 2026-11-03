@@ -278,7 +278,7 @@
    "lng": -75.15246,
    "priceText": null,
    "priceLevel": null,
-   "website": "http://www.Kscomfortcuisine.com/",
+   "website": null,
    "hours": "Mon-Tue closed; Wed-Sat 4p-10p; Sun 1p-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -298,7 +298,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
-   }
+   },
+   "websiteSource": "removed 2026-11-02: domain now for sale"
   },
   {
    "id": "bovinos-brewery",
@@ -824,14 +825,7 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [
-    {
-     "days": "Wed-Sun",
-     "text": "Happy hour 4–6 pm",
-     "src": "Venue site garlicrestaurantbar.com",
-     "checked": "2026-11-01"
-    }
-   ],
+   "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -2812,7 +2806,43 @@
    ],
    "source": "hours from OpenStreetMap node/14263990401 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Monroe",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Sports fans",
+     "Date night / upscale"
+    ],
+    "summary": "Popular for watching games; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://vault636restaurant.com/",
+        "quote": "take to downtown Stroudsburg — where Modern American fare meets the energy of an elevated sports bar. We’ve combined quality ingredients, handcrafted cocktails, and a welcoming atmosphere bu",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://vault636restaurant.com/",
+        "quote": "ality ingredients, handcrafted cocktails, and a welcoming atmosphere built for game days, date nights, and everything in between. Whether it’s dinner with friends, drinks at the bar, or just",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "pa-rocking-crab-cajun-seafood-bar-stroudsburg",

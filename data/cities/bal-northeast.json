@@ -116,7 +116,7 @@
    "address": "Nasco Pl, Baltimore",
    "state": "MD",
    "zip": "21239",
-   "phone": null,
+   "phone": "(443) 825-8515",
    "lat": 39.3604,
    "lng": -76.5873,
    "priceText": "$$ (Facebook page)",
@@ -138,8 +138,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/1642665376016769/B%27s-Sweet-Treats%2C-MD",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-10",
-    "website": null
-   }
+    "website": "http://www.bssweettreats.com/"
+   },
+   "phoneSource": "Venue website www.bssweettreats.com, checked 2026-11-02"
   },
   {
    "id": "md-big-bad-wolfs-house-of-barbeque",
@@ -776,7 +777,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/455014147860240/Maggie%27s-Farm",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.maggiesfarmmd.com/"
    },
    "conflicts": [
     {
@@ -792,7 +793,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.maggiesfarmmd.com/",
+        "quote": "cocktails that pair perfectly with Maggie’s Farm’s cozy vibe. Whether she’s serving up a local favorite or recommending the ideal drink to complement your meal, her goal is simple: to make ever",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "md-mickys-joint",

@@ -277,7 +277,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/1712113485669088/Annex-400-Beach",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-07-02",
-    "website": null
+    "website": "http://www.annex400beach.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.annex400beach.com/",
+        "quote": "mmunity and display and sell uniquely Florida art and crafts. | GIFT CARD​S | Perfect for locals, teachers, friends and family, anyone who loves Beach Drive. | Breakfast, Lunch, Dessert",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -427,7 +449,7 @@
    "address": "548 Central Ave, Saint Petersburg",
    "state": "FL",
    "zip": "33701",
-   "phone": null,
+   "phone": "(727) 914-7424",
    "lat": 27.7709,
    "lng": -82.6411,
    "priceText": "$ (Facebook page)",
@@ -510,7 +532,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/1848471538749910/Bar548",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-10-19",
-    "website": null
+    "website": "http://www.Bar548.com/"
    },
    "trivia": {
     "nights": [],
@@ -529,7 +551,8 @@
       "url": "https://www.Bar548.com/events"
      }
     ]
-   }
+   },
+   "phoneSource": "Venue website www.Bar548.com, checked 2026-11-02"
   },
   {
    "id": "fl-barbacoa",
@@ -666,7 +689,17 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Wednesdays: 99 cent Wings",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website Beefobradys.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -677,7 +710,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Clearwater/151806251511473/Beefs-Feathersound",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.Beefobradys.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.Beefobradys.com/",
+        "quote": "Beef ‘O’ Brady’s Family Sports Restaurant - a team, parent and kid friendly restaurant for the whole family | Skip to main content | Menus | Order Now | Beef's Rewar",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1125,7 +1180,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "We tried the $5 Monger Burger only on Mondays",
+     "tags": [],
+     "src": "Venue website burgermonger.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -1136,7 +1199,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/1096095467124526/Burger-Monger",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-08-25",
-    "website": null
+    "website": "http://www.burgermonger.com/"
    }
   },
   {
@@ -1213,7 +1276,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/100891283289380/Cafe-Cibo",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-17",
-    "website": null
+    "website": "http://www.cafecibo.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.cafecibo.com/",
+        "quote": "ted territories of food. | There is something refreshing about the quintessential Italian neighborhood joint. And Cafe Cibo delivers an experience in dinning in addition to classic Italian dishes.",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2513,8 +2598,8 @@
    "website": "http://deadbobsstpete.com/",
    "hours": "Mon-Tue 11a-3a; Wed 11a-2a; Thu-Fri 11a-3a; Sat-Sun 9a-3a",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Mon-Fri 11a-2a; Sat-Sun 9a-2a",
+   "kitchenNote": "Kitchen hours from Venue website deadbobsstpete.com, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [
     {
      "days": "See venue",
@@ -2557,7 +2642,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/1393103584292062/Dead-Bob%27s",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-14",
-    "website": null
+    "website": "http://deadbobsstpete.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://deadbobsstpete.com/",
+        "quote": "ad Bob’s Bar & Restaurant has become a go-to sports bar in St. Petersburg, Florida, where locals gather for great food, live sports, and a welcoming neighborhood atmosphere. | Our goal i",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://deadbobsstpete.com/",
+        "quote": "Dead Bob’s Bar & Restaurant | Sports Bar & Grill in St. Petersburg FL | Skip to content | Home | About | Breakfast Menu | Dinner M",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -3120,7 +3241,7 @@
    "address": "56 Dr Martin Luther King Jr St N, Saint Petersburg",
    "state": "FL",
    "zip": "33705",
-   "phone": null,
+   "phone": "(727) 623-0938",
    "lat": 27.7718,
    "lng": -82.6469,
    "priceText": "$$ (Facebook page)",
@@ -3142,8 +3263,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/221774314561720/Engine-No9",
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-09-29",
-    "website": null
-   }
+    "website": "http://www.No9burgers.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.No9burgers.com/",
+        "quote": "urgers. | Consistently rated best burgers in Tampa Bay Metro area. | MSN.COM | RATED BEST SPORTS BAR IN FLORIDA 2020.. | RATED BEST BURGERS TAMPA BAY | WE DO NOT TAKE RESERVATIONS. | Our Foo",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.No9burgers.com, checked 2026-11-02"
   },
   {
    "id": "fl-famos-salad-bar",
@@ -3432,7 +3576,7 @@
    "lng": -82.6482,
    "priceText": "$ (Facebook page)",
    "priceLevel": "$",
-   "website": "http://www.germanknoodle.com/",
+   "website": null,
    "hours": "Mon closed; Tue-Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -3450,7 +3594,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
-   }
+   },
+   "websiteSource": "removed 2026-11-02: domain now for sale"
   },
   {
    "id": "fl-glory-days-grill-2",
@@ -3562,7 +3707,30 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/105177915535086/Good-Fortune-St.-Pete",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.goodfortunestpete.com/"
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke",
+      "url": "https://www.goodfortunestpete.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke",
+      "url": "https://www.goodfortunestpete.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke — Good Fortune St",
+      "url": "https://www.goodfortunestpete.com/karaoke"
+     }
+    ]
    }
   },
   {
@@ -3683,7 +3851,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/109502237096694/Grand-Central-Brewhouse",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://grandcentralbrew.com/"
    },
    "trivia": {
     "nights": [
@@ -3738,6 +3906,28 @@
       "date": "2026-11-01",
       "quote": " Sports on the projector in the beer garden, plant bingo in the taproom, and a pickling class in the Stammtisch Room",
       "url": "https://www.grandcentralbrew.com/private-events/"
+     }
+    ]
+   },
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.grandcentralbrew.com/",
+        "quote": "taking the mound tonight, we`re feeling pretty good about our chances! Come grab a pint, watch the game with us, and help cheer on the Rays! And don`t forget, we`re offering $1 off pints and $5",
+        "self": true
+       }
+      ]
      }
     ]
    }
@@ -5171,8 +5361,33 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Join us for Happy Hour at LUMA, served daily from 3:30–5:00 PM",
+     "tags": [],
+     "src": "Venue website lumastpete.com/promotions",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Happy Hour: 3:30 PM – 5:00 PM Dinner: 5:00 PM – 10:00 PM Afterglow: 10:00 PM – 11:00 PM",
+     "tags": [],
+     "src": "Venue website lumastpete.com/hours",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Sip your way through Wednesday with $10 wine flights",
+     "tags": [],
+     "src": "Venue website lumastpete.com/promotions",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -5185,7 +5400,20 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/218037071396321/Luma",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.lumastpete.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Enjoy brunch at LUMA with a live DJ or band, then spend the afternoon by the pool and beach",
+      "url": "https://www.lumastpete.com/promotions/"
+     }
+    ]
    }
   },
   {
@@ -5385,7 +5613,62 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/105271640970402/Mary-Margaret%27s-Olde-Irish-Tavern",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://marymargarets.com/"
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": "9:30 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://marymargarets.com/st-petersburg-downtown-st-pete-jannus-block-mary-margaret-s-olde-irish-tavern-events",
+        "date": "2026-11-01",
+        "quote": "Monday Night Karaoke"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://marymargarets.com/st-petersburg-downtown-st-pete-jannus-block-mary-margaret-s-olde-irish-tavern-events",
+        "date": "2026-11-01",
+        "quote": "Monday Night Karaoke at Mary Margaret's Olde Irish Tavern"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://marymargarets.com/st-petersburg-downtown-st-pete-jannus-block-mary-margaret-s-olde-irish-tavern-events",
+        "date": "2026-11-01",
+        "quote": " Join T2X Karaoke every Monday beginning at 9:30 PM and grab the mic, sing your favorite songs, or cheer on your friends while enjoying one of downtown St"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Petersburg's favorite karaoke nights",
+      "url": "https://marymargarets.com/st-petersburg-downtown-st-pete-jannus-block-mary-margaret-s-olde-irish-tavern-events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Please note: Karaoke may be canceled on holidays or special event nights—be sure to check our Facebook and Instagram for the latest updates before heading out | 09:30 PM - 12:00 AM",
+      "url": "https://marymargarets.com/st-petersburg-downtown-st-pete-jannus-block-mary-margaret-s-olde-irish-tavern-events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Please note: Karaoke may be canceled on holidays or special event nights—be sure to check our Facebook and Instagram for the latest updates before heading out",
+      "url": "https://marymargarets.com/st-petersburg-downtown-st-pete-jannus-block-mary-margaret-s-olde-irish-tavern-events"
+     }
+    ]
    }
   },
   {
@@ -6185,7 +6468,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Tue-Fri",
+     "text": "Happy Hour is Tuesday-Friday from 4pm-6pm",
+     "tags": [],
+     "src": "Venue website novubistro.com/about",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -6199,7 +6491,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Downtown-St.-Petersburg/100639015731262/Novu-Bistro",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-17",
-    "website": null
+    "website": "http://www.novubistro.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.novubistro.com/",
+        "quote": "ves, brimming with friendly faces and diverse cultures. | At Novu we embrace visitors and locals alike with open arms. You will always find a sense of camaraderie and inclusivity. | St.",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -6220,7 +6534,24 @@
    "hoursNote": "Restaurantji (updated 2026-10-30) lists different hours: Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour Mon–Fri 2–6PM",
+     "tags": [],
+     "src": "Venue website nuevacantina.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Tue",
+     "text": "Taco Tuesday: happy hour runs all day, every Tuesday",
+     "tags": [],
+     "src": "Venue website nuevacantina.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -6254,7 +6585,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/346040915737557/Nueva-Cantina",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-23",
-    "website": null
+    "website": "http://www.nuevacantina.com/"
    },
    "conflicts": [
     {
@@ -6336,7 +6667,27 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
    "county": "Pinellas",
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.oneeyedkellees.com/weekly-calendar",
+        "date": "2026-11-01",
+        "quote": "- Karaoke Saturday Nights"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -6632,7 +6983,56 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/309046295646/Pelican-Pub",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-04-22",
-    "website": null
+    "website": "http://www.jannuslive.com/pelican-pub"
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "9pm-3am",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://jannuslive.com/pelican-pub/",
+        "date": "2026-11-01",
+        "quote": "-Taking Back Thursdays – DJ XRAWRX – 9pm-3am"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://jannuslive.com/pelican-pub/",
+        "date": "2026-11-01",
+        "quote": "DJ XRAWRX | THURSDAYS"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ Schedule:",
+      "url": "https://jannuslive.com/pelican-pub/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "LIVE DJ | 9PM – 3AM",
+      "url": "https://jannuslive.com/pelican-pub/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "DJ CUZZIN CROOK",
+      "url": "https://jannuslive.com/pelican-pub/"
+     }
+    ]
    }
   },
   {
@@ -6707,7 +7107,7 @@
    "address": "1962 1st Ave S, Saint Petersburg",
    "state": "FL",
    "zip": "33712",
-   "phone": null,
+   "phone": "(727) 235-0970",
    "lat": 27.7699,
    "lng": -82.6601,
    "priceText": "$ (Facebook page)",
@@ -6773,7 +7173,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/1447854525427549/Pinellas-Ale-Works",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-12",
-    "website": null
+    "website": "http://pawbeer.com/"
    },
    "trivia": {
     "nights": [
@@ -6823,7 +7223,8 @@
       "url": "https://www.pawbeer.com/specials/"
      }
     ]
-   }
+   },
+   "phoneSource": "Venue website www.pawbeer.com, checked 2026-11-02"
   },
   {
    "id": "fl-pofolks",
@@ -7302,7 +7703,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour 4:00-6:30 p",
+     "tags": [],
+     "src": "Venue website rococosteak.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -7338,7 +7748,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/696410737051422/Rococo-Steak",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://www.rococosteak.com/"
    }
   },
   {
@@ -7426,7 +7836,7 @@
    "address": "6445 4th St North, Saint Petersburg",
    "state": "FL",
    "zip": "33702",
-   "phone": null,
+   "phone": "(727) 446-7027",
    "lat": 27.8315,
    "lng": -82.6384,
    "website": "http://www.rumbagrill.com/",
@@ -7448,8 +7858,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/135611092958183/Rumba-Island-Bar-%26-Grill-St.Pete",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-06-16",
-    "website": null
-   }
+    "website": "http://www.rumbagrill.com/"
+   },
+   "phoneSource": "Venue website rumbagrill.com, checked 2026-11-02"
   },
   {
    "id": "fl-salty-js",
@@ -8021,7 +8432,7 @@
    "address": "2235 1st Ave S, Saint Petersburg",
    "state": "FL",
    "zip": "33713",
-   "phone": null,
+   "phone": "(727) 289-2982",
    "lat": 27.7713,
    "lng": -82.6729,
    "priceText": "$ (Facebook page)",
@@ -8043,8 +8454,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/159743941434507/Steep-Station-St.-Pete",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://www.steepstation.com/"
+   },
+   "phoneSource": "Venue website www.steepstation.com, checked 2026-11-02"
   },
   {
    "id": "fl-stillwaters-tavern",
@@ -8823,7 +9235,7 @@
    "address": "465 7th Ave North, Saint Petersburg",
    "state": "FL",
    "zip": "33701",
-   "phone": null,
+   "phone": "(727) 827-2691",
    "lat": 27.7798,
    "lng": -82.6398,
    "priceText": "$$ (Facebook page)",
@@ -8857,7 +9269,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/475141249893691/The-bier-boutique-St.-Pete",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://www.thebierboutiquestpete.com/"
    },
    "trivia": {
     "nights": [
@@ -8901,7 +9313,30 @@
       "url": "https://thebierboutiquestpete.com/specials"
      }
     ]
-   }
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://thebierboutiquestpete.com/",
+        "quote": "ving the website, opens in a new tab | something special every day | happy hour deals and local favorites | Make every visit a little more rewarding with daily specials, weekday happy hour, triv",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website thebierboutiquestpete.com, checked 2026-11-02"
   },
   {
    "id": "fl-the-big-catch-at-salt-creek",
@@ -9267,7 +9702,7 @@
    "address": "5901 Sun Blvd #100, Saint Petersburg",
    "state": "FL",
    "zip": "33715",
-   "phone": null,
+   "phone": "(727) 289-9855",
    "lat": 27.7135,
    "lng": -82.7148,
    "priceText": "$$ (Facebook page)",
@@ -9293,8 +9728,54 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/231552111077274/The-Deck-Bar-and-Grille-at-Isla",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
-    "website": null
-   }
+    "website": "http://www.thedeckbarandgrille.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thedeckbarandgrille.com/",
+        "quote": "perience. | Parties | About us | Welcome to The Deck Bar and Grille | Welcome to the best Sports Bar and Grille on The Island! The Deck is always on Island Time… where the beer is cold, and",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-02",
+      "quote": "MUSIC BINGO | Monday November 2nd",
+      "url": "https://www.thedeckbarandgrille.com/events"
+     },
+     {
+      "date": "2026-11-02",
+      "quote": "11:30 AM - 11:00 PM | MUSIC BINGO | Monday November 2nd | Music >> Music Bingo tonight | 06:00 PM - 08:00 PM",
+      "url": "https://www.thedeckbarandgrille.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " #isladelsol #skywaymainadistrict #tierraverde #stpetersburgfl #bingo | 06:00 PM - 08:00 PM",
+      "url": "https://www.thedeckbarandgrille.com/events"
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.thedeckbarandgrille.com, checked 2026-11-02"
   },
   {
    "id": "fl-the-floribbean",
@@ -9379,7 +9860,7 @@
    "hours": "Daily 11:30a-3a",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 2:30 am per Venue website TheGalleyStPete.com/specials, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [
     {
@@ -9406,7 +9887,42 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/866690006797692/The-Galley",
     "fbPostsSeen": 2,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.TheGalleyStPete.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.TheGalleyStPete.com/",
+        "quote": "FL 33701 with their new restaurant and bar, \"The Galley\". | Pete and Ian are both native locals to St. Pete, and they are a small minority of bar owners that can say that. This is part",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-06",
+      "quote": "Karaoke with T2X starts at 10pm | 10:00 PM - 03:00 AM | Friday November 6th | 10:00 PM - 03:00 AM",
+      "url": "https://www.TheGalleyStPete.com/specials"
+     }
+    ]
    }
   },
   {
@@ -9635,7 +10151,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/103554268143003/The-Job-Site-Burgers",
     "fbPostsSeen": 10,
     "fbNewestPost": "2022-11-13",
-    "website": null
+    "website": "http://www.thejobsiteburgers.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "LGBTQ-friendly"
+    ],
+    "summary": "LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://jago368new.com/",
+        "quote": "ators to Watch | AAPI Artists | BIPOC Artists | Black Artists | Celebrate Women Artists | LGBTQIA Artists | Ukrainian Artists | Back To Menu | Adult Apparel | T-Shirts | Shorts | New!",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -9723,7 +10261,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Tue-Fri",
+     "text": "HAPPY HOUR :: Bar Menu Only Tuesday – Friday from 3pm – 5pm",
+     "tags": [],
+     "src": "Venue website theleftbankbistro.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -9735,7 +10282,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/744726479064974/The-Left-Bank-Bistro",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.theleftbankbistro.com/"
    }
   },
   {
@@ -9839,7 +10386,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/702276093225548/The-Lure-St-Pete",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-09-02",
-    "website": null
+    "website": "http://TheLureStPete.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thelurestpete.com/",
+        "quote": "h the Ordinary, Dive into The Lure! | Here's your escape from the everyday. Forget stuffy fine dining and predictable pub fare and experience the island vibe where handcrafted Tiki cocktails",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -9905,8 +10474,33 @@
    "hoursNote": "Restaurantji (updated 2026-10-28) lists different hours: Mon closed; Tue-Fri 4p-12a; Sat-Sun 11a-12a. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour: 4 PM – 6 PM",
+     "tags": [],
+     "src": "Venue website oysterbarstpete.com/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Late-Night Happy Hour: 9 PM – 11 PM",
+     "tags": [],
+     "src": "Venue website oysterbarstpete.com/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Daily",
+     "text": "Every day from 4PM to 6PM $5 Wines & $6 Specialty Cocktails & Martinis",
+     "tags": [],
+     "src": "Venue website oysterbarstpete.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -9920,7 +10514,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/126591867376947/The-Oyster-Bar",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-13",
-    "website": null
+    "website": "https://oysterbarstpete.com/"
    },
    "conflicts": [
     {
@@ -9948,7 +10542,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://oysterbarstpete.com/",
+        "quote": "city’s vibrant Central Arts District. Since 1999, we have been a favorite destination for locals and visitors alike, serving the freshest seafood, premium meats, and quality poultry in a",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-the-peanut-plugg",
@@ -10222,7 +10838,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/100902964834213/The-Urban-Stillhouse-by-Horse-Soldier",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://www.theurbanstillhouse.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.theurbanstillhouse.com/",
+        "quote": "The Urban StillHouse | Fine Dining & Bourbon Bar | We use cookies to improve your experience. By clicking \"Accept,\" you cons",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -11423,7 +12061,7 @@
    "cuisine": "Middle Eastern",
    "address": "Saint Petersburg, Saint Petersburg",
    "state": "FL",
-   "phone": null,
+   "phone": "(727) 525-9356",
    "lat": 27.7718,
    "lng": -82.6385,
    "priceText": "$$ (Facebook page)",
@@ -11445,8 +12083,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Petersburg/1278344968972591/Zeko%27s",
     "fbPostsSeen": 10,
     "fbNewestPost": "2025-12-23",
-    "website": null
-   }
+    "website": "http://www.zekosgrill.com/"
+   },
+   "phoneSource": "Venue website zekosgrill.com, checked 2026-11-02"
   },
   {
    "id": "fl-zo-s-kitchen-saint-petersburg",
@@ -11506,7 +12145,8 @@
    ],
    "source": "hours from OpenStreetMap node/2007457133 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Pinellas",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://stpetearcadebar.square.site"
   },
   {
    "id": "fl-flippers-pizzeria-saint-petersburg",
@@ -11577,7 +12217,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/2073935849 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Pinellas",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.flipperspizzaco.com/menu"
   },
   {
    "id": "fl-enigma-st-petersburg",

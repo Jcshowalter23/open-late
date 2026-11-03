@@ -712,7 +712,8 @@
     "fbNewestPost": "2026-10-27",
     "website": "https://www.brunosofbrooklyn.com/"
    },
-   "websiteSource": "OpenStreetMap way/427552340 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/427552340 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.brunosofbrooklyn.com/menu"
   },
   {
    "id": "fl-buffet-city-of-fort-myers",
@@ -1223,7 +1224,25 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Myers/112740783125/City-Tavern",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.mycitytavern.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-08-30",
+      "quote": "AUG 30 | Fun Run | Event | >> DJ Drews",
+      "url": "https://www.citytavern.com/"
+     },
+     {
+      "date": "2026-08-30",
+      "quote": "AUG 30 | Fun Run | Event | >> DJ Drews",
+      "url": "https://www.citytavern.com/events"
+     }
+    ]
    }
   },
   {
@@ -2514,7 +2533,8 @@
     "fbNewestPost": null,
     "website": "https://fordsgarageusa.com/"
    },
-   "websiteSource": "OpenStreetMap node/3787727853 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/3787727853 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://fordsgarageusa.com/find-restaurant/"
   },
   {
    "id": "fl-fords-garage-2",
@@ -3374,7 +3394,24 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour Drinks 11am-6pm",
+     "tags": [],
+     "src": "Venue website hookedislandgrill.com/happy-hour-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Happy Hour Food 2pm-5pm",
+     "tags": [],
+     "src": "Venue website hookedislandgrill.com/happy-hour-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -3388,7 +3425,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Myers/109666721949387/Hooked-Island-Grill--Fort-Myers",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-23",
-    "website": null
+    "website": "http://www.hookedislandgrill.com/"
    }
   },
   {
@@ -3494,7 +3531,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Best Happy Hour, Best Specials, This Week’s Adventures, Best Daily Specials, Best Weekly Specials, Best Drink Specials, BOGO Drinks, BOGO Happy Hour, Buy One Get One Drinks, Endless Mac N’ Cheese, Country Fried Steak",
+     "tags": [],
+     "src": "Venue website izzysftmyers.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -3508,7 +3554,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Myers/176001276141688/Izzy%27s-Fish-%26-Oyster",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-23",
-    "website": null
+    "website": "http://izzysftmyers.com/"
    }
   },
   {
@@ -4044,7 +4090,7 @@
    "address": "13750 Fiddlesticks Blvd suite 301, Fort Myers",
    "state": "FL",
    "zip": "33912",
-   "phone": null,
+   "phone": "(239) 947-4900",
    "lat": 26.5439,
    "lng": -81.8046,
    "priceText": "$$ (Facebook page)",
@@ -4070,8 +4116,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Myers/1133872983145861/Leoni%E2%80%99s-Pizzeria-%26-Bar---Fiddlesticks",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-29",
-    "website": null
-   }
+    "website": "http://Www.leonispizza.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://leonispizza.com/",
+        "quote": "Myers) | Serving Southwest Florida For Over 20 Years | Built by family and kept close by regulars, Leoni's Pizzeria carries the warmth of a neighborhood kitchen into every location. The o",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website leonispizza.com, checked 2026-11-02"
   },
   {
    "id": "fl-los-taquitos-mexican-food",
@@ -4301,7 +4370,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Myers/444283576396795/Mango-Rita%E2%80%99s-Rhythm-House",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://MangoRitasfmb.com/"
    },
    "conflicts": [
     {
@@ -4383,6 +4452,60 @@
      {
       "date": "2026-11-01",
       "quote": "Singo is a musical twist on Bingo—songs play, and your card is filled with song titles",
+      "url": "https://www.mangoritasfmb.com/event-calendar/"
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "6:00 pm",
+      "basis": "posted on 5 different Weds",
+      "lastSeen": "2026-12-02",
+      "datedLastSeen": "2026-12-02",
+      "postsSeen": 5,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.mangoritasfmb.com/event-calendar/",
+        "date": "2026-12-02",
+        "quote": "December 2 @ 6:00 pm | - | 9:00 pm | >> Karaoke with Travis “Toad”"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.mangoritasfmb.com/event-calendar/",
+        "date": "2026-12-02",
+        "quote": "December 2 @ 6:00 pm | - | 9:00 pm | >> Karaoke with Travis “Toad” | 9:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.mangoritasfmb.com/event-calendar/",
+        "date": "2026-11-25",
+        "quote": "November 25 @ 6:00 pm | - | 9:00 pm | >> Karaoke with Travis “Toad”"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke with Travis “Toad” | October 28 @ 6:00 pm | 9:00 pm",
+      "url": "https://www.mangoritasfmb.com/event-calendar/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Bringing the best sound to karaoke",
+      "url": "https://www.mangoritasfmb.com/event-calendar/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke with Travis “Toad” | November 11 @ 6:00 pm | 9:00 pm",
       "url": "https://www.mangoritasfmb.com/event-calendar/"
      }
     ]
@@ -4599,7 +4722,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Myers/167639876581163/Mastello-Ristorante--Authentic-Italian-Restaurant",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.mastello.com/index.php"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://mastello.com/",
+        "quote": "Bar to professionally prepared Risotto di Mare, Mastello is bringing back the Italian in Fine Dining and Steakhouses in South West Florida. | RESERVE A TABLE | COCKTAILS | FOOD | WINE LIST",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -5896,7 +6041,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Myers/801010056612454/Rusty%27s-Raw-Bar-and-Grill",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://rustysraw.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://rustysraw.com/",
+        "quote": "co | 2026-10-20T09:54:15-04:00 | Winner “Best Happy Hour”, | “Best Place to Hang with the Locals”, | “Best Chicken Wings”, and | “Best Raw Bar” in the | Best of Gulfshore Life | 2024 | L",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -6074,7 +6241,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "ALL DAY HAPPY HOUR",
+     "tags": [],
+     "src": "Venue website skipone41.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -6088,7 +6264,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Myers/112559435474654/Skip-One-Seafoods",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://www.skipone41.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://skipone41.com/",
+        "quote": "along U.S. 41, our restaurant in Fort Myers serves shrimp, fish, crab, oysters, and other local favorites for lunch and dinner. Guests can dine in, shop fish, shellfish, prepared foods, and seas",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -6259,7 +6457,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Tue-Sat",
+     "text": "HAPPY HOUR TUESDAY-SATURDAY 3-6PM",
+     "tags": [],
+     "src": "Venue website sweetmelissasrestaurant.com/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -6271,7 +6478,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Myers/142157222525456/Sweet-Melissa%27s-Restaurant",
     "fbPostsSeen": 5,
     "fbNewestPost": "2026-06-05",
-    "website": null
+    "website": "http://www.sweetmelissasrestaurant.com/"
    },
    "conflicts": [
     {
@@ -7330,9 +7537,20 @@
    "hours": "Mon-Sat 4p-9p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 8:30 pm per Venue website trattoriamia.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Half price on our House wine glasses and draft beer",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website trattoriamia.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -7367,7 +7585,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Myers/1607987749460728/Trattoria-Mia",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://trattoriamia.com/"
    }
   },
   {

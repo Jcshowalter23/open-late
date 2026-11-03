@@ -696,18 +696,7 @@
    "hoursNote": "Venue site lists Mon & Thu 4–9p, Tue–Wed closed, Fri–Sat 11:30a–10p, Sun 11:30a–9p; call ahead.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [
-    {
-     "days": "Mon,Thu-Fri",
-     "text": "Happy hour 4–6 pm: $10 cocktails, $9 wine, $6 beer",
-     "tags": [
-      "beer"
-     ],
-     "src": "Venue site sophiesbbq.com",
-     "checked": "2026-11-01",
-     "flag": "Listed hours show Monday closed."
-    }
-   ],
+   "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -799,7 +788,20 @@
     "facebookMirror": "https://www.foodyas.com/US/Narberth/586791348034632/The-Great-American-Pub-Narberth",
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://www.greatamericanpub.net/"
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " JOIN US FOR FOOTBALL, LIVE MUSIC, QUIZZO, KARAOKE, POKER, DJS, OPEN MIC, FUNDRAISERS, AND MORE",
+      "url": "https://www.greatamericanpub.net/events"
+     }
+    ]
    }
   },
   {
@@ -1066,7 +1068,8 @@
       "url": "https://samsbrickovenpizza.com/specials/"
      }
     ]
-   }
+   },
+   "menu": "https://samsbrickovenpizza.com/1200-roosevelt-drive/"
   },
   {
    "id": "pa-jack-mcsheas-restaurant-bar-ardmore",
@@ -1127,13 +1130,83 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Catch our popular happy hour every Monday through Friday from 3:30 to 6:00 pm, and don’t miss Quizzo every Friday night at 9:00 pm",
+     "tags": [],
+     "src": "Venue website gulliftys.com/bryn-mawr-rosemont-gullifty-s-about",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/923766375 opening_hours tag (map data 2026-11-01; last checked on the map 2026-04-13) (checked 2026-11-02); late hours confirmed by venue website https://gulliftys.com/: \"9 Lancaster Ave | Bryn Mawr, PA | 19010 | Get Directions | Hours | Mon, Tue, Wed, Thur | 11:30 AM - 10:00 PM | Fri | 1\" (checked 2026-11-02)",
    "county": "Montgomery",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://gulliftys.com/",
+        "quote": "are a popular spot for many university events) or settle in around one of our many TVs to watch the game, whether you are a Phillies, Eagles, Flyers, or Sixers fan, or you just want to enjoy som",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Book ahead when lunch in Bryn Mawr turns into happy hour plans, trivia banter, or a game worth watching",
+      "url": "https://gulliftys.com/"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "monthly",
+      "start": "03:30 PM - 06:00 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-04",
+      "datedLastSeen": "2026-11-04",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://gulliftys.com/bryn-mawr-rosemont-gullifty-s-specials-custom",
+        "date": "2026-11-04",
+        "quote": "vember 4th | Happy Hour food and drink specials! See Happy Hour Menu under the menus tab. | 03:30 PM - 06:00 PM | Music >> Music Bingo with Johnny Cheesesteaks the first and third Wednesday of every month | 07:30 PM - 09:30 PM"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
   }
  ],
  "counties": [

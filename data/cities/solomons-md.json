@@ -539,8 +539,25 @@
    "hours": "Mon closed; Tue-Thu 3p-8p; Fri-Sat 3p-9p; Sun closed",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
+   "kitchenNote": "Kitchen open until 15 pm per Venue website heritage485.com, checked 2026-11-01; days not stated.",
+   "happyHours": [
+    {
+     "days": "Tue-Fri",
+     "text": "Happy hour is from 3- 6 PM Tuesday - Friday in the bar and all night, throughout the entire restaurant on Wednesdays",
+     "tags": [],
+     "src": "Venue website heritage485.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Half off bottles of wine and all night happy hour throughout the entire restaurant",
+     "tags": [],
+     "src": "Venue website heritage485.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -554,7 +571,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Prince-Frederick/1861678880777965/Heritage-485",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-13",
-    "website": null
+    "website": "http://www.heritage485.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://heritage485.com/",
+        "quote": "Are | Rooted in History, Revived with Passion | Heritage 485 is where rich history meets upscale comfort, offering a dining experience that celebrates tradition and innovation. | Nestled",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -656,7 +695,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Solomons/103176115424563/La-Vela-Italian-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-21",
-    "website": null
+    "website": "Http://lavelaitalian.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.lavelaitalian.com/",
+        "quote": "Solomons, MD for irresistible Italian food reflecting the flavors of Southern Italy in an upscale trattoria setting. | Jump to our menu | MENU | Dinner Menu | Lunch Menu | Wed-Sun 12 pm -",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -666,7 +727,7 @@
    "address": "255 Alexander Ln, Solomons",
    "state": "MD",
    "zip": "20688",
-   "phone": null,
+   "phone": "(240) 417-2408",
    "lat": 38.3232,
    "lng": -76.4571,
    "priceText": "$$ (Facebook page)",
@@ -688,8 +749,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Solomons/187878144600500/Marauder-Charters",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-06-20",
-    "website": null
-   }
+    "website": "http://www.maraudercharters.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.maraudercharters.com/",
+        "quote": "d. Enjoy a day out with the family to reef and wreck fish or surprise your partner with a romantic sunset cruise! | 42’ Custom Sportfish Yacht | ​The Marauder is the pride and joy of the C",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.maraudercharters.com, checked 2026-11-02"
   },
   {
    "id": "md-ogannigans",
@@ -836,7 +920,7 @@
    "address": "150 Adelina Rd, Prince Frederick",
    "state": "MD",
    "zip": "20678",
-   "phone": null,
+   "phone": "(410) 414-8486",
    "lat": 38.508,
    "lng": -76.6099,
    "priceText": "$$ (Facebook page)",
@@ -860,8 +944,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Prince-Frederick/109823657232419/Southern-Maryland-Biergarten",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-14",
-    "website": null
-   }
+    "website": "http://www.runningharevineyard.com/"
+   },
+   "phoneSource": "Venue website runningharevineyard.com, checked 2026-11-02"
   },
   {
    "id": "md-southern-maryland-seafood",
@@ -1206,8 +1291,38 @@
    "hoursNote": "Restaurantji (updated 2026-10-21) lists different hours: Mon-Tue closed; Wed 3p-9p; Thu 11a-1a; Fri-Sat 11a-2a; Sun 11a-9p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Thu,Fri",
+     "text": "Happy Hour Thursday & Friday 3pm-6pm",
+     "tags": [],
+     "src": "Venue website tikibarsolomonsisland.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "1/2 off all beers $5 bombs & white tea Shots $6 Specialty Drinks",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website tikibarsolomonsisland.com/events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "$2 off all Drafts",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website tikibarsolomonsisland.com/weekly-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -1283,7 +1398,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Solomons/288128388046420/Tiki-Bar-%26-Grill-Solomons-Island",
     "fbPostsSeen": 2,
     "fbNewestPost": "2026-10-08",
-    "website": null
+    "website": "http://www.tikibarsolomonsisland.com/"
    },
    "conflicts": [
     {
@@ -1303,7 +1418,25 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Saturday: Halloween Costume Contest Party with DJ Jake Pulse",
+      "url": "https://tikibarsolomonsisland.com/live-music/"
+     },
+     {
+      "date": "2026-10-31",
+      "quote": "Halloween Bash | Saturday October 31st | 8 PM | Costume Contest with >> Costume Contest with DJ Jake Pulse 1st Place: $200 Cash 2nd Place: $100 Gift Card | 8 PM",
+      "url": "https://tikibarsolomonsisland.com/events/"
+     }
+    ]
+   }
   },
   {
    "id": "md-trifecta-at-harbor-island-marina",

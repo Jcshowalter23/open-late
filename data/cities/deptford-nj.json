@@ -660,7 +660,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/28655280 opening_hours tag (map data 2026-11-01; last checked on the map 2025-12-05) (checked 2026-11-02); late hours confirmed by venue website https://www.adelphiarestaurant.com/location/adelphia-restaurant/: \"turday 11:00 AM - 3:00 PM | Dinner | Monday - Thursday 3:00 - 10:00 PM | Friday and Saturday 3:00 - 11:00 PM | Sunday \" (checked 2026-11-02)",
    "county": "Gloucester",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.adelphiarestaurant.com/",
+        "quote": "minutes from Cherry Hill and Philadelphia. We are your proud hosts for elegant weddings, fine dining and memorable events, and have been for the last three decades. We proudly extend to you",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "nj-santuccis-original-square-pizza-deptford",
@@ -680,7 +702,28 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$2 off all beer, Wine, and Signature Cocktails",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website santuccispizza.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "$2 off Draft Beer & Mocktails",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website santuccispizza.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap way/590853028 opening_hours tag (map data 2026-11-01; last checked on the map 2025-12-05) (checked 2026-11-02); late hours confirmed by venue website https://www.santuccispizza.com/location/santuccis-pizza-deptford/: \"ord@santuccispizza.com | Order Online | Sunday - Thursday | 11am - 9pm | Friday - Saturday | 11am - 9:30pm | B.Y.O.B\" (checked 2026-11-02)",

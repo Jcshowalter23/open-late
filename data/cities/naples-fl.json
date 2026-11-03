@@ -38,62 +38,6 @@
    }
   },
   {
-   "id": "fl-21-spices-by-chef-asif",
-   "name": "21 Spices by Chef Asif",
-   "cuisine": "Indian",
-   "address": "4270 Tamiami Trl E, Ste 21, Naples",
-   "state": "FL",
-   "zip": "34112",
-   "phone": null,
-   "lat": 26.1161,
-   "lng": -81.757,
-   "priceText": "$$ (Facebook page)",
-   "priceLevel": "$$",
-   "website": "http://www.21spicesdining.com/",
-   "hours": "Mon closed; Tue-Sun 5p-9p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Date night"
-   ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
-   "county": "Collier",
-   "crowdType": {
-    "labels": [
-     "Date night / upscale"
-    ],
-    "summary": "A date-night / upscale spot.",
-    "confidence": "medium",
-    "details": [
-     {
-      "label": "Date night / upscale",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-05",
-        "url": "https://www.restaurantji.com/fl/naples/21-spices-by-chef-asif-/",
-        "quote": "21 Spices by Chef Asif offers an exceptional dining experience with its upscale atmosphere, excellent service, and innovative, delicious cuisine. The restaurant's menu f",
-        "agg": true
-       }
-      ]
-     }
-    ]
-   },
-   "crowdChecked": "2026-11-01",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/fl/naples/21-spices-by-chef-asif-/",
-    "facebookMirror": "https://www.foodyas.com/US/Naples/153978778288943/21-Spices-by-Chef-Asif",
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   }
-  },
-  {
    "id": "fl-3860-tiki-bar-and-grille",
    "name": "3860 Tiki Bar & Grille",
    "cuisine": "Bar & grill",
@@ -358,7 +302,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Amber Cove’s new daily happy hour experience—available seven days a week from 4:00 to 5:30 PM",
+     "tags": [],
+     "src": "Venue website ambercoverestaurant.com/offers-and-happenings",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -392,7 +345,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/652718651249051/Amber-Cove-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://www.ambercoverestaurant.com/"
    }
   },
   {
@@ -610,7 +563,32 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "All day happy hour",
+     "tags": [],
+     "src": "Venue website aquafifth.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Happy Hour 4-7pm",
+     "tags": [],
+     "src": "Venue website aquafifth.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Sizzle Dinning Starting at 3pm and Happy Hour 3-6pm",
+     "tags": [],
+     "src": "Venue website aquafifth.com/cape-coral-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -658,7 +636,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/485504081312992/Aqua-North-Naples",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://aquafifth.com/"
    }
   },
   {
@@ -756,7 +734,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour is available between the hours of 3pm – 5pm",
+     "tags": [],
+     "src": "Venue website bayfrontinnnaples.com/hotel-information",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -771,7 +758,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/101547165683952/Bambu-Tropical-Bar-%26-Grille",
     "fbPostsSeen": 10,
     "fbNewestPost": "2025-11-17",
-    "website": null
+    "website": "http://Bayfrontinnnaples.com/"
    },
    "bingo": {
     "nights": [],
@@ -788,6 +775,42 @@
       "date": "2026-11-01",
       "quote": "The first person to get Bingo wins a bucket of beer",
       "url": "https://www.bayfrontinnnaples.com/events-calendar/"
+     }
+    ]
+   },
+   "crowdType": {
+    "labels": [
+     "Live music fans",
+     "Industry / late-night"
+    ],
+    "summary": "Known for live music; popular with service-industry and late-night workers.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.bayfrontinnnaples.com/",
+        "quote": "price parking | Pool + hot tub onsite | Beach gear (chairs & umbrellas) | Late checkout | Live music every Friday & Saturday at Bambu Restaurant | Everything you need for a seamless, sun-soaked fa",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Industry / late-night",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.bayfrontinnnaples.com/",
+        "quote": "the bay in Naples. | Enjoy the sunshi | A fresh start to the morning. 🍓✨ | Creamy Greek | Industry Night at Bambu 🌴🍹 | Hospitality profe | Your Naples day just got better. 🌴🚤☀️ | Cr | 🎶 Live mus",
+        "self": true
+       }
+      ]
      }
     ]
    }
@@ -926,7 +949,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/242385799160029/Barbatella",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://barbatellanaples.com/"
    },
    "conflicts": [
     {
@@ -946,7 +969,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://aielligroup.com/barbatella-naples/home",
+        "quote": "de Rôtisseurs bring together enthusiasts who share the same values with elegant to casual fine dining. We encourage the culinary arts and the pleasures of lively table conversation. | Learn M",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-bayside-seafood-grill-and-bar",
@@ -1024,7 +1069,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy Hour Daily from 4pm - 6pm",
+     "tags": [],
+     "src": "Venue website bellininaples.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1039,7 +1093,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/102455328416560/Bellini-Italian-Restaurant-and-Bar",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-09-11",
-    "website": null
+    "website": "http://www.bellininaples.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://bellininaples.com/",
+        "quote": "es, FL | BELLINI ITALIAN RESTAURANT IN NAPLES, FLORIDA | Blending history and present-day fine dining | Since 1995, Bellini has been combining the elegance of modern table trends with timeles",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1049,7 +1125,7 @@
    "address": "15215 Collier Blvd #324, Naples",
    "state": "FL",
    "zip": "34119",
-   "phone": null,
+   "phone": "(239) 354-9955",
    "lat": 26.2692,
    "lng": -81.6911,
    "priceText": "$$ (Facebook page)",
@@ -1059,7 +1135,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Open 3PM to Close Happy Hour 3-6PM (at the bar)",
+     "tags": [],
+     "src": "Venue website bernwoodtavern.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1096,8 +1181,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/974668065710391/Bernwood-Tavern-%26-Cucina",
     "fbPostsSeen": 3,
     "fbNewestPost": "2026-10-03",
-    "website": null
-   }
+    "website": "http://www.bernwoodtavern.com/"
+   },
+   "phoneSource": "Venue website bernwoodtavern.com, checked 2026-11-02"
   },
   {
    "id": "fl-bha-bha-persian-bistro",
@@ -1198,7 +1284,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour: 3PM - 5:45PM",
+     "tags": [],
+     "src": "Venue website bice-naples.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1212,7 +1307,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/116483201707061/BiCE-Naples",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-04-08",
-    "website": null
+    "website": "http://www.bice-naples.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.bice-naples.com/",
+        "quote": "culinary techniques with a touch of traditional Italian flair, creating an unforgettable fine dining experience. Our meticulously crafted dishes are designed to tantalize your taste buds and",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1578,7 +1695,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/960792040720805/Brooks-Burgers",
     "fbPostsSeen": 5,
     "fbNewestPost": "2026-10-23",
-    "website": null
+    "website": "http://www.brooksburgers.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://brooksburgers.com/",
+        "quote": "nt in Naples, Florida. | Find Our Restaurants | We often hear that Brooks Burgers is both locals’ and visitors to Naples favorite burger spot and family restaurant. Enjoy an extended men",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1651,7 +1790,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/650814838308172/Brunina%27s-Pizza-%26-Pasta",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.bruninas.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://bruninas.com/",
+        "quote": "our guests at every visit, ensuring they receive the warmth and recognition that endears locals to us, especially during the quie | Show More | The essence of service at Brunina’s Pizza",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1984,7 +2145,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$1 off Beers & House Wines",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website capriccionaples.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -1997,7 +2169,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/146182735511686/Capriccio-of-Naples",
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-08-12",
-    "website": null
+    "website": "http://capriccionaples.com/"
    }
   },
   {
@@ -2563,7 +2735,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/116401098437157/Cracklin%27-Jack%27s",
     "fbPostsSeen": 5,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://cracklinjacks.com/"
    },
    "conflicts": [
     {
@@ -2580,7 +2752,30 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "$dJ\u0001kT\u001aZVL",
+      "url": "https://cracklinjacks.com/wp-content/uploads/2026/05/Cracklin-Jacks-JUNE-2026-Entertainment-Calendar.pdf"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "1 Wï\u0015rG'j\u0007\u0015T\u001bJ7\u001a_ӭM]/\u0012h©J͝ϋ\u00150 5t\u0003F\u0003=dJ|zכw=~",
+      "url": "https://cracklinjacks.com/wp-content/uploads/2026/05/Cracklin-Jacks-JUNE-2026-Entertainment-Calendar.pdf"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "hLQ\u00003F2 \u0010\u0018 %2 dJ\u0019ݼrn",
+      "url": "https://cracklinjacks.com/wp-content/uploads/2026/05/Cracklin-Jacks-JULY-2026-Entertainment-Calendar.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "fl-crisp-and-green",
@@ -2744,64 +2939,6 @@
     "website": "https://www.digustoitaly.com/"
    },
    "menu": "https://www.digustoitaly.com/menu"
-  },
-  {
-   "id": "fl-diving-pelican-restaurant",
-   "name": "Diving Pelican Restaurant",
-   "cuisine": "Restaurant",
-   "address": "901 Copeland Ave, Everglades City",
-   "state": "FL",
-   "zip": "34139",
-   "phone": "(239) 232-0475",
-   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Everglades-City/100140195829640/Diving-Pelican-Restaurant), checked 2026-11-01",
-   "lat": 25.8446,
-   "lng": -81.3846,
-   "priceText": "$$ (Facebook page)",
-   "priceLevel": "$$",
-   "website": "https://www.divingpelicanevergladescity.com/",
-   "hours": "Mon-Tue closed; Wed-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-10p",
-   "hoursNote": null,
-   "kitchen": "Wed-Sun 11a-8p",
-   "kitchenNote": "Kitchen hours from Diving Pelican Restaurant Facebook page About section (via foodyas), checked 2026-11-01; start time taken from listed opening hours.",
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Live music & events"
-   ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
-   "county": "Collier",
-   "karaoke": {
-    "nights": [],
-    "stale": [],
-    "hints": [],
-    "conflicts": [],
-    "oneoffs": [
-     {
-      "date": "2026-11-01",
-      "quote": " 7:30 - 10:30 Karaoke after",
-      "url": "https://www.divingpelicanevergladescity.com/"
-     },
-     {
-      "date": "2026-11-01",
-      "quote": "Live music outside at the Gator Hole Friday: Karaoke 7:30 - Gator Growls Saturday: Live Bands",
-      "url": "https://www.divingpelicanevergladescity.com/"
-     },
-     {
-      "date": "2026-11-01",
-      "quote": "Live music outside at the Gator Hole Friday: Karaoke 7:30 - Gator Growls Saturday: Live Bands",
-      "url": "https://www.divingpelicanevergladescity.com/"
-     }
-    ]
-   },
-   "crowdChecked": "2026-11-01",
-   "crowdSources": {
-    "restaurantji": null,
-    "facebookMirror": "https://www.foodyas.com/US/Everglades-City/100140195829640/Diving-Pelican-Restaurant",
-    "fbPostsSeen": 10,
-    "fbNewestPost": "2025-12-08",
-    "website": "https://www.divingpelicanevergladescity.com/"
-   }
   },
   {
    "id": "fl-dogtooth-sports-and-music-bar",
@@ -3148,7 +3285,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$1 Off All Beers",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website felipestaqueria.com/locations/louisiana/french-quarter-new-orleans",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -3159,7 +3307,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/936253129740349/Felipe%27s-Taqueria-Naples",
     "fbPostsSeen": 17,
     "fbNewestPost": "2026-10-23",
-    "website": null
+    "website": "http://www.felipestaqueria.com/"
    }
   },
   {
@@ -3782,7 +3930,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour 4 to 7pm weekdays",
+     "tags": [],
+     "src": "Venue website naplesharoldsplace.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -3794,7 +3951,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/90182144730/Harold%27s-Place",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-22",
-    "website": null
+    "website": "http://Naplesharoldsplace.com/"
    }
   },
   {
@@ -4077,7 +4234,7 @@
    "address": "8939 Tamiami Trail N, Naples",
    "state": "FL",
    "zip": "34108",
-   "phone": null,
+   "phone": "(239) 350-1900",
    "lat": 26.252,
    "lng": -81.8025,
    "priceText": "$$ (Facebook page)",
@@ -4087,8 +4244,25 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Weekday Happy Hour 2pm to 5pm",
+     "tags": [],
+     "src": "Venue website irishtimesnaples.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "Monday Smash Burger - $12",
+     "tags": [],
+     "src": "Venue website irishtimesnaples.com/specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -4116,8 +4290,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/103244781848838/Irish-Times-Bar-%26-Grill-Naples",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-23",
-    "website": null
-   }
+    "website": "http://irishtimesnaples.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.irishtimesnaples.com/",
+        "quote": "is a lot of great whiskey. | ​ | THE EXPERIENCE | Weekday Happy Hour 2pm to 5pm | ​ | ​ | NFL Sunday Ticket all season long | Newly added Pool Tables & Dartboard | Music & Events Calendar | Weekday",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.irishtimesnaples.com, checked 2026-11-02"
   },
   {
    "id": "fl-island-gypsy",
@@ -4151,7 +4348,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/186464551433050/Island-Gypsy",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-23",
-    "website": null
+    "website": "http://www.theislandgypsy.com/"
    },
    "conflicts": [
     {
@@ -4168,7 +4365,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://theislandgypsy.com/",
+        "quote": "e soaking up the views - and experience what has made Island Gypsy an iconic mainstay for locals, visitors and boaters alike. | The Legend of the Island Gypsy | Off the Boat | Locally Wo",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-jacks-seafood-bar-and-grill",
@@ -4186,8 +4405,8 @@
    "website": "http://jacksseafoodbarandgrill.com/",
    "hours": "Daily 11a-2a",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Daily 11a-1:45a",
+   "kitchenNote": "Kitchen hours from Venue website jacksseafoodbarandgrill.com, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [
     {
      "days": "See venue",
@@ -4264,7 +4483,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/111493595598247/Jack%27s-Seafood-Bar-and-Grill",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://jacksseafoodbarandgrill.com/"
    },
    "trivia": {
     "nights": [],
@@ -4301,6 +4520,29 @@
       "url": "https://jacksseafoodbarandgrill.com/specials"
      }
     ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-04",
+      "quote": "· Details & reserve → | Wed, Nov 4 | Music & Entertainment | >> Karaoke Night | Starts at 9 PM",
+      "url": "https://jacksseafoodbarandgrill.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Ask about karaoke, trivia, and bingo",
+      "url": "https://jacksseafoodbarandgrill.com/specials"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke Night | 9 PM",
+      "url": "https://jacksseafoodbarandgrill.com/music-and-entertainment"
+     }
+    ]
    }
   },
   {
@@ -4310,7 +4552,7 @@
    "address": "2356 Immokalee Rd, Naples",
    "state": "FL",
    "zip": "34110",
-   "phone": null,
+   "phone": "(239) 597-8545",
    "lat": 26.2703,
    "lng": -81.773,
    "priceText": "$$ (Facebook page)",
@@ -4332,8 +4574,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/753776771387928/Joey-Ds",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-21",
-    "website": null
-   }
+    "website": "http://Joeydsnaples.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://Joeydsnaples.com/",
+        "quote": "s always room for good food, great laughs, and amazing company. Whether you're planning a romantic date night, a lively family dinner, or catching up with old friends over your favorite pa",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website Joeydsnaples.com, checked 2026-11-02"
   },
   {
    "id": "fl-k-rico-mexican-grill",
@@ -4420,7 +4685,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/100661779207396/K.C.%27s-Parrot-41",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://www.kcsparrot41naples.com/"
    },
    "bingo": {
     "nights": [
@@ -4453,36 +4718,6 @@
        }
       ],
       "confidence": "medium"
-     },
-     {
-      "day": "Sun",
-      "cadence": "weekly",
-      "start": null,
-      "basis": "explicit recurring wording",
-      "lastSeen": "2026-11-01",
-      "datedLastSeen": "2026-11-01",
-      "postsSeen": 1,
-      "sources": [
-       {
-        "src": "venue website event calendar",
-        "url": "https://kcsparrot41naples.com/",
-        "date": "2026-11-01",
-        "quote": "Bitchy Bingo | Sunday November 1st"
-       },
-       {
-        "src": "venue website (undated page)",
-        "url": "https://kcsparrot41naples.com/",
-        "date": "2026-11-01",
-        "quote": "Mya and company host an R-Rated version of Bingo with Song and Dance and some | Every Sunday"
-       },
-       {
-        "src": "venue website event calendar",
-        "url": "https://kcsparrot41naples.com/",
-        "date": "2026-11-01",
-        "quote": "r 1st | Every Sunday | Mya and company host an R-Rated version of Bingo with Song and Dance and some | pretty creative >> pretty creative bingo cards"
-       }
-      ],
-      "confidence": "medium"
      }
     ],
     "stale": [],
@@ -4505,6 +4740,61 @@
       "url": "https://kcsparrot41naples.com/naples-courthouse-commons-kc-s-parrot-41-events"
      }
     ]
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://kcsparrot41naples.com/",
+        "quote": "ll strives to carry on the tradition started back in 2011, which is good food and fun for locals, seasonal citizens and tourists alike! | Read more | about us | groups & parties | We wel",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "06:30 PM - 09:30 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://kcsparrot41naples.com/",
+        "date": "2026-11-01",
+        "quote": " Join us for karaoke, great music, cold drinks, big laughs, and your chance to be the star | Every Tuesday"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://kcsparrot41naples.com/naples-courthouse-commons-kc-s-parrot-41-events",
+        "date": "2026-11-01",
+        "quote": " Join us for karaoke, great music, cold drinks, big laughs, and your chance to be the star | Every Tuesday | 06:30 PM - 09:30 PM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
    }
   },
   {
@@ -4891,7 +5181,8 @@
     "fbNewestPost": null,
     "website": "https://www.latrattorianaples.com/"
    },
-   "websiteSource": "OpenStreetMap node/8495478050 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/8495478050 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.latrattorianaples.com/menu-1"
   },
   {
    "id": "fl-lamoraga-restaurant",
@@ -4948,7 +5239,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "Taco Tuesday 3 tacos $9 & 2x1 margaritas",
+     "tags": [],
+     "src": "Venue website legendsbgsportsbar.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -5085,7 +5384,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/115302803599912/Legends-B%26G-Sports-Bar",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://www.legendsbgsportsbar.com/"
    },
    "conflicts": [
     {
@@ -5179,7 +5478,24 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Daily",
+     "text": "Early Dining Menu everyday + house wine, draft beer at $5, well drinks start at $7",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website limoncellonaples.com/naples-north-naples-limoncello-happy-hours-specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Sun",
+     "text": "Enjoy our homemade Paccheri pasta al Ragú Napolitano every Sunday for $32",
+     "tags": [],
+     "src": "Venue website limoncellonaples.com/naples-north-naples-limoncello-happy-hours-specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -5221,7 +5537,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/860700503970313/Limoncello-Naples",
     "fbPostsSeen": 10,
     "fbNewestPost": "2025-12-24",
-    "website": null
+    "website": "http://www.limoncellonaples.com/"
    },
    "conflicts": [
     {
@@ -5411,7 +5727,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/143461532511865/Martin-Fierro-Restaurant",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://www.martinfierronaples.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://martinfierronaples.com/",
+        "quote": "ains were so good too!!! | Review by - Google | five star review by | Jia L: | We had our date night here after a LONG day of work. The food was amazing. My husband was especially impressed",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -5505,7 +5843,43 @@
     "fbNewestPost": null,
     "website": "https://www.michelbobs.com/"
    },
-   "websiteSource": "OpenStreetMap node/13608739531 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/13608739531 website tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.michelbobs.com/",
+        "quote": "e | Known For | Michelbob’s is known for serving the signature dishes that have made us a local favorite for decades. From our famous Danish Baby-Back Ribs and hand-cut steak to crispy fried cat",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.michelbobs.com/",
+        "quote": "een serving award-winning BBQ, hand-cut steak, and made-from-scratch favorites in a warm, family-friendly atmosphere. Our menu is built on time-tested recipes, slow-cooked flavors, and a commitme",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-midnight-tavern-naples",
@@ -5514,7 +5888,7 @@
    "address": "2800 Davis Blvd, Naples",
    "state": "FL",
    "zip": "34104",
-   "phone": null,
+   "phone": "(239) 732-5400",
    "lat": 26.1381,
    "lng": -81.7711,
    "priceText": "$$ (Facebook page)",
@@ -5525,7 +5899,28 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "2 for 1 Domestic Draft and Well Liquor $10 Chicken Quesadilla Industry Night: 10pm-1am Live DJ",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website midnighttavernfl.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "10pm-2am $1 off Import/Craft Draft",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website midnighttavernfl.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -5539,7 +5934,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/107587844820893/Midnight-Tavern-Naples",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://midnighttavernfl.com/"
    },
    "trivia": {
     "nights": [],
@@ -5553,7 +5948,70 @@
       "url": "https://www.midnighttavernfl.com/specials"
      }
     ]
-   }
+   },
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Live music fans"
+    ],
+    "summary": "Family-friendly; known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.midnighttavernfl.com/",
+        "quote": "tering | Franchises | Get to Know Us | Welcome to Midnight Tavern in Naples, Florida! Our family-friendly spot offers delicious American bar food made with fresh, local ingredients. Enjoy daily s",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.midnighttavernfl.com/",
+        "quote": "redients. Enjoy daily specials, a full-service bar, TVs for all your favorite sports, and live music every Thursday through Saturday. Our dog-friendly outdoor seating makes it the perfect place to",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "$10 Alex’s Meatball Sub $6 1800 Margaritas ‍ Trivia: 7pm-9pm Karaoke: 10pm-1am | monday",
+      "url": "https://www.midnighttavernfl.com/specials"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "2 for 1 Domestic Draft and Well Liquor $10 Chicken Quesadilla Industry Night: 10pm-1am Live DJ | tuesday",
+      "url": "https://www.midnighttavernfl.com/specials"
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.midnighttavernfl.com, checked 2026-11-02"
   },
   {
    "id": "fl-mila-bistro-naples",
@@ -5830,7 +6288,22 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Daily",
+     "text": "BOGO MARGARITAS ALL DAY EVERYDAY",
+     "tags": [],
+     "src": "Venue website mrtequilasrestaurant.com/specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Daily",
+     "text": "Enjoy buy one, get one free house margaritas all day, every day",
+     "tags": [],
+     "src": "Venue website mrtequilasrestaurant.com/specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -5841,7 +6314,20 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/343259862403095/Mr.-Tequila%E2%80%99s---Central-Naples",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-07-04",
-    "website": null
+    "website": "http://www.mrtequilasrestaurant.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Tequila is bringing the heat this Cinco de Mayo with a live DJ and unbeatable drink specials all night long",
+      "url": "https://www.mrtequilasrestaurant.com/specials"
+     }
+    ]
    }
   },
   {
@@ -6091,8 +6577,40 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Fri",
+     "text": "On Fridays, enjoy Veuve Clicquot Rosé by the glass for $20 accompanied by $2 oysters during happy hour",
+     "tags": [],
+     "src": "Venue website ocean-prime.com/locations-menus/beverly-hills",
+     "checked": "2026-11-01"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Mon-Fri",
+     "text": "Join us Monday - Friday in our Lounge from 4 - 6 PM and enjoy $5 off our lounge menu and specially priced cocktails, beer & wine",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website ocean-prime.com/locations-menus/naples",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Daily",
+     "text": "Join us for a special 3-course menu for $70 per person, available daily 4-5:30pm",
+     "tags": [],
+     "src": "Venue website ocean-prime.com/locations-menus/naples",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Sun",
+     "text": "On Sundays, enjoy selected half-price bottles of wine from our Wine Spectator award-winning wine list",
+     "tags": [],
+     "src": "Venue website ocean-prime.com/locations-menus/beverly-hills",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -6127,7 +6645,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/295927284123535/Ocean-Prime",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://www.ocean-prime.com/locations-menus/naples"
    },
    "bingo": {
     "nights": [],
@@ -6139,6 +6657,29 @@
       "date": "2026-11-01",
       "quote": "OYSTERS BINGO",
       "url": "https://ocean-prime.com/locations-menus/naples/"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Live DJ Music",
+      "url": "https://ocean-prime.com/locations-menus/beverly-hills/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Join us in our Lounge on Friday and Saturday evenings to enjoy a live DJ",
+      "url": "https://ocean-prime.com/locations-menus/beverly-hills/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Join us in our Lounge on Friday and Saturday evenings to enjoy a live DJ",
+      "url": "https://ocean-prime.com/locations-menus/beverly-hills/"
      }
     ]
    }
@@ -6216,8 +6757,34 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Tue-Sat",
+     "text": "Happy Hour Tuesday - Saturday 4pm-6pm",
+     "tags": [],
+     "src": "Venue website oldtownsaloon.net",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Every Wednesday Enjoy $4 Bush Lights, $4 PBR's",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website oldtownsaloon.net/happy-hours-specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Tue",
+     "text": "Every Tuesday Enjoy $8 House Margaritas",
+     "tags": [],
+     "src": "Venue website oldtownsaloon.net/happy-hours-specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -6252,10 +6819,41 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/526958920510135/Old-Town-Saloon-Naples",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://oldtownsaloon.net/"
    },
    "trivia": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "04:00 PM - 06:00 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-03",
+      "datedLastSeen": "2026-11-03",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://oldtownsaloon.net/happy-hours-specials",
+        "date": "2026-11-03",
+        "quote": "Tuesday November 3rd | HAPPY HOUR SPECIALS | 04:00 PM - 06:00 PM | TWISTED >> TWISTED TRIVIA 7 PM Win Gift Cards"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://oldtownsaloon.net/events",
+        "date": "2026-11-03",
+        "quote": "Trivia Night | Tuesday November 3rd"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://oldtownsaloon.net/",
+        "date": "2026-11-01",
+        "quote": "Join us for live music, Tuesday trivia, Wednesday Boot Scootin’ Bingo, karaoke, and late-night DJs"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -6268,7 +6866,38 @@
     ]
    },
    "bingo": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "04:00 PM - 06:00 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-04",
+      "datedLastSeen": "2026-11-04",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://oldtownsaloon.net/happy-hours-specials",
+        "date": "2026-11-04",
+        "quote": "HAPPY HOUR SPECIALS | 04:00 PM - 06:00 PM | Every Wednesday Enjoy $4 Bush Lights, $4 PBR's ! 6PM-Close BOOT SCOOTIN' >> 6PM-Close BOOT SCOOTIN' BINGO 6-8 PM A mix of classic bingo & music bingo | 04:00 PM - 06:00 PM"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://oldtownsaloon.net/events",
+        "date": "2026-11-04",
+        "quote": "Boot Scootin’ Bingo | Wednesday November 4th"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://oldtownsaloon.net/",
+        "date": "2026-11-01",
+        "quote": "Join us for live music, Tuesday trivia, Wednesday Boot Scootin’ Bingo, karaoke, and late-night DJs"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -6286,6 +6915,44 @@
      {
       "date": "2026-11-01",
       "quote": " 6PM-Close BOOT SCOOTIN' BINGO 6-8 PM A mix of classic bingo & music bingo | 04:00 PM - 06:00 PM",
+      "url": "https://oldtownsaloon.net/happy-hours-specials"
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "8:00 PM - 11:00 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://oldtownsaloon.net/events",
+        "date": "2026-11-01",
+        "quote": "Karaoke Night | Every Wednesday 8:00 PM - 11:00 PM | Every Wednesday 8:00 PM - 11:00 PM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Join us for live music, Tuesday trivia, Wednesday Boot Scootin’ Bingo, karaoke, and late-night DJs",
+      "url": "https://oldtownsaloon.net/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Followed By Karaoke Night 8-11PM | 04:00 PM - 06:00 PM",
       "url": "https://oldtownsaloon.net/happy-hours-specials"
      }
     ]
@@ -6378,7 +7045,16 @@
    "hoursNote": "Restaurantji (updated 2026-10-30) lists different hours: Mon-Thu 11:30a-10p; Fri-Sat 11:30a-10:30p; Sun 11:30a-10p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Lunch: 11:30 am to 3:00 pm Daily Happy Hour : 2:30 pm to 4:00 pm Daily Dinner: 5:00 pm to 9:30 pm Sunday - Thursday 5:00 pm to 10:30 pm Friday & Saturday",
+     "tags": [],
+     "src": "Venue website osteriatulia.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -6435,7 +7111,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/371918089551864/Osteria-Tulia",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-12",
-    "website": null
+    "website": "http://www.OsteriaTulia.com/"
    },
    "conflicts": [
     {
@@ -6548,7 +7224,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy Hour every day from 3pm to 6pm",
+     "tags": [],
+     "src": "Venue website paddymurphys.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -6563,7 +7248,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Marco-Island/42521065559/Paddy-Murphy%60s-Irish-Pub",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.paddymurphys.com/"
    },
    "trivia": {
     "nights": [
@@ -6593,6 +7278,96 @@
         "url": "https://paddymurphys.com/-events?source=header&spot_id=344846&destination=events&promotion=nba_season",
         "date": "2026-12-16",
         "quote": "Trivia Night | Wednesday, December 16th, 2026"
+       }
+      ],
+      "confidence": "high"
+     },
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": "03:00 PM - 06:00 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-12-21",
+      "datedLastSeen": "2026-12-21",
+      "postsSeen": 10,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://paddymurphys.com/-events?source=header&spot_id=344846&destination=events&promotion=nba_season",
+        "date": "2026-12-21",
+        "quote": "Trivia Night | Monday, December 21st, 2026"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://paddymurphys.com/marco-island-paddy-murphys-irish-pub-events",
+        "date": "2026-12-21",
+        "quote": "Trivia Night | Monday, December 21st, 2026"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://paddymurphys.com/-events?source=header&spot_id=344846&destination=events&promotion=nba_season",
+        "date": "2026-12-14",
+        "quote": "Trivia Night | Monday, December 14th, 2026"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://paddymurphys.com/",
+        "quote": "ey | Friday November 6th | Holler & Honey play a unique style of music and are becoming a local favorite | Michael Nichols | Saturday November 7th | Michael plays a wide variety of genres | DJ R",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-12-26",
+      "datedLastSeen": "2026-12-26",
+      "postsSeen": 9,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://paddymurphys.com/-events?source=header&spot_id=344846&destination=events&promotion=nba_season",
+        "date": "2026-12-26",
+        "quote": "DJ Raindrop | Saturday, December 26th, 2026"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://paddymurphys.com/marco-island-paddy-murphys-irish-pub-events",
+        "date": "2026-12-26",
+        "quote": "DJ Raindrop | Saturday, December 26th, 2026"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://paddymurphys.com/-events?source=header&spot_id=344846&destination=events&promotion=nba_season",
+        "date": "2026-12-19",
+        "quote": "DJ Raindrop | Saturday, December 19th, 2026"
        }
       ],
       "confidence": "high"
@@ -6634,7 +7409,8 @@
     "fbNewestPost": "2026-10-07",
     "website": "https://www.paellasfusion.com/"
    },
-   "websiteSource": "OpenStreetMap node/14078837533 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/14078837533 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.paellasfusion.com/menu"
   },
   {
    "id": "fl-paradise-wine",
@@ -7289,7 +8065,8 @@
     "fbNewestPost": null,
     "website": "https://www.sailsrestaurants.com/"
    },
-   "websiteSource": "OpenStreetMap node/7125095789 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/7125095789 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.sailsrestaurants.com/page/menu/vegan-menu.html"
   },
   {
    "id": "fl-sails-restaurant-naples",
@@ -7438,7 +8215,7 @@
    "hours": "Mon 4:30p-9p; Tue-Sat 11:30a-1a; Sun 11:30a-9p",
    "hoursNote": "Restaurantji (updated 2026-10-06) lists different hours: Mon 4:30p-9p; Tue-Sat 11:30a-12a; Sun 11:30a-9p. Call ahead to confirm.",
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 12 am per Venue website seventhsouth.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -7451,7 +8228,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/106762264451491/Seventh-South-Waterfront",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-15",
-    "website": null
+    "website": "http://www.seventhsouth.com/"
    },
    "conflicts": [
     {
@@ -7479,7 +8256,7 @@
    "address": "6340 Naples Blvd Suite 1, 2, 3, Naples",
    "state": "FL",
    "zip": "34109",
-   "phone": null,
+   "phone": "(239) 591-5718",
    "lat": 26.2187,
    "lng": -81.7728,
    "priceText": "$$ (Facebook page)",
@@ -7536,7 +8313,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/1641802352776171/Shea%27s-Lansdowne-Street",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-12",
-    "website": null
+    "website": "http://www.sheaslansdownestreet.com/"
    },
    "trivia": {
     "nights": [],
@@ -7550,7 +8327,44 @@
       "url": "https://sheaslansdownestreet.com/"
      }
     ]
-   }
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://sheaslansdownestreet.com/",
+        "quote": "s Boulevard, Naples, FL 34109 | Greetings From | Shea's | Imagine. A traditional and cozy neighborhood pub. Many different types of beer. Lobster rolls. New England Clam Chowder. A Green Monster s",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://sheaslansdownestreet.com/",
+        "quote": "-night DJs, Shea's. is an ideal spot for all occasions - birthdays, bachelorette parties, date nights, and more. | Parties | Reviews | Review by - Google | Kathy S: | The lobster roll is the",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website sheaslansdownestreet.com, checked 2026-11-02"
   },
   {
    "id": "fl-shoppes-of-pebblebrooke",
@@ -7598,8 +8412,8 @@
    "website": "http://SonnysNaples.com/",
    "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-11p",
    "hoursNote": "Restaurantji (updated 2026-10-15) lists different hours: Daily 11a-12a. Call ahead to confirm.",
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Daily 11a-10p",
+   "kitchenNote": "Kitchen hours from Venue website SonnysNaples.com, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [
     {
      "days": "See venue",
@@ -7669,7 +8483,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/517343191454543/Sonny%E2%80%99s-Pizzeria-%26-Sports-Bar",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://SonnysNaples.com/"
    },
    "conflicts": [
     {
@@ -7849,7 +8663,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/112423880434086/Spanky%E2%80%99s-Speakeasy-Naples",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-09",
-    "website": null
+    "website": "http://Spankysspeakeasy.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://Spankysspeakeasy.com/",
+        "quote": "Family Friendly Waterfront | Spanky's Speakeasy | Skip to content | Spanky's Speakeasy Eatery & Spirits",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -8124,7 +8960,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour 1 - 5 pm",
+     "tags": [],
+     "src": "Venue website syrenoysterbar.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -8139,7 +8984,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/112388005104795/Syren-Oyster-%26-Cocktail-Bar",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://syrenoysterbar.com/"
    }
   },
   {
@@ -8855,7 +9700,24 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy Hour – 11am – 6pm – 7 days a week",
+     "tags": [],
+     "src": "Venue website bluemonkeybar.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour menu 3pm – 6pm Monday to Friday",
+     "tags": [],
+     "src": "Venue website bluemonkeybar.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -8864,7 +9726,88 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
    "county": "Collier",
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "8-11p",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://bluemonkeybar.com/",
+        "date": "2026-11-01",
+        "quote": " Every Wednesday Night for Karaoke, and Bands every Friday and Saturday night"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://bluemonkeybar.com/",
+        "date": "2026-11-01",
+        "quote": "Karaoke Night | Wednesday"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://bluemonkeybar.com/",
+        "date": "2026-11-01",
+        "quote": "Karaoke Wednesdays"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "8PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": "2026-10-30",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://bluemonkeybar.com/",
+        "date": "2026-11-01",
+        "quote": " Every Wednesday Night for Karaoke, and Bands every Friday and Saturday night"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://bluemonkeybar.com/events/",
+        "date": "2026-10-30",
+        "quote": "Florida Rhythm Kings | Friday Oct 30 @ 8PM | Read More | >> Karaoke Night"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://bluemonkeybar.com/events/siren-says-rock/",
+        "date": "2026-10-30",
+        "quote": "Friday Oct 30 @ 8PM | Post navigation | ← | >> Karaoke Night"
+       }
+      ],
+      "confidence": "medium"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://bluemonkeybar.com/",
+        "date": "2026-11-01",
+        "quote": " Every Wednesday Night for Karaoke, and Bands every Friday and Saturday night"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -8882,7 +9825,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/233353486762259/The-Blue-Monkey",
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://bluemonkeybar.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Live music fans"
+    ],
+    "summary": "A locals-and-regulars spot; known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://bluemonkeybar.com/",
+        "quote": "Whether your here for Lunch, Dinner, or a late night snack, our new menu has plenty of local favorites and a few new experiences for you to try. Scratch Made items that you are sure to Love!",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://bluemonkeybar.com/",
+        "quote": "ad More | Events | We bring together some of the greatest bands in Southwest Florida with live music every week. Join us every Tuesday night for Open Mic Night. Every Wednesday Night for Karaoke,",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -8945,7 +9924,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/337736533228704/The-Boathouse-on-Naples-Bay",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-17",
-    "website": null
+    "website": "http://www.boathouseonnaplesbay.com/"
    },
    "conflicts": [
     {
@@ -8964,7 +9943,43 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.boathouseonnaplesbay.com/",
+        "quote": "sh icon with simple stripes on a white background | FRESH SEAFOOD | From daily catches to local favorites, our menu is full of coastal goodness. | Glass of lemonade with a lemon slice garnish",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.boathouseonnaplesbay.com/",
+        "quote": "ITION SINCE 1984. GOOD FOOD, COLD DRINKS, GREAT VIEWS. | The Boathouse on Naples Bay is a family-friendly, dockside restaurant known for fresh seafood, happy hour drinks, and warm hospitality. Wh",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-the-capri-fish-house-restaurant",
@@ -9485,7 +10500,7 @@
    "hours": "Daily 11a-2a",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 1 am per Venue website TheOasisNaples.com, checked 2026-11-01; days not stated.",
    "happyHours": [
     {
      "days": "See venue",
@@ -9584,7 +10599,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/101559715507204/The-Oasis-Naples",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://TheOasisNaples.com/"
    }
   },
   {
@@ -9594,7 +10609,7 @@
    "address": "3275 Bayshore Dr, Naples",
    "state": "FL",
    "zip": "34112",
-   "phone": null,
+   "phone": "(239) 732-1188",
    "lat": 26.1231,
    "lng": -81.7701,
    "priceText": "$$ (Facebook page)",
@@ -9627,8 +10642,44 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/116367735058634/The-Real-Macaw",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
-    "website": null
-   }
+    "website": "http://www.therealmacaw.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.therealmacaw.com/",
+        "quote": "offers two distinct dining experiences- Keep it casual and enjoy Wagyu Kobe burgers and upscale bar bites at our indoor/outdoor Bamboo Bar or experience fine French-Caribbean dining in",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Live Entertainment by DJ Unek",
+      "url": "https://www.therealmacaw.com/about"
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.therealmacaw.com, checked 2026-11-02"
   },
   {
    "id": "fl-the-village-pub",
@@ -9719,8 +10770,54 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "· $4 Domestics during HH",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website villagespotnaples.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "$2 off all signature cocktails during Happy Hour",
+     "tags": [],
+     "src": "Venue website villagespotnaples.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "· $5 Import & Craft during HH",
+     "tags": [],
+     "src": "Venue website villagespotnaples.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "$5 House Wine during Happy Hour",
+     "tags": [],
+     "src": "Venue website villagespotnaples.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$5 House Wine · $4 Domestic Beer · $5 Import & Craft · $5 Single Wells · $6 Single Tito's · $2 Off Signature Cocktails",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website villagespotnaples.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events"
@@ -9733,7 +10830,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/101807506146237/The-Village-Spot",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.villagespotnaples.com/"
    },
    "trivia": {
     "nights": [],
@@ -9745,6 +10842,28 @@
       "date": "2026-11-01",
       "quote": "🧠 Trivia Every Thursday @ 6pm",
       "url": "https://villagespotnaples.com/"
+     }
+    ]
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://villagespotnaples.com/",
+        "quote": "out | Menu | Specials | Hours & Contact | Call 239.449.0305 | The Village | Spot | 🍺 Your Neighborhood Bar & Grill | Great food. Cold drinks. Good people. | See Our Menu | Hours & Contact | Scroll",
+        "self": true
+       }
+      ]
      }
     ]
    }
@@ -10434,7 +11553,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Naples/522992361072149/Veranda-E",
     "fbPostsSeen": 2,
     "fbNewestPost": "2026-01-14",
-    "website": null
+    "website": "http://hotelescalante.com/veranda-e"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://hotelescalante.com/",
+        "quote": "the character and charm that make Naples such a unique destination. | Reserve your room | Fine Dining at | VERANDA E | Veranda E | at | The Escalante | offers an intimate fine dining experien",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

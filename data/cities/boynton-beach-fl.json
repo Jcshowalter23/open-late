@@ -122,7 +122,18 @@
    "hoursNote": "Restaurantji (updated 2026-10-30) lists different hours: Daily 11:30a-9:30p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Best \"Happy Hour\" in Town - 50% off Single Cocktails, $2 off Wine Glasses, $1 off Beer PLUS Complete Meals starting at just $9",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website agliolio.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -158,7 +169,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Boynton-Beach/251636848296864/Agliolio-Boynton-Beach",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.AGLIOLIO.com/"
    },
    "conflicts": [
     {
@@ -434,7 +445,56 @@
     "facebookMirror": "https://www.foodyas.com/US/Boynton-Beach/117728321587049/Benvenuto-Restaurant",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://benvenutorestaurant.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.benvenutorestaurant.com/",
+        "quote": "destination in Palm Beach County. Benvenuto's bar and lounge have become a favorite among locals to host a cocktail hour before dinner, and the outside courtyard is the only way to enter",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.benvenutorestaurant.com/",
+        "quote": "e restaurant and gardens with a gazebo surrounded by beautiful vegetation creating a very romantic ambiance, the courtyard with it’s stone floor and fountain wall needs nothing else for a",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJs/MUSIC",
+      "url": "https://www.benvenutorestaurant.com/events/preferred-vendors"
+     }
+    ]
    }
   },
   {
@@ -1708,7 +1768,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Boynton-Beach/104823944835595/Jax-Bistro-%26-Bar",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://www.jaxonjog.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.jaxonjog.com/",
+        "quote": "corner of Woolbright Road and Jog Road in the Publix Shopping Center, Jax on Jog is your neighborhood spot for great food, a full bar, and seven-day-a-week happy hour. | The Best Specials, Every D",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2499,8 +2581,28 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Sublime Time Happy Hour (3–7 PM)",
+     "tags": [],
+     "src": "Venue website pabbqgrille.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Unwind with $2 off beer and wine, $7 cocktails, or a $7 appetizer & beer combo featuring favorites like Sublime Street Corn, Funny Bonz, and pork sandwiches",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website pabbqgrille.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -2513,7 +2615,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Boynton-Beach/110461142379051/Park-Avenue-Bbq-Grille-Boynton-Beach",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.pabbqgrille.com/"
    }
   },
   {
@@ -2568,41 +2670,6 @@
     "facebookMirror": "https://www.foodyas.com/US/Boynton-Beach/214772275344607/Pho-VN",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
-  },
-  {
-   "id": "fl-pigsty-bbq",
-   "name": "Pigsty BBQ",
-   "cuisine": "Barbecue",
-   "address": "511 NE 4th St, Boynton Beach",
-   "state": "FL",
-   "zip": "33435",
-   "phone": "(561) 336-4533",
-   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Boynton-Beach/102975824742840/Pigsty-BBQ), checked 2026-11-01",
-   "lat": 26.5285,
-   "lng": -80.078,
-   "priceText": "$$ (Facebook page)",
-   "priceLevel": "$$",
-   "website": "http://Pigstybbq.com/",
-   "hours": "Mon-Tue closed; Wed-Thu 4p-11p; Fri 12p-10:30p; Sat-Sun 12p-11p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Bar scene"
-   ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
-   "county": "Palm Beach",
-   "crowdChecked": "2026-11-01",
-   "crowdSources": {
-    "restaurantji": null,
-    "facebookMirror": "https://www.foodyas.com/US/Boynton-Beach/102975824742840/Pigsty-BBQ",
-    "fbPostsSeen": 10,
-    "fbNewestPost": "2026-10-24",
     "website": null
    }
   },
@@ -3042,8 +3109,7 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ],
-   "menu": "https://www.rokprimebbq.com/menu"
+   ]
   },
   {
    "id": "fl-rotelli-pizza-and-pasta-boynton-beach",
@@ -3110,7 +3176,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Boynton-Beach/101397299515574/Ruocco%E2%80%99s-Restaurant-Boynton",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://www.ruoccosrestaurant.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://ruoccosrestaurant.com/",
+        "quote": "in Boynton Beach, Florida, and Manalapan, New Jersey, we're proud to be a favorite among locals seeking standout Italian restaurants in their area. | Whether you're planning a night out",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -3263,8 +3351,39 @@
    "hoursNote": "Restaurantji (updated 2026-10-28) lists different hours: Mon closed; Tue-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Tue-Sun",
+     "text": "Happy Hour runs Tuesday through Sunday, 3–6 PM",
+     "tags": [],
+     "src": "Venue website solemiokitchenbar.com/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Wed",
+     "text": "Every Wednesday, Sole Mio offers 50% off all wine bottles priced $60 and under — the ultimate happy hour upgrade for wine lovers in Boynton Beach",
+     "tags": [],
+     "src": "Venue website solemiokitchenbar.com/happy-hour",
+     "checked": "2026-11-01"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Italian reds, coastal whites, and a rotating by-the-glass pour — plus half-off bottles every Wine Wednesday",
+     "tags": [],
+     "src": "Venue website solemiokitchenbar.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "Our Wine Wednesday promotion gives 50% off bottles $60 and under all day",
+     "tags": [],
+     "src": "Venue website solemiokitchenbar.com/happy-hour",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -3278,7 +3397,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Boynton-Beach/104240621016654/Sole-Mio-Kitchen-%26-Bar",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-22",
-    "website": null
+    "website": "https://solemiokitchenbar.com/"
    },
    "conflicts": [
     {
@@ -3295,7 +3414,43 @@
      "checked": "2026-11-01"
     }
    ],
-   "menu": "https://solemiokitchenbar.com/menu/"
+   "menu": "https://solemiokitchenbar.com/menu/",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://solemiokitchenbar.com/",
+        "quote": "ing was amazing. Definitely recommend.” | Sandra Pedroso | ★ Google · family dinner | The neighborhood spot that actually likes groups | One table for 16, one server — and everyone pays their own w",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://solemiokitchenbar.com/",
+        "quote": "y | Reserve Your Table — Sole Mio Kitchen & Bar, Boynton Beach | Return & Refund Policy | Romantic Date Night Dinner in Boynton Beach | Sole Mio Kitchen & Bar | Russian Supper Club | Sole",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-sootys",
@@ -3496,8 +3651,8 @@
    "website": "http://www.sweetwater33.com/",
    "hours": "Mon-Thu 5p-12a; Fri-Sat 5p-2a; Sun 5p-12a",
    "hoursNote": "Restaurantji (updated 2026-10-30) lists different hours: Mon-Thu 5p-12a; Fri-Sat 5p-1a; Sun 5p-12a. Call ahead to confirm.",
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Daily 5p-5p",
+   "kitchenNote": "Kitchen hours from Venue website sweetwater33.com, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -3521,7 +3676,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Boynton-Beach/142221282501106/Sweetwater",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://www.sweetwater33.com/"
    },
    "conflicts": [
     {

@@ -517,7 +517,68 @@
    },
    "menu": "https://www.cinderlands.com/wexford-taproom/",
    "trivia": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "7 PM – 9 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-03",
+      "datedLastSeen": "2026-11-03",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.cinderlands.com/events/tuesday-trivia-night/",
+        "date": "2026-11-03",
+        "quote": "with Trivia Jockeys | Tuesday, November 3, 2026 · 7 PM – 9 PM | Tuesday, November 3, 2026 · 7 PM – 9 PM"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.cinderlands.com/cinderlands-warehouse/",
+        "date": "2026-11-01",
+        "quote": "Tuesday Trivia Night"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.cinderlands.com/cinderlands-public-events/",
+        "date": "2026-11-01",
+        "quote": "Tuesday Trivia Night"
+       }
+      ],
+      "confidence": "medium"
+     },
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "7 PM – 9 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-06",
+      "datedLastSeen": "2026-11-06",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.cinderlands.com/events/friday-night-trivia/",
+        "date": "2026-11-06",
+        "quote": "with Trivia Jockeys | Friday, November 6, 2026 · 7 PM – 9 PM | Friday, November 6, 2026 · 7 PM – 9 PM"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.cinderlands.com/cinderlands-warehouse/",
+        "date": "2026-11-01",
+        "quote": "Friday Night Trivia"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.cinderlands.com/cinderlands-public-events/",
+        "date": "2026-11-01",
+        "quote": "with Trivia Jockeys | Fri"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -609,7 +670,20 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.conalmapgh.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Since 2021, the band has performed at The RubberCity Jazz Fest (Akron,OH), Tri-C Jazz Fest (Cleveland,OH) Paw Paw Fest (Athens,OH), Sound of Music Fest @ Nublu (NYC) as well as sharing the stage with",
+      "url": "https://www.conalmapgh.com/jazz"
+     }
+    ]
    }
   },
   {
@@ -724,8 +798,10 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://www.eatzucchini.com/"
+   },
+   "phone": "(866) 682-4413",
+   "phoneSource": "Venue website shop.girlset.com, checked 2026-11-02"
   },
   {
    "id": "forbes-tavern",
@@ -815,7 +891,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/265303836893490/Genoa-Pizza-%26-Bar",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-08-28",
-    "website": null
+    "website": "http://genoapizza.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://genoapizza.com/",
+        "quote": "nd Chateau., Pittsburgh, PA | Genoa Pizza & Bar in Pittsburgh | Homemade Italian Comfort, Local Bar Energy | Since 2008, Genoa Pizza & Bar has been a Downtown Pittsburgh favorite, serving h",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://genoapizza.com/",
+        "quote": "burgh | , | pizza delivery near me | , | late-night pizza | , | wings | , | hoagies | , | sports bar | , or a | classic dive bar in Pittsburgh | , Genoa Pizza & Bar has been proudly serving",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -880,7 +992,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/252335648132378/Giovannis-Pizza-and-Pasta",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-05-27",
-    "website": null
+    "website": "http://www.ilovegiovannis.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://ilovegiovannis.com/",
+        "quote": "back for, this quick-service spot brings together pies, Italian staples, and a welcoming, family-friendly style. Giovanni’s Pizza & Pasta keeps things lively yet relaxed, with a modern feel, a di",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1061,7 +1195,35 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "50% OFF Draft Beer large and $2 off burritos",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website lasvelas-pittsburgh.com/pittsburgh-las-velas-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "$2 OFF domestic draft 50% OFF appetizers",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website lasvelas-pittsburgh.com/pittsburgh-las-velas-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Tue",
+     "text": "taco tuesday : $2",
+     "tags": [],
+     "src": "Venue website lasvelas-pittsburgh.com/pittsburgh-las-velas-happy-hours-specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror)",
@@ -1074,7 +1236,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/174528718579/Las-Velas-Mexican-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-20",
-    "website": null
+    "website": "http://www.lasvelas-pittsburgh.com/"
    }
   },
   {
@@ -1299,7 +1461,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/72353343261/Mullaney%27s-Harp-and-Fiddle-Irish-Pub",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.harpandfiddle.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://harpandfiddle.com/",
+        "quote": "ts | Our Menu | Our drinks | Gather & Celebrate at the Harp & Fiddle | parties | Loved By Locals | Start stop reviews carousel | Review by - Google | five star review by | Josh L: | The",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1667,7 +1851,20 @@
     "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/102609323407249/Revel-Pittsburgh",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://revelpgh.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Yacht Rock Sunday Brunch with Live DJs",
+      "url": "https://revelpgh.com/events/"
+     }
+    ]
    }
   },
   {
@@ -2244,7 +2441,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/113040635987343/The-Warren",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.TheWarrenPGH.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://thewarrenpgh.com/",
+        "quote": "er Online | News | FOOD MENU | Spirit List | COCKTAILS | Order Online | News | The warren neighborhood bar | HOURS | Sun-Sat 4pm-2am | Monday - Friday 5pm -2am | Kitchen Open Midnight daily. | We",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2381,7 +2600,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/6247555254 opening_hours tag (map data 2026-10-31; last checked on the map 2026-08-06) (checked 2026-11-01)",
    "county": "Allegheny",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://downtown.pizzaparma.us/menu/"
   },
   {
    "id": "pa-barcelona-wine-bar-pittsburgh",
@@ -2483,7 +2703,20 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/11159464923 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://citywinery.com/pages/locations/pittsburgh: \" Winery Pittsburgh | 1627 Smallman St, Pittsburgh, PA 15222 | View in Google Maps | Monday: | 4pm - 10pm | Tuesday\" (checked 2026-11-02)",
    "county": "Allegheny",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Full size stage to host top musical acts and DJ’s",
+      "url": "https://citywinery.com/pages/pittsburgh-private-events"
+     }
+    ]
+   }
   },
   {
    "id": "pa-aslin-beer-company-pittsburgh",
@@ -2502,7 +2735,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Sat,Sun",
+     "text": "For all these games grab our happy hour prices from opening to 11am on EPL Saturdays & Sundays",
+     "tags": [],
+     "src": "Venue website aslinbeer.com/events",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -2510,7 +2752,87 @@
    ],
    "source": "hours from OpenStreetMap node/13186201313 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.aslinbeer.com/pittsburgh: \"treet | Pittsburgh PA 15222 | (412) 586-5760 | ​ | Taproom Hours | Mon-Thurs: 11am-10pm | Fri: 11am-11pm | Sat: 10\" (checked 2026-11-02)",
    "county": "Allegheny",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": "7pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.aslinbeer.com/events",
+        "date": "2026-11-01",
+        "quote": "hosted by Pour House Trivia | Mondays 7pm | Mondays 7pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "7pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.aslinbeer.com/events",
+        "date": "2026-11-01",
+        "quote": "hosted by Pour House Trivia | Thursdays 7pm | Thursdays 7pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-24",
+      "quote": " 24th 7pm | Brew Feud is back at Aslin DC! Grab a beer and get ready to think like the crowd! | virginia beach events | >> trivia",
+      "url": "https://www.aslinbeer.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "trivia",
+      "url": "https://www.aslinbeer.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Come early to grab dinner and drinks from IZZI before Trivia begins | Mondays 7pm",
+      "url": "https://www.aslinbeer.com/events"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-10-28",
+      "quote": "drag bingo | Wednesday, October 28th 6:30pm | Wednesday, October 28th 6:30pm",
+      "url": "https://www.aslinbeer.com/events"
+     },
+     {
+      "date": "2026-10-28",
+      "quote": "| Wednesday, October 28th 6:30pm | hosted by s&s productions | The Queens are taking over! Come party with for our last >> Come party with for our last bingo of the year",
+      "url": "https://www.aslinbeer.com/events"
+     }
+    ]
+   }
   }
  ],
  "counties": [

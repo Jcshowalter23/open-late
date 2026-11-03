@@ -578,8 +578,42 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "HAPPY HOUR: M-F, 3-6PM",
+     "tags": [],
+     "src": "Venue website thebowmanrestaurant.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Free shot rounds, beer chugs, great food and drink specials",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website thebowmanrestaurant.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Wed",
+     "text": "$20 Crab Cake Wednesdays",
+     "tags": [],
+     "src": "Venue website thebowmanrestaurant.com/weeklyspecials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Thu",
+     "text": "Thursday's $20 Baby Back BBQ Ribs",
+     "tags": [],
+     "src": "Venue website thebowmanrestaurant.com/weeklyspecials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-16); the venue's Facebook page lists no hours (checked 2026-11-01)",
@@ -612,7 +646,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Parkville/432235043529608/Bowman-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-22",
-    "website": null
+    "website": "http://www.thebowmanrestaurant.com/"
    },
    "trivia": {
     "nights": [
@@ -732,7 +766,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Towson/350617132004530/Butter-Chicken-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-13",
-    "website": null
+    "website": "http://www.butterchickenrestaurant.com/"
    },
    "conflicts": [
     {
@@ -753,7 +787,43 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.butterchickenrestaurant.com/",
+        "quote": "available at | this moment. | OK | Join Our Loyalty | Program | Exclusive rewards for our regulars | Signup Now | ×",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.butterchickenrestaurant.com/",
+        "quote": "Butter | Chicken Restaurant for your dining pleasure. | We invite you to come and enjoy a fine dining experience complete with amazing food and | friendly, courteous staff. | LUNCH SPECIALS",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "md-c-r-wings-perry-hall-md",
@@ -1021,7 +1091,7 @@
    "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-11p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 1 am per Venue website conradscrabs.com/location/abingdon, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -1036,7 +1106,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Perry-Hall/214744015335473/Conrad%27s-Seafood-Restaurant--Perry-Hall%2C-MD",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://www.conradscrabs.com/"
    },
    "trivia": {
     "nights": [],
@@ -1062,7 +1132,38 @@
     ]
    },
    "bingo": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": "8:00 am",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-16",
+      "datedLastSeen": "2026-11-16",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://conradscrabs.com/location/abingdon/",
+        "date": "2026-11-16",
+        "quote": "November 16 @ 8:00 am | - | 5:00 pm | Charm City Music >> Charm City Music Bingo Mondays at 6:30PM"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://conradscrabs.com/events/",
+        "date": "2026-11-09",
+        "quote": "November 9 @ 8:00 am | - | 5:00 pm | Charm City Music >> Charm City Music Bingo Mondays at 6:30PM"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://conradscrabs.com/location/abingdon/",
+        "date": "2026-11-09",
+        "quote": "November 9 @ 8:00 am | - | 5:00 pm | Charm City Music >> Charm City Music Bingo Mondays at 6:30PM"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -1899,7 +2000,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Parkville/116643505027328/Jerry-D%27s-Restaurant-%26-Tavern",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.jerrydsaloon.com/"
    },
    "conflicts": [
     {
@@ -1920,7 +2021,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.jerrydsaloon.com/",
+        "quote": "ake a Reservation | Delicious Food | Enjoy our famous Maryland-style crab cakes and other local favorites | Great Atmosphere | Cozy tavern-style setting perfect for friends and family | Open Dai",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "md-juicy-king-crab-house",
@@ -3564,93 +3687,6 @@
    "websiteSource": "OpenStreetMap node/6689823258 website tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
-   "id": "md-skipjacks-crab-house-and-sports-bar",
-   "name": "Skipjack's Crab House & Sports Bar",
-   "cuisine": "Seafood",
-   "address": "7703 Belair Rd, Nottingham",
-   "state": "MD",
-   "zip": "21236",
-   "phone": "(410) 668-5053",
-   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Nottingham/175573287781/Skipjack%27s-Crab-House-%26-Sports-Bar), checked 2026-11-01",
-   "lat": 39.3669,
-   "lng": -76.5166,
-   "priceText": "$$ (Facebook page)",
-   "priceLevel": "$$",
-   "website": "http://www.skipjackscrabhouse.com/",
-   "hours": "Mon closed; Tue-Wed 4p-9p; Thu-Sun 12p-9p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Bar scene",
-    "Date night"
-   ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
-   "county": "Baltimore",
-   "crowdChecked": "2026-11-01",
-   "crowdSources": {
-    "restaurantji": null,
-    "facebookMirror": "https://www.foodyas.com/US/Nottingham/175573287781/Skipjack%27s-Crab-House-%26-Sports-Bar",
-    "fbPostsSeen": 10,
-    "fbNewestPost": "2025-11-14",
-    "website": null
-   },
-   "trivia": {
-    "nights": [
-     {
-      "day": "Tue",
-      "cadence": "weekly",
-      "start": "7:30 pm",
-      "basis": "posted on 9 different Tues",
-      "lastSeen": "2026-12-29",
-      "datedLastSeen": "2026-12-29",
-      "postsSeen": 9,
-      "sources": [
-       {
-        "src": "venue website event calendar",
-        "url": "https://www.skipjackscrabdeck.com/events",
-        "date": "2026-12-29",
-        "quote": "Trivia Night 7:30pm | Tue, Dec 29"
-       },
-       {
-        "src": "venue website event calendar",
-        "url": "https://www.skipjackscrabdeck.com/events",
-        "date": "2026-12-22",
-        "quote": "Trivia Night 7:30pm | Tue, Dec 22"
-       },
-       {
-        "src": "venue website event calendar",
-        "url": "https://www.skipjackscrabdeck.com/events",
-        "date": "2026-12-15",
-        "quote": "Trivia Night 7:30pm | Tue, Dec 15"
-       }
-      ],
-      "confidence": "high"
-     }
-    ],
-    "stale": [],
-    "hints": [],
-    "conflicts": [],
-    "oneoffs": []
-   },
-   "bingo": {
-    "nights": [],
-    "stale": [],
-    "hints": [],
-    "conflicts": [],
-    "oneoffs": [
-     {
-      "date": "2026-11-02",
-      "quote": "BINGO | Mon, Nov 02",
-      "url": "https://www.skipjackscrabdeck.com/events"
-     }
-    ]
-   }
-  },
-  {
    "id": "md-soda-pop-shop",
    "name": "Soda Pop Shop",
    "cuisine": "Seafood",
@@ -3963,7 +3999,53 @@
     "facebookMirror": "https://www.foodyas.com/US/White-Marsh/250838865061956/The-New-Dugout-Tavern",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.mdparty.com/"
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ & Karaoke",
+      "url": "https://www.mdparty.com/default"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Mac's Karaoke",
+      "url": "https://www.mdparty.com/default"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Larry's Concert Live and Karaoke",
+      "url": "https://www.mdparty.com/default"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-12-06",
+      "quote": "Earlybird price until 10/31-$40/ppTicket Price after 10/31-$45/ppTicket price includes:*Draft Beer Included*New Romance Band Performance*DJ*Photobooth*Door PrizesJoin us for an incredible dance event ",
+      "url": "https://www.mdparty.com/default"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "DJ Shows on MD Party",
+      "url": "https://www.mdparty.com/schedule/dj"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "DJ / Karoke",
+      "url": "https://www.mdparty.com/customschedule/default"
+     }
+    ]
    }
   },
   {
@@ -3982,8 +4064,8 @@
    "website": "http://theopi.com/",
    "hours": "Mon closed; Tue-Thu 12p-9p; Fri-Sat 12p-12a; Sun 12p-8p",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Tue-Sun 12p-1a",
+   "kitchenNote": "Kitchen hours from Venue website theopi.com, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -3999,7 +4081,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Rosedale/80060914932/The-Olde-Philadelphia-Inn",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://theopi.com/"
    },
    "bingo": {
     "nights": [
@@ -4064,6 +4146,94 @@
      {
       "date": "2026-12-10",
       "quote": "12/06 6:00pm | Christmas Karaoke and DJ dance party with Rachel Garland | 12/10 7:00pm | Christmas >> Christmas Bingo with Tom Emich | 12/11 7:00pm | 12/10 7:00pm",
+      "url": "https://www.theopi.com/live-music"
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": "6:00pm",
+      "basis": "posted on 3 different Suns",
+      "lastSeen": "2027-04-04",
+      "datedLastSeen": "2027-04-04",
+      "postsSeen": 3,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.theopi.com/live-music",
+        "date": "2027-04-04",
+        "quote": "04/03 6:00pm | Out Of Time | 04/04 6:00pm | dj Dance Party and >> dj Dance Party and Karaoke with Rachel Garland | 04/09 7:00pm | 04/04 6:00pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.theopi.com/live-music",
+        "date": "2027-02-14",
+        "quote": "02/13 6:00pm | Sound Storm | 02/14 6:00pm | Dj Dance Party and >> Dj Dance Party and Karaoke with Rachel Garland | 02/19 7:00pm | 02/14 6:00pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.theopi.com/live-music",
+        "date": "2026-11-15",
+        "quote": "11/14 6:00pm | Different sisters | 11/15 6:00pm | Gobble till You wobble >> Gobble till You wobble karaoke and DJ dance party with Rachel Garland | 11/19 7:00pm | 11/15 6:00pm"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-12-06",
+      "quote": "12/05 6:00pm | Code Red | 12/06 6:00pm | Christmas >> Christmas Karaoke and DJ dance party with Rachel Garland | 12/10 7:00pm",
+      "url": "https://www.theopi.com/live-music"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": "6:00pm",
+      "basis": "posted on 3 different Suns",
+      "lastSeen": "2027-04-04",
+      "datedLastSeen": "2027-04-04",
+      "postsSeen": 3,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.theopi.com/live-music",
+        "date": "2027-04-04",
+        "quote": "04/03 6:00pm | Out Of Time | 04/04 6:00pm | >> dj Dance Party and Karaoke with Rachel Garland | 04/09 7:00pm | 04/04 6:00pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.theopi.com/live-music",
+        "date": "2027-02-14",
+        "quote": "02/13 6:00pm | Sound Storm | 02/14 6:00pm | >> Dj Dance Party and Karaoke with Rachel Garland | 02/19 7:00pm | 02/14 6:00pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.theopi.com/live-music",
+        "date": "2026-11-15",
+        "quote": "11/14 6:00pm | Different sisters | 11/15 6:00pm | Gobble till You wobble karaoke and >> Gobble till You wobble karaoke and DJ dance party with Rachel Garland | 11/19 7:00pm | 11/15 6:00pm"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-12-06",
+      "quote": "12/05 6:00pm | Code Red | 12/06 6:00pm | Christmas Karaoke and >> Christmas Karaoke and DJ dance party with Rachel Garland | 12/10 7:00pm",
       "url": "https://www.theopi.com/live-music"
      }
     ]

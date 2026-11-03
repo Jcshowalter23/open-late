@@ -344,7 +344,8 @@
     "fbNewestPost": null,
     "website": "https://www.gaoconcept.com/"
    },
-   "websiteSource": "OpenStreetMap node/2404299731 website tag (map data 2026-11-01), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/2404299731 website tag (map data 2026-11-01), checked 2026-11-01",
+   "menu": "https://www.gaoconcept.com/menu"
   },
   {
    "id": "va-gyu-shige-japanese-bbq-and-sake-bar",
@@ -1243,7 +1244,7 @@
    "hours": "Mon-Sat 11:30a-10p; Sun 12p-10p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 9:30 pm per Venue website crystalsunflower.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -1256,7 +1257,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.crystalsunflower.com"
    }
   },
   {
@@ -1495,12 +1496,104 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Enjoy $1 off draft pours, $5 cheese or pepperoni flatbread pizzas, and 20% off appetizers",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website dunnloring.thecasualpint.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/5897605428 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://dunnloring.thecasualpint.com/: \"s. | Sign up for The Casual Pint Rewards | Hours | Monday: 3pm – 9pm | Tues. – Thursday.: 11:30am – 10pm | Fri. & \" (checked 2026-11-02)",
    "county": "Fairfax",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://dunnloring.thecasualpint.com/",
+        "quote": "munity gatherings. Create unforgettable memories with friends and family at your ultimate neighborhood hangout. | See our upcoming events | Take a tour of our location. We hope to see you soon! | The",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "We also have karaoke & live music",
+      "url": "https://dunnloring.thecasualpint.com/specials/"
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://dunnloring.thecasualpint.com/",
+        "date": "2026-11-01",
+        "quote": "Discover endless entertainment at The Casual Pint – Dunn Loring, where we host a vibrant array of events such as live music on Tuesday, trivia nights on Wednesdays, tap takeovers, beer pairings, and engaging community gatherings"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://dunnloring.thecasualpint.com/specials/",
+        "date": "2026-11-01",
+        "quote": "Wednesdays: Trivia"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
   }
  ],
  "type": "town",

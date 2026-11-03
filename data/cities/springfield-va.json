@@ -1604,7 +1604,8 @@
     "fbNewestPost": null,
     "website": "https://www.kumoasianva.com/"
    },
-   "websiteSource": "OpenStreetMap node/7773670941 website tag (map data 2026-11-01), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/7773670941 website tag (map data 2026-11-01), checked 2026-11-01",
+   "menu": "https://kumoasianva.com/food-menu"
   },
   {
    "id": "va-la-fiamma-italian-kitchen",
@@ -1801,7 +1802,8 @@
     "fbNewestPost": null,
     "website": "https://www.maggiemcflys.com/"
    },
-   "websiteSource": "OpenStreetMap way/350698275 website tag (map data 2026-11-01), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/350698275 website tag (map data 2026-11-01), checked 2026-11-01",
+   "menu": "https://www.maggiemcflys.com/menus/"
   },
   {
    "id": "va-magic-wok-restaurant",
@@ -2570,7 +2572,8 @@
     "fbNewestPost": null,
     "website": "https://www.royrogersrestaurants.com/locations/woodlawn"
    },
-   "websiteSource": "OpenStreetMap way/151217623 website tag (map data 2026-11-01), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/151217623 website tag (map data 2026-11-01), checked 2026-11-01",
+   "menu": "https://www.royrogersrestaurants.com/menu/lunch-dinner"
   },
   {
    "id": "va-seoul-bbq",
@@ -3332,7 +3335,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/10878739777 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.spinpollo.com/: \"VA | 🛍️ PICK UP | 🚚 DELIVERY | ``` | BUSINESS HOURS - ALL STORES | ``` | MONDAY - SATURDAY | 11AM - 10PM | SUNDAY \" (checked 2026-11-02)",
    "county": "Fairfax",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.spinpollo.com/",
+        "quote": "data-cycle-timeout=\"4000\"> | Order Online! | Delivery Available! | Catering Available! | Bring The Family! | Many Sides Available! | Charcoal Broiled Chicken! | Order Online! | Dine In, Pick-up o",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "city",

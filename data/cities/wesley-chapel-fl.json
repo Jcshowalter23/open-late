@@ -149,7 +149,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "We tried the $5 Monger Burger only on Mondays",
+     "tags": [],
+     "src": "Venue website burgermonger.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-10-12); the venue's Facebook page lists no hours (checked 2026-11-01)",
@@ -160,7 +168,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Wesley-Chapel/1000934019981762/BurgerMonger",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-09",
-    "website": null
+    "website": "http://www.burgermonger.com/"
    }
   },
   {
@@ -679,7 +687,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Wesley-Chapel/514601338645312/Florida-Avenue-Brewing-Co",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-08-17",
-    "website": null
+    "website": "http://www.floridaavebrewing.com/"
    },
    "trivia": {
     "nights": [],
@@ -703,6 +711,32 @@
       "url": "https://floridaavebrewing.com/events/"
      }
     ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-12-31",
+      "datedLastSeen": "2026-12-31",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://floridaavebrewing.com/events/",
+        "date": "2026-12-31",
+        "quote": "Weekly Recurring | Oct 1 - Dec 31 @ | Wesley Chapel | Pitcher Perfect >> Pitcher Perfect Karaoke & Open Mic"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
    }
   },
   {
@@ -1524,7 +1558,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Tue-Sat",
+     "text": "HAPPY HOUR: TUES - SAT: 5PM - 7PM NEWSLETTER SIGNUP STAY UP TO DATE ON EVENTS & SPECIALS",
+     "tags": [],
+     "src": "Venue website Skyboxrooftopbar.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1540,7 +1583,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Wesley-Chapel/105449319067285/Skybox-Rooftop-Bar-Wesley-Chapel",
     "fbPostsSeen": 12,
     "fbNewestPost": "2025-10-28",
-    "website": null
+    "website": "http://Skyboxrooftopbar.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.Skyboxrooftopbar.com/",
+        "quote": "viting restaurant and bar serves up an enticing menu and even better views. We're home to locals' favorite Happy Hour, featuring handcrafted cocktails, local beer, refreshing NA beverage",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.Skyboxrooftopbar.com/",
+        "quote": "special pricing and a delectable menu. Welcome to Happy Hour at Skybox, Pasco's favorite sports bar. | LEARN MORE | --> | Touch the Sky with our Rooftop Bar in Wesley Chapel | After a busy",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1999,7 +2078,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Wesley-Chapel/104761700943331/Treble-Makers-Sports-Bar-%26-Dueling-Pianos",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.treblemakersofwc.com/"
    },
    "conflicts": [
     {
@@ -2129,6 +2208,73 @@
       "url": "https://treblemakersofwc.com/private-events/"
      }
     ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7:00 pm",
+      "basis": "posted on 2 different Weds",
+      "lastSeen": "2026-11-18",
+      "datedLastSeen": "2026-11-18",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://treblemakersofwc.com/upcoming-events/",
+        "date": "2026-11-18",
+        "quote": "November 18 @ 7:00 pm | - | 10:00 pm | Live >> Live Karaoke | 10:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://treblemakersofwc.com/upcoming-events/",
+        "date": "2026-11-11",
+        "quote": "November 11 @ 7:00 pm | - | 10:00 pm | Live >> Live Karaoke | 10:00 pm"
+       }
+      ],
+      "confidence": "medium"
+     },
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://treblemakersofwc.com/happy-hour-wesley-chapel/",
+        "date": "2026-11-01",
+        "quote": "🎤 Karaoke Night | 🎹 Thursday – FREE Themed Dueling Pianos"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Live Karaoke | 10:00 pm",
+      "url": "https://treblemakersofwc.com/upcoming-events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "🎤 Karaoke",
+      "url": "https://treblemakersofwc.com/private-events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Depending on the date and package selected, entertainment options may include Dueling Pianos, live bands, karaoke, or other special events",
+      "url": "https://treblemakersofwc.com/private-events/"
+     }
+    ]
    }
   },
   {
@@ -2144,7 +2290,7 @@
    "lng": -82.35,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": "http://www.wokchi.com/",
+   "website": null,
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-6p",
    "hoursNote": null,
    "kitchen": null,
@@ -2162,7 +2308,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
-   }
+   },
+   "websiteSource": "removed 2026-11-02: domain now for sale"
   },
   {
    "id": "fl-zukkusan-sushi-bar-and-grill",

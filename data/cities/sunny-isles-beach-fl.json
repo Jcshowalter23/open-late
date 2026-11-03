@@ -586,7 +586,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Sunny-Isles-Beach/110302014956093/Il-Mulino-New-York",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-08",
-    "website": null
+    "website": "http://www.imny.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.imny.com/",
+        "quote": "Il Mulino New York | Modern Upscale Italian Restaurant | Fine Dining | The Ultimate Luxury Dining Experience | IMNY | Skip to",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -807,7 +829,7 @@
    "address": "Mykonos Kitchen and Bar, 400 Sunny Isles Blvd, Sunny Isles Beach",
    "state": "FL",
    "zip": "33160",
-   "phone": null,
+   "phone": "(305) 497-9775",
    "lat": 25.9291,
    "lng": -80.1287,
    "website": "http://mykonoskitchenandbar.com/",
@@ -830,7 +852,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Sunny-Isles-Beach/168311033034205/Mykonos-Kitchen-and-Bar",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://mykonoskitchenandbar.com/"
    },
    "conflicts": [
     {
@@ -850,7 +872,44 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://mykonoskitchenandbar.com/",
+        "quote": "re: The Simple Secrets Behind Greek Flavor | Host Your Next Celebration by the Water: Why Locals Love Mykonos Kitchen & Bar | What You Need To Know Before Your First Branzino Dish | Ring",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://mykonoskitchenandbar.com/",
+        "quote": "as you soak in the warm ambiance of our elegant dining space. | Whether you’re here for a romantic dinner, a family brunch, or a corporate event, Mykonos Kitchen & Bar is the perfect setti",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website mykonoskitchenandbar.com, checked 2026-11-02"
   },
   {
    "id": "fl-nununu-miami-sunny-isles-beach",
@@ -1546,7 +1605,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour runs from 3 to 6 PM",
+     "tags": [],
+     "src": "Venue website porterhousemia.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -1611,7 +1679,8 @@
       "url": "https://www.porterhousemia.com/future-events"
      }
     ]
-   }
+   },
+   "menu": "https://www.porterhousemia.com/menu"
   },
   {
    "id": "fl-la-sandwicherie-sunny-isles-beach",
@@ -1683,7 +1752,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/397015472 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Miami-Dade",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://lacabreramiami.com/carta"
   }
  ],
  "type": "city",

@@ -1195,16 +1195,67 @@
    "hours": "Mon-Tue closed; Wed-Sat 11a-10p; Sun 10a-3p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 2 pm per Venue website gearhousebrewingco.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$3-off Carry-out Beer",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website gearhousebrewingco.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Sun",
+     "text": "Each week we have free live music, an award winning Sunday Brunch, and more",
+     "tags": [],
+     "src": "Venue website gearhousebrewingco.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
    ],
    "source": "hours from OpenStreetMap node/6532717558 opening_hours tag (map data 2026-11-01; last checked on the map 2025-10-10) (checked 2026-11-02); late hours confirmed by venue website https://gearhousebrewingco.com/: \"rsburg, PA 17201 | 717 552-2427 | taproom@gearhousebrewingco.com | TAPROOM HOURS | Wed -Sat: 11am - 10pm | Sun: 10\" (checked 2026-11-02)",
    "county": "Franklin",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7-9pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://gearhousebrewingco.com/",
+        "date": "2026-11-01",
+        "quote": " Trivia Wednesdays weekly, 7-9pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia hosted by Adam Gress 7-9pm",
+      "url": "https://gearhousebrewingco.com/"
+     }
+    ]
+   }
   }
  ],
  "counties": [

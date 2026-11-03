@@ -131,7 +131,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "We offer Hand-Cut Steaks, Slow-Roasted Prime Rib Daily (While It Lasts), 2-4-1 Happy Hour 7 Days A Week from 11 AM to 7 PM and most importantly, We Proudly Serve Hospitality",
+     "tags": [],
+     "src": "Venue website codysamerican.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -182,7 +191,7 @@
     "facebookMirror": "https://www.foodyas.com/US/The-Villages/171008116288177/Cody%27s-Original-Roadhouse---Lake-Sumter-Landing",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-02",
-    "website": null
+    "website": "http://www.codysamerican.com/"
    }
   },
   {
@@ -831,7 +840,7 @@
    "address": "2209 Dr Randy McDaniel Way, The Villages",
    "state": "FL",
    "zip": "34762",
-   "phone": null,
+   "phone": "(352) 775-5353",
    "lat": 28.9084,
    "lng": -81.9743,
    "priceText": "$$ (Facebook page)",
@@ -923,8 +932,31 @@
     "facebookMirror": "https://www.foodyas.com/US/The-Villages/321223734415363/Victory-Sports-Grill",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-15",
-    "website": null
-   }
+    "website": "http://www.victorysportsgrill.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.victorysportsgrill.com/",
+        "quote": "ur cocktail menu delivers the perfect pairing for every matchup. Discover one of the best sports bar drink menus around, featuring premium spirits, local brews, and refreshing cocktails. | A",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.victorysportsgrill.com, checked 2026-11-02"
   },
   {
    "id": "fl-wolfgang-puck-kitchen-bar",

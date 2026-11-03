@@ -575,7 +575,8 @@
       "url": "https://www.theshenaniganspub.com/events/"
      }
     ]
-   }
+   },
+   "menu": "https://www.theshenaniganspub.com/food/"
   },
   {
    "id": "ga-surcheros-dahlonega-ga",
@@ -758,7 +759,8 @@
     "fbNewestPost": null,
     "website": "https://www.zenramensushiburrito.com/dahlonega/"
    },
-   "websiteSource": "OpenStreetMap node/13668093170 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/13668093170 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.zenramensushiburrito.com/wp-content/uploads/2022/08/202110-Zen-Ramen-Bar-reduced.pdf"
   },
   {
    "id": "ga-spirits-tavern-dahlonega",
@@ -808,7 +810,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/13145941737 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://gustavospizza.com/: \"s on | Facebook page | Instagram page | Google page | Hours | Mon-Thur- 11am-9pm | Friday-sat- 11am-10 pm | sunday-\" (checked 2026-11-02)",
    "county": "Lumpkin",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://gustavospizza.com/",
+        "quote": "und out the menu for anyone craving a little more than a slice. Grab a seat at the bar to catch the game, or settle in outside. However you spend your time at our pizza place in Dahlonega, GA, w",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "town",

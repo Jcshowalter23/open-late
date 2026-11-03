@@ -256,8 +256,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/sc/greer/crazy-quesadilla-/ (updated 2026-10-10), checked 2026-11-01",
    "lat": 34.892505,
    "lng": -82.292892,
-   "website": "https://www.crazy-quesadilla.com/",
-   "websiteSource": "OpenStreetMap node/4536924108 website tag (map data 2026-10-31), checked 2026-11-01",
+   "website": null,
+   "websiteSource": "removed 2026-11-02: domain now for sale",
    "hours": "Mon-Thu 11a-8:30p; Fri-Sat 11a-9p; Sun 11a-7:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -596,7 +596,29 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://joyoftokyo.tv/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://joyoftokyo.tv/",
+        "quote": "mpetitive cost. | Community-Ready Concept | Joy Of Tokyo's communal dining experience and family-friendly atmosphere have driven fierce local loyalty — a model that translates powerfully to new m",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -685,7 +707,29 @@
     "fbNewestPost": null,
     "website": "https://kitchensyncgreenville.com/"
    },
-   "menu": "https://kitchensyncgreenville.com/wp-content/uploads/2026/09/Laurens-DINNER-menu-09.01.26-1.pdf"
+   "menu": "https://kitchensyncgreenville.com/wp-content/uploads/2026/09/Laurens-DINNER-menu-09.01.26-1.pdf",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://kitchensyncgreenville.com/",
+        "quote": "r Menus | Find A Table | Order Takeout | Locations | Gift Cards | Select Page | A Soulful Neighborhood Joint | Laurens Rd. | Eastside | Kitchen Sync is a unique, soulful neighborhood restaurant dish",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "sc-lincanto",
@@ -834,7 +878,8 @@
     "fbNewestPost": null,
     "website": "https://www.latinflavorz.com/"
    },
-   "websiteSource": "OpenStreetMap way/312108649 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/312108649 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.latinflavorz.com/new-menu"
   },
   {
    "id": "sc-marios-mexican-grille-and-cantina",

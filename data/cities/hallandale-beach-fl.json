@@ -415,7 +415,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Hallandale-Beach/107662422183578/Bissaleh-D%27Amore",
     "fbPostsSeen": 10,
     "fbNewestPost": "2023-05-09",
-    "website": null
+    "website": "https://bissalehcafe.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://bissalehcafe.com/",
+        "quote": "neksi seluler yang lemah, waktu tunggu (buffering) terasa sedikit lebih lama dari standar fine dining yang kami harapkan. Catatan dari komunitas pengguna juga menyoroti perlunya penambahan pi",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1143,8 +1165,7 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-01",
     "website": "https://www.hungryhowies.com/stores/fl/pembroke-park/4520-hallandale-beach-blvd"
-   },
-   "menu": "https://www.hungryhowies.com/menu/flavored-crust"
+   }
   },
   {
    "id": "fl-il-mercato-cafe-and-wine-bar",
@@ -1177,7 +1198,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Hallandale-Beach/145422428801868/Il-Mercato-Cafe-%26-Wine-Bar",
     "fbPostsSeen": 5,
     "fbNewestPost": "2026-07-29",
-    "website": null
+    "website": "http://www.ilmercatocafe.com/"
    },
    "conflicts": [
     {
@@ -1196,7 +1217,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.ilmercatocafe.com/",
+        "quote": "Best European Restaurant in Hallandale Beach, FL | Fine Dining | 1454 East Hallandale Beach Blvd, Hallandale Beach FL | +1 (754) 400-7412 | info@ilmerca",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-juniper-on-the-water",
@@ -2004,7 +2047,7 @@
    "address": "601 N Federal Hwy, Hallandale Beach",
    "state": "FL",
    "zip": "33009",
-   "phone": null,
+   "phone": "(954) 737-1104",
    "lat": 25.9927,
    "lng": -80.1434,
    "website": "http://www.thewagyu.house/",
@@ -2024,8 +2067,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Hallandale-Beach/139507809241560/The-Wagyu-House",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-09-11",
-    "website": null
-   }
+    "website": "http://www.thewagyu.house/"
+   },
+   "phoneSource": "Venue website thewagyu.house, checked 2026-11-02"
   },
   {
    "id": "fl-upper-deck-sports-bar-and-grille",
@@ -2098,7 +2142,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Hallandale-Beach/163189213775552/Upper-Deck-Sports-Bar-and-Grille",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.upperdeckhallandalebeach.com/"
    },
    "conflicts": [
     {
@@ -2116,7 +2160,20 @@
      "checked": "2026-11-01"
     }
    ],
-   "phoneSource": "OpenStreetMap way/250493593 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap way/250493593 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Over 85 Flat Screen TVs, Outdoor Seating, Tiki Bar, Karaoke,",
+      "url": "https://www.upperdeckhallandalebeach.com/"
+     }
+    ]
+   }
   },
   {
    "id": "fl-wapo-taco-hallandale",
@@ -2279,7 +2336,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/4943283223 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Broward",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.patrizias.com/staten-island-menus/"
   },
   {
    "id": "fl-banchero-hallandale-hallandale-beach",

@@ -609,7 +609,8 @@
     "fbNewestPost": null,
     "website": "https://parkviewhotellititz.com"
    },
-   "websiteSource": "OpenStreetMap node/12177601901 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/12177601901 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://parkviewhotellititz.com/menu/"
   },
   {
    "id": "the-hideaway-bar",
@@ -796,7 +797,26 @@
    },
    "menu": "https://brickervillehouserestaurant.com/menu/",
    "trivia": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "6 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2027-03-05",
+      "datedLastSeen": "2027-03-05",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://brickervillehouserestaurant.com/trivia-night-lancaster-county-pa/",
+        "date": "2027-03-05",
+        "quote": "ing March 5th, every 1st & 3rd Wednesday at 6 PM. Enjoy great food, drinks, and fun! | Update: We are no longer hosting >> Update: We are no longer hosting trivia nights at Brickerville House Restaurant"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -930,28 +950,7 @@
    "source": "Venue site (via search index); fiorentinos.net hours (checked 2026-11-01)",
    "county": "Lancaster",
    "karaoke": {
-    "nights": [
-     {
-      "day": "Thu",
-      "cadence": "weekly",
-      "start": "9 pm (to 11 pm, after music bingo 7-9)",
-      "confidence": "medium",
-      "lastSeen": "2026-11-01",
-      "datedLastSeen": null,
-      "postsSeen": 0,
-      "note": "Only on venue website (undated); confirm still running",
-      "sources": [
-       {
-        "src": "venue website (undated page)",
-        "url": "https://fiorentinos.net/special-events",
-        "date": "2026-11-01",
-        "quote": "Every Thursdays | Music Bingo/ Karaoke | Music Bingo 7-9 pm | Karaoke 9-11pm"
-       }
-      ],
-      "basis": "manual review of source",
-      "manual": true
-     }
-    ],
+    "nights": [],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -971,8 +970,7 @@
       "quote": "Karaoke 9-11pm",
       "url": "https://fiorentinos.net/special-events"
      }
-    ],
-    "reviewNote": "Manual read of Special Events page"
+    ]
    },
    "crowdChecked": "2026-11-01",
    "crowdSources": {
@@ -1051,7 +1049,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/200052093 opening_hours tag (map data 2026-10-31; last checked on the map 2023-10-12) (checked 2026-11-01)",
    "county": "Lancaster",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.metroexpresspizza.com/menu.php"
   }
  ],
  "counties": [

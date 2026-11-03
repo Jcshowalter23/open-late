@@ -664,9 +664,26 @@
    "website": "http://www.elchuchodc.com/",
    "hours": "Mon-Thu 4p-11:30p; Fri 4p-12a; Sat 11:45a-12a; Sun 11:45a-11:30p",
    "hoursNote": "Hours differ by source: Facebook page lists Mon-Thu 4p-12a; Fri 4p-3a; Sat 11:30a-3a; Sun 11:30a-11p (no posts since May 2026); Restaurantji (updated 2026-10-29) used as newer. Call ahead.",
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
+   "kitchen": "Mon-Fri 4p-11:30p; Sat-Sun 11:45a-11:30p",
+   "kitchenNote": "Kitchen hours from Venue website elchuchodc.com, checked 2026-11-01; start time taken from listed opening hours.",
+   "happyHours": [
+    {
+     "days": "Mon",
+     "text": "Mondays are for All Night Happy Hour",
+     "tags": [],
+     "src": "Venue website elchuchodc.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Tue-Fri",
+     "text": "Happy Hour runs 4pm -6pm Tuesday thru Friday",
+     "tags": [],
+     "src": "Venue website elchuchodc.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -714,7 +731,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./239994009413803/El-Chucho---Cocina-Superior",
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-04-14",
-    "website": null
+    "website": "http://www.elchuchodc.com/"
    },
    "conflicts": [
     {
@@ -956,7 +973,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./2668958359786004/Hook-Hall",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-16",
-    "website": null
+    "website": "http://www.hookhall.com/"
    },
    "conflicts": [
     {
@@ -975,7 +992,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " DJs",
+      "url": "https://www.hookhall.com/communitycalendar"
+     }
+    ]
+   }
   },
   {
    "id": "dc-iacovelli-cafe-and-liquor",
@@ -1823,7 +1853,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./947389618686319/Rooster-%26-Owl",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-17",
-    "website": null
+    "website": "http://www.roosterowl.com/"
    },
    "conflicts": [
     {
@@ -1851,7 +1881,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.roosterowl.com/",
+        "quote": "e culinary arts and passionate about market-driven cuisine. Come experience the thrill of fine dining in a comfortable, customizable environment. | View fullsize | The Experience | Build your",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "dc-salt-and-pepper-grill",
@@ -1973,7 +2025,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://tamashaa.us/dine-in-menu/"
   },
   {
    "id": "dc-taqueria-distrito-federal",
@@ -2059,7 +2112,26 @@
    "hoursNote": "Hours differ by source: Facebook page lists Mon 5p-2a; Tue-Wed 5p-12a; Thu-Fri 5p-2a; Sat 3p-2a; Sun 11a-12a (no posts since May 2026); Restaurantji (updated 2026-08-27) used as newer. Call ahead.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Tues - Fri @ 5PM Sat @3PM Sun @ 12PM Open Early Morning for Premier/Champions Soccer League Matches By Reservation $1 BEER Power Happy Hour* Weekdays 5P-6PM Regular Happy Hour Weekdays Until 7PM $5 Rail Drinks and Beers on Tap Specials on Starters",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website theartemisdc.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Mon-Fri",
+     "text": "We have on power happy hour weekdays from 3PM-4PM with $1 Beer availability, regular happy hour weekdays from 4PM – 6PM with $4 rail drinks and beers on tap along with specials on all starters",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website theartemisdc.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -2150,7 +2222,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./105249648079827/The-Artemis",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://theartemisdc.com/"
    },
    "conflicts": [
     {
@@ -2187,9 +2259,55 @@
    "hours": "Mon 3p-12a; Tue-Thu 3p-11p; Fri 3p-12a; Sat 10a-1a; Sun 11a-2a",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "kitchenNote": "Kitchen open until 10 pm per Venue website midlandsdc.com, checked 2026-11-01; days not stated.",
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Doors open at 3:00pm + sound on + happy hour all night",
+     "tags": [],
+     "src": "Venue website midlandsdc.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Join us for all night happy hour and election night coverage at the Midlands",
+     "tags": [],
+     "src": "Venue website midlandsdc.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Come hang out with us and enjoy all night Happy Hour",
+     "tags": [],
+     "src": "Venue website midlandsdc.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$20 buckets of 5 Garage Beer",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website midlandsdc.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "$5 pints Miller Lite $10 Steins Miller Lite or $20 64oz Pitchers Miller Lite: $5 cans Garage Beers or $20 buckets of Garage Beers",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website midlandsdc.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -2202,7 +2320,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./456668734535413/The-Midlands",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://midlandsdc.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Sports fans",
+     "LGBTQ-friendly"
+    ],
+    "summary": "Popular for watching games; LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://midlandsdc.com/",
+        "quote": "The Midlands - Beer Garden & Sports Bar | Skip to content | HOME | FOOD & DRINKS | RESERVATIONS | HOME | FOOD & DRINKS | RESERVAT",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://midlandsdc.com/",
+        "quote": "For America's Alumni Board, PRISM, a group who's purpose is to help foster connection for queer alumni and current teachers in the dc area | All you need to bring is your imagination, a",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2380,7 +2534,16 @@
    "hoursNote": "Restaurantji (updated 2026-10-28) lists different hours: Mon closed; Tue-Fri 4p-10p; Sat 12p-10p; Sun 5p-10p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour: Weekdays 4–6 PM",
+     "tags": [],
+     "src": "Venue website tsehaydc.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -2416,7 +2579,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./104312534409341/Tsehay-Ethiopian-Restaurant-%26-Bar",
     "fbPostsSeen": 3,
     "fbNewestPost": "2026-06-22",
-    "website": null
+    "website": "http://www.tsehaydc.com/"
    },
    "conflicts": [
     {
@@ -2533,7 +2696,8 @@
       "url": "https://marxcafemtp.com/"
      }
     ]
-   }
+   },
+   "menu": "https://marxcafemtp.com/item-category/dinner-items/"
   },
   {
    "id": "dc-pizza-doro-washington",
@@ -2709,14 +2873,100 @@
    "hours": "Mon closed; Tue-Thu 5p-9p; Fri 5p-10p; Sat 12p-10p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 9 pm per Venue website sonnyspizzadc.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/6670537792 opening_hours tag (map data 2026-11-01; last checked on the map 2025-10-20) (checked 2026-11-02); late hours confirmed by venue website https://www.sonnyspizzadc.com/: \"onny's | Location | 3120 Georgia Avenue NW Washington, DC 20010 | Hours | Tuesday-Thursday | 5:00pm-10:00pm ( | kitch\" (checked 2026-11-02)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "9 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.sonnyspizzadc.com/events",
+        "date": "2026-11-01",
+        "quote": "HOT NIGHTS KARAOKE | first saturdays | first saturdays | 9 pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "9 pm - 1 am",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.sonnyspizzadc.com/events",
+        "date": "2026-11-01",
+        "quote": "VINYL DJS | fridays & saturdays | fridays & saturdays | 9 pm - 1 am"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "9 pm - 1 am",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.sonnyspizzadc.com/events",
+        "date": "2026-11-01",
+        "quote": "VINYL DJS | fridays & saturdays | fridays & saturdays | 9 pm - 1 am"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "J STREET TRIVIA",
+      "url": "https://www.sonnyspizzadc.com/events"
+     }
+    ]
+   }
   },
   {
    "id": "dc-martha-dear-washington",

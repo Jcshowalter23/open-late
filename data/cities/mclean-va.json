@@ -418,7 +418,8 @@
     "fbNewestPost": null,
     "website": "https://santouka-usa.com/"
    },
-   "websiteSource": "OpenStreetMap node/7273274240 website tag (map data 2026-11-01), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/7273274240 website tag (map data 2026-11-01), checked 2026-11-01",
+   "menu": "https://www.santouka-usa.com/menu"
   },
   {
    "id": "va-j-gilberts-wood-fired-steaks-and-seafood-mcle",
@@ -1311,13 +1312,48 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Join us at the bar for happy hour everyday from 3-6pm and every night from 9-11pm at our Tenleytown restaurant for select bar snacks and drinks",
+     "tags": [],
+     "src": "Venue website surfsidedc.com/weekly-specials",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "MONDAY KIDS EAT FREE",
+     "tags": [],
+     "src": "Venue website surfsidedc.com/weekly-specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/14318629829 opening_hours tag (map data 2026-11-01) (checked 2026-11-01)",
    "county": "Fairfax",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "TRIVIA THURSDAY",
+      "url": "https://surfsidedc.com/weekly-specials/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Reserve your table on RESY for trivia night with J Street Trivia",
+      "url": "https://surfsidedc.com/weekly-specials/"
+     }
+    ]
+   }
   },
   {
    "id": "va-el-tio-tex-mex-grill-mclean",
@@ -1342,7 +1378,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/3889625528 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.eltiogrill.com/location: \"E | Locations | Falls Church, VA | Hours | SUN - WED | 11:00 am - 09:00 pm | THU - SAT | 11:00 am - 10:00 pm | 7630 Le\" (checked 2026-11-02)",
    "county": "Fairfax",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.eltiogrill.com/",
+        "quote": "Tio, we're celebrated for our fresh and delicious Tex-Mex dishes, paired with a festive, family-friendly atmosphere where everyone feels right at home. | LOCATIONS | Rooted in Gainesville, VA, E",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "town",

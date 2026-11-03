@@ -2262,7 +2262,7 @@
    "address": "2860 Atlanta Rd SE, Smyrna",
    "state": "GA",
    "zip": "30080",
-   "phone": null,
+   "phone": "(678) 842-0050",
    "lat": 33.8837,
    "lng": -84.515,
    "priceText": "$ (Facebook page)",
@@ -2293,8 +2293,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Smyrna/384818718212977/The-Corner-Taqueria",
     "fbPostsSeen": 12,
     "fbNewestPost": "2026-10-31",
-    "website": null
-   }
+    "website": "http://www.thecornertaqueria.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thecornertaqueria.com/",
+        "quote": "tyle while enjoying a fresh fruit purée margarita! Don’t forget to bring your kiddos, our family friendly restaurant is the perfect destination after a wish in the Smyrna Market fountain! | See t",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.thecornertaqueria.com, checked 2026-11-02"
   },
   {
    "id": "ga-the-freakin-incan",
@@ -2736,7 +2759,7 @@
    "address": "515 Windy Hill Rd SE, Smyrna",
    "state": "GA",
    "zip": "30080",
-   "phone": null,
+   "phone": "(678) 403-2881",
    "lat": 33.8948,
    "lng": -84.5381,
    "website": "http://www.touchdownwingssmyrna.com/",
@@ -2778,8 +2801,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Smyrna/622700877601386/Touchdown-wings-at-Smyrna",
     "fbPostsSeen": 1,
     "fbNewestPost": "2025-06-04",
-    "website": null
-   }
+    "website": "http://www.touchdownwingssmyrna.com/"
+   },
+   "phoneSource": "Venue website www.touchdownwingssmyrna.com, checked 2026-11-02"
   },
   {
    "id": "ga-twisted-kitchen-smyrna",
@@ -2982,7 +3006,27 @@
     ]
    },
    "dj": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://Varnerstavern.com/",
+        "date": "2026-11-01",
+        "quote": " Get down with our DJ every Friday night"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -3349,7 +3393,8 @@
       "url": "https://www.vintagetavern.com/"
      }
     ]
-   }
+   },
+   "menu": "https://www.vintagetavern.com/menu"
   }
  ],
  "type": "city",

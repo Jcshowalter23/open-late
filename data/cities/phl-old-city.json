@@ -154,7 +154,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Philadelphia/148183021893759/Khyber-Pass-Pub",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://www.khyberpasspub.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.khyberpasspub.com/",
+        "quote": "Events | Contact | Careers | ORDER ONLINE | EAT | DRINK | EVENTS | Old City’s favorite neighborhood bar with New Orleans-inspired cuisine | The kitchen offers Philadelphia’s finest food (inclu",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -322,7 +344,39 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site nationalmechanics.com (checked 2026-11-01)",
    "county": "Philadelphia",
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "8pm till midnight",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.nationalmechanics.com/",
+        "date": "2026-11-01",
+        "quote": "Tuesday Late Nite Karaoke"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.nationalmechanics.com/happenings",
+        "date": "2026-11-01",
+        "quote": "Weekly karaoke built for good vibes, zero pressure & FUN | Join us every Tuesday from 8pm till midnight, hosted by Yari + The Henn House crew…"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.nationalmechanics.com/about",
+        "date": "2026-11-01",
+        "quote": "Late Nite Karaoke Tuesdays"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -340,7 +394,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Philadelphia/53181909136/National-Mechanics",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://www.nationalmechanics.com/"
    },
    "trivia": {
     "nights": [],
@@ -361,6 +415,19 @@
      {
       "date": "2026-11-01",
       "quote": " Put your knowledge to the test & join us for trivia at 8pm with Whiz Wit Trivia… | WEDNESDAYS",
+      "url": "https://www.nationalmechanics.com/happenings"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ Carlos | Bachata Social 11pm-2am. Sounds from",
       "url": "https://www.nationalmechanics.com/happenings"
      }
     ]
@@ -566,7 +633,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Philadelphia/69939763107/Panorama",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.panoramawinebar.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.panoramawinebar.com/",
+        "quote": "div \"> | Happy Hour | Tuesday - Friday from 4:00 - 6:00 pm Saturday 3:00 - 5:00 pm | Best Fine Dining Italian Restaurant Philadelphia | Panorama Restaurant & Wine Bar | Panorama brings the au",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1039,7 +1128,43 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/10574765233 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.racestreetcafe.net/: \" PA | 19106 | Get Directions | Hours | Mon, Tue, Wed, Thur | 11:30 AM - 10:00 PM | Fri | 11:30 AM - 11:00 PM | Sun, Sa\" (checked 2026-11-02)",
    "county": "Philadelphia",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.racestreetcafe.net/",
+        "quote": "tar review by | Annarose C: | the world is better place with race street cafe in it. this neighborhood joint feels like the cast of a sitcom's favorite place to meet up. the beer menu is extensive a",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.racestreetcafe.net/",
+        "quote": "indoor decor with brick walls and a fireplace. High ceilings with fans and a few TV's to watch the game. They even have a full sized street light inside. Chill music, a nice beer selection of o",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "pa-piccolina-philadelphia",
@@ -1048,8 +1173,8 @@
    "address": "301 Chestnut Street, Philadelphia",
    "state": "PA",
    "zip": null,
-   "phone": null,
-   "phoneSource": null,
+   "phone": "(267) 761-4120",
+   "phoneSource": "Venue website www.piccolinaphl.com, checked 2026-11-02",
    "lat": 39.948774,
    "lng": -75.146128,
    "website": "https://www.piccolinaphl.com/",

@@ -549,7 +549,7 @@
    "address": "580 Woodward Ave SE, Atlanta",
    "state": "GA",
    "zip": "30312",
-   "phone": null,
+   "phone": "(404) 390-3038",
    "lat": 33.7456,
    "lng": -84.3686,
    "priceText": "$$ (Facebook page)",
@@ -571,8 +571,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/103855568045050/Estrellita",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-27",
-    "website": null
-   }
+    "website": "http://estrellitafilipino.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.estrellitafilipino.com/",
+        "quote": "​ | ONLY COM | PLETE PARTIES WILL BE SAT | ​ | WE WILL ENCOURAGE YOU TO WAIT AT MANNY'S NEIGHBORHOOD BAR JUST 2 DOORS DOWN | ​ | **LAST S | EATING IS 1HR PRIOR TO CLOSE. IF THERE IS A WAIT, THE",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.estrellitafilipino.com, checked 2026-11-02"
   },
   {
    "id": "ga-farm-burger-grant-park",
@@ -1961,7 +1984,7 @@
    "address": "85 Georgia Ave SE, Atlanta",
    "state": "GA",
    "zip": "30312",
-   "phone": null,
+   "phone": "(404) 522-3000",
    "lat": 33.7366,
    "lng": -84.385,
    "priceText": "$$ (Facebook page)",
@@ -2008,8 +2031,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/337168863462545/Wood%27s-Chapel-BBQ",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-28",
-    "website": null
-   }
+    "website": "http://woodschapelbbq.com/"
+   },
+   "phoneSource": "Venue website www.woodschapelbbq.com, checked 2026-11-02"
   },
   {
    "id": "ga-zibas-restaurant-and-wine-bar",
@@ -2018,7 +2042,7 @@
    "address": "560-562 Blvd SE, Atlanta",
    "state": "GA",
    "zip": "30312",
-   "phone": null,
+   "phone": "(404) 622-4440",
    "lat": 33.7391,
    "lng": -84.3679,
    "priceText": "$$ (Facebook page)",
@@ -2065,8 +2089,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/112783362091698/Ziba%27s-Restaurant-%26-Wine-Bar",
     "fbPostsSeen": 12,
     "fbNewestPost": "2026-10-29",
-    "website": null
-   }
+    "website": "http://www.zibasbistroandwinebar.com/"
+   },
+   "phoneSource": "Venue website www.zibasbistroandwinebar.com, checked 2026-11-02"
   },
   {
    "id": "ga-spina-pizza-atlanta",
@@ -2118,7 +2143,8 @@
    ],
    "source": "hours from OpenStreetMap node/14281546465 opening_hours tag (map data 2026-10-31; last checked on the map 2026-10-13) (checked 2026-11-01)",
    "county": "Fulton",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://redactedbdp.com/wp-content/uploads/2026/10/2.19.26-1.pdf"
   },
   {
    "id": "ga-halfway-crooks-beer-atlanta",
@@ -2213,7 +2239,8 @@
       "url": "https://halfwaycrooks.beer/events/"
      }
     ]
-   }
+   },
+   "menu": "https://halfwaycrooks.beer/menus/"
   },
   {
    "id": "ga-emmy-squared-pizza-atlanta",
@@ -2258,14 +2285,51 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Tue-Thu",
+     "text": "Half-priced Lagers, Every Tues-Thu after 8pm",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website threetavernsbrewery.com/visit-the-parlour",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "$5 PONCE Family Beers - Every Wednesday",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website threetavernsbrewery.com/visit-the-parlour",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
    ],
    "source": "hours from OpenStreetMap node/9401540509 opening_hours tag (map data 2026-11-01; last checked on the map 2026-10-08) (checked 2026-11-02); late hours confirmed by venue website https://www.threetavernsbrewery.com/imaginarium: \"N HOURS 12PM - 8PM | Monday and Tuesday CLOSED | Wednesday - Thursday | 4pm - 10pm | Friday | 3pm - 11pm | Saturda\" (checked 2026-11-02)",
    "county": "Fulton",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "*TRIVIA NOW EVERY WEDNESDAY AT 8PM",
+      "url": "https://www.threetavernsbrewery.com/imaginarium"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia Every Tuesday at 7pm",
+      "url": "https://www.threetavernsbrewery.com/visit-the-parlour"
+     }
+    ]
+   }
   },
   {
    "id": "ga-ivys-heavenly-cobbler-atlanta",

@@ -86,7 +86,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Philadelphia/146392038552507/Almyra-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-20",
-    "website": null
+    "website": "http://www.almyrarestaurant.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.almyrarestaurant.com/",
+        "quote": "bar and high top tables | Make A Reservation | Visiting & Dress Code | Almyra enforces an upscale dress code Wednesday through Saturday starting at 4pm. | We do not allow beachwear, gym a",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -527,7 +549,52 @@
     "facebookMirror": "https://www.foodyas.com/US/Philadelphia/274688325994951/BR%C3%9C-Craft-%26-Wurst",
     "fbPostsSeen": 14,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.bruphilly.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://bruphilly.com/",
+        "quote": "Brü | Beer Hall, Sports Bar & German Food in Center City, Philly | About | Gallery | EVENTS | Welcome to Brü Craft &",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "aV[ Dj@R>\u0012$V_Y @\u0011\b\u0006Y⳪}5(%OheXT@08w-C*",
+      "url": "https://bruphilly.com/wp-content/uploads/2026/08/HH-Media-NEW-1.webp"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Dj\u0012s\u0001PV\u0017o mPo&u}:ἒ(p|k*\u0000ykgR\u0013(7 q\u0012Z&KM\u0016o=s=\u0017EZ)g4 _ouV \u0005G\u0003;\u0000Fv\u0015/\u0000",
+      "url": "https://bruphilly.com/wp-content/uploads/2026/08/HH-Media-NEW-1.webp"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "\u0006`Juyr\u0003\u0015R)g\u001aTR\u0017iJ[88e4\u0003Gӝ\u0019;\u000f\u0013N]Mf\u001b^LdF\u0010W(\u0018A\u0003MVG\u0019KSF}\u00060\b _ﰰ \u0002 Pu]'d} Զ8z:tR-I4`=\u0003';_P\u0005ĎLe\u0006\u0018#V}5xg;fz{ E\u0007\u0010Y)vT>k6kS4\u0005\u0019DJ",
+      "url": "https://bruphilly.com/wp-content/uploads/2026/08/HH-Media-NEW-1.webp"
+     }
+    ]
    }
   },
   {
@@ -1711,7 +1778,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Philadelphia/306400659528034/Locust-Rendezvous",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://locustrendezvous.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://locustrendezvous.com/",
+        "quote": "e right at home in your own neighborhood. | View in Google Maps | Call (215) 985-1163 | A neighborhood bar and grille on Locust Street in Center City Philadelphia. Gathering the neighborhood since",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://locustrendezvous.com/",
+        "quote": "e latest Philly sports and news, along with an AMI Jukebox for all your favorite tunes. | Catch the game with the neighborhood — you gotta see it to believe it in this little bar. | Flat Screens",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1896,7 +1999,46 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror); Venue site mcgillins.com (checked 2026-11-01)",
    "county": "Philadelphia",
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "9 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://mcgillins.com/daily-specials-events/",
+        "date": "2026-11-01",
+        "quote": "We have karaoke every Wednesday & Sunday night starting at 9 pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": "9 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://mcgillins.com/daily-specials-events/",
+        "date": "2026-11-01",
+        "quote": "We have karaoke every Wednesday & Sunday night starting at 9 pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -1919,7 +2061,42 @@
     "facebookMirror": "https://www.foodyas.com/US/Philadelphia/135776653101265/McGillin%27s-Olde-Ale-House",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.mcgillins.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://mcgillins.com/",
+        "quote": "ur permanent shoppe in Midtown Village opened in 2025, It's designed for McGillin’s fans, locals, tourists and convention attendees with McGillin’s wear, Eagles & Phillies gear, unique",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " DJ John starting at 9 p",
+      "url": "https://mcgillins.com/daily-specials-events/"
+     }
+    ]
    }
   },
   {
@@ -2669,7 +2846,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Philadelphia/417971328317654/The-Tavern",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://thetavernphilly.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Dance / club crowd"
+    ],
+    "summary": "A dancing / club crowd late.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.tavernphilly.com/",
+        "quote": "e glass and bottle. Housed in the historic Tavern on Camac, a long-running piano bar and nightclub; it makes a great first or last stop. The restaurant's atmosphere encourages diners to",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -3363,7 +3562,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://www.sangkeechinatown.com/_files/ugd/7f09c3_7239ceb3825143c3941a836be2e0b7c3.pdf?index=true"
   },
   {
    "id": "pa-banana-leaf-philadelphia",
@@ -3388,7 +3588,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/2065987563 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Philadelphia",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.bananaleafphilly.com/winter-menu-full"
   },
   {
    "id": "pa-strangeloves-philadelphia",
@@ -3408,14 +3609,55 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Sun",
+     "text": "KARAOKE $30 MIMOSAS TOWERS EVERY SUNDAY",
+     "tags": [],
+     "src": "Venue website strangelovesbeerbar.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
    ],
    "source": "hours from OpenStreetMap node/5366495321 opening_hours tag (map data 2026-10-31; last checked on the map 2026-09-10) (checked 2026-11-01)",
    "county": "Philadelphia",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.strangelovesbeerbar.com/",
+        "date": "2026-11-01",
+        "quote": " KARAOKE $30 MIMOSAS TOWERS EVERY SUNDAY"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.strangelovesbeerbar.com/events",
+        "date": "2026-11-01",
+        "quote": " KARAOKE $30 MIMOSAS TOWERS EVERY SUNDAY"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
   },
   {
    "id": "pa-ubar-philadelphia",
@@ -3511,7 +3753,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://yamitsuki1028.wixsite.com/yamitsukiramen/menu"
   },
   {
    "id": "pa-bubblefish-philadelphia",
@@ -3536,7 +3779,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/6556392895 opening_hours tag (map data 2026-10-31; last checked on the map 2023-04-12) (checked 2026-11-01)",
    "county": "Philadelphia",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.bubblefishpa.com/order"
   },
   {
    "id": "pa-the-library-bar-philadelphia",
@@ -3563,7 +3807,8 @@
    ],
    "source": "hours from OpenStreetMap node/8410340131 opening_hours tag (map data 2026-10-31; last checked on the map 2023-10-15) (checked 2026-11-01)",
    "county": "Philadelphia",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.rittenhousehotel.com/dining/librarybar/library-bar-menu"
   },
   {
    "id": "pa-the-happy-rooster-philadelphia",
@@ -3624,7 +3869,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://thehappyroosterpa.com/philadelphia-the-happy-rooster-food-menu"
   },
   {
    "id": "pa-masala-kitchen-philadelphia-2",
@@ -3649,7 +3895,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/8822229338 opening_hours tag (map data 2026-10-31; last checked on the map 2025-10-07) (checked 2026-11-01)",
    "county": "Philadelphia",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.masalakitchen.com/menus/"
   },
   {
    "id": "pa-nine-ting-philadelphia",
@@ -3728,7 +3975,53 @@
    ],
    "source": "hours from OpenStreetMap node/12228642803 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Philadelphia",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "From rowdy Trivia Nights to all-out BINGO battles, game-day watch parties, and spontaneous pop-up events, Tapster Philly keeps the good times flowing",
+      "url": "https://tapstertastingroom.com/sublocation/philadelphia/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "From rowdy Trivia Nights to all-out BINGO battles, game-day watch parties, and spontaneous pop-up events, Tapster keeps the good times flowing",
+      "url": "https://tapstertastingroom.com/sublocation/bellevue/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "From rowdy Trivia Nights to all-out BINGO battles, game-day watch parties, and spontaneous pop-up events, Tapster Lexington keeps the good times flowing",
+      "url": "https://tapstertastingroom.com/sublocation/lexington/"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "From rowdy Trivia Nights to all-out BINGO battles, game-day watch parties, and spontaneous pop-up events, Tapster Philly keeps the good times flowing",
+      "url": "https://tapstertastingroom.com/sublocation/philadelphia/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "From rowdy Trivia Nights to all-out BINGO battles, game-day watch parties, and spontaneous pop-up events, Tapster keeps the good times flowing",
+      "url": "https://tapstertastingroom.com/sublocation/bellevue/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "From rowdy Trivia Nights to all-out BINGO battles, game-day watch parties, and spontaneous pop-up events, Tapster Lexington keeps the good times flowing",
+      "url": "https://tapstertastingroom.com/sublocation/lexington/"
+     }
+    ]
+   }
   },
   {
    "id": "pa-ten-asian-food-hall-philadelphia",
@@ -3875,7 +4168,8 @@
       "url": "https://devilsalleybarandgrill.com/events"
      }
     ]
-   }
+   },
+   "menu": "https://devilsalleybarandgrill.com/food-menu"
   },
   {
    "id": "pa-good-dog-bar-philadelphia",
@@ -3902,7 +4196,8 @@
    ],
    "source": "hours from OpenStreetMap way/334239526 opening_hours tag (map data 2026-10-31; last checked on the map 2025-06-27) (checked 2026-11-01)",
    "county": "Philadelphia",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://gooddogbar.com/menu/"
   },
   {
    "id": "pa-ocean-prime-philadelphia",
@@ -3921,13 +4216,78 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Fri",
+     "text": "On Fridays, enjoy Veuve Clicquot Rosé by the glass for $20 accompanied by $2 oysters during happy hour",
+     "tags": [],
+     "src": "Venue website ocean-prime.com/locations-menus/beverly-hills",
+     "checked": "2026-11-01"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "off Specialty Cocktails and Selected Wines, plus $5 Selected Domestic Beers",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website ocean-prime.com/locations-menus/philadelphia",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Mon-Fri",
+     "text": "Join us Monday - Friday, 3 - 7 PM in our Lounge and enjoy $5 off our Lounge Menu and specially priced cocktails, beer & wine",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website ocean-prime.com/locations-menus/beverly-hills",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Sun-Thu",
+     "text": "Join us for a special 3-course menu for $65 per person, available Sunday-Thursday until 6 PM",
+     "tags": [],
+     "src": "Venue website ocean-prime.com/locations-menus/philadelphia",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Sun",
+     "text": "On Sundays, enjoy selected half-price bottles of wine from our Wine Spectator award-winning wine list",
+     "tags": [],
+     "src": "Venue website ocean-prime.com/locations-menus/beverly-hills",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/3545078824 opening_hours tag (map data 2026-11-01; last checked on the map 2025-06-27) (checked 2026-11-02); late hours confirmed by venue website https://ocean-prime.com/locations-menus/philadelphia/: \"0163 | Attire Information | Join Our Team | Hours | Dinner | SUN – THURS, 4 – 9 PM | FRI & SAT, 4 – 10 PM | Reserva\" (checked 2026-11-02)",
    "county": "Philadelphia",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Live DJ Music",
+      "url": "https://ocean-prime.com/locations-menus/beverly-hills/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Join us in our Lounge on Friday and Saturday evenings to enjoy a live DJ",
+      "url": "https://ocean-prime.com/locations-menus/beverly-hills/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Join us in our Lounge on Friday and Saturday evenings to enjoy a live DJ",
+      "url": "https://ocean-prime.com/locations-menus/beverly-hills/"
+     }
+    ]
+   }
   },
   {
    "id": "pa-ocean-city-restaurant-philadelphia",
@@ -3996,7 +4356,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Tue-Fri",
+     "text": "4-6 pm Tuesday - Friday Offered in the bar area only No reservations available for happy hour",
+     "tags": [],
+     "src": "Venue website oysterhousephilly.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],

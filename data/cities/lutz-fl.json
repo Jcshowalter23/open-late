@@ -57,7 +57,20 @@
     "facebookMirror": "https://www.foodyas.com/US/Tampa/1153076934748985/Al-sham-palace",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://alshampalace.eat24hour.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "q\u000fUfu\u000f4:w9p_|\u0001Uҥ\u0006qn1=I3{[;yGB dJ\u001b}R~w",
+      "url": "https://menupages.com/info/about-us"
+     }
+    ]
    }
   },
   {
@@ -709,8 +722,28 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Patio Happy Hour 2pm-6pm",
+     "tags": [],
+     "src": "Venue website plazatapatialutz.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Chicken wings or Nachitos Beef or Chicken BoGo",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website plazatapatialutz.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -777,7 +810,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Lutz/479817451891152/Plaza-Tapatia-Lutz",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-21",
-    "website": null
+    "website": "http://plazatapatialutz.com/"
    },
    "conflicts": [
     {
@@ -851,7 +884,7 @@
    "address": "18430 Livingston Ave, Lutz",
    "state": "FL",
    "zip": "33559",
-   "phone": null,
+   "phone": "(813) 575-9233",
    "lat": 28.142,
    "lng": -82.4307,
    "priceText": "$$ (Facebook page)",
@@ -925,7 +958,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Lutz/101678965073046/SouthernEaze-Bar-%26-Grill",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.southerneaze.com/"
    },
    "trivia": {
     "nights": [],
@@ -977,7 +1010,8 @@
       "url": "https://www.southerneaze.com/lutz-southerneaze-events"
      }
     ]
-   }
+   },
+   "phoneSource": "Venue website www.southerneaze.com, checked 2026-11-02"
   },
   {
    "id": "fl-stonewater-tavern-lutz",
@@ -1244,7 +1278,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Lutz/104586702450680/The-drinks-at-9-Bar-%26-Grill",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.thedrinksat9.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thedrinksat9.com/",
+        "quote": "able Tonight | Plan ahead and secure your perfect table at THE DRINKS AT 9. Whether it is date night, family time, or a gathering with friends, we are ready to welcome you. | Reserve Today",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

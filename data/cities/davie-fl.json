@@ -188,7 +188,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Davie/177734118765991/Big-Whiskey%27s-American-Restaurant-%26-Bar--Davie",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://www.bigwhiskeys.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.bigwhiskeys.com/",
+        "quote": "years and where the | Big Whiskey’s American Restaurant & Bar | story begins. He had his regulars but none quite like the man who came to be known as “Big Whiskey.” | Big Whiskey only cam",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1671,7 +1693,7 @@
    "address": "1285 S State Rd 7, Fort Lauderdale",
    "state": "FL",
    "zip": "33317",
-   "phone": null,
+   "phone": "(954) 587-4420",
    "lat": 26.1036,
    "lng": -80.2018,
    "priceText": "$ (Facebook page)",
@@ -1695,8 +1717,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Lauderdale/81683104356/Georgia-Pig-BBQ-%26-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-12",
-    "website": null
-   }
+    "website": "http://www.georgiapig.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://georgiapig.com/",
+        "quote": "n the heart of South Florida whose customer base spans the nation as many of our lifelong regulars have relocated to other states. By introducing GeorgiaPigMerch.com we hope to provide a l",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website georgiapig.com, checked 2026-11-02"
   },
   {
    "id": "fl-geronimos-grill-davie",
@@ -1705,7 +1750,7 @@
    "address": "5810 S. University Dr 121, Davie",
    "state": "FL",
    "zip": "33328",
-   "phone": null,
+   "phone": "(954) 474-9998",
    "lat": 26.046,
    "lng": -80.2487,
    "priceText": "$$ (Facebook page)",
@@ -1714,8 +1759,25 @@
    "hours": "Daily 11:30a-4a",
    "hoursNote": "Restaurantji (updated 2026-10-16) lists different hours: Mon-Thu 11:30a-9:30p; Fri-Sat 11:30a-10:30p; Sun 11:30a-9p. Call ahead to confirm.",
    "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
+   "kitchenNote": "Kitchen open until 3 am per Venue website geronimosgrill.com, checked 2026-11-01; days not stated.",
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour appetizers 11:30am-7pm",
+     "tags": [],
+     "src": "Venue website geronimosgrill.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Happy Hour Drinks 4pm - 7pm",
+     "tags": [],
+     "src": "Venue website geronimosgrill.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1731,7 +1793,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Davie/344264719116548/Geronimos-Grill-Davie",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.geronimosgrill.com/"
    },
    "conflicts": [
     {
@@ -1806,7 +1868,67 @@
       "url": "https://geronimosgrill.com/-events?source=header&spot_id=85665&destination=events&promotion=nba_season"
      }
     ]
-   }
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://geronimosgrill.com/",
+        "quote": "Everyone” friendly Restaurant and Bar. “Everyone” meaning families of all ages, students, locals, young & old, singles, couples….. | Our menu | Our menu | Catering | Having a party? We c",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://geronimosgrill.com/",
+        "quote": "Must-Try Sports Bar in Davie, FL | Geronimos Grill | × | Order your favorite dishes in seconds! | Call to Inq",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "🥃 Jameson – $7 🍹 DJ Blanco – $9 🥃 DJ Reposado – $10",
+      "url": "https://geronimosgrill.com/-events?source=header&spot_id=85665&destination=events&promotion=nba_season"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "🥃 Jameson – $7 🍹 DJ Blanco – $9 🥃 DJ Reposado – $10",
+      "url": "https://geronimosgrill.com/davie-lakeside-town-shops-geronimos-grill-events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " DAYTIME ITB ☀️ OPEN – 4 PM LATE NIGHT ITB 🌙 11 PM – CLOSE INDUSTRY SPECIALS 🔥 20% OFF (cannot be combined with other specials)🥃 Jameson – $7 🍹 DJ Blanco – $9 🥃 DJ Reposado – $10Food | ITB - Monday",
+      "url": "https://geronimosgrill.com/-events?source=header&spot_id=85665&destination=events&promotion=nba_season"
+     }
+    ]
+   },
+   "phoneSource": "Venue website geronimosgrill.com, checked 2026-11-02"
   },
   {
    "id": "fl-gopho",
@@ -1894,7 +2016,7 @@
    "address": "4811 South State Rd 7, Davie",
    "state": "FL",
    "zip": "33314",
-   "phone": null,
+   "phone": "(954) 395-8200",
    "lat": 26.0623,
    "lng": -80.2095,
    "priceText": "$$$ (Facebook page)",
@@ -1916,8 +2038,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Davie/570442723113240/Island-Fusion-Grill",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://www.islandfusiongrill.com/"
+   },
+   "phoneSource": "Venue website www.islandfusiongrill.com, checked 2026-11-02"
   },
   {
    "id": "fl-kings-grill",
@@ -1984,7 +2107,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Davie/100694445384304/Kub-Kao-Thai-Sushi",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://kubkaothaisushi.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://kubkaothaisushi.com/",
+        "quote": "e help of his team (and the occasional visit from Brownie, his beloved dog), he’s built a local favorite that blends tradition, creativity, and true hospitality. | Get to know Chef Ji | Authenti",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2728,7 +2873,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Davie/102194938132162/No.1-Wok",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.numberonewokfl.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.numberonewokfl.com/",
+        "quote": "and Hollywood, or place your order online in just a few clicks. Number One Wok has been a local favorite for decades because we serve food that’s fresh, flavorful, and affordable. Whether you’re",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -3020,7 +3187,7 @@
    "address": "4900 South University Dr suite 104, Davie",
    "state": "FL",
    "zip": "33328",
-   "phone": null,
+   "phone": "(954) 289-8174",
    "lat": 26.0606,
    "lng": -80.2514,
    "priceText": "$$ (Facebook page)",
@@ -3044,8 +3211,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Davie/773818625818966/Pinsa104",
     "fbPostsSeen": 2,
     "fbNewestPost": "2026-03-08",
-    "website": null
-   }
+    "website": "http://www.pinsa104.com/"
+   },
+   "phoneSource": "Venue website pinsa104.com, checked 2026-11-02"
   },
   {
    "id": "fl-piola-restaurant-weston",
@@ -3634,7 +3802,7 @@
    "lng": -80.2519,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": "http://www.swanksouthern.com/",
+   "website": null,
    "hours": "Mon 5p-11:59p; Tue-Sun 5p-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -3652,7 +3820,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
-   }
+   },
+   "websiteSource": "removed 2026-11-02: domain now for sale"
   },
   {
    "id": "fl-spartan-gyros",
@@ -4643,7 +4812,7 @@
    "address": "8656 Griffin Rd, Cooper City",
    "state": "FL",
    "zip": "33328",
-   "phone": null,
+   "phone": "(954) 434-1493",
    "lat": 26.0639,
    "lng": -80.2618,
    "priceText": "$$ (Facebook page)",
@@ -4711,7 +4880,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Cooper-City/111550788881577/Wings-N-Things-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://wingsnthingscoopercity.com/"
    },
    "trivia": {
     "nights": [],
@@ -4738,7 +4907,8 @@
       "url": "https://wingsnthingscoopercity.com/cooper-city-cooper-city-wings-n-things-happy-hours-specials"
      }
     ]
-   }
+   },
+   "phoneSource": "Venue website wingsnthingscoopercity.com, checked 2026-11-02"
   },
   {
    "id": "fl-wolfs-steakhouse",
@@ -4747,7 +4917,7 @@
    "address": "8455 Stirlling Rd, Davie",
    "state": "FL",
    "zip": "33325",
-   "phone": null,
+   "phone": "(954) 353-9653",
    "lat": 26.0455,
    "lng": -80.261,
    "priceText": "$ (Facebook page)",
@@ -4771,8 +4941,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Davie/104503288081640/Wolf%E2%80%99s-Steakhouse",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-07-31",
-    "website": null
-   }
+    "website": "http://WolfsSteakhouse.com/"
+   },
+   "phoneSource": "Venue website www.wolfssteakhouse.com, checked 2026-11-02"
   },
   {
    "id": "fl-wunderbar-german-kitchen-and-biergarten",
@@ -4816,7 +4987,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Davie/1967056956867195/Wunderbar-German-Kitchen-%26-Biergarten",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-07",
-    "website": null
+    "website": "http://wunderbardavie.com/"
    },
    "conflicts": [
     {
@@ -4832,7 +5003,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://wunderbardavie.com/",
+        "quote": "order as I am very indecisive.... | P S: | Wunderbar is the perfect blend of neighborhood sports bar, German restaurant and beer garden all wrapped up into one cozy place. Great beer selecti",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-ye-olde-falcon-pub",

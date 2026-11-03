@@ -50,7 +50,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": "⚠ Site: brunch daily 10–2:30, dinner daily 5–10 pm, kitchen closes 9:30 pm (listing hours differ). (Venue site bookersrestaurantandbar.com, checked 2026-11-01)",
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour Drinks Available everywhere except the dining room Monday through Friday from 5pm-7pm",
+     "tags": [],
+     "src": "Venue website bookersrestaurantandbar.com/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -66,7 +75,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Philadelphia/219855141479515/Booker%27s-Restaurant-and-Bar",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.bookersrestaurantandbar.com/"
    }
   },
   {
@@ -600,7 +609,51 @@
     "facebookMirror": "https://www.foodyas.com/US/Philadelphia/356999948645/New-Deck-Tavern",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://www.newdecktavern.com/"
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " We also have Karaoke & Live Acoustic Music sessions throughout the week",
+      "url": "https://www.newdecktavern.com/about/"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ G Skweezy | 10:00 PM | Thursday, November19 | 10:00 PM",
+      "url": "https://www.newdecktavern.com/music/"
+     },
+     {
+      "date": "2026-10-15",
+      "quote": "DJ G Skweezy | 10:00 PM | Thursday, October 15 | 10:00 PM",
+      "url": "https://www.newdecktavern.com/music/"
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Join us for our Quizo pub trivia game, the first in the city of Philadelphia started in 1993",
+      "url": "https://www.newdecktavern.com/about/"
+     }
+    ]
    }
   },
   {
@@ -729,7 +782,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/1706534939 opening_hours tag (map data 2026-10-31; last checked on the map 2024-07-26) (checked 2026-11-01)",
    "county": "Philadelphia",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://savaspizza.com/philadelphia-university-city-savas-brick-oven-pizza-food-menu"
   },
   {
    "id": "pa-kabobeesh-philadelphia",
@@ -779,7 +833,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/2232292471 opening_hours tag (map data 2026-10-31; last checked on the map 2024-07-26) (checked 2026-11-01)",
    "county": "Philadelphia",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.abyssiniabarandrestaurant.com/menu"
   },
   {
    "id": "pa-china-inn-philadelphia",
@@ -840,7 +895,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/6061096715 opening_hours tag (map data 2026-10-31; last checked on the map 2026-02-10) (checked 2026-11-01)",
    "county": "Philadelphia",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://locopez.com/menus/"
   },
   {
    "id": "pa-petes-pizza-ii-philadelphia",
@@ -865,7 +921,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/6897200021 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Philadelphia",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.petespizza.com/woodland-avenue/pdf-menu"
   },
   {
    "id": "pa-hawk-barrel-philadelphia",
@@ -925,7 +982,8 @@
       "url": "https://hawkandbarrel.com/events/"
      }
     ]
-   }
+   },
+   "menu": "https://hawkandbarrel.com/menu/"
   },
   {
    "id": "pa-ok-hot-chicken-philadelphia",
@@ -972,7 +1030,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://okhotchicken.com/menu"
   },
   {
    "id": "pa-kitchen-at-bala-philadelphia",
@@ -999,7 +1058,8 @@
    ],
    "source": "hours from OpenStreetMap node/12827420086 opening_hours tag (map data 2026-10-31; last checked on the map 2025-12-12) (checked 2026-11-01)",
    "county": "Philadelphia",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.clover.com/online-ordering/kitchen-at-bala-philadelphia?srsltid=AfmBOoqGGNud3Qw80wZw-JdiUYGqV2iXi58qXSEDBDTUUwVwvaNHRGbu"
   },
   {
    "id": "pa-masala-kitchen-philadelphia-3",
@@ -1024,7 +1084,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/369570964 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Philadelphia",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.masalakitchen.com/menus/"
   },
   {
    "id": "pa-evergreen-philadelphia",
@@ -1087,14 +1148,36 @@
    "hours": "Mon-Thu 11:30a-9p; Fri-Sat 11:30a-10p; Sun 11:30a-9p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 30 pm per Venue website newdelhiweb.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/2179184388 opening_hours tag (map data 2026-11-01; last checked on the map 2024-07-25) (checked 2026-11-02); late hours confirmed by venue website https://www.newdelhiweb.com: \"9:00 PM | Monday: | Closed | Tuesday – Thursday: 11:30 AM – 9:00 PM | Friday – Saturday: 11:30 AM – 10:00 PM | Kitchen\" (checked 2026-11-02)",
    "county": "Philadelphia",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "College crowd"
+    ],
+    "summary": "Popular with college students.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "College crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.newdelhiweb.com",
+        "quote": "Drexel | Walk-ins welcome · Lunch buffet from $16.95 · Order direct for the dorm | Penn & Drexel students: 10% off | Show a valid student ID for 10% off dine-in and takeout, including the buffet.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "pa-cm-chicken-philadelphia",

@@ -787,7 +787,8 @@
     "fbNewestPost": "2026-10-31",
     "website": "https://www.eatbotica.com/"
    },
-   "websiteSource": "OpenStreetMap node/1004445594 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/1004445594 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.eatbotica.com/menus"
   },
   {
    "id": "ga-chattahoochee-food-works",
@@ -1312,7 +1313,7 @@
    "address": "1 Interlock Ave NW, Atlanta",
    "state": "GA",
    "zip": "30318",
-   "phone": null,
+   "phone": "(404) 806-8333",
    "lat": 33.7849,
    "lng": -84.4103,
    "priceText": "$$ (Facebook page)",
@@ -1363,7 +1364,46 @@
     ]
    },
    "dj": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://bellyardhotel.com/explore/hotelevents/",
+        "date": "2026-11-01",
+        "quote": "Join us every weekend for Drawbar Sessions with sounds by DJ La Bonita"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://bellyardhotel.com/explore/hotelevents/",
+        "date": "2026-11-01",
+        "quote": "Join us every weekend for Drawbar Sessions with sounds by DJ La Bonita"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -1381,8 +1421,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/106443254965087/Drawbar",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-05",
-    "website": null
-   }
+    "website": "http://www.drawbaratl.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://bellyardhotel.com/dine/drawbar/",
+        "quote": "-inspired flavors with a modern New American menu, creating a vibrant gathering place for locals, travelers, and after-work crowds in Atlanta. | DINNER • COCKTAILS • BRUNCH | VIEW DRAWBA",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website bellyardhotel.com/dine/drawbar, checked 2026-11-02"
   },
   {
    "id": "ga-dumpling-factory",
@@ -2524,7 +2587,8 @@
     "fbNewestPost": "2026-10-09",
     "website": "https://www.prettyhensrotisserie.com/"
    },
-   "websiteSource": "OpenStreetMap node/13104768050 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/13104768050 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.prettyhensrotisserie.com/menu"
   },
   {
    "id": "ga-r-thomas-deluxe-grill",
@@ -3994,7 +4058,8 @@
       "url": "https://thekpot.com/location/howell-mill-road/"
      }
     ]
-   }
+   },
+   "menu": "https://thekpot.com/menu"
   },
   {
    "id": "ga-pera-bistro-atlanta",
@@ -4141,7 +4206,8 @@
       "url": "https://www.holidaybaratl.com/events-calendar/"
      }
     ]
-   }
+   },
+   "menu": "https://www.holidaybaratl.com/menu/"
   },
   {
    "id": "ga-fellinis-pizza-atlanta-3",
@@ -4166,7 +4232,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/268686482 opening_hours tag (map data 2026-10-31; last checked on the map 2025-12-15) (checked 2026-11-01)",
    "county": "Fulton",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://fellinisatlanta.com/menu-2/"
   },
   {
    "id": "ga-the-daiquiri-factory-atlanta",
@@ -4191,7 +4258,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/269238311 opening_hours tag (map data 2026-10-31; last checked on the map 2025-12-30) (checked 2026-11-01)",
    "county": "Fulton",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://thedaiquirifactory.com/food-menu/"
   },
   {
    "id": "ga-azotea-cantina-atlanta",
@@ -4216,7 +4284,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/269542191 opening_hours tag (map data 2026-10-31; last checked on the map 2026-09-24) (checked 2026-11-01)",
    "county": "Fulton",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://azoteacantina.com/menu/"
   },
   {
    "id": "ga-monday-night-brewing-the-grove-atlanta",

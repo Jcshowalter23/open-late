@@ -394,18 +394,6 @@
      "text": "Happy hours 4–7 & 9–10 pm",
      "src": "Players Downtown Facebook post Oct 14–28, 2026 (via bars10)",
      "checked": "2026-11-01"
-    },
-    {
-     "days": "Mon-Fri",
-     "text": "Happy hour 5–7 pm",
-     "src": "Venue site playersdowntown.com",
-     "checked": "2026-11-01"
-    },
-    {
-     "days": "Sun",
-     "text": "Happy hour 3–5 pm",
-     "src": "Venue site playersdowntown.com",
-     "checked": "2026-11-01"
     }
    ],
    "specials": [
@@ -1665,7 +1653,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/1359935758 opening_hours tag (map data 2026-11-01; last checked on the map 2026-09-15) (checked 2026-11-02); late hours confirmed by venue website https://pizzanapolibradford.com/: \"n's are always welcome. | Online Menu & Ordering | Hours | Mon - Thurs: 11am - 8pm | Friday: 11am - 9pm | Saturda\" (checked 2026-11-02)",
    "county": "McKean",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://pizzanapolibradford.com/",
+        "quote": "freshly made daily, using a unique blend of well-sourced healthy ingredients. A long-time local favorite, Pizza Napoli has always been committed to perfecting their pies so every bite | is as ta",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "counties": [

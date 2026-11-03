@@ -1075,7 +1075,40 @@
     "facebookMirror": "https://www.foodyas.com/US/Hughesville/115806098446005/Lindauer%27s-Tavern",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-13",
-    "website": null
+    "website": "http://www.lindauerstavern.net/"
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://lindauerstavern.net/",
+        "date": "2026-11-01",
+        "quote": "DJ EVERY FRIDAY NIGHT"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "With DJ Stacks Of Sound",
+      "url": "https://lindauerstavern.net/"
+     }
+    ]
    }
   },
   {
@@ -2829,7 +2862,20 @@
     "fbNewestPost": "2026-10-31",
     "website": "https://www.watsoninn.com/"
    },
-   "menu": "https://www.watsoninn.com/menu"
+   "menu": "https://www.watsoninn.com/menu",
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Regular programming adds to the Inn’s lively atmosphere — quiz nights, bi-monthly live entertainment events give guests and locals alike reasons to return",
+      "url": "https://www.watsoninn.com/about"
+     }
+    ]
+   }
   },
   {
    "id": "pa-moreys-tavern-kenmar",
@@ -2883,7 +2929,29 @@
    ],
    "source": "hours from OpenStreetMap way/1238410881 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://oldcornerhotel.com/: \"nu | 328 Court St, Williamsport, PA 17701 | Bar: | Tues-Sat open at 4PM | Dining: | Tues-Sat 4:30PM-10PM | Order O\" (checked 2026-11-02)",
    "county": "Lycoming",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://oldcornerhotel.com/",
+        "quote": "began as a landmark in the city's history has continued to serve as a gathering place for locals and visitors alike. | Today, The Old Corner combines the character of a historic downtown",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "counties": [

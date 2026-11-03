@@ -178,7 +178,8 @@
     "fbNewestPost": null,
     "website": "https://burgerfi.com/"
    },
-   "websiteSource": "OpenStreetMap node/5161507528 website tag (map data 2026-11-01), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/5161507528 website tag (map data 2026-11-01), checked 2026-11-01",
+   "menu": "https://www.burgerfi.com/menu"
   },
   {
    "id": "va-chefscape",
@@ -412,7 +413,20 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://thewinekitchen.com"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Excessively loud entertainment, DJs, and bands are not permitted to preserve the dining experience of all guests",
+      "url": "https://www.thewinekitchen.com/faqs-frederickevents"
+     }
+    ]
    }
   },
   {
@@ -713,7 +727,20 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://thewinekitchen.com"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Excessively loud entertainment, DJs, and bands are not permitted to preserve the dining experience of all guests",
+      "url": "https://www.thewinekitchen.com/faqs-frederickevents"
+     }
+    ]
    }
   },
   {
@@ -1296,7 +1323,8 @@
     "fbNewestPost": null,
     "website": "https://nokusushi.com/"
    },
-   "websiteSource": "OpenStreetMap node/3388335915 website tag (map data 2026-11-01), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/3388335915 website tag (map data 2026-11-01), checked 2026-11-01",
+   "menu": "https://nokusushi.com/menu.php"
   },
   {
    "id": "va-panda-cafe-chinese-restaurant",
@@ -1552,7 +1580,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "$5 Happy Hour Bites",
+     "tags": [],
+     "src": "Venue website sidebarlbg.com/sips-2",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1566,7 +1603,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.sidebarlbg.com"
    }
   },
   {
@@ -1654,7 +1691,8 @@
     "fbNewestPost": null,
     "website": "https://spitz-restaurant.com/restaurant-bar-at-village-at-leesburg/"
    },
-   "websiteSource": "OpenStreetMap node/12236578328 website tag (map data 2026-11-01), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/12236578328 website tag (map data 2026-11-01), checked 2026-11-01",
+   "menu": "https://spitz-restaurant.com/menu"
   },
   {
    "id": "va-the-docket",
@@ -1790,7 +1828,20 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://thewinekitchen.com"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Excessively loud entertainment, DJs, and bands are not permitted to preserve the dining experience of all guests",
+      "url": "https://www.thewinekitchen.com/faqs-frederickevents"
+     }
+    ]
    }
   },
   {
@@ -1867,12 +1918,56 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon-Thu",
+     "text": "Free medium cheese pizza with a purchase of any large gourmet pizza — Monday thru Thursday",
+     "tags": [],
+     "src": "Venue website paisanospizza.com/specials-welcome-paisanos-pizza-restaurant",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/13873596596 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://paisanospizza.com/leesburg/: \"t directions | Store Hours: | Sun–Thu | : | 10:00 AM | to | 9:00 PM | Fri–Sat | : | 10:00 AM | to | 10:00 PM | ORDER O\" (checked 2026-11-02)",
    "county": "Loudoun",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://paisanospizza.com/leesburg/",
+        "quote": "ing a family meal at home or catering an office event. Let us show you why we’ve become a local favorite. | Paisano’s in Leesburg Offers the Best Pizza Delivery in Town | We believe that pizza d",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://paisanospizza.com/leesburg/",
+        "quote": "ed pizzas to our freshly made pastas and salads, there’s something for everyone to enjoy. Bring the family, meet up with friends, or stop by for a quick bite — our friendly staff is here to make s",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "va-anchor-bar-leesburg-leesburg",
@@ -1892,12 +1987,77 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$2 off Drafts & $5 Well Drinks",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website anchorbar.com/locations/leesburg-va",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/14024683801 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://anchorbar.com/locations/leesburg-va/: \"ue: 11:00 am to 10:00 pm | Wed: 11:00 am to 10:00 pm | Thu: 11:00 am to 10:00 pm | Fri: 11:00 am to 11:00 pm | Sat: 11\" (checked 2026-11-02)",
    "county": "Loudoun",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Sports fans"
+    ],
+    "summary": "Family-friendly; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://anchorbar.com/locations/leesburg-va/",
+        "quote": "Off Select Appetizers | $2 off Drafts & $5 Well Drinks | Download our App Today! | We are Family Friendly! | mon | tue | wed | thu | fri | sat | sun | EVENTS | Come Check Us Out! | Oct | 25 | Ope",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://anchorbar.com/locations/leesburg-va/",
+        "quote": "Anchor Bar in Leesburg | Wings. Sports Bar | Leesburg • VA | MENUS/ORDER | FAQ | Menus | --> | Menus | Lunch/ Dinner | Dessert | Bre",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "TRIVIA: Home Alone 7pm",
+      "url": "https://anchorbar.com/locations/leesburg-va/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "TRIVIA: Holiday Movies 7pm",
+      "url": "https://anchorbar.com/locations/leesburg-va/"
+     }
+    ]
+   }
   },
   {
    "id": "va-deli-italiano-leesburg",

@@ -338,7 +338,30 @@
     "fbNewestPost": null,
     "website": "https://pearlmoonwoodstock.com"
    },
-   "menu": "https://pearlmoonwoodstock.com/food-menu"
+   "menu": "https://pearlmoonwoodstock.com/food-menu",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-25",
+      "quote": "DJ Magic Juan: Thanksgiving Eve Party | Wednesday November 25th",
+      "url": "https://pearlmoonwoodstock.com/events"
+     },
+     {
+      "date": "2026-11-25",
+      "quote": "DJ Magic Juan: Thanksgiving Eve Party | Wednesday, November 25th, 2026",
+      "url": "https://pearlmoonwoodstock.com/events"
+     },
+     {
+      "date": "2026-11-25",
+      "quote": "Kick off the holiday weekend with a vibrant night of seamless transitions and hypnotic beats as DJ Magic Juan sets the perfect pre-holiday vibe from 8pm to 11pm | Wednesday November 25th",
+      "url": "https://pearlmoonwoodstock.com/events"
+     }
+    ]
+   }
   },
   {
    "id": "ny-pub",
@@ -1182,7 +1205,69 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/270445758 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://www.catskillmountainpizza.com/: \"| 845-679-7969 | HOURS: | Monday – Thursday: | 11:00 am – 9:00 pm | Friday – Saturday: | 11:00 am – 10:00 pm | Sunday:\" (checked 2026-11-02)",
    "county": "Ulster",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.catskillmountainpizza.com/",
+        "quote": "any is conveniently located in the heart of Woodstock, NY, making it the perfect spot for locals and visitors alike. Whether you’re craving a quick bite or a full meal, our family-friend",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.catskillmountainpizza.com/",
+        "quote": "ot for locals and visitors alike. Whether you’re craving a quick bite or a full meal, our family-friendly restaurant is ready to serve you. | Now Offering Full Bar | Enjoy classic cocktails and m",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Be the first to know about our upcoming events, live music, and fun nights like bingo and trivia",
+      "url": "https://www.catskillmountainpizza.com/"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Be the first to know about our upcoming events, live music, and fun nights like bingo and trivia",
+      "url": "https://www.catskillmountainpizza.com/"
+     }
+    ]
+   }
   }
  ],
  "type": "town",

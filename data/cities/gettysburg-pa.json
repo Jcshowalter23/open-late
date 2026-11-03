@@ -1827,7 +1827,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/803578271 opening_hours tag (map data 2026-10-31; last checked on the map 2023-11-08) (checked 2026-11-01)",
    "county": "Adams",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://theuppercrustpizzas.com/food-menu/"
   },
   {
    "id": "pa-big-hill-ciderworks-gardners",
@@ -1915,8 +1916,8 @@
    "address": "401 Baltimore Street, Gettysburg",
    "state": "PA",
    "zip": "17325",
-   "phone": null,
-   "phoneSource": null,
+   "phone": "(717) 334-8838",
+   "phoneSource": "Venue website farnsworthhouseinn.com/restaurant, checked 2026-11-02",
    "lat": 39.825657,
    "lng": -77.231288,
    "website": "https://farnsworthhouseinn.com/restaurant/",
@@ -1933,7 +1934,43 @@
    ],
    "source": "hours from OpenStreetMap node/12156896492 opening_hours tag (map data 2026-11-01; last checked on the map 2024-09-04) (checked 2026-11-02); late hours confirmed by venue website https://farnsworthhouseinn.com/restaurant/: \"iendly atmosphere. First come, first served, no reservations required. | Hours: | Daily, 11:00 AM – 9:00 PM | Happy H\" (checked 2026-11-02)",
    "county": "Adams",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Date night / upscale"
+    ],
+    "summary": "Family-friendly; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://farnsworthhouseinn.com/restaurant/",
+        "quote": "collection of props from the movie Gettysburg and serves a full food and drink menu in a family-friendly atmosphere. First come, first served, no reservations required. | Hours: | Daily, 11:00 A",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://farnsworthhouseinn.com/restaurant/",
+        "quote": "Farnsworth House Inn | Three Distinct Experiences Under One Historic Roof | From intimate fine dining to a lively tavern and an outdoor beer garden, the Farnsworth House Inn offers something",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "pa-tommys-pizza-gettysburg",

@@ -300,7 +300,7 @@
    "hours": "Daily 11a-2a",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 10 pm per Venue website birdriverinn.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [
     {
@@ -369,7 +369,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Middle-River/161539857233108/Bird-River-Inn-%26-Crab-House",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.birdriverinn.com/"
    },
    "trivia": {
     "nights": [],
@@ -1173,7 +1173,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Sparrows-Point/1519403364982733/DOCK-of-the-BAY",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://dockofthebay.net/"
    },
    "conflicts": [
     {
@@ -1190,7 +1190,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://dockofthebay.net/",
+        "quote": "s by car or boat | The best view of the Chesapeake Bay is at Dock of the Bay! Boaters and locals alike know that the best hidden gem of the bay is tucked behind Craighill Lighthouse. Enj",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "md-dundalk-sushi",
@@ -2423,7 +2445,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Essex/106178372391098/LoonAsea-Maryland",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.loonaseamd.com/"
    },
    "conflicts": [
     {
@@ -2451,6 +2473,19 @@
       "date": "2026-11-01",
       "quote": "Frosted Beats & Bingo",
       "url": "https://www.loonaseamd.com/events"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-06",
+      "quote": "DJ R+C / The New Romance | Friday, November 6, 2026",
+      "url": "https://www.loonaseamd.com/entertainment"
      }
     ]
    }
@@ -2724,7 +2759,16 @@
    "hoursNote": "Restaurantji (updated 2026-10-01) lists different hours: Mon-Thu 11a-10p; Fri 11a-12a; Sat 10a-12a; Sun 10a-10p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Michael’s Café offers happy hour deals from 3-7pm Monday- Friday and live music is performed every Friday evening at the Timonium location and on the first Friday of each month at the White Marsh- Middle River location",
+     "tags": [],
+     "src": "Venue website Michaelscafe.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -2758,7 +2802,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Middle-River/302146490399562/Michaels-Cafe-White-Marsh-Middle-River",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-23",
-    "website": null
+    "website": "http://Michaelscafe.com/"
    },
    "conflicts": [
     {
@@ -2792,8 +2836,8 @@
    "website": "http://www.billsterraceinn.com/",
    "hours": "Mon closed; Tue-Thu 4p-10p; Fri 4p-11p; Sat 3p-11p; Sun 1p-10p",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Tue-Thu 4p-93p; Sun 1p-93p",
+   "kitchenNote": "Kitchen hours from Venue website billsterraceinn.com, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [],
    "specials": [
     {
@@ -2842,7 +2886,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Essex/569440836437947/Mr.-Bill%27s-Terrace-Inn",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.billsterraceinn.com/"
    },
    "conflicts": [
     {
@@ -2875,7 +2919,39 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "32oz Crushes $13 and Bucket Beer Specials All Day",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website thenorthpointinn.com/weekly-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Wed",
+     "text": "95 Steak, *Wednesday Burgers $9",
+     "tags": [],
+     "src": "Venue website thenorthpointinn.com/weekly-specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Thu",
+     "text": "95, *Thursday Shrimp $17",
+     "tags": [],
+     "src": "Venue website thenorthpointinn.com/weekly-specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Fri",
+     "text": "95, Friday Crab Cakes $19",
+     "tags": [],
+     "src": "Venue website thenorthpointinn.com/weekly-specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -2910,7 +2986,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Baltimore/177997042380616/Northpoint-Inn",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.thenorthpointinn.com/"
    }
   },
   {

@@ -130,7 +130,7 @@
    "hours": "Mon-Thu 11a-9:30p; Fri-Sat 11a-10p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 15 pm per Venue website littleitalyavonpark.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -145,7 +145,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Avon-Park/529024090303316/Little-Italy-Avon-Park",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-18",
-    "website": null
+    "website": "http://littleitalyavonpark.com/"
    }
   },
   {
@@ -506,7 +506,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "We definitely go back…would love to take advantage of happy hour (2-6PM) and try an appetizer or two",
+     "tags": [],
+     "src": "Venue website wildturkeytavern.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -520,7 +529,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Avon-Park/200543608452/WILD-TURKEY-TAVERN",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-21",
-    "website": null
+    "website": "http://wildturkeytavern.com/"
    },
    "bingo": {
     "nights": [],
@@ -532,6 +541,42 @@
       "date": "2026-11-01",
       "quote": " I walk in on a Weds after work and it’s almost like bingo night",
       "url": "https://wildturkeytavern.com/"
+     }
+    ]
+   },
+   "crowdType": {
+    "labels": [
+     "Older / 30+",
+     "Bikers"
+    ],
+    "summary": "Skews older / 30+; popular with bikers / hosts bike nights.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Older / 30+",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://wildturkeytavern.com/",
+        "quote": "desman, professionals, lawyers, bikers, cowboys, race care drivers and stunt pilots, even retirees and kids have always fit right in. This diversity is what has always defined this special",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Bikers",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://wildturkeytavern.com/",
+        "quote": "at embellishers fo the truth. It has also been host of tradesman, professionals, lawyers, bikers, cowboys, race care drivers and stunt pilots, even retirees and kids have always fit righ",
+        "self": true
+       }
+      ]
      }
     ]
    }

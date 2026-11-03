@@ -21,8 +21,28 @@
    "hoursNote": "Venue site lists Venue site lists Mon–Thu to 10p, Fri–Sat to 11p; Facebook omits Sunday and lists Sat to 10p.; call ahead.; Conflict: Google listing (Oct 14, 2026) shows Sun open 12p-6p.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour 4pm-6pm Monday-Friday",
+     "tags": [],
+     "src": "Venue website 202tacos.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Beer specials $2",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website 202tacos.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events"
@@ -32,7 +52,27 @@
    "phone": "(412) 301-8141",
    "phoneSource": "Restaurantji (Google-sourced listing, updated Oct 14, 2026), checked 2026-11-01",
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://202tacos.com/",
+        "date": "2026-11-01",
+        "quote": "With tons of space & weekly events like karaoke, happy hour, and hosting local bands on Friday's in"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -50,7 +90,27 @@
     ]
    },
    "dj": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://202tacos.com/",
+        "date": "2026-11-01",
+        "quote": "#DJ spinning the perfect playlist to eat & drink Margherita's | I visited on a beautiful warm Sunday afternoon & the dining room was open. There was a super dope"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [
      "Restaurantji review/summary mentions dj"
@@ -70,7 +130,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Bellevue/806796453015580/202-Hometown-TACOS",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-14",
-    "website": null
+    "website": "http://202tacos.com/"
    }
   },
   {
@@ -186,7 +246,29 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://grille565.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://grille565.com/",
+        "quote": "- sharable appetizers, legendary burgers and sandwiches, and full entrees. We've even got kid friendly selections for the under 12 crowd. | OUR MENU | GET IT TO GO | GET IT TO GO | GET IT TO G",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

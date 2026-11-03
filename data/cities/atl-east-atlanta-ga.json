@@ -506,7 +506,7 @@
    "address": "130 Arizona Ave NE, Atlanta",
    "state": "GA",
    "zip": "30307",
-   "phone": null,
+   "phone": "(678) 974-8380",
    "lat": 33.7586,
    "lng": -84.3315,
    "priceText": "$$ (Facebook page)",
@@ -517,7 +517,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Half-Off-Wine Wednesdays",
+     "tags": [],
+     "src": "Venue website deadenddrinks.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events"
@@ -579,8 +587,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/506399609444540/Dead-End-Drinks",
     "fbPostsSeen": 11,
     "fbNewestPost": "2026-10-31",
-    "website": null
-   }
+    "website": "http://www.rationanddram.com/"
+   },
+   "phoneSource": "Venue website deadenddrinks.com, checked 2026-11-02"
   },
   {
    "id": "ga-desta-ethiopian-kitchen",
@@ -658,7 +667,7 @@
    "address": "467 Flat Shoals Ave SE, Atlanta",
    "state": "GA",
    "zip": "30316",
-   "phone": null,
+   "phone": "(404) 522-5992",
    "lat": 33.7412,
    "lng": -84.3467,
    "priceText": "$$ (Facebook page)",
@@ -716,7 +725,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/137882096269869/EAV-Thai-and-Sushi",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-02-12",
-    "website": null
+    "website": "http://www.eavthaisushi.com/"
    },
    "conflicts": [
     {
@@ -737,7 +746,8 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "Venue website eavthaisushi.com, checked 2026-11-02"
   },
   {
    "id": "ga-el-tesoro",
@@ -912,7 +922,7 @@
    "address": "520 Flat Shoals Ave SE, Atlanta",
    "state": "GA",
    "zip": "30316",
-   "phone": null,
+   "phone": "(425) 657-0373",
    "lat": 33.74,
    "lng": -84.345,
    "priceText": "$ (Facebook page)",
@@ -936,8 +946,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/40575703543/Flatiron-Bar",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://theflatirongrill.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.theflatirongrill.com/",
+        "quote": "nd stumbled across the Flat Iron Grill in Issaquah. Excellent menu with a good variety of upscale options. Enjoyed the New York strip which was cooked to a perfect medium rare and the gar",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.theflatirongrill.com, checked 2026-11-02"
   },
   {
    "id": "ga-fox-bros-bar-b-q",
@@ -1968,7 +2001,7 @@
    "address": "3479 Chamblee Tucker Rd, Atlanta",
    "state": "GA",
    "zip": "30341",
-   "phone": null,
+   "phone": "(470) 275-4332",
    "lat": 33.9021,
    "lng": -84.261,
    "website": "http://www.santocieloatl.com/",
@@ -1988,8 +2021,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/483884788122926/Santo-Cielo-ATL",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-29",
-    "website": null
-   }
+    "website": "http://www.santocieloatl.com/"
+   },
+   "phoneSource": "Venue website santocieloatl.com, checked 2026-11-02"
   },
   {
    "id": "ga-shanes-rib-shack-atlanta-edgewood-ave",
@@ -2064,7 +2098,7 @@
    "address": "560 gresham Ave, Atlanta",
    "state": "GA",
    "zip": "30316",
-   "phone": null,
+   "phone": "(404) 627-9911",
    "lat": 33.7395,
    "lng": -84.3457,
    "priceText": "$$ (Facebook page)",
@@ -2122,7 +2156,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/355981940023/So-Ba-Vietnamese-Restaurant",
     "fbPostsSeen": 8,
     "fbNewestPost": "2025-01-26",
-    "website": null
+    "website": "http://www.soba-eav.com/"
    },
    "conflicts": [
     {
@@ -2139,7 +2173,8 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "Venue website www.soba-eav.com, checked 2026-11-02"
   },
   {
    "id": "ga-so-so-fed",
@@ -2595,7 +2630,27 @@
     ]
    },
    "dj": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "9:00pm – Close",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.threedollarcafe.com/blog/neighborhood-events/",
+        "date": "2026-11-01",
+        "quote": "Live DJ: Fridays at 9:00pm – Close | McDonough Weekly Events:"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -2607,7 +2662,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/249506335170530/Three-Dollar-Cafe-Chamblee",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-03-06",
-    "website": null
+    "website": "http://www.threedollarcafe.com/"
    },
    "trivia": {
     "nights": [
@@ -2659,6 +2714,52 @@
       "url": "https://www.threedollarcafe.com/blog/neighborhood-events/"
      }
     ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "10pm to 12pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.threedollarcafe.com/blog/neighborhood-events/",
+        "date": "2026-11-01",
+        "quote": "Karaoke on Tuesdays from 10pm to 12pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "8:30 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.threedollarcafe.com/blog/neighborhood-events/",
+        "date": "2026-11-01",
+        "quote": "Fridays: Karaoke at 8:30 PM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
    }
   },
   {
@@ -2801,7 +2902,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/14284279629 opening_hours tag (map data 2026-10-31; last checked on the map 2026-10-14) (checked 2026-11-01)",
    "county": "DeKalb",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://okyakiatl.com/menu/"
   },
   {
    "id": "ga-argosy-atlanta",

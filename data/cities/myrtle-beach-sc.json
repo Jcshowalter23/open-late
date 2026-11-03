@@ -1933,7 +1933,8 @@
     "fbNewestPost": null,
     "website": "https://eatcapriccio.com/"
    },
-   "websiteSource": "OpenStreetMap node/14261970426 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/14261970426 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://eatcapriccio.com/food-menu"
   },
   {
    "id": "sc-captain-benjamins-calabash-seafood-buffet",
@@ -2044,7 +2045,8 @@
     "fbNewestPost": null,
     "website": "https://captaingeorges.com"
    },
-   "websiteSource": "OpenStreetMap way/44973305 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/44973305 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.captaingeorges.com/a-la-carte"
   },
   {
    "id": "sc-carolina-ale-house-myrtle-beach",
@@ -9159,7 +9161,8 @@
     "fbNewestPost": null,
     "website": "https://sneakybeaglemyrtlebeach.com/"
    },
-   "websiteSource": "OpenStreetMap way/609322569 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/609322569 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://sneakybeaglemyrtlebeach.com/food-menu"
   },
   {
    "id": "sc-the-tasting-room-on-9th",
@@ -9405,7 +9408,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Sun-Thu",
+     "text": "Sunday through Thursday from 4-6 PM for Happy Hour in Myrtle Beach",
+     "tags": [],
+     "src": "Venue website tidalcreekbrewhouse.com/craft-kitchen/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -10207,8 +10219,7 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.yamatoinc.com/Broadway.html"
-   },
-   "menu": "https://www.yamatoinc.com/menu.html"
+   }
   }
  ],
  "type": "city",

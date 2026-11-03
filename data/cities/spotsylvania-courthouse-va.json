@@ -145,7 +145,8 @@
     "fbNewestPost": null,
     "website": "https://angelasitalian.com"
    },
-   "websiteSource": "OpenStreetMap node/10182109474 website tag (map data 2026-11-01), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/10182109474 website tag (map data 2026-11-01), checked 2026-11-01",
+   "menu": "https://www.angelasitalianrestaurantgrill.com/menu"
   },
   {
    "id": "va-asian-dynasty",
@@ -1932,7 +1933,51 @@
     "fbNewestPost": null,
     "website": "https://www.thecovelka.com/"
    },
-   "menu": "https://www.thecovelka.com/menu-1"
+   "menu": "https://www.thecovelka.com/menu-1",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-05",
+      "datedLastSeen": "2026-11-05",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.thecovelka.com/",
+        "date": "2026-11-05",
+        "quote": "Karaoke | Thu, Nov 05"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.thecovelka.com/event-details/karaoke-2026-11-05-20-00",
+        "date": "2026-11-05",
+        "quote": "Karaoke | Thu, Nov 05"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.thecovelka.com/event-details/karaoke-2026-11-05-20-00",
+        "date": "2026-11-01",
+        "quote": "Join us EVERY THURSDAY Downstairs for Karaoke Night"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke",
+      "url": "https://www.thecovelka.com/event-details/karaoke-2026-11-05-20-00"
+     }
+    ]
+   }
   },
   {
    "id": "va-the-pub",

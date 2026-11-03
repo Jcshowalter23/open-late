@@ -139,7 +139,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Stevensville/106834870709491/Amalfi-Coast-Italian-%2B-Wine-Bar",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-14",
-    "website": null
+    "website": "http://amalficoastki.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.amalficoastki.com/",
+        "quote": "th a friendly, courteous and attentive staff. Whether stopping in for a glass of wine, a date night or bringing in the entire family, our mission is to provide first class hospitality while",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -264,7 +286,7 @@
    "hours": "Mon closed; Tue-Fri 11a-10p; Sat-Sun 10a-10p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 9 pm per Venue website bigbats.com, checked 2026-11-01; days not stated.",
    "happyHours": [
     {
      "days": "Daily",
@@ -351,7 +373,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Stevensville/201054070809/Big-Bats-Cafe%2C-Kent-Island%2C-Inc.",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://www.bigbats.com/"
    }
   },
   {
@@ -686,7 +708,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Chester/107113851884085/Dock-House-Restaurant",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://www.dockhouserestaurant.com/"
    },
    "conflicts": [
     {
@@ -702,7 +724,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://dockhouserestaurant.com/",
+        "quote": "ocally and sustainably sourced, whenever possible. Dock House is open year-round, serving local favorites, simply prepared. Enjoy panoramic views of the Kent Narrows, amazing food, signature coc",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "md-el-jefe-mexican-kitchen-tequila-bar",
@@ -959,7 +1003,7 @@
    "hours": "Mon-Tue 11a-11p; Wed-Thu 11a-12a; Fri 11a-1:30a; Sat 8a-1:30a; Sun 8a-12a",
    "hoursNote": "Restaurantji (updated 2026-10-29) lists different hours: Mon-Tue 11a-12a; Wed-Thu 11a-1a; Fri 11a-1:30a; Sat 8a-1:30a; Sun 8a-12a. Call ahead to confirm.",
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 10 pm per Venue website jettydockbar.com, checked 2026-11-01; days not stated.",
    "happyHours": [
     {
      "days": "Mon-Fri",
@@ -1020,7 +1064,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Grasonville/89178886642/Jetty-Dock-Bar",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://www.jettydockbar.com/"
    },
    "conflicts": [
     {
@@ -1131,6 +1175,49 @@
      {
       "date": "2026-11-01",
       "quote": "Bingo / Acoustic Duo | November 10 @ 6:30 pm",
+      "url": "https://jettydockbar.com/events/"
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7:00 pm",
+      "basis": "posted on 2 different Weds",
+      "lastSeen": "2026-11-11",
+      "datedLastSeen": "2026-11-11",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://jettydockbar.com/events/",
+        "date": "2026-11-11",
+        "quote": "November 11 @ 7:00 pm | - | 11:00 pm | >> Karaoke Night | 11:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://jettydockbar.com/events/",
+        "date": "2026-11-04",
+        "quote": "November 4 @ 7:00 pm | - | 11:00 pm | >> Karaoke Night | 11:00 pm"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke Night | November 4 @ 7:00 pm",
+      "url": "https://jettydockbar.com/events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke Night | November 11 @ 7:00 pm",
       "url": "https://jettydockbar.com/events/"
      }
     ]
@@ -1912,7 +1999,7 @@
    "address": "106 Pier 1 Rd, Stevensville",
    "state": "MD",
    "zip": "21666",
-   "phone": null,
+   "phone": "(410) 604-2722",
    "lat": 38.9772,
    "lng": -76.3235,
    "website": "http://stevensvillecrabshack.com/",
@@ -1934,8 +2021,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Stevensville/253799041328620/Stevensville-Crab-Shack",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://stevensvillecrabshack.com/"
+   },
+   "phoneSource": "Venue website stevensvillecrabshack.com, checked 2026-11-02"
   },
   {
    "id": "md-the-narrows-restaurant",
@@ -1978,7 +2066,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Grasonville/89462323326/The-Narrows-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.thenarrowsrestaurant.com/"
    },
    "conflicts": [
     {
@@ -1998,7 +2086,43 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://thenarrowsrestaurant.com/",
+        "quote": "ate the perfect event for you in a beautiful, comfortable & waterfront setting. | 1 | 1 | Local Favorites & Creative Dishes | For over 30 years The Narrow Restaurant has featured Eastern Shore c",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://thenarrowsrestaurant.com/",
+        "quote": "The Narrows Restaurant- Crab cakes and fine dining in a casual atmosphere. | Skip to main content | twitter | facebook | instagram | Online",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "md-tokyo-bay",
@@ -2028,7 +2152,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Stevensville/114558555054924/Tokyo-Bay",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://www.tokyobaymd.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.tokyobaymd.com/",
+        "quote": "KYO BAY | Japanese Steak, Seafood & Sushi | Online Order | A DESTINATION | TOKYO BAY is a family-friendly Hibachi (Teppanyaki) restaurant dedicated to bringing you a special dining experience thr",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

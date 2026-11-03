@@ -54,7 +54,7 @@
    "hours": "Mon closed; Tue-Thu 5p-12a; Fri 5p-2a; Sat 11a-2a; Sun 11a-12a",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 1 am per Venue website battleandbrew.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -151,7 +151,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Sandy-Springs/139930907782/Battle-%26-Brew",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.battleandbrew.com/"
    },
    "trivia": {
     "nights": [
@@ -502,9 +502,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/113820898676156/Cibo-e-Beve",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-18",
-    "website": null
+    "website": "http://www.ciboatlanta.com/"
    },
-   "phoneSource": "OpenStreetMap node/2928753841 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/2928753841 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.ciboatlanta.com/",
+        "quote": "Linda. Cibo e Beve is a great place for a glass of wine, a fun night with the girls, or a romantic dinner with hubby!\" | FIVE STARS | Leslie via FACEBOOK | \"I saw this place on Atlanta Eat",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "ga-city-barbeque-sandy-springs",
@@ -580,7 +602,7 @@
    "address": "5600 Roswell Rd Suite H100, Sandy Springs",
    "state": "GA",
    "zip": "30342",
-   "phone": null,
+   "phone": "(404) 843-8319",
    "lat": 33.9074,
    "lng": -84.3805,
    "priceText": "$$ (Facebook page)",
@@ -602,7 +624,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Sandy-Springs/36981421714/GENKI-Noodles-and-Sushi",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-02-01",
-    "website": null
+    "website": "http://www.genkiprado.net/"
    },
    "conflicts": [
     {
@@ -623,7 +645,8 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "Venue website www.genkiprado.net, checked 2026-11-02"
   },
   {
    "id": "ga-hopdoddy-burger-bar-sandy-springs",
@@ -1911,7 +1934,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Sandy-Springs/288466268022086/Savor-bar-%26-kitchen",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.savorbarkitchen.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "LGBTQ-friendly"
+    ],
+    "summary": "LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://harryspizzeria.com/",
+        "quote": "ators to Watch | AAPI Artists | BIPOC Artists | Black Artists | Celebrate Women Artists | LGBTQIA Artists | Ukrainian Artists | Back To Menu | Adult Apparel | SITUS DEWAKING | Shorts",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2322,7 +2367,7 @@
    "address": "227 Sandy Springs Pl ste 416, Sandy Springs",
    "state": "GA",
    "zip": "30328",
-   "phone": null,
+   "phone": "(404) 843-8058",
    "lat": 33.9207,
    "lng": -84.3833,
    "priceText": "$$ (Facebook page)",
@@ -2375,7 +2420,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Sandy-Springs/55815625099/Thos.-O%27Reillys-Public-House---Sandy-Springs",
     "fbPostsSeen": 23,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.oreillyspublichouse.com/"
    },
    "conflicts": [
     {
@@ -2417,7 +2462,31 @@
       "url": "https://oreillyspublichouse.com/sandy-springs-city-walk-shopping-center-kroger-thos-o-reilly-s-public-house-events"
      }
     ]
-   }
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2027-01-17",
+      "quote": "ary 17th | Annually on January 17th | Join us Saturday Jan 17th to celebrate the 6th anniversary of the Pub. Party with >> Party with DJ Tom Russo on the pub stage 7:30pm | 07:30 PM - 10:30 PM | OH Ca",
+      "url": "https://oreillyspublichouse.com/-events?source=header&spot_id=67960&destination=events&promotion=sandwich_day"
+     },
+     {
+      "date": "2027-01-17",
+      "quote": "ary 17th | Annually on January 17th | Join us Saturday Jan 17th to celebrate the 6th anniversary of the Pub. Party with >> Party with DJ Tom Russo on the pub stage 7:30pm | 07:30 PM - 10:30 PM | OH Ca",
+      "url": "https://oreillyspublichouse.com/sandy-springs-city-walk-shopping-center-kroger-thos-o-reilly-s-public-house-events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Party with DJ Tom Russo on the pub stage 7:30pm | OH Canada...Day Features 3PM-9PM | Thursday July 1st | OH Canada...Day Features 3PM-9PM",
+      "url": "https://oreillyspublichouse.com/"
+     }
+    ]
+   },
+   "phoneSource": "Venue website oreillyspublichouse.com, checked 2026-11-02"
   },
   {
    "id": "ga-top-korean-bbq-and-hot-pot-sandy-springs-ga",

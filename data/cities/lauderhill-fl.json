@@ -1338,7 +1338,7 @@
    "hours": "Mon-Thu 11a-10p; Fri 11a-3a; Sat 11a-2a; Sun 11a-9p",
    "hoursNote": "Restaurantji (updated 2026-10-29) lists different hours: Mon-Wed 11a-10p; Thu 11a-12a; Fri-Sat 11a-3a; Sun 11a-10p. Call ahead to confirm.",
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 3 am per Venue website kalalouftlauderdale.com/private-events, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -1353,7 +1353,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Tamarac/161955566994607/Kalalou-Caribbean-Bar-and-Grill-Fort-Lauderdale",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-10-09",
-    "website": null
+    "website": "http://kalalouftlauderdale.com/"
    },
    "conflicts": [
     {
@@ -1370,7 +1370,52 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.kalalouftlauderdale.com/",
+        "quote": "ste in every plate. Whether you’re joining us for lunch with friends, dinner with family, date night, a celebration or an evening out, Kalalou Fort Lauderdale welcomes you with warm hospital",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "You can also let us know if you're interested in things such as a custom menu, bar service, DJ or entertainment, décor, special setup, reserved areas or full venue rental",
+      "url": "https://www.kalalouftlauderdale.com/private-events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Zenglen & Flesh Performing Live at Kalalou – DJ Cool Mix Birthday Bash | Sat, Mar 28",
+      "url": "https://www.kalalouftlauderdale.com/event-list"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "🎶 DJs + Music All Night",
+      "url": "https://www.kalalouftlauderdale.com/event-details-registration/tasty-friday-2026-11-06-22-00"
+     }
+    ]
+   }
   },
   {
    "id": "fl-kcs-winghouse-florida",
@@ -2048,7 +2093,20 @@
     "facebookMirror": "https://www.foodyas.com/US/Lauderhill/616201201783325/Paradise-Cafe-and-karaoke",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://gourmetkaraoke.wordpress.com/"
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "gourmetkaraoke",
+      "url": "https://wordpress.com/typo/?subdomain=gourmetkaraoke"
+     }
+    ]
    }
   },
   {
@@ -2204,7 +2262,29 @@
     "facebookMirror": "https://www.foodyas.com/US/North-Lauderdale/1406629429666188/Reggae-Pon-The-Grille",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.reggaeonthegrille.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "LGBTQ-friendly"
+    ],
+    "summary": "LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.burgerspizzamore.com/",
+        "quote": "ators to Watch | AAPI Artists | BIPOC Artists | Black Artists | Celebrate Women Artists | LGBTQIA Artists | Ukrainian Artists | Back To Menu | Adult Apparel | DEWA39 | Shorts | New! | H",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2214,7 +2294,7 @@
    "address": "4587 North University Dr, Lauderhill",
    "state": "FL",
    "zip": "33351",
-   "phone": null,
+   "phone": "(662) 324-1949",
    "lat": 26.1819,
    "lng": -80.2527,
    "priceText": "$$ (Facebook page)",
@@ -2224,8 +2304,54 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Sat",
+     "text": "Rosey Baby runs a different happy hour drink special every day it's open, all day, dine-in only: $3 martinis Monday, $3 drafts Tuesday, half-off wine Wednesday, $3 bottle beer Thursday, $3 frozen drinks Friday, and $2 mimosas Saturday",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website roseybaby.com/starkville/happy-hour-starkville",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "See venue",
+     "text": "Rosey Baby's happy hour runs all day, six days a week, with a different drink special each day — from $3 martinis to $2 mimosas",
+     "tags": [],
+     "src": "Venue website roseybaby.com/starkville/happy-hour-starkville",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "Unlike a typical late-afternoon happy hour window, these specials apply all day on their given day — dine-in only, with no time restriction",
+     "tags": [],
+     "src": "Venue website roseybaby.com/starkville/happy-hour-starkville",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "Tuesday stacks $3 drafts with 50-cent wings, making it one of the best value days on the calendar",
+     "tags": [
+      "wings",
+      "beer"
+     ],
+     "src": "Venue website roseybaby.com/starkville/happy-hour-starkville",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Mon-Sat",
+     "text": "Monday, $3 drafts Tuesday, half-off wine Wednesday, $3 bottle beer Thursday, $3 frozen drinks Friday, and $2 mimosas Saturday",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website roseybaby.com/starkville/happy-hour-starkville",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -2236,7 +2362,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Lauderhill/189893665580/Rosey-Baby-FL",
     "fbPostsSeen": 9,
     "fbNewestPost": "2017-06-01",
-    "website": null
+    "website": "http://roseybaby.com/"
    },
    "bingo": {
     "nights": [],
@@ -2250,7 +2376,8 @@
       "url": "https://www.roseybaby.com/events"
      }
     ]
-   }
+   },
+   "phoneSource": "Venue website www.roseybaby.com, checked 2026-11-02"
   },
   {
    "id": "fl-rowes-jerk-cuisine",
@@ -2829,7 +2956,20 @@
     "facebookMirror": "https://www.foodyas.com/US/Lauderhill/144452895426801/Taste-Of-Sichuan-%E4%B8%80%E5%93%81%E6%88%90%E9%83%BD",
     "fbPostsSeen": 10,
     "fbNewestPost": "2024-04-23",
-    "website": null
+    "website": "http://www.tasteofsichuanmiami.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "\u00011y\u0006ϻ7=\u0004\"T`fFy؆ؐ~Y^X \u000fvS2H7;FEz,Dj(W^\u0006\u0019z K@޿ \u0013-ïK4D傢PYZï\u0016X\u00142 y#҉l\u0017q]",
+      "url": "https://www.tasteofsichuanmiami.com/"
+     }
+    ]
    }
   },
   {
@@ -3671,7 +3811,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/1245619051 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Broward",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://order.flanigans.net/menu/north-lauderdale"
   }
  ],
  "type": "city",

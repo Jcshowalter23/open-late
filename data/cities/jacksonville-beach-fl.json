@@ -12,7 +12,7 @@
    "address": "950 Marsh Landing PKWY suite 370, Jacksonville Beach",
    "state": "FL",
    "zip": "32250",
-   "phone": null,
+   "phone": "(904) 656-8058",
    "lat": 30.2555,
    "lng": -81.396,
    "website": "http://www.1810tacosytequila.com/",
@@ -32,8 +32,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville-Beach/265364566650642/1810-Tacos-y-Tequila",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-06-02",
-    "website": null
-   }
+    "website": "http://www.1810tacosytequila.com/"
+   },
+   "phoneSource": "Venue website www.1810tacosytequila.com, checked 2026-11-02"
   },
   {
    "id": "fl-ajua-mexican-kitchen-and-bar",
@@ -241,9 +242,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville-Beach/233012086723353/Casa-Maria-Jax-Beach",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.casamariajaxbeach.com/"
    },
-   "phoneSource": "OpenStreetMap node/7176497494 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/7176497494 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://casamariajaxbeach.com/",
+        "quote": "n food in Jacksonville, FL. | Come to have fun with your significant other or simply come watch the game with your friends. Casa Maria's Bar is the perfect spot for any occasion. | Read more | a",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-chizu-japanese-steakhouse",
@@ -514,7 +537,7 @@
    "address": "1553 3rd St N, Jacksonville Beach",
    "state": "FL",
    "zip": "32250",
-   "phone": null,
+   "phone": "(904) 378-9822",
    "lat": 30.3027,
    "lng": -81.394,
    "priceText": "$$ (Facebook page)",
@@ -572,8 +595,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville-Beach/962705070532281/El-Potro-Mexican-Restaurant",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://www.elpotrorestaurant.com/"
+   },
+   "phoneSource": "Venue website www.elpotrorestaurant.com, checked 2026-11-02"
   },
   {
    "id": "fl-el-potro-mexican-restaurant-2",
@@ -988,10 +1012,30 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville-Beach/1436093396668659/Hoptinger",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-16",
-    "website": null
+    "website": "http://hoptinger.com/"
    },
    "trivia": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7:30 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.hoptinger.com/happenings-5points",
+        "date": "2026-11-01",
+        "quote": "Trivia Night @ 7:30 PM | Wednesday"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -1006,6 +1050,19 @@
      {
       "date": "2026-11-01",
       "quote": "Music Bingo @ 4 PM",
+      "url": "https://www.hoptinger.com/happenings-jax-beach"
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke @ 10 PM",
       "url": "https://www.hoptinger.com/happenings-jax-beach"
      }
     ]
@@ -1570,7 +1627,24 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon-Fri",
+     "text": "All hours spent at Mojo are happy ones, but the Happiest of Hours occur Monday-Friday from 3-6 where we off $1 OFF our beer and wine",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website mojobbq.com/mojo-bar-b-que",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "We love being a place for families to gather, so on Wednesdays: Kids eat free",
+     "tags": [],
+     "src": "Venue website mojobbq.com/mojo-bar-b-que",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -1612,7 +1686,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville-Beach/317126756416/MOJO-Kitchen%2C-BBQ-Pit-%26-Blues-Bar",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.mojobbq.com/"
    },
    "conflicts": [
     {
@@ -1832,7 +1906,7 @@
    "address": "19 North Ocean St, Jacksonville",
    "state": "FL",
    "zip": "32202",
-   "phone": null,
+   "phone": "(904) 684-0388",
    "website": "http://www.oceanstreettacos.com/",
    "hours": "Mon-Tue closed; Wed-Sun 6p-1a",
    "hoursNote": null,
@@ -1850,8 +1924,22 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/133721573167824/Ocean-Street-Tequila",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://www.oceanstreettacos.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Basic sound and lighting for a DJ or a small band",
+      "url": "https://oceanstreettacos.com/private-events.html"
+     }
+    ]
+   },
+   "phoneSource": "Venue website oceanstreettacos.com, checked 2026-11-02"
   },
   {
    "id": "fl-pablo-plaza",
@@ -1975,7 +2063,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville-Beach/669940900027121/Que-Pasa-Mex-Jacksonville",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://quepasamexjax.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://quepasamexjax.com/",
+        "quote": "279-4256 | Welcome to | ¡Qué Pasa! | Mexican kitchen & tequila in Destin | Special menu & family friendly | Order online | Print menu | Palms Station, 985 US-98, Destin | Open daily from 11 am",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2178,7 +2288,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville-Beach/576305026060721/RPs-Fine-Food-%26-Drink",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-14",
-    "website": null
+    "website": "http://www.RPsJaxBeach.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://rpsjaxbeach.com/",
+        "quote": "here in Jax Beach. Place is right up our alley for its vibe and food. I can tell a lot of locals there. Super casual. Server was great. Get their crabby mushroom soup. Split with my husb",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2396,7 +2528,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville-Beach/331107153429026/Serenity-Jax-Beach",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-09-28",
-    "website": null
+    "website": "http://Serenityjaxbeach.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.serenityjaxbeach.com/",
+        "quote": "d unforgettable nightlife. Whether you’re joining us for happy hour, dinner with friends, date night, or late-night vibes, every visit is designed to be an experience. | CLICK HERE TO RESERV",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2769,7 +2923,27 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$2 Off Bottled Beers, Seltzers & Teas",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website jacksonvillebeachbar.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Daily",
+     "text": "$4 ALL DAY EVERYDAY MILLER LITE & DOS EQUIS LAGER DRAFTS",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website jacksonvillebeachbar.com/specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -2818,7 +2992,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville-Beach/239665516070325/The-Brix-Taphouse",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-18",
-    "website": null
+    "website": "http://jacksonvillebeachbar.com/"
    },
    "conflicts": [
     {

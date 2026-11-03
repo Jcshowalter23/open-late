@@ -37,7 +37,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/1453026791608640/Albstar-Bar%26kafe",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.allstarsbar.co.uk/"
+   },
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.allstarsbar.co.uk/",
+        "quote": "Title Page | AllStars sports bar & cafe | AllStars Sports Bar & Cafe | Menu | Here At Our Bar | > | Whats On? | Parties &",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -91,7 +113,15 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "2 For 1 Happy Hour Monday-Friday 3-6 25% Off Drinks & Hookahs Now featuring new flavors",
+     "tags": [],
+     "src": "Venue website Beirutatjax.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -103,7 +133,34 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/1519891941631605/Beirut---restaurant-%26-spirits",
     "fbPostsSeen": 3,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://Beirutatjax.com/"
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://Beirutatjax.com/",
+        "date": "2026-11-01",
+        "quote": "Join Us DJ Music on Saturdays"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
    }
   },
   {
@@ -799,7 +856,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/484372768302362/Julington-Creek-Fish-Camp",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://www.julingtoncreekfishcamp.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://julingtoncreekfishcamp.com/",
+        "quote": "for dessert is a must! | Laura A. | Absolutely the best restaurant in the area! Fantastic upscale menu with the chops to execute. GREAT food! The wait staff is personable, knowledgeable a",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1001,7 +1080,7 @@
    "address": "14965 Old St. Augustine Rd , Ste 129, Jacksonville",
    "state": "FL",
    "zip": "32258",
-   "phone": null,
+   "phone": "(904) 683-4345",
    "lat": 30.1429,
    "lng": -81.521,
    "priceText": "$$ (Facebook page)",
@@ -1011,7 +1090,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "allows us to host groups of 20 to 60 people, from corporate happy hours to rehearsal dinners and everything in between",
+     "tags": [],
+     "src": "Venue website legacyaleworks.com/about",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -1080,7 +1168,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/419746291699708/Legacy-Ale-Works",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-10-20",
-    "website": null
+    "website": "http://www.legacyale.com/"
    },
    "trivia": {
     "nights": [],
@@ -1094,7 +1182,8 @@
       "url": "https://www.legacyaleworks.com/"
      }
     ]
-   }
+   },
+   "phoneSource": "Venue website www.legacyaleworks.com, checked 2026-11-02"
   },
   {
    "id": "fl-luminous-kabobs",
@@ -1416,7 +1505,8 @@
     "fbNewestPost": "2026-10-31",
     "website": "https://onenightjax.com/"
    },
-   "websiteSource": "OpenStreetMap way/673527087 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/673527087 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://onenightjax.com/one-night-taco-stand-menu/our-menu"
   },
   {
    "id": "fl-rackem-up-sports-bar",

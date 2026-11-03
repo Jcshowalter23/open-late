@@ -86,7 +86,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "All day Happy Hour",
+     "tags": [],
+     "src": "Venue website captainstavern.pub",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -122,7 +131,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Odessa/1499051833517539/Captain%E2%80%99s-Tavern",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.captainstavern.pub/"
    },
    "trivia": {
     "nights": [
@@ -153,6 +162,19 @@
      {
       "date": "2026-11-01",
       "quote": "TRIVIA NIGHT",
+      "url": "https://www.captainstavern.pub/"
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "KARAOKE NIGHT | FREE pool beginning at 4:30 PM",
       "url": "https://www.captainstavern.pub/"
      }
     ]
@@ -844,7 +866,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Tampa/342499885623030/MEMO-Modern-Italian-%26-Cocktail-Bar",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.memoitalian.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://memoitalian.com/",
+        "quote": "visit. That reliability is what has helped MEMO Modern Italian become a regular stop for locals who want modern Italian food that feels both special and accessible. | Modern Italian, Th",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://memoitalian.com/",
+        "quote": "bout the review by | Sarai H. | Sarai H. | “ | My wife and I recently enjoyed a wonderful date night at Memo Modern Italian, a newly opened restaurant in our neighborhood. We were thrilled t",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

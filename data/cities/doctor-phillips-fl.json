@@ -384,7 +384,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/268669332355/Cedars-Lebanese-Restaurant-of-Orlando",
     "fbPostsSeen": 11,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://www.cedarsorlando.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.cedarsorlando.com/",
+        "quote": "t minutes from Disney and Universal, Cedar’s offers authentic Lebanese flavors in a cozy, family-friendly setting with indoor and outdoor seating. | GET IN TOUCH | cedarsoforlando@gmail.com | 773",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -927,7 +949,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Thu",
+     "text": "Monday through Thursday, we’re serving Happy Hour from 3-7PM with serious flavor and no stress",
+     "tags": [],
+     "src": "Venue website hotnjuicycrawfish.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -941,7 +972,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/125284664222277/Hot-N-Juicy-Crawfish-Orlando",
     "fbPostsSeen": 9,
     "fbNewestPost": "2023-05-03",
-    "website": null
+    "website": "http://www.hotnjuicycrawfish.com/"
    }
   },
   {
@@ -1141,7 +1172,7 @@
    "lng": -81.4879,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": "http://www.lanuovacucina.com/",
+   "website": null,
    "hours": "Mon-Thu 5p-10p; Fri-Sat 12p-11p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1161,7 +1192,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
-   }
+   },
+   "websiteSource": "removed 2026-11-02: domain now for sale"
   },
   {
    "id": "fl-lisbon-portuguese-cuisine",
@@ -1330,7 +1362,38 @@
     ]
    },
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "8 PM–11 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-12-23",
+      "datedLastSeen": "2026-12-23",
+      "postsSeen": 4,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://lizzyslive.com/entertainment-schedule/",
+        "date": "2026-12-23",
+        "quote": "Sing It Loud Karaoke | Wed, Dec 23"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://lizzyslive.com/entertainment-schedule/",
+        "date": "2026-12-02",
+        "quote": "Sing It Loud Karaoke | Wed, Dec 2"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://lizzyslive.com/entertainment-schedule/",
+        "date": "2026-11-18",
+        "quote": "Sing It Loud Karaoke | Wed, Nov 18"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -1541,7 +1604,7 @@
    "address": "6506 old Brick Rd, #120, Windermere",
    "state": "FL",
    "zip": "34786",
-   "phone": null,
+   "phone": "(321) 362-6996",
    "lat": 28.4511,
    "lng": -81.5636,
    "website": "http://www.manzzocuisine.com/",
@@ -1585,7 +1648,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Windermere/169111156289645/Manzzo-Cuisine",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-08-11",
-    "website": null
+    "website": "http://www.manzzocuisine.com/"
    },
    "conflicts": [
     {
@@ -1601,7 +1664,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "Venue website www.manzzocuisine.com, checked 2026-11-02"
   },
   {
    "id": "fl-noodles-and-company",
@@ -1877,7 +1941,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/1209868672358513/PaddyWagon-Dr.-Phillips",
     "fbPostsSeen": 12,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.paddywagonorlando.com/"
    },
    "trivia": {
     "nights": [
@@ -1961,6 +2025,85 @@
      {
       "date": "2026-11-01",
       "quote": " Sunday Funday Music Bingo with DJ Mitch Tyler starts at 10pm",
+      "url": "https://paddywagonorlando.com/events/"
+     }
+    ]
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://paddywagonorlando.com/",
+        "quote": "Paddywagon Irish Pub offers a new twist on an old favorite. What started in 2011 as one neighborhood pub has grown to three locations across Central Florida, each with its own personality but th",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://paddywagonorlando.com/",
+        "quote": "urant Row, our Dr. Phillips pub is where the neighborhood comes to unwind. Expect a warm, upscale-but-easy vibe, cold pints, and the kind of regulars who'll wave you over to their table.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://paddywagonorlando.com/events/",
+        "date": "2026-11-01",
+        "quote": "Wednesday trivia with Tara, poker starting at 8, karaoke nights where the crowd is half the entertainment, and Thursday Music Bingo with draft specials"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " A true neighborhood sports bar with pool tables and big screen TVs for the game, plus trivia, karaoke, live music, and poker tournaments throughout the week",
+      "url": "https://paddywagonorlando.com/event-venue/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Grab a trivia team, put your name on the karaoke list or just show up for bingo",
+      "url": "https://paddywagonorlando.com/events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Which location has karaoke and poker",
       "url": "https://paddywagonorlando.com/events/"
      }
     ]
@@ -2578,6 +2721,28 @@
     "fbPostsSeen": 11,
     "fbNewestPost": "2026-10-23",
     "website": "https://thehorlando.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://thehorlando.com/",
+        "quote": "Orlando Mediterranean Steakhouse | The H | Fine Dining With a Twist | Skip to content | --> | RESERVATIONS | --> | RESERVATIONS | --> | Reservat",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

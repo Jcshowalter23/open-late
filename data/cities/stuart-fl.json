@@ -587,7 +587,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Stuart/1272364002875570/Cody%27s-Original-Roadhouse",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.codysoriginalroadhouse.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.codysoriginalroadhouse.com/",
+        "quote": "mpler, more casual, and more relaxed. Stepping into Cody’s you’ll find a cozy, but lively family-friendly restaurant where guests will enjoy music and a menu influenced by the rich flavors of Ame",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -704,7 +726,27 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
    "county": "Martin",
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "9PM–12AM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://dirtysouthbar.com/events",
+        "date": "2026-11-01",
+        "quote": "Karaoke | Thursdays | 9PM–12AM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -1878,8 +1920,28 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Sublime Time Happy Hour (3–7 PM)",
+     "tags": [],
+     "src": "Venue website pabbqgrille.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Unwind with $2 off beer and wine, $7 cocktails, or a $7 appetizer & beer combo featuring favorites like Sublime Street Corn, Funny Bonz, and pork sandwiches",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website pabbqgrille.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -1920,7 +1982,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Stuart/2211040485887395/Park-Avenue-BBQ-Grille-of-Stuart",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://pabbqgrille.com/"
    }
   },
   {
@@ -2821,8 +2883,28 @@
    "hoursNote": "Restaurantji (updated 2026-10-07) lists different hours: Mon closed; Tue-Thu 3p-9p; Fri-Sat 3p-10p; Sun closed. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour 3–6 PM with cocktails, wine, and shareable bites at Talkhouse",
+     "tags": [],
+     "src": "Venue website talkhousestuart.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Enjoy half-priced drafts, house wines, and well liquors for the perfect start to your evening",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website talkhousestuart.com/happyhour",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events",
@@ -2864,7 +2946,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Stuart/1903529309916953/Stuart-Talkhouse",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-06-03",
-    "website": null
+    "website": "http://www.talkhousestuart.com/"
    },
    "conflicts": [
     {
@@ -3068,9 +3150,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Stuart/361980580557450/Terra-Fermata-Tiki-Bar",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://terrafermata.com/"
    },
-   "phoneSource": "OpenStreetMap way/762573036 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap way/762573036 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://terrafermata.com/",
+        "quote": "ermata | Thursday | Nov | 12 | 7:00pm | Doors: 6:00pm | | | 21+ Ages | X | MORE DETAILS | Live Music Venue Seven Nights a Week | Nov 6, 7:00pm | SANTANA TRIBUTE.. | Nov 7, 7:00pm | THE NOUVEAUX H",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-the-crafted-keg",
@@ -3189,7 +3293,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Tue-Sat",
+     "text": "Don’t miss our Happy Hour, Tuesday through Saturday, 3-6:30pm",
+     "tags": [],
+     "src": "Venue website tidehouse.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -3203,7 +3316,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Stuart/220233658643361/TideHouse-Waterfront-Restaurant",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://tidehouse.com/"
    }
   },
   {

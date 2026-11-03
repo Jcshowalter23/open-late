@@ -493,7 +493,8 @@
     "fbNewestPost": null,
     "website": "https://www.baddaddysburgerbar.com/"
    },
-   "websiteSource": "OpenStreetMap node/2528743457 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/2528743457 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.baddaddysburgerbar.com/m/our-menu"
   },
   {
    "id": "sc-bar-margaret",
@@ -2694,7 +2695,8 @@
     "fbNewestPost": null,
     "website": "https://ginzawoodruff.com/woodruff/"
    },
-   "websiteSource": "OpenStreetMap node/3138756792 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/3138756792 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://ginzawoodruff.com/menu/"
   },
   {
    "id": "sc-golden-brown-and-delicious",
@@ -3104,7 +3106,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Enjoy the pre-game with Happy Hour from 4-7 PM",
+     "tags": [],
+     "src": "Venue website grouptherapy.fun",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -3128,6 +3139,28 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.grouptherapy.fun/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.grouptherapy.fun/",
+        "quote": "PM | Last game sold at 4:30 PM. Bar & Pub will be open all day! | 6-10 PM | FREE EVENT | FAMILY-FRIENDLY | Drink Specials | in Camperdown Plaza | Learn More! | We will be closed all day! | 7-9 P",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -4841,7 +4874,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://lieuschinesebistro.com/menu/"
   },
   {
    "id": "sc-limoncello",
@@ -5852,7 +5886,8 @@
     "fbNewestPost": null,
     "website": "https://pitastreetfood.com/"
    },
-   "websiteSource": "OpenStreetMap node/6152006048 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/6152006048 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://pitastreetfood.com/menu/"
   },
   {
    "id": "sc-pomegranate-on-main",

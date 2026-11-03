@@ -818,7 +818,7 @@
    "address": "118 E. Tarpon Ave, Tarpon Springs",
    "state": "FL",
    "zip": "34689.",
-   "phone": null,
+   "phone": "(727) 428-5448",
    "lat": 28.1461,
    "lng": -82.7555,
    "website": "http://fatandhappys.com/",
@@ -860,8 +860,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Tarpon-Springs/146785081854814/Fat-and-Happys",
     "fbPostsSeen": 9,
     "fbNewestPost": "2025-09-17",
-    "website": null
-   }
+    "website": "http://fatandhappys.com/"
+   },
+   "phoneSource": "Venue website fatandhappys.com, checked 2026-11-02"
   },
   {
    "id": "fl-grumpy-mary-mixes",
@@ -1163,7 +1164,7 @@
    "address": "224 E Tarpon Ave, Tarpon Springs",
    "state": "FL",
    "zip": "34689",
-   "phone": null,
+   "phone": "(727) 940-8851",
    "lat": 28.1459,
    "lng": -82.7538,
    "priceText": "$$ (Facebook page)",
@@ -1229,8 +1230,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Tarpon-Springs/1087695491242782/Johnny%27s-Taphouse-%26-Grill",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-24",
-    "website": null
-   }
+    "website": "http://www.johnnystaphousegrill.com/"
+   },
+   "phoneSource": "Venue website johnnystaphousegrill.com, checked 2026-11-02"
   },
   {
    "id": "fl-juans-mexican-grill-eastlake",
@@ -1755,7 +1757,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Tarpon-Springs/286844691346157/Mulligans-Irish-Pub-At-Wentworth",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://wentworthgolfclub.org/mulligans/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://wentworthgolfclub.org/",
+        "quote": "experience is enhanced by the elegant English Manor Clubhouse, evoking the ambiance of an upscale private facility. It’s worth noting that Wentworth is open to the public and warmly welco",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1820,7 +1844,7 @@
    "address": "614 Athens St, Tarpon Springs",
    "state": "FL",
    "zip": "34689",
-   "phone": null,
+   "phone": "(727) 935-1158",
    "lat": 28.1552,
    "lng": -82.7602,
    "website": "http://nikosgrillhouse.com/",
@@ -1842,8 +1866,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Tarpon-Springs/396518143535435/Niko%27s-Grill-House",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-23",
-    "website": null
-   }
+    "website": "http://nikosgrillhouse.com/"
+   },
+   "phoneSource": "Venue website www.nikosgrillhouse.com, checked 2026-11-02"
   },
   {
    "id": "fl-oishi-sushi-hibachi",
@@ -2155,7 +2180,7 @@
    "address": "4940 Ridgemoor Blvd, Palm Harbor",
    "state": "FL",
    "zip": "34685",
-   "phone": null,
+   "phone": "(727) 270-7570",
    "lat": 28.0997,
    "lng": -82.6917,
    "priceText": "$$ (Facebook page)",
@@ -2199,8 +2224,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Palm-Harbor/1643090325919078/Sip85",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-09-26",
-    "website": null
-   }
+    "website": "http://www.sip85.com/"
+   },
+   "phoneSource": "Venue website www.sip85.com, checked 2026-11-02"
   },
   {
    "id": "fl-sofresh-palm-harbor",
@@ -2463,7 +2489,7 @@
    "address": "1513 Lake Tarpon Ave, Tarpon Springs",
    "state": "FL",
    "zip": "34689",
-   "phone": null,
+   "phone": "(727) 940-5360",
    "lat": 28.1462,
    "lng": -82.7286,
    "priceText": "$$ (Facebook page)",
@@ -2473,8 +2499,64 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Running from 11 AM to 5 PM, Monday through Friday, our happy hour features refreshing drink deals, light bites, and the best waterfront views in Tarpon Springs",
+     "tags": [],
+     "src": "Venue website tarponturtle.com/happy-hour-specials",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Many guests find that our early happy hour times (starting at 11 AM) work especially well for boat outings that wrap up mid-afternoon",
+     "tags": [],
+     "src": "Venue website tarponturtle.com/happy-hour-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "Mon-Fri",
+     "text": "We keep things relaxed with weekly events like Wine Wednesday, Taco Tuesday, Girls’ Night Thursdays, and happy hour every weekday from 11 AM to 5 PM",
+     "tags": [],
+     "src": "Venue website tarponturtle.com/theme-night",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Mon-Wed",
+     "text": "Mondays and Tuesdays typically highlight our beer and tequila offerings, while Wednesday is wine day, with 50% off select bottles",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website tarponturtle.com/happy-hour-specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed,Thu",
+     "text": "That means $7 martinis, $10 appetizers on Girls’ Night Thursdays, 50% off select wine bottles on Wednesdays, and daily drink deals that keep things fresh",
+     "tags": [],
+     "src": "Venue website tarponturtle.com/happy-hour-specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Thu",
+     "text": "Thursdays are Girls' Night Out, featuring $7 martinis and fun cocktails served with small plates",
+     "tags": [],
+     "src": "Venue website tarponturtle.com/happy-hour-specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "Wednesday brings half-off wine bottles",
+     "tags": [],
+     "src": "Venue website tarponturtle.com/theme-night",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -2507,8 +2589,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Tarpon-Springs/1039235212768946/Tarpon-Turtle-Waterfront-Grill",
     "fbPostsSeen": 5,
     "fbNewestPost": "2026-10-27",
-    "website": null
-   }
+    "website": "http://www.tarponturtle.com/"
+   },
+   "phoneSource": "Venue website www.tarponturtle.com, checked 2026-11-02"
   },
   {
    "id": "fl-taste-of-japan",
@@ -2638,7 +2721,71 @@
     "facebookMirror": "https://www.foodyas.com/US/Tarpon-Springs/843225215550130/The-Bearded-Turtle",
     "fbPostsSeen": 5,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.thebeardedturtle.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Young crowd",
+     "Locals & regulars",
+     "Families",
+     "Date night / upscale"
+    ],
+    "summary": "Families earlier, bar crowd later; draws a younger crowd; a locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Young crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thebeardedturtle.com/",
+        "quote": "ng happening. Bring the whole family, kick back with colleagues, or join our community of young professionals making the most of happy hour. The Bearded Turtle is your invitation to good food, good t",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thebeardedturtle.com/",
+        "quote": "nging. | Eat at the Turtle. Drink at the Turtle. Be a Turtle. | A Slice of Paradise | Why Locals and Visitors Keep Coming Back | People come to The Bearded Turtle for more than just a me",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thebeardedturtle.com/",
+        "quote": "inment, and a poolside atmosphere into one versatile destination. | Is The Bearded Turtle family-friendly? | Yes. We welcome guests of all ages, offering a relaxed environment where families, pro",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thebeardedturtle.com/",
+        "quote": "ight across the street | Black cartoon turtle smiling and walking on a white background | Upscale bistro and poolside tiki bar under one roof | Black cartoon turtle icon smiling and walki",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

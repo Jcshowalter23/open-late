@@ -101,7 +101,7 @@
    "address": "33 Peachtree Pl, Atlanta",
    "state": "GA",
    "zip": "30309",
-   "phone": null,
+   "phone": "(470) 995-8676",
    "lat": 33.7805,
    "lng": -84.3871,
    "priceText": "$$ (Facebook page)",
@@ -136,8 +136,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/112966028355736/AltaToro",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-30",
-    "website": null
-   }
+    "website": "http://altatoro.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://altatoro.com/",
+        "quote": "ly, complemented by craft cocktails, brunch cocktails, and a curated wine list. Ideal for date nights, group dining, celebrations, and special occasions, AltaToro also offers options for lar",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website altatoro.com, checked 2026-11-02"
   },
   {
    "id": "ga-amsterdam-atlanta",
@@ -510,7 +533,46 @@
     ]
    },
    "dj": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "8 p",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.barmargotatl.com/",
+        "date": "2026-11-01",
+        "quote": " Fridays and Saturdays, our DJ spins the best hits from 8 p"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "8 p",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.barmargotatl.com/",
+        "date": "2026-11-01",
+        "quote": " Fridays and Saturdays, our DJ spins the best hits from 8 p"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "hints": [
      "Restaurantji review/summary mentions dj"
     ],
@@ -984,7 +1046,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/364762620231001/Campagnolo-Restaurant-%2B-Bar",
     "fbPostsSeen": 11,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://Campagnoloatl.com/"
    },
    "conflicts": [
     {
@@ -1002,7 +1064,29 @@
      "checked": "2026-11-01"
     }
    ],
-   "phoneSource": "OpenStreetMap way/234934492 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap way/234934492 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://Campagnoloatl.com/",
+        "quote": "Reserve | OLD WORLD SPECIALTIES | and an outstanding wine selection | Our Menu | FAVORITE NEIGHBORHOOD SPOT | for dining and socializing | Reserve | NEIGHBORHOOD EATERY | with an intimate atmospher",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "ga-chef-quis-quisine",
@@ -1171,9 +1255,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/316079160634/Divan-Restaurant-%26-Bar",
     "fbPostsSeen": 14,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://divanatlanta.com/"
    },
-   "phoneSource": "OpenStreetMap node/12924935614 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/12924935614 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://divanatlanta.com/",
+        "quote": "our Next Party With Us, Large Or Small, Multiple Room Options | parties | Elegant Persian Fine Dining | In Atlanta's Luxurious Castle | specials | Authentic Persian Cuisine | Family Owned For",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "ga-dos-caminos",
@@ -2316,8 +2422,33 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Sat",
+     "text": "Good vibes, great food, cocktails, Karaoke Wednesday and Friday Nights, Weekend bottomless Mimosa Brunch, Monday–Saturday, 4–7 Happy Hour and Best Hookah Service in the city — proudly celebrating diversity for 27+ years, turning guests into family",
+     "tags": [],
+     "src": "Venue website casa-almenara.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "HAPPY HOUR 4-7PM: Enjoy Tulum Evening: Save",
+     "tags": [],
+     "src": "Venue website casa-almenara.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "TACO & TEQUILA TUESDAYS:Taco & Tequila Tuesdays: $5 Margarita",
+     "tags": [],
+     "src": "Venue website casa-almenara.com/specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -2330,7 +2461,115 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/222030244330918/K%C3%96Z%3A-Mediterranean-Street-Food",
     "fbPostsSeen": 5,
     "fbNewestPost": "2024-12-15",
-    "website": null
+    "website": "http://www.casa-almenara.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://casa-almenara.com/",
+        "quote": "reservation. The staff here was very nice and you can tell why the place is favorited by locals. We did the bottomless mimosas with multiple dishes. If you are vegan, they have many cho",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "8pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://casa-almenara.com/",
+        "date": "2026-11-01",
+        "quote": " Good vibes, great food, cocktails, Karaoke Wednesday and Friday Nights, Weekend bottomless Mimosa Brunch, Monday–Saturday, 4–7 Happy Hour and Best Hookah Service in the city — proudly celebrating diversity for 27+ years, turning guests into family"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://casa-almenara.com/events",
+        "date": "2026-11-01",
+        "quote": "Karaoke Wednesdays | Every Wednesday"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://casa-almenara.com/events",
+        "date": "2026-11-01",
+        "quote": "Karaoke Wednesdays at Casa Almenara — the mic opens at 8pm and the crowd does the rest"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://casa-almenara.com/",
+        "date": "2026-11-01",
+        "quote": " Good vibes, great food, cocktails, Karaoke Wednesday and Friday Nights, Weekend bottomless Mimosa Brunch, Monday–Saturday, 4–7 Happy Hour and Best Hookah Service in the city — proudly celebrating diversity for 27+ years, turning guests into family"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://casa-almenara.com/events",
+        "date": "2026-11-01",
+        "quote": "Friday Late Night Karaoke | Every Friday"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://casa-almenara.com/events",
+        "date": "2026-11-01",
+        "quote": "Super Fun Karaoke that will get your Weekend started right | Every Friday"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Events & Karaoke Nights",
+      "url": "https://casa-almenara.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Good vibes, great food, cocktails, Karaoke Wednesday and Friday Nights, Weekend bottomless Mimosa Brunch, Monday–Saturday, 4–7 Happy Hour and Best Hookah Service in the city — proudly celebrating div",
+      "url": "https://casa-almenara.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Good vibes, great food, cocktails, Karaoke Wednesday and Friday Nights, Weekend bottomless Mimosa Brunch, Monday–Saturday, 4–7 Happy Hour and Best Hookah Service in the city — proudly celebrating div",
+      "url": "https://casa-almenara.com/about"
+     }
+    ]
    }
   },
   {
@@ -2742,7 +2981,7 @@
    "address": "1620 Piedmont Ave NE, Atlanta",
    "state": "GA",
    "zip": "30324",
-   "phone": null,
+   "phone": "(470) 788-8105",
    "lat": 33.7989,
    "lng": -84.3686,
    "website": "http://www.mistorakitchen.com/",
@@ -2799,8 +3038,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/489372987598372/Mistora",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-30",
-    "website": null
-   }
+    "website": "http://www.mistorakitchen.com/"
+   },
+   "phoneSource": "Venue website www.mistorakitchen.com, checked 2026-11-02"
   },
   {
    "id": "ga-momonoki",
@@ -3052,9 +3292,45 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/123708505426/Park-Tavern-in-Piedmont-Park",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.parktavern.com/"
    },
-   "phoneSource": "OpenStreetMap way/181972288 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap way/181972288 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.parktavern.com/",
+        "quote": "ecades of operation, Park Tavern has become an Atlanta icon, a must-visit destination for locals and visitors alike. At Park Tavern, we do more than just serve great food and drinks; we",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.parktavern.com/",
+        "quote": "urant | Menus | Drinks Menu | Our Food | Outdoor Dining Midtown Atlanta | Midtown Atlanta Sports Bar | Brewpub | Dog-Friendly Patio | Events | Events | Park Tavern Ski Lodge: Midtown Atlanta",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "ga-ph-king-midtown-at-the-plaza",
@@ -3151,7 +3427,8 @@
     "fbNewestPost": "2026-08-26",
     "website": "https://poorcalvins.com/"
    },
-   "websiteSource": "OpenStreetMap way/269998869 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/269998869 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://poorcalvins.com/atlanta-atlanta-poor-calvin-s-food-menu"
   },
   {
    "id": "ga-reverence",
@@ -4319,7 +4596,7 @@
    "address": "560 Dutch Valley Rd NE Suite 100, Atlanta",
    "state": "GA",
    "zip": "30324",
-   "phone": null,
+   "phone": "(404) 946-8973",
    "lat": 33.7926,
    "lng": -84.3694,
    "website": "http://www.verdurekitchen.com/",
@@ -4341,8 +4618,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/100413806388228/Verdure-Kitchen-%26-Cocktails",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-30",
-    "website": null
-   }
+    "website": "http://www.verdurekitchen.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.verdurekitchen.com/",
+        "quote": "post by verdureatlanta | Oct 21 | Open post by verdureatlanta with ID 18075116912566986 | Date night, birthday dinners, and moments worth celebrating. ✨🥂 At Verdure, every detail sets the m",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.verdurekitchen.com, checked 2026-11-02"
   },
   {
    "id": "ga-vespa-chef",
@@ -4416,7 +4716,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/102448526184352/Wicked-Wolf-Atlanta",
     "fbPostsSeen": 13,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.wickedwolfatlanta.com/"
    },
    "conflicts": [
     {
@@ -4451,7 +4751,55 @@
      }
     ]
    },
-   "phoneSource": "OpenStreetMap node/12513355802 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/12513355802 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.wickedwolfatlanta.com/",
+        "quote": "cked with trivia nights, karaoke, and unbeatable happy hour deals. Looking for a place to catch the game? We’ve got your sports watch parties covered too. Come the weekend, our wild brunches tur",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Weekdays are packed with trivia nights, karaoke, and unbeatable happy hour deals",
+      "url": "https://www.wickedwolfatlanta.com/"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " By night, the lights go down, the bass turns up, and the party goes hard with live DJs, and VIP bottle service",
+      "url": "https://www.wickedwolfatlanta.com/book-your-event"
+     }
+    ]
+   }
   },
   {
    "id": "ga-willys-mexicana-grill-5",
@@ -4494,7 +4842,7 @@
    "address": "494 Plasters Ave NE, STE 200, Atlanta",
    "state": "GA",
    "zip": "30324",
-   "phone": null,
+   "phone": "(404) 869-9422",
    "lat": 33.8116,
    "lng": -84.3727,
    "priceText": "$$ (Facebook page)",
@@ -4541,8 +4889,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/165030707190829/Woofs-Atlanta",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-12",
-    "website": null
-   }
+    "website": "http://woofsatlanta.com/"
+   },
+   "phoneSource": "Venue website woofsatlanta.com, checked 2026-11-02"
   },
   {
    "id": "ga-zocalo-atlanta",
@@ -4704,7 +5053,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://www.felixsatlanta.info/drink-menu"
   },
   {
    "id": "ga-v12-restaurant-atlanta",
@@ -4751,7 +5101,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://www.v12restaurant.com/menu"
   },
   {
    "id": "ga-belly-restaurant-lounge-atlanta",
@@ -4857,7 +5208,8 @@
    ],
    "source": "hours from OpenStreetMap node/13021986946 opening_hours tag (map data 2026-10-31; last checked on the map 2026-08-25) (checked 2026-11-01)",
    "county": "Fulton",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.blackjackbartapas.com/menu"
   },
   {
    "id": "ga-may-peel-atlanta",
@@ -4884,7 +5236,8 @@
    ],
    "source": "hours from OpenStreetMap node/13036508461 opening_hours tag (map data 2026-10-31; last checked on the map 2026-09-29) (checked 2026-11-01)",
    "county": "Fulton",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://granadaatlanta.com/wp-content/uploads/2026/06/May-Peel_Food-Menu_10.27.25_Web.pdf"
   },
   {
    "id": "ga-habaneros-atlanta",
@@ -4909,7 +5262,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/13157103844 opening_hours tag (map data 2026-10-31; last checked on the map 2026-10-07) (checked 2026-11-01)",
    "county": "Fulton",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://habanerosrestaurants.com/location-menu"
   },
   {
    "id": "ga-afro-district-bar-soulfood-atlanta",
@@ -4983,7 +5337,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://www.jojosbeloved.com/s/JoJos-Beloved_Menu_2025_Final.pdf"
   },
   {
    "id": "ga-spice-atlanta-atlanta",
@@ -5032,7 +5387,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://www.spiceatl.com/menu"
   },
   {
    "id": "ga-smiths-olde-bar-atlanta",
@@ -5163,7 +5519,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/1078346903 opening_hours tag (map data 2026-10-31; last checked on the map 2025-10-06) (checked 2026-11-01)",
    "county": "Fulton",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://nellieschicken.com/menu/"
   },
   {
    "id": "ga-aroma-midtown-atlanta",
@@ -5260,7 +5617,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$5 Off All Pitchers",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website lewisbarbecue.com/location/lewis-barbecue-greenville",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -5286,7 +5654,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy Hour: Mon–Fri 3–6 PM · Sat–Sun 4–6 PM",
+     "tags": [],
+     "src": "Venue website boqueriarestaurant.com/location/nyc/flatiron",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -5311,7 +5688,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "4-6 Happy hour",
+     "tags": [],
+     "src": "Venue website holeman-finch.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -5367,7 +5753,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/885332249 opening_hours tag (map data 2026-11-01; last checked on the map 2025-09-24) (checked 2026-11-02); late hours confirmed by venue website https://www.nanfinedining.com/: \" | · | 11:30am – 2:30pm | Dinner | Monday – Thursday | · | 5:30pm – 10:00pm | Friday | · | 5:30pm – 11:00pm | Saturda\" (checked 2026-11-02)",
    "county": "Fulton",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.nanfinedining.com/",
+        "quote": "Nan Thai Fine Dining | Award-Winning Thai Cuisine in Atlanta | Skip to main content | Menu | Gallery | Chef Na",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "neighborhood",

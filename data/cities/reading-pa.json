@@ -716,8 +716,7 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.thebarcartpa.com/"
-   },
-   "menu": "https://www.thebarcartpa.com/menu"
+   }
   },
   {
    "id": "uncorkd",
@@ -799,8 +798,7 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://chattymonks.com/brewery"
-   },
-   "menu": "https://chattymonks.com/brewery/business.untappd.com/boards/69680"
+   }
   },
   {
    "id": "chef-david-s-pizza-and-more",
@@ -2101,7 +2099,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/953984964 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Berks",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.klingerspubs.com/klingers-at-the-airport-menu"
   },
   {
    "id": "pa-alebrije-mexican-restaurant-reading",
@@ -2151,7 +2150,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/263908801 opening_hours tag (map data 2026-11-01; last checked on the map 2023-10-17) (checked 2026-11-02); late hours confirmed by venue website https://teliagreek.com: \"99 | 400 North Park Road • Wyomissing, PA 19610 | Sunday | CLOSED | | Monday – Saturday | 4:30 PM – 9:00 PM | | Bar |\" (checked 2026-11-02)",
    "county": "Berks",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://teliagreek.com",
+        "quote": "the ethos of Greek Cuisine by sharing with you our passion for food, love and life in an upscale urban modern setting. Love Life, Live Perfect …Telia. | Now Open Mondays! | Our Greek Ins",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "counties": [

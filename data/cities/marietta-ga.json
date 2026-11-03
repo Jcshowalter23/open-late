@@ -51,7 +51,8 @@
     "fbNewestPost": "2026-10-24",
     "website": "https://order3amigos.com/"
    },
-   "websiteSource": "OpenStreetMap way/292472948 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/292472948 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://order3amigos.com/food-menu"
   },
   {
    "id": "ga-a-taste-of-asia",
@@ -178,7 +179,8 @@
     "fbNewestPost": "2026-10-20",
     "website": "https://www.sedgwickrestaurantgroup.com/aspens"
    },
-   "websiteSource": "OpenStreetMap way/320596120 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/320596120 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.sedgwickrestaurantgroup.com/s/Aspens-Dinner-Menu-20260625-2-dyja.pdf"
   },
   {
    "id": "ga-atami-marietta",
@@ -222,7 +224,7 @@
    "address": "3801 Austell Rd, Marietta",
    "state": "GA",
    "zip": "30008",
-   "phone": null,
+   "phone": "(404) 551-3661",
    "lat": 33.8608,
    "lng": -84.5979,
    "priceText": "$$ (Facebook page)",
@@ -244,7 +246,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Marietta/211826656092346/Atl-Fusion-BBQ",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-08-02",
-    "website": null
+    "website": "http://www.AtlFusionBbq.com/"
    },
    "conflicts": [
     {
@@ -264,7 +266,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "Venue website www.AtlFusionBbq.com, checked 2026-11-02"
   },
   {
    "id": "ga-atlantic-buffet-marietta",
@@ -696,7 +699,27 @@
     ]
    },
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "9P",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.bradleysbarandgrill.com/events",
+        "date": "2026-11-01",
+        "quote": "KARAOKE | THURSDAYS | 9P"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -1392,7 +1415,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Marietta/223506185926/Cazadores-Mexican-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://cazadoresrestaurant.com/"
    },
    "conflicts": [
     {
@@ -1455,6 +1478,28 @@
       "date": "2026-11-01",
       "quote": "Trivia Night | Monthly on every second Saturday | Monthly on every second Saturday",
       "url": "https://cazadoresrestaurant.com/events"
+     }
+    ]
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://cazadoresrestaurant.com/",
+        "quote": "ients allows us to give you the best dining experience. | Catering | Groups and Parties | Family-Friendly Atmosphere | Our restaurant is family-owned and operated. We strive to create a friendly",
+        "self": true
+       }
+      ]
      }
     ]
    }
@@ -1885,7 +1930,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Marietta/168662203173976/Delkwood-Grill",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://delkwood.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "LGBTQ-friendly"
+    ],
+    "summary": "LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.vabrainandspine.com/",
+        "quote": "ators to Watch | AAPI Artists | BIPOC Artists | Black Artists | Celebrate Women Artists | LGBTQIA Artists | Ukrainian Artists | Back To Menu | Adult Apparel | T-Shirts | Shorts | New!",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2785,8 +2852,28 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Tue",
+     "text": "Join us for daily Happy Hour from 2 to 6 PM, Taco Tuesday, and live entertainment on select nights",
+     "tags": [],
+     "src": "Venue website fuegotortilla.com/happenings",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "BOGO house margaritas and fruit flavored margarita pitchers for $32",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website fuegotortilla.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -2797,7 +2884,30 @@
     "facebookMirror": "https://www.foodyas.com/US/Marietta/900764580259093/Fuegotortilla",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-19",
-    "website": null
+    "website": "http://www.fuegotortilla.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Live DJ on the patio | 6:00 p.m. to 10:00 p.m.",
+      "url": "https://fuegotortilla.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Live DJ on the patio | 4:00 p.m. to 8:00 p.m.",
+      "url": "https://fuegotortilla.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Live DJ on the patio | 6:00 p.m. to 10:00 p.m.",
+      "url": "https://fuegotortilla.com/happenings"
+     }
+    ]
    }
   },
   {
@@ -2831,7 +2941,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Marietta/392652867262292/Gianni-%26-Mac%27s-Ristorante-Piazza-Nostra",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.gianniandmacs.com/"
    },
    "conflicts": [
     {
@@ -2851,7 +2961,29 @@
      "checked": "2026-11-01"
     }
    ],
-   "phoneSource": "OpenStreetMap way/1255525997 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap way/1255525997 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.gianniandmacs.com/",
+        "quote": "ls, and a spacious outdoor patio for year-round dining. | Whether you're joining us for a romantic evening, a celebratory dinner, or a casual bite with friends, our warm atmosphere and aut",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "ga-golden-krust",
@@ -2902,7 +3034,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour is served 3-5 Monday - Friday ONLY",
+     "tags": [],
+     "src": "Venue website hampandharrys.com/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -2916,7 +3057,56 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/112718804511499/Hamp-%26-Harry%27s",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.hampandharrys.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.hampandharrys.com/",
+        "quote": "SSAGE | GALLERY | JOURNAL | HIRING | Reservations | Button | Button | Button | Button | a neighborhood joint | Delicious small plates and inspired craft cocktails served in a vibrant, approachable h",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.hampandharrys.com/",
+        "quote": "guests coming back for more. | We're excited to announce that we've been named the | Best Fine Dining Restaurant of 2025 | by the Click360 awards! | PARKING | Primary parking for Hamp and Har",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Whether it's a solo artist, a band, or a DJ, we're open to all suggestions",
+      "url": "https://www.hampandharrys.com/high-note"
+     }
+    ]
    }
   },
   {
@@ -3567,7 +3757,28 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$12 Miller Lite/Coors Light Buckets",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website jimmy-macs.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "$12 Budweiser/Bud Light Buckets",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website jimmy-macs.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -3578,7 +3789,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Marietta/216017668510664/Jimmy-Mac%27s",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-12",
-    "website": null
+    "website": "http://www.jimmy-macs.com/"
    },
    "trivia": {
     "nights": [
@@ -3641,6 +3852,175 @@
       "url": "https://jimmy-macs.com/"
      }
     ]
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://jimmy-macs.com/",
+        "quote": "nd the bar, in the kitchen, or serving guests on the floor, you'll be part of a welcoming local favorite. Apply today and grow with us. | Apply now | for a job | slideshow start stop playing | S",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "posted on 4 different Fris",
+      "lastSeen": "2026-11-27",
+      "datedLastSeen": "2026-11-27",
+      "postsSeen": 4,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://jimmy-macs.com/events",
+        "date": "2026-11-27",
+        "quote": "Karaoke | Friday, November 27th, 2026"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://jimmy-macs.com/events",
+        "date": "2026-11-20",
+        "quote": "Karaoke | Friday, November 20th, 2026"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://jimmy-macs.com/events",
+        "date": "2026-11-13",
+        "quote": "Karaoke | Friday, November 13th, 2026"
+       }
+      ],
+      "confidence": "high"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "posted on 4 different Sats",
+      "lastSeen": "2026-11-28",
+      "datedLastSeen": "2026-11-28",
+      "postsSeen": 4,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://jimmy-macs.com/events",
+        "date": "2026-11-28",
+        "quote": "Karaoke | Saturday, November 28th, 2026"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://jimmy-macs.com/events",
+        "date": "2026-11-21",
+        "quote": "Karaoke | Saturday, November 21st, 2026"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://jimmy-macs.com/events",
+        "date": "2026-11-14",
+        "quote": "Karaoke | Saturday, November 14th, 2026"
+       }
+      ],
+      "confidence": "high"
+     },
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "posted on 5 different Suns",
+      "lastSeen": "2026-11-29",
+      "datedLastSeen": "2026-11-29",
+      "postsSeen": 5,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://jimmy-macs.com/events",
+        "date": "2026-11-29",
+        "quote": "Karaoke | Sunday, November 29th, 2026"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://jimmy-macs.com/events",
+        "date": "2026-11-22",
+        "quote": "Karaoke | Sunday, November 22nd, 2026"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://jimmy-macs.com/events",
+        "date": "2026-11-15",
+        "quote": "Karaoke | Sunday, November 15th, 2026"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Beyond the drinks and dining, you'll find a full lineup of weekly entertainment, including karaoke, poker, live music, bingo, pool, and trivia nights",
+      "url": "https://jimmy-macs.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Karaoke and live music almost every night of the week",
+      "url": "https://jimmy-macs.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " My family took me' the Karaoke' was the Hit' for me, but Then the Atmosphere and the people there was like I already knew them",
+      "url": "https://jimmy-macs.com/"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://jimmy-macs.com/",
+        "date": "2026-11-01",
+        "quote": "SING YOUR FAVORITE SONGS WITH DJ SARGE | Every Friday"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://jimmy-macs.com/events",
+        "date": "2026-11-01",
+        "quote": "SING YOUR FAVORITE SONGS WITH DJ SARGE | Every Friday"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
    }
   },
   {
@@ -3832,7 +4212,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "Half-off bottles of wine & bubbles, all day, every Tuesday",
+     "tags": [],
+     "src": "Venue website kioscomariettasquare.com/marietta-marietta-square-kiosco-marietta-square-happy-hours-specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -3867,7 +4255,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Marietta/107306002392361/Kiosco-Marietta-Square",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-06-10",
-    "website": null
+    "website": "http://www.kioscomariettasquare.com/"
    }
   },
   {
@@ -4192,7 +4580,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Marietta/118338871519537/La-Strada-Johnson-Ferry",
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-10-18",
-    "website": null
+    "website": "http://www.lastradaga.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://lastradaga.com/",
+        "quote": "ood. | Linda B | – Marietta, GA | Impeccable service, excellent food and wine | This is a local favorite and it’s clear that they care about their patrons, offering impeccable service, excellent",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -4694,7 +5104,8 @@
     "fbNewestPost": "2026-04-05",
     "website": "https://www.mariettaburgerbar.com/"
    },
-   "websiteSource": "OpenStreetMap node/13444651125 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/13444651125 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.mariettaburgerbar.com/menu"
   },
   {
    "id": "ga-marietta-melt-yard",
@@ -6800,7 +7211,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Enjoy Half-Price Bottles of Wine when you dine in every Wednesday at Stockyard Burgers & Bones",
+     "tags": [],
+     "src": "Venue website stockyardburger.com/happenings",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -6847,7 +7266,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Marietta/255914967931480/Stockyard-Burgers-%26-Bones",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-19",
-    "website": null
+    "website": "http://www.stockyardburger.com/"
    },
    "conflicts": [
     {
@@ -8091,7 +8510,8 @@
     "fbNewestPost": null,
     "website": "https://www.turmericindianrestaurant.com/"
    },
-   "websiteSource": "OpenStreetMap way/292467013 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/292467013 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.turmericindianrestaurant.com/menu"
   },
   {
    "id": "ga-twisted-kitchen",
@@ -8968,7 +9388,34 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/6313620993 opening_hours tag (map data 2026-10-31; last checked on the map 2026-10-29) (checked 2026-11-01)",
    "county": "Cobb",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://pisanospizzeria.com/locations/marietta-square/",
+        "date": "2026-11-01",
+        "quote": " Karaoke on Fridays"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
   },
   {
    "id": "ga-lemon-butter-seafood-marietta",
@@ -9092,7 +9539,8 @@
    ],
    "source": "hours from OpenStreetMap node/14097572229 opening_hours tag (map data 2026-10-31; last checked on the map 2026-10-29) (checked 2026-11-01)",
    "county": "Cobb",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://thethirddoor.net/pauline"
   },
   {
    "id": "ga-woodys-cheesesteaks-marietta",
@@ -9195,53 +9643,6 @@
    "addedBy": "sweep-osm"
   },
   {
-   "id": "ga-js-lounge-smyrna",
-   "name": "J's Lounge",
-   "cuisine": "Bar",
-   "address": "1995 Windy Hill Road Southeast, Smyrna",
-   "state": "GA",
-   "zip": "30080",
-   "phone": "(678) 383-6164",
-   "phoneSource": "OpenStreetMap node/3019412885 phone tag (map data 2026-11-01), checked 2026-11-02",
-   "lat": 33.898213,
-   "lng": -84.496582,
-   "website": "http://www.js-lounge.com/",
-   "websiteSource": "OpenStreetMap node/3019412885 website tag (map data 2026-11-01), checked 2026-11-02",
-   "hours": "Mon-Fri 5p-3a; Sat 4p-3a; Sun 4p-12a",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Bar scene"
-   ],
-   "source": "hours from OpenStreetMap node/3019412885 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by bars10 listing, 2026 (open until 3 AM) (checked 2026-11-02)",
-   "county": "Cobb",
-   "addedBy": "sweep-osm",
-   "conflicts": [
-    {
-     "field": "hours",
-     "values": {
-      "openstreetmap": "Mon-Fri 5p-3a; Sat 4p-3a; Sun 4p-12a",
-      "bars10 (2026)": "Mon-Thu 3p-3a; Fri-Sat 2p-3a; Sun 12p-2a"
-     },
-     "days": [
-      "Mon",
-      "Tue",
-      "Wed",
-      "Thu",
-      "Fri",
-      "Sat",
-      "Sun"
-     ],
-     "resolution": "Both show 3 am closing; opening times and Sunday close differ, kept OpenStreetMap; flagged for review",
-     "checked": "2026-11-02"
-    }
-   ]
-  },
-  {
    "id": "ga-johnnys-new-york-style-pizza-marietta",
    "name": "Johnny's New York Style Pizza",
    "cuisine": "Pizza",
@@ -9264,7 +9665,42 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/2880415201 opening_hours tag (map data 2026-11-01; last checked on the map 2025-02-10) (checked 2026-11-02); late hours confirmed by venue website https://johnnyspizza.com/location/marietta-lower-roswell-road/: \" 4880 Lower Roswell Road, #155, Marietta, GA 30068 | Open Until 8:00pm | Monday - Saturday: 11:00am-10:00pm | Sunday:\" (checked 2026-11-02)",
    "county": "Cobb",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://johnnyspizza.com/location/marietta-lower-roswell-road/",
+        "quote": "11:00am-9:00pm | Sunday: 11:30am-8:30pm | 678-560-2228 | Owner: Steven & Bianca Hansell | Family Friendly, Catering, Handicap Accessible, Serves Beer & Wine, Has High Chairs | Tossing Dough in Ma",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Join Us for regular events like trivia, live music, and more",
+      "url": "https://johnnyspizza.com/location/marietta-lower-roswell-road/"
+     }
+    ]
+   }
   },
   {
    "id": "ga-tofu-village-korean-bbq-marietta",
@@ -9390,6 +9826,53 @@
    "source": "hours from OpenStreetMap way/330738279 opening_hours tag (map data 2026-11-01; last checked on the map 2025-12-13) (checked 2026-11-02); late hours confirmed by venue website https://mariettafishmarket.net/: \"ton Road | Marietta, GA | 30066 | Get Directions | Hours | Tuesday-Thursday: 4pm-10pm | Friday: 4pm-11pm | Saturda\" (checked 2026-11-02)",
    "county": "Cobb",
    "addedBy": "sweep-osm"
+  },
+  {
+   "id": "ga-js-lounge-smyrna",
+   "name": "J's Lounge",
+   "cuisine": "Bar",
+   "address": "1995 Windy Hill Road Southeast, Smyrna",
+   "state": "GA",
+   "zip": "30080",
+   "phone": "(678) 383-6164",
+   "phoneSource": "OpenStreetMap node/3019412885 phone tag (map data 2026-11-01), checked 2026-11-02",
+   "lat": 33.898213,
+   "lng": -84.496582,
+   "website": "http://www.js-lounge.com/",
+   "websiteSource": "OpenStreetMap node/3019412885 website tag (map data 2026-11-01), checked 2026-11-02",
+   "hours": "Mon-Fri 5p-3a; Sat 4p-3a; Sun 4p-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/3019412885 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by bars10 listing, 2026 (open until 3 AM) (checked 2026-11-02)",
+   "county": "Cobb",
+   "addedBy": "sweep-osm",
+   "conflicts": [
+    {
+     "field": "hours",
+     "values": {
+      "openstreetmap": "Mon-Fri 5p-3a; Sat 4p-3a; Sun 4p-12a",
+      "bars10 (2026)": "Mon-Thu 3p-3a; Fri-Sat 2p-3a; Sun 12p-2a"
+     },
+     "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+     ],
+     "resolution": "Both show 3 am closing; opening times and Sunday close differ, kept OpenStreetMap; flagged for review",
+     "checked": "2026-11-02"
+    }
+   ]
   }
  ],
  "type": "city",

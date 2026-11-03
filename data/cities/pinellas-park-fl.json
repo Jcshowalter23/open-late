@@ -605,7 +605,8 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
-   }
+   },
+   "menu": "https://brokenboredbarandgrill.com/menu/"
   },
   {
    "id": "fl-caddys-indian-shores",
@@ -2808,7 +2809,7 @@
    "lng": -82.6825,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": "http://banhmisaigonbaguette.com/",
+   "website": null,
    "hours": "Mon 11a-9p; Tue closed; Wed-Sun 11a-9p",
    "hoursNote": "Hours differ by source: Facebook page lists Mon 10a-9p; Tue closed; Wed 10a-8p; Thu-Sat 10a-9p; Sun 10a-8p (no posts since May 2026); Restaurantji (updated 2026-10-07) used as newer. Call ahead.",
    "kitchen": null,
@@ -2854,7 +2855,8 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "websiteSource": "removed 2026-11-02: domain now for sale"
   },
   {
    "id": "fl-salt-rock-grill",
@@ -3060,7 +3062,27 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "$1 Wing Wednesdays",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website sharkysseapub.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "See venue",
+     "text": "99 Enjoy $1 off draft beers & house wines $4 wells 15% off cocktails and appetizers",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website sharkysseapub.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -3073,7 +3095,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Indian-Shores/387797924412072/Sharky%E2%80%99s-Sea-Pub",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://www.sharkysseapub.com/"
    },
    "trivia": {
     "nights": [],
@@ -3345,7 +3367,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "$2 Taco Tuesday and 2-topping Hand-Tossed Pizza, $11",
+     "tags": [],
+     "src": "Venue website originalbandingo.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events"
@@ -3358,7 +3388,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Pinellas-Park/554901844857984/The-Original-Bandingo-Music-Bingo",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-15",
-    "website": null
+    "website": "http://www.originalbandingo.com/"
    },
    "trivia": {
     "nights": [],
@@ -3442,6 +3472,47 @@
       "date": "2026-11-01",
       "quote": " MUSIC BINGO",
       "url": "https://www.originalbandingo.com/"
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Our events are ALWAYS free to play, with one card per person and prizes for the winners — all in a sing-along, dance-between-rounds mood",
+      "url": "https://www.originalbandingo.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "We are an interactive musical experience that takes the best elements from bingo, karaoke, trivia, music, and tv games shows and turns it into a fun party for two hours",
+      "url": "https://www.originalbandingo.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "#TAMPABAYSORIGINALGAMESHOW #morethanmusicbingo #gamenight #gameshow #music #bingo #originalbandingo #bandingo #singalong #summercamp #afterschool",
+      "url": "https://www.originalbandingo.com/"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Vacation fun with DJ CJ",
+      "url": "https://www.originalbandingo.com/about"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "JOHNNY G LEARNED ALL GENRES OF MUSIC AND HOW TO ENTERTAIN ANY SIZE AUDIENCE DURING HIS DECADE ON THE RADIO AS AN AWARD-WINNING DJ/RADIO PERSONALITY IN COLORADO, MORE SPECIFICALLY AT THE MIGHTY ACTIVE ",
+      "url": "https://www.originalbandingo.com/about-emcee-johnny-g"
      }
     ]
    }
@@ -3587,7 +3658,7 @@
    "address": "8098 66th St N, Bldg 2, Pinellas Park",
    "state": "FL",
    "zip": "33781",
-   "phone": null,
+   "phone": "(813) 820-0050",
    "lat": 27.8453,
    "lng": -82.7295,
    "website": "http://weltonbrewingcompany.com/",
@@ -3609,8 +3680,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Pinellas-Park/110930840312575/Welton-Brewing-Co-%26-Oyster-Bar",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-30",
-    "website": null
-   }
+    "website": "http://weltonbrewingcompany.com/"
+   },
+   "phoneSource": "Venue website weltonbrewingcompany.com, checked 2026-11-02"
   }
  ],
  "type": "city",

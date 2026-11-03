@@ -724,7 +724,7 @@
    "address": "11720 N Dale Mabry Hwy, Tampa",
    "state": "FL",
    "zip": "33618",
-   "phone": null,
+   "phone": "(813) 964-8334",
    "lat": 28.0551,
    "lng": -82.5052,
    "priceText": "$$ (Facebook page)",
@@ -746,8 +746,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Tampa/129007650473649/Michael%27s-Grill",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-26",
-    "website": null
-   }
+    "website": "http://michaelsgrill.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://michaelsgrill.com/",
+        "quote": "hit the spot. | View Menu | Dinner Menu | The perfect way to finish your day or a perfect date night meal, Michael's offerings are sure to please. | View Menu | Brunch Menu | An excellent wa",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website michaelsgrill.com, checked 2026-11-02"
   },
   {
    "id": "fl-mojitos-tampa",
@@ -1036,7 +1059,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Tampa/105441752368509/Tampa-Taproom",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://tampataproom.com/"
    },
    "trivia": {
     "nights": [
@@ -1062,6 +1085,28 @@
     "stale": false,
     "oneoffs": [],
     "conflicts": []
+   },
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://tampataproom.com/",
+        "quote": "Must-Try Sports Bar in Tampa, FL | Tampa Tap Room | × | We’re Taking Bookings for the Holidays! | The perfect",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1782,7 +1827,48 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/11302383343 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Hillsborough",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://playat1up.com/",
+        "quote": "Today’s technology allows | Read More » | Tired of Dinner and Drinks? Try an Axe Throwing Date Night in Tampa | Dinner and drinks will always have their place, but sometimes a date night nee",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Encore Karaoke Lounge at 1UP Entertainment in Tampa",
+      "url": "https://playat1up.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Encore Karaoke",
+      "url": "https://playat1up.com/"
+     }
+    ]
+   },
+   "menu": "https://playat1up.com/restaurant-menu/"
   }
  ],
  "type": "city",

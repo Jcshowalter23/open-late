@@ -140,7 +140,28 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "HALF OFF DRAFTS 11AM - 4PM",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website agave137.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "HALF OFF DOMESTIC BOTTLES ALL DAY",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website agave137.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -175,7 +196,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Frederick/100670256043598/Agave-137-Tequila-Bar-%26-Kitchen",
     "fbPostsSeen": 5,
     "fbNewestPost": "2026-09-10",
-    "website": null
+    "website": "http://www.agave137.com/"
    },
    "conflicts": [
     {
@@ -219,6 +240,81 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "KARAOKE W/ DJ SPYDER AT 10PM / 21+",
+      "url": "https://www.agave137.com/specials"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.agave137.com/",
+        "date": "2026-11-01",
+        "quote": "Live DJs & Entertainment lighting up the weekdays and weekends"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.agave137.com/",
+        "date": "2026-11-01",
+        "quote": "Live DJs & Entertainment lighting up the weekdays and weekends"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ Cesar will be spinning the hottest Latin music | from 9PM to 12AM",
+      "url": "https://www.agave137.com/specials"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "LOCAL DJ'S & VIDEO GAMES | EDM NIGHT 9PM - 12:30AM / 21+",
+      "url": "https://www.agave137.com/specials"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "LOCAL DJ at 10PM / 21+ | HALF OFF DRAFTS 11AM - 4PM",
+      "url": "https://www.agave137.com/specials"
+     }
+    ]
    }
   },
   {
@@ -752,7 +848,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Frederick/332080821463/Belles%27-Sports-Bar-%26-Grill",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://www.Bellessportsbar.com/"
    },
    "trivia": {
     "nights": [],
@@ -769,6 +865,42 @@
       "date": "2026-11-01",
       "quote": "Pour House Trivia",
       "url": "https://www.Bellessportsbar.com/"
+     }
+    ]
+   },
+   "crowdType": {
+    "labels": [
+     "Sports fans",
+     "Industry / late-night"
+    ],
+    "summary": "Popular for watching games; popular with service-industry and late-night workers.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.Bellessportsbar.com/",
+        "quote": "Sports Bar in Frederick MD - Belles' Sports Bar & Grill | Skip to content | Get Directions | Hours",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Industry / late-night",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.Bellessportsbar.com/",
+        "quote": "Leagues | FREE Pool | Pour House Trivia | World Tavern Poker | Family-Owned & Operated | Industry Night Specials | Keno & Racetrax | Darts | Corn Hole | 14 TVs | All Day Happy Hour Deals | Loc",
+        "self": true
+       }
+      ]
      }
     ]
    }
@@ -1530,7 +1662,47 @@
     "facebookMirror": "https://www.foodyas.com/US/Frederick/249036394083/Cellar-Door-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-15",
-    "website": null
+    "website": "http://www.cellardoorfrederick.com/"
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "9:30PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.cellardoorfrederick.com/entertainment-1",
+        "date": "2026-11-01",
+        "quote": "- Karaoke @ 9:30PM | Thursday"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "- Local DJ @ 10PM",
+      "url": "https://www.cellardoorfrederick.com/entertainment-1"
+     }
+    ]
    }
   },
   {
@@ -1614,7 +1786,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Frederick/1288997087630095/Chun",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://www.chunfrederick.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.chunfrederick.com/",
+        "quote": "thern Thailand, our establishment is decorated with hand-crafted artwork produced by Thai locals using time-honored techniques native to their respective villages. | Whether you are look",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2692,8 +2886,40 @@
    "hoursNote": "Restaurantji (updated 2026-09-12) lists different hours: Mon-Tue closed; Wed-Thu 11a-12a; Fri 11a-2a; Sat 10a-2a; Sun 10a-12a. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour- $2 off all Draft Beers",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website jojosrestauranttaphouse.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$1 off all Canned and Bottled Beers",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website jojosrestauranttaphouse.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "$2 off all Draft Beers",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website jojosrestauranttaphouse.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -2743,7 +2969,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Frederick/398751633521272/JoJo%27s-Restaurant-%26-Tap-House",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.jojosrestauranttaphouse.com/"
    },
    "conflicts": [
     {
@@ -2760,7 +2986,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "From sing-along favorites to hard-driving rock classics, their diverse setlist, incredible musicianship, and contagious stage energy will keep the Tap House rocking all night long | Come early for din",
+      "url": "https://jojosrestauranttaphouse.com/events"
+     }
+    ]
+   }
   },
   {
    "id": "md-jv-el-eden-restaurant",
@@ -3181,7 +3420,8 @@
     "fbNewestPost": "2026-08-07",
     "website": "https://www.luckycornerrestaurant.com"
    },
-   "websiteSource": "OpenStreetMap node/10855978923 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/10855978923 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.luckycornerrestaurant.com/wp-content/uploads/2026/04/lucky-corner-web-menu-2026.pdf"
   },
   {
    "id": "md-luna-and-char",
@@ -3362,7 +3602,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Fri-Mon",
+     "text": "Celebrate Mom all weekend long with brunch and $23 bottomless mimosas, served Friday through Sunday from 10:00am to 1:45pm (starting at 11:00am on Monday)",
+     "tags": [],
+     "src": "Venue website manaluitalianrestaurant.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -3375,7 +3623,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Frederick/392196117599612/Manal%C3%BA-Italian-Restaurant",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-20",
-    "website": null
+    "website": "http://www.manaluitalianrestaurant.com/"
    }
   },
   {
@@ -4121,7 +4369,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "HAPPY HOUR: MONDAY-FRIDAY FROM 4:00PM-6:00PM DEALS ON COCKTAILS, BEER, SANGRIA, HOUSE WINE, OLD SCHOOL PIZZAS, SNACKS, AND SO MUCH MORE",
+     "tags": [],
+     "src": "Venue website pistarro.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -4136,7 +4393,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Frederick/629694327103944/Pistarro-Ristorante-Pizzeria-Napoletana",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-03-28",
-    "website": null
+    "website": "http://www.pistarro.com/"
    }
   },
   {
@@ -4156,9 +4413,20 @@
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-9p",
    "hoursNote": "Restaurantji (updated 2026-10-20) lists different hours: Mon-Thu 11a-9:30p; Fri-Sat 11a-10:30p; Sun 11a-9p. Call ahead to confirm.",
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 30 pm per Venue website plazamexicomd.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "ALL BEER $1 OFF",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website plazamexicomd.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -4169,7 +4437,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Frederick/372275316914118/Plaza-Mexico-of-Frederick",
     "fbPostsSeen": 5,
     "fbNewestPost": "2026-06-17",
-    "website": null
+    "website": "http://www.plazamexicomd.com/"
    },
    "conflicts": [
     {
@@ -5221,7 +5489,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour: M - Th 4 - 6 PM",
+     "tags": [],
+     "src": "Venue website theorchardrestaurant.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -5255,7 +5532,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Frederick/380136058675357/The-Orchard-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.theorchardrestaurant.com/"
    }
   },
   {
@@ -5290,7 +5567,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Frederick/189248797780562/The-Red-Horse-Steak-House",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-12",
-    "website": null
+    "website": "http://www.redhorserestaurant.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Dance / club crowd"
+    ],
+    "summary": "A dancing / club crowd late.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.redhorserestaurant.com/",
+        "quote": "The red horse is perfect for all events. We house a large banquet room with a full bar, dance floor, and more! Click Below to learn more | Learn More! | FUNCTIONS | RESERVATIONS | Make a re",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -5403,8 +5702,8 @@
    "website": "http://villagetavernwalkersville.com/",
    "hours": "Mon-Sat 11a-11p; Sun closed",
    "hoursNote": "Restaurantji (updated 2026-10-20) lists different hours: Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun closed. Call ahead to confirm.",
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Mon-Sat 11a-9p",
+   "kitchenNote": "Kitchen hours from Venue website villagetavernwalkersville.com, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -5441,7 +5740,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Walkersville/109078209194199/The-Village-Tavern",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://villagetavernwalkersville.com/"
    },
    "conflicts": [
     {
@@ -5489,7 +5788,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Frederick/37134624813/The-Wine-Kitchen",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-09-15",
-    "website": null
+    "website": "http://www.thewinekitchen.com/"
    },
    "conflicts": [
     {
@@ -5501,7 +5800,20 @@
      "resolution": "Facebook number kept (venue-managed page)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Excessively loud entertainment, DJs, and bands are not permitted to preserve the dining experience of all guests",
+      "url": "https://www.thewinekitchen.com/faqs-frederickevents"
+     }
+    ]
+   }
   },
   {
    "id": "md-tin-corner",
@@ -5893,7 +6205,8 @@
    ],
    "source": "hours from OpenStreetMap way/559174708 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Frederick",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://spacie-gracie.com/wp-content/uploads/2026/10/Food_Menu.pdf"
   }
  ],
  "type": "city",

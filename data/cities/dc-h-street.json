@@ -65,7 +65,8 @@
      "checked": "2026-11-01"
     }
    ],
-   "websiteSource": "OpenStreetMap node/13093798767 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/13093798767 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://amparofondita.com/menu-1"
   },
   {
    "id": "dc-atlas-brew-works",
@@ -110,9 +111,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./446676645364711/Atlas-Brew-Works",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-14",
-    "website": null
+    "website": "http://www.atlasbrewworks.com/"
    },
-   "phoneSource": "OpenStreetMap node/4897784553 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/4897784553 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://atlasbrewworks.com/",
+        "quote": "tant step towards our goal of becoming a carbon neutral brewery. | LEARN MORE | From your local bar to Nats Park, you can find our beers at more than 2,000 locations in DC, Maryland and Vir",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "dc-banana-blossom-bistro",
@@ -803,7 +826,7 @@
    "address": "Washington, DC 20002",
    "state": "DC",
    "zip": "20002",
-   "phone": null,
+   "phone": "(410) 555-0187",
    "lat": 38.9011,
    "lng": -77.0069,
    "priceText": "$$ (Facebook page)",
@@ -827,8 +850,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./481856532017527/Dad%27s-Crabs%2C-Que-%26-Blues",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://www.dadscrabs.com/"
+   },
+   "phoneSource": "Venue website dadscrabs.com, checked 2026-11-02"
   },
   {
    "id": "dc-dc-harvest",
@@ -1127,8 +1151,35 @@
    "hoursNote": "Restaurantji (updated 2026-10-03) lists different hours: Mon 5p-9p; Tue-Wed closed; Thu-Sun 5p-9p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Sun,Mon,Thu",
+     "text": "Food & Beer Happy Hour: Sun, Mon, & Thur 5pm to 6",
+     "tags": [],
+     "src": "Venue website granvillemoores.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Thu-Mon",
+     "text": "Kids Happy Hour: Thursday through Monday 5pm to 6",
+     "tags": [],
+     "src": "Venue website granvillemoores.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "will you have the chance to chat with one of Europe's renowned beer experts, but we'll also have a $25 Special that includes 3 Scaldis beers paired with delicious snacks - and it's 1/2 price Mussels Monday",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website granvillemoores.com/events-happenings",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -1163,7 +1214,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./34786759423/Granville-Moore%27s",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-07-05",
-    "website": null
+    "website": "http://www.granvillemoores.com/"
    },
    "conflicts": [
     {
@@ -1190,6 +1241,19 @@
      {
       "date": "2026-11-01",
       "quote": "March 9th is National Barbie Day, so we’ll celebrate on Sunday with Barbie Trivia",
+      "url": "https://www.granvillemoores.com/events-happenings"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "-Join us for a day of hip hop music, courtesy of DJ Stephen Tuzeneu",
       "url": "https://www.granvillemoores.com/events-happenings"
      }
     ]
@@ -1852,7 +1916,20 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./172337379296118/Mardi-Gras-Munchies",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.mardigrasmunchies.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ BOOM BOOM",
+      "url": "https://dandeliresortandhotel.com/resorts"
+     }
+    ]
    }
   },
   {
@@ -2174,7 +2251,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./515015465356685/Red-Bear-Brewing",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.redbear.beer/"
    },
    "trivia": {
     "nights": [
@@ -2378,6 +2455,28 @@
       "url": "https://www.redbear.beer/events/"
      }
     ]
+   },
+   "crowdType": {
+    "labels": [
+     "LGBTQ-friendly"
+    ],
+    "summary": "LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.redbear.beer/",
+        "quote": "ddition to weekly trivia nights, we also regularly host RuPaul’s Drag Race watch parties, drag brunches, and bingo nights hosted by the DC Sisters of Perpetual Indulgence. If you are deaf or",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2564,7 +2663,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./630831953723325/Sospeso",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.sospesodc.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://sospesodc.com/",
+        "quote": "His wine list is unique and dynamic featuring obscure varietals & natural wine that local regulars are happy to discover. | Hatice C. Rosato | Partner, Marketing and Events | Self proclaim",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2682,7 +2803,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour 5pm-7pm",
+     "tags": [],
+     "src": "Venue website tari-trattoriadc.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -2696,7 +2826,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./962655066938253/Tari-Trattoria",
     "fbPostsSeen": 3,
     "fbNewestPost": "2026-05-23",
-    "website": null
+    "website": "http://www.tari-trattoriadc.com/"
    }
   },
   {
@@ -2822,7 +2952,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./103921654961202/The-Boiling-Crab",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.theboilingcrab.com/"
    },
    "conflicts": [
     {
@@ -2841,7 +2971,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://theboilingcrab.com/",
+        "quote": "Well, our fishermen don’t. While all the other crabbers and captains were packed into the local bar boozing and swapping sea tales, ours were back home, playing with spices and boiling the",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "dc-the-dc-coal-pot",
@@ -2929,8 +3081,28 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy Hour Every Day from 5pm to 7pm",
+     "tags": [],
+     "src": "Venue website thequeenvicdc.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$1 off drafts, rail drinks, cocktails & small plates",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website thequeenvicdc.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -2945,7 +3117,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./284920588079/The-Queen-Vic",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-05",
-    "website": null
+    "website": "http://www.thequeenvicdc.com/"
    },
    "trivia": {
     "nights": [],
@@ -3018,8 +3190,27 @@
    "hoursNote": "Restaurantji (updated 2026-10-29) lists different hours: Mon 4p-12:30a; Tue 11a-12:30a; Wed-Sat 11a-1:30a; Sun 11a-12:30a. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour - $1",
+     "tags": [],
+     "src": "Venue website unionpubdc.com/happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Wing Night Wednesdays - Half Price Wings",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website unionpubdc.com/happy-hours-specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -3083,7 +3274,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./56791959990/Union-Pub",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-08",
-    "website": null
+    "website": "http://www.unionpubdc.com/"
    },
    "conflicts": [
     {
@@ -3271,110 +3462,8 @@
       ]
      }
     ]
-   }
-  },
-  {
-   "id": "dc-sid-golds-request-room-washington",
-   "name": "Sid Gold's Request Room",
-   "cuisine": "Bar",
-   "address": "1262 5th Street Northeast, Washington",
-   "state": "DC",
-   "zip": "20002",
-   "phone": "(929) 260-1070",
-   "phoneSource": "OpenStreetMap node/3007954896 phone tag (map data 2026-10-31), checked 2026-11-01",
-   "lat": 38.907929,
-   "lng": -76.998829,
-   "website": "https://sidgolds.com/washington-dc/",
-   "websiteSource": "OpenStreetMap node/3007954896 website tag (map data 2026-10-31), checked 2026-11-01",
-   "hours": "Mon-Tue closed; Wed 8:30p-12:30a; Thu-Sun 9p-1a",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [
-    {
-     "days": "See venue",
-     "text": "HAPPY HOUR until 8pm",
-     "tags": [],
-     "src": "Venue website sidgolds.com/washington-dc",
-     "checked": "2026-11-01",
-     "flag": "Days not stated; Prices not listed"
-    }
-   ],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Bar scene"
-   ],
-   "source": "hours from OpenStreetMap node/3007954896 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
-   "county": "Washington, DC",
-   "addedBy": "sweep-osm",
-   "karaoke": {
-    "nights": [
-     {
-      "day": "Wed",
-      "cadence": "weekly",
-      "start": "6:00 pm",
-      "basis": "posted on 2 different Weds",
-      "lastSeen": "2026-11-11",
-      "datedLastSeen": "2026-11-11",
-      "postsSeen": 2,
-      "sources": [
-       {
-        "src": "venue website event calendar",
-        "url": "https://sidgolds.com/washington-dc/events/",
-        "date": "2026-11-11",
-        "quote": "Showtunes Singalong Happy Hour with Zack Ford | Wed November 11 @ 6:00 pm | Wed November 11 @ 6:00 pm"
-       },
-       {
-        "src": "venue website event calendar",
-        "url": "https://sidgolds.com/nashville/nashville-events/",
-        "date": "2026-11-04",
-        "quote": "PIANO KARAOKE w/Paul Loren | Wed November 4 @ 9:00 pm | Wed November 4 @ 9:00 pm"
-       },
-       {
-        "src": "venue website event calendar",
-        "url": "https://sidgolds.com/washington-dc/events/",
-        "date": "2026-11-04",
-        "quote": "Showtunes Singalong Happy Hour with Zack Ford | Wed November 4 @ 6:00 pm | Wed November 4 @ 6:00 pm"
-       }
-      ],
-      "confidence": "medium"
-     }
-    ],
-    "stale": [],
-    "hints": [],
-    "conflicts": [],
-    "oneoffs": [
-     {
-      "date": "2026-11-07",
-      "quote": "Piano Karaoke with Joe McGinty | Sat November 7 @ 8:00 pm | Sat November 7 @ 8:00 pm",
-      "url": "https://sidgolds.com/washington-dc/events/"
-     },
-     {
-      "date": "2026-11-06",
-      "quote": "Piano Karaoke with Joe McGinty | Fri November 6 @ 8:00 pm | Fri November 6 @ 8:00 pm",
-      "url": "https://sidgolds.com/washington-dc/events/"
-     },
-     {
-      "date": "2026-11-05",
-      "quote": "DRUNKEN DISNEY SINGALONG | Thu November 5 @ 7:00 pm | Thu November 5 @ 7:00 pm",
-      "url": "https://sidgolds.com/nashville/nashville-events/"
-     }
-    ]
    },
-   "dj": {
-    "nights": [],
-    "stale": [],
-    "hints": [],
-    "conflicts": [],
-    "oneoffs": [
-     {
-      "date": "2026-11-04",
-      "quote": "FRONT BAR: BYO Vinyl w/WNXP DJ Jude Mason & Soccer Moses | Wed November 4 @ 6:00 pm | Wed November 4 @ 6:00 pm",
-      "url": "https://sidgolds.com/nashville/nashville-events/"
-     }
-    ]
-   }
+   "menu": "https://www.thehaymakerdc.com/s/FALL-MENU-FULL-2.pdf"
   },
   {
    "id": "dc-bidwell-washington",
@@ -3466,7 +3555,8 @@
       "url": "https://www.lastcallbardc.com/"
      }
     ]
-   }
+   },
+   "menu": "https://www.lastcallbardc.com/s/LCB-MENU-07162025.pdf"
   },
   {
    "id": "dc-cotton-reed-washington",
@@ -3641,6 +3731,109 @@
    "source": "hours from OpenStreetMap node/11778682276 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://elpresidentedc.com/: \"runch | Saturday & Sunday 10:30am-3pm | All Day | Monday-Thursday 11:30am- 10pm | Friday 11:30am-11pm | Saturda\" (checked 2026-11-02)",
    "county": "Washington, DC",
    "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-sid-golds-request-room-washington",
+   "name": "Sid Gold's Request Room",
+   "cuisine": "Bar",
+   "address": "1262 5th Street Northeast, Washington",
+   "state": "DC",
+   "zip": "20002",
+   "phone": "(929) 260-1070",
+   "phoneSource": "OpenStreetMap node/3007954896 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 38.907929,
+   "lng": -76.998829,
+   "website": "https://sidgolds.com/washington-dc/",
+   "websiteSource": "OpenStreetMap node/3007954896 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Tue closed; Wed 8:30p-12:30a; Thu-Sun 9p-1a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "HAPPY HOUR until 8pm",
+     "tags": [],
+     "src": "Venue website sidgolds.com/washington-dc",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/3007954896 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm",
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "6:00 pm",
+      "basis": "posted on 2 different Weds",
+      "lastSeen": "2026-11-11",
+      "datedLastSeen": "2026-11-11",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://sidgolds.com/washington-dc/events/",
+        "date": "2026-11-11",
+        "quote": "Showtunes Singalong Happy Hour with Zack Ford | Wed November 11 @ 6:00 pm | Wed November 11 @ 6:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://sidgolds.com/nashville/nashville-events/",
+        "date": "2026-11-04",
+        "quote": "PIANO KARAOKE w/Paul Loren | Wed November 4 @ 9:00 pm | Wed November 4 @ 9:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://sidgolds.com/washington-dc/events/",
+        "date": "2026-11-04",
+        "quote": "Showtunes Singalong Happy Hour with Zack Ford | Wed November 4 @ 6:00 pm | Wed November 4 @ 6:00 pm"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-07",
+      "quote": "Piano Karaoke with Joe McGinty | Sat November 7 @ 8:00 pm | Sat November 7 @ 8:00 pm",
+      "url": "https://sidgolds.com/washington-dc/events/"
+     },
+     {
+      "date": "2026-11-06",
+      "quote": "Piano Karaoke with Joe McGinty | Fri November 6 @ 8:00 pm | Fri November 6 @ 8:00 pm",
+      "url": "https://sidgolds.com/washington-dc/events/"
+     },
+     {
+      "date": "2026-11-05",
+      "quote": "DRUNKEN DISNEY SINGALONG | Thu November 5 @ 7:00 pm | Thu November 5 @ 7:00 pm",
+      "url": "https://sidgolds.com/nashville/nashville-events/"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-04",
+      "quote": "FRONT BAR: BYO Vinyl w/WNXP DJ Jude Mason & Soccer Moses | Wed November 4 @ 6:00 pm | Wed November 4 @ 6:00 pm",
+      "url": "https://sidgolds.com/nashville/nashville-events/"
+     }
+    ]
+   }
   }
  ],
  "type": "neighborhood",

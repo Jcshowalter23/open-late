@@ -126,7 +126,16 @@
    "hoursNote": "Restaurantji (updated 2026-10-30) lists different hours: Mon-Fri 7:30a-10p; Sat-Sun 8a-10p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Breakfast Buffet, 7:30am - 10:30am All Day menu, 11:00am - 9:30pm Bar, 12:00pm - 10:00pm Happy Hour (bar only), 4:00pm - 6:00pm",
+     "tags": [],
+     "src": "Venue website artandsouldc.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -160,7 +169,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./118978532040/Art-and-Soul",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-09-06",
-    "website": null
+    "website": "http://www.artandsouldc.com/"
    },
    "conflicts": [
     {
@@ -201,7 +210,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Breakfast Buffet, 7:30am - 10:30am All Day menu, 11:00am - 9:30pm Bar, 12:00pm - 10:00pm Happy Hour (bar only), 4:00pm - 6:00pm",
+     "tags": [],
+     "src": "Venue website artandsouldc.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -213,7 +231,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./1572741332989557/Art-and-Soul",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.artandsouldc.com/"
    }
   },
   {
@@ -355,7 +373,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./103132621032603/Astro-Beer-Hall",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://astrobeerhall.com/"
    },
    "trivia": {
     "nights": [
@@ -411,7 +429,29 @@
      }
     ]
    },
-   "phoneSource": "OpenStreetMap node/11766302017 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/11766302017 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.astrobeerhall.com/",
+        "quote": "Astro Beer Hall | Best Beer Hall, Sports Bar, Football Bar, Soccer Bar, Pool Hall in Washington DC and Arlington, Virginia | Skip to m",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "dc-baby-wale",
@@ -582,7 +622,24 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "HAPPY HOUR - Mon-Fri 3-6PM",
+     "tags": [],
+     "src": "Venue website bistro-dujour.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Daily",
+     "text": "HAPPY HOUR - Daily 3-6PM At The Bar",
+     "tags": [],
+     "src": "Venue website bistro-dujour.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -596,7 +653,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./119643961226621/Bistro-Du-Jour",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-09-07",
-    "website": null
+    "website": "http://bistro-dujour.com/"
    }
   },
   {
@@ -1062,7 +1119,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Sun-Fri",
+     "text": "Happy Hour Sunday - Friday 3 to 6 PM at the Bar",
+     "tags": [],
+     "src": "Venue website carminesnyc.com/locations/atlantic-city",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -1074,7 +1140,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./121006171316820/Carmine%27s-Italian-Restaurant---Washington-DC",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-22",
-    "website": null
+    "website": "http://www.carminesnyc.com/"
    }
   },
   {
@@ -1501,6 +1567,25 @@
       ],
       "confidence": "medium",
       "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "7pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.clydes.com/location/clydes-chevy-chase/",
+        "date": "2026-11-01",
+        "quote": "Trivia Night | Every Tuesday starting at 7pm. | Every Tuesday starting at 7pm."
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
      }
     ],
     "stale": [],
@@ -1559,7 +1644,7 @@
    "address": "801 9th St NW, Suite A, Washington, DC",
    "state": "DC",
    "zip": "20001",
-   "phone": null,
+   "phone": "(202) 408-1600",
    "lat": 38.9003,
    "lng": -77.0236,
    "priceText": "$$ (Facebook page)",
@@ -1578,7 +1663,58 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
    "county": "Washington, DC",
    "dj": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "3AM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://cubalibrerestaurant.com/en/washington/nightlife/",
+        "date": "2026-11-01",
+        "quote": "CUBA LIBRE NIGHTS DJ DANCE PARTY EVERY FRIDAY & SATURDAY NIGHT"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://cubalibrerestaurant.com/en/washington/nightlife/",
+        "date": "2026-11-01",
+        "quote": "Following dinner on Friday and Saturday, Cuba Libre features DJs spinning Latin dance music, a dazzling light show, special effects and live specialty acts till 3AM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "3AM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://cubalibrerestaurant.com/en/washington/nightlife/",
+        "date": "2026-11-01",
+        "quote": "CUBA LIBRE NIGHTS DJ DANCE PARTY EVERY FRIDAY & SATURDAY NIGHT"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://cubalibrerestaurant.com/en/washington/nightlife/",
+        "date": "2026-11-01",
+        "quote": "Following dinner on Friday and Saturday, Cuba Libre features DJs spinning Latin dance music, a dazzling light show, special effects and live specialty acts till 3AM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -1601,8 +1737,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./227331927396202/Cuba-Libre-Nights-D.C.",
     "fbPostsSeen": 3,
     "fbNewestPost": "2026-10-26",
-    "website": null
-   }
+    "website": "http://cubalibrerestaurant.com/en/washington/nightlife/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://cubalibrerestaurant.com/en/washington/nightlife/",
+        "quote": "joining us for Cuba Libre Nights. | The Cuba Libre Nights dress code is best described as upscale fashionable. In order to provide an exclusive environment for all of our nightlife guests",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website cubalibrerestaurant.com/en/washington/nightlife, checked 2026-11-02"
   },
   {
    "id": "dc-cucina-morini",
@@ -1729,7 +1888,25 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./479065238776253/Daikaya-the-Izakaya",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-09",
-    "website": null
+    "website": "http://www.daikaya.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " It features unique and creative small plates, craft cocktails, a rare Japanese whisky collection, happy hour deals, live DJs on the weekends and just cool vibes",
+      "url": "https://www.daikaya.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " It features unique and creative small plates, craft cocktails, a rare Japanese whisky collection, happy hour deals, live DJs on the weekends and just cool vibes",
+      "url": "https://www.daikaya.com/"
+     }
+    ]
    }
   },
   {
@@ -2243,7 +2420,7 @@
    "address": "3345 14th St NW, Washington, DC",
    "state": "DC",
    "zip": "20010",
-   "phone": null,
+   "phone": "(202) 506-4586",
    "lat": 38.8951,
    "lng": -77.0367,
    "website": "http://www.fraichedc.com/",
@@ -2316,8 +2493,44 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./663020203559128/Fraiche-DC",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-24",
-    "website": null
-   }
+    "website": "http://www.fraichedc.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://fraichedc.com/",
+        "quote": "nctuary of warm gold walls, burgundy banquettes, and copper light—intimate yet undeniably upscale. | The cuisine tells a story of cultural collision and culinary alchemy. Cajun heat meets",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "AV setup & live DJ available",
+      "url": "https://fraichedc.com/events"
+     }
+    ]
+   },
+   "phoneSource": "Venue website fraichedc.com, checked 2026-11-02"
   },
   {
    "id": "dc-fred-bears-family-dinner",
@@ -3183,7 +3396,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Walk-In Only 4 - 10pm Daily HAPPY HOUR 4 - 10pm Monday 4 - 6pm Tuesday - Sunday",
+     "tags": [],
+     "src": "Venue website lovemakoto.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -3197,7 +3419,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./110162287792759/Love%2C-Makoto",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.lovemakoto.com/"
    }
   },
   {
@@ -3388,7 +3610,24 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "HAPPY HOUR - Daily 12PM-6PM At The Bar",
+     "tags": [],
+     "src": "Venue website mividamexico.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Sun-Fri",
+     "text": "HAPPY HOUR - Sun-Fri 4PM-9PM At The Bar",
+     "tags": [],
+     "src": "Venue website mividamexico.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -3400,7 +3639,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./127124663641625/MI-VIDA",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.mividamexico.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Industry / late-night"
+    ],
+    "summary": "Popular with service-industry and late-night workers.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Industry / late-night",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.mividamexico.com/",
+        "quote": "uertos - Fri Oct 30th - Mon Nov 2nd | El Express Lunch | Weekdays Until 4pm | Hospitality Industry Nights | Sunday & Monday 6pm-Close - 50% Off Food at the Bar Only | MEZCAL MONDAY'S | Half-Off",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -4315,7 +4576,8 @@
     "website": "https://www.rasa.co/"
    },
    "websiteSource": "OpenStreetMap node/11345449273 website tag (map data 2026-10-31), checked 2026-11-01",
-   "phoneSource": "OpenStreetMap node/11345449273 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/11345449273 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.rasa.co/menu"
   },
   {
    "id": "dc-ravi-chez-toi",
@@ -4423,7 +4685,7 @@
    "lng": -77.0216,
    "priceText": "$ (Facebook page)",
    "priceLevel": "$",
-   "website": "http://Rerendc.com/",
+   "website": null,
    "hours": "Mon 9:30a-12a; Tue 9:30a-10p; Wed-Thu 9:30a-12a; Fri 9:30a-11p; Sat 9:30a-2a; Sun 9:30a-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -4442,7 +4704,8 @@
     "fbNewestPost": null,
     "website": null
    },
-   "phoneSource": "OpenStreetMap node/738212135 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/738212135 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "websiteSource": "removed 2026-11-02: domain now for sale"
   },
   {
    "id": "dc-ristorante-tosca",
@@ -4718,7 +4981,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./841326949400928/Seven-Reasons",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-20",
-    "website": null
+    "website": "http://Www.sevenreasonsdc.com/"
    },
    "conflicts": [
     {
@@ -4739,7 +5002,25 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "The DJ Area",
+      "url": "https://www.sevenreasonsgroup.com/seven-reasons"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "The DJ Area",
+      "url": "https://www.sevenreasonsgroup.com/private-events"
+     }
+    ]
+   }
   },
   {
    "id": "dc-sfoglina",
@@ -5667,7 +5948,24 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Sun – Thu: 4 pm – 11 pm happy hour: 4 pm – 6 pm Fri & Sat: 4 pm – 12 am happy hour: 4 pm – 6 pm",
+     "tags": [],
+     "src": "Venue website Thethirdraildc.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Daily",
+     "text": "Sun-Thur 5pm-10pm Fri-Sat: 5pm-11pm Happy Hour: 5pm-6pm",
+     "tags": [],
+     "src": "Venue website Thethirdraildc.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -5679,7 +5977,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./108379787339041/The-Third-Rail",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://Thethirdraildc.com/"
    }
   },
   {
@@ -6051,7 +6349,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Sunday - Thursday: 10:00 AM - 08:00 PM Friday - Saturday: 10:00 AM - 09:00 PM HAPPY HOUR 3:00 PM - 6:00 PM , Monday - Friday",
+     "tags": [],
+     "src": "Venue website yerevandc.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -6063,7 +6370,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./110274061128894/Yerevan-DC",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-05-06",
-    "website": null
+    "website": "http://yerevandc.com/"
    }
   },
   {
@@ -6181,7 +6488,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://washington.intercontinental.com/wp-content/uploads/2026/05/Round-Robin-Bar-at-Willard-InterContinental-Washington-D.C.pdf"
   },
   {
    "id": "dc-matchbox-washington",
@@ -6228,7 +6536,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://www.matchboxrestaurants.com/menu-and-locations-dropdown"
   },
   {
    "id": "dc-marrakesh-washington",
@@ -6278,7 +6587,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/739150364 opening_hours tag (map data 2026-10-31; last checked on the map 2024-07-30) (checked 2026-11-01)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.ebbitt.com/menus"
   },
   {
    "id": "dc-pubkey-washington",
@@ -6340,7 +6650,8 @@
       "url": "https://dc.pubkey.com/"
      }
     ]
-   }
+   },
+   "menu": "https://dc.pubkey.com/menu"
   },
   {
    "id": "dc-sol-mexican-grill-washington",
@@ -6365,7 +6676,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/5026600022 opening_hours tag (map data 2026-10-31; last checked on the map 2025-12-03) (checked 2026-11-01)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.solmexicangrilldc.com/menu"
   },
   {
    "id": "dc-the-dignitary-washington",
@@ -6466,7 +6778,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://www.densondc.com/menu"
   },
   {
    "id": "dc-kata-washington",
@@ -6515,7 +6828,169 @@
       ]
      }
     ]
+   },
+   "menu": "https://www.kata-dc.com/menu"
+  },
+  {
+   "id": "dc-trulucks-washington",
+   "name": "Truluck's",
+   "cuisine": "Seafood",
+   "address": "700 K Street Northwest, Washington",
+   "state": "DC",
+   "zip": "20001",
+   "phone": "(202) 898-0680",
+   "phoneSource": "OpenStreetMap node/585335291 phone tag (map data 2026-11-01), checked 2026-11-02",
+   "lat": 38.9019,
+   "lng": -77.022138,
+   "website": "https://trulucks.com/locations/washington-d-c/",
+   "websiteSource": "OpenStreetMap node/585335291 website tag (map data 2026-11-01), checked 2026-11-02",
+   "hours": "Mon-Fri 11:30a-10p; Sat 4p-10p; Sun 2p-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Visit us during Happy Hour at the bar for 50% off signature cocktails, select wines, and freshly shucked oysters",
+     "tags": [],
+     "src": "Venue website trulucks.com/locations/washington-d-c",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Daily",
+     "text": "Visit us nightly for Happy Hour from 4:00-6:00 PM with 50% off signature cocktails, featured wines by the glass, and fresh oysters",
+     "tags": [],
+     "src": "Venue website trulucks.com/locations/washington-d-c",
+     "checked": "2026-11-01"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Thu",
+     "text": "Join us every Thursday for select bottles of wine at 50% off",
+     "tags": [],
+     "src": "Venue website trulucks.com/locations/washington-d-c",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Sun",
+     "text": "prix fixe menu for $59 plus Prime Rib Sundays",
+     "tags": [],
+     "src": "Venue website trulucks.com/locations/washington-d-c",
+     "checked": "2026-11-01"
+    }
+   ],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/585335291 opening_hours tag (map data 2026-11-01; last checked on the map 2025-03-08) (checked 2026-11-02); late hours confirmed by venue website https://trulucks.com/locations/washington-d-c/: \"Suite 70 Washington, D.C. 20001 | (202) 898-0680 | Hours: | 4:00-9:00 PM Sunday – Thursday | 4:00-10:00 PM Friday an\" (checked 2026-11-02)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://trulucks.com/locations/washington-d-c/",
+        "quote": "d him in classic technique and the pace of a full dining room. | From there he moved into fine dining. His standard in D.C. is simple. Florida Stone Crab claws go out chilled and pre-cracked",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
+  },
+  {
+   "id": "dc-arepa-zone-washington",
+   "name": "Arepa Zone",
+   "cuisine": "Latin American",
+   "address": "1121 14th Street Northwest, Washington",
+   "state": "DC",
+   "zip": null,
+   "phone": "(202) 900-2261",
+   "phoneSource": "OpenStreetMap node/9192070672 phone tag (map data 2026-11-01), checked 2026-11-02",
+   "lat": 38.904234,
+   "lng": -77.031722,
+   "website": "https://www.arepazone.com/",
+   "websiteSource": "OpenStreetMap node/9192070672 website tag (map data 2026-11-01), checked 2026-11-02",
+   "hours": "Mon-Thu 9a-9p; Fri 9a-10p; Sat 8a-10p; Sun 8a-8p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/9192070672 opening_hours tag (map data 2026-11-01; last checked on the map 2025-03-17) (checked 2026-11-02); late hours confirmed by venue website https://www.arepazone.com/: \"14th St NW. Washington, DC 20005 | 📞 202-900-2261 | Store Hours | Mon – Thu: 12m-9pm Fri – Sat: 12m-10pm Sun: 12am\" (checked 2026-11-02)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-yardbird-washington",
+   "name": "Yardbird",
+   "cuisine": "Restaurant",
+   "address": "901 New York Avenue Northwest, Washington",
+   "state": "DC",
+   "zip": "20001",
+   "phone": "(202) 333-2450",
+   "phoneSource": "OpenStreetMap node/11137520105 phone tag (map data 2026-11-01), checked 2026-11-02",
+   "lat": 38.902257,
+   "lng": -77.024548,
+   "website": "https://www.runchickenrun.com/location-page-washington-dc/",
+   "websiteSource": "OpenStreetMap node/11137520105 website tag (map data 2026-11-01), checked 2026-11-02",
+   "hours": "Mon-Fri 11a-10p; Sat-Sun 10a-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [
+    {
+     "days": "Mon-Fri",
+     "text": "$16 Weekday Lunch Special",
+     "tags": [],
+     "src": "Venue website runchickenrun.com/location-page-washington-dc",
+     "checked": "2026-11-01"
+    }
+   ],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/11137520105 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.runchickenrun.com/location-page-washington-dc/: \"3-2450 | 901 New York Ave NW, Washington, DC 20001 | DC Restaurant Hours | MONDAY - SUNDAY | 10AM - 10PM | Yardbir\" (checked 2026-11-02)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "dc-dos-toros-taqueria-washington",
+   "name": "Dos Toros Taqueria",
+   "cuisine": "Mexican",
+   "address": "700 7th Street Northwest, Washington",
+   "state": "DC",
+   "zip": "20001",
+   "phone": "(202) 935-0036",
+   "phoneSource": "OpenStreetMap node/11198538767 phone tag (map data 2026-11-01), checked 2026-11-02",
+   "lat": 38.898633,
+   "lng": -77.022102,
+   "website": "https://www.dostoros.com/dc",
+   "websiteSource": "OpenStreetMap node/11198538767 website tag (map data 2026-11-01), checked 2026-11-02",
+   "hours": "Mon-Fri 7:30a-10p; Sat-Sun 8a-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/11198538767 opening_hours tag (map data 2026-11-01; last checked on the map 2024-12-22) (checked 2026-11-02); late hours confirmed by venue website https://www.dostoros.com/locations: \" | , | New York | , | NY | , | 10075 | Phone: | 212-535-4658 | Hours: | Mon | -Thu | : | 10:30 AM - 10:00 PM Fri | -Su\" (checked 2026-11-02)",
+   "county": "Washington, DC",
+   "addedBy": "sweep-osm"
   },
   {
    "id": "dc-new-big-wong-washington",
@@ -6562,106 +7037,6 @@
      "checked": "2026-11-02"
     }
    ]
-  },
-  {
-   "id": "dc-trulucks-washington",
-   "name": "Truluck's",
-   "cuisine": "Seafood",
-   "address": "700 K Street Northwest, Washington",
-   "state": "DC",
-   "zip": "20001",
-   "phone": "(202) 898-0680",
-   "phoneSource": "OpenStreetMap node/585335291 phone tag (map data 2026-11-01), checked 2026-11-02",
-   "lat": 38.9019,
-   "lng": -77.022138,
-   "website": "https://trulucks.com/locations/washington-d-c/",
-   "websiteSource": "OpenStreetMap node/585335291 website tag (map data 2026-11-01), checked 2026-11-02",
-   "hours": "Mon-Fri 11:30a-10p; Sat 4p-10p; Sun 2p-9p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from OpenStreetMap node/585335291 opening_hours tag (map data 2026-11-01; last checked on the map 2025-03-08) (checked 2026-11-02); late hours confirmed by venue website https://trulucks.com/locations/washington-d-c/: \"Suite 70 Washington, D.C. 20001 | (202) 898-0680 | Hours: | 4:00-9:00 PM Sunday – Thursday | 4:00-10:00 PM Friday an\" (checked 2026-11-02)",
-   "county": "Washington, DC",
-   "addedBy": "sweep-osm"
-  },
-  {
-   "id": "dc-arepa-zone-washington",
-   "name": "Arepa Zone",
-   "cuisine": "Latin American",
-   "address": "1121 14th Street Northwest, Washington",
-   "state": "DC",
-   "zip": null,
-   "phone": "(202) 900-2261",
-   "phoneSource": "OpenStreetMap node/9192070672 phone tag (map data 2026-11-01), checked 2026-11-02",
-   "lat": 38.904234,
-   "lng": -77.031722,
-   "website": "https://www.arepazone.com/",
-   "websiteSource": "OpenStreetMap node/9192070672 website tag (map data 2026-11-01), checked 2026-11-02",
-   "hours": "Mon-Thu 9a-9p; Fri 9a-10p; Sat 8a-10p; Sun 8a-8p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from OpenStreetMap node/9192070672 opening_hours tag (map data 2026-11-01; last checked on the map 2025-03-17) (checked 2026-11-02); late hours confirmed by venue website https://www.arepazone.com/: \"14th St NW. Washington, DC 20005 | 📞 202-900-2261 | Store Hours | Mon – Thu: 12m-9pm Fri – Sat: 12m-10pm Sun: 12am\" (checked 2026-11-02)",
-   "county": "Washington, DC",
-   "addedBy": "sweep-osm"
-  },
-  {
-   "id": "dc-yardbird-washington",
-   "name": "Yardbird",
-   "cuisine": "Restaurant",
-   "address": "901 New York Avenue Northwest, Washington",
-   "state": "DC",
-   "zip": "20001",
-   "phone": "(202) 333-2450",
-   "phoneSource": "OpenStreetMap node/11137520105 phone tag (map data 2026-11-01), checked 2026-11-02",
-   "lat": 38.902257,
-   "lng": -77.024548,
-   "website": "https://www.runchickenrun.com/location-page-washington-dc/",
-   "websiteSource": "OpenStreetMap node/11137520105 website tag (map data 2026-11-01), checked 2026-11-02",
-   "hours": "Mon-Fri 11a-10p; Sat-Sun 10a-10p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from OpenStreetMap node/11137520105 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.runchickenrun.com/location-page-washington-dc/: \"3-2450 | 901 New York Ave NW, Washington, DC 20001 | DC Restaurant Hours | MONDAY - SUNDAY | 10AM - 10PM | Yardbir\" (checked 2026-11-02)",
-   "county": "Washington, DC",
-   "addedBy": "sweep-osm"
-  },
-  {
-   "id": "dc-dos-toros-taqueria-washington",
-   "name": "Dos Toros Taqueria",
-   "cuisine": "Mexican",
-   "address": "700 7th Street Northwest, Washington",
-   "state": "DC",
-   "zip": "20001",
-   "phone": "(202) 935-0036",
-   "phoneSource": "OpenStreetMap node/11198538767 phone tag (map data 2026-11-01), checked 2026-11-02",
-   "lat": 38.898633,
-   "lng": -77.022102,
-   "website": "https://www.dostoros.com/dc",
-   "websiteSource": "OpenStreetMap node/11198538767 website tag (map data 2026-11-01), checked 2026-11-02",
-   "hours": "Mon-Fri 7:30a-10p; Sat-Sun 8a-10p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from OpenStreetMap node/11198538767 opening_hours tag (map data 2026-11-01; last checked on the map 2024-12-22) (checked 2026-11-02); late hours confirmed by venue website https://www.dostoros.com/locations: \" | , | New York | , | NY | , | 10075 | Phone: | 212-535-4658 | Hours: | Mon | -Thu | : | 10:30 AM - 10:00 PM Fri | -Su\" (checked 2026-11-02)",
-   "county": "Washington, DC",
-   "addedBy": "sweep-osm"
   }
  ],
  "type": "neighborhood",

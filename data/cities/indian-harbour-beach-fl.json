@@ -352,7 +352,16 @@
    "hoursNote": "Hours differ by source: Facebook page lists Mon-Thu 11a-9p; Fri 11a-10p; Sat-Sun 11a-9p (no posts since May 2026); Restaurantji (updated 2026-10-15) used as newer. Call ahead.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Loco Baymeadows has happy hour Monday to Friday, 11 am – 5 pm, with house margarita, mojitos, sangria and 32 oz draft, with any food order",
+     "tags": [],
+     "src": "Venue website senortacosand-tequila.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -364,7 +373,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Indian-Harbour-Beach/185818151922526/Senor-Loco-Indian-Harbour",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.senortacosand-tequila.com/"
    },
    "conflicts": [
     {
@@ -384,7 +393,29 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://senortacosand-tequila.com/",
+        "quote": "s, | delicious guacamole and other favorites, for family celebrations, lunch meetings and date nights | alike. | More about us | From our | kitchen. | The favorites our guests come back for.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-the-mermaid-house-cafe-and-wine-bar",

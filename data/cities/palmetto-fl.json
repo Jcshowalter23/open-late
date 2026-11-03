@@ -100,7 +100,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Palmetto/1509150175978758/Clam-House",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-07-14",
-    "website": null
+    "website": "http://clamhousesushibar.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://clamhousesushibar.com/",
+        "quote": "fect homey feel. In January of 2021, they decided to close down after 10 years of being a local favorite. | The place was quickly bought and re-opened by one of the original chefs of the restaur",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -314,14 +336,6 @@
      "src": "Ed’s Tavern Parrish Facebook post Oct 27, 2026 (via foodyas)",
      "checked": "2026-11-01",
      "flag": "Days not stated; Prices not listed"
-    },
-    {
-     "days": "See venue",
-     "text": "We enjoyed an amazing happy hour Outside on the patio complete with margaritas and delicious two for $5 chicken tacos",
-     "tags": [],
-     "src": "Venue website edstavernfl.com/parrish",
-     "checked": "2026-11-01",
-     "flag": "Days not stated"
     }
    ],
    "specials": [
@@ -343,15 +357,6 @@
      "src": "Ed’s Tavern Parrish Facebook post Oct 21, 2026 (via foodyas)",
      "checked": "2026-11-01",
      "flag": "Days not stated"
-    },
-    {
-     "days": "Wed",
-     "text": "Wednesday $1 Wings",
-     "tags": [
-      "wings"
-     ],
-     "src": "Venue website edstavernfl.com/parrish/events-parrish",
-     "checked": "2026-11-01"
     }
    ],
    "crowd": null,
@@ -1000,7 +1005,22 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "$12 Taco Flights & $7 House Margaritas All day every Tuesday",
+     "tags": [],
+     "src": "Venue website riverhousefl.com/specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "Wednesdays 3pm to close $9 bottles of house wine and 50% off all bottles",
+     "tags": [],
+     "src": "Venue website riverhousefl.com/specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -1013,7 +1033,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Palmetto/160821019461/Riverhouse-Waterfront-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.riverhousefl.com/"
    },
    "trivia": {
     "nights": [],
@@ -1030,6 +1050,42 @@
       "date": "2026-11-01",
       "quote": " Live trivia is returning later this year",
       "url": "https://www.riverhousefl.com/specials"
+     }
+    ]
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.riverhousefl.com/",
+        "quote": "s our flagship dining experience offering indoor and outdoor seating year round. Loved by locals and raved by travelers, the Reef & Grill has been serving up seafood fare and all-America",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.riverhousefl.com/",
+        "quote": "Bay sunsets, the Second Floor often boasts live piano music setting the perfect scene for date night and celebrations. Book a table and experience it for yourself. | Book a Table | Learn mor",
+        "self": true
+       }
+      ]
      }
     ]
    }

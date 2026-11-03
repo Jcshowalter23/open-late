@@ -373,7 +373,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Philadelphia/104484937965808/La-Llorona---Cocina-%E2%80%A2-Mezcaleria-",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-08",
-    "website": null
+    "website": "http://Lalloronaphilly.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://Lalloronaphilly.com/",
+        "quote": "ore than anything, La Llorona is a neighborhood place. We are here for weeknight dinners, date nights, birthdays, celebrations, happy hour, late-night conversations, and those meals that tur",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -800,7 +822,29 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.popisrestaurant.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.popisrestaurant.com/",
+        "quote": "--> | Popi's Restaurant | Fine Dining & Exquisite Italian Cuisine in Philadelphia | top of page | HOME | OUR STORY | MENUS | LU",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -819,17 +863,7 @@
    "hoursNote": "Venue site lists Sun–Wed 4–10p, Thu–Sat 4–11p; call ahead.",
    "kitchen": "Sun-Wed 4p-10p; Thu-Sat 4p-11p",
    "kitchenNote": "Dinner kitchen; brunch Sat–Sun 11–3. (Venue site thepubandkitchen.com, checked 2026-11-01)",
-   "happyHours": [
-    {
-     "days": "Mon-Fri",
-     "text": "Happy hour 4–6 pm: $7 wine, $4 beer, $10 cocktails",
-     "tags": [
-      "beer"
-     ],
-     "src": "Venue site thepubandkitchen.com",
-     "checked": "2026-11-01"
-    }
-   ],
+   "happyHours": [],
    "specials": [
     {
      "days": "NFL game days",
@@ -1108,7 +1142,27 @@
     ]
    },
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "9pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://southhousephilly.com/southhouse-weekly-events/",
+        "date": "2026-11-01",
+        "quote": "Karaoke Hosted by Pirate Pebbs | Every Saturday at 9pm | Every Saturday at 9pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -1384,7 +1438,8 @@
       "url": "https://www.bobandbarbaras.com/events"
      }
     ]
-   }
+   },
+   "menu": "https://www.bobandbarbaras.com/drink-menu"
   },
   {
    "id": "pa-ten-stone-philadelphia",
@@ -1433,7 +1488,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://tenstone.com/cakes-tarts/"
   },
   {
    "id": "pa-tio-flores-philadelphia",
@@ -1570,7 +1626,8 @@
       "url": "https://americansardinebar.com/events/"
      }
     ]
-   }
+   },
+   "menu": "https://americansardinebar.com/menus/"
   },
   {
    "id": "pa-los-camaradas-philadelphia",
@@ -1615,14 +1672,86 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$1 off Draught Beers $10 Cocktail of the Week Discounted Snacks and Pizza",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website dockstreetbeer.com/dock-street-south-point-breeze",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
    ],
    "source": "hours from OpenStreetMap node/8290414496 opening_hours tag (map data 2026-11-01; last checked on the map 2025-12-30) (checked 2026-11-02); late hours confirmed by venue website https://www.dockstreetbeer.com/dock-street-south-point-breeze: \"HOURS + LOCATION | Full indoor dining + seasonal outdoor dining | HOURS: | MON 9/28, 2026: | OPEN 6-11PM FOR THE E\" (checked 2026-11-02)",
    "county": "Philadelphia",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.dockstreetbeer.com/dock-street-south-point-breeze",
+        "quote": "esserts from our menu, we would be happy to accommodate and add that on! | Is Dock Street Kid-Friendly? | Dock Street is definitely kid friendly! We have a kids menu, high chairs, coloring boo",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " She loves karaoke, making outlandish assumptions based on people’s charts, and, of course, taking care of her many plants",
+      "url": "https://www.dockstreetbeer.com/event-listings"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Also, thank you for recommending Curtis to DJ",
+      "url": "https://www.dockstreetbeer.com/private-events"
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " We were able to host a small trivia party and had the absolute best time",
+      "url": "https://www.dockstreetbeer.com/private-events"
+     }
+    ]
+   }
   },
   {
    "id": "pa-china-garden-philadelphia",

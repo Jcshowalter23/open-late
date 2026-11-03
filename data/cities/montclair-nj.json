@@ -3511,7 +3511,43 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/4837099845 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://ahpizzmontclair.com/: \" 07042 | Get Directions | Hours | Mon, Tue, Wed, Thur | 11:00 AM - 10:00 PM | Fri, Sat | 11:00 AM - 11:00 PM | Sun | 1\" (checked 2026-11-02)",
    "county": "Essex",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Date night / upscale"
+    ],
+    "summary": "Family-friendly; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://ahpizzmontclair.com/",
+        "quote": "g | Off-site Catering | Host your special event at Ah'Pizz | On-site Parties | Casual and Family Friendly! | reservations | On-site Parties | Book your next party with us! | Need the perfect spac",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://ahpizzmontclair.com/",
+        "quote": "review by | Devangi D: | Amazing pizza & ambience, our server was great.Great place for a date night! The gnocchi was also great. | Review by - Yelp | five star review by | Shan P: | The foo",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "city",

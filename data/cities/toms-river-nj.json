@@ -3578,7 +3578,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/9652971081 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.pho34vietnamesecuisine.com: \"08753 | (732) 824-0020 | Business Hours | Mon - Thu: | 10:30 AM - 9:30 PM | Fri & Sat: | 10:30 AM - 10:00 PM | Sun: | \" (checked 2026-11-02)",
    "county": "Ocean",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.pho34vietnamesecuisine.com",
+        "quote": "r online for carryout or delivery! | Cuisines | Vietnamese | Atmosphere | Casual Dining | Fine Dining | Food Types | Vegetarian Options | Gluten Free Options | Service Options | Free Parking",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "city",

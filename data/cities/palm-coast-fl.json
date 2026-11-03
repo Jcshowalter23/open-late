@@ -272,7 +272,25 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Wear your Cork & Pint Shirt and get an extra 10% off your tab",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website corkandpint.com/events-info",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Wed",
+     "text": "Wine Down Wednesday featuring $1 off all wine by the glass and 30% off all wine by the bottle",
+     "tags": [],
+     "src": "Venue website corkandpint.com/2021-events/wine-down-wednesday",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -330,7 +348,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Palm-Coast/571597959574510/Cork-%26-Pint",
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-10-18",
-    "website": null
+    "website": "http://www.corkandpint.com/"
    },
    "bingo": {
     "nights": [],
@@ -968,7 +986,7 @@
    "address": "15 palm harbor village Way, Palm Coast",
    "state": "FL",
    "zip": "32137",
-   "phone": null,
+   "phone": "(386) 225-4753",
    "lat": 29.5584,
    "lng": -81.2147,
    "website": "http://www.portugalwinebarandgrill.com/",
@@ -990,8 +1008,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Palm-Coast/981899868495573/Portugal-Wine-Bar-%26-Grill",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-15",
-    "website": null
-   }
+    "website": "http://www.portugalwinebarandgrill.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://portugalwinebarandgrill.com/",
+        "quote": "flavors of Portuguese cuisine paired with fine wines from across Portugal. Whether it's a romantic dinner for two or a gathering with friends and family, we look forward to serving you.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website portugalwinebarandgrill.com, checked 2026-11-02"
   },
   {
    "id": "fl-saz-n-de-peru",
@@ -1599,7 +1640,8 @@
       "url": "https://www.kavakula.com/about-us"
      }
     ]
-   }
+   },
+   "menu": "https://www.kavakula.com/copy-of-menu-ormond-beach"
   },
   {
    "id": "fl-scruffys-palm-coast",

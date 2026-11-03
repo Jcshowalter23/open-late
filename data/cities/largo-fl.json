@@ -544,7 +544,16 @@
    "hoursNote": "Hours differ by source: Facebook page lists Daily 8a-3a (no posts since May 2026); Restaurantji (updated 2026-10-30) used as newer. Call ahead.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy Hour Daily 11–6",
+     "tags": [],
+     "src": "Venue website thecornerbarandgrill.com/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -633,7 +642,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Largo/1550145065269817/Corner-BarandGrill",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.thecornerbarandgrill.com/"
    },
    "conflicts": [
     {
@@ -830,7 +839,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy Hour goes from opening until 6:00pm every day",
+     "tags": [],
+     "src": "Venue website fatcattavernlargo.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -866,7 +884,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Largo/127032687334271/Fat-Cat-Tavern",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://fatcattavernlargo.com/"
    }
   },
   {
@@ -1748,7 +1766,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour is Monday through Thursday 4 till close and Friday from 4pm to 9pm",
+     "tags": [],
+     "src": "Venue website mugssportsbar.com/about-us",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1785,7 +1812,93 @@
     "facebookMirror": "https://www.foodyas.com/US/Clearwater/122559571093336/Mugs-at-Icot",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-16",
-    "website": null
+    "website": "http://mugssportsbar.com/"
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://mugssportsbar.com/",
+        "date": "2026-11-01",
+        "quote": "Mondays and Thursdays join Mugs very own \"Antonio\" as he leads you through a fun night of Karaoke, Fun Times, Good Food and Great People"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://mugssportsbar.com/about-us/",
+        "date": "2026-11-01",
+        "quote": " Plus, we offer Karaoke on Mondays and Thursdays from 5-11"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://mugssportsbar.com/locations/",
+        "date": "2026-11-01",
+        "quote": "Karaoke with Antonio | Every Monday and Thursday from 5:30 till the party ends | Every Monday and Thursday from 5:30 till the party ends"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://mugssportsbar.com/",
+        "date": "2026-11-01",
+        "quote": "Mondays and Thursdays join Mugs very own \"Antonio\" as he leads you through a fun night of Karaoke, Fun Times, Good Food and Great People"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://mugssportsbar.com/about-us/",
+        "date": "2026-11-01",
+        "quote": " Plus, we offer Karaoke on Mondays and Thursdays from 5-11"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://mugssportsbar.com/locations/",
+        "date": "2026-11-01",
+        "quote": "Karaoke with Antonio | Every Monday and Thursday from 5:30 till the party ends | Every Monday and Thursday from 5:30 till the party ends"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Mugs is the place for Karaoke",
+      "url": "https://mugssportsbar.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Mugs Sports Bar & Grill is the BEST Karaoke spot in the Clearwater, St",
+      "url": "https://mugssportsbar.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "We have one of the largest Karaoke rooms in Florida",
+      "url": "https://mugssportsbar.com/"
+     }
+    ]
    }
   },
   {
@@ -2792,7 +2905,7 @@
    "address": "7500 Ulmerton Rd, Largo",
    "state": "FL",
    "zip": "33771",
-   "phone": null,
+   "phone": "(727) 536-9000",
    "lat": 27.8937,
    "lng": -82.7423,
    "priceText": "$ (Facebook page)",
@@ -2854,7 +2967,33 @@
     ]
    },
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://sneakysbar.com/largo-sneaky-s-sports-bar-and-grill-events",
+        "date": "2026-11-01",
+        "quote": "Thursday Night Karaoke at Sneaky’s 🎤🔥"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://sneakysbar.com/largo-sneaky-s-sports-bar-and-grill-events",
+        "date": "2026-11-01",
+        "quote": "Join us every Thursday night at Sneaky’s Sports Bar & Grill in Largo, Florida for a night of karaoke, great food, drinks, and fun"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "hints": [
      "Google attribute 'karaoke' (via Restaurantji)"
     ],
@@ -2868,7 +3007,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Largo/216136475076990/Sneaky%27s-Sports-Bar-%26-Grill-%28PAGE%29",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://sneakysbar.com/"
    },
    "conflicts": [
     {
@@ -2886,7 +3025,21 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Speed Bag Machine – Hit the bag, win, and get a drink on the DJ",
+      "url": "https://sneakysbar.com/largo-sneaky-s-sports-bar-and-grill-events"
+     }
+    ]
+   },
+   "phoneSource": "Venue website sneakysbar.com, checked 2026-11-02"
   },
   {
    "id": "fl-speakeasy-kava",
@@ -3105,7 +3258,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Largo/384850434776/Sushi-Spot---hibachi",
     "fbPostsSeen": 3,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://www.sushispotlargo.com/"
    },
    "conflicts": [
     {
@@ -3124,7 +3277,43 @@
      "checked": "2026-11-01"
     }
    ],
-   "phoneSource": "OpenStreetMap node/1767244211 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/1767244211 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.sushispotlargo.com/",
+        "quote": "you. | Cozy & Welcoming | Relax, enjoy your meal, and feel right at home in our friendly neighborhood spot. | Come hungry. Leave happy. Come back soon! | Gallery | Take a look at some of the stunn",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.sushispotlargo.com/",
+        "quote": "here's something for everyone. | Perfect for Any Occasion | Whether it's a casual dinner, date night, family meal, or just a sushi craving, we're always happy to have you. | Cozy & Welcoming",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-tavern-in-the-bluffs",
@@ -3543,7 +3732,7 @@
    "hours": "Mon-Sat 11a-3a; Sun 12p-3a",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 1 am per Venue website dublinpublargo.com/about-us, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -3623,7 +3812,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Largo/155729177785372/The-Dublin-House-Pub",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-11-01",
-    "website": null
+    "website": "http://dublinpublargo.com/"
    }
   },
   {
@@ -3750,9 +3939,18 @@
    "website": "http://niagaratap.com/",
    "hours": "Daily 11a-3a",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
+   "kitchen": "Daily 11a-2a",
+   "kitchenNote": "Kitchen hours from Venue website niagaratap.com, checked 2026-11-01; start time taken from listed opening hours.",
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "We have daily Happy Hour from Open until 7pm",
+     "tags": [],
+     "src": "Venue website niagaratap.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -3859,7 +4057,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Largo/870094816420856/The-Niagara-Tap",
     "fbPostsSeen": 3,
     "fbNewestPost": "2026-10-15",
-    "website": null
+    "website": "http://niagaratap.com/"
    }
   },
   {

@@ -273,8 +273,37 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "· Happy hour 2–6PM",
+     "tags": [],
+     "src": "Venue website dubzbbq.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Happy hour, all day",
+     "tags": [],
+     "src": "Venue website dubzbbq.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "50 domestic drafts all day & half-price wings",
+     "tags": [
+      "wings",
+      "beer"
+     ],
+     "src": "Venue website dubzbbq.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -289,7 +318,7 @@
     "facebookMirror": "https://www.foodyas.com/US/North-Port/109797900621498/Dubz-BBQ",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://www.dubzbbq.com/"
    },
    "trivia": {
     "nights": [],
@@ -311,6 +340,42 @@
       "date": "2026-11-01",
       "quote": "Events, Trivia & Fundraisers",
       "url": "https://dubzbbq.com/events/"
+     }
+    ]
+   },
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Sports fans"
+    ],
+    "summary": "Family-friendly; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://dubzbbq.com/",
+        "quote": "an a meal | A place to gather. | Everything we do is rooted in community. Catch the game, bring the kids, join us for trivia night or a local fundraiser. Whether you’re here for the brisket, the",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://dubzbbq.com/",
+        "quote": "1 finalist, voted by our North Port community. | Best Lunch | Best BBQ | Best Ribs | Best Sports Bar | Best Casual Dining | Best Appetizer | Best Bar/Lounge | Best Happy Hour | Best Burger",
+        "self": true
+       }
+      ]
      }
     ]
    }

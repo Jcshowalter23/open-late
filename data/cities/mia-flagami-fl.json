@@ -236,7 +236,7 @@
    "address": "1050 NW 42nd Ave, Miami",
    "state": "FL",
    "zip": "33126",
-   "phone": null,
+   "phone": "(305) 446-4500",
    "lat": 25.7822,
    "lng": -80.2644,
    "website": "http://catchofthedayrestaurant.com/",
@@ -244,7 +244,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy Hour 3 – 7PM Daily",
+     "tags": [],
+     "src": "Venue website catchofthedayrestaurant.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -258,8 +267,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami/104498707931916/Catch-of-The-Day",
     "fbPostsSeen": 11,
     "fbNewestPost": "2026-10-31",
-    "website": null
-   }
+    "website": "http://catchofthedayrestaurant.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.catchofthedayrestaurant.com/",
+        "quote": "d laughter, full plates, and memories made over every meal. | Explore Our Menu | Loved by Locals | & Visitors | Reviews | For over 25 years, we've been serving Miami's freshest seafood.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.catchofthedayrestaurant.com, checked 2026-11-02"
   },
   {
    "id": "fl-ciao-ristorante-kendall",

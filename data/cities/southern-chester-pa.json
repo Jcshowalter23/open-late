@@ -280,7 +280,29 @@
     "facebookMirror": "https://www.foodyas.com/US/West-Grove/134810886561850/Penn-Brew-Station",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-16",
-    "website": null
+    "website": "http://www.pennbrewstation.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://pennbrewstation.com:443/",
+        "quote": "ese or ranch. | Order Now | Our Story | Fired Up In | West Grove | Penn Brew Station is a neighborhood spot serving bold, hearty American classics in West Grove, PA. Everything is hand-built to ord",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -598,14 +620,218 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Wednesday - $1 Wings & Quizzo",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website kennettsquare.victorybeer.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "See venue",
+     "text": "20% off to-go beer",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website kennettsquare.victorybeer.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "$2 off drafts, liquor pours, wine + shareables",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website kennettsquare.victorybeer.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Thu",
+     "text": "Thursday - $8 Feature Burger",
+     "tags": [],
+     "src": "Venue website kennettsquare.victorybeer.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Sun",
+     "text": "Sunday - Kids Eat Free",
+     "tags": [],
+     "src": "Venue website kennettsquare.victorybeer.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
    ],
    "source": "hours from OpenStreetMap way/608963269 opening_hours tag (map data 2026-11-01; last checked on the map 2025-11-08) (checked 2026-11-02); late hours confirmed by venue website https://kennettsquare.victorybeer.com/: \": | Monday & Tuesday: 4 pm – 9 pm | Wednesday & Thursday: 11 am – 9 pm | Friday & Saturday: 11 am – 10 pm | Sunday:\" (checked 2026-11-02)",
    "county": "Chester",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://kennettsquare.victorybeer.com/",
+        "quote": ", we take pride in pairing our expertly crafted beers with a delicious menu that includes local favorites, such as soft pretzels, burgers, and seasonal dishes inspired by the region. | Located j",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-07-12",
+      "quote": "Girl Power Karaoke Brunch | Sunday, July 12, 2026",
+      "url": "https://kennettsquare.victorybeer.com/taproomevents"
+     },
+     {
+      "date": "2026-07-12",
+      "quote": "Girl Power Karaoke Brunch | Sunday, July 12, 2026",
+      "url": "https://kennettsquare.victorybeer.com/taproomevents"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Ryan Shiflet will be on the decks and keeping the competition moving as DJ and referee",
+      "url": "https://kennettsquare.victorybeer.com/taproomevents"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Ryan Shiflet will be on the decks and keeping the competition moving as DJ and referee",
+      "url": "https://kennettsquare.victorybeer.com/taproomevents"
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Grab your crew, come hungry, and see if you have what it takes to survive Horror Movie Trivia",
+      "url": "https://kennettsquare.victorybeer.com/taproomevents"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Grab your crew, come hungry, and see if you have what it takes to survive Horror Movie Trivia",
+      "url": "https://kennettsquare.victorybeer.com/taproomevents"
+     },
+     {
+      "date": "2026-10-31",
+      "quote": "Horror Movie Trivia Brunch | Saturday, October 31, 2026",
+      "url": "https://kennettsquare.victorybeer.com/taproomevents"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://kennettsquare.victorybeer.com/taproomevents",
+        "date": "2026-11-01",
+        "quote": "Merry Swiftmas Bingo Brunch | Saturday, December 6, 2025"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://kennettsquare.victorybeer.com/taproomevents",
+        "date": "2026-11-01",
+        "quote": "Merry Swiftmas Bingo Brunch | Saturday, December 6, 2025"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": "12–2PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": "2026-09-27",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://kennettsquare.victorybeer.com/taproomevents",
+        "date": "2026-11-01",
+        "quote": "Firemen Music Bingo | Sunday, April 12, 2026"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://kennettsquare.victorybeer.com/taproomevents",
+        "date": "2026-11-01",
+        "quote": " Patrick's Music Bingo | Sunday, March 15, 2026"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://kennettsquare.victorybeer.com/taproomevents",
+        "date": "2026-11-01",
+        "quote": "Firemen Music Bingo | Sunday, April 12, 2026"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "🎵 4 rounds of Emo Music Bingo 🏆 Prizes every round 🎟️ Final round prize: a Ticketmaster gift card to see your favorite band 🍳 Emo-themed brunch food & drinks 🖤 Kids Eat Free 📸 Selfie station ✨ Tempora",
+      "url": "https://kennettsquare.victorybeer.com/taproomevents"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Get your fire extinguishers ready because the Kennett Square taproom is hosting a one-of-a-kind Music Bingo event",
+      "url": "https://kennettsquare.victorybeer.com/taproomevents"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Calling all Swifties—’tis the damn season for brunch, bingo, and all things Taylor Swift",
+      "url": "https://kennettsquare.victorybeer.com/taproomevents"
+     }
+    ]
+   }
   }
  ],
  "counties": [

@@ -474,7 +474,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Sanibel/488313494365671/Lazy-Flamingo-2",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://lazyflamingo.com/"
    },
    "conflicts": [
     {
@@ -486,7 +486,43 @@
      "resolution": "Facebook number kept (venue-managed page)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://lazyflamingo.com/",
+        "quote": "a local rustic feel and melds it with tropical island flavors. | Our fish tacos have the locals coming in over and over again, made with a fresh mango salsa and a tempting coleslaw. Onc",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://lazyflamingo.com/",
+        "quote": "y O. | \"Amazing food, great service. We will stop here again on our next trip to Sanibel. Kid friendly too.\" | Mandi P. | \"If you want great food and a great time and you’re on Sanibel Island,",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-low-key-tiki",
@@ -675,7 +711,24 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour Mon-Fri 3-6 pm",
+     "tags": [],
+     "src": "Venue website mudbugssanibel.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Daily",
+     "text": "Live music daily from 5-8:30p Happy Hour from 3-6p Daily",
+     "tags": [],
+     "src": "Venue website mudbugssanibel.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -687,7 +740,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Sanibel/307035160001369/Mud-Bugs-Cajun-Kitchen",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-19",
-    "website": null
+    "website": "http://www.mudbugssanibel.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Live music fans"
+    ],
+    "summary": "A locals-and-regulars spot; known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://mudbugssanibel.com/",
+        "quote": "EW OUR MENU​ | Our Hurricane Ian Story | READ HERE | Live Music Daily! | Come see why the locals come to Mud Bugs for some of the best music you’ll hear on the island! | Live music EVERY",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://mudbugssanibel.com/",
+        "quote": "e why the locals come to Mud Bugs for some of the best music you’ll hear on the island! | Live music EVERY DAY from 5-8:30pm | See Our Lineup of Musicians | Visit Mud Bugs Cajun Kitchen | Open for",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1025,8 +1114,28 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy Hour every day, 4pm – 6pm",
+     "tags": [],
+     "src": "Venue website thesanibelgrill.com/menus/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$2 off well liquor and house wine and $3 Draft Bud Light and Shock Top",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website thesanibelgrill.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -1068,7 +1177,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Sanibel/301047746582875/The-Sanibel-Grill",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://thesanibelgrill.com/"
    }
   },
   {

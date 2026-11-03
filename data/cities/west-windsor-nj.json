@@ -388,7 +388,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/8936291957 opening_hours tag (map data 2026-11-01; last checked on the map 2021-11-17) (checked 2026-11-02); late hours confirmed by venue website https://aljonspizzawestwindsor.com/: \"ightstown Rd, West Windsor Township, NJ 08550 | Facebook | Instagram | Hours | Open Now | Closes at 10 PM | Monday \" (checked 2026-11-02)",
    "county": "Mercer",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://aljonspizzawestwindsor.com/",
+        "quote": "f the week. | Order Online | Serving West Windsor Since 1974 • Fresh Pizza, Hot Subs, and Local Favorites • A Neighborhood Go-To for Generations • Dine In, Take Out, and Enjoy a West Windsor Cla",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "town",

@@ -21,14 +21,7 @@
    "hoursNote": null,
    "kitchen": "Tue-Sun 11:30a-9p",
    "kitchenNote": "Kitchen serves until 9 pm on open days; bar stays open later. (Venue site bowmanstavernrestaurant.com, checked 2026-11-01)",
-   "happyHours": [
-    {
-     "days": "Tue-Fri",
-     "text": "Happy hour 4–6 pm (dine-in only): $10 bites",
-     "src": "Venue site bowmanstavernrestaurant.com",
-     "checked": "2026-11-01"
-    }
-   ],
+   "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -230,7 +223,20 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.freewillbrewing.com/"
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " With a reputation for high-octane performances, Life Sized Humans guarantees a packed dance floor, a nostalgic sing-along, and a fantastic night out for every venue they play",
+      "url": "https://www.freewillbrewing.com/perkasie-live-music-1"
+     }
+    ]
    }
   },
   {
@@ -692,6 +698,36 @@
       ],
       "confidence": "high",
       "conflict": "Newest recurring post (2027-02-08) lists Mon only"
+     },
+     {
+      "day": "Mon",
+      "cadence": "monthly",
+      "start": "6p",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2027-04-12",
+      "datedLastSeen": "2027-04-12",
+      "postsSeen": 4,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://playhousedeck.com/",
+        "date": "2027-04-12",
+        "quote": "6p-End of game | March 8 • DJ Chris Urban • | 4 pm – 8 pm | April 12 • >> DJ Brad Scott | 4 pm – 8 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://playhousedeck.com/",
+        "date": "2027-03-08",
+        "quote": "| Then, | Championship Watch Party • | 6p-End of game | March 8 • >> DJ Chris Urban | 4 pm – 8 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://playhousedeck.com/",
+        "date": "2027-02-08",
+        "quote": "2nd Sunday of every month! | January 11 • DJ ShyGuy • | 4 pm – 8 pm | February 8 • >> DJ Brad Scott | 2pm-6pm | 4 pm – 8 pm"
+       }
+      ],
+      "confidence": "high"
      }
     ],
     "stale": [],
@@ -899,7 +935,17 @@
    "kitchen": "Mon-Thu 4p-9p; Fri 4p-10p; Sat 12p-10p; Sun 12p-9p",
    "kitchenNote": "Kitchen hours from venue site. (Venue site thecubroom.com, checked 2026-11-01)",
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Thu",
+     "text": "Enjoy our Thursday drink specials featuring $6 Well Drinks, House Wine and Beer from 3 to 8",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website thecubroom.com/events",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -932,7 +978,39 @@
     ]
    },
    "dj": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "9 to 1am",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.thecubroom.com/events",
+        "date": "2026-11-01",
+        "quote": "Saturday Dance Party with DJ DWAYNE"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.thecubroom.com/events",
+        "date": "2026-11-01",
+        "quote": "Join us this weekend at the Cub Room's bar for a night of music with DJ Dwayne | Every Saturday 9 to 1am!"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.thecubroom.com/events",
+        "date": "2026-11-01",
+        "quote": "Saturday Dance Party With DJ Huan"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [
      "Restaurantji review/summary mentions dj"
@@ -952,7 +1030,7 @@
     "facebookMirror": "https://www.foodyas.com/US/New-Hope/114944711653831/The-Cub-Room-in-New-Hope",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-11",
-    "website": null
+    "website": "http://www.thecubroom.com/"
    }
   },
   {
@@ -1422,7 +1500,29 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.wildgingerpa.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://wildgingerpa.com/",
+        "quote": "kup at the counter | Order from either location | Order | Stay a while | Lunch, dinner or date night in a warm dining room. | Walk-ins welcome | Directions | Open 7 days | Lunch through dinn",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1472,7 +1572,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://www.havananewhope.com/menu"
   },
   {
    "id": "pa-cocknbull-lahaska",
@@ -1497,7 +1598,30 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/5605662728 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://cocknbullpv.com/: \"ead was amazing! | All Google Reviews | Hours | Sun-Thu: 11:00 am – 8:30 pm | Fri & Sat: 11:00 am – 9:30 pm | Located\" (checked 2026-11-02)",
    "county": "Bucks",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-12",
+      "quote": "2026 Breakfast Bingo | October 8 November 12 9:00 am – 11:00 am | Reserve your spot | Join our Breakfast >> Join our Breakfast Bingo Club at the Cock ‘n Bull Restaurant in beautiful Peddler’s Village",
+      "url": "https://cocknbullpv.com/dining-events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "2026 Breakfast Bingo | October 8 November 12 9:00 am – 11:00 am",
+      "url": "https://cocknbullpv.com/dining-events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "10 rounds of BINGO",
+      "url": "https://cocknbullpv.com/dining-events/"
+     }
+    ]
+   }
   }
  ],
  "counties": [

@@ -231,7 +231,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/2051083911795151/Emperors-Jacksonville",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.emperorsjax.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://emperorsjax.com/",
+        "quote": "handle all events from | bachelor parties | , corporate event parties, divorce parties to date night. You’re always in good hands at Emperors Jacksonville. Let us make your next event a BIG",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -811,7 +833,24 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon-Fri",
+     "text": "All hours spent at Mojo are happy ones, but the Happiest of Hours occur Monday-Friday from 3-6 where we off $1 OFF our beer and wine",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website mojobbq.com/mojo-bar-b-que",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "We love being a place for families to gather, so on Wednesdays: Kids eat free",
+     "tags": [],
+     "src": "Venue website mojobbq.com/mojo-bar-b-que",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -825,7 +864,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/464365580082/MOJO-Bar-B-Que%2C-A-Southern-Blues-Kitchen",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://www.mojobbq.com/"
    }
   },
   {
@@ -900,7 +939,7 @@
    "address": "1402 San Marco Blvd, Jacksonville",
    "state": "FL",
    "zip": "32207",
-   "phone": null,
+   "phone": "(904) 337-1669",
    "lat": 30.312,
    "lng": -81.6608,
    "priceText": "$$ (Facebook page)",
@@ -911,7 +950,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Five days a week, the bar runs half-price on every specialty cocktail, double pours on single-liquor drinks, and $2 off beer, wine and seltzers",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website papaskandc.com/drinks",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -924,7 +974,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/1121211294405011/Papa%27s-Kitchen-%2B-Cocktails",
     "fbPostsSeen": 2,
     "fbNewestPost": "2026-10-10",
-    "website": null
+    "website": "http://papaskandc.com/"
    },
    "trivia": {
     "nights": [
@@ -977,7 +1027,48 @@
       "url": "https://papaskandc.com/events"
      }
     ]
-   }
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://papaskandc.com/",
+        "quote": "ails | Menu | Cocktails & Happy Hour | Events | Order Online | San Marco · Jacksonville | Date night meets game day. Real cocktails, real food, an earned laugh over a chased trend. | Order O",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Live music, trivia, karaoke and one-offs | FRI · AUG 28",
+      "url": "https://papaskandc.com/events"
+     },
+     {
+      "date": "2026-08-29",
+      "quote": "Friday night on the stage. | SAT · AUG 29 | LAST NIGHT | >> Karaoke Night | 8:30 PM – 11:00 PM",
+      "url": "https://papaskandc.com/events"
+     }
+    ]
+   },
+   "phoneSource": "Venue website papaskandc.com, checked 2026-11-02"
   },
   {
    "id": "fl-pepes-hacienda-and-restaurant",
@@ -1608,9 +1699,22 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/10150117349470387/Taverna-San-Marco",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-14",
-    "website": null
+    "website": "http://taverna.restaurant.com/"
    },
-   "phoneSource": "OpenStreetMap node/6122341619 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/6122341619 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Experience a unique fusion of Indian, Mexican, and American cuisine, handcrafted cocktails from our full bar and electrifying DJ nights spanning Bollywood, Latin, and Afrobeats",
+      "url": "https://taverna.restaurant.com/locations/all-go-rhythms"
+     }
+    ]
+   }
   },
   {
    "id": "fl-the-bearded-pig-bbq",

@@ -1003,8 +1003,25 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Join us every Monday-Friday from 4-7 for Happy Hour",
+     "tags": [],
+     "src": "Venue website tonicrestaurantdc.com/washington-foggy-bottom-tonic-at-quigleys-bar-and-restaurant-events",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Join us every Wednesday for $25 bottles of wine",
+     "tags": [],
+     "src": "Venue website tonicrestaurantdc.com/washington-foggy-bottom-tonic-at-quigleys-bar-and-restaurant-events",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -1017,7 +1034,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./320167348035573/Tonic-at-Quigley%E2%80%99s-Bar-and-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-14",
-    "website": null
+    "website": "http://tonicrestaurantdc.com/"
    },
    "trivia": {
     "nights": [
@@ -1053,6 +1070,50 @@
      {
       "date": "2026-11-01",
       "quote": " Join us every Monday for our Trivia night, winning team gets a $50 Tonic gift card",
+      "url": "https://tonicrestaurantdc.com/washington-foggy-bottom-tonic-at-quigleys-bar-and-restaurant-events"
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "07:30 PM - 10:30 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-06",
+      "datedLastSeen": "2026-11-06",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://tonicrestaurantdc.com/washington-foggy-bottom-tonic-at-quigleys-bar-and-restaurant-events",
+        "date": "2026-11-06",
+        "quote": "Karaoke Night | Friday November 6th"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://tonicrestaurantdc.com/washington-foggy-bottom-tonic-at-quigleys-bar-and-restaurant-events",
+        "date": "2026-11-01",
+        "quote": "Every Friday is Karaoke Night at Tonic | 07:30 PM - 10:30 PM"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://tonicrestaurantdc.com/washington-foggy-bottom-tonic-at-quigleys-bar-and-restaurant-events",
+        "date": "2026-11-01",
+        "quote": "Every Friday is Karaoke Night at Tonic"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke Night",
       "url": "https://tonicrestaurantdc.com/washington-foggy-bottom-tonic-at-quigleys-bar-and-restaurant-events"
      }
     ]

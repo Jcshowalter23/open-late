@@ -106,7 +106,24 @@
    "hoursNote": "Facebook shows only Sat 11am - 3pm for that day (may be a lunch/brunch-only listing); call ahead. Restaurantji (updated 2026-10-31) lists different hours: Mon-Fri 4p-10p; Sat-Sun 11a-3p,5p-10p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "50 Ocean is featuring happy hour seven days a week from 4pm-6pm",
+     "tags": [],
+     "src": "Venue website 50ocean.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Extended Happy Hour 4pm - 7pm",
+     "tags": [],
+     "src": "Venue website 50ocean.com/features",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -142,7 +159,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Delray-Beach/194243693981894/50-Ocean",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://www.50ocean.com/"
    },
    "conflicts": [
     {
@@ -873,7 +890,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Delray-Beach/140550566023445/Brule-Gastro-Kitchen",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.brulebistro.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://brulegastrokitchen.com/",
+        "quote": "ct Us | Gift Cards | An Ever Evolving Restaurant Concept | Brulé, a favorite hot spot for locals and visitors alike, is a casual and chic restaurant located in the Pineapple Grove neighb",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://brulegastrokitchen.com/",
+        "quote": "p for locals and visitors alike. Whether you’re enjoying a weekend brunch, indulging in a romantic dinner, or meeting friends for happy hour, this Delray Beach restaurant delivers a memora",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1061,8 +1114,28 @@
    "hoursNote": "Restaurantji (updated 2026-10-30) lists different hours: Mon-Thu 7a-9p; Fri-Sat 7a-9:30p; Sun 7a-9p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour Small Plates & Drinks at the bar from 3 PM-6 PM",
+     "tags": [],
+     "src": "Venue website caffelunarosa.com/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "50% off on house drinks, beers, and wine",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website caffelunarosa.com/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -1075,7 +1148,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Delray-Beach/313879066430/Caffe-Luna-Rosa",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-19",
-    "website": null
+    "website": "http://www.caffelunarosa.com/"
    },
    "conflicts": [
     {
@@ -1128,7 +1201,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Delray-Beach/494186537784475/CASA-L%E2%80%99ACQUA-Ristorante-Italiano",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://www.lacquaristoranteitaliano.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.lacquaristoranteitaliano.com/",
+        "quote": "(current slide) | Slide 5 | Slide 5 (current slide) | Slide 6 | Slide 6 (current slide) | Fine dining Italian restaurant with an excellent menu of delicious appetizers, traditional Italian pa",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2911,7 +3006,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Delray-Beach/149989610969/La-Cigale-Taste-of-the-Mediterranean",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-07-07",
-    "website": null
+    "website": "http://www.lacigaledelray.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://lacigaledelray.com/",
+        "quote": "CORKAGE | NIGHT | Free Corkage every Wednesday. Bring your own bottle. | LIVE | MUSIC | Live music every Saturday night while you dine with us. | Summer special menu | Happy hour | $25 MENU / 2•",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -3593,7 +3710,7 @@
    "address": "42 se 2nd Ave, Delray Beach",
    "state": "FL",
    "zip": "33444",
-   "phone": null,
+   "phone": "(561) 278-6633",
    "lat": 26.4601,
    "lng": -80.0712,
    "website": "http://oliobistro.com/",
@@ -3602,7 +3719,17 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Daily",
+     "text": "Half-off of appetizers, cocktails, wine and beer at the bar, Monday through Sunday from 4:00pm to 6:30pm",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website oliobistro.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -3613,8 +3740,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Delray-Beach/127465347124617/Oliodelray",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://oliobistro.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://oliobistro.com/",
+        "quote": "rom all over the world. | An electic menu fused with | the timeless charm of Delray. | An upscale bar with a neighborhood feel. | Tucked away from the mainstream of busy Atlantic Avenue i",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website oliobistro.com, checked 2026-11-02"
   },
   {
    "id": "fl-paddy-mcgees-downtown-delray-beach",
@@ -4359,7 +4509,7 @@
    "address": "131 E Atlantic Ave, Delray Beach",
    "state": "FL",
    "zip": "33444",
-   "phone": null,
+   "phone": "(561) 272-5540",
    "lat": 26.4619,
    "lng": -80.0713,
    "priceText": "$$ (Facebook page)",
@@ -4381,8 +4531,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Delray-Beach/1907850099297464/SAZIO-in-Delray-Beach",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-19",
-    "website": null
-   }
+    "website": "http://www.sazio.com/"
+   },
+   "phoneSource": "Venue website sazio.com, checked 2026-11-02"
   },
   {
    "id": "fl-se-or-burrito",
@@ -5230,7 +5381,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour · Mon–Fri 4–7pm",
+     "tags": [],
+     "src": "Venue website standardflorida.com/boca-raton.html",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -5242,7 +5402,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Delray-Beach/424570304072333/The-Standard-Delray",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-20",
-    "website": null
+    "website": "http://standardflorida.com/"
    }
   },
   {
@@ -6137,7 +6297,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/5315760821 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Palm Beach",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://pizza-rustica.com/menu-pizza-rustica/"
   }
  ],
  "type": "city",

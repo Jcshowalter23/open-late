@@ -12362,7 +12362,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "HAPPY HOUR Monday-Friday 4-7pm",
+     "tags": [],
+     "src": "Venue website districttaphouse.com/new-york-garment-district-district-tap-house-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -12404,7 +12413,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.districttaphouse.com/"
    }
   },
   {
@@ -31412,7 +31421,29 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.osteria57.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://osteria57.com/",
+        "quote": "iful location has 3 cozy rooms, 2 bars and one private outdoor table for an unforgettable romantic brunch. Located in the heart of Greenwich Village, on 10th street right off 6th avenue, t",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -37855,50 +37886,7 @@
     "fbNewestPost": null,
     "website": "https://www.silvana-nyc.com/"
    },
-   "trivia": {
-    "nights": [
-     {
-      "day": "Wed",
-      "cadence": "weekly",
-      "start": "8pm - 10pm",
-      "basis": "posted on 3 different Weds",
-      "lastSeen": "2026-12-16",
-      "datedLastSeen": "2026-12-16",
-      "postsSeen": 3,
-      "sources": [
-       {
-        "src": "venue website event calendar",
-        "url": "https://www.silvana-nyc.com/",
-        "date": "2026-12-16",
-        "quote": "Dec 16, 2026 | 8pm - 10pm | LEARN MORE | >> Trivia Night"
-       },
-       {
-        "src": "venue website event calendar",
-        "url": "https://www.silvana-nyc.com/",
-        "date": "2026-11-18",
-        "quote": "Nov 18, 2026 | 8pm - 10pm | LEARN MORE | >> Trivia Night"
-       },
-       {
-        "src": "venue website event calendar",
-        "url": "https://www.silvana-nyc.com/",
-        "date": "2026-11-04",
-        "quote": "Nov 4, 2026 | 10pm-11pm | LEARN MORE | >> Trivia Night"
-       }
-      ],
-      "confidence": "high"
-     }
-    ],
-    "stale": [],
-    "hints": [],
-    "conflicts": [],
-    "oneoffs": [
-     {
-      "date": "2026-11-27",
-      "quote": "Nov 27, 2026 | 7pm - 12am | LEARN MORE | >> Trivia Night",
-      "url": "https://www.silvana-nyc.com/"
-     }
-    ]
-   },
+   "trivia": null,
    "menu": "https://www.silvana-nyc.com/foodmenu"
   },
   {
@@ -43298,7 +43286,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$20 Buckets — Standard Beers $25 Buckets — Premium Beers $30 Buckets — Canned Cocktails",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website theginmillnyc.com/menus",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-08-26) (checked 2026-11-02)",
@@ -43374,7 +43373,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://theginmill.eatdrinkandbemerry.com"
    }
   },
   {
@@ -43427,7 +43426,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$2 off beer, wine & house drinks",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website thegraftonnyc.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from Restaurantji listing (updated 2026-09-29) (checked 2026-11-02)",
@@ -43466,7 +43476,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.thegraftonnyc.com/"
    }
   },
   {
@@ -45439,8 +45449,28 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "All Day Happy Hour",
+     "tags": [],
+     "src": "Venue website thestumbleinnnyc.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Half Price Draft Pitchers",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website thestumbleinnnyc.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -45475,7 +45505,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://thestumbleinn.eatdrinkandbemerry.com/"
    }
   },
   {
@@ -54455,69 +54485,6 @@
       "url": "https://www.misslilys.com/location/miss-lilys-negril/"
      }
     ]
-   },
-   "menu": "https://www.misslilys.com/soho"
-  },
-  {
-   "id": "ny-230-fifth-new-york",
-   "name": "230 Fifth",
-   "cuisine": "American",
-   "address": "230 5th Avenue, New York",
-   "state": "NY",
-   "zip": "10001",
-   "phone": "(212) 246-1000",
-   "phoneSource": "OpenStreetMap node/4214275589 phone tag (map data 2026-10-31), checked 2026-11-02",
-   "lat": 40.743941,
-   "lng": -73.988134,
-   "website": "https://230-fifth.com/",
-   "websiteSource": "OpenStreetMap node/4214275589 website tag (map data 2026-10-31), checked 2026-11-02",
-   "hours": "Daily 2p-4a",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Bar scene"
-   ],
-   "source": "hours from OpenStreetMap node/4214275589 opening_hours tag (map data 2026-10-31) (checked 2026-11-02)",
-   "county": "New York",
-   "addedBy": "sweep-osm",
-   "crowdType": {
-    "labels": [
-     "Date night / upscale"
-    ],
-    "summary": "A date-night / upscale spot.",
-    "confidence": "medium",
-    "details": [
-     {
-      "label": "Date night / upscale",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "venue",
-        "src": "venue's website",
-        "url": "https://230-fifth.com/",
-        "quote": "atherings and special occasions. Whether it’s a birthday celebration, corporate event, or romantic rendezvous, our dedicated spaces provide the perfect backdrop for memorable moments share",
-        "self": true
-       }
-      ]
-     }
-    ]
-   },
-   "dj": {
-    "nights": [],
-    "stale": [],
-    "hints": [],
-    "conflicts": [],
-    "oneoffs": [
-     {
-      "date": "2026-11-01",
-      "quote": " Offering multiple indoor and outdoor bars and event spaces , live DJ’s , themed events,",
-      "url": "https://230-fifth.com/"
-     }
-    ]
    }
   },
   {
@@ -54739,33 +54706,6 @@
    }
   },
   {
-   "id": "ny-gallow-green-rooftop-bar-new-york",
-   "name": "Gallow Green Rooftop Bar",
-   "cuisine": "Bar",
-   "address": "1619 2nd Ave, New York",
-   "state": "NY",
-   "zip": null,
-   "phone": null,
-   "phoneSource": null,
-   "lat": 40.750772,
-   "lng": -74.004079,
-   "website": null,
-   "websiteSource": null,
-   "hours": "Mon-Thu 5p-11p; Fri-Sat 4p-1a; Sun 11:30a-11p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Bar scene"
-   ],
-   "source": "hours from OpenStreetMap node/4423874390 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); active on-premise license: NY SLA Current Active Licenses (data.ny.gov 9s3h-dpkz, updated 2026-10-28), address from license",
-   "county": "New York",
-   "addedBy": "sweep-osm"
-  },
-  {
    "id": "ny-fresh-salt-new-york",
    "name": "Fresh Salt",
    "cuisine": "Restaurant",
@@ -54886,7 +54826,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Free Piano Lessons with Richard Clements & Happy Hour Jam",
+     "tags": [],
+     "src": "Venue website smallslive.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -56070,8 +56019,8 @@
    "phoneSource": "OpenStreetMap node/5762582554 phone tag (map data 2026-10-31), checked 2026-11-02",
    "lat": 40.742624,
    "lng": -73.996967,
-   "website": null,
-   "websiteSource": null,
+   "website": "https://www.villagevanguard.com",
+   "websiteSource": "OpenStreetMap node/4216669489 website tag (map data 2026-10-31), checked 2026-11-02",
    "hours": "Daily 8p-12:30a",
    "hoursNote": null,
    "kitchen": null,
@@ -58763,31 +58712,6 @@
    "menu": "https://highwaterrooftop.com/menu/"
   },
   {
-   "id": "ny-little-italy-pizza-new-york",
-   "name": "Little Italy Pizza",
-   "cuisine": "Pizza",
-   "address": "958 3rd Avenue, New York",
-   "state": "NY",
-   "zip": "10022",
-   "phone": "(212) 355-3434",
-   "phoneSource": "OpenStreetMap node/10920449810 phone tag (map data 2026-10-31), checked 2026-11-02",
-   "lat": 40.76059,
-   "lng": -73.967512,
-   "website": "https://www.littleitalypizza.com",
-   "websiteSource": "OpenStreetMap node/10920449810 website tag (map data 2026-10-31), checked 2026-11-02",
-   "hours": "Daily 10a-3a",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from OpenStreetMap node/10920449810 opening_hours tag (map data 2026-10-31) (checked 2026-11-02)",
-   "county": "New York",
-   "addedBy": "sweep-osm"
-  },
-  {
    "id": "ny-uptown-garrison-new-york",
    "name": "Uptown Garrison",
    "cuisine": "American",
@@ -59546,12 +59470,12 @@
    "address": "67 Nassau St, New York",
    "state": "NY",
    "zip": null,
-   "phone": null,
-   "phoneSource": null,
+   "phone": "(646) 799-9911",
+   "phoneSource": "OpenStreetMap node/11084146197 phone tag (map data 2026-10-31), checked 2026-11-02",
    "lat": 40.851537,
    "lng": -73.92817,
-   "website": null,
-   "websiteSource": null,
+   "website": "https://www.sushinco.com/",
+   "websiteSource": "OpenStreetMap node/11084146197 website tag (map data 2026-10-31), checked 2026-11-02",
    "hours": "Mon-Thu 11:30a-9p; Fri 11:30a-3p; Sat 8p-11:30p; Sun 11:30a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -59767,56 +59691,6 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/12652605561 opening_hours tag (map data 2026-10-31; last checked on the map 2025-03-11) (checked 2026-11-02)",
-   "county": "New York",
-   "addedBy": "sweep-osm"
-  },
-  {
-   "id": "ny-dim-sum-palace-new-york",
-   "name": "Dim Sum Palace",
-   "cuisine": "Chinese",
-   "address": "334 W 46th St, New York",
-   "state": "NY",
-   "zip": "10036",
-   "phone": "(646) 861-1910",
-   "phoneSource": "OpenStreetMap node/12662586701 phone tag (map data 2026-10-31), checked 2026-11-02",
-   "lat": 40.760227,
-   "lng": -73.989311,
-   "website": "https://dimsumpalace.com/",
-   "websiteSource": "OpenStreetMap node/12662586701 website tag (map data 2026-10-31), checked 2026-11-02",
-   "hours": "Mon-Fri 11a-1:30a; Sat-Sun 10:30a-1:30p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from OpenStreetMap node/12662586701 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); active on-premise license: NY SLA Current Active Licenses (data.ny.gov 9s3h-dpkz, updated 2026-10-28), address from license",
-   "county": "New York",
-   "addedBy": "sweep-osm"
-  },
-  {
-   "id": "ny-sentir-vegan-mexican-restaurant-new-york",
-   "name": "Sentir Vegan Mexican Restaurant",
-   "cuisine": "Mexican",
-   "address": "37 West 19th Street, New York",
-   "state": "NY",
-   "zip": "10011",
-   "phone": "(212) 871-3171",
-   "phoneSource": "OpenStreetMap node/12662627901 phone tag (map data 2026-10-31), checked 2026-11-02",
-   "lat": 40.740027,
-   "lng": -73.993173,
-   "website": "https://sentirnyc.com/",
-   "websiteSource": "OpenStreetMap node/12662627901 website tag (map data 2026-10-31), checked 2026-11-02",
-   "hours": "Mon-Thu 4:30p-10:30p; Fri 4:30p-11:30p; Sat 11:30a-11:30p; Sun 11:30a-10:30p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from OpenStreetMap node/12662627901 opening_hours tag (map data 2026-10-31) (checked 2026-11-02)",
    "county": "New York",
    "addedBy": "sweep-osm"
   },
@@ -60089,31 +59963,6 @@
    "county": "New York",
    "addedBy": "sweep-osm",
    "menu": "https://www.albertsbar.com/menus/"
-  },
-  {
-   "id": "ny-leitao-new-york",
-   "name": "Leitao",
-   "cuisine": "Restaurant",
-   "address": "547 Hudson Street, New York",
-   "state": "NY",
-   "zip": "10014",
-   "phone": null,
-   "phoneSource": null,
-   "lat": 40.734947,
-   "lng": -74.006279,
-   "website": "https://leitaonyc.com/",
-   "websiteSource": "OpenStreetMap node/13375145201 website tag (map data 2026-10-31), checked 2026-11-02",
-   "hours": "Mon-Thu 5p-12a; Fri 5p-2a; Sat 12:30p-2a; Sun 12:30p-12a",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from OpenStreetMap node/13375145201 opening_hours tag (map data 2026-10-31) (checked 2026-11-02)",
-   "county": "New York",
-   "addedBy": "sweep-osm"
   },
   {
    "id": "ny-chinelos-ii-new-york",
@@ -60706,7 +60555,30 @@
    "source": "hours from OpenStreetMap way/278053589 opening_hours tag (map data 2026-10-31) (checked 2026-11-02)",
    "county": "New York",
    "addedBy": "sweep-osm",
-   "menu": "https://frauncestavern.com/new-york-fidi-battery-park-downtown-lower-east-side-tribeca-city-hall-south-street-seaport-fraunces-tavern-menus-whiskey-bar"
+   "menu": "https://frauncestavern.com/new-york-fidi-battery-park-downtown-lower-east-side-tribeca-city-hall-south-street-seaport-fraunces-tavern-menus-whiskey-bar",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-07",
+      "quote": "NIGHT PERFORMANCE | High-energy performance filled with sing-along favorites from past and present eras | Saturday November 7th",
+      "url": "https://frauncestavern.com/new-york-fidi-battery-park-downtown-lower-east-side-tribeca-city-hall-south-street-seaport-fraunces-tavern-live-music"
+     },
+     {
+      "date": "2026-11-06",
+      "quote": "NIGHT PERFORMANCE | High-energy performance filled with sing-along favorites from past and present eras | Friday November 6th",
+      "url": "https://frauncestavern.com/new-york-fidi-battery-park-downtown-lower-east-side-tribeca-city-hall-south-street-seaport-fraunces-tavern-live-music"
+     },
+     {
+      "date": "2026-11-05",
+      "quote": "NIGHT PERFORMANCE | High-energy performance filled with sing-along favorites from past and present eras | Thursday November 5th",
+      "url": "https://frauncestavern.com/new-york-fidi-battery-park-downtown-lower-east-side-tribeca-city-hall-south-street-seaport-fraunces-tavern-live-music"
+     }
+    ]
+   }
   },
   {
    "id": "ny-merrion-square-pub-new-york",
@@ -61026,7 +60898,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/6233982619 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); venue website loads over https (https://chezjosephinenyc.com/), rechecked 2026-11-02 (earlier drop was a proxy failure on the http:// address)",
    "county": "New York",
-   "addedBy": "refresh-restore"
+   "addedBy": "refresh-restore",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://chezjosephinenyc.com/",
+        "quote": "Chez Josephine: Romantic French Dining & Live Piano in NYC | 0 | Skip to Content | Home | Our Story | Menu | Photo",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "ny-chocolat-restaurant-lounge-new-york",
@@ -61170,7 +61064,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour & $15 Lunch in NoMad",
+     "tags": [],
+     "src": "Venue website hillcountry.com/happy-hour-lunch",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -61345,7 +61248,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy Hour Menu (4-7 Daily)",
+     "tags": [],
+     "src": "Venue website harvestkitchennyc.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -61426,7 +61338,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/4637936849 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://pierrelotiwinebar.com/: \"tions | Stay in touch | Location | 53 Irving Place | New York, NY | 10003 | Hours | Mon | 3:00 PM - 11:00 PM | Tue, We\" (checked 2026-11-02)",
    "county": "New York",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://pierrelotiwinebar.com/",
+        "quote": "the right glow, the right pace, and a room that makes people want to stay awhile. With a romantic, cozy feel and classic wine bar character, this is a natural setting for milestone gather",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "ny-brasserie-cognac-am-ricain-new-york",
@@ -61476,7 +61410,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/5978556771 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://www.rosellaspizzany.com/: \"nt | Sparkle Icon | Free Delivery | Rosella's Pizzeria | open now | Shop is | open | now | 10:00 AM-9:30 PM | Shop ad\" (checked 2026-11-02)",
    "county": "New York",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.rosellaspizzany.com/",
+        "quote": ", calzones, and more. Get Grandma's Eggplant Pizza Slice to see why it's so well-loved by locals and visitors alike. One taste and you'll see why it's so popular. | Add to your meal with",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "ny-top-thai-greenwich-new-york",
@@ -61601,7 +61557,43 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/7844677285 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://pokebowlny.com/locations/union-square/: \"Square station. | What are Poke Bowl Union Square's hours? | We’re open Monday to Saturday 11:00 AM–10:00 PM, and Sund\" (checked 2026-11-02)",
    "county": "New York",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://pokebowlny.com/locations/union-square/",
+        "quote": "vely Union Square, this Poke Bowl NY location provides a delightful respite for shoppers, locals, and visitors in search of a refreshing and satisfying dining experience to have lunch ne",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://pokebowlny.com/locations/union-square/",
+        "quote": "ar Union Square, and bowls are quick enough to grab between classes. | Is your restaurant family-friendly? | Yes. We provide a casual space and various customizable food options, perfect for fami",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "ny-blue-willow-new-york",
@@ -61826,7 +61818,42 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/11506163553 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://robertnyc.com/: \"| DINNER: | Sunday - Thursday: 4pm - 10pm, | *Last Reservation 8:30pm | Friday - Saturday | 4pm - 11pm, | *Last \" (checked 2026-11-02)",
    "county": "New York",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://robertnyc.com/",
+        "quote": "urant offering breathtaking views of Central Park and Columbus Circle. Elegant, sexy, and romantic, Robert celebrates design, beauty and culinary delights. Dine on a menu created by Chef A",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "^t#\bv1 L VWM]Dj\u000e0saX G",
+      "url": "https://robertnyc.com/wp-content/uploads/2025/06/Robert-Corporate-Brochure.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "ny-zizis-wine-bar-new-york",
@@ -62052,6 +62079,217 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/14170564169 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://www.auntjakesnyc.com/: \"ge | 10 New Street, Huntington, NY, 11743 | Hours | Contact Us | New York City | ​ | Mon - Fri: 5pm-10pm | ​​Sat -\" (checked 2026-11-02)",
+   "county": "New York",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.auntjakesnyc.com/",
+        "quote": "bout Us | Locations | NYC Location | Huntington Location | Huntington Brunch | Huntington Date Night | Huntington Private Events | Huntington Pasta Class | Menus | Pasta Class | Private Even",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ny-230-fifth-new-york",
+   "name": "230 Fifth",
+   "cuisine": "American",
+   "address": "230 5th Avenue, New York",
+   "state": "NY",
+   "zip": "10001",
+   "phone": "(212) 246-1000",
+   "phoneSource": "OpenStreetMap node/4214275589 phone tag (map data 2026-10-31), checked 2026-11-02",
+   "lat": 40.743941,
+   "lng": -73.988134,
+   "website": "https://230-fifth.com/",
+   "websiteSource": "OpenStreetMap node/4214275589 website tag (map data 2026-10-31), checked 2026-11-02",
+   "hours": "Daily 2p-4a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/4214275589 opening_hours tag (map data 2026-10-31) (checked 2026-11-02)",
+   "county": "New York",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://230-fifth.com/",
+        "quote": "atherings and special occasions. Whether it’s a birthday celebration, corporate event, or romantic rendezvous, our dedicated spaces provide the perfect backdrop for memorable moments share",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Offering multiple indoor and outdoor bars and event spaces , live DJ’s , themed events,",
+      "url": "https://230-fifth.com/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ny-gallow-green-rooftop-bar-new-york",
+   "name": "Gallow Green Rooftop Bar",
+   "cuisine": "Bar",
+   "address": "1619 2nd Ave, New York",
+   "state": "NY",
+   "zip": null,
+   "phone": null,
+   "phoneSource": null,
+   "lat": 40.750772,
+   "lng": -74.004079,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Mon-Thu 5p-11p; Fri-Sat 4p-1a; Sun 11:30a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/4423874390 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); active on-premise license: NY SLA Current Active Licenses (data.ny.gov 9s3h-dpkz, updated 2026-10-28), address from license",
+   "county": "New York",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "ny-little-italy-pizza-new-york",
+   "name": "Little Italy Pizza",
+   "cuisine": "Pizza",
+   "address": "958 3rd Avenue, New York",
+   "state": "NY",
+   "zip": "10022",
+   "phone": "(212) 355-3434",
+   "phoneSource": "OpenStreetMap node/10920449810 phone tag (map data 2026-10-31), checked 2026-11-02",
+   "lat": 40.76059,
+   "lng": -73.967512,
+   "website": "https://www.littleitalypizza.com",
+   "websiteSource": "OpenStreetMap node/10920449810 website tag (map data 2026-10-31), checked 2026-11-02",
+   "hours": "Daily 10a-3a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/10920449810 opening_hours tag (map data 2026-10-31) (checked 2026-11-02)",
+   "county": "New York",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "ny-dim-sum-palace-new-york",
+   "name": "Dim Sum Palace",
+   "cuisine": "Chinese",
+   "address": "334 W 46th St, New York",
+   "state": "NY",
+   "zip": "10036",
+   "phone": "(646) 861-1910",
+   "phoneSource": "OpenStreetMap node/12662586701 phone tag (map data 2026-10-31), checked 2026-11-02",
+   "lat": 40.760227,
+   "lng": -73.989311,
+   "website": "https://dimsumpalace.com/",
+   "websiteSource": "OpenStreetMap node/12662586701 website tag (map data 2026-10-31), checked 2026-11-02",
+   "hours": "Mon-Fri 11a-1:30a; Sat-Sun 10:30a-1:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/12662586701 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); active on-premise license: NY SLA Current Active Licenses (data.ny.gov 9s3h-dpkz, updated 2026-10-28), address from license",
+   "county": "New York",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "ny-sentir-vegan-mexican-restaurant-new-york",
+   "name": "Sentir Vegan Mexican Restaurant",
+   "cuisine": "Mexican",
+   "address": "37 West 19th Street, New York",
+   "state": "NY",
+   "zip": "10011",
+   "phone": "(212) 871-3171",
+   "phoneSource": "OpenStreetMap node/12662627901 phone tag (map data 2026-10-31), checked 2026-11-02",
+   "lat": 40.740027,
+   "lng": -73.993173,
+   "website": "https://sentirnyc.com/",
+   "websiteSource": "OpenStreetMap node/12662627901 website tag (map data 2026-10-31), checked 2026-11-02",
+   "hours": "Mon-Thu 4:30p-10:30p; Fri 4:30p-11:30p; Sat 11:30a-11:30p; Sun 11:30a-10:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/12662627901 opening_hours tag (map data 2026-10-31) (checked 2026-11-02)",
+   "county": "New York",
+   "addedBy": "sweep-osm"
+  },
+  {
+   "id": "ny-leitao-new-york",
+   "name": "Leitao",
+   "cuisine": "Restaurant",
+   "address": "547 Hudson Street, New York",
+   "state": "NY",
+   "zip": "10014",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 40.734947,
+   "lng": -74.006279,
+   "website": "https://leitaonyc.com/",
+   "websiteSource": "OpenStreetMap node/13375145201 website tag (map data 2026-10-31), checked 2026-11-02",
+   "hours": "Mon-Thu 5p-12a; Fri 5p-2a; Sat 12:30p-2a; Sun 12:30p-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/13375145201 opening_hours tag (map data 2026-10-31) (checked 2026-11-02)",
    "county": "New York",
    "addedBy": "sweep-osm"
   }

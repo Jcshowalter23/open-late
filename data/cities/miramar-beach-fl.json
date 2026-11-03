@@ -370,7 +370,32 @@
     ]
    },
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "4PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-05",
+      "datedLastSeen": "2026-11-05",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://ajsgrayton.com/santa-rosa-beach-grayton-beach-aj-s-grayton-beach-events-and-music",
+        "date": "2026-11-05",
+        "quote": "Thursday November 5th | Every Thursday | Live Music Thursday | 4PM : Jim Couch - 9PM : >> 4PM : Jim Couch - 9PM : Karaoke | 04:00 PM - 12:00 AM"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://ajsgrayton.com/santa-rosa-beach-grayton-beach-aj-s-grayton-beach-events-and-music",
+        "date": "2026-11-01",
+        "quote": "Live Music Thursday 4PM : Jim Couch - 9PM : Karaoke"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
     "stale": [],
     "hints": [
      "Restaurantji review/summary mentions karaoke"
@@ -390,7 +415,27 @@
     ]
    },
    "dj": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "9PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://ajsgrayton.com/santa-rosa-beach-grayton-beach-aj-s-grayton-beach-events-and-music",
+        "date": "2026-11-01",
+        "quote": "4PM : Bryan Bludworth - 8PM: DJ Charles - 9PM : True Soul | Every Friday | 04:00 PM - 02:00 AM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -503,7 +548,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour · 3–6 PM",
+     "tags": [],
+     "src": "Venue website ambrosia30a.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -539,7 +593,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Inlet-Beach/110588504995256/Ambrosia",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-20",
-    "website": null
+    "website": "http://ambrosia30a.com/"
    }
   },
   {
@@ -1306,7 +1360,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Santa-Rosa-Beach/218055583629/Borago",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-03-01",
-    "website": null
+    "website": "http://www.boragorestaurant.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://boragorestaurant.com/",
+        "quote": "gplant lasagna offers a nod to veggie lovers. | Borago’s Italian menu is a favorite among locals, and it’s consistently voted one of 30A’s | hottest spots for Italian cuisine, | for grea",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -3631,7 +3707,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Mimmo’s 30A Wed Jan 7 Sicilian Wine Dinner Wednesday January 7th at 6:00pm$150 Per Person – (All Inclusive Price) Make a Reservation You are cordially invited to Mimmo’s 30A for an evening inspired by Sicily – where rich tradition, vibrant flavors",
+     "tags": [],
+     "src": "Venue website mimmos.com/category/happenings",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events"
@@ -3644,7 +3728,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Santa-Rosa-Beach/100846629469100/Mimmos-30A",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://www.mimmos.com/"
    },
    "conflicts": [
     {
@@ -3660,7 +3744,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://mimmos.com/",
+        "quote": "was not a mistake. My family had some other great dishes. Highly recommend this spot and bring the family too! Great night out. Amazing food, service, and beautiful interior design to enjoy!” | M",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-mr-gyro-hero",
@@ -4465,7 +4571,16 @@
    "hoursNote": "Facebook shows only Wed 12pm - 3pm for that day (may be a lunch/brunch-only listing); call ahead. Restaurantji (updated 2026-10-27) lists different hours: Mon closed; Tue 4p-10p; Wed-Fri 12p-3p,4p-10p; Sat 4p-10p; Sun closed. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Tue-Sat",
+     "text": "Open for Happy Hour Tues-Sat 4-5pm – Dinner from 5-9pm and",
+     "tags": [],
+     "src": "Venue website reddspub.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -4479,7 +4594,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Santa-Rosa-Beach/153309311391792/Redds--Pub",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-22",
-    "website": null
+    "website": "http://reddspub.com/"
    },
    "conflicts": [
     {
@@ -4570,6 +4685,60 @@
       "date": "2026-11-01",
       "quote": "I attended bingo night twice with my friend",
       "url": "https://reddspub.com/"
+     }
+    ]
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Live music fans"
+    ],
+    "summary": "A locals-and-regulars spot; known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://reddspub.com/",
+        "quote": "on there. Only 2 workers with a full house. Other people sitting at the bar said they are regulars and LOVE the place. Maybe we just struck a bad night. I think this would be a really fun",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://reddspub.com/",
+        "quote": "Fun Photo Gallery | Find The Best Night Out | Map | Location Map | Song list | Events | Live Music Venues Santa Rosa Beach – Redds Pub | What is the best place Santa Rosa Beach for live music?”",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Had drinks, enjoyed the karaoke",
+      "url": "https://reddspub.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Had drinks, enjoyed the karaoke",
+      "url": "https://reddspub.com/special-occasions-at-redds/"
      }
     ]
    }
@@ -5158,7 +5327,39 @@
     ]
    },
    "dj": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "30A",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://shades30a.com/",
+        "date": "2026-11-01",
+        "quote": "Fridays with DJ Vladi"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://shades30a.com/happy-hour",
+        "date": "2026-11-01",
+        "quote": "Fridays with DJ Vladi"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://shades30a.com/trivia",
+        "date": "2026-11-01",
+        "quote": "Fridays with DJ Vladi"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -5525,7 +5726,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Miramar-Beach/135875643744133/Slick-Lips-Seafood-%26-Oyster-House",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-10-10",
-    "website": null
+    "website": "http://www.slicklipsseafood.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.slicklipsseafood.com/",
+        "quote": "Derived from the nickname given to Amberjack who don’t have any teeth, Slick Lips is a family-friendly seafood and oyster house. With a key concentration on fresh ingredients, locally caught f",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -6158,7 +6381,7 @@
    "address": "20 Mark Twain Ln Unit #101, Inlet Beach",
    "state": "FL",
    "zip": "32461",
-   "phone": null,
+   "phone": "(850) 909-0702",
    "lat": 30.2847,
    "lng": -86.0279,
    "website": "http://www.citizenalys.com/",
@@ -6186,8 +6409,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Inlet-Beach/117234043440476/The-Citizen-at-Alys-Beach",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-24",
-    "website": null
-   }
+    "website": "http://www.citizenalys.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://citizenalys.com/",
+        "quote": "om | . | About | Located in Alys Beach, Florida, The Citizen is proud to be a favorite of locals along 30A. The first restaurant from Quest Hospitality, the husband and wife team also be",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website citizenalys.com, checked 2026-11-02"
   },
   {
    "id": "fl-the-craft-bar-grand-boulevard",
@@ -6273,7 +6519,42 @@
     "facebookMirror": "https://www.foodyas.com/US/Santa-Rosa-Beach/162444053816406/The-Gathering-Spot",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://watercolorresort.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.watercolorresort.com/",
+        "quote": "s including Seaside and Rosemary Beach® communities, you will find WaterColor Inn- a warm family-friendly destination steeped in Southern hospitality, history and charm. Our Florida resort hotel",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Runners of all ages can enjoy a DJ, local vendors, and a post-race celebration with breakfast, plus a complimentary Mimosa and Bloody Mary bar",
+      "url": "https://www.watercolorresort.com/experience/special-events"
+     }
+    ]
    }
   },
   {
@@ -6294,7 +6575,18 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour: $1 off domestic bottles $2 off well cocktails, select draft beers and signature cocktails $3 off house wines",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website theperfectpig.com/location/gulf-place",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -6334,7 +6626,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Santa-Rosa-Beach/298232546960172/The-Perfect-Pig",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-23",
-    "website": null
+    "website": "http://www.theperfectpig.com/"
    }
   },
   {
@@ -6663,7 +6955,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Browse our award-winning wine list & join us for our daily happy hour special, a carafe for the price of a large glass (11am - 6pm)",
+     "tags": [],
+     "src": "Venue website thewinebarfl.com/the-wine-bar-watercolor-on-30a",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -6718,7 +7019,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Santa-Rosa-Beach/700015096775702/The-Wine-Bar---Watercolor",
     "fbPostsSeen": 5,
     "fbNewestPost": "2026-07-03",
-    "website": null
+    "website": "http://www.thewinebarfl.com/the-wine-bar-watercolor-on-30a/"
    }
   },
   {

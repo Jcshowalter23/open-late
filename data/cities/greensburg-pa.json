@@ -21,7 +21,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour: Monday–Friday, 4 PM–6 PM",
+     "tags": [],
+     "src": "Venue website 1888bp.com/WhatsHappening",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -37,7 +46,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Jeannette/316068351587606/1888-Bites-%26-Pints",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-07",
-    "website": null
+    "website": "http://1888bp.com/"
    },
    "trivia": {
     "nights": [
@@ -122,6 +131,28 @@
       "url": "https://1888bp.com/WhatsHappening"
      }
     ]
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://1888bp.com/",
+        "quote": "with family, our menu has something for every taste. Enjoy flavorful gluten-free options, family-friendly favorites, and everything in between—all made with fresh, quality ingredients. Come for t",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -136,8 +167,8 @@
    "website": "http://3riversbeer.com/",
    "hours": "Mon closed; Tue-Thu 3p-9p; Fri-Sun 12p-9p",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Tue-Thu 3p-9p; Fri-Sun 12p-9p",
+   "kitchenNote": "Kitchen hours from Venue website 3riversbeer.com, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -152,7 +183,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Delmont/111329911991265/3-Rivers-6-Pack-%26-Eatery",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-06",
-    "website": null
+    "website": "http://3riversbeer.com/"
    }
   },
   {
@@ -437,7 +468,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Greensburg/688086284380747/Gino%27s-lynch-field",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://www.ginoslynchfield.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "College crowd"
+    ],
+    "summary": "Popular with college students.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "College crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://ginoslynchfield.com/",
+        "quote": "Ask About Menu Items Like Pizza, Subs, Wings, and Salads | Greensburg-area individuals, college students, and families have enjoyed the delicious pizza and other menu items from Gino’s Pizza Lyn",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1311,14 +1364,7 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [
-    {
-     "days": "Fri",
-     "text": "Friday happy hour 4–6 pm: 50% off select appetizers + drink specials (bar & patio)",
-     "src": "Venue site rizzosmalabarinn.com",
-     "checked": "2026-11-01"
-    }
-   ],
+   "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1526,8 +1572,36 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": "Last seating 15 min before closing. (Venue site tappedoven.com, checked 2026-11-01)",
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Tue-Fri",
+     "text": "Happy Hour specials are available Tuesday-Friday from 4:00-6:00 PM",
+     "tags": [],
+     "src": "Venue website tappedoven.com/promotions-and-specials",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "$7 happy hour food menu",
+     "tags": [],
+     "src": "Venue website tappedoven.com/promotions-and-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$2 off draft beers",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website tappedoven.com/promotions-and-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -1542,7 +1616,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Greensburg/291877074312150/Tapped-Brick-Oven-%26-Pour-House",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-10-14",
-    "website": null
+    "website": "http://www.tappedoven.com/"
    }
   },
   {
@@ -1720,7 +1794,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Greensburg/169812413177907/The-Olde-Spitfire-Grille",
     "fbPostsSeen": 6,
     "fbNewestPost": "2024-02-28",
-    "website": null
+    "website": "http://spitfiregrille.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "LGBTQ-friendly"
+    ],
+    "summary": "LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.frontandmainmemphis.com/accessibility",
+        "quote": "ators to Watch | AAPI Artists | BIPOC Artists | Black Artists | Celebrate Women Artists | LGBTQIA Artists | Ukrainian Artists | Back To Menu | Adult Apparel | T-Shirts | Shorts | New!",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1899,7 +1995,42 @@
     "facebookMirror": "https://www.foodyas.com/US/Greensburg/175184107589/Vallozzi%27s-Greensburg",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://www.vallozzis.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://vallozzis.com/",
+        "quote": "expanded the tradition to downtown Pittsburgh in 2012. | Vallozzi’s Greensburg has been a fine dining destination in Western Pennsylvania for over four decades. Ten years ago the Vallozzi fam",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-06-20",
+      "quote": " Oh Snap Pgh and Caricatures by Jeffrey Harris will be on site to capture the fun, while DJ Wade Anthony will keep the party pumping with his energetic beats | Vallozzis Pittsburgh’s Festa di Limoncel",
+      "url": "https://vallozzis.com/events"
+     }
+    ]
    }
   },
   {
@@ -1954,7 +2085,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/7098987590 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Westmoreland",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://pizzasiena.com/wp-content/uploads/2026/10/Pizza-Siena-Latrobe-Lunch-Menu.pdf"
   }
  ],
  "counties": [

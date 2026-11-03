@@ -835,7 +835,7 @@
    "address": "1041 N Highland Ave NE, Atlanta",
    "state": "GA",
    "zip": "30306",
-   "phone": null,
+   "phone": "(404) 892-3648",
    "lat": 33.783,
    "lng": -84.3543,
    "priceText": "$ (Facebook page)",
@@ -860,8 +860,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/163752927023439/George%27s-Bar-%26-Restaurant",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-10",
-    "website": null
-   }
+    "website": "http://georgesbarandrestaurant.com/"
+   },
+   "phoneSource": "Venue website www.georgesbarandrestaurant.com, checked 2026-11-02"
   },
   {
    "id": "ga-georgia-boy",
@@ -1052,7 +1053,7 @@
    "address": "822 N Highland Ave NE, Atlanta",
    "state": "GA",
    "zip": "30306",
-   "phone": null,
+   "phone": "(404) 874-7147",
    "lat": 33.777,
    "lng": -84.3526,
    "priceText": "$ (Facebook page)",
@@ -1077,8 +1078,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/675572335805950/Limerick-Junction-Irish-Pub",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-07-24",
-    "website": null
-   }
+    "website": "http://limerickjunction.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Industry / late-night"
+    ],
+    "summary": "Popular with service-industry and late-night workers.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Industry / late-night",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.limerickjunction.com/",
+        "quote": "e first general manager, Tracy Crowley, turned his experience at LJP into a career in the service industry that included owning some of the most well known and beloved iconic bars, taverns, and pu",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.limerickjunction.com, checked 2026-11-02"
   },
   {
    "id": "ga-mai-kitchen",
@@ -1183,7 +1207,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/152259323316/Manuel%27s-Tavern",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://www.manuelstavern.com/"
    },
    "trivia": {
     "nights": [
@@ -1209,6 +1233,28 @@
     "stale": false,
     "oneoffs": [],
     "conflicts": []
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://manuelstavern.com/",
+        "quote": "Atlanta's Quintessential Neighborhood Bar | Manuel's Tavern | About | History | Events | Location | Contact | Menus | Drinks | Lunc",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1304,7 +1350,7 @@
    "address": "752 N Highland Ave NE, Atlanta",
    "state": "GA",
    "zip": "30306",
-   "phone": null,
+   "phone": "(404) 872-5440",
    "lat": 33.7751,
    "lng": -84.353,
    "priceText": "$ (Facebook page)",
@@ -1351,8 +1397,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/287511018027602/Neighbor%27s-Pub-Virginia-Highlands",
     "fbPostsSeen": 2,
     "fbNewestPost": "2026-10-29",
-    "website": null
-   }
+    "website": "http://www.neighborsatlanta.com/"
+   },
+   "phoneSource": "Venue website www.neighborsatlanta.com, checked 2026-11-02"
   },
   {
    "id": "ga-ninos-italian-restaurant",
@@ -1508,7 +1555,7 @@
    "address": "1402 N Highland Ave NE, Atlanta",
    "state": "GA",
    "zip": "30306",
-   "phone": null,
+   "phone": "(678) 705-5324",
    "lat": 33.7926,
    "lng": -84.3524,
    "priceText": "$$ (Facebook page)",
@@ -1647,7 +1694,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/150679454976639/The-Family-Dog",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://www.thefamilydogatl.com/"
    },
    "conflicts": [
     {
@@ -1720,7 +1767,8 @@
     "stale": false,
     "oneoffs": [],
     "conflicts": []
-   }
+   },
+   "phoneSource": "Venue website www.thefamilydogatl.com, checked 2026-11-02"
   },
   {
    "id": "ga-the-original-el-taco",
@@ -2200,7 +2248,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/208128711 opening_hours tag (map data 2026-10-31; last checked on the map 2024-07-28) (checked 2026-11-01)",
    "county": "Fulton",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://fellinisatlanta.com/menu-2/"
   }
  ],
  "type": "neighborhood",

@@ -171,7 +171,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Berwick/402247256503888/Bandit%27s-Roadhouse",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.banditsroadhouse.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Bikers"
+    ],
+    "summary": "Popular with bikers / hosts bike nights.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Bikers",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://banditsroadhouse.com/",
+        "quote": ", Bandits Roadhouse is one of the premier choices for dining out in Berwick, PA. | We Are Motorcycle Friendly! | Make Bandit’s Roadhouse your MUST STOP for your Poker Run. | Motorcycle Parki",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -276,7 +298,27 @@
     ]
    },
    "dj": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "monthly",
+      "start": "10PM - 2AM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://capitolbloom.com/",
+        "date": "2026-11-01",
+        "quote": "Live DJ | 10PM - 2AM | First Friday | 10PM - 2AM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -922,6 +964,19 @@
       "url": "https://marleysbrewery.com/"
      }
     ]
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Chat games run by hosts offer additional prizes for answering trivia or completing challenges between bingo rounds",
+      "url": "https://marleysbrewery.com/au/casinos/bingo-casino-options-australia-where-you-can-play-whats-legal.html"
+     }
+    ]
    }
   },
   {
@@ -1357,7 +1412,25 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://thegoose.bar/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "From a casual meal to letting your hair down with music from one of our DJs, The Goose is the place to be",
+      "url": "https://thegoose.bar/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Come join us for some fun events, dinner specials and amazing music from our DJs",
+      "url": "https://thegoose.bar/info/"
+     }
+    ]
    }
   },
   {
@@ -1461,7 +1534,42 @@
     "facebookMirror": "https://www.foodyas.com/US/Bloomsburg/755647834293413/The-Husky-Den-Bar-%26-Grill",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://thehuskyden.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://thehuskyden.com/",
+        "quote": "Next came the Woodland family. In 1982, they acquired the real estate and business. Some locals then referred to the place as “Woodie’s Good Old Days.” | Then, around 1990, Sharon Babb",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Bloomsburg’s Newest Sports and Karaoke Bar & Grill",
+      "url": "https://thehuskyden.com/"
+     }
+    ]
    }
   },
   {

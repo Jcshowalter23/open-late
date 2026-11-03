@@ -603,7 +603,7 @@
    "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-12a; Sun 11a-10p",
    "hoursNote": "Restaurantji (updated 2026-10-09) lists different hours: Mon-Thu 11a-9:30p; Fri-Sat 11a-10:30p; Sun 11a-9:30p. Call ahead to confirm.",
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 10:30 pm per Venue website blvdburgers.com, checked 2026-11-01; days not stated.",
    "happyHours": [
     {
      "days": "See venue",
@@ -660,7 +660,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Pete-Beach/395143413973726/Boulevard-Burgers-%26-Tap-House",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.blvdburgers.com/"
    },
    "conflicts": [
     {
@@ -854,7 +854,7 @@
    "address": "4705 Gulf Blvd, Saint Pete Beach",
    "state": "FL",
    "zip": "33706",
-   "phone": null,
+   "phone": "(727) 360-7970",
    "lat": 27.7233,
    "lng": -82.7394,
    "priceText": "$$ (Facebook page)",
@@ -878,8 +878,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Pete-Beach/133512156681392/Buona-Ristorante",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-07-04",
-    "website": null
-   }
+    "website": "http://www.BuonaRistorante.com/"
+   },
+   "phoneSource": "Venue website www.BuonaRistorante.com, checked 2026-11-02"
   },
   {
    "id": "fl-burger-monger-pasadena",
@@ -1704,7 +1705,7 @@
    "address": "120 8th Ave, Saint Pete Beach",
    "state": "FL",
    "zip": "33706",
-   "phone": null,
+   "phone": "(727) 317-4770",
    "lat": 27.6879,
    "lng": -82.7377,
    "website": "http://www.gracerestaurant.com/",
@@ -1776,8 +1777,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Pete-Beach/351784478511878/Grace-Restaurant",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-25",
-    "website": null
-   }
+    "website": "http://www.gracerestaurant.com/"
+   },
+   "phoneSource": "Venue website gracerestaurant.com, checked 2026-11-02"
   },
   {
    "id": "fl-grand-hacienda-mexican-restaurant-saint-pete-beach",
@@ -2360,7 +2362,7 @@
    "address": "6295 Gulf Blvd, Saint Pete Beach",
    "state": "FL",
    "zip": "33706",
-   "phone": null,
+   "phone": "(727) 360-8300",
    "lat": 27.7346,
    "lng": -82.7461,
    "priceText": "$$ (Facebook page)",
@@ -2433,7 +2435,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Pete-Beach/213121492162320/MacNasty%27s-Sports-Bar-%26-Grill---St.-Pete-Beach%2C-Florida",
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://www.stpetersburg.com/places/macnastys-sports-bar-and-grill"
    },
    "conflicts": [
     {
@@ -2452,7 +2454,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "Venue website www.stpetersburg.com/places/macnastys-sports-bar-and-grill, checked 2026-11-02"
   },
   {
    "id": "fl-mademoiselle-paris-gulfport",
@@ -2574,7 +2577,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Pete-Beach/213523045175339/MadFish-St-Pete",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-09-30",
-    "website": null
+    "website": "http://www.madfishonline.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.madfishonline.com/",
+        "quote": "d or steakhouse in St. Pete Beach? You’ve found it. | MadFish Restaurant is proud to be a local favorite and a must-visit for foodies, vacationers, and anyone craving the freshest seafood and be",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2736,7 +2761,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$3 off all appetizers $2 off all cocktails $1 off Beer & Wine by the glass",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website middlegroundsgrill.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -2817,7 +2853,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Treasure-Island/431521180077/Middle-Grounds-Grill",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-16",
-    "website": null
+    "website": "http://www.middlegroundsgrill.com/"
    }
   },
   {
@@ -2894,7 +2930,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Gulfport/210621508982562/Neptune-Grill",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-22",
-    "website": null
+    "website": "http://www.neptunegrillgulfport.com/"
    },
    "trivia": {
     "nights": [
@@ -2998,6 +3034,52 @@
       "url": "https://neptunegrillgulfport.com/events"
      }
     ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "monthly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://neptunegrillgulfport.com/events",
+        "date": "2026-11-01",
+        "quote": " His versatile mix delivers sing-along hits and beach-bar vibes | Monthly on every first Thursday"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sun",
+      "cadence": "monthly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://neptunegrillgulfport.com/events",
+        "date": "2026-11-01",
+        "quote": " Enjoy familiar favorites, sing-along moments, and music that spans generations | Monthly on every third Sunday"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
    }
   },
   {
@@ -3107,7 +3189,7 @@
    "address": "650 Corey Ave, Saint Pete Beach",
    "state": "FL",
    "zip": "33706",
-   "phone": null,
+   "phone": "(727) 256-1882",
    "lat": 27.7401,
    "lng": -82.7533,
    "priceText": "$$ (Facebook page)",
@@ -3144,7 +3226,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Pete-Beach/380333099210056/Oyster-Shucker-Craft-%26-Draft",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-09-19",
-    "website": null
+    "website": "http://www.theoystershucker.com/"
    },
    "trivia": {
     "nights": [],
@@ -3158,7 +3240,8 @@
       "url": "https://theoystershucker.com/specials"
      }
     ]
-   }
+   },
+   "phoneSource": "Venue website theoystershucker.com, checked 2026-11-02"
   },
   {
    "id": "fl-pias-trattoria",
@@ -3246,7 +3329,7 @@
    "address": "245 108th Ave, Treasure Island",
    "state": "FL",
    "zip": "33706",
-   "phone": null,
+   "phone": "(727) 367-3400",
    "lat": 27.7708,
    "lng": -82.7669,
    "priceText": "$$ (Facebook page)",
@@ -3254,10 +3337,18 @@
    "website": "http://myrbar.com/",
    "hours": "Mon-Thu 8a-11p; Fri-Sat 8a-11:59p; Sun 8a-11p",
    "hoursNote": "Restaurantji (updated 2026-10-13) lists different hours: Mon-Thu 8a-10p; Fri-Sat 8a-12a; Sun 8a-10p. Call ahead to confirm.",
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Mon-Thu 8a-9p; Sun 8a-9p",
+   "kitchenNote": "Kitchen hours from Venue website myrbar.com, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Sun",
+     "text": "WORLD SERIES SPECIAL 2 FOR $5 SUN DRINKS",
+     "tags": [],
+     "src": "Venue website myrbar.com/specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -3307,7 +3398,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Treasure-Island/381203455240901/R-Bar-Treasure-Island%2C-Florida",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-06-24",
-    "website": null
+    "website": "http://myrbar.com/"
    },
    "conflicts": [
     {
@@ -3328,7 +3419,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "Venue website myrbar.com, checked 2026-11-02"
   },
   {
    "id": "fl-ricks-reef",
@@ -3337,7 +3429,7 @@
    "address": "6712 Gulf Blvd, Saint Pete Beach",
    "state": "FL",
    "zip": "33706",
-   "phone": null,
+   "phone": "(727) 826-0752",
    "lat": 27.7374,
    "lng": -82.7487,
    "priceText": "$ (Facebook page)",
@@ -3383,7 +3475,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Pete-Beach/114023862088479/Rick%27s-Reef",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-09-12",
-    "website": null
+    "website": "http://ricksreefstpetebeach.com/"
    },
    "conflicts": [
     {
@@ -3403,7 +3495,21 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " We can accommodate a band or a DJ, or use our jukebox to dial up the music you want",
+      "url": "https://ricksreefstpetebeach.com/wedding-party-venue-or-location/"
+     }
+    ]
+   },
+   "phoneSource": "Venue website ricksreefstpetebeach.com, checked 2026-11-02"
   },
   {
    "id": "fl-ricky-ts",
@@ -3592,7 +3698,7 @@
    "address": "2007 Pass A Grille Way, Saint Pete Beach",
    "state": "FL",
    "zip": "33706",
-   "phone": null,
+   "phone": "(727) 360-3706",
    "lat": 27.697,
    "lng": -82.7355,
    "website": "http://www.redwhiteboozepag.com/",
@@ -3600,7 +3706,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy Hour Daily 3:00 pm – 6:00 pm",
+     "tags": [],
+     "src": "Venue website redwhiteboozepag.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -3614,8 +3729,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Pete-Beach/109546122247341/RWB-Red%2C-White-%26-Booze",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-30",
-    "website": null
-   }
+    "website": "http://www.redwhiteboozepag.com/"
+   },
+   "phoneSource": "Venue website redwhiteboozepag.com, checked 2026-11-02"
   },
   {
    "id": "fl-sandbar-bills",
@@ -3973,7 +4089,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$16 Domestic Bottle Buckets",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website shrimpysbluesbistro.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events",
@@ -4009,7 +4136,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Pete-Beach/153888761427743/Shrimpys-Waterfront",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.shrimpysbluesbistro.com/"
    },
    "conflicts": [
     {
@@ -5122,7 +5249,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Pete-Beach/108525571963/The-Wharf-Restaurant-%26-Bar",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://Wharfpag.com/"
    },
    "conflicts": [
     {
@@ -5143,7 +5270,43 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://Wharfpag.com/",
+        "quote": "arked Originals From The Bell Family Photo Albums. | Great Food | seafood/grill staple to locals in the area | Our Menu | food menu | Great Drinks | Unique drinking experience. | our dri",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://Wharfpag.com/",
+        "quote": "y stunning drinks. | our drinks | drinks menu | Where We Started | The Wharf Restaurant & Sports Bar Opened For Business In April 1994, But Its Beginning Could Be Traced Back As Far As 1912.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-the-wine-house-gulfport-fl",
@@ -5629,7 +5792,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://www.sipsoberbar.com/menu.html"
   },
   {
    "id": "fl-sundrop-saint-pete-beach",
@@ -5654,7 +5818,92 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/1766889147 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://www.thelucehotel.com/dine-drink: \"h: 7 AM – 3 PM Martini Hour: 3 pm – 5 pm Dinner, Sun -Thurs: 5 pm – 10 pm Dinner, Fri & Sat: 5 pm – 11 pm | ‍ | ‍ |\" (checked 2026-11-02)",
    "county": "Pinellas",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "6–9:30 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.thelucehotel.com/dine-drink",
+        "date": "2026-11-01",
+        "quote": "German Navarro (@djquilla) is our resident DJ, spinning live every Friday & Saturday, 6–9:30 PM"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.thelucehotel.com/happenings/sunset-sessions---live-dj",
+        "date": "2026-11-01",
+        "quote": "German Navarro (@djquilla) is our resident DJ for Sunset Sessions, playing live every Friday and Saturday from 6–9:30 PM in The Luce Courtyard"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.thelucehotel.com/happenings",
+        "date": "2026-11-01",
+        "quote": "German Navarro (@djquilla) is our resident DJ, spinning live every Friday & Saturday, 6–9:30 PM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "6–9:30 PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": "2026-10-31",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.thelucehotel.com/dine-drink",
+        "date": "2026-11-01",
+        "quote": "German Navarro (@djquilla) is our resident DJ, spinning live every Friday & Saturday, 6–9:30 PM"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.thelucehotel.com/happenings/sunset-sessions---live-dj",
+        "date": "2026-11-01",
+        "quote": "German Navarro (@djquilla) is our resident DJ for Sunset Sessions, playing live every Friday and Saturday from 6–9:30 PM in The Luce Courtyard"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.thelucehotel.com/happenings",
+        "date": "2026-11-01",
+        "quote": "German Navarro (@djquilla) is our resident DJ, spinning live every Friday & Saturday, 6–9:30 PM"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Sunset Sessions – Live DJ",
+      "url": "https://www.thelucehotel.com/dine-drink"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Sunset Sessions – Live DJ",
+      "url": "https://www.thelucehotel.com/happenings/sunset-sessions---live-dj"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Catch these guest DJs on the nights German isn't behind the decks:",
+      "url": "https://www.thelucehotel.com/happenings/sunset-sessions---live-dj"
+     }
+    ]
+   }
   }
  ],
  "type": "city",

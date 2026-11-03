@@ -147,7 +147,6 @@
     "fbNewestPost": null,
     "website": "https://www.altusbrewpub.com/"
    },
-   "menu": "https://www.altusbrewpub.com/menu-1",
    "trivia": {
     "nights": [
      {
@@ -530,7 +529,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://achampssportsgrill.net/menu/"
   },
   {
    "id": "chimney-rocks-brewing-company",
@@ -1751,7 +1751,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Thu",
+     "text": "Thursday: $10 Smoked Burger + Fries",
+     "tags": [],
+     "src": "Venue website oldcarolina.com/specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -1766,7 +1774,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Altoona/320558741805327/Old-Carolina-Barbecue-Company",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://oldcarolina.com/"
    }
   },
   {
@@ -2113,7 +2121,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Altoona/100367431990445/Stone-Cellar",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-13",
-    "website": null
+    "website": "http://www.stonecellarpa.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.stonecellarpa.com/",
+        "quote": "ELCOME | Located in Altoona, Pennsylvania, Stone Cellar is the happening Restaurant where locals go to dine, drink, and socialize. Our menu features dishes assembled from the freshest in",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

@@ -1279,9 +1279,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Freeland/833910239816394/Nonno-Ciccio%E2%80%99s-Pizza-%26-Pasta",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "https://nonnociccios.com/"
    },
-   "menu": "https://nonnociccios.com/menu"
+   "menu": "https://nonnociccios.com/menu",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://nonnociccios.com/",
+        "quote": "lian pizza, handmade pasta, and classic dishes crafted with love in Freeland, PA. A warm, family-friendly neighborhood tradition. | Call: +1 (570) 599-5999 | Navigation | Home | Menu | Gallery",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "number-8-tavern",
@@ -1572,7 +1594,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.tapathumboldt.com/"
    },
    "bingo": {
     "nights": [
@@ -1611,6 +1633,57 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "6:30-8:30PM",
+      "basis": "posted on 5 different Tues",
+      "lastSeen": "2026-11-24",
+      "datedLastSeen": "2026-11-24",
+      "postsSeen": 5,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://tapathumboldt.com/live-music-events",
+        "date": "2026-11-24",
+        "quote": "$10 Online | $15 DOS | Tues • Nov 24 • 6:30-8:30PM | Music Bingo with ALV >> Music Bingo with ALV Karaoke & DJ Services | Tues • Nov 24 • 6:30-8:30PM"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://tapathumboldt.com/live-music-events",
+        "date": "2026-11-17",
+        "quote": "The Paper Shakers | $10 Cover | Tues • Nov 17 • 6:30-8:30PM | Music Bingo with ALV >> Music Bingo with ALV Karaoke & DJ Services | Tues • Nov 17 • 6:30-8:30PM"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://tapathumboldt.com/live-music-events",
+        "date": "2026-11-03",
+        "quote": "November 2026 | SCROLL LEFT TO SEE MORE | Tues • Nov 3 • 6:30-8:30PM | Music Bingo with ALV >> Music Bingo with ALV Karaoke & DJ Services | Tues • Nov 3 • 6:30-8:30PM"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Bands, solo and acoustic acts, DJs, and promoters — if you care about how music is experienced,",
+      "url": "https://tapathumboldt.com/live-music-events"
+     }
+    ]
    }
   },
   {
@@ -2018,7 +2091,29 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.edgewoodpa.com/dining"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.edgewoodpa.com/dining/",
+        "quote": "Tees Craft House | & Kitchen | Local craft beer on draft and a carefully crafted menu of local favorites make Two Tees Craft House & Kitchen a perfect choice for lunch or dinner. Located in th",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

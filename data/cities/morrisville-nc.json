@@ -488,7 +488,8 @@
     "fbNewestPost": null,
     "website": "https://g58cuisine.com/"
    },
-   "websiteSource": "OpenStreetMap node/11148896455 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/11148896455 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://g58cuisine.com/morrisville-g-58-cuisine-food-menu"
   },
   {
    "id": "nc-hibachi-blue-japanese-fusion-restaurant",
@@ -1682,7 +1683,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://twoguysgrille.com/menu/"
   },
   {
    "id": "nc-which-wich-morrisville",
@@ -1792,7 +1794,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/423437172 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://firebirdsrestaurants.com/morrisville: \"llage Market Place | Morrisville, NC 27560 | Hours | Mon – Thurs: 11:00 AM-10:00 PM | Fri: 11:00 AM-11:00 PM | Sat: 10\" (checked 2026-11-02)",
    "county": "Wake",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://firebirdsrestaurants.com/morrisville",
+        "quote": "AR | ® | or on the patio for drink specials and bar bites. We offer top-notch service and upscale dining at a modest price. Reserve your table with us today. | Virtual Tour | Restaurant I",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "city",

@@ -66,7 +66,80 @@
     "facebookMirror": "https://www.foodyas.com/US/Pensacola/104775496046655/1216-North",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-14",
-    "website": null
+    "website": "http://www.1216north.com/"
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2027-04-14",
+      "datedLastSeen": "2027-04-14",
+      "postsSeen": 25,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://1216north.com/-events?source=header&spot_id=340124&destination=events&promotion=nba_season",
+        "date": "2027-04-14",
+        "quote": "99 CENT WINGS & KARAOKE | Wednesday, April 14th, 2027"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://1216north.com/pensacola-east-hills-1216-north-events",
+        "date": "2027-04-14",
+        "quote": "99 CENT WINGS & KARAOKE | Wednesday, April 14th, 2027"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://1216north.com/-events?source=header&spot_id=340124&destination=events&promotion=nba_season",
+        "date": "2027-04-07",
+        "quote": "99 CENT WINGS & KARAOKE | Wednesday, April 7th, 2027"
+       }
+      ],
+      "confidence": "high"
+     },
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "6PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-10-08",
+      "datedLastSeen": "2026-10-08",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://1216north.com/-events?source=header&spot_id=340124&destination=events&promotion=nba_season",
+        "date": "2026-10-08",
+        "quote": " | MAKE YOUR THURSDAYS POETIC AND FLOETIC WITH PATRIOT X HOSTING POETRY AND OPEN MIC STARTING AT 6PM FOLLOWED BY A DOPE >> MAKE YOUR THURSDAYS POETIC AND FLOETIC WITH PATRIOT X HOSTING POETRY AND OPEN MIC STARTING AT 6PM FOLLOWED BY A DOPE KARAOKE AFTER PARTY "
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://1216north.com/pensacola-east-hills-1216-north-events",
+        "date": "2026-10-08",
+        "quote": " | MAKE YOUR THURSDAYS POETIC AND FLOETIC WITH PATRIOT X HOSTING POETRY AND OPEN MIC STARTING AT 6PM FOLLOWED BY A DOPE >> MAKE YOUR THURSDAYS POETIC AND FLOETIC WITH PATRIOT X HOSTING POETRY AND OPEN MIC STARTING AT 6PM FOLLOWED BY A DOPE KARAOKE AFTER PARTY "
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "MAKE YOUR THURSDAYS POETIC AND FLOETIC WITH PATRIOT X HOSTING POETRY AND OPEN MIC STARTING AT 6PM FOLLOWED BY A DOPE KARAOKE AFTER PARTY HOSTED BY KARAOKE WITH CORELL",
+      "url": "https://1216north.com/-events?source=header&spot_id=340124&destination=events&promotion=nba_season"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "MAKE YOUR THURSDAYS POETIC AND FLOETIC WITH PATRIOT X HOSTING POETRY AND OPEN MIC STARTING AT 6PM FOLLOWED BY A DOPE KARAOKE AFTER PARTY HOSTED BY KARAOKE WITH CORELL",
+      "url": "https://1216north.com/pensacola-east-hills-1216-north-events"
+     }
+    ]
    }
   },
   {
@@ -2471,7 +2544,8 @@
     "fbNewestPost": "2026-10-26",
     "website": "https://www.lucysinthesquare.com/"
    },
-   "websiteSource": "OpenStreetMap way/547762442 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/547762442 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.lucysinthesquare.com/menu"
   },
   {
    "id": "fl-mcguires-irish-pub",
@@ -2793,7 +2867,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Pensacola/464264751054442/Mugshots-Grill-and-Bar---Pensacola%2C-FL",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.mugshotsgrillandbar.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Sports fans"
+    ],
+    "summary": "Family-friendly; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.mugshotsgrillandbar.com/",
+        "quote": "shots Grill & Bar is your go-to destination for award-winning burgers, cold drinks, and a family-friendly sports bar atmosphere. With 21 locations in Mississippi, Alabama, Tennessee, and Louisian",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.mugshotsgrillandbar.com/",
+        "quote": "Mugshots Grill & Bar - Burgers, Wings & Sports Bar | Skip to main content | Gift Cards | Careers | Catering | Locations | Mugs Swag | Menu",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -4175,7 +4285,15 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy hour runs 2:00pm to 5:00pm every day, dine in only, with $14",
+     "tags": [],
+     "src": "Venue website sakecafepensacola.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -4187,7 +4305,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Pensacola/59427187425/Sake-Cafe-Pensacola",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-10-21",
-    "website": null
+    "website": "http://www.sakecafepensacola.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://sakecafepensacola.com/",
+        "quote": "rant brings together quality food, a | daily happy hour | , and a menu that has made it a local favorite. | Awards | AWARDS & FEATURES | Recognized locally for standout sushi, Japanese dining, a",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://sakecafepensacola.com/",
+        "quote": "eafood features. | Forbes Feature | Sake Café featured for turning invasive lionfish into upscale dining. | Forbes highlighted Sake Café in an article about restaurants using lionfish in",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -4412,7 +4566,188 @@
     ]
    },
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "8:00 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-24",
+      "datedLastSeen": "2026-11-24",
+      "postsSeen": 4,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://sevillequarter.com/events/",
+        "date": "2026-11-24",
+        "quote": "November 24 @ 8:00 pm | - | 11:00 pm | >> Karaoke | 11:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://sevillequarter.com/events/",
+        "date": "2026-11-17",
+        "quote": "November 17 @ 8:00 pm | - | 11:00 pm | >> Karaoke | 11:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://sevillequarter.com/events/",
+        "date": "2026-11-10",
+        "quote": "November 10 @ 8:00 pm | - | 11:00 pm | >> Karaoke | 11:00 pm"
+       }
+      ],
+      "confidence": "high"
+     },
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "8:00 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-25",
+      "datedLastSeen": "2026-11-25",
+      "postsSeen": 4,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://sevillequarter.com/events/",
+        "date": "2026-11-25",
+        "quote": "November 25 @ 8:00 pm | - | 11:00 pm | >> Karaoke | 11:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://sevillequarter.com/events/",
+        "date": "2026-11-18",
+        "quote": "November 18 @ 8:00 pm | - | 11:00 pm | >> Karaoke | 11:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://sevillequarter.com/events/",
+        "date": "2026-11-11",
+        "quote": "November 11 @ 8:00 pm | - | 11:00 pm | >> Karaoke | 11:00 pm"
+       }
+      ],
+      "confidence": "high"
+     },
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "8:00 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-26",
+      "datedLastSeen": "2026-11-26",
+      "postsSeen": 4,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://sevillequarter.com/events/",
+        "date": "2026-11-26",
+        "quote": "November 26 @ 8:00 pm | - | 11:00 pm | >> Karaoke | 11:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://sevillequarter.com/events/",
+        "date": "2026-11-19",
+        "quote": "November 19 @ 8:00 pm | - | 11:00 pm | >> Karaoke | 11:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://sevillequarter.com/events/",
+        "date": "2026-11-12",
+        "quote": "November 12 @ 8:00 pm | - | 11:00 pm | >> Karaoke | 11:00 pm"
+       }
+      ],
+      "confidence": "high"
+     },
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "8:00 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-27",
+      "datedLastSeen": "2026-11-27",
+      "postsSeen": 4,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://sevillequarter.com/events/",
+        "date": "2026-11-27",
+        "quote": "November 27 @ 8:00 pm | - | 11:00 pm | >> Karaoke | 11:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://sevillequarter.com/events/",
+        "date": "2026-11-20",
+        "quote": "November 20 @ 8:00 pm | - | 11:00 pm | >> Karaoke | 11:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://sevillequarter.com/events/",
+        "date": "2026-11-13",
+        "quote": "November 13 @ 8:00 pm | - | 11:00 pm | >> Karaoke | 11:00 pm"
+       }
+      ],
+      "confidence": "high"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "8:00 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-28",
+      "datedLastSeen": "2026-11-28",
+      "postsSeen": 4,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://sevillequarter.com/events/",
+        "date": "2026-11-28",
+        "quote": "November 28 @ 8:00 pm | - | 11:00 pm | >> Karaoke | 11:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://sevillequarter.com/events/",
+        "date": "2026-11-21",
+        "quote": "November 21 @ 8:00 pm | - | 11:00 pm | >> Karaoke | 11:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://sevillequarter.com/events/",
+        "date": "2026-11-14",
+        "quote": "November 14 @ 8:00 pm | - | 11:00 pm | >> Karaoke | 11:00 pm"
+       }
+      ],
+      "confidence": "high"
+     },
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": "8:00 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-22",
+      "datedLastSeen": "2026-11-22",
+      "postsSeen": 3,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://sevillequarter.com/events/",
+        "date": "2026-11-22",
+        "quote": "November 22 @ 8:00 pm | - | 11:00 pm | >> Karaoke | 11:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://sevillequarter.com/events/",
+        "date": "2026-11-15",
+        "quote": "November 15 @ 8:00 pm | - | 11:00 pm | >> Karaoke | 11:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://sevillequarter.com/events/",
+        "date": "2026-11-08",
+        "quote": "November 8 @ 8:00 pm | - | 11:00 pm | >> Karaoke | 11:00 pm"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
     "stale": [],
     "hints": [
      "Restaurantji review/summary mentions karaoke"
@@ -4704,7 +5039,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "$1 Oyster Wednesday",
+     "tags": [],
+     "src": "Venue website EatSouthMarket.com/pensacola-south-market-happy-hours-specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events",
@@ -4718,7 +5061,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Pensacola/475615849473775/South-Market---Pensacola",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-18",
-    "website": null
+    "website": "http://EatSouthMarket.com/"
    }
   },
   {
@@ -4782,7 +5125,8 @@
     "fbNewestPost": "2026-07-27",
     "website": "https://www.steaknshake.com/locations/fl-pensacola-airport-boulevard/"
    },
-   "websiteSource": "OpenStreetMap way/292759642 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/292759642 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.steaknshake.com/wp-content/uploads/2026/06/SNS_National_June2026_No_Price.pdf"
   },
   {
    "id": "fl-sunset-grille-pensacola",
@@ -6445,7 +6789,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/1537231746 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Escambia",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://tasteofjerusalemexpress.com/menu/"
   }
  ],
  "type": "city",

@@ -121,7 +121,7 @@
    "address": "6704 Main St, Miami Lakes",
    "state": "FL",
    "zip": "33014",
-   "phone": null,
+   "phone": "(305) 323-0573",
    "lat": 25.9131,
    "lng": -80.3098,
    "website": "http://www.amazonianikkei.com/",
@@ -171,8 +171,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami-Lakes/108488922289675/Amazonia-Nikkei",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-31",
-    "website": null
-   }
+    "website": "http://www.amazonianikkei.com/"
+   },
+   "phoneSource": "Venue website amazonianikkei.com, checked 2026-11-02"
   },
   {
    "id": "fl-american-mega-centers",
@@ -1184,7 +1185,7 @@
    "address": "1408 W 49th St, Hialeah",
    "state": "FL",
    "zip": "33012",
-   "phone": null,
+   "phone": "(305) 558-8412",
    "lat": 25.8661,
    "lng": -80.3111,
    "priceText": "$$ (Facebook page)",
@@ -1208,8 +1209,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Hialeah/176109731361/Di-Piazza%27s-Italian-Restaurant",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-18",
-    "website": null
-   }
+    "website": "http://Dipiazzaitalianrestaurant.com/"
+   },
+   "phoneSource": "Venue website Dipiazzaitalianrestaurant.com, checked 2026-11-02"
   },
   {
    "id": "fl-el-churrascaso-hialeah",
@@ -1562,7 +1564,34 @@
     "facebookMirror": "https://www.foodyas.com/US/Hialeah/152438378906387/Graziano%27s-Group",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-01-15",
-    "website": null
+    "website": "http://www.grazianosgroup.com/"
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.grazianosgroup.com/pages/happenings",
+        "date": "2026-11-01",
+        "quote": "Join us every Friday at The Bar for vinyl nights, featuring rotating vinyl DJ sets, vermouth service, and craft cocktails"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
    }
   },
   {
@@ -2427,7 +2456,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami-Springs/568942993205735/Miranda-Cuisine-%26-Bar",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://mirandamiami.com/"
    },
    "conflicts": [
     {
@@ -2448,7 +2477,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://mirandamiami.com/",
+        "quote": "patrons by offering a menu that adds just the right touch of a Latin flair to the typical upscale international food. Book now and enjoy an amazing culinary experience. Ask about our Wine",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-ml-steaks-sports",
@@ -2482,7 +2533,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami-Lakes/206242672731447/ML-Steaks-%2B-Sports",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-08-06",
-    "website": null
+    "website": "http://www.mlsteaksandsports.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.mlsteaksandsports.com/",
+        "quote": "here to watch the big game or enjoy a night out, we've got the | food and vibes that keep locals coming back. | Quality Cuts | Fresh, quality beef | Private Events | Special occasions",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.mlsteaksandsports.com/",
+        "quote": "ct Us | (305) 820-8047 | Order Online | Reservations | Miami Lakes' Favorite Steakhouse & Sports Bar | At ML Steak & Sports, we serve more than sizzling steaks. We're your go-to Miami Lakes",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

@@ -978,7 +978,43 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://bullcityburgerandbrewery.com"
+   },
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Date night / upscale"
+    ],
+    "summary": "Family-friendly; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.bullcityburgerandbrewery.com/",
+        "quote": "de plus 50 seats of outside year round patio dining. We offer counter style service and a family friendly experience with a children’s play area, as well as a semi-private meeting room for busine",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.bullcityburgerandbrewery.com/",
+        "quote": "eners, no high fructose corn syrup, and no hydrogenated oils. We like to say we are like fine dining in a burger joint. We make the mustard, the slaw, the pickles, the mayo, the aioli, the",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -3328,7 +3364,8 @@
     "fbNewestPost": null,
     "website": "https://ichibanhibachibuffdurham.com/"
    },
-   "websiteSource": "OpenStreetMap node/14174004104 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/14174004104 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://ichibanhibachibuffdurham.com/menu.html"
   },
   {
    "id": "nc-international-delights",
@@ -7962,6 +7999,36 @@
        }
       ],
       "confidence": "high"
+     },
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-12-14",
+      "datedLastSeen": "2026-12-14",
+      "postsSeen": 15,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.lcgoat.com/happenings",
+        "date": "2026-12-14",
+        "quote": "ELF THEMED TRIVIA | Monday, December 14, 2026"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.lcgoat.com/locations/germantown",
+        "date": "2026-12-14",
+        "quote": "Dec | 14 | December 14, 2026 | ELF THEMED >> ELF THEMED TRIVIA"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.lcgoat.com/happenings",
+        "date": "2026-12-07",
+        "quote": "ELF THEMED TRIVIA | Monday, December 7, 2026"
+       }
+      ],
+      "confidence": "high"
      }
     ],
     "stale": [],
@@ -8288,7 +8355,29 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://thedurham.com/roof/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thedurham.com/roof/",
+        "quote": "raw bar, and seasonal small plates. It’s a natural go-to for after-work drinks, a low-key date night, or introducing out-of-towners to the city from six floors up. | Book a Large Group | Vie",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -8918,33 +9007,6 @@
    }
   },
   {
-   "id": "nc-crank-arm-brewing-durham",
-   "name": "Crank Arm Brewing",
-   "cuisine": "Bar",
-   "address": "620 Fernway Avenue, Durham",
-   "state": "NC",
-   "zip": "27701",
-   "phone": "(919) 324-3529",
-   "phoneSource": "OpenStreetMap node/13917780568 phone tag (map data 2026-10-31), checked 2026-11-01",
-   "lat": 36.000068,
-   "lng": -78.904982,
-   "website": "https://crankarmbrewing.com/durham/",
-   "websiteSource": "OpenStreetMap node/13917780568 website tag (map data 2026-10-31), checked 2026-11-01",
-   "hours": "Mon-Tue 2p-10p; Wed-Thu 2p-12a; Fri-Sat 12p-12a; Sun 12p-10p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Bar scene"
-   ],
-   "source": "hours from OpenStreetMap node/13917780568 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
-   "county": "Durham",
-   "addedBy": "sweep-osm"
-  },
-  {
    "id": "nc-west-end-billiards-durham",
    "name": "West End Billiards",
    "cuisine": "Bar",
@@ -9185,6 +9247,55 @@
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/9008906717 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://firebirdsrestaurants.com/durham: \" Durham, NC 27713 | Hours | SUN: 10:00 AM-10:00 PM | MON - THURS: 11:00 AM-10:00 PM | FRI: 11:00 AM-11:00 PM | SAT: 10\" (checked 2026-11-02)",
+   "county": "Durham",
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://firebirdsrestaurants.com/durham",
+        "quote": "AR | ® | or on the patio for drink specials and bar bites. We offer top-notch service and upscale dining at a modest price. Reserve your table with us today. | Virtual Tour | Restaurant I",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "nc-crank-arm-brewing-durham",
+   "name": "Crank Arm Brewing",
+   "cuisine": "Bar",
+   "address": "620 Fernway Avenue, Durham",
+   "state": "NC",
+   "zip": "27701",
+   "phone": "(919) 324-3529",
+   "phoneSource": "OpenStreetMap node/13917780568 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "lat": 36.000068,
+   "lng": -78.904982,
+   "website": "https://crankarmbrewing.com/durham/",
+   "websiteSource": "OpenStreetMap node/13917780568 website tag (map data 2026-10-31), checked 2026-11-01",
+   "hours": "Mon-Tue 2p-10p; Wed-Thu 2p-12a; Fri-Sat 12p-12a; Sun 12p-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/13917780568 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Durham",
    "addedBy": "sweep-osm"
   }

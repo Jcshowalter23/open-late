@@ -3686,7 +3686,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/13446525776 opening_hours tag (map data 2026-10-31; last checked on the map 2026-01-10) (checked 2026-11-01)",
    "county": "Mecklenburg",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.marcos.com/our-menu"
   },
   {
    "id": "nc-melting-pot-huntersville",
@@ -3711,7 +3712,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/13889942101 opening_hours tag (map data 2026-10-31; last checked on the map 2026-05-27) (checked 2026-11-02); late hours confirmed by venue website https://www.meltingpot.com/charlotte-lake-norman-nc/: \" | Huntersville, NC 28078 | Get Directions | Hours of Operation | Mon-Thu: | 4:30-9:00PM | Fri: | 5-10PM | Sat: | \" (checked 2026-11-02)",
    "county": "Mecklenburg",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.meltingpot.com/charlotte-lake-norman-nc/",
+        "quote": "how dialog | Group dining in Charlotte - Lake Norman Melting Pot, open slideshow dialog | Date night in Charlotte - Lake Norman Melting Pot, open slideshow dialog | Specialty deserts at Char",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "city",

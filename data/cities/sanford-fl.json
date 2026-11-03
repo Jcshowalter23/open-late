@@ -396,8 +396,8 @@
    "website": "http://www.busterssanford.com/",
    "hours": "Mon-Thu 11a-12a; Fri 11a-2a; Sat 8a-2a; Sun 8a-12a",
    "hoursNote": "Restaurantji (updated 2026-10-31) lists different hours: Mon-Thu 11a-12a; Fri 11a-2a; Sat 9a-2a; Sun 9a-12a. Call ahead to confirm.",
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Mon-Fri 11a-12a; Sat-Sun 8a-12a",
+   "kitchenNote": "Kitchen hours from Venue website busterssanford.com, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [],
    "specials": [
     {
@@ -423,7 +423,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Sanford/561574647193461/Buster%27s-Sanford",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.busterssanford.com/"
    },
    "conflicts": [
     {
@@ -441,7 +441,27 @@
     }
    ],
    "trivia": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.busterssanford.com/sanford-historic-downtown-sanford-buster-s-sanford-about",
+        "date": "2026-11-01",
+        "quote": " We hold weekly events such as Trivia on Tuesday, Live Music on Friday, and a live DJ every Saturday night"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -455,6 +475,46 @@
       "date": "2026-11-01",
       "quote": " They have a lot of fun trivia nights",
       "url": "https://www.busterssanford.com/"
+     }
+    ]
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.busterssanford.com/",
+        "quote": "Slide 4 content | Slide 5 content | Food made with you in mind | Our Menu | Your friendly neighborhood bar | Order | Something delicious for everyone | Our Menu | Reservations | Join us today | Cl",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Buster's has weekly Trivia, Live Music, Karaoke, Live DJ and much more",
+      "url": "https://www.busterssanford.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Buster's has weekly Trivia, Live Music, Karaoke, Live DJ and much more",
+      "url": "https://www.busterssanford.com/sanford-historic-downtown-sanford-buster-s-sanford-about"
      }
     ]
    }
@@ -993,7 +1053,16 @@
    "hoursNote": "Restaurantji (updated 2026-09-05) lists different hours: Mon-Thu 5p-9p; Fri-Sat 11a-10p; Sun 11a-9p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Free skills classes and happy hour range time",
+     "tags": [],
+     "src": "Venue website decisiontactical.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1029,7 +1098,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Sanford/120048244524853/Decision-Tactical",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://decisiontactical.com/"
    },
    "conflicts": [
     {
@@ -2308,7 +2377,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "Monday all dayClassic margaritas $8",
+     "tags": [],
+     "src": "Venue website sanmiguelmexgrill.com/happy-hour",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -2889,7 +2966,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Tue-Fri",
+     "text": "Happy Hour Tues-Friday 3 pm - 6 pm",
+     "tags": [],
+     "src": "Venue website thebreezewayrestaurantandbarfl.com/sanford-downtown-sanford-the-breezeway-restaurant-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -2927,7 +3013,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Sanford/465858283454850/The-Breezeway-Restaurant-and-Bar-in-Historic-Downtown-Sanford%2C-FL",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-11-01",
-    "website": null
+    "website": "http://thebreezewayrestaurantandbarfl.com/"
    },
    "bingo": {
     "nights": [
@@ -3091,7 +3177,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Sanford/589162957951896/The-District-in-Sanford",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://district-sanford.com/"
    },
    "conflicts": [
     {
@@ -3107,7 +3193,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://district-sanford.com/",
+        "quote": "S | EVENTS | GIFT CARDS | RESERVATIONS | JOBS | Scratch Cooking | Our Menu | Approachable Upscale | Specials | Family Owned and Operated | Book a table | Awesome Selection | of Cocktails",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-the-greezy-spoon",

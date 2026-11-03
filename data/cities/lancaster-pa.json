@@ -1457,7 +1457,8 @@
     "fbNewestPost": "2026-10-28",
     "website": "https://www.decadeslancaster.com/"
    },
-   "websiteSource": "OpenStreetMap node/11660107269 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/11660107269 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.decadeslancaster.com/food-drinks"
   },
   {
    "id": "lancaster-dispensing-co",
@@ -1560,7 +1561,40 @@
     "fbNewestPost": null,
     "website": "https://www.exchangeroof.com/"
    },
-   "menu": "https://www.exchangeroof.com/menus"
+   "menu": "https://www.exchangeroof.com/menus",
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "9PM-Midnight",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.exchangeroof.com/about",
+        "date": "2026-11-01",
+        "quote": "4:30PM to 12AM (Live DJ every Friday 9PM-Midnight)"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.exchangeroof.com/about",
+        "date": "2026-11-01",
+        "quote": "4:30PM to 12AM (Live DJ every Friday 9PM-Midnight)"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
   },
   {
    "id": "plough",
@@ -2269,7 +2303,8 @@
     "fbNewestPost": "2026-10-26",
     "website": "https://plazaazteca.com/lancaster"
    },
-   "websiteSource": "OpenStreetMap way/161356295 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/161356295 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://plazaazteca.com/wp-content/uploads/2025/03/PA-Locations-Food-Menu-Sheet-11x17-022525.pdf"
   },
   {
    "id": "el-rodeo",
@@ -2303,7 +2338,8 @@
     "fbNewestPost": null,
     "website": "https://www.elrodeopa.com"
    },
-   "websiteSource": "OpenStreetMap way/365764494 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/365764494 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.elrodeopa.com/restaurant-menu"
   },
   {
    "id": "el-pueblito",
@@ -2335,7 +2371,8 @@
     "fbNewestPost": "2026-10-04",
     "website": "https://www.elpueblitolancaster.com/"
    },
-   "websiteSource": "OpenStreetMap node/7183234474 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/7183234474 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.elpueblitolancaster.com/menu-1"
   },
   {
    "id": "philthy-good",
@@ -3458,7 +3495,70 @@
     ]
    },
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "9pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://corneratmusser.com/",
+        "date": "2026-11-01",
+        "quote": "Grab the Mic, Karaoke Every Tuesday & Thursday"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://corneratmusser.com/events/",
+        "date": "2026-11-01",
+        "quote": " Karaoke starting at 9pm | Tuesday"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://corneratmusser.com/events/",
+        "date": "2026-11-01",
+        "quote": "Grab the Mic, Karaoke Every Tuesday & Thursday"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "10pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://corneratmusser.com/",
+        "date": "2026-11-01",
+        "quote": "Grab the Mic, Karaoke Every Tuesday & Thursday"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://corneratmusser.com/events/",
+        "date": "2026-11-01",
+        "quote": " Karaoke: Upstairs at Shag Bar starting at 10pm | Thursday"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://corneratmusser.com/events/",
+        "date": "2026-11-01",
+        "quote": "Grab the Mic, Karaoke Every Tuesday & Thursday"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -4068,7 +4168,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/40828145 opening_hours tag (map data 2026-10-31; last checked on the map 2026-01-05) (checked 2026-11-01)",
    "county": "Lancaster",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.rosarosapizzeria.com/menu"
   },
   {
    "id": "pa-cabalar-meat-co-lancaster",
@@ -4245,7 +4346,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/13377052306 opening_hours tag (map data 2026-11-01; last checked on the map 2025-12-14) (checked 2026-11-02); late hours confirmed by venue website https://www.clvlancaster.com/: \" – Closed | Monday – Closed | Tuesday – Thursday | 11:30am – 9:00pm | Friday – Saturday | 11:30am – 9:30pm | Happy H\" (checked 2026-11-02)",
    "county": "Lancaster",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.clvlancaster.com/",
+        "quote": "Casual Lancaster Fine Dining with Character | C'est La Vie | You are using an | outdated | browser. Please | upgrade y",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "pa-passerine-lancaster",

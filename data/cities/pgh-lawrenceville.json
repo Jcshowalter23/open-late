@@ -160,7 +160,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/462016493660379/Butler-Street-Derby",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://Butlerstreetderby.com/"
    },
    "trivia": {
     "nights": [],
@@ -172,6 +172,28 @@
       "date": "2026-11-01",
       "quote": " There are specials most days of the week, trivia night, and the smash burger tacos are $2 each",
       "url": "https://Butlerstreetderby.com/"
+     }
+    ]
+   },
+   "crowdType": {
+    "labels": [
+     "LGBTQ-friendly"
+    ],
+    "summary": "LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://Butlerstreetderby.com/",
+        "quote": "place to go of the last year!\" | T.J. V. | · | Google | ★ | ★ | ★ | ★ | ★ | \"As an openly queer person, I can confidently say this is a safe and inclusive space. While it's not explicit",
+        "self": true
+       }
+      ]
      }
     ]
    }
@@ -242,7 +264,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/268219446696592/Dive-Bar-%26-Grille",
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-09-03",
-    "website": null
+    "website": "http://www.divebarandgrille.com/"
    },
    "trivia": {
     "nights": [
@@ -288,6 +310,37 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-06",
+      "quote": "Daily Special - Karaoke | 08:00 PM - 11:00 PM | Friday November 6th | 08:00 PM - 11:00 PM",
+      "url": "https://divebarandgrille.com/pittsburgh-dive-bar-and-grille-specials-regent-square"
+     },
+     {
+      "date": "2026-11-05",
+      "quote": " Day Long! 1/2 off wings with a beverage purchase and $2.75 Yuenglings! | 04:00 PM - 10:00 PM | Thursday November 5th | >> Karaoke @ North Hills AND Regent Square at 8pm",
+      "url": "https://divebarandgrille.com/pittsburgh-dive-bar-and-grille-happy-hours-specials"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-07",
+      "quote": "DJ | 08:00 PM - 02:00 AM | Saturday November 7th | 08:00 PM - 02:00 AM",
+      "url": "https://divebarandgrille.com/pittsburgh-dive-bar-and-grille-specials-north-hills"
+     }
+    ]
    }
   },
   {
@@ -730,7 +783,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Pittsburgh/1501167226819920/Morcilla",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-01",
-    "website": null
+    "website": "http://www.morcillapittsburgh.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://morcillapittsburgh.com/",
+        "quote": ". Amazing plating as well. Quite amazing | Review by - Google | Richard D: | What a great date night spot! We were visiting from out of town, and the staff went above and beyond to accommoda",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -829,14 +904,54 @@
     ]
    },
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "10PM-1AM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.newamsterdampgh.com/",
+        "date": "2026-11-01",
+        "quote": "KARAOKE NIGHT | THURSDAY: | : 10PM-1AM,"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
     "oneoffs": []
    },
    "dj": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "8PM-12AM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.newamsterdampgh.com/",
+        "date": "2026-11-01",
+        "quote": "TUESDAY NIGHT DJ: | 8PM-12AM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [
      {
       "day": "Fri",
@@ -1241,7 +1356,38 @@
     ]
    },
    "dj": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "9pm-2am",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-21",
+      "datedLastSeen": "2026-11-21",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.spiritpgh.com/events",
+        "date": "2026-11-21",
+        "quote": "Afro-Caribbean Third Saturdays: Wavy Friendsgiving | November 21, 2026 | Lodge | with >> with DJ FLIPWAVE and AFRICAN WOLF 10pm-2am 21+"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.spiritpgh.com/",
+        "date": "2026-11-07",
+        "quote": "TITLE TOWN Soul & Funk Party | November 7, 2026 | Lodge | with >> with DJ JULIO FERNANDEZ 9pm-2am 21+"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.spiritpgh.com/events",
+        "date": "2026-11-07",
+        "quote": "TITLE TOWN Soul & Funk Party | November 7, 2026 | Lodge | with >> with DJ JULIO FERNANDEZ 9pm-2am 21+"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -1707,7 +1853,29 @@
      "resolution": "Both agree on 2 am close; opening times differ, kept OpenStreetMap; flagged for review",
      "checked": "2026-11-02"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://mydlowski88.wixsite.com/take-a-break",
+        "quote": "enn Avenue | Lawrenceville, PA | & | 362 Helen Street | McKeesRocks, PA | We are friendly neighborhood bars with great bartenders and that at home appeal. Both bars allow smoking and we have many",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "counties": [

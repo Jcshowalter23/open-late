@@ -270,7 +270,7 @@
    "address": "1201 U St NW, Washington, DC",
    "state": "DC",
    "zip": "20009",
-   "phone": null,
+   "phone": "(202) 627-0794",
    "lat": 38.9172,
    "lng": -77.0283,
    "priceText": "$ (Facebook page)",
@@ -292,8 +292,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./1138138012893730/Archipelago",
     "fbPostsSeen": 5,
     "fbNewestPost": "2026-05-20",
-    "website": null
-   }
+    "website": "http://archipelagobardc.com/"
+   },
+   "phoneSource": "Venue website archipelagobardc.com, checked 2026-11-02"
   },
   {
    "id": "dc-bar-pilar",
@@ -477,39 +478,6 @@
    ]
   },
   {
-   "id": "dc-bkk-cookshop",
-   "name": "BKK cookshop",
-   "cuisine": "Thai",
-   "address": "1700 New Jersey Ave NW, Washington, DC",
-   "state": "DC",
-   "zip": "20001",
-   "phone": "(202) 791-0592",
-   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Washington-D.C./1560126950930399/BKK-cookshop), checked 2026-11-01",
-   "lat": 38.9128,
-   "lng": -77.0179,
-   "priceText": "$ (Facebook page)",
-   "priceLevel": "$",
-   "website": "http://www.bkkcookshop.com/",
-   "hours": "Mon-Thu 5p-10p; Fri-Sun 12p-10p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
-   "county": "Washington, DC",
-   "crowdChecked": "2026-11-01",
-   "crowdSources": {
-    "restaurantji": null,
-    "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./1560126950930399/BKK-cookshop",
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   }
-  },
-  {
    "id": "dc-bresca",
    "name": "Bresca",
    "cuisine": "Restaurant",
@@ -639,7 +607,8 @@
     "fbNewestPost": "2026-10-25",
     "website": "https://www.busboysandpoets.com/locations/?location=14th-v&venue=14th-v"
    },
-   "websiteSource": "OpenStreetMap node/750467842 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/750467842 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.busboysandpoets.com/busboys-menu/"
   },
   {
    "id": "dc-cafe-saint-ex",
@@ -791,7 +760,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./346573012440492/Calico-Blagden-Alley",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.calicodc.com/"
    },
    "trivia": {
     "nights": [],
@@ -869,6 +838,33 @@
       "url": "https://www.calicodc.com/calendar"
      }
     ]
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "monthly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.calicodc.com/calendar",
+        "date": "2026-11-01",
+        "quote": "And on the last Monday of the Month, enjoy a Vinyl DJ Set w/ DJ Free Candy & Friends"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
    }
   },
   {
@@ -1118,7 +1114,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./432006913576388/Doi-Moi",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-06",
-    "website": null
+    "website": "http://doimoidc.com/"
    },
    "conflicts": [
     {
@@ -1139,7 +1135,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.doimoidc.com/",
+        "quote": "inary journey, from prestigious kitchens to global consulting, showcases his expertise in fine dining and pastry arts, honed under the guidance of luminaries like Chef Michael Mina and French",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "dc-dope-meals-my-wife-makes",
@@ -1719,7 +1737,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./107040693972653/Gogi-Yogi",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-08",
-    "website": null
+    "website": "http://www.gogiyogi.com/"
    },
    "conflicts": [
     {
@@ -1735,7 +1753,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.gogiyogi.com/",
+        "quote": "or a night of bold flavors, good energy, and even better company. Whether you're here for date night or a group hang, this is Korean BBQ done right. | About Us | Flavor You Can See, Smell &",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "dc-gypsy-kitchen-dc",
@@ -3501,7 +3541,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./104870860893582/Roy-Boys",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://royboysdc.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "LGBTQ-friendly"
+    ],
+    "summary": "LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.studio11soap.com/store",
+        "quote": "ators to Watch | AAPI Artists | BIPOC Artists | Black Artists | Celebrate Women Artists | LGBTQIA Artists | Ukrainian Artists | Back To Menu | Adult Apparel | T-Shirts | Shorts | New!",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -3683,9 +3745,18 @@
    "website": "http://servicebardc.com/",
    "hours": "Mon closed; Tue-Thu 5p-2a; Fri-Sat 5p-3a; Sun 2p-2a",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
+   "kitchen": "Tue-Sat 5p-12a; Sun 2p-12a",
+   "kitchenNote": "Kitchen hours from Venue website servicebardc.com/hours-and-location, checked 2026-11-01; start time taken from listed opening hours.",
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "With amazing drinks, possibly the best fried chicken in town, a $9 cocktail menu during Happy Hour, and great music throughout, Service Bar has been a tried and true spot for some time now",
+     "tags": [],
+     "src": "Venue website servicebardc.com/about",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -3714,7 +3785,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./287130758293667/Service-Bar",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-08-29",
-    "website": null
+    "website": "http://servicebardc.com/"
    }
   },
   {
@@ -3909,7 +3980,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./146726045469016/Solly%27s",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.sollystavern.com/"
    },
    "conflicts": [
     {
@@ -3971,6 +4042,39 @@
       "url": "https://www.sollystavern.com/calendar2.php"
      }
     ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "monthly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.sollystavern.com/calendar2.php",
+        "date": "2026-11-01",
+        "quote": "Kostume Karaoke 2nd and 4th Weds Every Month"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.sollystavern.com/calendar2.php",
+        "date": "2026-11-01",
+        "quote": " If a month has a 5th Weds, we host a special Kostume Karaoke and donate 10% of bar sales to a charity"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
    }
   },
   {
@@ -4185,7 +4289,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./383843755347071/Supra-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-12",
-    "website": null
+    "website": "http://www.supradc.com/"
    },
    "conflicts": [
     {
@@ -4206,7 +4310,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://supradc.com/",
+        "quote": "aunt regional flair. This chef churns out authentic dishes with a dose of delicious. | 14 Romantic Things to Do in Washington, DC: A Love Affair with the Capital | By Jasica Usman | Washin",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "dc-swypeshark",
@@ -4311,8 +4437,17 @@
    "hours": "Mon closed; Tue-Thu 4p-10p; Fri 4p-2a; Sat 11a-2a; Sun 11a-10p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
+   "kitchenNote": "Kitchen open until 9 pm per Venue website takodadc.com/location/takoda-shaw, checked 2026-11-01; days not stated.",
+   "happyHours": [
+    {
+     "days": "Wed-Sun",
+     "text": "Happy Hour is offered Wednesday to Sunday from 5pm - 7:30pm",
+     "tags": [],
+     "src": "Venue website takodadc.com/location/takoda-shaw",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -4328,7 +4463,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./815122031903872/Takoda-Restaurant-%26-Beer-Garden",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://www.takodadc.com/"
    },
    "trivia": {
     "nights": [
@@ -4848,7 +4983,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./167377207470377/Tiger-Fork",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.tigerforkdc.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Young crowd"
+    ],
+    "summary": "Draws a younger crowd.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Young crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.tigerforkdc.com/",
+        "quote": "ry. | ” | — Michelin Guide | “ | A color-saturated Shaw dining room is the backdrop for a young crowd that tends to dine late. They come for whimsical cocktails (some spiked with medicinal Ch",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -4881,7 +5038,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./1609661566006813/Tiger-Fork",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-03-02",
-    "website": null
+    "website": "http://www.tigerforkdc.com/"
    },
    "conflicts": [
     {
@@ -4897,7 +5054,29 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Young crowd"
+    ],
+    "summary": "Draws a younger crowd.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Young crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.tigerforkdc.com/",
+        "quote": "ry. | ” | — Michelin Guide | “ | A color-saturated Shaw dining room is the backdrop for a young crowd that tends to dine late. They come for whimsical cocktails (some spiked with medicinal Ch",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "dc-tortino-restaurant-dc",
@@ -5150,7 +5329,30 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./331527224365433/Zeppelin-DC",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-23",
-    "website": null
+    "website": "http://www.zeppelindc.com/"
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke",
+      "url": "https://www.zeppelindc.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke",
+      "url": "https://www.zeppelindc.com/karaoke"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "KARAOKE",
+      "url": "https://www.zeppelindc.com/karaoke"
+     }
+    ]
    }
   },
   {
@@ -5198,7 +5400,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://www.benschilibowl.com/menu"
   },
   {
    "id": "dc-vegas-lounge-washington",
@@ -5272,7 +5475,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://www.elsol-dc.com/menu"
   },
   {
    "id": "dc-alero-restaurant-and-lounge-washington",
@@ -5297,7 +5501,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/750467858 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://alerorestaurant.com/menu-appetizers-dupont"
   },
   {
    "id": "dc-nellies-restaurant-sports-bar-washington",
@@ -5516,7 +5721,8 @@
       "url": "https://www.nelliessportsbar.com/"
      }
     ]
-   }
+   },
+   "menu": "https://www.nelliessportsbar.com/menu/"
   },
   {
    "id": "dc-yums-ii-carryout-washington",
@@ -5747,7 +5953,8 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
-   }
+   },
+   "menu": "https://www.lostandfounddc.com/front-bar-menu"
   },
   {
    "id": "dc-pizzarro-washington",
@@ -5856,7 +6063,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/4832005348 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.roamingroosterdc.com/menus"
   },
   {
    "id": "dc-trade-washington",
@@ -5875,7 +6083,26 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "(XL HAPPY HOUR IS BASICALLY ANYTHING YOU NORMALLY GET IN A REGULAR GLASS, YOU GET IN A HUGE GLASS FOR THE SAME PRICE, AND THEN ALL BEER AND WINE IS ONLY $5",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website tradebardc.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Daily",
+     "text": "XL HAPPY HOUR FROM OPENING UNTIL 9PM DAILY",
+     "tags": [],
+     "src": "Venue website tradebardc.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -5883,7 +6110,43 @@
    ],
    "source": "hours from OpenStreetMap node/4887267543 opening_hours tag (map data 2026-10-31; last checked on the map 2024-08-25) (checked 2026-11-01)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "LGBTQ-friendly",
+     "Dance / club crowd"
+    ],
+    "summary": "LGBTQ-friendly; a dancing / club crowd late.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://tradebardc.com/",
+        "quote": "Trade | DC Night Club · Gay Bar · Dive Bar | --> | --> | OPEN MONDAY - FRIDAY AT 5PM | OPEN SATURDAY AND SUNDAY AT 2PM",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://tradebardc.com/",
+        "quote": "Trade | DC Night Club · Gay Bar · Dive Bar | --> | --> | OPEN MONDAY - FRIDAY AT 5PM | OPEN SATURDAY AND SUNDAY",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "dc-the-crown-crow-washington",
@@ -6124,7 +6387,8 @@
       "url": "https://www.tallboybar.com/convention"
      }
     ]
-   }
+   },
+   "menu": "https://www.tallboybar.com/menu.html"
   },
   {
    "id": "dc-players-club-washington",
@@ -6435,7 +6699,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://www.mxdcrestaurant.com/dinner"
   },
   {
    "id": "dc-the-muni-washington",
@@ -6665,7 +6930,8 @@
       "url": "https://www.luluswinegarden.com/fun-happenings"
      }
     ]
-   }
+   },
+   "menu": "https://www.luluswinegarden.com/menus"
   },
   {
    "id": "dc-district-eagle-washington",
@@ -6764,7 +7030,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://www.pizzolis.com/menu"
   },
   {
    "id": "dc-spark-social-house-washington",
@@ -7064,7 +7331,8 @@
       "url": "https://www.crushbardc.com/events"
      }
     ]
-   }
+   },
+   "menu": "https://www.crushbardc.com/menu"
   },
   {
    "id": "dc-number-nine-washington",
@@ -7116,8 +7384,8 @@
    "address": "1942 9th Street Northwest, Washington",
    "state": "DC",
    "zip": "20001",
-   "phone": null,
-   "phoneSource": null,
+   "phone": "(202) 643-8751",
+   "phoneSource": "Venue website www.1942loungedc.com, checked 2026-11-02",
    "lat": 38.916753,
    "lng": -77.024214,
    "website": "http://1942loungedc.com/",
@@ -7134,7 +7402,29 @@
    ],
    "source": "hours from OpenStreetMap node/750467838 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website 1942loungedc.com (Tue-Thu 6pm-2am, Fri-Sat 6pm-3am, Sun 6pm-12am) (checked 2026-11-02)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.1942loungedc.com/",
+        "quote": "ORE | OUR MENU | At 1942, every dish and drink is crafted with intention. Our menu blends upscale comfort food with global influences, offering bold flavors that pair perfectly with our s",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "dc-judy-restaurant-washington",

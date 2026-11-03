@@ -449,7 +449,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "MONDAY: SMOKED RIBS w/ A SIDE $16",
+     "tags": [],
+     "src": "Venue website porkysbarandgrill.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -473,7 +481,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Etna/168982210462768/Porky%27s-Bar-and-Grill",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.porkysbarandgrill.com/"
    },
    "trivia": {
     "nights": [
@@ -663,7 +671,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Millvale/116361367691/Sidelines-Bar-and-Grill",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.sidelinesbarandgrill.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://sidelinesbarandgrill.com/",
+        "quote": "the heart of Millvale and Sewickley. For over two decades, we've been the go-to spot for locals and visitors alike, seeking an authentic taste of community spirit combined with unbeatab",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://sidelinesbarandgrill.com/",
+        "quote": ": A place where you're not just a customer, but part of the family. | Sports Central | : Catch every game on our numerous screens, with the atmosphere of a stadium. | Diverse Menu | : From our fa",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

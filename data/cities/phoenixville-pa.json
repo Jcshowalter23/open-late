@@ -564,7 +564,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Phoenixville/106018455545432/Rivertown-Taps",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-22",
-    "website": null
+    "website": "http://Rivertowntaps.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://Rivertowntaps.com/",
+        "quote": "r and connect while enjoying savory plates and apps and our extensive self-pour tap wall. Date night, drink night or just hanging out, come as you are and experience our fresh take on the Am",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -908,7 +930,8 @@
    ],
    "source": "hours from OpenStreetMap node/4712563416 opening_hours tag (map data 2026-10-31; last checked on the map 2024-09-30) (checked 2026-11-01)",
    "county": "Chester",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.bluebirddistilling.com/menu"
   },
   {
    "id": "pa-twelve78-phoenixville",
@@ -928,14 +951,71 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Enjoy $1 off Vice Coast IPA drafts during the Final Laps",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website twelve78brewing.com/event-calendar",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
    ],
    "source": "hours from OpenStreetMap node/4872468115 opening_hours tag (map data 2026-11-01; last checked on the map 2025-04-12) (checked 2026-11-02); late hours confirmed by venue website https://www.twelve78brewing.com/: \" PM – 9:30 PM | (Trivia Night) | Wed: 5:00 PM – 9:30 PM | Thurs: 5:00 PM – 9:30 PM | Fri: 5:00 PM – 10:00 PM | Sat: 12\" (checked 2026-11-02)",
    "county": "Chester",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "(Trivia Night)",
+      "url": "https://www.twelve78brewing.com/hours-and-location/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "(Trivia Night) | Wed: 5:00 PM – 9:30 PM | Wed: 5:00 PM – 9:30 PM",
+      "url": "https://www.twelve78brewing.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "(Trivia Night) | Wed: 5:00 PM – 9:30 PM | Wed: 5:00 PM – 9:30 PM",
+      "url": "https://www.twelve78brewing.com/event-calendar/"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-12-19",
+      "quote": "make Christmas memories together! ✨🎁 📅 Saturday, December 19, 2026 ⏰ 2–4PM 🎅 Join Santa & Mrs. Claus 🎉 Family-Friendly >> Claus 🎉 Family-Friendly Bingo, Prizes & More",
+      "url": "https://www.twelve78brewing.com/event-calendar/"
+     },
+     {
+      "date": "2026-11-06",
+      "quote": " 📅 Friday, November 6 ⏰ Music Bingo Starts: 6:30PM 🌭 Food Vendor: Short Bus Hot Dog Cart Invite your crew and mark “Going”—we’ll see you Friday",
+      "url": "https://www.twelve78brewing.com/event-calendar/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "🎶🌭 MUSIC BINGO & SHORT BUS HOT DOG CART",
+      "url": "https://www.twelve78brewing.com/event-calendar/"
+     }
+    ]
+   }
   },
   {
    "id": "pa-hog-island-steaks-phoenixville",
@@ -979,13 +1059,35 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "For smaller gatherings, The Market is perfect for 15-20 people, ideal for happy hours or networking events",
+     "tags": [],
+     "src": "Venue website theboardroompxv.com/phoneixeville-private-events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap way/494846700 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.theboardroompxv.com/: \"19460 | KITCHEN HOURS | Monday: CLOSED | Tuesday - Thursday: 12PM - 8PM | Friday & Saturday: 12PM - 9PM | Sunday \" (checked 2026-11-02)",
    "county": "Chester",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Can I have a DJ or live performer for my event",
+      "url": "https://www.theboardroompxv.com/phoneixeville-private-events"
+     }
+    ]
+   }
   },
   {
    "id": "pa-soko-bag-korean-fried-chicken-phoenixville",
@@ -1010,7 +1112,47 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/683257140 opening_hours tag (map data 2026-11-01; last checked on the map 2025-06-20) (checked 2026-11-02); late hours confirmed by venue website https://sokobag.com/: \"ck Here | Operating Hours | Wednesday-Thursday | : 11:30am – 9:00pm | Friday-Saturday | : 11:30am – 10:00pm | Sunday \" (checked 2026-11-02)",
    "county": "Chester",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://sokobag.com/",
+        "quote": "LLENT | Based on | 1465 reviews | Posted on Google | Hyung Park | A fusion of an intimate sports bar with a good selection of custom beer from a local brewery, Korean fried chicken, cheese s",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Check out their Thursday quiz nights",
+      "url": "https://sokobag.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Check out their Thursday quiz nights",
+      "url": "https://sokobag.com/private-events-space-in-phoenixville/"
+     }
+    ]
+   }
   }
  ],
  "counties": [

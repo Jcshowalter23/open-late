@@ -104,7 +104,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/314971075023339/Billy-Jack%27s-BBQ",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-22",
-    "website": null
+    "website": "http://www.billyjacks.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.billyjacks.com/",
+        "quote": "eckscher Drive is more than just a place to eat, it’s a culinary adventure. | Our casual, family-friendly joint merges the time-honored traditions of barbecue with innovative twists that will exc",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -581,7 +603,38 @@
    },
    "menu": "https://www.islandwing.com/menus/",
    "trivia": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2027-04-07",
+      "datedLastSeen": "2027-04-07",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.islandwing.com/locations/daphne-al/",
+        "date": "2027-04-07",
+        "quote": "d | There couldn’t be a better day to stop by and try | National Beer Day is TOMORROW, Friday, April 7th! | Pop Culture >> Pop Culture Trivia Challenge brings the fun every"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.islandwing.com/locations/daphne-al/",
+        "date": "2027-04-07",
+        "quote": "y | National Beer Day is TOMORROW, Friday, April 7th! | Pop Culture Trivia Challenge brings the fun every | Pop Culture >> Pop Culture Trivia Challenge brings the fun every"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.islandwing.com/locations/gulf-shores-al/",
+        "date": "2027-04-07",
+        "quote": " | National Beer Day is TOMORROW, Friday, April 7th! | Stop by The Island today and join us in our partne | Pop Culture >> Pop Culture Trivia Challenge brings the fun every"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -594,7 +647,26 @@
     ]
    },
    "bingo": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2027-04-07",
+      "datedLastSeen": "2027-04-07",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.islandwing.com/locations/gulf-shores-al/",
+        "date": "2027-04-07",
+        "quote": " Stop by The Island today and join us in our partne | Pop Culture Trivia Challenge brings the fun every | Blazin 'Beatz >> Blazin 'Beatz Bingo is a fast paced free to play m"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -948,7 +1020,7 @@
    "lng": -81.4411,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": "http://www.maharlikajax.com/",
+   "website": null,
    "hours": "Mon 3p-9p; Tue closed; Wed-Thu 3p-9p; Fri 3p-11p; Sat 3a-11p; Sun 3a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -966,7 +1038,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
-   }
+   },
+   "websiteSource": "removed 2026-11-02: domain now for sale"
   },
   {
    "id": "fl-marker-32",
@@ -1565,7 +1638,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/115763439753/Time-Out-Sports-Grill",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-20",
-    "website": null
+    "website": "http://timeoutsportsgrill.com/"
    },
    "trivia": {
     "nights": [
@@ -1615,6 +1688,28 @@
       "date": "2026-11-01",
       "quote": "Enjoy pool, darts, shuffleboard, and themed nights like Trivia, Karaoke, and Music Bingo to unwind and have fun | Sunday Football Fun",
       "url": "https://timeoutsportsgrill.com/"
+     }
+    ]
+   },
+   "crowdType": {
+    "labels": [
+     "Industry / late-night"
+    ],
+    "summary": "Popular with service-industry and late-night workers.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Industry / late-night",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://timeoutsportsgrill.com/",
+        "quote": "$5 Milagro | $4 FIREBALL | MONDAY | $3.50 CAPTAIN MORGAN AND BACARDI | 1/2 OFF PIZZA | SERVICE INDUSTRY NIGHT (S.I.N.) | TUESDAY | $4 CORONA | $2 OFF ALL TEQUILAS | $3.50 Olmeca Altos | WEDNESD",
+        "self": true
+       }
+      ]
      }
     ]
    }

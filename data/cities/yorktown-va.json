@@ -1547,7 +1547,43 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/1705099949 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://riverwalkrestaurantva.com/: \"orktown, VA | 23690 | Get Directions | Hours | Wed, Thur | 4:00 PM - 8:00 PM | Fri, Sat | 4:00 PM - 9:00 PM | Sun | 4\" (checked 2026-11-02)",
    "county": "York",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://riverwalkrestaurantva.com/",
+        "quote": "come back—and bring their friends next time. | view menu | about Riverwalk Restaurant | A Local Favorite on the Yorktown Waterfront | Located along the scenic banks of the York River in historic",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://riverwalkrestaurantva.com/",
+        "quote": "steaks, pastas, and classic favorites—all served with stunning water views. | Perfect for romantic evenings or special celebrations, our welcoming atmosphere and attentive service make eve",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "town",

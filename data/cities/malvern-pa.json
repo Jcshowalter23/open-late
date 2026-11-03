@@ -237,7 +237,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Malvern/68920783335/Cedar-Hollow-Inn-Restaurant-and-Bar",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://cedarhollowinn.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.cedarhollowinn.com/",
+        "quote": "Cards | Giftcards | order online | Malvern's Best Kept Secret | Cedar Hollow Inn is your neighborhood spot for delicious American food in Malvern, PA. Come hang out, pick up a quick bite, or have",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -441,7 +463,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://www.locustlanecraftbrewery.com/taproommenus"
   },
   {
    "id": "the-general-warren",
@@ -552,7 +575,25 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://jockeytavern.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Can we bring a band or DJ, or use a TV and microphone",
+      "url": "https://www.jockeytavern.com/event-spaces"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Bands and DJs are welcome at a reasonable volume, booked and paid by you; entertainers count toward the final headcount",
+      "url": "https://www.jockeytavern.com/event-spaces"
+     }
+    ]
    }
   },
   {
@@ -629,7 +670,31 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Thu",
+     "text": "Thursday special: two large cheese pizzas, 15 hot wings, and a 2-liter soda for $55",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website vippizzapasta.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Mon",
+     "text": "VIP Pizza & Pasta Grill’s Monday special: two large cheese pizzas for $27",
+     "tags": [],
+     "src": "Venue website vippizzapasta.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Tue",
+     "text": "Tuesday only, 10am-9pm: a large cheese pizza with a topping, 5pc buffalo chicken fingers, and a 2-liter soda for $28",
+     "tags": [],
+     "src": "Venue website vippizzapasta.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/9908096615 opening_hours tag (map data 2026-11-01; last checked on the map 2025-04-14) (checked 2026-11-02); late hours confirmed by venue website https://vippizzapasta.com: \"vern, PA 19355 | Phone: | (610) 695-9999 | Like us on: | HOURS OF OPERATION | Mon-Fri : 10:00 AM to 9:00 PM | Sat : 1\" (checked 2026-11-02)",

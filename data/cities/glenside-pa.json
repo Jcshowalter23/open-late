@@ -123,7 +123,20 @@
     "fbNewestPost": "2026-10-29",
     "website": "https://www.billsbestbrewery.com/on-draft"
    },
-   "menu": "https://www.billsbestbrewery.com/menus"
+   "menu": "https://www.billsbestbrewery.com/menus",
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Jason parlayed an internship in 2001 to a position on the promotions staff, on to producing the Mid-Day show with Pierre Robert for ten years, and since 2004 he has been a staple in the DJ lineup",
+      "url": "https://www.billsbestbrewery.com/about-us"
+     }
+    ]
+   }
   },
   {
    "id": "glenside-pub",
@@ -237,10 +250,32 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.lewsseafood.com/"
    },
    "phone": "(215) 884-2150",
-   "phoneSource": "OpenStreetMap node/8364508428 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/8364508428 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://lewsseafood.com/",
+        "quote": "Glenside Seafood Fresh & Delicious | A long-standing seafood restaurant & pub that's a local favorite for everything from fried shrimp to broiled lobster. | (215) 884-2150 | (215) 885-3637",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "main-street-pizzeria-and-grille",
@@ -672,8 +707,28 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "HAPPY HOUR 4-6PM",
+     "tags": [],
+     "src": "Venue website unionjacksglenside.com/events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$1 OFF ALL DRAFTS AND DOMESTIC BOTTLES",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website unionjacksglenside.com/events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -723,7 +778,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Glenside/113580702009613/Union-Jack%27s-Pub",
     "fbPostsSeen": 5,
     "fbNewestPost": "2026-10-19",
-    "website": null
+    "website": "http://www.unionjacksglenside.com/"
    },
    "trivia": {
     "nights": [],
@@ -825,7 +880,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/988635647 opening_hours tag (map data 2026-11-01; last checked on the map 2024-08-28) (checked 2026-11-02); late hours confirmed by venue website https://trevibyob.com/: \"s | Hours | Kitchen Hours | Wednesday and Thursday: 4:00pm - 9:00pm | Friday and Saturday: 4:00pm - 10:00pm | Sunday:\" (checked 2026-11-02)",
    "county": "Montgomery",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://trevibyob.com/",
+        "quote": "ed mushrooms are killer. Wings are delish, pleasantly surprised how much better than most sports bars. Gnocchi Rosa carbonarra is outstanding... Potato Pillows from heaven (pro tip: add crab",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "counties": [

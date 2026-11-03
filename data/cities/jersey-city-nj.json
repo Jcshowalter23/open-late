@@ -2794,7 +2794,24 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour: Mon – Fri 3:00 pm – 6:00 pm",
+     "tags": [],
+     "src": "Venue website fireandoak.com/location/fire-and-oak-jersey-city",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Mon-Fri",
+     "text": "Join us for Happy Hour Served in Our Bar & Lounge Area Monday thru Friday 4:00 - 6:00",
+     "tags": [],
+     "src": "Venue website fireandoak.com/location/fire-and-oak-montvale",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -2806,7 +2823,45 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://fireandoak.com"
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.fireandoak.com/",
+        "date": "2026-11-01",
+        "quote": " Join us every Thursday at our Montvale location for our Supper Club experience, where exceptional dining meets live DJ entertainment, creating the perfect atmosphere for an unforgettable night"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ",
+      "url": "https://www.fireandoak.com/jersey-city-private-events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "DJ",
+      "url": "https://www.fireandoak.com/jersey-city-private-events/"
+     }
+    ]
    }
   },
   {

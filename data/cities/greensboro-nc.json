@@ -209,7 +209,8 @@
     "fbNewestPost": null,
     "website": "https://42-fry.com/"
    },
-   "websiteSource": "OpenStreetMap node/13535247648 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/13535247648 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://42-fry.com/menu/"
   },
   {
    "id": "nc-913-whiskey-bar-and-southern-kitchen",
@@ -1177,7 +1178,8 @@
     "fbNewestPost": null,
     "website": "https://billspizzaonline.com/"
    },
-   "websiteSource": "OpenStreetMap node/12812502893 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/12812502893 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://billspizzaonline.com/menu"
   },
   {
    "id": "nc-bills-pizza-pub-greensboro",
@@ -1917,7 +1919,8 @@
     "fbNewestPost": null,
     "website": "https://www.bravoitalian.com/locations/friendly-center/"
    },
-   "websiteSource": "OpenStreetMap way/281421362 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/281421362 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.bravoitalian.com/menu/"
   },
   {
    "id": "nc-burrito-shak-greensboro",
@@ -4263,7 +4266,29 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://ginzasteakhouse.website/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://ginzasteakhouse.website/",
+        "quote": "d shines with well-prepared, satisfying plates perfect for lunch or dinner. From longtime regulars to newcomers, Ginza Steakhouse impresses with dependable flavors, generous servings, and",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -6929,7 +6954,8 @@
     "fbNewestPost": null,
     "website": "https://lospatronesnc.com/"
    },
-   "websiteSource": "OpenStreetMap node/14314266007 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/14314266007 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://lospatronesnc.com/menu"
   },
   {
    "id": "nc-lucky-32-southern-kitchen",
@@ -8425,7 +8451,8 @@
     "fbNewestPost": null,
     "website": "https://www.osteriagso.com/"
    },
-   "websiteSource": "OpenStreetMap node/13091309986 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/13091309986 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.osteriagso.com/menu"
   },
   {
    "id": "nc-ozzies-ice-cream-shop",
@@ -11183,7 +11210,8 @@
     "fbNewestPost": null,
     "website": "https://www.thaisquaregso.com/"
    },
-   "websiteSource": "OpenStreetMap node/11899210375 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/11899210375 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.thaisquaregso.com/menu"
   },
   {
    "id": "nc-the-bearded-goat",
@@ -12031,49 +12059,20 @@
     ]
    },
    "karaoke": {
-    "nights": [
-     {
-      "day": "Sat",
-      "cadence": "weekly",
-      "start": "7:30–10:30 pm",
-      "basis": "explicit recurring wording",
-      "lastSeen": "2026-11-01",
-      "datedLastSeen": null,
-      "postsSeen": 0,
-      "sources": [
-       {
-        "src": "venue website (undated page)",
-        "url": "https://uptowncharlies.com/",
-        "date": "2026-11-01",
-        "quote": "Karaoke Saturday"
-       },
-       {
-        "src": "venue website (undated page)",
-        "url": "https://uptowncharlies.com/",
-        "date": "2026-11-01",
-        "quote": " Karaoke every Saturday night 7:30–10:30PM"
-       },
-       {
-        "src": "venue website (undated page)",
-        "url": "https://uptowncharlies.com/",
-        "date": "2026-11-01",
-        "quote": "Karaoke | Saturday | 7:30PM – 10:30PM"
-       }
-      ],
-      "confidence": "medium",
-      "note": "Only on venue website (undated); confirm still running"
-     }
-    ],
+    "nights": [],
     "stale": [],
-    "hints": [
-     "Restaurantji review/summary mentions karaoke"
-    ],
+    "hints": [],
     "conflicts": [],
     "oneoffs": [
      {
       "date": "2026-11-01",
       "quote": "Karaoke Night",
       "url": "https://uptowncharlies.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke | Saturday | 7:30PM – 10:30PM",
+      "url": "https://uptowncharlies.com/"
      }
     ]
    },
@@ -13172,7 +13171,8 @@
       "url": "https://nattygreenes.com/events"
      }
     ]
-   }
+   },
+   "menu": "https://nattygreenes.com/food-menu"
   },
   {
    "id": "nc-vinos-italian-cuisine-greensboro",
@@ -13409,7 +13409,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/11144801939 opening_hours tag (map data 2026-10-31; last checked on the map 2026-06-11) (checked 2026-11-01)",
    "county": "Guilford",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://thekpot.com/menu"
   },
   {
    "id": "nc-gusto-pizzreria-oak-ridge",
@@ -13434,7 +13435,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/11329884668 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Guilford",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.gustopizzeria.com/_files/ugd/5ad8bc_8c2dc94f4371472dbe3bf3b06431bc96.pdf"
   },
   {
    "id": "nc-walkers-bar-greensboro",
@@ -13687,7 +13689,8 @@
       "url": "https://therhinogreensboro.com/events"
      }
     ]
-   }
+   },
+   "menu": "https://therhinogreensboro.com/food-menu"
   },
   {
    "id": "nc-golden-pizza-subs-greensboro",
@@ -13875,7 +13878,8 @@
    ],
    "source": "hours from OpenStreetMap way/207790169 opening_hours tag (map data 2026-10-31; last checked on the map 2025-09-12) (checked 2026-11-01)",
    "county": "Guilford",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.bourbonbowl.com/menus/"
   },
   {
    "id": "nc-china-garden-greensboro",

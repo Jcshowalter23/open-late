@@ -349,7 +349,7 @@
    "address": "5904 Marina Dr, Holmes Beach, Manatee",
    "state": "FL",
    "zip": "34217",
-   "phone": null,
+   "phone": "(941) 242-5309",
    "lat": 27.5106,
    "lng": -82.7155,
    "priceText": "$$ (Facebook page)",
@@ -373,8 +373,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Manatee/778066185685238/ISOLA-BELLA-Italian-Eatery",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-17",
-    "website": null
-   }
+    "website": "http://IsolaBellaItalianEatery.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.isolabellaitalianeatery.com/",
+        "quote": "erves authentic Italian cuisine with professional and friendly service. From an intimate date night to a large family gathering, we strive to make your evening special. | menuS | Isola Bel",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.isolabellaitalianeatery.com, checked 2026-11-02"
   },
   {
    "id": "fl-rod-n-reel-pier",
@@ -465,7 +488,24 @@
    "hoursNote": "Restaurantji (updated 2026-10-21) lists different hours: Daily 4p-9p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Open daily 4:00–9:00 PM · happy hour until 5:30",
+     "tags": [],
+     "src": "Venue website thefeastrestaurantami.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Daily",
+     "text": "Happy hour runs daily from 4:00 to 5:30, with all-you-can-eat jumbo shrimp and discounted beverages",
+     "tags": [],
+     "src": "Venue website thefeastrestaurantami.com/about-us",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -499,7 +539,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Holmes-Beach/2015611258664736/The-Feast-AMI",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.thefeastrestaurantami.com/"
    },
    "conflicts": [
     {
@@ -601,7 +641,8 @@
      "checked": "2026-11-01"
     }
    ],
-   "websiteSource": "OpenStreetMap relation/21217554 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap relation/21217554 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.theuglygrouper.com/menu-1"
   },
   {
    "id": "fl-thechateauannamaria",

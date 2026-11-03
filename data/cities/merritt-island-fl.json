@@ -653,7 +653,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "2 for $20 special: 2 cheeseburgers, 2 domestic beers, $20",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website latitudesfl.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -666,7 +677,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Cocoa/979735778563495/Latitudes-Waterfront-Grill-%26-Oyster-Bar",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://www.latitudesfl.com/"
    },
    "bingo": {
     "nights": [
@@ -712,7 +723,73 @@
      }
     ]
    },
-   "phoneSource": "OpenStreetMap node/2272189961 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/2272189961 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://latitudesfl.com/",
+        "quote": "rida. This destination brings together the best of both worlds, providing a sophisticated fine dining experience alongside a casual eatery.. | Read More | about us | Skip Photo Gallery | Revi",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "posted on 5 different Mons",
+      "lastSeen": "2027-02-08",
+      "datedLastSeen": "2027-02-08",
+      "postsSeen": 5,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://latitudesfl.com/events",
+        "date": "2027-02-08",
+        "quote": "Karaoke | Monday, February 8th, 2027"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://latitudesfl.com/events",
+        "date": "2027-01-18",
+        "quote": "Karaoke | Monday, January 18th, 2027"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://latitudesfl.com/events",
+        "date": "2026-12-28",
+        "quote": "Karaoke | Monday, December 28th, 2026"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke | 05:00 PM - 11:30 PM",
+      "url": "https://latitudesfl.com/events"
+     }
+    ]
+   }
   },
   {
    "id": "fl-margarita-island",
@@ -1118,7 +1195,20 @@
     "facebookMirror": "https://www.foodyas.com/US/Merritt-Island/118827658238458/Pacific-Rim",
     "fbPostsSeen": 1,
     "fbNewestPost": "2025-12-06",
-    "website": null
+    "website": "http://pacrimmi.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ",
+      "url": "https://pacrimmi.com/"
+     }
+    ]
    }
   },
   {
@@ -1677,7 +1767,16 @@
    "hoursNote": "Hours differ by source: Facebook page lists Daily 11a-2a (no posts since May 2026); Restaurantji (updated 2026-10-30) used as newer. Call ahead.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy Hour 4-7 everyday",
+     "tags": [],
+     "src": "Venue website spacecoastlive.com/venues/island-waterfront-bar-and-grill-the",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1713,7 +1812,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Merritt-Island/305937486094130/The-Island-Waterfront-Bar-%26-Grill",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.spacecoastlive.com/calendar/venue/001975"
    },
    "conflicts": [
     {
@@ -1802,6 +1901,52 @@
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-15",
     "website": "https://theplantshackbeerandwinegarden.com/"
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-06",
+      "quote": "5:30–8:30pm – The Grub Shack 6–8:30pm – Candy’s Cookies, Cakes & More in the retail area 6–8:30pm – Florida Woman Trivia with Riley | FRIDAY 11/6",
+      "url": "https://theplantshackbeerandwinegarden.com/events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Florida Woman Trivia at The Plant Shack",
+      "url": "https://theplantshackbeerandwinegarden.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Looking for trivia nights on the Space Coast",
+      "url": "https://theplantshackbeerandwinegarden.com/"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-05",
+      "quote": "5:30–8:30pm – The Grub Shack 6–8:30pm – Candy’s Cookies, Cakes & More in the retail area 6:30–8:30pm – Plant Bingo with Robbie | THURSDAY 11/5",
+      "url": "https://theplantshackbeerandwinegarden.com/events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " The Plant Shack in Port Saint John is a laid-back spot to enjoy live music, open mic nights, themed music bingo, and a welcoming community atmosphere in our Beer & Wine Garden",
+      "url": "https://theplantshackbeerandwinegarden.com/live-music-wednesdays-at-the-plant-shack/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Our entertainment schedule changes throughout the month, with themed Music Bingo on select Wednesdays, live music on select Friday nights, open mic nights on many Saturdays, and special themed events ",
+      "url": "https://theplantshackbeerandwinegarden.com/live-music-wednesdays-at-the-plant-shack/"
+     }
+    ]
    }
   },
   {

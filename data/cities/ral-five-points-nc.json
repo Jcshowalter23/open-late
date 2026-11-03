@@ -2432,8 +2432,25 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Visit us during Hoot & Holler Happy Hour every Monday through Friday from 4-6PM",
+     "tags": [],
+     "src": "Venue website tupelohoneycafe.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Mon-Thu",
+     "text": "Enjoy specials like $6 starters and $5 well spirits, plus a bonus daily special every Monday through Thursday",
+     "tags": [],
+     "src": "Venue website tupelohoneycafe.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -2446,7 +2463,7 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://tupelohoneycafe.com"
    }
   },
   {
@@ -2574,7 +2591,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/821918818 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Wake",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://snoopys.com/menu"
   },
   {
    "id": "nc-lynnwood-brewing-concern-raleigh",
@@ -2786,7 +2804,8 @@
       "url": "https://tapyardraleigh.com/raleigh-oakwood-mordecai-tap-yard-raleigh-weekly-lineup?source=pop_up&spot_id=107712&destination=events&promotion=custom_promotion"
      }
     ]
-   }
+   },
+   "menu": "https://tapyardraleigh.com/raleigh-oakwood-mordecai-tap-yard-raleigh-whats-on-tap"
   },
   {
    "id": "nc-bison-bar-raleigh",

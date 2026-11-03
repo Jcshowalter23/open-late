@@ -156,7 +156,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$1 Off Draft Beer",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website brinesarasota.com/happy-hour-menu",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -169,7 +180,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Sarasota/630065700970103/Brine-Seafood-%26-Raw-Bar",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-06-05",
-    "website": null
+    "website": "http://www.BrineSarasota.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://brinesarasota.com/",
+        "quote": "Upscale Seafood and Raw Bar Sarasota - Brine Seafood & Raw Bar | Skip to content | 2250 Gulf Gate",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1247,7 +1280,7 @@
    "address": "6690 Superior Ave, Sarasota",
    "state": "FL",
    "zip": "34231",
-   "phone": null,
+   "phone": "(941) 927-3388",
    "lat": 27.2593,
    "lng": -82.516,
    "priceText": "$$ (Facebook page)",
@@ -1272,8 +1305,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Sarasota/144521828938254/Monk%27s-Steamer-Bar",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-29",
-    "website": null
-   }
+    "website": "http://monkssteamerbar.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://monkssteamerbar.com/",
+        "quote": "ur night starts. | Matt and Gretchen opened Monk's in 2001 because Sarasota needed a real local haunt. Somewhere you could pull up a stool, order oysters shucked fresh right in front of you,",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website monkssteamerbar.com, checked 2026-11-02"
   },
   {
    "id": "fl-munchies420smokeshop",
@@ -1360,8 +1416,25 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Tap in to happy hour every weekday 2pm-6pm & 9pm-close",
+     "tags": [],
+     "src": "Venue website oakandstone.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Mon-Fri",
+     "text": "$15 classic cheese or daily specialty pizza, includes side house or caesar salad & soft drink Monday: Pepperoni Pizza Tuesday: Mushroom Pizza Wednesday: Meatball Pizza Thursday: Chicken Bacon Ranch Pizza Friday: Italian Sausage Pizza",
+     "tags": [],
+     "src": "Venue website oakandstone.com/promotions",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",

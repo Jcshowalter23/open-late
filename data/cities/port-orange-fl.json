@@ -2119,8 +2119,36 @@
    "hoursNote": "Restaurantji (updated 2026-10-31) lists different hours: Mon-Fri 11a-9p; Sat 10a-9p; Sun 10a-8p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour is available Monday through Friday from 3–6 PM",
+     "tags": [],
+     "src": "Venue website sandiegogrill.net/happy-hour-specials",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Mon-Fri",
+     "text": "Happy hour · Mon–Fri 3 to 6 PM",
+     "tags": [],
+     "src": "Venue website sandiegogrill.net/location",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$1 off beer & wine",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website sandiegogrill.net",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -2133,7 +2161,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Port-Orange/618012894936478/San-Diego-Grill",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-01",
-    "website": null
+    "website": "http://sandiegogrill.net/"
    },
    "conflicts": [
     {
@@ -2150,7 +2178,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://sandiegogrill.net/",
+        "quote": "m the kitchen | A little taste of everything. | See the full gallery | Browse the menus | Regulars know | Come for the food. Stay for the people. | Read guest reviews | ★★★★★ | “Great serv",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-slims-barbecue",
@@ -2277,7 +2327,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Port-Orange/134317360097728/Sushi-99-Port-Orange",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.sushi99us.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://sushi99us.com/",
+        "quote": "main content | SUSHI 99, PORT ORANGE | About | Gallery | Hours | Contact | Order Now | A Fine Dining Experience | Fresh Japanese flavors crafted with care in Port Orange. | Order Now | View",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

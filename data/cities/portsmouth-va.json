@@ -1654,7 +1654,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/4459293454 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://highstreet.pizza/: \"ur House | 501 High Street | Portsmouth, VA | 23704 | Get Directions | Hours | Tue, Wed | 5:00 PM - 10:00 PM | Thur, F\" (checked 2026-11-02)",
    "county": "Portsmouth City",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://highstreet.pizza/",
+        "quote": "BOOK A TABLE | IN JUST A FEW CLICKS | Planning a night out? Whether it's a casual dinner, date night, or group gathering, we'll make sure everything is ready for you. Simple, quick, and just",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "city",

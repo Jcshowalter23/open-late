@@ -37,7 +37,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./116000011769815/Agora-Dc",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://www.agorarestaurants.net/"
    },
    "conflicts": [
     {
@@ -58,7 +58,43 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.agorarestaurants.net/",
+        "quote": "nal restaurant. The perfect balance of hospitality and service. This place is obviously a local favorite—you can tell by how busy it was! It attracts such a great… | Alexander Coughlin | Wow! Th",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.agorarestaurants.net/",
+        "quote": "desserts crafted from locally sourced, seasonal ingredients. | Whether you’re planning a date night, a celebratory group dinner, the best bottomless brunch in DC, or a private event for you",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "dc-ala",
@@ -110,7 +146,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./867502189977790/Ala",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-08-27",
-    "website": null
+    "website": "http://www.ala-dc.com/"
    },
    "conflicts": [
     {
@@ -131,7 +167,42 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.ala-dc.com/",
+        "quote": ", Syria, Israel, and Lebanon, and beyond (known as the Levant region). | - Eater.com | \"A NEIGHBORHOOD GEM\" | One-of-a-kind Levantine dining experience in the heart of Dupont Circle has been buzzi",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Looking for a dance room with space for a DJ or band",
+      "url": "https://www.ala-dc.com/events"
+     }
+    ]
+   }
   },
   {
    "id": "dc-aladdins-kitchen",
@@ -293,7 +364,7 @@
    "address": "1805 18th St NW, Washington, DC",
    "state": "DC",
    "zip": "20009",
-   "phone": null,
+   "phone": "(202) 845-8935",
    "lat": 38.9144,
    "lng": -77.0415,
    "priceText": "$$ (Facebook page)",
@@ -303,7 +374,16 @@
    "hoursNote": "Facebook shows only Sat 11am - 2pm for that day (may be a lunch/brunch-only listing); call ahead.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour - Mon - Fri - 5:00pm - 6:00pm - 1st Floor",
+     "tags": [],
+     "src": "Venue website anjurestaurant.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -315,8 +395,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./1056349387883716/Anjufrc",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-28",
-    "website": null
-   }
+    "website": "http://anjurestaurant.com/"
+   },
+   "phoneSource": "Venue website www.anjurestaurant.com, checked 2026-11-02"
   },
   {
    "id": "dc-annabelle-restaurant",
@@ -690,7 +771,8 @@
       "url": "https://barbouzard.com/"
      }
     ]
-   }
+   },
+   "menu": "https://barbouzard.com/menu/"
   },
   {
    "id": "dc-bareburger",
@@ -1078,8 +1160,40 @@
    "hours": "Mon-Tue closed; Wed-Thu 8p-2a; Fri 7p-3a; Sat 6p-3a; Sun closed",
    "hoursNote": "Restaurantji (updated 2026-10-29) lists different hours: Mon-Tue closed; Wed 7:30p-2a; Thu 7p-2a; Fri 7p-3a; Sat 6:30p-3a; Sun closed. Call ahead to confirm.",
    "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
+   "kitchenNote": "Kitchen open until 11 pm per Venue website cafecitrondc.com, checked 2026-11-01; days not stated.",
+   "happyHours": [
+    {
+     "days": "Wed",
+     "text": "DANCE & ENJOY our SALSA/ BACHATA HAPPY HOUR WEDNESDAY salsa class 8:30 /food 7-11/dj dancing til 2am",
+     "tags": [],
+     "src": "Venue website cafecitrondc.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Fri,Sat",
+     "text": "FRIDAY & SATURDAY HAPPY HOUR 7- 11 salsa class 9pm dj til 3am",
+     "tags": [],
+     "src": "Venue website cafecitrondc.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Wed,Thu",
+     "text": "WEDNESDAY THURSDAY PRIVATE HAPPY HOUR MINIMUM $800 2 HOURS",
+     "tags": [],
+     "src": "Venue website cafecitrondc.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "See venue",
+     "text": "LATIN HAPPY HOUR IN DC $7 MARGARITAS $10 MOJITOS %9 CAIPIRINHAS — Cafe Citron",
+     "tags": [],
+     "src": "Venue website cafecitrondc.com/new-page-1",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1137,7 +1251,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./141066512596044/Cafe-Citron",
     "fbPostsSeen": 1,
     "fbNewestPost": "2026-10-16",
-    "website": null
+    "website": "http://www.cafecitrondc.com/"
    },
    "conflicts": [
     {
@@ -1163,7 +1277,52 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "2am",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.cafecitrondc.com/",
+        "date": "2026-11-01",
+        "quote": "TIKI KARAOKE THURSDAY HAPPY HOUR"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.cafecitrondc.com/",
+        "date": "2026-11-01",
+        "quote": "KARAOKE TIKI THURSDAY 7 TO 11:30 dj dancing til 2am no cover"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.cafecitrondc.com/nightclub-events",
+        "date": "2026-11-01",
+        "quote": "TIKI KARAOKE THURSDAY HAPPY HOUR"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "TIKI KARAOKE",
+      "url": "https://www.cafecitrondc.com/tequila-thursday"
+     }
+    ]
+   }
   },
   {
    "id": "dc-char-bar",
@@ -1553,7 +1712,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Sat,Sun",
+     "text": "Our $10 specialty brunch cocktails are available on Saturday & Sunday from 8:00am – 2:00pm",
+     "tags": [],
+     "src": "Venue website edgarbarandkitchen.com/menus",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -1566,7 +1733,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./346841402073125/EDGAR",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://edgarbarandkitchen.com/"
    }
   },
   {
@@ -2481,7 +2648,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./120874644595671/La-Tomate---Italian-Bistro---Dupont-Circle%2C-Washington-DC",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-09-24",
-    "website": null
+    "website": "http://www.latomatebistro.com/"
    },
    "conflicts": [
     {
@@ -2502,7 +2669,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.latomatebistro.com/",
+        "quote": "double exposures onto the corner of Connecticut Avenue and R Street. | Why is La Tomate a Local Favorite? | La Tomate blends an old world European bistro | atmosphere with a contemporary, but fa",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "dc-lauriol-plaza",
@@ -3063,8 +3252,17 @@
    "hours": "Mon-Wed 4p-11p; Thu 4p-12a; Fri 4p-2a; Sat 11a-2a; Sun 11a-11p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
+   "kitchenNote": "Kitchen open until 1 am per Venue website missiondupont.com/location/mission-dc, checked 2026-11-01; days not stated.",
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Mission offers happy hour seven days a week from 4 pm to 6 pm",
+     "tags": [],
+     "src": "Venue website missiondupont.com/about",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -3076,7 +3274,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./1380696668865552/Mission---Dupont-Circle",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://www.missiondupont.com/"
    }
   },
   {
@@ -3107,7 +3305,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./1430441950331684/Moby-Dick-House-of-Kabob",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.mobyskabob.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.mobyskabob.com/",
+        "quote": "ng a prime expansion hub for popular D.C. restaurants, with new openings catering to both locals and commuters. These spots are attracting new residents who prefer staying close to home",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -3481,7 +3701,7 @@
    "hours": "Daily 11:30a-12a",
    "hoursNote": "Hours differ by source: Facebook page lists Mon-Fri 10a-12a; Sat-Sun 11a-12a (no posts since May 2026); Restaurantji (updated 2026-10-03) used as newer. Call ahead.",
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 11 pm per Venue website jeffersondc.com/dining/quill, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -3516,7 +3736,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./236303336478402/Quill-at-The-Jefferson",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.jeffersondc.com/dining/quill"
    },
    "conflicts": [
     {
@@ -3668,9 +3888,32 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./203614649696439/Recessions",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://recessionsdc.com/"
    },
-   "phoneSource": "OpenStreetMap node/739528133 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/739528133 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke",
+      "url": "https://www.recessionsdc.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "From the karaoke to the carefully curated list of drinks, our incredible staff proudly crafts a unique experience for our guests",
+      "url": "https://www.recessionsdc.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke",
+      "url": "https://www.recessionsdc.com/happyhour"
+     }
+    ]
+   }
   },
   {
    "id": "dc-residents-dc",
@@ -3690,7 +3933,16 @@
    "hoursNote": "Restaurantji (updated 2026-10-29) lists different hours: Mon closed; Tue-Wed 5p-10p; Thu 5p-11p; Fri 5p-12a; Sat 11a-12a; Sun 11a-9p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Tue-Fri",
+     "text": "Happy Hour (bar only): 5–7 pm, Tuesday–Friday",
+     "tags": [],
+     "src": "Venue website residentsdc.com/location",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -3728,7 +3980,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./354372011801887/Residents-DC",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.residentsdc.com/"
    },
    "conflicts": [
     {
@@ -4404,7 +4656,8 @@
     "fbNewestPost": "2026-08-26",
     "website": "https://alabardero.com/"
    },
-   "websiteSource": "OpenStreetMap node/739528182 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/739528182 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://alabardero.com/menus"
   },
   {
    "id": "dc-taim-washington-d-c",
@@ -4440,7 +4693,8 @@
     "fbNewestPost": "2026-10-12",
     "website": "https://taimkitchen.com/"
    },
-   "websiteSource": "OpenStreetMap node/10683734444 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/10683734444 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://taimkitchen.com/pages/our-menu"
   },
   {
    "id": "dc-thai-chef-street-food",
@@ -4545,8 +4799,17 @@
    "hours": "Mon closed; Tue-Wed 4p-12a; Thu 4p-1a; Fri 4p-3a; Sat 11a-3a; Sun 11a-12a",
    "hoursNote": "Restaurantji (updated 2026-10-29) lists different hours: Mon-Wed 4p-12a; Thu 4p-12:30a; Fri 4p-3a; Sat 11a-3a; Sun 11a-12a. Call ahead to confirm.",
    "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
+   "kitchenNote": "Kitchen open until 12 am per Venue website theadmiraldc.com/location/the-admiral, checked 2026-11-01; days not stated.",
+   "happyHours": [
+    {
+     "days": "Wed",
+     "text": "Happy hour offered daily from 4 pm to 6 pm and all night on Wednesdays",
+     "tags": [],
+     "src": "Venue website theadmiraldc.com/location/the-admiral",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -4608,7 +4871,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./656461648154345/The-Admiral",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-15",
-    "website": null
+    "website": "http://theadmiraldc.com/"
    },
    "conflicts": [
     {
@@ -4721,8 +4984,7 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-14",
     "website": "https://www.thegoldenagedc.com/"
-   },
-   "menu": "https://www.thegoldenagedc.com/food-menu"
+   }
   },
   {
    "id": "dc-the-mayflower",
@@ -5121,40 +5383,6 @@
    }
   },
   {
-   "id": "dc-trio-bistro-dc",
-   "name": "Trio Bistro DC",
-   "cuisine": "American",
-   "address": "1537 17th St NW, Washington, DC",
-   "state": "DC",
-   "zip": "20036",
-   "phone": "(202) 232-6305",
-   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Washington-D.C./280804185424438/Trio-Bistro-DC), checked 2026-11-01",
-   "lat": 38.911,
-   "lng": -77.0383,
-   "priceText": "$$ (Facebook page)",
-   "priceLevel": "$$",
-   "website": "https://triodc.com/",
-   "hours": "Mon-Thu 3a-10p; Fri 11a-11p; Sat-Sun 9a-11p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
-   "county": "Washington, DC",
-   "crowdChecked": "2026-11-01",
-   "crowdSources": {
-    "restaurantji": null,
-    "facebookMirror": "https://www.foodyas.com/US/Washington-D.C./280804185424438/Trio-Bistro-DC",
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": "https://triodc.com/"
-   },
-   "menu": "https://www.triodc.com/menu/"
-  },
-  {
    "id": "dc-tu-taco",
    "name": "Tu TACO",
    "cuisine": "Taco",
@@ -5450,7 +5678,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/3000700981 opening_hours tag (map data 2026-10-31; last checked on the map 2025-11-12) (checked 2026-11-01)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.crepeaway.com/menu"
   },
   {
    "id": "dc-reynolds-bar-washington",
@@ -5502,7 +5731,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/6699525423 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://alerorestaurant.com/menu-appetizers-dupont"
   },
   {
    "id": "dc-the-angry-jerk-washington",
@@ -5527,7 +5757,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/9910712185 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://theangryjerk.com/silver-spring-the-angry-jerk-food-menu"
   },
   {
    "id": "dc-wiseguy-pizza-washington-2",
@@ -5564,7 +5795,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/11848289630 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.wiseguypizza.com/menu"
   },
   {
    "id": "dc-darvish-kitchen-washington",
@@ -5638,7 +5870,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/13177660844 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://moxies.com/restaurants/plano/menus"
   },
   {
    "id": "dc-safa-halal-washington",
@@ -5732,13 +5965,44 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Aperitivo / Happy Hour runs Monday through Friday, 3:30pm–6:30pm at both locations",
+     "tags": [],
+     "src": "Venue website rosemarinoditalia.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap node/739339971 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.rosemarinoditalia.com/: \" Ray | — Alexandria, VA | Monday to Thursday from 3:30pm to 9pm, Friday and Saturday from 3:30pm to 10pm, Sunday c\" (checked 2026-11-02)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.rosemarinoditalia.com/",
+        "quote": "et tables. Dress code is casual; smart casual is always a comfortable fit. The vibe suits date nights, neighborhood dinners, and celebrations equally well. | Is the restaurant wheelchair acc",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "dc-i-ricchi-washington",
@@ -5747,8 +6011,8 @@
    "address": "1220 19th Street Northwest, Washington",
    "state": "DC",
    "zip": null,
-   "phone": null,
-   "phoneSource": null,
+   "phone": "(202) 835-0459",
+   "phoneSource": "Venue website iricchidc.com, checked 2026-11-02",
    "lat": 38.906659,
    "lng": -77.043792,
    "website": "https://iricchidc.com/",
@@ -5807,7 +6071,24 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Mon – Sat: 11 am – 10 pm Sun: 11 am – 9 pm Happy Hour: 4 pm-7 pm, Weekdays",
+     "tags": [],
+     "src": "Venue website pjclarkes.com/location/washington",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Mon-Fri",
+     "text": "The Washington location has weekday happy hour from 4 pm to 7 pm, and is also a reliable downtown lunch stop for the K Street crowd",
+     "tags": [],
+     "src": "Venue website pjclarkes.com/location/washington",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -5890,7 +6171,29 @@
    ],
    "source": "hours from OpenStreetMap node/14196769611 opening_hours tag (map data 2026-11-01; last checked on the map 2026-09-18) (checked 2026-11-02); late hours confirmed by venue website https://www.theexchangesaloon.com/: \" | events@theexchangesaloon.com | OPENING HOURS | Monday | 11am - 8pm | ​ | Tuesday - Friday | 11am-11pm | ​ | Sat\" (checked 2026-11-02)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.theexchangesaloon.com/",
+        "quote": "me ask us for our daily drink specials | Read More | We offer much more than your typical sports bar. Enjoy thick, juicy cheeseburgers, succulent crab cakes, fresh soup and salads and more.",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "dc-uchi-washington",
@@ -5915,7 +6218,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/14329310369 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://uchi.uchirestaurants.com/location/sushi-dc/: \"on to detail that define the Uchi experience. | hours | sun - thur | 4pm - 10pm | fri - sat | 4pm - 11pm | happy h\" (checked 2026-11-02)",
    "county": "Washington, DC",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://uchi.uchirestaurants.com/location/sushi-dc/",
+        "quote": "e dining | catering + events | gift cards | happenings | cart ( | ) | Sushi | dc | info | local favorites | chefs | private dining | jump to | Jump to | info | local favorites | chefs | private",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "neighborhood",

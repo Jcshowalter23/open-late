@@ -1166,7 +1166,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/14100456101 opening_hours tag (map data 2026-11-01; last checked on the map 2026-08-17) (checked 2026-11-02); late hours confirmed by venue website https://dominicksnj.com: \"Details | OPEN SEVEN DAYS A WEEK | Sunday - Thursday: 11:00am – 9:00pm Friday & Saturday: 11:00am – 10:00pm | We are \" (checked 2026-11-02)",
    "county": "Sussex",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://dominicksnj.com",
+        "quote": "ank you, | Food Network | , for choosing Dominick’s Newton and to all our customers – the regulars and first-timers – we look forward to seeing and serving you, always! | \"Mangia Bene! - V",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "town",

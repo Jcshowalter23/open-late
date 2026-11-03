@@ -993,7 +993,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Estero/106108025581010/Mario%27s-Of-Estero",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-17",
-    "website": null
+    "website": "http://mariosbg.com/"
    },
    "conflicts": [
     {
@@ -1014,7 +1014,34 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://mariosbg.com/",
+        "date": "2026-11-01",
+        "quote": "Karaoke | Fridays:"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
   },
   {
    "id": "fl-mr-tequilas-estero",
@@ -1035,7 +1062,22 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Daily",
+     "text": "BOGO MARGARITAS ALL DAY EVERYDAY",
+     "tags": [],
+     "src": "Venue website mrtequilasrestaurant.com/specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Daily",
+     "text": "Enjoy buy one, get one free house margaritas all day, every day",
+     "tags": [],
+     "src": "Venue website mrtequilasrestaurant.com/specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -1046,7 +1088,20 @@
     "facebookMirror": "https://www.foodyas.com/US/Estero/110448778141458/Mr.-Tequila%27s---Estero",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-07-06",
-    "website": null
+    "website": "http://Mrtequilasrestaurant.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Tequila is bringing the heat this Cinco de Mayo with a live DJ and unbeatable drink specials all night long",
+      "url": "https://www.mrtequilasrestaurant.com/specials"
+     }
+    ]
    }
   },
   {
@@ -1092,7 +1147,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Fort-Myers/251953818286148/Nino%27s-Pizzeria-and-Restaurant",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "https://ninospizzeriaandrestaurant.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://ninospizzeriaandrestaurant.com/",
+        "quote": "and love, choose from your favorite thin crust pizza and add your favorite toppings. | A local favorite Italian restaurant and pizzeria in Fort Myers Since 1979 | 5 Star Reviews | Discover why",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://ninospizzeriaandrestaurant.com/",
+        "quote": "the Fort Myers dining scene since 1979 | . | Is Nino’s Pizzeria and Restaurant good for a date night? | Yes. | Nino’s is a great choice for a relaxed date night | , offering classic Italian",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

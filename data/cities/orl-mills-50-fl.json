@@ -883,7 +883,15 @@
    "hoursNote": "Hours differ by source: Facebook page lists Mon 11a-9:30p; Tue-Fri 11a-10p; Sat 12p-10p; Sun 1p-10p (no posts since May 2026); Restaurantji (updated 2026-09-26) used as newer. Call ahead.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "We are open 7 days a week with daily specials ranging from lunch specials during the weekdays, happy hour everyday from 3pm-6pm and our local favorite special of the week which is buy 2 rolls get 1 free every Thursday…",
+     "tags": [],
+     "src": "Venue website fujiyamaucforlando.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -895,7 +903,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/117459404938916/Fujiyama-Sushi",
     "fbPostsSeen": 9,
     "fbNewestPost": "2022-07-22",
-    "website": null
+    "website": "http://fujiyamaucforlando.com/"
    },
    "conflicts": [
     {
@@ -916,7 +924,29 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://fujiyamaucforlando.com/",
+        "quote": "ranging from lunch specials during the weekdays, happy hour everyday from 3pm-6pm and our local favorite special of the week which is buy 2 rolls get 1 free every Thursday… | Learn More | Our Me",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-gloriascafe-and-rumba",
@@ -1377,7 +1407,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/115998125091445/IL-Pescatore",
     "fbPostsSeen": 4,
     "fbNewestPost": "2022-05-20",
-    "website": null
+    "website": "http://www.ilpescatoreonline.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://ilpescatoreonline.com/",
+        "quote": "lways treat you as part of our family. | OUR MENU | What Our Guests Are Saying | Loved by Locals, Enjoyed by All | We’re honored by the love we’ve received from Orlando locals and visito",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1850,7 +1902,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/106265235380027/Kaya---Orlando",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-18",
-    "website": null
+    "website": "http://kayaorlando.com/"
    },
    "conflicts": [
     {
@@ -1870,7 +1922,30 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " 🍑🥭 LIVE DJ",
+      "url": "https://www.kayaorlando.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Orlando House Party will be bringing the vibes with a vinyl party featuring DJ Eno + DJ Sureshot",
+      "url": "https://www.kayaorlando.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " join us for a sunny afternoon full of great food + music by DJ What",
+      "url": "https://www.kayaorlando.com/events"
+     }
+    ]
+   }
   },
   {
    "id": "fl-king-bao-orlando",
@@ -2242,7 +2317,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/107666915564914/Lamp-%26-Shade-Craft-Kitchen-And-Cocktails",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://www.throwsomeshadeorl.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://throwsomeshadeorl.com/",
+        "quote": "ying homage to the history of its building, previously The Lamp Shade Fair, well-known by locals for over 50 years. | Discover More | Discover the full menu | À la Carte | Food | Discove",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2339,7 +2436,8 @@
     "fbNewestPost": "2026-10-30",
     "website": "https://www.mamakeats.com/"
    },
-   "websiteSource": "OpenStreetMap node/8819701624 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/8819701624 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.mamakeats.com/menu/lunch"
   },
   {
    "id": "fl-marks-jamaican-bar-and-grill",
@@ -2582,7 +2680,7 @@
    "address": "2304 East Robinson St, Orlando",
    "state": "FL",
    "zip": "33806",
-   "phone": null,
+   "phone": "(321) 231-7902",
    "lat": 28.5458,
    "lng": -81.3526,
    "priceText": "$$ (Facebook page)",
@@ -2635,7 +2733,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/110553128581902/Otto%E2%80%99s-High-Dive",
     "fbPostsSeen": 12,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.OttosHD.com/"
    },
    "conflicts": [
     {
@@ -2652,7 +2750,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "Venue website www.OttosHD.com, checked 2026-11-02"
   },
   {
    "id": "fl-pho-hoa-of-orlando",
@@ -2861,7 +2960,7 @@
    "address": "3210 E Colonial Dr, Orlando",
    "state": "FL",
    "zip": "32803",
-   "phone": null,
+   "phone": "(407) 898-1115",
    "lat": 28.552,
    "lng": -81.3435,
    "priceText": "$$ (Facebook page)",
@@ -2886,8 +2985,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/35905594426/Pizzeria-Del-Dio---Del-Dio%27s-Pizza-%26-Italian-Kitchen-%5BOrlando%5D",
     "fbPostsSeen": 9,
     "fbNewestPost": "2025-10-23",
-    "website": null
-   }
+    "website": "http://www.PizzeriaDel-Dio.com/"
+   },
+   "phoneSource": "Venue website www.PizzeriaDel-Dio.com, checked 2026-11-02"
   },
   {
    "id": "fl-plantees-burgers",
@@ -3267,8 +3367,8 @@
    "website": "http://www.santiagosbodega.com/",
    "hours": "Mon-Fri 11a-2a; Sat-Sun 10a-2a",
    "hoursNote": "Restaurantji (updated 2026-10-11) lists different hours: Mon-Thu 11a-1a; Fri 11a-2a; Sat 10a-2a; Sun 10a-1a. Call ahead to confirm.",
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Mon-Fri 11a-12a; Sat-Sun 10a-12a",
+   "kitchenNote": "Kitchen hours from Venue website santiagosbodega.com/santiagos-bodega-locations, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [
     {
      "days": "See venue",
@@ -3301,7 +3401,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/479196452108631/Santiago%27s-Bodega-Orlando",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-09-28",
-    "website": null
+    "website": "http://www.santiagosbodega.com/"
    },
    "conflicts": [
     {
@@ -3320,7 +3420,55 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://santiagosbodega.com/",
+        "quote": "with global tastes, but you share far more with us. Visitors from around the world and locals alike share laughs and stories with us and each other, that’s where the warmth of our din",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " His karaoke rendition of “Gin and Juice” is the stuff of legend",
+      "url": "https://santiagosbodega.com/about-santiagos-bodega"
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " When not auditing files, Jennifer enjoys, music, time with family and beating the pants off everyone in Friends trivia",
+      "url": "https://santiagosbodega.com/about-santiagos-bodega"
+     }
+    ]
+   }
   },
   {
    "id": "fl-seito-sushi-baldwin-park",
@@ -3501,7 +3649,8 @@
     "fbNewestPost": "2026-06-22",
     "website": "https://stickywithit.com"
    },
-   "websiteSource": "OpenStreetMap node/11455479319 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/11455479319 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.mackiesbarandgrill.com/menus"
   },
   {
    "id": "fl-sushi-lolas",
@@ -3729,7 +3878,7 @@
    "address": "1827 N Orange Ave, Orlando",
    "state": "FL",
    "zip": "32804",
-   "phone": null,
+   "phone": "(407) 898-7733",
    "lat": 28.5685,
    "lng": -81.3726,
    "priceText": "$ (Facebook page)",
@@ -3753,8 +3902,31 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/316982621749674/The-Caboose-Bar-Orlando",
     "fbPostsSeen": 12,
     "fbNewestPost": "2026-10-31",
-    "website": null
-   }
+    "website": "http://www.caboosebar-orlando.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://caboosebar-orlando.com/",
+        "quote": "content | Slide 4 content | Slide 5 content | previous slide | next slide | YOUR FRIENDLY NEIGHBORHOOD BAR | Eat. Drink. Enjoy. | Our Menu | Welcome. Enjoy yourself | Events | COME IN AND TAKE A L",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website caboosebar-orlando.com, checked 2026-11-02"
   },
   {
    "id": "fl-the-imperial-at-washburn-imports",
@@ -3786,7 +3958,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/131885773523930/The-Imperial-at-Washburn-Imports",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.imperialwinebar.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.imperialwinebar.com/",
+        "quote": "Orlando | Locations | Washburn Imports | Contact Us | Welcome to the Imperial, we are a neighborhood bar specializing in boutique wines, craft beers and classic cocktails. Come enjoy a relaxed e",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -4023,7 +4217,7 @@
    "address": "4899 New Broad St, Orlando",
    "state": "FL",
    "zip": "32814",
-   "phone": null,
+   "phone": "(407) 960-7700",
    "lat": 28.568,
    "lng": -81.3266,
    "priceText": "$$ (Facebook page)",
@@ -4090,7 +4284,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/459200480850163/The-Osprey",
     "fbPostsSeen": 12,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://theospreyorlando.com/"
    },
    "conflicts": [
     {
@@ -4107,7 +4301,26 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "\" She likes to spend her time with family and singing so much karaoke",
+      "url": "https://www.theospreyorlando.com/about"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " If there is a problem in your life, come see her and karaoke the bad vibes away",
+      "url": "https://www.theospreyorlando.com/about"
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.theospreyorlando.com, checked 2026-11-02"
   },
   {
    "id": "fl-the-pinery-orlando",
@@ -4116,7 +4329,7 @@
    "address": "295 NE Ivanhoe Blvd Suite A, Orlando",
    "state": "FL",
    "zip": "32804",
-   "phone": null,
+   "phone": "(407) 377-7576",
    "lat": 28.5657,
    "lng": -81.3737,
    "priceText": "$$$ (Facebook page)",
@@ -4138,8 +4351,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/105429564610934/The-Pinery-Orlando",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-28",
-    "website": null
-   }
+    "website": "http://thepineryorlando.com/"
+   },
+   "phoneSource": "Venue website thepineryorlando.com, checked 2026-11-02"
   },
   {
    "id": "fl-the-strand",
@@ -4409,7 +4623,43 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/108309719041224/Unico-Gastro-Bar",
     "fbPostsSeen": 9,
     "fbNewestPost": "2024-02-28",
-    "website": null
+    "website": "http://www.unicogastrobar.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Dance / club crowd"
+    ],
+    "summary": "A locals-and-regulars spot; a dancing / club crowd late.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.unicogastrobar.com/",
+        "quote": "House favorites | What everyone orders first. | New to Unico? Start here. The four our regulars keep coming back for. | Fan favorite | Henny Wings | Hennessy-infused | From the kitchen",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.unicogastrobar.com/",
+        "quote": "p for sound | Halloween lands on a Saturday this year. Four DJs, dinner that turns into a dance floor, and bottle and hookah service until close. Come in costume. | Date | Saturday, Oct 31",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -4637,7 +4887,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Sun",
+     "text": "Lil Indies Hospitality Night Every Sunday 10:00 PM – 2:00 AM 21+ No Cover Specials: House Daiquiris — $5 196 Seltzer + a Shot of El Jimador — $7 Montucky + a Shot of Mellow Corn — $6 Hugo Spritz — $8 20% Off Regular Menu Items",
+     "tags": [],
+     "src": "Venue website willspub.org",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -4689,7 +4947,58 @@
     ]
    },
    "dj": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "10pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://willspub.org/",
+        "date": "2026-11-01",
+        "quote": "DJ BMF | Fri Nov, 06 2026"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://willspub.org/",
+        "date": "2026-11-01",
+        "quote": "BMF Fridays w/ DJ BMF @ Lil' Indies 10pm No Cover / 21+"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sat",
+      "cadence": "monthly",
+      "start": "10pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://willspub.org/",
+        "date": "2026-11-01",
+        "quote": "Soulshake with DJ Smilin Dan | Sat Nov, 07 2026"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://willspub.org/",
+        "date": "2026-11-01",
+        "quote": "Soulshake with DJ Smilin Dan All vinyl DJ set at Lil' Indies every first Saturday 10pm doors 21 and up No cover FFO: Motown, Northern Soul, Memphis Soul, Philly Soul, CHI Soul, Psych Sould, Blue Eyes Soul, and Funk"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -4712,7 +5021,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Orlando/40687208279/Will%27s-Pub",
     "fbPostsSeen": 11,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://www.willspub.org/"
    },
    "trivia": {
     "nights": [],
@@ -4916,7 +5225,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/11455520056 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Orange",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.milkhousesocial.com/_files/ugd/a44952_2cc69bb369b94426a733cc83e4c8c5b0.pdf"
   }
  ],
  "type": "neighborhood",

@@ -1492,7 +1492,46 @@
     "facebookMirror": "https://www.foodyas.com/US/Westminster/120494841295084/Liberatore%27s-Restaurant---Westminster",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-19",
-    "website": null
+    "website": "http://www.liberatores.com/"
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "monthly",
+      "start": "8PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.liberatores.com/belair",
+        "date": "2026-11-01",
+        "quote": "DJ Debs & Topaz | Every Third Friday | Every Third Friday | 8PM"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.liberatores.com/belair",
+        "date": "2026-11-01",
+        "quote": "Join us in the lounge at Liberatore’s Bel Air every third Friday of the month for live entertainment featuring Topaz and DJ Debbie"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " With weekly events such as live music nights, football parties, dj nights, wine tastings, and so much more, the Liberatore’s locations don’t just serve food, they serve memories",
+      "url": "https://www.liberatores.com/about-us"
+     }
+    ]
    }
   },
   {
@@ -2272,9 +2311,20 @@
    "hours": "Mon-Thu 11:30a-10p; Fri 11:30a-11p; Sat 9:30a-11p; Sun 9:30a-10p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 9 pm per Venue website rocksaltgrille.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$1 Off Rail Drinks, Draft Beer & Bottle Beer & House Wines",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website rocksaltgrille.com/single-project",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events",
@@ -2288,7 +2338,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Westminster/367427976934646/RockSalt-Grille%2C-Westminster%2C-MD",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-23",
-    "website": null
+    "website": "http://www.rocksaltgrille.com/"
    }
   },
   {
@@ -2537,7 +2587,8 @@
     "fbNewestPost": "2026-07-03",
     "website": "https://www.tacolocorest.com/"
    },
-   "websiteSource": "OpenStreetMap node/10147744705 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/10147744705 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.tacolocorest.com/menu.html"
   },
   {
    "id": "md-taqueria-el-guacamole",
@@ -3319,7 +3370,8 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
-   }
+   },
+   "menu": "https://www.thegreeneturtle.com/menu/"
   },
   {
    "id": "md-genovas-to-go-westminster",
@@ -3344,7 +3396,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/9253987270 opening_hours tag (map data 2026-11-01; last checked on the map 2024-08-07) (checked 2026-11-02); late hours confirmed by venue website https://genovastogo.com/locations: \"Catering | View Menu | Directions | Hours: | Mon - Thu: 11:00 AM - 09:00 PM | Fri - Sat: 11:00 AM - 11:00 PM | Sun: 11\" (checked 2026-11-02)",
    "county": "Carroll",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://genovastogo.com/",
+        "quote": "rolls, fresh salads, pasta dishes, wings, catering, and friendly service, we're a trusted local favorite for families, schools, sports teams, and businesses throughout the region. We take pride",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "town",

@@ -441,7 +441,33 @@
    },
    "menu": "https://barriehaus.com/tampa",
    "trivia": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "monthly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://barriehaus.com/tampa-events/",
+        "date": "2026-11-01",
+        "quote": " From our weekly Tubesday Trivia to monthly First Fridays to special events like Oktoberfest"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://barriehaus.com/trinity-events/",
+        "date": "2026-11-01",
+        "quote": " From our weekly Tubesday Trivia to monthly First Fridays to special events like Oktoberfest"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -584,7 +610,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Tampa/450376601754498/Carmine%27s-Ybor",
     "fbPostsSeen": 12,
     "fbNewestPost": "2026-01-30",
-    "website": null
+    "website": "http://www.carminesybor.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://carminesybor.com/",
+        "quote": "ant & Bar, nestled in the heart of Ybor City, has been a cherished dining destination for locals and visitors alike. With a rich history that spans decades, our restaurant celebrates the",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -711,7 +759,7 @@
    "address": "2238 e 7th Ave, Tampa",
    "state": "FL",
    "zip": "33605",
-   "phone": null,
+   "phone": "(813) 374-0041",
    "lat": 27.9604,
    "lng": -82.4342,
    "website": "https://drosegastrobar.com/",
@@ -757,7 +805,8 @@
     "fbNewestPost": "2026-10-28",
     "website": "https://drosegastrobar.com/"
    },
-   "menu": "https://drosegastrobar.com/menu/"
+   "menu": "https://drosegastrobar.com/menu/",
+   "phoneSource": "Venue website drosegastrobar.com, checked 2026-11-02"
   },
   {
    "id": "fl-due-amici-ybor",
@@ -949,7 +998,7 @@
    "address": "18721 N Dale Mabry Hwy, Lutz",
    "state": "FL",
    "zip": "33548",
-   "phone": null,
+   "phone": "(813) 585-6474",
    "lat": 27.9508,
    "lng": -82.4279,
    "priceText": "$$ (Facebook page)",
@@ -971,8 +1020,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Lutz/101833482655231/GASH-FOODS",
     "fbPostsSeen": 10,
     "fbNewestPost": "2025-08-29",
-    "website": null
-   }
+    "website": "https://wa.me/c/18135856474"
+   },
+   "phoneSource": "Venue website www.whatsapp.com/catalog/18135856474/?app_absent=0, checked 2026-11-02"
   },
   {
    "id": "fl-gaspars-grotto",
@@ -999,7 +1049,27 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
    "county": "Hillsborough",
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "monthly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://gasparsgrotto.com/events/",
+        "date": "2026-11-01",
+        "quote": "Karaoke, My Karaoke Guy and DJ Boucher | First Fridays are now at Gaspar’s Grotto | First Fridays are now at Gaspar’s Grotto"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "hints": [
      "Restaurantji review/summary mentions karaoke",
      "Restaurantji review/summary mentions karaoke"
@@ -1465,7 +1535,7 @@
    "address": "934 E Henderson Ave, Tampa",
    "state": "FL",
    "zip": "33605",
-   "phone": null,
+   "phone": "(813) 812-5025",
    "lat": 27.9597,
    "lng": -82.4506,
    "website": "http://retrohousetampa.com/",
@@ -1496,8 +1566,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Tampa/192442953962337/Retro-House",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-06",
-    "website": null
-   }
+    "website": "http://retrohousetampa.com/"
+   },
+   "phoneSource": "Venue website retrohousetampa.com, checked 2026-11-02"
   },
   {
    "id": "fl-rosenheim-cafe-and-restaurant",
@@ -1846,8 +1917,7 @@
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-31",
     "website": "https://badmonkeyybor.com/"
-   },
-   "menu": "https://badmonkeyybor.com/wp-content/uploads/2021/07/Food-Menu-June-2021-1.pdf"
+   }
   },
   {
    "id": "fl-the-bricks",
@@ -2224,7 +2294,8 @@
     "website": "https://yborcitytaphouse.com/"
    },
    "websiteSource": "OpenStreetMap node/11084717996 website tag (map data 2026-10-31), checked 2026-11-01",
-   "phoneSource": "OpenStreetMap node/11084717996 phone tag (map data 2026-10-31), checked 2026-11-01"
+   "phoneSource": "OpenStreetMap node/11084717996 phone tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://yborcitytaphouse.com/tampa-ybor-city-ybor-city-tap-house-food-menu"
   },
   {
    "id": "fl-el-puerto-argentinean-grill-tampa",
@@ -2249,7 +2320,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/322800062 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Hillsborough",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://elpuertoybor.com/dinner-menu/"
   },
   {
    "id": "fl-big-easy-tampa",

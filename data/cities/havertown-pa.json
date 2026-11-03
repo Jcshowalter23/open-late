@@ -150,7 +150,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Havertown/112434676823759/Burrata-Havertown",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://www.burratahavertown.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://burratahavertown.com/",
+        "quote": "3 | Restaurant Guru 2025 | Best service | Burrata Havertown | Restaurant Guru 2024 | Best romantic restaurant | Burrata Havertown | Burrata Havertown | 2024 | A top 10 best restaurant in",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -213,7 +235,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Havertown/410262495760023/HAB",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-21",
-    "website": null
+    "website": "http://www.Haveaburger.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.Haveaburger.com/",
+        "quote": "brothers. One hometown idea. | What started in 2016 inside a Havertown ice rink became a local favorite because this community showed up—and kept showing up. | We’re still here for after-school",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -603,7 +647,27 @@
     ]
    },
    "dj": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.theyardhavertown.com/about",
+        "date": "2026-11-01",
+        "quote": " Don't miss our live music, DJ sets, and the dance parties every Saturday night"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -631,7 +695,39 @@
     "facebookMirror": "https://www.foodyas.com/US/Havertown/102572405502982/The-Yard-Pub",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.theyardhavertown.com/"
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "7:00pm",
+      "basis": "posted on 2 different Thus",
+      "lastSeen": "2026-11-19",
+      "datedLastSeen": "2026-11-19",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.theyardhavertown.com/events",
+        "date": "2026-11-19",
+        "quote": "Karaoke | Thursday, Nov 19 7:00pm | Thursday, Nov 19 7:00pm | - 11:00pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.theyardhavertown.com/events",
+        "date": "2026-11-05",
+        "quote": "Karaoke | Thursday, Nov 05 7:00pm | Thursday, Nov 05 7:00pm | - 11:00pm"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
    }
   },
   {

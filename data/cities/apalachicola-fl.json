@@ -533,7 +533,7 @@
    "address": "240 E 3rd St, Eastpoint",
    "state": "FL",
    "zip": "32328",
-   "phone": null,
+   "phone": "(850) 927-2299",
    "lat": 29.6663,
    "lng": -84.86,
    "priceText": "$$ (Facebook page)",
@@ -560,7 +560,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Eastpoint/364143013783797/Paddy%27s-Raw-Bar",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://www.paddysrawbar.net/"
    },
    "trivia": {
     "nights": [],
@@ -574,7 +574,8 @@
       "url": "https://www.paddysrawbar.net/"
      }
     ]
-   }
+   },
+   "phoneSource": "Venue website www.paddysrawbar.net, checked 2026-11-02"
   },
   {
    "id": "fl-piggly-wiggly-apalachicola",
@@ -941,7 +942,16 @@
    "hoursNote": "Restaurantji (updated 2026-10-16) lists different hours: Mon-Thu 11a-10p; Fri-Sat 11a-12a; Sun 11a-10p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "HAPPY HOUR FOOD: Duck Fries $11",
+     "tags": [],
+     "src": "Venue website owlcafeflorida.com/tap-room",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -992,7 +1002,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Apalachicola/164384706996987/The-Tap-Room",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://tapalachicola.com/"
    },
    "conflicts": [
     {
@@ -1128,7 +1138,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Apalachicola/83582999969/Up-The-Creek-Raw-Bar",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-07-20",
-    "website": null
+    "website": "http://www.upthecreekrawbar.com/"
    },
    "conflicts": [
     {
@@ -1144,7 +1154,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.upthecreekrawbar.com/",
+        "quote": "day's most exciting culinary trends. Featuring anything from vegetarian tasting menus to upscale entrèes. | After you come up the stairs (or elevator), come to the counter where you will",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-up-to-no-good-tavern-at-the-grill",

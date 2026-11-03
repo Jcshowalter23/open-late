@@ -1432,7 +1432,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/8795800381 opening_hours tag (map data 2026-10-31; last checked on the map 2026-08-17) (checked 2026-11-02); late hours confirmed by venue website https://www.giuseppesitalianeatery.com/: \"der | Skip to main content | Giuseppe's Italian Eatery | open now | Shop is | open | now | 11:00 AM-9:00 PM | Shop ad\" (checked 2026-11-02)",
    "county": "Steuben",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.giuseppesitalianeatery.com/",
+        "quote": "staple of the community for years. Try the food and see why they've remained popular with locals. Take home your pizza with curbside pickup. It's never been easier to grab a pizza whenev",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "town",

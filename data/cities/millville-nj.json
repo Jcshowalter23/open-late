@@ -565,7 +565,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour 3pm-5pm",
+     "tags": [],
+     "src": "Venue website oldoarhouse.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -580,6 +589,33 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://oldoarhouse.com/"
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "monthly",
+      "start": "8:30pm - 12:30am",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://oldoarhouse.com/",
+        "date": "2026-11-01",
+        "quote": "Karaoke | 1st Wednesday of the Month (8:30pm - 12:30am) | 1st Wednesday of the Month (8:30pm - 12:30am)"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
    }
   },
   {

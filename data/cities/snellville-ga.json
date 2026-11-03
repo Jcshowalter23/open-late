@@ -543,7 +543,52 @@
     "facebookMirror": "https://www.foodyas.com/US/Morrow/105457718538107/Cru-Morrow",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.crulounge.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.crulounge.com/",
+        "quote": "u Lounge was born from a love of culture, community, and unforgettable nights. We blended upscale hospitality with urban edge to create a one-of-a-kind lounge experience. | LEARN MORE | F",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Whether you’re sipping cocktails, sharing hookah, vibing to a live DJ, or just kicking back with good people - we set the mood, you bring the energy",
+      "url": "https://www.crulounge.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "From live DJs to curated playlists, music is the heartbeat of every Cru night",
+      "url": "https://www.crulounge.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Cru vibes span hip-hop, R&B, Afrobeat, Top 40, and curated DJ sets",
+      "url": "https://www.crulounge.com/locations"
+     }
+    ]
    }
   },
   {
@@ -1194,7 +1239,7 @@
    "address": "1132 Athen Hwy suite 206, Grayson",
    "state": "GA",
    "zip": "30017",
-   "phone": null,
+   "phone": "(678) 404-5119",
    "lat": 33.8625,
    "lng": -83.963,
    "website": "http://www.gueromexgrillga.com/",
@@ -1238,8 +1283,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Grayson/848072838381135/Guero-Mex-Grill-Grayson",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-10-22",
-    "website": null
-   }
+    "website": "http://www.gueromexgrillga.com/"
+   },
+   "phoneSource": "Venue website gueromexgrillga.com:443, checked 2026-11-02"
   },
   {
    "id": "ga-hacienda-castrejon",
@@ -1405,7 +1451,7 @@
    "lng": -84.1128,
    "priceText": "$ (Facebook page)",
    "priceLevel": "$",
-   "website": "http://jackssportsbar.com/",
+   "website": null,
    "hours": "Mon-Wed 4p-2a; Thu-Sat 12:30p-2a; Sun 12:30p-12a",
    "hoursNote": null,
    "kitchen": null,
@@ -1425,7 +1471,8 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-21",
     "website": null
-   }
+   },
+   "websiteSource": "removed 2026-11-02: domain now for sale"
   },
   {
    "id": "ga-jacks-bar-and-grill",
@@ -2662,7 +2709,7 @@
    "address": "1142 Athens Hwy, Grayson",
    "state": "GA",
    "zip": "30017",
-   "phone": null,
+   "phone": "(470) 275-3020",
    "lat": 33.8627,
    "lng": -83.9637,
    "priceText": "$$ (Facebook page)",
@@ -2695,7 +2742,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Grayson/207767629085475/Thai-Delight-Kitchen-Sushi-%26-Bar",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-12",
-    "website": null
+    "website": "http://thaidelightandsushibar.com/"
    },
    "conflicts": [
     {
@@ -2716,7 +2763,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "Venue website www.thaidelightandsushibar.com, checked 2026-11-02"
   },
   {
    "id": "ga-the-grove-taqueria",
@@ -2769,7 +2817,52 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "50% OFF WINGS ALL DAY",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website thepatioatl.com/smyrna-cobb-the-patio-smyrna-events-snellville",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "HALF-PRICE WINGS",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website thepatioatl.com/smyrna-cobb-the-patio-smyrna-events-snellville",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "$3-$5 Beer Special",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website thepatioatl.com/smyrna-cobb-the-patio-smyrna-events-snellville",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Mon",
+     "text": "$5 House Wine, $8 Martinis, $6 Shots, Margaritas & More — Because Mondays deserve a little extra",
+     "tags": [],
+     "src": "Venue website thepatioatl.com/smyrna-cobb-the-patio-smyrna-events-snellville",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "50% OFF PIZZA FEAST WEDNESDAYS",
+     "tags": [],
+     "src": "Venue website thepatioatl.com/smyrna-cobb-the-patio-smyrna-specials-snellville",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Live music & events"
@@ -2814,7 +2907,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Snellville/276146358905281/The-Patio-Snellville",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://www.thepatiosnellville.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://thepatioatl.com/",
+        "quote": "Must-Try Sports Bar in Cobb, Smyrna, GA | The Patio - Smyrna | × | Let us host your special event! | Whether",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

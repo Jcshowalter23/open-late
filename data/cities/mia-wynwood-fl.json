@@ -32,7 +32,52 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
    "county": "Miami-Dade",
    "dj": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://1800lucky.com/miami-wynwood-1-800-lucky-events-weekly",
+        "date": "2026-11-01",
+        "quote": "with DJs TillaryJames and DJ Jarobi playing | Tuesdays"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://1800lucky.com/",
+        "date": "2026-11-01",
+        "quote": "Great vibes and very talented DJs on the weekends, would highly recommend to grab a bite and drink"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://1800lucky.com/miami-wynwood-1-800-lucky-events-weekly",
+        "date": "2026-11-01",
+        "quote": "with Dj Lazzaro Casanova and Dj Oscar G playing the best of | Fridays"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -50,7 +95,52 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami/128938337775074/1-800-Lucky",
     "fbPostsSeen": 13,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.1800lucky.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://1800lucky.com/",
+        "quote": "g | The decorative video sound is off | FIRST ASIAN FOOD HALL IN MIAMI | 1-800-Lucky is a neighborhood spot offering a wide variety of Asian cuisines, where guests can enjoy many Asian inspired dis",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke",
+      "url": "https://1800lucky.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke",
+      "url": "https://1800lucky.com/miami-wynwood-1-800-lucky-events-weekly"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "1 800 LUCKY - Karaoke",
+      "url": "https://1800lucky.com/miami-wynwood-1-800-lucky-karaoke"
+     }
+    ]
    }
   },
   {
@@ -725,7 +815,7 @@
    "address": "55 NE 14th St, Miami",
    "state": "FL",
    "zip": "33137",
-   "phone": null,
+   "phone": "(305) 333-6929",
    "lat": 25.7885,
    "lng": -80.1934,
    "priceText": "$$ (Facebook page)",
@@ -789,8 +879,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami/1388658068021408/Bunbury-Miami",
     "fbPostsSeen": 13,
     "fbNewestPost": "2026-10-30",
-    "website": null
-   }
+    "website": "http://bunburymiami.com/"
+   },
+   "phoneSource": "Venue website bunburymiami.com, checked 2026-11-02"
   },
   {
    "id": "fl-casa-la-rubia",
@@ -967,7 +1058,7 @@
    "address": "42 NE 25th St, Miami",
    "state": "FL",
    "zip": "33137",
-   "phone": null,
+   "phone": "(305) 741-6991",
    "lat": 25.8004,
    "lng": -80.1939,
    "priceText": "$$ (Facebook page)",
@@ -989,8 +1080,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami/380060138757579/Cerveceria-La-Tropical",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-05-10",
-    "website": null
-   }
+    "website": "http://www.cervecerialatropical.com/"
+   },
+   "phoneSource": "Venue website www.cervecerialatropical.com, checked 2026-11-02"
   },
   {
    "id": "fl-ceviches-by-divino-miami",
@@ -1075,8 +1167,25 @@
    "hoursNote": "Restaurantji (updated 2026-10-30) lists different hours: Mon-Thu 12p-10:30p; Fri 12p-11:30p; Sat 11a-11:30p; Sun 11a-10:30p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Enjoy Happy Hour specials up to 7pm",
+     "tags": [],
+     "src": "Venue website chimbamiami.com/chimba/events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "Treat yourself on Tuesdays with half-priced wine bottles and BYOB (Bring your own bottle",
+     "tags": [],
+     "src": "Venue website chimbamiami.com/chimba/events",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -1109,7 +1218,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami/110688661842444/Chimba",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-22",
-    "website": null
+    "website": "http://www.chimbamiami.com/"
    },
    "conflicts": [
     {
@@ -1125,7 +1234,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Enjoy the best of South American cuisine while listening to our live vinyl DJ | Thursday: After office",
+      "url": "https://chimbamiami.com/chimba/events/"
+     }
+    ]
+   }
   },
   {
    "id": "fl-city-fries-and-food-wynwood",
@@ -1322,7 +1444,25 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami/309194419255496/Coyo-Taco",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.coyo-taco.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ entertainment available",
+      "url": "https://www.coyo-taco.com/catering-and-events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Open bar or drink ticket options, DJ entertainment and food selections available",
+      "url": "https://www.coyo-taco.com/catering-and-events"
+     }
+    ]
    }
   },
   {
@@ -1607,7 +1747,20 @@
     "facebookMirror": "https://www.foodyas.com/US/Wynwood/104914764746340/Dukunoo-Wynwood",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-04-07",
-    "website": null
+    "website": "http://www.dukunoowynwood.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " With a lush outdoor patio, live DJs, indoor/outdoor dining, full bar, bottle service, hookah, and private event spaces, every visit feels like a Caribbean escape",
+      "url": "https://dukunoowynwood.com/about/"
+     }
+    ]
    }
   },
   {
@@ -2373,7 +2526,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami/1170925493038082/Hiden",
     "fbPostsSeen": 14,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://hidenmiami.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://hidenmiami.com/",
+        "quote": "HIDEN - Japanese Fine dining experience | Reservations | ABOUT HIDEN | SECRET DOOR | CHEF | THE MENU | MEDIA | CONTACT",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2741,7 +2916,7 @@
    "address": "1737 North Bayshore Dr, Miami",
    "state": "FL",
    "zip": "33132",
-   "phone": null,
+   "phone": "(305) 239-2523",
    "lat": 25.7922,
    "lng": -80.1865,
    "website": "http://Klawrestaurant.com/",
@@ -2783,7 +2958,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami/101303232242207/Klaw-Restaurant",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-09",
-    "website": null
+    "website": "http://Klawrestaurant.com/"
    },
    "conflicts": [
     {
@@ -2804,7 +2979,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "Venue website www.klawrestaurant.com, checked 2026-11-02"
   },
   {
    "id": "fl-kraken-crudo",
@@ -2813,7 +2989,7 @@
    "address": "3525 NE 2nd Ave, Miami",
    "state": "FL",
    "zip": "33137",
-   "phone": null,
+   "phone": "(305) 456-2804",
    "lat": 25.8096,
    "lng": -80.1909,
    "priceText": "$$ (Facebook page)",
@@ -2835,8 +3011,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami/346007975752036/Kraken-Crudo",
     "fbPostsSeen": 10,
     "fbNewestPost": "2025-12-19",
-    "website": null
-   }
+    "website": "http://Www.krakencrudo.com/"
+   },
+   "phoneSource": "Venue website Www.krakencrudo.com, checked 2026-11-02"
   },
   {
    "id": "fl-laglio-cuisine",
@@ -3016,8 +3193,34 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Sun",
+     "text": "This football season, happy hour runs all day on Sundays, so settle in and enjoy the game with our favorites from open to close",
+     "tags": [],
+     "src": "Venue website therivermiami.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Daily",
+     "text": "Every day from 3–7 PM, sip and shuck your way through $2 oysters, $5 beers, and $8 wine & cocktails — with bar snacks and the raw bar menu on hand",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website therivermiami.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Mon-Fri",
+     "text": "Monday–Friday only: our $35 three-course lunch is back — oyster tasting, conch ragu gnocchi, and more",
+     "tags": [],
+     "src": "Venue website therivermiami.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -3028,7 +3231,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami/419815104746774/Lifetime-Manuals",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.therivermiami.com/"
    }
   },
   {
@@ -3481,7 +3684,7 @@
    "address": "555 NE 15th St, Fl 9th, Miami",
    "state": "FL",
    "zip": "33132",
-   "phone": null,
+   "phone": "(305) 374-5731",
    "lat": 25.7898,
    "lng": -80.1859,
    "priceText": "$$ (Facebook page)",
@@ -3525,8 +3728,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami/10150310266135001/Mike%27s-At-Venetia",
     "fbPostsSeen": 11,
     "fbNewestPost": "2026-10-30",
-    "website": null
-   }
+    "website": "http://MikesMiami.com/"
+   },
+   "phoneSource": "Venue website MikesMiami.com, checked 2026-11-02"
   },
   {
    "id": "fl-mr-verts-kitchen",
@@ -3770,7 +3974,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami/430909040103326/Oldays---Midtown%2C-Miami",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.oldayscoffee.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.oldayscoffee.com/",
+        "quote": "by a friend’s house! A place where nostalgic travelers, business people and neighborhood regulars can come in, slow down and feel at home. You never really know who you’ll find when you w",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -4795,39 +5021,6 @@
    }
   },
   {
-   "id": "fl-sette-osteria-wynwood",
-   "name": "Sette Osteria Wynwood",
-   "cuisine": "Breakfast & brunch",
-   "address": "2103 NW 2nd Ave, Miami",
-   "state": "FL",
-   "zip": "33127",
-   "phone": "(305) 576-8282",
-   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Miami/1653799801401307/Sette-Osteria-Wynwood), checked 2026-11-01",
-   "lat": 25.7969,
-   "lng": -80.1987,
-   "priceText": "$$$ (Facebook page)",
-   "priceLevel": "$$$",
-   "website": "http://bit.ly/SetteWynwood",
-   "hours": "Mon-Tue 12p-11p; Wed-Thu 12p-9p; Fri 12p-11p; Sat 11a-11p; Sun 11a-9p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
-   "county": "Miami-Dade",
-   "crowdChecked": "2026-11-01",
-   "crowdSources": {
-    "restaurantji": null,
-    "facebookMirror": "https://www.foodyas.com/US/Miami/1653799801401307/Sette-Osteria-Wynwood",
-    "fbPostsSeen": 9,
-    "fbNewestPost": "2020-07-03",
-    "website": null
-   }
-  },
-  {
    "id": "fl-sha-wynwood",
    "name": "Sha Wynwood",
    "cuisine": "Restaurant",
@@ -4961,7 +5154,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami/127244663816734/Skinny-Louie-Burgers",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://www.skinnylouieburgers.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.skinnylouie.com/",
+        "quote": "rt of New York City. Fast paced, buzzy, always moving and the go to smash burger stop for locals and visitors. Big city energy, Louie style. | 601 Biscayne Blvd, Sections 105, 120, 124,",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -5433,7 +5648,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami/1810000505777664/Tacomiendo",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-09-23",
-    "website": null
+    "website": "http://tacomiendomia.com/"
    },
    "bingo": {
     "nights": [],
@@ -5444,6 +5659,19 @@
      {
       "date": "2026-11-01",
       "quote": "Kami tawarkan slot, memancing, bingo, funky & e-game di H5 & APP",
+      "url": "https://branchburgcountryfair.org/activities"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ BOOM BOOM",
       "url": "https://branchburgcountryfair.org/activities"
      }
     ]
@@ -5615,7 +5843,7 @@
    "lng": -80.1982,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": "http://butchershopmiami.com/",
+   "website": null,
    "hours": "Mon-Wed closed; Thu-Fri 7p-2a; Sat 7p-12a; Sun 7p-2a",
    "hoursNote": null,
    "kitchen": null,
@@ -5633,7 +5861,8 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2022-08-25",
     "website": null
-   }
+   },
+   "websiteSource": "removed 2026-11-02: domain now for sale"
   },
   {
    "id": "fl-the-deck-at-island-gardens",
@@ -6145,7 +6374,24 @@
    "hoursNote": "Restaurantji (updated 2026-10-12) lists different hours: Mon-Tue closed; Wed 5p-1a; Thu-Sat 5p-3a; Sun 5p-1a. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Tomorrowland’s daily happy hour is every evening from 4 PM to 7 PM",
+     "tags": [],
+     "src": "Venue website tomorrowlandmiami.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Wed-Sun",
+     "text": "Wed–Sun: 4pm–3am Happy Hour: 4pm-7pm",
+     "tags": [],
+     "src": "Venue website tomorrowlandmiami.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -6227,7 +6473,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami/606313196454211/Tomorrowland-Miami",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-21",
-    "website": null
+    "website": "http://tomorrowlandmiami.com/"
    },
    "conflicts": [
     {

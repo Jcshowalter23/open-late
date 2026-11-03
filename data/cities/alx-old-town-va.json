@@ -2339,7 +2339,84 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://mason-social.com/"
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.mason-social.com/whats-happening-at-mason",
+        "date": "2026-11-01",
+        "quote": "From weekly specials to DJ Brunch weekends, there's always a reason to come back | weekly specials"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.mason-social.com/whats-happening-at-mason",
+        "date": "2026-11-01",
+        "quote": "From weekly specials to DJ Brunch weekends, there's always a reason to come back | weekly specials"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": "10am-3pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.mason-social.com/whats-happening-at-mason",
+        "date": "2026-11-01",
+        "quote": "SUNDAY Brunch + DJ Konquer"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.mason-social.com/whats-happening-at-mason",
+        "date": "2026-11-01",
+        "quote": "Join us every Sunday from 10am-3pm for DJ Brunch"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ Konquer brings the soundtrack while you dive into chef-driven",
+      "url": "https://www.mason-social.com/whats-happening-at-mason"
+     }
+    ]
    }
   },
   {
@@ -4252,7 +4329,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/11608678444 opening_hours tag (map data 2026-11-01; last checked on the map 2024-02-10) (checked 2026-11-01)",
    "county": "Alexandria City",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.oldhousecosmopolitan.com/menu-2"
   },
   {
    "id": "va-1799-prime-alexandria",
@@ -4272,7 +4350,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "25% off Entire Wine List On Wednesdays",
+     "tags": [],
+     "src": "Venue website 1799prime.com/promotions",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap way/204629784 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://1799prime.com/: \"onday through Wednesday | 4:00 pm - 10:00 pm | Thursday | 12:00 pm - 10:00 pm | Friday | 12:00 pm - 11:00 pm | Saturda\" (checked 2026-11-02)",

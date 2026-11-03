@@ -678,7 +678,8 @@
     "fbNewestPost": "2026-10-24",
     "website": "https://burtonsgrill.com/locations/md/bel-air/"
    },
-   "websiteSource": "OpenStreetMap node/5965112073 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/5965112073 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://burtonsgrill.com/menus/md/bel-air/all-day/"
   },
   {
    "id": "md-c-r-wings-bel-air-md",
@@ -980,7 +981,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Bel-Air-North/108967688743596/Das-Bierhalle-Bel-Air",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://www.dasbierhallemd.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.dasbierhallemd.com/",
+        "quote": "County's First German Bierhalle! | View Location → | BEl AIR | We are a Oktoberfest-style sports bar with a modern twist! | View Location → | Food Trailer | Das Bierhalle is going mobile!",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1161,7 +1184,22 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Sun",
+     "text": "PIZZA NIGHT Brick Oven Cheese Pizza for $6 all day on Sunday",
+     "tags": [],
+     "src": "Venue website enotriarestaurant.com/specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Sun",
+     "text": "Sunday is Pizza Night at Enotria Enjoy $6 brick",
+     "tags": [],
+     "src": "Venue website enotriarestaurant.com/specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -1174,7 +1212,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Forest-Hill/134202776616069/Enotria-Restaurant-%26-Grill",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-07",
-    "website": null
+    "website": "http://enotriarestaurant.com/"
    }
   },
   {
@@ -1988,8 +2026,33 @@
    "hoursNote": "Restaurantji (updated 2026-10-17) lists different hours: Mon closed; Tue-Thu 11:30a-9p; Fri-Sat 11:30a-10p; Sun 11:30a-9p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Tue-Fri",
+     "text": "Join us in the lounge Tues-Fri 4-7pm for Happy Hour",
+     "tags": [],
+     "src": "Venue website liberatores.com/belair",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "3:03-6:21pm for Happy Hour",
+     "tags": [],
+     "src": "Venue website liberatores.com/eldersburg",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "Monday - Half Off Wine Night",
+     "tags": [],
+     "src": "Venue website liberatores.com/perryhall",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Date night"
@@ -2002,7 +2065,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Bel-Air/452768431544674/Liberatore%27s-Bel-Air",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-14",
-    "website": null
+    "website": "http://www.liberatores.com/"
    },
    "conflicts": [
     {
@@ -2022,7 +2085,46 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "monthly",
+      "start": "8PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.liberatores.com/belair",
+        "date": "2026-11-01",
+        "quote": "DJ Debs & Topaz | Every Third Friday | Every Third Friday | 8PM"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.liberatores.com/belair",
+        "date": "2026-11-01",
+        "quote": "Join us in the lounge at Liberatore’s Bel Air every third Friday of the month for live entertainment featuring Topaz and DJ Debbie"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " With weekly events such as live music nights, football parties, dj nights, wine tastings, and so much more, the Liberatore’s locations don’t just serve food, they serve memories",
+      "url": "https://www.liberatores.com/about-us"
+     }
+    ]
+   }
   },
   {
    "id": "md-looneys-pub-bel-air-maryland",
@@ -2354,8 +2456,17 @@
    "hours": "Mon 11a-9p; Tue-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
+   "kitchenNote": "Kitchen open until 15 pm per Venue website muchogustogroup.com, checked 2026-11-01; days not stated.",
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour: Mon-Thu 3pm-6pm Friday 2pm-5pm",
+     "tags": [],
+     "src": "Venue website muchogustogroup.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -2367,7 +2478,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Bel-Air/109253647260154/Mucho-Gusto-Group",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.muchogustogroup.com/"
    }
   },
   {
@@ -2686,7 +2797,8 @@
     "fbNewestPost": "2026-06-03",
     "website": "https://www.pappasbelair.com/"
    },
-   "websiteSource": "OpenStreetMap way/291460248 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/291460248 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.pappasbelair.com/menu"
   },
   {
    "id": "md-plaza-mexico-of-fallston-md",
@@ -3000,8 +3112,36 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon",
+     "text": "Happy Hour 3-6pm Monday (Mezcal y Musica) Bar Only",
+     "tags": [],
+     "src": "Venue website Soloaxaca.com/bel-air-sol-oaxaca-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Thu",
+     "text": "Happy Hour 3-6pm Thursday (Premium Margarita Night) Bar Only",
+     "tags": [],
+     "src": "Venue website Soloaxaca.com/bel-air-sol-oaxaca-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Wing Day Special $10 for 8 Wings (Buffalo, BBQ, Nashville, Mango Habanero, Honey Old Bay)",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website Soloaxaca.com/bel-air-sol-oaxaca-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -3034,7 +3174,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Bel-Air/109280814969448/Sol-Oaxaca-Cocina-Mexicana",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-12",
-    "website": null
+    "website": "http://Soloaxaca.com/"
    }
   },
   {
@@ -3141,7 +3281,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour menu available Monday - Friday 3:00pm - 6:00pm + ALL DAY WEDNESDAY",
+     "tags": [],
+     "src": "Venue website Www.thelocalharco.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -3189,7 +3338,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Fallston/101765248673165/The-Local",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://Www.thelocalharco.com/"
    },
    "conflicts": [
     {
@@ -3339,7 +3488,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Fallston/342413819767678/Vinces-Crab-House-%26-Restaurant-of-Fallston",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://vincescrabhousemd.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://vincescrabhouse.com/",
+        "quote": "e. | EXPLORE LOCATION | FOOD MENU | Fallston Location | Our 4th location in Fallston is a fine dining restaurant where you will find all types of fresh seafood and weekly specials. Don’t forg",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -3453,7 +3624,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/5259208054 opening_hours tag (map data 2026-10-31; last checked on the map 2023-07-15) (checked 2026-11-01)",
    "county": "Harford",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.boxhillpizzeria.com/menu-maryland-jumbo-lump-crabcakes-maryland-jumbo-lump-crabcakes/"
   },
   {
    "id": "md-the-lodge-restaurant-bar-bel-air",
@@ -3472,8 +3644,28 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "1-2-3 Happy Hour 3-5pm at the bar",
+     "tags": [],
+     "src": "Venue website thehickorylodge.com/happening.php",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$1 off all beer",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website thehickorylodge.com/happening.php",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap relation/8498550 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); venue website loads over https (https://thehickorylodge.com/), rechecked 2026-11-02 (earlier drop was a proxy failure on the http:// address)",
@@ -3547,8 +3739,59 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Sun",
+     "text": "One of the best happy hours in Midlothian for sure (all day Sundays)",
+     "tags": [],
+     "src": "Venue website latitudeseafoodco.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "The Best Happy Hour in RVA from 3-6:30",
+     "tags": [],
+     "src": "Venue website latitudeseafoodco.com/specials-chesterfield",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "Mon-Fri",
+     "text": "Join us for Happy Hour every weekday from 3-6:30 PM",
+     "tags": [],
+     "src": "Venue website latitudeseafoodco.com/specials-chesterfield",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    },
+    {
+     "days": "Sat",
+     "text": "Join us for Happy Hour every Saturday from 12-4PM",
+     "tags": [],
+     "src": "Venue website latitudeseafoodco.com/specials-chesterfield",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Half Off All Beer",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website latitudeseafoodco.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Mon-Fri",
+     "text": "Join us every weekday from 3-6:30 PM [dine-in only, excludes holidays] $8 Appetizers (Fried Catfish Bites, Coconut Shrimp, Bowl She-crab Soup)",
+     "tags": [],
+     "src": "Venue website latitudeseafoodco.com/specials-chesterfield",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from OpenStreetMap way/483763464 opening_hours tag (map data 2026-11-01; last checked on the map 2025-11-18) (checked 2026-11-02); late hours confirmed by venue website https://latitudeseafoodco.com/: \":00 am - 9:00 pm | Sun, Mon, Tue, Wed, Thur | 11:00 am - 10:00 pm | BEL AIR | Fri, Sat | 10:00 am - 11:00 pm | Sun, Mo\" (checked 2026-11-02)",

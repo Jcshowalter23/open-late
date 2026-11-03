@@ -96,7 +96,7 @@
    "address": "22725 Duke St, Leonardtown",
    "state": "MD",
    "zip": "20650",
-   "phone": null,
+   "phone": "(240) 309-4384",
    "lat": 38.2928,
    "lng": -76.6391,
    "priceText": "$ (Facebook page)",
@@ -164,7 +164,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Leonardtown/483245095511685/Brudergarten-Beer-Garden",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-15",
-    "website": null
+    "website": "http://www.brudergarten.com/"
    },
    "trivia": {
     "nights": [
@@ -223,7 +223,8 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
-   }
+   },
+   "phoneSource": "Venue website www.brudergarten.com, checked 2026-11-02"
   },
   {
    "id": "md-bushwood-dockside-grill",
@@ -896,7 +897,7 @@
    "address": "22576 MacAurthur Blvd Suite 314, California",
    "state": "MD",
    "zip": "20619",
-   "phone": null,
+   "phone": "(240) 298-2514",
    "lat": 38.2879,
    "lng": -76.4834,
    "priceText": "$$ (Facebook page)",
@@ -1062,8 +1063,9 @@
     "facebookMirror": "https://www.foodyas.com/US/California/732140399978644/LUX-Sports-Bar-%26-Grill",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-08-18",
-    "website": null
-   }
+    "website": "http://luxloungemd.com/"
+   },
+   "phoneSource": "Venue website luxloungemd.com, checked 2026-11-02"
   },
   {
    "id": "md-macs-tap-and-table",
@@ -1708,7 +1710,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Leonardtown/109533147261903/Sweetbay-Restaurant-%26-Bar",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://sweetbayrestaurant.com/"
    },
    "conflicts": [
     {
@@ -1727,7 +1729,43 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Young crowd",
+     "Date night / upscale"
+    ],
+    "summary": "Draws a younger crowd; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Young crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://sweetbayrestaurant.com/",
+        "quote": "Jay | Fantastic late Sunday afternoon dinner with my wife. | Very popular with the mature young crowd. Outdoor seating looks great for summer sundown dining. Gents, it's a great date night p",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://sweetbayrestaurant.com/",
+        "quote": "Upscale Restaurant Leonardtown MD | Sweetbay Restaurant & Bar | Home | Menus | Dinner | Lunch | S",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "md-t-and-js-cove",
@@ -1949,7 +1987,7 @@
     "facebookMirror": "https://www.foodyas.com/US/California/1007964599296493/Taphouse-1637",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.taphouse1637.com/"
    },
    "conflicts": [
     {
@@ -1965,7 +2003,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.taphouse1637.com/",
+        "quote": "artini bar, from that it grew to become The House of More than 130 Martinis, as well as a live music venue. The Lounge thrived, and Sunny watched his dreams come to fruition. | Five years later in",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "md-the-front-porch-in-leonardtown",
@@ -1997,7 +2057,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Leonardtown/135774109816109/The-Front-Porch-in-Leonardtown",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-10",
-    "website": null
+    "website": "http://www.thefrontporchmd.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.thefrontporchmd.com/",
+        "quote": "isine in a cozy, casual space. Warm décor and local photography create a relaxed feel for locals and visitors alike. Our friendly team delivers gracious service, while the menu features",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2137,7 +2219,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Leonardtown/1413740545575643/The-Rex",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.therextheatresomd.com/"
    },
    "conflicts": [
     {
@@ -2157,7 +2239,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.therextheatresomd.com/",
+        "quote": "eater back to its former glory. They wanted to bring a venue to the area to entertain the locals and draw more people to Leonardtown. | The theater will be specializing in hosting specta",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "md-twisted-bandg",
@@ -2282,7 +2386,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Bushwood/108214612385922/Water-View-Inn",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-09-20",
-    "website": null
+    "website": "http://www.waterview-inn.com/"
    },
    "conflicts": [
     {
@@ -2300,7 +2404,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Enjoy live Southern Maryland soul music, line dancing classes, karaoke, and much more",
+      "url": "https://www.waterview-inn.com/blank"
+     }
+    ]
+   }
   },
   {
    "id": "md-the-greene-turtle-california",
@@ -2325,7 +2442,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/48434955 opening_hours tag (map data 2026-10-31; last checked on the map 2025-11-23) (checked 2026-11-01)",
    "county": "St. Mary's",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.thegreeneturtle.com/menu/"
   }
  ],
  "type": "town",

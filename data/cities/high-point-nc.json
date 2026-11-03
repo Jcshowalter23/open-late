@@ -425,7 +425,8 @@
       ]
      }
     ]
-   }
+   },
+   "menu": "https://bouldershp.com/food-menu"
   },
   {
    "id": "nc-california-burritos",
@@ -927,7 +928,83 @@
     ]
    },
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "8pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.divebarnc.com/locations/dive-bar-high-point",
+        "date": "2026-11-01",
+        "quote": "Karaoke w/ dj little richard - 8pm | TUESDAY"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.divebarnc.com/locations/dive-bar-mooresville",
+        "date": "2026-11-01",
+        "quote": " Add weekly events like Service Industry Tuesdays, College Night Thursdays, and Karaoke Wednesdays, and you've got the most fun you can have under the streets of Mooresville"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "9:30pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.divebarnc.com/locations/dive-bar-mooresville",
+        "date": "2026-11-01",
+        "quote": "Karaoke-9:30pm | WEDNESDAYS"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.divebarnc.com/locations/dive-bar-mooresville",
+        "date": "2026-11-01",
+        "quote": " Add weekly events like Service Industry Tuesdays, College Night Thursdays, and Karaoke Wednesdays, and you've got the most fun you can have under the streets of Mooresville"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.divebarnc.com/locations/dive-bar-mooresville",
+        "date": "2026-11-01",
+        "quote": " Add weekly events like Service Industry Tuesdays, College Night Thursdays, and Karaoke Wednesdays, and you've got the most fun you can have under the streets of Mooresville"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.divebarnc.com/locations/dive-bar-hickory",
+        "date": "2026-11-01",
+        "quote": "Karaoke at 9:30 | THURSDAYS"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -940,7 +1017,46 @@
     ]
    },
    "dj": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.divebarnc.com/locations/dive-bar-hickory",
+        "date": "2026-11-01",
+        "quote": "Live DJ NIGHT | FRIDAYS"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.divebarnc.com/locations/dive-bar-hickory",
+        "date": "2026-11-01",
+        "quote": "Live DJ Night | SATURDAYS"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -2320,7 +2436,29 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.rixstergrill.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.rixstergrill.com/",
+        "quote": "urday 11:00am - 11pm | Sunday 11:00am - 11pm | Community Events | We are the neighborhood Sports bar & grill focused on being the best value in town. Rixster’s, as we are known to our Guests",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -3316,7 +3454,8 @@
     "fbNewestPost": null,
     "website": "https://www.theonekbbq.com/"
    },
-   "websiteSource": "OpenStreetMap way/701215645 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/701215645 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.theonekbbq.com/menu"
   },
   {
    "id": "nc-the-podium",

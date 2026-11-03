@@ -2070,7 +2070,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/1097319755 opening_hours tag (map data 2026-11-01; last checked on the map 2024-12-16) (checked 2026-11-02); late hours confirmed by venue website https://www.chrismichaelsnj.com/: \" 07095 | OPENING HOURS | Monday: 4PM - 10PM | Tuesday to Thursday: 11:30AM-10PM | Friday: 11:30AM - 11PM | Saturda\" (checked 2026-11-02)",
    "county": "Middlesex",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.chrismichaelsnj.com/",
+        "quote": "oodbridge, New Jersey, Chris Michael's Steak House is the happening Steak House where the locals go to dine, drink, and socialize. Our menu features dishes assembled from the freshest in",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "city",

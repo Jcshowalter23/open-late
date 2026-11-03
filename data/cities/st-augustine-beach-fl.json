@@ -1456,8 +1456,27 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Sun",
+     "text": "Augustine along with our open bar, live music and Happy Hour, which lasts all day on Sunday",
+     "tags": [],
+     "src": "Venue website shaughnessysgrill.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Mon",
+     "text": "Monday -- $3 drafts all day",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website shaughnessysgrill.com/events",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -1484,7 +1503,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Augustine/43779469382/Shaughnessy%27s-Sports-Grill",
     "fbPostsSeen": 3,
     "fbNewestPost": "2026-10-15",
-    "website": null
+    "website": "http://www.Shaughnessysgrill.com/"
    },
    "trivia": {
     "nights": [
@@ -1522,6 +1541,28 @@
       "date": "2026-11-01",
       "quote": "Events, Live Music, Trivia & Beer Specials: St",
       "url": "https://shaughnessysgrill.com/events/"
+     }
+    ]
+   },
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://shaughnessysgrill.com/",
+        "quote": "Where Can You Find Good Food, Drinks and Sports Enthusiasts? | Try checking your local sports bar! | Menu | Events | Contact Us | Customer Reviews | ★★★★★ | Been getting lunch here the pa",
+        "self": true
+       }
+      ]
      }
     ]
    }
@@ -1597,7 +1638,7 @@
    "address": "421 A 1 A Beach Blvd, Saint Augustine Beach",
    "state": "FL",
    "zip": "32080",
-   "phone": null,
+   "phone": "(904) 471-5555",
    "lat": 29.8545,
    "lng": -81.2676,
    "priceText": "$$ (Facebook page)",
@@ -1622,8 +1663,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Augustine-Beach/160627650614969/Sunset-Grille",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-24",
-    "website": null
-   }
+    "website": "http://www.sunsetgrillea1a.com/"
+   },
+   "phoneSource": "Venue website sunsetgrillea1a.com, checked 2026-11-02"
   },
   {
    "id": "fl-taco-libre",
@@ -1944,7 +1986,7 @@
    "address": "641 A1a Beach Blvd, Saint Augustine",
    "state": "FL",
    "zip": "32080",
-   "phone": null,
+   "phone": "(904) 461-5725",
    "lat": 29.8471,
    "lng": -81.2677,
    "priceText": "$$ (Facebook page)",
@@ -1997,7 +2039,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Augustine/170116253508/The-Tides-Grill-%26-Oyster-Co-at-Dunes-Cracker-House",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://www.thetidesgrill.com/"
    },
    "trivia": {
     "nights": [
@@ -2102,7 +2144,85 @@
       "url": "https://thetidesgrill.com/events-calendar/"
      }
     ]
-   }
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://thetidesgrill.com/",
+        "quote": "favorites, oysters, a full bar, live entertainment, and the kind of laid-back atmosphere locals call home. | View Our Menu | See Upcoming Events | Call Us | 904-461-5725 | Find Us | 641",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "5:00 pm–8:00 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://thetidesgrill.com/events-calendar/",
+        "date": "2026-11-01",
+        "quote": "Karaoke with Jim & Mary | Wednesday, 5:00 pm–8:00 pm | Wednesday, 5:00 pm–8:00 pm"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://thetidesgrill.com/events-calendar/",
+        "date": "2026-11-01",
+        "quote": "Join Jim & Mary for karaoke at The Tides | Wednesday, 5:00 pm–8:00 pm"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://thetidesgrill.com/events-calendar/",
+        "date": "2026-11-01",
+        "quote": "Join Jim & Mary for karaoke at The Tides every Wednesday in September from 5:00–8:00 pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke with Jim & Mary | 5:00 pm–8:00 pm",
+      "url": "https://thetidesgrill.com/events-calendar/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke with Jim & Mary | 6:00 pm–10:00 pm | 5:00 pm–8:00 pm",
+      "url": "https://thetidesgrill.com/events-calendar/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke",
+      "url": "https://thetidesgrill.com/events-calendar/"
+     }
+    ]
+   },
+   "phoneSource": "Venue website thetidesgrill.com, checked 2026-11-02"
   },
   {
    "id": "fl-the-wobbly-whale",
@@ -2111,7 +2231,7 @@
    "address": "6460 US Route 1, Saint Augustine",
    "state": "FL",
    "zip": "32095",
-   "phone": null,
+   "phone": "(904) 257-3211",
    "lat": 29.9905,
    "lng": -81.3718,
    "website": "http://www.thewobblywhale.com/",
@@ -2155,7 +2275,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Augustine/533048066562178/The-Wobbly-Whale",
     "fbPostsSeen": 3,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://www.thewobblywhale.com/"
    },
    "trivia": {
     "nights": [],
@@ -2169,7 +2289,8 @@
       "url": "https://thewobblywhale.com/events/"
      }
     ]
-   }
+   },
+   "phoneSource": "Venue website thewobblywhale.com, checked 2026-11-02"
   },
   {
    "id": "fl-umai-sushi-hibachi",
@@ -2266,8 +2387,28 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "We offer Happy Hour from 12-7 PM, Monday through Friday",
+     "tags": [],
+     "src": "Venue website worldfamousoasis.com/about",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Half off house liquors, house wines, and domestic beers",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website worldfamousoasis.com/about",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -2314,7 +2455,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Saint-Augustine-Beach/130309690354055/World-Famous-Oasis-Restaurant",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.worldfamousoasis.com/"
    }
   },
   {

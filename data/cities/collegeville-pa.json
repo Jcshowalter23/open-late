@@ -69,7 +69,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "The Caribou Club offers happy hour specials every Monday thru Friday 4-6 in addition to daily food and drink specials",
+     "tags": [],
+     "src": "Venue website bastapastapa.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -120,7 +129,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Skippack/149078268561358/Cabana-Bar-Skippack",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-01",
-    "website": null
+    "website": "http://www.bastapastapa.com/"
    }
   },
   {
@@ -334,6 +343,25 @@
        }
       ],
       "confidence": "medium"
+     },
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "9pm-close",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.gravelpikeinn.com/events",
+        "date": "2026-11-01",
+        "quote": "Join Us For Karaoke | Wednesday 9pm-close | Wednesday 9pm-close"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
      }
     ],
     "stale": [],
@@ -366,7 +394,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Collegeville/168494989631/Gravel-Pike-Inn-610-489-9950",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-23",
-    "website": null
+    "website": "http://www.gravelpikeinn.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.gravelpikeinn.com/",
+        "quote": "Gravel Pike Inn | Local, neighborhood bar in Collegeville with good food, karaoke, and drinks! | Home | About Us | Restaurant Menu",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -487,8 +537,7 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-11",
     "website": "https://www.mauriciospizzapasta.com/"
-   },
-   "menu": "https://mauriciospizzapasta.com/menu"
+   }
   },
   {
    "id": "speck-s",

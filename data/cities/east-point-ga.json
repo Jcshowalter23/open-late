@@ -297,7 +297,27 @@
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
    "county": "Fulton",
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "9PM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.chairsupstairs.com/",
+        "date": "2026-11-01",
+        "quote": "Karaoke @ 9PM | Tuesday -"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [
      "Restaurantji review/summary mentions karaoke",
@@ -573,7 +593,7 @@
    "address": "Atlanta 30337, Atlanta",
    "state": "GA",
    "zip": "30337",
-   "phone": null,
+   "phone": "(404) 500-1011",
    "lat": 33.6591,
    "lng": -84.4329,
    "priceText": "$$ (Facebook page)",
@@ -619,8 +639,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Atlanta/105023308235862/Manchester-Arms-Pub",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-07-15",
-    "website": null
-   }
+    "website": "http://www.manchesterarmspub.com/"
+   },
+   "phoneSource": "Venue website www.manchesterarmspub.com, checked 2026-11-02"
   },
   {
    "id": "ga-spondivits",
@@ -629,7 +650,7 @@
    "address": "1219 Virginia Ave, Panthersville",
    "state": "GA",
    "zip": "30344",
-   "phone": null,
+   "phone": "(404) 767-1569",
    "lat": 33.6592,
    "lng": -84.429,
    "priceText": "$$ (Facebook page)",
@@ -653,8 +674,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Panthersville/512485752103098/Spondivits",
     "fbPostsSeen": 10,
     "fbNewestPost": "2022-05-04",
-    "website": null
-   }
+    "website": "http://www.spondivits.net/"
+   },
+   "phoneSource": "Venue website spondivits.com, checked 2026-11-02"
   },
   {
    "id": "ga-the-juicy-crab-eastpoint",
@@ -776,7 +798,29 @@
     "fbNewestPost": "2026-10-30",
     "website": "https://thisisitbbq.com/location/camp-creek/"
    },
-   "menu": "https://thisisitbbq.com/bbq-cooking/"
+   "menu": "https://thisisitbbq.com/bbq-cooking/",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://thisisitbbq.com/camp-creek/",
+        "quote": "e office, church, or family reunion? Pick up catering from our Camp Creek kitchen. | YOUR NEIGHBORHOOD SPOT | Southern BBQ & Soul Food Near Camp Creek Marketplace | For over 40 years, This Is It! h",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "town",

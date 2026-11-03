@@ -262,7 +262,7 @@
    "address": "1406 S Cypress Dr, Jupiter",
    "state": "FL",
    "zip": "33469",
-   "phone": null,
+   "phone": "(561) 730-5138",
    "lat": 26.9507,
    "lng": -80.0881,
    "priceText": "$$$ (Facebook page)",
@@ -272,7 +272,16 @@
    "hoursNote": "Restaurantji (updated 2026-09-25) lists different hours: Mon closed; Tue-Wed 5p-10p; Thu 5p-11p; Fri-Sat 5p-12a; Sun 5p-9p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Sun",
+     "text": "Sunday: ALL NIGHT ENTIRE RESTAURANT HH",
+     "tags": [],
+     "src": "Venue website arajupiter.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -293,7 +302,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Jupiter/319160304619836/Ara-Jupiter",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-21",
-    "website": null
+    "website": "http://www.arajupiter.com/"
    },
    "conflicts": [
     {
@@ -313,7 +322,30 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.arajupiter.com/",
+        "quote": "Mediterranean flair, complimented by irresistible, inventive hand crafted cocktails in an upscale, chic environment reflective of his personality, spirit, and demand for excellence. For h",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.arajupiter.com, checked 2026-11-02"
   },
   {
    "id": "fl-beer-city",
@@ -615,7 +647,16 @@
    "hoursNote": "Hours differ by source: Facebook page lists Mon-Thu 11:30a-9p; Fri-Sat 11:30a-9:30p; Sun 11:30a-9p (no posts since May 2026); Restaurantji (updated 2026-10-14) used as newer. Call ahead.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "$3 off During Happy Hour",
+     "tags": [],
+     "src": "Venue website bucobar.com/menus-1",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -652,7 +693,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Tequesta/352439968656443/Buco-Kitchen-%26-Bar",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.bucobar.com/"
    },
    "conflicts": [
     {
@@ -1689,7 +1730,16 @@
    "hoursNote": "Restaurantji (updated 2026-10-31) lists different hours: Mon-Thu 11:30a-9p; Fri-Sat 11:30a-11p; Sun 10a-9p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour: Monday-Friday, 3pm to 6pm",
+     "tags": [],
+     "src": "Venue website guanabanas.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1739,7 +1789,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Jupiter/54044002372/Guanabanas-Island-Restaurant-and-Bar",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://guanabanas.com/"
    },
    "conflicts": [
     {
@@ -1760,7 +1810,20 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-12-31",
+      "quote": "Big NYE show with Guavatron and special guest DJ Digital Laundry all wrapped up to ring in the New Year | Dec 31, Thursday 8pm",
+      "url": "https://www.guanabanas.com/events/"
+     }
+    ]
+   }
   },
   {
    "id": "fl-handlebar-bar-and-grill",
@@ -2299,7 +2362,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Juno-Beach/347674732977269/KATI-Asian-Cuisine---THAI-Food-North-palm-beach",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-09-02",
-    "website": null
+    "website": "http://katiasiancuisine.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.KatiAsianCuisine.com/",
+        "quote": "esentation as much as the taste. Whether you're stopping in for a casual lunch, a relaxed date night, or ordering takeout after a day at the beach, we're here to make you feel welcome, one p",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2652,7 +2737,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Jupiter/100786275637580/Lewis-Steakhouse",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://www.lewissteakhouse.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.lewissteakhouse.com/",
+        "quote": "own Road and Central Blvd in Jupiter, Florida, we invite you to experience the epitome of fine dining in our luxurious setting. With over 76 years of culinary expertise, the Lewis Family prou",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -3008,7 +3115,46 @@
     "facebookMirror": "https://www.foodyas.com/US/Jupiter/442052795654138/L%C4%AALA-Coastal-Mediterranean",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://www.lilajupiter.com/"
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "monthly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.lilajupiter.com/",
+        "date": "2026-11-01",
+        "quote": "Saturday nights move to the rhythm with a live DJ spinning global afro house music, offering guests a sensory journey to the world’s most iconic coastal destinations | For those seeking exclusivity, LĪLA VIP membership unlocks special off-menu creations, month"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.lilajupiter.com/about/",
+        "date": "2026-11-01",
+        "quote": " Live DJs spin global music on the weekends in the lounge area creating an electric yet sophisticated atmosphere, complemented by valet parking and attentive hospitality"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Live DJs spin global music on the weekends in the lounge area creating an electric yet sophisticated atmosphere, complemented by valet parking and attentive hospitality",
+      "url": "https://www.lilajupiter.com/about/"
+     }
+    ]
    }
   },
   {
@@ -3625,8 +3771,28 @@
    "hoursNote": "Hours differ by source: Facebook page lists Daily 11a-10p (no posts since May 2026); Restaurantji (updated 2026-10-01) used as newer. Call ahead.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Sublime Time Happy Hour (3–7 PM)",
+     "tags": [],
+     "src": "Venue website pabbqgrille.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Unwind with $2 off beer and wine, $7 cocktails, or a $7 appetizer & beer combo featuring favorites like Sublime Street Corn, Funny Bonz, and pork sandwiches",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website pabbqgrille.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -3639,7 +3805,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Jupiter/118090298217842/Park-Avenue-BBQ-%26-Grille",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://pabbqgrille.com/"
    },
    "conflicts": [
     {
@@ -3837,7 +4003,7 @@
    "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Juno-Beach/110276110937490/Portofino-Bistro-Mediterraneo), checked 2026-11-01",
    "lat": 26.8833,
    "lng": -80.0597,
-   "website": "http://www.portofinobistromediterraneo.com/",
+   "website": null,
    "hours": "Mon-Thu 11:30a-9p; Fri 11:30a-10p; Sat 4:30p-10p; Sun 4:30p-9p",
    "hoursNote": "Restaurantji (updated 2026-10-06) lists different hours: Mon-Thu 4:30p-9p; Fri-Sat 4:30p-9:30p; Sun 4:30p-9p. Call ahead to confirm.",
    "kitchen": null,
@@ -3874,7 +4040,8 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "websiteSource": "removed 2026-11-02: domain now for sale"
   },
   {
    "id": "fl-rancho-chico-in-tequesta",
@@ -3955,7 +4122,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy hour specials, 5 – 7 PM",
+     "tags": [],
+     "src": "Venue website Rembar.wine/events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -3991,7 +4167,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Jupiter/111139884880915/Rembar",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://Rembar.wine/"
    }
   },
   {
@@ -4638,7 +4814,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy Hour daily in the bar/bar area + outside bar 3pm-6pm Bar menu available beginning at 3pm",
+     "tags": [],
+     "src": "Venue website thejupitergrill.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -4688,7 +4873,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Jupiter/109237085416610/The-Jupiter-Grill",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://www.thejupitergrill.com/"
    }
   },
   {
@@ -4994,7 +5179,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Jupiter/517705641421140/TopCrust-Jupiter-Kitchen",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.topcrustjupiter.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.topcrustjupiter.com/",
+        "quote": "Passion 🍴 | What started as a dream to serve authentic pizza and dishes has grown into a local favorite. With cozy vibes and a team that treats you like family, this kitchen proudly supports lo",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {

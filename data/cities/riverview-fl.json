@@ -1170,7 +1170,7 @@
    "address": "11238 Boyette Rd, Riverview",
    "state": "FL",
    "zip": "33569",
-   "phone": null,
+   "phone": "(813) 677-7023",
    "lat": 27.8546,
    "lng": -82.3165,
    "priceText": "$ (Facebook page)",
@@ -1223,8 +1223,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Riverview/1290342164408721/Leaven-Brewing-Co.",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-10-23",
-    "website": null
-   }
+    "website": "http://www.leavenbrewing.com/"
+   },
+   "phoneSource": "Venue website www.leavenbrewing.com, checked 2026-11-02"
   },
   {
    "id": "fl-linksters-tap-room-riverview",
@@ -1328,7 +1329,7 @@
    "address": "10173 Big Bend Rd, Riverview",
    "state": "FL",
    "zip": "33578",
-   "phone": null,
+   "phone": "(813) 570-8162",
    "lat": 27.7911,
    "lng": -82.3427,
    "website": "http://littlegreekfreshgrill.com/store/riverview/",
@@ -1348,8 +1349,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Riverview/903653462841429/Little-Greek-Riverview",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
-   }
+    "website": "http://littlegreekfreshgrill.com/store/riverview/"
+   },
+   "phoneSource": "Venue website riverview.littlegreekfreshgrill.com, checked 2026-11-02"
   },
   {
    "id": "fl-lolas",
@@ -1802,7 +1804,7 @@
    "address": "302 E Davis Blvd, Tampa",
    "state": "FL",
    "zip": "33606",
-   "phone": null,
+   "phone": "(813) 600-1696",
    "lat": 27.8652,
    "lng": -82.3261,
    "priceText": "$$ (Facebook page)",
@@ -1826,7 +1828,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Tampa/190667100964192/Saffron-Indian-Cuisine---tampa-florida",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-03-17",
-    "website": null
+    "website": "http://www.saffronxpress.com/"
    },
    "conflicts": [
     {
@@ -1847,7 +1849,8 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "phoneSource": "Venue website www.saffronxpress.com, checked 2026-11-02"
   },
   {
    "id": "fl-showtown-bar-and-grill",
@@ -1959,7 +1962,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Gibsonton/260886341296/Showtown-Bar-%26-Grill",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://www.showtownusa.com/"
    },
    "bingo": {
     "nights": [],
@@ -1978,6 +1981,33 @@
       "url": "https://showtownusa.com/gibsonton-showtown-bar-and-grill-events"
      }
     ]
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "09:00 PM - 01:00 AM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://showtownusa.com/gibsonton-showtown-bar-and-grill-events",
+        "date": "2026-11-01",
+        "quote": "With DJ Adam | Every Friday | 09:00 PM - 01:00 AM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
    }
   },
   {
@@ -2501,7 +2531,147 @@
    ],
    "source": "hours from OpenStreetMap node/2992759652 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); venue website loads over https (https://bottlehousebar.com/), rechecked 2026-11-02 (earlier drop was a proxy failure on the http:// address)",
    "county": "Hillsborough",
-   "addedBy": "refresh-restore"
+   "addedBy": "refresh-restore",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://bottlehousebar.com/",
+        "quote": "ct | Tournaments | Band Info | Sign the Wall | 813.623.5700 | Get text alerts | Questions locals ask | What is Bottle House Bar? | Bottle House Bar is a neighborhood bar in Riverview, FL",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://bottlehousebar.com/events",
+        "date": "2026-11-01",
+        "quote": "There's something on every night of the week: darts on Mondays, pool tournaments on Wednesdays, karaoke and trivia mid-week, live bands on Fridays and Saturdays, and Sunday game night"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://bottlehousebar.com/events",
+        "date": "2026-11-01",
+        "quote": "There's something on every night of the week: darts on Mondays, pool tournaments on Wednesdays, karaoke and trivia mid-week, live bands on Fridays and Saturdays, and Sunday game night"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://bottlehousebar.com/",
+        "date": "2026-11-01",
+        "quote": "Bottle House Bar is a neighborhood bar in Riverview, FL with over 75 bottled beers, a deep whiskey shelf, live music on weekends, and something on every night — darts, karaoke, pool, trivia, and Sunday game night"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://bottlehousebar.com/",
+        "date": "2026-11-01",
+        "quote": "Bottle House Bar is a neighborhood bar in Riverview, FL with over 75 bottled beers, a deep whiskey shelf, live music on weekends, and something on every night — darts, karaoke, pool, trivia, and Sunday game night"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "What's On — Darts, karaoke, live music & more · Bottle House Bar",
+      "url": "https://bottlehousebar.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Do you have karaoke and trivia",
+      "url": "https://bottlehousebar.com/events"
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Bottle House Bar is a neighborhood bar in Riverview, FL with over 75 bottled beers, a deep whiskey shelf, live music on weekends, and something on every night — darts, karaoke, pool, trivia, and Sunda",
+      "url": "https://bottlehousebar.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "There's something on every night of the week: darts on Mondays, pool tournaments on Wednesdays, karaoke and trivia mid-week, live bands on Fridays and Saturdays, and Sunday game night",
+      "url": "https://bottlehousebar.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Do you have karaoke and trivia",
+      "url": "https://bottlehousebar.com/events"
+     }
+    ]
+   }
   }
  ],
  "type": "city",

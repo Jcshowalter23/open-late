@@ -2159,7 +2159,38 @@
     ]
    },
    "karaoke": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7:00 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-12-02",
+      "datedLastSeen": "2026-12-02",
+      "postsSeen": 5,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://petrasbar.com/events/",
+        "date": "2026-12-02",
+        "quote": "7:00 pm | Karaoke with Klaytastic | December 2 @ 7:00 pm | >> Karaoke with Klaytastic"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://petrasbar.com/events/",
+        "date": "2026-12-02",
+        "quote": "There are no events on this day. | December 2 | December 2 @ 7:00 pm | >> Karaoke with Klaytastic | December 2 @ 7:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://petrasbar.com/events/",
+        "date": "2026-11-25",
+        "quote": "7:00 pm | Karaoke with Klaytastic | November 25 @ 7:00 pm | >> Karaoke with Klaytastic"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -2343,8 +2374,41 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Mon- Fri * 3-5 PM - Taco Happy Hour",
+     "tags": [],
+     "src": "Venue website saborlatingrill.com/menu/daily-specials",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "Fri",
+     "text": "Fridays - $5 Craft Beer",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website saborlatingrill.com/menu/daily-specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "Wednesdays - Kids Eat 99¢",
+     "tags": [],
+     "src": "Venue website saborlatingrill.com/menu/daily-specials",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Sat",
+     "text": "Saturdays - $6 Margaritas",
+     "tags": [],
+     "src": "Venue website saborlatingrill.com/menu/daily-specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -3557,8 +3621,8 @@
    "address": "1131 Central Avenue, Charlotte",
    "state": "NC",
    "zip": "28205",
-   "phone": null,
-   "phoneSource": null,
+   "phone": "(704) 802-9260",
+   "phoneSource": "Venue website www.pilotbrewing.us/home, checked 2026-11-02",
    "lat": 35.221264,
    "lng": -80.81552,
    "website": "https://www.pilotbrewing.us/home",

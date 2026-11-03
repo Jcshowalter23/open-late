@@ -578,7 +578,8 @@
     "fbNewestPost": "2026-10-26",
     "website": "https://www.buchnersbierhalle.com/"
    },
-   "websiteSource": "OpenStreetMap node/14212333643 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/14212333643 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://www.buchnersbierhalle.com/menu/"
   },
   {
    "id": "fl-captain-ds-6",
@@ -822,7 +823,71 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/198507713547963/Chomp-Chomp",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://chompchomp.food-pi.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "College crowd",
+     "Families",
+     "Sports fans",
+     "Date night / upscale"
+    ],
+    "summary": "Families earlier, bar crowd later; popular with college students; popular for watching games; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "College crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://foodeist.com/best-restaurants-in-jacksonville-fl",
+        "quote": "ists | Curbside pickup | Family-friendly | Historic | Restroom | Bar onsite | Cash Only | College students | Upscale | Brunch | Checks | Dog Friendly | Good for working on laptop | In-store shoppi",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://foodeist.com/best-restaurants-in-jacksonville-fl",
+        "quote": "payments | Waterfront | Debit cards | No-contact delivery | Tourists | Curbside pickup | Family-friendly | Historic | Restroom | Bar onsite | Cash Only | College students | Upscale | Brunch | Ch",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://foodeist.com/best-restaurants-in-jacksonville-fl",
+        "quote": "afe | Chinese | Comfort Food | Diners | Donuts | French | Gastropubs | Korean | Noodles | Sports Bars | Vegan | Beer, Wine & Spirits | Brazilian | Bubble Tea | Cuban | German | Hot Dogs | Mo",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://foodeist.com/best-restaurants-in-jacksonville-fl",
+        "quote": "kup | Family-friendly | Historic | Restroom | Bar onsite | Cash Only | College students | Upscale | Brunch | Checks | Dog Friendly | Good for working on laptop | In-store shopping | Jazz",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -857,7 +922,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/871829762670018/Curry-Guys",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-22",
-    "website": null
+    "website": "http://curryguys.us/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://curryguys.us/",
+        "quote": ", baked golden. Soft, gooey, and impossible to share. | Vegetarian | Kids | Kids Bowl | A kid-friendly bowl with mild curry chicken over fluffy rice, finished with mild cilantro or white sauce",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -867,7 +954,7 @@
    "address": "1183 Edgewood Ave S, Jacksonville",
    "state": "FL",
    "zip": "32205",
-   "phone": null,
+   "phone": "(904) 551-9469",
    "lat": 30.3085,
    "lng": -81.7134,
    "website": "http://fishweirbrewing.com/",
@@ -926,7 +1013,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/1857470997900708/Fishweir-Brewing-Company",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://fishweirbrewing.com/"
    },
    "trivia": {
     "nights": [],
@@ -950,7 +1037,8 @@
       "url": "https://fishweirbrewing.com/"
      }
     ]
-   }
+   },
+   "phoneSource": "Venue website fishweirbrewing.com, checked 2026-11-02"
   },
   {
    "id": "fl-foo-dog-curry-traders",
@@ -1669,7 +1757,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/322086401198000/Lola%27s-Burrito-%26-Burger-Joint",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://lolasburritojoint.com/"
    },
    "trivia": {
     "nights": [],
@@ -1681,6 +1769,42 @@
       "date": "2026-11-01",
       "quote": "Happy Hour All Day & Team Trivia at 7pm",
       "url": "https://lolasburritojoint.com/"
+     }
+    ]
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Bikers"
+    ],
+    "summary": "A locals-and-regulars spot; popular with bikers / hosts bike nights.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://lolasburritojoint.com/",
+        "quote": "S | HOUSE WINES BY THE GLASS | SELECT BEERS (HH) | CHIPS & SALSA | History | About Us | A Neighborhood Hangout & Local Favorite | Lola's is a Riverside community restaurant with Dia-De-Los-Muertos vib",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Bikers",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://lolasburritojoint.com/",
+        "quote": "ille. When you arrive, look up! Hanging from the rafters is Lola herself on her full-size motorcycle! The exposed brick walls have masterfully painted car hoods narrating our restaurant’s Di",
+        "self": true
+       }
+      ]
      }
     ]
    }
@@ -1795,7 +1919,24 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Mon-Fri",
+     "text": "All hours spent at Mojo are happy ones, but the Happiest of Hours occur Monday-Friday from 3-6 where we off $1 OFF our beer and wine",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website mojobbq.com/mojo-bar-b-que",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Wed",
+     "text": "We love being a place for families to gather, so on Wednesdays: Kids eat free",
+     "tags": [],
+     "src": "Venue website mojobbq.com/mojo-bar-b-que",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -1831,7 +1972,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/159530310751453/MOJO-no.4%2C-Urban-BBQ-Whiskey-Bar",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-20",
-    "website": null
+    "website": "http://www.mojobbq.com/"
    },
    "conflicts": [
     {
@@ -2697,7 +2838,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$1 Off Draft Beer",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website GarageJax.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -2734,7 +2886,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Jacksonville/1615136662035459/The-Garage---Riverside%27s-Pub",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-03-09",
-    "website": null
+    "website": "http://www.GarageJax.com/"
    }
   },
   {
@@ -3122,7 +3274,8 @@
       "url": "https://www.thecasbahcafe.com/events"
      }
     ]
-   }
+   },
+   "menu": "https://www.thecasbahcafe.com/menu/"
   }
  ],
  "type": "neighborhood",

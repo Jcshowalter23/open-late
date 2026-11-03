@@ -442,7 +442,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "Happy Hour Monday-Friday 4pm-7pm",
+     "tags": [],
+     "src": "Venue website CrowBarGrill.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -484,7 +493,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Savannah/100874319957922/Ellie%27s-Crow-Bar-%26-Grill",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-09-07",
-    "website": null
+    "website": "http://www.CrowBarGrill.com/"
    }
   },
   {
@@ -541,7 +550,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Domestic Beers $1 OFF, Wells $1 OFF, Margaritas $10",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website flyingfishsavannah.com/savannah-wilmington-island-georgia-flying-fish-bar-and-grill-happy-hours-specials",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -554,7 +574,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Wilmington-Island/65498695912/Flying-Fish-Bar-and-Grill",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-28",
-    "website": null
+    "website": "http://flyingfishsavannah.com/"
    }
   },
   {
@@ -1149,7 +1169,43 @@
    ],
    "source": "hours from OpenStreetMap node/11487067377 opening_hours tag (map data 2026-11-01; last checked on the map 2026-07-01) (checked 2026-11-02); late hours confirmed by venue website https://thesnugirishpubsavannah.com/: \"urs | MONDAY & TUESDAY: 4PM - 10PM | WEDNESDAY & THURSDAY: 11AM - 10PM | FRIDAY & SATURDAY: 11AM - 11PM | SUNDAY:\" (checked 2026-11-02)",
    "county": "Chatham",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://thesnugirishpubsavannah.com/",
+        "quote": "tely be back! | Review by - Google | five star review by | John F: | What a great bar for locals and visitors alike here in whitemarsh island. The food is absolutely wonderful and the se",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://thesnugirishpubsavannah.com/",
+        "quote": "ly. We are a veteran-owned and operated company and we look forward to creating a casual, family-friendly place for you all to call home. | Reviews | The Snug Irish Pub | Restaurantji | Start sto",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "ga-basils-pizza-and-deli-savannah",
@@ -1174,7 +1230,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/424849509 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://basilsonline.com/: \"| 31410 | Get Directions | Hours | Mon, Tue, Wed, Thur | 11:00 AM - 9:30 PM | Fri, Sat | 11:00 AM - 10:30 PM | Sun | 1\" (checked 2026-11-02)",
    "county": "Chatham",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://basilsonline.com/",
+        "quote": "se only the freshest produce. Voted Best Islands Restaurant in Connect Savannah and “Best kid-friendly dining” in Savannah Magazine for 5 years! | Read more | about us | Skip Photo Gallery | A",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "town",

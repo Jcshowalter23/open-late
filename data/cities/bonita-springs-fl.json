@@ -839,7 +839,7 @@
    "address": "3801 Bonita Beach Rd, Bonita Springs",
    "state": "FL",
    "zip": "34134",
-   "phone": null,
+   "phone": "(239) 498-6900",
    "lat": 26.3302,
    "lng": -81.8159,
    "priceText": "$$ (Facebook page)",
@@ -850,7 +850,15 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Tue",
+     "text": "Taco Tuesday Beef Taco $3",
+     "tags": [],
+     "src": "Venue website islandhousebarandgrill.com/bonita-springs-island-house-happy-hours-specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -864,8 +872,85 @@
     "facebookMirror": "https://www.foodyas.com/US/Bonita-Springs/1520977204828233/Island-House-Restaurant-%26-Bar---Bonita-Springs%2C-FL",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
-    "website": null
-   }
+    "website": "http://www.islandhousebarandgrill.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://islandhousebarandgrill.com/",
+        "quote": "Must-Try Sports Bar in Bonita Springs | Island House | × | We’re Taking Bookings for the Holidays! | The perf",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "11am",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-04",
+      "datedLastSeen": "2026-11-04",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://islandhousebarandgrill.com/",
+        "date": "2026-11-04",
+        "quote": "KARAOKE | Wednesday November 4th"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://islandhousebarandgrill.com/bonita-springs-island-house-events",
+        "date": "2026-11-04",
+        "quote": "KARAOKE | Wednesday November 4th"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://islandhousebarandgrill.com/",
+        "date": "2026-11-01",
+        "quote": "KARAOKE EVERY WEDNESDAY 5:30 - 8:30"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "for the best Karaoke in town",
+      "url": "https://islandhousebarandgrill.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "for the best Karaoke in town | 05:30 PM - 08:30 PM",
+      "url": "https://islandhousebarandgrill.com/bonita-springs-island-house-events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "KARAOKE",
+      "url": "https://islandhousebarandgrill.com/bonita-springs-island-house-events"
+     }
+    ]
+   },
+   "phoneSource": "Venue website islandhousebarandgrill.com, checked 2026-11-02"
   },
   {
    "id": "fl-kim-chi-grill",
@@ -959,7 +1044,7 @@
    "address": "24851 S Tamiami Trl, Bonita Springs",
    "state": "FL",
    "zip": "34134",
-   "phone": null,
+   "phone": "(239) 495-3800",
    "lat": 26.3786,
    "lng": -81.8071,
    "priceText": "$$ (Facebook page)",
@@ -1048,7 +1133,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Bonita-Springs/120657477972394/Lansdowne-Street-Pub",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.lansdowne-street.com/"
    },
    "trivia": {
     "nights": [],
@@ -1062,7 +1147,44 @@
       "url": "https://lansdowne-street.com/bonita-springs-lansdowne-street-happy-hour-specials"
      }
     ]
-   }
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Sports fans"
+    ],
+    "summary": "A locals-and-regulars spot; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://lansdowne-street.com/",
+        "quote": "The fish was bigger than the plate. Both were served piping hot. There are two doors. Locals come in through the front - locals come in.. | Review by - Yelp | Bret T: | Our family wa",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://lansdowne-street.com/",
+        "quote": "y was visiting the area and staying at a nearby resort hotel. We were looking for a local sports bar/grill that would have comfort food and the NCAA basketball games on the TV. We LOVED this",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website lansdowne-street.com, checked 2026-11-02"
   },
   {
    "id": "fl-lovers-key-resort",
@@ -2362,7 +2484,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hours: 3PM – 6PM",
+     "tags": [],
+     "src": "Venue website zorbasgrille.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -2399,7 +2530,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Bonita-Springs/358496307547213/Zorba%27s-Mediterranean-Grille-%26-Bar",
     "fbPostsSeen": 4,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://www.ZorbasGrille.com/"
    }
   }
  ],

@@ -318,7 +318,25 @@
     "facebookMirror": "https://www.foodyas.com/US/Philadelphia/121454047891500/Evil-Genius-Beer-Company",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-26",
-    "website": null
+    "website": "http://www.evilgeniusbeer.com/"
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Live Band Karaoke | 8:00 PM - | 11:00 PM",
+      "url": "https://evilgeniusbeer.com/calendar/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Philly’s ultimate karaoke experience",
+      "url": "https://evilgeniusbeer.com/calendar/"
+     }
+    ]
    }
   },
   {
@@ -926,7 +944,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Philadelphia/29131433140/Johnny-Brenda%27s",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-30",
-    "website": null
+    "website": "http://www.johnnybrendas.com/"
    },
    "trivia": {
     "nights": [],
@@ -938,6 +956,50 @@
       "date": "2026-11-01",
       "quote": "7:00PM – TRIVIA | 9:00PM – SCREENING | 5:30 PM – Doors",
       "url": "https://johnnybrendas.com/event/reel-clueless-halloween-edition/johnny-brendas/philadelphia-pennsylvania/"
+     }
+    ]
+   },
+   "dj": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "posted on 2 different Fris",
+      "lastSeen": "2027-02-12",
+      "datedLastSeen": "2027-02-12",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://johnnybrendas.com/events/",
+        "date": "2027-02-12",
+        "quote": "Fri, Feb 12 | R5 Productions Presents | Gripper | MOPAR STARS, JOSEPHINE NETWORK, SHAMPOO, >> MOPAR STARS, JOSEPHINE NETWORK, SHAMPOO, DJ CITY BABY"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://johnnybrendas.com/",
+        "date": "2026-11-06",
+        "quote": "Johnny Brenda’s | BUY TICKETS | Nov 6 | >> DJ Baby Berlin Presents"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://johnnybrendas.com/",
+        "date": "2026-11-06",
+        "quote": "DJ Baby Berlin Presents | Fri, Nov 06"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ Baby Berlin Presents",
+      "url": "https://johnnybrendas.com/event/a-black-celebration-phillys-favorite-depeche-mode-dance-party-19/johnny-brendas/philadelphia-pennsylvania/"
      }
     ]
    }
@@ -1230,7 +1292,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Philadelphia/233615996493875/Mamajuana-Cafe-Philly",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.mamajuanacafephilly.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.mamajuanacafephilly.com/",
+        "quote": "rafted Drinks | , featuring bold Latin flavors and refreshing cocktails—all in a vibrant, upscale setting. Whether you're meeting friends after work or starting your evening early, Mamaju",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1551,7 +1635,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Philadelphia/1461865147368678/Sancho-Pistola%27s",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-09-29",
-    "website": null
+    "website": "http://www.sanchopistolas.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.sanchopistolas.com/",
+        "quote": "elphia, PA | Best tacos, cold beer, and late night flavor. | Sancho Pistola's is a lively neighborhood spot serving modern Mexican comfort food, brunch plates, beer flights, and easygoing late-nigh",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2102,7 +2208,8 @@
       "url": "https://bourbonandbranchphilly.com/event/quizzo-every-tuesday-at-bourbon-branch/2026-11-03/"
      }
     ]
-   }
+   },
+   "menu": "https://bourbonandbranchphilly.com/menus/"
   },
   {
    "id": "pa-wood-street-pizza-philadelphia",
@@ -2127,7 +2234,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/2795233692 opening_hours tag (map data 2026-10-31; last checked on the map 2026-07-07) (checked 2026-11-01)",
    "county": "Philadelphia",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.woodstreetphilly.com/menu/"
   },
   {
    "id": "pa-urban-village-brewing-company-philadelphia",
@@ -2218,7 +2326,8 @@
     "hints": [],
     "conflicts": [],
     "oneoffs": []
-   }
+   },
+   "menu": "https://www.urbanvillagebrewing.com/menu"
   },
   {
    "id": "pa-human-robot-philadelphia",
@@ -2264,7 +2373,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour M-F 4-6pm",
+     "tags": [],
+     "src": "Venue website bar1010.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -2289,7 +2407,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Thu",
+     "text": "Happy Hour 4pm-6pm Monday to Thursday in the Philly Taproom",
+     "tags": [],
+     "src": "Venue website otherhalfbrewing.com/event/clone-philly-happy-hour-2026-11-02",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -2297,7 +2424,126 @@
    ],
    "source": "hours from OpenStreetMap node/7383548306 opening_hours tag (map data 2026-11-01; last checked on the map 2026-02-28) (checked 2026-11-02); late hours confirmed by venue website https://otherhalfbrewing.com/location/philadelphia/: \" – 10pm | Wednesday | 4pm – 10pm | Thursday | 4pm – 10pm | Friday | 12pm – 11pm | Saturda\" (checked 2026-11-02)",
    "county": "Philadelphia",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://otherhalfbrewing.com/location/philadelphia/",
+        "quote": "ladelphia’s Fishtown is the perfect place to enjoy one of our fresh draft beers while you watch the game on one of our TVs or play yard games in our large outdoor beer garden. In addition to bee",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "trivia": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "posted on 3 different Weds",
+      "lastSeen": "2026-11-18",
+      "datedLastSeen": "2026-11-18",
+      "postsSeen": 3,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://otherhalfbrewing.com/events/",
+        "date": "2026-11-18",
+        "quote": "Buffalo / Trivia / Western New York | Nov 18 / | Buffalo | Buffalo >> Buffalo Trivia"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://otherhalfbrewing.com/events/",
+        "date": "2026-11-18",
+        "quote": "Canandaigua / Trivia / Western New York | Nov 18 / | Canandaigua | Canandaigua >> Canandaigua Trivia"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://otherhalfbrewing.com/events/",
+        "date": "2026-11-18",
+        "quote": "Philadelphia / Trivia | Nov 18 / | Philadelphia | Philly >> Philly Trivia"
+       }
+      ],
+      "confidence": "high"
+     },
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "posted on 3 different Thus",
+      "lastSeen": "2026-11-19",
+      "datedLastSeen": "2026-11-19",
+      "postsSeen": 3,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://otherhalfbrewing.com/events/",
+        "date": "2026-11-19",
+        "quote": "NYC / Trivia | Nov 19 / | Centre Street | Centre Street >> Centre Street Trivia"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://otherhalfbrewing.com/events/",
+        "date": "2026-11-12",
+        "quote": "NYC / Trivia | Nov 12 / | Centre Street | Centre Street >> Centre Street Trivia"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://otherhalfbrewing.com/events/",
+        "date": "2026-11-05",
+        "quote": "BLMF / Trivia | Nov 5 / | Bloomfield | Bloomfield >> Bloomfield Trivia"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Philadelphia / Trivia",
+      "url": "https://otherhalfbrewing.com/location/philadelphia/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Buffalo / Trivia / Western New York",
+      "url": "https://otherhalfbrewing.com/events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Canandaigua / Trivia / Western New York",
+      "url": "https://otherhalfbrewing.com/events/"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-10",
+      "quote": "BLMF / Off Topic | Nov 10 / | Bloomfield | >> Bingo Night",
+      "url": "https://otherhalfbrewing.com/events/"
+     }
+    ]
+   }
   },
   {
    "id": "pa-triple-bottom-brewing-philadelphia",
@@ -2316,15 +2562,58 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
+   "happyHours": [
+    {
+     "days": "Wed-Fri,Sun",
+     "text": "Happy Hour Wednesdays - Fridays and Sundays, 3 pm - 6 pm",
+     "tags": [],
+     "src": "Venue website triplebottombrewing.com/about-us",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "Come join us on March 20 for great beer — and we'll donate $1 of every pint sold to the Philadelphia Bail Fund to provide critical support to women facing incarceration",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website triplebottombrewing.com/events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "And if you BYOBG (Bring your own board game) you'll get $1 off your first beer",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website triplebottombrewing.com/events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
    ],
    "source": "hours from OpenStreetMap way/335078433 opening_hours tag (map data 2026-11-01; last checked on the map 2023-10-11) (checked 2026-11-02); late hours confirmed by venue website https://triplebottombrewing.com: \" | Crafted by people who care | Crafted by people who care | Taproom Hours | WEDNESDAY-FRIDAY | 4PM-10PM | SATURDA\" (checked 2026-11-02)",
    "county": "Philadelphia",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " From trivia night to drag shows, we have something for everyone",
+      "url": "https://triplebottombrewing.com/hours-and-locations"
+     }
+    ]
+   }
   },
   {
    "id": "pa-maple-star-philadelphia",

@@ -393,7 +393,17 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Wednesdays: 99 cent Wings",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website beefobradys.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -404,7 +414,29 @@
     "facebookMirror": "https://www.foodyas.com/US/New-Smyrna-Beach/107014795424728/Beef-%E2%80%98O%E2%80%99-Brady%E2%80%99s",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.beefobradys.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.beefobradys.com/",
+        "quote": "Beef ‘O’ Brady’s Family Sports Restaurant - a team, parent and kid friendly restaurant for the whole family | Skip to main content | Menus | Order Now | Beef's Rewar",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -624,7 +656,43 @@
     "facebookMirror": "https://www.foodyas.com/US/New-Smyrna-Beach/106472092751118/Cabbage-Patch---page-disabled",
     "fbPostsSeen": 1,
     "fbNewestPost": "2025-08-15",
-    "website": null
+    "website": "http://www.cabbagepatchbar.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Bikers"
+    ],
+    "summary": "A locals-and-regulars spot; popular with bikers / hosts bike nights.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://cabbagepatchbar.com/",
+        "quote": "ed into a vibrant community hub. Adorned with historic memorabilia, it is beloved by both locals and passing bikers for its cold drinks, hearty comfort food like burgers and homemade chi",
+        "self": true
+       }
+      ]
+     },
+     {
+      "label": "Bikers",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://cabbagepatchbar.com/",
+        "quote": "Sopotnick's Cabbage Patch | Daytona's Oldest Biker Bar | Skip to content | Bar | Events | Calendar | Biketoberfest 2026 | Events – Biketober",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1119,7 +1187,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$5 Cantina Ritas, $2 off specialty margaritas, $1 off beers, $6 house wines, $5 wells",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website clancyscantina.com/blog/happy-hour",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
@@ -1130,7 +1209,29 @@
     "facebookMirror": "https://www.foodyas.com/US/New-Smyrna-Beach/84980459646/Clancy%27s-Cantina",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://www.clancyscantina.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.clancyscantina.com/",
+        "quote": "a second career with Lockheed — and his wife Marianne. | The restaurant quickly became a local favorite and in late 1984 moved to a larger space in the same shopping center. With larger seating",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -1503,7 +1604,7 @@
    "address": "103 N. Orange St, New Smyrna Beach",
    "state": "FL",
    "zip": "32168",
-   "phone": null,
+   "phone": "(386) 244-9239",
    "lat": 29.0244,
    "lng": -80.9255,
    "website": "http://www.decantwinefl.com/",
@@ -1527,8 +1628,9 @@
     "facebookMirror": "https://www.foodyas.com/US/New-Smyrna-Beach/1743569269288953/Decant-Wine-Bar-%26-Shop",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-30",
-    "website": null
-   }
+    "website": "http://www.decantwinefl.com/"
+   },
+   "phoneSource": "Venue website www.decantwinefl.com, checked 2026-11-02"
   },
   {
    "id": "fl-down-the-hatch",
@@ -1727,10 +1829,48 @@
    "website": "http://www.thehalfwall.com/",
    "hours": "Mon-Thu 11:30a-11p; Fri-Sat 11:30a-12a; Sun 11:30a-11p",
    "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Daily 11:30a-10p",
+   "kitchenNote": "Kitchen hours from Venue website thehalfwall.com/locations/deland.html, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "All day — Well vodka $4, mimosas $6, and a domestic beer bucket (5 Coors Light, Miller Lite, Budweiser & Bud Light) for $18",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website thehalfwall.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Mon",
+     "text": "Monday, 7 PM to close — mix & match 5 Modelo, Dos Equis, Corona & Corona Light for $20",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website thehalfwall.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Tue",
+     "text": "Tuesday, all day — every Half Wall Brewery draft is $4",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website thehalfwall.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Thu",
+     "text": "Thursday, 7 PM to close — buy one get one on house wine by the glass, well liquor & Half Wall Brewery drafts",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website thehalfwall.com",
+     "checked": "2026-11-01"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -1781,7 +1921,7 @@
     "facebookMirror": "https://www.foodyas.com/US/New-Smyrna-Beach/1446258785411395/Half-Wall-Restaurant-%26-Brewery",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-12",
-    "website": null
+    "website": "http://www.thehalfwall.com/"
    }
   },
   {
@@ -1802,7 +1942,24 @@
    "hoursNote": "Restaurantji (updated 2026-10-31) lists different hours: Mon-Thu 11a-8p; Fri-Sat 11a-9p; Sun 11a-8p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "Happy Hour 2pm - 4pm",
+     "tags": [],
+     "src": "Venue website hiddentreasurerestaurants.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    },
+    {
+     "days": "See venue",
+     "text": "Happy Hour 2:00pm- 4:00pm",
+     "tags": [],
+     "src": "Venue website hiddentreasurerestaurants.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated; Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -1839,7 +1996,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Ponce-Inlet/142880562480831/Hidden-Treasure-Rum-Bar-%26-Grill",
     "fbPostsSeen": 6,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://www.hiddentreasurerestaurants.com/"
    },
    "conflicts": [
     {
@@ -2452,7 +2609,7 @@
     "facebookMirror": "https://www.foodyas.com/US/New-Smyrna-Beach/363316626862474/LUMA-NSB",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.LUMANSB.com/"
    },
    "conflicts": [
     {
@@ -2468,7 +2625,42 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://lumansb.com/",
+        "quote": "ler Avenue is close to a miracle. | Dogs are not merely tolerated here, they are half the regulars. Water bowls, shade, and a | staff who learn their names before yours. | Our story | Plan",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "DJ nights",
+      "url": "https://lumansb.com/events/"
+     }
+    ]
+   }
   },
   {
    "id": "fl-mannysbeachsidensb",
@@ -2500,7 +2692,29 @@
     "facebookMirror": "https://www.foodyas.com/US/New-Smyrna-Beach/109723124810031/mannysbeachsidensb",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://Www.mannyspizzabeachside.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "LGBTQ-friendly"
+    ],
+    "summary": "LGBTQ-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://Www.mannyspizzabeachside.com/",
+        "quote": "ators to Watch | AAPI Artists | BIPOC Artists | Black Artists | Celebrate Women Artists | LGBTQIA Artists | Ukrainian Artists | Back To Menu | Adult Apparel | NAMBOBET88 | Shorts | New!",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -2932,7 +3146,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Sun-Thu",
+     "text": "Late Night Happy Hour Sun-Thu 8-10pm in the Treehouse Bar only",
+     "tags": [],
+     "src": "Venue website norwoods.com/specials",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -2997,7 +3220,7 @@
     "facebookMirror": "https://www.foodyas.com/US/New-Smyrna-Beach/197441013632791/Norwoods-Restaurant-and-Treehouse",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-27",
-    "website": null
+    "website": "http://www.norwoods.com/"
    }
   },
   {
@@ -4048,7 +4271,20 @@
     "facebookMirror": "https://www.foodyas.com/US/New-Smyrna-Beach/250602921645054/Tayton-O%27Brians",
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-31",
-    "website": null
+    "website": "http://www.taytonobrians.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-07",
+      "quote": "Full food menu served till 1am daily !!! | 09:00 PM - 02:00 AM | Saturday November 7th | Saturday night party !! >> Dj Hugh Story 9pm- 1 am | Indoor and outdoor bars open till 2am",
+      "url": "https://taytonobrians.com/new-smyrna-beach-tayton-o-brian-s-happy-hours-specials"
+     }
+    ]
    }
   },
   {
@@ -4799,7 +5035,16 @@
    "hoursNote": "Restaurantji (updated 2026-10-17) lists different hours: Mon-Thu 11a-8p; Fri-Sat 11a-9p; Sun 11a-8p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Mon-Fri",
+     "text": "HAPPY HOUR: MON–FRI: 2PM – 6PM",
+     "tags": [],
+     "src": "Venue website yellowdogeats.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -4813,7 +5058,7 @@
     "facebookMirror": "https://www.foodyas.com/US/New-Smyrna-Beach/1504949009734325/Yellow-Dog-Eats-Kitchen-%26-Bar",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-08",
-    "website": null
+    "website": "http://www.yellowdogeats.com/"
    },
    "conflicts": [
     {

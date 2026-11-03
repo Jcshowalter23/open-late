@@ -121,7 +121,7 @@
    "address": "6987 Collins Ave, Miami Beach",
    "state": "FL",
    "zip": "33141",
-   "phone": null,
+   "phone": "(786) 534-4144",
    "lat": 25.8559,
    "lng": -80.1202,
    "website": "http://bigjoesmashburgers.com/",
@@ -141,8 +141,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami-Beach/945592585304355/Big-Joe-Smash-Burgers",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-31",
-    "website": null
-   }
+    "website": "http://bigjoesmashburgers.com/"
+   },
+   "phoneSource": "Venue website bigjoesmashburgers.com, checked 2026-11-02"
   },
   {
    "id": "fl-bikini-bar",
@@ -175,7 +176,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami-Beach/1652238618418109/Bikini-BAR",
     "fbPostsSeen": 2,
     "fbNewestPost": "2026-10-29",
-    "website": null
+    "website": "http://bikinibar.net/"
    },
    "conflicts": [
     {
@@ -192,7 +193,29 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Dance / club crowd"
+    ],
+    "summary": "A dancing / club crowd late.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.bikinibar.net/",
+        "quote": "Best Bar & Night Club in North Miami Beach | Bikini Bar | Are you 21 or older? | Yes, enter | No, exit | Skip t",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "fl-blue-beer-garden",
@@ -259,7 +282,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami-Beach/425964384813079/Bob%27s-Your-Uncle-Miami",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://www.bobsyouruncle.rocks/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.bobsyouruncle.rocks/",
+        "quote": "--> | Bob's Your Uncle | Neighborhood Bar | United States | top of page | More | Use tab to navigate through the menu items. | LOCA",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -708,7 +753,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami-Beach/204241159923935/Hakkasan-Miami",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-21",
-    "website": null
+    "website": "http://www.hakkasan.com/miami/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://taogroup.com/venues/hakkasan-miami/",
+        "quote": "h Restaurants #1 | Weekend Tip Sheet, The List: Best Dim Sum #3 | 2011 | Gayot.com, ‘Best Romantic Restaurants’, 2011 Best of List | Gayot.com, ‘Dining Out for New Year’s Eve’, 2011 Best o",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -809,7 +876,8 @@
     "fbNewestPost": "2023-04-05",
     "website": "https://ironsushimiami.com/"
    },
-   "websiteSource": "OpenStreetMap node/6077802429 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap node/6077802429 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://ironsushimiami.com/menu"
   },
   {
    "id": "fl-izzys-cubi-thai",
@@ -1027,6 +1095,19 @@
     "fbPostsSeen": 10,
     "fbNewestPost": "2020-09-05",
     "website": "https://laperradadeedgarcollins.eat24hour.com/"
+   },
+   "dj": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "q\u000fUfu\u000f4:w9p_|\u0001Uҥ\u0006qn1=I3{[;yGB dJ\u001b}R~w",
+      "url": "https://menupages.com/info/about-us"
+     }
+    ]
    }
   },
   {
@@ -1530,7 +1611,7 @@
    "address": "5225 Collins Ave, Miami Beach",
    "state": "FL",
    "zip": "33140",
-   "phone": null,
+   "phone": "(305) 939-5264",
    "lat": 25.8299,
    "lng": -80.1212,
    "priceText": "$$$ (Facebook page)",
@@ -1552,7 +1633,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Miami-Beach/108820422277992/Silan",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-03-02",
-    "website": null
+    "website": "http://Www.silanmiami.com/"
    },
    "conflicts": [
     {
@@ -1573,7 +1654,30 @@
      "resolution": "Restaurantji hours used (newer)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://Www.silanmiami.com/",
+        "quote": "Silan - Kosher Fine Dining | Miami Beach | Menu | Shabbat | Events | The Alexander · Miami Beach | Passover | Contac",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website Www.silanmiami.com, checked 2026-11-02"
   },
   {
    "id": "fl-silverlake-bistro",
@@ -1650,7 +1754,18 @@
    "hoursNote": "Restaurantji (updated 2026-10-31) lists different hours: Mon-Thu 12:30p-11p; Fri-Sat 12:30p-12a; Sun 12:30p-11p. Call ahead to confirm.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "HAPPY HOUR: $7 bites, $4 bottles of beer, $7 wines by glass, $8 cocktails (select)",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website sumakrestaurant.com/hours-location",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],
@@ -1899,7 +2014,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/6077803909 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Miami-Dade",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.georgesmiamibeach.com/online-ordering"
   },
   {
    "id": "fl-katana-miami-beach",
@@ -2108,7 +2224,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/12483495027 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Miami-Dade",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://vincenzosnypizza.com/food-menu"
   },
   {
    "id": "fl-sawaddee-thai-sushi-restaurant-miami-beach",
@@ -2189,7 +2306,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/317013197 opening_hours tag (map data 2026-10-31) (checked 2026-11-01)",
    "county": "Miami-Dade",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://newcampoargentino.com/menu/"
   }
  ],
  "type": "neighborhood",

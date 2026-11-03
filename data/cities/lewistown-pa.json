@@ -37,7 +37,29 @@
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "http://angelosrestaurantandbar.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.angelosrestaurantandbar.com/",
+        "quote": "Saturday 3:00 pm to 9:00 pm. | Closed Sunday & Monday. | \"Meet Me At Angelo's…\" | Home of local favorite’s Angelo’s salads, bread sticks and home made pasta sauce. No reservations accepted; firs",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -371,7 +393,8 @@
     "fbNewestPost": "2026-10-27",
     "website": "https://heritage-family-restaurant.menu-world.com/"
    },
-   "websiteSource": "OpenStreetMap way/1510989760 website tag (map data 2026-10-31), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/1510989760 website tag (map data 2026-10-31), checked 2026-11-01",
+   "menu": "https://heritage-family-restaurant.menu-world.com/menu"
   },
   {
    "id": "hungry-run",
@@ -576,7 +599,42 @@
     "facebookMirror": "https://www.foodyas.com/US/Milroy/1640964069487836/Smoke-House-Griddle",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-24",
-    "website": null
+    "website": "http://Www.smokehouse-griddle.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Bikers"
+    ],
+    "summary": "Popular with bikers / hosts bike nights.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Bikers",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://Www.smokehouse-griddle.com/",
+        "quote": "Restaurant and Bar in Milroy! | Authentic Texas Style Barbecue Restaurant and Full Bar | Bikers and Truckers, Welcome! | Order tickets, below. | 15 Commerce Drive Milroy, PA 17063 • P",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "From high-energy live music and laugh-out-loud comedy nights to karaoke showdowns, pool tournaments, and holiday bashes, our events bring the community together for great food, great drinks, and even ",
+      "url": "https://Www.smokehouse-griddle.com/"
+     }
+    ]
    }
   },
   {
@@ -830,7 +888,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/1033092232 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://downtownoip.com/: \"rections | Find us on | Facebook page | Instagram page | Google page | Hours | Fri | : | 10:00 AM - 9:30 PM | Sun, Mo\" (checked 2026-11-02)",
    "county": "Mifflin",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://downtownoip.com/",
+        "quote": "ing | Slide 1 content | Slide 2 content | Slide 3 content | previous slide | next slide | Family Friendly, Community Proud | Our Menu | Your Event, Our Space | book now | a private party | Cateri",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "counties": [

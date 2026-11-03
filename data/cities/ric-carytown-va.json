@@ -930,7 +930,8 @@
     "fbNewestPost": null,
     "website": "https://www.latitudeseafoodco.com"
    },
-   "websiteSource": "OpenStreetMap way/757517129 website tag (map data 2026-11-01), checked 2026-11-01"
+   "websiteSource": "OpenStreetMap way/757517129 website tag (map data 2026-11-01), checked 2026-11-01",
+   "menu": "https://www.latitudeseafoodco.com/food-menu"
   },
   {
    "id": "va-lolitas",
@@ -1962,7 +1963,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/3075639920 opening_hours tag (map data 2026-11-01; last checked on the map 2025-05-03) (checked 2026-11-01)",
    "county": "Richmond City",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.phillysteakgyros.com/menu-1"
   },
   {
    "id": "va-home-sweet-home-richmond",
@@ -1987,7 +1989,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/3075639922 opening_hours tag (map data 2026-11-01; last checked on the map 2025-05-03) (checked 2026-11-01)",
    "county": "Richmond City",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://hshrva.com/menus/"
   },
   {
    "id": "va-franks-richmond",
@@ -2006,7 +2009,16 @@
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "Daily",
+     "text": "Happy hour 4-6pM daily",
+     "tags": [],
+     "src": "Venue website franksrva.com",
+     "checked": "2026-11-01",
+     "flag": "Prices not listed"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [],

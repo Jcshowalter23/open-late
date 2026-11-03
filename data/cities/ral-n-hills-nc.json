@@ -1887,7 +1887,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/10969508476 opening_hours tag (map data 2026-10-31; last checked on the map 2025-07-11) (checked 2026-11-01)",
    "county": "Wake",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://thekpot.com/menu"
   },
   {
    "id": "nc-firebirds-wood-fired-grill-raleigh",
@@ -1912,7 +1913,29 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/1936235401 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://firebirdsrestaurants.com/raleigh: \"ter North Hills Avenue | Raleigh, NC 27609 | Hours | Mon – Thurs: 11:00 AM-10:00 PM | Fri: 11:00 AM-11:00 PM | Sat: 10\" (checked 2026-11-02)",
    "county": "Wake",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://firebirdsrestaurants.com/raleigh",
+        "quote": "AR | ® | or on the patio for drink specials and bar bites. We offer top-notch service and upscale dining at a modest price. Reserve your table with us today. | Virtual Tour | Restaurant I",
+        "self": true
+       }
+      ]
+     }
+    ]
+   }
   }
  ],
  "type": "neighborhood",

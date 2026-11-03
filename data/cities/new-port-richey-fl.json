@@ -83,7 +83,7 @@
     "facebookMirror": "https://www.foodyas.com/US/New-Port-Richey/184353355485744/A.R.-French-Pizzeria-%26-Tavern",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://www.ARFrenchpizzeria.com/"
    },
    "conflicts": [
     {
@@ -102,6 +102,52 @@
     }
    ],
    "trivia": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.ARFrenchpizzeria.com/",
+        "date": "2026-11-01",
+        "quote": " With weekly events like trivia and karaoke and live music on the weekends, there's something for everyone to discover"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.ARFrenchpizzeria.com/",
+        "date": "2026-11-01",
+        "quote": " With weekly events like trivia and karaoke and live music on the weekends, there's something for everyone to discover"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "karaoke": {
     "nights": [
      {
       "day": "Fri",
@@ -791,7 +837,18 @@
    "kitchen": "Fri 11a-11p",
    "kitchenNote": "Kitchen hours from Dented Keg Ale Works Facebook post Oct 23, 2026 (via foodyas); start time taken from listed opening hours.",
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "$1 off anything on draft",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website dentedkegaleworks.com",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene",
@@ -806,7 +863,7 @@
     "facebookMirror": "https://www.foodyas.com/US/New-Port-Richey/498007293954895/Dented-Keg-Ale-Works",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://dentedkegaleworks.com/"
    },
    "trivia": {
     "nights": [
@@ -836,7 +893,27 @@
     "oneoffs": []
    },
    "bingo": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.dentedkegaleworks.com/about/",
+        "date": "2026-11-01",
+        "quote": " Trivia on Wednesdays, bingo on Thursdays,"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -849,6 +926,45 @@
      {
       "date": "2026-11-01",
       "quote": "Bingo, prizes, and cold beer every Thursday night | Every Thursday | 7:30pm",
+      "url": "https://www.dentedkegaleworks.com/"
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Fri",
+      "cadence": "monthly",
+      "start": "8-11pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.dentedkegaleworks.com/",
+        "date": "2026-11-01",
+        "quote": "Grab the mic and unleash your inner rock star at Karaoke Night with KJ Joe Mega | 2nd & 4th Fridays of each month | 2nd & 4th Fridays of each month | 8-11pm"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.dentedkegaleworks.com/",
+        "date": "2026-11-01",
+        "quote": " Whether you're a seasoned performer or a first-time singer, Karaoke Night is all about great music, great beer and great fun | 2nd & 4th Fridays of each month | 2nd & 4th Fridays of each month | 8-11pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Karaoke",
       "url": "https://www.dentedkegaleworks.com/"
      }
     ]
@@ -1033,8 +1149,8 @@
    "website": "http://Fitzgeraldstavern.com/",
    "hours": "Mon-Tue 11a-12a; Wed-Sat 11a-2a; Sun 11a-12a",
    "hoursNote": "Restaurantji (updated 2026-10-12) lists different hours: Mon-Wed 11a-12:01a; Thu-Sat 11a-2a; Sun 11a-12:01a. Call ahead to confirm.",
-   "kitchen": null,
-   "kitchenNote": null,
+   "kitchen": "Daily 11a-10p",
+   "kitchenNote": "Kitchen hours from Venue website Fitzgeraldstavern.com, checked 2026-11-01; start time taken from listed opening hours.",
    "happyHours": [],
    "specials": [],
    "crowd": null,
@@ -1119,7 +1235,7 @@
     "facebookMirror": "https://www.foodyas.com/US/New-Port-Richey/1460852807463105/Fitzgerald%27s-Irish-Tavern",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-06-24",
-    "website": null
+    "website": "http://Fitzgeraldstavern.com/"
    },
    "conflicts": [
     {
@@ -2164,7 +2280,7 @@
    "address": "5781 Nebraska Ave, New Port Richey",
    "state": "FL",
    "zip": "34652",
-   "phone": null,
+   "phone": "(727) 261-6748",
    "lat": 28.2495,
    "lng": -82.7188,
    "website": "http://steamworksnpr.com/",
@@ -2186,8 +2302,9 @@
     "facebookMirror": "https://www.foodyas.com/US/New-Port-Richey/120491721038786/SteamWorks-Pub-NPR",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-30",
-    "website": null
-   }
+    "website": "http://steamworksnpr.com/"
+   },
+   "phoneSource": "Venue website www.steamworksnpr.com, checked 2026-11-02"
   },
   {
    "id": "fl-sticky-nickys",
@@ -2389,7 +2506,18 @@
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
-   "specials": [],
+   "specials": [
+    {
+     "days": "See venue",
+     "text": "50% off cocktails and $1 off all drafts for ladies",
+     "tags": [
+      "beer"
+     ],
+     "src": "Venue website emcoastbrewing.com/monthly-events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    }
+   ],
    "crowd": null,
    "vibes": [
     "Bar scene"
@@ -2402,7 +2530,7 @@
     "facebookMirror": "https://www.foodyas.com/US/New-Port-Richey/412596181935340/The-Plant-Shop-at-ECBC",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-03-05",
-    "website": null
+    "website": "http://Emcoastbrewing.com/"
    },
    "bingo": {
     "nights": [
@@ -2836,7 +2964,7 @@
    "address": "6317 Adams St, New Port Richey",
    "state": "FL",
    "zip": "34652",
-   "phone": null,
+   "phone": "(727) 232-6360",
    "lat": 28.2505,
    "lng": -82.7184,
    "priceText": "$$ (Facebook page)",
@@ -2872,8 +3000,31 @@
     "facebookMirror": "https://www.foodyas.com/US/New-Port-Richey/741046012424155/Vino-%26-Vibes",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-10-24",
-    "website": null
-   }
+    "website": "http://sipvinoandvibes.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.sipvinoandvibes.com/",
+        "quote": "om passion and pride. Come for a quick glass after work, a full spread with friends, or a date night that turns into “one more\". | MENUS | Hours: | Tuesday - Wednesday: 5PM - 10PM | Thursday",
+        "self": true
+       }
+      ]
+     }
+    ]
+   },
+   "phoneSource": "Venue website www.sipvinoandvibes.com, checked 2026-11-02"
   },
   {
    "id": "fl-winghouse-npr",

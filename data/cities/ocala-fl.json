@@ -222,7 +222,7 @@
    "address": "20 S Magnolia Ave, Ocala",
    "state": "FL",
    "zip": "34471",
-   "phone": null,
+   "phone": "(352) 247-2420",
    "lat": 29.1865,
    "lng": -82.1371,
    "priceText": "$$ (Facebook page)",
@@ -301,7 +301,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Ocala/967947623067456/18-South-Restaurant-and-Saloon",
     "fbPostsSeen": 10,
     "fbNewestPost": "2026-10-25",
-    "website": null
+    "website": "http://18southocala.com/"
    },
    "trivia": {
     "nights": [],
@@ -315,7 +315,8 @@
       "url": "https://www.18southocala.com/events-calendar.html"
      }
     ]
-   }
+   },
+   "phoneSource": "Venue website www.18southocala.com, checked 2026-11-02"
   },
   {
    "id": "fl-88-store-and-pub",
@@ -758,7 +759,7 @@
    "lng": -82.0001,
    "priceText": "$ (Facebook page)",
    "priceLevel": "$",
-   "website": "http://www.bigfellaseatery.com/",
+   "website": null,
    "hours": "Daily 10a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -776,7 +777,8 @@
     "fbPostsSeen": 5,
     "fbNewestPost": "2026-09-23",
     "website": null
-   }
+   },
+   "websiteSource": "removed 2026-11-02: domain now for sale"
   },
   {
    "id": "fl-big-hammock-brewery-and-bites",
@@ -1046,7 +1048,7 @@
    "lng": -81.9689,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": "https://www.campoazulkitchen.com/",
+   "website": null,
    "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1064,7 +1066,8 @@
     "fbPostsSeen": 7,
     "fbNewestPost": "2026-10-22",
     "website": null
-   }
+   },
+   "websiteSource": "removed 2026-11-02: domain now for sale"
   },
   {
    "id": "fl-cantina-tex-mex-and-tequila-ocala",
@@ -1678,7 +1681,7 @@
    "address": "110 SW Broadway St, Ocala",
    "state": "FL",
    "zip": "34471",
-   "phone": null,
+   "phone": "(352) 579-2222",
    "lat": 29.1861,
    "lng": -82.138,
    "priceText": "$$ (Facebook page)",
@@ -1687,7 +1690,7 @@
    "hours": "Mon-Thu 11a-10p; Fri-Sun 11a-11p",
    "hoursNote": null,
    "kitchen": null,
-   "kitchenNote": null,
+   "kitchenNote": "Kitchen open until 10 pm per Venue website DistrictBK.com, checked 2026-11-01; days not stated.",
    "happyHours": [],
    "specials": [
     {
@@ -1715,8 +1718,9 @@
     "facebookMirror": "https://www.foodyas.com/US/Ocala/101592245638473/District-Bar-%26-Kitchen",
     "fbPostsSeen": 8,
     "fbNewestPost": "2026-10-23",
-    "website": null
-   }
+    "website": "http://DistrictBK.com/"
+   },
+   "phoneSource": "Venue website DistrictBK.com, checked 2026-11-02"
   },
   {
    "id": "fl-doing-dinner",
@@ -4957,7 +4961,29 @@
     "facebookMirror": "https://www.foodyas.com/US/Ocala/588514608150183/Sayulita-Taqueria",
     "fbPostsSeen": 11,
     "fbNewestPost": "2025-05-05",
-    "website": null
+    "website": "http://saytaco.com/"
+   },
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://www.saytaco.com/",
+        "quote": "dventurers, and food lovers alike. | This lively community is famous for its warm-hearted locals and laid-back atmosphere. Bringing fresh energy to a beautiful brick building near Ocala’",
+        "self": true
+       }
+      ]
+     }
+    ]
    }
   },
   {
@@ -5840,7 +5866,43 @@
    "hoursNote": "Hours differ by source: Facebook page lists Mon 11a-8p; Tue-Thu 11a-12a; Fri-Sat 11a-1a; Sun 11a-10p (no posts since May 2026); Restaurantji (updated 2026-10-18) used as newer. Call ahead.",
    "kitchen": null,
    "kitchenNote": null,
-   "happyHours": [],
+   "happyHours": [
+    {
+     "days": "See venue",
+     "text": "That’s why we’ve crafted specials to suit every taste — think half-price wings, cold beer, and happy hour that stretches beyond the usual",
+     "tags": [
+      "wings",
+      "beer"
+     ],
+     "src": "Venue website theblacksheeponbroadwayocala.com/events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "See venue",
+     "text": "Weeknights offer happy hour deals, half-price wings, and discounted drinks — the perfect excuse to unwind after work",
+     "tags": [
+      "wings"
+     ],
+     "src": "Venue website theblacksheeponbroadwayocala.com/events",
+     "checked": "2026-11-01",
+     "flag": "Days not stated"
+    },
+    {
+     "days": "Mon-Fri",
+     "text": "We host happy hour Monday through Friday, with a buy-two, get-one-free special",
+     "tags": [],
+     "src": "Venue website theblacksheeponbroadwayocala.com",
+     "checked": "2026-11-01"
+    },
+    {
+     "days": "Mon",
+     "text": "Enjoy our all-day happy hour, plus Martini Monday: grab any entrée and enjoy a martini for just $6",
+     "tags": [],
+     "src": "Venue website theblacksheeponbroadwayocala.com/daily-specials",
+     "checked": "2026-11-01"
+    }
+   ],
    "specials": [],
    "crowd": null,
    "vibes": [
@@ -5854,7 +5916,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Ocala/491156518360471/The-Black-Sheep-on-Broadway",
     "fbPostsSeen": 9,
     "fbNewestPost": "2026-03-25",
-    "website": null
+    "website": "http://theblacksheeponbroadwayocala.com/"
    },
    "conflicts": [
     {
@@ -6243,7 +6305,7 @@
    "lng": -82.138,
    "priceText": "$$ (Facebook page)",
    "priceLevel": "$$",
-   "website": "https://thekeepdowntown.com/",
+   "website": null,
    "hours": "Mon closed; Tue 5p-10p; Wed-Thu 5p-9p; Fri-Sat 5p-12a; Sun closed",
    "hoursNote": null,
    "kitchen": null,
@@ -6297,7 +6359,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
-   }
+   },
+   "websiteSource": "removed 2026-11-02: domain now for sale"
   },
   {
    "id": "fl-the-mellow-dog-68",
@@ -6769,7 +6832,7 @@
     "facebookMirror": "https://www.foodyas.com/US/Ocala/107012211555824/Yellow-Pony-Pub-%26-Garden",
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": null
+    "website": "https://yellowponyocala.com/"
    },
    "conflicts": [
     {
@@ -6801,6 +6864,28 @@
       "date": "2026-11-06",
       "quote": "Bingo Night | Fri, November 6",
       "url": "https://worldequestriancenter.com/ocala-fl/events/"
+     }
+    ]
+   },
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "venue",
+        "src": "venue's website",
+        "url": "https://worldequestriancenter.com/ocala-fl/dine/yellow-pony-ocala/",
+        "quote": "talian Kitchen & Pizzeria | Miss Tilly's Lollipops | Private Dining | From casual fare to fine dining, enjoy it all on our property. | Purchase Gift Card | Order Online | Spa | Spa | Spa Serv",
+        "self": true
+       }
+      ]
      }
     ]
    }
