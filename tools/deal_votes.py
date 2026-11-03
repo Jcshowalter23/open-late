@@ -25,33 +25,45 @@ PAT = re.compile(r"^/?deal-vote/([^/]+)/([^/]+)/([hs])(\d+)-?([^/]*)/(up|down)$"
 def api(path, params, token):
     url = f"{SITE}/api/v0{path}?{urllib.parse.urlencode(params)}"
     req = urllib.request.Request(url, headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"})
+    where = f"{path} (start={params.get('start')}, end={params.get('end')}, excluding {len(str(params.get('exclude_paths') or '').split(',')) if params.get('exclude_paths') else 0} paths)"
     for attempt in range(5):
         try:
             with urllib.request.urlopen(req, timeout=30) as r:
                 return json.load(r)
         except urllib.error.HTTPError as e:
-            if e.code == 429:
-                time.sleep(1 + attempt); continue
             body = e.read().decode("utf-8", "replace")[:300]
+            # 429 = rate limit; 404/5xx have been seen transiently from GoatCounter, so retry those too
+            if e.code == 429 or (e.code in (404, 500, 502, 503, 504) and attempt < 3):
+                time.sleep(1 + attempt); continue
             if e.code == 401: sys.exit("GoatCounter said 401: the GOATCOUNTER_TOKEN is missing or wrong.")
             if e.code == 403: sys.exit("GoatCounter said 403: the API key needs the \"Read statistics\" permission.")
-            sys.exit(f"GoatCounter error {e.code}: {body}")
+            if e.code == 404: sys.exit(f"GoatCounter error 404 on {where}: {body}\nCheck GOATCOUNTER_SITE (now {SITE}).")
+            sys.exit(f"GoatCounter error {e.code} on {where}: {body}")
+        except urllib.error.URLError as e:
+            if attempt < 3: time.sleep(1 + attempt); continue
+            sys.exit(f"Could not reach GoatCounter ({e.reason}) on {where}.")
     sys.exit("GoatCounter kept rate-limiting; try again in a minute.")
 
 
 def fetch_vote_hits(token, start, end):
-    """All event paths starting with deal-vote/, with visitor counts, paging with exclude_paths."""
-    seen, out = [], {}
+    """All event paths containing deal-vote/, with visitor counts.
+
+    /stats/hits has no offset: it returns at most 100 paths (the API maximum) plus "more",
+    and the next page is fetched by excluding the path_ids already seen."""
+    seen, out = set(), {}
     while True:
         params = {"start": start, "end": end, "limit": 100}
-        if seen: params["exclude_paths"] = ",".join(map(str, seen))
+        if seen: params["exclude_paths"] = ",".join(str(i) for i in sorted(seen))
         d = api("/stats/hits", params, token)
         hits = d.get("hits") or []
+        new = 0
         for h in hits:
-            seen.append(h["path_id"])
+            pid = h.get("path_id")
+            if pid is None or pid in seen: continue
+            seen.add(pid); new += 1
             if "deal-vote/" in h.get("path", ""):
                 out[h["path"]] = out.get(h["path"], 0) + int(h.get("count") or 0)
-        if not d.get("more") or not hits: break
+        if not d.get("more") or not new: break
         time.sleep(0.3)  # rate limit is 4 requests/second
     return out
 
