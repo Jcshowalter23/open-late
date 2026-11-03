@@ -30,7 +30,7 @@ _ix = json.load(open("data/index.json"))
 if sum(c["places"] for c in _ix["counties"]) != total_county: err.append("data/index.json place total doesn't match the source data")
 sw = open("sw.js").read()
 for f in json.loads("[" + re.search(r"SHELL = \[(.*?)\]", sw).group(1) + "]"):
-    if f != "./" and not os.path.exists(f): err.append(f"sw.js SHELL missing {f}")
+    if f != "./" and not os.path.exists(f.split("?")[0]): err.append(f"sw.js SHELL missing {f}")
 m = json.load(open("manifest.webmanifest"))
 for i in m["icons"]:
     if not os.path.exists(i["src"]): err.append(f"manifest icon missing {i['src']}"); continue
@@ -39,7 +39,7 @@ for i in m["icons"]:
         if f"{w}x{h}" != i["sizes"]: err.append(f"{i['src']} is {w}x{h}, manifest says {i['sizes']}")
 html = open("index.html").read()
 for ref in re.findall(r'(?:href|src)="([^"#:]+)"', html):
-    if ref != "./" and not os.path.exists(ref): err.append(f"index.html references missing {ref}")
+    if ref != "./" and not os.path.exists(ref.split("?")[0]): err.append(f"index.html references missing {ref}")
 js = open("app.js").read()
 for id_ in set(re.findall(r'\$\("([A-Za-z]+)"\)', js)):
     if f'id="{id_}"' not in html: err.append(f'app.js uses #{id_} not in index.html')

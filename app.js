@@ -374,7 +374,7 @@
     [...$("day").options].forEach((o) => { o.textContent = o.textContent.replace(/^(Deals|Nights):/, pfx + ":"); });
     const scopeN = town ? rows.filter((p) => p.area === town).length : pool.length;
     const feat = [gdOn && "game day", odOn && "outdoor seating"].filter(Boolean).join(" + ");
-    $("count").textContent = `${list.length} of ${scopeN} places · ${feat ? feat + " · " : ""}${what} for ${day === now.d ? "today" : day === ALL ? "all days" : DAY_LONG[day]}${dist ? " · nearest first" : ""}${allLoad ? ` · loading counties ${allLoad.done} of ${allLoad.total}…` : ""}`;
+    $("count").textContent = `${list.length} of ${scopeN} places · ${feat ? feat : ""}${feat && what === "deals" && !onlyDeals ? "" : `${feat ? " · " : ""}${what} for ${day === now.d ? "today" : day === ALL ? "all days" : DAY_LONG[day]}`}${dist ? " · nearest first" : ""}${allLoad ? ` · loading counties ${allLoad.done} of ${allLoad.total}…` : ""}`;
     $("count").classList.toggle("loading", !!allLoad);
     const nLk = tonight ? list.filter((p) => tonightInfo(p).kitchen > 0).length : 0;
     $("tonightNote").hidden = !tonight || !list.length;
