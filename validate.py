@@ -23,6 +23,10 @@ for c in idx["counties"]:
         n += sum(1 for r in rcache[aid] if r.get("county") == c["name"])
     if n != c.get("places"): err.append(f"county {c['id']} says {c.get('places')} places but lists {n}")
     total_county += n
+_cnt = {(aid, c['name']) for c in idx['counties'] for aid in c['areas']}
+for a in live:
+    for r in rcache.get(a['id']) or json.load(open(a['file']))['restaurants']:
+        if (a['id'], r.get('county')) not in _cnt: err.append(f"{a['id']}: {r.get('id')} has county {r.get('county')!r}, which no county lists for this area (place would be missing from the count)")
 sys.path.insert(0, "tools"); import build_data
 _ch, _st, _out = build_data.build(write=False)
 if _ch or _st: err.append(f"data/county or data/index.json is stale ({len(_ch)} differ, {len(_st)} extra): run python3 tools/build_data.py")
