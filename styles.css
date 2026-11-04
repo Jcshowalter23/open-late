@@ -192,7 +192,7 @@ dialog#formDlg::backdrop,dialog#tnDlg::backdrop{background:rgba(10,12,18,.55)}
 .ff{display:flex;flex-direction:column;gap:4px;font-size:.8rem;color:var(--ink3);border:0;margin:0;padding:0;min-width:0}
 .ff[hidden]{display:none}
 .ff legend{padding:0;margin-bottom:4px}
-.ff input,.ff textarea{font:inherit;font-size:16px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:8px 10px;width:100%}
+.ff input,.ff select,.ff textarea{font:inherit;font-size:16px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:8px 10px;width:100%}
 .ff textarea{resize:vertical;min-height:90px}
 .fchecks{display:flex;flex-wrap:wrap;gap:6px}
 .fchecks label{display:inline-flex;align-items:center;gap:6px;font-size:.88rem;color:var(--ink);background:var(--mut);border-radius:999px;padding:5px 12px;min-height:34px;cursor:pointer}
