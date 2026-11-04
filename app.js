@@ -258,6 +258,10 @@
   }
   const checkedText = (d) => d ? `Checked ${MONTHS[d.getMonth()]} ${d.getDate()}${d.getFullYear() !== new Date().getFullYear() ? `, ${d.getFullYear()}` : ""}` : "";
   const openLines = new Set(); // deal / karaoke / DJ lines tapped open to full text ("<card key>|<line>"), kept through refreshes
+  // Sources icon: per-row source text moves into one ⓘ list by the share icon. Trial on listed cards; set SRC_ICON_ALL = true for every card.
+  const SRC_ICON_ALL = false, SRC_ICON_KEYS = new Set(["lancaster-pa|tellus360"]);
+  const srcIconOn = (p) => SRC_ICON_ALL || SRC_ICON_KEYS.has(pkey(p));
+  const openSrcs = new Set(); // cards whose sources list is open
   const openCards = new Set(); // which card has its details expanded (one at a time), so the 30-second refresh keeps it open
   function status(p) {
     const now = nowOf(p);
@@ -407,7 +411,7 @@
     const d3 = day === ALL ? "All days" : DAYS[day], dayWord = day === now.d ? "Today" : day === ALL ? "All days" : DAY_LONG[day];
     const html = list.slice(prev, shown).map((p) => {
       const r = p.r, st = status(p), dd = deals(p, day), all = [...dd.hh, ...dd.sp], pn = nowOf(p);
-      const ck = pkey(p), fav = favs.has(ck), mi = here ? miles(p) : null;
+      const ck = pkey(p), fav = favs.has(ck), mi = here ? miles(p) : null, si = srcIconOn(p), sl = [];
       let kline = "";
       if (p.k) { const ks = stateAt(p.k, pn.d, pn.m); kline = ks.open ? `<span class="kitchen k-open">Kitchen until ${fmt(ks.close)}</span>` : `<span class="kitchen">Kitchen closed</span>`; }
       // one compact deal line: the top deal (matching the active deal chips first), plus "+N more" (the rest are in Details)
@@ -438,7 +442,7 @@
       const odLine = r.od ? `<div class="otype" title="Outdoor seating${r.od.s ? ` (${esc(r.od.s)})` : ""}"><span aria-hidden="true">☀️</span> ${esc(r.od.t.join(" · "))}</div>` : "";
       const srcLinks = (list) => list.map((v) => v.u ? `<a href="${esc(v.u)}" target="_blank" rel="noopener">${esc(v.s)}</a>` : esc(v.s)).join(", ");
       const ctLine = r.ct && r.ct.l && r.ct.l.length ? `<div class="ctype" title="${esc(r.ct.s)}"><span aria-hidden="true">👥</span> ${esc(r.ct.l.slice(0, 3).join(" · "))}</div>` : "";
-      const nightRows = (list, label) => list && list.length ? `<div class="row"><b>${label}:</b><ul class="wk">${list.map((n) => `<li>${esc(tf(n.w))}${n.t ? ` (${esc(n.t)})` : ""}${n.n ? ` <span class="flag" title="${esc(n.n)}">⚠</span>` : ""} <span class="srcs">— ${n.u ? `<a href="${esc(n.u)}" target="_blank" rel="noopener">${esc(n.s || "source")}</a>` : esc(n.s || "")}${n.seen ? `, seen ${esc(shortDate(n.seen))}` : ""}</span></li>`).join("")}</ul></div>` : "";
+      const nightRows = (list, label) => list && list.length ? `<div class="row"><b>${label}:</b><ul class="wk">${list.map((n) => `<li>${esc(tf(n.w))}${n.t ? ` (${esc(n.t)})` : ""}${n.n ? ` <span class="flag" title="${esc(n.n)}">⚠</span>` : ""} ${si ? (sl.push({ l: `${label} (${tf(n.w)})`, s: n.s || "source", u: n.u, d: n.seen }), "") : `<span class="srcs">— ${n.u ? `<a href="${esc(n.u)}" target="_blank" rel="noopener">${esc(n.s || "source")}</a>` : esc(n.s || "")}${n.seen ? `, seen ${esc(shortDate(n.seen))}` : ""}</span>`}</li>`).join("")}</ul></div>` : "";
       const meta = [r.cuisine, r.priceLevel].filter(Boolean).map(esc).join(" · ");
       const thumbs = (kind, i, x) => {
         const did = dealId(kind, i, x), v = votes[`${p.area}|${r.id}|${did}`];
@@ -452,7 +456,7 @@
       const tel = r.phone ? r.phone.replace(/[^0-9+]/g, "") : "";
       const maps = r.address ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${r.name}, ${r.address}, ${p.areaName}, ${p.loc}`)}` : "";
       const top2 = [town ? "" : esc(p.cn && !p.areaName.includes(p.cn) ? `${p.areaName}, ${p.cn}` : p.areaName), pn !== now && p.tz ? `<span class="tzn">${esc(tzAbbr(p.tz))}</span>` : "", mi !== null ? `<span class="mi">${fmtMi(mi)}</span>` : ""].filter(Boolean).join(" · ");
-      return `<article class="card${tonight && tonightInfo(p).kitchen > 0 ? " card-lk" : ""}" data-key="${esc(ck)}" tabindex="0" aria-expanded="${openCards.has(ck)}" aria-label="${esc(r.name)}, tap for details">
+      return `<article class="card${tonight && tonightInfo(p).kitchen > 0 ? " card-lk" : ""}${si ? " card-si" : ""}" data-key="${esc(ck)}" tabindex="0" aria-expanded="${openCards.has(ck)}" aria-label="${esc(r.name)}, tap for details">
         <button type="button" class="fav" data-act="fav" aria-pressed="${fav}" aria-label="${fav ? "Remove from" : "Add to"} favorites: ${esc(r.name)}">${fav ? "♥" : "♡"}</button>
         ${top2 ? `<div class="town">${top2}</div>` : ""}
         <h2>${esc(r.name)}${isFeat(r) ? ` <span class="badge b-feat">Featured</span>` : ""}${r.vf ? ` <span class="badge b-vf" title="The owner confirmed this listing on ${esc(shortDate(r.vf.d))}">✓ Verified by owner</span>` : ""}${meta ? ` <span class="meta">${meta}</span>` : ""}</h2>
@@ -471,12 +475,12 @@
             ${weeklyHH ? `<div class="row"><b>Happy hours all week:</b>${weeklyHH}</div>` : ""}
             ${weekly ? `<div class="row"><b>Specials all week:</b>${weekly}</div>` : ""}
             <div class="row"><b>Crowd:</b> ${r.crowd ? esc(r.crowd) : NL}</div>
-            ${r.ct ? `<div class="row"><b>Crowd type:</b> ${esc(r.ct.s)}${r.ct.l && r.ct.l.length && !r.ct.l.every((l) => normTxt(r.ct.s).includes(normTxt(l))) ? ` <span class="ctl">(${esc(r.ct.l.join(", "))})</span>` : ""}${r.ct.src && r.ct.src.length ? ` <span class="srcs">— from ${r.ct.u ? `<a href="${esc(r.ct.u)}" target="_blank" rel="noopener">${esc(r.ct.src.join(", "))}</a>` : esc(r.ct.src.join(", "))}</span>` : ""}</div>` : ""}
+            ${r.ct ? `<div class="row"><b>Crowd type:</b> ${esc(r.ct.s)}${r.ct.l && r.ct.l.length && !r.ct.l.every((l) => normTxt(r.ct.s).includes(normTxt(l))) ? ` <span class="ctl">(${esc(r.ct.l.join(", "))})</span>` : ""}${r.ct.src && r.ct.src.length && si ? (sl.push({ l: "Crowd type", s: r.ct.src.join(", "), u: r.ct.u }), "") : r.ct.src && r.ct.src.length ? ` <span class="srcs">— from ${r.ct.u ? `<a href="${esc(r.ct.u)}" target="_blank" rel="noopener">${esc(r.ct.src.join(", "))}</a>` : esc(r.ct.src.join(", "))}</span>` : ""}</div>` : ""}
             ${nightRows(r.kk, "Karaoke")}${nightRows(r.dj, "DJ nights")}${nightRows(r.tv, "Trivia")}${nightRows(r.bg, "Bingo")}
-            ${r.gd ? `<div class="row"><b>Game day:</b> ${esc(r.gd.l)}${gdDays ? ` (${esc(gdDays)})` : ""}${r.gd.tm && r.gd.tm.length && !r.gd.tm.every((t) => r.gd.l.includes(t)) ? ` <span class="ctl">(${esc(r.gd.tm.join(", "))})</span>` : ""}${r.gd.src && r.gd.src.length ? ` <span class="srcs">— ${srcLinks(r.gd.src)}${r.gd.c ? `, checked ${esc(shortDate(r.gd.c))}` : ""}</span>` : ""}</div>` : ""}
-            ${r.od ? `<div class="row"><b>Outdoor seating:</b> ${esc(r.od.t.join(", "))}${r.od.s ? ` <span class="srcs">— ${srcLinks([{ s: r.od.s, u: r.od.u }])}${r.od.c ? `, checked ${esc(shortDate(r.od.c))}` : ""}</span>` : ""}</div>` : ""}
+            ${r.gd ? `<div class="row"><b>Game day:</b> ${esc(r.gd.l)}${gdDays ? ` (${esc(gdDays)})` : ""}${r.gd.tm && r.gd.tm.length && !r.gd.tm.every((t) => r.gd.l.includes(t)) ? ` <span class="ctl">(${esc(r.gd.tm.join(", "))})</span>` : ""}${r.gd.src && r.gd.src.length && si ? (r.gd.src.forEach((v) => sl.push({ l: "Game day", s: v.s, u: v.u, d: r.gd.c })), "") : r.gd.src && r.gd.src.length ? ` <span class="srcs">— ${srcLinks(r.gd.src)}${r.gd.c ? `, checked ${esc(shortDate(r.gd.c))}` : ""}</span>` : ""}</div>` : ""}
+            ${r.od ? `<div class="row"><b>Outdoor seating:</b> ${esc(r.od.t.join(", "))}${r.od.s && si ? (sl.push({ l: "Outdoor seating", s: r.od.s, u: r.od.u, d: r.od.c }), "") : r.od.s ? ` <span class="srcs">— ${srcLinks([{ s: r.od.s, u: r.od.u }])}${r.od.c ? `, checked ${esc(shortDate(r.od.c))}` : ""}</span>` : ""}</div>` : ""}
             ${r.vf ? `<div class="row"><b>Verified by owner:</b> ${esc(shortDate(r.vf.d))}${r.vf.n ? ` — ${esc(r.vf.n)}` : ""}</div>` : ""}
-            <div class="src">Source: ${esc(String(r.source).replace(/\s*\(checked \d{4}-\d\d-\d\d\)/g, ""))} · checked ${esc(p.checkedLabel)}</div>
+            ${si ? (String(r.source || "").replace(/\s*\(checked \d{4}-\d\d-\d\d\)/g, "").split(/;\s*/).filter(Boolean).forEach((x) => sl.unshift({ l: "Hours & listing", s: x, dl: p.checkedLabel })), "") : `<div class="src">Source: ${esc(String(r.source).replace(/\s*\(checked \d{4}-\d\d-\d\d\)/g, ""))} · checked ${esc(p.checkedLabel)}</div>`}
             <div class="actions">
               <a class="act" href="${esc(dirs)}" target="_blank" rel="noopener" aria-label="Directions to ${esc(r.name)}" title="Directions">Directions</a>
               <a class="act" href="${esc(reviews)}" target="_blank" rel="noopener">Reviews</a>
@@ -490,6 +494,7 @@
               <a href="featured.html">Own this place? Get featured</a></div>
           </div>
         </details>
+        ${si ? `<div class="srclist" id="src-${esc(ck)}"${openSrcs.has(ck) ? "" : " hidden"}><b>Sources:</b><ul class="wk">${sl.map((x) => `<li><b>${esc(x.l)}:</b> ${x.u ? `<a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.s)}</a>` : esc(x.s)}${x.d || x.dl ? ` <span class="srcs">· checked ${esc(x.dl || shortDate(x.d))}</span>` : ""}</li>`).join("")}</ul></div><button type="button" class="shr sri" data-act="sources" aria-label="Sources" title="Sources" aria-controls="src-${esc(ck)}" aria-expanded="${openSrcs.has(ck)}"></button>` : ""}
         <button type="button" class="shr" data-act="share" aria-label="Share ${esc(r.name)}" title="Share"></button>
       </article>`;
     }).join("");
@@ -1043,6 +1048,10 @@
         b.setAttribute("aria-label", `${f ? "Remove from" : "Add to"} favorites: ${p ? p.r.name : ""}`);
         if (on("favsOnly")) render();
       } else if (b.dataset.act === "share" && p) share(p);
+      else if (b.dataset.act === "sources") {
+        const box = card.querySelector(".srclist"), o = box.hidden;
+        box.hidden = !o; b.setAttribute("aria-expanded", String(o)); if (o) openSrcs.add(key); else openSrcs.delete(key);
+      }
       else if (b.dataset.act === "vote" && p) {
         const box = b.closest(".vote"), did = box.dataset.deal, dir = b.dataset.dir, vk = `${p.area}|${p.r.id}|${did}`;
         if (votes[vk]) return;
