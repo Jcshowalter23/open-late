@@ -66,3 +66,26 @@ Removed, 6+ locations (source):
 Also blocked, but no live listings were left: Rib City 10, Roots Natural Kitchen 23, Tazza Kitchen 6, Eggspectation (5 US plus 7 Canada), Carey Hilliard's 6.
 Kept, 5 or fewer: Quarterdeck 4; Treylor Park 3; Froggers 4; Tibby's 3; Lost Dog Cafe 4; Deep Lagoon 5; Mi Pueblo (NC) 4; Chaps Pit Beef 3; Rappahannock Oyster Bar 3; Lima's Chicken 4; Whiskey Wings 5; FINS 4; Thai Chilli Pepper 3; Pepper's Cocina 4; Sushi Runner 3; Agavero 4; Mick's All American Pub 5; Compadres (PA) 5; Pepito's (FL Panhandle) 3.
 Flagged (kept): Mazzy's (site says "6 Locations", but 5 are open and 1 is coming soon); Hook's Catch (5 open, Fort Lauderdale coming soon); Sam's St Johns Seafood / lovethatseafood.com (site behind Cloudflare, count not checked); Cinco de Mayo MD (only Westminster confirmed); Guapo's (still flagged).
+
+## v190 (Nov 4): chain sweep (3–4 listing groups), 69 listings removed + Sources ⓘ icon on every card
+App: `SRC_ICON_ALL = true` in app.js, approved by Jon. SRC_ICON_KEYS is unchanged.
+Removed, 6+ locations (source):
+- linksterstaproom.com — PaddyWagon Irish Pub 20+ / Linksters Tap Room 10, one group (paddywagonirishpub.com, linksterstaproom.com)
+- smashhouseburgers.com — Smash House: 8 (6 NY, 2 FL; smashhouseburgers.com)
+- agaveazulcocinamex.com — Agave Azul Cocina Mexicana: 6 (agaveazulcocinamex.com)
+- pappadeaux.com — Pappadeaux: 39 (CREHQ; ScrapeHero)
+- madmex.com — Mad Mex: 9 (madmex.com; TribLive)
+- micancunmx.com — Mi Cancun: about 13 (micancunmx.com)
+- dickslastresort.com — Dick's Last Resort: 12 (dickslastresort.com; Wikipedia)
+- locations.smallssliders.com — Smalls Sliders: 60+ (smallssliders.com locations)
+- lagranjarestaurants.com — La Granja: 50+ (lagranjarestaurants.com)
+- sardischicken.com — Sardi's: about 18 (sardischicken.com)
+- tacobamba.com — Taco Bamba: 16 (tacobamba.com)
+- codysamerican.com — Cody's Original Roadhouse: 8 (codysamerican.com)
+- iheartmacandcheese.com — I Heart Mac & Cheese: 21 per Cobroker, 6+ on its own locations page
+- crispjuicy.com — Crisp & Juicy: 6 (crispjuicy.com)
+- roamingroosterdc.com — Roaming Rooster: 6 (roamingroosterdc.com)
+- pupatella.com — Pupatella: 10 (pupatella.com)
+- alohapokeco.com — Aloha Poke Co.: 14–16 (alohapokeco.com)
+Kept, 5 or fewer: Montezuma 4; Dinosaur Bar-B-Que 5; Slutty Vegan 5; Rocking Crab 3; Flaming Crab 4; Kani House 5; Capital Ale House 5; Salt Life Food Shack 3; Kobe (kobejs.com, WV/MD/VA, a different brand from FL Kobé) 3; Fox Bros 3 (kiosk and stadium stand not counted); Doc Ford's 3; Houligan's 5; Xtreme Wings 3 (arena stand not counted).
+Flagged (kept): Florida Cracker group (flacracker.com): 10 concepts with different names, 7 of them "Florida Cracker ___". Unclear whether they're one brand.

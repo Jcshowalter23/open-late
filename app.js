@@ -259,7 +259,7 @@
   const checkedText = (d) => d ? `Checked ${MONTHS[d.getMonth()]} ${d.getDate()}${d.getFullYear() !== new Date().getFullYear() ? `, ${d.getFullYear()}` : ""}` : "";
   const openLines = new Set(); // deal / karaoke / DJ lines tapped open to full text ("<card key>|<line>"), kept through refreshes
   // Sources icon: per-row source text moves into one ⓘ list by the share icon. Trial on listed cards; set SRC_ICON_ALL = true for every card.
-  const SRC_ICON_ALL = false, SRC_ICON_KEYS = new Set(["lancaster-pa|tellus360"]);
+  const SRC_ICON_ALL = true, SRC_ICON_KEYS = new Set(["lancaster-pa|tellus360"]);
   const srcIconOn = (p) => SRC_ICON_ALL || SRC_ICON_KEYS.has(pkey(p));
   const openSrcs = new Set(); // cards whose sources list is open
   const openCards = new Set(); // which card has its details expanded (one at a time), so the 30-second refresh keeps it open
