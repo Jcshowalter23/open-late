@@ -679,20 +679,29 @@
     if ($("fHoney").value) { say("Thanks! Sent.", "ok"); setTimeout(closeForm, 1500); return; } // bots fill the hidden field; drop silently
     if (!CFG.formEndpoint) { say("The form isn't set up yet.", "err", formMailto(o)); return; }
     $("fSend").disabled = true; say("Sending…");
-    try {
-      const res = await fetch(CFG.formEndpoint, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify(o) });
-      const j = await res.json().catch(() => ({}));
-      if (res.ok && String(j.success) === "true") {
-        say("Thanks! Sent. We check every change against a source before it goes live.", "ok");
-        track(`form/${formCtx.mode === "add" ? "add" : rep ? "report" : $("fOwn").checked ? "claim" : "suggest"}`, "Form sent");
-        setTimeout(closeForm, 2600);
-      } else {
-        $("fSend").disabled = false;
-        const m = String(j.message || "").trim();
-        if (/activat/i.test(m)) say("The form isn't switched on yet: the site owner has to click the activation email from FormSubmit first. Your message wasn't sent.", "err", formMailto(o));
-        else say(`Couldn't send: ${m || (res.ok ? "the form service didn't confirm it" : "the form service answered " + res.status)}.`, "err", formMailto(o));
-      }
-    } catch (err) { $("fSend").disabled = false; say(navigator.onLine === false ? "Couldn't send: you're offline." : `Couldn't reach the form service (${(err && err.message) || "network error"}).`, "err", formMailto(o)); }
+    const post = async (url, body) => { // ~8 s cap per service
+      const ac = typeof AbortController === "function" ? new AbortController() : null, t = ac && setTimeout(() => ac.abort(), 8000);
+      try { const res = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify(body), ...(ac ? { signal: ac.signal } : {}) }); return { res, j: await res.json().catch(() => ({})) }; }
+      finally { if (t) clearTimeout(t); }
+    };
+    const sent = () => { say("Thanks! Sent. We check every change against a source before it goes live.", "ok");
+      track(`form/${formCtx.mode === "add" ? "add" : rep ? "report" : $("fOwn").checked ? "claim" : "suggest"}`, "Form sent");
+      setTimeout(closeForm, 2600); };
+    let res = null, j = {}, err = null;
+    try { ({ res, j } = await post(CFG.formEndpoint, o)); if (res.ok && String(j.success) === "true") { sent(); return; } } catch (e) { err = e; }
+    // FormSubmit failed, timed out or didn't confirm: send the same fields to the Web3Forms backup
+    if (CFG.formBackupEndpoint && CFG.web3formsKey) {
+      try {
+        const { _template, _captcha, _subject, _replyto, ...fields } = o;
+        const b = await post(CFG.formBackupEndpoint, { access_key: CFG.web3formsKey, subject: `Open Late: ${type}`, from_name: "Open Late site", ...(email ? { replyto: email } : {}), ...fields });
+        if (b.res.ok && b.j.success === true) { sent(); return; }
+      } catch (e) { /* both failed: fall through to the mailto fallback */ }
+    }
+    $("fSend").disabled = false;
+    if (err || !res) { say(navigator.onLine === false ? "Couldn't send: you're offline." : `Couldn't reach the form service (${(err && err.message) || "network error"}).`, "err", formMailto(o)); return; }
+    const m = String(j.message || "").trim();
+    if (/activat/i.test(m)) say("The form isn't switched on yet: the site owner has to click the activation email from FormSubmit first. Your message wasn't sent.", "err", formMailto(o));
+    else say(`Couldn't send: ${m || (res.ok ? "the form service didn't confirm it" : "the form service answered " + res.status)}.`, "err", formMailto(o));
   }
 
   function placeUrl(p) {

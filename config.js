@@ -5,6 +5,9 @@ window.OPENLATE_CONFIG = {
   // After activating, FormSubmit also emails a random alias string: you can swap it in here to hide the address
   // (e.g. "https://formsubmit.co/ajax/abc123randomstring").
   formEndpoint: "https://formsubmit.co/ajax/jcshowalter23@gmail.com",
+  // Backup when FormSubmit fails or times out (~8 s): Web3Forms. The access key is public by design.
+  formBackupEndpoint: "https://api.web3forms.com/submit",
+  web3formsKey: "52ad76a9-0976-4ca3-bddd-3aba657cc87a",
   // Privacy-friendly, cookie-free visitor counts via GoatCounter. Empty = analytics off.
   // Set to your GoatCounter count URL, e.g. "https://openlate.goatcounter.com/count".
   goatcounter: "https://openlateapp.goatcounter.com/count",
