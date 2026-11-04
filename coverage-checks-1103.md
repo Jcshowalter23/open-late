@@ -41,3 +41,28 @@ Bru's Room, all 5 of our listings confirmed permanently closed:
 (Pompano Beach, Eddie Hauck's independent Bru's Room, is still open. It uses a different site and wasn't in this group.)
 5 or fewer (kept): Padrino's 5 (Jon ruling); Pisco y Nazca 5; Harry's Seafood 5 (hookedonharrys.com/locations); La Tolteca MD 5 (latoltecamd.com/locations); McCray's Tavern 5 (mccraystavern.com/locations); Nifty Fifty's 3 (niftyfiftys.com/locations); Casavana 3 plus FLL airport; Salsas (Jacksonville) 2; Grillsmith 5; Capital Tacos 1.
 Flagged: Guapo's Cocina & Bar. Search shows 4 (2 DC, 2 MD). Its site is behind Cloudflare, so the count isn't confirmed, and "Guapo's Rio" on our list may be a 5th. Kept.
+
+## v189 (Nov 3–4): chain sweep of the 4-listing groups, 73 listings removed
+Removed, 6+ locations (source):
+- bigshotbobs.com — Big Shot Bob's House of Wings: about 21 (bigshotbobs.com)
+- rrealtacos.com — Rreal Tacos: 12 (rrealtacos.com/locations)
+- beefobradys.com — Beef 'O' Brady's: about 130 (fscfranchiseco.com)
+- piolausa.com — Piola: international franchise in 8 countries (Hoodline, Aug 2026; piola.it)
+- o-kusushi.com — O-Ku: 12 (o-kusushi.com/locations)
+- kavaculture.com — Kava Culture: 25 (bestkavabar.com, Jul 2026; Franchise Times)
+- voodoobrewery.com — Voodoo Brewing Co.: 27+ (1851 Franchise; Free Press, Jun 2026)
+- tullysgoodtimes.com — Tully's Good Times: 14 (tullysgoodtimes.com/locations)
+- burgermonger.com — Burger Monger: 7 (burgermonger.com/locations; Naples Press)
+- julesthincrust.com — Jules Thin Crust: 7 (julesthincrust.com)
+- bigapplepizza.com — Big Apple Pizza & Pasta (FL): 9 (bigapplepizza.com)
+- fellinisatlanta.com — Fellini's Pizza: 7 (fellinisatlanta.com; Wikipedia)
+- threedollarcafe.com — Three Dollar Cafe: 11 (threedollarcafe.com/locations)
+- lasvegascubancuisine.com — Las Vegas Cuban Cuisine: 9 restaurants, MIA airport not counted (lasvegascubancuisine.com/locations)
+- bodegataqueria.com — Bodega Taqueria y Tequila: 6+ (bodegataqueria.com/locations)
+- greciangyro.com — Grecian Gyro (Atlanta): 6 (greciangyro.com/location)
+- latonalteca.com — La Tonalteca: 7 (latonalteca.com)
+- umibuffet.com — UMI Buffet: 30+ (umibuffet.com/locations)
+- elpotrorestaurant.com — El Potro (FL/GA): 6 (elpotrorestaurant.com)
+Also blocked, but no live listings were left: Rib City 10, Roots Natural Kitchen 23, Tazza Kitchen 6, Eggspectation (5 US plus 7 Canada), Carey Hilliard's 6.
+Kept, 5 or fewer: Quarterdeck 4; Treylor Park 3; Froggers 4; Tibby's 3; Lost Dog Cafe 4; Deep Lagoon 5; Mi Pueblo (NC) 4; Chaps Pit Beef 3; Rappahannock Oyster Bar 3; Lima's Chicken 4; Whiskey Wings 5; FINS 4; Thai Chilli Pepper 3; Pepper's Cocina 4; Sushi Runner 3; Agavero 4; Mick's All American Pub 5; Compadres (PA) 5; Pepito's (FL Panhandle) 3.
+Flagged (kept): Mazzy's (site says "6 Locations", but 5 are open and 1 is coming soon); Hook's Catch (5 open, Fort Lauderdale coming soon); Sam's St Johns Seafood / lovethatseafood.com (site behind Cloudflare, count not checked); Cinco de Mayo MD (only Westminster confirmed); Guapo's (still flagged).
