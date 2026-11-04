@@ -138,7 +138,7 @@
   }
 
   const on = (id) => $(id).getAttribute("aria-pressed") === "true";
-  const CHIPS = ["tonight", "openNow", "kitchenNow", "onlyDeals", "wingDeals", "beerDeals", "hhDeals", "kkNights", "djNights", "tvNights", "bgNights", "gdSpots", "odSeats", "favsOnly"];
+  const CHIPS = ["tonight", "openNow", "kitchenNow", "onlyDeals", "wingDeals", "beerDeals", "hhDeals", "kkNights", "djNights", "lmNights", "tvNights", "bgNights", "gdSpots", "odSeats", "favsOnly"];
   // favorites live in localStorage as "area|placeId"
   let favs = new Set();
   try { favs = new Set(JSON.parse(localStorage.getItem("openlate.favs") || "[]")); } catch (e) { favs = new Set(); }
@@ -298,7 +298,7 @@
     const cuisine = $("cuisine").value, price = $("price").value, vibe = $("vibe").value;
     const openNow = on("openNow"), kitchenNow = on("kitchenNow"), onlyDeals = on("onlyDeals");
     const wingDeals = on("wingDeals"), beerDeals = on("beerDeals"), hhDeals = on("hhDeals"), favsOnly = on("favsOnly");
-    const kkOn = on("kkNights"), djOn = on("djNights"), tvOn = on("tvNights"), bgOn = on("bgNights"); // karaoke / DJ nights on the picked day (medium/high-confidence, non-stale only; see tools/build_data.py)
+    const kkOn = on("kkNights"), djOn = on("djNights"), lmOn = on("lmNights"), tvOn = on("tvNights"), bgOn = on("bgNights"); // karaoke / DJ nights on the picked day (medium/high-confidence, non-stale only; see tools/build_data.py)
     const gdOn = on("gdSpots"), odOn = on("odSeats"); // game day spots / outdoor seating: any day (see tools/build_data.py gameday() / outdoor())
     const day = Number($("day").value), sort = $("sort").value, tonight = on("tonight");
     const nearOn = sort === "near" && here && !town && bbNear(county, NEAR_MI); // nearby Counties mix in only when you are in or near the picked one
@@ -325,6 +325,7 @@
       }
       if (kkOn && !nightsOn(r.kk, day).length) return false;
       if (djOn && !nightsOn(r.dj, day).length) return false;
+      if (lmOn && !nightsOn(r.lm, day).length) return false;
       if (tvOn && !nightsOn(r.tv, day).length) return false;
       if (bgOn && !nightsOn(r.bg, day).length) return false;
       if (gdOn && !r.gd) return false;
@@ -372,9 +373,9 @@
     const mf = [cuisine !== "All", price !== "All", vibe !== "All", sort !== "smart" && sort !== "near"].filter(Boolean).length;
     $("mfCount").textContent = mf ? `(${mf} on)` : "";
     const kinds = [wingDeals && "wing", beerDeals && "beer", hhDeals && "happy hour"].filter(Boolean).join(" + ");
-    const evKinds = [kkOn && "karaoke", djOn && "DJ", tvOn && "trivia", bgOn && "bingo"].filter(Boolean).join(" + ");
+    const evKinds = [kkOn && "karaoke", djOn && "DJ", lmOn && "live music", tvOn && "trivia", bgOn && "bingo"].filter(Boolean).join(" + ");
     const what = [kinds && kinds + " deals", evKinds && evKinds + " nights"].filter(Boolean).join(" + ") || "deals";
-    const pfx = (kkOn || djOn) && !(kinds || onlyDeals) ? "Nights" : "Deals";
+    const pfx = (kkOn || djOn || lmOn) && !(kinds || onlyDeals) ? "Nights" : "Deals";
     [...$("day").options].forEach((o) => { o.textContent = o.textContent.replace(/^(Deals|Nights):/, pfx + ":"); });
     const scopeN = town ? rows.filter((p) => p.area === town).length : pool.length;
     const feat = [gdOn && "game day", odOn && "outdoor seating"].filter(Boolean).join(" + ");
@@ -435,12 +436,13 @@
         const txt = ns.slice(0, 2).map((n) => tf(n.w)).join(" · ");
         return `<div class="dline eline"><span class="badge ${cls}">${pfx} ${label}</span>${dtx(label, esc(txt))}${ns.length > 2 ? `<button type="button" class="dmore" data-more="1">+${ns.length - 2} more</button>` : ""}</div>`;
       };
-      const elines = (kkOn || !djOn ? evLine(r.kk, "b-kk", "Karaoke", "🎤") + evLine(r.dj, "b-dj", "DJ", "🎧") : evLine(r.dj, "b-dj", "DJ", "🎧") + evLine(r.kk, "b-kk", "Karaoke", "🎤")) + evLine(r.tv, "b-tv", "Trivia", "🧠") + evLine(r.bg, "b-bg", "Bingo", "🎱");
+      const elines = (kkOn || !djOn ? evLine(r.kk, "b-kk", "Karaoke", "🎤") + evLine(r.dj, "b-dj", "DJ", "🎧") : evLine(r.dj, "b-dj", "DJ", "🎧") + evLine(r.kk, "b-kk", "Karaoke", "🎤")) + evLine(r.lm, "b-lm", "Live music", "🎸") + evLine(r.tv, "b-tv", "Trivia", "🧠") + evLine(r.bg, "b-bg", "Bingo", "🎱");
       // game day line, e.g. "🏈 Game day  Eagles watch party · Sun", "🏈 Game day  Bills backers bar"; outdoor line in the crowd-type style, e.g. "☀️ Patio · Rooftop · Fire pit"
       const gdDays = r.gd && r.gd.d && !/(?:sun|mon|tue|wed|thu|fri|sat)[a-z]* night football|sundays|saturdays|sunday ticket/i.test(r.gd.l) ? r.gd.d.map((v) => DAYS[v]).join(", ") : "";
       const gdLine = r.gd ? `<div class="dline eline"><span class="badge b-gd">🏈 Game day</span>${dtx("gd", esc(r.gd.l + (gdDays ? " · " + gdDays : "")))}</div>` : "";
       const odLine = r.od ? `<div class="otype" title="Outdoor seating${r.od.s ? ` (${esc(r.od.s)})` : ""}"><span aria-hidden="true">☀️</span> ${esc(r.od.t.join(" · "))}</div>` : "";
       const srcLinks = (list) => list.map((v) => v.u ? `<a href="${esc(v.u)}" target="_blank" rel="noopener">${esc(v.s)}</a>` : esc(v.s)).join(", ");
+      const cvLine = r.cv ? `<div class="ctype" title="Cover charge${r.cv.s ? ` (${esc(r.cv.s)})` : ""}"><span aria-hidden="true">🎟️</span> Cover ${esc(tf(r.cv.t))}${r.cv.n ? ` <span class="flag" title="${esc(r.cv.n)}">⚠</span>` : ""}</div>` : "";
       const ctLine = r.ct && r.ct.l && r.ct.l.length ? `<div class="ctype" title="${esc(r.ct.s)}"><span aria-hidden="true">👥</span> ${esc(r.ct.l.slice(0, 3).join(" · "))}</div>` : "";
       const nightRows = (list, label) => list && list.length ? `<div class="row"><b>${label}:</b><ul class="wk">${list.map((n) => `<li>${esc(tf(n.w))}${n.t ? ` (${esc(n.t)})` : ""}${n.n ? ` <span class="flag" title="${esc(n.n)}">⚠</span>` : ""} ${si ? (sl.push({ l: `${label} (${tf(n.w)})`, s: n.s || "source", u: n.u, d: n.seen }), "") : `<span class="srcs">— ${n.u ? `<a href="${esc(n.u)}" target="_blank" rel="noopener">${esc(n.s || "source")}</a>` : esc(n.s || "")}${n.seen ? `, seen ${esc(shortDate(n.seen))}` : ""}</span>`}</li>`).join("")}</ul></div>` : "";
       const meta = [r.cuisine, r.priceLevel].filter(Boolean).map(esc).join(" · ");
@@ -461,7 +463,7 @@
         ${top2 ? `<div class="town">${top2}</div>` : ""}
         <h2>${esc(r.name)}${isFeat(r) ? ` <span class="badge b-feat">Featured</span>` : ""}${r.vf ? ` <span class="badge b-vf" title="The owner confirmed this listing on ${esc(shortDate(r.vf.d))}">✓ Verified by owner</span>` : ""}${meta ? ` <span class="meta">${meta}</span>` : ""}</h2>
         <div class="status ${st.cls}"><span class="dot" aria-hidden="true"></span><span>${esc(st.text)}</span>${kline}${tonight ? (tonightInfo(p).kitchen > 0 ? `<span class="lk lk-t" title="Kitchen open past 11 PM tonight (per listed kitchen hours)">🍔 Food till ${fmt(tonightInfo(p).kitchen)}</span>` : "") : lateKitchen(p) ? `<span class="lk" title="Kitchen open past 11 PM today (per listed kitchen hours)">Late kitchen</span>` : ""}</div>
-        ${dline}${elines}${gdLine}${ctLine}${odLine}
+        ${dline}${elines}${gdLine}${ctLine}${odLine}${cvLine}
         ${p.lc ? `<div class="lchk">${esc(p.lc)}</div>` : ""}
         <details class="more-info" data-key="${esc(ck)}"${openCards.has(ck) ? " open" : ""}>
           <summary tabindex="-1" aria-hidden="true"></summary>
@@ -476,9 +478,10 @@
             ${weekly ? `<div class="row"><b>Specials all week:</b>${weekly}</div>` : ""}
             <div class="row"><b>Crowd:</b> ${r.crowd ? esc(r.crowd) : NL}</div>
             ${r.ct ? `<div class="row"><b>Crowd type:</b> ${esc(r.ct.s)}${r.ct.l && r.ct.l.length && !r.ct.l.every((l) => normTxt(r.ct.s).includes(normTxt(l))) ? ` <span class="ctl">(${esc(r.ct.l.join(", "))})</span>` : ""}${r.ct.src && r.ct.src.length && si ? (sl.push({ l: "Crowd type", s: r.ct.src.join(", "), u: r.ct.u }), "") : r.ct.src && r.ct.src.length ? ` <span class="srcs">— from ${r.ct.u ? `<a href="${esc(r.ct.u)}" target="_blank" rel="noopener">${esc(r.ct.src.join(", "))}</a>` : esc(r.ct.src.join(", "))}</span>` : ""}</div>` : ""}
-            ${nightRows(r.kk, "Karaoke")}${nightRows(r.dj, "DJ nights")}${nightRows(r.tv, "Trivia")}${nightRows(r.bg, "Bingo")}
+            ${nightRows(r.kk, "Karaoke")}${nightRows(r.dj, "DJ nights")}${nightRows(r.lm, "Live music")}${nightRows(r.tv, "Trivia")}${nightRows(r.bg, "Bingo")}
             ${r.gd ? `<div class="row"><b>Game day:</b> ${esc(r.gd.l)}${gdDays ? ` (${esc(gdDays)})` : ""}${r.gd.tm && r.gd.tm.length && !r.gd.tm.every((t) => r.gd.l.includes(t)) ? ` <span class="ctl">(${esc(r.gd.tm.join(", "))})</span>` : ""}${r.gd.src && r.gd.src.length && si ? (r.gd.src.forEach((v) => sl.push({ l: "Game day", s: v.s, u: v.u, d: r.gd.c })), "") : r.gd.src && r.gd.src.length ? ` <span class="srcs">— ${srcLinks(r.gd.src)}${r.gd.c ? `, checked ${esc(shortDate(r.gd.c))}` : ""}</span>` : ""}</div>` : ""}
             ${r.od ? `<div class="row"><b>Outdoor seating:</b> ${esc(r.od.t.join(", "))}${r.od.s && si ? (sl.push({ l: "Outdoor seating", s: r.od.s, u: r.od.u, d: r.od.c }), "") : r.od.s ? ` <span class="srcs">— ${srcLinks([{ s: r.od.s, u: r.od.u }])}${r.od.c ? `, checked ${esc(shortDate(r.od.c))}` : ""}</span>` : ""}</div>` : ""}
+            ${r.cv ? `<div class="row"><b>Cover charge:</b> ${esc(tf(r.cv.t))}${r.cv.n ? ` <span class="flag" title="${esc(r.cv.n)}">⚠</span>` : ""}${r.cv.s && si ? (sl.push({ l: "Cover charge", s: r.cv.s, u: r.cv.u, d: r.cv.d }), "") : r.cv.s ? ` <span class="srcs">— ${srcLinks([{ s: r.cv.s, u: r.cv.u }])}${r.cv.d ? `, seen ${esc(shortDate(r.cv.d))}` : ""}</span>` : ""}</div>` : ""}
             ${r.vf ? `<div class="row"><b>Verified by owner:</b> ${esc(shortDate(r.vf.d))}${r.vf.n ? ` — ${esc(r.vf.n)}` : ""}</div>` : ""}
             ${si ? (String(r.source || "").replace(/\s*\(checked \d{4}-\d\d-\d\d\)/g, "").split(/;\s*/).filter(Boolean).forEach((x) => sl.unshift({ l: "Hours & listing", s: x, dl: p.checkedLabel })), "") : `<div class="src">Source: ${esc(String(r.source).replace(/\s*\(checked \d{4}-\d\d-\d\d\)/g, ""))} · checked ${esc(p.checkedLabel)}</div>`}
             <div class="actions">

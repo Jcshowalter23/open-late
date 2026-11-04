@@ -123,6 +123,18 @@ def gameday(g):
     if g.get("checked"): x["c"] = g["checked"]
     return x
 
+def cover(c):
+    """source {text: "$5 Fri–Sat after 10 pm", sources: [{src, url, date, quote}], checked, conflict} -> {t, s, u, d, n}; only shown when a recent source confirms a cover"""
+    if not c or not c.get("text") or c.get("confidence", "high") not in OK_CONF: return None
+    src = (c.get("sources") or [{}])[0]
+    x = {"t": c["text"]}
+    if src.get("src"): x["s"] = src["src"]
+    if src.get("url"): x["u"] = src["url"]
+    d = src.get("date") or c.get("checked")
+    if d: x["d"] = d
+    if c.get("conflict"): x["n"] = c["conflict"]
+    return x
+
 def verified(v):
     """set only by tools/verify_place.py after Jon approves an owner claim: {date, by, note} -> {d, n}"""
     if not v or not v.get("date"): return None
@@ -157,6 +169,9 @@ def build(write=True):
                 tv, bg = nights(r.get("trivia"), BT_CHECKED), nights(r.get("bingo"), BT_CHECKED)  # bingo/trivia pass: venue websites read 2026-11-01
                 if tv: rr["tv"] = tv
                 if bg: rr["bg"] = bg
+                lm, cv = nights(r.get("livemusic"), (r.get("livemusic") or {}).get("checked")), cover(r.get("cover"))  # cover + live music pass (v196+, RESUME-cover.md)
+                if lm: rr["lm"] = lm
+                if cv: rr["cv"] = cv
                 od, gd, vf = outdoor(r.get("outdoor")), gameday(r.get("gameday")), verified(r.get("verified"))
                 if od: rr["od"] = od
                 if gd: rr["gd"] = gd
