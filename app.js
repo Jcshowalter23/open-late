@@ -1107,7 +1107,7 @@
     let tn = null; try { tn = sessionStorage.getItem("openlate.tonight"); } catch (e) { tn = null; }
     const auto = !navigator.webdriver && !/jsdom|HeadlessChrome/i.test(navigator.userAgent || "");
     await loadCounty(cid, aid, st0);
-    tnSetup(); if (sp.get("tn") && county && !county.all) await tnApply(county.id, sp.get("tn")); tnBanner().catch(() => {});
+    tnSetup(); if (sp.get("tn") && county && !county.all) await tnApply(county.id, sp.get("tn")); tnBanner().catch(() => {}); tnInvite();
     try { window.dispatchEvent(new Event("openlate:ready")); } catch (e) { /* analytics can wait for the fallback */ }
     if (!sp.get("place") && (tn === "on" || (tn === null && auto && (now.m >= 21 * 60 || now.m < 180)))) {
       $("tonight").setAttribute("aria-pressed", "true"); render();
@@ -1184,9 +1184,27 @@
     $("tnAdd").onchange = () => { const v = $("tnAdd").value; if (v) { s.counties = [...s.counties.filter((c) => [...document.querySelectorAll("input[name=tnc]")].some((i) => i.value === c && i.checked)), v]; draw(); } };
     $("tnKinds").innerHTML = TN_KINDS.map(([k, , l]) => `<label><input type="checkbox" name="tnk" value="${k}"${s.kinds.includes(k) ? " checked" : ""}> ${esc(l)}</label>`).join("");
     $("tnTime").value = s.time || "17:00"; $("tnMsg").textContent = "";
+    $("tnPerm").hidden = !tnDenied();
     $("tnDlg").showModal ? $("tnDlg").showModal() : $("tnDlg").setAttribute("open", "");
   }
+  // app only: src/native.js sets this when the phone said no to notifications
+  const tnDenied = () => { try { return localStorage.getItem("openlate.app.notifDenied") === "1"; } catch (e) { return false; } };
+  const TN_NO = "openlate.tonightInviteNo", TN_VISITS = "openlate.visits";
+  function tnVisit() { // counts one visit per browser session
+    try { if (!sessionStorage.getItem(TN_VISITS)) { sessionStorage.setItem(TN_VISITS, "1"); localStorage.setItem(TN_VISITS, String((+localStorage.getItem(TN_VISITS) || 0) + 1)); } } catch (e) { /* private mode */ }
+  }
+  function tnInvite() {
+    const el = $("tnInvite"); let show = false;
+    try { show = (+localStorage.getItem(TN_VISITS) || 0) >= 2 && !localStorage.getItem(TN_NO) && !tnGet() && county && !county.all; } catch (e) { /* ignore */ }
+    if (show) $("tnInviteText").textContent = `Get tonight's karaoke, trivia and deals for ${cLabel(county)}?`;
+    el.hidden = !show;
+  }
   function tnSetup() {
+    tnVisit();
+    $("tnBell").addEventListener("click", () => tnOpenDlg());
+    $("tnInviteOn").addEventListener("click", () => { $("tnInvite").hidden = true; tnOpenDlg(); });
+    $("tnInviteNo").addEventListener("click", () => { try { localStorage.setItem(TN_NO, "1"); } catch (e) { /* ignore */ } $("tnInvite").hidden = true; });
+    window.addEventListener("openlate:tonightDenied", () => tnOpenDlg());
     const close = () => { $("tnDlg").close ? $("tnDlg").close() : $("tnDlg").removeAttribute("open"); };
     $("tnOpen").addEventListener("click", (e) => { e.preventDefault(); tnOpenDlg(); });
     $("tnClose").addEventListener("click", close);
@@ -1197,7 +1215,7 @@
       if (!counties.length || !kinds.length) { $("tnMsg").textContent = "Pick at least one county and one thing to include."; return; }
       const time = /^\d\d:\d\d$/.test($("tnTime").value) ? $("tnTime").value : "17:00";
       try { localStorage.setItem(TN_KEY, JSON.stringify({ on: true, counties, kinds, time })); } catch (err) { /* private mode */ }
-      track("tonightAlerts/save", "Tonight alerts saved"); close(); tnBanner();
+      track("tonightAlerts/save", "Tonight alerts saved"); close(); tnBanner(); tnInvite();
       try { window.dispatchEvent(new Event("openlate:tonightAlerts")); } catch (err) { /* app bridge listens */ }
     });
     $("tnOff").addEventListener("click", () => {

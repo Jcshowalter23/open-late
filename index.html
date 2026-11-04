@@ -64,6 +64,9 @@
       <label class="sr" for="q">Search by name or city</label>
       <input id="q" type="search" placeholder="Search by name or city" autocomplete="off" enterkeyhint="search">
     </div>
+    <button type="button" class="iconbtn" id="tnBell" aria-label="Tonight alerts" title="Tonight alerts">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.5 1.5h-15z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M10 20.5a2 2 0 0 0 4 0" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+    </button>
     <button type="button" class="iconbtn" id="searchBtn" aria-label="Search" aria-expanded="false" aria-controls="searchwrap">
       <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
     </button>
@@ -126,6 +129,7 @@
     <p class="maplegend"><span><i class="lg lg-open"></i>Open</span><span><i class="lg lg-soon"></i>Closing within an hour</span><span><i class="lg lg-closed"></i>Closed / hours not listed</span><span id="mapMiss"></span></p>
   </div>
   <p class="notice" id="tnBanner" hidden></p>
+  <p class="notice" id="tnInvite" hidden><span id="tnInviteText"></span> <button type="button" class="btn" id="tnInviteOn">Turn on</button> <button type="button" class="btn ghost" id="tnInviteNo">Not now</button></p>
   <div class="grid" id="list"></div>
   <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
   <p class="morewrap"><button type="button" class="btn more" id="more" hidden>Show more</button></p>
@@ -167,6 +171,7 @@
       <div class="fchecks" id="tnKinds"></div>
     </fieldset>
     <label class="ff"><span>Notification time (app)</span><input id="tnTime" type="time" value="17:00" step="900"></label>
+    <p class="fsub" id="tnPerm" hidden>Notifications are off for Open Late on this phone. To get tonight's alert, open your phone's Settings → Notifications → Open Late (Android: Settings → Apps → Open Late → Notifications) and allow them, then tap Save again.</p>
     <p class="fsub" id="tnMsg" role="status"></p>
     <div class="fbtns"><button type="submit" class="btn" id="tnSave">Save</button><button type="button" class="btn ghost" id="tnOff">Turn off</button></div>
   </form>

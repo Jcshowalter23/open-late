@@ -286,3 +286,4 @@ dialog#formDlg::backdrop,dialog#tnDlg::backdrop{background:rgba(10,12,18,.55)}
 .social + .top{padding-top:8px;top:env(safe-area-inset-top)}
 .social::before{content:"";position:fixed;top:0;left:0;right:0;height:env(safe-area-inset-top);background:#14161f;z-index:11;pointer-events:none}
 #tnBanner{margin:0 0 12px}#tnBanner a{color:inherit;font-weight:600}
+#tnInvite{margin:0 0 12px}#tnInvite .btn{min-height:36px;padding:6px 14px;margin:6px 6px 0 0}#tnPerm{color:var(--amber)}
