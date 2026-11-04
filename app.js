@@ -73,8 +73,8 @@
   function pretty(s) {
     return s.replace(/(\d{1,2}(?::\d{2})?)([ap])(?=[-,;]|$)/g, "$1 $2m").replace(/-/g, "–").replace(/,/g, ", ").replace(/;/g, " ·").replace(/24h/g, "open 24 hours");
   }
-  function cityNow(tz) {
-    const parts = new Intl.DateTimeFormat("en-US", { timeZone: tz, weekday: "short", hour: "numeric", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date());
+  function cityNow(tz, at) {
+    const parts = new Intl.DateTimeFormat("en-US", { timeZone: tz, weekday: "short", hour: "numeric", minute: "2-digit", hourCycle: "h23" }).formatToParts(at || new Date());
     let wd = "Sun", h = 0, mi = 0;
     for (const p of parts) {
       if (p.type === "weekday") wd = p.value;
@@ -129,12 +129,40 @@
   // All counties can mix time zones (Florida's Panhandle is Central): each place's hours are read on its own clock
   let tzNows = new Map();
   const nowOf = (p) => { if (!p || !p.tz || !city || p.tz === city.timezone) return now; let n = tzNows.get(p.tz); if (!n) { n = cityNow(p.tz); tzNows.set(p.tz, n); } return n; };
+  // ---------- Pick a time: "Open at" chip. Value = an instant (epoch ms) in 30-minute steps until 4 am (tonight, then tomorrow night);
+  // each place's hours are read on its own clock at that instant with the same stateAt() as "Open now".
+  let atT = 0; // 0 = now
+  const fmtL = (m) => fmt(m).toLowerCase(); // "1:30 am"
+  const atOf = (p) => cityNow((p && p.tz) || city.timezone, new Date(atT));
+  const atWord = () => { const a = cityNow(city.timezone, new Date(atT)); return `${a.d === now.d ? "" : DAYS[a.d] + " "}${fmtL(a.m)}`; };
+  function fillAt() {
+    const sel = $("atTime"); if (!sel) return;
+    if (atT && atT < Date.now()) atT = 0;
+    const step = 30 * 60000, start = Math.ceil((Date.now() + 60000) / step) * step, out = [{ value: "0", label: "Open at: now" }];
+    let nights = 0;
+    for (let t = start; out.length < 80; t += step) {
+      const c = cityNow(city.timezone, new Date(t));
+      if (c.m > 240 && c.m < 660) { if (c.m === 270 && ++nights >= 2) break; continue; } // skip 4:30 am - 11 am; stop after the second 4 am
+      out.push({ value: String(t), label: `Open at: ${c.d === now.d ? "" : DAYS[c.d] + " "}${fmtL(c.m)}` });
+    }
+    opts(sel, out); sel.value = String(atT); if (sel.value !== String(atT)) { atT = 0; sel.value = "0"; }
+    $("atChip").classList.toggle("on", !!atT);
+  }
+  function atLine(p) {
+    const a = atOf(p), s = stateAt(p.w, a.d, a.m, p.is24);
+    const when = `At ${atWord()}`;
+    const open = s.open ? (p.is24 ? "open 24 hours" : `open till ${fmtL(s.close)}`) : s.known ? "closed" : "hours not listed";
+    let k = "kitchen hours unknown", kc = "";
+    if (p.k) { const ks = stateAt(p.k, a.d, a.m); if (ks.open) { k = `kitchen till ${fmtL(ks.close)}`; kc = " k-open"; } else if (ks.known) k = "kitchen closed"; }
+    return `<span class="kitchen${kc}" data-at="1">${esc(when)}: ${esc(open)} · ${esc(k)}</span>`;
+  }
   function tick() {
     const prevD = now.d;
     now = cityNow(city.timezone); tzNows = new Map();
     $("now").textContent = `${DAYS[now.d]} ${fmt(now.m)} ${tzAbbr(city.timezone)}`;
     $("now").title = `Now in ${city.name}: ${DAY_LONG[now.d]} ${fmt(now.m)} ${tzAbbr(city.timezone)}`;
     if (prevD !== now.d || !$("day").options.length) fillDay();
+    fillAt();
   }
 
   const on = (id) => $(id).getAttribute("aria-pressed") === "true";
@@ -278,10 +306,11 @@
     return { cls: "s-closed", text: next !== undefined ? `Closed · opens ${fmt(next)}` : "Closed now" };
   }
   function filtersActive() {
-    return CHIPS.some(on) || $("q").value.trim() !== "" || $("cuisine").value !== "All" || $("price").value !== "All" || $("vibe").value !== "All";
+    return CHIPS.some(on) || !!atT || !!tnAny || $("q").value.trim() !== "" || $("cuisine").value !== "All" || $("price").value !== "All" || $("vibe").value !== "All";
   }
   function clearFilters() {
     CHIPS.forEach((id) => $(id).setAttribute("aria-pressed", "false"));
+    atT = 0; fillAt(); tnAny = null;
     $("q").value = ""; $("cuisine").value = "All"; $("price").value = "All"; $("vibe").value = "All";
     setSearchOpen(false);
     render();
@@ -313,8 +342,10 @@
       if (vibe !== "All" && !p.vibes.includes(vibe)) return false;
       if (tonight && !tonightInfo(p)) return false;
       if (openNow && !stateAt(p.w, now.d, now.m, p.is24).open) return false;
-      if (kitchenNow && !(p.k && stateAt(p.k, now.d, now.m).open)) return false;
+      if (atT) { const a = atOf(p); if (!stateAt(p.w, a.d, a.m, p.is24).open) return false; if (kitchenNow && !(p.k && stateAt(p.k, a.d, a.m).open)) return false; }
+      else if (kitchenNow && !(p.k && stateAt(p.k, now.d, now.m).open)) return false;
       if (favsOnly && !favs.has(pkey(p))) return false;
+      if (tnAny) { const td = cityNow(p.tz); const tday = td.m < 240 ? (td.d + 6) % 7 : td.d; if (![...tnAny].some((k) => tnHas(p, k, tday))) return false; }
       // the Deals day only matters when a deal filter is on; it never hides places by itself
       if (onlyDeals || wingDeals || beerDeals || hhDeals) {
         const dd = deals(p, day), all = [...dd.hh, ...dd.sp];
@@ -393,6 +424,7 @@
       let why = active ? `No places in ${placeName} match these filters` : `No places listed in ${placeName} yet`;
       if (tonight && !q && !wingDeals && !beerDeals && !hhDeals && !kkOn && !djOn && !onlyDeals && !kitchenNow && !favsOnly && !openNow) why = `Nothing in ${placeName} is listed as open past 11 PM tonight`;
       if (openNow && !tonight && !q && !wingDeals && !beerDeals && !hhDeals && !kkOn && !djOn && !onlyDeals && !kitchenNow && !favsOnly) why = `Nothing in ${placeName} is open right now`;
+      if (atT && !tonight && !q && !wingDeals && !beerDeals && !hhDeals && !kkOn && !djOn && !onlyDeals && !kitchenNow && !favsOnly) why = `Nothing in ${placeName} is listed as open at ${atWord()}`;
       if (favsOnly && !favs.size) why = "No favorites yet";
       else if (favsOnly && extraLoading) why = "Loading your favorites from other counties…";
       $("emptyTitle").textContent = why + ".";
@@ -462,7 +494,7 @@
         <button type="button" class="fav" data-act="fav" aria-pressed="${fav}" aria-label="${fav ? "Remove from" : "Add to"} favorites: ${esc(r.name)}">${fav ? "♥" : "♡"}</button>
         ${top2 ? `<div class="town">${top2}</div>` : ""}
         <h2>${esc(r.name)}${isFeat(r) ? ` <span class="badge b-feat">Featured</span>` : ""}${r.vf ? ` <span class="badge b-vf" title="The owner confirmed this listing on ${esc(shortDate(r.vf.d))}">✓ Verified by owner</span>` : ""}${meta ? ` <span class="meta">${meta}</span>` : ""}</h2>
-        <div class="status ${st.cls}"><span class="dot" aria-hidden="true"></span><span>${esc(st.text)}</span>${kline}${tonight ? (tonightInfo(p).kitchen > 0 ? `<span class="lk lk-t" title="Kitchen open past 11 PM tonight (per listed kitchen hours)">🍔 Food till ${fmt(tonightInfo(p).kitchen)}</span>` : "") : lateKitchen(p) ? `<span class="lk" title="Kitchen open past 11 PM today (per listed kitchen hours)">Late kitchen</span>` : ""}</div>
+        <div class="status ${st.cls}"><span class="dot" aria-hidden="true"></span><span>${esc(st.text)}</span>${kline}${atT ? atLine(p) : ""}${tonight ? (tonightInfo(p).kitchen > 0 ? `<span class="lk lk-t" title="Kitchen open past 11 PM tonight (per listed kitchen hours)">🍔 Food till ${fmt(tonightInfo(p).kitchen)}</span>` : "") : lateKitchen(p) ? `<span class="lk" title="Kitchen open past 11 PM today (per listed kitchen hours)">Late kitchen</span>` : ""}</div>
         ${dline}${elines}${gdLine}${ctLine}${odLine}${cvLine}
         ${p.lc ? `<div class="lchk">${esc(p.lc)}</div>` : ""}
         <details class="more-info" data-key="${esc(ck)}"${openCards.has(ck) ? " open" : ""}>
@@ -493,6 +525,7 @@
             ${r.phone ? `<div class="row"><b>Phone:</b> <a href="tel:${esc(tel)}">${esc(r.phone)}</a></div>` : ""}
             <div class="links">${r.website ? `<a href="${esc(r.website)}" target="_blank" rel="noopener">Website</a>` : `<span class="row"><b>Website:</b> ${NL}</span>`}
               <a href="${esc(mailto(r.name, p.areaName))}" data-act="suggest">Suggest an update</a>
+              <a href="${esc(mailto(r.name, p.areaName))}" data-act="report">Report wrong hours</a>
               <a href="${esc(mailto(r.name, p.areaName))}" data-act="claim">Own it? Claim this listing</a>
               <a href="featured.html">Own this place? Get featured</a></div>
           </div>
@@ -593,16 +626,18 @@
     const townName = $("town").value && $("town").selectedOptions[0] ? $("town").selectedOptions[0].dataset.name : "";
     const where = p ? `${p.areaName}, ${cLabel(county)}` : county ? (townName ? `${townName}, ${cLabel(county)}` : `${cLabel(county)}`) : "";
     formCtx = { mode, key: p ? pkey(p) : "", url: p ? placeUrl(p) : location.href };
-    $("fTitle").textContent = mode === "claim" ? "Claim your listing" : mode === "add" ? "Add a place" : "Suggest an update";
+    $("fTitle").textContent = mode === "claim" ? "Claim your listing" : mode === "add" ? "Add a place" : mode === "report" ? "Report wrong hours" : "Suggest an update";
     $("fSub").textContent = mode === "claim" ? "Own or work at this place? Tell us who you are and what to fix. We'll email you to confirm, then keep your hours and specials current." : mode === "add" ? "Know a restaurant or bar we're missing? Send what you know. We check it against a source before it goes live." : "Tell us what's wrong or missing. We check every change against a source before it goes live.";
     $("fPlace").value = p ? p.r.name : "";
     $("fWhere").value = where;
     $("fAddrRow").hidden = mode !== "add";
-    $("fWhatSet").hidden = mode === "add";
+    $("fWhatSet").hidden = mode === "add" || mode === "report";
+    $("fRepSet").hidden = mode !== "report";
+    if (mode === "report") $("fSub").textContent = "Tell us what's off. We call or check a source before anything changes.";
     $("fOwn").checked = mode === "claim";
     $("fLink").value = p ? `${r0(p)}` : "";
     claimFields();
-    $("fDetailsLbl").textContent = mode === "add" ? "Hours, kitchen hours, specials, phone, website (whatever you know)" : mode === "claim" ? "What should we update? (hours, kitchen hours, happy hour, specials, phone)" : "Details";
+    $("fDetailsLbl").textContent = mode === "report" ? "Note (optional)" : mode === "add" ? "Hours, kitchen hours, specials, phone, website (whatever you know)" : mode === "claim" ? "What should we update? (hours, kitchen hours, happy hour, specials, phone)" : "Details";
     $("fMsg").textContent = ""; $("fMsg").className = "fmsg"; $("fSend").disabled = false;
     const d = $("formDlg");
     if (typeof d.showModal === "function") { if (!d.open) d.showModal(); } else d.setAttribute("open", "");
@@ -627,15 +662,17 @@
     const place = $("fPlace").value.trim(), details = $("fDetails").value.trim(), email = $("fEmail").value.trim();
     const say = (t, cls, link) => { msg.className = "fmsg " + (cls || ""); msg.textContent = t; if (link) { const a = document.createElement("a"); a.href = link; a.textContent = "Email it instead"; msg.append(" ", a); } };
     if (!place) { say("Please enter the place's name.", "err"); $("fPlace").focus(); return; }
-    if (!details && !what.includes("Closed")) { say("Please add a few details.", "err"); $("fDetails").focus(); return; }
+    const rep = formCtx.mode === "report", issue = [...document.querySelectorAll('#sForm input[name="rep"]:checked')].map((x) => x.value), rdays = [...document.querySelectorAll('#sForm input[name="repDay"]:checked')].map((x) => x.value);
+    if (rep && !issue.length) { say("Please pick what's wrong.", "err"); document.querySelector('#sForm input[name="rep"]').focus(); return; }
+    if (!rep && !details && !what.includes("Closed")) { say("Please add a few details.", "err"); $("fDetails").focus(); return; }
     if (email && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { say("That email doesn't look right (or leave it empty).", "err"); $("fEmail").focus(); return; }
     const own = $("fOwn").checked, phone = $("fPhone").value.trim(), oname = $("fName").value.trim();
     if (own && !oname) { say("Please add your name so we know who's claiming this listing.", "err"); $("fName").focus(); return; }
     if (own && !$("fRole").value.trim()) { say("Please add your role (owner, manager…).", "err"); $("fRole").focus(); return; }
     if (own && !email && phone.replace(/\D/g, "").length < 10) { say("Please add an email or a phone number so we can confirm you own or work here.", "err"); (email ? $("fPhone") : $("fEmail")).focus(); return; }
-    const type = $("fOwn").checked ? "Claim listing" : formCtx.mode === "add" ? "Add a place" : "Suggest an update";
+    const type = $("fOwn").checked ? "Claim listing" : formCtx.mode === "add" ? "Add a place" : rep ? "Report wrong hours" : "Suggest an update";
     const o = { _subject: `Open Late · ${type}: ${place} (${$("fWhere").value.trim() || (county ? cFull(county) : "")})`, _template: "table", _captcha: "false",
-      type, place, where: $("fWhere").value.trim(), address: $("fAddr").value.trim(), what: what.join(", "), details,
+      type, place, where: $("fWhere").value.trim(), address: $("fAddr").value.trim(), what: rep ? issue.join(", ") : what.join(", "), ...(rep ? { days: rdays.join(", ") || "not given" } : {}), details,
       name: $("fName").value.trim(), email, owner: own ? "Yes" : "No", page: formCtx.url, placeKey: formCtx.key,
       ...(own ? { role: $("fRole").value.trim(), placeLink: $("fLink").value.trim(), phone } : {}) };
     if (email) o._replyto = email;
@@ -647,7 +684,7 @@
       const j = await res.json().catch(() => ({}));
       if (res.ok && String(j.success) === "true") {
         say("Thanks! Sent. We check every change against a source before it goes live.", "ok");
-        track(`form/${formCtx.mode === "add" ? "add" : $("fOwn").checked ? "claim" : "suggest"}`, "Form sent");
+        track(`form/${formCtx.mode === "add" ? "add" : rep ? "report" : $("fOwn").checked ? "claim" : "suggest"}`, "Form sent");
         setTimeout(closeForm, 2600);
       } else {
         $("fSend").disabled = false;
@@ -983,6 +1020,7 @@
       if (id === "tonight") { try { sessionStorage.setItem("openlate.tonight", on(id) ? "on" : "off"); } catch (e) { /* ignore */ } }
       render();
     }));
+    $("atTime").addEventListener("change", () => { atT = Number($("atTime").value) || 0; $("atChip").classList.toggle("on", !!atT); if (atT) track("filter/atTime", "Filter on"); render(); });
     $("viewList").addEventListener("click", () => setView("list"));
     $("viewMap").addEventListener("click", () => setView("map"));
     // keep the map sized to the space under the sticky header
@@ -1062,13 +1100,14 @@
         track(votePath(p.area, p.r.id, did, dir), `${dir === "up" ? "Still good" : "Out of date"}: ${p.r.name} (${p.areaName}): ${box.dataset.dtext}`.slice(0, 200));
         box.innerHTML = `<span class="vthanks">${dir === "up" ? "👍" : "👎"} Thanks!</span>`;
       }
-      else if ((b.dataset.act === "suggest" || b.dataset.act === "claim") && p) { e.preventDefault(); openForm(b.dataset.act, p); }
+      else if ((b.dataset.act === "suggest" || b.dataset.act === "claim" || b.dataset.act === "report") && p) { e.preventDefault(); openForm(b.dataset.act, p); }
     });
     if (sp.get("q")) { $("q").value = sp.get("q"); setSearchOpen(true); }
     // after 9 PM (until 3 AM) Tonight starts on, unless it was turned off this visit, a place link was opened, or this is an automated test
     let tn = null; try { tn = sessionStorage.getItem("openlate.tonight"); } catch (e) { tn = null; }
     const auto = !navigator.webdriver && !/jsdom|HeadlessChrome/i.test(navigator.userAgent || "");
     await loadCounty(cid, aid, st0);
+    tnSetup(); if (sp.get("tn") && county && !county.all) await tnApply(county.id, sp.get("tn")); tnBanner().catch(() => {});
     try { window.dispatchEvent(new Event("openlate:ready")); } catch (e) { /* analytics can wait for the fallback */ }
     if (!sp.get("place") && (tn === "on" || (tn === null && auto && (now.m >= 21 * 60 || now.m < 180)))) {
       $("tonight").setAttribute("aria-pressed", "true"); render();
@@ -1083,6 +1122,93 @@
     const refresh = () => { const keep = shown; tick(); render(); while (shown < keep && !$("more").hidden) render(true); };
     setInterval(refresh, 30000);
     document.addEventListener("visibilitychange", () => { if (!document.hidden && city) refresh(); });
+  }
+
+  // ---------- "Tonight in my county": picked counties + kinds -> banner on open (site) / daily local notification (app, src/native.js)
+  // Settings live only in this browser (localStorage "openlate.tonightAlerts"); nothing is sent anywhere.
+  const TN_KINDS = [["kk", "karaoke", "🎤 Karaoke"], ["dj", "DJ", "🎧 DJ nights"], ["tv", "trivia", "🧠 Trivia"], ["bg", "bingo", "🎱 Bingo"], ["lm", "live music", "🎸 Live music"],
+    ["hh", "happy hours", "🍹 Happy hours"], ["gd", "game day", "🏈 Game day / watch parties"], ["wing", "wing deals", "🍗 Wing deals"], ["beer", "beer deals", "🍺 Beer deals"]];
+  const TN_KEY = "openlate.tonightAlerts";
+  let tnAny = null; // Set of kinds from a ?tn= link: places with ANY of them on today
+  const tnGet = () => { try { const o = JSON.parse(localStorage.getItem(TN_KEY) || "null"); return o && Array.isArray(o.counties) ? o : null; } catch (e) { return null; } };
+  function tnHas(p, k, day) {
+    const r = p.r;
+    if (k === "kk" || k === "dj" || k === "tv" || k === "bg" || k === "lm") return nightsOn(r[k], day).length > 0;
+    if (k === "gd") return (Array.isArray(r.gd) ? r.gd : r.gd ? [r.gd] : []).some((g) => Array.isArray(g.d) && g.d.includes(day));
+    const dd = deals(p, day);
+    if (k === "hh") return dd.hh.length > 0;
+    if (k === "wing") return [...dd.hh, ...dd.sp].some((x) => hasTag(x, "wings"));
+    if (k === "beer") return [...dd.hh, ...dd.sp].some((x) => hasTag(x, "beer"));
+    return false;
+  }
+  // places per kind on day (0 = Sun) in one County file
+  function tnCounts(d, day, kinds) {
+    const am = new Map((d.areas || []).map((a) => [a.id, a]));
+    const out = {}; for (const k of kinds) out[k] = 0;
+    for (const r of d.restaurants || []) { const a = am.get(r.a); if (!a) continue; const p = prep(r, a, d.loc); for (const k of kinds) if (tnHas(p, k, day)) out[k]++; }
+    return out;
+  }
+  const tnText = (counts) => TN_KINDS.filter(([k]) => counts[k]).map(([k, w]) => `${counts[k]} ${w}`).join(", ");
+  const tnDay = (d) => { const tz = ((d.areas || [])[0] || {}).timezone || "America/New_York"; const n = cityNow(tz); return n.m < 240 ? (n.d + 6) % 7 : n.d; }; // before 4 am is still last night
+  window.OL_TONIGHT = { kinds: TN_KINDS, key: TN_KEY, counts: tnCounts, text: tnText, label: (cid) => { const c = countyById(cid); return c ? cLabel(c) : cid; } };
+  async function tnBanner() {
+    const s = tnGet(), el = $("tnBanner");
+    if (!s || !s.on || !s.counties.length || !s.kinds.length) { el.hidden = true; return; }
+    const parts = [];
+    for (const cid of s.counties.slice(0, 5)) {
+      const c = countyById(cid); if (!c) continue;
+      try {
+        const d = await getCounty(c.id), counts = tnCounts(d, tnDay(d), s.kinds);
+        const links = TN_KINDS.filter(([k]) => counts[k]).map(([k, w]) => `<a href="?county=${encodeURIComponent(c.id)}&tn=${k}" data-tn="${c.id}|${k}">${counts[k]} ${esc(w)}</a>`);
+        const all = TN_KINDS.filter(([k]) => counts[k]).map(([k]) => k).join(",");
+        parts.push(links.length ? `Tonight in <a href="?county=${encodeURIComponent(c.id)}&tn=${all}" data-tn="${c.id}|${all}">${esc(cLabel(c))}</a>: ${links.join(", ")}` : `Tonight in ${esc(cLabel(c))}: nothing you picked is listed`);
+      } catch (e) { /* offline: skip this County */ }
+    }
+    el.innerHTML = parts.join("<br>") + ` · <a href="#" id="tnEdit">Change</a>`;
+    el.hidden = !parts.length;
+  }
+  function tnApply(cid, kinds) {
+    tnAny = new Set(kinds.split(",").filter((k) => TN_KINDS.some(([x]) => x === k)));
+    if (!tnAny.size) { tnAny = null; return Promise.resolve(); }
+    track(`tonightAlerts/open`, "Tonight alert opened");
+    return (county && county.id === cid ? Promise.resolve() : loadCounty(cid, "")).then(() => { render(); window.scrollTo && window.scrollTo(0, 0); });
+  }
+  function tnOpenDlg() {
+    const s = tnGet() || { on: true, counties: county && !county.all ? [county.id] : [], kinds: ["kk", "tv"], time: "17:00" };
+    const draw = () => {
+      $("tnCounties").innerHTML = s.counties.map((cid) => `<label><input type="checkbox" name="tnc" value="${esc(cid)}" checked> ${esc(window.OL_TONIGHT.label(cid))}</label>`).join("") || `<span class="fsub">No counties yet</span>`;
+      const st = county && !county.all ? cSt(county) : $("state").value;
+      $("tnAdd").innerHTML = `<option value="">Pick a county…</option>` + index.counties.filter((c) => cSt(c) === st && !s.counties.includes(c.id)).map((c) => `<option value="${esc(c.id)}">${esc(cLabel(c))}</option>`).join("");
+    };
+    draw();
+    $("tnAdd").onchange = () => { const v = $("tnAdd").value; if (v) { s.counties = [...s.counties.filter((c) => [...document.querySelectorAll("input[name=tnc]")].some((i) => i.value === c && i.checked)), v]; draw(); } };
+    $("tnKinds").innerHTML = TN_KINDS.map(([k, , l]) => `<label><input type="checkbox" name="tnk" value="${k}"${s.kinds.includes(k) ? " checked" : ""}> ${esc(l)}</label>`).join("");
+    $("tnTime").value = s.time || "17:00"; $("tnMsg").textContent = "";
+    $("tnDlg").showModal ? $("tnDlg").showModal() : $("tnDlg").setAttribute("open", "");
+  }
+  function tnSetup() {
+    const close = () => { $("tnDlg").close ? $("tnDlg").close() : $("tnDlg").removeAttribute("open"); };
+    $("tnOpen").addEventListener("click", (e) => { e.preventDefault(); tnOpenDlg(); });
+    $("tnClose").addEventListener("click", close);
+    $("tnDlg").addEventListener("click", (e) => { if (e.target === $("tnDlg")) close(); });
+    $("tnForm").addEventListener("submit", (e) => {
+      e.preventDefault();
+      const counties = [...document.querySelectorAll("input[name=tnc]:checked")].map((i) => i.value), kinds = [...document.querySelectorAll("input[name=tnk]:checked")].map((i) => i.value);
+      if (!counties.length || !kinds.length) { $("tnMsg").textContent = "Pick at least one county and one thing to include."; return; }
+      const time = /^\d\d:\d\d$/.test($("tnTime").value) ? $("tnTime").value : "17:00";
+      try { localStorage.setItem(TN_KEY, JSON.stringify({ on: true, counties, kinds, time })); } catch (err) { /* private mode */ }
+      track("tonightAlerts/save", "Tonight alerts saved"); close(); tnBanner();
+      try { window.dispatchEvent(new Event("openlate:tonightAlerts")); } catch (err) { /* app bridge listens */ }
+    });
+    $("tnOff").addEventListener("click", () => {
+      const s = tnGet(); if (s) { s.on = false; try { localStorage.setItem(TN_KEY, JSON.stringify(s)); } catch (err) { /* ignore */ } }
+      close(); tnBanner(); try { window.dispatchEvent(new Event("openlate:tonightAlerts")); } catch (err) { /* ignore */ }
+    });
+    $("tnBanner").addEventListener("click", (e) => {
+      const a = e.target.closest("a"); if (!a) return;
+      if (a.id === "tnEdit") { e.preventDefault(); tnOpenDlg(); return; }
+      if (a.dataset.tn) { e.preventDefault(); const [cid, ks] = a.dataset.tn.split("|"); tnApply(cid, ks).catch(fail); }
+    });
   }
 
   // ---------- Ko-fi tip link + gentle prompt (config.js `kofi`; empty = off; ?kofitest=1|fast previews it)

@@ -82,6 +82,7 @@
     <label class="chip chip-day"><span class="sr">Deals and nights for</span><select id="day" aria-label="Deals and nights for day"></select></label>
     <button type="button" class="chip" id="tonight" aria-pressed="false" title="Places open past 11 PM tonight; late kitchens first">🌙 Tonight</button>
     <button type="button" class="chip" id="openNow" aria-pressed="false"><span class="dot d-open" aria-hidden="true"></span>Open now</button>
+    <label class="chip chip-day" id="atChip" title="Show places open at a later time tonight or tomorrow night"><span class="sr">Show places open at</span><select id="atTime" aria-label="Show places open at"></select></label>
     <button type="button" class="chip" id="nearMe" aria-pressed="false" title="Sort by distance from you (asks for your location)">📍 Near me</button>
     <button type="button" class="chip" id="favsOnly" aria-pressed="false">♥ Favorites</button>
     <button type="button" class="chip" id="kitchenNow" aria-pressed="false" title="Only places that publish a kitchen close time">Kitchen open</button>
@@ -124,6 +125,7 @@
     <div id="map" role="region" aria-label="Map of the places in this list"></div>
     <p class="maplegend"><span><i class="lg lg-open"></i>Open</span><span><i class="lg lg-soon"></i>Closing within an hour</span><span><i class="lg lg-closed"></i>Closed / hours not listed</span><span id="mapMiss"></span></p>
   </div>
+  <p class="notice" id="tnBanner" hidden></p>
   <div class="grid" id="list"></div>
   <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
   <p class="morewrap"><button type="button" class="btn more" id="more" hidden>Show more</button></p>
@@ -145,7 +147,7 @@
   <p>Know a special, a closing time, or a change? Restaurants and visitors can send it in. <a href="#" data-form="claim" class="claimlink">Own a bar? Claim your listing</a>.</p>
   <p class="small">Sources: each venue's Facebook page and website, plus local guides such as TasteLanc and OpenTable (the source is named on every card). Not affiliated with any restaurant. <a href="counties/">Browse by County</a></p>
   <p class="kofi-foot" id="kofiFoot" hidden><a id="kofiLink" href="#" target="_blank" rel="noopener">☕ Support Open Late</a></p>
-  <p class="kofi-foot support-foot">Questions or corrections? <a href="mailto:support@openlateapp.com">support@openlateapp.com</a> · <a href="featured.html">Get featured</a> · <a href="privacy.html">Privacy</a></p>
+  <p class="kofi-foot support-foot">Questions or corrections? <a href="mailto:support@openlateapp.com">support@openlateapp.com</a> · <a href="#" id="tnOpen">🔔 Tonight alerts</a> · <a href="featured.html">Get featured</a> · <a href="privacy.html">Privacy</a></p>
 </footer>
 <div class="kofisheet" id="kofiSheet" role="dialog" aria-labelledby="kofiTitle" aria-describedby="kofiText" hidden>
   <button type="button" class="fx kofix" id="kofiX" aria-label="Close">✕</button>
@@ -153,6 +155,22 @@
   <p id="kofiText">Open Late is an independent project with no corporate backing. Your donation helps keep hours, specials, and deals up to date, and lets us keep expanding into other states and areas.</p>
   <div class="kofibtns"><a class="btn" id="kofiGo" href="#" target="_blank" rel="noopener">Leave a tip on Ko-fi</a><button type="button" class="btn ghost" id="kofiLater">Maybe later</button></div>
 </div>
+<dialog id="tnDlg" aria-labelledby="tnTitle">
+  <form id="tnForm" method="dialog" novalidate>
+    <div class="fhead"><h2 id="tnTitle">Tonight in my county</h2><button type="button" class="fx" id="tnClose" aria-label="Close">✕</button></div>
+    <p class="fsub">Pick your counties and what you're into. When you open Open Late you'll see what's on tonight. In the Open Late app you also get one notification a day at the time you pick.</p>
+    <fieldset class="ff"><legend>Counties</legend>
+      <div class="fchecks" id="tnCounties"></div>
+      <label class="ff"><span>Add a county</span><select id="tnAdd"></select></label>
+    </fieldset>
+    <fieldset class="ff"><legend>What to include</legend>
+      <div class="fchecks" id="tnKinds"></div>
+    </fieldset>
+    <label class="ff"><span>Notification time (app)</span><input id="tnTime" type="time" value="17:00" step="900"></label>
+    <p class="fsub" id="tnMsg" role="status"></p>
+    <div class="fbtns"><button type="submit" class="btn" id="tnSave">Save</button><button type="button" class="btn ghost" id="tnOff">Turn off</button></div>
+  </form>
+</dialog>
 <dialog id="formDlg" aria-labelledby="fTitle">
   <form id="sForm" method="dialog" novalidate>
     <div class="fhead"><h2 id="fTitle">Suggest an update</h2><button type="button" class="fx" id="fClose" aria-label="Close">✕</button></div>
@@ -175,6 +193,22 @@
         <label><input type="checkbox" name="what" value="Other"> Something else</label>
       </div>
     </fieldset>
+    <div id="fRepSet" hidden>
+      <fieldset class="ff"><legend>What's wrong?</legend>
+        <div class="fchecks">
+          <label><input type="checkbox" name="rep" value="Closed now"> Closed now (but listed open)</label>
+          <label><input type="checkbox" name="rep" value="Wrong close time"> Wrong close time</label>
+          <label><input type="checkbox" name="rep" value="Wrong kitchen hours"> Wrong kitchen hours</label>
+          <label><input type="checkbox" name="rep" value="Permanently closed"> Permanently closed</label>
+          <label><input type="checkbox" name="rep" value="Other"> Something else</label>
+        </div>
+      </fieldset>
+      <fieldset class="ff"><legend>Which day(s)? (optional)</legend>
+        <div class="fchecks">
+          <label><input type="checkbox" name="repDay" value="Mon"> Mon</label><label><input type="checkbox" name="repDay" value="Tue"> Tue</label><label><input type="checkbox" name="repDay" value="Wed"> Wed</label><label><input type="checkbox" name="repDay" value="Thu"> Thu</label><label><input type="checkbox" name="repDay" value="Fri"> Fri</label><label><input type="checkbox" name="repDay" value="Sat"> Sat</label><label><input type="checkbox" name="repDay" value="Sun"> Sun</label>
+        </div>
+      </fieldset>
+    </div>
     <label class="ff"><span id="fDetailsLbl">Details</span><textarea id="fDetails" name="details" rows="4" maxlength="2000" required placeholder="e.g. Kitchen closes at 11 PM Fri–Sat; $0.75 wings on Tuesdays. A link or menu photo URL helps."></textarea></label>
     <div class="frow2">
       <label class="ff"><span>Your name (optional)</span><input id="fName" name="name" type="text" maxlength="80" autocomplete="name"></label>

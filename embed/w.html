@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>Open Late widget</title>
+<style>
+:root{--amber:#e8a33d;--ink:#1d1b1a;--ink2:#55504c;--ink3:#7d766f;--card:#fff;--line:#e9e2da;--g:#1f8a4c;--a:#b36b00;--x:#6f6a66;--link:#9a5d00}
+.dark{--ink:#f2eeea;--ink2:#c3bbb4;--ink3:#9a928b;--card:#1f1c1a;--line:#34302d;--g:#6fd39a;--a:#f4b552;--x:#a8a19b;--link:#f3c070}
+html,body{margin:0;background:transparent}
+body{font:14px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink)}
+.w{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;max-width:360px;box-sizing:border-box}
+h1{font-size:1rem;margin:0 0 4px}
+.st{display:flex;flex-wrap:wrap;align-items:center;gap:2px 8px;font-weight:600;font-size:.9rem}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--x);display:inline-block}
+.s-open{color:var(--g)}.s-open .dot{background:var(--g)}.s-soon{color:var(--a)}.s-soon .dot{background:var(--a)}.s-closed{color:var(--x)}
+.k{font-size:.8rem;font-weight:500;color:var(--ink3)}.k::before{content:"·";margin-right:8px}.k-open{color:var(--g)}
+.row{font-size:.82rem;color:var(--ink2);margin-top:6px}.row b{color:var(--ink)}
+ul{margin:2px 0 0;padding-left:18px}
+.ft{margin-top:8px;font-size:.78rem;color:var(--ink3);display:flex;justify-content:space-between;gap:8px}
+.ft a{color:var(--link);font-weight:600;text-decoration:none}.ft a b{color:var(--amber)}
+</style></head>
+<body><div class="w" id="w" aria-live="polite">Loading hours…</div>
+<script src="hours.js"></script>
+<script>
+(async function () {
+  const H = window.OLH, sp = new URLSearchParams(location.search), box = document.getElementById("w"), e = H.esc;
+  if (sp.get("theme") === "dark") document.documentElement.className = "dark";
+  const base = location.origin;
+  const size = () => { try { parent.postMessage({ olHeight: document.documentElement.scrollHeight }, "*"); } catch (x) { /* not framed */ } };
+  let pl = null;
+  try { pl = await H.loadPlace(base, sp.get("c") || "", sp.get("a") || "", sp.get("id") || ""); } catch (x) { pl = null; }
+  if (!pl) { box.innerHTML = `This place isn't on <a href="${base}/" target="_blank" rel="noopener">Open Late</a> (check the widget code).`; size(); return; }
+  const { r, area } = pl, w = H.parseWeek(r.hours), k = r.kitchen ? H.parseWeek(r.kitchen) : null, is24 = r.hours === "Daily 24h";
+  function draw() {
+    const n = H.cityNow(area.timezone), s = H.stateAt(w, n.d, n.m, is24);
+    let cls = "s-closed", txt;
+    if (is24) { cls = "s-open"; txt = "Open 24 hours"; }
+    else if (s.open) { const left = s.close - n.m; cls = left <= 60 ? "s-soon" : "s-open"; txt = left <= 60 ? `Closing soon · ${H.fmt(s.close)}` : `Open now · until ${H.fmt(s.close)}`; }
+    else if (!s.known) txt = "Today's hours not listed";
+    else { const t = w[n.d], nx = t ? t.map((iv) => iv[0]).filter((o) => o > n.m).sort((a, b) => a - b)[0] : undefined; txt = nx !== undefined ? `Closed · opens ${H.fmt(nx)}` : "Closed now"; }
+    let kl = "";
+    if (k) { const ks = H.stateAt(k, n.d, n.m); kl = ks.open ? `<span class="k k-open">Kitchen until ${H.fmt(ks.close)}</span>` : `<span class="k">Kitchen closed</span>`; }
+    const f = (list) => (list || []).filter((x) => H.parseDays(x.days).includes(n.d));
+    const today = [...f(r.happyHours), ...f(r.specials)];
+    box.innerHTML = `<h1>${e(r.name)}</h1>
+      <div class="st ${cls}"><span class="dot" aria-hidden="true"></span><span>${e(txt)}</span>${kl}</div>
+      <div class="row"><b>Hours:</b> ${r.hours ? e(H.pretty(r.hours)) : "not listed"}</div>
+      <div class="row"><b>Kitchen:</b> ${r.kitchen ? e(H.pretty(r.kitchen)) : "not listed"}</div>
+      ${today.length ? `<div class="row"><b>Today:</b><ul>${today.slice(0, 4).map((x) => `<li>${e(H.tf(x.text))}</li>`).join("")}</ul></div>` : ""}
+      <div class="ft"><span>Hours can change. Call ahead.</span><a href="${e(H.listingUrl(base, r))}" target="_blank" rel="noopener">on Open <b>Late</b> ›</a></div>`;
+    size();
+  }
+  draw(); setInterval(draw, 60000);
+})();
+</script></body></html>

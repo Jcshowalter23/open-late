@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>Find us on Open Late · printable card</title>
+<style>
+@page{size:letter;margin:0.5in}
+*{box-sizing:border-box}body{margin:0;font:16px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#14161f;background:#eee}
+.bar{padding:10px;text-align:center}.bar button{font:inherit;font-weight:700;border:0;border-radius:999px;padding:9px 18px;background:#e8a33d;color:#14161f;cursor:pointer}
+.card{width:5in;max-width:94vw;margin:10px auto 30px;background:#14161f;color:#fff;border-radius:18px;padding:26px 24px;text-align:center}
+.brand{font-size:1.6rem;font-weight:800;display:flex;align-items:center;justify-content:center;gap:10px}.brand b{color:#e8a33d}
+.find{font-size:1.05rem;margin:6px 0 14px;color:#ddd}
+.qr{background:#fff;border-radius:12px;padding:14px;display:inline-block}.qr svg{display:block;width:2.6in;height:2.6in;max-width:70vw;max-height:70vw}
+h1{font-size:1.4rem;margin:14px 0 2px}.sub{color:#bbb;font-size:.95rem}.url{margin-top:10px;font-size:.8rem;color:#e8a33d;word-break:break-all}
+@media print{body{background:#fff}.bar{display:none}.card{margin:0 auto;-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+</style></head>
+<body>
+<div class="bar"><button type="button" onclick="print()">Print this card</button></div>
+<div class="card" id="card">Loading…</div>
+<script src="../vendor/qrcode.js"></script>
+<script src="hours.js"></script>
+<script>
+(async function () {
+  const H = window.OLH, sp = new URLSearchParams(location.search), box = document.getElementById("card"), e = H.esc, SITE = "https://openlateapp.com";
+  let pl = null; try { pl = await H.loadPlace(location.origin, sp.get("c") || "", sp.get("a") || "", sp.get("id") || ""); } catch (x) { pl = null; }
+  if (!pl) { box.textContent = "Place not found."; return; }
+  const url = H.listingUrl(SITE, pl.r);
+  const qr = qrcode(0, "M"); qr.addData(url); qr.make();
+  box.innerHTML = `<div class="brand"><img src="/icons/logo.svg" alt="" width="40" height="40">Open <b>Late</b></div>
+    <div class="find">Find us on Open Late</div>
+    <div class="qr">${qr.createSvgTag({ cellSize: 6, margin: 0, scalable: true })}</div>
+    <h1>${e(pl.r.name)}</h1><div class="sub">Scan for our hours, kitchen hours and specials tonight</div>
+    <div class="url">${e(url.replace(/^https:\/\//, ""))}</div>`;
+  document.title = `${pl.r.name} · Find us on Open Late`;
+})();
+</script></body></html>

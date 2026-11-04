@@ -143,6 +143,7 @@ main{max-width:1200px;margin:0 auto;padding:12px 16px 24px}
 .b-gd{background:#e2efdc;color:#2c5a1e}.b-vf{background:#dbeefe;color:#0f4c81}
 @media (prefers-color-scheme:dark){.b-gd{background:#22361b;color:#b9e0a5}.b-vf{background:#15324d;color:#a9d3fb}}
 #fClaimSet{display:flex;flex-direction:column;gap:10px}#fClaimSet[hidden]{display:none}
+#fRepSet{display:flex;flex-direction:column;gap:10px}#fRepSet[hidden]{display:none}
 .ctype,.otype{font-size:.8rem;color:var(--ink2);margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .ctl,.srcs{color:var(--ink3);font-size:.85em}
 .lchk{font-size:.72rem;color:var(--ink3);margin-top:2px}
@@ -181,9 +182,9 @@ main{max-width:1200px;margin:0 auto;padding:12px 16px 24px}
 .leaflet-container .mp .s-open{color:#1f8a4c}.leaflet-container .mp .s-soon{color:#b36b00}.leaflet-container .mp .s-closed{color:#6f6a66}
 .footbtns{display:flex;gap:10px;flex-wrap:wrap}
 .claimlink{color:var(--link);font-weight:600}
-dialog#formDlg{border:0;border-radius:16px;padding:0;width:min(560px,calc(100% - 20px));max-height:calc(100dvh - 24px);background:var(--card);color:var(--ink);box-shadow:0 12px 40px rgba(0,0,0,.35)}
-dialog#formDlg::backdrop{background:rgba(10,12,18,.55)}
-#sForm{padding:16px 18px 14px;display:flex;flex-direction:column;gap:10px}
+dialog#formDlg,dialog#tnDlg{border:0;border-radius:16px;padding:0;width:min(560px,calc(100% - 20px));max-height:calc(100dvh - 24px);background:var(--card);color:var(--ink);box-shadow:0 12px 40px rgba(0,0,0,.35)}
+dialog#formDlg::backdrop,dialog#tnDlg::backdrop{background:rgba(10,12,18,.55)}
+#sForm,#tnForm{padding:16px 18px 14px;display:flex;flex-direction:column;gap:10px}
 .fhead{display:flex;align-items:center;justify-content:space-between;gap:8px}
 .fhead h2{margin:0;font-size:1.2rem}
 .fx{border:0;background:var(--mut);color:var(--ink2);width:36px;height:36px;border-radius:50%;font-size:1rem;cursor:pointer}
@@ -284,3 +285,4 @@ dialog#formDlg::backdrop{background:rgba(10,12,18,.55)}
    (no doubled inset) and, once stuck, stops below the status bar, which a fixed cover keeps dark. env() is 0 in a normal browser tab. */
 .social + .top{padding-top:8px;top:env(safe-area-inset-top)}
 .social::before{content:"";position:fixed;top:0;left:0;right:0;height:env(safe-area-inset-top);background:#14161f;z-index:11;pointer-events:none}
+#tnBanner{margin:0 0 12px}#tnBanner a{color:inherit;font-weight:600}

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Open now widget for your website · Open Late</title>
+<meta name="description" content="Show your live hours, kitchen hours and specials from Open Late on your own website with one line of code. Free for claimed listings.">
+<link rel="icon" href="/favicon.ico">
+<style>
+:root{--amber:#e8a33d;--night:#14161f;--ink:#1d1b1a;--ink2:#55504c;--ink3:#7d766f;--bg:#faf7f3;--card:#fff;--line:#e9e2da;--link:#9a5d00}
+*{box-sizing:border-box}body{margin:0;font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--bg)}
+.top{background:var(--night);color:#fff;padding:10px 14px}.top a{color:#fff;text-decoration:none;display:inline-flex;align-items:center;gap:8px;font-weight:700}.top b{color:var(--amber)}
+main{max-width:760px;margin:0 auto;padding:16px 14px 40px}
+h1{font-size:1.35rem;margin:6px 0}p{margin:6px 0}.note{background:#fdf0d9;border:1px solid #f1d9a8;border-radius:10px;padding:8px 12px;font-size:.9rem}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0}@media(max-width:560px){.grid{grid-template-columns:1fr}}
+label{display:flex;flex-direction:column;gap:4px;font-size:.8rem;color:var(--ink3)}
+select,input,textarea{font:inherit;font-size:16px;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px 10px;width:100%}
+textarea{font-family:ui-monospace,Menlo,monospace;font-size:13px;min-height:84px}
+.btn{font:inherit;font-weight:700;border:0;border-radius:999px;padding:9px 18px;background:var(--amber);color:var(--night);cursor:pointer;text-decoration:none;display:inline-block}
+.btn.ghost{background:transparent;border:1px solid var(--line);color:var(--ink)}
+.prev{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:12px 0}@media(max-width:560px){.prev{grid-template-columns:1fr}}
+.prev>div{padding:12px;border-radius:12px;border:1px dashed var(--line)}.prev .pd{background:#111}
+.prev small{display:block;color:var(--ink3);margin-bottom:6px}.prev .pd small{color:#aaa}
+iframe{border:0;width:100%;height:230px;display:block}
+.acts{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+a{color:var(--link)}
+</style></head>
+<body>
+<header class="top"><a href="/"><img src="/icons/logo.svg" alt="" width="26" height="26">Open <b>Late</b></a></header>
+<main>
+  <h1>Add an "Open now" widget to your website</h1>
+  <p>One line of code shows your live open or closed status, hours, kitchen hours and today's specials from Open Late, with a link to your listing. It updates itself whenever your Open Late listing changes.</p>
+  <p class="note"><b>Free for claimed listings.</b> Own or work at the place? <a href="/">Find it on Open Late</a>, open its card and tap "Own it? Claim this listing" so you can keep your hours right.</p>
+  <div class="grid">
+    <label>State<select id="st"></select></label>
+    <label>County<select id="co"></select></label>
+    <label>Search places<input id="q" type="search" placeholder="Type the name" autocomplete="off"></label>
+    <label>Place<select id="pl"></select></label>
+    <label>Style<select id="th"><option value="light">Light</option><option value="dark">Dark</option></select></label>
+  </div>
+  <div id="out" hidden>
+    <div class="prev"><div><small>Light</small><iframe id="fl" title="Light preview"></iframe></div><div class="pd"><small>Dark</small><iframe id="fd" title="Dark preview"></iframe></div></div>
+    <label>Paste this one line into your website where the widget should show<textarea id="code" readonly></textarea></label>
+    <div class="acts"><button type="button" class="btn" id="copy">Copy code</button><a class="btn ghost" id="card" href="#" target="_blank" rel="noopener">Printable QR card</a><a class="btn ghost" id="lst" href="#" target="_blank" rel="noopener">See the listing</a></div>
+    <p id="msg" class="note" hidden></p>
+  </div>
+  <p style="font-size:.85rem;color:var(--ink3);margin-top:18px">The widget sets no cookies and doesn't track visitors. Hours come from the same sources as your Open Late listing. Spot something wrong? Use "Report wrong hours" on your card.</p>
+</main>
+<script>
+(async function () {
+  const $ = (id) => document.getElementById(id), SITE = "https://openlateapp.com";
+  const idx = await (await fetch("/data/index.json")).json();
+  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  let places = [], cid = "";
+  $("st").innerHTML = idx.states.map((s) => `<option value="${s.id}">${esc(s.name)}</option>`).join("");
+  const sp = new URLSearchParams(location.search);
+  function fillCo() {
+    const cs = idx.counties.filter((c) => (c.st || "PA") === $("st").value).sort((a, b) => a.name.localeCompare(b.name));
+    $("co").innerHTML = cs.map((c) => `<option value="${c.id}">${esc(c.label || c.name + (c.st === "DC" ? "" : " County"))}</option>`).join("");
+  }
+  async function loadCo() {
+    cid = $("co").value;
+    const d = await (await fetch(`/data/county/${cid}.json`)).json();
+    const an = new Map(d.areas.map((a) => [a.id, a.name]));
+    places = d.restaurants.map((r) => ({ v: `${cid}/${r.a}/${r.id}`, n: r.name, t: an.get(r.a) || "" })).sort((a, b) => a.n.localeCompare(b.n));
+    fillPl();
+  }
+  function fillPl() {
+    const q = $("q").value.trim().toLowerCase();
+    const l = places.filter((p) => !q || p.n.toLowerCase().includes(q));
+    $("pl").innerHTML = `<option value="">${l.length ? "Pick a place" : "No match"}</option>` + l.map((p) => `<option value="${esc(p.v)}">${esc(p.n)} · ${esc(p.t)}</option>`).join("");
+    if (sp.get("place") && l.some((p) => p.v === sp.get("place"))) { $("pl").value = sp.get("place"); sp.delete("place"); }
+    show();
+  }
+  function show() {
+    const v = $("pl").value; $("out").hidden = !v; if (!v) return;
+    const [c, a, id] = v.split("/"), th = $("th").value, q = `c=${encodeURIComponent(c)}&a=${encodeURIComponent(a)}&id=${encodeURIComponent(id)}`;
+    $("fl").src = `/embed/w.html?${q}&theme=light`; $("fd").src = `/embed/w.html?${q}&theme=dark`;
+    $("code").value = `<script src="${SITE}/embed/widget.js" data-place="${v}" data-theme="${th}" async><\/script>`;
+    $("card").href = `/embed/card.html?${q}`; $("lst").href = `/p/${encodeURIComponent(a)}/${encodeURIComponent(id)}.html`;
+  }
+  $("st").addEventListener("change", () => { fillCo(); loadCo(); });
+  $("co").addEventListener("change", loadCo);
+  $("q").addEventListener("input", fillPl); $("pl").addEventListener("change", show); $("th").addEventListener("change", show);
+  $("copy").addEventListener("click", async () => { try { await navigator.clipboard.writeText($("code").value); $("msg").textContent = "Copied. Paste it into your site's HTML."; } catch (e) { $("code").select(); $("msg").textContent = "Select the code above and copy it."; } $("msg").hidden = false; });
+  window.addEventListener("message", (e) => { if (e.data && e.data.olHeight) for (const f of [$("fl"), $("fd")]) if (e.source === f.contentWindow) f.style.height = Math.min(600, e.data.olHeight) + "px"; });
+  const pre = (sp.get("place") || "").split("/");
+  const c0 = idx.counties.find((c) => c.id === pre[0]) || idx.counties.find((c) => c.id === idx.defaultCounty);
+  $("st").value = c0.st || "PA"; fillCo(); $("co").value = c0.id; await loadCo();
+})();
+</script>
+</body></html>
