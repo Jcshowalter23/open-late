@@ -121,3 +121,29 @@ Removed, 6+ locations (68 listings; counts from official sites or public WebSear
 Kept, 5 or fewer: Wings Plus 3; Bocas House 2; Bub-Ba-Q 2; Z-Burger 5 (Tenleytown, College Park closed); Willy Taco 5; Vida 2; Mi Rancho 2; Kava Kula 2; Daiquiri Deck 5; Swahili Village 3; Hoptinger 2; Pho & Grill 2; Stamey's 2; Mooney's 3; Harriet's 5; Bubba's Shrimp Shack 5; Yardery 2; Crab Galley 2; St Marys Seafood 4; Mick's 5; Lib's Grill 4 (Reisterstown coming soon); FINS 4; Divieto 4; Compadres 5; Agavero 4; Pho 5UP 4-5; Oscar's 4; OC Taphouse 3; Noble Crust 3; Chaiyo 3; Mademoiselle Paris 4; Kabuki 4; Judy's 3; Holi 3; The Fishin' Pig 5 (Clarksville under construction); Fiesta Azul 4; Augie's 3; Del Pez 3; Brick & Brew 3; Allendale 1; Abbey Burger 2; 2 Meatballs 3; Lindburgers 3; Dough Roller 3; Famous Subs 3; BRGR Stop 2; Hulu 1; Mimi's Kabob 2; Tio Taco 3; El Tiesto 3; Juicy Gyros 1; Thai Chef 2; Poke Hana 2; Itto Ramen 4; Greg's Cookout 1; Ay Jalisco 5; Mr Snappers 3; Hightide 1; Black Rock (few); The Whole Enchilada 3; Hobbit American Grill 3; Salsas Mexican Restaurant (salsasmexrestaurants.com) 4; Dumpling King 4; MadFish 1; La Mexicana 2; Los Cuates 1; Sushi Song 2; Mama's Italian 2; La Tolteca (Greenville DE) 1; Mexico Restaurant Greensboro (not the Richmond brand).
 Flagged (kept, count unclear): Cannoli Kitchen (4-6 in snippets); Liberatore's (5 + OC Lib's); Legends Tavern & Grille (3 official vs 6 historical); Bell Street Burritos (5 confirmed, Peachtree St unconfirmed); Papa's & Beer Asheville (papasandbeerdowntown.com, link to 10-unit brand unclear); Kelly's Tavern DE (website points to the VA brand's kellystavern.com); Zen Pho & Noodles (on zennoodlescompany.com, name differs); Salsas Mexican Restaurant (possible link to Salsas Cocina).
 Possible closures (not acted on): Capital Tacos (site lists only Land O' Lakes; 5 listings); El Leoncito (only Titusville open; 3 listings); Abbey Burger Havre de Grace (closed Aug 2025); Mad Cow Grill Laurel + Brandywine; Greg's Cookout Miami; Hightide San Marco; Los Cuates Georgetown (closed Jan 2026 per Georgetowner; DC license cancelled May 2026).
+
+## v195 (Nov 4): reported closures
+
+Removed (CLOSED_IDS in chains1103.py; each confirmed closed at that address):
+- fl-capital-tacos (119 W Bloomingdale Ave, Brandon): corporate store closed Mar 1, 2024 (suncoastnews.com "Shelling out to bring back Capital Tacos locally"); capitaltacos.com now lists only Land O' Lakes.
+- fl-capital-tacos-wesley-chapel (27209 SR 56): closed Feb 2024; Tous les Jours taking the space (neighborhoodnewsonline.net/tag/capital-tacos).
+- fl-capital-tacos-clermont (1042 Hwy 50): Yelp "CLOSED" (updated Sep 2026); space now Persis Indian Grill (FL license inspection Oct 16, 2026).
+- fl-capital-tacos-trinity + fl-capital-tacos-trinity-trinity (10700 SR 54, duplicate pair): Yelp "CLOSED" (Sep 2026); space now Farm to Taco (welcometotrinity.com grand opening), already listed as fl-farm-to-taco.
+- fl-capital-tacos-winter-park (7484 University Blvd): space now Soulful Collective (That Wing Spot / Cow & Cheese) (Orlando Sentinel via reportwire.org).
+- fl-el-leoncito-viera (5360 Stadium Pkwy): last day Oct 26, 2024 (floridatoday.com 2024/10/24). Space now Margarita Island (chain brand blocked in v193, not added).
+- md-mad-cow-grill + md-mad-cow-grill-laurel (310 Domer Ave, Laurel; duplicate pair): official farewell page madcowgrilllaurel.com; Yelp CLOSED (Oct 2026).
+- fl-gregs-cookout (1051 NW 14th St #125, Miami): gregscookout.com lists only Pembroke Park; Postcard/Wanderlog/MapQuest "Permanently closed". Pembroke Park listing (fl-gregs-cookout-hallandale) kept.
+- fl-hightide-burrito-co (1538 Hendricks Ave, San Marco): Bar Molino opened in the space Sep 2022 (jacksonville.com 2022/09/07), itself now closed (barmolino.com); HappyCow CLOSED. Lakeside Dr listing kept.
+- dc-cuates-grill-georgetown (1564 Wisconsin Ave NW): closed Jan 2026 (georgetowner.com 2026/01/26 Business Ins & Outs); DC ABCA license cancelled. Space for lease (Crexi). Los Cuates Old Town (Alexandria) kept.
+- fl-angelo-elia-pizza-bar-tapas-coral-springs (5920 Coral Ridge Dr): closed (coralspringsflnews.com article313899150, Dec 22, 2025). Replacement Ember and Vine already listed. Weston/Delray/Fort Lauderdale kept.
+
+Added (closure replacements, hours confirmed):
+- fl-turkish-kitchen-brandon: Turkish Kitchen, 119 W Bloomingdale Ave; Daily 11a-10p (Restaurantji updated Sep 2026, Apple Maps; site turkishkitchen0685.s4shops.com).
+- fl-that-wing-spot-winter-park: That Wing Spot, 7484 University Blvd; Mon closed, Tue-Sun 11a-9:30p (venue's Toast page).
+
+Not added: Tous les Jours (bakery, takeout rule), Persis Indian Grill (6+ location chain), Margarita Island (blocked chain), Farm to Taco / Ember and Vine (already listed); Laurel, Miami and Georgetown spaces have no confirmed new tenant.
+
+Kept / no change:
+- Abbey Burger Havre de Grace: no such listing in data (only Baltimore Federal Hill, Fells Point, Mt Washington, which are open).
+- Mad Cow Grill Brandywine: no such listing in data.
+- Capital Tacos Land O' Lakes and El Leoncito Titusville: open (official sites).
