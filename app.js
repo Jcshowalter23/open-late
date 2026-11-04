@@ -805,31 +805,33 @@
   // data/names/<State>.json files load on the first search (this State first); tapping one opens that County at the place.
   const nameLists = new Map();
   const stNames = (st) => { if (!nameLists.has(st)) nameLists.set(st, getJSON(`data/names/${st}.json`).catch(() => { nameLists.delete(st); return null; })); return nameLists.get(st); };
-  let elseKey = "", elseHits = [];
-  function elsewhere(q) {
+  let elseKey = "", elseHits = [], elseShow = 20;
+  // v242 preview: while the search box has text, one ranked list of every match in every State sits ABOVE the cards
+  // (picked city, then picked County, then this State, then the rest); tapping one opens the place (loading its County if needed).
+  function elsewhere(q, more) {
     const box = $("elsewhere"); if (!box || !county || !index) return;
-    const st = cSt(county), town = $("town").value, key = `${county.id}|${town}|${q}|${lastList.length}|${rows.length}`;
-    if (key === elseKey) return;
+    const st = cSt(county), town = $("town").value, key = `${county.id}|${town}|${q}|${rows.length}`;
+    if (more) elseShow += 40; else { if (key === elseKey) return; elseShow = 20; }
     elseKey = key;
-    if (q.length < 3) { box.hidden = true; box.innerHTML = ""; return; }
+    if (q.length < 2) { box.hidden = true; box.innerHTML = ""; return; }
     const sts = [st, ...(index.states || []).map((s) => s.id).filter((x) => x !== st)];
-    const shown_ = new Set(lastList.map((p) => `${p.r.name}|${p.area}`)); // already on the list above
     const draw = (lists) => {
       if (elseKey !== key) return;
       const hits = [];
       lists.forEach((d) => { if (!d) return; for (const x of d.p) {
-        if (!x[0].toLowerCase().includes(q)) continue;
+        const nl = x[0].toLowerCase(); if (!nl.includes(q)) continue;
         const cid = d.c[x[1]], a = d.a[x[2]];
-        if (shown_.has(`${x[0]}|${a[0]}`)) continue;
         const inCounty = county.all ? d.st === st : cid === county.id;
-        hits.push({ name: x[0], cid, aid: a[0], an: shortArea(a[1]).replace(/,\s*[A-Z]{2}$/, ""), st: d.st, rank: (town && a[0] === town ? 0 : inCounty ? 1 : d.st === st ? 2 : 3) * 2 + (x[0].toLowerCase().startsWith(q) ? 0 : 1) });
+        hits.push({ name: x[0], cid, aid: a[0], an: shortArea(a[1]).replace(/,\s*[A-Z]{2}$/, ""), st: d.st, rank: (town && a[0] === town ? 0 : inCounty ? 1 : d.st === st ? 2 : 3) * 2 + (nl.startsWith(q) ? 0 : 1) });
       } });
       hits.sort((x, y) => x.rank - y.rank || x.name.localeCompare(y.name));
       elseHits = hits;
-      if (!hits.length) { box.hidden = true; box.innerHTML = ""; return; }
-      box.innerHTML = `<p class="empty-text">${hits.length} more ${hits.length === 1 ? "match" : "matches"} for “${esc(q)}”${lists.length < sts.length ? " (searching other states…)" : ""}:</p><div class="empty-actions">` +
-        hits.slice(0, 12).map((h, i) => { const c = countyById(h.cid); return c ? `<button type="button" class="btn ghost" data-hit="${i}">${esc(h.name)} · ${esc(h.an)}, ${esc(cLabel(c))}, ${esc(h.st)}</button>` : ""; }).join("") +
-        `</div>${hits.length > 12 ? `<p class="empty-text">Type more of the name to narrow it down.</p>` : ""}`;
+      const busy = lists.length < sts.length;
+      if (!hits.length) { box.hidden = !busy; box.innerHTML = busy ? `<p class="hits-head">Searching every state…</p>` : ""; return; }
+      const n = Math.min(hits.length, elseShow);
+      box.innerHTML = `<p class="hits-head">${hits.length.toLocaleString()} ${hits.length === 1 ? "place matches" : "places match"} “${esc(q)}” in every state${busy ? " (still searching…)" : ""}</p><ul class="hits">` +
+        hits.slice(0, n).map((h, i) => { const c = countyById(h.cid); return c ? `<li><button type="button" class="hit" data-hit="${i}"><b>${esc(h.name)}</b><span>${esc(h.an)}, ${esc(cLabel(c))}, ${esc(h.st)}</span></button></li>` : ""; }).join("") +
+        `</ul>${hits.length > n ? `<p class="morewrap"><button type="button" class="btn ghost" data-hitmore="1">Show ${Math.min(40, hits.length - n)} more matches (${(hits.length - n).toLocaleString()} left)</button></p>` : ""}`;
       box.hidden = false;
     };
     const got = [];
@@ -1052,6 +1054,7 @@
     $("q").addEventListener("blur", () => { if (!$("q").value.trim()) setSearchOpen(false); });
     $("clearFilters").addEventListener("click", clearFilters);
     $("elsewhere").addEventListener("click", (e) => {
+      if (e.target.closest("[data-hitmore]")) { elsewhere($("q").value.trim().toLowerCase(), true); return; }
       const b = e.target.closest("[data-hit]"); const h = b && elseHits[+b.dataset.hit]; if (!h) return;
       dayTouched = false; track(`search/pick/${h.cid}`, "Search pick");
       const go = () => { const p = rows.find((x) => x.r.name === h.name && x.area === h.aid); $("q").value = h.name; setSearchOpen(true); render(); if (p) openPlace(p.r.id, h.aid); window.scrollTo && !p && window.scrollTo(0, 0); };
