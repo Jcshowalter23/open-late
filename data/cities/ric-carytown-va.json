@@ -2098,6 +2098,62 @@
    "source": "hours from OpenStreetMap node/10553314712 opening_hours tag (map data 2026-11-01; last checked on the map 2025-01-13) (checked 2026-11-02); late hours confirmed by venue website https://themantuva.com/: \"day and Sunday: | 11AM – 3PM Lunch; 4PM – 9PM Dinner | Friday - Saturday: | 11AM – 3PM Lunch, 4PM – 10PM Dinner | \" (checked 2026-11-02)",
    "county": "Richmond City",
    "addedBy": "sweep-osm"
+  },
+  {
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "addedBy": "gig-v218",
+   "vibes": [
+    "Live music"
+   ],
+   "websiteSource": "checked 2026-11-04",
+   "id": "va-reveler",
+   "name": "Révéler",
+   "cuisine": "Listening room & bar",
+   "address": "3108 W Cary St, Richmond",
+   "state": "VA",
+   "zip": "23221",
+   "phone": "(804) 918-5681",
+   "phoneSource": "venue website",
+   "lat": 37.5532039,
+   "lng": -77.4804733,
+   "website": "https://www.revelerexperiences.com/",
+   "hours": "Mon-Tue 5p-10:30p; Wed-Fri 5p-11p; Sat 2p-11p; Sun 5p-10:30p",
+   "hoursNote": "Hours from Yelp; call ahead to confirm. Most shows have admission.",
+   "source": "hours from Yelp (updated Oct 2026); location from OpenStreetMap",
+   "county": "Richmond City",
+   "livemusic": {
+    "nights": [
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": "7 pm–9:30 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-04",
+      "datedLastSeen": null,
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue event page",
+        "url": "https://www.revelerexperiences.com/event/jazz-workshop-11082026",
+        "date": "2026-11-04",
+        "quote": "JAZZ WORKSHOP ... SUN NOVEMBER 8, 2026 ... Admission: $8 / Free for musicians and singers ... Music: 7PM - 9:30PM"
+       },
+       {
+        "src": "Open Jam Events listing",
+        "url": "https://openjamevents.com/jazz-jam-reveler-richmond-va",
+        "date": "2026-11-04",
+        "quote": "Day Sundays Time: 7:00 PM - 9:30 PM"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Jazz jam; venue lists $8 admission (free for musicians)"
+     }
+    ]
+   }
   }
  ],
  "type": "neighborhood",
