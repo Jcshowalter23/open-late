@@ -89,3 +89,19 @@ Removed, 6+ locations (source):
 - alohapokeco.com — Aloha Poke Co.: 14–16 (alohapokeco.com)
 Kept, 5 or fewer: Montezuma 4; Dinosaur Bar-B-Que 5; Slutty Vegan 5; Rocking Crab 3; Flaming Crab 4; Kani House 5; Capital Ale House 5; Salt Life Food Shack 3; Kobe (kobejs.com, WV/MD/VA, a different brand from FL Kobé) 3; Fox Bros 3 (kiosk and stadium stand not counted); Doc Ford's 3; Houligan's 5; Xtreme Wings 3 (arena stand not counted).
 Flagged (kept): Florida Cracker group (flacracker.com): 10 concepts with different names, 7 of them "Florida Cracker ___". Unclear whether they're one brand.
+
+## v191 (Nov 4, 2026)
+Site change: slim "Follow Open Late" social strip (Jon's version A) above the header on the main app, featured, privacy and every SEO/County page (tools/build_seo.py template). Facebook, Instagram and X links open in a new tab (rel=noopener). Cards unchanged.
+
+Chains removed (6+ real locations, current official source), 8 brands, 24 listings:
+- Ole Times Country Buffet (oletimescountrybuffets.com): 12 on its /locations page (GA, FL, AL)
+- Homemade Taqueria (homemadetaqueria.com): 13 listed on its site
+- Iron Age Korean Steakhouse (ironagekoreansteakhouse.com): 13+ on /locations (DC, GA, IL, MD, VA)
+- El Limón (ellimontaquerias.com): 31 on /locations
+- Barrio Burrito Bar (barrioburritobar.com): 20+ "Now Open" on /store-locations, franchised across ~17 states
+- Tribos Peri Peri (tribosperiperi.com): 8 locations in NJ, CT, MA, MD on its site
+- Banditos Tacos & Tequila (banditostnt.com): site says "six convenient locations"
+- Gringos Locos (gringoslocos.com): not a chain, removed as closed. Every Central Florida location (downtown, Milk District, SoDo, UCF) closed Aug 2026 (ClickOrlando/News 6 Aug 3 2026; Orlando Weekly)
+
+Keeps (5 or fewer): Hudson Grille 5 (hudsongrille.com/page/locations: "Five Spots"), Bandoleros 3 (Oakland Park, Sunrise, Fort Lauderdale), PoFolks 5, American Social 5, Tiki Docks 3, Caddy's 3, Islamorada Fish Co 4 (official site)
+Flag: Appalachian Brewing Co. Its site confirms 3 current brewpubs (Mechanicsburg, Lititz, Gettysburg; Harrisburg closed Jul 2025), but LinkedIn lists more, so the count is unclear. Kept.
