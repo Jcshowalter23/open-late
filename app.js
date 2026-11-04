@@ -811,7 +811,7 @@
   function elsewhere(q, more) {
     const box = $("elsewhere"); if (!box || !county || !index) return;
     const st = cSt(county), town = $("town").value, key = `${county.id}|${town}|${q}|${rows.length}`;
-    if (more) elseShow += 40; else { if (key === elseKey) return; elseShow = 20; }
+    if (more) elseShow += 40; else { if (key === elseKey) { if (q.length >= 2 && elseHits.length) $("empty").hidden = true; return; } elseShow = 20; }
     elseKey = key;
     if (q.length < 2) { box.hidden = true; box.innerHTML = ""; return; }
     const sts = [st, ...(index.states || []).map((s) => s.id).filter((x) => x !== st)];
@@ -828,6 +828,7 @@
       elseHits = hits;
       const busy = lists.length < sts.length;
       if (!hits.length) { box.hidden = !busy; box.innerHTML = busy ? `<p class="hits-head">Searching every state…</p>` : ""; return; }
+      $("empty").hidden = true; // the all-states list replaces "No places in <County> match"
       const n = Math.min(hits.length, elseShow);
       box.innerHTML = `<p class="hits-head">${hits.length.toLocaleString()} ${hits.length === 1 ? "place matches" : "places match"} “${esc(q)}” in every state${busy ? " (still searching…)" : ""}</p><ul class="hits">` +
         hits.slice(0, n).map((h, i) => { const c = countyById(h.cid); return c ? `<li><button type="button" class="hit" data-hit="${i}"><b>${esc(h.name)}</b><span>${esc(h.an)}, ${esc(cLabel(c))}, ${esc(h.st)}</span></button></li>` : ""; }).join("") +
