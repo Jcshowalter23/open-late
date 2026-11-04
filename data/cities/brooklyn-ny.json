@@ -31794,6 +31794,20 @@
      }
     ],
     "checked": "2026-11-02"
+   },
+   "cover": {
+    "text": "Usually no cover",
+    "confidence": "medium",
+    "checked": "2026-11-04",
+    "addedBy": "v207-cover-gigometer",
+    "sources": [
+     {
+      "src": "The Gigometer (NYC gig listings)",
+      "url": "http://www.gigometer.com/",
+      "date": "2026-11-03",
+      "quote": "709 Lorimer Street near Frost Williamsburg, Brooklyn usually no cover"
+     }
+    ]
    }
   },
   {
@@ -54613,7 +54627,21 @@
    ],
    "source": "hours from OpenStreetMap node/4884445809 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://www.sunnysredhook.com/location/sunnys-bar/: \"| Sunny's is open seven days a week. | Mondays & Tuesdays 3pm-midnight | Wednesdays & Thursdays 3pm-1am | Fridays\" (checked 2026-11-02)",
    "county": "Kings",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "cover": {
+    "text": "Usually $10–$15",
+    "confidence": "medium",
+    "checked": "2026-11-04",
+    "addedBy": "v207-cover-gigometer",
+    "sources": [
+     {
+      "src": "The Gigometer (NYC gig listings)",
+      "url": "http://www.gigometer.com/",
+      "date": "2026-11-03",
+      "quote": "315 Columbia Street Red Hook, Brooklyn ... usually $10-$15"
+     }
+    ]
+   }
   },
   {
    "id": "ny-sunshine-laundromat-pinball-brooklyn",
@@ -55522,7 +55550,101 @@
    ],
    "source": "hours from venue website https://skinnydennisbrooklyn.com/: \"HOURS / Daily: 12PM - 4AM\" (checked 2026-11-02); location from OpenStreetMap node/2465888776 (map data 2026-10-31)",
    "county": "Kings",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "cover": {
+    "text": "Mostly no cover; $5–$10 Thu–Sat",
+    "confidence": "medium",
+    "checked": "2026-11-04",
+    "addedBy": "v207-cover-gigometer",
+    "sources": [
+     {
+      "src": "The Gigometer (NYC gig listings)",
+      "url": "http://www.gigometer.com/",
+      "date": "2026-11-03",
+      "quote": "152 Metropolitan Avenue at Berry Williamsburg, Brooklyn mostly no cover, $5-$10 Thu-Sat"
+     }
+    ]
+   },
+   "livemusic": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "9 pm–12 am",
+      "confidence": "medium",
+      "sources": [
+       {
+        "src": "The Gigometer (NYC gig listings)",
+        "url": "http://www.gigometer.com/",
+        "date": "2026-11-03",
+        "quote": "Tue Nov 10: Willy McGee (9 pm-midnight); Tue Nov 17: The Slide Stops (9 pm-midnight)"
+       }
+      ],
+      "note": "From The Gigometer's NYC listings; lineups change, check before going",
+      "basis": "dated listings",
+      "lastSeen": "2026-11-03",
+      "datedLastSeen": "2026-11-03",
+      "postsSeen": 2
+     },
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "9 pm–12 am",
+      "confidence": "medium",
+      "sources": [
+       {
+        "src": "The Gigometer (NYC gig listings)",
+        "url": "http://www.gigometer.com/",
+        "date": "2026-11-03",
+        "quote": "Fri Nov 13: Demolition String Band (9 pm-midnight); Fri Nov 20: The National Reserve (9 pm-midnight)"
+       }
+      ],
+      "note": "From The Gigometer's NYC listings; lineups change, check before going",
+      "basis": "dated listings",
+      "lastSeen": "2026-11-03",
+      "datedLastSeen": "2026-11-03",
+      "postsSeen": 2
+     },
+     {
+      "day": "Sat",
+      "cadence": "weekly",
+      "start": "4 pm–7 pm and 9 pm–12 am",
+      "confidence": "medium",
+      "sources": [
+       {
+        "src": "The Gigometer (NYC gig listings)",
+        "url": "http://www.gigometer.com/",
+        "date": "2026-11-03",
+        "quote": "Sat Nov 21: Low Roller (4-7 pm), Star County (9 pm-midnight); Sat Nov 28: August James (4-7 pm), Daniel Bowden (9 pm-midnight)"
+       }
+      ],
+      "note": "From The Gigometer's NYC listings; lineups change, check before going",
+      "basis": "dated listings",
+      "lastSeen": "2026-11-03",
+      "datedLastSeen": "2026-11-03",
+      "postsSeen": 2
+     },
+     {
+      "day": "Sun",
+      "cadence": "weekly",
+      "start": "4 pm–7 pm and 9 pm–12 am",
+      "confidence": "medium",
+      "sources": [
+       {
+        "src": "The Gigometer (NYC gig listings)",
+        "url": "http://www.gigometer.com/",
+        "date": "2026-11-03",
+        "quote": "Sun Nov 8: Josh Werner (4-7 pm), Vaden Landers (9 pm-midnight); Sun Nov 15 and 22: same 4-7 pm and 9 pm-midnight sets"
+       }
+      ],
+      "note": "From The Gigometer's NYC listings; lineups change, check before going",
+      "basis": "dated listings",
+      "lastSeen": "2026-11-03",
+      "datedLastSeen": "2026-11-03",
+      "postsSeen": 2
+     }
+    ]
+   }
   },
   {
    "id": "ny-the-levee-brooklyn",

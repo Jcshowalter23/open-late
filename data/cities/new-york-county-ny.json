@@ -13102,6 +13102,20 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
+   },
+   "cover": {
+    "text": "No cover",
+    "confidence": "medium",
+    "checked": "2026-11-04",
+    "addedBy": "v207-cover-gigometer",
+    "sources": [
+     {
+      "src": "The Gigometer (NYC gig listings)",
+      "url": "http://www.gigometer.com/",
+      "date": "2026-11-03",
+      "quote": "326 Spring Street Manhattan no cover"
+     }
+    ]
    }
   },
   {
@@ -31971,6 +31985,43 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.ottosshrunkenhead.com/"
+   },
+   "cover": {
+    "text": "No cover",
+    "confidence": "medium",
+    "checked": "2026-11-04",
+    "addedBy": "v207-cover-gigometer",
+    "sources": [
+     {
+      "src": "The Gigometer (NYC gig listings)",
+      "url": "http://www.gigometer.com/",
+      "date": "2026-11-03",
+      "quote": "538 East 14th Street Manhattan no cover"
+     }
+    ]
+   },
+   "livemusic": {
+    "nights": [
+     {
+      "day": "Sat",
+      "cadence": "1st",
+      "start": "8 pm",
+      "confidence": "medium",
+      "sources": [
+       {
+        "src": "The Gigometer (NYC gig listings)",
+        "url": "http://www.gigometer.com/",
+        "date": "2026-11-03",
+        "quote": "Sat Dec 5 2026 and Sat Feb 6 2027: Unsteady Freddie's Surf-Rock Shindig (8 pm, 9:30 pm, 11 pm)"
+       }
+      ],
+      "note": "Monthly surf-rock night per The Gigometer; check before going",
+      "basis": "dated listings",
+      "lastSeen": "2026-11-03",
+      "datedLastSeen": "2026-11-03",
+      "postsSeen": 2
+     }
+    ]
    }
   },
   {
@@ -53428,7 +53479,30 @@
    ],
    "source": "hours from OpenStreetMap node/2491343755 opening_hours tag (map data 2026-10-31; last checked on the map 2021-03-04) (checked 2026-11-02)",
    "county": "New York",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "livemusic": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "9 pm",
+      "confidence": "medium",
+      "sources": [
+       {
+        "src": "The Gigometer (NYC gig listings)",
+        "url": "http://www.gigometer.com/",
+        "date": "2026-11-03",
+        "quote": "Tue Nov 10, 17, 24, Dec 1 2026: Mona's Hot Five (9 pm) traditional jazz"
+       }
+      ],
+      "note": "From The Gigometer's NYC listings; lineups change, check before going",
+      "basis": "dated listings",
+      "lastSeen": "2026-11-03",
+      "datedLastSeen": "2026-11-03",
+      "postsSeen": 2
+     }
+    ]
+   }
   },
   {
    "id": "ny-pauls-da-burger-joint-new-york",
