@@ -280,3 +280,7 @@ dialog#formDlg::backdrop{background:rgba(10,12,18,.55)}
 .social a:hover,.social a:focus-visible{color:#ffc46b}
 .social svg{display:block}
 .social .soc-handle{color:#a8a19b;font-weight:400}
+/* v192: the strip is the topmost element, so only it takes the iOS standalone safe-area inset; the header sits right under it
+   (no doubled inset) and, once stuck, stops below the status bar, which a fixed cover keeps dark. env() is 0 in a normal browser tab. */
+.social + .top{padding-top:8px;top:env(safe-area-inset-top)}
+.social::before{content:"";position:fixed;top:0;left:0;right:0;height:env(safe-area-inset-top);background:#14161f;z-index:11;pointer-events:none}
