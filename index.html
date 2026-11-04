@@ -91,13 +91,6 @@
     <button type="button" class="chip" id="wingDeals" aria-pressed="false">🍗 Wing deals</button>
     <button type="button" class="chip" id="beerDeals" aria-pressed="false">🍺 Beer deals</button>
     <button type="button" class="chip" id="hhDeals" aria-pressed="false">🍸 Happy hour</button>
-    <label class="chip chip-day" id="atChip" title="Show places open at a later time tonight or tomorrow night"><span class="sr">Show places open at</span><select id="atTime" aria-label="Show places open at"></select></label>
-    <button type="button" class="chip" id="kkNights" aria-pressed="false" title="Karaoke on the picked day (from the place's own posts or website)">🎤 Karaoke</button>
-    <button type="button" class="chip" id="djNights" aria-pressed="false" title="DJ nights on the picked day (from the place's own posts or website)">🎧 DJ</button>
-    <button type="button" class="chip" id="lmNights" aria-pressed="false" title="Live music on the picked day (regular shows from the venue's own site, ticketing pages, posts or local guides)">🎸 Live music</button>
-    <button type="button" class="chip" id="tvNights" aria-pressed="false" title="Trivia on the picked day (from the place's own website)">🧠 Trivia</button>
-    <button type="button" class="chip" id="bgNights" aria-pressed="false" title="Bingo on the picked day (from the place's own website)">🎱 Bingo</button>
-    <button type="button" class="chip" id="gdSpots" aria-pressed="false" title="Game day spots and watch parties (from the place's own website or a team's official fan club list)">🏈 Game day</button>
     <button type="button" class="chip" id="odSeats" aria-pressed="false" title="Outdoor seating: patio, deck, rooftop and more (from the place's own website or OpenStreetMap)">☀️ Outdoor</button>
     <button type="button" class="chip" id="onlyDeals" aria-pressed="false">Any deal</button>
   </div>
@@ -105,6 +98,19 @@
 </header>
 
 <main>
+  <div class="filterrow">
+  <details class="more-filters evdd" id="eventsDd">
+    <summary><span id="evLabel">🎉 Events</span></summary>
+    <div class="evpanel" role="group" aria-label="Event filters">
+      <button type="button" class="chip" id="kkNights" aria-pressed="false" title="Karaoke on the picked day (from the place's own posts or website)">🎤 Karaoke</button>
+      <button type="button" class="chip" id="djNights" aria-pressed="false" title="DJ nights on the picked day (from the place's own posts or website)">🎧 DJ</button>
+      <button type="button" class="chip" id="lmNights" aria-pressed="false" title="Live music on the picked day (regular shows from the venue's own site, ticketing pages, posts or local guides)">🎸 Live music</button>
+      <button type="button" class="chip" id="tvNights" aria-pressed="false" title="Trivia on the picked day (from the place's own website)">🧠 Trivia</button>
+      <button type="button" class="chip" id="bgNights" aria-pressed="false" title="Bingo on the picked day (from the place's own website)">🎱 Bingo</button>
+      <button type="button" class="chip" id="gdSpots" aria-pressed="false" title="Game day spots and watch parties (from the place's own website or a team's official fan club list)">🏈 Game day</button>
+    </div>
+  </details>
+  <label class="chip chip-day" id="atChip" title="Show places open at a later time tonight or tomorrow night"><span class="sr">Show places open at</span><select id="atTime" aria-label="Show places open at"></select></label>
   <details class="more-filters" id="moreFilters">
     <summary>More filters <span class="mf-count" id="mfCount"></span></summary>
     <div class="controls">
@@ -119,6 +125,7 @@
     </div>
     <p class="hint">"Kitchen open" only includes places that publish a kitchen close time. Deal filters follow the day you pick in the first chip.</p>
   </details>
+  </div>
 
   <div class="viewbar">
     <p class="count" id="count"></p>

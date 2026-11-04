@@ -420,6 +420,9 @@
     $("day").parentElement.classList.toggle("on", day !== now.d);
     const mf = [cuisine !== "All", price !== "All", vibe !== "All", sort !== "smart" && sort !== "near"].filter(Boolean).length;
     $("mfCount").textContent = mf ? `(${mf} on)` : "";
+    const EVN = [["kkNights", "Karaoke"], ["djNights", "DJ"], ["lmNights", "Live music"], ["tvNights", "Trivia"], ["bgNights", "Bingo"], ["gdSpots", "Game day"]].filter(([id]) => on(id));
+    $("evLabel").textContent = EVN.length === 1 ? `🎉 Events · ${EVN[0][1]}` : EVN.length ? `🎉 Events · ${EVN.length} on` : "🎉 Events";
+    $("eventsDd").classList.toggle("on", EVN.length > 0);
     const kinds = [wingDeals && "wing", beerDeals && "beer", hhDeals && "happy hour"].filter(Boolean).join(" + ");
     const evKinds = [kkOn && "karaoke", djOn && "DJ", lmOn && "live music", tvOn && "trivia", bgOn && "bingo"].filter(Boolean).join(" + ");
     const what = [kinds && kinds + " deals", evKinds && evKinds + " nights"].filter(Boolean).join(" + ") || "deals";
