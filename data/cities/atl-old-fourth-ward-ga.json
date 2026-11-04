@@ -259,65 +259,6 @@
    "phoneSource": "OpenStreetMap node/2498439232 phone tag (map data 2026-10-31), checked 2026-11-01"
   },
   {
-   "id": "ga-bartaco-atlanta",
-   "name": "Bartaco",
-   "cuisine": "Taco",
-   "address": "299 North Highland Ave NE, Atlanta",
-   "state": "GA",
-   "zip": "30307",
-   "phone": "(470) 400-8226",
-   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Atlanta/1536488119970461/Bartaco), checked 2026-11-01",
-   "lat": 33.7625,
-   "lng": -84.3586,
-   "priceText": "$ (Facebook page)",
-   "priceLevel": "$",
-   "website": "https://bartaco.com/location/atlanta-inman/",
-   "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-10p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Bar scene",
-    "Date night"
-   ],
-   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
-   "county": "Fulton",
-   "crowdType": {
-    "labels": [
-     "Date night / upscale"
-    ],
-    "summary": "A date-night / upscale spot.",
-    "confidence": "medium",
-    "details": [
-     {
-      "label": "Date night / upscale",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "venue",
-        "src": "venue's Facebook page description (via foodyas)",
-        "url": "https://www.foodyas.com/US/Atlanta/1536488119970461/Bartaco",
-        "quote": "Website | Inspired by a healthy, outdoor lifestyle, bartaco combines fresh, upscale street food with a coastal vibe in a relaxed environment. | (1660) | bartaco is specialty",
-        "self": true
-       }
-      ]
-     }
-    ]
-   },
-   "crowdChecked": "2026-11-01",
-   "crowdSources": {
-    "restaurantji": null,
-    "facebookMirror": "https://www.foodyas.com/US/Atlanta/1536488119970461/Bartaco",
-    "fbPostsSeen": 15,
-    "fbNewestPost": "2026-06-23",
-    "website": "https://bartaco.com/location/atlanta-inman/"
-   },
-   "menu": "http://order.bartaco.com/menu/bartaco-inman"
-  },
-  {
    "id": "ga-beetlecat",
    "name": "BeetleCat",
    "cuisine": "Seafood",
@@ -2351,68 +2292,6 @@
     ],
     "checked": "2026-11-02"
    }
-  },
-  {
-   "id": "ga-superica-krog",
-   "name": "Superica Krog",
-   "cuisine": "Tex-mex",
-   "address": "99 Krog St NE, Atlanta",
-   "state": "GA",
-   "zip": "30307",
-   "phone": "(678) 791-1310",
-   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Atlanta/220804848124787/Superica-Krog), checked 2026-11-01. Conflicting (404) 458-4534 on Restaurantji (updated 2026-10-31) not used. Conflicting (404) 458-4534 on Restaurantji (updated 2026-10-31) not used",
-   "lat": 33.757,
-   "lng": -84.3642,
-   "priceText": "$$ (Facebook page)",
-   "priceLevel": "$$",
-   "website": "http://superica.com/",
-   "hours": "Mon-Thu 5p-10p; Fri 11a-10p; Sat 10a-11p; Sun 10a-10p",
-   "hoursNote": "Restaurantji (updated 2026-10-31) lists different hours: Mon 5p-11p; Tue-Wed closed; Thu-Sun 5p-11p. Call ahead to confirm.",
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
-   "county": "Fulton",
-   "crowdChecked": "2026-11-01",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/ga/atlanta/ticonderoga-club-/",
-    "facebookMirror": "https://www.foodyas.com/US/Atlanta/220804848124787/Superica-Krog",
-    "fbPostsSeen": 12,
-    "fbNewestPost": "2026-10-31",
-    "website": null
-   },
-   "conflicts": [
-    {
-     "field": "phone",
-     "values": {
-      "facebook": "(678) 791-1310",
-      "restaurantji": "(404) 458-4534"
-     },
-     "resolution": "Facebook number kept (venue-managed page)",
-     "checked": "2026-11-01"
-    },
-    {
-     "field": "hours",
-     "values": {
-      "facebook": "Mon-Thu 5p-10p; Fri 11a-10p; Sat 10a-11p; Sun 10a-10p",
-      "restaurantji": "Mon 5p-11p; Tue-Wed closed; Thu-Sun 5p-11p"
-     },
-     "days": [
-      "Mon",
-      "Tue",
-      "Wed",
-      "Thu",
-      "Fri",
-      "Sat",
-      "Sun"
-     ],
-     "resolution": "Facebook page hours kept (venue-managed, active)",
-     "checked": "2026-11-01"
-    }
-   ]
   },
   {
    "id": "ga-tacos-and-tequilas-mexican-grill-2",

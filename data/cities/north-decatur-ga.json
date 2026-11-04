@@ -90,82 +90,6 @@
    ]
   },
   {
-   "id": "ga-city-barbeque-decatur",
-   "name": "City Barbeque Decatur",
-   "cuisine": "Barbecue",
-   "address": "2511 BLACKMON Dr, Decatur",
-   "state": "GA",
-   "zip": "30030",
-   "phone": "(404) 410-2566",
-   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Decatur/103356458566997/City-Barbeque-Decatur), checked 2026-11-01",
-   "lat": 33.7948,
-   "lng": -84.2873,
-   "website": "https://www.citybbq.com/",
-   "hours": "Daily 10:30a-9p",
-   "hoursNote": "Hours differ by source: Facebook page lists Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p (no posts since May 2026); Restaurantji (updated 2026-10-08) used as newer. Call ahead.",
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Bar scene"
-   ],
-   "source": "hours from Restaurantji (updated 2026-10-08; newer than any Facebook activity) (checked 2026-11-01)",
-   "county": "DeKalb",
-   "crowdType": {
-    "labels": [
-     "Families"
-    ],
-    "summary": "Family-friendly.",
-    "confidence": "medium",
-    "details": [
-     {
-      "label": "Families",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-08",
-        "url": "https://www.restaurantji.com/ga/decatur/city-barbeque-/",
-        "quote": "e and friendly staff. The restaurant is wheelchair accessible with plenty of space. It is kid-friendly, making it a great spot for families. Many customers enjoy the food and the welcoming atm",
-        "agg": true
-       }
-      ]
-     }
-    ]
-   },
-   "crowdChecked": "2026-11-01",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/ga/decatur/city-barbeque-/",
-    "facebookMirror": "https://www.foodyas.com/US/Decatur/103356458566997/City-Barbeque-Decatur",
-    "fbPostsSeen": 1,
-    "fbNewestPost": "2022-03-28",
-    "website": "https://www.citybbq.com/"
-   },
-   "conflicts": [
-    {
-     "field": "hours",
-     "values": {
-      "facebook": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
-      "restaurantji": "Daily 10:30a-9p"
-     },
-     "days": [
-      "Mon",
-      "Tue",
-      "Wed",
-      "Thu",
-      "Fri",
-      "Sat",
-      "Sun"
-     ],
-     "resolution": "Restaurantji hours used (newer)",
-     "checked": "2026-11-01"
-    }
-   ],
-   "menu": "https://www.citybbq.com/menu"
-  },
-  {
    "id": "ga-kindred",
    "name": "Kindred",
    "cuisine": "Restaurant",
@@ -474,51 +398,6 @@
     "website": "http://www.meltonsappandtap.com/"
    },
    "phoneSource": "Venue website www.meltonsappandtap.com, checked 2026-11-02"
-  },
-  {
-   "id": "ga-pita-street-food-decatur",
-   "name": "Pita Street Food",
-   "cuisine": "Restaurant",
-   "address": "2125 North Decatur Rd, Decatur",
-   "state": "GA",
-   "zip": "30033",
-   "phone": null,
-   "lat": 33.7901,
-   "lng": -84.3055,
-   "priceText": "$ (Facebook page)",
-   "priceLevel": "$",
-   "website": "http://www.pitastreetfood.com/",
-   "hours": "Mon-Sat 11a-9p; Sun 11a-8p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
-   "county": "DeKalb",
-   "crowdChecked": "2026-11-01",
-   "crowdSources": {
-    "restaurantji": null,
-    "facebookMirror": "https://www.foodyas.com/US/Decatur/333634434252403/Pita-Street-Food",
-    "fbPostsSeen": 14,
-    "fbNewestPost": "2026-10-30",
-    "website": null
-   },
-   "outdoor": {
-    "types": [
-     "outdoor"
-    ],
-    "sources": [
-     {
-      "src": "OpenStreetMap node/13237603625 outdoor tags (yes; map data 2026-11-01)",
-      "url": "https://www.openstreetmap.org/node/13237603625",
-      "checked": "2026-11-02"
-     }
-    ],
-    "checked": "2026-11-02"
-   }
   },
   {
    "id": "ga-prima-injera-restaurant",
@@ -1132,40 +1011,6 @@
     ]
    },
    "phoneSource": "OpenStreetMap node/13430402916 phone tag (map data 2026-10-31), checked 2026-11-01"
-  },
-  {
-   "id": "ga-willys-mexicana-grill-decatur",
-   "name": "Willy's Mexicana Grill",
-   "cuisine": "Tex-mex",
-   "address": "2074 N Decatur Rd, Decatur",
-   "state": "GA",
-   "zip": "30033",
-   "phone": "(404) 321-6060",
-   "phoneSource": "Facebook page (via foodyas mirror https://www.foodyas.com/US/Decatur/113595695341865/Willy%27s-Mexicana-Grill), checked 2026-11-01",
-   "lat": 33.7909,
-   "lng": -84.307,
-   "priceText": "$ (Facebook page)",
-   "priceLevel": "$",
-   "website": "https://willys.com/locations/clairmont-north-decatur-rd/",
-   "hours": "Daily 11a-10p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
-   "county": "DeKalb",
-   "crowdChecked": "2026-11-01",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/ga/decatur/willys-mexicana-grill-/",
-    "facebookMirror": "https://www.foodyas.com/US/Decatur/113595695341865/Willy%27s-Mexicana-Grill",
-    "fbPostsSeen": 15,
-    "fbNewestPost": "2026-10-31",
-    "website": "https://willys.com/locations/clairmont-north-decatur-rd/"
-   },
-   "menu": "https://willys.com/menu/"
   },
   {
    "id": "ga-ghion-ethiopian-restaurant-decatur",
