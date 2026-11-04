@@ -765,10 +765,16 @@
   const countyData = new Map(); // id -> Promise of the County file
   const extra = new Map(); // pkey -> prepped place from another County
   function getJSON(url) { return fetch(url, { cache: "no-cache" }).then((r) => { if (!r.ok) throw new Error(`${url}: HTTP ${r.status}`); return r.json(); }); }
+  // County files: a slow or failed fetch is retried (2 more tries, 0.5 s then 1.5 s backoff; 20 s per try) so All counties never drops a file
+  function getJSONRetry(url, tries = 3, wait = 500) {
+    const once = () => { const ac = typeof AbortController === "function" ? new AbortController() : null, t = ac && setTimeout(() => ac.abort(), 20000);
+      return fetch(url, ac ? { cache: "no-cache", signal: ac.signal } : { cache: "no-cache" }).then((r) => { if (!r.ok) throw new Error(`${url}: HTTP ${r.status}`); return r.json(); }).finally(() => t && clearTimeout(t)); };
+    return once().catch((e) => { if (tries <= 1) throw e; return new Promise((r) => setTimeout(r, wait)).then(() => getJSONRetry(url, tries - 1, wait * 3)); });
+  }
   function getCounty(cid) {
     if (!countyData.has(cid)) {
       const c = countyById(cid), pre = window.__olPre; // index.html starts the likely County's fetch before app.js loads
-      const pr = pre && pre.id === cid ? pre.p.catch(() => getJSON(c.file)) : getJSON(c.file);
+      const pr = pre && pre.id === cid ? pre.p.catch(() => getJSONRetry(c.file)) : getJSONRetry(c.file);
       if (pre && pre.id === cid) window.__olPre = null;
       countyData.set(cid, pr.catch((e) => { countyData.delete(cid); throw e; }));
     }
