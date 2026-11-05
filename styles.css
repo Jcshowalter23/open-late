@@ -381,3 +381,6 @@ dialog#formDlg::backdrop,dialog#tnDlg::backdrop{background:rgba(10,12,18,.55)}
 .filterrow #moreFilters>.mfpanel{position:absolute;left:0;right:0;top:100%;z-index:20;margin:0;padding:10px 12px;background:var(--bg);border-bottom:1px solid var(--line);box-shadow:0 8px 16px rgba(0,0,0,.12);max-height:calc(100vh - var(--toph,0px) - 60px);overflow-y:auto}
 @media (min-width:760px){.filterrow{position:relative}}
 @media (max-width:759px){.filterrow:has(#moreFilters[open]){flex-wrap:nowrap;max-height:none;overflow:visible}}
+
+/* clock panel drops below the filter row instead of covering the button */
+@media (max-width:759px){.clockdd{position:static}.clockpanel{position:absolute;left:0;right:0;top:100%;width:auto;max-height:calc(100vh - var(--toph,0px) - 60px);border-radius:0 0 14px 14px;margin:0}}

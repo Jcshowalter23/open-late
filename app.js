@@ -1108,10 +1108,11 @@
     });    $("seeCounty").addEventListener("click", () => { $("town").value = ""; $("town").dispatchEvent(new Event("change")); window.scrollTo(0, 0); });
     // 🕘 day + time dropdown: picks the deals/nights day (#day) and the open-at time (#atTime) together
     { const btn = $("clockBtn"), panel = $("clockPanel"), close = () => { panel.hidden = true; btn.setAttribute("aria-expanded", "false"); };
-      btn.addEventListener("click", () => { if (panel.hidden) { const ev = $("eventsDd"); if (ev) ev.open = false; clockFill(); panel.hidden = false; btn.setAttribute("aria-expanded", "true"); } else close(); });
+      btn.addEventListener("click", () => { if (panel.hidden) { const ev = $("eventsDd"); if (ev) ev.open = false; const mf = $("moreFilters"); if (mf) mf.open = false; clockFill(); panel.hidden = false; btn.setAttribute("aria-expanded", "true"); } else close(); });
       document.addEventListener("pointerdown", (e) => { if (!panel.hidden && !$("atChip").contains(e.target)) close(); });
       document.addEventListener("click", (e) => { if (!panel.hidden && !$("atChip").contains(e.target)) close(); });
       document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !panel.hidden) { close(); btn.focus(); } });
+      { const mf = $("moreFilters"); if (mf) mf.addEventListener("toggle", () => { if (mf.open) close(); }); }
       panel.addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return;
         if (b.dataset.day !== undefined) { const d = $("day"); d.value = b.dataset.day; d.dispatchEvent(new Event("change")); const at = $("atTime"); if (at.value !== "0") { at.value = "0"; at.dispatchEvent(new Event("change")); } clockFill(); return; }
         if (b.dataset.t !== undefined) { const at = $("atTime"); at.value = b.dataset.t; at.dispatchEvent(new Event("change")); close(); } }); }
