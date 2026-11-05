@@ -1,6 +1,7 @@
 "use strict";
 (function () {
   // phones: "Open at:" becomes "At:" so Events, Open at and More filters fit on one line
+  const PH = () => !!(window.matchMedia && matchMedia("(max-width:759px)").matches);
   const AT = () => (window.matchMedia && matchMedia("(max-width:759px)").matches ? "🕘 " : "Open at: ");
   const DAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
   const DAY_LONG = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -162,7 +163,7 @@
     for (let t = start; out.length < 80; t += step) {
       const c = cityNow(city.timezone, new Date(t));
       if (c.m > 240 && c.m < 660) { if (c.m === 270 && ++nights >= 2) break; continue; } // skip 4:30 am - 11 am; stop after the second 4 am
-      out.push({ value: String(t), label: `${AT()}${c.d === now.d ? "" : DAYS[c.d] + " "}${fmtL(c.m)}` });
+      out.push({ value: String(t), label: `${AT()}${c.d === now.d || (PH() && t - Date.now() < 12 * 3600000) ? "" : DAYS[c.d] + " "}${PH() ? fmtL(c.m).replace(" am", "a").replace(" pm", "p") : fmtL(c.m)}` });
     }
     opts(sel, out); sel.value = String(atT); if (sel.value !== String(atT)) { atT = 0; sel.value = "0"; }
     $("atChip").classList.toggle("on", !!atT);

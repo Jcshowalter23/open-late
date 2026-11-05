@@ -326,6 +326,10 @@ dialog#formDlg::backdrop,dialog#tnDlg::backdrop{background:rgba(10,12,18,.55)}
   .filterrow #atChip{padding:0}
   .filterrow #atChip select,.chiprow .chip-day select{box-sizing:border-box;height:100%;min-height:0;padding-top:0;padding-bottom:0;line-height:1.2}
   .filterrow #atChip::after{right:10px}
+  .filterrow{column-gap:4px}
+  .filterrow summary{padding:0 8px}
+  .filterrow #atChip select{padding:0 18px 0 8px}
+  .filterrow #atChip::after{right:7px}
   .pick select{box-sizing:border-box;height:34px;min-height:0;padding:0 10px;line-height:1.2;border-width:1px;border-radius:999px}
   .chiprow .chip{box-sizing:border-box;height:34px;min-height:0;padding-top:0;padding-bottom:0;line-height:1.2}
   .seg{box-sizing:border-box;height:34px}
