@@ -195,6 +195,13 @@
     if (p.k) { const ks = stateAt(p.k, a.d, a.m); if (ks.open) { k = `kitchen till ${fmtL(ks.close)}`; kc = " k-open"; } else if (ks.known) k = "kitchen closed"; }
     return `<span class="kitchen${kc}" data-at="1">${esc(when)}: ${esc(open)} · ${esc(k)}</span>`;
   }
+  // picked a later day with "Any time": show that day's listed hours, since the status line above is for right now
+  function dayLine(p) {
+    const dv = Number($("day").value); if (atT || dv === ALL || dv === now.d || dv < 0 || dv > 6) return "";
+    const t = p.w && p.w[dv];
+    const h = p.is24 ? "open 24 hours" : t === undefined ? "hours not listed" : !t || !t.length ? "closed" : t.map(([o, c]) => `${fmtL(o)} – ${fmtL(c)}`).join(", ");
+    return `<span class="kitchen" data-at="1">${esc(DAYS[dv])}: ${esc(h)}</span>`;
+  }
   function tick() {
     const prevD = now.d;
     now = cityNow(city.timezone); tzNows = new Map();
@@ -442,10 +449,6 @@
     $("day").parentElement.classList.toggle("on", day !== now.d);
     const mf = [cuisine !== "All", price !== "All", vibe !== "All", sort !== "smart" && sort !== "near"].filter(Boolean).length;
     $("mfCount").textContent = mf ? `(${mf} on)` : "";
-    const EVN = [["kkNights", "Karaoke"], ["djNights", "DJ"], ["lmNights", "Live music"], ["tvNights", "Trivia"], ["bgNights", "Bingo"], ["gdSpots", "Game day"]].filter(([id]) => on(id));
-    const evPre = PH() ? "🎉 " : "🎉 Events · "; // phones: drop "Events ·" so the row stays on one line
-    if ($("evLabel")) $("evLabel").textContent = EVN.length === 1 ? `${evPre}${EVN[0][1]}` : EVN.length ? `${evPre}${EVN.length} on` : "🎉 Events";
-    if ($("eventsDd")) $("eventsDd").classList.toggle("on", EVN.length > 0);
     if ($("favCt")) { const n = favs.size; $("favCt").hidden = !n; $("favCt").textContent = n > 99 ? "99+" : String(n); }
     clockSync();
     const kinds = [wingDeals && "wing", beerDeals && "beer", hhDeals && "happy hour"].filter(Boolean).join(" + ");
@@ -539,7 +542,7 @@
         <button type="button" class="fav" data-act="fav" aria-pressed="${fav}" aria-label="${fav ? "Remove from" : "Add to"} favorites: ${esc(r.name)}">${fav ? "♥" : "♡"}</button>
         ${top2 ? `<div class="town">${top2}</div>` : ""}
         <h2>${esc(r.name)}${isFeat(r) ? ` <span class="badge b-feat">Featured</span>` : ""}${r.vf ? ` <span class="badge b-vf" title="The owner confirmed this listing on ${esc(shortDate(r.vf.d))}">✓ Verified by owner</span>` : ""}${meta ? ` <span class="meta">${meta}</span>` : ""}</h2>
-        <div class="status ${st.cls}"><span class="dot" aria-hidden="true"></span><span>${esc(st.text)}</span>${kline}${atT ? atLine(p) : ""}${tonight ? (tonightInfo(p).kitchen > 0 ? `<span class="lk lk-t" title="Kitchen open past 11 PM tonight (per listed kitchen hours)">🍔 Food till ${fmt(tonightInfo(p).kitchen)}</span>` : "") : lateKitchen(p) ? `<span class="lk" title="Kitchen open past 11 PM today (per listed kitchen hours)">Late kitchen</span>` : ""}</div>
+        <div class="status ${st.cls}"><span class="dot" aria-hidden="true"></span><span>${esc(st.text)}</span>${kline}${atT ? atLine(p) : dayLine(p)}${tonight ? (tonightInfo(p).kitchen > 0 ? `<span class="lk lk-t" title="Kitchen open past 11 PM tonight (per listed kitchen hours)">🍔 Food till ${fmt(tonightInfo(p).kitchen)}</span>` : "") : lateKitchen(p) ? `<span class="lk" title="Kitchen open past 11 PM today (per listed kitchen hours)">Late kitchen</span>` : ""}</div>
         ${dline}${elines}${gdLine}${ctLine}${odLine}${cvLine}
         ${p.lc ? `<div class="lchk">${esc(p.lc)}</div>` : ""}
         <details class="more-info" data-key="${esc(ck)}"${openCards.has(ck) ? " open" : ""}>
@@ -1108,7 +1111,7 @@
     });    $("seeCounty").addEventListener("click", () => { $("town").value = ""; $("town").dispatchEvent(new Event("change")); window.scrollTo(0, 0); });
     // 🕘 day + time dropdown: picks the deals/nights day (#day) and the open-at time (#atTime) together
     { const btn = $("clockBtn"), panel = $("clockPanel"), close = () => { panel.hidden = true; btn.setAttribute("aria-expanded", "false"); };
-      btn.addEventListener("click", () => { if (panel.hidden) { const ev = $("eventsDd"); if (ev) ev.open = false; const mf = $("moreFilters"); if (mf) mf.open = false; clockFill(); panel.hidden = false; btn.setAttribute("aria-expanded", "true"); } else close(); });
+      btn.addEventListener("click", () => { if (panel.hidden) { const mf = $("moreFilters"); if (mf) mf.open = false; clockFill(); panel.hidden = false; btn.setAttribute("aria-expanded", "true"); } else close(); });
       document.addEventListener("pointerdown", (e) => { if (!panel.hidden && !$("atChip").contains(e.target)) close(); });
       document.addEventListener("click", (e) => { if (!panel.hidden && !$("atChip").contains(e.target)) close(); });
       document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !panel.hidden) { close(); btn.focus(); } });
@@ -1116,12 +1119,13 @@
       panel.addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return;
         if (b.dataset.day !== undefined) { const d = $("day"); d.value = b.dataset.day; d.dispatchEvent(new Event("change")); const at = $("atTime"); if (at.value !== "0") { at.value = "0"; at.dispatchEvent(new Event("change")); } clockFill(); return; }
         if (b.dataset.t !== undefined) { const at = $("atTime"); at.value = b.dataset.t; at.dispatchEvent(new Event("change")); close(); } }); }
-    // Events dropdown: close on a tap/click outside it, on Escape, and when the time picker is used
-    { const ev = $("eventsDd"), closeEv = () => { if (ev && ev.open) ev.open = false; };
-      document.addEventListener("pointerdown", (e) => { if (ev && ev.open && !ev.contains(e.target)) closeEv(); });
-      document.addEventListener("click", (e) => { if (ev && ev.open && !ev.contains(e.target)) closeEv(); });
-      document.addEventListener("keydown", (e) => { if (e.key === "Escape" && ev && ev.open) { closeEv(); const s = ev.querySelector("summary"); if (s) s.focus(); } });
-      $("atTime").addEventListener("focus", closeEv); }
+    // More filters: close on a tap/click outside the panel and its button, and on Escape (taps inside it, including native select pickers, keep it open)
+    { const mf = $("moreFilters");
+      if (mf) {
+        const outside = (e) => { if (!mf.open || mf.contains(e.target)) return; const ae = document.activeElement; if (ae && ae.tagName === "SELECT" && mf.contains(ae)) { ae.blur(); return; } mf.open = false; };
+        document.addEventListener("pointerdown", outside); document.addEventListener("click", outside);
+        document.addEventListener("keydown", (e) => { if (e.key === "Escape" && mf.open) { mf.open = false; const s = mf.querySelector("summary"); if (s) s.focus(); } });
+      } }
     $("list").addEventListener("toggle", (e) => { const d = e.target; if (d.dataset && d.dataset.key) { if (d.open) openCards.add(d.dataset.key); else openCards.delete(d.dataset.key); const c = d.closest(".card"); if (c) c.setAttribute("aria-expanded", String(d.open)); } }, true);
     // the whole card opens its details (one card open at a time); tapping the open card closes it
     const setCard = (card, open) => {
@@ -1167,6 +1171,7 @@
         const f = favs.has(key);
         b.setAttribute("aria-pressed", String(f)); b.textContent = f ? "♥" : "♡";
         b.setAttribute("aria-label", `${f ? "Remove from" : "Add to"} favorites: ${p ? p.r.name : ""}`);
+        if ($("favCt")) { const n = favs.size; $("favCt").hidden = !n; $("favCt").textContent = n > 99 ? "99+" : String(n); }
         if (on("favsOnly")) render();
       } else if (b.dataset.act === "share" && p) share(p);
       else if (b.dataset.act === "sources") {
