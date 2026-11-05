@@ -1881,7 +1881,38 @@
     "website": "https://starrhill.com/lynchburg/"
    },
    "trivia": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "posted on 5 different Tues",
+      "lastSeen": "2026-12-01",
+      "datedLastSeen": "2026-12-01",
+      "postsSeen": 5,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://starrhill.com/crozet",
+        "date": "2026-12-01",
+        "quote": " up as close to December 1st as possible to ensure that they can get a spot in our Mug Club. | When should I arrive for >> When should I arrive for Trivia Night"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://starrhill.com/crozet",
+        "date": "2026-12-01",
+        "quote": "December 1st as possible to ensure that they can get a spot in our Mug Club. | When should I arrive for Trivia Night? | >> Trivia with Olivia is one of our most popular programs, which means our space fills up quickly"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://starrhill.com/crozet",
+        "date": "2026-11-24",
+        "quote": "Nov | 24 | November 24, 2026 | >> Trivia Night"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -2789,7 +2820,8 @@
      }
     ],
     "checked": "2026-11-02"
-   }
+   },
+   "menu": "https://www.waterstonepizza.com/menu-2025"
   },
   {
    "id": "va-three-roads-brewing-lynchburg",
@@ -2946,7 +2978,8 @@
      }
     ],
     "checked": "2026-11-02"
-   }
+   },
+   "menu": "https://www.jojopizzalynchburg.com/calzone"
   },
   {
    "id": "va-dragons-garden-lynchburg",
@@ -2998,7 +3031,8 @@
    ],
    "source": "hours from venue website https://el-32.com/: \"El 32 at 1118 Main St in downtown Lynchburg ... openingHoursSpecification: Wednesday, Thursday, Friday, Saturday opens 20:00 closes 02:00\" (checked 2026-11-02); location from OpenStreetMap node/9834639958 (map data 2026-11-01)",
    "county": "Lynchburg City",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://el-32.com/menu"
   }
  ],
  "type": "city",

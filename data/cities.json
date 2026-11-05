@@ -61,6 +61,14 @@
     {
       "id": "MA",
       "name": "Massachusetts"
+    },
+    {
+      "id": "VT",
+      "name": "Vermont"
+    },
+    {
+      "id": "NH",
+      "name": "New Hampshire"
     }
   ],
   "comingSoon": [
@@ -69,16 +77,8 @@
       "name": "Maine"
     },
     {
-      "id": "NH",
-      "name": "New Hampshire"
-    },
-    {
       "id": "OH",
       "name": "Ohio"
-    },
-    {
-      "id": "VT",
-      "name": "Vermont"
     }
   ],
   "countyAliases": {
@@ -591,6 +591,46 @@
       "id": "western-ma",
       "name": "Western MA (Springfield, Pittsfield, Amherst)",
       "state": "MA"
+    },
+    {
+      "id": "champlain-valley-vt",
+      "name": "Burlington & Champlain Valley (Burlington, Middlebury, St. Albans)",
+      "state": "VT"
+    },
+    {
+      "id": "central-vt",
+      "name": "Central VT (Montpelier, Barre, Stowe)",
+      "state": "VT"
+    },
+    {
+      "id": "northeast-kingdom-vt",
+      "name": "Northeast Kingdom (St. Johnsbury, Newport)",
+      "state": "VT"
+    },
+    {
+      "id": "southern-vt",
+      "name": "Southern VT (Rutland, Brattleboro, Bennington, Woodstock)",
+      "state": "VT"
+    },
+    {
+      "id": "merrimack-valley-nh",
+      "name": "Manchester & Nashua (Merrimack Valley)",
+      "state": "NH"
+    },
+    {
+      "id": "seacoast-nh",
+      "name": "Seacoast (Portsmouth, Dover, Hampton, Salem)",
+      "state": "NH"
+    },
+    {
+      "id": "lakes-capital-nh",
+      "name": "Concord, Lakes & White Mountains (Laconia, North Conway)",
+      "state": "NH"
+    },
+    {
+      "id": "western-north-nh",
+      "name": "Monadnock, Upper Valley & North Country (Keene, Hanover, Berlin)",
+      "state": "NH"
     }
   ],
   "areas": [
@@ -29563,6 +29603,909 @@
       ],
       "state": "MA",
       "pickerState": "MA"
+    },
+    {
+      "id": "middlebury-vt",
+      "name": "Middlebury, Bristol & Vergennes (Addison County), VT",
+      "type": "town",
+      "region": "champlain-valley-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/middlebury-vt.json",
+      "status": "live",
+      "counties": [
+        "Addison"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "woodford-vt",
+      "name": "Woodford, VT",
+      "type": "town",
+      "region": "southern-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/woodford-vt.json",
+      "status": "live",
+      "counties": [
+        "Bennington"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "manchester-vt",
+      "name": "Manchester, Dorset & Winhall, VT",
+      "type": "town",
+      "region": "southern-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/manchester-vt.json",
+      "status": "live",
+      "counties": [
+        "Bennington"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "st-johnsbury-vt",
+      "name": "St. Johnsbury, Hardwick & Danville (Caledonia County), VT",
+      "type": "town",
+      "region": "northeast-kingdom-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/st-johnsbury-vt.json",
+      "status": "live",
+      "counties": [
+        "Caledonia"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "essex-vt",
+      "name": "Essex, Jericho & Underhill Flats, VT",
+      "type": "town",
+      "region": "champlain-valley-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/essex-vt.json",
+      "status": "live",
+      "counties": [
+        "Chittenden"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "williston-vt",
+      "name": "Williston, Hinesburg & Richmond, VT",
+      "type": "town",
+      "region": "champlain-valley-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/williston-vt.json",
+      "status": "live",
+      "counties": [
+        "Chittenden"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "burlington-vt",
+      "name": "Burlington, VT",
+      "type": "city",
+      "region": "champlain-valley-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/burlington-vt.json",
+      "status": "live",
+      "counties": [
+        "Chittenden"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "south-burlington-vt",
+      "name": "South Burlington, Shelburne & West Charlotte, VT",
+      "type": "town",
+      "region": "champlain-valley-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/south-burlington-vt.json",
+      "status": "live",
+      "counties": [
+        "Chittenden"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "winooski-vt",
+      "name": "Winooski, VT",
+      "type": "town",
+      "region": "champlain-valley-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/winooski-vt.json",
+      "status": "live",
+      "counties": [
+        "Chittenden"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "colchester-vt",
+      "name": "Colchester & Milton, VT",
+      "type": "town",
+      "region": "champlain-valley-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/colchester-vt.json",
+      "status": "live",
+      "counties": [
+        "Chittenden"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "essex-junction-vt",
+      "name": "Essex Junction, VT",
+      "type": "town",
+      "region": "champlain-valley-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/essex-junction-vt.json",
+      "status": "live",
+      "counties": [
+        "Chittenden"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "brighton-vt",
+      "name": "Brighton, Canaan & Norton (Essex County), VT",
+      "type": "town",
+      "region": "northeast-kingdom-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/brighton-vt.json",
+      "status": "live",
+      "counties": [
+        "Essex"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "st-albans-vt",
+      "name": "St. Albans, Montgomery & Enosburgh (Franklin County), VT",
+      "type": "town",
+      "region": "champlain-valley-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/st-albans-vt.json",
+      "status": "live",
+      "counties": [
+        "Franklin"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "south-hero-vt",
+      "name": "South Hero, North Hero & Alburgh (Grand Isle County), VT",
+      "type": "town",
+      "region": "champlain-valley-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/south-hero-vt.json",
+      "status": "live",
+      "counties": [
+        "Grand Isle"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "stowe-vt",
+      "name": "Stowe, Cambridge & Morristown (Lamoille County), VT",
+      "type": "town",
+      "region": "central-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/stowe-vt.json",
+      "status": "live",
+      "counties": [
+        "Lamoille"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "bradford-vt",
+      "name": "Bradford, Randolph & Thetford (Orange County), VT",
+      "type": "town",
+      "region": "central-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/bradford-vt.json",
+      "status": "live",
+      "counties": [
+        "Orange"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "newport-vt",
+      "name": "Newport, Derby & Glover (Orleans County), VT",
+      "type": "town",
+      "region": "northeast-kingdom-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/newport-vt.json",
+      "status": "live",
+      "counties": [
+        "Orleans"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "brandon-vt",
+      "name": "Brandon, Fair Haven & Poultney, VT",
+      "type": "town",
+      "region": "southern-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/brandon-vt.json",
+      "status": "live",
+      "counties": [
+        "Rutland"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "killington-village-vt",
+      "name": "Killington Village, Killington & Pittsfield, VT",
+      "type": "town",
+      "region": "southern-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/killington-village-vt.json",
+      "status": "live",
+      "counties": [
+        "Rutland"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "montpelier-vt",
+      "name": "Montpelier, Waitsfield & Barre (Washington County), VT",
+      "type": "town",
+      "region": "central-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/montpelier-vt.json",
+      "status": "live",
+      "counties": [
+        "Washington"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "dover-vt",
+      "name": "Dover, Stratton & Londonderry, VT",
+      "type": "town",
+      "region": "southern-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/dover-vt.json",
+      "status": "live",
+      "counties": [
+        "Windham"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "wilmington-vt",
+      "name": "Wilmington, VT",
+      "type": "town",
+      "region": "southern-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/wilmington-vt.json",
+      "status": "live",
+      "counties": [
+        "Windham"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "brattleboro-vt",
+      "name": "Brattleboro, Bellows Falls & Westminster, VT",
+      "type": "town",
+      "region": "southern-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/brattleboro-vt.json",
+      "status": "live",
+      "counties": [
+        "Windham"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "woodstock-vt",
+      "name": "Woodstock, South Royalton & Bethel, VT",
+      "type": "town",
+      "region": "southern-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/woodstock-vt.json",
+      "status": "live",
+      "counties": [
+        "Windsor"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "springfield-vt",
+      "name": "Springfield, Chester & Weathersfield, VT",
+      "type": "town",
+      "region": "southern-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/springfield-vt.json",
+      "status": "live",
+      "counties": [
+        "Windsor"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "ludlow-vt",
+      "name": "Ludlow, Proctorsville & Weston, VT",
+      "type": "town",
+      "region": "southern-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/ludlow-vt.json",
+      "status": "live",
+      "counties": [
+        "Windsor"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "white-river-junction-vt",
+      "name": "White River Junction, Hartford & Quechee, VT",
+      "type": "town",
+      "region": "southern-vt",
+      "timezone": "America/New_York",
+      "file": "data/cities/white-river-junction-vt.json",
+      "status": "live",
+      "counties": [
+        "Windsor"
+      ],
+      "state": "VT",
+      "pickerState": "VT"
+    },
+    {
+      "id": "laconia-nh",
+      "name": "Laconia, Gilford & Alton, NH",
+      "type": "town",
+      "region": "lakes-capital-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/laconia-nh.json",
+      "status": "live",
+      "counties": [
+        "Belknap"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 38
+    },
+    {
+      "id": "meredith-nh",
+      "name": "Meredith, Center Harbor & New Hampton, NH",
+      "type": "town",
+      "region": "lakes-capital-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/meredith-nh.json",
+      "status": "live",
+      "counties": [
+        "Belknap"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 14
+    },
+    {
+      "id": "north-conway-nh",
+      "name": "North Conway, Jackson & Conway, NH",
+      "type": "town",
+      "region": "lakes-capital-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/north-conway-nh.json",
+      "status": "live",
+      "counties": [
+        "Carroll"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 40
+    },
+    {
+      "id": "wolfeboro-nh",
+      "name": "Wolfeboro, Moultonborough & Ossipee, NH",
+      "type": "town",
+      "region": "lakes-capital-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/wolfeboro-nh.json",
+      "status": "live",
+      "counties": [
+        "Carroll"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 25
+    },
+    {
+      "id": "keene-nh",
+      "name": "Keene, Rindge & Swanzey (Cheshire County), NH",
+      "type": "town",
+      "region": "western-north-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/keene-nh.json",
+      "status": "live",
+      "counties": [
+        "Cheshire"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 34
+    },
+    {
+      "id": "gorham-nh",
+      "name": "Gorham, Colebrook & Whitefield (Coos County), NH",
+      "type": "town",
+      "region": "western-north-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/gorham-nh.json",
+      "status": "live",
+      "counties": [
+        "Coos"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 17
+    },
+    {
+      "id": "littleton-nh",
+      "name": "Littleton, Haverhill & Bethlehem, NH",
+      "type": "town",
+      "region": "western-north-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/littleton-nh.json",
+      "status": "live",
+      "counties": [
+        "Grafton"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 16
+    },
+    {
+      "id": "plymouth-nh",
+      "name": "Plymouth, Bristol & Ashland, NH",
+      "type": "town",
+      "region": "western-north-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/plymouth-nh.json",
+      "status": "live",
+      "counties": [
+        "Grafton"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 24
+    },
+    {
+      "id": "lebanon-nh",
+      "name": "Lebanon, Enfield & Canaan, NH",
+      "type": "town",
+      "region": "western-north-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/lebanon-nh.json",
+      "status": "live",
+      "counties": [
+        "Grafton"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 11
+    },
+    {
+      "id": "lincoln-nh",
+      "name": "Lincoln, Woodstock & Waterville Valley, NH",
+      "type": "town",
+      "region": "western-north-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/lincoln-nh.json",
+      "status": "live",
+      "counties": [
+        "Grafton"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 20
+    },
+    {
+      "id": "hanover-nh",
+      "name": "Hanover & Lyme, NH",
+      "type": "town",
+      "region": "western-north-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/hanover-nh.json",
+      "status": "live",
+      "counties": [
+        "Grafton"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 13
+    },
+    {
+      "id": "nashua-nh",
+      "name": "Nashua, NH",
+      "type": "city",
+      "region": "merrimack-valley-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/nashua-nh.json",
+      "status": "live",
+      "counties": [
+        "Hillsborough"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 65
+    },
+    {
+      "id": "manchester-nh",
+      "name": "Manchester, NH",
+      "type": "city",
+      "region": "merrimack-valley-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/manchester-nh.json",
+      "status": "live",
+      "counties": [
+        "Hillsborough"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 95
+    },
+    {
+      "id": "bedford-nh",
+      "name": "Bedford, Goffstown & New Boston, NH",
+      "type": "town",
+      "region": "merrimack-valley-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/bedford-nh.json",
+      "status": "live",
+      "counties": [
+        "Hillsborough"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 21
+    },
+    {
+      "id": "merrimack-nh",
+      "name": "Merrimack, NH",
+      "type": "town",
+      "region": "merrimack-valley-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/merrimack-nh.json",
+      "status": "live",
+      "counties": [
+        "Hillsborough"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 14
+    },
+    {
+      "id": "hudson-nh",
+      "name": "Hudson, Pelham & Litchfield, NH",
+      "type": "town",
+      "region": "merrimack-valley-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/hudson-nh.json",
+      "status": "live",
+      "counties": [
+        "Hillsborough"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 15
+    },
+    {
+      "id": "milford-nh",
+      "name": "Milford, Peterborough & Brookline, NH",
+      "type": "town",
+      "region": "merrimack-valley-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/milford-nh.json",
+      "status": "live",
+      "counties": [
+        "Hillsborough"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 33
+    },
+    {
+      "id": "amherst-nh",
+      "name": "Amherst & Hollis, NH",
+      "type": "town",
+      "region": "merrimack-valley-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/amherst-nh.json",
+      "status": "live",
+      "counties": [
+        "Hillsborough"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 5
+    },
+    {
+      "id": "concord-nh",
+      "name": "Concord, New London & Henniker (Merrimack County), NH",
+      "type": "city",
+      "region": "lakes-capital-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/concord-nh.json",
+      "status": "live",
+      "counties": [
+        "Merrimack"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 75
+    },
+    {
+      "id": "portsmouth-nh",
+      "name": "Portsmouth, Rye & Greenland, NH",
+      "type": "city",
+      "region": "seacoast-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/portsmouth-nh.json",
+      "status": "live",
+      "counties": [
+        "Rockingham"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 62
+    },
+    {
+      "id": "exeter-nh",
+      "name": "Exeter, Stratham & East Kingston, NH",
+      "type": "town",
+      "region": "seacoast-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/exeter-nh.json",
+      "status": "live",
+      "counties": [
+        "Rockingham"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 19
+    },
+    {
+      "id": "hampton-beach-nh",
+      "name": "Hampton Beach & Seabrook Beach, NH",
+      "type": "town",
+      "region": "seacoast-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/hampton-beach-nh.json",
+      "status": "live",
+      "counties": [
+        "Rockingham"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 12
+    },
+    {
+      "id": "derry-nh",
+      "name": "Derry & Candia, NH",
+      "type": "town",
+      "region": "seacoast-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/derry-nh.json",
+      "status": "live",
+      "counties": [
+        "Rockingham"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 19
+    },
+    {
+      "id": "salem-nh",
+      "name": "Salem & Windham, NH",
+      "type": "town",
+      "region": "seacoast-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/salem-nh.json",
+      "status": "live",
+      "counties": [
+        "Rockingham"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 33
+    },
+    {
+      "id": "londonderry-nh",
+      "name": "Londonderry & Auburn, NH",
+      "type": "town",
+      "region": "seacoast-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/londonderry-nh.json",
+      "status": "live",
+      "counties": [
+        "Rockingham"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 12
+    },
+    {
+      "id": "seabrook-nh",
+      "name": "Seabrook & Kensington, NH",
+      "type": "town",
+      "region": "seacoast-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/seabrook-nh.json",
+      "status": "live",
+      "counties": [
+        "Rockingham"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 12
+    },
+    {
+      "id": "epping-nh",
+      "name": "Epping, Raymond & Northwood, NH",
+      "type": "town",
+      "region": "seacoast-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/epping-nh.json",
+      "status": "live",
+      "counties": [
+        "Rockingham"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 22
+    },
+    {
+      "id": "newmarket-nh",
+      "name": "Newmarket, NH",
+      "type": "town",
+      "region": "seacoast-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/newmarket-nh.json",
+      "status": "live",
+      "counties": [
+        "Rockingham"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 10
+    },
+    {
+      "id": "hampton-nh",
+      "name": "Hampton, North Hampton & Hampton Falls, NH",
+      "type": "town",
+      "region": "seacoast-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/hampton-nh.json",
+      "status": "live",
+      "counties": [
+        "Rockingham"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 23
+    },
+    {
+      "id": "plaistow-nh",
+      "name": "Plaistow, Hampstead & Kingston, NH",
+      "type": "town",
+      "region": "seacoast-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/plaistow-nh.json",
+      "status": "live",
+      "counties": [
+        "Rockingham"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 14
+    },
+    {
+      "id": "rochester-nh",
+      "name": "Rochester, New Durham & Milton, NH",
+      "type": "town",
+      "region": "seacoast-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/rochester-nh.json",
+      "status": "live",
+      "counties": [
+        "Strafford"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 17
+    },
+    {
+      "id": "somersworth-nh",
+      "name": "Somersworth, NH",
+      "type": "town",
+      "region": "seacoast-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/somersworth-nh.json",
+      "status": "live",
+      "counties": [
+        "Strafford"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 8
+    },
+    {
+      "id": "durham-nh",
+      "name": "Durham, Barrington & Lee, NH",
+      "type": "town",
+      "region": "seacoast-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/durham-nh.json",
+      "status": "live",
+      "counties": [
+        "Strafford"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 8
+    },
+    {
+      "id": "dover-nh",
+      "name": "Dover & Rollinsford, NH",
+      "type": "city",
+      "region": "seacoast-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/dover-nh.json",
+      "status": "live",
+      "counties": [
+        "Strafford"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 27
+    },
+    {
+      "id": "claremont-nh",
+      "name": "Claremont, Sunapee & Newport (Sullivan County), NH",
+      "type": "town",
+      "region": "western-north-nh",
+      "timezone": "America/New_York",
+      "file": "data/cities/claremont-nh.json",
+      "status": "live",
+      "counties": [
+        "Sullivan"
+      ],
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 14
     }
   ],
   "counties": [
@@ -38852,6 +39795,308 @@
         "clinton-ma",
         "southbridge-town-ma",
         "holden-ma"
+      ]
+    },
+    {
+      "id": "vt-addison",
+      "name": "Addison",
+      "label": "Addison County",
+      "state": "VT",
+      "pickerState": "VT",
+      "places": 14,
+      "areas": [
+        "middlebury-vt"
+      ]
+    },
+    {
+      "id": "vt-bennington",
+      "name": "Bennington",
+      "label": "Bennington County",
+      "state": "VT",
+      "pickerState": "VT",
+      "places": 24,
+      "areas": [
+        "manchester-vt",
+        "woodford-vt"
+      ]
+    },
+    {
+      "id": "vt-caledonia",
+      "name": "Caledonia",
+      "label": "Caledonia County",
+      "state": "VT",
+      "pickerState": "VT",
+      "places": 16,
+      "areas": [
+        "st-johnsbury-vt"
+      ]
+    },
+    {
+      "id": "vt-chittenden",
+      "name": "Chittenden",
+      "label": "Chittenden County",
+      "state": "VT",
+      "pickerState": "VT",
+      "places": 108,
+      "areas": [
+        "burlington-vt",
+        "south-burlington-vt",
+        "winooski-vt",
+        "colchester-vt",
+        "essex-junction-vt",
+        "williston-vt",
+        "essex-vt"
+      ]
+    },
+    {
+      "id": "vt-essex",
+      "name": "Essex",
+      "label": "Essex County",
+      "state": "VT",
+      "pickerState": "VT",
+      "places": 1,
+      "areas": [
+        "brighton-vt"
+      ]
+    },
+    {
+      "id": "vt-franklin",
+      "name": "Franklin",
+      "label": "Franklin County",
+      "state": "VT",
+      "pickerState": "VT",
+      "places": 25,
+      "areas": [
+        "st-albans-vt"
+      ]
+    },
+    {
+      "id": "vt-grand-isle",
+      "name": "Grand Isle",
+      "label": "Grand Isle County",
+      "state": "VT",
+      "pickerState": "VT",
+      "places": 1,
+      "areas": [
+        "south-hero-vt"
+      ]
+    },
+    {
+      "id": "vt-lamoille",
+      "name": "Lamoille",
+      "label": "Lamoille County",
+      "state": "VT",
+      "pickerState": "VT",
+      "places": 38,
+      "areas": [
+        "stowe-vt"
+      ]
+    },
+    {
+      "id": "vt-orange",
+      "name": "Orange",
+      "label": "Orange County",
+      "state": "VT",
+      "pickerState": "VT",
+      "places": 10,
+      "areas": [
+        "bradford-vt"
+      ]
+    },
+    {
+      "id": "vt-orleans",
+      "name": "Orleans",
+      "label": "Orleans County",
+      "state": "VT",
+      "pickerState": "VT",
+      "places": 17,
+      "areas": [
+        "newport-vt"
+      ]
+    },
+    {
+      "id": "vt-rutland",
+      "name": "Rutland",
+      "label": "Rutland County",
+      "state": "VT",
+      "pickerState": "VT",
+      "places": 45,
+      "areas": [
+        "brandon-vt",
+        "killington-village-vt"
+      ]
+    },
+    {
+      "id": "vt-washington",
+      "name": "Washington",
+      "label": "Washington County",
+      "state": "VT",
+      "pickerState": "VT",
+      "places": 38,
+      "areas": [
+        "montpelier-vt"
+      ]
+    },
+    {
+      "id": "vt-windham",
+      "name": "Windham",
+      "label": "Windham County",
+      "state": "VT",
+      "pickerState": "VT",
+      "places": 46,
+      "areas": [
+        "brattleboro-vt",
+        "dover-vt",
+        "wilmington-vt"
+      ]
+    },
+    {
+      "id": "vt-windsor",
+      "name": "Windsor",
+      "label": "Windsor County",
+      "state": "VT",
+      "pickerState": "VT",
+      "places": 44,
+      "areas": [
+        "ludlow-vt",
+        "woodstock-vt",
+        "white-river-junction-vt",
+        "springfield-vt"
+      ]
+    },
+    {
+      "id": "nh-belknap",
+      "name": "Belknap",
+      "label": "Belknap County",
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 51,
+      "areas": [
+        "laconia-nh",
+        "meredith-nh"
+      ]
+    },
+    {
+      "id": "nh-carroll",
+      "name": "Carroll",
+      "label": "Carroll County",
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 64,
+      "areas": [
+        "north-conway-nh",
+        "wolfeboro-nh"
+      ]
+    },
+    {
+      "id": "nh-cheshire",
+      "name": "Cheshire",
+      "label": "Cheshire County",
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 34,
+      "areas": [
+        "keene-nh"
+      ]
+    },
+    {
+      "id": "nh-coos",
+      "name": "Coos",
+      "label": "Coos County",
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 17,
+      "areas": [
+        "gorham-nh"
+      ]
+    },
+    {
+      "id": "nh-grafton",
+      "name": "Grafton",
+      "label": "Grafton County",
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 84,
+      "areas": [
+        "lebanon-nh",
+        "littleton-nh",
+        "hanover-nh",
+        "plymouth-nh",
+        "lincoln-nh"
+      ]
+    },
+    {
+      "id": "nh-hillsborough",
+      "name": "Hillsborough",
+      "label": "Hillsborough County",
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 243,
+      "areas": [
+        "manchester-nh",
+        "nashua-nh",
+        "merrimack-nh",
+        "hudson-nh",
+        "bedford-nh",
+        "milford-nh",
+        "amherst-nh"
+      ]
+    },
+    {
+      "id": "nh-merrimack",
+      "name": "Merrimack",
+      "label": "Merrimack County",
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 75,
+      "areas": [
+        "concord-nh"
+      ]
+    },
+    {
+      "id": "nh-rockingham",
+      "name": "Rockingham",
+      "label": "Rockingham County",
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 236,
+      "areas": [
+        "portsmouth-nh",
+        "salem-nh",
+        "derry-nh",
+        "exeter-nh",
+        "hampton-nh",
+        "seabrook-nh",
+        "londonderry-nh",
+        "hampton-beach-nh",
+        "epping-nh",
+        "plaistow-nh",
+        "newmarket-nh"
+      ]
+    },
+    {
+      "id": "nh-strafford",
+      "name": "Strafford",
+      "label": "Strafford County",
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 60,
+      "areas": [
+        "dover-nh",
+        "rochester-nh",
+        "durham-nh",
+        "somersworth-nh"
+      ]
+    },
+    {
+      "id": "nh-sullivan",
+      "name": "Sullivan",
+      "label": "Sullivan County",
+      "state": "NH",
+      "pickerState": "NH",
+      "places": 14,
+      "areas": [
+        "claremont-nh"
       ]
     }
   ]

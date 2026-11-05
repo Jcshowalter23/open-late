@@ -1046,12 +1046,18 @@
      {
       "day": "Wed",
       "cadence": "weekly",
-      "start": "8 pm",
+      "start": "8pm",
       "basis": "explicit recurring wording",
       "lastSeen": "2026-11-01",
       "datedLastSeen": "2026-07-01",
       "postsSeen": 1,
       "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.bullmccabesirishpub.com/events",
+        "date": "2026-11-01",
+        "quote": "Wednesday Night Trivia with Arturo"
+       },
        {
         "src": "venue website (undated page)",
         "url": "https://www.bullmccabesirishpub.com/trivia",
@@ -1063,12 +1069,6 @@
         "url": "https://www.bullmccabesirishpub.com/trivia",
         "date": "2026-11-01",
         "quote": "It’s not a smart move to miss the last trivia of 2025 | Every wednesday at 8pm"
-       },
-       {
-        "src": "venue website (undated page)",
-        "url": "https://www.bullmccabesirishpub.com/events",
-        "date": "2026-11-01",
-        "quote": "Wednesday Night Trivia with Arturo"
        }
       ],
       "confidence": "medium"
@@ -1085,13 +1085,13 @@
      },
      {
       "date": "2026-11-01",
-      "quote": "Weekly Trivia — BULL McCABE'S",
-      "url": "https://www.bullmccabesirishpub.com/trivia"
+      "quote": "Weekly Trivia",
+      "url": "https://www.bullmccabesirishpub.com/drinkspecials"
      },
      {
       "date": "2026-11-01",
       "quote": "Weekly Trivia",
-      "url": "https://www.bullmccabesirishpub.com/trivia"
+      "url": "https://www.bullmccabesirishpub.com/events"
      }
     ]
    },
@@ -7691,6 +7691,36 @@
    "trivia": {
     "nights": [
      {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-12-14",
+      "datedLastSeen": "2026-12-14",
+      "postsSeen": 15,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.lcgoat.com/happenings",
+        "date": "2026-12-14",
+        "quote": "ELF THEMED TRIVIA | Monday, December 14, 2026"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.lcgoat.com/locations/germantown",
+        "date": "2026-12-14",
+        "quote": "Dec | 14 | December 14, 2026 | ELF THEMED >> ELF THEMED TRIVIA"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.lcgoat.com/happenings",
+        "date": "2026-12-07",
+        "quote": "ELF THEMED TRIVIA | Monday, December 7, 2026"
+       }
+      ],
+      "confidence": "high"
+     },
+     {
       "day": "Thu",
       "cadence": "weekly",
       "start": null,
@@ -8984,7 +9014,8 @@
      }
     ],
     "checked": "2026-11-02"
-   }
+   },
+   "menu": "https://guglhupf.com/cafe-biergarten/"
   },
   {
    "id": "nc-the-daily-beer-bar-durham",
@@ -9024,7 +9055,8 @@
      }
     ],
     "checked": "2026-11-02"
-   }
+   },
+   "menu": "https://www.thedailybeerbar.com/menu"
   },
   {
    "id": "nc-firebirds-durham",
@@ -9086,7 +9118,8 @@
      }
     ],
     "checked": "2026-11-02"
-   }
+   },
+   "menu": "https://firebirdsrestaurants.com/durham/menu"
   },
   {
    "id": "nc-crank-arm-brewing-durham",
@@ -9153,7 +9186,8 @@
    ],
    "source": "hours from OpenStreetMap node/10030458244 opening_hours tag (map data 2026-10-31; last checked on the map 2026-09-21) (checked 2026-11-02); late hours confirmed by venue website https://www.arcanadurham.com/: \"uilding. | Please call for accessible (elevator) entry: (919) 973-1675 | HOURS | Tue-Thurs, Sun 6pm-12am | Fridays\" (checked 2026-11-02)",
    "county": "Durham",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.arcanadurham.com/menus-1"
   },
   {
    "id": "nc-metro-8-steakhouse-durham",
@@ -9178,7 +9212,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/12553367921 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://www.metro8steakhouse.com/location/: \" | F: 919 416 1710 | E: info@metro8steakhouse.com | Hours of Operations: | Tuesday – Saturday 5pm – 9pm | class=\"\" (checked 2026-11-02)",
    "county": "Durham",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.metro8steakhouse.com/menu/"
   },
   {
    "id": "nc-pinheiro-durham",
@@ -9376,7 +9411,8 @@
       "url": "https://www.velvethippodurham.com/events"
      }
     ]
-   }
+   },
+   "menu": "https://www.velvethippodurham.com/menu"
   },
   {
    "id": "nc-la-mala-mexican-inspired-cocktail-bar-durham",
@@ -9403,7 +9439,8 @@
    ],
    "source": "hours from venue website https://lamalamx.com/home/: \"Monday CLOSED Tues - Wed 4 PM – 11 PM Thursday 4 PM – 12 AM Friday 11 AM – 1 AM Saturday 11 AM – 1 AM Sunday 11 AM – 9 PM\" (checked 2026-11-02); location from OpenStreetMap node/5849929946 (map data 2026-10-31)",
    "county": "Durham",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://lamalamx.com/wp-content/uploads/2025/05/La-Mala-Menu-PRINT-Plastic.pdf"
   },
   {
    "id": "nc-kingfisher-durham",
@@ -9511,7 +9548,8 @@
    ],
    "source": "hours from venue website https://94.pub/contact/: \"4711 Hope Valley Rd # 6C, Durham, NC 27707 (919) 403-0025 HOURS Monday - Sunday: 11 AM - 2 AM\" (checked 2026-11-02); location from OpenStreetMap node/315606569 (map data 2026-10-31)",
    "county": "Durham",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://94.pub/menu/"
   },
   {
    "id": "nc-the-tavern-durham",

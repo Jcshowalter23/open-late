@@ -3521,7 +3521,7 @@
      {
       "day": "Tue",
       "cadence": "weekly",
-      "start": "8 pm to 10 pm",
+      "start": "8:00 PM to 10:00 PM",
       "basis": "explicit recurring wording",
       "lastSeen": "2026-11-01",
       "datedLastSeen": null,
@@ -6227,50 +6227,6 @@
      {
       "date": "2026-11-01",
       "quote": "DJ E-STATE, an Eastern Shore native, has been a driving force in the regional music scene | 9:00pm",
-      "url": "https://seacrets.com/calendar/"
-     }
-    ]
-   },
-   "trivia": {
-    "nights": [
-     {
-      "day": "Fri",
-      "cadence": "weekly",
-      "start": "6 pm",
-      "basis": "explicit recurring wording",
-      "lastSeen": "2026-12-04",
-      "datedLastSeen": "2026-12-04",
-      "postsSeen": 2,
-      "sources": [
-       {
-        "src": "venue website event calendar",
-        "url": "https://seacrets.com/calendar/",
-        "date": "2026-12-04",
-        "quote": "November 29 | NFL Sundays | December 4 | >> Trivia Night"
-       },
-       {
-        "src": "venue website event calendar",
-        "url": "https://seacrets.com/calendar/",
-        "date": "2026-12-04",
-        "quote": "December 4 @ 6:00 pm | - | 8:00 pm | >> Trivia Night | 9:00pm | 8:00 pm"
-       },
-       {
-        "src": "venue website event calendar",
-        "url": "https://seacrets.com/calendar/",
-        "date": "2026-12-04",
-        "quote": "December 4 @ 6:00 pm | - | 8:00 pm | >> Trivia Night | December 4 @ 9:00 pm | 8:00 pm"
-       }
-      ],
-      "confidence": "high"
-     }
-    ],
-    "stale": [],
-    "hints": [],
-    "conflicts": [],
-    "oneoffs": [
-     {
-      "date": "2026-11-01",
-      "quote": "Trivia Night | 8:00pm",
       "url": "https://seacrets.com/calendar/"
      }
     ]
@@ -9041,7 +8997,8 @@
    ],
    "source": "hours from venue website https://buxys.com/: \"Open Daily: 11:00am - 2:00am\" (checked 2026-11-02); location from OpenStreetMap way/242422445 (map data 2026-11-01)",
    "county": "Worcester",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "http://buxys.com/menus/"
   },
   {
    "id": "md-beach-barrels-ocean-city",
@@ -9068,7 +9025,8 @@
    ],
    "source": "hours from venue website https://www.beachbarrels.com: \"Open daily 10:00 AM – 1:30 AM\" (checked 2026-11-02); location from OpenStreetMap way/1159271101 (map data 2026-11-01)",
    "county": "Worcester",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://beachbarrels.com/menu"
   },
   {
    "id": "md-wild-bills-ocean-city",
@@ -9095,7 +9053,8 @@
    ],
    "source": "hours from tourism board (Explore OC) https://exploreoc.com/listing/wild-bills: \"Monday 11:00 am - 10:00 pm ... Saturday 11:00 am - 10:00 pm\" (checked 2026-11-02); location from OpenStreetMap way/76527567 (map data 2026-11-01)",
    "county": "Worcester",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://exploreoc.com/restaurants"
   },
   {
    "id": "md-liquid-assets-ocean-city",
@@ -9122,7 +9081,8 @@
    ],
    "source": "hours from venue website https://la94.com/frequently-asked-questions/: \"Our bistro is open year-round and daily from 11:30 am to 10:00 pm\" (checked 2026-11-02); location from OpenStreetMap node/6273382896 (map data 2026-11-01)",
    "county": "Worcester",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://la94.com/ocean-city-maryland-restaurant-menu/"
   },
   {
    "id": "md-crawl-street-tavern-ocean-city",
@@ -9227,7 +9187,8 @@
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
    "county": "Worcester",
-   "addedBy": "am2-split-hours"
+   "addedBy": "am2-split-hours",
+   "menu": "https://carouselhotel.com/bamboo-lounge/"
   }
  ],
  "type": "city",

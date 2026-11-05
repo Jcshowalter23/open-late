@@ -395,18 +395,12 @@
      {
       "day": "Wed",
       "cadence": "weekly",
-      "start": "7–9 pm",
+      "start": "7–9 PM",
       "basis": "explicit recurring wording",
       "lastSeen": "2026-11-01",
       "datedLastSeen": null,
       "postsSeen": 0,
       "sources": [
-       {
-        "src": "venue website (undated page)",
-        "url": "https://visitmontgomery.com/events/",
-        "date": "2026-11-01",
-        "quote": "Trivia Nights at Fialova – Every Wednesday, 7–9 PM Put your knowledge to the test and bring your A-game to Trivia Night at Fialova"
-       },
        {
         "src": "venue website (undated page)",
         "url": "https://visitmontgomery.com/events/category/food-drink/",
@@ -424,17 +418,12 @@
     "oneoffs": [
      {
       "date": "2026-11-01",
-      "quote": "Trivia Night Bethesda",
-      "url": "https://visitmontgomery.com/events/"
+      "quote": "r 1st. We’ve made a few updates to improve your Festival experience, and we are so excited to | Read more... | 66469 | >> Trivia Night Bethesda",
+      "url": "https://visitmontgomery.com/events/category/food-drink/"
      },
      {
       "date": "2026-11-01",
       "quote": "Trivia Nights at Fialova – Every Wednesday, 7–9 PM Put your knowledge to the test and bring your A-game to Trivia Night at Fialova",
-      "url": "https://visitmontgomery.com/events/"
-     },
-     {
-      "date": "2026-11-01",
-      "quote": "Trivia Night Bethesda",
       "url": "https://visitmontgomery.com/events/category/food-drink/"
      }
     ]
@@ -1038,7 +1027,56 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ]
+   ],
+   "trivia": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "posted on 3 different Tues",
+      "lastSeen": "2026-11-17",
+      "datedLastSeen": "2026-11-17",
+      "postsSeen": 3,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://brewsbarrels.com/",
+        "date": "2026-11-17",
+        "quote": "Email | View Detail | Nov 17, 2026 | >> Trivia Night"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://brewsbarrels.com/",
+        "date": "2026-11-10",
+        "quote": "Email | View Detail | Nov 10, 2026 | >> Trivia Night"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://brewsbarrels.com/",
+        "date": "2026-11-03",
+        "quote": "DIRECTIONS | UPCOMING EVENTS | Nov 03, 2026 | >> Trivia Night"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia Night",
+      "url": "https://brewsbarrels.com/events/trivia-night/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia",
+      "url": "https://brewsbarrels.com/events/trivia-night/"
+     }
+    ]
+   }
   },
   {
    "id": "md-burg",
@@ -5506,6 +5544,29 @@
      }
     ],
     "checked": "2026-11-02"
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Free Bingo",
+      "url": "https://www.senortequilas.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Free bingo, 8 PM to 10 PM",
+      "url": "https://www.senortequilas.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Free Bingo",
+      "url": "https://www.senortequilas.com/game-day"
+     }
+    ]
    }
   },
   {
@@ -6219,7 +6280,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/10268757467 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.caspiankabob.com/: \"| CATERING تدارکات مجالس | Family Meals غذای خانوادگی | Business Hours | Mon - Sat | 11:00 am | - | 9:00 pm | Sunday \" (checked 2026-11-02)",
    "county": "Montgomery",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.caspiankabob.com/restaurant-menu"
   },
   {
    "id": "md-hinzis-kitchen-germantown",
@@ -6487,7 +6549,8 @@
    ],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
    "county": "Montgomery",
-   "addedBy": "am2-split-hours"
+   "addedBy": "am2-split-hours",
+   "menu": "https://www.chennaihoppers.com/menu"
   },
   {
    "id": "md-madras-palace",
@@ -6565,7 +6628,8 @@
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
    "county": "Montgomery",
-   "addedBy": "am2-split-hours"
+   "addedBy": "am2-split-hours",
+   "menu": "https://kinjapanese.blizzfull.com/menu"
   },
   {
    "id": "md-zane-ocha-thai-sushi-bar",

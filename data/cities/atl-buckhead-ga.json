@@ -2604,7 +2604,32 @@
     "website": "http://www.irbystavern.com/"
    },
    "trivia": {
-    "nights": [],
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "11:00 AM - 12:00 AM",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-04",
+      "datedLastSeen": "2026-11-04",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://irbystavern.com/atlanta-buckhead-irby-s-tavern-happy-hours-specials",
+        "date": "2026-11-04",
+        "quote": " 11:00 AM - 12:00 AM | Wednesday November 4th | $5.00 Whiskey Wednesdays & Trivia! Old Forester and Slane Irish Whiskey >> Old Forester and Slane Irish Whiskey Trivia Nights | 08:00 PM - 12:00 AM | Thursday November 5th | 08:00 PM - 12:00 AM"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://irbystavern.com/atlanta-buckhead-irby-s-tavern-happy-hours-specials",
+        "date": "2026-11-01",
+        "quote": "00 Whiskey Wednesdays & Trivia | 08:00 PM - 12:00 AM"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -6105,7 +6130,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/11563553587 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://okiboru.com: \"andy Springs: | Monday-Thursday | 11:30am-3:00pm | 5:30pm-9:00pm | Friday | 11:30am-3:00pm | 5:30pm-10:00pm | Saturda\" (checked 2026-11-02)",
    "county": "Fulton",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://okiboru.com/sandy-springs-okiboru-locations"
   },
   {
    "id": "ga-havana-club-atlanta",
@@ -6369,7 +6395,8 @@
    "vibes": [],
    "source": "hours from the venue's Facebook page (via foodyas mirror) (checked 2026-11-01)",
    "county": "Fulton",
-   "addedBy": "am2-split-hours"
+   "addedBy": "am2-split-hours",
+   "menu": "https://stceciliaatl.com/menus/"
   },
   {
    "id": "ga-pasta-vino-peachtree",
