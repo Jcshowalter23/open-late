@@ -212,7 +212,7 @@
   }
 
   const on = (id) => $(id).getAttribute("aria-pressed") === "true";
-  const CHIPS = ["tonight", "kitchenNow", "onlyDeals", "wingDeals", "beerDeals", "hhDeals", "kkNights", "djNights", "lmNights", "tvNights", "bgNights", "gdSpots", "odSeats", "favsOnly"];
+  const CHIPS = ["tonight", "kitchenNow", "wingDeals", "beerDeals", "hhDeals", "kkNights", "djNights", "lmNights", "tvNights", "bgNights", "gdSpots", "odSeats", "favsOnly"];
   // favorites live in localStorage as "area|placeId"
   let favs = new Set();
   try { favs = new Set(JSON.parse(localStorage.getItem("openlate.favs") || "[]")); } catch (e) { favs = new Set(); }
@@ -371,7 +371,7 @@
     const q = $("q").value.trim().toLowerCase();
     const town = $("town").value;
     const cuisine = $("cuisine").value, price = $("price").value, vibe = $("vibe").value;
-    const openNow = false, kitchenNow = on("kitchenNow"), onlyDeals = on("onlyDeals");
+    const openNow = false, kitchenNow = on("kitchenNow"), onlyDeals = false;
     const wingDeals = on("wingDeals"), beerDeals = on("beerDeals"), hhDeals = on("hhDeals"), favsOnly = on("favsOnly");
     const kkOn = on("kkNights"), djOn = on("djNights"), lmOn = on("lmNights"), tvOn = on("tvNights"), bgOn = on("bgNights"); // karaoke / DJ nights on the picked day (medium/high-confidence, non-stale only; see tools/build_data.py)
     const gdOn = on("gdSpots"), odOn = on("odSeats"); // game day spots / outdoor seating: any day (see tools/build_data.py gameday() / outdoor())
