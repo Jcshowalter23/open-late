@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Sanity checks for Open Late: data files parse, index references exist, shell assets exist, manifest icons are the right size."""
-import json, os, re, sys
+import json, os, re, shutil, subprocess, sys
 from PIL import Image
 root = os.path.dirname(os.path.abspath(__file__)); os.chdir(root)
 err = []
@@ -50,6 +50,11 @@ for id_ in set(re.findall(r'\$\("([A-Za-z]+)"\)', js)):
 # hours guard (Nov 3, 2026): an impossible close (e.g. 11a-11a, 5p-11a, 6p-4p) fails; the 9 pm rule is a warning
 import hours_guard, test_hours_guard
 if test_hours_guard.main(verbose=False): err.append("tools/test_hours_guard.py failed")
+_node = shutil.which("node")
+if not _node: print("WARNING: node not found; skipped tools/test_split_src.js")
+else:
+    _sp = subprocess.run([_node, "tools/test_split_src.js"], capture_output=True, text=True)
+    if _sp.returncode: err.append("tools/test_split_src.js failed\n" + (_sp.stdout or "") + (_sp.stderr or ""))
 _imp, _early = hours_guard.run(root)
 for _a, _n, _h, _why in _imp: err.append(f"{_a}: {_n} has impossible hours ({'; '.join(_why)}): fix from a real source or leave that day unlisted")
 if _early: print(f"WARNING: {len(_early)} places have no night closing at 9 pm or later (python3 tools/hours_guard.py --list)")
