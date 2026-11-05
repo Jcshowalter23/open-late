@@ -148,7 +148,6 @@ for c in counties:
             '<h2>By City</h2><ul class="lp-cities">']
     for aid, k in city_list:
         body.append(f'<li><a href="{e(app)}&amp;area={e(aid)}">{e(short(areas[aid]["name"]))}</a> <span>{k} place{"s" if k != 1 else ""}</span></li>')
-        urls.append((f"{SITE}/?county={cid}&area={aid}", "0.6"))
     body.append("</ul>")
     if late:
         body.append(f'<h2>Open latest on Friday and Saturday</h2><p class="small">From each place\'s listed hours. Kitchen = listed kitchen close.</p><ol class="lp-late">')
