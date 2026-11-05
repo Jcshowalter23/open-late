@@ -322,7 +322,7 @@ dialog#formDlg::backdrop,dialog#tnDlg::backdrop{background:rgba(10,12,18,.55)}
 @media (max-width:759px){
   .filterrow{align-items:center}
   .filterrow>details{margin:0}
-  .filterrow summary,.filterrow #atChip{box-sizing:border-box;height:34px;min-height:0;border:1px solid var(--line);border-radius:999px;padding:0 12px;display:inline-flex;align-items:center;line-height:1.2;background:var(--card)}
+  .filterrow summary,.filterrow #atChip{box-sizing:border-box;height:34px;min-height:0;border:1px solid var(--line);border-radius:999px;padding:0 10px;display:inline-flex;align-items:center;line-height:1.2;background:var(--card)}
   .filterrow #atChip{padding:0}
   .filterrow #atChip select,.chiprow .chip-day select{box-sizing:border-box;height:100%;min-height:0;padding-top:0;padding-bottom:0;line-height:1.2}
   .filterrow #atChip::after{right:10px}

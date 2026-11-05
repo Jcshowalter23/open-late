@@ -1,7 +1,7 @@
 "use strict";
 (function () {
   // phones: "Open at:" becomes "At:" so Events, Open at and More filters fit on one line
-  const AT = () => (window.matchMedia && matchMedia("(max-width:759px)").matches ? "At: " : "Open at: ");
+  const AT = () => (window.matchMedia && matchMedia("(max-width:759px)").matches ? "🕘 " : "Open at: ");
   const DAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
   const DAY_LONG = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   const VIBES = ["All", "Bar scene", "Date night", "Family-friendly", "Late night", "Live music & events", "Rooftop", "Sports & games"];
