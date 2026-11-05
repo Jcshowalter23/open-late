@@ -824,7 +824,7 @@
    "happyHours": [
     {
      "days": "See venue",
-     "text": "Happy hour today, 3pm – 5pm →",
+     "text": "Happy hour today, 3 pm – 5 pm →",
      "tags": [],
      "src": "Venue website cheftonysseafood.com",
      "checked": "2026-11-01",
@@ -936,7 +936,7 @@
    "happyHours": [
     {
      "days": "See venue",
-     "text": "Happy hour today, 3pm – 5pm →",
+     "text": "Happy hour today, 3 pm – 5 pm →",
      "tags": [],
      "src": "Venue website cheftonysseafood.com",
      "checked": "2026-11-01",
@@ -1539,25 +1539,7 @@
    },
    "menu": "https://www.fialovabethesda.com/menus",
    "trivia": {
-    "nights": [
-     {
-      "day": "Wed",
-      "cadence": "weekly",
-      "start": "7 pm",
-      "confidence": "high",
-      "lastSeen": "2026-11-02",
-      "sources": [
-       {
-        "src": "Sporcle Events schedule",
-        "url": "https://www.sporcle.com/venue/134249/fialova",
-        "date": "2026-11-02",
-        "quote": "The Climb · Wed 7:00pm · Fialova, Bethesda"
-       }
-      ],
-      "basis": "vendor/host published venue schedule",
-      "vendor": "Sporcle Events"
-     }
-    ],
+    "nights": [],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -2283,7 +2265,7 @@
    "happyHours": [
     {
      "days": "Mon-Fri",
-     "text": "Mon Ami Gabi invites you to Happy Hour every Monday to Friday from 4:00 PM to 6:00 PM at the bar",
+     "text": "Mon Ami Gabi invites you to Happy Hour every Monday to Friday from 4 pm to 6 pm at the bar",
      "tags": [],
      "src": "Venue website monamigabi.com/bethesda",
      "checked": "2026-11-01",
@@ -4175,7 +4157,145 @@
    ],
    "source": "hours from venue website https://www.caddiesoncordell.com/: \"Mon – Thur: 11:30 am – 12:00 am Fri – Sat: 11:30 am – 2:00 am Sun: 11:30 am – 12:00 am\" (checked 2026-11-02); location from OpenStreetMap node/1098256098 (map data 2026-11-01)",
    "county": "Montgomery",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "7:30 pm",
+      "basis": "posted on 4 different Tues",
+      "lastSeen": "2026-12-01",
+      "datedLastSeen": "2026-12-01",
+      "postsSeen": 4,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.caddiesoncordell.com/entertainment-events/",
+        "date": "2026-12-01",
+        "quote": "Monday Night Football | December 1 | December 1 7:30 pm | >> Trivia Night | December 1 7:30 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.caddiesoncordell.com/entertainment-events/",
+        "date": "2026-11-24",
+        "quote": "Monday Night Football | November 24 | November 24 7:30 pm | >> Trivia Night | November 24 7:30 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.caddiesoncordell.com/entertainment-events/",
+        "date": "2026-11-17",
+        "quote": "Monday Night Football | November 17 | November 17 7:30 pm | >> Trivia Night | November 17 7:30 pm"
+       }
+      ],
+      "confidence": "high"
+     },
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "7 pm",
+      "basis": "posted on 5 different Weds",
+      "lastSeen": "2026-12-02",
+      "datedLastSeen": "2026-12-02",
+      "postsSeen": 5,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.caddiesoncordell.com/entertainment-events/",
+        "date": "2026-12-02",
+        "quote": "December 2 7:00 pm | - | 9:00 pm | >> Trivia Night | 9:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.caddiesoncordell.com/entertainment-events/",
+        "date": "2026-11-25",
+        "quote": "November 25 7:00 pm | - | 9:00 pm | >> Trivia Night | 9:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.caddiesoncordell.com/entertainment-events/",
+        "date": "2026-11-18",
+        "quote": "November 18 7:00 pm | - | 9:00 pm | >> Trivia Night | 9:00 pm"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-10",
+      "quote": "Closed 5-8pm for Private Event | November 10 | November 10 7:30 pm | >> Trivia Night | November 10 7:30 pm",
+      "url": "https://www.caddiesoncordell.com/entertainment-events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "2025 & 2026 Best Bar to Watch a Game, Dog Friendly Bar, Live Music Venue, Happy Hour & Trivia Night",
+      "url": "https://www.caddiesoncordell.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "2024 Best Bar Scene, Outdoor Dining, Trivia Night & Live Music",
+      "url": "https://www.caddiesoncordell.com/"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "7 pm",
+      "basis": "posted on 5 different Thus",
+      "lastSeen": "2026-12-03",
+      "datedLastSeen": "2026-12-03",
+      "postsSeen": 5,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.caddiesoncordell.com/entertainment-events/",
+        "date": "2026-12-03",
+        "quote": "December 3 7:00 pm | - | 8:00 pm | Music >> Music Bingo | 8:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.caddiesoncordell.com/entertainment-events/",
+        "date": "2026-11-26",
+        "quote": "November 26 7:00 pm | - | 8:00 pm | Music >> Music Bingo | 8:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.caddiesoncordell.com/entertainment-events/",
+        "date": "2026-11-19",
+        "quote": "November 19 7:00 pm | - | 8:00 pm | Music >> Music Bingo | 8:00 pm"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Music Bingo | 7:00 pm | 8:00 pm",
+      "url": "https://www.caddiesoncordell.com/entertainment-events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Music Bingo",
+      "url": "https://www.caddiesoncordell.com/entertainment-events/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Name that tune, get bingo, win prizes",
+      "url": "https://www.caddiesoncordell.com/entertainment-events/"
+     }
+    ]
+   }
   },
   {
    "id": "md-babycat-brewing-kensington",

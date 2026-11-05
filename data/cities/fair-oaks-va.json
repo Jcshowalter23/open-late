@@ -338,7 +338,7 @@
      {
       "day": "Wed",
       "cadence": "weekly",
-      "start": "8:00pm – 11:00pm",
+      "start": "8 pm – 11 pm",
       "basis": "explicit recurring wording",
       "lastSeen": "2026-11-01",
       "datedLastSeen": null,
@@ -363,7 +363,7 @@
      {
       "day": "Fri",
       "cadence": "weekly",
-      "start": "8:00pm – 1:00am",
+      "start": "8 pm – 1 am",
       "basis": "explicit recurring wording",
       "lastSeen": "2026-11-01",
       "datedLastSeen": null,
@@ -406,7 +406,7 @@
      {
       "day": "Tue",
       "cadence": "weekly",
-      "start": "7:30pm – 9:30pm",
+      "start": "7:30 pm – 9:30 pm",
       "basis": "explicit recurring wording",
       "lastSeen": "2026-11-01",
       "datedLastSeen": null,
@@ -1415,7 +1415,40 @@
    ],
    "source": "hours from venue website https://www.fats-fairfax.com/: \"Sunday – Saturday 3pm–2am\" (checked 2026-11-02); location from OpenStreetMap way/1226882760 (map data 2026-11-01)",
    "county": "Fairfax",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "6:30 - 8:30 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.fats-fairfax.com/",
+        "date": "2026-11-01",
+        "quote": "Trivia Night | Wednesday | 6:30 - 8:30pm"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.fats-fairfax.com/specials",
+        "date": "2026-11-01",
+        "quote": "Trivia Night | Wednesday | 6:30 - 8:30pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
   }
  ],
  "type": "town",

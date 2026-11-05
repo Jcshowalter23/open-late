@@ -984,7 +984,7 @@
      {
       "day": "Fri",
       "cadence": "weekly",
-      "start": "2 AM",
+      "start": "2 am",
       "basis": "explicit recurring wording",
       "lastSeen": "2026-11-01",
       "datedLastSeen": null,
@@ -1053,6 +1053,11 @@
       "date": "2026-11-01",
       "quote": "Live music · DJs · Trivia · Karaoke",
       "url": "https://www.midtownsocial.net/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Somewhere you could book for your daughter's shower on a Sunday and come back to on a Friday for trivia",
+      "url": "https://www.midtownsocial.net/about"
      }
     ]
    }
@@ -1869,7 +1874,40 @@
    ],
    "source": "hours from OpenStreetMap node/1687527838 opening_hours tag (map data 2026-11-01; last checked on the map 2026-03-24) (checked 2026-11-02); late hours confirmed by venue website https://www.flipandbaileys.com/: \" 12am | Tuesday 4pm - 12am | Wednesday 4pm - 12am | Thursday 4pm - 1am | Friday 4pm - 2am | Saturda\" (checked 2026-11-02)",
    "county": "Delaware",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "bingo": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.flipandbaileys.com/general-7",
+        "date": "2026-11-01",
+        "quote": "Music Bingo | Thursday"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Tune in for some fun music bingo hosted by Good Thomas Entertainment",
+      "url": "https://www.flipandbaileys.com/general-7"
+     }
+    ]
+   }
   },
   {
    "id": "pa-the-goats-beard-wayne",

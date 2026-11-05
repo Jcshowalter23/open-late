@@ -1054,12 +1054,6 @@
       "sources": [
        {
         "src": "venue website (undated page)",
-        "url": "https://www.bullmccabesirishpub.com/events",
-        "date": "2026-11-01",
-        "quote": "Wednesday Night Trivia with Arturo"
-       },
-       {
-        "src": "venue website (undated page)",
         "url": "https://www.bullmccabesirishpub.com/trivia",
         "date": "2026-11-01",
         "quote": "Durham’s Best trivia | Every wednesday at 8pm | Every wednesday at 8pm"
@@ -1069,6 +1063,12 @@
         "url": "https://www.bullmccabesirishpub.com/trivia",
         "date": "2026-11-01",
         "quote": "It’s not a smart move to miss the last trivia of 2025 | Every wednesday at 8pm"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.bullmccabesirishpub.com/events",
+        "date": "2026-11-01",
+        "quote": "Wednesday Night Trivia with Arturo"
        }
       ],
       "confidence": "medium"
@@ -1085,13 +1085,13 @@
      },
      {
       "date": "2026-11-01",
-      "quote": "Weekly Trivia",
-      "url": "https://www.bullmccabesirishpub.com/drinkspecials"
+      "quote": "Weekly Trivia — BULL McCABE'S",
+      "url": "https://www.bullmccabesirishpub.com/trivia"
      },
      {
       "date": "2026-11-01",
       "quote": "Weekly Trivia",
-      "url": "https://www.bullmccabesirishpub.com/events"
+      "url": "https://www.bullmccabesirishpub.com/trivia"
      }
     ]
    },
@@ -7749,36 +7749,6 @@
        }
       ],
       "confidence": "high"
-     },
-     {
-      "day": "Mon",
-      "cadence": "weekly",
-      "start": null,
-      "basis": "explicit recurring wording",
-      "lastSeen": "2026-12-14",
-      "datedLastSeen": "2026-12-14",
-      "postsSeen": 15,
-      "sources": [
-       {
-        "src": "venue website event calendar",
-        "url": "https://www.lcgoat.com/happenings",
-        "date": "2026-12-14",
-        "quote": "ELF THEMED TRIVIA | Monday, December 14, 2026"
-       },
-       {
-        "src": "venue website event calendar",
-        "url": "https://www.lcgoat.com/locations/germantown",
-        "date": "2026-12-14",
-        "quote": "Dec | 14 | December 14, 2026 | ELF THEMED >> ELF THEMED TRIVIA"
-       },
-       {
-        "src": "venue website event calendar",
-        "url": "https://www.lcgoat.com/happenings",
-        "date": "2026-12-07",
-        "quote": "ELF THEMED TRIVIA | Monday, December 7, 2026"
-       }
-      ],
-      "confidence": "high"
      }
     ],
     "stale": [],
@@ -9289,7 +9259,124 @@
    ],
    "source": "hours from venue website https://www.velvethippodurham.com/: \"Monday-Thursday: 4pm - midnight Friday: 4pm - 2am Saturday: 12pm - 2am Sunday: 12pm - midnight\" (checked 2026-11-02); location from OpenStreetMap node/11672994386 (map data 2026-10-31)",
    "county": "Durham",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.velvethippodurham.com/calendar",
+        "date": "2026-11-01",
+        "quote": "Music Trivia Bingo with Stormie Daie & Gay Agenda or Jorden | EVERY THURSDAY:"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Fri",
+      "cadence": "weekly",
+      "start": "9:30 pm-1:30 am",
+      "basis": "posted on 4 different Fris",
+      "lastSeen": "2026-10-30",
+      "datedLastSeen": "2026-10-30",
+      "postsSeen": 4,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.velvethippodurham.com/calendar",
+        "date": "2026-10-30",
+        "quote": "Music Trivia Bingo with Stormie Daie & Gay Agenda | Fri 10/30, 9:30pm-1:30am: | Fri 10/30, 9:30pm-1:30am:"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.velvethippodurham.com/calendar",
+        "date": "2026-10-23",
+        "quote": "Music Trivia Bingo with Stormie Daie & Jorden The DJ | Fri 10/23, 9:30-1:30:"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.velvethippodurham.com/calendar",
+        "date": "2026-10-16",
+        "quote": "Music Trivia Bingo with Stormie Daie & Jorden The DJ | Fri 10/16, 9:30-1:30:"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "(Latin Night, Music Trivia Bingo, etc)",
+      "url": "https://www.velvethippodurham.com/events"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "6-9 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-10-29",
+      "datedLastSeen": "2026-10-29",
+      "postsSeen": 4,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.velvethippodurham.com/calendar",
+        "date": "2026-10-29",
+        "quote": "Wed 10/28, 6-9pm: | Velvet Rewind R&B Wednesdays with Jorden The DJ! | Thurs 10/29, 8-10pm: | Music Trivia >> Music Trivia Bingo with Stormie Daie & Gay Agenda | Fri 10/30, 9:30pm-1:30am: | Fri 10/30, 9:30pm-1:30am:"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.velvethippodurham.com/calendar",
+        "date": "2026-10-22",
+        "quote": "Wed 10/21, 6-9pm: | Velvet Rewind R&B Wednesdays with Jorden The DJ! | Thurs 10/22, 8-10pm: | Music Trivia >> Music Trivia Bingo with Stormie Daie & Jorden The DJ | Fri 10/23, 9:30-1:30:"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.velvethippodurham.com/calendar",
+        "date": "2026-10-15",
+        "quote": "Wed 10/14, 6-9pm: | Velvet Rewind R&B Wednesdays with Jorden The DJ! | Thurs 10/15, 8-10pm: | Music Trivia >> Music Trivia Bingo with Stormie Daie & Jorden The DJ | Fri 10/16, 9:30-1:30:"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Best Drag Event (bingo)",
+      "url": "https://www.velvethippodurham.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Music Trivia Bingo with Stormie Daie & Gay Agenda or Jorden | EVERY THURSDAY:",
+      "url": "https://www.velvethippodurham.com/calendar"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "(Latin Night, Music Trivia Bingo, etc)",
+      "url": "https://www.velvethippodurham.com/events"
+     }
+    ]
+   }
   },
   {
    "id": "nc-la-mala-mexican-inspired-cocktail-bar-durham",

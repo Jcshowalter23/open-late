@@ -2776,32 +2776,7 @@
      "resolution": "Facebook page hours kept (venue-managed, active)",
      "checked": "2026-11-01"
     }
-   ],
-   "trivia": {
-    "nights": [
-     {
-      "day": "Tue",
-      "cadence": "weekly",
-      "start": "7 pm",
-      "confidence": "high",
-      "lastSeen": "2026-11-02",
-      "sources": [
-       {
-        "src": "Dirty South Trivia schedule",
-        "url": "https://www.dirtysouthtrivia.com/",
-        "date": "2026-11-02",
-        "quote": "Pub Quiz · Tue 7:00 PM · Sceptre Brewing Arts, Decatur"
-       }
-      ],
-      "basis": "vendor/host published venue schedule",
-      "vendor": "Dirty South Trivia"
-     }
-    ],
-    "hints": [],
-    "stale": false,
-    "oneoffs": [],
-    "conflicts": []
-   }
+   ]
   },
   {
    "id": "ga-scout",
@@ -4166,7 +4141,7 @@
      {
       "day": "Fri",
       "cadence": "weekly",
-      "start": "6 to 9 PM",
+      "start": "6 to 9 pm",
       "basis": "explicit recurring wording",
       "lastSeen": "2026-11-01",
       "datedLastSeen": null,
@@ -4497,7 +4472,43 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/1219097537 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.myparentsbasementcbcb.com: \"rs of Operation | Closed on Monday | Tuesday-Thursday, Sunday 11 am - 11 pm Friday-Saturday 11 am - midnight | Follow \" (checked 2026-11-02)",
    "county": "DeKalb",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Trivia | Tuesday, June 28, 2022",
+      "url": "https://www.myparentsbasementcbcb.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Join us for trivia every Tuesday at 7 pm at My Parents' Basement",
+      "url": "https://www.myparentsbasementcbcb.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Halloween Horror Trivia + Costume Contest | Tue, Oct 31, 2017",
+      "url": "https://www.myparentsbasementcbcb.com/events"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "We will have an art market going on all day along with various fund raiser activities for Project Pinball including a cake walk, art auction, claw game Bingo and more | Come hang out with us Sunday, A",
+      "url": "https://www.myparentsbasementcbcb.com/events"
+     }
+    ]
+   }
   },
   {
    "id": "ga-ophelia-tavern-avondale-estates",

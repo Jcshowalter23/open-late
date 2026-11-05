@@ -147,7 +147,7 @@
         "src": "venue website event calendar",
         "url": "https://liquidnoisebrewing.com/",
         "date": "2026-11-02",
-        "quote": "Upcoming Events | November 2, 2026 | 1 day from now | >> Trivia | 6:30 pm"
+        "quote": "Upcoming Events | November 2, 2026 | 55 minutes from now | >> Trivia | 6:30 pm"
        }
       ],
       "confidence": "medium"
@@ -237,7 +237,7 @@
     "oneoffs": [
      {
       "date": "2026-11-04",
-      "quote": "See more details | November 4, 2026 | 3 days from now | >> Bingo – 1st Wed of Month | 6:30 pm",
+      "quote": "See more details | November 4, 2026 | 2 days from now | >> Bingo – 1st Wed of Month | 6:30 pm",
       "url": "https://liquidnoisebrewing.com/"
      },
      {
@@ -781,7 +781,95 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/10699776971 opening_hours tag (map data 2026-11-01) (checked 2026-11-02); late hours confirmed by venue website https://www.lindgrenbrewery.com/: \"-3448 | Info@lindgrenbrewery.com | 5 N. Market Street | Duncannon, PA 17020 | Hours | Wednesday 4 - 9pm | Thursda\" (checked 2026-11-02)",
    "county": "Perry",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-04",
+      "datedLastSeen": "2026-11-04",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.lindgrenbrewery.com/events",
+        "date": "2026-11-04",
+        "quote": "Trivia Night at Lindgren Craft Brewery | Wed, Nov 04"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.lindgrenbrewery.com/events",
+        "date": "2026-11-04",
+        "quote": "Trivia Night at Lindgren Craft Brewery | Wed, Nov 04 | Lindgren Craft Brewery | Join us for >> Join us for trivia every 1st and 3rd Wednesday"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.lindgrenbrewery.com/events",
+        "date": "2026-11-04",
+        "quote": "Lindgren Craft Brewery | Join us for trivia every 1st and 3rd Wednesday! Please note that due to some adult content our >> Please note that due to some adult content our trivia and bingo nights are for those 18 and older"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Please note that due to some adult content our trivia and bingo nights are for those 18 and older",
+      "url": "https://www.lindgrenbrewery.com/events"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "monthly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-25",
+      "datedLastSeen": "2026-11-25",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.lindgrenbrewery.com/events",
+        "date": "2026-11-25",
+        "quote": "Not Your Grandma's BINGO at Lindgren Craft Brewery | Wed, Nov 25"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://www.lindgrenbrewery.com/events",
+        "date": "2026-11-04",
+        "quote": "aft Brewery | Join us for trivia every 1st and 3rd Wednesday! Please note that due to some adult content our trivia and >> Please note that due to some adult content our trivia and bingo nights are for those 18 and older"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.lindgrenbrewery.com/events",
+        "date": "2026-11-01",
+        "quote": "Join us on the 4th Wednesday of each month at the brewery for a fun night of BINGO"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Please note that due to some adult content our trivia and bingo nights are for those 18 and older",
+      "url": "https://www.lindgrenbrewery.com/events"
+     }
+    ]
+   }
   }
  ],
  "counties": [

@@ -1,0 +1,128 @@
+{
+ "id": "north-smithfield-ri",
+ "name": "North Smithfield, RI",
+ "timezone": "America/New_York",
+ "checked": "2026-11-05",
+ "checkedLabel": "Nov 5, 2026",
+ "restaurants": [
+  {
+   "id": "ri-gators-pub",
+   "name": "Gators Pub",
+   "cuisine": "Pub",
+   "address": "1402 Victory Hwy, North Smithfield",
+   "state": "RI",
+   "zip": "02896",
+   "phone": "(401) 769-2220",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ri/north-smithfield/gators-pub-/ (updated 2026-09-18), checked 2026-11-02",
+   "lat": 41.994572,
+   "lng": -71.59837,
+   "website": "https://gatorspubri.com/",
+   "websiteSource": "OpenStreetMap node/14271358701 website tag (map data 2026-11-03), checked 2026-11-02",
+   "hours": "Daily 11a-1a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-09-18) (checked 2026-11-02)",
+   "county": "Providence",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-18",
+        "url": "https://www.restaurantji.com/ri/north-smithfield/gators-pub-/",
+        "quote": "uch as Krystal, are always attentive, helpful, and remember regular customers. The pub is kid-friendly, reasonably priced, and has a diverse menu with both light meals and indulgent options, l",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ri/north-smithfield/gators-pub-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   },
+   "karaoke": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "21:00",
+      "basis": "explicit recurring listing",
+      "lastSeen": "2026-11-05",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "karaokelistings.com",
+        "url": "https://karaokelistings.com/venue.php?ID=12997&club=",
+        "date": "2026-11-05",
+        "quote": "Tuesday and Thurs nights 9pm - 12:30"
+       }
+      ],
+      "confidence": "medium"
+     },
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "21:00",
+      "basis": "explicit recurring listing",
+      "lastSeen": "2026-11-05",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "karaokelistings.com",
+        "url": "https://karaokelistings.com/venue.php?ID=12997&club=",
+        "date": "2026-11-05",
+        "quote": "Tuesday and Thurs nights 9pm - 12:30"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "hints": [],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "outdoor": {
+    "types": [
+     "outdoor volleyball area"
+    ],
+    "sources": [
+     {
+      "src": "Facebook page about",
+      "url": "https://www.facebook.com/gators.pub",
+      "quote": "sports, pool, and outdoor volleyball",
+      "fetched": "2026-11-05",
+      "checked": "2026-11-05"
+     }
+    ],
+    "checked": "2026-11-05"
+   }
+  }
+ ],
+ "type": "town",
+ "region": "providence-metro-ri",
+ "counties": [
+  "Providence"
+ ],
+ "state": "RI"
+}

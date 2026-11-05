@@ -1530,7 +1530,7 @@
    "happyHours": [
     {
      "days": "Mon-Thu",
-     "text": "Happy Hour: Mon - Thu: 5pm - 8pm",
+     "text": "Happy Hour: Mon - Thu: 5 pm - 8 pm",
      "tags": [],
      "src": "Venue website fiddlersriverstreet.com",
      "checked": "2026-11-01",
@@ -3137,7 +3137,7 @@
    "happyHours": [
     {
      "days": "Daily",
-     "text": "30pm Daily Happy Hour at the bar 4pm - 6pm",
+     "text": "30 pm Daily Happy Hour at the bar 4 pm - 6 pm",
      "tags": [],
      "src": "Venue website repeal33savannah.com",
      "checked": "2026-11-01",
@@ -3765,25 +3765,7 @@
    ],
    "menu": "https://thesavtap.house/savannah-historic-district-savannah-taphouse-food-menu",
    "trivia": {
-    "nights": [
-     {
-      "day": "Wed",
-      "cadence": "weekly",
-      "start": "7 pm",
-      "confidence": "high",
-      "lastSeen": "2026-11-02",
-      "sources": [
-       {
-        "src": "Challenge Entertainment schedule",
-        "url": "https://challengeentertainment.com/show/savannah-taphouse-savannah-live-trivia/",
-        "date": "2026-11-02",
-        "quote": "Live Trivia · Wed 7:00 PM · Savannah Taphouse - Savannah, Savannah"
-       }
-      ],
-      "basis": "vendor/host published venue schedule",
-      "vendor": "Challenge Entertainment"
-     }
-    ],
+    "nights": [],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -6271,7 +6253,7 @@
    "happyHours": [
     {
      "days": "Mon",
-     "text": "Happy Hour: 4PM - 5PM Mon",
+     "text": "Happy Hour: 4 pm - 5 pm Mon",
      "tags": [],
      "src": "Venue website vicsontheriver.com/location-info",
      "checked": "2026-11-01",
@@ -6829,7 +6811,56 @@
    ],
    "source": "hours from venue website https://www.plantriverside.com/savannah-restaurants-bars/electric-moon/: \"Monday - Wednesday / 3 PM – 11 PM / Thursday / 4 PM - 12 AM / Friday / 12 PM - 1 AM / Saturday / 12 PM - 1 AM / Sunday / 12 PM - 11 PM\" (checked 2026-11-02); location from OpenStreetMap node/8735362618 (map data 2026-11-01)",
    "county": "Chatham",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "bingo": {
+    "nights": [
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": "8 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.plantriverside.com/savannah-restaurants-bars/electric-moon/",
+        "date": "2026-11-01",
+        "quote": "Music Bingo at Electric Moon | 8 PM | EVERY WEDNESDAY 7 PM | 8 PM"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.plantriverside.com/event/music-bingo-at-electric-moon/",
+        "date": "2026-11-01",
+        "quote": "Turn up your Wednesday night at Electric Moon with Music Bingo, a free-to-play twist on the classic game that puts your music knowledge to the test"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Music Bingo at Electric Moon | 5 PM – 7 PM",
+      "url": "https://www.plantriverside.com/event/sip-and-shop-at-southern-tide/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Music Bingo at Electric Moon - Plant Riverside District",
+      "url": "https://www.plantriverside.com/event/music-bingo-at-electric-moon/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "\\ Music Bingo at Electric Moon",
+      "url": "https://www.plantriverside.com/event/music-bingo-at-electric-moon/"
+     }
+    ]
+   }
   },
   {
    "id": "ga-the-bamboo-room-tiki-bar-savannah",

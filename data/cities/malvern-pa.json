@@ -696,7 +696,7 @@
     },
     {
      "days": "Tue",
-     "text": "Tuesday only, 10am-9pm: a large cheese pizza with a topping, 5pc buffalo chicken fingers, and a 2-liter soda for $28",
+     "text": "Tuesday only, 10 am-9 pm: a large cheese pizza with a topping, 5pc buffalo chicken fingers, and a 2-liter soda for $28",
      "tags": [],
      "src": "Venue website vippizzapasta.com",
      "checked": "2026-11-01"
@@ -783,7 +783,34 @@
    ],
    "source": "hours from OpenStreetMap node/10295690696 opening_hours tag (map data 2026-11-01; last checked on the map 2026-02-19) (checked 2026-11-02); late hours confirmed by venue website https://www.slyfoxbeer.com/malvern: \"days, Showers etc.… | CONTACT US | HOURS | Monday | 11:30AM - 9:00PM | Tuesday-Saturday | 11:30AM - 10:00PM | Sunday \" (checked 2026-11-02)",
    "county": "Chester",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": "6:30 pm - 8:30 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://www.slyfoxbeer.com/malvern",
+        "date": "2026-11-01",
+        "quote": "TUESDAY TRIVIA | EVERY TUESDAY NIGHT | 6:30pm - 8:30pm"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   }
   },
   {
    "id": "pa-kinnera-indian-cuisine",

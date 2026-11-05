@@ -89,7 +89,7 @@
    "happyHours": [
     {
      "days": "Fri",
-     "text": "Friday happy hour 3-5pm",
+     "text": "Friday happy hour 3-5 pm",
      "tags": [],
      "src": "Venue website aguacatescantinabuffalo.com/blasdell-aguacates-mexican-restaurant-and-cantina-mckinley-happy-hours-specials",
      "checked": "2026-11-02",
@@ -2797,7 +2797,61 @@
    "vibes": [],
    "source": "hours from OpenStreetMap way/629772696 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://dinosaurbarbque.com/restaurant-in-hamburg-ny: \": | 4:00 PM - 9:00 PM | WEDNESDAY & THURSDAY | 11:00 AM - 9:00 PM | FRIDAY & SATURDAY: | 11:00 AM – 10:00 PM | SUNDAY:\" (checked 2026-11-02)",
    "county": "Erie",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Mon",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-30",
+      "datedLastSeen": "2026-11-30",
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://dinosaurbarbque.com/events",
+        "date": "2026-11-30",
+        "quote": "November 1 | – | November 30 | >> Trivia Night at Dinosaur Bar-B-Que Syracuse"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://dinosaurbarbque.com/events",
+        "date": "2026-11-30",
+        "quote": "– | November 30 | Trivia Night at Dinosaur Bar-B-Que Syracuse | >> Trivia Night at the Syracuse Dino BBQ Think you've got what it takes to be the trivia champ"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://dinosaurbarbque.com/events",
+        "date": "2026-11-30",
+        "quote": "a Night at Dinosaur Bar-B-Que Syracuse | Trivia Night at the Syracuse Dino BBQ Think you've got what it takes to be the >> Trivia Night at the Syracuse Dino BBQ Think you've got what it takes to be the trivia champ"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia Night at Dinosaur Bar-B-Que Syracuse",
+      "url": "https://dinosaurbarbque.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Grab your crew and head upstairs at Dinosaur Bar-B-Que Syracuse for Trivia Night with Syracuse Trivia Co",
+      "url": "https://dinosaurbarbque.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " We're teaming up with our friends at Fiddlehead Brewing Company for a night of trivia, BBQ, brews, and a little…",
+      "url": "https://dinosaurbarbque.com/events"
+     }
+    ]
+   }
   },
   {
    "id": "ny-blasdell-pizza-buffalo",

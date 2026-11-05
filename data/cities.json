@@ -49,20 +49,24 @@
     {
       "id": "NY",
       "name": "New York"
-    }
-  ],
-  "comingSoon": [
+    },
+    {
+      "id": "RI",
+      "name": "Rhode Island"
+    },
     {
       "id": "CT",
       "name": "Connecticut"
     },
     {
-      "id": "ME",
-      "name": "Maine"
-    },
-    {
       "id": "MA",
       "name": "Massachusetts"
+    }
+  ],
+  "comingSoon": [
+    {
+      "id": "ME",
+      "name": "Maine"
     },
     {
       "id": "NH",
@@ -71,10 +75,6 @@
     {
       "id": "OH",
       "name": "Ohio"
-    },
-    {
-      "id": "RI",
-      "name": "Rhode Island"
     },
     {
       "id": "VT",
@@ -516,6 +516,81 @@
       "id": "western-ny",
       "name": "Western NY (Buffalo, Niagara Falls)",
       "state": "NY"
+    },
+    {
+      "id": "providence-metro-ri",
+      "name": "Providence metro (Providence, Warwick, Cranston, Pawtucket)",
+      "state": "RI"
+    },
+    {
+      "id": "ri-coast-islands",
+      "name": "Coast & islands (Newport, Narragansett, Westerly, Bristol)",
+      "state": "RI"
+    },
+    {
+      "id": "ct-southwest",
+      "name": "Southwest CT (Stamford, Norwalk, Bridgeport, Danbury)",
+      "state": "CT"
+    },
+    {
+      "id": "ct-south-central",
+      "name": "South Central (New Haven, Milford, Waterbury)",
+      "state": "CT"
+    },
+    {
+      "id": "ct-capitol",
+      "name": "Capitol (Hartford, New Britain, Bristol)",
+      "state": "CT"
+    },
+    {
+      "id": "ct-southeast",
+      "name": "Southeast (New London, Norwich, Groton)",
+      "state": "CT"
+    },
+    {
+      "id": "ct-eastern",
+      "name": "Eastern (Willimantic, Putnam)",
+      "state": "CT"
+    },
+    {
+      "id": "ct-northwest",
+      "name": "Northwest (Torrington, Litchfield)",
+      "state": "CT"
+    },
+    {
+      "id": "ct-midstate",
+      "name": "Midstate / Lower River (Middletown)",
+      "state": "CT"
+    },
+    {
+      "id": "boston-metro-ma",
+      "name": "Boston metro (Boston, Cambridge, Somerville)",
+      "state": "MA"
+    },
+    {
+      "id": "north-shore-ma",
+      "name": "North Shore (Lynn, Salem, Gloucester)",
+      "state": "MA"
+    },
+    {
+      "id": "south-shore-cape-ma",
+      "name": "South Shore & Cape (Plymouth, Cape Cod, Islands)",
+      "state": "MA"
+    },
+    {
+      "id": "south-coast-ma",
+      "name": "South Coast (New Bedford, Fall River, Taunton)",
+      "state": "MA"
+    },
+    {
+      "id": "central-ma",
+      "name": "Central MA (Worcester)",
+      "state": "MA"
+    },
+    {
+      "id": "western-ma",
+      "name": "Western MA (Springfield, Pittsfield, Amherst)",
+      "state": "MA"
     }
   ],
   "areas": [
@@ -26100,6 +26175,3394 @@
       ],
       "state": "NY",
       "pickerState": "NY"
+    },
+    {
+      "id": "bristol-county-ri",
+      "name": "Bristol County, RI",
+      "type": "town",
+      "region": "ri-coast-islands",
+      "timezone": "America/New_York",
+      "file": "data/cities/bristol-county-ri.json",
+      "status": "live",
+      "counties": [
+        "Bristol"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "warren-ri",
+      "name": "Warren, RI",
+      "type": "town",
+      "region": "ri-coast-islands",
+      "timezone": "America/New_York",
+      "file": "data/cities/warren-ri.json",
+      "status": "live",
+      "counties": [
+        "Bristol"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "barrington-ri",
+      "name": "Barrington, RI",
+      "type": "town",
+      "region": "ri-coast-islands",
+      "timezone": "America/New_York",
+      "file": "data/cities/barrington-ri.json",
+      "status": "live",
+      "counties": [
+        "Bristol"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "warwick-ri",
+      "name": "Warwick, RI",
+      "type": "city",
+      "region": "providence-metro-ri",
+      "timezone": "America/New_York",
+      "file": "data/cities/warwick-ri.json",
+      "status": "live",
+      "counties": [
+        "Kent"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "coventry-ri",
+      "name": "Coventry & West Greenwich, RI",
+      "type": "town",
+      "region": "providence-metro-ri",
+      "timezone": "America/New_York",
+      "file": "data/cities/coventry-ri.json",
+      "status": "live",
+      "counties": [
+        "Kent"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "west-warwick-ri",
+      "name": "West Warwick, RI",
+      "type": "town",
+      "region": "providence-metro-ri",
+      "timezone": "America/New_York",
+      "file": "data/cities/west-warwick-ri.json",
+      "status": "live",
+      "counties": [
+        "Kent"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "east-greenwich-ri",
+      "name": "East Greenwich, RI",
+      "type": "town",
+      "region": "providence-metro-ri",
+      "timezone": "America/New_York",
+      "file": "data/cities/east-greenwich-ri.json",
+      "status": "live",
+      "counties": [
+        "Kent"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "portsmouth-ri",
+      "name": "Portsmouth & Melville, RI",
+      "type": "town",
+      "region": "ri-coast-islands",
+      "timezone": "America/New_York",
+      "file": "data/cities/portsmouth-ri.json",
+      "status": "live",
+      "counties": [
+        "Newport"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "jamestown-ri",
+      "name": "Jamestown & Little Compton, RI",
+      "type": "city",
+      "region": "ri-coast-islands",
+      "timezone": "America/New_York",
+      "file": "data/cities/jamestown-ri.json",
+      "status": "live",
+      "counties": [
+        "Newport"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "newport-ri",
+      "name": "Newport, RI",
+      "type": "city",
+      "region": "ri-coast-islands",
+      "timezone": "America/New_York",
+      "file": "data/cities/newport-ri.json",
+      "status": "live",
+      "counties": [
+        "Newport"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "newport-east-ri",
+      "name": "Newport East, RI",
+      "type": "town",
+      "region": "ri-coast-islands",
+      "timezone": "America/New_York",
+      "file": "data/cities/newport-east-ri.json",
+      "status": "live",
+      "counties": [
+        "Newport"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "tiverton-ri",
+      "name": "Tiverton, RI",
+      "type": "town",
+      "region": "ri-coast-islands",
+      "timezone": "America/New_York",
+      "file": "data/cities/tiverton-ri.json",
+      "status": "live",
+      "counties": [
+        "Newport"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "pawtucket-ri",
+      "name": "Pawtucket, RI",
+      "type": "city",
+      "region": "providence-metro-ri",
+      "timezone": "America/New_York",
+      "file": "data/cities/pawtucket-ri.json",
+      "status": "live",
+      "counties": [
+        "Providence"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "providence-county-ri",
+      "name": "Providence County, RI",
+      "type": "city",
+      "region": "providence-metro-ri",
+      "timezone": "America/New_York",
+      "file": "data/cities/providence-county-ri.json",
+      "status": "live",
+      "counties": [
+        "Providence"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "cranston-ri",
+      "name": "Cranston, RI",
+      "type": "city",
+      "region": "providence-metro-ri",
+      "timezone": "America/New_York",
+      "file": "data/cities/cranston-ri.json",
+      "status": "live",
+      "counties": [
+        "Providence"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "north-providence-ri",
+      "name": "North Providence, RI",
+      "type": "city",
+      "region": "providence-metro-ri",
+      "timezone": "America/New_York",
+      "file": "data/cities/north-providence-ri.json",
+      "status": "live",
+      "counties": [
+        "Providence"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "woonsocket-ri",
+      "name": "Woonsocket & North Smithfield, RI",
+      "type": "city",
+      "region": "providence-metro-ri",
+      "timezone": "America/New_York",
+      "file": "data/cities/woonsocket-ri.json",
+      "status": "live",
+      "counties": [
+        "Providence"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "lincoln-ri",
+      "name": "Lincoln, RI",
+      "type": "town",
+      "region": "providence-metro-ri",
+      "timezone": "America/New_York",
+      "file": "data/cities/lincoln-ri.json",
+      "status": "live",
+      "counties": [
+        "Providence"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "smithfield-ri",
+      "name": "Smithfield, Burrillville & Greenville, RI",
+      "type": "town",
+      "region": "providence-metro-ri",
+      "timezone": "America/New_York",
+      "file": "data/cities/smithfield-ri.json",
+      "status": "live",
+      "counties": [
+        "Providence"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "north-smithfield-ri",
+      "name": "North Smithfield, RI",
+      "type": "town",
+      "region": "providence-metro-ri",
+      "timezone": "America/New_York",
+      "file": "data/cities/north-smithfield-ri.json",
+      "status": "live",
+      "counties": [
+        "Providence"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "johnston-ri",
+      "name": "Johnston & Scituate, RI",
+      "type": "city",
+      "region": "providence-metro-ri",
+      "timezone": "America/New_York",
+      "file": "data/cities/johnston-ri.json",
+      "status": "live",
+      "counties": [
+        "Providence"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "central-falls-ri",
+      "name": "Central Falls & Valley Falls, RI",
+      "type": "town",
+      "region": "providence-metro-ri",
+      "timezone": "America/New_York",
+      "file": "data/cities/central-falls-ri.json",
+      "status": "live",
+      "counties": [
+        "Providence"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "east-providence-ri",
+      "name": "East Providence, RI",
+      "type": "city",
+      "region": "providence-metro-ri",
+      "timezone": "America/New_York",
+      "file": "data/cities/east-providence-ri.json",
+      "status": "live",
+      "counties": [
+        "Providence"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "cumberland-ri",
+      "name": "Cumberland, RI",
+      "type": "town",
+      "region": "providence-metro-ri",
+      "timezone": "America/New_York",
+      "file": "data/cities/cumberland-ri.json",
+      "status": "live",
+      "counties": [
+        "Providence"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "narragansett-ri",
+      "name": "Narragansett, RI",
+      "type": "town",
+      "region": "ri-coast-islands",
+      "timezone": "America/New_York",
+      "file": "data/cities/narragansett-ri.json",
+      "status": "live",
+      "counties": [
+        "Washington"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "south-kingstown-ri",
+      "name": "South Kingstown, Richmond & Charlestown, RI",
+      "type": "town",
+      "region": "ri-coast-islands",
+      "timezone": "America/New_York",
+      "file": "data/cities/south-kingstown-ri.json",
+      "status": "live",
+      "counties": [
+        "Washington"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "new-shoreham-ri",
+      "name": "New Shoreham, RI",
+      "type": "town",
+      "region": "ri-coast-islands",
+      "timezone": "America/New_York",
+      "file": "data/cities/new-shoreham-ri.json",
+      "status": "live",
+      "counties": [
+        "Washington"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "westerly-ri",
+      "name": "Westerly & Hopkinton, RI",
+      "type": "city",
+      "region": "ri-coast-islands",
+      "timezone": "America/New_York",
+      "file": "data/cities/westerly-ri.json",
+      "status": "live",
+      "counties": [
+        "Washington"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "north-kingstown-ri",
+      "name": "North Kingstown & Exeter, RI",
+      "type": "town",
+      "region": "ri-coast-islands",
+      "timezone": "America/New_York",
+      "file": "data/cities/north-kingstown-ri.json",
+      "status": "live",
+      "counties": [
+        "Washington"
+      ],
+      "state": "RI",
+      "pickerState": "RI"
+    },
+    {
+      "id": "manchester-ct",
+      "name": "Manchester & Hebron, CT",
+      "type": "city",
+      "region": "ct-capitol",
+      "timezone": "America/New_York",
+      "file": "data/cities/manchester-ct.json",
+      "status": "live",
+      "counties": [
+        "Capitol Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "southington-ct",
+      "name": "Southington & Plantsville, CT",
+      "type": "city",
+      "region": "ct-capitol",
+      "timezone": "America/New_York",
+      "file": "data/cities/southington-ct.json",
+      "status": "live",
+      "counties": [
+        "Capitol Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "glastonbury-ct",
+      "name": "Glastonbury, Terramuggus & Marlborough, CT",
+      "type": "city",
+      "region": "ct-capitol",
+      "timezone": "America/New_York",
+      "file": "data/cities/glastonbury-ct.json",
+      "status": "live",
+      "counties": [
+        "Capitol Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "west-hartford-ct",
+      "name": "West Hartford & Bloomfield, CT",
+      "type": "city",
+      "region": "ct-capitol",
+      "timezone": "America/New_York",
+      "file": "data/cities/west-hartford-ct.json",
+      "status": "live",
+      "counties": [
+        "Capitol Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "vernon-ct",
+      "name": "Vernon & Ellington, CT",
+      "type": "town",
+      "region": "ct-capitol",
+      "timezone": "America/New_York",
+      "file": "data/cities/vernon-ct.json",
+      "status": "live",
+      "counties": [
+        "Capitol Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "storrs-ct",
+      "name": "Storrs & Mansfield, CT",
+      "type": "town",
+      "region": "ct-capitol",
+      "timezone": "America/New_York",
+      "file": "data/cities/storrs-ct.json",
+      "status": "live",
+      "counties": [
+        "Capitol Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "simsbury-ct",
+      "name": "Simsbury, Avon & Collinsville, CT",
+      "type": "town",
+      "region": "ct-capitol",
+      "timezone": "America/New_York",
+      "file": "data/cities/simsbury-ct.json",
+      "status": "live",
+      "counties": [
+        "Capitol Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "hartford-ct",
+      "name": "Hartford & Storrs, CT",
+      "type": "city",
+      "region": "ct-capitol",
+      "timezone": "America/New_York",
+      "file": "data/cities/hartford-ct.json",
+      "status": "live",
+      "counties": [
+        "Capitol Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "rocky-hill-ct",
+      "name": "Rocky Hill, CT",
+      "type": "town",
+      "region": "ct-capitol",
+      "timezone": "America/New_York",
+      "file": "data/cities/rocky-hill-ct.json",
+      "status": "live",
+      "counties": [
+        "Capitol Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "enfield-ct",
+      "name": "Enfield & Windsor Locks, CT",
+      "type": "town",
+      "region": "ct-capitol",
+      "timezone": "America/New_York",
+      "file": "data/cities/enfield-ct.json",
+      "status": "live",
+      "counties": [
+        "Capitol Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "east-windsor-ct",
+      "name": "East Windsor, CT",
+      "type": "town",
+      "region": "ct-capitol",
+      "timezone": "America/New_York",
+      "file": "data/cities/east-windsor-ct.json",
+      "status": "live",
+      "counties": [
+        "Capitol Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "new-britain-ct",
+      "name": "New Britain, CT",
+      "type": "city",
+      "region": "ct-capitol",
+      "timezone": "America/New_York",
+      "file": "data/cities/new-britain-ct.json",
+      "status": "live",
+      "counties": [
+        "Capitol Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "wethersfield-ct",
+      "name": "Wethersfield, CT",
+      "type": "town",
+      "region": "ct-capitol",
+      "timezone": "America/New_York",
+      "file": "data/cities/wethersfield-ct.json",
+      "status": "live",
+      "counties": [
+        "Capitol Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "east-hartford-ct",
+      "name": "East Hartford, CT",
+      "type": "town",
+      "region": "ct-capitol",
+      "timezone": "America/New_York",
+      "file": "data/cities/east-hartford-ct.json",
+      "status": "live",
+      "counties": [
+        "Capitol Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "plainville-ct",
+      "name": "Plainville, CT",
+      "type": "town",
+      "region": "ct-capitol",
+      "timezone": "America/New_York",
+      "file": "data/cities/plainville-ct.json",
+      "status": "live",
+      "counties": [
+        "Capitol Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "farmington-ct",
+      "name": "Farmington, CT",
+      "type": "town",
+      "region": "ct-capitol",
+      "timezone": "America/New_York",
+      "file": "data/cities/farmington-ct.json",
+      "status": "live",
+      "counties": [
+        "Capitol Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "south-windsor-ct",
+      "name": "South Windsor & Windsor, CT",
+      "type": "town",
+      "region": "ct-capitol",
+      "timezone": "America/New_York",
+      "file": "data/cities/south-windsor-ct.json",
+      "status": "live",
+      "counties": [
+        "Capitol Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "berlin-ct",
+      "name": "Berlin, CT",
+      "type": "town",
+      "region": "ct-capitol",
+      "timezone": "America/New_York",
+      "file": "data/cities/berlin-ct.json",
+      "status": "live",
+      "counties": [
+        "Capitol Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "newington-ct",
+      "name": "Newington, CT",
+      "type": "city",
+      "region": "ct-capitol",
+      "timezone": "America/New_York",
+      "file": "data/cities/newington-ct.json",
+      "status": "live",
+      "counties": [
+        "Capitol Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "bridgeport-ct",
+      "name": "Bridgeport, CT",
+      "type": "city",
+      "region": "ct-southwest",
+      "timezone": "America/New_York",
+      "file": "data/cities/bridgeport-ct.json",
+      "status": "live",
+      "counties": [
+        "Greater Bridgeport Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "stratford-ct",
+      "name": "Stratford, Stratford Downtown & Lordship, CT",
+      "type": "city",
+      "region": "ct-southwest",
+      "timezone": "America/New_York",
+      "file": "data/cities/stratford-ct.json",
+      "status": "live",
+      "counties": [
+        "Greater Bridgeport Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "fairfield-ct",
+      "name": "Fairfield & Southport, CT",
+      "type": "city",
+      "region": "ct-southwest",
+      "timezone": "America/New_York",
+      "file": "data/cities/fairfield-ct.json",
+      "status": "live",
+      "counties": [
+        "Greater Bridgeport Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "stepney-ct",
+      "name": "Stepney & Monroe, CT",
+      "type": "town",
+      "region": "ct-southwest",
+      "timezone": "America/New_York",
+      "file": "data/cities/stepney-ct.json",
+      "status": "live",
+      "counties": [
+        "Greater Bridgeport Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "trumbull-ct",
+      "name": "Trumbull, Easton & Trumbull Center, CT",
+      "type": "town",
+      "region": "ct-southwest",
+      "timezone": "America/New_York",
+      "file": "data/cities/trumbull-ct.json",
+      "status": "live",
+      "counties": [
+        "Greater Bridgeport Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "middletown-ct",
+      "name": "Middletown & Durham, CT",
+      "type": "city",
+      "region": "ct-midstate",
+      "timezone": "America/New_York",
+      "file": "data/cities/middletown-ct.json",
+      "status": "live",
+      "counties": [
+        "Lower Connecticut River Valley Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "middlefield-ct",
+      "name": "Middlefield, CT",
+      "type": "town",
+      "region": "ct-midstate",
+      "timezone": "America/New_York",
+      "file": "data/cities/middlefield-ct.json",
+      "status": "live",
+      "counties": [
+        "Lower Connecticut River Valley Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "old-saybrook-center-ct",
+      "name": "Old Saybrook Center, Essex & Old Lyme, CT",
+      "type": "town",
+      "region": "ct-midstate",
+      "timezone": "America/New_York",
+      "file": "data/cities/old-saybrook-center-ct.json",
+      "status": "live",
+      "counties": [
+        "Lower Connecticut River Valley Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "clinton-ct",
+      "name": "Clinton & Killingworth, CT",
+      "type": "town",
+      "region": "ct-midstate",
+      "timezone": "America/New_York",
+      "file": "data/cities/clinton-ct.json",
+      "status": "live",
+      "counties": [
+        "Lower Connecticut River Valley Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "portland-ct",
+      "name": "Portland, CT",
+      "type": "town",
+      "region": "ct-midstate",
+      "timezone": "America/New_York",
+      "file": "data/cities/portland-ct.json",
+      "status": "live",
+      "counties": [
+        "Lower Connecticut River Valley Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "cromwell-ct",
+      "name": "Cromwell, CT",
+      "type": "town",
+      "region": "ct-midstate",
+      "timezone": "America/New_York",
+      "file": "data/cities/cromwell-ct.json",
+      "status": "live",
+      "counties": [
+        "Lower Connecticut River Valley Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "chester-ct",
+      "name": "Chester, East Haddam & Haddam, CT",
+      "type": "town",
+      "region": "ct-midstate",
+      "timezone": "America/New_York",
+      "file": "data/cities/chester-ct.json",
+      "status": "live",
+      "counties": [
+        "Lower Connecticut River Valley Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "east-hampton-ct",
+      "name": "East Hampton, CT",
+      "type": "town",
+      "region": "ct-midstate",
+      "timezone": "America/New_York",
+      "file": "data/cities/east-hampton-ct.json",
+      "status": "live",
+      "counties": [
+        "Lower Connecticut River Valley Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "woodbury-ct",
+      "name": "Woodbury & Woodbury Center, CT",
+      "type": "town",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/woodbury-ct.json",
+      "status": "live",
+      "counties": [
+        "Naugatuck Valley Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "bristol-ct",
+      "name": "Bristol, CT",
+      "type": "city",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/bristol-ct.json",
+      "status": "live",
+      "counties": [
+        "Naugatuck Valley Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "cheshire-ct",
+      "name": "Cheshire, Cheshire Village & Prospect, CT",
+      "type": "town",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/cheshire-ct.json",
+      "status": "live",
+      "counties": [
+        "Naugatuck Valley Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "seymour-ct",
+      "name": "Seymour, CT",
+      "type": "town",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/seymour-ct.json",
+      "status": "live",
+      "counties": [
+        "Naugatuck Valley Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "middlebury-ct",
+      "name": "Middlebury, CT",
+      "type": "town",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/middlebury-ct.json",
+      "status": "live",
+      "counties": [
+        "Naugatuck Valley Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "shelton-ct",
+      "name": "Shelton, CT",
+      "type": "city",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/shelton-ct.json",
+      "status": "live",
+      "counties": [
+        "Naugatuck Valley Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "oakville-ct",
+      "name": "Oakville, CT",
+      "type": "town",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/oakville-ct.json",
+      "status": "live",
+      "counties": [
+        "Naugatuck Valley Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "naugatuck-ct",
+      "name": "Naugatuck & Beacon Falls, CT",
+      "type": "town",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/naugatuck-ct.json",
+      "status": "live",
+      "counties": [
+        "Naugatuck Valley Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "derby-ct",
+      "name": "Derby, CT",
+      "type": "town",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/derby-ct.json",
+      "status": "live",
+      "counties": [
+        "Naugatuck Valley Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "waterbury-ct",
+      "name": "Waterbury & Wolcott, CT",
+      "type": "city",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/waterbury-ct.json",
+      "status": "live",
+      "counties": [
+        "Naugatuck Valley Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "ansonia-ct",
+      "name": "Ansonia, CT",
+      "type": "town",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/ansonia-ct.json",
+      "status": "live",
+      "counties": [
+        "Naugatuck Valley Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "oxford-ct",
+      "name": "Oxford, CT",
+      "type": "town",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/oxford-ct.json",
+      "status": "live",
+      "counties": [
+        "Naugatuck Valley Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "thomaston-ct",
+      "name": "Thomaston & Plymouth, CT",
+      "type": "town",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/thomaston-ct.json",
+      "status": "live",
+      "counties": [
+        "Naugatuck Valley Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "southbury-ct",
+      "name": "Southbury, CT",
+      "type": "town",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/southbury-ct.json",
+      "status": "live",
+      "counties": [
+        "Naugatuck Valley Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "watertown-ct",
+      "name": "Watertown & Bethlehem, CT",
+      "type": "town",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/watertown-ct.json",
+      "status": "live",
+      "counties": [
+        "Naugatuck Valley Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "putnam-ct",
+      "name": "Putnam & Plainfield, CT",
+      "type": "town",
+      "region": "ct-eastern",
+      "timezone": "America/New_York",
+      "file": "data/cities/putnam-ct.json",
+      "status": "live",
+      "counties": [
+        "Northeastern Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "killingly-ct",
+      "name": "Killingly & Dayville, CT",
+      "type": "town",
+      "region": "ct-eastern",
+      "timezone": "America/New_York",
+      "file": "data/cities/killingly-ct.json",
+      "status": "live",
+      "counties": [
+        "Northeastern Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "litchfield-ct",
+      "name": "Litchfield, Kent & Bantam, CT",
+      "type": "town",
+      "region": "ct-northwest",
+      "timezone": "America/New_York",
+      "file": "data/cities/litchfield-ct.json",
+      "status": "live",
+      "counties": [
+        "Northwest Hills Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "torrington-ct",
+      "name": "Torrington, New Hartford & Winchester, CT",
+      "type": "city",
+      "region": "ct-northwest",
+      "timezone": "America/New_York",
+      "file": "data/cities/torrington-ct.json",
+      "status": "live",
+      "counties": [
+        "Northwest Hills Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "wallingford-ct",
+      "name": "Wallingford, CT",
+      "type": "city",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/wallingford-ct.json",
+      "status": "live",
+      "counties": [
+        "South Central Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "new-haven-ct",
+      "name": "New Haven, CT",
+      "type": "city",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/new-haven-ct.json",
+      "status": "live",
+      "counties": [
+        "South Central Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "woodbridge-ct",
+      "name": "Woodbridge, CT",
+      "type": "town",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/woodbridge-ct.json",
+      "status": "live",
+      "counties": [
+        "South Central Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "branford-ct",
+      "name": "Branford, CT",
+      "type": "town",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/branford-ct.json",
+      "status": "live",
+      "counties": [
+        "South Central Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "north-haven-ct",
+      "name": "North Haven, CT",
+      "type": "town",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/north-haven-ct.json",
+      "status": "live",
+      "counties": [
+        "South Central Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "hamden-ct",
+      "name": "Hamden & Bethany, CT",
+      "type": "city",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/hamden-ct.json",
+      "status": "live",
+      "counties": [
+        "South Central Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "meriden-ct",
+      "name": "Meriden, CT",
+      "type": "city",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/meriden-ct.json",
+      "status": "live",
+      "counties": [
+        "South Central Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "west-haven-ct",
+      "name": "West Haven, Orange & Milford, CT",
+      "type": "city",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/west-haven-ct.json",
+      "status": "live",
+      "counties": [
+        "South Central Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "east-haven-ct",
+      "name": "East Haven, CT",
+      "type": "town",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/east-haven-ct.json",
+      "status": "live",
+      "counties": [
+        "South Central Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "milford-city-balance-ct",
+      "name": "Milford city (balance), CT",
+      "type": "city",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/milford-city-balance-ct.json",
+      "status": "live",
+      "counties": [
+        "South Central Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "branford-center-ct",
+      "name": "Branford Center, CT",
+      "type": "town",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/branford-center-ct.json",
+      "status": "live",
+      "counties": [
+        "South Central Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "north-branford-ct",
+      "name": "North Branford, Guilford Center & Madison Center, CT",
+      "type": "town",
+      "region": "ct-south-central",
+      "timezone": "America/New_York",
+      "file": "data/cities/north-branford-ct.json",
+      "status": "live",
+      "counties": [
+        "South Central Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "norwich-ct",
+      "name": "Norwich, Griswold & Preston, CT",
+      "type": "town",
+      "region": "ct-southeast",
+      "timezone": "America/New_York",
+      "file": "data/cities/norwich-ct.json",
+      "status": "live",
+      "counties": [
+        "Southeastern Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "niantic-ct",
+      "name": "Niantic & East Lyme, CT",
+      "type": "town",
+      "region": "ct-southeast",
+      "timezone": "America/New_York",
+      "file": "data/cities/niantic-ct.json",
+      "status": "live",
+      "counties": [
+        "Southeastern Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "groton-ct",
+      "name": "Groton, Ledyard & Poquonock Bridge, CT",
+      "type": "city",
+      "region": "ct-southeast",
+      "timezone": "America/New_York",
+      "file": "data/cities/groton-ct.json",
+      "status": "live",
+      "counties": [
+        "Southeastern Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "mystic-ct",
+      "name": "Mystic & Noank, CT",
+      "type": "town",
+      "region": "ct-southeast",
+      "timezone": "America/New_York",
+      "file": "data/cities/mystic-ct.json",
+      "status": "live",
+      "counties": [
+        "Southeastern Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "stonington-ct",
+      "name": "Stonington & North Stonington, CT",
+      "type": "town",
+      "region": "ct-southeast",
+      "timezone": "America/New_York",
+      "file": "data/cities/stonington-ct.json",
+      "status": "live",
+      "counties": [
+        "Southeastern Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "new-london-ct",
+      "name": "New London, Gales Ferry & Waterford, CT",
+      "type": "city",
+      "region": "ct-southeast",
+      "timezone": "America/New_York",
+      "file": "data/cities/new-london-ct.json",
+      "status": "live",
+      "counties": [
+        "Southeastern Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "colchester-ct",
+      "name": "Colchester & Salem, CT",
+      "type": "town",
+      "region": "ct-southeast",
+      "timezone": "America/New_York",
+      "file": "data/cities/colchester-ct.json",
+      "status": "live",
+      "counties": [
+        "Southeastern Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "windham-ct",
+      "name": "Windham & Lebanon, CT",
+      "type": "town",
+      "region": "ct-southeast",
+      "timezone": "America/New_York",
+      "file": "data/cities/windham-ct.json",
+      "status": "live",
+      "counties": [
+        "Southeastern Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "norwalk-ct",
+      "name": "Norwalk, CT",
+      "type": "city",
+      "region": "ct-southwest",
+      "timezone": "America/New_York",
+      "file": "data/cities/norwalk-ct.json",
+      "status": "live",
+      "counties": [
+        "Western Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "westport-ct",
+      "name": "Westport & Weston, CT",
+      "type": "town",
+      "region": "ct-southwest",
+      "timezone": "America/New_York",
+      "file": "data/cities/westport-ct.json",
+      "status": "live",
+      "counties": [
+        "Western Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "danbury-ct",
+      "name": "Danbury & New Fairfield, CT",
+      "type": "city",
+      "region": "ct-southwest",
+      "timezone": "America/New_York",
+      "file": "data/cities/danbury-ct.json",
+      "status": "live",
+      "counties": [
+        "Western Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "ridgefield-ct",
+      "name": "Ridgefield, Redding & Branchville, CT",
+      "type": "town",
+      "region": "ct-southwest",
+      "timezone": "America/New_York",
+      "file": "data/cities/ridgefield-ct.json",
+      "status": "live",
+      "counties": [
+        "Western Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "stamford-ct",
+      "name": "Stamford, Darien & Old Greenwich, CT",
+      "type": "city",
+      "region": "ct-southwest",
+      "timezone": "America/New_York",
+      "file": "data/cities/stamford-ct.json",
+      "status": "live",
+      "counties": [
+        "Western Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "brookfield-ct",
+      "name": "Brookfield & Brookfield Center, CT",
+      "type": "town",
+      "region": "ct-southwest",
+      "timezone": "America/New_York",
+      "file": "data/cities/brookfield-ct.json",
+      "status": "live",
+      "counties": [
+        "Western Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "new-canaan-ct",
+      "name": "New Canaan & Wilton, CT",
+      "type": "town",
+      "region": "ct-southwest",
+      "timezone": "America/New_York",
+      "file": "data/cities/new-canaan-ct.json",
+      "status": "live",
+      "counties": [
+        "Western Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "bethel-ct",
+      "name": "Bethel & Dodgingtown, CT",
+      "type": "town",
+      "region": "ct-southwest",
+      "timezone": "America/New_York",
+      "file": "data/cities/bethel-ct.json",
+      "status": "live",
+      "counties": [
+        "Western Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "greenwich-ct",
+      "name": "Greenwich, Riverside & Byram, CT",
+      "type": "city",
+      "region": "ct-southwest",
+      "timezone": "America/New_York",
+      "file": "data/cities/greenwich-ct.json",
+      "status": "live",
+      "counties": [
+        "Western Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "newtown-ct",
+      "name": "Newtown & Botsford, CT",
+      "type": "town",
+      "region": "ct-southwest",
+      "timezone": "America/New_York",
+      "file": "data/cities/newtown-ct.json",
+      "status": "live",
+      "counties": [
+        "Western Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "new-milford-ct",
+      "name": "New Milford, Sherman & Bridgewater, CT",
+      "type": "town",
+      "region": "ct-southwest",
+      "timezone": "America/New_York",
+      "file": "data/cities/new-milford-ct.json",
+      "status": "live",
+      "counties": [
+        "Western Connecticut Planning Region"
+      ],
+      "state": "CT",
+      "pickerState": "CT"
+    },
+    {
+      "id": "provincetown-ma",
+      "name": "Provincetown, MA",
+      "type": "city",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/provincetown-ma.json",
+      "status": "live",
+      "counties": [
+        "Barnstable"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "barnstable-town-ma",
+      "name": "Barnstable Town, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/barnstable-town-ma.json",
+      "status": "live",
+      "counties": [
+        "Barnstable"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "brewster-ma",
+      "name": "Brewster & Harwich, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/brewster-ma.json",
+      "status": "live",
+      "counties": [
+        "Barnstable"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "mashpee-ma",
+      "name": "Mashpee & New Seabury, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/mashpee-ma.json",
+      "status": "live",
+      "counties": [
+        "Barnstable"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "west-yarmouth-ma",
+      "name": "West Yarmouth & South Yarmouth, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/west-yarmouth-ma.json",
+      "status": "live",
+      "counties": [
+        "Barnstable"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "falmouth-ma",
+      "name": "Falmouth, Woods Hole & East Falmouth, MA",
+      "type": "city",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/falmouth-ma.json",
+      "status": "live",
+      "counties": [
+        "Barnstable"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "sandwich-ma",
+      "name": "Sandwich & Forestdale, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/sandwich-ma.json",
+      "status": "live",
+      "counties": [
+        "Barnstable"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "chatham-ma",
+      "name": "Chatham, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/chatham-ma.json",
+      "status": "live",
+      "counties": [
+        "Barnstable"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "dennis-ma",
+      "name": "Dennis & Yarmouth, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/dennis-ma.json",
+      "status": "live",
+      "counties": [
+        "Barnstable"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "orleans-ma",
+      "name": "Orleans & Eastham, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/orleans-ma.json",
+      "status": "live",
+      "counties": [
+        "Barnstable"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "wellfleet-ma",
+      "name": "Wellfleet & Truro, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/wellfleet-ma.json",
+      "status": "live",
+      "counties": [
+        "Barnstable"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "bourne-ma",
+      "name": "Bourne & Pocasset, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/bourne-ma.json",
+      "status": "live",
+      "counties": [
+        "Barnstable"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "dennis-port-ma",
+      "name": "Dennis Port, Harwich Port & West Dennis, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/dennis-port-ma.json",
+      "status": "live",
+      "counties": [
+        "Barnstable"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "pittsfield-ma",
+      "name": "Pittsfield, Dalton & Lanesborough, MA",
+      "type": "city",
+      "region": "western-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/pittsfield-ma.json",
+      "status": "live",
+      "counties": [
+        "Berkshire"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "lee-ma",
+      "name": "Lee, Lenox & Stockbridge, MA",
+      "type": "town",
+      "region": "western-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/lee-ma.json",
+      "status": "live",
+      "counties": [
+        "Berkshire"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "williamstown-ma",
+      "name": "Williamstown, MA",
+      "type": "town",
+      "region": "western-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/williamstown-ma.json",
+      "status": "live",
+      "counties": [
+        "Berkshire"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "great-barrington-ma",
+      "name": "Great Barrington, New Marlborough & Egremont, MA",
+      "type": "town",
+      "region": "western-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/great-barrington-ma.json",
+      "status": "live",
+      "counties": [
+        "Berkshire"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "north-adams-ma",
+      "name": "North Adams, Adams & Clarksburg, MA",
+      "type": "town",
+      "region": "western-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/north-adams-ma.json",
+      "status": "live",
+      "counties": [
+        "Berkshire"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "fall-river-ma",
+      "name": "Fall River, MA",
+      "type": "city",
+      "region": "south-coast-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/fall-river-ma.json",
+      "status": "live",
+      "counties": [
+        "Bristol"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "fairhaven-ma",
+      "name": "Fairhaven & Acushnet, MA",
+      "type": "town",
+      "region": "south-coast-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/fairhaven-ma.json",
+      "status": "live",
+      "counties": [
+        "Bristol"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "new-bedford-ma",
+      "name": "New Bedford, Acushnet Center & Freetown, MA",
+      "type": "city",
+      "region": "south-coast-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/new-bedford-ma.json",
+      "status": "live",
+      "counties": [
+        "Bristol"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "north-attleborough-town-ma",
+      "name": "North Attleborough Town, MA",
+      "type": "town",
+      "region": "south-coast-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/north-attleborough-town-ma.json",
+      "status": "live",
+      "counties": [
+        "Bristol"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "taunton-ma",
+      "name": "Taunton & Berkley, MA",
+      "type": "city",
+      "region": "south-coast-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/taunton-ma.json",
+      "status": "live",
+      "counties": [
+        "Bristol"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "dartmouth-ma",
+      "name": "Dartmouth, MA",
+      "type": "town",
+      "region": "south-coast-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/dartmouth-ma.json",
+      "status": "live",
+      "counties": [
+        "Bristol"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "easton-ma",
+      "name": "Easton, MA",
+      "type": "town",
+      "region": "south-coast-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/easton-ma.json",
+      "status": "live",
+      "counties": [
+        "Bristol"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "somerset-ma",
+      "name": "Somerset, Swansea & Ocean Grove, MA",
+      "type": "town",
+      "region": "south-coast-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/somerset-ma.json",
+      "status": "live",
+      "counties": [
+        "Bristol"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "mansfield-ma",
+      "name": "Mansfield, MA",
+      "type": "town",
+      "region": "south-coast-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/mansfield-ma.json",
+      "status": "live",
+      "counties": [
+        "Bristol"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "raynham-ma",
+      "name": "Raynham, MA",
+      "type": "town",
+      "region": "south-coast-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/raynham-ma.json",
+      "status": "live",
+      "counties": [
+        "Bristol"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "westport-ma",
+      "name": "Westport, MA",
+      "type": "town",
+      "region": "south-coast-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/westport-ma.json",
+      "status": "live",
+      "counties": [
+        "Bristol"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "attleboro-ma",
+      "name": "Attleboro, MA",
+      "type": "town",
+      "region": "south-coast-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/attleboro-ma.json",
+      "status": "live",
+      "counties": [
+        "Bristol"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "norton-ma",
+      "name": "Norton, MA",
+      "type": "town",
+      "region": "south-coast-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/norton-ma.json",
+      "status": "live",
+      "counties": [
+        "Bristol"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "seekonk-ma",
+      "name": "Seekonk & Rehoboth, MA",
+      "type": "town",
+      "region": "south-coast-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/seekonk-ma.json",
+      "status": "live",
+      "counties": [
+        "Bristol"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "edgartown-ma",
+      "name": "Edgartown & Chilmark, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/edgartown-ma.json",
+      "status": "live",
+      "counties": [
+        "Dukes"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "oak-bluffs-ma",
+      "name": "Oak Bluffs, Vineyard Haven & West Tisbury, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/oak-bluffs-ma.json",
+      "status": "live",
+      "counties": [
+        "Dukes"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "haverhill-ma",
+      "name": "Haverhill, Georgetown & Groveland, MA",
+      "type": "city",
+      "region": "north-shore-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/haverhill-ma.json",
+      "status": "live",
+      "counties": [
+        "Essex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "saugus-ma",
+      "name": "Saugus & Lynnfield, MA",
+      "type": "city",
+      "region": "north-shore-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/saugus-ma.json",
+      "status": "live",
+      "counties": [
+        "Essex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "gloucester-ma",
+      "name": "Gloucester & Rockport, MA",
+      "type": "city",
+      "region": "north-shore-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/gloucester-ma.json",
+      "status": "live",
+      "counties": [
+        "Essex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "beverly-ma",
+      "name": "Beverly, Ipswich & Manchester-by-the-Sea, MA",
+      "type": "city",
+      "region": "north-shore-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/beverly-ma.json",
+      "status": "live",
+      "counties": [
+        "Essex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "andover-ma",
+      "name": "Andover, MA",
+      "type": "town",
+      "region": "north-shore-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/andover-ma.json",
+      "status": "live",
+      "counties": [
+        "Essex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "danvers-ma",
+      "name": "Danvers, Middleton & Topsfield, MA",
+      "type": "town",
+      "region": "north-shore-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/danvers-ma.json",
+      "status": "live",
+      "counties": [
+        "Essex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "amesbury-ma",
+      "name": "Amesbury, West Newbury & Merrimac, MA",
+      "type": "town",
+      "region": "north-shore-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/amesbury-ma.json",
+      "status": "live",
+      "counties": [
+        "Essex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "salem-ma",
+      "name": "Salem, MA",
+      "type": "city",
+      "region": "north-shore-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/salem-ma.json",
+      "status": "live",
+      "counties": [
+        "Essex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "north-andover-ma",
+      "name": "North Andover & Boxford, MA",
+      "type": "town",
+      "region": "north-shore-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/north-andover-ma.json",
+      "status": "live",
+      "counties": [
+        "Essex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "lynn-ma",
+      "name": "Lynn, Swampscott & Nahant, MA",
+      "type": "city",
+      "region": "north-shore-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/lynn-ma.json",
+      "status": "live",
+      "counties": [
+        "Essex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "marblehead-ma",
+      "name": "Marblehead, MA",
+      "type": "town",
+      "region": "north-shore-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/marblehead-ma.json",
+      "status": "live",
+      "counties": [
+        "Essex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "peabody-ma",
+      "name": "Peabody, MA",
+      "type": "city",
+      "region": "north-shore-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/peabody-ma.json",
+      "status": "live",
+      "counties": [
+        "Essex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "lawrence-ma",
+      "name": "Lawrence, MA",
+      "type": "city",
+      "region": "north-shore-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/lawrence-ma.json",
+      "status": "live",
+      "counties": [
+        "Essex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "newburyport-ma",
+      "name": "Newburyport, Rowley & Newbury, MA",
+      "type": "city",
+      "region": "north-shore-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/newburyport-ma.json",
+      "status": "live",
+      "counties": [
+        "Essex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "methuen-ma",
+      "name": "Methuen, MA",
+      "type": "town",
+      "region": "north-shore-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/methuen-ma.json",
+      "status": "live",
+      "counties": [
+        "Essex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "salisbury-ma",
+      "name": "Salisbury, MA",
+      "type": "town",
+      "region": "north-shore-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/salisbury-ma.json",
+      "status": "live",
+      "counties": [
+        "Essex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "greenfield-ma",
+      "name": "Greenfield, South Deerfield & Sunderland, MA",
+      "type": "town",
+      "region": "western-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/greenfield-ma.json",
+      "status": "live",
+      "counties": [
+        "Franklin"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "montague-ma",
+      "name": "Montague, Bernardston & Orange, MA",
+      "type": "town",
+      "region": "western-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/montague-ma.json",
+      "status": "live",
+      "counties": [
+        "Franklin"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "springfield-ma",
+      "name": "Springfield, MA",
+      "type": "city",
+      "region": "western-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/springfield-ma.json",
+      "status": "live",
+      "counties": [
+        "Hampden"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "westfield-ma",
+      "name": "Westfield, Southwick & Granville, MA",
+      "type": "town",
+      "region": "western-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/westfield-ma.json",
+      "status": "live",
+      "counties": [
+        "Hampden"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "west-springfield-town-ma",
+      "name": "West Springfield Town, MA",
+      "type": "town",
+      "region": "western-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/west-springfield-town-ma.json",
+      "status": "live",
+      "counties": [
+        "Hampden"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "east-longmeadow-ma",
+      "name": "East Longmeadow & Longmeadow, MA",
+      "type": "town",
+      "region": "western-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/east-longmeadow-ma.json",
+      "status": "live",
+      "counties": [
+        "Hampden"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "chicopee-ma",
+      "name": "Chicopee, MA",
+      "type": "city",
+      "region": "western-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/chicopee-ma.json",
+      "status": "live",
+      "counties": [
+        "Hampden"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "holyoke-ma",
+      "name": "Holyoke, MA",
+      "type": "city",
+      "region": "western-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/holyoke-ma.json",
+      "status": "live",
+      "counties": [
+        "Hampden"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "ludlow-ma",
+      "name": "Ludlow, MA",
+      "type": "town",
+      "region": "western-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/ludlow-ma.json",
+      "status": "live",
+      "counties": [
+        "Hampden"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "palmer-town-ma",
+      "name": "Palmer Town, Monson & Holland, MA",
+      "type": "town",
+      "region": "western-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/palmer-town-ma.json",
+      "status": "live",
+      "counties": [
+        "Hampden"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "wilbraham-ma",
+      "name": "Wilbraham, MA",
+      "type": "town",
+      "region": "western-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/wilbraham-ma.json",
+      "status": "live",
+      "counties": [
+        "Hampden"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "agawam-town-ma",
+      "name": "Agawam Town, MA",
+      "type": "town",
+      "region": "western-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/agawam-town-ma.json",
+      "status": "live",
+      "counties": [
+        "Hampden"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "amherst-town-ma",
+      "name": "Amherst Town, Hadley & Ware, MA",
+      "type": "town",
+      "region": "western-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/amherst-town-ma.json",
+      "status": "live",
+      "counties": [
+        "Hampshire"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "easthampton-ma",
+      "name": "Easthampton & Huntington, MA",
+      "type": "town",
+      "region": "western-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/easthampton-ma.json",
+      "status": "live",
+      "counties": [
+        "Hampshire"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "northampton-ma",
+      "name": "Northampton, Williamsburg & Hatfield, MA",
+      "type": "city",
+      "region": "western-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/northampton-ma.json",
+      "status": "live",
+      "counties": [
+        "Hampshire"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "south-hadley-ma",
+      "name": "South Hadley & Granby, MA",
+      "type": "town",
+      "region": "western-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/south-hadley-ma.json",
+      "status": "live",
+      "counties": [
+        "Hampshire"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "framingham-ma",
+      "name": "Framingham, Marlborough & Hudson, MA",
+      "type": "city",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/framingham-ma.json",
+      "status": "live",
+      "counties": [
+        "Middlesex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "lowell-ma",
+      "name": "Lowell, Chelmsford & Dracut, MA",
+      "type": "city",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/lowell-ma.json",
+      "status": "live",
+      "counties": [
+        "Middlesex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "natick-ma",
+      "name": "Natick, Cochituate & Wayland, MA",
+      "type": "town",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/natick-ma.json",
+      "status": "live",
+      "counties": [
+        "Middlesex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "woburn-ma",
+      "name": "Woburn, Burlington & Winchester, MA",
+      "type": "city",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/woburn-ma.json",
+      "status": "live",
+      "counties": [
+        "Middlesex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "cambridge-ma",
+      "name": "Cambridge & Devens, MA",
+      "type": "city",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/cambridge-ma.json",
+      "status": "live",
+      "counties": [
+        "Middlesex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "tewksbury-ma",
+      "name": "Tewksbury, Billerica & Wilmington, MA",
+      "type": "town",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/tewksbury-ma.json",
+      "status": "live",
+      "counties": [
+        "Middlesex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "malden-ma",
+      "name": "Malden & Melrose, MA",
+      "type": "city",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/malden-ma.json",
+      "status": "live",
+      "counties": [
+        "Middlesex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "waltham-ma",
+      "name": "Waltham, Concord & West Concord, MA",
+      "type": "city",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/waltham-ma.json",
+      "status": "live",
+      "counties": [
+        "Middlesex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "everett-ma",
+      "name": "Everett, MA",
+      "type": "city",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/everett-ma.json",
+      "status": "live",
+      "counties": [
+        "Middlesex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "wakefield-ma",
+      "name": "Wakefield, Reading & Stoneham, MA",
+      "type": "town",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/wakefield-ma.json",
+      "status": "live",
+      "counties": [
+        "Middlesex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "arlington-ma",
+      "name": "Arlington & Lexington, MA",
+      "type": "city",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/arlington-ma.json",
+      "status": "live",
+      "counties": [
+        "Middlesex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "newton-ma",
+      "name": "Newton, MA",
+      "type": "city",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/newton-ma.json",
+      "status": "live",
+      "counties": [
+        "Middlesex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "somerville-ma",
+      "name": "Somerville, MA",
+      "type": "city",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/somerville-ma.json",
+      "status": "live",
+      "counties": [
+        "Middlesex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "medford-ma",
+      "name": "Medford, MA",
+      "type": "city",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/medford-ma.json",
+      "status": "live",
+      "counties": [
+        "Middlesex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "watertown-ma",
+      "name": "Watertown & Belmont, MA",
+      "type": "city",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/watertown-ma.json",
+      "status": "live",
+      "counties": [
+        "Middlesex"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "siasconset-ma",
+      "name": "Siasconset & Madaket (Nantucket County), MA",
+      "type": "city",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/siasconset-ma.json",
+      "status": "live",
+      "counties": [
+        "Nantucket"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "randolph-town-ma",
+      "name": "Randolph Town, Holbrook & Avon, MA",
+      "type": "town",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/randolph-town-ma.json",
+      "status": "live",
+      "counties": [
+        "Norfolk"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "braintree-town-ma",
+      "name": "Braintree Town, MA",
+      "type": "city",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/braintree-town-ma.json",
+      "status": "live",
+      "counties": [
+        "Norfolk"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "wrentham-ma",
+      "name": "Wrentham & Plainville, MA",
+      "type": "town",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/wrentham-ma.json",
+      "status": "live",
+      "counties": [
+        "Norfolk"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "norwood-ma",
+      "name": "Norwood & Westwood, MA",
+      "type": "city",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/norwood-ma.json",
+      "status": "live",
+      "counties": [
+        "Norfolk"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "walpole-ma",
+      "name": "Walpole & Medfield, MA",
+      "type": "town",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/walpole-ma.json",
+      "status": "live",
+      "counties": [
+        "Norfolk"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "dedham-ma",
+      "name": "Dedham, MA",
+      "type": "city",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/dedham-ma.json",
+      "status": "live",
+      "counties": [
+        "Norfolk"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "franklin-town-ma",
+      "name": "Franklin Town, Medway & Millis-Clicquot, MA",
+      "type": "town",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/franklin-town-ma.json",
+      "status": "live",
+      "counties": [
+        "Norfolk"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "weymouth-town-ma",
+      "name": "Weymouth Town & Cohasset, MA",
+      "type": "city",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/weymouth-town-ma.json",
+      "status": "live",
+      "counties": [
+        "Norfolk"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "foxborough-ma",
+      "name": "Foxborough, MA",
+      "type": "town",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/foxborough-ma.json",
+      "status": "live",
+      "counties": [
+        "Norfolk"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "quincy-ma",
+      "name": "Quincy & Milton, MA",
+      "type": "city",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/quincy-ma.json",
+      "status": "live",
+      "counties": [
+        "Norfolk"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "needham-ma",
+      "name": "Needham, MA",
+      "type": "town",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/needham-ma.json",
+      "status": "live",
+      "counties": [
+        "Norfolk"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "brookline-ma",
+      "name": "Brookline, MA",
+      "type": "city",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/brookline-ma.json",
+      "status": "live",
+      "counties": [
+        "Norfolk"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "wellesley-ma",
+      "name": "Wellesley, MA",
+      "type": "town",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/wellesley-ma.json",
+      "status": "live",
+      "counties": [
+        "Norfolk"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "stoughton-ma",
+      "name": "Stoughton, MA",
+      "type": "town",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/stoughton-ma.json",
+      "status": "live",
+      "counties": [
+        "Norfolk"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "bellingham-ma",
+      "name": "Bellingham, MA",
+      "type": "town",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/bellingham-ma.json",
+      "status": "live",
+      "counties": [
+        "Norfolk"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "canton-ma",
+      "name": "Canton & Sharon, MA",
+      "type": "town",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/canton-ma.json",
+      "status": "live",
+      "counties": [
+        "Norfolk"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "abington-ma",
+      "name": "Abington & Whitman, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/abington-ma.json",
+      "status": "live",
+      "counties": [
+        "Plymouth"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "carver-ma",
+      "name": "Carver, MA",
+      "type": "city",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/carver-ma.json",
+      "status": "live",
+      "counties": [
+        "Plymouth"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "hanover-ma",
+      "name": "Hanover, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/hanover-ma.json",
+      "status": "live",
+      "counties": [
+        "Plymouth"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "pembroke-ma",
+      "name": "Pembroke, Halifax & Hanson, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/pembroke-ma.json",
+      "status": "live",
+      "counties": [
+        "Plymouth"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "brockton-ma",
+      "name": "Brockton, MA",
+      "type": "city",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/brockton-ma.json",
+      "status": "live",
+      "counties": [
+        "Plymouth"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "rockland-ma",
+      "name": "Rockland, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/rockland-ma.json",
+      "status": "live",
+      "counties": [
+        "Plymouth"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "wareham-ma",
+      "name": "Wareham, Marion & Mattapoisett, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/wareham-ma.json",
+      "status": "live",
+      "counties": [
+        "Plymouth"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "hingham-ma",
+      "name": "Hingham, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/hingham-ma.json",
+      "status": "live",
+      "counties": [
+        "Plymouth"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "kingston-ma",
+      "name": "Kingston, Duxbury & South Duxbury, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/kingston-ma.json",
+      "status": "live",
+      "counties": [
+        "Plymouth"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "bridgewater-town-ma",
+      "name": "Bridgewater Town & East Bridgewater, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/bridgewater-town-ma.json",
+      "status": "live",
+      "counties": [
+        "Plymouth"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "scituate-ma",
+      "name": "Scituate, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/scituate-ma.json",
+      "status": "live",
+      "counties": [
+        "Plymouth"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "west-bridgewater-ma",
+      "name": "West Bridgewater, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/west-bridgewater-ma.json",
+      "status": "live",
+      "counties": [
+        "Plymouth"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "norwell-ma",
+      "name": "Norwell, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/norwell-ma.json",
+      "status": "live",
+      "counties": [
+        "Plymouth"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "middleborough-ma",
+      "name": "Middleborough & Lakeville, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/middleborough-ma.json",
+      "status": "live",
+      "counties": [
+        "Plymouth"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "hull-ma",
+      "name": "Hull, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/hull-ma.json",
+      "status": "live",
+      "counties": [
+        "Plymouth"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "marshfield-ma",
+      "name": "Marshfield, Ocean Bluff-Brant Rock & Cedar Crest, MA",
+      "type": "town",
+      "region": "south-shore-cape-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/marshfield-ma.json",
+      "status": "live",
+      "counties": [
+        "Plymouth"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "boston-ma",
+      "name": "Boston, MA",
+      "type": "city",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/boston-ma.json",
+      "status": "live",
+      "counties": [
+        "Suffolk"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "winthrop-town-ma",
+      "name": "Winthrop Town, MA",
+      "type": "town",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/winthrop-town-ma.json",
+      "status": "live",
+      "counties": [
+        "Suffolk"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "revere-ma",
+      "name": "Revere, MA",
+      "type": "city",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/revere-ma.json",
+      "status": "live",
+      "counties": [
+        "Suffolk"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "chelsea-ma",
+      "name": "Chelsea, MA",
+      "type": "city",
+      "region": "boston-metro-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/chelsea-ma.json",
+      "status": "live",
+      "counties": [
+        "Suffolk"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "fitchburg-ma",
+      "name": "Fitchburg & Lunenburg, MA",
+      "type": "town",
+      "region": "central-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/fitchburg-ma.json",
+      "status": "live",
+      "counties": [
+        "Worcester"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "millbury-ma",
+      "name": "Millbury, Auburn & Leicester, MA",
+      "type": "city",
+      "region": "central-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/millbury-ma.json",
+      "status": "live",
+      "counties": [
+        "Worcester"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "leominster-ma",
+      "name": "Leominster & Lancaster, MA",
+      "type": "city",
+      "region": "central-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/leominster-ma.json",
+      "status": "live",
+      "counties": [
+        "Worcester"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "gardner-ma",
+      "name": "Gardner, Winchendon & Athol, MA",
+      "type": "town",
+      "region": "central-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/gardner-ma.json",
+      "status": "live",
+      "counties": [
+        "Worcester"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "clinton-ma",
+      "name": "Clinton, Bolton & Sterling, MA",
+      "type": "town",
+      "region": "central-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/clinton-ma.json",
+      "status": "live",
+      "counties": [
+        "Worcester"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "sturbridge-ma",
+      "name": "Sturbridge, Spencer & East Brookfield, MA",
+      "type": "town",
+      "region": "central-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/sturbridge-ma.json",
+      "status": "live",
+      "counties": [
+        "Worcester"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "milford-ma",
+      "name": "Milford, Uxbridge & Mendon, MA",
+      "type": "town",
+      "region": "central-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/milford-ma.json",
+      "status": "live",
+      "counties": [
+        "Worcester"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "northborough-ma",
+      "name": "Northborough, MA",
+      "type": "town",
+      "region": "central-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/northborough-ma.json",
+      "status": "live",
+      "counties": [
+        "Worcester"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "webster-ma",
+      "name": "Webster, Oxford & Dudley, MA",
+      "type": "town",
+      "region": "central-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/webster-ma.json",
+      "status": "live",
+      "counties": [
+        "Worcester"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "southbridge-town-ma",
+      "name": "Southbridge Town & Charlton, MA",
+      "type": "town",
+      "region": "central-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/southbridge-town-ma.json",
+      "status": "live",
+      "counties": [
+        "Worcester"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "shrewsbury-ma",
+      "name": "Shrewsbury, Grafton & Boylston, MA",
+      "type": "town",
+      "region": "central-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/shrewsbury-ma.json",
+      "status": "live",
+      "counties": [
+        "Worcester"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "westborough-ma",
+      "name": "Westborough & Southborough, MA",
+      "type": "town",
+      "region": "central-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/westborough-ma.json",
+      "status": "live",
+      "counties": [
+        "Worcester"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
+    },
+    {
+      "id": "holden-ma",
+      "name": "Holden, West Boylston & Rutland, MA",
+      "type": "town",
+      "region": "central-ma",
+      "timezone": "America/New_York",
+      "file": "data/cities/holden-ma.json",
+      "status": "live",
+      "counties": [
+        "Worcester"
+      ],
+      "state": "MA",
+      "pickerState": "MA"
     }
   ],
   "counties": [
@@ -34867,6 +38330,528 @@
       "places": 20,
       "areas": [
         "milo-ny-yates"
+      ]
+    },
+    {
+      "id": "ri-bristol",
+      "name": "Bristol",
+      "label": "Bristol County",
+      "state": "RI",
+      "pickerState": "RI",
+      "places": 57,
+      "areas": [
+        "warren-ri",
+        "bristol-county-ri",
+        "barrington-ri"
+      ]
+    },
+    {
+      "id": "ri-kent",
+      "name": "Kent",
+      "label": "Kent County",
+      "state": "RI",
+      "pickerState": "RI",
+      "places": 101,
+      "areas": [
+        "warwick-ri",
+        "west-warwick-ri",
+        "east-greenwich-ri",
+        "coventry-ri"
+      ]
+    },
+    {
+      "id": "ri-newport",
+      "name": "Newport",
+      "label": "Newport County",
+      "state": "RI",
+      "pickerState": "RI",
+      "places": 104,
+      "areas": [
+        "jamestown-ri",
+        "newport-east-ri",
+        "newport-ri",
+        "tiverton-ri",
+        "portsmouth-ri"
+      ]
+    },
+    {
+      "id": "ri-providence",
+      "name": "Providence",
+      "label": "Providence County",
+      "state": "RI",
+      "pickerState": "RI",
+      "places": 555,
+      "areas": [
+        "providence-county-ri",
+        "cranston-ri",
+        "pawtucket-ri",
+        "east-providence-ri",
+        "north-providence-ri",
+        "woonsocket-ri",
+        "johnston-ri",
+        "central-falls-ri",
+        "smithfield-ri",
+        "north-smithfield-ri",
+        "cumberland-ri",
+        "lincoln-ri"
+      ]
+    },
+    {
+      "id": "ri-washington",
+      "name": "Washington",
+      "label": "Washington County",
+      "state": "RI",
+      "pickerState": "RI",
+      "places": 92,
+      "areas": [
+        "westerly-ri",
+        "south-kingstown-ri",
+        "narragansett-ri",
+        "north-kingstown-ri",
+        "new-shoreham-ri"
+      ]
+    },
+    {
+      "id": "ct-capitol-planning-region",
+      "name": "Capitol Planning Region",
+      "label": "Capitol Planning Region County",
+      "state": "CT",
+      "pickerState": "CT",
+      "places": 658,
+      "areas": [
+        "hartford-ct",
+        "west-hartford-ct",
+        "manchester-ct",
+        "southington-ct",
+        "new-britain-ct",
+        "newington-ct",
+        "glastonbury-ct",
+        "east-hartford-ct",
+        "plainville-ct",
+        "farmington-ct",
+        "simsbury-ct",
+        "enfield-ct",
+        "east-windsor-ct",
+        "wethersfield-ct",
+        "south-windsor-ct",
+        "vernon-ct",
+        "storrs-ct",
+        "berlin-ct",
+        "rocky-hill-ct"
+      ]
+    },
+    {
+      "id": "ct-greater-bridgeport-planning-region",
+      "name": "Greater Bridgeport Planning Region",
+      "label": "Greater Bridgeport Planning Region County",
+      "state": "CT",
+      "pickerState": "CT",
+      "places": 207,
+      "areas": [
+        "bridgeport-ct",
+        "fairfield-ct",
+        "stratford-ct",
+        "stepney-ct",
+        "trumbull-ct"
+      ]
+    },
+    {
+      "id": "ct-lower-connecticut-river-valley-planning-region",
+      "name": "Lower Connecticut River Valley Planning Region",
+      "label": "Lower Connecticut River Valley Planning Region County",
+      "state": "CT",
+      "pickerState": "CT",
+      "places": 150,
+      "areas": [
+        "middletown-ct",
+        "middlefield-ct",
+        "cromwell-ct",
+        "clinton-ct",
+        "old-saybrook-center-ct",
+        "portland-ct",
+        "chester-ct",
+        "east-hampton-ct"
+      ]
+    },
+    {
+      "id": "ct-naugatuck-valley-planning-region",
+      "name": "Naugatuck Valley Planning Region",
+      "label": "Naugatuck Valley Planning Region County",
+      "state": "CT",
+      "pickerState": "CT",
+      "places": 276,
+      "areas": [
+        "waterbury-ct",
+        "bristol-ct",
+        "shelton-ct",
+        "southbury-ct",
+        "naugatuck-ct",
+        "seymour-ct",
+        "cheshire-ct",
+        "oxford-ct",
+        "thomaston-ct",
+        "watertown-ct",
+        "oakville-ct",
+        "ansonia-ct",
+        "derby-ct",
+        "woodbury-ct",
+        "middlebury-ct"
+      ]
+    },
+    {
+      "id": "ct-northeastern-connecticut-planning-region",
+      "name": "Northeastern Connecticut Planning Region",
+      "label": "Northeastern Connecticut Planning Region County",
+      "state": "CT",
+      "pickerState": "CT",
+      "places": 38,
+      "areas": [
+        "putnam-ct",
+        "killingly-ct"
+      ]
+    },
+    {
+      "id": "ct-northwest-hills-planning-region",
+      "name": "Northwest Hills Planning Region",
+      "label": "Northwest Hills Planning Region County",
+      "state": "CT",
+      "pickerState": "CT",
+      "places": 81,
+      "areas": [
+        "torrington-ct",
+        "litchfield-ct"
+      ]
+    },
+    {
+      "id": "ct-south-central-connecticut-planning-region",
+      "name": "South Central Connecticut Planning Region",
+      "label": "South Central Connecticut Planning Region County",
+      "state": "CT",
+      "pickerState": "CT",
+      "places": 417,
+      "areas": [
+        "new-haven-ct",
+        "woodbridge-ct",
+        "west-haven-ct",
+        "wallingford-ct",
+        "milford-city-balance-ct",
+        "meriden-ct",
+        "hamden-ct",
+        "north-haven-ct",
+        "east-haven-ct",
+        "branford-ct",
+        "north-branford-ct",
+        "branford-center-ct"
+      ]
+    },
+    {
+      "id": "ct-southeastern-connecticut-planning-region",
+      "name": "Southeastern Connecticut Planning Region",
+      "label": "Southeastern Connecticut Planning Region County",
+      "state": "CT",
+      "pickerState": "CT",
+      "places": 199,
+      "areas": [
+        "groton-ct",
+        "new-london-ct",
+        "norwich-ct",
+        "mystic-ct",
+        "stonington-ct",
+        "windham-ct",
+        "colchester-ct",
+        "niantic-ct"
+      ]
+    },
+    {
+      "id": "ct-western-connecticut-planning-region",
+      "name": "Western Connecticut Planning Region",
+      "label": "Western Connecticut Planning Region County",
+      "state": "CT",
+      "pickerState": "CT",
+      "places": 515,
+      "areas": [
+        "stamford-ct",
+        "norwalk-ct",
+        "danbury-ct",
+        "greenwich-ct",
+        "bethel-ct",
+        "new-canaan-ct",
+        "ridgefield-ct",
+        "westport-ct",
+        "brookfield-ct",
+        "new-milford-ct",
+        "newtown-ct"
+      ]
+    },
+    {
+      "id": "ma-barnstable",
+      "name": "Barnstable",
+      "label": "Barnstable County",
+      "state": "MA",
+      "pickerState": "MA",
+      "places": 239,
+      "areas": [
+        "falmouth-ma",
+        "provincetown-ma",
+        "barnstable-town-ma",
+        "chatham-ma",
+        "orleans-ma",
+        "dennis-ma",
+        "sandwich-ma",
+        "mashpee-ma",
+        "bourne-ma",
+        "west-yarmouth-ma",
+        "wellfleet-ma",
+        "brewster-ma",
+        "dennis-port-ma"
+      ]
+    },
+    {
+      "id": "ma-berkshire",
+      "name": "Berkshire",
+      "label": "Berkshire County",
+      "state": "MA",
+      "pickerState": "MA",
+      "places": 122,
+      "areas": [
+        "pittsfield-ma",
+        "great-barrington-ma",
+        "lee-ma",
+        "williamstown-ma",
+        "north-adams-ma"
+      ]
+    },
+    {
+      "id": "ma-bristol",
+      "name": "Bristol",
+      "label": "Bristol County",
+      "state": "MA",
+      "pickerState": "MA",
+      "places": 281,
+      "areas": [
+        "new-bedford-ma",
+        "fall-river-ma",
+        "taunton-ma",
+        "fairhaven-ma",
+        "dartmouth-ma",
+        "attleboro-ma",
+        "somerset-ma",
+        "north-attleborough-town-ma",
+        "seekonk-ma",
+        "raynham-ma",
+        "easton-ma",
+        "westport-ma",
+        "mansfield-ma",
+        "norton-ma"
+      ]
+    },
+    {
+      "id": "ma-dukes",
+      "name": "Dukes",
+      "label": "Dukes County",
+      "state": "MA",
+      "pickerState": "MA",
+      "places": 39,
+      "areas": [
+        "edgartown-ma",
+        "oak-bluffs-ma"
+      ]
+    },
+    {
+      "id": "ma-essex",
+      "name": "Essex",
+      "label": "Essex County",
+      "state": "MA",
+      "pickerState": "MA",
+      "places": 544,
+      "areas": [
+        "lynn-ma",
+        "salem-ma",
+        "lawrence-ma",
+        "peabody-ma",
+        "beverly-ma",
+        "haverhill-ma",
+        "gloucester-ma",
+        "saugus-ma",
+        "newburyport-ma",
+        "methuen-ma",
+        "north-andover-ma",
+        "danvers-ma",
+        "andover-ma",
+        "marblehead-ma",
+        "salisbury-ma",
+        "amesbury-ma"
+      ]
+    },
+    {
+      "id": "ma-franklin",
+      "name": "Franklin",
+      "label": "Franklin County",
+      "state": "MA",
+      "pickerState": "MA",
+      "places": 47,
+      "areas": [
+        "greenfield-ma",
+        "montague-ma"
+      ]
+    },
+    {
+      "id": "ma-hampden",
+      "name": "Hampden",
+      "label": "Hampden County",
+      "state": "MA",
+      "pickerState": "MA",
+      "places": 241,
+      "areas": [
+        "springfield-ma",
+        "chicopee-ma",
+        "holyoke-ma",
+        "west-springfield-town-ma",
+        "agawam-town-ma",
+        "westfield-ma",
+        "east-longmeadow-ma",
+        "palmer-town-ma",
+        "wilbraham-ma",
+        "ludlow-ma"
+      ]
+    },
+    {
+      "id": "ma-hampshire",
+      "name": "Hampshire",
+      "label": "Hampshire County",
+      "state": "MA",
+      "pickerState": "MA",
+      "places": 104,
+      "areas": [
+        "northampton-ma",
+        "amherst-town-ma",
+        "easthampton-ma",
+        "south-hadley-ma"
+      ]
+    },
+    {
+      "id": "ma-middlesex",
+      "name": "Middlesex",
+      "label": "Middlesex County",
+      "state": "MA",
+      "pickerState": "MA",
+      "places": 1094,
+      "areas": [
+        "cambridge-ma",
+        "somerville-ma",
+        "lowell-ma",
+        "waltham-ma",
+        "newton-ma",
+        "framingham-ma",
+        "malden-ma",
+        "watertown-ma",
+        "everett-ma",
+        "arlington-ma",
+        "woburn-ma",
+        "medford-ma",
+        "natick-ma",
+        "wakefield-ma",
+        "tewksbury-ma"
+      ]
+    },
+    {
+      "id": "ma-nantucket",
+      "name": "Nantucket",
+      "label": "Nantucket County",
+      "state": "MA",
+      "pickerState": "MA",
+      "places": 36,
+      "areas": [
+        "siasconset-ma"
+      ]
+    },
+    {
+      "id": "ma-norfolk",
+      "name": "Norfolk",
+      "label": "Norfolk County",
+      "state": "MA",
+      "pickerState": "MA",
+      "places": 492,
+      "areas": [
+        "quincy-ma",
+        "brookline-ma",
+        "weymouth-town-ma",
+        "norwood-ma",
+        "braintree-town-ma",
+        "dedham-ma",
+        "wellesley-ma",
+        "stoughton-ma",
+        "foxborough-ma",
+        "franklin-town-ma",
+        "needham-ma",
+        "walpole-ma",
+        "randolph-town-ma",
+        "canton-ma",
+        "bellingham-ma",
+        "wrentham-ma"
+      ]
+    },
+    {
+      "id": "ma-plymouth",
+      "name": "Plymouth",
+      "label": "Plymouth County",
+      "state": "MA",
+      "pickerState": "MA",
+      "places": 310,
+      "areas": [
+        "carver-ma",
+        "brockton-ma",
+        "hingham-ma",
+        "middleborough-ma",
+        "abington-ma",
+        "hull-ma",
+        "scituate-ma",
+        "wareham-ma",
+        "bridgewater-town-ma",
+        "marshfield-ma",
+        "kingston-ma",
+        "pembroke-ma",
+        "rockland-ma",
+        "hanover-ma",
+        "west-bridgewater-ma",
+        "norwell-ma"
+      ]
+    },
+    {
+      "id": "ma-suffolk",
+      "name": "Suffolk",
+      "label": "Suffolk County",
+      "state": "MA",
+      "pickerState": "MA",
+      "places": 699,
+      "areas": [
+        "boston-ma",
+        "revere-ma",
+        "chelsea-ma",
+        "winthrop-town-ma"
+      ]
+    },
+    {
+      "id": "ma-worcester",
+      "name": "Worcester",
+      "label": "Worcester County",
+      "state": "MA",
+      "pickerState": "MA",
+      "places": 449,
+      "areas": [
+        "millbury-ma",
+        "leominster-ma",
+        "milford-ma",
+        "fitchburg-ma",
+        "westborough-ma",
+        "sturbridge-ma",
+        "gardner-ma",
+        "northborough-ma",
+        "shrewsbury-ma",
+        "webster-ma",
+        "clinton-ma",
+        "southbridge-town-ma",
+        "holden-ma"
       ]
     }
   ]

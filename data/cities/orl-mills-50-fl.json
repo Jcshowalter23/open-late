@@ -828,7 +828,7 @@
    "happyHours": [
     {
      "days": "Mon-Fri",
-     "text": "We are open 7 days a week with daily specials ranging from lunch specials during the weekdays, happy hour everyday from 3pm-6pm and our local favorite special of the week which is buy 2 rolls get 1 free every Thursday…",
+     "text": "We are open 7 days a week with daily specials ranging from lunch specials during the weekdays, happy hour everyday from 3 pm-6 pm and our local favorite special of the week which is buy 2 rolls get 1 free every Thursday…",
      "tags": [],
      "src": "Venue website fujiyamaucforlando.com",
      "checked": "2026-11-01"
@@ -1134,25 +1134,7 @@
     "website": null
    },
    "trivia": {
-    "nights": [
-     {
-      "day": "Mon",
-      "cadence": "weekly",
-      "start": "7 pm",
-      "confidence": "high",
-      "lastSeen": "2026-11-02",
-      "sources": [
-       {
-        "src": "Epic Trivia schedule",
-        "url": "https://epictriviafl.com/find-a-show/",
-        "date": "2026-11-02",
-        "quote": "Epic Trivia Trivia · Mon 7:00 PM · The Hideaway, Orlando"
-       }
-      ],
-      "basis": "vendor/host published venue schedule",
-      "vendor": "Epic Trivia"
-     }
-    ],
+    "nights": [],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -1163,31 +1145,6 @@
       "url": "https://www.hideawaybar.net/"
      }
     ]
-   },
-   "bingo": {
-    "nights": [
-     {
-      "day": "Wed",
-      "cadence": "weekly",
-      "start": "7 pm",
-      "confidence": "high",
-      "lastSeen": "2026-11-02",
-      "sources": [
-       {
-        "src": "Epic Trivia schedule",
-        "url": "https://epictriviafl.com/find-a-show/",
-        "date": "2026-11-02",
-        "quote": "Epic Trivia Music Bingo · Wed 7:00 PM · The Hideaway, Orlando"
-       }
-      ],
-      "basis": "vendor/host published venue schedule",
-      "vendor": "Epic Trivia"
-     }
-    ],
-    "hints": [],
-    "stale": false,
-    "oneoffs": [],
-    "conflicts": []
    },
    "outdoor": {
     "types": [
@@ -4844,7 +4801,7 @@
    "specials": [
     {
      "days": "Sun",
-     "text": "Lil Indies Hospitality Night Every Sunday 10:00 PM – 2:00 AM 21+ No Cover Specials: House Daiquiris — $5 196 Seltzer + a Shot of El Jimador — $7 Montucky + a Shot of Mellow Corn — $6 Hugo Spritz — $8 20% Off Regular Menu Items",
+     "text": "Lil Indies Hospitality Night Every Sunday 10 pm – 2 am 21+ No Cover Specials: House Daiquiris — $5 196 Seltzer + a Shot of El Jimador — $7 Montucky + a Shot of Mellow Corn — $6 Hugo Spritz — $8 20% Off Regular Menu Items",
      "tags": [],
      "src": "Venue website willspub.org",
      "checked": "2026-11-01"
@@ -4905,7 +4862,7 @@
      {
       "day": "Fri",
       "cadence": "weekly",
-      "start": "10pm",
+      "start": "10 pm",
       "basis": "explicit recurring wording",
       "lastSeen": "2026-11-01",
       "datedLastSeen": null,
@@ -4930,7 +4887,7 @@
      {
       "day": "Sat",
       "cadence": "monthly",
-      "start": "10pm",
+      "start": "10 pm",
       "basis": "explicit recurring wording",
       "lastSeen": "2026-11-01",
       "datedLastSeen": null,
@@ -4976,24 +4933,6 @@
     "fbPostsSeen": 11,
     "fbNewestPost": "2026-10-29",
     "website": "http://www.willspub.org/"
-   },
-   "trivia": {
-    "nights": [],
-    "stale": [],
-    "hints": [],
-    "conflicts": [],
-    "oneoffs": [
-     {
-      "date": "2026-11-01",
-      "quote": "Our trivia questions range from music, movies, current events, geography, word jumbles, science, history, television, tribonds, and more",
-      "url": "https://willspub.org/"
-     },
-     {
-      "date": "2026-11-01",
-      "quote": "Thursday Thinks Trivia",
-      "url": "https://willspub.org/"
-     }
-    ]
    }
   },
   {
@@ -5260,7 +5199,48 @@
    ],
    "source": "hours from OpenStreetMap node/12924943080 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://www.savoyorlando.com/: \" | Visit Savoy | 1913 N. Orange Ave. Orlando, FL 32804 | Drive Now | Hours | Hours | Monday: 4 PM - 2 AM Tuesday -\" (checked 2026-11-02)",
    "county": "Orange",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "4 Aces Poker 2:30-11:00PM–FREE Texas Hold ‘Em Trivia with George Wallace in Ivanhoe 1915 6PM Karaoke in Ivanhoe 1915 8PM-11AM Line Dancing 8:30PM Crown Country Tuesdays Men of SAVOY Dancers 8PM-2AM",
+      "url": "https://www.savoyorlando.com/pages/daily-specials"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia with Michael Wanzie 6:30-8PM Karaoke in Ivanhoe 1915 8-11PM Men of SAVOY Dancers 8PM-2AM Drag Show at 11PM",
+      "url": "https://www.savoyorlando.com/pages/daily-specials"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Thursday Trivia Night with Wanzie",
+      "url": "https://www.savoyorlando.com/"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Bingo Untucked | 6 PM",
+      "url": "https://www.savoyorlando.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "4 Aces Poker 5-10PM–FREE Texas Hold ‘Em Men of SAVOY Dancers 8PM-2AM Bingo at 6PM Wine Down Wednesday in Ivanhoe 1915 6-9PM Girl Crush Lesbian Night 9:30PM-2AM Drag Show at 10PM",
+      "url": "https://www.savoyorlando.com/pages/daily-specials"
+     }
+    ]
+   }
   },
   {
    "id": "fl-ten-10-brewing-company-orlando",
@@ -5287,7 +5267,61 @@
    ],
    "source": "hours from OpenStreetMap way/628314000 opening_hours tag (map data 2026-10-31) (checked 2026-11-02); late hours confirmed by venue website https://ten10brewingcompany.com/: \"LL | (407) 930-8993 | Taproom Hours | Monday - Thursday Noon to 10 p.m. | Friday & Saturday Noon to 11 p.m. | Sunday \" (checked 2026-11-02)",
    "county": "Orange",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": "8 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-12-03",
+      "datedLastSeen": "2026-12-03",
+      "postsSeen": 6,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://ten10brewingcompany.com/events/month/",
+        "date": "2026-12-03",
+        "quote": "December 3 @ 8:00 pm | - | 10:00 pm | Ten10 >> Ten10 Trivia Night | 10:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://ten10brewingcompany.com/events/month/",
+        "date": "2026-12-03",
+        "quote": "December 3 @ 8:00 pm | - | 10:00 pm | Ten10 >> Ten10 Trivia Night | 10:00 pm"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://ten10brewingcompany.com/events/month/",
+        "date": "2026-11-26",
+        "quote": "November 26 @ 8:00 pm | - | 10:00 pm | Ten10 >> Ten10 Trivia Night | 10:00 pm"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Ten10 Trivia Night",
+      "url": "https://ten10brewingcompany.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Ten10 Trivia Night | 10:00 pm",
+      "url": "https://ten10brewingcompany.com/events/month/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Ten10 Trivia Night",
+      "url": "https://ten10brewingcompany.com/event/ten10-run-club-33/"
+     }
+    ]
+   }
   },
   {
    "id": "fl-russells-on-lake-ivanhoe-orlando",

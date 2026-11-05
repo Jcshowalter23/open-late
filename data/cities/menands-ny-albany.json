@@ -741,7 +741,7 @@
    "happyHours": [
     {
      "days": "Mon-Fri",
-     "text": "Monday through Friday from 3 to 6pm for happy hour that actually hits",
+     "text": "Monday through Friday from 3 to 6 pm for happy hour that actually hits",
      "tags": [],
      "src": "Venue website citylinebar.com/happy-hour",
      "checked": "2026-11-02",
@@ -2569,7 +2569,7 @@
      {
       "day": "Thu",
       "cadence": "weekly",
-      "start": "09:00 PM - 12:00 AM",
+      "start": "9 pm - 12 am",
       "basis": "explicit recurring wording",
       "lastSeen": "2026-11-05",
       "datedLastSeen": "2026-11-05",
@@ -2613,26 +2613,7 @@
     "website": "https://www.lostandfoundalbany.com/"
    },
    "trivia": {
-    "nights": [
-     {
-      "day": "Tue",
-      "cadence": "weekly",
-      "start": "04:00 PM - 07:00 PM",
-      "basis": "explicit recurring wording",
-      "lastSeen": "2026-11-03",
-      "datedLastSeen": "2026-11-03",
-      "postsSeen": 1,
-      "sources": [
-       {
-        "src": "venue website event calendar",
-        "url": "https://lostandfoundalbany.com/albany-warehouse-district-lost-and-found-bar-and-kitchen-happy-hours-specials",
-        "date": "2026-11-03",
-        "quote": "Tuesday November 3rd | Happy Hour: $1 off drafts & well drinks | 04:00 PM - 07:00 PM | >> Trivia Tuesdays | 07:00 PM - 09:00 PM"
-       }
-      ],
-      "confidence": "medium"
-     }
-    ],
+    "nights": [],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -2903,7 +2884,7 @@
      {
       "day": "Tue",
       "cadence": "weekly",
-      "start": "6:30PM",
+      "start": "6:30 pm",
       "basis": "explicit recurring wording",
       "lastSeen": "2026-11-01",
       "datedLastSeen": null,
@@ -4736,7 +4717,7 @@
    "happyHours": [
     {
      "days": "See venue",
-     "text": "Happy Hour with half price draft beer & cider at the bar and in the lounge until 6pm",
+     "text": "Happy Hour with half price draft beer & cider at the bar and in the lounge until 6 pm",
      "tags": [
       "beer"
      ],
@@ -4746,7 +4727,7 @@
     },
     {
      "days": "See venue",
-     "text": "Happy hour with half price drafts from 4pm to 6pm",
+     "text": "Happy hour with half price drafts from 4 pm to 6 pm",
      "tags": [
       "beer"
      ],
@@ -4756,7 +4737,7 @@
     },
     {
      "days": "See venue",
-     "text": "Half Price happy hour draft beers & ciders from 7pm to 10pm",
+     "text": "Half Price happy hour draft beers & ciders from 7 pm to 10 pm",
      "tags": [
       "beer"
      ],
@@ -4766,7 +4747,7 @@
     },
     {
      "days": "See venue",
-     "text": "Late Night Ladies Night HAPPY HOUR after 9pm",
+     "text": "Late Night Ladies Night HAPPY HOUR after 9 pm",
      "tags": [],
      "src": "Venue website coppercrowalbany.com/events",
      "checked": "2026-11-02",
@@ -6056,7 +6037,38 @@
    ],
    "source": "hours from venue website https://adco.bar/: \"Hours T–Th 4pm–10pm F 4pm–midnight Sat 2pm–midnight Closed Sun–Mon\" (checked 2026-11-02); location from OpenStreetMap node/5541404718 (map data 2026-10-31)",
    "county": "Albany",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia Night | 7–9 pm",
+      "url": "https://adco.bar/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia Nights Live",
+      "url": "https://adco.bar/events"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Bingo | 7–9 pm",
+      "url": "https://adco.bar/events"
+     }
+    ]
+   }
   },
   {
    "id": "ny-fuze-box-albany",

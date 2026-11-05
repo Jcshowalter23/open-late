@@ -103,6 +103,11 @@
       "date": "2026-11-01",
       "quote": " Join us for live music, trivia nights, happy hours, and DJ events that keep the vibes high",
       "url": "https://www.3rdspruce.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Join us for live music, trivia nights, happy hours, and DJ events that keep the vibes high",
+      "url": "https://www.3rdspruce.com/about-us"
      }
     ]
    },
@@ -810,7 +815,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.thebarcartpa.com/"
-   }
+   },
+   "menu": "https://www.thebarcartpa.com/menu"
   },
   {
    "id": "uncorkd",
@@ -892,7 +898,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://chattymonks.com/brewery"
-   }
+   },
+   "menu": "https://chattymonks.com/brewery/business.untappd.com/boards/69680"
   },
   {
    "id": "chef-david-s-pizza-and-more",
@@ -1602,19 +1609,6 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://tobiasfroggrestaurants.com/berks-location/"
-   },
-   "trivia": {
-    "nights": [],
-    "stale": [],
-    "hints": [],
-    "conflicts": [],
-    "oneoffs": [
-     {
-      "date": "2026-11-01",
-      "quote": "OUR FIRST EVER TRIVIA NIGHT IS TONIGHT 🙌 ⁉️ Our h",
-      "url": "https://tobiasfroggrestaurants.com/berks-location/"
-     }
-    ]
    }
   },
   {
@@ -2216,7 +2210,73 @@
    ],
    "source": "hours from OpenStreetMap way/292983512 opening_hours tag (map data 2026-11-01; last checked on the map 2026-03-10) (checked 2026-11-02); late hours confirmed by venue website https://wwfireco.wixsite.com/wwfireco: \"91 | HOURS | Monday : 4 pm - 11 pm | Tuesday - Thursday :12 pm - 12 am | Friday - Saturday: 12 pm - 1 am | Sunday:\" (checked 2026-11-02)",
    "county": "Berks",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-05",
+      "quote": "November 5th | Team Registration: 6:30 pm | Game Time: 7:00 pm | >> Trivia Night | Game Time: 7:00 pm",
+      "url": "https://wwfireco.wixsite.com/wwfireco"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia Night",
+      "url": "https://wwfireco.wixsite.com/wwfireco/events-entertainment"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Sharpen your wits and rally your squad for a night of brain-teasing fun at our exclusive Trivia Night with Jam on Sound Productions, reserved just for our valued members and their guests",
+      "url": "https://wwfireco.wixsite.com/wwfireco/events-entertainment"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "monthly",
+      "start": "7 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-12",
+      "datedLastSeen": "2026-11-12",
+      "postsSeen": 1,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://wwfireco.wixsite.com/wwfireco",
+        "date": "2026-11-12",
+        "quote": "​ | November 12th | 7:00 pm | Music >> Music Bingo | 7:00 pm"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://wwfireco.wixsite.com/wwfireco/events-entertainment",
+        "date": "2026-11-01",
+        "quote": "Music Bingo | (1st Thursday of Every Month)"
+       }
+      ],
+      "confidence": "medium"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Join us for an evening of Music Bingo",
+      "url": "https://wwfireco.wixsite.com/wwfireco/events-entertainment"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Experience the ultimate fusion of music and bingo, where every song brings a chance to win exciting prizes",
+      "url": "https://wwfireco.wixsite.com/wwfireco/events-entertainment"
+     }
+    ]
+   }
   }
  ],
  "counties": [

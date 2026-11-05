@@ -1,0 +1,714 @@
+{
+ "id": "coventry-ri",
+ "name": "Coventry & West Greenwich, RI",
+ "timezone": "America/New_York",
+ "checked": "2026-11-05",
+ "checkedLabel": "Nov 5, 2026",
+ "restaurants": [
+  {
+   "id": "ri-black-oak-kitchen-and-drinks",
+   "name": "Black Oak Kitchen & Drinks",
+   "cuisine": "Restaurant",
+   "address": "760 Tiogue Ave, Coventry",
+   "state": "RI",
+   "zip": "02816",
+   "phone": "(401) 615-2500",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ri/coventry/black-oak-kitchen-and-drinks-/ (updated 2026-10-09), checked 2026-11-02",
+   "lat": 41.682128,
+   "lng": -71.562293,
+   "website": "https://www.blackoakcoventry.com/",
+   "websiteSource": "OpenStreetMap node/7824651011 website tag (map data 2026-11-03), checked 2026-11-02",
+   "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-10p",
+   "hoursNote": null,
+   "kitchen": "Sun-Wed until 9pm; Thu until 10pm; Fri until 11pm",
+   "kitchenNote": "From venue site hours section (Fri truncated in scrape; Sat kitchen not confirmed in snippet). Source https://www.blackoakcoventry.com/ checked 2026-11-05",
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-09) (checked 2026-11-02)",
+   "county": "Kent",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ri/coventry/black-oak-kitchen-and-drinks-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://www.blackoakcoventry.com/",
+    "facebook": "https://www.facebook.com/BlackOak.Coventry",
+    "instagram": "https://www.instagram.com/blackoakcoventry",
+    "socialWebsite": "linked from venue website https://www.blackoakcoventry.com/, checked 2026-11-05",
+    "socialChecked": "2026-11-05",
+    "socialStatus": "ok",
+    "socialNote": "Trivia Thu + outdoor; live music tagline as hint only",
+    "socialSourceUrl": "https://www.facebook.com/BlackOak.Coventry"
+   },
+   "trivia": {
+    "nights": [
+     {
+      "day": "Thu",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-05",
+      "datedLastSeen": null,
+      "postsSeen": 2,
+      "sources": [
+       {
+        "src": "Facebook posts",
+        "url": "https://www.facebook.com/BlackOak.Coventry",
+        "date": "2026-11-05",
+        "quote": "Tonight is TRIVIA THURSDAY! / Early start time for Trivia tonight! (ACE Entertainment New England)"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Post dates not shown on page scrape"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "livemusic": {
+    "nights": [],
+    "stale": [],
+    "hints": [
+     {
+      "text": "Page tagline lists Live Music (no weekday confirmed on posts checked)",
+      "src": "https://www.facebook.com/BlackOak.Coventry",
+      "checked": "2026-11-05"
+     }
+    ],
+    "conflicts": [],
+    "oneoffs": []
+   },
+   "outdoor": {
+    "types": [
+     "outdoor"
+    ],
+    "sources": [
+     {
+      "src": "Facebook page services",
+      "url": "https://www.facebook.com/BlackOak.Coventry",
+      "quote": "Outdoor seating listed in page services",
+      "fetched": "2026-11-05",
+      "checked": "2026-11-05"
+     }
+    ],
+    "checked": "2026-11-05"
+   }
+  },
+  {
+   "id": "ri-blackstone-herbs-and-martini-bar",
+   "name": "BlackStone Herbs & Martini Bar",
+   "cuisine": "Bar",
+   "address": "710 Centre of New England Blvd, Coventry",
+   "state": "RI",
+   "zip": "02816",
+   "phone": "(401) 471-7218",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ri/coventry/blackstone-herbs-and-coffee-bar-/ (updated 2026-10-27), checked 2026-11-02",
+   "lat": 41.662096,
+   "lng": -71.56867,
+   "website": null,
+   "hours": "Mon-Thu 10a-10p; Fri-Sat 10a-11p; Sun 10a-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-10-27) (checked 2026-11-02)",
+   "county": "Kent",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ri/coventry/blackstone-herbs-and-coffee-bar-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ri-california-taco-shop-coventry",
+   "name": "California Taco Shop",
+   "cuisine": "Mexican",
+   "address": "1030 Tiogue Ave, Coventry",
+   "state": "RI",
+   "zip": "02816",
+   "phone": "(401) 321-3635",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ri/coventry/california-taco-shop-/ (updated 2026-10-30), checked 2026-11-02",
+   "lat": 41.679476,
+   "lng": -71.577542,
+   "website": "https://www.californiatacoshopri.com/",
+   "hours": "Mon-Sat 10a-10p; Sun 11a-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-30) (checked 2026-11-02)",
+   "county": "Kent",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-30",
+        "url": "https://www.restaurantji.com/ri/coventry/california-taco-shop-/",
+        "quote": "nd the burritos are well-made with delicious flavors. The place is wheelchair-accessible, kid-friendly, and offers ample parking. While the food quality remains high, some customers have notic",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ri/coventry/california-taco-shop-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ri-dans-place",
+   "name": "Dan's Place",
+   "cuisine": "Restaurant",
+   "address": "880 Victory Hwy, West Greenwich",
+   "state": "RI",
+   "zip": "02817",
+   "phone": "(401) 392-3092",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ri/west-greenwich/dans-place-/ (updated 2026-10-19), checked 2026-11-02",
+   "website": null,
+   "hours": "Mon-Tue closed; Wed-Thu 11:30a-10p; Fri-Sat 11:30a-11p; Sun 11:30a-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-19) (checked 2026-11-02)",
+   "county": "Kent",
+   "crowdType": {
+    "labels": [
+     "Bikers"
+    ],
+    "summary": "Popular with bikers / hosts bike nights.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Bikers",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-19",
+        "url": "https://www.restaurantji.com/ri/west-greenwich/dans-place-/",
+        "quote": "in the area. The restaurant has a large dining room with a bar, and the decor includes a Harley mounted above the bar, adding to the motif. Customers have commented on the cleanliness o",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ri/west-greenwich/dans-place-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ri-dragon-palace",
+   "name": "Dragon Palace",
+   "cuisine": "Restaurant",
+   "address": "577 Tiogue Ave, Coventry",
+   "state": "RI",
+   "zip": "02816",
+   "phone": "(401) 828-0100",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ri/coventry/dragon-palace-/ (updated 2026-10-29), checked 2026-11-02",
+   "lat": 41.684418,
+   "lng": -71.553527,
+   "website": null,
+   "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-29) (checked 2026-11-02)",
+   "county": "Kent",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ri/coventry/dragon-palace-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ri-flat-river-tavern",
+   "name": "Flat River Tavern",
+   "cuisine": "Pub",
+   "address": "2260 Flat River Rd, Coventry",
+   "state": "RI",
+   "zip": "02816",
+   "phone": "(401) 407-2121",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ri/coventry/flat-river-tavern-/ (updated 2026-10-06), checked 2026-11-02",
+   "lat": 41.704533,
+   "lng": -71.614266,
+   "website": null,
+   "hours": "Mon closed; Tue-Thu 4p-10p; Fri 4p-11p; Sat 4p-10p; Sun 4p-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-10-06) (checked 2026-11-02)",
+   "county": "Kent",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-06",
+        "url": "https://www.restaurantji.com/ri/coventry/flat-river-tavern-/",
+        "quote": "ecent prices and ample parking, this tavern is a great choice for a casual night out or a date night. Customers often feel like part of a small family and describe it as a \"hidden gem.\" The",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "karaoke": {
+    "nights": [],
+    "hints": [
+     "Restaurantji review/summary mentions karaoke"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ri/coventry/flat-river-tavern-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ri-jws-pub",
+   "name": "JW's PUB",
+   "cuisine": "Pub",
+   "address": "433 Washington St, Coventry",
+   "state": "RI",
+   "zip": "02816",
+   "phone": "(401) 262-3350",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ri/coventry/jws-pub-/ (updated 2026-10-29), checked 2026-11-02",
+   "lat": 41.695527,
+   "lng": -71.535488,
+   "website": null,
+   "hours": "Mon-Sat 4p-1a; Sun closed",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-10-29) (checked 2026-11-02)",
+   "county": "Kent",
+   "karaoke": {
+    "nights": [],
+    "hints": [
+     "Google attribute 'karaoke' (via Restaurantji)",
+     "Restaurantji review/summary mentions karaoke",
+     "Restaurantji review/summary mentions karaoke"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ri/coventry/jws-pub-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ri-lake-taco",
+   "name": "Lake Taco",
+   "cuisine": "Mexican",
+   "address": "446 RI-3, Coventry",
+   "state": "RI",
+   "zip": "02816",
+   "phone": "(401) 205-8226",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ri/coventry/lake-taco-/ (updated 2026-10-30), checked 2026-11-02",
+   "website": null,
+   "hours": "Mon-Wed 11a-9p; Thu-Sat 11a-10p; Sun 11a-8p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-30) (checked 2026-11-02)",
+   "county": "Kent",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ri/coventry/lake-taco-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ri-pats-italian",
+   "name": "Pat’s Italian",
+   "cuisine": "Italian",
+   "address": "1650 Nooseneck Hill Rd, Coventry",
+   "state": "RI",
+   "zip": "02816",
+   "phone": "(401) 320-8787",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ri/coventry/pats-italian-coventry-/ (updated 2026-10-29), checked 2026-11-02",
+   "lat": 41.672024,
+   "lng": -71.59735,
+   "website": null,
+   "hours": "Mon closed; Tue-Thu 4:30p-8:30p; Fri-Sat 4:30p-9p; Sun 4p-8p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "crowd": null,
+   "vibes": [
+    "Date night"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-10-29) (checked 2026-11-02)",
+   "county": "Kent",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/ri/coventry/pats-italian-coventry-/",
+        "quote": "Pat’s Italian offers a bright and spacious dining area, along with a romantic bar atmosphere. The restaurant serves delicious Italian food, including standout dishes l",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ri/coventry/pats-italian-coventry-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ri-seven-moons",
+   "name": "Seven moons",
+   "cuisine": "Restaurant",
+   "address": "856 Tiogue Ave, Coventry",
+   "state": "RI",
+   "zip": "02816",
+   "phone": "(401) 828-9998",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ri/coventry/seven-moons-/ (updated 2026-10-10), checked 2026-11-02",
+   "lat": 41.680922,
+   "lng": -71.567319,
+   "website": null,
+   "hours": "Mon 11a-9:30p; Tue-Thu 11:30a-9:30p; Fri-Sat 11:30a-10:30p; Sun 12p-9:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-10) (checked 2026-11-02)",
+   "county": "Kent",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ri/coventry/seven-moons-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ri-sherris-come-along-inn",
+   "name": "Sherri’s Come Along Inn",
+   "cuisine": "Pub",
+   "address": "402 Washington St, Coventry",
+   "state": "RI",
+   "zip": "02816",
+   "phone": "(401) 828-8300",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ri/coventry/sherri-s-come-along-inn-/ (updated 2026-06-07), checked 2026-11-02",
+   "lat": 41.695511,
+   "lng": -71.533229,
+   "website": "https://sherriscomealonginn.com/",
+   "websiteSource": "OpenStreetMap node/11246274173 website tag (map data 2026-11-03), checked 2026-11-02",
+   "hours": "Mon-Tue closed; Wed-Thu 4p-8p; Fri-Sat 4p-9p; Sun 3p-7p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-06-07) (checked 2026-11-02)",
+   "county": "Kent",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-06-07",
+        "url": "https://www.restaurantji.com/ri/coventry/sherri-s-come-along-inn-/",
+        "quote": "it was wonderful! We we treated with such personal service and it felt like home. Will be regulars from now on! Thank you. | Read All Reviews(141)",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/ri/coventry/sherri-s-come-along-inn-/",
+        "quote": "it was wonderful! We we treated with such personal service and it felt like home. Will be regulars from now on! Thank you."
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ri/coventry/sherri-s-come-along-inn-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": "https://sherriscomealonginn.com/",
+    "facebook": "https://www.facebook.com/sherriscomealonginn",
+    "instagram": "https://www.instagram.com/sherriscomealong",
+    "socialWebsite": "linked from venue website https://sherriscomealonginn.com/, checked 2026-11-05",
+    "socialChecked": "2026-11-05",
+    "socialStatus": "ok",
+    "socialNote": "Address on page: 402 Washington St, Coventry. Closed now only; no weekly hours.",
+    "socialSourceUrl": "https://www.facebook.com/sherriscomealonginn",
+    "reviewFlag": "FB page address 402 Washington St, Coventry vs dataset West Warwick — Jon review"
+   },
+   "menu": "https://sherriscomealonginn.com/sherrismenu",
+   "specials": [
+    {
+     "days": "Wed",
+     "text": "Wednesday Specials: Wings n Rings deal, Roasted Turkey Dinner, Stuffed Chicken, Lasagna; Fish & Chips always a great day.",
+     "src": "Social https://www.facebook.com/sherriscomealonginn",
+     "checked": "2026-11-05"
+    }
+   ]
+  },
+  {
+   "id": "ri-tavern-on-iii",
+   "name": "Tavern on III",
+   "cuisine": "Pub",
+   "address": "809 Nooseneck Hill Rd, West Greenwich",
+   "state": "RI",
+   "zip": "02817",
+   "phone": "(401) 385-3835",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ri/west-greenwich/tavern-on-the-hill-/ (updated 2026-10-07), checked 2026-11-02",
+   "lat": 41.615467,
+   "lng": -71.635323,
+   "website": null,
+   "hours": "Mon 3p-12a; Tue closed; Wed-Thu 3p-12a; Fri 3p-1a; Sat 12p-1a; Sun 12p-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-10-07) (checked 2026-11-02)",
+   "county": "Kent",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/ri/west-greenwich/tavern-on-the-hill-/",
+        "quote": "Based on the reviews, Tavern on III is a friendly, local bar and grill with lots of character. The staff is friendly, nice, and attentive. The food is",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ri/west-greenwich/tavern-on-the-hill-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ri-the-harris",
+   "name": "The Harris",
+   "cuisine": "Restaurant",
+   "address": "666 Main St, Coventry",
+   "state": "RI",
+   "zip": "02816",
+   "phone": "(401) 823-9178",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ri/coventry/harris-bar-and-grille-/ (updated 2026-10-07), checked 2026-11-02",
+   "lat": 41.723483,
+   "lng": -71.534728,
+   "website": null,
+   "hours": "Mon 2p-1a; Tue-Sat 11:30a-1a; Sun 10:30a-1a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-07) (checked 2026-11-02)",
+   "county": "Kent",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-07",
+        "url": "https://www.restaurantji.com/ri/coventry/harris-bar-and-grille-/",
+        "quote": "ts everyone and makes guests feel like family. During the daytime, the restaurant is very family friendly and offers plenty of parking behind the building with a rear entrance. Recent visitors pr",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ri/coventry/harris-bar-and-grille-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ri-the-woods-tavern",
+   "name": "The Woods Tavern",
+   "cuisine": "Pub",
+   "address": "45 Nooseneck Hill Rd Suite 1, West Greenwich",
+   "state": "RI",
+   "zip": "02817",
+   "phone": "(401) 392-1314",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ri/west-greenwich/the-woods-tavern-/ (updated 2026-10-30), checked 2026-11-02",
+   "lat": 41.656423,
+   "lng": -71.604272,
+   "website": null,
+   "hours": "Mon closed; Tue-Sat 11:30a-11p; Sun 11:30a-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-10-30) (checked 2026-11-02)",
+   "county": "Kent",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-30",
+        "url": "https://www.restaurantji.com/ri/west-greenwich/the-woods-tavern-/",
+        "quote": "corn and chicken chowder, and burgers with onion rings, cheddar, and bacon. The tavern is kid-friendly, providing crayons, coloring pages, and Wiki-sticks. Plenty of off-street parking is avai",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ri/west-greenwich/the-woods-tavern-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  }
+ ],
+ "type": "town",
+ "region": "providence-metro-ri",
+ "counties": [
+  "Kent"
+ ],
+ "state": "RI"
+}

@@ -591,33 +591,6 @@
     "website": "https://millworksharrisburg.com/"
    },
    "menu": "https://millworksharrisburg.com/menu/",
-   "trivia": {
-    "nights": [
-     {
-      "day": "Tue",
-      "cadence": "weekly",
-      "start": "6 pm",
-      "confidence": "high",
-      "lastSeen": "2026-11-02",
-      "datedLastSeen": "2026-11-02",
-      "note": "Cheaters Never Prosper Trivia",
-      "sources": [
-       {
-        "src": "cnptrivia.com weekly schedule",
-        "url": "https://cnptrivia.com/weekly-schedule/",
-        "date": "2026-11-02",
-        "quote": "The Millworks at 6pm"
-       }
-      ],
-      "basis": "vendor schedule (CNP Trivia)",
-      "vendor": "Cheaters Never Prosper Trivia"
-     }
-    ],
-    "stale": [],
-    "hints": [],
-    "conflicts": [],
-    "oneoffs": []
-   },
    "outdoor": {
     "types": [
      "rooftop",
@@ -1034,7 +1007,7 @@
      {
       "day": "Thu",
       "cadence": "weekly",
-      "start": "9-2am",
+      "start": "9-2 am",
       "basis": "explicit recurring wording",
       "lastSeen": "2026-11-01",
       "datedLastSeen": null,
@@ -1072,7 +1045,7 @@
      {
       "day": "Sat",
       "cadence": "weekly",
-      "start": "9-2am",
+      "start": "9-2 am",
       "basis": "explicit recurring wording",
       "lastSeen": "2026-11-01",
       "datedLastSeen": null,
@@ -1301,7 +1274,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://boneshire.com/"
-   }
+   },
+   "menu": "https://www.boneshire.com/on-tap-2/"
   },
   {
    "id": "boneshire-taps-soma",
@@ -1334,7 +1308,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://boneshire.com/"
-   }
+   },
+   "menu": "https://www.boneshire.com/on-tap-2/"
   },
   {
    "id": "rubicon",
@@ -1560,27 +1535,7 @@
     "website": "https://www.underdogsportsbarandgrill.com/"
    },
    "trivia": {
-    "nights": [
-     {
-      "day": "Wed",
-      "cadence": "weekly",
-      "start": "7 pm",
-      "confidence": "high",
-      "lastSeen": "2026-11-02",
-      "datedLastSeen": "2026-11-02",
-      "note": "Cheaters Never Prosper Trivia: Different event every week",
-      "sources": [
-       {
-        "src": "cnptrivia.com weekly schedule",
-        "url": "https://cnptrivia.com/weekly-schedule/",
-        "date": "2026-11-02",
-        "quote": "Underdog Sports Bar & Grill at 7pm — DIFFERENT EVENT EVERY WEEK"
-       }
-      ],
-      "basis": "vendor schedule (CNP Trivia)",
-      "vendor": "Cheaters Never Prosper Trivia"
-     }
-    ],
+    "nights": [],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -2402,33 +2357,6 @@
    "source": "hours from https://angiesdinerandlounge.com/contact-us/ (checked 2026-11-02); venue on the Cheaters Never Prosper Trivia weekly schedule (https://cnptrivia.com/weekly-schedule/)",
    "county": "Dauphin",
    "addedBy": "refresh-cnp",
-   "trivia": {
-    "nights": [
-     {
-      "day": "Wed",
-      "cadence": "weekly",
-      "start": "6:30 pm",
-      "confidence": "high",
-      "lastSeen": "2026-11-02",
-      "datedLastSeen": "2026-11-02",
-      "note": "Cheaters Never Prosper Trivia",
-      "sources": [
-       {
-        "src": "cnptrivia.com weekly schedule",
-        "url": "https://cnptrivia.com/weekly-schedule/",
-        "date": "2026-11-02",
-        "quote": "Angie's Diner & Lounge at 6:30pm"
-       }
-      ],
-      "basis": "vendor schedule (CNP Trivia)",
-      "vendor": "Cheaters Never Prosper Trivia"
-     }
-    ],
-    "stale": [],
-    "hints": [],
-    "conflicts": [],
-    "oneoffs": []
-   },
    "crowdType": {
     "labels": [
      "Families"
@@ -2482,26 +2410,49 @@
       "day": "Wed",
       "cadence": "weekly",
       "start": "7 pm",
-      "confidence": "high",
-      "lastSeen": "2026-11-02",
-      "datedLastSeen": "2026-11-02",
-      "note": "Cheaters Never Prosper Trivia: Rotates between general & music trivia",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
       "sources": [
        {
-        "src": "cnptrivia.com weekly schedule",
-        "url": "https://cnptrivia.com/weekly-schedule/",
-        "date": "2026-11-02",
-        "quote": "Boro Bar & Grill RiverView at 7pm — ROTATES BETWEEN GENERAL & MUSIC TRIVIA"
+        "src": "venue website (undated page)",
+        "url": "https://borobar.com",
+        "date": "2026-11-01",
+        "quote": "Trivia Night | Every Wednesday at 7:00 pm | Every Wednesday at 7:00 pm"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://borobar.com",
+        "date": "2026-11-01",
+        "quote": "Think you’ve got what it takes to be the ultimate trivia champion | Every Wednesday at 7:00 pm"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://borobar.com/about/",
+        "date": "2026-11-01",
+        "quote": " We have Trivia every Wednesday at 7:00 PM"
        }
       ],
-      "basis": "vendor schedule (CNP Trivia)",
-      "vendor": "Cheaters Never Prosper Trivia"
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
      }
     ],
     "stale": [],
     "hints": [],
     "conflicts": [],
-    "oneoffs": []
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " Join us for Trivia Night at Boro Bar & Grill RiverView, where your knowledge meets your competitive spirit | Every Wednesday at 7:00 pm",
+      "url": "https://borobar.com"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " Enjoy great food, cold drinks, and a lively atmosphere as you test your wits against other trivia enthusiasts | Every Wednesday at 7:00 pm",
+      "url": "https://borobar.com"
+     }
+    ]
    },
    "crowdType": {
     "labels": [
@@ -2697,7 +2648,8 @@
    "vibes": [],
    "source": "hours from OpenStreetMap node/10293863909 opening_hours tag (map data 2026-11-01; last checked on the map 2026-05-31) (checked 2026-11-02); late hours confirmed by venue website https://www.baccopizzeriawinebar.com/a/locations/hours: \" Harrisburg, | PA | 17111 | Monday - Thursday: | 11:00am - 10:00pm | Friday - Saturday: | 11:00am - 12:00am | Sunday:\" (checked 2026-11-02)",
    "county": "Dauphin",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "menu": "https://www.baccopizzeriawinebar.com/food-drink-menus"
   },
   {
    "id": "pa-harrisburg-beach-club-harrisburg",

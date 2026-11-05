@@ -2118,27 +2118,7 @@
     ]
    },
    "karaoke": {
-    "nights": [
-     {
-      "day": "Fri",
-      "cadence": "monthly",
-      "start": "8pm",
-      "basis": "explicit recurring wording",
-      "lastSeen": "2026-11-01",
-      "datedLastSeen": null,
-      "postsSeen": 0,
-      "sources": [
-       {
-        "src": "venue website (undated page)",
-        "url": "https://dogandduckfamilypubs.com/clements-ferry-location/",
-        "date": "2026-11-01",
-        "quote": "So come sing with us during Karaoke Night at Dog & Duck on Clements Ferry Road on the 2nd Friday of Each Month | Starting at 8pm | Weekly Specials & Events"
-       }
-      ],
-      "confidence": "medium",
-      "note": "Only on venue website (undated); confirm still running"
-     }
-    ],
+    "nights": [],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -2160,39 +2140,7 @@
    },
    "menu": "https://dogandduckfamilypubs.com/food-menu/",
    "trivia": {
-    "nights": [
-     {
-      "day": "Thu",
-      "cadence": "weekly",
-      "start": "7-9pm",
-      "basis": "explicit recurring wording",
-      "lastSeen": "2026-11-01",
-      "datedLastSeen": null,
-      "postsSeen": 0,
-      "sources": [
-       {
-        "src": "venue website (undated page)",
-        "url": "https://dogandduckfamilypubs.com/specials-events/",
-        "date": "2026-11-01",
-        "quote": "NAME THAT TUNE TEAM TRIVIA | Every Thursday from 7-9pm. Test Your Music Skills and Play To Win House Cash! | Every Thursday from 7-9pm. Test Your Music Skills and Play To Win House Cash!"
-       },
-       {
-        "src": "venue website (undated page)",
-        "url": "https://dogandduckfamilypubs.com/belle-hall-location/",
-        "date": "2026-11-01",
-        "quote": "NAME THAT TUNE TEAM TRIVIA | Every Thursday from 7-9pm. Test Your Music Skills and Play To Win House Cash! | Every Thursday from 7-9pm. Test Your Music Skills and Play To Win House Cash!"
-       },
-       {
-        "src": "venue website (undated page)",
-        "url": "https://dogandduckfamilypubs.com/clements-ferry-location/",
-        "date": "2026-11-01",
-        "quote": "NAME THAT TUNE TEAM TRIVIA | Every Thursday from 7-9pm. Test Your Music Skills and Play To Win House Cash! | Every Thursday from 7-9pm. Test Your Music Skills and Play To Win House Cash!"
-       }
-      ],
-      "confidence": "medium",
-      "note": "Only on venue website (undated); confirm still running"
-     }
-    ],
+    "nights": [],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -5034,7 +4982,7 @@
    "happyHours": [
     {
      "days": "Mon-Fri",
-     "text": "Happy Hour Mon-Fri 4-7 PM",
+     "text": "Happy Hour Mon-Fri 4-7 pm",
      "tags": [],
      "src": "Venue website obrionspub.com",
      "checked": "2026-11-01",
@@ -5061,25 +5009,55 @@
      {
       "day": "Tue",
       "cadence": "weekly",
-      "start": "7 pm",
-      "confidence": "high",
-      "lastSeen": "2026-11-02",
+      "start": "7–9 pm",
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
       "sources": [
        {
-        "src": "Team Trivia schedule",
-        "url": "https://www.teamtrivia.com/venue/o-brion-s-pub-grille-mount-pleasant-sc",
-        "date": "2026-11-02",
-        "quote": "Team Trivia · Tue 7:00 PM · O'Brion's Pub & Grille, Mount Pleasant"
+        "src": "venue website (undated page)",
+        "url": "https://obrionspub.com",
+        "date": "2026-11-01",
+        "quote": "Team Trivia | Tuesday · 7–9 PM"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://obrionspub.com/events",
+        "date": "2026-11-01",
+        "quote": "There is always a reason to swing by, whether it's weekday happy hour, Tuesday trivia, or a table full of food while the game is on"
+       },
+       {
+        "src": "venue website (undated page)",
+        "url": "https://obrionspub.com/events",
+        "date": "2026-11-01",
+        "quote": "Team Trivia | Tuesday · 7 PM to 9 PM"
        }
       ],
-      "basis": "vendor/host published venue schedule",
-      "vendor": "Team Trivia"
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
      }
     ],
+    "stale": [],
     "hints": [],
-    "stale": false,
-    "oneoffs": [],
-    "conflicts": []
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": "Happy hour, trivia, and specials",
+      "url": "https://obrionspub.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "If you're planning a birthday dinner, work social, trivia team meetup, or post-game gathering, O'Brion's offers the right kind of room: lively, flexible, and local without pretending to be a formal ev",
+      "url": "https://obrionspub.com/private-events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia teams and watch parties",
+      "url": "https://obrionspub.com/private-events"
+     }
+    ]
    },
    "websiteSource": "OpenStreetMap node/13873463662 website tag (map data 2026-10-31), checked 2026-11-01",
    "crowdType": {
@@ -8304,7 +8282,7 @@
      {
       "day": "Mon",
       "cadence": "weekly",
-      "start": "7:00 pm",
+      "start": "7 pm",
       "basis": "explicit recurring wording",
       "lastSeen": "2026-11-01",
       "datedLastSeen": null,

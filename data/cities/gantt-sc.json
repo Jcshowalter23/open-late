@@ -2078,16 +2078,6 @@
     "oneoffs": [
      {
       "date": "2026-11-04",
-      "quote": "November 3 6:30 pm - 8:30 pm | Open Bluegrass Acoustic Jam | November 4 6:00 pm - 8:00 pm | Music >> Music Bingo with Taylor | November 13 4:00 pm - November 14 10:00 pm | November 4 6:00 pm - 8:00 pm",
-      "url": "https://fireforge.beer/"
-     },
-     {
-      "date": "2026-11-04",
-      "quote": "Game Night | November 4 | 6:00pm | Music >> Music Bingo with Taylor | 6:00pm",
-      "url": "https://fireforge.beer/events/"
-     },
-     {
-      "date": "2026-11-04",
       "quote": "Game Night | November 4 | 6:00pm | Music >> Music Bingo with Taylor | 6:00pm",
       "url": "https://fireforge.beer/events/"
      }
@@ -2158,6 +2148,19 @@
     "oneoffs": [],
     "checked": "2026-11-04",
     "addedBy": "v197-livemusic-calendar"
+   },
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-25",
+      "quote": "Game Night | November 25 | 6:30pm | >> Trivia with Brett | 6:30pm",
+      "url": "https://fireforge.beer/events/"
+     }
+    ]
    }
   },
   {
@@ -2858,7 +2861,7 @@
    "happyHours": [
     {
      "days": "See venue",
-     "text": "Enjoy the pre-game with Happy Hour from 4-7 PM",
+     "text": "Enjoy the pre-game with Happy Hour from 4-7 pm",
      "tags": [],
      "src": "Venue website grouptherapy.fun",
      "checked": "2026-11-01",
@@ -3078,25 +3081,7 @@
    },
    "menu": "https://halloffamesportsgrill.com/food-menu",
    "trivia": {
-    "nights": [
-     {
-      "day": "Wed",
-      "cadence": "weekly",
-      "start": "7 pm",
-      "confidence": "high",
-      "lastSeen": "2026-11-02",
-      "sources": [
-       {
-        "src": "Team Trivia schedule",
-        "url": "https://www.teamtrivia.com/venue/hall-of-fame-sports-grill-greenville-sc",
-        "date": "2026-11-02",
-        "quote": "30 Second Rocks · Wed 7:00 PM · Hall of Fame Sports Grill, Greenville"
-       }
-      ],
-      "basis": "vendor/host published venue schedule",
-      "vendor": "Team Trivia"
-     }
-    ],
+    "nights": [],
     "stale": [],
     "hints": [],
     "conflicts": [],
@@ -9569,7 +9554,134 @@
    ],
    "source": "hours from venue website https://theflatrestaurant.com/: \"Mon / 4:00 PM - 2:00 AM / Sun, Tue, Wed, Thur, Fri, Sat / 11:00 AM - 2:00 AM\" (checked 2026-11-02); location from OpenStreetMap node/854043037 (map data 2026-11-01)",
    "county": "Greenville",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "posted on 11 different Tues",
+      "lastSeen": "2027-01-12",
+      "datedLastSeen": "2027-01-12",
+      "postsSeen": 11,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://theflatrestaurant.com/events",
+        "date": "2027-01-12",
+        "quote": "Trivia Night at The Flat | Tuesday, January 12th, 2027"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://theflatrestaurant.com/events",
+        "date": "2027-01-05",
+        "quote": "Trivia Night at The Flat | Tuesday, January 5th, 2027"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://theflatrestaurant.com/events",
+        "date": "2026-12-29",
+        "quote": "Trivia Night at The Flat | Tuesday, December 29th, 2026"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " They also offer bingo and dj trivia",
+      "url": "https://theflatrestaurant.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Trivia Night at The Flat",
+      "url": "https://theflatrestaurant.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " From Tuesday Night Trivia and Wednesday Bingo to supporting local schools and charities, Nick has built a brand that survives on more than just \"free social media posts\"—it survives on trust and loca",
+      "url": "https://theflatrestaurant.com/about"
+     }
+    ]
+   },
+   "bingo": {
+    "nights": [
+     {
+      "day": "Tue",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "explicit recurring wording",
+      "lastSeen": "2026-11-01",
+      "datedLastSeen": null,
+      "postsSeen": 0,
+      "sources": [
+       {
+        "src": "venue website (undated page)",
+        "url": "https://theflatrestaurant.com/",
+        "date": "2026-11-01",
+        "quote": "Music Bingo Night | Every Tuesday"
+       }
+      ],
+      "confidence": "medium",
+      "note": "Only on venue website (undated); confirm still running"
+     },
+     {
+      "day": "Wed",
+      "cadence": "weekly",
+      "start": null,
+      "basis": "posted on 12 different Weds",
+      "lastSeen": "2027-01-20",
+      "datedLastSeen": "2027-01-20",
+      "postsSeen": 12,
+      "sources": [
+       {
+        "src": "venue website event calendar",
+        "url": "https://theflatrestaurant.com/events",
+        "date": "2027-01-20",
+        "quote": "Music Bingo Night | Wednesday, January 20th, 2027"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://theflatrestaurant.com/events",
+        "date": "2027-01-13",
+        "quote": "Music Bingo Night | Wednesday, January 13th, 2027"
+       },
+       {
+        "src": "venue website event calendar",
+        "url": "https://theflatrestaurant.com/events",
+        "date": "2027-01-06",
+        "quote": "Music Bingo Night | Wednesday, January 6th, 2027"
+       }
+      ],
+      "confidence": "high"
+     }
+    ],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-01",
+      "quote": " They also offer bingo and dj trivia",
+      "url": "https://theflatrestaurant.com/"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": "Music Bingo Night",
+      "url": "https://theflatrestaurant.com/events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " From Tuesday Night Trivia and Wednesday Bingo to supporting local schools and charities, Nick has built a brand that survives on more than just \"free social media posts\"—it survives on trust and loca",
+      "url": "https://theflatrestaurant.com/about"
+     }
+    ]
+   }
   },
   {
    "id": "sc-liability-brewing-co-greenville",
@@ -9623,7 +9735,25 @@
    ],
    "source": "hours from venue website https://pangaeabrewing.com/: \"Tue, Wed / 4:00 PM - 9:00 PM / Fri, Sat / 11:00 AM - 10:00 PM / Sun, Thur / 11:00 AM - 9:00 PM\" (checked 2026-11-02); location from OpenStreetMap node/8862877035 (map data 2026-11-01)",
    "county": "Greenville",
-   "addedBy": "sweep-osm"
+   "addedBy": "sweep-osm",
+   "trivia": {
+    "nights": [],
+    "stale": [],
+    "hints": [],
+    "conflicts": [],
+    "oneoffs": [
+     {
+      "date": "2026-11-04",
+      "quote": "TRIVIA NIGHT | Wednesday November 4th",
+      "url": "https://pangaeabrewing.com/greenville-unity-park-pangaea-brewing-company-events"
+     },
+     {
+      "date": "2026-11-01",
+      "quote": " They had trivia night when we went and will be going to join next time",
+      "url": "https://pangaeabrewing.com/"
+     }
+    ]
+   }
   },
   {
    "id": "sc-six-twenty-distillery-greenville",
