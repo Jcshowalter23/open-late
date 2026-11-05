@@ -1,1130 +1,1200 @@
 {
- "id": "windham-me",
- "name": "Windham, Gray & Raymond, ME",
- "timezone": "America/New_York",
- "checked": "2026-11-05",
- "checkedLabel": "Nov 5, 2026",
- "restaurants": [
-  {
-   "id": "me-a-la-mexicana",
-   "name": "A La Mexicana",
-   "cuisine": "Mexican",
-   "address": "1227 Roosevelt Trail, Raymond",
-   "state": "ME",
-   "zip": "04071",
-   "phone": "(207) 655-9290",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/raymond/a-la-mexicana-/ (updated 2026-11-02), checked 2026-11-05",
-   "lat": 43.879679957275,
-   "lng": -70.465671123106,
-   "website": "http://alamexicanamaine.com/",
-   "hours": "Mon 4p-9p; Tue-Thu 11a-8:30p; Fri-Sat 11a-9p; Sun 12p-7p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from Restaurantji listing (updated 2026-11-02) (checked 2026-11-05)",
-   "county": "Cumberland",
-   "crowdType": {
-    "labels": [
-     "Families"
-    ],
-    "summary": "Family-friendly.",
-    "confidence": "medium",
-    "details": [
-     {
-      "label": "Families",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-11-02",
-        "url": "https://www.restaurantji.com/me/raymond/a-la-mexicana-/",
-        "quote": "staff provides excellent service and a welcoming atmosphere, making it a great choice for families. Customers can enjoy classic Mexican dishes like huevos rancheros, which are prepared qui",
-        "agg": true
-       }
-      ]
-     }
-    ]
-   },
-   "crowdChecked": "2026-11-05",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/me/raymond/a-la-mexicana-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   },
-   "outdoor": {
-    "types": [
-     "patio"
-    ],
-    "sources": [
-     {
-      "src": "OpenStreetMap",
-      "url": "https://www.openstreetmap.org/way/578994145",
-      "quote": "OSM outdoor_seating=yes (A La Mexicana; map data 2026-11-03)",
-      "fetched": "2026-11-05",
-      "checked": "2026-11-05"
-     }
-    ],
-    "checked": "2026-11-05"
-   },
-   "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/raymond/a-la-mexicana-/), checked 2026-11-05"
-  },
-  {
-   "id": "me-china-gray",
-   "name": "China Gray",
-   "cuisine": "Restaurant",
-   "address": "13 Main St, Gray",
-   "state": "ME",
-   "zip": "04039",
-   "phone": "(207) 657-7298",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/gray/china-gray-/ (updated 2026-10-08), checked 2026-11-05",
-   "lat": 43.886082951085,
-   "lng": -70.330220925635,
-   "website": "http://www.chinagrayme.com/",
-   "hours": "Mon closed; Tue-Thu 11a-8:30p; Fri-Sat 11a-9p; Sun 11a-8p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from Restaurantji listing (updated 2026-10-08) (checked 2026-11-05)",
-   "county": "Cumberland",
-   "crowdChecked": "2026-11-05",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/me/gray/china-gray-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   },
-   "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/gray/china-gray-/), checked 2026-11-05"
-  },
-  {
-   "id": "me-china-taste-windham",
-   "name": "China Taste",
-   "cuisine": "Restaurant",
-   "address": "771 Roosevelt Trail Ste 1, Windham",
-   "state": "ME",
-   "zip": "04062",
-   "phone": "(207) 893-2288",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/china-taste-/ (updated 2026-11-02), checked 2026-11-05",
-   "lat": 43.83677531723,
-   "lng": -70.440468635903,
-   "website": null,
-   "hours": "Mon-Thu 11a-9:30p; Fri-Sat 11a-10:30p; Sun 11a-9:30p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from Restaurantji listing (updated 2026-11-02) (checked 2026-11-05)",
-   "county": "Cumberland",
-   "crowdChecked": "2026-11-05",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/me/windham/china-taste-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   }
-  },
-  {
-   "id": "me-china-village",
-   "name": "China Village",
-   "cuisine": "Restaurant",
-   "address": "271 Shaker Rd, Gray",
-   "state": "ME",
-   "zip": "04039",
-   "phone": "(207) 657-3003",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/gray/china-village-/ (updated 2026-09-19), checked 2026-11-05",
-   "lat": 43.920671616605,
-   "lng": -70.355512626114,
-   "website": "https://www.chinavillagemaine.com/Menu.html",
-   "websiteSource": "OpenStreetMap node/7176543084 website tag (map data 2026-11-03), checked 2026-11-05",
-   "hours": "Mon closed; Tue-Thu 11a-8:30p; Fri-Sat 11a-9:30p; Sun 11a-8:30p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from Restaurantji listing (updated 2026-09-19) (checked 2026-11-05)",
-   "county": "Cumberland",
-   "crowdType": {
-    "labels": [
-     "Families"
-    ],
-    "summary": "Family-friendly.",
-    "confidence": "medium",
-    "details": [
-     {
-      "label": "Families",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-19",
-        "url": "https://www.restaurantji.com/me/gray/china-village-/",
-        "quote": "aurant has a large parking lot and is wheelchair accessible, making it a great option for families. The mixed drinks may not be up to par, but the food and overall experience are generally",
-        "agg": true
-       }
-      ]
-     }
-    ]
-   },
-   "crowdChecked": "2026-11-05",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/me/gray/china-village-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": "https://www.chinavillagemaine.com/Menu.html"
-   },
-   "menu": "https://chinavillagemaine.com/menu/"
-  },
-  {
-   "id": "me-deck-house-tavern",
-   "name": "Deck House Tavern",
-   "cuisine": "Pub",
-   "address": "930 Roosevelt Trail, Windham",
-   "state": "ME",
-   "zip": "04062",
-   "phone": "(207) 892-1324",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/deck-house-sports-tavern-/ (updated 2026-11-04), checked 2026-11-05",
-   "website": "https://www.deckhousetavern.com/",
-   "hours": "Mon closed; Tue 3p-8:30p; Wed-Thu 11:30a-8:30p; Fri-Sat 11:30a-9p; Sun 11:30a-8p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [
+  "id": "windham-me",
+  "name": "Windham, Gray & Raymond, ME",
+  "timezone": "America/New_York",
+  "checked": "2026-11-05",
+  "checkedLabel": "Nov 5, 2026",
+  "restaurants": [
     {
-     "days": "See venue",
-     "text": "Happy Hour 3pm – 6pm",
-     "tags": [],
-     "src": "Venue website deckhousetavern.com",
-     "checked": "2026-11-01",
-     "flag": "Days not stated; Prices not listed"
-    }
-   ],
-   "specials": [
-    {
-     "days": "Wed",
-     "text": "Wing Wednesdays: 1/2 Price Wicked Wings + $12 Bud Light Pitchers – from 3 pm to close",
-     "tags": [
-      "wings",
-      "beer"
-     ],
-     "src": "Venue website deckhousetavern.com",
-     "checked": "2026-11-01"
+      "id": "me-a-la-mexicana",
+      "name": "A La Mexicana",
+      "cuisine": "Mexican",
+      "address": "1227 Roosevelt Trail, Raymond",
+      "state": "ME",
+      "zip": "04071",
+      "phone": "(207) 655-9290",
+      "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/raymond/a-la-mexicana-/ (updated 2026-11-02), checked 2026-11-05",
+      "lat": 43.879679957275,
+      "lng": -70.465671123106,
+      "website": "http://alamexicanamaine.com/",
+      "hours": "Mon 4p-9p; Tue-Thu 11a-8:30p; Fri-Sat 11a-9p; Sun 12p-7p",
+      "hoursNote": null,
+      "kitchen": null,
+      "kitchenNote": null,
+      "happyHours": [],
+      "specials": [],
+      "crowd": null,
+      "vibes": [],
+      "source": "hours from Restaurantji listing (updated 2026-11-02) (checked 2026-11-05)",
+      "county": "Cumberland",
+      "crowdType": {
+        "labels": [
+          "Families"
+        ],
+        "summary": "Family-friendly.",
+        "confidence": "medium",
+        "details": [
+          {
+            "label": "Families",
+            "confidence": "medium",
+            "evidence": [
+              {
+                "type": "reviews",
+                "src": "Restaurantji review summary (from Google reviews), updated 2026-11-02",
+                "url": "https://www.restaurantji.com/me/raymond/a-la-mexicana-/",
+                "quote": "staff provides excellent service and a welcoming atmosphere, making it a great choice for families. Customers can enjoy classic Mexican dishes like huevos rancheros, which are prepared qui",
+                "agg": true
+              }
+            ]
+          }
+        ]
+      },
+      "crowdChecked": "2026-11-05",
+      "crowdSources": {
+        "restaurantji": "https://www.restaurantji.com/me/raymond/a-la-mexicana-/",
+        "facebookMirror": null,
+        "fbPostsSeen": 0,
+        "fbNewestPost": null,
+        "website": null
+      },
+      "outdoor": {
+        "types": [
+          "patio"
+        ],
+        "sources": [
+          {
+            "src": "OpenStreetMap",
+            "url": "https://www.openstreetmap.org/way/578994145",
+            "quote": "OSM outdoor_seating=yes (A La Mexicana; map data 2026-11-03)",
+            "fetched": "2026-11-05",
+            "checked": "2026-11-05"
+          }
+        ],
+        "checked": "2026-11-05"
+      },
+      "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/raymond/a-la-mexicana-/), checked 2026-11-05"
     },
     {
-     "days": "Thu",
-     "text": "Burger Thursdays: $15 Chef’s Featured Burger Night + $5 DH Downhill Pale Ale pints- from 5 pm to close",
-     "tags": [
-      "beer"
-     ],
-     "src": "Venue website deckhousetavern.com",
-     "checked": "2026-11-01"
+      "id": "me-china-gray",
+      "name": "China Gray",
+      "cuisine": "Restaurant",
+      "address": "13 Main St, Gray",
+      "state": "ME",
+      "zip": "04039",
+      "phone": "(207) 657-7298",
+      "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/gray/china-gray-/ (updated 2026-10-08), checked 2026-11-05",
+      "lat": 43.886082951085,
+      "lng": -70.330220925635,
+      "website": "http://www.chinagrayme.com/",
+      "hours": "Mon closed; Tue-Thu 11a-8:30p; Fri-Sat 11a-9p; Sun 11a-8p",
+      "hoursNote": null,
+      "kitchen": null,
+      "kitchenNote": null,
+      "happyHours": [],
+      "specials": [],
+      "crowd": null,
+      "vibes": [],
+      "source": "hours from Restaurantji listing (updated 2026-10-08) (checked 2026-11-05)",
+      "county": "Cumberland",
+      "crowdChecked": "2026-11-05",
+      "crowdSources": {
+        "restaurantji": "https://www.restaurantji.com/me/gray/china-gray-/",
+        "facebookMirror": null,
+        "fbPostsSeen": 0,
+        "fbNewestPost": null,
+        "website": null
+      },
+      "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/gray/china-gray-/), checked 2026-11-05"
     },
     {
-     "days": "Sun",
-     "text": "Sundays: $6 Personal Pitchers of Miller Lite & Bud Light – all day",
-     "tags": [
-      "beer"
-     ],
-     "src": "Venue website deckhousetavern.com",
-     "checked": "2026-11-01"
+      "id": "me-china-taste-windham",
+      "name": "China Taste",
+      "cuisine": "Restaurant",
+      "address": "771 Roosevelt Trail Ste 1, Windham",
+      "state": "ME",
+      "zip": "04062",
+      "phone": "(207) 893-2288",
+      "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/china-taste-/ (updated 2026-11-02), checked 2026-11-05",
+      "lat": 43.83677531723,
+      "lng": -70.440468635903,
+      "website": null,
+      "hours": "Mon-Thu 11a-9:30p; Fri-Sat 11a-10:30p; Sun 11a-9:30p",
+      "hoursNote": null,
+      "kitchen": null,
+      "kitchenNote": null,
+      "happyHours": [],
+      "specials": [],
+      "crowd": null,
+      "vibes": [],
+      "source": "hours from Restaurantji listing (updated 2026-11-02) (checked 2026-11-05)",
+      "county": "Cumberland",
+      "crowdChecked": "2026-11-05",
+      "crowdSources": {
+        "restaurantji": "https://www.restaurantji.com/me/windham/china-taste-/",
+        "facebookMirror": null,
+        "fbPostsSeen": 0,
+        "fbNewestPost": null,
+        "website": null
+      }
     },
     {
-     "days": "Tue",
-     "text": "Taco Tuesdays: Featured Tacos 2 for $8-$12 +",
-     "tags": [],
-     "src": "Venue website deckhousetavern.com",
-     "checked": "2026-11-01"
+      "id": "me-china-village",
+      "name": "China Village",
+      "cuisine": "Restaurant",
+      "address": "271 Shaker Rd, Gray",
+      "state": "ME",
+      "zip": "04039",
+      "phone": "(207) 657-3003",
+      "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/gray/china-village-/ (updated 2026-09-19), checked 2026-11-05",
+      "lat": 43.920671616605,
+      "lng": -70.355512626114,
+      "website": "https://www.chinavillagemaine.com/Menu.html",
+      "websiteSource": "OpenStreetMap node/7176543084 website tag (map data 2026-11-03), checked 2026-11-05",
+      "hours": "Mon closed; Tue-Thu 11a-8:30p; Fri-Sat 11a-9:30p; Sun 11a-8:30p",
+      "hoursNote": null,
+      "kitchen": null,
+      "kitchenNote": null,
+      "happyHours": [],
+      "specials": [],
+      "crowd": null,
+      "vibes": [],
+      "source": "hours from Restaurantji listing (updated 2026-09-19) (checked 2026-11-05)",
+      "county": "Cumberland",
+      "crowdType": {
+        "labels": [
+          "Families"
+        ],
+        "summary": "Family-friendly.",
+        "confidence": "medium",
+        "details": [
+          {
+            "label": "Families",
+            "confidence": "medium",
+            "evidence": [
+              {
+                "type": "reviews",
+                "src": "Restaurantji review summary (from Google reviews), updated 2026-09-19",
+                "url": "https://www.restaurantji.com/me/gray/china-village-/",
+                "quote": "aurant has a large parking lot and is wheelchair accessible, making it a great option for families. The mixed drinks may not be up to par, but the food and overall experience are generally",
+                "agg": true
+              }
+            ]
+          }
+        ]
+      },
+      "crowdChecked": "2026-11-05",
+      "crowdSources": {
+        "restaurantji": "https://www.restaurantji.com/me/gray/china-village-/",
+        "facebookMirror": null,
+        "fbPostsSeen": 0,
+        "fbNewestPost": null,
+        "website": "https://www.chinavillagemaine.com/Menu.html"
+      },
+      "menu": "https://chinavillagemaine.com/menu/"
     },
     {
-     "days": "Sat,Sun",
-     "text": "Saturdays & Sundays: $6 Bloody Marys & Mimosas – from open to 4 pm",
-     "tags": [],
-     "src": "Venue website deckhousetavern.com",
-     "checked": "2026-11-01"
-    }
-   ],
-   "crowd": null,
-   "vibes": [
-    "Bar scene"
-   ],
-   "source": "hours from Restaurantji listing (updated 2026-11-04) (checked 2026-11-05)",
-   "county": "Cumberland",
-   "crowdType": {
-    "labels": [
-     "Families"
-    ],
-    "summary": "Family-friendly.",
-    "confidence": "medium",
-    "details": [
-     {
-      "label": "Families",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-11-04",
-        "url": "https://www.restaurantji.com/me/windham/deck-house-sports-tavern-/",
-        "quote": "ervice can be slow at times, many customers find that the friendly staff makes up for it. Kid-friendly games are available outside, making it a great spot for families. The environment is invi",
-        "agg": true
-       }
-      ]
-     }
-    ]
-   },
-   "crowdChecked": "2026-11-05",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/me/windham/deck-house-sports-tavern-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": "https://www.deckhousetavern.com/"
-   },
-   "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/windham/deck-house-sports-tavern-/), checked 2026-11-05",
-   "lat": 43.8520907,
-   "lng": -70.4517597,
-   "coordSource": "OpenStreetMap Nominatim address match 'Seacoast Adventure, 930, Roosevelt Trail, North Windham, Windham, Cumberland Cou', checked 2026-11-05"
-  },
-  {
-   "id": "me-eagle-sushi-and-steak-house",
-   "name": "Eagle Sushi & Steak House",
-   "cuisine": "Japanese",
-   "address": "818 Roosevelt Trail, Windham",
-   "state": "ME",
-   "zip": "04062",
-   "phone": "(207) 893-8081",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/eagle-sushi-and-steak-house-/ (updated 2026-10-10), checked 2026-11-05",
-   "lat": 43.840328391473,
-   "lng": -70.443739545895,
-   "website": "https://www.eaglesushi818.com/",
-   "hours": "Mon 11a-9:30p; Tue closed; Wed-Thu 11a-9:30p; Fri-Sat 11a-10:30p; Sun 11a-9:30p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from Restaurantji listing (updated 2026-10-10) (checked 2026-11-05)",
-   "county": "Cumberland",
-   "crowdChecked": "2026-11-05",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/me/windham/eagle-sushi-and-steak-house-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   },
-   "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/windham/eagle-sushi-and-steak-house-/), checked 2026-11-05"
-  },
-  {
-   "id": "me-fortune-cookie",
-   "name": "Fortune Cookie",
-   "cuisine": "Restaurant",
-   "address": "749 US-302, Windham",
-   "state": "ME",
-   "zip": "04062",
-   "phone": "(207) 892-1234",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/fortune-cookie-/ (updated 2026-09-17), checked 2026-11-05",
-   "website": null,
-   "hours": "Mon 11a-9p; Tue closed; Wed-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from Restaurantji listing (updated 2026-09-17) (checked 2026-11-05)",
-   "county": "Cumberland",
-   "crowdChecked": "2026-11-05",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/me/windham/fortune-cookie-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   },
-   "lat": 43.8349368,
-   "lng": -70.438131,
-   "coordSource": "OpenStreetMap Nominatim address match 'Cumberland Farms, 749, Roosevelt Trail, North Windham, Windham, Cumberland Count', checked 2026-11-05"
-  },
-  {
-   "id": "me-grand-central-wine-bar",
-   "name": "Grand Central Wine Bar",
-   "cuisine": "Bar",
-   "address": "256 Sebago Rd, Sebago",
-   "state": "ME",
-   "zip": "04029",
-   "phone": "(207) 787-5079",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/gorham/grand-central-wine-bar-/ (updated 2026-10-21), checked 2026-11-05",
-   "lat": 43.85366928826,
-   "lng": -70.636935485275,
-   "website": "https://grandcentralwinebar.com/",
-   "hours": "Mon-Tue closed; Wed-Sat 4p-9p; Sun closed",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Bar scene"
-   ],
-   "source": "hours from Restaurantji listing (updated 2026-10-21) (checked 2026-11-05)",
-   "county": "Cumberland",
-   "crowdType": {
-    "labels": [
-     "Live music fans",
-     "Dance / club crowd"
-    ],
-    "summary": "Known for live music; a dancing / club crowd late.",
-    "confidence": "high",
-    "details": [
-     {
-      "label": "Live music fans",
-      "confidence": "high",
-      "evidence": [
-       {
-        "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
-        "url": "https://www.restaurantji.com/me/gorham/grand-central-wine-bar-/",
-        "quote": "erie are must-tries, and their cheesecake is highly recommended. The place often features live music, adding to its charming ambiance, and the lively singing and dancing events make for a jo",
-        "agg": true
-       },
-       {
-        "type": "attr",
-        "src": "Google attribute 'live music' (via Restaurantji)",
-        "url": "https://www.restaurantji.com/me/gorham/grand-central-wine-bar-/",
-        "quote": "live music"
-       }
-      ]
-     },
-     {
-      "label": "Dance / club crowd",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
-        "url": "https://www.restaurantji.com/me/gorham/grand-central-wine-bar-/",
-        "quote": "ce often features live music, adding to its charming ambiance, and the lively singing and dancing events make for a joyful experience. Guests often feel like they are sitting down for win",
-        "agg": true
-       }
-      ]
-     }
-    ]
-   },
-   "crowdChecked": "2026-11-05",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/me/gorham/grand-central-wine-bar-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   },
-   "outdoor": {
-    "types": [
-     "patio"
-    ],
-    "sources": [
-     {
-      "src": "Restaurantji amenity",
-      "url": "https://www.restaurantji.com/me/gorham/grand-central-wine-bar-/",
-      "quote": "Restaurantji More Info amenity: outdoor seating",
-      "fetched": "2026-11-05",
-      "checked": "2026-11-05"
-     }
-    ],
-    "checked": "2026-11-05"
-   },
-   "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/gorham/grand-central-wine-bar-/), checked 2026-11-05"
-  },
-  {
-   "id": "me-hana-asian-cuisine",
-   "name": "Hana Asian Cuisine",
-   "cuisine": "Restaurant",
-   "address": "MALL, Windham",
-   "state": "ME",
-   "zip": "04062",
-   "phone": "(207) 572-1298",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/hana-asian-cuisine-/ (updated 2026-11-04), checked 2026-11-05",
-   "lat": 43.838795477553,
-   "lng": -70.4422351624,
-   "website": "http://www.hanawindham.com/",
-   "hours": "Mon-Thu 11:30a-9p; Fri-Sat 11:30a-9:30p; Sun 11:30a-9p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from Restaurantji listing (updated 2026-11-04) (checked 2026-11-05)",
-   "county": "Cumberland",
-   "crowdChecked": "2026-11-05",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/me/windham/hana-asian-cuisine-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   },
-   "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/windham/hana-asian-cuisine-/), checked 2026-11-05"
-  },
-  {
-   "id": "me-luchador-tacos",
-   "name": "Luchador Tacos",
-   "cuisine": "Mexican",
-   "address": "781 Roosevelt Trail, Windham",
-   "state": "ME",
-   "zip": "04062",
-   "phone": "(207) 893-8916",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/luchador-tacos-/ (updated 2026-10-16), checked 2026-11-05",
-   "lat": 43.837561331035,
-   "lng": -70.441156286262,
-   "website": "https://www.luchadortacos.com/",
-   "websiteSource": "OpenStreetMap way/579007352 website tag (map data 2026-11-03), checked 2026-11-05",
-   "hours": "Mon 11a-8p; Tue-Thu 8a-8p; Fri-Sat 8a-9p; Sun 8a-8p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from Restaurantji listing (updated 2026-10-16) (checked 2026-11-05)",
-   "county": "Cumberland",
-   "crowdChecked": "2026-11-05",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/me/windham/luchador-tacos-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": "https://www.luchadortacos.com/"
-   },
-   "outdoor": {
-    "types": [
-     "patio"
-    ],
-    "sources": [
-     {
-      "src": "Restaurantji amenity",
-      "url": "https://www.restaurantji.com/me/windham/luchador-tacos-/",
-      "quote": "Restaurantji More Info amenity: outdoor seating",
-      "fetched": "2026-11-05",
-      "checked": "2026-11-05"
-     }
-    ],
-    "checked": "2026-11-05"
-   }
-  },
-  {
-   "id": "me-roses-italian-restaurant",
-   "name": "Rose's Italian Restaurant",
-   "cuisine": "Italian",
-   "address": "690 Roosevelt Trail, Windham",
-   "state": "ME",
-   "zip": "04062",
-   "phone": "(207) 892-0010",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/roses-old-world-restaurant-/ (updated 2026-11-04), checked 2026-11-05",
-   "lat": 43.829679887468,
-   "lng": -70.434952616724,
-   "website": "https://www.rosesitalian.com/",
-   "hours": "Mon-Tue closed; Wed-Sun 11a-9p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Date night"
-   ],
-   "source": "hours from Restaurantji listing (updated 2026-11-04) (checked 2026-11-05)",
-   "county": "Cumberland",
-   "crowdType": {
-    "labels": [
-     "Families"
-    ],
-    "summary": "Family-friendly.",
-    "confidence": "medium",
-    "details": [
-     {
-      "label": "Families",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-11-04",
-        "url": "https://www.restaurantji.com/me/windham/roses-old-world-restaurant-/",
-        "quote": "Rose's Italian Restaurant provides a family-friendly environment with a reliable and enjoyable dining experience. The food is consistently goo",
-        "agg": true
-       }
-      ]
-     }
-    ]
-   },
-   "crowdChecked": "2026-11-05",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/me/windham/roses-old-world-restaurant-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   },
-   "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/windham/roses-old-world-restaurant-/), checked 2026-11-05",
-   "menu": "https://www.rosesitalian.com/dinner-menu"
-  },
-  {
-   "id": "me-rustlers-steak-house",
-   "name": "Rustlers Steak House",
-   "cuisine": "Steakhouse",
-   "address": "61 Tandberg Trail, Windham",
-   "state": "ME",
-   "zip": "04062",
-   "phone": "(207) 892-8808",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/rustlers-steak-house-/ (updated 2026-11-04), checked 2026-11-05",
-   "lat": 43.834077837649,
-   "lng": -70.438273169795,
-   "website": "http://www.rustlerssteakhouse.com/",
-   "hours": "Mon 11a-8p; Tue closed; Wed-Sat 11a-9p; Sun 11a-8p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Date night"
-   ],
-   "source": "hours from Restaurantji listing (updated 2026-11-04) (checked 2026-11-05)",
-   "county": "Cumberland",
-   "crowdChecked": "2026-11-05",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/me/windham/rustlers-steak-house-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   },
-   "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/windham/rustlers-steak-house-/), checked 2026-11-05"
-  },
-  {
-   "id": "me-sportsmans-kitchen-and-keg",
-   "name": "Sportsman’s Kitchen and Keg",
-   "cuisine": "Restaurant",
-   "address": "46 Sebago Rd, Sebago",
-   "state": "ME",
-   "zip": "04029",
-   "phone": "(207) 787-5209",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/sebago/sportsman-s-kitchen-and-keg-/ (updated 2026-10-12), checked 2026-11-05",
-   "lat": 43.842642605165,
-   "lng": -70.623329727684,
-   "website": "http://skksebago.com/",
-   "hours": "Mon-Tue closed; Wed-Thu 4p-9p; Fri 4p-10p; Sat 2p-10p; Sun 9a-2p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from Restaurantji listing (updated 2026-10-12) (checked 2026-11-05)",
-   "county": "Cumberland",
-   "crowdChecked": "2026-11-05",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/me/sebago/sportsman-s-kitchen-and-keg-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   },
-   "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/sebago/sportsman-s-kitchen-and-keg-/), checked 2026-11-05"
-  },
-  {
-   "id": "me-stockhouse-restaurant-and-sandbar-pub",
-   "name": "Stockhouse Restaurant & Sandbar Pub",
-   "cuisine": "Pub",
-   "address": "4 Turning Leaf Dr, Windham",
-   "state": "ME",
-   "zip": "04062",
-   "phone": "(207) 893-8412",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/stockhouse-windham-/ (updated 2026-10-06), checked 2026-11-05",
-   "lat": 43.827845963419,
-   "lng": -70.434650787172,
-   "website": "https://www.thestockhouserestaurant.com/",
-   "hours": "Mon 11a-9p; Tue-Sat 11a-10p; Sun 11a-9p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Bar scene"
-   ],
-   "source": "hours from Restaurantji listing (updated 2026-10-06) (checked 2026-11-05)",
-   "county": "Cumberland",
-   "crowdType": {
-    "labels": [
-     "Families"
-    ],
-    "summary": "Family-friendly.",
-    "confidence": "medium",
-    "details": [
-     {
-      "label": "Families",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-06",
-        "url": "https://www.restaurantji.com/me/windham/stockhouse-windham-/",
-        "quote": "s. Known for its delicious mozzarella sticks and reasonable pricing for the quality, this kid-friendly establishment features a special menu and activities for children, along with wheelchair",
-        "agg": true
-       }
-      ]
-     }
-    ]
-   },
-   "crowdChecked": "2026-11-05",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/me/windham/stockhouse-windham-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   },
-   "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/windham/stockhouse-windham-/), checked 2026-11-05"
-  },
-  {
-   "id": "me-tailgate-bar-and-grill",
-   "name": "Tailgate Bar & Grill",
-   "cuisine": "Bar & grill",
-   "address": "61 Portland Rd, Gray",
-   "state": "ME",
-   "zip": "04039",
-   "phone": "(207) 657-7973",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/gray/tailgate-bar-and-grill-/ (updated 2026-11-04), checked 2026-11-05",
-   "lat": 43.876824185408,
-   "lng": -70.327856035523,
-   "website": "http://www.tailgatebarandgrill.biz/",
-   "hours": "Mon-Wed 3p-9p; Thu 3p-10p; Fri 3p-1a; Sat 1p-1a; Sun 1p-5p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Bar scene"
-   ],
-   "source": "hours from Restaurantji listing (updated 2026-11-04) (checked 2026-11-05)",
-   "county": "Cumberland",
-   "crowdChecked": "2026-11-05",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/me/gray/tailgate-bar-and-grill-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   },
-   "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/gray/tailgate-bar-and-grill-/), checked 2026-11-05"
-  },
-  {
-   "id": "me-yolked-farm-to-table",
-   "name": "Yolked Farm to Table",
-   "cuisine": "Restaurant",
-   "address": "868 Roosevelt Trail, Windham",
-   "state": "ME",
-   "zip": "04062",
-   "phone": "(207) 749-4097",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/new-gloucester/yolked-/ (updated 2026-10-18), checked 2026-11-05",
-   "lat": 43.844759894944,
-   "lng": -70.446949402291,
-   "website": "http://www.yolkedfarmtotable.com/",
-   "hours": "Mon-Tue closed; Wed-Sat 12p-9p; Sun closed",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from Restaurantji listing (updated 2026-10-18) (checked 2026-11-05)",
-   "county": "Cumberland",
-   "crowdType": {
-    "labels": [
-     "Locals & regulars",
-     "Date night / upscale"
-    ],
-    "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
-    "confidence": "medium",
-    "details": [
-     {
-      "label": "Locals & regulars",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-18",
-        "url": "https://www.restaurantji.com/me/new-gloucester/yolked-/",
-        "quote": "ns. Located a bit further off the coast, Yolked is a great dining option for visitors and locals alike, offering a creative menu and a pleasant ambiance that keeps customers coming back",
-        "agg": true
-       }
-      ]
-     },
-     {
-      "label": "Date night / upscale",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-18",
-        "url": "https://www.restaurantji.com/me/new-gloucester/yolked-/",
-        "quote": "Yolked Farm to Table is a clean and upscale restaurant that offers a fabulous menu with dishes such as seafood chowder, cider-brined",
-        "agg": true
-       }
-      ]
-     }
-    ]
-   },
-   "crowdChecked": "2026-11-05",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/me/new-gloucester/yolked-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   },
-   "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/new-gloucester/yolked-/), checked 2026-11-05"
-  },
-  {
-   "id": "me-birchwood-brewing",
-   "name": "Birchwood Brewing",
-   "cuisine": "Brewery",
-   "address": "19 Portland Rd, Gray",
-   "state": "ME",
-   "zip": "04039",
-   "phone": "(207) 657-4593",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/gray/birchwood-brewing-/ (updated 2026-10-20), checked 2026-11-05",
-   "lat": 43.882499847142,
-   "lng": -70.329735216529,
-   "website": "http://www.birchwoodbrewing.com/",
-   "hours": "Mon-Tue 4p-9p; Wed-Fri 11a-9p; Sat 9a-9p; Sun 9a-7p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Bar scene"
-   ],
-   "source": "hours from Restaurantji listing (updated 2026-10-20) (checked 2026-11-05)",
-   "county": "Cumberland",
-   "crowdType": {
-    "labels": [
-     "Locals & regulars"
-    ],
-    "summary": "A locals-and-regulars spot.",
-    "confidence": "medium",
-    "details": [
-     {
-      "label": "Locals & regulars",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
-        "url": "https://www.restaurantji.com/me/gray/birchwood-brewing-/",
-        "quote": "g menu items like smash burgers, chicken fingers, and more, making it a favorite spot for regulars and newcomers alike. Visitors often enjoy the house-made chips, fried tots, and brisket t",
-        "agg": true
-       }
-      ]
-     }
-    ]
-   },
-   "crowdChecked": "2026-11-05",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/me/gray/birchwood-brewing-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   },
-   "addedBy": "me-shared-address-recovery",
-   "recoveryNote": "Restored 2026-11-05: pipeline address-dedupe had dropped it as a duplicate of a different venue at the same street address",
-   "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/gray/birchwood-brewing-/), checked 2026-11-05"
-  },
-  {
-   "id": "me-lake-house-tavern",
-   "name": "Lake House Tavern",
-   "cuisine": "Pub",
-   "address": "907 Roosevelt Trail, Windham",
-   "state": "ME",
-   "zip": "04062",
-   "phone": "(207) 894-3020",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/lake-house-tavern-/ (updated 2026-10-15), checked 2026-11-05",
-   "website": "http://www.lakehousewindham.com/",
-   "hours": "Daily 11a-10p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Bar scene"
-   ],
-   "source": "hours from Restaurantji listing (updated 2026-10-15) (checked 2026-11-05)",
-   "county": "Cumberland",
-   "crowdType": {
-    "labels": [
-     "Families"
-    ],
-    "summary": "Family-friendly.",
-    "confidence": "medium",
-    "details": [
-     {
-      "label": "Families",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-15",
-        "url": "https://www.restaurantji.com/me/windham/lake-house-tavern-/",
-        "quote": "drinks are fantastic and awesome. The staff is great and friendly, and the atmosphere is family friendly. Guests have enjoyed the burger, which is flavorful, juicy, and cooked just right, and i",
-        "agg": true
-       }
-      ]
-     }
-    ]
-   },
-   "crowdChecked": "2026-11-05",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/me/windham/lake-house-tavern-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   },
-   "addedBy": "me-shared-address-recovery",
-   "recoveryNote": "Restored 2026-11-05: pipeline address-dedupe had dropped it as a duplicate of a different venue at the same street address",
-   "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/windham/lake-house-tavern-/), checked 2026-11-05",
-   "lat": 43.8494926,
-   "lng": -70.4487194,
-   "coordSource": "OpenStreetMap Nominatim address match '907, Roosevelt Trail, North Windham, Windham, Cumberland County, Maine, 04062, U', checked 2026-11-05"
-  },
-  {
-   "id": "me-sunny-rainbow",
-   "name": "sunny rainbow",
-   "cuisine": "Restaurant",
-   "address": "111 Ossipee Trail East, Standish",
-   "state": "ME",
-   "zip": "04084",
-   "phone": "(207) 642-3881",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/standish/sunny-rainbow-/ (updated 2026-09-24), checked 2026-11-05",
-   "lat": 43.734159512504,
-   "lng": -70.562657273163,
-   "website": "https://sunnyrainbowme.com/",
-   "hours": "Mon 3p-9p; Tue-Sun 10a-9p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from Restaurantji listing (updated 2026-09-24) (checked 2026-11-05)",
-   "county": "Cumberland",
-   "crowdChecked": "2026-11-05",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/me/standish/sunny-rainbow-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   },
-   "addedBy": "me-shared-address-recovery",
-   "recoveryNote": "Restored 2026-11-05: pipeline address-dedupe had dropped it as a duplicate of a different venue at the same street address",
-   "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/standish/sunny-rainbow-/), checked 2026-11-05",
-   "menu": "https://sunnyrainbowme.com/menu.php"
-  },
-  {
-   "id": "me-red-city-ale-house",
-   "name": "Red City Ale House",
-   "cuisine": "Pub",
-   "address": "8 Main St, Windham",
-   "state": "ME",
-   "zip": "04062",
-   "phone": "(207) 370-6440",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/red-city-ale-house-/ (updated 2026-10-20), checked 2026-11-05",
-   "lat": 43.735517107378,
-   "lng": -70.425915235265,
-   "website": "http://redcityalehouse.com/",
-   "hours": "Mon-Wed 11a-8p; Thu-Sat 11a-9p; Sun 11a-8p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Bar scene"
-   ],
-   "source": "hours from Restaurantji listing (updated 2026-10-20) (checked 2026-11-05)",
-   "county": "Cumberland",
-   "crowdType": {
-    "labels": [
-     "Families"
-    ],
-    "summary": "Family-friendly.",
-    "confidence": "medium",
-    "details": [
-     {
-      "label": "Families",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
-        "url": "https://www.restaurantji.com/me/windham/red-city-ale-house-/",
-        "quote": "the beautiful outdoor deck overlooking the river, the delicious Reuben sandwich, and the kid-friendly menu with mac and cheese and cheeseburgers. The restaurant is known for its helpful waits",
-        "agg": true
-       }
-      ]
-     }
-    ]
-   },
-   "crowdChecked": "2026-11-05",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/me/windham/red-city-ale-house-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   },
-   "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/windham/red-city-ale-house-/), checked 2026-11-05",
-   "trivia": {
-    "nights": [
-     {
-      "day": "Mon",
-      "cadence": "weekly",
-      "start": "6p",
-      "basis": "host/vendor recurring schedule",
-      "lastSeen": "2026-11-05",
-      "datedLastSeen": "2026-11-05",
-      "postsSeen": 0,
-      "sources": [
-       {
-        "src": "Sporcle Live (Stump Trivia / Pub Quiz / Opinionation / Music Quiz) schedule",
-        "url": "https://www.sporcle.com/live/venue/91597/red-city-ale-house",
-        "date": "2026-11-05",
-        "quote": "trivia (Stump Trivia) — Monday 6 pm (weekly)"
-       },
-       {
-        "src": "Sporcle Live (Stump Trivia / Pub Quiz / Opinionation / Music Quiz) schedule",
-        "url": "https://www.sporcle.com/live/venue/91597/red-city-ale-house",
-        "date": "2026-11-05",
-        "quote": "trivia (Stump Trivia) — Monday 6 pm (weekly)"
-       }
+      "id": "me-deck-house-tavern",
+      "name": "Deck House Tavern",
+      "cuisine": "Pub",
+      "address": "930 Roosevelt Trail, Windham",
+      "state": "ME",
+      "zip": "04062",
+      "phone": "(207) 892-1324",
+      "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/deck-house-sports-tavern-/ (updated 2026-11-04), checked 2026-11-05",
+      "website": "https://www.deckhousetavern.com/",
+      "hours": "Mon closed; Tue 3p-8:30p; Wed-Thu 11:30a-8:30p; Fri-Sat 11:30a-9p; Sun 11:30a-8p",
+      "hoursNote": null,
+      "kitchen": null,
+      "kitchenNote": null,
+      "happyHours": [
+        {
+          "days": "See venue",
+          "text": "Happy Hour 3pm – 6pm",
+          "tags": [],
+          "src": "Venue website deckhousetavern.com",
+          "checked": "2026-11-01",
+          "flag": "Days not stated; Prices not listed"
+        }
       ],
-      "confidence": "high",
-      "note": null
-     }
-    ],
-    "stale": [],
-    "hints": [],
-    "conflicts": [],
-    "oneoffs": []
-   }
-  },
-  {
-   "id": "me-smoked-windham",
-   "name": "Smoked Windham",
-   "cuisine": "Barbecue",
-   "address": "106 Main St, Windham",
-   "state": "ME",
-   "zip": "04062",
-   "phone": "(207) 892-2337",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/bingas-express-/ (updated 2026-11-04), checked 2026-11-05",
-   "lat": 43.745695261634,
-   "lng": -70.425260445013,
-   "website": "https://www.smokedwindham.com/",
-   "hours": "Mon 4p-9p; Tue-Wed 11:30a-9p; Thu-Fri 11:30a-10p; Sat 10:30a-10p; Sun 10:30a-9p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [
-    "Bar scene"
-   ],
-   "source": "hours from Restaurantji listing (updated 2026-11-04) (checked 2026-11-05)",
-   "county": "Cumberland",
-   "crowdType": {
-    "labels": [
-     "Locals & regulars"
-    ],
-    "summary": "A locals-and-regulars spot.",
-    "confidence": "medium",
-    "details": [
-     {
-      "label": "Locals & regulars",
-      "confidence": "medium",
-      "evidence": [
-       {
-        "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-11-04",
-        "url": "https://www.restaurantji.com/me/windham/bingas-express-/",
-        "quote": "Smoked Windham is a popular neighborhood spot known for its exceptional service and a diverse, fresh menu. The takeout experience remai",
-        "agg": true
-       },
-       {
-        "type": "reviews",
-        "src": "Restaurantji review #3",
-        "url": "https://www.restaurantji.com/me/windham/bingas-express-/",
-        "quote": "Food was good. A really good neighborhood joint. Very active in their community. The day they went they were sponsoring a trunk or treat"
-       }
-      ]
-     }
-    ]
-   },
-   "crowdChecked": "2026-11-05",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/me/windham/bingas-express-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   },
-   "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/windham/bingas-express-/), checked 2026-11-05",
-   "menu": "https://smokedwindham.com/menu"
-  }
- ],
- "type": "town",
- "region": "portland-south-me",
- "counties": [
-  "Cumberland"
- ],
- "state": "ME"
+      "specials": [
+        {
+          "days": "Wed",
+          "text": "Wing Wednesdays: 1/2 Price Wicked Wings + $12 Bud Light Pitchers – from 3 pm to close",
+          "tags": [
+            "wings",
+            "beer"
+          ],
+          "src": "Venue website deckhousetavern.com",
+          "checked": "2026-11-01"
+        },
+        {
+          "days": "Thu",
+          "text": "Burger Thursdays: $15 Chef’s Featured Burger Night + $5 DH Downhill Pale Ale pints- from 5 pm to close",
+          "tags": [
+            "beer"
+          ],
+          "src": "Venue website deckhousetavern.com",
+          "checked": "2026-11-01"
+        },
+        {
+          "days": "Sun",
+          "text": "Sundays: $6 Personal Pitchers of Miller Lite & Bud Light – all day",
+          "tags": [
+            "beer"
+          ],
+          "src": "Venue website deckhousetavern.com",
+          "checked": "2026-11-01"
+        },
+        {
+          "days": "Tue",
+          "text": "Taco Tuesdays: Featured Tacos 2 for $8-$12 +",
+          "tags": [],
+          "src": "Venue website deckhousetavern.com",
+          "checked": "2026-11-01"
+        },
+        {
+          "days": "Sat,Sun",
+          "text": "Saturdays & Sundays: $6 Bloody Marys & Mimosas – from open to 4 pm",
+          "tags": [],
+          "src": "Venue website deckhousetavern.com",
+          "checked": "2026-11-01"
+        }
+      ],
+      "crowd": null,
+      "vibes": [
+        "Bar scene"
+      ],
+      "source": "hours from Restaurantji listing (updated 2026-11-04) (checked 2026-11-05)",
+      "county": "Cumberland",
+      "crowdType": {
+        "labels": [
+          "Families"
+        ],
+        "summary": "Family-friendly.",
+        "confidence": "medium",
+        "details": [
+          {
+            "label": "Families",
+            "confidence": "medium",
+            "evidence": [
+              {
+                "type": "reviews",
+                "src": "Restaurantji review summary (from Google reviews), updated 2026-11-04",
+                "url": "https://www.restaurantji.com/me/windham/deck-house-sports-tavern-/",
+                "quote": "ervice can be slow at times, many customers find that the friendly staff makes up for it. Kid-friendly games are available outside, making it a great spot for families. The environment is invi",
+                "agg": true
+              }
+            ]
+          }
+        ]
+      },
+      "crowdChecked": "2026-11-05",
+      "crowdSources": {
+        "restaurantji": "https://www.restaurantji.com/me/windham/deck-house-sports-tavern-/",
+        "facebookMirror": null,
+        "fbPostsSeen": 0,
+        "fbNewestPost": null,
+        "website": "https://www.deckhousetavern.com/"
+      },
+      "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/windham/deck-house-sports-tavern-/), checked 2026-11-05",
+      "lat": 43.8520907,
+      "lng": -70.4517597,
+      "coordSource": "OpenStreetMap Nominatim address match 'Seacoast Adventure, 930, Roosevelt Trail, North Windham, Windham, Cumberland Cou', checked 2026-11-05"
+    },
+    {
+      "id": "me-eagle-sushi-and-steak-house",
+      "name": "Eagle Sushi & Steak House",
+      "cuisine": "Japanese",
+      "address": "818 Roosevelt Trail, Windham",
+      "state": "ME",
+      "zip": "04062",
+      "phone": "(207) 893-8081",
+      "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/eagle-sushi-and-steak-house-/ (updated 2026-10-10), checked 2026-11-05",
+      "lat": 43.840328391473,
+      "lng": -70.443739545895,
+      "website": "https://www.eaglesushi818.com/",
+      "hours": "Mon 11a-9:30p; Tue closed; Wed-Thu 11a-9:30p; Fri-Sat 11a-10:30p; Sun 11a-9:30p",
+      "hoursNote": null,
+      "kitchen": null,
+      "kitchenNote": null,
+      "happyHours": [],
+      "specials": [],
+      "crowd": null,
+      "vibes": [],
+      "source": "hours from Restaurantji listing (updated 2026-10-10) (checked 2026-11-05)",
+      "county": "Cumberland",
+      "crowdChecked": "2026-11-05",
+      "crowdSources": {
+        "restaurantji": "https://www.restaurantji.com/me/windham/eagle-sushi-and-steak-house-/",
+        "facebookMirror": null,
+        "fbPostsSeen": 0,
+        "fbNewestPost": null,
+        "website": null
+      },
+      "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/windham/eagle-sushi-and-steak-house-/), checked 2026-11-05"
+    },
+    {
+      "id": "me-fortune-cookie",
+      "name": "Fortune Cookie",
+      "cuisine": "Restaurant",
+      "address": "749 US-302, Windham",
+      "state": "ME",
+      "zip": "04062",
+      "phone": "(207) 892-1234",
+      "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/fortune-cookie-/ (updated 2026-09-17), checked 2026-11-05",
+      "website": null,
+      "hours": "Mon 11a-9p; Tue closed; Wed-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
+      "hoursNote": null,
+      "kitchen": null,
+      "kitchenNote": null,
+      "happyHours": [],
+      "specials": [],
+      "crowd": null,
+      "vibes": [],
+      "source": "hours from Restaurantji listing (updated 2026-09-17) (checked 2026-11-05)",
+      "county": "Cumberland",
+      "crowdChecked": "2026-11-05",
+      "crowdSources": {
+        "restaurantji": "https://www.restaurantji.com/me/windham/fortune-cookie-/",
+        "facebookMirror": null,
+        "fbPostsSeen": 0,
+        "fbNewestPost": null,
+        "website": null
+      },
+      "lat": 43.8349368,
+      "lng": -70.438131,
+      "coordSource": "OpenStreetMap Nominatim address match 'Cumberland Farms, 749, Roosevelt Trail, North Windham, Windham, Cumberland Count', checked 2026-11-05"
+    },
+    {
+      "id": "me-grand-central-wine-bar",
+      "name": "Grand Central Wine Bar",
+      "cuisine": "Bar",
+      "address": "256 Sebago Rd, Sebago",
+      "state": "ME",
+      "zip": "04029",
+      "phone": "(207) 787-5079",
+      "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/gorham/grand-central-wine-bar-/ (updated 2026-10-21), checked 2026-11-05",
+      "lat": 43.85366928826,
+      "lng": -70.636935485275,
+      "website": "https://grandcentralwinebar.com/",
+      "hours": "Mon-Tue closed; Wed-Sat 4p-9p; Sun closed",
+      "hoursNote": null,
+      "kitchen": null,
+      "kitchenNote": null,
+      "happyHours": [],
+      "specials": [],
+      "crowd": null,
+      "vibes": [
+        "Bar scene"
+      ],
+      "source": "hours from Restaurantji listing (updated 2026-10-21) (checked 2026-11-05)",
+      "county": "Cumberland",
+      "crowdType": {
+        "labels": [
+          "Live music fans",
+          "Dance / club crowd"
+        ],
+        "summary": "Known for live music; a dancing / club crowd late.",
+        "confidence": "high",
+        "details": [
+          {
+            "label": "Live music fans",
+            "confidence": "high",
+            "evidence": [
+              {
+                "type": "reviews",
+                "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+                "url": "https://www.restaurantji.com/me/gorham/grand-central-wine-bar-/",
+                "quote": "erie are must-tries, and their cheesecake is highly recommended. The place often features live music, adding to its charming ambiance, and the lively singing and dancing events make for a jo",
+                "agg": true
+              },
+              {
+                "type": "attr",
+                "src": "Google attribute 'live music' (via Restaurantji)",
+                "url": "https://www.restaurantji.com/me/gorham/grand-central-wine-bar-/",
+                "quote": "live music"
+              }
+            ]
+          },
+          {
+            "label": "Dance / club crowd",
+            "confidence": "medium",
+            "evidence": [
+              {
+                "type": "reviews",
+                "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+                "url": "https://www.restaurantji.com/me/gorham/grand-central-wine-bar-/",
+                "quote": "ce often features live music, adding to its charming ambiance, and the lively singing and dancing events make for a joyful experience. Guests often feel like they are sitting down for win",
+                "agg": true
+              }
+            ]
+          }
+        ]
+      },
+      "crowdChecked": "2026-11-05",
+      "crowdSources": {
+        "restaurantji": "https://www.restaurantji.com/me/gorham/grand-central-wine-bar-/",
+        "facebookMirror": null,
+        "fbPostsSeen": 0,
+        "fbNewestPost": null,
+        "website": null
+      },
+      "outdoor": {
+        "types": [
+          "patio"
+        ],
+        "sources": [
+          {
+            "src": "Restaurantji amenity",
+            "url": "https://www.restaurantji.com/me/gorham/grand-central-wine-bar-/",
+            "quote": "Restaurantji More Info amenity: outdoor seating",
+            "fetched": "2026-11-05",
+            "checked": "2026-11-05"
+          }
+        ],
+        "checked": "2026-11-05"
+      },
+      "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/gorham/grand-central-wine-bar-/), checked 2026-11-05"
+    },
+    {
+      "id": "me-hana-asian-cuisine",
+      "name": "Hana Asian Cuisine",
+      "cuisine": "Restaurant",
+      "address": "MALL, Windham",
+      "state": "ME",
+      "zip": "04062",
+      "phone": "(207) 572-1298",
+      "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/hana-asian-cuisine-/ (updated 2026-11-04), checked 2026-11-05",
+      "lat": 43.838795477553,
+      "lng": -70.4422351624,
+      "website": "http://www.hanawindham.com/",
+      "hours": "Mon-Thu 11:30a-9p; Fri-Sat 11:30a-9:30p; Sun 11:30a-9p",
+      "hoursNote": null,
+      "kitchen": null,
+      "kitchenNote": null,
+      "happyHours": [],
+      "specials": [],
+      "crowd": null,
+      "vibes": [],
+      "source": "hours from Restaurantji listing (updated 2026-11-04) (checked 2026-11-05)",
+      "county": "Cumberland",
+      "crowdChecked": "2026-11-05",
+      "crowdSources": {
+        "restaurantji": "https://www.restaurantji.com/me/windham/hana-asian-cuisine-/",
+        "facebookMirror": null,
+        "fbPostsSeen": 0,
+        "fbNewestPost": null,
+        "website": null
+      },
+      "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/windham/hana-asian-cuisine-/), checked 2026-11-05"
+    },
+    {
+      "id": "me-luchador-tacos",
+      "name": "Luchador Tacos",
+      "cuisine": "Mexican",
+      "address": "781 Roosevelt Trail, Windham",
+      "state": "ME",
+      "zip": "04062",
+      "phone": "(207) 893-8916",
+      "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/luchador-tacos-/ (updated 2026-10-16), checked 2026-11-05",
+      "lat": 43.837561331035,
+      "lng": -70.441156286262,
+      "website": "https://www.luchadortacos.com/",
+      "websiteSource": "OpenStreetMap way/579007352 website tag (map data 2026-11-03), checked 2026-11-05",
+      "hours": "Mon 11a-8p; Tue-Thu 8a-8p; Fri-Sat 8a-9p; Sun 8a-8p",
+      "hoursNote": null,
+      "kitchen": null,
+      "kitchenNote": null,
+      "happyHours": [],
+      "specials": [],
+      "crowd": null,
+      "vibes": [],
+      "source": "hours from Restaurantji listing (updated 2026-10-16) (checked 2026-11-05)",
+      "county": "Cumberland",
+      "crowdChecked": "2026-11-05",
+      "crowdSources": {
+        "restaurantji": "https://www.restaurantji.com/me/windham/luchador-tacos-/",
+        "facebookMirror": null,
+        "fbPostsSeen": 0,
+        "fbNewestPost": null,
+        "website": "https://www.luchadortacos.com/"
+      },
+      "outdoor": {
+        "types": [
+          "patio"
+        ],
+        "sources": [
+          {
+            "src": "Restaurantji amenity",
+            "url": "https://www.restaurantji.com/me/windham/luchador-tacos-/",
+            "quote": "Restaurantji More Info amenity: outdoor seating",
+            "fetched": "2026-11-05",
+            "checked": "2026-11-05"
+          }
+        ],
+        "checked": "2026-11-05"
+      }
+    },
+    {
+      "id": "me-roses-italian-restaurant",
+      "name": "Rose's Italian Restaurant",
+      "cuisine": "Italian",
+      "address": "690 Roosevelt Trail, Windham",
+      "state": "ME",
+      "zip": "04062",
+      "phone": "(207) 892-0010",
+      "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/roses-old-world-restaurant-/ (updated 2026-11-04), checked 2026-11-05",
+      "lat": 43.829679887468,
+      "lng": -70.434952616724,
+      "website": "https://www.rosesitalian.com/",
+      "hours": "Mon-Tue closed; Wed-Sun 11a-9p",
+      "hoursNote": null,
+      "kitchen": null,
+      "kitchenNote": null,
+      "happyHours": [],
+      "specials": [],
+      "crowd": null,
+      "vibes": [
+        "Date night"
+      ],
+      "source": "hours from Restaurantji listing (updated 2026-11-04) (checked 2026-11-05)",
+      "county": "Cumberland",
+      "crowdType": {
+        "labels": [
+          "Families"
+        ],
+        "summary": "Family-friendly.",
+        "confidence": "medium",
+        "details": [
+          {
+            "label": "Families",
+            "confidence": "medium",
+            "evidence": [
+              {
+                "type": "reviews",
+                "src": "Restaurantji review summary (from Google reviews), updated 2026-11-04",
+                "url": "https://www.restaurantji.com/me/windham/roses-old-world-restaurant-/",
+                "quote": "Rose's Italian Restaurant provides a family-friendly environment with a reliable and enjoyable dining experience. The food is consistently goo",
+                "agg": true
+              }
+            ]
+          }
+        ]
+      },
+      "crowdChecked": "2026-11-05",
+      "crowdSources": {
+        "restaurantji": "https://www.restaurantji.com/me/windham/roses-old-world-restaurant-/",
+        "facebookMirror": null,
+        "fbPostsSeen": 0,
+        "fbNewestPost": null,
+        "website": null
+      },
+      "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/windham/roses-old-world-restaurant-/), checked 2026-11-05",
+      "menu": "https://www.rosesitalian.com/dinner-menu"
+    },
+    {
+      "id": "me-rustlers-steak-house",
+      "name": "Rustlers Steak House",
+      "cuisine": "Steakhouse",
+      "address": "61 Tandberg Trail, Windham",
+      "state": "ME",
+      "zip": "04062",
+      "phone": "(207) 892-8808",
+      "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/rustlers-steak-house-/ (updated 2026-11-04), checked 2026-11-05",
+      "lat": 43.834077837649,
+      "lng": -70.438273169795,
+      "website": "http://www.rustlerssteakhouse.com/",
+      "hours": "Mon 11a-8p; Tue closed; Wed-Sat 11a-9p; Sun 11a-8p",
+      "hoursNote": null,
+      "kitchen": null,
+      "kitchenNote": null,
+      "happyHours": [],
+      "specials": [],
+      "crowd": null,
+      "vibes": [
+        "Date night"
+      ],
+      "source": "hours from Restaurantji listing (updated 2026-11-04) (checked 2026-11-05)",
+      "county": "Cumberland",
+      "crowdChecked": "2026-11-05",
+      "crowdSources": {
+        "restaurantji": "https://www.restaurantji.com/me/windham/rustlers-steak-house-/",
+        "facebookMirror": null,
+        "fbPostsSeen": 0,
+        "fbNewestPost": null,
+        "website": null
+      },
+      "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/windham/rustlers-steak-house-/), checked 2026-11-05"
+    },
+    {
+      "id": "me-sportsmans-kitchen-and-keg",
+      "name": "Sportsman’s Kitchen and Keg",
+      "cuisine": "Restaurant",
+      "address": "46 Sebago Rd, Sebago",
+      "state": "ME",
+      "zip": "04029",
+      "phone": "(207) 787-5209",
+      "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/sebago/sportsman-s-kitchen-and-keg-/ (updated 2026-10-12), checked 2026-11-05",
+      "lat": 43.842642605165,
+      "lng": -70.623329727684,
+      "website": "http://skksebago.com/",
+      "hours": "Mon-Tue closed; Wed-Thu 4p-9p; Fri 4p-10p; Sat 2p-10p; Sun 9a-2p",
+      "hoursNote": null,
+      "kitchen": null,
+      "kitchenNote": null,
+      "happyHours": [],
+      "specials": [],
+      "crowd": null,
+      "vibes": [],
+      "source": "hours from Restaurantji listing (updated 2026-10-12) (checked 2026-11-05)",
+      "county": "Cumberland",
+      "crowdChecked": "2026-11-05",
+      "crowdSources": {
+        "restaurantji": "https://www.restaurantji.com/me/sebago/sportsman-s-kitchen-and-keg-/",
+        "facebookMirror": null,
+        "fbPostsSeen": 0,
+        "fbNewestPost": null,
+        "website": null
+      },
+      "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/sebago/sportsman-s-kitchen-and-keg-/), checked 2026-11-05"
+    },
+    {
+      "id": "me-stockhouse-restaurant-and-sandbar-pub",
+      "name": "Stockhouse Restaurant & Sandbar Pub",
+      "cuisine": "Pub",
+      "address": "4 Turning Leaf Dr, Windham",
+      "state": "ME",
+      "zip": "04062",
+      "phone": "(207) 893-8412",
+      "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/stockhouse-windham-/ (updated 2026-10-06), checked 2026-11-05",
+      "lat": 43.827845963419,
+      "lng": -70.434650787172,
+      "website": "https://www.thestockhouserestaurant.com/",
+      "hours": "Mon 11a-9p; Tue-Sat 11a-10p; Sun 11a-9p",
+      "hoursNote": null,
+      "kitchen": null,
+      "kitchenNote": null,
+      "happyHours": [],
+      "specials": [],
+      "crowd": null,
+      "vibes": [
+        "Bar scene"
+      ],
+      "source": "hours from Restaurantji listing (updated 2026-10-06) (checked 2026-11-05)",
+      "county": "Cumberland",
+      "crowdType": {
+        "labels": [
+          "Families"
+        ],
+        "summary": "Family-friendly.",
+        "confidence": "medium",
+        "details": [
+          {
+            "label": "Families",
+            "confidence": "medium",
+            "evidence": [
+              {
+                "type": "reviews",
+                "src": "Restaurantji review summary (from Google reviews), updated 2026-10-06",
+                "url": "https://www.restaurantji.com/me/windham/stockhouse-windham-/",
+                "quote": "s. Known for its delicious mozzarella sticks and reasonable pricing for the quality, this kid-friendly establishment features a special menu and activities for children, along with wheelchair",
+                "agg": true
+              }
+            ]
+          }
+        ]
+      },
+      "crowdChecked": "2026-11-05",
+      "crowdSources": {
+        "restaurantji": "https://www.restaurantji.com/me/windham/stockhouse-windham-/",
+        "facebookMirror": null,
+        "fbPostsSeen": 0,
+        "fbNewestPost": null,
+        "website": null
+      },
+      "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/windham/stockhouse-windham-/), checked 2026-11-05"
+    },
+    {
+      "id": "me-tailgate-bar-and-grill",
+      "name": "Tailgate Bar & Grill",
+      "cuisine": "Bar & grill",
+      "address": "61 Portland Rd, Gray",
+      "state": "ME",
+      "zip": "04039",
+      "phone": "(207) 657-7973",
+      "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/gray/tailgate-bar-and-grill-/ (updated 2026-11-04), checked 2026-11-05",
+      "lat": 43.876824185408,
+      "lng": -70.327856035523,
+      "website": "http://www.tailgatebarandgrill.biz/",
+      "hours": "Mon-Wed 3p-9p; Thu 3p-10p; Fri 3p-1a; Sat 1p-1a; Sun 1p-5p",
+      "hoursNote": null,
+      "kitchen": null,
+      "kitchenNote": null,
+      "happyHours": [],
+      "specials": [],
+      "crowd": null,
+      "vibes": [
+        "Bar scene"
+      ],
+      "source": "hours from Restaurantji listing (updated 2026-11-04) (checked 2026-11-05)",
+      "county": "Cumberland",
+      "crowdChecked": "2026-11-05",
+      "crowdSources": {
+        "restaurantji": "https://www.restaurantji.com/me/gray/tailgate-bar-and-grill-/",
+        "facebookMirror": null,
+        "fbPostsSeen": 0,
+        "fbNewestPost": null,
+        "website": null
+      },
+      "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/gray/tailgate-bar-and-grill-/), checked 2026-11-05"
+    },
+    {
+      "id": "me-yolked-farm-to-table",
+      "name": "Yolked Farm to Table",
+      "cuisine": "Restaurant",
+      "address": "868 Roosevelt Trail, Windham",
+      "state": "ME",
+      "zip": "04062",
+      "phone": "(207) 749-4097",
+      "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/new-gloucester/yolked-/ (updated 2026-10-18), checked 2026-11-05",
+      "lat": 43.844759894944,
+      "lng": -70.446949402291,
+      "website": "http://www.yolkedfarmtotable.com/",
+      "hours": "Mon-Tue closed; Wed-Sat 12p-9p; Sun closed",
+      "hoursNote": null,
+      "kitchen": null,
+      "kitchenNote": null,
+      "happyHours": [],
+      "specials": [],
+      "crowd": null,
+      "vibes": [],
+      "source": "hours from Restaurantji listing (updated 2026-10-18) (checked 2026-11-05)",
+      "county": "Cumberland",
+      "crowdType": {
+        "labels": [
+          "Locals & regulars",
+          "Date night / upscale"
+        ],
+        "summary": "A locals-and-regulars spot; a date-night / upscale spot.",
+        "confidence": "medium",
+        "details": [
+          {
+            "label": "Locals & regulars",
+            "confidence": "medium",
+            "evidence": [
+              {
+                "type": "reviews",
+                "src": "Restaurantji review summary (from Google reviews), updated 2026-10-18",
+                "url": "https://www.restaurantji.com/me/new-gloucester/yolked-/",
+                "quote": "ns. Located a bit further off the coast, Yolked is a great dining option for visitors and locals alike, offering a creative menu and a pleasant ambiance that keeps customers coming back",
+                "agg": true
+              }
+            ]
+          },
+          {
+            "label": "Date night / upscale",
+            "confidence": "medium",
+            "evidence": [
+              {
+                "type": "reviews",
+                "src": "Restaurantji review summary (from Google reviews), updated 2026-10-18",
+                "url": "https://www.restaurantji.com/me/new-gloucester/yolked-/",
+                "quote": "Yolked Farm to Table is a clean and upscale restaurant that offers a fabulous menu with dishes such as seafood chowder, cider-brined",
+                "agg": true
+              }
+            ]
+          }
+        ]
+      },
+      "crowdChecked": "2026-11-05",
+      "crowdSources": {
+        "restaurantji": "https://www.restaurantji.com/me/new-gloucester/yolked-/",
+        "facebookMirror": null,
+        "fbPostsSeen": 0,
+        "fbNewestPost": null,
+        "website": null
+      },
+      "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/new-gloucester/yolked-/), checked 2026-11-05"
+    },
+    {
+      "id": "me-birchwood-brewing",
+      "name": "Birchwood Brewing",
+      "cuisine": "Brewery",
+      "address": "19 Portland Rd, Gray",
+      "state": "ME",
+      "zip": "04039",
+      "phone": "(207) 657-4593",
+      "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/gray/birchwood-brewing-/ (updated 2026-10-20), checked 2026-11-05",
+      "lat": 43.882499847142,
+      "lng": -70.329735216529,
+      "website": "http://www.birchwoodbrewing.com/",
+      "hours": "Mon-Tue 4p-9p; Wed-Fri 11a-9p; Sat 9a-9p; Sun 9a-7p",
+      "hoursNote": null,
+      "kitchen": null,
+      "kitchenNote": null,
+      "happyHours": [],
+      "specials": [],
+      "crowd": null,
+      "vibes": [
+        "Bar scene"
+      ],
+      "source": "hours from Restaurantji listing (updated 2026-10-20) (checked 2026-11-05)",
+      "county": "Cumberland",
+      "crowdType": {
+        "labels": [
+          "Locals & regulars"
+        ],
+        "summary": "A locals-and-regulars spot.",
+        "confidence": "medium",
+        "details": [
+          {
+            "label": "Locals & regulars",
+            "confidence": "medium",
+            "evidence": [
+              {
+                "type": "reviews",
+                "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+                "url": "https://www.restaurantji.com/me/gray/birchwood-brewing-/",
+                "quote": "g menu items like smash burgers, chicken fingers, and more, making it a favorite spot for regulars and newcomers alike. Visitors often enjoy the house-made chips, fried tots, and brisket t",
+                "agg": true
+              }
+            ]
+          }
+        ]
+      },
+      "crowdChecked": "2026-11-05",
+      "crowdSources": {
+        "restaurantji": "https://www.restaurantji.com/me/gray/birchwood-brewing-/",
+        "facebookMirror": null,
+        "fbPostsSeen": 0,
+        "fbNewestPost": null,
+        "website": null
+      },
+      "addedBy": "me-shared-address-recovery",
+      "recoveryNote": "Restored 2026-11-05: pipeline address-dedupe had dropped it as a duplicate of a different venue at the same street address",
+      "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/gray/birchwood-brewing-/), checked 2026-11-05"
+    },
+    {
+      "id": "me-lake-house-tavern",
+      "name": "Lake House Tavern",
+      "cuisine": "Pub",
+      "address": "907 Roosevelt Trail, Windham",
+      "state": "ME",
+      "zip": "04062",
+      "phone": "(207) 894-3020",
+      "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/lake-house-tavern-/ (updated 2026-10-15), checked 2026-11-05",
+      "website": "http://www.lakehousewindham.com/",
+      "hours": "Daily 11a-10p",
+      "hoursNote": null,
+      "kitchen": null,
+      "kitchenNote": null,
+      "happyHours": [],
+      "specials": [],
+      "crowd": null,
+      "vibes": [
+        "Bar scene"
+      ],
+      "source": "hours from Restaurantji listing (updated 2026-10-15) (checked 2026-11-05)",
+      "county": "Cumberland",
+      "crowdType": {
+        "labels": [
+          "Families"
+        ],
+        "summary": "Family-friendly.",
+        "confidence": "medium",
+        "details": [
+          {
+            "label": "Families",
+            "confidence": "medium",
+            "evidence": [
+              {
+                "type": "reviews",
+                "src": "Restaurantji review summary (from Google reviews), updated 2026-10-15",
+                "url": "https://www.restaurantji.com/me/windham/lake-house-tavern-/",
+                "quote": "drinks are fantastic and awesome. The staff is great and friendly, and the atmosphere is family friendly. Guests have enjoyed the burger, which is flavorful, juicy, and cooked just right, and i",
+                "agg": true
+              }
+            ]
+          }
+        ]
+      },
+      "crowdChecked": "2026-11-05",
+      "crowdSources": {
+        "restaurantji": "https://www.restaurantji.com/me/windham/lake-house-tavern-/",
+        "facebookMirror": null,
+        "fbPostsSeen": 0,
+        "fbNewestPost": null,
+        "website": null
+      },
+      "addedBy": "me-shared-address-recovery",
+      "recoveryNote": "Restored 2026-11-05: pipeline address-dedupe had dropped it as a duplicate of a different venue at the same street address",
+      "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/windham/lake-house-tavern-/), checked 2026-11-05",
+      "lat": 43.8494926,
+      "lng": -70.4487194,
+      "coordSource": "OpenStreetMap Nominatim address match '907, Roosevelt Trail, North Windham, Windham, Cumberland County, Maine, 04062, U', checked 2026-11-05"
+    },
+    {
+      "id": "me-sunny-rainbow",
+      "name": "sunny rainbow",
+      "cuisine": "Restaurant",
+      "address": "111 Ossipee Trail East, Standish",
+      "state": "ME",
+      "zip": "04084",
+      "phone": "(207) 642-3881",
+      "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/standish/sunny-rainbow-/ (updated 2026-09-24), checked 2026-11-05",
+      "lat": 43.734159512504,
+      "lng": -70.562657273163,
+      "website": "https://sunnyrainbowme.com/",
+      "hours": "Mon 3p-9p; Tue-Sun 10a-9p",
+      "hoursNote": null,
+      "kitchen": null,
+      "kitchenNote": null,
+      "happyHours": [],
+      "specials": [],
+      "crowd": null,
+      "vibes": [],
+      "source": "hours from Restaurantji listing (updated 2026-09-24) (checked 2026-11-05)",
+      "county": "Cumberland",
+      "crowdChecked": "2026-11-05",
+      "crowdSources": {
+        "restaurantji": "https://www.restaurantji.com/me/standish/sunny-rainbow-/",
+        "facebookMirror": null,
+        "fbPostsSeen": 0,
+        "fbNewestPost": null,
+        "website": null
+      },
+      "addedBy": "me-shared-address-recovery",
+      "recoveryNote": "Restored 2026-11-05: pipeline address-dedupe had dropped it as a duplicate of a different venue at the same street address",
+      "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/standish/sunny-rainbow-/), checked 2026-11-05",
+      "menu": "https://sunnyrainbowme.com/menu.php"
+    },
+    {
+      "id": "me-red-city-ale-house",
+      "name": "Red City Ale House",
+      "cuisine": "Pub",
+      "address": "8 Main St, Windham",
+      "state": "ME",
+      "zip": "04062",
+      "phone": "(207) 370-6440",
+      "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/red-city-ale-house-/ (updated 2026-10-20), checked 2026-11-05",
+      "lat": 43.735517107378,
+      "lng": -70.425915235265,
+      "website": "http://redcityalehouse.com/",
+      "hours": "Mon-Wed 11a-8p; Thu-Sat 11a-9p; Sun 11a-8p",
+      "hoursNote": null,
+      "kitchen": null,
+      "kitchenNote": null,
+      "happyHours": [],
+      "specials": [],
+      "crowd": null,
+      "vibes": [
+        "Bar scene"
+      ],
+      "source": "hours from Restaurantji listing (updated 2026-10-20) (checked 2026-11-05)",
+      "county": "Cumberland",
+      "crowdType": {
+        "labels": [
+          "Families"
+        ],
+        "summary": "Family-friendly.",
+        "confidence": "medium",
+        "details": [
+          {
+            "label": "Families",
+            "confidence": "medium",
+            "evidence": [
+              {
+                "type": "reviews",
+                "src": "Restaurantji review summary (from Google reviews), updated 2026-10-20",
+                "url": "https://www.restaurantji.com/me/windham/red-city-ale-house-/",
+                "quote": "the beautiful outdoor deck overlooking the river, the delicious Reuben sandwich, and the kid-friendly menu with mac and cheese and cheeseburgers. The restaurant is known for its helpful waits",
+                "agg": true
+              }
+            ]
+          }
+        ]
+      },
+      "crowdChecked": "2026-11-05",
+      "crowdSources": {
+        "restaurantji": "https://www.restaurantji.com/me/windham/red-city-ale-house-/",
+        "facebookMirror": null,
+        "fbPostsSeen": 0,
+        "fbNewestPost": null,
+        "website": null
+      },
+      "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/windham/red-city-ale-house-/), checked 2026-11-05",
+      "trivia": {
+        "nights": [
+          {
+            "day": "Mon",
+            "cadence": "weekly",
+            "start": "6p",
+            "basis": "host/vendor recurring schedule",
+            "lastSeen": "2026-11-05",
+            "datedLastSeen": "2026-11-05",
+            "postsSeen": 0,
+            "sources": [
+              {
+                "src": "Sporcle Live (Stump Trivia / Pub Quiz / Opinionation / Music Quiz) schedule",
+                "url": "https://www.sporcle.com/live/venue/91597/red-city-ale-house",
+                "date": "2026-11-05",
+                "quote": "trivia (Stump Trivia) — Monday 6 pm (weekly)"
+              },
+              {
+                "src": "Sporcle Live (Stump Trivia / Pub Quiz / Opinionation / Music Quiz) schedule",
+                "url": "https://www.sporcle.com/live/venue/91597/red-city-ale-house",
+                "date": "2026-11-05",
+                "quote": "trivia (Stump Trivia) — Monday 6 pm (weekly)"
+              }
+            ],
+            "confidence": "high",
+            "note": null
+          }
+        ],
+        "stale": [],
+        "hints": [],
+        "conflicts": [],
+        "oneoffs": []
+      }
+    },
+    {
+      "id": "me-smoked-windham",
+      "name": "Smoked Windham",
+      "cuisine": "Barbecue",
+      "address": "106 Main St, Windham",
+      "state": "ME",
+      "zip": "04062",
+      "phone": "(207) 892-2337",
+      "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/windham/bingas-express-/ (updated 2026-11-04), checked 2026-11-05",
+      "lat": 43.745695261634,
+      "lng": -70.425260445013,
+      "website": "https://www.smokedwindham.com/",
+      "hours": "Mon 4p-9p; Tue-Wed 11:30a-9p; Thu-Fri 11:30a-10p; Sat 10:30a-10p; Sun 10:30a-9p",
+      "hoursNote": null,
+      "kitchen": null,
+      "kitchenNote": null,
+      "happyHours": [],
+      "specials": [
+        {
+          "days": "See venue",
+          "text": "mug club: 20 oz for price of 16 oz",
+          "tags": [],
+          "src": "Venue website smokedwindham.com",
+          "checked": "2026-11-05",
+          "flag": "Days not stated"
+        }
+      ],
+      "crowd": null,
+      "vibes": [
+        "Bar scene"
+      ],
+      "source": "hours from Restaurantji listing (updated 2026-11-04) (checked 2026-11-05)",
+      "county": "Cumberland",
+      "crowdType": {
+        "labels": [
+          "Locals & regulars"
+        ],
+        "summary": "A locals-and-regulars spot.",
+        "confidence": "medium",
+        "details": [
+          {
+            "label": "Locals & regulars",
+            "confidence": "medium",
+            "evidence": [
+              {
+                "type": "reviews",
+                "src": "Restaurantji review summary (from Google reviews), updated 2026-11-04",
+                "url": "https://www.restaurantji.com/me/windham/bingas-express-/",
+                "quote": "Smoked Windham is a popular neighborhood spot known for its exceptional service and a diverse, fresh menu. The takeout experience remai",
+                "agg": true
+              },
+              {
+                "type": "reviews",
+                "src": "Restaurantji review #3",
+                "url": "https://www.restaurantji.com/me/windham/bingas-express-/",
+                "quote": "Food was good. A really good neighborhood joint. Very active in their community. The day they went they were sponsoring a trunk or treat"
+              }
+            ]
+          }
+        ]
+      },
+      "crowdChecked": "2026-11-05",
+      "crowdSources": {
+        "restaurantji": "https://www.restaurantji.com/me/windham/bingas-express-/",
+        "facebookMirror": null,
+        "fbPostsSeen": 0,
+        "fbNewestPost": null,
+        "website": null
+      },
+      "websiteSource": "Restaurantji listing website link (https://www.restaurantji.com/me/windham/bingas-express-/), checked 2026-11-05",
+      "menu": "https://smokedwindham.com/menu",
+      "livemusic": {
+        "conflicts": [],
+        "hints": [],
+        "nights": [
+          {
+            "basis": "explicit recurring wording",
+            "cadence": "weekly",
+            "confidence": "medium",
+            "datedLastSeen": null,
+            "day": "Thu",
+            "lastSeen": "2026-11-05",
+            "note": "on the patio during summer months only; may be seasonal",
+            "postsSeen": 0,
+            "sources": [
+              {
+                "date": "2026-11-05",
+                "quote": "live music Thu & Sun not stated",
+                "src": "Venue website smokedwindham.com",
+                "url": "https://www.smokedwindham.com/"
+              }
+            ],
+            "start": null
+          },
+          {
+            "basis": "explicit recurring wording",
+            "cadence": "weekly",
+            "confidence": "medium",
+            "datedLastSeen": null,
+            "day": "Sun",
+            "lastSeen": "2026-11-05",
+            "note": "on the patio during summer months only; may be seasonal",
+            "postsSeen": 0,
+            "sources": [
+              {
+                "date": "2026-11-05",
+                "quote": "live music Thu & Sun not stated",
+                "src": "Venue website smokedwindham.com",
+                "url": "https://www.smokedwindham.com/"
+              }
+            ],
+            "start": null
+          }
+        ],
+        "oneoffs": [],
+        "stale": []
+      },
+      "outdoor": {
+        "types": [
+          "patio"
+        ],
+        "sources": [
+          {
+            "src": "Venue website smokedwindham.com",
+            "url": "https://www.smokedwindham.com/",
+            "quote": "seasonal patio",
+            "fetched": "2026-11-05",
+            "checked": "2026-11-05"
+          }
+        ],
+        "checked": "2026-11-05"
+      }
+    }
+  ],
+  "type": "town",
+  "region": "portland-south-me",
+  "counties": [
+    "Cumberland"
+  ],
+  "state": "ME"
 }

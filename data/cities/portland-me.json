@@ -840,8 +840,26 @@
       "hoursNote": null,
       "kitchen": null,
       "kitchenNote": null,
-      "happyHours": [],
-      "specials": [],
+      "happyHours": [
+        {
+          "days": "Daily",
+          "text": "Happy hour (Daily)",
+          "tags": [],
+          "src": "Venue website thebirdandco.com",
+          "checked": "2026-11-05",
+          "flag": "Prices not listed"
+        }
+      ],
+      "specials": [
+        {
+          "days": "See venue",
+          "text": "weekend brunch",
+          "tags": [],
+          "src": "Venue website thebirdandco.com",
+          "checked": "2026-11-05",
+          "flag": "Days not stated"
+        }
+      ],
       "crowd": null,
       "vibes": [],
       "source": "hours from Restaurantji listing (updated 2026-10-14) (checked 2026-11-05)",
@@ -1415,13 +1433,13 @@
       },
       "outdoor": {
         "types": [
-          "patio"
+          "deck"
         ],
         "sources": [
           {
-            "src": "OpenStreetMap",
-            "url": "https://www.openstreetmap.org/node/11069355844",
-            "quote": "OSM outdoor_seating=yes (Boone's Fish House; map data 2026-11-03)",
+            "src": "Venue website boonesfishhouse.com",
+            "url": "https://www.boonesfishhouse.com/",
+            "quote": "yes – \"your choice of two outdoor decks\" plus second-floor deck with outdoor bar (Oyster Room)",
             "fetched": "2026-11-05",
             "checked": "2026-11-05"
           }
@@ -2502,7 +2520,7 @@
       "lng": -70.250157657825,
       "website": "https://duckfat.com/",
       "websiteSource": "OpenStreetMap node/6169924885 website tag (map data 2026-11-03), checked 2026-11-05",
-      "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
+      "hours": "Daily 11a-10p",
       "hoursNote": null,
       "kitchen": null,
       "kitchenNote": null,
@@ -2522,7 +2540,22 @@
       },
       "instagram": "https://www.instagram.com/duckfatmaine/",
       "instagramSource": "OpenStreetMap node/6169924885 contact:instagram (map data 2026-11-03), checked 2026-11-05",
-      "menu": "https://www.duckfat.com/duckfat-all/"
+      "menu": "https://www.duckfat.com/duckfat-all/",
+      "outdoor": {
+        "types": [
+          "patio"
+        ],
+        "sources": [
+          {
+            "src": "Venue website duckfat.com",
+            "url": "https://www.duckfat.com/",
+            "quote": "yes – \"casual indoor and outdoor dining\" at 43 Middle St",
+            "fetched": "2026-11-05",
+            "checked": "2026-11-05"
+          }
+        ],
+        "checked": "2026-11-05"
+      }
     },
     {
       "id": "me-duckfat-frites-shack",
@@ -2585,12 +2618,27 @@
       "lng": -70.257662439936,
       "website": "https://elrayotaqueria.com/",
       "websiteSource": "OpenStreetMap node/6561429422 website tag (map data 2026-11-03), checked 2026-11-05",
-      "hours": "Mon-Sat 11a-9p; Sun 11a-7:30p",
+      "hours": "Mon-Sat 11a-8p; Sun 11a-7:30p",
       "hoursNote": null,
       "kitchen": null,
       "kitchenNote": null,
       "happyHours": [],
-      "specials": [],
+      "specials": [
+        {
+          "days": "Tue",
+          "text": "Taco Tuesday – $3 tacos all day (repeated weekly in venue posts)",
+          "tags": [],
+          "src": "Venue website elrayotaqueria.com",
+          "checked": "2026-11-05"
+        },
+        {
+          "days": "Sat-Sun",
+          "text": "brunch 11 am–3 pm",
+          "tags": [],
+          "src": "Venue website elrayotaqueria.com",
+          "checked": "2026-11-05"
+        }
+      ],
       "crowd": null,
       "vibes": [],
       "source": "hours from Restaurantji listing (updated 2026-11-02) (checked 2026-11-05)",
@@ -3052,36 +3100,10 @@
         "stale": [],
         "hints": [],
         "conflicts": [],
-        "oneoffs": [
-          {
-            "date": "2026-11-05",
-            "quote": "Karaoke | 8PM – 11pm",
-            "url": "https://grittys.com/auburn-events/"
-          }
-        ]
+        "oneoffs": []
       },
       "dj": {
-        "nights": [
-          {
-            "day": "Fri",
-            "cadence": "weekly",
-            "start": "8PM – 12AM",
-            "basis": "explicit recurring wording",
-            "lastSeen": "2026-11-05",
-            "datedLastSeen": null,
-            "postsSeen": 0,
-            "sources": [
-              {
-                "src": "venue website (undated page)",
-                "url": "https://grittys.com/auburn-events/",
-                "date": "2026-11-05",
-                "quote": "Fridays DJ Night shot, Drink, & Pizza Specials 8PM – 12AM"
-              }
-            ],
-            "confidence": "medium",
-            "note": "Only on venue website (undated); confirm still running"
-          }
-        ],
+        "nights": [],
         "stale": [],
         "hints": [],
         "conflicts": [],
@@ -3098,29 +3120,23 @@
       "trivia": {
         "nights": [
           {
-            "day": "Wed",
-            "cadence": "weekly",
-            "start": "7PM – 9PM",
             "basis": "explicit recurring wording",
-            "lastSeen": "2026-11-01",
+            "cadence": "weekly",
+            "confidence": "medium",
             "datedLastSeen": null,
+            "day": "Wed",
+            "lastSeen": "2026-11-05",
+            "note": "Only on venue website (undated); confirm still running",
             "postsSeen": 0,
             "sources": [
               {
+                "date": "2026-11-05",
+                "quote": "trivia Wed 7 pm–9 pm",
                 "src": "venue website (undated page)",
-                "url": "https://grittys.com/portland-events/",
-                "date": "2026-11-01",
-                "quote": "WEDNESDAYS TRIVIA 7PM – 9PM"
-              },
-              {
-                "src": "venue website (undated page)",
-                "url": "https://grittys.com/auburn-events/",
-                "date": "2026-11-01",
-                "quote": "Trivia | wednesDAYS | 6PM – 8pm"
+                "url": "https://grittys.com/portland-events/"
               }
             ],
-            "confidence": "medium",
-            "note": "Only on venue website (undated); confirm still running"
+            "start": "7 pm–9 pm"
           }
         ],
         "stale": [],
@@ -3134,9 +3150,9 @@
         ],
         "sources": [
           {
-            "src": "OpenStreetMap",
-            "url": "https://www.openstreetmap.org/node/1645778541",
-            "quote": "OSM outdoor_seating=yes (Gritty McDuff's; map data 2026-11-03)",
+            "src": "venue website (undated page)",
+            "url": "https://grittys.com/portland-events/",
+            "quote": "yes – patio on Wharf Street cobblestones",
             "fetched": "2026-11-05",
             "checked": "2026-11-05"
           }
@@ -3146,7 +3162,34 @@
       "facebook": "https://www.facebook.com/grittymcduffs",
       "facebookSource": "OpenStreetMap node/1645778541 contact:facebook (map data 2026-11-03), checked 2026-11-05",
       "instagram": "https://instagram.com/grittymcduffs/",
-      "instagramSource": "OpenStreetMap node/1645778541 contact:instagram (map data 2026-11-03), checked 2026-11-05"
+      "instagramSource": "OpenStreetMap node/1645778541 contact:instagram (map data 2026-11-03), checked 2026-11-05",
+      "livemusic": {
+        "conflicts": [],
+        "hints": [],
+        "nights": [
+          {
+            "basis": "explicit recurring wording",
+            "cadence": "weekly",
+            "confidence": "medium",
+            "datedLastSeen": null,
+            "day": "Tue",
+            "lastSeen": "2026-11-05",
+            "note": "Travis James Humphrey (weekly)",
+            "postsSeen": 0,
+            "sources": [
+              {
+                "date": "2026-11-05",
+                "quote": "live music Tue 6 pm–9 pm",
+                "src": "venue website (undated page)",
+                "url": "https://grittys.com/portland-events/"
+              }
+            ],
+            "start": "6 pm–9 pm"
+          }
+        ],
+        "oneoffs": [],
+        "stale": []
+      }
     },
     {
       "id": "me-hi-bombay",
@@ -4217,56 +4260,6 @@
       "menu": "https://littletaphouse.com/portland-little-tap-house-food-menu"
     },
     {
-      "id": "me-lukes-lobster-portland-pier",
-      "name": "Luke's Lobster Portland Pier",
-      "cuisine": "Restaurant",
-      "address": "60 Portland Pier, Portland",
-      "state": "ME",
-      "zip": "04101",
-      "phone": "(207) 550-2490",
-      "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/portland/lukes-lobster-portland-pier-/ (updated 2026-10-14), checked 2026-11-05",
-      "lat": 43.655785681475,
-      "lng": -70.250673335522,
-      "website": "https://lukeslobster.com/pages/portland-pier",
-      "websiteSource": "OpenStreetMap way/547794177 website tag (map data 2026-11-03), checked 2026-11-05",
-      "hours": "Daily 11a-9p",
-      "hoursNote": null,
-      "kitchen": null,
-      "kitchenNote": null,
-      "happyHours": [],
-      "specials": [],
-      "crowd": null,
-      "vibes": [],
-      "source": "hours from Restaurantji listing (updated 2026-10-14) (checked 2026-11-05)",
-      "county": "Cumberland",
-      "crowdChecked": "2026-11-05",
-      "crowdSources": {
-        "restaurantji": "https://www.restaurantji.com/me/portland/lukes-lobster-portland-pier-/",
-        "facebookMirror": null,
-        "fbPostsSeen": 0,
-        "fbNewestPost": null,
-        "website": "https://lukeslobster.com/pages/portland-pier"
-      },
-      "outdoor": {
-        "types": [
-          "patio"
-        ],
-        "sources": [
-          {
-            "src": "OpenStreetMap",
-            "url": "https://www.openstreetmap.org/way/547794177",
-            "quote": "OSM outdoor_seating=yes (Luke's Lobster; map data 2026-11-03)",
-            "fetched": "2026-11-05",
-            "checked": "2026-11-05"
-          }
-        ],
-        "checked": "2026-11-05"
-      },
-      "instagram": "https://www.instagram.com/lukesportland",
-      "instagramSource": "OpenStreetMap way/547794177 contact:instagram (map data 2026-11-03), checked 2026-11-05",
-      "menu": "https://lukeslobster.olo.com/menu/portland-pier-6"
-    },
-    {
       "id": "me-luna-rooftop-bar",
       "name": "Luna Rooftop Bar",
       "cuisine": "Bar",
@@ -4744,16 +4737,16 @@
       "hoursNote": null,
       "kitchen": null,
       "kitchenNote": null,
-      "happyHours": [],
-      "specials": [
+      "happyHours": [
         {
           "days": "Mon-Fri",
-          "text": "BOGO 50% off hand rolls & cocktails monday-friday 3-4pm",
+          "text": "3 pm–4 pm: \"halfie hour\" – BOGO 50% off hand rolls & cocktails",
           "tags": [],
-          "src": "Venue website mrtunamaine.com/locations",
+          "src": "Venue website mrtunamaine.com",
           "checked": "2026-11-05"
         }
       ],
+      "specials": [],
       "crowd": null,
       "vibes": [],
       "source": "hours from Restaurantji listing (updated 2026-11-04) (checked 2026-11-05)",
@@ -5111,12 +5104,12 @@
       "phoneSource": "Restaurantji listing https://www.restaurantji.com/me/portland/nosh-kitchen-bar-/ (updated 2026-11-02), checked 2026-11-05",
       "lat": 43.655414719477,
       "lng": -70.261842965705,
-      "website": "https://noshkitchenbar.com/",
-      "websiteSource": "OpenStreetMap node/6538400465 website tag (map data 2026-11-03), checked 2026-11-05",
+      "website": "https://www.noshportland.com/",
+      "websiteSource": "Phyllis ME enrich 2026-11-05 (replaced spam noshkitchenbar.com)",
       "hours": "Daily 11:30a-1a",
       "hoursNote": null,
       "kitchen": null,
-      "kitchenNote": null,
+      "kitchenNote": "Kitchen until midnight daily (venue: \"Kitchen 'till midnight\"), checked 2026-11-05.",
       "happyHours": [],
       "specials": [],
       "crowd": null,
@@ -5136,7 +5129,8 @@
       "facebook": "https://www.facebook.com/pg/NoshKitchenBar/",
       "facebookSource": "OpenStreetMap node/6538400465 contact:facebook (map data 2026-11-03), checked 2026-11-05",
       "instagram": "https://www.instagram.com/noshkitchenbar/",
-      "instagramSource": "OpenStreetMap node/6538400465 contact:instagram (map data 2026-11-03), checked 2026-11-05"
+      "instagramSource": "OpenStreetMap node/6538400465 contact:instagram (map data 2026-11-03), checked 2026-11-05",
+      "websiteNote": "Old noshkitchenbar.com redirected to spam (tools4noobs.com); replaced 2026-11-05."
     },
     {
       "id": "me-ocotillo",
@@ -8434,8 +8428,8 @@
       "websiteSource": "OpenStreetMap node/3408817943 website tag (map data 2026-11-03), checked 2026-11-05",
       "hours": "Mon-Thu 7a-9p; Fri-Sat 7a-11p; Sun 7a-9p",
       "hoursNote": null,
-      "kitchen": null,
-      "kitchenNote": null,
+      "kitchen": "Daily 7a-9p",
+      "kitchenNote": "Kitchen hours from venue (checked 2026-11-05).",
       "happyHours": [],
       "specials": [],
       "crowd": null,
@@ -8539,6 +8533,52 @@
         "hints": [],
         "conflicts": [],
         "oneoffs": []
+      },
+      "livemusic": {
+        "conflicts": [],
+        "hints": [],
+        "nights": [
+          {
+            "basis": "explicit recurring wording",
+            "cadence": "weekly",
+            "confidence": "medium",
+            "datedLastSeen": null,
+            "day": "Sat",
+            "lastSeen": "2026-11-05",
+            "note": "Andi Fawcett & Friends (on calendar Nov 7 & 14)",
+            "postsSeen": 0,
+            "sources": [
+              {
+                "date": "2026-11-05",
+                "quote": "live music Sat 2 pm",
+                "src": "Venue website portholemaine.com",
+                "url": "https://portholemaine.com/"
+              }
+            ],
+            "start": "2 pm"
+          },
+          {
+            "basis": "explicit recurring wording",
+            "cadence": "weekly",
+            "confidence": "medium",
+            "datedLastSeen": null,
+            "day": "Sun",
+            "lastSeen": "2026-11-05",
+            "note": "After Dark Duo Sunday Brunch (on calendar Nov 8 & 15)",
+            "postsSeen": 0,
+            "sources": [
+              {
+                "date": "2026-11-05",
+                "quote": "live music Sun 9 am",
+                "src": "Venue website portholemaine.com",
+                "url": "https://portholemaine.com/"
+              }
+            ],
+            "start": "9 am"
+          }
+        ],
+        "oneoffs": [],
+        "stale": []
       }
     },
     {
@@ -10017,6 +10057,20 @@
           "src": "Venue website wilsoncountybarbecue.com/upcomingevents",
           "checked": "2026-11-01",
           "flag": "Days not stated"
+        },
+        {
+          "days": "Sat-Sun",
+          "text": "brunch menu 9 am–2 pm; regular menu from 11 am weekends",
+          "tags": [],
+          "src": "Venue website wilsoncountybarbecue.com",
+          "checked": "2026-11-05"
+        },
+        {
+          "days": "Wed",
+          "text": "75 cent wings + rotating beverage special with trivia 7 pm–9 pm (already on record)",
+          "tags": [],
+          "src": "Venue website wilsoncountybarbecue.com",
+          "checked": "2026-11-05"
         }
       ],
       "crowd": null,
@@ -10092,9 +10146,9 @@
         ],
         "sources": [
           {
-            "src": "Restaurantji amenity",
-            "url": "https://www.restaurantji.com/me/portland/wilson-county-barbecue-/",
-            "quote": "Restaurantji More Info amenity: outdoor seating",
+            "src": "Venue website wilsoncountybarbecue.com",
+            "url": "https://www.wilsoncountybarbecue.com/",
+            "quote": "yes – patio; \"plenty of space inside and outside\"",
             "fetched": "2026-11-05",
             "checked": "2026-11-05"
           }
@@ -10102,7 +10156,53 @@
         "checked": "2026-11-05"
       },
       "instagram": "https://www.instagram.com/wilsoncountybarbecue",
-      "instagramSource": "OpenStreetMap node/8773849065 contact:instagram (map data 2026-11-03), checked 2026-11-05"
+      "instagramSource": "OpenStreetMap node/8773849065 contact:instagram (map data 2026-11-03), checked 2026-11-05",
+      "livemusic": {
+        "conflicts": [],
+        "hints": [],
+        "nights": [
+          {
+            "basis": "explicit recurring wording",
+            "cadence": "weekly",
+            "confidence": "medium",
+            "datedLastSeen": null,
+            "day": "Fri",
+            "lastSeen": "2026-11-05",
+            "note": "on the patio; banner \"Live Music is Back!\"",
+            "postsSeen": 0,
+            "sources": [
+              {
+                "date": "2026-11-05",
+                "quote": "live music Fri & Sat 5 pm–8 pm",
+                "src": "Venue website wilsoncountybarbecue.com",
+                "url": "https://www.wilsoncountybarbecue.com/"
+              }
+            ],
+            "start": "5 pm–8 pm"
+          },
+          {
+            "basis": "explicit recurring wording",
+            "cadence": "weekly",
+            "confidence": "medium",
+            "datedLastSeen": null,
+            "day": "Sat",
+            "lastSeen": "2026-11-05",
+            "note": "on the patio; banner \"Live Music is Back!\"",
+            "postsSeen": 0,
+            "sources": [
+              {
+                "date": "2026-11-05",
+                "quote": "live music Fri & Sat 5 pm–8 pm",
+                "src": "Venue website wilsoncountybarbecue.com",
+                "url": "https://www.wilsoncountybarbecue.com/"
+              }
+            ],
+            "start": "5 pm–8 pm"
+          }
+        ],
+        "oneoffs": [],
+        "stale": []
+      }
     },
     {
       "id": "me-maps-bar",
