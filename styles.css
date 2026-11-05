@@ -374,3 +374,5 @@ dialog#formDlg::backdrop,dialog#tnDlg::backdrop{background:rgba(10,12,18,.55)}
   #clockBtn{height:32px;font-size:.855rem;padding:0 6px}
   .clockpanel{position:fixed;left:12px;right:12px;top:calc(var(--toph,0px) + 44px);width:auto}
 }
+@media (max-width:759px){.bar .now{min-width:0;overflow:hidden;text-overflow:ellipsis}.bar .iconbtn{flex:none}}
+@media (max-width:400px){.bar .now{font-size:.72rem}}
