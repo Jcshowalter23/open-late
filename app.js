@@ -424,7 +424,7 @@
     const mf = [cuisine !== "All", price !== "All", vibe !== "All", sort !== "smart" && sort !== "near"].filter(Boolean).length;
     $("mfCount").textContent = mf ? `(${mf} on)` : "";
     const EVN = [["kkNights", "Karaoke"], ["djNights", "DJ"], ["lmNights", "Live music"], ["tvNights", "Trivia"], ["bgNights", "Bingo"], ["gdSpots", "Game day"]].filter(([id]) => on(id));
-    const evPre = matchMedia("(max-width:759px)").matches ? "🎉 " : "🎉 Events · "; // phones: drop "Events ·" so the row stays on one line
+    const evPre = PH() ? "🎉 " : "🎉 Events · "; // phones: drop "Events ·" so the row stays on one line
     $("evLabel").textContent = EVN.length === 1 ? `${evPre}${EVN[0][1]}` : EVN.length ? `${evPre}${EVN.length} on` : "🎉 Events";
     $("eventsDd").classList.toggle("on", EVN.length > 0);
     const kinds = [wingDeals && "wing", beerDeals && "beer", hhDeals && "happy hour"].filter(Boolean).join(" + ");
