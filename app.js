@@ -110,10 +110,27 @@
   }
   const hasTag = (x, t) => Array.isArray(x.tags) && x.tags.includes(t);
   const BADGE = { wings: "🍗 Wings", beer: "🍺 Beer" };
-  function dealHtml(x) {
+  // v244: source refs inside display text ("(Venue site x.com, checked 2026-11-01)", "per Venue website x.com, checked ...", bare URLs)
+  // are cut from the text and returned as Sources-list entries, so the card shows only the info (catches future data too).
+  function splitSrc(t, label) {
+    const out = []; if (typeof t !== "string" || !t) return { t, out };
+    const add = (s, d) => { s = String(s || "").replace(/^[\s,;:]+|[\s,;:.]+$/g, ""); if (!s) return; const u = (s.match(/https?:\/\/\S+/) || [])[0]; out.push({ l: label, s: u ? s.replace(u, "").replace(/^[\s,;:-]+|[\s,;:-]+$/g, "") || u.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "") : s, u, d }); };
+    let pend = "";
+    const D = "(\\d{4}-\\d\\d-\\d\\d)";
+    let x = t.replace(new RegExp("\\s*\\(([^()]*?)(?:,\\s*)?(?:checked " + D + ")?\\)", "g"), (m, body, d) => (!body.trim() && d && out.length === 0 ? (pend = d, "") : null) ?? ((d || /https?:\/\/|\bvenue (site|website)\b|^\s*(via|per|source[sd]?:?)\s/i.test(body)) ? (add(body.replace(/^\s*(via|per|source[sd]?:?)\s+/i, ""), d), "") : m));
+    x = x.replace(new RegExp("\\s+per (venue (?:website|site) [^\\s,;]*[^\\s,;.]|[^;.]*?(?:facebook|instagram) post[^;.]*?)(?:,\\s*checked " + D + ")?(?=[;.]|$)", "gi"), (m, s, d) => (add(s, d), ""));
+    x = x.replace(new RegExp("\\b(venue (?:website|site)) ((?:https?:\\/\\/)?[\\w-]+(?:\\.[\\w-]+)+(?:\\/[^\\s,;]*[^\\s,;.])?\\/?),?(?:\\s*checked " + D + ")?(?=[;.,]?(\\s|$))", "gi"), (m, w, s, d) => (add(w + " " + s, d), w.toLowerCase()));
+    x = x.replace(/\s*https?:\/\/[^\s;,)]+/g, (u) => (add(u.trim()), ""));
+    x = x.replace(/\s+([;.,])/g, "$1").replace(/;\s*;/g, ";").replace(/\s{2,}/g, " ").trim();
+    if (pend) out.forEach((o) => { if (!o.d) o.d = pend; });
+    return { t: x, out };
+  }
+  function dealHtml(x, sl) {
     const b = (x.tags || []).filter((t) => BADGE[t]).map((t) => `<span class="badge b-${t}">${BADGE[t]}</span>`).join("");
-    const extra = [x.flag ? `<span class="flag">⚠ ${esc(x.flag)}</span>` : "", x.src ? `<span class="dsrc">(${esc(x.src)}${x.checked ? `, checked ${esc(x.checked)}` : ""})</span>` : ""].filter(Boolean).join(" ");
-    return `${dayTag(x)}${dayTag(x) ? " " : ""}${b}${esc(tf(x.text))}${extra ? " " + extra : ""}`;
+    const lab = (dayTag(x) ? "Deal" : "Deal"), sp = sl ? splitSrc(x.text, lab) : { t: x.text, out: [] };
+    if (sl) { sp.out.forEach((o) => sl.push(o)); if (x.src) sl.push({ l: "Deal", s: x.src.replace(/\s*https?:\/\/\S+/, "") || x.src, u: (x.src.match(/https?:\/\/\S+/) || [])[0] || x.url, ...(/^\d{4}-\d\d-\d\d$/.test(x.checked || "") ? { d: x.checked } : { dl: x.checked }) }); }
+    const extra = [x.flag ? `<span class="flag">⚠ ${esc(x.flag)}</span>` : "", x.src && !sl ? `<span class="dsrc">(${esc(x.src)}${x.checked ? `, checked ${esc(x.checked)}` : ""})</span>` : ""].filter(Boolean).join(" ");
+    return `${dayTag(x)}${dayTag(x) ? " " : ""}${b}${esc(tf(sp.t))}${extra ? " " + extra : ""}`;
   }
   function opts(sel, items, keep) {
     const cur = keep ? sel.value : null;
@@ -482,7 +499,7 @@
         const did = dealId(kind, i, x), v = votes[`${p.area}|${r.id}|${did}`];
         return `<span class="vote" data-deal="${esc(did)}" data-dtext="${esc(x.text)}">${v ? `<span class="vthanks">${v === "up" ? "👍" : "👎"} Thanks!</span>` : `<span class="vq">Still good?</span><button type="button" class="vbtn" data-act="vote" data-dir="up" aria-label="Yes, this deal is still good">👍</button><button type="button" class="vbtn" data-act="vote" data-dir="down" aria-label="No, this deal looks out of date">👎</button>`}</span>`;
       };
-      const wkList = (list, kind) => list && list.length ? `<ul class="wk">${list.map((x, i) => `<li>${dealHtml(x)}${thumbs(kind, i, x)}</li>`).join("")}</ul>` : "";
+      const wkList = (list, kind) => list && list.length ? `<ul class="wk">${list.map((x, i) => `<li>${dealHtml(x, si ? sl : null)}${thumbs(kind, i, x)}</li>`).join("")}</ul>` : "";
       const weekly = wkList(r.specials, "s"), weeklyHH = wkList(r.happyHours, "h");
       const where = `${r.name}, ${r.address ? r.address + ", " : ""}${p.areaName}, ${p.loc}`;
       const dirs = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(where)}`;
@@ -500,12 +517,12 @@
         <details class="more-info" data-key="${esc(ck)}"${openCards.has(ck) ? " open" : ""}>
           <summary tabindex="-1" aria-hidden="true"></summary>
           <div class="info">
-            <div class="row">${esc(r.cuisine)} · ${r.priceLevel ? esc(r.priceText) : "Price not listed"}</div>
+            <div class="row">${esc(r.cuisine)} · ${r.priceLevel ? esc(si ? String(r.priceText || "").replace(/\s*\((Facebook page|OpenTable|listing|Restaurantji|Google[^)]*|Yelp|venue (?:site|website)[^)]*)\)\s*$/i, (m, x) => (sl.push({ l: "Price", s: x }), "")) : r.priceText) : "Price not listed"}</div>
             <div class="row"><b>Address:</b> ${r.address ? `<a href="${esc(maps)}" target="_blank" rel="noopener">${esc(r.address)}</a>` : NL}</div>
-            <div class="row"><b>Hours:</b> ${r.hours ? esc(pretty(r.hours)) : NL}${r.hoursNote ? ` — ${esc(r.hoursNote)}` : ""}</div>
-            <div class="row"><b>Kitchen:</b> ${r.kitchen ? esc(pretty(r.kitchen)) : NL}${r.kitchenNote ? ` — ${esc(r.kitchenNote)}` : ""}</div>
-            <div class="row"><b>${d3} happy hour:</b> <span class="deal">${dd.hh.length ? dd.hh.map(dealHtml).join("; ") : NL}</span></div>
-            <div class="row"><b>${d3} specials:</b> <span class="deal">${dd.sp.length ? dd.sp.map(dealHtml).join("; ") : NL}</span></div>
+            <div class="row"><b>Hours:</b> ${r.hours ? esc(pretty(r.hours)) : NL}${r.hoursNote ? ` — ${esc(si ? (() => { const q = splitSrc(r.hoursNote, "Hours note"); q.out.forEach((v) => sl.push(v)); return q.t; })() : r.hoursNote)}` : ""}</div>
+            <div class="row"><b>Kitchen:</b> ${r.kitchen ? esc(pretty(r.kitchen)) : NL}${r.kitchenNote ? ` — ${esc(si ? (() => { const q = splitSrc(r.kitchenNote, "Kitchen note"); q.out.forEach((v) => sl.push(v)); return q.t; })() : r.kitchenNote)}` : ""}</div>
+            <div class="row"><b>${d3} happy hour:</b> <span class="deal">${dd.hh.length ? dd.hh.map((x) => dealHtml(x, si ? sl : null)).join("; ") : NL}</span></div>
+            <div class="row"><b>${d3} specials:</b> <span class="deal">${dd.sp.length ? dd.sp.map((x) => dealHtml(x, si ? sl : null)).join("; ") : NL}</span></div>
             ${weeklyHH ? `<div class="row"><b>Happy hours all week:</b>${weeklyHH}</div>` : ""}
             ${weekly ? `<div class="row"><b>Specials all week:</b>${weekly}</div>` : ""}
             <div class="row"><b>Crowd:</b> ${r.crowd ? esc(r.crowd) : NL}</div>
@@ -530,7 +547,7 @@
               <a href="featured.html">Own this place? Get featured</a></div>
           </div>
         </details>
-        ${si ? `<div class="srclist" id="src-${esc(ck)}"${openSrcs.has(ck) ? "" : " hidden"}><b>Sources:</b><ul class="wk">${sl.map((x) => `<li><b>${esc(x.l)}:</b> ${x.u ? `<a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.s)}</a>` : esc(x.s)}${x.d || x.dl ? ` <span class="srcs">· checked ${esc(x.dl || shortDate(x.d))}</span>` : ""}</li>`).join("")}</ul></div><button type="button" class="shr sri" data-act="sources" aria-label="Sources" title="Sources" aria-controls="src-${esc(ck)}" aria-expanded="${openSrcs.has(ck)}"></button>` : ""}
+        ${si ? `<div class="srclist" id="src-${esc(ck)}"${openSrcs.has(ck) ? "" : " hidden"}><b>Sources:</b><ul class="wk">${sl.filter((x, i, a) => a.findIndex((y) => y.l === x.l && y.s === x.s && y.u === x.u) === i).map((x) => `<li><b>${esc(x.l)}:</b> ${x.u ? `<a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.s)}</a>` : esc(x.s)}${x.d || x.dl ? ` <span class="srcs">· checked ${esc(x.dl || shortDate(x.d))}</span>` : ""}</li>`).join("")}</ul></div><button type="button" class="shr sri" data-act="sources" aria-label="Sources" title="Sources" aria-controls="src-${esc(ck)}" aria-expanded="${openSrcs.has(ck)}"></button>` : ""}
         <button type="button" class="shr" data-act="share" aria-label="Share ${esc(r.name)}" title="Share"></button>
       </article>`;
     }).join("");
