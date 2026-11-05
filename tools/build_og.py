@@ -72,16 +72,15 @@ def home_image(n_places, n_counties, where="PA"):
     if where == "PA":
         s = f"openlateapp.com · {n_places:,} places · all {n_counties} PA counties"
         d.text((x + 4, 448), s, font=fit(d, s, 700, 30, 696, 22), fill=AMBER)
-    else:  # many states: URL + counts on one line, states wrapped below so nothing is clipped at the right edge
-        s = f"openlateapp.com · {n_places:,} places · {n_counties} counties"
+    else:  # soft share preview: never show exact place/county counts (Jon: "about 75,000")
+        approx = max(1000, (int(n_places) // 1000) * 1000)
+        s = f"openlateapp.com · about {approx:,} places"
         d.text((x + 4, 440), s, font=fit(d, s, 700, 30, 696, 22), fill=AMBER)
-        f3 = font(26, 600); lines, cur = [], ""
-        for w_ in where.split(", "):
-            t = (cur + ", " + w_) if cur else w_
-            if d.textlength(t, font=f3) > 696 and cur: lines.append(cur + ","); cur = w_
-            else: cur = t
-        lines.append(cur)
-        for i, ln in enumerate(lines[:3]): d.text((x + 4, 486 + i * 34), ln, font=f3, fill=MUTED)
+        ids = [x.strip() for x in where.replace(" & ", ", ").replace(" and ", ", ").split(",") if x.strip()]
+        n_states = len([i for i in ids if i.upper() != "DC"])
+        has_dc = any(i.upper() == "DC" for i in ids)
+        soft = f"{n_states} states plus DC" if has_dc else (f"{n_states} states" if n_states else where)
+        d.text((x + 4, 486), soft, font=font(26, 600), fill=MUTED)
     return im
 
 def county_image(name, n_places, n_cities, n_late, n_deals, title=None, url=None):

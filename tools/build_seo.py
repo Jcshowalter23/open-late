@@ -172,7 +172,7 @@ for c in counties:
 # counties index
 tot = sum(c["places"] for c in counties)
 # region wording comes from the States that have Counties, in the picker's order (data/cities.json "states"), so a new State needs no edit here
-_sts = [s for s in idx.get("states") or [{"id": "PA", "name": "Pennsylvania"}] if any((c.get("pickerState") or c.get("state") or "PA") == s["id"] for c in counties)]
+_sts = [s for s in idx.get("states") or [{"id": "PA", "name": "Pennsylvania"}] if any((c.get("pickerState") or c.get("state") or c.get("st") or "PA") == s["id"] for c in counties)]
 def _join(xs, last): return xs[0] if len(xs) == 1 else ", ".join(xs[:-1]) + f" {last} " + xs[-1]
 REG = "Pennsylvania" if len(_sts) == 1 else _join([("DC" if s["id"] == "DC" else s["name"]) for s in _sts], "&")
 REGS = "all 67 Pennsylvania counties" if REG == "Pennsylvania" else _join([s["name"] for s in _sts], "and")
@@ -184,7 +184,7 @@ body = [f'<h1>Open late across {e(REG)}, by County</h1>',
 ST_NAMES = [(s["id"], s["name"]) for s in json.load(open("data/index.json")).get("states") or []] or [("PA", "Pennsylvania")]
 multi = REG != "Pennsylvania"
 for st, stn in ST_NAMES:
-    cs = [c for c in counties if (c.get("pickerState") or c.get("state") or "PA") == st]
+    cs = [c for c in counties if (c.get("pickerState") or c.get("state") or c.get("st") or "PA") == st]
     if not cs: continue
     if multi: body.append(f'<h2>{e(stn)}</h2>')
     body.append('<ul class="lp-cities lp-counties">')
