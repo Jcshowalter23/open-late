@@ -155,14 +155,33 @@
   const fmtL = (m) => fmt(m).toLowerCase(); // "1:30 am"
   const atOf = (p) => cityNow((p && p.tz) || city.timezone, new Date(atT));
   const atWord = () => { const a = cityNow(city.timezone, new Date(atT)); return `${a.d === now.d ? "" : DAYS[a.d] + " "}${fmtL(a.m)}`; };
+  // night a time belongs to: before 4:30 am counts as the previous day's night
+  const nightOf = (t) => { const c = cityNow(city.timezone, new Date(t)); return c.m < 660 ? (c.d + 6) % 7 : c.d; };
+  const shortT = (m) => fmtL(m).replace(" am", "a").replace(" pm", "p");
+  function clockSync() {
+    const lbl = $("clockLbl"); if (!lbl) return;
+    const dv = Number($("day").value), dayW = dv === ALL ? "All days" : dv === now.d ? "" : DAYS[dv];
+    let t = ""; if (atT) { const c = cityNow(city.timezone, new Date(atT)); t = shortT(c.m); }
+    const txt = `🕘 ${[dayW, t].filter(Boolean).join(" ") || "now"}`;
+    lbl.textContent = txt; $("clockBtn").setAttribute("aria-label", `Day and time: ${txt.slice(2)}`);
+    $("atChip").classList.toggle("on", !!atT || dv !== now.d);
+  }
+  function clockFill() {
+    const dv = Number($("day").value), days = $("clkDays"), times = $("clkTimes");
+    const order = [0, 1, 2, 3, 4, 5, 6].map((k) => (now.d + k) % 7);
+    days.innerHTML = order.map((d) => `<button type="button" class="chip" data-day="${d}" aria-pressed="${d === dv}">${d === now.d ? "Today" : DAYS[d]}</button>`).join("") + `<button type="button" class="chip" data-day="${ALL}" aria-pressed="${dv === ALL}">All days</button>`;
+    const opts_ = [...$("atTime").options].filter((o) => o.value !== "0" && dv !== ALL && nightOf(Number(o.value)) === dv && Number(o.value) - Date.now() < 7 * 864e5);
+    const first = dv === now.d ? "now" : dv === ALL ? "Any time" : "Any time";
+    times.innerHTML = `<button type="button" class="chip" data-t="0" aria-pressed="${!atT}">${first}</button>` + opts_.map((o) => { const c = cityNow(city.timezone, new Date(Number(o.value))); return `<button type="button" class="chip" data-t="${o.value}" aria-pressed="${String(atT) === o.value}">${shortT(c.m)}</button>`; }).join("");
+  }
   function fillAt() {
     const sel = $("atTime"); if (!sel) return;
     if (atT && atT < Date.now()) atT = 0;
     const step = 30 * 60000, start = Math.ceil((Date.now() + 60000) / step) * step, out = [{ value: "0", label: `${AT()}now` }];
     let nights = 0;
-    for (let t = start; out.length < 80; t += step) {
+    for (let t = start; out.length < 400; t += step) {
       const c = cityNow(city.timezone, new Date(t));
-      if (c.m > 240 && c.m < 660) { if (c.m === 270 && ++nights >= 2) break; continue; } // skip 4:30 am - 11 am; stop after the second 4 am
+      if (c.m > 240 && c.m < 660) { if (c.m === 270 && ++nights >= 7) break; continue; } // skip 4:30 am - 11 am; stop after the second 4 am
       out.push({ value: String(t), label: `${AT()}${c.d === now.d || (PH() && t - Date.now() < 12 * 3600000) ? "" : DAYS[c.d] + " "}${PH() ? fmtL(c.m).replace(" am", "a").replace(" pm", "p") : fmtL(c.m)}` });
     }
     opts(sel, out); sel.value = String(atT); if (sel.value !== String(atT)) { atT = 0; sel.value = "0"; }
@@ -186,7 +205,7 @@
   }
 
   const on = (id) => $(id).getAttribute("aria-pressed") === "true";
-  const CHIPS = ["tonight", "openNow", "kitchenNow", "onlyDeals", "wingDeals", "beerDeals", "hhDeals", "kkNights", "djNights", "lmNights", "tvNights", "bgNights", "gdSpots", "odSeats", "favsOnly"];
+  const CHIPS = ["tonight", "kitchenNow", "onlyDeals", "wingDeals", "beerDeals", "hhDeals", "kkNights", "djNights", "lmNights", "tvNights", "bgNights", "gdSpots", "odSeats", "favsOnly"];
   // favorites live in localStorage as "area|placeId"
   let favs = new Set();
   try { favs = new Set(JSON.parse(localStorage.getItem("openlate.favs") || "[]")); } catch (e) { favs = new Set(); }
@@ -345,7 +364,7 @@
     const q = $("q").value.trim().toLowerCase();
     const town = $("town").value;
     const cuisine = $("cuisine").value, price = $("price").value, vibe = $("vibe").value;
-    const openNow = on("openNow"), kitchenNow = on("kitchenNow"), onlyDeals = on("onlyDeals");
+    const openNow = false, kitchenNow = on("kitchenNow"), onlyDeals = on("onlyDeals");
     const wingDeals = on("wingDeals"), beerDeals = on("beerDeals"), hhDeals = on("hhDeals"), favsOnly = on("favsOnly");
     const kkOn = on("kkNights"), djOn = on("djNights"), lmOn = on("lmNights"), tvOn = on("tvNights"), bgOn = on("bgNights"); // karaoke / DJ nights on the picked day (medium/high-confidence, non-stale only; see tools/build_data.py)
     const gdOn = on("gdSpots"), odOn = on("odSeats"); // game day spots / outdoor seating: any day (see tools/build_data.py gameday() / outdoor())
@@ -425,8 +444,10 @@
     $("mfCount").textContent = mf ? `(${mf} on)` : "";
     const EVN = [["kkNights", "Karaoke"], ["djNights", "DJ"], ["lmNights", "Live music"], ["tvNights", "Trivia"], ["bgNights", "Bingo"], ["gdSpots", "Game day"]].filter(([id]) => on(id));
     const evPre = PH() ? "🎉 " : "🎉 Events · "; // phones: drop "Events ·" so the row stays on one line
-    $("evLabel").textContent = EVN.length === 1 ? `${evPre}${EVN[0][1]}` : EVN.length ? `${evPre}${EVN.length} on` : "🎉 Events";
-    $("eventsDd").classList.toggle("on", EVN.length > 0);
+    if ($("evLabel")) $("evLabel").textContent = EVN.length === 1 ? `${evPre}${EVN[0][1]}` : EVN.length ? `${evPre}${EVN.length} on` : "🎉 Events";
+    if ($("eventsDd")) $("eventsDd").classList.toggle("on", EVN.length > 0);
+    if ($("favCt")) { const n = favs.size; $("favCt").hidden = !n; $("favCt").textContent = n > 99 ? "99+" : String(n); }
+    clockSync();
     const kinds = [wingDeals && "wing", beerDeals && "beer", hhDeals && "happy hour"].filter(Boolean).join(" + ");
     const evKinds = [kkOn && "karaoke", djOn && "DJ", lmOn && "live music", tvOn && "trivia", bgOn && "bingo"].filter(Boolean).join(" + ");
     const what = [kinds && kinds + " deals", evKinds && evKinds + " nights"].filter(Boolean).join(" + ") || "deals";
@@ -1085,6 +1106,15 @@
       const go = () => { const p = rows.find((x) => x.r.name === h.name && x.area === h.aid); $("q").value = h.name; setSearchOpen(true); render(); if (p) openPlace(p.r.id, h.aid); window.scrollTo && !p && window.scrollTo(0, 0); };
       (h.cid === county.id || (county.all && allCids.has(h.cid)) ? Promise.resolve() : loadCounty(h.cid, "")).then(() => { if (county.all && allDone) return allDone; }).then(go).catch(fail);
     });    $("seeCounty").addEventListener("click", () => { $("town").value = ""; $("town").dispatchEvent(new Event("change")); window.scrollTo(0, 0); });
+    // 🕘 day + time dropdown: picks the deals/nights day (#day) and the open-at time (#atTime) together
+    { const btn = $("clockBtn"), panel = $("clockPanel"), close = () => { panel.hidden = true; btn.setAttribute("aria-expanded", "false"); };
+      btn.addEventListener("click", () => { if (panel.hidden) { const ev = $("eventsDd"); if (ev) ev.open = false; clockFill(); panel.hidden = false; btn.setAttribute("aria-expanded", "true"); } else close(); });
+      document.addEventListener("pointerdown", (e) => { if (!panel.hidden && !$("atChip").contains(e.target)) close(); });
+      document.addEventListener("click", (e) => { if (!panel.hidden && !$("atChip").contains(e.target)) close(); });
+      document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !panel.hidden) { close(); btn.focus(); } });
+      panel.addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return;
+        if (b.dataset.day !== undefined) { const d = $("day"); d.value = b.dataset.day; d.dispatchEvent(new Event("change")); const at = $("atTime"); if (at.value !== "0") { at.value = "0"; at.dispatchEvent(new Event("change")); } clockFill(); return; }
+        if (b.dataset.t !== undefined) { const at = $("atTime"); at.value = b.dataset.t; at.dispatchEvent(new Event("change")); close(); } }); }
     // Events dropdown: close on a tap/click outside it, on Escape, and when the time picker is used
     { const ev = $("eventsDd"), closeEv = () => { if (ev && ev.open) ev.open = false; };
       document.addEventListener("pointerdown", (e) => { if (ev && ev.open && !ev.contains(e.target)) closeEv(); });

@@ -64,6 +64,7 @@
       <label class="sr" for="q">Search by name or city</label>
       <input id="q" type="search" placeholder="Search by name or city" autocomplete="off" enterkeyhint="search">
     </div>
+    <button type="button" class="iconbtn favbtn" id="favsOnly" aria-pressed="false" aria-label="Show only my favorites" title="Favorites"><span aria-hidden="true">♥</span><span class="favct" id="favCt" hidden></span></button>
     <button type="button" class="iconbtn" id="tnBell" aria-label="Tonight alerts" title="Tonight alerts">
       <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.5 1.5h-15z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M10 20.5a2 2 0 0 0 4 0" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
     </button>
@@ -77,20 +78,19 @@
     <label class="pick"><span>City</span><select id="town" aria-label="City"></select></label>
   </div>
   <div class="chipbar">
-  <div class="seg seg-top" role="group" aria-label="View">
-    <button type="button" id="viewList" aria-pressed="true">☰ List</button>
-    <button type="button" id="viewMap" aria-pressed="false">🗺 Map</button>
-  </div>
   <div class="chiprow" role="group" aria-label="Filters">
-    <label class="chip chip-day"><span class="sr">Deals and nights for</span><select id="day" aria-label="Deals and nights for day"></select></label>
     <button type="button" class="chip" id="tonight" aria-pressed="false" title="Places open past 11 PM tonight; late kitchens first">🌙 Tonight</button>
-    <button type="button" class="chip" id="openNow" aria-pressed="false"><span class="dot d-open" aria-hidden="true"></span>Open now</button>
     <button type="button" class="chip" id="nearMe" aria-pressed="false" title="Sort by distance from you (asks for your location)">📍 Near me</button>
-    <button type="button" class="chip" id="favsOnly" aria-pressed="false">♥ Favorites</button>
     <button type="button" class="chip" id="kitchenNow" aria-pressed="false" title="Only places that publish a kitchen close time">Kitchen open</button>
     <button type="button" class="chip" id="wingDeals" aria-pressed="false">🍗 Wing deals</button>
     <button type="button" class="chip" id="beerDeals" aria-pressed="false">🍺 Beer deals</button>
     <button type="button" class="chip" id="hhDeals" aria-pressed="false">🍸 Happy hour</button>
+    <button type="button" class="chip" id="kkNights" aria-pressed="false" title="Karaoke on the picked day (from the place's own posts or website)">🎤 Karaoke</button>
+    <button type="button" class="chip" id="djNights" aria-pressed="false" title="DJ nights on the picked day (from the place's own posts or website)">🎧 DJ</button>
+    <button type="button" class="chip" id="lmNights" aria-pressed="false" title="Live music on the picked day (regular shows from the venue's own site, ticketing pages, posts or local guides)">🎸 Live music</button>
+    <button type="button" class="chip" id="tvNights" aria-pressed="false" title="Trivia on the picked day (from the place's own website)">🧠 Trivia</button>
+    <button type="button" class="chip" id="bgNights" aria-pressed="false" title="Bingo on the picked day (from the place's own website)">🎱 Bingo</button>
+    <button type="button" class="chip" id="gdSpots" aria-pressed="false" title="Game day spots and watch parties (from the place's own website or a team's official fan club list)">🏈 Game day</button>
     <button type="button" class="chip" id="odSeats" aria-pressed="false" title="Outdoor seating: patio, deck, rooftop and more (from the place's own website or OpenStreetMap)">☀️ Outdoor</button>
     <button type="button" class="chip" id="onlyDeals" aria-pressed="false">Any deal</button>
   </div>
@@ -99,18 +99,18 @@
 
 <main>
   <div class="filterrow">
-  <details class="more-filters evdd" id="eventsDd">
-    <summary><span id="evLabel">🎉 Events</span></summary>
-    <div class="evpanel" role="group" aria-label="Event filters">
-      <button type="button" class="chip" id="kkNights" aria-pressed="false" title="Karaoke on the picked day (from the place's own posts or website)">🎤 Karaoke</button>
-      <button type="button" class="chip" id="djNights" aria-pressed="false" title="DJ nights on the picked day (from the place's own posts or website)">🎧 DJ</button>
-      <button type="button" class="chip" id="lmNights" aria-pressed="false" title="Live music on the picked day (regular shows from the venue's own site, ticketing pages, posts or local guides)">🎸 Live music</button>
-      <button type="button" class="chip" id="tvNights" aria-pressed="false" title="Trivia on the picked day (from the place's own website)">🧠 Trivia</button>
-      <button type="button" class="chip" id="bgNights" aria-pressed="false" title="Bingo on the picked day (from the place's own website)">🎱 Bingo</button>
-      <button type="button" class="chip" id="gdSpots" aria-pressed="false" title="Game day spots and watch parties (from the place's own website or a team's official fan club list)">🏈 Game day</button>
+  <div class="seg seg-row" role="group" aria-label="View">
+    <button type="button" id="viewList" aria-pressed="true">☰ List</button>
+    <button type="button" id="viewMap" aria-pressed="false">🗺 Map</button>
+  </div>
+  <div class="clockdd" id="atChip">
+    <button type="button" id="clockBtn" aria-haspopup="true" aria-expanded="false" aria-controls="clockPanel" aria-label="Day and time: now"><span id="clockLbl">🕘 now</span></button>
+    <div class="clockpanel" id="clockPanel" hidden>
+      <div class="clk-h">Day</div><div class="clk-days" id="clkDays" role="group" aria-label="Day"></div>
+      <div class="clk-h">Time</div><div class="clk-times" id="clkTimes" role="group" aria-label="Time"></div>
     </div>
-  </details>
-  <label class="chip chip-day" id="atChip" title="Show places open at a later time tonight or tomorrow night"><span class="sr">Show places open at</span><select id="atTime" aria-label="Show places open at"></select></label>
+    <select id="day" aria-label="Deals and nights for day" hidden></select><select id="atTime" aria-label="Open at" hidden></select>
+  </div>
   <details class="more-filters" id="moreFilters">
     <summary>More filters <span class="mf-count" id="mfCount"></span></summary>
     <div class="controls">
