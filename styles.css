@@ -376,3 +376,8 @@ dialog#formDlg::backdrop,dialog#tnDlg::backdrop{background:rgba(10,12,18,.55)}
 }
 @media (max-width:759px){.bar .now{min-width:0;overflow:hidden;text-overflow:ellipsis}.bar .iconbtn{flex:none}}
 @media (max-width:400px){.bar .now{font-size:.72rem}}
+/* More filters: the button stays put; the panel drops open below the row instead of wrapping onto its own line */
+.filterrow #moreFilters[open]{flex:0 0 auto;width:auto;order:0}
+.filterrow #moreFilters>.mfpanel{position:absolute;left:0;right:0;top:100%;z-index:20;margin:0;padding:10px 12px;background:var(--bg);border-bottom:1px solid var(--line);box-shadow:0 8px 16px rgba(0,0,0,.12);max-height:calc(100vh - var(--toph,0px) - 60px);overflow-y:auto}
+@media (min-width:760px){.filterrow{position:relative}}
+@media (max-width:759px){.filterrow:has(#moreFilters[open]){flex-wrap:nowrap;max-height:none;overflow:visible}}
