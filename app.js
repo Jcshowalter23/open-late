@@ -187,15 +187,21 @@
   const BADGE = { wings: "🍗 Wings", beer: "🍺 Beer" };
   // v244: source refs inside display text ("(Venue site x.com, checked 2026-11-01)", "per Venue website x.com, checked ...", bare URLs)
   // are cut from the text and returned as Sources-list entries, so the card shows only the info (catches future data too).
+  // Source chips ("(Facebook page)", "(Facebook posts, Oct 2026)", "(Facebook lists Thu to 10p)", "(Restaurantji / listings)")
+  // go to Sources too. Warning prose stays ("a typo", "also showed", "Facebook shows only Sun…", "call ahead").
   function splitSrc(t, label) {
     const out = []; if (typeof t !== "string" || !t) return { t, out };
     const add = (s, d) => { s = String(s || "").replace(/^[\s,;:]+|[\s,;:.]+$/g, ""); if (!s) return; const u = (s.match(/https?:\/\/\S+/) || [])[0]; out.push({ l: label, s: u ? s.replace(u, "").replace(/^[\s,;:-]+|[\s,;:-]+$/g, "") || u.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "") : s, u, d }); };
+    // A parenthetical is a source chip when it leads with a source name and is not itself a warning sentence.
+    const srcChip = (body) => { const b = String(body || "").replace(/\s+/g, " ").trim(); return !!b && b.length <= 80 && !/\b(?:typos?|unconfirmed|differs?|different|conflict|missing|showed|shows|says|likely|window|including|call ahead)\b/i.test(b) && /^(?:facebook|opentable|yelp|restaurantji|google|instagram|listings?)\b/i.test(b); };
     let pend = "";
     const D = "(\\d{4}-\\d\\d-\\d\\d)";
-    let x = t.replace(new RegExp("\\s*\\(([^()]*?)(?:,\\s*)?(?:checked " + D + ")?\\)", "g"), (m, body, d) => (!body.trim() && d && out.length === 0 ? (pend = d, "") : null) ?? ((d || /https?:\/\/|\bvenue (site|website)\b|^\s*(via|per|source[sd]?:?)\s/i.test(body)) ? (add(body.replace(/^\s*(via|per|source[sd]?:?)\s+/i, ""), d), "") : m));
+    let x = t.replace(new RegExp("\\s*\\(([^()]*?)(?:,\\s*)?(?:checked " + D + ")?\\)", "g"), (m, body, d) => (!body.trim() && d && out.length === 0 ? (pend = d, "") : null) ?? ((d || /https?:\/\/|\bvenue (site|website)\b|^\s*(via|per|source[sd]?:?)\s/i.test(body) || srcChip(body)) ? (add(body.replace(/^\s*(via|per|source[sd]?:?)\s+/i, ""), d), "") : m));
     x = x.replace(new RegExp("\\s+per (venue (?:website|site) [^\\s,;]*[^\\s,;.]|[^;.]*?(?:facebook|instagram) post[^;.]*?)(?:,\\s*checked " + D + ")?(?=[;.]|$)", "gi"), (m, s, d) => (add(s, d), ""));
     x = x.replace(new RegExp("\\b(venue (?:website|site)) ((?:https?:\\/\\/)?[\\w-]+(?:\\.[\\w-]+)+(?:\\/[^\\s,;]*[^\\s,;.])?\\/?),?(?:\\s*checked " + D + ")?(?=[;.,]?(\\s|$))", "gi"), (m, w, s, d) => (add(w + " " + s, d), w.toLowerCase()));
     x = x.replace(/\s*https?:\/\/[^\s;,)]+/g, (u) => (add(u.trim()), ""));
+    x = x.replace(/^(?:venue site (?:lists|says)\s+){2,}/i, (m) => m.match(/venue site (?:lists|says)\s+/gi).pop());
+    x = x.replace(/\.\s*;/g, ";");
     x = x.replace(/\s+([;.,])/g, "$1").replace(/;\s*;/g, ";").replace(/\s{2,}/g, " ").trim();
     if (pend) out.forEach((o) => { if (!o.d) o.d = pend; });
     return { t: x, out };
@@ -579,7 +585,8 @@
         const kind = hasTag(top, "wings") ? ["b-wings", "🍗 Wings"] : hasTag(top, "beer") ? ["b-beer", "🍺 Beer"] : dd.hh.includes(top) ? ["b-hh", "Happy hour"] : ["b-sp", "Special"];
         const n = all.length - 1;
         const nowPill = live.length ? `<span class="badge b-now">${live.includes(top) ? "Now" : "HH now"}</span>` : "";
-        dline = `<div class="dline" aria-label="${dayWord} deals">${day !== now.d && day !== ALL ? `<span class="bday">${esc(d3)}</span>` : ""}<span class="badge ${kind[0]}">${kind[1]}</span>${nowPill}${dtx("d", `${top.days ? `<b class="ddays">${esc(dayWords(top.days))}:</b> ` : ""}${esc(tf(top.text))}${top.flag ? ` <span class="flag" title="${esc(top.flag)}">⚠</span>` : ""}`)}${n > 0 ? `<button type="button" class="dmore" data-more="1">+${n} more</button>` : ""}</div>`;
+        const dealFace = si ? (() => { const q = splitSrc(top.text, "Deal"); q.out.forEach((v) => sl.push(v)); return q.t; })() : top.text;
+        dline = `<div class="dline" aria-label="${dayWord} deals">${day !== now.d && day !== ALL ? `<span class="bday">${esc(d3)}</span>` : ""}<span class="badge ${kind[0]}">${kind[1]}</span>${nowPill}${dtx("d", `${top.days ? `<b class="ddays">${esc(dayWords(top.days))}:</b> ` : ""}${esc(tf(dealFace))}${top.flag ? ` <span class="flag" title="${esc(top.flag)}">⚠</span>` : ""}`)}${n > 0 ? `<button type="button" class="dmore" data-more="1">+${n} more</button>` : ""}</div>`;
       }
       // karaoke / DJ nights on the picked day (all of them on "All days"), e.g. "🎤 Karaoke Thu 10 pm", "🎧 DJ 2nd Thu monthly"
       const evLine = (list, cls, label, pfx) => {
@@ -676,10 +683,11 @@
   const PIN = { "s-open": "#1f8a4c", "s-soon": "#e08a00", "s-closed": "#8b8580" };
   function popupHtml(p) {
     const st = status(p), dd = deals(p, now.d), top = [...dd.hh, ...dd.sp][0], t = on("tonight") ? tonightInfo(p) : null;
+    const dealTxt = top ? (srcIconOn(p) ? splitSrc(top.text, "Deal").t : top.text) : "";
     return `<div class="mp"><b class="mp-n">${esc(p.r.name)}</b><div class="mp-m">${esc([p.r.cuisine, p.areaName].filter(Boolean).join(" · "))}</div>
       <div class="mp-s ${st.cls}"><span class="dot" aria-hidden="true"></span>${esc(st.text)}</div>${st.sub ? `<div class="mp-sub">${esc(st.sub)}</div>` : ""}
       ${t && t.kitchen > 0 ? `<div class="mp-k">🍔 Food till ${fmt(t.kitchen)}</div>` : ""}
-      ${top ? `<div class="mp-d">${esc(top.text.length > 90 ? top.text.slice(0, 88) + "…" : top.text)}</div>` : ""}
+      ${top ? `<div class="mp-d">${esc(dealTxt.length > 90 ? dealTxt.slice(0, 88) + "…" : dealTxt)}</div>` : ""}
       <button type="button" class="act mp-btn" data-mopen="${esc(pkey(p))}">Details</button></div>`;
   }
   function drawMap(fit) {
