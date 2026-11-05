@@ -1085,6 +1085,12 @@
       const go = () => { const p = rows.find((x) => x.r.name === h.name && x.area === h.aid); $("q").value = h.name; setSearchOpen(true); render(); if (p) openPlace(p.r.id, h.aid); window.scrollTo && !p && window.scrollTo(0, 0); };
       (h.cid === county.id || (county.all && allCids.has(h.cid)) ? Promise.resolve() : loadCounty(h.cid, "")).then(() => { if (county.all && allDone) return allDone; }).then(go).catch(fail);
     });    $("seeCounty").addEventListener("click", () => { $("town").value = ""; $("town").dispatchEvent(new Event("change")); window.scrollTo(0, 0); });
+    // Events dropdown: close on a tap/click outside it, on Escape, and when the time picker is used
+    { const ev = $("eventsDd"), closeEv = () => { if (ev && ev.open) ev.open = false; };
+      document.addEventListener("pointerdown", (e) => { if (ev && ev.open && !ev.contains(e.target)) closeEv(); });
+      document.addEventListener("click", (e) => { if (ev && ev.open && !ev.contains(e.target)) closeEv(); });
+      document.addEventListener("keydown", (e) => { if (e.key === "Escape" && ev && ev.open) { closeEv(); const s = ev.querySelector("summary"); if (s) s.focus(); } });
+      $("atTime").addEventListener("focus", closeEv); }
     $("list").addEventListener("toggle", (e) => { const d = e.target; if (d.dataset && d.dataset.key) { if (d.open) openCards.add(d.dataset.key); else openCards.delete(d.dataset.key); const c = d.closest(".card"); if (c) c.setAttribute("aria-expanded", String(d.open)); } }, true);
     // the whole card opens its details (one card open at a time); tapping the open card closes it
     const setCard = (card, open) => {
