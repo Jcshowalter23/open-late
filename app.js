@@ -87,6 +87,54 @@
     return { known: today !== undefined, open: false, close: -1 };
   }
   function lastClose(w, d) { const t = w[d]; return t ? Math.max(...t.map((iv) => iv[1])) : -1; }
+  // next sitting today that has not started yet (null when this window is the last one)
+  function nextWindow(w, d, m) {
+    const t = w[d]; if (!t) return null;
+    let best = null;
+    for (const iv of t) if (iv[0] > m && (!best || iv[0] < best[0])) best = iv;
+    return best;
+  }
+  function earlierWindow(w, d, m) {
+    const t = w[d]; if (!t) return false;
+    for (const iv of t) if (iv[1] <= m) return true;
+    return false;
+  }
+  // "tonight" on an evening close or anything past midnight (10 pm, 1 am). A 2 pm close stays plain.
+  function tonightSuffix(min) { return min >= 17 * 60 ? " tonight" : ""; }
+  // Split hours ("6a-10a,4p-10p"): stateAt only knows the window covering m.
+  // When a later window exists, lead with that close. A gap is not "closing soon".
+  function statusAt(w, is24, d, m) {
+    if (is24) return { cls: "s-open", text: "Open 24 hours" };
+    const s = stateAt(w, d, m);
+    const next = nextWindow(w, d, m);
+    if (s.open) {
+      const left = s.close - m;
+      if (next && next[0] > s.close) {
+        const sub = `Open now until ${fmt(s.close)}`;
+        if (left <= 60) return { cls: "s-open", text: `Break in ${left} min · Back ${fmt(next[0])}`, sub };
+        const lc = lastClose(w, d);
+        return { cls: "s-open", text: `Reopens ${fmt(next[0])} · Open until ${fmt(lc)}${tonightSuffix(lc)}`, sub };
+      }
+      const end = next && lastClose(w, d) > m ? lastClose(w, d) : s.close;
+      const leftEnd = end - m;
+      if (leftEnd <= 60) return { cls: "s-soon", text: `Closing soon · ${fmt(end)} (${leftEnd} min)` };
+      return { cls: "s-open", text: `Open until ${fmt(end)}` };
+    }
+    if (!s.known) return { cls: "s-closed", text: "Today's hours not listed" };
+    if (next && earlierWindow(w, d, m)) return { cls: "s-closed", text: `Closed now · Reopens ${fmt(next[0])} until ${fmt(next[1])}` };
+    if (next) return { cls: "s-closed", text: `Closed · Opens ${fmt(next[0])}` };
+    return { cls: "s-closed", text: "Closed now" };
+  }
+  // Close used for Tonight, Closes latest/soonest, and the order inside Open now first.
+  // A later window today counts as the day's last close, including while the early window is still open.
+  function sortClose(w, is24, d, m) {
+    if (is24) return 3000;
+    const s = stateAt(w, d, m);
+    const next = nextWindow(w, d, m);
+    if (next) { const lc = lastClose(w, d); if (lc > m) return lc; }
+    if (s.open) return s.close < m ? s.close + 1440 : s.close;
+    return lastClose(w, d);
+  }
   function fmt(min) {
     const m = ((min % 1440) + 1440) % 1440, h = Math.floor(m / 60), mm = m % 60;
     const ap = h < 12 ? "am" : "pm", h12 = h % 12 === 0 ? 12 : h % 12;
@@ -307,9 +355,9 @@
     const late = now.m < 300, nd = late ? (now.d + 6) % 7 : now.d, rel = late ? now.m + 1440 : now.m;
     if (p.is24) return { close: 3000, kitchen: -1 };
     const t = p.w[nd]; if (!t) return null;
-    let close = -1, kc = -1;
-    for (const iv of t) if (iv[1] > 1380 && iv[1] > rel) close = Math.max(close, iv[1]);
-    if (close < 0) return null;
+    const close = lastClose(p.w, nd);
+    if (!(close > 1380 && close > rel)) return null;
+    let kc = -1;
     const k = p.k && p.k[nd];
     if (k) for (const iv of k) if (iv[1] > 1380 && iv[1] > rel) kc = Math.max(kc, iv[1]);
     return { close, kitchen: kc };
@@ -361,20 +409,7 @@
   const srcIconOn = (p) => SRC_ICON_ALL || SRC_ICON_KEYS.has(pkey(p));
   const openSrcs = new Set(); // cards whose sources list is open
   const openCards = new Set(); // which card has its details expanded (one at a time), so the 30-second refresh keeps it open
-  function status(p) {
-    const now = nowOf(p);
-    if (p.is24) return { cls: "s-open", text: "Open 24 hours" };
-    const s = stateAt(p.w, now.d, now.m);
-    if (s.open) {
-      const left = s.close - now.m;
-      if (left <= 60) return { cls: "s-soon", text: `Closing soon · ${fmt(s.close)} (${left} min)` };
-      return { cls: "s-open", text: `Open until ${fmt(s.close)}` };
-    }
-    if (!s.known) return { cls: "s-closed", text: "Today's hours not listed" };
-    const t = p.w[now.d];
-    const next = t ? t.map((iv) => iv[0]).filter((o) => o > now.m).sort((a, b) => a - b)[0] : undefined;
-    return { cls: "s-closed", text: next !== undefined ? `Closed · opens ${fmt(next)}` : "Closed now" };
-  }
+  function status(p) { const n = nowOf(p); return statusAt(p.w, p.is24, n.d, n.m); }
   function filtersActive() {
     return CHIPS.some(on) || !!atT || !!tnAny || $("q").value.trim() !== "" || $("cuisine").value !== "All" || $("price").value !== "All" || $("vibe").value !== "All";
   }
@@ -433,21 +468,15 @@
       if (odOn && !r.od) return false;
       return true;
     });
-    const key = (p) => {
-      const now = nowOf(p);
-      if (p.is24) return 3000;
-      const s = stateAt(p.w, now.d, now.m);
-      if (s.open) return s.close < now.m ? s.close + 1440 : s.close;
-      return lastClose(p.w, now.d);
-    };
-    // default "Open now first": open places by close time (24-hour places last in that group),
+    const key = (p) => { const n = nowOf(p); return sortClose(p.w, p.is24, n.d, n.m); };
+    // default "Open now first": open places by last close (a later window counts; 24-hour places last in that group),
     // then closed places by next opening (later today first, then tomorrow), then hours not listed
     const smartKey = (p) => {
       const now = nowOf(p);
       if (p.is24) return [0, 3000];
       const s = stateAt(p.w, now.d, now.m);
       // minutes from now (not clock times), so places on Central and Eastern time sort together correctly in All counties
-      if (s.open) return [0, (s.close < now.m ? s.close + 1440 : s.close) - now.m];
+      if (s.open) { const c = sortClose(p.w, false, now.d, now.m); return [0, (c < now.m ? c + 1440 : c) - now.m]; }
       if (!s.known) return [3, 0];
       const t = p.w[now.d], nxt = t ? t.map((iv) => iv[0]).filter((o) => o > now.m) : [];
       if (nxt.length) return [1, Math.min(...nxt) - now.m];
@@ -566,7 +595,7 @@
         <button type="button" class="fav" data-act="fav" aria-pressed="${fav}" aria-label="${fav ? "Remove from" : "Add to"} favorites: ${esc(r.name)}">${fav ? "♥" : "♡"}</button>
         ${top2 ? `<div class="town">${top2}</div>` : ""}
         <h2>${esc(r.name)}${isFeat(r) ? ` <span class="badge b-feat">Featured</span>` : ""}${r.vf ? ` <span class="badge b-vf" title="The owner confirmed this listing on ${esc(shortDate(r.vf.d))}">✓ Verified by owner</span>` : ""}${meta ? ` <span class="meta">${meta}</span>` : ""}</h2>
-        <div class="status ${st.cls}"><span class="dot" aria-hidden="true"></span><span>${esc(st.text)}</span>${kline}${atT ? atLine(p) : dayLine(p)}${tonight ? (tonightInfo(p).kitchen > 0 ? `<span class="lk lk-t" title="Kitchen open past 11 pm tonight (per listed kitchen hours)">🍔 Food till ${fmt(tonightInfo(p).kitchen)}</span>` : "") : lateKitchen(p) ? `<span class="lk" title="Kitchen open past 11 pm today (per listed kitchen hours)">Late kitchen</span>` : ""}</div>
+        <div class="status ${st.cls}"><span class="dot" aria-hidden="true"></span><span>${esc(st.text)}</span>${kline}${st.sub ? `<span class="status-sub">${esc(st.sub)}</span>` : ""}${atT ? atLine(p) : dayLine(p)}${tonight ? (tonightInfo(p).kitchen > 0 ? `<span class="lk lk-t" title="Kitchen open past 11 pm tonight (per listed kitchen hours)">🍔 Food till ${fmt(tonightInfo(p).kitchen)}</span>` : "") : lateKitchen(p) ? `<span class="lk" title="Kitchen open past 11 pm today (per listed kitchen hours)">Late kitchen</span>` : ""}</div>
         ${dline}${elines}${gdLine}${ctLine}${odLine}${cvLine}
         ${p.lc ? `<div class="lchk">${esc(p.lc)}</div>` : ""}
         <details class="more-info" data-key="${esc(ck)}"${openCards.has(ck) ? " open" : ""}>
@@ -629,7 +658,7 @@
   function popupHtml(p) {
     const st = status(p), dd = deals(p, now.d), top = [...dd.hh, ...dd.sp][0], t = on("tonight") ? tonightInfo(p) : null;
     return `<div class="mp"><b class="mp-n">${esc(p.r.name)}</b><div class="mp-m">${esc([p.r.cuisine, p.areaName].filter(Boolean).join(" · "))}</div>
-      <div class="mp-s ${st.cls}"><span class="dot" aria-hidden="true"></span>${esc(st.text)}</div>
+      <div class="mp-s ${st.cls}"><span class="dot" aria-hidden="true"></span>${esc(st.text)}</div>${st.sub ? `<div class="mp-sub">${esc(st.sub)}</div>` : ""}
       ${t && t.kitchen > 0 ? `<div class="mp-k">🍔 Food till ${fmt(t.kitchen)}</div>` : ""}
       ${top ? `<div class="mp-d">${esc(top.text.length > 90 ? top.text.slice(0, 88) + "…" : top.text)}</div>` : ""}
       <button type="button" class="act mp-btn" data-mopen="${esc(pkey(p))}">Details</button></div>`;
