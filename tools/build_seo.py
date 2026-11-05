@@ -54,7 +54,7 @@ def latest(hours, days=(5, 6)):
     return best
 def fmt(m):
     if m >= 3000: return "open 24 hours"
-    m %= 1440; h, mm = divmod(m, 60); ap = "AM" if h < 12 else "PM"; h12 = h % 12 or 12
+    m %= 1440; h, mm = divmod(m, 60); ap = "am" if h < 12 else "pm"; h12 = h % 12 or 12
     return f"{h12}:{mm:02d} {ap}" if mm else f"{h12} {ap}"
 
 PAGE = """<!doctype html>

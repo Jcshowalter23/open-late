@@ -92,7 +92,7 @@ def county_image(name, n_places, n_cities, n_late, n_deals, title=None, url=None
     tf = fit(d, title, 800, 112, W - 160, 60)
     d.text((76, 250), title, font=tf, fill=WHITE)
     stats = [f"{n_places} bars & restaurants", f"{n_cities} {'City' if n_cities == 1 else 'Cities'}"]
-    if n_late: stats.append(f"{n_late} open past 11 PM")
+    if n_late: stats.append(f"{n_late} open past 11 pm")
     line = "  ·  ".join(stats)
     d.text((80, 400), line, font=fit(d, line, 600, 40, W - 160, 26), fill=WHITE)
     sub = "Kitchen hours, happy hours, wing & beer specials" if n_deals else "Hours and kitchen hours, by City"

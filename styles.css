@@ -67,6 +67,8 @@ main{max-width:1200px;margin:0 auto;padding:12px 16px 24px}
 .town{font-size:.7rem;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:var(--ink3)}
 .card h2{margin:0;font-size:1.05rem;line-height:1.25}
 .meta{font-size:.78rem;font-weight:500;color:var(--ink3);white-space:nowrap;margin-left:4px}
+.meta{display:inline-block;max-width:100%;white-space:normal;overflow-wrap:anywhere;vertical-align:baseline}
+.card{min-width:0;overflow-wrap:anywhere}
 .status{display:flex;flex-wrap:wrap;align-items:center;gap:2px 8px;font-size:.88rem;font-weight:600}
 .dot{display:inline-block;width:9px;height:9px;border-radius:50%;flex:none}
 .s-open{color:var(--g)}.s-open .dot{background:var(--g);box-shadow:0 0 0 3px var(--gbg)}

@@ -65,7 +65,7 @@
   function lastClose(w, d) { const t = w[d]; return t ? Math.max(...t.map((iv) => iv[1])) : -1; }
   function fmt(min) {
     const m = ((min % 1440) + 1440) % 1440, h = Math.floor(m / 60), mm = m % 60;
-    const ap = h < 12 ? "AM" : "PM", h12 = h % 12 === 0 ? 12 : h % 12;
+    const ap = h < 12 ? "am" : "pm", h12 = h % 12 === 0 ? 12 : h % 12;
     return mm ? `${h12}:${String(mm).padStart(2, "0")} ${ap}` : `${h12} ${ap}`;
   }
   // times inside deal/event text: "07:00 PM" / "7PM" -> "7 pm", "01:30pm" -> "1:30 pm" (same style as hours)
@@ -270,7 +270,7 @@
     const m = HH_RE.exec(text); if (!m) return null;
     const t = (h, mm, ap) => (Number(h) % 12 + (/^p/i.test(ap) ? 12 : 0)) * 60 + Number(mm || 0);
     let end = t(m[4], m[5], m[6]), start = t(m[1], m[2], m[3] || m[6]);
-    if (!m[3] && start > end) start = t(m[1], m[2], "a"); // "11–2 pm" means 11 AM to 2 PM
+    if (!m[3] && start > end) start = t(m[1], m[2], "a"); // "11–2 pm" means 11 am to 2 pm
     if (end <= start) end += 1440;
     return [start, end];
   }
@@ -462,7 +462,7 @@
     $("count").classList.toggle("loading", !!allLoad);
     const nLk = tonight ? list.filter((p) => tonightInfo(p).kitchen > 0).length : 0;
     $("tonightNote").hidden = !tonight || !list.length;
-    if (tonight) $("tonightNote").textContent = `🌙 Open past 11 PM tonight · ${nLk ? `${nLk} with food after 11 PM listed first` : "no late kitchen hours listed here"}${dist ? " (Near me sorts by distance)" : ""}.`;
+    if (tonight) $("tonightNote").textContent = `🌙 Open past 11 pm tonight · ${nLk ? `${nLk} with food after 11 pm listed first` : "no late kitchen hours listed here"}${dist ? " (Near me sorts by distance)" : ""}.`;
     lastList = list;
     // empty state
     const active = filtersActive();
@@ -470,14 +470,14 @@
     $("empty").hidden = list.length > 0;
     if (!list.length) {
       let why = active ? `No places in ${placeName} match these filters` : `No places listed in ${placeName} yet`;
-      if (tonight && !q && !wingDeals && !beerDeals && !hhDeals && !kkOn && !djOn && !onlyDeals && !kitchenNow && !favsOnly && !openNow) why = `Nothing in ${placeName} is listed as open past 11 PM tonight`;
+      if (tonight && !q && !wingDeals && !beerDeals && !hhDeals && !kkOn && !djOn && !onlyDeals && !kitchenNow && !favsOnly && !openNow) why = `Nothing in ${placeName} is listed as open past 11 pm tonight`;
       if (openNow && !tonight && !q && !wingDeals && !beerDeals && !hhDeals && !kkOn && !djOn && !onlyDeals && !kitchenNow && !favsOnly) why = `Nothing in ${placeName} is open right now`;
       if (atT && !tonight && !q && !wingDeals && !beerDeals && !hhDeals && !kkOn && !djOn && !onlyDeals && !kitchenNow && !favsOnly) why = `Nothing in ${placeName} is listed as open at ${atWord()}`;
       if (favsOnly && !favs.size) why = "No favorites yet";
       else if (favsOnly && extraLoading) why = "Loading your favorites from other counties…";
       $("emptyTitle").textContent = why + ".";
       const whole = county.all ? "the whole state" : cityWord() === "City" ? "the whole county" : `all of ${cLabel(county)}`; // DC: "all of Washington, DC"
-      $("emptyText").textContent = why.includes("past 11 PM") ? `Only places with posted hours can show here. Try ${town ? `${whole}, ` : ""}a neighboring county, or turn off Tonight.` : favsOnly && !list.length && why.startsWith("No favorites") ? "Tap the ♡ on any place to save it here. Favorites stay on this device." : town ? `Try ${whole}, or ${active ? "clear the filters" : `pick another ${cityWord().toLowerCase()}`}.` : (active ? "Try clearing the filters or picking another day." : allLoad ? "Still loading counties…" : "Try a neighboring county.");
+      $("emptyText").textContent = why.includes("past 11 pm") ? `Only places with posted hours can show here. Try ${town ? `${whole}, ` : ""}a neighboring county, or turn off Tonight.` : favsOnly && !list.length && why.startsWith("No favorites") ? "Tap the ♡ on any place to save it here. Favorites stay on this device." : town ? `Try ${whole}, or ${active ? "clear the filters" : `pick another ${cityWord().toLowerCase()}`}.` : (active ? "Try clearing the filters or picking another day." : allLoad ? "Still loading counties…" : "Try a neighboring county.");
       $("clearFilters").hidden = !active;
       $("seeCounty").hidden = !town;
       $("seeCounty").textContent = `See all of ${cLabel(county)}`;
@@ -542,7 +542,7 @@
         <button type="button" class="fav" data-act="fav" aria-pressed="${fav}" aria-label="${fav ? "Remove from" : "Add to"} favorites: ${esc(r.name)}">${fav ? "♥" : "♡"}</button>
         ${top2 ? `<div class="town">${top2}</div>` : ""}
         <h2>${esc(r.name)}${isFeat(r) ? ` <span class="badge b-feat">Featured</span>` : ""}${r.vf ? ` <span class="badge b-vf" title="The owner confirmed this listing on ${esc(shortDate(r.vf.d))}">✓ Verified by owner</span>` : ""}${meta ? ` <span class="meta">${meta}</span>` : ""}</h2>
-        <div class="status ${st.cls}"><span class="dot" aria-hidden="true"></span><span>${esc(st.text)}</span>${kline}${atT ? atLine(p) : dayLine(p)}${tonight ? (tonightInfo(p).kitchen > 0 ? `<span class="lk lk-t" title="Kitchen open past 11 PM tonight (per listed kitchen hours)">🍔 Food till ${fmt(tonightInfo(p).kitchen)}</span>` : "") : lateKitchen(p) ? `<span class="lk" title="Kitchen open past 11 PM today (per listed kitchen hours)">Late kitchen</span>` : ""}</div>
+        <div class="status ${st.cls}"><span class="dot" aria-hidden="true"></span><span>${esc(st.text)}</span>${kline}${atT ? atLine(p) : dayLine(p)}${tonight ? (tonightInfo(p).kitchen > 0 ? `<span class="lk lk-t" title="Kitchen open past 11 pm tonight (per listed kitchen hours)">🍔 Food till ${fmt(tonightInfo(p).kitchen)}</span>` : "") : lateKitchen(p) ? `<span class="lk" title="Kitchen open past 11 pm today (per listed kitchen hours)">Late kitchen</span>` : ""}</div>
         ${dline}${elines}${gdLine}${ctLine}${odLine}${cvLine}
         ${p.lc ? `<div class="lchk">${esc(p.lc)}</div>` : ""}
         <details class="more-info" data-key="${esc(ck)}"${openCards.has(ck) ? " open" : ""}>
@@ -1196,7 +1196,7 @@
     try { window.dispatchEvent(new Event("openlate:ready")); } catch (e) { /* analytics can wait for the fallback */ }
     if (!sp.get("place") && (tn === "on" || (tn === null && auto && (now.m >= 21 * 60 || now.m < 180)))) {
       $("tonight").setAttribute("aria-pressed", "true"); render();
-      if (tn === null) toast("It's late: showing places open past 11 PM. Tap 🌙 Tonight to see everything.");
+      if (tn === null) toast("It's late: showing places open past 11 pm. Tap 🌙 Tonight to see everything.");
     }
     let savedView = null; try { savedView = localStorage.getItem("openlate.view"); } catch (e) { /* private mode */ }
     const wantView = sp.get("view") === "map" || sp.get("view") === "list" ? sp.get("view") : sp.get("place") ? "list" : savedView;
