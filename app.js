@@ -427,7 +427,9 @@
   }
 
   function render(more) {
-    const q = $("q").value.trim().toLowerCase();
+    const qRaw = $("q").value, q = qRaw.trim().toLowerCase();
+    const qClear = $("qClear");
+    if (qClear) { qClear.hidden = qRaw === ""; $("searchwrap").classList.toggle("hasq", qRaw !== ""); }
     const town = $("town").value;
     const cuisine = $("cuisine").value, price = $("price").value, vibe = $("vibe").value;
     const openNow = false, kitchenNow = on("kitchenNow"), onlyDeals = false;
@@ -435,11 +437,17 @@
     const kkOn = on("kkNights"), djOn = on("djNights"), lmOn = on("lmNights"), tvOn = on("tvNights"), bgOn = on("bgNights"); // karaoke / DJ nights on the picked day (medium/high-confidence, non-stale only; see tools/build_data.py)
     const gdOn = on("gdSpots"), odOn = on("odSeats"); // game day spots / outdoor seating: any day (see tools/build_data.py gameday() / outdoor())
     const day = Number($("day").value), sort = $("sort").value, tonight = on("tonight");
-    const nearOn = sort === "near" && here && !town && bbNear(county, NEAR_MI); // nearby Counties mix in only when you are in or near the picked one
+    // City narrows browsing only. Tonight, deals, events, kitchen, outdoor, favorites, open-at,
+    // a deals day other than today, cuisine/price/vibe, and a non-default sort ignore the city:
+    // the selected county, or the whole state when All counties is on. Search does not — a query
+    // stays site-wide (elsewhere, v137) and does not by itself widen this list.
+    const wide = CHIPS.some(on) || !!atT || !!tnAny || day !== now.d || cuisine !== "All" || price !== "All" || vibe !== "All" || sort !== "smart";
+    const townLimit = !!(town && !wide);
+    const nearOn = sort === "near" && here && !townLimit && bbNear(county, NEAR_MI); // nearby Counties mix in only when you are in or near the picked one, and a city pick isn't hiding them
     const pool = rows.concat([...extra.values()].filter((p) => p.cid !== county.id && !(county.all && allCids.has(p.cid)) && ((favsOnly && favs.has(pkey(p))) || (nearOn && (miles(p) ?? 99) <= NEAR_MI))));
     let list = pool.filter((p) => {
       const r = p.r, now = nowOf(p);
-      if (town && p.area !== town) return false;
+      if (townLimit && p.area !== town) return false;
       if (q && !r.name.toLowerCase().includes(q) && !p.areaName.toLowerCase().includes(q)) return false;
       if (cuisine !== "All" && r.cuisine !== cuisine) return false;
       if (price === "none" && r.priceLevel) return false;
@@ -509,9 +517,10 @@
     const what = [kinds && kinds + " deals", evKinds && evKinds + " nights"].filter(Boolean).join(" + ") || "deals";
     const pfx = (kkOn || djOn || lmOn) && !(kinds || onlyDeals) ? "Nights" : "Deals";
     [...$("day").options].forEach((o) => { o.textContent = o.textContent.replace(/^(Deals|Nights):/, pfx + ":"); });
-    const scopeN = town ? rows.filter((p) => p.area === town).length : pool.length;
+    const scopeN = townLimit ? rows.filter((p) => p.area === town).length : pool.length;
+    const scopeWhere = town && wide ? ` in ${cLabel(county)}` : "";
     const feat = [gdOn && "game day", odOn && "outdoor seating"].filter(Boolean).join(" + ");
-    $("count").textContent = `${list.length} of ${scopeN} places · ${feat ? feat : ""}${feat && what === "deals" && !onlyDeals ? "" : `${feat ? " · " : ""}${what} for ${day === now.d ? "today" : day === ALL ? "all days" : DAY_LONG[day]}`}${dist ? " · nearest first" : ""}${allLoad ? ` · loading counties ${allLoad.done} of ${allLoad.total}…` : ""}`;
+    $("count").textContent = `${list.length} of ${scopeN} places${scopeWhere} · ${feat ? feat : ""}${feat && what === "deals" && !onlyDeals ? "" : `${feat ? " · " : ""}${what} for ${day === now.d ? "today" : day === ALL ? "all days" : DAY_LONG[day]}`}${dist ? " · nearest first" : ""}${allLoad ? ` · loading counties ${allLoad.done} of ${allLoad.total}…` : ""}`;
     $("count").classList.toggle("loading", !!allLoad);
     const nLk = tonight ? list.filter((p) => tonightInfo(p).kitchen > 0).length : 0;
     $("tonightNote").hidden = !tonight || !list.length;
@@ -519,7 +528,7 @@
     lastList = list;
     // empty state
     const active = filtersActive();
-    const placeName = town ? $("town").selectedOptions[0].dataset.name : `${cLabel(county)}`;
+    const placeName = townLimit ? $("town").selectedOptions[0].dataset.name : `${cLabel(county)}`;
     $("empty").hidden = list.length > 0;
     if (!list.length) {
       let why = active ? `No places in ${placeName} match these filters` : `No places listed in ${placeName} yet`;
@@ -530,10 +539,20 @@
       else if (favsOnly && extraLoading) why = "Loading your favorites from other counties…";
       $("emptyTitle").textContent = why + ".";
       const whole = county.all ? "the whole state" : cityWord() === "City" ? "the whole county" : `all of ${cLabel(county)}`; // DC: "all of Washington, DC"
-      $("emptyText").textContent = why.includes("past 11 pm") ? `Only places with posted hours can show here. Try ${town ? `${whole}, ` : ""}a neighboring county, or turn off Tonight.` : favsOnly && !list.length && why.startsWith("No favorites") ? "Tap the ♡ on any place to save it here. Favorites stay on this device." : town ? `Try ${whole}, or ${active ? "clear the filters" : `pick another ${cityWord().toLowerCase()}`}.` : (active ? "Try clearing the filters or picking another day." : allLoad ? "Still loading counties…" : "Try a neighboring county.");
+      // Filters already cover the county (or the state). The next step up is the state, not "see this county".
+      const upState = !!(town && wide && !county.all && stCounties(cSt(county)).length > 1);
+      const noFav = why.startsWith("No favorites") || why.startsWith("Loading your favorites");
+      let hint = active ? "Try clearing the filters or picking another day." : allLoad ? "Still loading counties…" : "Try a neighboring county.";
+      if (why.includes("past 11 pm")) hint = `Only places with posted hours can show here. ${townLimit ? `Try ${whole}, a neighboring county, or turn off Tonight.` : upState ? "Try the whole state, or turn off Tonight." : county.all ? "Try another state, or turn off Tonight." : "Try a neighboring county, or turn off Tonight."}`;
+      else if (favsOnly && !list.length && why.startsWith("No favorites")) hint = "Tap the ♡ on any place to save it here. Favorites stay on this device.";
+      else if (townLimit) hint = `Try ${whole}, or ${active ? "clear the filters" : `pick another ${cityWord().toLowerCase()}`}.`;
+      else if (upState) hint = active ? "Try the whole state, or clear the filters." : `Try the whole state, or pick another ${cityWord().toLowerCase()}.`;
+      $("emptyText").textContent = hint;
       $("clearFilters").hidden = !active;
-      $("seeCounty").hidden = !town;
-      $("seeCounty").textContent = `See all of ${cLabel(county)}`;
+      const seeState = upState && !noFav;
+      $("seeCounty").hidden = noFav || !(townLimit || seeState);
+      $("seeCounty").dataset.scope = seeState ? "state" : "county";
+      $("seeCounty").textContent = seeState ? `See all of ${stateInfo(cSt(county)).name}` : `See all of ${cLabel(county)}`;
     }
     elsewhere(q);
     const prev = more ? shown : 0;
@@ -590,7 +609,7 @@
       const reviews = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(where)}`;
       const tel = r.phone ? r.phone.replace(/[^0-9+]/g, "") : "";
       const maps = r.address ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${r.name}, ${r.address}, ${p.areaName}, ${p.loc}`)}` : "";
-      const top2 = [town ? "" : esc(p.cn && !p.areaName.includes(p.cn) ? `${p.areaName}, ${p.cn}` : p.areaName), pn !== now && p.tz ? `<span class="tzn">${esc(tzAbbr(p.tz))}</span>` : "", mi !== null ? `<span class="mi">${fmtMi(mi)}</span>` : ""].filter(Boolean).join(" · ");
+      const top2 = [townLimit ? "" : esc(p.cn && !p.areaName.includes(p.cn) ? `${p.areaName}, ${p.cn}` : p.areaName), pn !== now && p.tz ? `<span class="tzn">${esc(tzAbbr(p.tz))}</span>` : "", mi !== null ? `<span class="mi">${fmtMi(mi)}</span>` : ""].filter(Boolean).join(" · ");
       return `<article class="card${tonight && tonightInfo(p).kitchen > 0 ? " card-lk" : ""}${si ? " card-si" : ""}" data-key="${esc(ck)}" tabindex="0" aria-expanded="${openCards.has(ck)}" aria-label="${esc(r.name)}, tap for details">
         <button type="button" class="fav" data-act="fav" aria-pressed="${fav}" aria-label="${fav ? "Remove from" : "Add to"} favorites: ${esc(r.name)}">${fav ? "♥" : "♡"}</button>
         ${top2 ? `<div class="town">${top2}</div>` : ""}
@@ -1154,6 +1173,9 @@
     $("searchBtn").addEventListener("click", () => setSearchOpen(!$("top").classList.contains("searching")));
     $("q").addEventListener("keydown", (e) => { if (e.key === "Escape") { $("q").value = ""; setSearchOpen(false); render(); } });
     $("q").addEventListener("blur", () => { if (!$("q").value.trim()) setSearchOpen(false); });
+    const clearQuery = () => { if (!$("q").value) return; $("q").value = ""; $("q").focus(); render(); };
+    $("qClear").addEventListener("pointerdown", (e) => { e.preventDefault(); clearQuery(); }); // keep the caret in the field
+    $("qClear").addEventListener("click", clearQuery);
     $("clearFilters").addEventListener("click", clearFilters);
     $("elsewhere").addEventListener("click", (e) => {
       if (e.target.closest("[data-hitmore]")) { elsewhere($("q").value.trim().toLowerCase(), true); return; }
@@ -1161,7 +1183,12 @@
       dayTouched = false; track(`search/pick/${h.cid}`, "Search pick");
       const go = () => { const p = rows.find((x) => x.r.name === h.name && x.area === h.aid); $("q").value = h.name; setSearchOpen(true); render(); if (p) openPlace(p.r.id, h.aid); window.scrollTo && !p && window.scrollTo(0, 0); };
       (h.cid === county.id || (county.all && allCids.has(h.cid)) ? Promise.resolve() : loadCounty(h.cid, "")).then(() => { if (county.all && allDone) return allDone; }).then(go).catch(fail);
-    });    $("seeCounty").addEventListener("click", () => { $("town").value = ""; $("town").dispatchEvent(new Event("change")); window.scrollTo(0, 0); });
+    });
+    $("seeCounty").addEventListener("click", () => {
+      if ($("seeCounty").dataset.scope === "state") loadCounty("all", "", cSt(county)).catch(fail);
+      else { $("town").value = ""; $("town").dispatchEvent(new Event("change")); }
+      window.scrollTo(0, 0);
+    });
     // 🕘 day + time dropdown: picks the deals/nights day (#day) and the open-at time (#atTime) together
     { const btn = $("clockBtn"), panel = $("clockPanel"), close = () => { panel.hidden = true; btn.setAttribute("aria-expanded", "false"); };
       btn.addEventListener("click", () => { if (panel.hidden) { const mf = $("moreFilters"); if (mf) mf.open = false; clockFill(); panel.hidden = false; btn.setAttribute("aria-expanded", "true"); } else close(); });
