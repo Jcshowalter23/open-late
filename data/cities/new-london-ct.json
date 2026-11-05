@@ -355,37 +355,6 @@
    }
   },
   {
-   "id": "ct-golden-chopstix-restaurant",
-   "name": "Golden Chopstix Restaurant",
-   "cuisine": "Restaurant",
-   "address": "1666 CT-12, Ledyard",
-   "state": "CT",
-   "zip": "06335",
-   "phone": "(860) 464-9691",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ct/ledyard/golden-chopstix-restaurant-/ (updated 2026-10-29), checked 2026-11-02",
-   "lat": 41.428846148635,
-   "lng": -72.082290055174,
-   "website": null,
-   "hours": "Mon closed; Tue-Sat 11a-10p; Sun 12p-10p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": null,
-   "specials": null,
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from Restaurantji listing (updated 2026-10-29) (checked 2026-11-02)",
-   "county": "Southeastern Connecticut Planning Region",
-   "crowdChecked": "2026-11-02",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/ct/ledyard/golden-chopstix-restaurant-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   }
-  },
-  {
    "id": "ct-golden-wok-new-london",
    "name": "Golden Wok",
    "cuisine": "Chinese",
@@ -1823,18 +1792,18 @@
    }
   },
   {
-   "id": "ct-triple-b-best-burgers-and-brews",
-   "name": "Triple B- Best Burgers and Brews",
-   "cuisine": "Brewery",
-   "address": "1649 CT-12, Ledyard",
+   "id": "ct-pattys-pizza-and-restaurant",
+   "name": "Patty's Pizza & Restaurant",
+   "cuisine": "Italian",
+   "address": "1602 CT-12, Gales Ferry",
    "state": "CT",
    "zip": "06335",
-   "phone": "(860) 381-5663",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ct/ledyard/triple-b-best-burgers-and-brews-/ (updated 2026-10-29), checked 2026-11-02",
-   "lat": 41.424200753736,
-   "lng": -72.08083371754,
-   "website": "https://triplebct.com/default.aspx",
-   "hours": "Mon-Thu 10:30a-12a; Fri-Sat 10:30a-1a; Sun 10:30a-12a",
+   "phone": "(860) 464-5556",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ct/gales-ferry/patty-s-pizza-and-restaurant-/ (updated 2026-10-12), checked 2026-11-02",
+   "lat": 41.421006667867,
+   "lng": -72.078211360625,
+   "website": null,
+   "hours": "Daily 11a-9p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
@@ -1842,51 +1811,93 @@
    "specials": null,
    "crowd": null,
    "vibes": [
-    "Bar scene"
+    "Date night",
+    "Family-friendly"
    ],
-   "source": "hours from Restaurantji listing (updated 2026-10-29) (checked 2026-11-02)",
+   "source": "hours from Restaurantji listing (updated 2026-10-12) (checked 2026-11-02)",
+   "county": "Southeastern Connecticut Planning Region",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ct/gales-ferry/patty-s-pizza-and-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   },
+   "areaNote": "moved groton-ct->new-london-ct: address town \"Gales Ferry\" (checked 2026-11-05)"
+  },
+  {
+   "id": "ct-tuskers",
+   "name": "Tuskers",
+   "cuisine": "Restaurant",
+   "address": "470 Bank St, New London",
+   "state": "CT",
+   "zip": "06320",
+   "phone": "(860) 574-9551",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ct/new-london/tuskers-/ (updated 2026-10-28), checked 2026-11-02",
+   "lat": 41.350409799111,
+   "lng": -72.100048261402,
+   "website": null,
+   "hours": "Mon 4p-11:30p; Tue-Wed closed; Thu-Sun 4p-11:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-28) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
    "county": "Southeastern Connecticut Planning Region",
    "crowdType": {
     "labels": [
-     "Families"
+     "Live music fans",
+     "Date night / upscale"
     ],
-    "summary": "Family-friendly.",
-    "confidence": "medium",
+    "summary": "Known for live music; a date-night / upscale spot.",
+    "confidence": "high",
     "details": [
      {
-      "label": "Families",
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/ct/new-london/tuskers-/",
+        "quote": "ram. This intimate spot has a great vibe, making it an ideal location for a date night or live music events on weekends. The friendly and attentive staff ensure a comfortable dining experien",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/ct/new-london/tuskers-/",
+        "quote": "live music"
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
       "confidence": "medium",
       "evidence": [
        {
         "type": "reviews",
-        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
-        "url": "https://www.restaurantji.com/ct/ledyard/triple-b-best-burgers-and-brews-/",
-        "quote": "known for their friendliness and attentiveness, creating a welcoming atmosphere for both families and casual gatherings. The menu features hand-made burger patties, which are praised for",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/ct/new-london/tuskers-/",
+        "quote": "cocktail program. This intimate spot has a great vibe, making it an ideal location for a date night or live music events on weekends. The friendly and attentive staff ensure a comfortable d",
         "agg": true
        }
       ]
      }
     ]
    },
-   "karaoke": {
-    "nights": [],
-    "hints": [
-     "Restaurantji review/summary mentions karaoke",
-     "Restaurantji review/summary mentions karaoke"
-    ],
-    "stale": false,
-    "oneoffs": [],
-    "conflicts": []
-   },
    "crowdChecked": "2026-11-02",
    "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/ct/ledyard/triple-b-best-burgers-and-brews-/",
+    "restaurantji": "https://www.restaurantji.com/ct/new-london/tuskers-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": "https://triplebct.com/default.aspx"
-   },
-   "websiteSource": "OpenStreetMap node/2627438711 website tag (map data 2026-11-03), checked 2026-11-02"
+    "website": null
+   }
   }
  ],
  "type": "city",

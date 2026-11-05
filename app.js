@@ -10,7 +10,11 @@
   const $ = (id) => document.getElementById(id);
 
   // ---------- hours parsing ("Mon-Thu 11a-12a; Fri-Sat 11a-1a; Sun closed", "Daily 24h", "Mon 11a-2p,5p-9p")
+  // Also accepts am/pm ("10pm"), "Daily until 10p", and happyHours.days as ["Mon","Tue",...] so bad enrich data cannot crash a County page.
   function parseDays(s) {
+    if (Array.isArray(s)) s = s.filter(Boolean).join(",");
+    if (s == null || s === "") return [];
+    s = String(s).trim();
     if (s === "Daily") return [0, 1, 2, 3, 4, 5, 6];
     const out = [];
     for (const part of s.split(",")) {
@@ -19,38 +23,58 @@
       if (a < 0) continue;
       if (bits.length === 1) { out.push(a); continue; }
       const b = DAYS.indexOf(bits[1]);
+      if (b < 0) continue;
       let i = a;
       for (let g = 0; g < 7; g++) { out.push(i); if (i === b) break; i = (i + 1) % 7; }
     }
     return out;
   }
   function parseT(t) {
-    const m = /^(\d{1,2})(?::(\d{2}))?([ap])$/.exec(t.trim());
-    if (!m) return 0;
+    if (t == null) return null;
+    const m = /^(\d{1,2})(?::(\d{2}))?\s*([ap])m?$/i.exec(String(t).trim());
+    if (!m) return null;
     let h = Number(m[1]) % 12;
-    if (m[3] === "p") h += 12;
+    if (m[3].toLowerCase() === "p") h += 12;
     return h * 60 + (m[2] ? Number(m[2]) : 0);
   }
   // returns array[7]: undefined = not listed, null = closed, [[open,close],...] in minutes (close may exceed 1440)
   function parseWeek(s) {
     const arr = [undefined, undefined, undefined, undefined, undefined, undefined, undefined];
     if (!s) return arr;
-    for (const raw of s.split(";")) {
+    for (const raw of String(s).split(";")) {
       const part = raw.trim();
+      if (!part) continue;
       const sp = part.indexOf(" ");
+      if (sp < 0) continue; // unparseable segment (prose) — skip, do not crash the County page
       const days = part.slice(0, sp);
       const rest = part.slice(sp + 1).trim();
       let ivs;
       if (rest === "closed") ivs = null;
       else if (rest === "24h") ivs = [[0, 1440]];
-      else ivs = rest.split(",").map((x) => {
-        const [o, c] = x.split("-");
-        const oo = parseT(o);
-        let cc = parseT(c);
-        if (cc <= oo) cc += 1440;
-        return [oo, cc];
-      });
-      for (const d of parseDays(days)) arr[d] = ivs;
+      else {
+        // "until 10pm" / "dining through 8:30p" — close only; open unknown here (data should carry full ranges)
+        const until = /^(?:dining\s+)?(?:until|through)\s+(.+)$/i.exec(rest);
+        if (until) {
+          const cc = parseT(until[1].replace(/\s/g, ""));
+          if (cc == null) continue;
+          ivs = [[0, cc]]; // open unknown → treat as from midnight so "kitchen till X" still works after open; prefer normalized data
+        } else {
+          ivs = [];
+          for (const x of rest.split(",")) {
+            const m = /^\s*([^\-]+)-([^\-]+)\s*$/.exec(x);
+            if (!m) continue;
+            const oo = parseT(m[1]), cc0 = parseT(m[2]);
+            if (oo == null || cc0 == null) continue;
+            let cc = cc0;
+            if (cc <= oo) cc += 1440;
+            ivs.push([oo, cc]);
+          }
+          if (!ivs.length) continue; // prose / unreadable — skip
+        }
+      }
+      const ds = parseDays(days);
+      if (!ds.length) continue;
+      for (const d of ds) arr[d] = ivs;
     }
     return arr;
   }

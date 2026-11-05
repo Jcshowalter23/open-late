@@ -1044,6 +1044,109 @@
     "fbNewestPost": null,
     "website": null
    }
+  },
+  {
+   "id": "ma-iron-chef-longmeadow",
+   "name": "Iron Chef",
+   "cuisine": "Asian",
+   "address": "927 Shaker Road, Longmeadow",
+   "state": "MA",
+   "zip": "01106",
+   "phone": "(413) 567-8001",
+   "phoneSource": "OpenStreetMap node/13585613810 phone tag (map data 2026-11-03), checked 2026-11-05",
+   "lat": 42.033077,
+   "lng": -72.553252,
+   "website": "https://ironchefshakerroad.com/",
+   "websiteSource": "OpenStreetMap node/13585613810 website tag (map data 2026-11-03), checked 2026-11-05",
+   "hours": "Mon 11a-9p; Tue closed; Wed-Thu 11a-9p; Fri-Sat 11a-9:30p; Sun 11:30a-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/13585613810 opening_hours tag (map data 2026-11-03) (checked 2026-11-05); late hours confirmed by venue website https://ironchefshakerroad.com/: \"usiness Hours | Tuesday Closed | Monday - Thursday: 11:00am - 9:00pm | Friday - Saturday: 11:00am - 9:30pm | Sunday:\" (checked 2026-11-05)",
+   "county": "Hampden",
+   "addedBy": "deep-rescan-1105"
+  },
+  {
+   "id": "ma-sushi-time-longmeadow",
+   "name": "Sushi Time",
+   "cuisine": "Japanese",
+   "address": "791 Williams Street, Longmeadow",
+   "state": "MA",
+   "zip": "01106",
+   "phone": "(413) 754-3097",
+   "phoneSource": "OpenStreetMap node/13596544401 phone tag (map data 2026-11-03), checked 2026-11-05",
+   "lat": 42.055191,
+   "lng": -72.554736,
+   "website": "https://sushitimelongmeadow.com/",
+   "websiteSource": "OpenStreetMap node/13596544401 website tag (map data 2026-11-03), checked 2026-11-05",
+   "hours": "Mon 11:30a-9p; Wed-Thu 11:30a-9p; Fri-Sat 11:30a-9:30p; Sun 12:30p-9p",
+   "hoursNote": "OpenStreetMap lists hours only for the days shown; other days are closed or not listed. Call to confirm.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/13596544401 opening_hours tag (map data 2026-11-03) (checked 2026-11-05); late hours confirmed by venue website https://sushitimelongmeadow.com/: \"RY | GALLERY | GALLERY | GALLERY | GALLERY | GALLERY | Business Hours | Mon. | 11:30am-2:30pm / 4pm-9:30pm | Tuesday\" (checked 2026-11-05)",
+   "county": "Hampden",
+   "addedBy": "deep-rescan-1105"
+  },
+  {
+   "id": "ma-royal-spice",
+   "name": "Royal Spice",
+   "cuisine": "Restaurant",
+   "address": "827 Williams St Suit-B, Longmeadow",
+   "state": "MA",
+   "zip": "01106",
+   "phone": "(413) 754-3060",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/longmeadow/royal-spice-/ (updated 2026-11-04), checked 2026-11-02",
+   "lat": 42.055891958491,
+   "lng": -72.553769384835,
+   "website": null,
+   "hours": "Mon-Thu 11:30a-2:30p,4:30p-9:30p; Fri 11:30a-2:30p,4:30p-10p; Sat 12p-3p,4:30p-10p; Sun 12p-3p,4:30p-9:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-11-04) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Hampden",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-11-04",
+        "url": "https://www.restaurantji.com/ma/longmeadow/royal-spice-/",
+        "quote": "ood. The restaurant is brand new, impeccably clean, and decorated tastefully, making it a great spot for family dinners or special occasions. The staff is attentive and personable, enhancing the dining",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/longmeadow/royal-spice-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   }
  ],
  "type": "town",

@@ -263,8 +263,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ct/willimantic/mofongo-restuarant-/ (updated 2026-09-12), checked 2026-11-02",
    "lat": 41.716021113535,
    "lng": -72.230472081919,
-   "website": "https://www.friendlysrestaurants.com/restaurants/friendlys-willimantic-06226",
-   "websiteSource": "OpenStreetMap way/837261342 website tag (map data 2026-11-03), checked 2026-11-02",
+   "website": null,
    "hours": "Mon 9a-8p; Tue-Thu 9a-9p; Fri-Sat 9a-10p; Sun 9a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -282,7 +281,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": null
-   }
+   },
+   "websiteNote": "removed https://www.friendlysrestaurants.com/restaurants/friendlys-willimantic-06226: link points to Friendly's, not this venue (checked 2026-11-05)"
   },
   {
    "id": "ct-new-china-willimantic",
@@ -816,6 +816,59 @@
      }
     ],
     "checked": "2026-11-05"
+   }
+  },
+  {
+   "id": "ct-fiesta-cinco-demayo-restaurant",
+   "name": "Fiesta Cinco Demayo Restaurant",
+   "cuisine": "Restaurant",
+   "address": "1228 Main St, Windham",
+   "state": "CT",
+   "zip": "06226",
+   "phone": "(860) 423-9524",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ct/windham/fiesta-cinco-demayo-restaurant-/ (updated 2026-10-29), checked 2026-11-02",
+   "lat": 41.714241599042,
+   "lng": -72.226457290964,
+   "website": null,
+   "hours": "Mon 11a-9p; Tue closed; Wed-Sat 11a-9p; Sun 2p-8p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-29) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Southeastern Connecticut Planning Region",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/ct/windham/fiesta-cinco-demayo-restaurant-/",
+        "quote": "nty of parking available outside, and it has a kids menu, making it a suitable choice for families.",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ct/windham/fiesta-cinco-demayo-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
    }
   }
  ],

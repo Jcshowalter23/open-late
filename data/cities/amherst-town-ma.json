@@ -581,39 +581,6 @@
    }
   },
   {
-   "id": "ma-hampshire-dining-commons",
-   "name": "Hampshire Dining Commons",
-   "cuisine": "Restaurant",
-   "address": "141 SW Circle, Amherst",
-   "state": "MA",
-   "zip": "01003",
-   "phone": "(413) 577-5160",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/amherst/hampshire-caf-/ (updated 2026-11-05), checked 2026-11-02",
-   "lat": 42.382386333903,
-   "lng": -72.530274212024,
-   "website": "https://umassdining.com/locations-menus/hampshire",
-   "websiteSource": "OpenStreetMap way/184350299 website tag (map data 2026-11-03), checked 2026-11-02",
-   "hours": "Daily 7a-9p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from Restaurantji listing (updated 2026-11-05) (checked 2026-11-02)",
-   "county": "Hampshire",
-   "crowdChecked": "2026-11-02",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/ma/amherst/hampshire-caf-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": "https://umassdining.com/locations-menus/hampshire"
-   },
-   "menu": "https://www.umassdining.com/locations-menus"
-  },
-  {
    "id": "ma-hanna-devines-restaurant",
    "name": "Hanna Devine's Restaurant",
    "cuisine": "Restaurant",
@@ -1093,8 +1060,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/amherst/mission-cantina-/ (updated 2026-10-30), checked 2026-11-02",
    "lat": 42.33987184524,
    "lng": -72.520314508582,
-   "website": "https://www.themissioncantinaamherst.com/",
-   "websiteSource": "OpenStreetMap node/5485476653 website tag (map data 2026-11-03), checked 2026-11-02",
+   "website": "https://www.missioncantina.com/",
+   "websiteSource": "old site https://www.themissioncantinaamherst.com/ redirects to venue site https://www.missioncantina.com/ (title \"Best Mexican Restaurant in Amherst &amp; Easthampton MA  | M\") (checked 2026-11-05)",
    "hours": "Mon closed; Tue-Fri 4p-9p; Sat-Sun 11:30a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1821,19 +1788,18 @@
    }
   },
   {
-   "id": "ma-worcester-commons",
-   "name": "Worcester Commons",
+   "id": "ma-30boltwood",
+   "name": "30Boltwood",
    "cuisine": "Restaurant",
-   "address": "667 North Pleasant St, Amherst",
+   "address": "30 Boltwood Ave, Amherst",
    "state": "MA",
-   "zip": "01003",
-   "phone": "(413) 545-0302",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/amherst/worcester-commons-/ (updated 2026-11-03), checked 2026-11-02",
-   "lat": 42.392568644787,
-   "lng": -72.525521466154,
-   "website": "https://umassdining.com/locations-menus/worcester",
-   "websiteSource": "OpenStreetMap way/217056238 website tag (map data 2026-11-03), checked 2026-11-02",
-   "hours": "Daily 7a-12a",
+   "zip": "01002",
+   "phone": "(413) 835-2011",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/amherst/30boltwood-/ (updated 2026-09-22), checked 2026-11-02",
+   "lat": 42.374516942776,
+   "lng": -72.518850619393,
+   "website": null,
+   "hours": "Mon-Fri 7:30a-10p; Sat-Sun 8a-10p",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
@@ -1841,15 +1807,79 @@
    "specials": [],
    "crowd": null,
    "vibes": [],
-   "source": "hours from Restaurantji listing (updated 2026-11-03) (checked 2026-11-02)",
+   "source": "hours from Restaurantji listing (updated 2026-09-22) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Hampshire",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/amherst/30boltwood-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-the-moan-and-dove",
+   "name": "The Moan & Dove",
+   "cuisine": "Restaurant",
+   "address": "460 West St, Amherst",
+   "state": "MA",
+   "zip": "01002",
+   "phone": "(413) 256-1710",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/amherst/the-moan-and-dove-/ (updated 2026-11-03), checked 2026-11-02",
+   "lat": 42.341014205137,
+   "lng": -72.519871902066,
+   "website": null,
+   "hours": "Mon-Fri 3p-1a; Sat-Sun 1p-1a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-11-03) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
    "county": "Hampshire",
    "crowdType": {
     "labels": [
+     "LGBTQ-friendly",
+     "Dive bar",
      "Date night / upscale"
     ],
-    "summary": "A date-night / upscale spot.",
+    "summary": "LGBTQ-friendly; no-frills dive-bar feel; a date-night / upscale spot.",
     "confidence": "medium",
     "details": [
+     {
+      "label": "LGBTQ-friendly",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #2",
+        "url": "https://www.restaurantji.com/ma/amherst/the-moan-and-dove-/",
+        "quote": "LGBTQIA+ friendly little gem hidden next to a vintage store. There’s gender neutral bathroom, b"
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/ma/amherst/the-moan-and-dove-/",
+        "quote": "an obvious appreciation for local breweries and beer itself kind of way. Being obviously lgbtq friendly is the cherry on top. Most of the bartenders are also kind, friendly, and VERY k"
+       }
+      ]
+     },
+     {
+      "label": "Dive bar",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-11-03",
+        "url": "https://www.restaurantji.com/ma/amherst/the-moan-and-dove-/",
+        "quote": "artenders are friendly and accommodating. Unfortunately, parking is limited. This upscale dive bar has a cozy vibe and is dog-friendly, but lacks outdoor seating.",
+        "agg": true
+       }
+      ]
+     },
      {
       "label": "Date night / upscale",
       "confidence": "medium",
@@ -1857,8 +1887,8 @@
        {
         "type": "reviews",
         "src": "Restaurantji review summary (from Google reviews), updated 2026-11-03",
-        "url": "https://www.restaurantji.com/ma/amherst/worcester-commons-/",
-        "quote": "s Amherst houses the Commonwealth Restaurant, offering a variety of delicious dishes. The upscale decor and convenient location make it a must-visit spot, with reasonable prices to top it",
+        "url": "https://www.restaurantji.com/ma/amherst/the-moan-and-dove-/",
+        "quote": "e. The bartenders are friendly and accommodating. Unfortunately, parking is limited. This upscale dive bar has a cozy vibe and is dog-friendly, but lacks outdoor seating.",
         "agg": true
        }
       ]
@@ -1867,13 +1897,74 @@
    },
    "crowdChecked": "2026-11-02",
    "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/ma/amherst/worcester-commons-/",
+    "restaurantji": "https://www.restaurantji.com/ma/amherst/the-moan-and-dove-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
-    "website": "https://umassdining.com/locations-menus/worcester"
-   },
-   "menu": "https://www.umassdining.com/locations-menus"
+    "website": null
+   }
+  },
+  {
+   "id": "ma-protocol",
+   "name": "Protocol",
+   "cuisine": "Restaurant",
+   "address": "1 East Pleasant St, Amherst",
+   "state": "MA",
+   "zip": "01002",
+   "phone": "(413) 305-1033",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/amherst/protocol-/ (updated 2026-10-20), checked 2026-11-02",
+   "lat": 42.379277084877,
+   "lng": -72.519674174152,
+   "website": null,
+   "hours": "Mon-Thu 4p-10p; Fri-Sat 4p-12a; Sun 4p-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-20) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Hampshire",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/amherst/protocol-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-the-commonwealth-restaurant-at-umass-amherst",
+   "name": "The Commonwealth Restaurant at UMass Amherst",
+   "cuisine": "Restaurant",
+   "address": "667 North Pleasant St, Amherst",
+   "state": "MA",
+   "zip": "01003",
+   "phone": "(413) 545-0255",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/amherst/the-commonwealth-restaurant-at-umass-amherst-/ (updated 2026-10-11), checked 2026-11-02",
+   "lat": 42.392568644787,
+   "lng": -72.525521466154,
+   "website": null,
+   "hours": "Mon-Fri 11a-9p; Sat 4p-9p; Sun closed",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-11) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Hampshire",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/amherst/the-commonwealth-restaurant-at-umass-amherst-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   }
  ],
  "type": "town",

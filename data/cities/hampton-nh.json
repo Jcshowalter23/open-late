@@ -1391,6 +1391,93 @@
     ],
     "checked": "2026-11-05"
    }
+  },
+  {
+   "id": "nh-bad-brgr",
+   "name": "BAD BRGR",
+   "cuisine": "Restaurant",
+   "address": "1015 Elm St, Hampton",
+   "state": "NH",
+   "zip": "03101",
+   "phone": "(603) 606-8806",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/nh/hampton/bad-brgr-/ (updated 2026-10-13), checked 2026-11-02",
+   "lat": 42.992435304549,
+   "lng": -71.463016778737,
+   "website": null,
+   "hours": "Mon closed; Tue-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-13) (checked 2026-11-02)",
+   "county": "Rockingham",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-13",
+        "url": "https://www.restaurantji.com/nh/hampton/bad-brgr-/",
+        "quote": "the best the reviewer has had. The restaurant is spacious, suitable for large groups and families with children, and is wheelchair accessible. They offer kid-friendly items such as PB&J a",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/nh/hampton/bad-brgr-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   },
+   "areaNote": "moved manchester-nh->hampton-nh (county Hillsborough->Rockingham): Jon decision t569s2501 (checked 2026-11-05)"
+  },
+  {
+   "id": "nh-tinos-kitchen-bar",
+   "name": "Tinos Kitchen + Bar",
+   "cuisine": "Bar",
+   "address": "325 Lafayette Rd, Hampton",
+   "state": "NH",
+   "zip": "03842",
+   "phone": "(603) 926-5489",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/nh/hampton/tinos-/ (updated 2026-11-04), checked 2026-11-02",
+   "lat": 42.93732521957,
+   "lng": -70.838274793892,
+   "website": null,
+   "hours": "Mon closed; Tue-Thu 4:30p-8:30p; Fri-Sat 4:30p-9p; Sun closed",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-11-04) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Rockingham",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/nh/hampton/tinos-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   }
  ],
  "type": "town",

@@ -461,7 +461,7 @@
    "happyHours": [
     {
      "days": "Daily",
-     "text": "Happy hour 2–5 pm",
+     "text": "Happy hour 2\u20135 pm",
      "tags": [],
      "src": "Venue website https://www.candelacucina.com/daily-events/",
      "checked": "2026-11-05",
@@ -1131,7 +1131,7 @@
         "type": "reviews",
         "src": "Restaurantji review summary (from Google reviews), updated 2026-11-05",
         "url": "https://www.restaurantji.com/ma/new-bedford/endzone-sports-pub-/",
-        "quote": "for the restaurant’s special dishes and warm atmosphere. Endzone Restaurant and Bar is a great place for families and those looking for a tasty meal in a lively setting.",
+        "quote": "for the restaurant\u2019s special dishes and warm atmosphere. Endzone Restaurant and Bar is a great place for families and those looking for a tasty meal in a lively setting.",
         "agg": true
        }
       ]
@@ -1539,7 +1539,7 @@
         "type": "reviews",
         "src": "Restaurantji review #2",
         "url": "https://www.restaurantji.com/ma/new-bedford/le-beaus-tavern-/",
-        "quote": "What a dive! If that’s your thing, this is your place ! The drinks are cheap, the Bartenders are fant"
+        "quote": "What a dive! If that\u2019s your thing, this is your place ! The drinks are cheap, the Bartenders are fant"
        }
       ]
      },
@@ -3154,7 +3154,7 @@
    "happyHours": [
     {
      "days": "Thu",
-     "text": "Half-off apps 4–8 pm (in house only)",
+     "text": "Half-off apps 4\u20138 pm (in house only)",
      "tags": [],
      "src": "Venue website https://topshelfbarandgrill.com/",
      "checked": "2026-11-05"
@@ -3268,6 +3268,83 @@
     "fbNewestPost": null,
     "website": null
    }
+  },
+  {
+   "id": "ma-dnb-burgers-new-bedford",
+   "name": "dNB Burgers",
+   "cuisine": "American",
+   "address": "22 Elm Street, New Bedford",
+   "state": "MA",
+   "zip": null,
+   "phone": null,
+   "phoneSource": null,
+   "lat": 41.636465,
+   "lng": -70.923521,
+   "website": "http://www.dnbburgers.com/",
+   "websiteSource": "OpenStreetMap node/5485623112 website tag (map data 2026-11-03), checked 2026-11-05",
+   "hours": "Mon-Wed 11:30a-9p; Thu-Sat 11:30a-10p; Sun 11:30a-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/5485623112 opening_hours tag (map data 2026-11-03) (checked 2026-11-05); late hours confirmed by venue website https://www.dnbburgers.com/: \"m Street New Bedford, MA 02740 | Come On In! | OPEN 11:30-9pm Sunday through Wednesday | OPEN 11:30-10pm Thursday,\" (checked 2026-11-05)",
+   "county": "Bristol",
+   "addedBy": "deep-rescan-1105"
+  },
+  {
+   "id": "ma-play-arcade-new-bedford",
+   "name": "PLAY Arcade",
+   "cuisine": "American",
+   "address": "34 Union St, New Bedford",
+   "state": "MA",
+   "zip": "02740",
+   "phone": "(774) 202-7358",
+   "phoneSource": "OpenStreetMap node/13302399201 phone tag (map data 2026-11-03), checked 2026-11-05",
+   "lat": 41.634504,
+   "lng": -70.922086,
+   "website": "https://www.playarcadenb.com",
+   "websiteSource": "OpenStreetMap node/13302399201 website tag (map data 2026-11-03), checked 2026-11-05",
+   "hours": "Wed-Fri 5p-12a; Sat 12p-12a; Sun 12p-9p",
+   "hoursNote": "OpenStreetMap lists hours only for the days shown; other days are closed or not listed. Call to confirm.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/13302399201 opening_hours tag (map data 2026-11-03) (checked 2026-11-05); late hours confirmed by venue website https://www.playarcadenb.com: \"ram | Visit Us | 34 Union St., New Bedford, MA 02740 | Hours: | Mon & Tues: Closed Wed: OPEN 5PM - Midnight Thurs: OP\" (checked 2026-11-05)",
+   "county": "Bristol",
+   "addedBy": "deep-rescan-1105"
+  },
+  {
+   "id": "ma-jimmys-pizza-new-bedford",
+   "name": "Jimmy's Pizza",
+   "cuisine": "Pizza",
+   "address": "757 Brock Avenue, New Bedford",
+   "state": "MA",
+   "zip": "02744",
+   "phone": "(508) 996-3939",
+   "phoneSource": "OpenStreetMap way/214658959 phone tag (map data 2026-11-03), checked 2026-11-05",
+   "lat": 41.611283,
+   "lng": -70.914228,
+   "website": "https://jimmyspizzanb.com/",
+   "websiteSource": "OpenStreetMap way/214658959 website tag (map data 2026-11-03), checked 2026-11-05",
+   "hours": "Mon-Tue 11a-9p; Wed 4p-9p; Thu-Fri 11a-9p; Sat 4p-9p; Sun closed",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/214658959 opening_hours tag (map data 2026-11-03) (checked 2026-11-05); late hours confirmed by venue website https://jimmyspizzanb.com/: \"1:00PM | FRIDAY | 11:00 | --- | 11:00PM | SATURDAY | 11:00 | --- | 11:00PM | SUNDAY | 11:00 | --- | 9:00PM | LOCATED\" (checked 2026-11-05)",
+   "county": "Bristol",
+   "addedBy": "deep-rescan-1105"
   }
  ],
  "type": "city",

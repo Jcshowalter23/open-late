@@ -4734,8 +4734,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/cambridge/muqueca-restaurant-/ (updated 2026-11-02), checked 2026-11-02",
    "lat": 42.372734133924,
    "lng": -71.09356955971,
-   "website": "https://muquecarestaurant.net/",
-   "websiteSource": "OpenStreetMap node/11212935315 website tag (map data 2026-11-03), checked 2026-11-02",
+   "website": "https://www.muquecarestaurant.com/",
+   "websiteSource": "old site https://muquecarestaurant.net/ redirects to venue site https://www.muquecarestaurant.com/ (title \"Muqueca Restaurant | Cambridge MA | 617-354-3296\") (checked 2026-11-05)",
    "hours": "Mon closed; Tue-Thu 4p-9:30p; Fri-Sat 12p-10:30p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -5179,8 +5179,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/cambridge/one-ramen-and-sushi-/ (updated 2026-09-28), checked 2026-11-02",
    "lat": 42.385123244078,
    "lng": -71.119234343545,
-   "website": "https://oneramencambridge.com/",
-   "websiteSource": "OpenStreetMap node/6101451791 website tag (map data 2026-11-03), checked 2026-11-02",
+   "website": null,
    "hours": "Mon 11:30a-10p; Tue closed; Wed-Sun 11:30a-10p",
    "hoursNote": null,
    "kitchen": null,
@@ -5235,7 +5234,8 @@
      }
     ],
     "checked": "2026-11-05"
-   }
+   },
+   "websiteNote": "removed https://oneramencambridge.com/: domain now serves a gambling site (checked 2026-11-05)"
   },
   {
    "id": "ma-ono-pokebar",
@@ -6511,8 +6511,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/cambridge/state-park-/ (updated 2026-10-28), checked 2026-11-02",
    "lat": 42.365577581128,
    "lng": -71.09081431077,
-   "website": "https://www.statepark.is/",
-   "websiteSource": "OpenStreetMap node/986189398 website tag (map data 2026-11-03), checked 2026-11-02",
+   "website": "https://stateparkbar.com/",
+   "websiteSource": "old site https://www.statepark.is/ redirects to venue site https://stateparkbar.com/ (title \"State Park Bar\") (checked 2026-11-05)",
    "hours": "Mon-Thu 2p-1a; Fri 2p-2a; Sat 10a-2a; Sun 10a-1a",
    "hoursNote": null,
    "kitchen": null,
@@ -8852,6 +8852,767 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.zuzuspetalscambridge.com/"
+   }
+  },
+  {
+   "id": "ma-annas-taqueria-cambridge",
+   "name": "Anna's Taqueria",
+   "cuisine": "Mexican",
+   "address": "822 Somerville Ave #1, Cambridge",
+   "state": "MA",
+   "zip": "02140",
+   "phone": "(617) 661-8500",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/cambridge/annas-taqueria-/ (updated 2026-08-20), checked 2026-11-02",
+   "lat": 42.387822466452,
+   "lng": -71.117927295785,
+   "website": "http://www.annastaqueria.com/",
+   "websiteSource": "OpenStreetMap node/1078209996 website tag (map data 2026-11-03), checked 2026-11-02",
+   "hours": "Daily 10a-11:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-08-20) (checked 2026-11-02)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/cambridge/annas-taqueria-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   },
+   "areaNote": "moved somerville-ma->cambridge-ma: address town \"Cambridge\" (checked 2026-11-05)"
+  },
+  {
+   "id": "ma-zuzu-cambridge",
+   "name": "Zuzu",
+   "cuisine": "Restaurant",
+   "address": "474 Massachusetts Avenue, Cambridge",
+   "state": "MA",
+   "zip": "02139",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 42.3638,
+   "lng": -71.101381,
+   "website": "http://www.mideastoffers.com/zuzu/",
+   "websiteSource": "OpenStreetMap node/2707976362 website tag (map data 2026-11-03), checked 2026-11-05",
+   "hours": "Wed 5p-1a; Thu-Sat 5p-2a; Sun 5p-1a",
+   "hoursNote": "OpenStreetMap lists hours only for the days shown; other days are closed or not listed. Call to confirm.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/2707976362 opening_hours tag (map data 2026-11-03; last checked on the map 2023-05-08) (checked 2026-11-05); late hours confirmed by venue website https://www.mideastoffers.com/zuzu/: \"ant | FAQ | Contact | Hours | Middle East Restaurant | SUN 5PM-1AM | TUE-WED 5PM-1AM | THUR-SAT 5PM-2AM | ZUZU Re\" (checked 2026-11-05)",
+   "county": "Middlesex",
+   "addedBy": "deep-rescan-1105"
+  },
+  {
+   "id": "ma-the-middle-east-corner-cambridge",
+   "name": "The Middle East Corner",
+   "cuisine": "Bar",
+   "address": "480 Massachusetts Avenue, Cambridge",
+   "state": "MA",
+   "zip": "02139",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 42.363832,
+   "lng": -71.10144,
+   "website": "https://www.mideastclub.com",
+   "websiteSource": "OpenStreetMap node/2707976363 website tag (map data 2026-11-03), checked 2026-11-05",
+   "hours": "Mon-Wed 11a-1a; Thu-Sat 11a-2a; Sun 11a-1a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from OpenStreetMap node/2707976363 opening_hours tag (map data 2026-11-03; last checked on the map 2026-09-02) (checked 2026-11-05); late hours confirmed by venue website https://mideastclub.com/: \"St | Cambridge MA 02139 | HOURS | Middle East Restaurant | SUN 5PM-1AM TUE-WED 5PM-1AM THUR-SAT 5PM-2AM | ZUZU Re\" (checked 2026-11-05)",
+   "county": "Middlesex",
+   "addedBy": "deep-rescan-1105"
+  },
+  {
+   "id": "ma-what-a-soup-cambridge",
+   "name": "What A Soup",
+   "cuisine": "Thai",
+   "address": "125 River Street, Cambridge",
+   "state": "MA",
+   "zip": null,
+   "phone": null,
+   "phoneSource": null,
+   "lat": 42.363986,
+   "lng": -71.108728,
+   "website": "https://www.whatasoup.net",
+   "websiteSource": "OpenStreetMap node/13266989801 website tag (map data 2026-11-03), checked 2026-11-05",
+   "hours": "Mon-Thu 11:30a-9p; Fri-Sat 11:30a-9:30p; Sun 11:30a-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/13266989801 opening_hours tag (map data 2026-11-03) (checked 2026-11-05); late hours confirmed by venue website https://www.whatasoup.net: \" 857-639-5000 | Opening Hours | Mon - Thur and Sun 11:30 A.M. – 9:00 P.M. | Fri - Sat 11:30 A.M. – 9:30 P.M. | To play\" (checked 2026-11-05)",
+   "county": "Middlesex",
+   "addedBy": "deep-rescan-1105"
+  },
+  {
+   "id": "ma-cantab-lounge-cambridge",
+   "name": "Cantab Lounge",
+   "cuisine": "Bar",
+   "address": "738 Massachusetts Avenue, Cambridge",
+   "state": "MA",
+   "zip": "02139",
+   "phone": "(617) 714-4278",
+   "phoneSource": "OpenStreetMap node/981484250 phone tag (map data 2026-11-03), checked 2026-11-05",
+   "lat": 42.366126,
+   "lng": -71.105291,
+   "website": "https://www.thecantablounge.com/",
+   "websiteSource": "OpenStreetMap node/981484250 website tag (map data 2026-11-03), checked 2026-11-05",
+   "hours": "Mon-Wed 5p-1a; Thu-Sat 12p-2a; Sun 12p-1a",
+   "hoursNote": "Venue site confirms open daily with nightly shows; exact closing times from OpenStreetMap",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from venue website https://www.thecantablounge.com/: \"Open Daily - Shows start around 6-8PM | 21+ only - No kitchen\" (checked 2026-11-05); listing from hours from OpenStreetMap node/981484250 opening_hours tag (map data 2026-11-03) (checked 2026-11-05)",
+   "county": "Middlesex",
+   "addedBy": "deep-rescan-1105"
+  },
+  {
+   "id": "ma-the-longfellow-bar",
+   "name": "The Longfellow Bar",
+   "cuisine": "Bar",
+   "address": "40 Brattle St Suite 3, Cambridge",
+   "state": "MA",
+   "zip": "02138",
+   "phone": "(617) 864-0001",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/cambridge/the-longfellow-bar-/ (updated 2026-11-04), checked 2026-11-02",
+   "lat": 42.3731993377,
+   "lng": -71.120887184393,
+   "website": null,
+   "hours": "Mon-Wed 5p-12a; Thu-Sat 5p-1a; Sun 5p-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-11-04) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/cambridge/the-longfellow-bar-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-bar-enza",
+   "name": "Bar Enza",
+   "cuisine": "Bar",
+   "address": "1 Bennett St, Cambridge",
+   "state": "MA",
+   "zip": "02138",
+   "phone": "(617) 661-5050",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/cambridge/bar-enza-/ (updated 2026-10-08), checked 2026-11-02",
+   "lat": 42.372289496535,
+   "lng": -71.122076347336,
+   "website": null,
+   "hours": "Mon-Sat 5p-10p; Sun closed",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-10-08) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/cambridge/bar-enza-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-noir",
+   "name": "Noir",
+   "cuisine": "Restaurant",
+   "address": "1 Bennett St, Cambridge",
+   "state": "MA",
+   "zip": "02138",
+   "phone": "(617) 661-8010",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/cambridge/noir-/ (updated 2026-10-11), checked 2026-11-02",
+   "lat": 42.372289496535,
+   "lng": -71.122076347336,
+   "website": null,
+   "hours": "Mon-Sat 4p-12a; Sun 5p-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-11) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/cambridge/noir-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-la-fabrica",
+   "name": "La Fabrica",
+   "cuisine": "Restaurant",
+   "address": "450 Massachusetts Ave, Cambridge",
+   "state": "MA",
+   "zip": "02139",
+   "phone": "(857) 706-1125",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/cambridge/la-fabrica-central-/ (updated 2026-10-01), checked 2026-11-02",
+   "lat": 42.363716360447,
+   "lng": -71.100987884234,
+   "website": null,
+   "hours": "Mon-Tue closed; Wed-Sat 5p-2a; Sun closed",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-01) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdType": {
+    "labels": [
+     "Live music fans",
+     "Dance / club crowd"
+    ],
+    "summary": "Known for live music; a dancing / club crowd late.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-01",
+        "url": "https://www.restaurantji.com/ma/cambridge/la-fabrica-central-/",
+        "quote": "excellent fried fish, and avocado salad with thinly sliced avocado. On Thursdays, there's live music with dancing, making for a heartwarming experience. The portion size is good and desserts",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Dance / club crowd",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-01",
+        "url": "https://www.restaurantji.com/ma/cambridge/la-fabrica-central-/",
+        "quote": "fish, and avocado salad with thinly sliced avocado. On Thursdays, there's live music with dancing, making for a heartwarming experience. The portion size is good and desserts like passion",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/cambridge/la-fabrica-central-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-izakaya-ittoku",
+   "name": "Izakaya Ittoku",
+   "cuisine": "Restaurant",
+   "address": "1815 Massachusetts Ave, Cambridge",
+   "state": "MA",
+   "zip": "02140",
+   "phone": "(617) 608-3630",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/boston/ittoku-/ (updated 2026-11-04), checked 2026-11-02",
+   "lat": 42.387637979771,
+   "lng": -71.119115680464,
+   "website": null,
+   "hours": "Daily 4p-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-11-04) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/boston/ittoku-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-cafe-mami",
+   "name": "Cafe Mami",
+   "cuisine": "Restaurant",
+   "address": "1815 Massachusetts Ave, Cambridge",
+   "state": "MA",
+   "zip": "02140",
+   "phone": "(617) 547-9130",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/cambridge/cafe-mami-/ (updated 2026-10-02), checked 2026-11-02",
+   "lat": 42.387637979771,
+   "lng": -71.119115680464,
+   "website": null,
+   "hours": "Mon 11:45a-9p; Tue closed; Wed-Thu 11:45a-9p; Fri-Sun 11:45a-4p,5p-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-02) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/cambridge/cafe-mami-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-veggie-grill-harvard",
+   "name": "Veggie Grill - Harvard",
+   "cuisine": "Bar & grill",
+   "address": "57 John F. Kennedy St, Cambridge",
+   "state": "MA",
+   "zip": "02138",
+   "phone": "(617) 275-8909",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/cambridge/veggie-grill-/ (updated 2026-10-29), checked 2026-11-02",
+   "lat": 42.371930554993,
+   "lng": -71.12080835623,
+   "website": null,
+   "hours": "Mon-Thu 11a-11p; Fri-Sat 11a-12a; Sun 11a-11p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-10-29) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-29",
+        "url": "https://www.restaurantji.com/ma/cambridge/veggie-grill-/",
+        "quote": "ssed by the attention to detail and the quality of each dish, which is comparable to more upscale restaurants but served in a fast casual setting. Many reviews highlight the variety of he",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/cambridge/veggie-grill-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-an-nam-at-harvard",
+   "name": "An Nam at Harvard",
+   "cuisine": "Restaurant",
+   "address": "57 John F. Kennedy St, Cambridge",
+   "state": "MA",
+   "zip": "02138",
+   "phone": "(617) 945-1002",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/cambridge/an-nam-at-harvard-/ (updated 2026-09-18), checked 2026-11-02",
+   "lat": 42.371930554993,
+   "lng": -71.12080835623,
+   "website": null,
+   "hours": "Mon-Wed closed; Thu 11a-9p; Fri-Sat 11:30a-9p; Sun closed",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-09-18) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/cambridge/an-nam-at-harvard-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-monteverdi",
+   "name": "Monteverdi",
+   "cuisine": "Restaurant",
+   "address": "40 Edwin H Land Blvd, Cambridge",
+   "state": "MA",
+   "zip": "02142",
+   "phone": "(617) 806-4100",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/cambridge/monteverdi-/ (updated 2026-11-03), checked 2026-11-02",
+   "lat": 42.366828007376,
+   "lng": -71.075345488898,
+   "website": null,
+   "hours": "Mon-Thu 4p-11p; Fri-Sat 4p-12a; Sun 4p-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-11-03) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/cambridge/monteverdi-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-kaveri-indian-bistro",
+   "name": "KAVERI INDIAN BISTRO",
+   "cuisine": "Indian",
+   "address": "1680 Massachusetts Ave Ste 2, Cambridge",
+   "state": "MA",
+   "zip": "02138",
+   "phone": "(617) 441-5566",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/cambridge/kaveri-indian-bistro-/ (updated 2026-10-14), checked 2026-11-02",
+   "lat": 42.382474348421,
+   "lng": -71.119794301283,
+   "website": null,
+   "hours": "Daily 11:30a-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Date night"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-10-14) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/cambridge/kaveri-indian-bistro-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-boston-burger-company-cambridge",
+   "name": "Boston Burger Company",
+   "cuisine": "Restaurant",
+   "address": "1105 Massachusetts Ave, Cambridge",
+   "state": "MA",
+   "zip": "02138",
+   "phone": "(857) 242-3605",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/cambridge/boston-burger-company-/ (updated 2026-11-04), checked 2026-11-02",
+   "lat": 42.370544609305,
+   "lng": -71.113412143876,
+   "website": null,
+   "hours": "Daily 11a-12:30a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-11-04) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/cambridge/boston-burger-company-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-chef-zhang-cuisine-and-bar",
+   "name": "Chef Zhang Cuisine & Bar 张师傅小炒黄牛肉",
+   "cuisine": "Bar",
+   "address": "1105 Massachusetts Ave, Cambridge",
+   "state": "MA",
+   "zip": "02138",
+   "phone": "(617) 945-1361",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/cambridge/chef-zhang-cuisine-and-bar-zhang-shi-fu-xiao-chao-huang-niu-rou-/ (updated 2026-10-11), checked 2026-11-02",
+   "lat": 42.370544609305,
+   "lng": -71.113412143876,
+   "website": null,
+   "hours": "Mon 11a-9:30p; Tue-Sat 11a-10p; Sun 11a-9:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-10-11) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/cambridge/chef-zhang-cuisine-and-bar-zhang-shi-fu-xiao-chao-huang-niu-rou-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-gato-exotico",
+   "name": "Gato Exotico",
+   "cuisine": "Restaurant",
+   "address": "100 Cambridgeside Pl, Cambridge",
+   "state": "MA",
+   "zip": "02141",
+   "phone": "(617) 528-9719",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/cambridge/gato-exotico-/ (updated 2026-10-22), checked 2026-11-02",
+   "lat": 42.367170949046,
+   "lng": -71.076630914061,
+   "website": null,
+   "hours": "Mon-Thu 12p-9:30p; Fri-Sat 12p-11p; Sun 12p-9:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-22) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-22",
+        "url": "https://www.restaurantji.com/ma/cambridge/gato-exotico-/",
+        "quote": "g to an enjoyable dining experience. While the lighting may be a bit dark, it adds to the romantic ambiance. Overall, Gato Exotico has garnered positive feedback for its combination of gre",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/cambridge/gato-exotico-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-the-lexington",
+   "name": "The Lexington",
+   "cuisine": "Restaurant",
+   "address": "100 North First St Fl 2, Cambridge",
+   "state": "MA",
+   "zip": "02141",
+   "phone": "(617) 945-1349",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/cambridge/the-lexington-2/ (updated 2026-10-28), checked 2026-11-02",
+   "lat": 42.367189532264,
+   "lng": -71.077657292351,
+   "website": null,
+   "hours": "Mon-Sat 4p-10p; Sun closed",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-28) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Date night / upscale"
+    ],
+    "summary": "Family-friendly; a date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/ma/cambridge/the-lexington-2/",
+        "quote": "service. With a contemporary American menu and a new kids menu, it is a great choice for families. The Lexington's seasonal outdoor rooftop deck provides a relaxing atmosphere for casual",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/ma/cambridge/the-lexington-2/",
+        "quote": "Reservations are now more accessible, making it a recommended choice for those seeking an upscale yet casual dining experience. The restaurant is also accommodating to dietary needs, ensu",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/cambridge/the-lexington-2/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-sushi-kingdom",
+   "name": "Sushi Kingdom",
+   "cuisine": "Japanese",
+   "address": "1001 Massachusetts Ave, Cambridge",
+   "state": "MA",
+   "zip": "02138",
+   "phone": "(617) 665-5588",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/cambridge/sushi-kingdom-/ (updated 2026-10-22), checked 2026-11-02",
+   "lat": 42.369917839576,
+   "lng": -71.112599316126,
+   "website": null,
+   "hours": "Mon-Thu 11:30a-10p; Fri-Sat 11:30a-10:30p; Sun 12:15p-9:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-22) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/cambridge/sushi-kingdom-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-cinderellas-italian-halal-restaurant",
+   "name": "Cinderellas Italian-Halal restaurant",
+   "cuisine": "Italian",
+   "address": "187 Hampshire St, Cambridge",
+   "state": "MA",
+   "zip": "02139",
+   "phone": "(617) 576-0280",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/cambridge/cinderellas-bar-and-restaurant-/ (updated 2026-10-11), checked 2026-11-02",
+   "lat": 42.372641886956,
+   "lng": -71.099411573629,
+   "website": null,
+   "hours": "Daily 11a-11:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Date night"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-10-11) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/cambridge/cinderellas-bar-and-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
    }
   }
  ],

@@ -292,8 +292,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/needham/hungry-coyote-/ (updated 2026-10-19), checked 2026-11-02",
    "lat": 42.287018806919,
    "lng": -71.235113801432,
-   "website": "https://www.hungry-coyote.com/",
-   "websiteSource": "OpenStreetMap node/4760599594 website tag (map data 2026-11-03), checked 2026-11-02",
+   "website": null,
    "hours": "Daily 11a-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -311,7 +310,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.hungry-coyote.com/"
-   }
+   },
+   "websiteNote": "removed https://www.hungry-coyote.com/: domain now serves a gambling site (checked 2026-11-05)"
   },
   {
    "id": "ma-little-spoon",
@@ -644,37 +644,6 @@
    }
   },
   {
-   "id": "ma-the-cookie-monstah-needham",
-   "name": "The Cookie Monstah",
-   "cuisine": "Restaurant",
-   "address": "1257 Highland Ave, Needham",
-   "state": "MA",
-   "zip": "02492",
-   "phone": "(781) 400-2103",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/needham/the-cookie-monstah-/ (updated 2026-10-27), checked 2026-11-02",
-   "lat": 42.284800787752,
-   "lng": -71.235929687945,
-   "website": null,
-   "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-9p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from Restaurantji listing (updated 2026-10-27) (checked 2026-11-02)",
-   "county": "Norfolk",
-   "crowdChecked": "2026-11-02",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/ma/needham/the-cookie-monstah-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   }
-  },
-  {
    "id": "ma-the-farmhouse",
    "name": "The Farmhouse",
    "cuisine": "Restaurant",
@@ -811,6 +780,73 @@
      }
     ],
     "checked": "2026-11-05"
+   }
+  },
+  {
+   "id": "ma-conrads-restaurant-needham",
+   "name": "Conrad's Restaurant",
+   "cuisine": "Restaurant",
+   "address": "1257 Highland Ave, Needham",
+   "state": "MA",
+   "zip": "02492",
+   "phone": "(781) 675-8500",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/needham/conrad-s-restaurant-/ (updated 2026-09-10), checked 2026-11-02",
+   "lat": 42.284800787752,
+   "lng": -71.235929687945,
+   "website": null,
+   "hours": "Daily 11:30a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-09-10) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Norfolk",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-10",
+        "url": "https://www.restaurantji.com/ma/needham/conrad-s-restaurant-/",
+        "quote": "Conrad's Restaurant is a family-friendly, casual neighborhood spot known for its huge menu and good food. The ambiance is easy and relaxed, making it suitab",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-10",
+        "url": "https://www.restaurantji.com/ma/needham/conrad-s-restaurant-/",
+        "quote": "Conrad's Restaurant is a family-friendly, casual neighborhood spot known for its huge menu and good food. The ambiance is easy and",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/needham/conrad-s-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
    }
   }
  ],

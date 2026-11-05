@@ -376,15 +376,15 @@
    "lng": -70.665600738849,
    "website": "https://www.bangkokcapecod.com/",
    "websiteSource": "OpenStreetMap node/6383944404 website tag (map data 2026-11-03), checked 2026-11-02",
-   "hours": "Mon-Sat 12p-9p; Sun 4p-9:30p",
-   "hoursNote": null,
+   "hours": "Mon-Fri 12p-3p,4p-9p; Sat 12p-9p; Sun 4p-9p",
+   "hoursNote": "OpenStreetMap/Restaurantji may differ; venue site lists weekday lunch 12–3 and dinner 4–9 with a mid-afternoon break.",
    "kitchen": null,
    "kitchenNote": null,
    "happyHours": [],
    "specials": [],
    "crowd": null,
    "vibes": [],
-   "source": "hours from Restaurantji listing (updated 2026-10-22) (checked 2026-11-02)",
+   "source": "hours from Restaurantji listing (updated 2026-10-22) (checked 2026-11-02); hours from venue website bangkokcapecod.com Plymouth: \"Open Everyday Lunch & Dinner 12:00 - 3:00pm. 4:00pm - 9:00pm. Sat.12:00 to 9:00pm. Sunday 4:00-9:00pm.\" (checked 2026-11-05)",
    "county": "Plymouth",
    "crowdType": {
     "labels": [
@@ -1214,8 +1214,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/plymouth/kogi-bar-and-grill-/ (updated 2026-11-04), checked 2026-11-02",
    "lat": 41.95638264402,
    "lng": -70.664298469428,
-   "website": "https://www.kogikoreanbbq.com/",
-   "websiteSource": "OpenStreetMap node/6383944402 website tag (map data 2026-11-03), checked 2026-11-02",
+   "website": null,
    "hours": "Mon 11:30a-8p; Tue-Wed 11:30a-8:30p; Thu-Sat 11:30a-9p; Sun 11:30a-8p",
    "hoursNote": null,
    "kitchen": null,
@@ -1235,7 +1234,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.kogikoreanbbq.com/"
-   }
+   },
+   "websiteNote": "removed https://www.kogikoreanbbq.com/: domain now serves a gambling site (checked 2026-11-05)"
   },
   {
    "id": "ma-la-baia",
@@ -1375,7 +1375,7 @@
    "lng": -70.664336465573,
    "website": "https://mainstreetsportsbarandgrill.com/",
    "websiteSource": "OpenStreetMap node/6383759674 website tag (map data 2026-11-03), checked 2026-11-02",
-   "hours": "Mon-Wed 5p-12:30a; Thu-Fri 11:30a-12:30a; Sat-Sun 11a-12:30a",
+   "hours": "Mon-Fri 11:30a-12:30a; Sat-Sun 11a-12:30a",
    "hoursNote": null,
    "kitchen": null,
    "kitchenNote": null,
@@ -1385,7 +1385,7 @@
    "vibes": [
     "Bar scene"
    ],
-   "source": "hours from Restaurantji listing (updated 2026-08-21) (checked 2026-11-02)",
+   "source": "hours from Restaurantji listing (updated 2026-08-21) (checked 2026-11-02); hours from venue website mainstreetsportsbarandgrill.com: \"Monday–Friday 11:30am-12:30AM Saturday–Sunday 11AM-12:30AM\" (checked 2026-11-05)",
    "county": "Plymouth",
    "crowdType": {
     "labels": [
@@ -1473,7 +1473,7 @@
    "vibes": [
     "Bar scene"
    ],
-   "source": "hours from Restaurantji listing (updated 2026-11-05) (checked 2026-11-02)",
+   "source": "hours from Restaurantji listing (updated 2026-11-05) (checked 2026-11-02); hours confirmed on venue website mallebarbrasserie.com Dinner Tues-Thurs 4-9 Fri-Sat 4-10 (checked 2026-11-05)",
    "county": "Plymouth",
    "crowdType": {
     "labels": [
@@ -1504,7 +1504,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.mallebarbrasserie.com/"
-   }
+   },
+   "hoursChecked": "2026-11-05"
   },
   {
    "id": "ma-mamma-mias-restaurants",
@@ -3421,6 +3422,347 @@
      }
     ],
     "checked": "2026-11-05"
+   }
+  },
+  {
+   "id": "ma-georgios-house-of-pizza-carver",
+   "name": "Georgio's House of Pizza",
+   "cuisine": "Pizza",
+   "address": "105 Main Street Suite 5, Carver",
+   "state": "MA",
+   "zip": "02330",
+   "phone": "(508) 866-3919",
+   "phoneSource": "Restaurantji listing, checked 2026-11-05",
+   "lat": 41.889184,
+   "lng": -70.769445,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Daily 11a-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing https://www.restaurantji.com/ma/carver/georgios-house-of-pizza-/ openingHours Daily 11:00-22:00 (checked 2026-11-05)",
+   "county": "Plymouth",
+   "addedBy": "gap-missed-1105",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/carver/georgios-house-of-pizza-/"
+   }
+  },
+  {
+   "id": "ma-santoros-pizza-burritos-carver",
+   "name": "Santoro's Pizza & Burritos",
+   "cuisine": "Pizza",
+   "address": "90 North Main Street, Carver",
+   "state": "MA",
+   "zip": "02330",
+   "phone": "(508) 866-7334",
+   "phoneSource": "Restaurantji listing, checked 2026-11-05",
+   "lat": 41.919721,
+   "lng": -70.802736,
+   "website": null,
+   "websiteSource": null,
+   "hours": "Daily 11a-9:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing https://www.restaurantji.com/ma/carver/santoros-pizza-/ openingHours Daily 11:00-21:30 (checked 2026-11-05)",
+   "county": "Plymouth",
+   "addedBy": "gap-missed-1105",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/carver/santoros-pizza-/"
+   }
+  },
+  {
+   "id": "ma-the-blue-eyed-crab-caribbean-grill-and-rum-bar",
+   "name": "The Blue-Eyed Crab Caribbean Grill & Rum Bar",
+   "cuisine": "Bar & grill",
+   "address": "170 Water St, Plymouth",
+   "state": "MA",
+   "zip": "02360",
+   "phone": "(508) 747-6776",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/plymouth/the-blue-eyed-crab-caribbean-grill-and-rum-bar-/ (updated 2026-09-22), checked 2026-11-02",
+   "website": null,
+   "hours": "Mon-Wed closed; Thu 4p-9p; Fri-Sat 12p-9p; Sun 11:30a-4p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-09-22) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Plymouth",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/plymouth/the-blue-eyed-crab-caribbean-grill-and-rum-bar-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-sip-at-1620-wine-bar",
+   "name": "Sip at 1620 Wine Bar",
+   "cuisine": "Bar",
+   "address": "170 Water St, Plymouth",
+   "state": "MA",
+   "zip": "02360",
+   "phone": "(508) 746-3532",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/plymouth/1620-wine-bar-/ (updated 2026-09-17), checked 2026-11-02",
+   "website": null,
+   "hours": "Mon-Tue closed; Wed-Thu 3p-9p; Fri 3p-11p; Sat 12p-11p; Sun 12p-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-09-17) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Plymouth",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Date night / upscale",
+     "Live music fans"
+    ],
+    "summary": "A locals-and-regulars spot; a date-night / upscale spot; known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-17",
+        "url": "https://www.restaurantji.com/ma/plymouth/1620-wine-bar-/",
+        "quote": "guests mention it is a hidden gem in Plymouth’s Village Landing and a place they will be regulars at. For private events, the coordination, service, and food are outstanding, making celeb",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-17",
+        "url": "https://www.restaurantji.com/ma/plymouth/1620-wine-bar-/",
+        "quote": "sic adds a delightful touch without overpowering conversation. It is a perfect spot for a date night, girls night out, or a relaxing solo visit. Many guests mention it is a hidden gem in Ply",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-17",
+        "url": "https://www.restaurantji.com/ma/plymouth/1620-wine-bar-/",
+        "quote": "caring, with staff who are friendly, quick, and fantastic. The ambiance is beautiful, and live music adds a delightful touch without overpowering conversation. It is a perfect spot for a dat",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/plymouth/1620-wine-bar-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-si-senor",
+   "name": "Si Senor",
+   "cuisine": "Restaurant",
+   "address": "2240 State Rd, Plymouth",
+   "state": "MA",
+   "zip": "02360",
+   "phone": "(774) 413-9425",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/plymouth/si-senor-/ (updated 2026-10-22), checked 2026-11-02",
+   "lat": 41.821823024232,
+   "lng": -70.550735359602,
+   "website": null,
+   "hours": "Daily 11a-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-22) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Plymouth",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/plymouth/si-senor-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-southside-pizza-and-grill",
+   "name": "Southside Pizza and Grill",
+   "cuisine": "Bar & grill",
+   "address": "2240 State Rd, Plymouth",
+   "state": "MA",
+   "zip": "02360",
+   "phone": "(774) 413-9613",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/plymouth/southside-pizza-and-grill-/ (updated 2026-11-02), checked 2026-11-02",
+   "lat": 41.821823024232,
+   "lng": -70.550735359602,
+   "website": null,
+   "hours": "Mon closed; Tue-Sun 11a-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene",
+    "Family-friendly"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-11-02) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Plymouth",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/plymouth/southside-pizza-and-grill-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-brewster-bar",
+   "name": "Brewster Bar",
+   "cuisine": "Brewery",
+   "address": "46 Main St Unit 2, Plymouth",
+   "state": "MA",
+   "zip": "02360",
+   "phone": "(413) 299-3662",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/plymouth/brewster-bar-/ (updated 2026-09-03), checked 2026-11-02",
+   "lat": 41.956594589845,
+   "lng": -70.66462488848,
+   "website": null,
+   "hours": "Mon-Tue closed; Wed-Thu 4p-11p; Fri-Sat 4p-1a; Sun 4p-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-09-03) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Plymouth",
+   "crowdType": {
+    "labels": [
+     "Live music fans",
+     "Date night / upscale"
+    ],
+    "summary": "Known for live music; a date-night / upscale spot.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-03",
+        "url": "https://www.restaurantji.com/ma/plymouth/brewster-bar-/",
+        "quote": "and spirits, with the ambiance and service making it a comfortable and fun place to enjoy live music. Popular items include spicy honey chicken tenders and zucchini fries, and live music sta",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/ma/plymouth/brewster-bar-/",
+        "quote": "live music"
+       }
+      ]
+     },
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-03",
+        "url": "https://www.restaurantji.com/ma/plymouth/brewster-bar-/",
+        "quote": "ls, along with fun and playful food. The unpretentious vibe makes it a perfect spot for a date night or hanging out with friends. Customers have praised the cocktails and desserts, and the g",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/plymouth/brewster-bar-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-vitamin-sea-brewing-plymouth",
+   "name": "Vitamin Sea Brewing Plymouth",
+   "cuisine": "Brewery",
+   "address": "98 Water St Unit 102, Plymouth",
+   "state": "MA",
+   "zip": "02360",
+   "phone": "(774) 426-4001",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/plymouth/vitamin-sea-brewing-plymouth-/ (updated 2026-11-04), checked 2026-11-02",
+   "lat": 41.959733132836,
+   "lng": -70.665168806305,
+   "website": null,
+   "hours": "Mon-Thu 11a-9p; Fri-Sat 11a-10p; Sun 11a-8p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-11-04) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Plymouth",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/plymouth/vitamin-sea-brewing-plymouth-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
    }
   }
  ],

@@ -190,8 +190,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/westford/bamboo-fine-asian-cuisine-and-sushi-bar-/ (updated 2026-10-11), checked 2026-11-02",
    "lat": 42.560136282149,
    "lng": -71.430353674611,
-   "website": "https://www.bamboogourmet.com/",
-   "websiteSource": "OpenStreetMap node/2247460353 website tag (map data 2026-11-03), checked 2026-11-02",
+   "website": null,
    "hours": "Mon-Thu 11:30a-9:30p; Fri-Sat 11:30a-10:30p; Sun 11:30a-9:30p",
    "hoursNote": null,
    "kitchen": null,
@@ -211,7 +210,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.bamboogourmet.com/"
-   }
+   },
+   "websiteNote": "removed https://www.bamboogourmet.com/: domain now serves a gambling site (checked 2026-11-05)"
   },
   {
    "id": "ma-beijing-tasty-house",
@@ -3585,37 +3585,6 @@
    "crowdChecked": "2026-11-02",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/ma/chelmsford/nobo-restaurant-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": null
-   }
-  },
-  {
-   "id": "ma-not-your-average-joes-acton",
-   "name": "Not Your Average Joe's - Acton",
-   "cuisine": "Restaurant",
-   "address": "305 Main St, Acton",
-   "state": "MA",
-   "zip": "01720",
-   "phone": "(978) 635-0101",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/acton/not-your-average-joes-/ (updated 2026-09-22), checked 2026-11-02",
-   "lat": 42.476552383772,
-   "lng": -71.450871391686,
-   "website": null,
-   "hours": "Mon-Thu 11:30a-9p; Fri 11:30a-10p; Sat 10a-10p; Sun 10a-9p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from Restaurantji listing (updated 2026-09-22) (checked 2026-11-02)",
-   "county": "Middlesex",
-   "crowdChecked": "2026-11-02",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/ma/acton/not-your-average-joes-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,
@@ -7052,6 +7021,945 @@
    "crowdChecked": "2026-11-02",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/ma/acton/spicepepper-garden-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-dicapri-pizzeria-acton",
+   "name": "DiCapri Pizzeria",
+   "cuisine": "Pizza",
+   "address": "576 Massachusetts Avenue, Acton",
+   "state": "MA",
+   "zip": "01720",
+   "phone": "(978) 263-4700",
+   "phoneSource": "OpenStreetMap node/10762052105 phone tag (map data 2026-11-03), checked 2026-11-05",
+   "lat": 42.476022,
+   "lng": -71.47389,
+   "website": "https://www.dicapripizza.com/",
+   "websiteSource": "OpenStreetMap node/10762052105 website tag (map data 2026-11-03), checked 2026-11-05",
+   "hours": "Mon-Sat 11a-9p",
+   "hoursNote": "OpenStreetMap lists hours only for the days shown; other days are closed or not listed. Call to confirm.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/10762052105 opening_hours tag (map data 2026-11-03; last checked on the map 2026-10-03) (checked 2026-11-05); late hours confirmed by venue website https://www.dicapripizza.com/: \"| Order Online | Order Online | We're Open: | Monday | 11 am - 8 pm | Tuesday to Saturday | 11 am - 9 pm | Sunday \" (checked 2026-11-05)",
+   "county": "Middlesex",
+   "addedBy": "deep-rescan-1105"
+  },
+  {
+   "id": "ma-cafeto-lowell",
+   "name": "Cafeto",
+   "cuisine": "Restaurant",
+   "address": "1018 Gorham St, Lowell",
+   "state": "MA",
+   "zip": null,
+   "phone": "(978) 455-2644",
+   "phoneSource": "OpenStreetMap node/13953229295 phone tag (map data 2026-11-03), checked 2026-11-05",
+   "lat": 42.627609,
+   "lng": -71.307726,
+   "website": "https://cafetolowellma.com",
+   "websiteSource": "OpenStreetMap node/13953229295 website tag (map data 2026-11-03), checked 2026-11-05",
+   "hours": "Mon-Thu 8a-9p; Fri-Sat 8a-2a; Sun 8a-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap node/13953229295 opening_hours tag (map data 2026-11-03) (checked 2026-11-05); late hours confirmed by venue website https://cafetolowellma.com: \" pm | Tue | 7:00 am - 9:00 pm | Wed | 7:00 am - 9:00 pm | Thu | 7:00 am - 9:00 pm | Fri | 7:00 am - 2:00 am | Sat | 7\" (checked 2026-11-05)",
+   "county": "Middlesex",
+   "addedBy": "deep-rescan-1105"
+  },
+  {
+   "id": "ma-nashoba-club-pizza-restaurant-ayer",
+   "name": "Nashoba Club Pizza Restaurant",
+   "cuisine": "Pizza",
+   "address": "14 Central Avenue, Ayer",
+   "state": "MA",
+   "zip": "01432",
+   "phone": null,
+   "phoneSource": null,
+   "lat": 42.559645,
+   "lng": -71.584954,
+   "website": "https://www.nashobaclubpizza.com/",
+   "websiteSource": "OpenStreetMap way/211848344 website tag (map data 2026-11-03), checked 2026-11-05",
+   "hours": "Tue-Sun 11:30a-9p",
+   "hoursNote": "OpenStreetMap lists hours only for the days shown; other days are closed or not listed. Call to confirm.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/211848344 opening_hours tag (map data 2026-11-03) (checked 2026-11-05); late hours confirmed by venue website https://www.nashobaclubpizza.com/: \"| Monday Closed Tuesday 11:30 am - 9 pm Wednesday\" (checked 2026-11-05)",
+   "county": "Middlesex",
+   "addedBy": "deep-rescan-1105"
+  },
+  {
+   "id": "ma-village-pizza-shirley",
+   "name": "Village Pizza",
+   "cuisine": "American",
+   "address": "10 Main Street, Shirley",
+   "state": "MA",
+   "zip": "01464",
+   "phone": "(978) 425-9502",
+   "phoneSource": "OpenStreetMap way/215971501 phone tag (map data 2026-11-03), checked 2026-11-05",
+   "lat": 42.54451,
+   "lng": -71.655208,
+   "website": "https://www.villagepizzashirley.com/",
+   "websiteSource": "OpenStreetMap way/215971501 website tag (map data 2026-11-03), checked 2026-11-05",
+   "hours": "Mon-Sat 11a-9p",
+   "hoursNote": "OpenStreetMap lists hours only for the days shown; other days are closed or not listed. Call to confirm.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from OpenStreetMap way/215971501 opening_hours tag (map data 2026-11-03) (checked 2026-11-05); late hours confirmed by venue website https://www.villagepizzashirley.com/: \"They have great subs and fish dinners.\" Meredith M | Our office hours are: | Mon - Sat: 10:00 am - 9:00 pm | Home | \" (checked 2026-11-05)",
+   "county": "Middlesex",
+   "addedBy": "deep-rescan-1105"
+  },
+  {
+   "id": "ma-herradura-vieja-restaurante-mexicano",
+   "name": "Herradura Vieja Restaurante Mexicano",
+   "cuisine": "Mexican",
+   "address": "7 Summer St, Chelmsford",
+   "state": "MA",
+   "zip": "01824",
+   "phone": "(978) 455-3954",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/chelmsford/herradura-vieja-restaunte-mexicano-/ (updated 2026-10-10), checked 2026-11-02",
+   "lat": 42.594393161288,
+   "lng": -71.347986988071,
+   "website": null,
+   "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 12p-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-10) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/chelmsford/herradura-vieja-restaunte-mexicano-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-sichuan-palace",
+   "name": "Sichuan Palace",
+   "cuisine": "Chinese",
+   "address": "7 Summer St Suite 17, Chelmsford",
+   "state": "MA",
+   "zip": "01824",
+   "phone": "(978) 256-8545",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/chelmsford/sichuan-palace-restaurant-/ (updated 2026-11-05), checked 2026-11-02",
+   "lat": 42.594393161288,
+   "lng": -71.347986988071,
+   "website": null,
+   "hours": "Daily 11:30a-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-11-05) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/chelmsford/sichuan-palace-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-priya-indian-cuisine-lowell",
+   "name": "Priya Indian Cuisine",
+   "cuisine": "Indian",
+   "address": "1270 Westford St, Lowell",
+   "state": "MA",
+   "zip": "01851",
+   "phone": "(978) 454-7777",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/lowell/priya-indian-cuisine-/ (updated 2026-11-05), checked 2026-11-02",
+   "lat": 42.626570932514,
+   "lng": -71.358502447062,
+   "website": null,
+   "hours": "Mon-Fri 11:30a-2:30p,5p-10p; Sat-Sun 12p-3:30p,5p-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Date night"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-11-05) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/lowell/priya-indian-cuisine-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-cottage-restaurant",
+   "name": "Cottage Restaurant",
+   "cuisine": "Restaurant",
+   "address": "18 Main St, Ayer",
+   "state": "MA",
+   "zip": "01432",
+   "phone": "(978) 772-2565",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/ayer/cottage-restaurant-/ (updated 2026-09-22), checked 2026-11-02",
+   "lat": 42.559326926541,
+   "lng": -71.587560885668,
+   "website": null,
+   "hours": "Mon closed; Tue-Sun 11a-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-09-22) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/ayer/cottage-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-asian-plus-noodle-and-rice",
+   "name": "Asian Plus Noodle & Rice",
+   "cuisine": "Restaurant",
+   "address": "313 Littleton Rd, Westford",
+   "state": "MA",
+   "zip": "01886",
+   "phone": "(978) 577-6425",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/westford/asian-plus-noodle-and-rice-/ (updated 2026-10-30), checked 2026-11-02",
+   "lat": 42.554158873423,
+   "lng": -71.449872475588,
+   "website": null,
+   "hours": "Daily 11:30a-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-30) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/westford/asian-plus-noodle-and-rice-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-udomsuk-thai-kitchen-and-bar",
+   "name": "Udomsuk Thai Kitchen and Bar",
+   "cuisine": "Thai",
+   "address": "313 Littleton Rd Ste2, Chelmsford",
+   "state": "MA",
+   "zip": "01824",
+   "phone": "(978) 250-9509",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/chelmsford/udomsuk-thai-kitchen-/ (updated 2026-09-15), checked 2026-11-02",
+   "lat": 42.581356644335,
+   "lng": -71.390692584279,
+   "website": null,
+   "hours": "Mon-Thu 11:30a-3p,4:30p-9p; Fri 11:30a-3p,4:30p-9:30p; Sat 12p-9:30p; Sun 12p-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-09-15) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/chelmsford/udomsuk-thai-kitchen-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-bawarchi-biryanis",
+   "name": "Bawarchi Biryanis",
+   "cuisine": "Restaurant",
+   "address": "18 Pondview Pl Unit 24, Tyngsborough",
+   "state": "MA",
+   "zip": "01879",
+   "phone": "(978) 419-4332",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/tyngsborough/bawarchi-biryanis-/ (updated 2026-09-12), checked 2026-11-02",
+   "lat": 42.688314497332,
+   "lng": -71.432257153122,
+   "website": null,
+   "hours": "Mon-Thu 11a-10p; Fri-Sat 11a-11p; Sun 11a-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-09-12) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/tyngsborough/bawarchi-biryanis-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-the-smoke-shop-bbq-chelmsford",
+   "name": "The Smoke Shop BBQ - Chelmsford",
+   "cuisine": "Barbecue",
+   "address": "18 Boston Rd Suite 100, Chelmsford",
+   "state": "MA",
+   "zip": "01824",
+   "phone": "(978) 256-7427",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/chelmsford/the-smoke-shop-bbq-chelmsford-/ (updated 2026-09-18), checked 2026-11-02",
+   "lat": 42.593843135656,
+   "lng": -71.351223977997,
+   "website": null,
+   "hours": "Mon-Wed 4p-9p; Thu 11:30a-9p; Fri-Sat 11:30a-10p; Sun 11:30a-8p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-09-18) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-18",
+        "url": "https://www.restaurantji.com/ma/chelmsford/the-smoke-shop-bbq-chelmsford-/",
+        "quote": "hicken, which are enjoyed by both kids and adults. The restaurant is suitable for groups, families, or individuals, with the bar area offering a nice spot to relax. Service is often descri",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/chelmsford/the-smoke-shop-bbq-chelmsford-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-brothers-sports-bar-and-grille",
+   "name": "Brothers Sports Bar & Grille",
+   "cuisine": "Bar & grill",
+   "address": "101 Broadway Rd Suite 1, Dracut",
+   "state": "MA",
+   "zip": "01826",
+   "phone": "(978) 453-0083",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/dracut/brothers-pizza-/ (updated 2026-11-05), checked 2026-11-02",
+   "lat": 42.674430547929,
+   "lng": -71.294649770889,
+   "website": null,
+   "hours": "Mon-Sat 11a-10p; Sun 11a-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-11-05) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdType": {
+    "labels": [
+     "Sports fans"
+    ],
+    "summary": "Popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-11-05",
+        "url": "https://www.restaurantji.com/ma/dracut/brothers-pizza-/",
+        "quote": "Brothers Sports Bar & Grille offers great food, including the popular Philly cheesesteak sub and California B",
+        "agg": true
+       },
+       {
+        "type": "reviews",
+        "src": "Restaurantji review #3",
+        "url": "https://www.restaurantji.com/ma/dracut/brothers-pizza-/",
+        "quote": "ad an absolutely wonderful experience celebrating my husband’s 40th birthday at Brother's Sports Bar & Grille in Dracut! From the moment we arrived, everything was perfect. The food was amaz"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/dracut/brothers-pizza-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-p-and-d-indian-fast-food",
+   "name": "P & D Indian Fast Food",
+   "cuisine": "Indian",
+   "address": "1717 Middlesex St STE 1, Lowell",
+   "state": "MA",
+   "zip": "01851",
+   "phone": "(978) 394-7451",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/lowell/p-and-d-indian-fast-food-/ (updated 2026-10-04), checked 2026-11-02",
+   "lat": 42.635278334223,
+   "lng": -71.3532335635,
+   "website": null,
+   "hours": "Mon 11a-2p,4p-8p; Tue closed; Wed-Thu 11a-2p,4p-8p; Fri-Sat 11a-9p; Sun 11a-8p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Date night"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-10-04) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/lowell/p-and-d-indian-fast-food-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-platinos-grill",
+   "name": "Platinos Grill",
+   "cuisine": "Bar & grill",
+   "address": "1717 Middlesex St 2nd fl, Lowell",
+   "state": "MA",
+   "zip": "01851",
+   "phone": "(978) 674-9225",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/lowell/la-pradera-bar-and-grill-/ (updated 2026-10-11), checked 2026-11-02",
+   "lat": 42.635278334223,
+   "lng": -71.3532335635,
+   "website": null,
+   "hours": "Mon closed; Tue 11a-6:30p; Wed 11a-12a; Thu-Sun 11a-1a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-10-11) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-11",
+        "url": "https://www.restaurantji.com/ma/lowell/la-pradera-bar-and-grill-/",
+        "quote": "pacious yet intimate restaurant with a Latin atmosphere, perfect for family gatherings or date nights. The traditional Latin American dishes are of excellent quality, accompanied by pleasant",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/lowell/la-pradera-bar-and-grill-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-dae-gee-korean-bbq",
+   "name": "DAE GEE KOREAN BBQ",
+   "cuisine": "Barbecue",
+   "address": "83 Parkhurst Rd unit (Unit 3, Chelmsford",
+   "state": "MA",
+   "zip": "01824",
+   "phone": "(978) 265-2320",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/chelmsford/dae-gee-korean-bbq-/ (updated 2026-09-12), checked 2026-11-02",
+   "lat": 42.625062228162,
+   "lng": -71.359950721527,
+   "website": null,
+   "hours": "Mon-Wed 4p-11p; Thu-Sat 12p-11p; Sun 12p-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-09-12) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-12",
+        "url": "https://www.restaurantji.com/ma/chelmsford/dae-gee-korean-bbq-/",
+        "quote": "described as fantastic, awesome, and one of the best, with many noting it is perfect for date nights, family gatherings, or celebrations. The service is consistently highlighted as excellen",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/chelmsford/dae-gee-korean-bbq-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-lus-kitchen",
+   "name": "Lu's Kitchen",
+   "cuisine": "Restaurant",
+   "address": "83 Parkhurst Rd, Chelmsford",
+   "state": "MA",
+   "zip": "01824",
+   "phone": "(978) 453-2873",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/chelmsford/lus-kitchen-/ (updated 2026-11-05), checked 2026-11-02",
+   "lat": 42.625062228162,
+   "lng": -71.359950721527,
+   "website": null,
+   "hours": "Mon closed; Tue-Thu 11a-9p; Fri-Sat 11a-10p; Sun 12p-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-11-05) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/chelmsford/lus-kitchen-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-sushi-yanagi",
+   "name": "Sushi Yanagi",
+   "cuisine": "Japanese",
+   "address": "83 Parkhurst Rd, Chelmsford",
+   "state": "MA",
+   "zip": "01824",
+   "phone": "(978) 455-5598",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/chelmsford/sushi-yanagi-2/ (updated 2026-10-12), checked 2026-11-02",
+   "lat": 42.625062228162,
+   "lng": -71.359950721527,
+   "website": null,
+   "hours": "Mon-Thu 11a-9:30p; Fri-Sat 11a-10:30p; Sun 12p-9:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-12) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/chelmsford/sushi-yanagi-2/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-sport-zone",
+   "name": "Sport Zone",
+   "cuisine": "Restaurant",
+   "address": "1734 Lakeview Ave Suite 4, Dracut",
+   "state": "MA",
+   "zip": "01826",
+   "phone": "(978) 957-4623",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/dracut/sport-zone-/ (updated 2026-10-28), checked 2026-11-02",
+   "lat": 42.679339783282,
+   "lng": -71.341639341529,
+   "website": null,
+   "hours": "Mon closed; Tue-Thu 3p-12a; Fri-Sun 11a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-28) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdType": {
+    "labels": [
+     "Families",
+     "Sports fans"
+    ],
+    "summary": "Family-friendly; popular for watching games.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/ma/dracut/sport-zone-/",
+        "quote": "nd generous portions. The staff is attentive, and the atmosphere is clean, enjoyable, and family-friendly. It's a great place to watch games, eat, and socialize with other customers. Whether you'",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Sports fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-28",
+        "url": "https://www.restaurantji.com/ma/dracut/sport-zone-/",
+        "quote": "arking spots outside the restaurant. The restaurant has a welcoming bar with good TVs for watching games. The menu includes options such as the quesadilla special, chicken stir fry, and spinach",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/dracut/sport-zone-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-oharas-tavern",
+   "name": "O'Hara's Tavern",
+   "cuisine": "Pub",
+   "address": "1734 Lakeview Ave Suite 21, Dracut",
+   "state": "MA",
+   "zip": "01826",
+   "phone": "(978) 957-0271",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/dracut/oharas-tavern-/ (updated 2026-10-11), checked 2026-11-02",
+   "lat": 42.679339783282,
+   "lng": -71.341639341529,
+   "website": null,
+   "hours": "Daily 11a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-10-11) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/dracut/oharas-tavern-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-shabu-shack-lowell",
+   "name": "Shabu Shack Lowell",
+   "cuisine": "Restaurant",
+   "address": "255 Chelmsford St, Lowell",
+   "state": "MA",
+   "zip": "01851",
+   "phone": "(978) 319-9172",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/lowell/shabu-shack-lowell-/ (updated 2026-11-02), checked 2026-11-02",
+   "lat": 42.632594069689,
+   "lng": -71.319097246915,
+   "website": null,
+   "hours": "Mon 11a-8:30p; Tue closed; Wed-Thu 11a-8:30p; Fri-Sun 11a-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-11-02) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdType": {
+    "labels": [
+     "Date night / upscale"
+    ],
+    "summary": "A date-night / upscale spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Date night / upscale",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-11-02",
+        "url": "https://www.restaurantji.com/ma/lowell/shabu-shack-lowell-/",
+        "quote": "e ingredients, and the decor adds to the inviting atmosphere. It is a perfect place for a date night or a small gathering with friends and family. Even though it can be a little pricey, the",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/lowell/shabu-shack-lowell-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-tavern-on-the-line",
+   "name": "Tavern on the Line",
+   "cuisine": "Pub",
+   "address": "1794 Bridge St Suite 33a, Dracut",
+   "state": "MA",
+   "zip": "01826",
+   "phone": "(978) 452-0500",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/dracut/tavern-on-the-line-/ (updated 2026-10-01), checked 2026-11-02",
+   "lat": 42.684484794742,
+   "lng": -71.310434206259,
+   "website": null,
+   "hours": "Daily 11:30a-12a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-10-01) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars",
+     "Families"
+    ],
+    "summary": "A locals-and-regulars spot; family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-01",
+        "url": "https://www.restaurantji.com/ma/dracut/tavern-on-the-line-/",
+        "quote": "o enjoy the delicious food, including the awesome pizza and burgers. The place has a cozy neighborhood bar feel, and the dining experience is generally good, with clean facilities and ample parkin",
+        "agg": true
+       }
+      ]
+     },
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-01",
+        "url": "https://www.restaurantji.com/ma/dracut/tavern-on-the-line-/",
+        "quote": "the Perfect Manhattan. The prime rib and sandwiches are also highly recommended. It is a great spot for families or anyone seeking a welcoming dining experience. The restaurant has a lively and authenti",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/dracut/tavern-on-the-line-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-a-brews-tap-and-grill",
+   "name": "A-Brews Tap & Grill",
+   "cuisine": "Brewery",
+   "address": "1794 Bridge St Ste 1A, Dracut",
+   "state": "MA",
+   "zip": "01826",
+   "phone": "(978) 458-0555",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/dracut/abrews-tap-and-grill-/ (updated 2026-11-05), checked 2026-11-02",
+   "lat": 42.684484794742,
+   "lng": -71.310434206259,
+   "website": null,
+   "hours": "Mon closed; Tue 3p-11:30p; Wed-Thu 3p-2a; Fri-Sun 11:30a-2a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-11-05) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "karaoke": {
+    "nights": [],
+    "hints": [
+     "Restaurantji review/summary mentions karaoke"
+    ],
+    "stale": false,
+    "oneoffs": [],
+    "conflicts": []
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/dracut/abrews-tap-and-grill-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "ma-the-hangout-bar-and-grill",
+   "name": "The Hangout Bar & Grill",
+   "cuisine": "Bar & grill",
+   "address": "1794 Bridge St, Dracut",
+   "state": "MA",
+   "zip": "01826",
+   "phone": "(978) 746-8165",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/dracut/the-hangout-bar-and-grill-/ (updated 2026-10-11), checked 2026-11-02",
+   "lat": 42.684484794742,
+   "lng": -71.310434206259,
+   "website": null,
+   "hours": "Mon-Wed 3p-11p; Thu 11a-11p; Fri-Sat 11a-11:30p; Sun 11a-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-10-11) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Middlesex",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/dracut/the-hangout-bar-and-grill-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,

@@ -221,7 +221,7 @@
         "website": "https://juncalmex.com/",
         "instagram": "https://www.instagram.com/juncalri",
         "socialOsm": "OpenStreetMap node/14101466201 contact tags (map data 2026-11-03), checked 2026-11-05",
-        "facebook": "https://www.facebook.com/profile.php",
+        "facebook": null,
         "socialWebsite": "linked from venue website https://juncalmex.com/, checked 2026-11-05",
         "socialChecked": "2026-11-05",
         "socialStatus": "ok",
@@ -529,6 +529,73 @@
       "crowdChecked": "2026-11-02",
       "crowdSources": {
         "restaurantji": "https://www.restaurantji.com/ri/cumberland/friendly-tap-/",
+        "facebookMirror": null,
+        "fbPostsSeen": 0,
+        "fbNewestPost": null,
+        "website": null
+      }
+    },
+    {
+      "id": "ri-azalea-asian-cuisine",
+      "name": "Azalea Asian Cuisine",
+      "cuisine": "Restaurant",
+      "address": "1764 Mendon Rd, Cumberland",
+      "state": "RI",
+      "zip": "02864",
+      "phone": "(401) 333-4700",
+      "phoneSource": "Restaurantji listing https://www.restaurantji.com/ri/cumberland/jackys-galaxie-cumberland-/ (updated 2026-09-16), checked 2026-11-02",
+      "lat": 41.944274,
+      "lng": -71.436325,
+      "website": null,
+      "hours": "Mon-Thu 11:30a-9:30p; Fri-Sat 11:30a-10:30p; Sun 12p-9:30p",
+      "hoursNote": null,
+      "kitchen": null,
+      "kitchenNote": null,
+      "happyHours": [],
+      "specials": [],
+      "crowd": null,
+      "vibes": [],
+      "source": "hours from Restaurantji listing (updated 2026-09-16) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+      "county": "Providence",
+      "crowdType": {
+        "labels": [
+          "Families",
+          "Date night / upscale"
+        ],
+        "summary": "Family-friendly; a date-night / upscale spot.",
+        "confidence": "medium",
+        "details": [
+          {
+            "label": "Families",
+            "confidence": "medium",
+            "evidence": [
+              {
+                "type": "reviews",
+                "src": "Restaurantji review summary (from Google reviews), updated 2026-09-16",
+                "url": "https://www.restaurantji.com/ri/cumberland/jackys-galaxie-cumberland-/",
+                "quote": "ffers a variety of delicious Asian dishes, sushi, and drinks. The environment is warm and family-friendly, with a clean and spacious setting that includes a bar area, booths, and a sushi bar. Cus",
+                "agg": true
+              }
+            ]
+          },
+          {
+            "label": "Date night / upscale",
+            "confidence": "medium",
+            "evidence": [
+              {
+                "type": "reviews",
+                "src": "Restaurantji review summary (from Google reviews), updated 2026-09-16",
+                "url": "https://www.restaurantji.com/ri/cumberland/jackys-galaxie-cumberland-/",
+                "quote": "ot and sour soup and maki rolls, is especially enjoyed, with some noting it as a favorite date night spot. The restaurant also offers convenient online ordering for pickup and lunch specials",
+                "agg": true
+              }
+            ]
+          }
+        ]
+      },
+      "crowdChecked": "2026-11-02",
+      "crowdSources": {
+        "restaurantji": "https://www.restaurantji.com/ri/cumberland/jackys-galaxie-cumberland-/",
         "facebookMirror": null,
         "fbPostsSeen": 0,
         "fbNewestPost": null,

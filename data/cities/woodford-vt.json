@@ -504,6 +504,86 @@
     ],
     "checked": "2026-11-05"
    }
+  },
+  {
+   "id": "vt-the-millers-toll-dinner-club-lounge-bennington",
+   "name": "The Miller's Toll Dinner Club & Lounge",
+   "cuisine": "Restaurant",
+   "address": "716 Main Street, Bennington",
+   "state": "VT",
+   "zip": "05201",
+   "phone": "(802) 681-7963",
+   "phoneSource": "OpenStreetMap node/10679403942 phone tag (map data 2026-11-03), checked 2026-11-05",
+   "lat": 42.878901,
+   "lng": -73.186827,
+   "website": "https://millerstoll.space/",
+   "websiteSource": "OpenStreetMap node/10679403942 website tag (map data 2026-11-03), checked 2026-11-05",
+   "hours": "Thu 5p-8:30p; Fri-Sat 5p-9:30p",
+   "hoursNote": "OpenStreetMap lists hours only for the days shown; other days are closed or not listed. Call to confirm.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from venue website https://millerstoll.space/: \"Thu 5-8:30pm, Fri-Sat 5-9:30pm\" (checked 2026-11-05); listing from hours from OpenStreetMap node/10679403942 opening_hours tag (map data 2026-11-03) (checked 2026-11-05)",
+   "county": "Bennington",
+   "addedBy": "deep-rescan-1105"
+  },
+  {
+   "id": "vt-harvest-brewing",
+   "name": "Harvest Brewing",
+   "cuisine": "Brewery",
+   "address": "201 South St, Bennington",
+   "state": "VT",
+   "zip": "05201",
+   "phone": "(802) 430-9915",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/vt/bennington/harvest-brewing-/ (updated 2026-09-19), checked 2026-11-02",
+   "lat": 42.877672508765,
+   "lng": -73.197251559169,
+   "website": null,
+   "hours": "Mon-Wed closed; Thu-Fri 5p-9p; Sat 3p-9p; Sun 1p-5p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-09-19) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Bennington",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-19",
+        "url": "https://www.restaurantji.com/vt/bennington/harvest-brewing-/",
+        "quote": ", delicious food, and craft beers. Customers enjoy the Maple Brown Ale, House Nachos, and live music played by the chef. The outdoor pet-friendly space and board games create a comfortable a",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/vt/bennington/harvest-brewing-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   }
  ],
  "type": "town",

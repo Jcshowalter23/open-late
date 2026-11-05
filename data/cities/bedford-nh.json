@@ -80,8 +80,8 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/nh/bedford/copper-door-/ (updated 2026-09-25), checked 2026-11-02",
    "lat": 42.9586763,
    "lng": -71.5049617,
-   "website": "https://www.copperdoorrestaurant.com/",
-   "websiteSource": "OpenStreetMap way/430587158 website tag (map data 2026-11-03), checked 2026-11-02",
+   "website": "https://www.copperdoor.com/",
+   "websiteSource": "old site https://www.copperdoorrestaurant.com/ redirects to venue site https://www.copperdoor.com/ (title \"Copper Door Restaurant\") (checked 2026-11-05)",
    "hours": "Mon-Wed 11:30a-11p; Thu-Sat 11:30a-12a; Sun 11a-11p",
    "hoursNote": null,
    "kitchen": null,
@@ -1125,6 +1125,59 @@
    "crowdChecked": "2026-11-02",
    "crowdSources": {
     "restaurantji": "https://www.restaurantji.com/nh/bedford/vine-32-wine-graze-bar-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "nh-china-gourmet-restaurant",
+   "name": "China Gourmet Restaurant",
+   "cuisine": "Restaurant",
+   "address": "25 Main St, Goffstown",
+   "state": "NH",
+   "zip": "03045",
+   "phone": "(603) 497-3631",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/nh/goffstown/china-gourmet-/ (updated 2026-09-20), checked 2026-11-02",
+   "lat": 43.018684662165,
+   "lng": -71.599768198653,
+   "website": null,
+   "hours": "Mon-Thu 11:30a-9:30p; Fri-Sat 11:30a-10p; Sun 11:30a-9:30p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-09-20) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Hillsborough",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-20",
+        "url": "https://www.restaurantji.com/nh/goffstown/china-gourmet-/",
+        "quote": "hina Gourmet Restaurant offers affordable menu prices and many great lunch specials. As a local favorite, it is a reliable spot for yummy Chinese food, with accommodating staff willing to modify",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/nh/goffstown/china-gourmet-/",
     "facebookMirror": null,
     "fbPostsSeen": 0,
     "fbNewestPost": null,

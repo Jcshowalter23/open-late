@@ -866,8 +866,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/vt/johnson/johnsons-chinese-kitchen-/ (updated 2026-10-19), checked 2026-11-02",
    "lat": 44.635386292154,
    "lng": -72.679861738288,
-   "website": "https://www.johnsonskitchen.com/",
-   "websiteSource": "OpenStreetMap node/8181387139 website tag (map data 2026-11-03), checked 2026-11-02",
+   "website": null,
    "hours": "Mon 11a-9p; Tue closed; Wed-Thu 11a-9p; Fri-Sat 11a-9:30p; Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -885,7 +884,8 @@
     "fbPostsSeen": 0,
     "fbNewestPost": null,
     "website": "https://www.johnsonskitchen.com/"
-   }
+   },
+   "websiteNote": "removed https://www.johnsonskitchen.com/: domain parked/expired (checked 2026-11-05)"
   },
   {
    "id": "vt-lot-six-brewing-co",
@@ -2253,6 +2253,153 @@
      }
     ],
     "checked": "2026-11-05"
+   }
+  },
+  {
+   "id": "vt-tipsy-trout",
+   "name": "Tipsy Trout",
+   "cuisine": "Restaurant",
+   "address": "7412 Mountain Rd, Stowe",
+   "state": "VT",
+   "zip": "05672",
+   "phone": "(802) 760-4735",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/vt/stowe/tipsy-trout-/ (updated 2026-09-30), checked 2026-11-02",
+   "lat": 44.528160293006,
+   "lng": -72.781279919358,
+   "website": null,
+   "hours": "Mon-Tue closed; Wed-Sun 4p-10p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-09-30) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Lamoille",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/vt/stowe/tipsy-trout-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "vt-shakedown-street-bbq-and-grill",
+   "name": "Shakedown Street BBQ & Grill",
+   "cuisine": "Bar & grill",
+   "address": "17 Town Farm Ln, Stowe",
+   "state": "VT",
+   "zip": "05672",
+   "phone": "(802) 253-2065",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/vt/stowe/shakedown-street-bbq-and-grill-/ (updated 2026-10-14), checked 2026-11-02",
+   "lat": 44.475347359467,
+   "lng": -72.701094905139,
+   "website": null,
+   "hours": "Mon-Tue closed; Wed-Sun 12p-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-10-14) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Lamoille",
+   "crowdType": {
+    "labels": [
+     "Live music fans"
+    ],
+    "summary": "Known for live music.",
+    "confidence": "high",
+    "details": [
+     {
+      "label": "Live music fans",
+      "confidence": "high",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-14",
+        "url": "https://www.restaurantji.com/vt/stowe/shakedown-street-bbq-and-grill-/",
+        "quote": "who are accommodating to dietary needs and allergies. The atmosphere is lively, featuring live music and events, making it a great spot to spend an evening. Guests have enjoyed the ribs and",
+        "agg": true
+       },
+       {
+        "type": "attr",
+        "src": "Google attribute 'live music' (via Restaurantji)",
+        "url": "https://www.restaurantji.com/vt/stowe/shakedown-street-bbq-and-grill-/",
+        "quote": "live music"
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/vt/stowe/shakedown-street-bbq-and-grill-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "vt-lower-bar",
+   "name": "Lower Bar",
+   "cuisine": "Bar",
+   "address": "151 Main St, Stowe",
+   "state": "VT",
+   "zip": "05672",
+   "phone": "(802) 760-6518",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/vt/stowe/lower-bar-/ (updated 2026-09-28), checked 2026-11-02",
+   "lat": 44.465370458627,
+   "lng": -72.684604374279,
+   "website": null,
+   "hours": "Mon-Tue closed; Wed-Thu 2p-11p; Fri-Sat 2p-12a; Sun closed",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-09-28) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Lamoille",
+   "crowdType": {
+    "labels": [
+     "Locals & regulars"
+    ],
+    "summary": "A locals-and-regulars spot.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Locals & regulars",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-09-28",
+        "url": "https://www.restaurantji.com/vt/stowe/lower-bar-/",
+        "quote": "every chip. The friendly and attentive staff make visitors feel at home, whether they are locals or visitors to Stowe. With a small outdoor patio for those seeking a quieter setting, Low",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/vt/stowe/lower-bar-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
    }
   }
  ],

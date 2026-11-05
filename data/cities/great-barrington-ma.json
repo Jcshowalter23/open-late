@@ -640,53 +640,6 @@
    }
   },
   {
-   "id": "ma-no-comply-foods",
-   "name": "No Comply Foods",
-   "cuisine": "Restaurant",
-   "address": "258 Stockbridge Rd, Great Barrington",
-   "state": "MA",
-   "zip": "01230",
-   "phone": "(413) 645-3143",
-   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/great-barrington/no-comply-foods-/ (updated 2026-09-19), checked 2026-11-02",
-   "lat": 42.207960406987,
-   "lng": -73.346109757337,
-   "website": "https://nocomplyfoods.com/",
-   "websiteSource": "OpenStreetMap way/1300617383 website tag (map data 2026-11-03), checked 2026-11-02",
-   "hours": "Mon-Tue closed; Wed-Fri 5p-9p; Sat 11a-3p,5p-9p; Sun 10a-2p",
-   "hoursNote": null,
-   "kitchen": null,
-   "kitchenNote": null,
-   "happyHours": [],
-   "specials": [],
-   "crowd": null,
-   "vibes": [],
-   "source": "hours from Restaurantji listing (updated 2026-09-19) (checked 2026-11-02)",
-   "county": "Berkshire",
-   "crowdChecked": "2026-11-02",
-   "crowdSources": {
-    "restaurantji": "https://www.restaurantji.com/ma/great-barrington/no-comply-foods-/",
-    "facebookMirror": null,
-    "fbPostsSeen": 0,
-    "fbNewestPost": null,
-    "website": "https://nocomplyfoods.com/"
-   },
-   "outdoor": {
-    "types": [
-     "patio"
-    ],
-    "sources": [
-     {
-      "src": "Restaurantji amenity",
-      "url": "https://www.restaurantji.com/ma/great-barrington/no-comply-foods-/",
-      "quote": "Restaurantji More Info amenity: outdoor seating",
-      "fetched": "2026-11-05",
-      "checked": "2026-11-05"
-     }
-    ],
-    "checked": "2026-11-05"
-   }
-  },
-  {
    "id": "ma-siam-square",
    "name": "Siam Square",
    "cuisine": "Restaurant",
@@ -1247,8 +1200,7 @@
    "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/great-barrington/xicohtencatl-restaurant-/ (updated 2026-11-04), checked 2026-11-02",
    "lat": 42.202557543706,
    "lng": -73.347090884003,
-   "website": "https://www.xicohmexicano.com/",
-   "websiteSource": "OpenStreetMap way/213358526 website tag (map data 2026-11-03), checked 2026-11-02",
+   "website": null,
    "hours": "Mon-Thu 4p-9p; Fri-Sun 12p-9p",
    "hoursNote": null,
    "kitchen": null,
@@ -1303,6 +1255,40 @@
      }
     ],
     "checked": "2026-11-05"
+   },
+   "websiteNote": "removed https://www.xicohmexicano.com/: domain now serves a gambling site (checked 2026-11-05)"
+  },
+  {
+   "id": "ma-cafe-adam-bar-and-restaurant",
+   "name": "Cafe Adam, Bar and Restaurant",
+   "cuisine": "Bar",
+   "address": "420 Stockbridge Rd, Great Barrington",
+   "state": "MA",
+   "zip": "01230",
+   "phone": "(413) 528-7786",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/ma/great-barrington/cafe-adam-bar-and-restaurant-/ (updated 2026-11-04), checked 2026-11-02",
+   "lat": 42.221065076327,
+   "lng": -73.342795571578,
+   "website": null,
+   "hours": "Mon-Tue closed; Wed-Sun 5p-9p",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-11-04) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Berkshire",
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/ma/great-barrington/cafe-adam-bar-and-restaurant-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
    }
   }
  ],

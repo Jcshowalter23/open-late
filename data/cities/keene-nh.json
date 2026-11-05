@@ -1682,6 +1682,139 @@
     "fbNewestPost": null,
     "website": null
    }
+  },
+  {
+   "id": "nh-cheshire-village-pizza-keene",
+   "name": "Cheshire Village Pizza",
+   "cuisine": "Pizza",
+   "address": "9 Ashuelot Street, Keene",
+   "state": "NH",
+   "zip": "03431",
+   "phone": "(603) 357-4604",
+   "phoneSource": "OpenStreetMap node/10925024732 phone tag (map data 2026-11-03), checked 2026-11-05",
+   "lat": 42.932789,
+   "lng": -72.285785,
+   "website": "https://www.cheshirevillagepizza.com/",
+   "websiteSource": "OpenStreetMap node/10925024732 website tag (map data 2026-11-03), checked 2026-11-05",
+   "hours": "Mon-Thu 11a-9:30p; Fri 11a-10p; Sat 11a-9:30p; Sun closed",
+   "hoursNote": "OpenStreetMap lists hours only for the days shown; other days are closed or not listed. Call to confirm.",
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours re-read from venue website https://www.cheshirevillagepizza.com/ (checked 2026-11-05); hours from OpenStreetMap node/10925024732 opening_hours tag (map data 2026-11-03) (checked 2026-11-05); late hours confirmed by venue website https://www.cheshirevillagepizza.com/: \" | 9 Ashuelot Street, Keene, NH 03431 | Hours: Monday through Saturday, 11am - 9:30 | Friday 11am-10pm | Sunday,\" (checked 2026-11-05)",
+   "county": "Cheshire",
+   "addedBy": "deep-rescan-1105"
+  },
+  {
+   "id": "nh-kilkenny-pub",
+   "name": "Kilkenny Pub",
+   "cuisine": "Pub",
+   "address": "82 Main St, Keene",
+   "state": "NH",
+   "zip": "03431",
+   "phone": "(603) 354-7878",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/nh/keene/kilkenny-pub-/ (updated 2026-10-21), checked 2026-11-02",
+   "lat": 42.932508765539,
+   "lng": -72.278103605556,
+   "website": null,
+   "hours": "Mon-Fri 1p-1a; Sat-Sun 12p-1a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [
+    "Bar scene"
+   ],
+   "source": "hours from Restaurantji listing (updated 2026-10-21) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Cheshire",
+   "crowdType": {
+    "labels": [
+     "Dive bar"
+    ],
+    "summary": "No-frills dive-bar feel.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Dive bar",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/nh/keene/kilkenny-pub-/",
+        "quote": "Kilkenny Pub is a dive bar with a great selection of Irish whiskey and the elusive Kilkenny beer, available at a rea",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/nh/keene/kilkenny-pub-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
+  },
+  {
+   "id": "nh-the-perch",
+   "name": "The Perch",
+   "cuisine": "Restaurant",
+   "address": "82 Main St, Keene",
+   "state": "NH",
+   "zip": "03431",
+   "phone": "(603) 354-3028",
+   "phoneSource": "Restaurantji listing https://www.restaurantji.com/nh/keene/the-perch-/ (updated 2026-10-21), checked 2026-11-02",
+   "lat": 42.932508765539,
+   "lng": -72.278103605556,
+   "website": null,
+   "hours": "Daily 12p-1a",
+   "hoursNote": null,
+   "kitchen": null,
+   "kitchenNote": null,
+   "happyHours": [],
+   "specials": [],
+   "crowd": null,
+   "vibes": [],
+   "source": "hours from Restaurantji listing (updated 2026-10-21) (checked 2026-11-02); added 2026-11-05 in the missed-places rescan (this venue shares a street address with another listing and had been merged into it by mistake)",
+   "county": "Cheshire",
+   "crowdType": {
+    "labels": [
+     "Families"
+    ],
+    "summary": "Family-friendly.",
+    "confidence": "medium",
+    "details": [
+     {
+      "label": "Families",
+      "confidence": "medium",
+      "evidence": [
+       {
+        "type": "reviews",
+        "src": "Restaurantji review summary (from Google reviews), updated 2026-10-21",
+        "url": "https://www.restaurantji.com/nh/keene/the-perch-/",
+        "quote": "the owner is described as very friendly and welcoming. The restaurant is a good place for families, as children are well accommodated, and the staff is super friendly. The atmosphere is fu",
+        "agg": true
+       }
+      ]
+     }
+    ]
+   },
+   "crowdChecked": "2026-11-02",
+   "crowdSources": {
+    "restaurantji": "https://www.restaurantji.com/nh/keene/the-perch-/",
+    "facebookMirror": null,
+    "fbPostsSeen": 0,
+    "fbNewestPost": null,
+    "website": null
+   }
   }
  ],
  "type": "town",
