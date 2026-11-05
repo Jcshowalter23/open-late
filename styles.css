@@ -314,3 +314,7 @@ dialog#formDlg::backdrop,dialog#tnDlg::backdrop{background:rgba(10,12,18,.55)}
 /* mockup: Open at sits between Events and More filters, same chip look as the Events button */
 .filterrow{align-items:center}
 .filterrow #atChip{color:var(--ink);border-color:var(--line);background:var(--card)}
+@media (max-width:759px){
+  .filterrow{gap:4px 6px}
+}
+@media (max-width:759px){.filterrow #atChip select{field-sizing:content;max-width:130px;text-overflow:ellipsis}}

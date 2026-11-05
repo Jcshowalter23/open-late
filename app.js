@@ -1,5 +1,7 @@
 "use strict";
 (function () {
+  // phones: "Open at:" becomes "At:" so Events, Open at and More filters fit on one line
+  const AT = () => (window.matchMedia && matchMedia("(max-width:759px)").matches ? "At: " : "Open at: ");
   const DAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
   const DAY_LONG = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   const VIBES = ["All", "Bar scene", "Date night", "Family-friendly", "Late night", "Live music & events", "Rooftop", "Sports & games"];
@@ -155,12 +157,12 @@
   function fillAt() {
     const sel = $("atTime"); if (!sel) return;
     if (atT && atT < Date.now()) atT = 0;
-    const step = 30 * 60000, start = Math.ceil((Date.now() + 60000) / step) * step, out = [{ value: "0", label: "Open at: now" }];
+    const step = 30 * 60000, start = Math.ceil((Date.now() + 60000) / step) * step, out = [{ value: "0", label: `${AT()}now` }];
     let nights = 0;
     for (let t = start; out.length < 80; t += step) {
       const c = cityNow(city.timezone, new Date(t));
       if (c.m > 240 && c.m < 660) { if (c.m === 270 && ++nights >= 2) break; continue; } // skip 4:30 am - 11 am; stop after the second 4 am
-      out.push({ value: String(t), label: `Open at: ${c.d === now.d ? "" : DAYS[c.d] + " "}${fmtL(c.m)}` });
+      out.push({ value: String(t), label: `${AT()}${c.d === now.d ? "" : DAYS[c.d] + " "}${fmtL(c.m)}` });
     }
     opts(sel, out); sel.value = String(atT); if (sel.value !== String(atT)) { atT = 0; sel.value = "0"; }
     $("atChip").classList.toggle("on", !!atT);
