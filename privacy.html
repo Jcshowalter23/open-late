@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Privacy policy · Open Late</title>
-<meta name="description" content="What Open Late collects, what it doesn't, and who to contact. No accounts, no ads, location stays on your device.">
+<meta name="description" content="What Open Late collects in the website and in iOS 1.0.1 and Android 1.0.4.">
 <link rel="canonical" href="https://openlateapp.com/privacy.html">
 <link rel="icon" href="favicon.ico" sizes="32x32">
 <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
@@ -30,45 +30,45 @@
 </header>
 <main class="feat">
   <h1>Privacy policy</h1>
-  <p class="note">Effective November 2, 2026. This policy covers the Open Late website (openlateapp.com) and the Open Late apps for iPhone and Android.</p>
-  <p>Open Late has no accounts and no ads, and we don't sell or rent your information. Here is everything the site and apps collect, and why.</p>
+  <p class="note">Effective 6 November 2026. This page covers the website (openlateapp.com) and the iPhone and Android apps. iOS 1.0 and Android 1.0.3, the versions already submitted for review, do not include the app Google Analytics described below and do not store the install id <code>openlate.app.gacid</code>.</p>
 
   <h2>Your location stays on your device</h2>
-  <p>When you tap <b>Near me</b>, your phone or browser asks for permission. Your location is used on your device only, to sort places by distance. It isn't sent to us or saved. To find nearby places, the app may download the list for nearby counties, so our web host sees which county lists were downloaded, the same as when you pick a county yourself.</p>
+  <p>When you tap <b>Near me</b>, the phone or browser asks for permission. The app uses that location on the device to sort places by distance. The coordinates are not sent to Open Late and are not sent to Google Analytics. To show nearby places, the app may download the list for nearby counties, so the host of openlateapp.com sees which county files were requested, the same as when you pick a county yourself.</p>
 
   <h2>Saved on your device</h2>
-  <p>Your saved places, your last county and city pick, your list or map view, your deal thumbs-up and visit counts, and (in the apps) any event reminders you set are stored on your device only. Clearing the site's data or deleting the app removes them.</p>
+  <p>Your saved places, your last county and city pick, your list or map view, and your deal thumbs-up and visit counts stay on the device. In the apps, event reminders you set stay on the device as well. In iOS 1.0.1 and Android 1.0.4, a random analytics id is also stored on the device under the name <code>openlate.app.gacid</code>. It stays until you delete the app or clear the app's storage. Clearing the site's data removes the website copy of saved places.</p>
 
   <h2>Anonymous visit counts (GoatCounter)</h2>
-  <p>We use <a href="https://www.goatcounter.com/help/privacy" target="_blank" rel="noopener">GoatCounter</a> to count visits. It uses no cookies. It records the page viewed and a few anonymous events (such as which county or filter was picked, opening the map, sending a form, or a thumbs-up on a deal), along with the referring site, your browser, operating system, language and screen width, and the country worked out from your IP address. Your IP address is not stored, nothing is saved in your browser, and we can't identify you from these counts.</p>
+  <p>The website, and the app shell built from it, load GoatCounter from <code>https://openlateapp.goatcounter.com/count</code>. The code sends the page path (a one-off place link is removed), event names such as a county, filter, map open, or form sent, plus the browser details that script requests. On 6 November 2026 the settings at <a href="https://openlateapp.goatcounter.com/settings/main">openlateapp.goatcounter.com/settings/main</a> were read and were not changed. Data retention is 0 days, which GoatCounter describes as never delete. Individual pageviews is on: GoatCounter says it stores individual pageviews for exports, that this does not affect anything else, and that the API can still export aggregates. Sessions is on, for a unique visitor for up to 8 hours. Referrer is on, for the referrer header and campaign. User-Agent is on: the derived browser and system are stored, and the raw header is not stored. Screen size is on. Country is on. Region is on for the United States, Russia, and China. Language is off. The ignore-IP list is empty. The counter script in the shipped page was not inspected, so this page does not say how the browser implements those settings. GoatCounter's notice dated 8 June 2025 says it does not store IP addresses and does not share information with third parties. That notice is not a separate check that this account shares nothing. See <a href="https://www.goatcounter.com/help/privacy">GoatCounter's privacy notice</a>.</p>
 
-  <h2>Google Analytics (website)</h2>
-  <p>The openlateapp.com website also uses Google Analytics to count visits and see which pages are used. Google Analytics sets cookies and receives the page you visit, your browser and device type, and your approximate location from your IP address. We use it only for traffic reports, not for advertising. Google handles this data under its own policy: see <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses information from sites that use its services</a>. You can opt out with the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics opt-out add-on</a>. The iPhone and Android apps don't include Google Analytics.</p>
+  <h2>Google Analytics</h2>
+  <p>The website uses Google Analytics (property <code>G-TV19LZ6FTT</code>) to count visits. iOS 1.0 and Android 1.0.3 do not include that tag in the app.</p>
+  <p>iOS 1.0.1 and Android 1.0.4 do include it, inside the app only, by loading the same website tag in the app webview. The property has one web stream (openlateapp.com, measurement id <code>G-TV19LZ6FTT</code>). There is no separate iOS or Android stream. The app still sends <code>platform</code> (<code>ios</code> or <code>android</code>) and <code>app_source=capacitor</code> on each hit so those visits can be told apart from the website. Each install stores the random id above and sends it as the client id. The page recorded for those hits is <code>https://app.openlateapp.com/ios/</code> or <code>https://app.openlateapp.com/android/</code>, titled Open Late, not the webview address and not the county you picked. The app also sends the same anonymous actions the website already counts (county, city, filter, map, a picked search result's county, "form sent", Tonight alerts, Ko-fi, and a deal vote). A deal vote can include the public place name and the deal text. Emails, phone numbers, and map coordinates are removed before those actions are sent. The search words you type are not sent. The 1.0.1 and 1.0.4 apps do not use the phone's advertising identifier and do not ask to track you across other companies' apps. On each hit it sets Google's ad-storage and ad-personalization signals to denied. There is no switch in the app to turn this analytics off. The browser opt-out add-on does not run inside the app. Delete the app, or clear its storage, to remove the id from the phone. That does not erase hits Google has already stored.</p>
+  <p>After three settings were turned off on 5 November 2026, and after a reload, the property shows ads personalization allowed in 0 of 307 regions, and granular location and device data allowed in 0 of 307 regions. The granular-location switch is still on, and every region is disallowed. Google signals and user-provided data are off. There are no linked Google Ads accounts. Sharing with Google products and services is off. Three other account options stay on. Google describes them as aggregated, de-identified modeling contributions; access by Google support to troubleshoot the account; and recommendations that use the Analytics account's own usage, configuration, spending, and account users. Event data is kept for 2 months. User data is kept for 14 months and the period resets when there is new activity. The Data Processing Terms were accepted on 1 November 2026. The app also asks Google to deny ad personalization on each hit. That request is not the reason this page treats advertising use as off. The property settings above are. This page does not change those Admin settings. See <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites that use its services</a>.</p>
 
-  <h2>Forms you send (FormSubmit)</h2>
-  <p>The <b>Suggest an update</b>, <b>Add a place</b> and <b>Claim your listing</b> forms send what you type to us by email through <a href="https://formsubmit.co/privacy.pdf" target="_blank" rel="noopener">FormSubmit</a>. That can include the place's name, city and address, the update or details you write, and, if you choose to give them, your name, email, phone number and your role at the business. It also includes the page you sent it from. We use it only to check and update listings and to reply to you. Your email and phone number are never shown in the app.</p>
-
-  <h2>Payments (Stripe and Ko-fi)</h2>
-  <p>Businesses that buy a Featured listing pay through <a href="https://stripe.com/privacy" target="_blank" rel="noopener">Stripe</a>. Stripe handles the card details; we never see or store card numbers. Stripe shares the buyer's name, email and payment status with us so we can feature the right listing. Optional tips go through <a href="https://more.ko-fi.com/privacy" target="_blank" rel="noopener">Ko-fi</a> on its own site, under its own policy.</p>
+  <h2>Forms you send (FormSubmit and Web3Forms)</h2>
+  <p>Suggest an update, Add a place, Claim your listing, and Report wrong hours send what you type to FormSubmit, and if that does not succeed, to Web3Forms. That can include the place's name, city, and address, the note you write, and, if you choose to give them, your name, email, phone number, and your role at the business. It also includes the page you sent it from. The analytics event for a form is only "Form sent", not those fields.</p>
+  <p>FormSubmit's privacy notice (a PDF dated 2019) describes FormSubmit as the controller of that submission and says it uses and discloses the data to provide the service. No data-processing agreement for FormSubmit was found for this package, so this page does not classify that transfer further.</p>
+  <p>Web3Forms' data-processing agreement (version 1.0, 13 July 2026, <a href="https://web3forms.com/dpa">web3forms.com/dpa</a>) says Web3Creative is the processor of form submissions and the form owner is the controller. The same agreement lists CleanTalk and Akismet as sub-processors that receive the submitter's IP address and email address for spam checks. Web3Forms' privacy policy of the same date says form submissions are kept for up to three years. Optional connections such as Google Sheets, Telegram, Discord, and Slack were not checked for the key shipped in the app. This page does not say those companies store nothing, and it does not say the transfer is only to Web3Forms.</p>
 
   <h2>Map tiles</h2>
-  <p>The map loads its images from <a href="https://osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener">OpenStreetMap</a>, which, like any website, sees your IP address and the map area you view. Direction links open Google Maps, which has its own policy.</p>
+  <p>The map loads images from OpenStreetMap (<code>https://tile.openstreetmap.org</code>). Opening the map sends the tile coordinates for the area on screen, which can be as tight as the zoom you choose. OpenStreetMap sees the network address of that request. See the <a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap Foundation privacy policy</a>. This package does not confirm how long those tile logs are kept.</p>
+
+  <h2>Payments (Stripe and Ko-fi)</h2>
+  <p>Featured listings and tips open Stripe or Ko-fi on their own sites. The app does not take card numbers.</p>
 
   <h2>What we don't do</h2>
   <ul>
-    <li>No accounts, no ads and no ad tracking.</li>
-    <li>We don't sell, rent or trade your information.</li>
-    <li>We don't link what you do in Open Late with data from other companies' apps or sites for advertising.</li>
+    <li>No accounts, no ads, and no advertising identifier.</li>
+    <li>We don't sell the information this page describes.</li>
+    <li>The 1.0.1 and 1.0.4 apps do not include a control to turn analytics off.</li>
   </ul>
 
   <h2>Age</h2>
-  <p>Open Late lists bars and drink specials, and is meant for adults 18 and older (and 21 and older to drink in the US). It isn't directed at children, and we don't knowingly collect information from anyone under 13.</p>
+  <p>Open Late lists bars and drink specials. It is meant for adults and is not directed at children. We don't knowingly collect information from anyone under 13.</p>
 
   <h2>Keeping and deleting your information</h2>
-  <p>We keep form emails and purchase records only as long as we need them to run Open Late and meet tax or legal rules. Email us to see, correct or delete anything you've sent us, and we'll reply within 30 days.</p>
-
-  <h2>Changes</h2>
-  <p>If this policy changes, we'll update this page and its effective date.</p>
+  <p>Email <a href="mailto:support@openlateapp.com">support@openlateapp.com</a> to ask about a form message that reached Open Late. Deleting the app, or clearing its storage, removes the analytics id and the other data stored on that device. The apps do not include a control to turn analytics off, and this page does not promise that Google, GoatCounter, OpenStreetMap, FormSubmit, or Web3Forms will delete their copies. GoatCounter's retention for this site is set to never delete. Web3Forms says it can keep a submission for up to three years.</p>
 
   <h2>Contact</h2>
   <p>Questions about privacy: <a href="mailto:support@openlateapp.com">support@openlateapp.com</a></p>
