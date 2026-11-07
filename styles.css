@@ -8,6 +8,18 @@ body{margin:0;font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-seri
 a{color:inherit}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 
+/* preview-only iPhone download bar: above the header, not sticky, so search stays clear */
+.appbanner{background:var(--night);color:#fff;border-bottom:1px solid #2c3142}
+.appbanner[hidden]{display:none !important}
+.appbanner-in{display:flex;align-items:center;gap:8px;max-width:1200px;margin:0 auto;min-height:36px;padding:calc(4px + env(safe-area-inset-top)) 8px 4px 10px}
+.appbanner img{display:block;width:22px;height:22px;border-radius:50%;flex:none}
+.appbanner p{margin:0;flex:1;min-width:0;font-size:.84rem;font-weight:650;line-height:1.2}
+.appbanner-cta{flex:none;display:inline-flex;align-items:center;min-height:28px;padding:3px 11px;border-radius:999px;background:var(--amber);color:var(--night);font-size:.78rem;font-weight:800;text-decoration:none;letter-spacing:.01em}
+.appbanner-cta:hover{background:#ffd48a}
+.appbanner-x{flex:none;width:32px;height:32px;padding:0;border-radius:999px;border:1px solid #3a3f52;background:transparent;color:#fff;font:inherit;font-size:1.15rem;line-height:1;cursor:pointer}
+.appbanner-x:hover{background:#262a38}
+@media (max-width:420px){.appbanner p{font-size:.78rem}.appbanner-in{gap:6px;padding-left:8px}}
+
 /* sticky header: brand + search, County/City, chip row */
 .top{position:sticky;top:0;z-index:10;background:var(--night);color:#fff;padding:calc(8px + env(safe-area-inset-top)) 12px 8px;display:flex;flex-direction:column;gap:8px;box-shadow:0 2px 10px rgba(0,0,0,.25)}
 .bar{display:flex;align-items:center;gap:10px;min-height:36px}
